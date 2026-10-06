@@ -2,7 +2,7 @@
 // Strategy: network first for the app's own files (so updates show up as soon
 // as you are online), falling back to the cached copy when offline.
 // Google Fonts are cached on first use.
-const VERSION = "v2";
+const VERSION = "v4";
 const APP_CACHE = `danskklar-app-${VERSION}`;
 const FONT_CACHE = "danskklar-fonts";
 
@@ -15,6 +15,8 @@ const APP_FILES = [
   "js/data-2020.js",
   "js/data-pd2-extra.js",
   "js/data-2019.js",
+  "js/data-2012.js",
+  "js/data-2013.js",
   "js/data-pd1.js",
   "js/data-pd3.js",
   "js/exams.js",
@@ -25,7 +27,19 @@ const APP_FILES = [
   "icons/icon-512.png",
   "icons/icon-maskable-512.png",
   "icons/apple-touch-icon.png",
-  "icons/favicon-32.png"
+  "icons/favicon-32.png",
+  "images/pd2-2012/teknologi-1.jpg",
+  "images/pd2-2012/teknologi-2.jpg",
+  "images/pd2-2012/rygning-1.jpg",
+  "images/pd2-2012/rygning-2.jpg",
+  "images/pd2-2012/frivilligt-1.jpg",
+  "images/pd2-2012/frivilligt-2.jpg",
+  "images/pd2-2013/soeskende-1.jpg",
+  "images/pd2-2013/soeskende-2.jpg",
+  "images/pd2-2013/by-land-1.jpg",
+  "images/pd2-2013/by-land-2.jpg",
+  "images/pd2-2013/hjaelpsomhed-1.jpg",
+  "images/pd2-2013/hjaelpsomhed-2.jpg"
 ];
 
 self.addEventListener("install", event => {

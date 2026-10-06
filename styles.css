@@ -271,6 +271,9 @@ main { max-width: 1120px; margin: 0 auto; padding: 24px 20px 80px; outline: none
   background: linear-gradient(160deg, var(--speak-soft), var(--read-soft)); box-shadow: var(--shadow), 0 0 0 1px var(--border);
   font-size: clamp(2.4rem, 9vw, 3.6rem); line-height: 1.5; letter-spacing: .12em;
 }
+.photo { margin: 14px auto; max-width: 440px; }
+.photo img { display: block; width: 100%; height: auto; max-height: 62vh; object-fit: contain; border-radius: 12px; background: #fff; box-shadow: var(--shadow), 0 0 0 1px var(--border); }
+.photo figcaption { font-size: .75rem; color: var(--muted); margin-top: 6px; }
 .oral-rubric .seg button.on { background: var(--speak); }
 .mini-card h4 { margin: 0 0 2px; font-size: 1rem; font-weight: 900; }
 .mini-card .sub { font-size: .8rem; color: var(--muted); margin-bottom: 4px; }

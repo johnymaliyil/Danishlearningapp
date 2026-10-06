@@ -118,6 +118,8 @@
   document.addEventListener("mouseleave", hide);
   addEventListener("scroll", hide, { passive: true });
   addEventListener("hashchange", hide);
+  // Clicks usually re-render the view under the pointer, so drop any stale tooltip.
+  document.addEventListener("click", hide, true);
 
   // Touch: press and hold a word.
   let holdTimer = null;

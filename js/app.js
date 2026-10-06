@@ -1203,7 +1203,9 @@
         </div>`;
       if (innerWidth < 900) $("#pl").style.gridTemplateColumns = "1fr";
     }
-    const picture = () => `<div class="picture" role="img" aria-label="Billede til opgaven">${esc(pic.scene).replace(/\n/g, "<br>")}</div>`;
+    const picture = () => pic.img
+      ? `<figure class="photo"><img src="${esc(pic.img)}" alt="${esc(pic.alt || "Billede til opgaven")}"><figcaption>${esc(pic.credit || "")}</figcaption></figure>`
+      : `<div class="picture" role="img" aria-label="Billede til opgaven">${esc(pic.scene).replace(/\n/g, "<br>")}</div>`;
 
     // A mic button that records one answer; returns the transcript when stopped.
     function micControls(onNext, nextLabel) {
