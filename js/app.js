@@ -328,8 +328,11 @@
         <span class="spacer"></span>
         <button class="btn ghost sm" id="reset">Nulstil fremskridt</button>
       </p>`;
-    $("#reset").onclick = () => {
-      if (confirm("Vil du slette al din fremgang (XP, badges, tekster)?")) { S = blank(); save(); route(); renderStats(); }
+    // Two-step button instead of confirm(): dialogs are blocked in some embedded viewers.
+    $("#reset").onclick = e => {
+      const b = e.currentTarget;
+      if (!b.dataset.armed) { b.dataset.armed = "1"; b.textContent = "Sikker? Klik igen for at slette alt"; return; }
+      S = blank(); save(); route(); renderStats();
     };
   }
 
@@ -719,10 +722,14 @@
       });
     };
 
-    $("#showModel").onclick = () => {
-      const box = $("#modelBox");
+    $("#showModel").onclick = e => {
+      const box = $("#modelBox"), b = e.currentTarget;
       if (box.innerHTML) { box.innerHTML = ""; return; }
-      if (countWords(ed.value) < 20 && !confirm("Prøv at skrive selv først! Vil du alligevel se modelsvaret?")) return;
+      if (countWords(ed.value) < 20 && !b.dataset.armed) {
+        b.dataset.armed = "1";
+        b.textContent = "Prøv selv først! Klik igen for at se det";
+        return;
+      }
       box.innerHTML = `<div class="card"><h3>Modelsvar <span class="muted small">(${countWords(w.model)} ord)</span></h3><div class="model">${esc(w.model)}</div></div>`;
       box.scrollIntoView({ behavior: "smooth", block: "nearest" });
     };
