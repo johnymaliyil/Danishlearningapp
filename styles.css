@@ -367,6 +367,22 @@ label.tick input { width: 20px; height: 20px; accent-color: var(--write); margin
 @keyframes toastOut { to { transform: translateY(16px); opacity: 0; } }
 #confetti { position: fixed; inset: 0; pointer-events: none; z-index: 60; width: 100%; height: 100%; }
 
+/* Hover translation */
+#tr-tip {
+  position: fixed; z-index: 70; pointer-events: none; max-width: min(320px, calc(100vw - 16px));
+  background: var(--text); color: var(--bg); padding: 7px 12px; border-radius: 12px; box-shadow: var(--shadow);
+  font-size: .9rem; line-height: 1.35; display: flex; flex-direction: column; gap: 1px;
+}
+#tr-tip b { font-weight: 900; color: var(--gold); }
+#tr-tip[hidden], #tr-mark[hidden] { display: none; }
+#tr-mark {
+  position: fixed; z-index: 69; pointer-events: none; border-radius: 5px;
+  background: color-mix(in srgb, var(--gold) 28%, transparent);
+}
+.tr-toggle { cursor: pointer; }
+.tr-toggle[aria-pressed="false"] { opacity: .6; }
+@media (max-width: 760px) { .tr-label { display: none; } .tr-toggle { padding: 4px 8px; } }
+
 details.info summary { cursor: pointer; font-weight: 800; }
 details.info[open] summary { margin-bottom: 10px; }
 table.simple { border-collapse: collapse; width: 100%; font-size: .92rem; }

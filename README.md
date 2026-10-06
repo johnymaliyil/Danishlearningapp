@@ -22,6 +22,7 @@ To publish it, turn on **GitHub Pages** for this repository (Settings → Pages 
 | ✍️ **Skrivning** | Tasks for delprøve 1 (factual: emails, complaints, applications) and delprøve 2 (narrative and opinion). Live writing coach (word target, greeting/closing, connectors, paragraphs, capitals, sentence variety), clickable phrase bank, autosaved drafts, model answers, and self-assessment with the official PD2 *bedømmerark* criteria that gives an estimated 7-trins grade. |
 | 🗣️ **Tale** | Monologue + follow-up questions with prep and talk timers. Dialogue role-plays. Danish text-to-speech reads the examiner's lines. Microphone recording with playback and a live Danish transcript (Chrome/Edge). |
 | ⚡ **Ordjagt** | A 60-second vocabulary game with combo bonus. |
+| 🇬🇧 **Hover translation** | Point the mouse at any Danish word to see its English meaning (press and hold on a phone). Toggle it with the 🇬🇧 button in the top bar. Works offline using the glossary in `js/glossary.js`. |
 | 🎮 **Game layer** | XP, levels, daily goal, streaks, badges and confetti. |
 
 ## Adding more past papers
@@ -30,6 +31,8 @@ All content is plain JavaScript data:
 
 - `js/data-2020.js`: the May–June 2020 exam set. Copy this file as a template for another exam set and add a `<script>` tag for it in `index.html`.
 - `js/data.js`: extra reading exercises, writing tasks, speaking topics, dialogues and vocabulary.
+
+When you add new Danish text, also add its new words to `js/glossary.js` (one `word=translation` line each, lowercase), so the hover translation covers them.
 
 Reading question types:
 

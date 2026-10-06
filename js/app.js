@@ -687,11 +687,11 @@
       $("#checks").innerHTML = a.checks.map(([k, t]) => `<li><span class="i">${k === "ok" ? "✅" : "💡"}</span><span>${esc(t)}</span></li>`).join("");
       $("#conns").innerHTML = PD2.CONNECTORS.slice(0, 16).map(c => `<span class="chip ${a.conns.includes(c) ? "on" : ""}">${esc(c)}</span>`).join("");
       clearTimeout(saveT);
-      saveT = setTimeout(() => { st.draft = ed.value; save(); $("#saved").textContent = "Kladde gemt ✓"; }, 500);
+      saveT = setTimeout(() => { st.draft = ed.value; save(); const sv = $("#saved"); if (sv) sv.textContent = "Kladde gemt ✓"; }, 500);
     }
     ed.oninput = update;
     update();
-    onLeave(() => { st.draft = ed.value; save(); });
+    onLeave(() => { clearTimeout(saveT); st.draft = ed.value; save(); });
 
     $$("[data-tick]").forEach(cb => cb.onchange = () => {
       const i = +cb.dataset.tick;
@@ -1066,6 +1066,8 @@
         const pool = shuffle(PD2.WORDS.filter(w => w[0] !== da)).slice(0, 3).map(w => dir === "da" ? w[1] : w[0]);
         const opts = shuffle(pool.concat(ans));
         $("#w").textContent = ask;
+        $("#w").lang = dir === "da" ? "da" : "en";
+        $("#a").lang = dir === "da" ? "en" : "da";
         $("#a").innerHTML = opts.map(o => `<button class="choice" data-o="${esc(o)}">${esc(o)}</button>`).join("");
         locked = false;
         $$("#a .choice").forEach(b => b.onclick = () => {
