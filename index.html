@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PD2 Træner</title>
+  <meta name="description" content="Sjov træning til Prøve i Dansk 2: læsning, skrivning og tale.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23C8102E'/><rect x='30' width='14' height='100' fill='white'/><rect y='43' width='100' height='14' fill='white'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="#/" class="brand" aria-label="Forside">
+      <span class="flag" aria-hidden="true"></span>
+      <span>PD2 Træner</span>
+    </a>
+    <nav class="nav" aria-label="Hovedmenu">
+      <a href="#/reading" data-nav="reading">📖 <span>Læsning</span></a>
+      <a href="#/writing" data-nav="writing">✍️ <span>Skrivning</span></a>
+      <a href="#/speaking" data-nav="speaking">🗣️ <span>Tale</span></a>
+      <a href="#/words" data-nav="words">⚡ <span>Ordjagt</span></a>
+    </nav>
+    <div class="stats" id="topstats"></div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <div id="toasts" aria-live="polite"></div>
+  <canvas id="confetti" aria-hidden="true"></canvas>
+
+  <script src="js/data.js"></script>
+  <script src="js/data-2020.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
