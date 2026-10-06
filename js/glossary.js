@@ -2590,4 +2590,6 @@ a-f=A to F
 motivationen=the motivation
 computere=computers
 solidt=solid
+skifte=to change / to switch
+letteste=easiest
 `;

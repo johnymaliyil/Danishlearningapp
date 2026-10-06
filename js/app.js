@@ -258,6 +258,7 @@
   // ---------- Router ----------
   const routes = [
     [/^\/?$/, home],
+    [/^\/start$/, startScreen],
     [/^\/reading$/, readingList],
     [/^\/reading\/([\w-]+)$/, readingItem],
     [/^\/writing$/, writingList],
@@ -275,6 +276,7 @@
     const path = location.hash.replace(/^#/, "") || "/";
     const section = path.split("/")[1] || "";
     $$(".nav a").forEach(a => a.classList.toggle("active", a.dataset.nav === section));
+    document.body.classList.toggle("starting", section === "start");
     for (const [re, fn] of routes) {
       const m = path.match(re);
       if (m) { fn(...m.slice(1)); window.scrollTo(0, 0); app.focus({ preventScroll: true }); return; }
@@ -282,6 +284,46 @@
     home();
   }
   addEventListener("hashchange", route);
+
+  // ---------- Start: choose exam ----------
+  // Shown when the app is opened (once per browser session) and from "Skift prøve".
+  const CHOSEN = "pd-chosen";
+  function markChosen() { try { sessionStorage.setItem(CHOSEN, "1"); } catch (e) { /* ignore */ } }
+  function hasChosen() { try { return sessionStorage.getItem(CHOSEN) === "1"; } catch (e) { return false; } }
+
+  function startScreen() {
+    const icons = { pd1: "🌱", pd2: "🌿", pd3: "🌳" };
+    const cards = Object.keys(PD2.EXAMS).sort().map(k => {
+      const m = PD2.EXAM_META[k], E = PD2.EXAMS[k];
+      const items = E.READING.concat(E.WRITING, E.SPEAKING_MONO, E.SPEAKING_DIALOG);
+      const done = items.filter(x => S.reading[x.id] || (S.writing[x.id] && S.writing[x.id].best) || S.speaking.done[x.id]).length;
+      const last = k === S.exam && S.examPicked;
+      return `<button type="button" class="exam-card ${k}" data-start="${k}">
+        <span class="ec-top"><span class="ec-ico" aria-hidden="true">${icons[k] || "📘"}</span><span class="ec-cefr">Niveau ${m.cefr}</span></span>
+        <span class="ec-name">${m.name}</span>
+        <span class="ec-full">${esc(m.full)}</span>
+        <span class="ec-tag">${esc(m.tagline)}</span>
+        <span class="bar"><i style="width:${items.length ? done / items.length * 100 : 0}%"></i></span>
+        <span class="ec-prog">${done}/${items.length} øvelser klaret${last ? " · <b>sidst brugt</b>" : ""}</span>
+      </button>`;
+    }).join("");
+    app.innerHTML = `
+      <section class="start">
+        <div class="start-head">
+          <span class="flag big" aria-hidden="true"></span>
+          <h1>Velkommen til DanskKlar</h1>
+          <p class="muted">Hvilken prøve vil du træne til? Du kan altid skifte senere.</p>
+        </div>
+        <div class="exam-cards">${cards}</div>
+        <p class="small muted start-foot">Ved du ikke, hvilken prøve du skal til? PD1 er den letteste og PD3 den sværeste. Spørg din sprogskole.</p>
+      </section>`;
+    $$("[data-start]").forEach(b => b.onclick = () => {
+      const k = b.dataset.start;
+      markChosen();
+      S.exam = k; S.examPicked = true; save(); renderStats();
+      location.hash = "#/";
+    });
+  }
 
   // ---------- Home ----------
   const TIPS = [
@@ -362,6 +404,7 @@
       </section>
 
       <p style="margin-top:24px" class="row">
+        <a class="btn ghost sm" href="#/start">🔁 Skift prøve</a>
         <a class="btn ghost sm" href="#/about">ℹ️ Om ${META().name}-prøven</a>
         <span class="spacer"></span>
         <button class="btn ghost sm" id="reset">Nulstil fremskridt</button>
@@ -1177,5 +1220,9 @@
   }
 
   // ---------- Boot ----------
-  touchDay(); save(); renderStats(); route();
+  touchDay(); save(); renderStats();
+  const opening = location.hash.replace(/^#\/?/, "");
+  if (!hasChosen() && opening === "") location.replace("#/start");
+  else markChosen();
+  route();
 })();

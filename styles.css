@@ -392,6 +392,38 @@ label.tick input { width: 20px; height: 20px; accent-color: var(--write); margin
 @keyframes toastOut { to { transform: translateY(16px); opacity: 0; } }
 #confetti { position: fixed; inset: 0; pointer-events: none; z-index: 60; width: 100%; height: 100%; }
 
+/* Start screen: choose exam */
+body.starting .nav, body.starting #topstats { display: none; }
+body.starting .tr-toggle { margin-left: auto; }
+.start { max-width: 960px; margin: 0 auto; padding-block: 24px; }
+.start-head { text-align: center; margin-bottom: 28px; }
+.start-head h1 { text-wrap: balance; margin-top: 14px; }
+.flag.big { display: inline-block; width: 66px; height: 48px; border-radius: 10px; }
+.flag.big::before { left: 20px; width: 9px; }
+.flag.big::after { top: 20px; height: 9px; }
+.exam-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+.exam-card {
+  display: flex; flex-direction: column; gap: 6px; text-align: left; cursor: pointer;
+  padding: 22px; border-radius: var(--radius); border: 2px solid var(--border); background: var(--surface);
+  box-shadow: var(--shadow); transition: transform .15s ease, border-color .15s ease;
+}
+.exam-card:hover, .exam-card:focus-visible { transform: translateY(-4px); border-color: var(--red); }
+.exam-card .ec-top { display: flex; justify-content: space-between; align-items: center; }
+.exam-card .ec-ico { font-size: 2rem; }
+.exam-card .ec-cefr { font-size: .78rem; font-weight: 900; letter-spacing: .05em; text-transform: uppercase; padding: 3px 10px; border-radius: 999px; background: var(--red-soft); color: var(--red); }
+.exam-card .ec-name { font-size: 2.4rem; font-weight: 900; line-height: 1; margin-top: 6px; }
+.exam-card .ec-full { font-weight: 800; }
+.exam-card .ec-tag { color: var(--muted); font-size: .94rem; flex: 1; }
+.exam-card .bar { margin-top: 10px; }
+.exam-card .ec-prog { font-size: .82rem; color: var(--muted); }
+.exam-card.pd1 .ec-name { color: var(--speak); }
+.exam-card.pd2 .ec-name { color: var(--read); }
+.exam-card.pd3 .ec-name { color: var(--words); }
+.exam-card.pd1 .bar > i { background: var(--speak); }
+.exam-card.pd2 .bar > i { background: var(--read); }
+.exam-card.pd3 .bar > i { background: var(--words); }
+.start-foot { text-align: center; margin-top: 22px; }
+
 /* Exam switcher (PD1 / PD2 / PD3) */
 .examsw { display: inline-flex; border: 1px solid var(--border); border-radius: 999px; background: var(--surface); padding: 2px; gap: 2px; }
 .examsw button {
