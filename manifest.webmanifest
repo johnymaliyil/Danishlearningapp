@@ -1,0 +1,24 @@
+{
+  "name": "DanskKlar – træn til Prøve i Dansk",
+  "short_name": "DanskKlar",
+  "description": "Sjov træning til Prøve i Dansk 1, 2 og 3: læsning, skrivning og tale.",
+  "lang": "da",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fbf7f2",
+  "theme_color": "#c8102e",
+  "categories": ["education"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Læsning", "url": "./#/reading", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Skrivning", "url": "./#/writing", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Tale", "url": "./#/speaking", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Ordjagt", "url": "./#/words", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

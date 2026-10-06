@@ -285,6 +285,49 @@
   }
   addEventListener("hashchange", route);
 
+  // ---------- Install as app (PWA) ----------
+  let installPrompt = null;
+  const isStandalone = () => matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+  const isIOS = () => /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  addEventListener("beforeinstallprompt", e => {
+    e.preventDefault();
+    installPrompt = e;
+    $$("[data-install]").forEach(b => b.hidden = false);
+  });
+  addEventListener("appinstalled", () => {
+    installPrompt = null;
+    $$("[data-install]").forEach(b => b.hidden = true);
+    toast("📲 DanskKlar er installeret!", true);
+  });
+  // Shown when the browser offers installation, or on iPhone/iPad where it is done from the Share menu.
+  function installButton() {
+    if (isStandalone()) return "";
+    const show = installPrompt || isIOS();
+    return `<button type="button" class="btn ghost sm" data-install ${show ? "" : "hidden"}>📲 Installér app</button>`;
+  }
+  document.addEventListener("click", async e => {
+    const b = e.target.closest("[data-install]");
+    if (!b) return;
+    if (installPrompt) {
+      installPrompt.prompt();
+      const { outcome } = await installPrompt.userChoice;
+      if (outcome === "accepted") installPrompt = null;
+      return;
+    }
+    const box = b.parentElement.parentElement.querySelector(".install-help");
+    if (box) { box.remove(); return; }
+    const help = document.createElement("div");
+    help.className = "install-help";
+    help.innerHTML = `<b>Sådan installerer du DanskKlar på iPhone og iPad</b>
+      <ol><li>Tryk på <b>Del</b>-knappen (firkanten med pilen) nederst i Safari.</li>
+      <li>Vælg <b>Føj til hjemmeskærm</b>.</li>
+      <li>Tryk på <b>Tilføj</b>. Nu ligger DanskKlar på din hjemmeskærm.</li></ol>`;
+    b.parentElement.after(help);
+  });
+  if ("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost")) {
+    addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => { /* app still works online */ }));
+  }
+
   // ---------- Start: choose exam ----------
   // Shown when the app is opened (once per browser session) and from "Skift prøve".
   const CHOSEN = "pd-chosen";
@@ -316,6 +359,7 @@
         </div>
         <div class="exam-cards">${cards}</div>
         <p class="small muted start-foot">Ved du ikke, hvilken prøve du skal til? PD1 er den letteste og PD3 den sværeste. Spørg din sprogskole.</p>
+        <div><div class="start-install">${installButton()}</div></div>
       </section>`;
     $$("[data-start]").forEach(b => b.onclick = () => {
       const k = b.dataset.start;
@@ -405,6 +449,7 @@
 
       <p style="margin-top:24px" class="row">
         <a class="btn ghost sm" href="#/start">🔁 Skift prøve</a>
+        ${installButton()}
         <a class="btn ghost sm" href="#/about">ℹ️ Om ${META().name}-prøven</a>
         <span class="spacer"></span>
         <button class="btn ghost sm" id="reset">Nulstil fremskridt</button>

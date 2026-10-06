@@ -2592,4 +2592,18 @@ computere=computers
 solidt=solid
 skifte=to change / to switch
 letteste=easiest
+installér=install
+installerer=install(s)
+installeret=installed
+iphone=iPhone
+ipad=iPad
+knappen=the button
+firkanten=the square
+pilen=the arrow
+nederst=at the bottom
+safari=Safari (web browser)
+føj=add (føj til = add to)
+hjemmeskærm=home screen
+hjemmeskærmen=the home screen
+tilføj=add
 `;

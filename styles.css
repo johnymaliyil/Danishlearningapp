@@ -98,6 +98,9 @@ p { margin: 0 0 .8em; }
 /* Top bar */
 .topbar {
   position: sticky; top: 0; z-index: 20;
+  padding-top: max(10px, env(safe-area-inset-top, 0px)) !important;
+  padding-left: max(20px, env(safe-area-inset-left, 0px)) !important;
+  padding-right: max(20px, env(safe-area-inset-right, 0px)) !important;
   display: flex; align-items: center; gap: 16px;
   padding: 10px 20px;
   background: color-mix(in srgb, var(--bg) 88%, transparent);
@@ -391,6 +394,12 @@ label.tick input { width: 20px; height: 20px; accent-color: var(--write); margin
 @keyframes toastIn { from { transform: translateY(16px); opacity: 0; } }
 @keyframes toastOut { to { transform: translateY(16px); opacity: 0; } }
 #confetti { position: fixed; inset: 0; pointer-events: none; z-index: 60; width: 100%; height: 100%; }
+
+/* Install (PWA) */
+.install-help { margin-top: 12px; padding: 14px 16px; border-radius: 14px; background: var(--surface-2); font-size: .95rem; }
+.install-help ol { margin: 6px 0 0; padding-left: 1.3em; }
+.start-install { display: flex; justify-content: center; margin-top: 18px; }
+#toasts { bottom: max(18px, env(safe-area-inset-bottom, 0px)); }
 
 /* Start screen: choose exam */
 body.starting .nav, body.starting #topstats { display: none; }

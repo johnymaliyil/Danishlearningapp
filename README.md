@@ -26,7 +26,16 @@ To publish it, turn on **GitHub Pages** for this repository (Settings → Pages 
 | 🗣️ **Tale** | Monologue + follow-up questions with prep and talk timers. Dialogue role-plays. Danish text-to-speech reads the examiner's lines. Microphone recording with playback and a live Danish transcript (Chrome/Edge). |
 | ⚡ **Ordjagt** | A 60-second vocabulary game with combo bonus. |
 | 🇬🇧 **Hover translation** | Point the mouse at any Danish word to see its English meaning (press and hold on a phone). Toggle it with the 🇬🇧 button in the top bar. Works offline using the glossary in `js/glossary.js`. |
+| 📲 **Install as app (PWA)** | Install DanskKlar on a phone, tablet or computer with its own icon and window, and use it offline. An "Installér app" button appears on the home and welcome screens (on iPhone/iPad it shows the Safari "Add to Home Screen" steps). |
 | 🎮 **Game layer** | XP, levels, daily goal, streaks, badges and confetti. |
+
+## Offline app (PWA)
+
+- `manifest.webmanifest`: app name, icons, colours and home-screen shortcuts.
+- `sw.js`: the service worker. It loads the newest files when online and falls back to the saved copy offline. **When you add a new file the app needs (for example a new exam data file), add it to `APP_FILES` in `sw.js`** so it also works offline.
+- `icons/`: app icons.
+
+The service worker only runs over HTTPS (or on `localhost`), so test it on danskklar.com or with `python3 -m http.server`.
 
 ## Content by exam
 
