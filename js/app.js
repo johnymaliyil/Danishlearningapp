@@ -8,12 +8,27 @@
   // ---------- Storage ----------
   const KEY = "pd2-trainer-v1";
   const today = () => new Date().toISOString().slice(0, 10);
-  const blank = () => ({ xp: 0, xpDay: { date: today(), xp: 0 }, streak: 0, lastDay: null, badges: [], reading: {}, writing: {}, speaking: { sessions: 0, seconds: 0, done: {} }, words: { best: 0 } });
+  const blank = () => ({ exam: "pd2", xp: 0, xpDay: { date: today(), xp: 0 }, streak: 0, lastDay: null, badges: [], reading: {}, writing: {}, speaking: { sessions: 0, seconds: 0, done: {} }, words: { best: 0 } });
   let S = blank();
   try {
     const raw = localStorage.getItem(KEY);
     if (raw) S = Object.assign(blank(), JSON.parse(raw));
   } catch (e) { /* storage blocked: progress lives in memory only */ }
+  if (!PD2.EXAMS[S.exam]) S.exam = "pd2";
+  if (S.words && S.words.best !== undefined && S.words.pd2 === undefined) S.words.pd2 = S.words.best; // older saves
+  const EX = () => PD2.EXAMS[S.exam];
+  // Find an item by id in the current exam, or switch to the exam that has it (e.g. a shared link).
+  function findItem(list, id) {
+    const here = EX()[list].find(x => x.id === id);
+    if (here) return here;
+    for (const k of Object.keys(PD2.EXAMS)) {
+      const it = PD2.EXAMS[k][list].find(x => x.id === id);
+      if (it) { S.exam = k; save(); renderStats(); return it; }
+    }
+    return null;
+  }
+  const META = () => PD2.EXAM_META[S.exam];
+  const wordBest = () => (S.words[S.exam] || 0);
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { /* ignore */ } };
 
   // ---------- Helpers ----------
@@ -33,7 +48,7 @@
   }
 
   // ---------- Gamification ----------
-  const LEVELS = ["Nybegynder", "Øvede", "Ordsamler", "Sætningsbygger", "Læsehest", "Skrivekarl", "Snakkemester", "Danskekspert", "PD2-klar", "Dansk legende"];
+  const LEVELS = ["Nybegynder", "Øvede", "Ordsamler", "Sætningsbygger", "Læsehest", "Skrivekarl", "Snakkemester", "Danskekspert", "Prøveklar", "Dansk legende"];
   const XP_PER_LEVEL = 150;
   const level = () => Math.floor(S.xp / XP_PER_LEVEL) + 1;
   const levelName = l => LEVELS[Math.min(l - 1, LEVELS.length - 1)];
@@ -122,8 +137,30 @@
     })();
   }
 
+  function examButtons() {
+    return Object.keys(PD2.EXAMS).sort().map(k => {
+      const m = PD2.EXAM_META[k];
+      return `<button type="button" data-exam="${k}" aria-pressed="${k === S.exam}" title="${esc(m.full)} (niveau ${m.cefr})">${m.name}</button>`;
+    }).join("");
+  }
+  function setExam(k) {
+    if (!PD2.EXAMS[k] || k === S.exam) return;
+    S.exam = k; save();
+    toast(`Du træner nu ${PD2.EXAM_META[k].full} (${PD2.EXAM_META[k].cefr})`);
+    // An item from the old exam does not exist in the new one, so go up to its list.
+    const parts = (location.hash.replace(/^#\/?/, "") || "").split("/");
+    const target = parts[0] && parts.length > 1 ? "#/" + parts[0] : null;
+    renderStats();
+    if (target && target !== location.hash) location.hash = target; else route();
+  }
+  document.addEventListener("click", e => {
+    const b = e.target.closest("[data-exam]");
+    if (b) setExam(b.dataset.exam);
+  });
+
   function renderStats() {
     $("#topstats").innerHTML = `
+      <span class="examsw" role="group" aria-label="Vælg prøve">${examButtons()}</span>
       <span class="pill" title="Dage i træk">🔥 ${S.streak}</span>
       <span class="pill" title="Niveau ${level()}">⭐ ${S.xp} XP</span>`;
   }
@@ -259,16 +296,16 @@
   ];
 
   function readingProgress() {
-    const done = PD2.READING.filter(r => S.reading[r.id]).length;
-    return [done, PD2.READING.length];
+    const done = EX().READING.filter(r => S.reading[r.id]).length;
+    return [done, EX().READING.length];
   }
   function writingProgress() {
-    const done = PD2.WRITING.filter(w => S.writing[w.id] && S.writing[w.id].best).length;
-    return [done, PD2.WRITING.length];
+    const done = EX().WRITING.filter(w => S.writing[w.id] && S.writing[w.id].best).length;
+    return [done, EX().WRITING.length];
   }
   function speakingProgress() {
-    const all = PD2.SPEAKING_MONO.length + PD2.SPEAKING_DIALOG.length;
-    return [Object.keys(S.speaking.done).length, all];
+    const all = EX().SPEAKING_MONO.length + EX().SPEAKING_DIALOG.length;
+    return [EX().SPEAKING_MONO.concat(EX().SPEAKING_DIALOG).filter(x => S.speaking.done[x.id]).length, all];
   }
 
   function home() {
@@ -281,8 +318,9 @@
     app.innerHTML = `
       <section class="hero">
         <div style="position:relative;z-index:1">
-          <h1>Hej! Klar til PD2? 🇩🇰</h1>
-          <p>Træn de tre dele af Prøve i Dansk 2: læsning, skrivning og tale. Saml XP, hold din streak og lås badges op.</p>
+          <h1>Hej! Klar til ${META().name}? 🇩🇰</h1>
+          <p>Træn de tre dele af ${META().full} (niveau ${META().cefr}): læsning, skrivning og tale. Saml XP, hold din streak og lås badges op.</p>
+          <div class="examsw big" role="group" aria-label="Vælg prøve">${examButtons()}</div>
           <div class="row">
             <span class="pill">🔥 ${S.streak} ${S.streak === 1 ? "dag" : "dage"} i træk</span>
             <span class="pill">🎯 Dagens mål: ${S.xpDay.xp}/${DAILY_GOAL} XP ${goalPct >= 1 ? "✅" : ""}</span>
@@ -299,8 +337,8 @@
       </section>
 
       <div class="grid grid-3" style="margin-top:20px">
-        ${taskCard("read", "#/reading", "📖", "Læsning", "Rigtige opgaver fra PD2 2020 og ekstra øvelser.", rd, rt, "opgaver løst")}
-        ${taskCard("write", "#/writing", "✍️", "Skrivning", "Mails og holdningstekster med skrivecoach og bedømmelse.", wd, wt, "tekster bedømt")}
+        ${taskCard("read", "#/reading", "📖", "Læsning", META().readingIntro.split(". ")[0].replace(/\.$/, "") + ".", rd, rt, "opgaver løst")}
+        ${taskCard("write", "#/writing", "✍️", "Skrivning", META().writingIntro, wd, wt, "tekster bedømt")}
         ${taskCard("speak", "#/speaking", "🗣️", "Tale", "Monolog og dialog med timer, optagelse og oplæsning.", sd, st, "emner øvet")}
       </div>
 
@@ -308,7 +346,7 @@
         <a class="task words" href="#/words">
           <span class="emoji">⚡</span>
           <h2>Ordjagt</h2>
-          <p class="muted" style="margin:0">60 sekunder. Hvor mange ord kan du nå? Rekord: <b>${S.words.best}</b></p>
+          <p class="muted" style="margin:0">60 sekunder. Hvor mange ord kan du nå? Rekord: <b>${wordBest()}</b></p>
         </a>
         <div class="card">
           <h3>💡 Dagens tip</h3>
@@ -324,7 +362,7 @@
       </section>
 
       <p style="margin-top:24px" class="row">
-        <a class="btn ghost sm" href="#/about">ℹ️ Om PD2-prøven</a>
+        <a class="btn ghost sm" href="#/about">ℹ️ Om ${META().name}-prøven</a>
         <span class="spacer"></span>
         <button class="btn ghost sm" id="reset">Nulstil fremskridt</button>
       </p>`;
@@ -349,12 +387,13 @@
   // ---------- Reading ----------
   function readingList() {
     const groups = {};
-    PD2.READING.forEach(r => { const g = r.group || "Ekstra øvelser"; (groups[g] = groups[g] || []).push(r); });
+    const practice = S.exam === "pd2" ? "Ekstra øvelser" : `Øvelser på ${META().name}-niveau`;
+    EX().READING.forEach(r => { const g = r.group || practice; (groups[g] = groups[g] || []).push(r); });
     app.innerHTML = `
-      <h1>📖 Læsning</h1>
-      <p class="muted">Prøvesættet fra maj-juni 2020 har de officielle svar. Delprøve 2 (opgave 3-5) tager 60 minutter til prøven.</p>
+      <h1>📖 Læsning <span class="tag">${META().name} · ${META().cefr}</span></h1>
+      <p class="muted">${esc(META().readingIntro)}</p>
       ${Object.entries(groups).map(([g, items]) => `
-        <h2 style="margin-top:24px">${g.startsWith("PD2") ? '<span class="tag real">Rigtig prøve</span> ' : ""}${esc(g)}</h2>
+        <h2 style="margin-top:24px">${items[0].group ? '<span class="tag real">Rigtig prøve</span> ' : ""}${esc(g)}</h2>
         <div class="stack">
           ${items.map(r => {
             const res = S.reading[r.id];
@@ -369,7 +408,7 @@
   }
 
   function readingItem(id) {
-    const r = PD2.READING.find(x => x.id === id);
+    const r = findItem("READING", id);
     if (!r) return readingList();
     const answers = {}; // key -> value
     let checked = false;
@@ -538,7 +577,7 @@
       if (score === total) { award("perfect"); confetti(); }
       const xp = isNewBest ? score * 10 - (prev ? prev.best * 10 : 0) + 10 : 5;
       addXP(xp, isNewBest ? "læsning" : "repetition");
-      const real = PD2.READING.filter(x => x.group && x.group.startsWith("PD2"));
+      const real = PD2.EXAMS.pd2.READING.filter(x => x.group && x.group.startsWith("PD2"));
       if (real.every(x => S.reading[x.id])) award("exam2020");
       save();
 
@@ -557,7 +596,7 @@
 
   // ---------- Writing ----------
   function writingList() {
-    const by = d => PD2.WRITING.filter(w => w.delprove === d);
+    const by = d => EX().WRITING.filter(w => w.delprove === d);
     const item = w => {
       const res = S.writing[w.id];
       const sc = res && res.best ? `<span class="score-badge full">${res.best}</span>` : res && res.draft ? `<span class="score-badge">Kladde</span>` : `<span class="score-badge">Ny</span>`;
@@ -566,13 +605,12 @@
         <span class="meta"><b>${esc(w.title)}</b><span class="small muted">${esc(w.kind)} · ${w.minWords}-${w.maxWords} ord</span></span>${sc}</a>`;
     };
     app.innerHTML = `
-      <h1>✍️ Skrivning</h1>
+      <h1>✍️ Skrivning <span class="tag">${META().name} · ${META().cefr}</span></h1>
       <p class="muted">Skriv din tekst, få live-feedback fra skrivecoachen, og bedøm dig selv med de samme kriterier som censor bruger.
       Ordantallene er vejledende øvemål. Følg altid instruktionen på din egen prøve.</p>
-      <h2 style="margin-top:20px">Delprøve 1 <span class="muted small">· give faktuelle informationer, fortælle, beskrive</span></h2>
-      <div class="stack">${by(1).map(item).join("")}</div>
-      <h2 style="margin-top:24px">Delprøve 2 <span class="muted small">· fortælle, beskrive, udtrykke synspunkter</span></h2>
-      <div class="stack">${by(2).map(item).join("")}</div>`;
+      ${[1, 2].map(d => `
+        <h2 style="margin-top:22px">${esc(META().writingParts[d])}</h2>
+        <div class="stack">${by(d).map(item).join("")}</div>`).join("")}`;
   }
 
   const GREET = /^\s*(hej|kære|til|goddag|dav|hejsa)\b/i;
@@ -628,7 +666,7 @@
   }
 
   function writingItem(id) {
-    const w = PD2.WRITING.find(x => x.id === id);
+    const w = findItem("WRITING", id);
     if (!w) return writingList();
     const st = S.writing[w.id] = S.writing[w.id] || { draft: "", ticks: [] };
     st.ticks = st.ticks || [];
@@ -743,7 +781,7 @@
       vals[0] = allTicked ? 3 : st.ticks.length ? 1.5 : null;
       $("#gradeBox").innerHTML = `<div class="card">
         <h3>📋 Bedøm dig selv – som censor</h3>
-        <p class="small muted">Læs din tekst igen og vær ærlig. Kriterierne er de samme som på bedømmerarket til PD2.</p>
+        <p class="small muted">Læs din tekst igen og vær ærlig. Kriterierne er de samme som på censors bedømmerark.</p>
         <div class="rubric">${rows.map(([name, kind], i) => `
           <div class="rrow"><div><b>${esc(name)}</b>${RUBRIC_HELP[name] ? `<div class="small muted">${esc(RUBRIC_HELP[name])}</div>` : ""}</div>
           <div class="seg" data-row="${i}">${(kind === "instr" ? INSTR : SCALE.map((l, v) => [l, v])).map(([l, v]) =>
@@ -779,9 +817,9 @@
 
   // ---------- Speaking ----------
   function speakingList() {
-    const mono = PD2.SPEAKING_MONO, dia = PD2.SPEAKING_DIALOG;
+    const mono = EX().SPEAKING_MONO, dia = EX().SPEAKING_DIALOG;
     app.innerHTML = `
-      <h1>🗣️ Tale</h1>
+      <h1>🗣️ Tale <span class="tag">${META().name} · ${META().cefr}</span></h1>
       <p class="muted">Øv dig i at tale frit. Appen kan læse spørgsmål op på dansk, optage dig og skrive det, du siger, så du kan høre og læse det bagefter.
       Live-tekst virker bedst i Chrome eller Edge.</p>
       <div class="card" style="margin-top:16px;text-align:center">
@@ -828,7 +866,7 @@
   }
 
   function speakingMono(id) {
-    const m = PD2.SPEAKING_MONO.find(x => x.id === id);
+    const m = findItem("SPEAKING_MONO", id);
     if (!m) return speakingList();
     let prepMin = 3, talkMin = 3;
     let phase = "setup", qi = 0, talked = 0;
@@ -977,7 +1015,7 @@
   }
 
   function speakingDialog(id) {
-    const d = PD2.SPEAKING_DIALOG.find(x => x.id === id);
+    const d = findItem("SPEAKING_DIALOG", id);
     if (!d) return speakingList();
     let i = -1, talked = 0, rec = null, t0 = 0;
     const log = [];
@@ -1043,9 +1081,9 @@
     function intro() {
       app.innerHTML = `
         <h1>⚡ Ordjagt</h1>
-        <p class="muted">Ord fra PD2-opgaverne. Du har 60 sekunder – svar rigtigt i træk for at få combo-bonus!</p>
+        <p class="muted">Ord fra ${META().name}-opgaverne. Du har 60 sekunder – svar rigtigt i træk for at få combo-bonus!</p>
         <div class="card stage">
-          <div class="word-big">🏆 ${S.words.best}</div>
+          <div class="word-big">🏆 ${wordBest()}</div>
           <p class="muted">Din rekord</p>
           <div class="row" style="justify-content:center;margin:12px 0">
             <button class="chip ${dir === "da" ? "on" : ""}" data-dir="da">Dansk → engelsk</button>
@@ -1057,7 +1095,7 @@
       $("#go").onclick = play;
     }
     function play() {
-      let left = 60, score = 0, combo = 0, deck = shuffle(PD2.WORDS), idx = 0, locked = false;
+      let left = 60, score = 0, combo = 0, deck = shuffle(EX().WORDS), idx = 0, locked = false;
       app.innerHTML = `
         <h1>⚡ Ordjagt</h1>
         <div class="card stage">
@@ -1067,10 +1105,10 @@
           <div class="answers" id="a"></div>
         </div>`;
       function next() {
-        if (idx >= deck.length) { deck = shuffle(PD2.WORDS); idx = 0; }
+        if (idx >= deck.length) { deck = shuffle(EX().WORDS); idx = 0; }
         const [da, en] = deck[idx++];
         const [ask, ans] = dir === "da" ? [da, en] : [en, da];
-        const pool = shuffle(PD2.WORDS.filter(w => w[0] !== da)).slice(0, 3).map(w => dir === "da" ? w[1] : w[0]);
+        const pool = shuffle(EX().WORDS.filter(w => w[0] !== da)).slice(0, 3).map(w => dir === "da" ? w[1] : w[0]);
         const opts = shuffle(pool.concat(ans));
         $("#w").textContent = ask;
         $("#w").lang = dir === "da" ? "da" : "en";
@@ -1096,8 +1134,8 @@
       });
       function done() {
         clearTimers();
-        const record = score > S.words.best;
-        if (record) S.words.best = score;
+        const record = score > wordBest();
+        if (record) S.words[S.exam] = score;
         if (score >= 15) award("hunter");
         save();
         addXP(score * 2, "ordjagt");
@@ -1106,7 +1144,7 @@
           <h1>⚡ Ordjagt</h1>
           <div class="card stage">
             <div class="word-big">${score}</div>
-            <p style="font-weight:800">${record ? "🏆 Ny rekord!" : `Rekord: ${S.words.best}`}</p>
+            <p style="font-weight:800">${record ? "🏆 Ny rekord!" : `Rekord: ${wordBest()}`}</p>
             <div class="row" style="justify-content:center"><button class="btn words" id="again">Spil igen</button><a class="btn ghost" href="#/">Til forsiden</a></div>
           </div>`;
         $("#again").onclick = play;
@@ -1119,36 +1157,22 @@
   function about() {
     app.innerHTML = `
       <a class="back" href="#/">← Forside</a>
-      <h1>ℹ️ Om Prøve i Dansk 2</h1>
+      <h1>ℹ️ Om ${esc(META().full)}</h1>
+      <div class="examsw big" role="group" aria-label="Vælg prøve" style="margin-bottom:16px">${examButtons()}</div>
       <div class="stack">
+        <div class="card">${META().about}</div>
         <div class="card">
-          <h2>Niveau</h2>
-          <p>Den skriftlige del af PD2 tester dansk på et niveau, der svarer til <b>B1 (Threshold)</b> i den fælles europæiske referenceramme (CEFR).</p>
-        </div>
-        <div class="card">
-          <h2>📖 Læseforståelse</h2>
+          <h2>Niveauerne</h2>
           <table class="simple">
-            <tr><th>Delprøve</th><th>Opgave</th><th>Type</th><th>Point</th></tr>
-            <tr><td>1</td><td>1</td><td>Find informationer i korte tekster, svar kort</td><td>6</td></tr>
-            <tr><td>1</td><td>2</td><td>Match (bogstav-svar)</td><td>6</td></tr>
-            <tr><td>2</td><td>3</td><td>Udfyld hullerne med ord fra en ramme</td><td>8</td></tr>
-            <tr><td>2</td><td>4</td><td>Find den sætning, der mangler i hvert afsnit</td><td>5</td></tr>
-            <tr><td>2</td><td>5</td><td>Match spørgsmål med afsnit i et interview</td><td>5</td></tr>
+            <tr><th>Prøve</th><th>Niveau (CEFR)</th><th>Kort sagt</th></tr>
+            ${Object.keys(PD2.EXAM_META).sort().map(k => `<tr><td><b>${PD2.EXAM_META[k].name}</b></td><td>${PD2.EXAM_META[k].cefr}</td><td>${esc(PD2.EXAM_META[k].tagline)}</td></tr>`).join("")}
           </table>
-          <p class="small muted" style="margin-top:8px">I alt 30 point (tal fra prøven maj-juni 2020). Delprøve 2 varer 60 minutter, uden hjælpemidler. Pointene regnes om til en karakter.</p>
-        </div>
-        <div class="card">
-          <h2>✍️ Skriftlig fremstilling</h2>
-          <p><b>Delprøve 1:</b> give faktuelle informationer, fortælle, beskrive.<br>
-          <b>Delprøve 2:</b> fortælle, beskrive, udtrykke synspunkter.</p>
-          <p>Censor vurderer: om instruktionen er fulgt, reparation (hvor let teksten er at forstå), pragmatisk færdighed, diskursiv færdighed
-          (delprøve 2: retorisk organisering, kohærens og kohæsion) og lingvistisk færdighed (ordvalg, syntaks, morfologi, retskrivning).</p>
-          <p class="small muted">Karakter gives på 7-trins-skalaen: 12, 10, 7, 4, 02, 00, -3.</p>
         </div>
         <div class="card">
           <h2>🗣️ Mundtlig prøve</h2>
           <p>Taleøvelserne i appen træner både at tale sammenhængende om et emne og at føre en dialog. Tjek de præcise regler og tider for din egen prøve hos din sprogskole.</p>
         </div>
+        <p class="small muted">DanskKlar er et uofficielt øveprogram og har ingen forbindelse til de myndigheder, der afholder prøverne.</p>
       </div>`;
   }
 

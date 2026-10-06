@@ -1,6 +1,9 @@
-# PD2 Træner 🇩🇰
+# DanskKlar 🇩🇰
 
-A fun practice app for **Prøve i Dansk 2** with the three exam skills: reading, writing and speaking.
+A fun practice app for the Danish language exams **Prøve i Dansk 1, 2 and 3** (PD1 ≈ A2, PD2 ≈ B1, PD3 ≈ B2), covering the three exam skills: reading, writing and speaking. Live at [danskklar.com](https://danskklar.com).
+
+Pick the exam with the **PD1 / PD2 / PD3** switch in the top bar. Each exam has its own exercises and progress.
+
 It's a static web app with no build step and no server. Progress is saved in the browser.
 
 ## Run it
@@ -25,12 +28,22 @@ To publish it, turn on **GitHub Pages** for this repository (Settings → Pages 
 | 🇬🇧 **Hover translation** | Point the mouse at any Danish word to see its English meaning (press and hold on a phone). Toggle it with the 🇬🇧 button in the top bar. Works offline using the glossary in `js/glossary.js`. |
 | 🎮 **Game layer** | XP, levels, daily goal, streaks, badges and confetti. |
 
+## Content by exam
+
+| Exam | Files | Content |
+|------|-------|---------|
+| PD1 (A2) | `js/data-pd1.js` | Original practice material: 4 reading tasks, 5 writing tasks, 6 speaking topics, 3 dialogues, 32 words |
+| PD2 (B1) | `js/data.js`, `js/data-2020.js` | The real May–June 2020 reading set plus original practice material |
+| PD3 (B2) | `js/data-pd3.js` | Original practice material: 4 reading tasks, 5 writing tasks, 6 speaking topics, 3 dialogues, 32 words |
+
+`js/exams.js` holds each exam's name, level, descriptions and info page.
+
 ## Adding more past papers
 
 All content is plain JavaScript data:
 
-- `js/data-2020.js`: the May–June 2020 exam set. Copy this file as a template for another exam set and add a `<script>` tag for it in `index.html`.
-- `js/data.js`: extra reading exercises, writing tasks, speaking topics, dialogues and vocabulary.
+- `js/data-2020.js`: the PD2 May–June 2020 exam set. Copy it as a template for another exam set, and add a `<script>` tag for it in `index.html` before `js/exams.js`.
+- `js/data-pd1.js` / `js/data-pd3.js`: add items to the `READING`, `WRITING`, `SPEAKING_MONO`, `SPEAKING_DIALOG` or `WORDS` lists. Give every item a unique `id`; prefixing it with the exam (for example `pd3-r5`) keeps it unique.
 
 When you add new Danish text, also add its new words to `js/glossary.js` (one `word=translation` line each, lowercase), so the hover translation covers them.
 

@@ -392,6 +392,24 @@ label.tick input { width: 20px; height: 20px; accent-color: var(--write); margin
 @keyframes toastOut { to { transform: translateY(16px); opacity: 0; } }
 #confetti { position: fixed; inset: 0; pointer-events: none; z-index: 60; width: 100%; height: 100%; }
 
+/* Exam switcher (PD1 / PD2 / PD3) */
+.examsw { display: inline-flex; border: 1px solid var(--border); border-radius: 999px; background: var(--surface); padding: 2px; gap: 2px; }
+.examsw button {
+  border: 0; background: transparent; padding: 3px 9px; border-radius: 999px; cursor: pointer;
+  font-weight: 800; font-size: .85rem; color: var(--muted);
+}
+.examsw button[aria-pressed="true"] { background: var(--red); color: #fff; }
+.examsw button:hover:not([aria-pressed="true"]) { color: var(--text); background: var(--surface-2); }
+.examsw.big { margin-top: 12px; background: rgba(255, 255, 255, .16); border-color: rgba(255, 255, 255, .3); }
+.examsw.big button { font-size: 1rem; padding: 6px 16px; color: #fff; }
+.examsw.big button[aria-pressed="true"] { background: #fff; color: var(--red); }
+.examsw.big button:hover:not([aria-pressed="true"]) { background: rgba(255, 255, 255, .2); color: #fff; }
+main > .examsw.big { background: var(--surface); border-color: var(--border); }
+main > .examsw.big button { color: var(--muted); }
+main > .examsw.big button[aria-pressed="true"] { background: var(--red); color: #fff; }
+h1 .tag { vertical-align: middle; font-size: .8rem; }
+@media (max-width: 760px) { .stats .examsw button { padding: 3px 7px; font-size: .8rem; } }
+
 /* Hover translation */
 #tr-tip {
   position: fixed; z-index: 70; pointer-events: none; max-width: min(320px, calc(100vw - 16px));
