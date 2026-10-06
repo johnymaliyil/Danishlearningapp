@@ -30,9 +30,9 @@ PD2.EXAM_META = {
     name: "PD2",
     full: "Prøve i Dansk 2",
     cefr: "B1",
-    tagline: "Rigtige prøveopgaver fra 2012, 2013, 2019 og 2020 plus øvesæt i samme format.",
-    readingIntro: "Fire rigtige prøvesæt (2020 med de officielle svar; 2019, 2013 og 2012 med svar fundet ud fra teksterne) og to øvesæt i samme format. Til prøven tager delprøve 1 (opgave 1-2) 30 minutter og delprøve 2 (opgave 3-5) 60 minutter.",
-    writingIntro: "Rigtige prøveopgaver fra 2012, 2013 og 2019 plus mails og holdningstekster med skrivecoach og bedømmelse.",
+    tagline: "Rigtige prøveopgaver fra 2012, 2013, 2014, 2019 og 2020 plus øvesæt i samme format.",
+    readingIntro: "Fem rigtige prøvesæt (2020 med de officielle svar; 2019, 2014, 2013 og 2012 med svar fundet ud fra teksterne) og to øvesæt i samme format. Til prøven tager delprøve 1 (opgave 1-2) 30 minutter og delprøve 2 (opgave 3-5) 60 minutter.",
+    writingIntro: "Rigtige prøveopgaver fra 2012, 2013, 2014 og 2019 plus mails og holdningstekster med skrivecoach og bedømmelse.",
     writingMinutes: 45,
     talkSeconds: 90,
     writingParts: {
@@ -64,7 +64,7 @@ PD2.EXAM_META = {
         <tr><td>1</td><td><b>Præsentation</b> af et emne, du selv har valgt og forberedt (ca. 1½ min.). Du må bruge stikord, men ikke læse op. Derefter <b>opfølgende spørgsmål</b> fra eksaminator (ca. 3½ min.).</td><td>10 min. pr. par</td></tr>
         <tr><td>2</td><td>Du får et <b>billede</b> og ½ minut til at se på det. Du beskriver billedet og svarer på eksaminators spørgsmål (ca. 3 min.). Til sidst en <b>samtale</b> med den anden prøvedeltager om emnet (ca. 4 min.).</td><td>10 min. pr. par</td></tr>
       </table>
-      <p class="small muted" style="margin-top:8px">Eksaminator stiller fire slags spørgsmål: opklarende ("Vil du ikke forklare det lidt nærmere?"), uddybende ("Kan du ikke fortælle lidt mere om det?"), spørgsmål om begrundelse ("Hvordan kan det så være, at …?") og om generalisering ("Hvad synes du så generelt, forskellen er på …?"). Emner til delprøve 2: 2012 Teknologi i hjemmet, Rygning, Frivilligt arbejde · 2013 Søskende, By eller land, Hjælpsomhed · 2019 Husarbejde, At lære noget nyt som voksen, Transport til arbejde · 2020 Gæster, Et godt job, At spare penge i hverdagen.</p>`
+      <p class="small muted" style="margin-top:8px">Eksaminator stiller fire slags spørgsmål: opklarende ("Vil du ikke forklare det lidt nærmere?"), uddybende ("Kan du ikke fortælle lidt mere om det?"), spørgsmål om begrundelse ("Hvordan kan det så være, at …?") og om generalisering ("Hvad synes du så generelt, forskellen er på …?"). Emner til delprøve 2: 2012 Teknologi i hjemmet, Rygning, Frivilligt arbejde · 2013 Søskende, By eller land, Hjælpsomhed · 2014 Fester, På tur, At flytte hjemmefra · 2019 Husarbejde, At lære noget nyt som voksen, Transport til arbejde · 2020 Gæster, Et godt job, At spare penge i hverdagen.</p>`
   },
   pd3: {
     name: "PD3",

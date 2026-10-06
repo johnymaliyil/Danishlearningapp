@@ -120,6 +120,8 @@
   addEventListener("hashchange", hide);
   // Clicks usually re-render the view under the pointer, so drop any stale tooltip.
   document.addEventListener("click", hide, true);
+  // An image finishing loading can move the text away from under the tooltip.
+  document.addEventListener("load", e => { if (e.target.tagName === "IMG") hide(); }, true);
 
   // Touch: press and hold a word.
   let holdTimer = null;
