@@ -19,10 +19,10 @@
   const EX = () => PD2.EXAMS[S.exam];
   // Find an item by id in the current exam, or switch to the exam that has it (e.g. a shared link).
   function findItem(list, id) {
-    const here = EX()[list].find(x => x.id === id);
+    const here = (EX()[list] || []).find(x => x.id === id);
     if (here) return here;
     for (const k of Object.keys(PD2.EXAMS)) {
-      const it = PD2.EXAMS[k][list].find(x => x.id === id);
+      const it = (PD2.EXAMS[k][list] || []).find(x => x.id === id);
       if (it) { S.exam = k; save(); renderStats(); return it; }
     }
     return null;
@@ -266,6 +266,7 @@
     [/^\/speaking$/, speakingList],
     [/^\/speaking\/mono\/([\w-]+)$/, speakingMono],
     [/^\/speaking\/dialog\/([\w-]+)$/, speakingDialog],
+    [/^\/speaking\/picture\/([\w-]+)$/, speakingPicture],
     [/^\/words$/, wordsGame],
     [/^\/about$/, about]
   ];
@@ -338,7 +339,7 @@
     const icons = { pd1: "🌱", pd2: "🌿", pd3: "🌳" };
     const cards = Object.keys(PD2.EXAMS).sort().map(k => {
       const m = PD2.EXAM_META[k], E = PD2.EXAMS[k];
-      const items = E.READING.concat(E.WRITING, E.SPEAKING_MONO, E.SPEAKING_DIALOG);
+      const items = E.READING.concat(E.WRITING, E.SPEAKING_MONO, E.SPEAKING_DIALOG, E.SPEAKING_PICTURE || []);
       const done = items.filter(x => S.reading[x.id] || (S.writing[x.id] && S.writing[x.id].best) || S.speaking.done[x.id]).length;
       const last = k === S.exam && S.examPicked;
       return `<button type="button" class="exam-card ${k}" data-start="${k}">
@@ -390,8 +391,8 @@
     return [done, EX().WRITING.length];
   }
   function speakingProgress() {
-    const all = EX().SPEAKING_MONO.length + EX().SPEAKING_DIALOG.length;
-    return [EX().SPEAKING_MONO.concat(EX().SPEAKING_DIALOG).filter(x => S.speaking.done[x.id]).length, all];
+    const items = EX().SPEAKING_MONO.concat(EX().SPEAKING_DIALOG, EX().SPEAKING_PICTURE || []);
+    return [items.filter(x => S.speaking.done[x.id]).length, items.length];
   }
 
   function home() {
@@ -477,17 +478,19 @@
     const groups = {};
     const practice = S.exam === "pd2" ? "Ekstra øvelser" : `Øvelser på ${META().name}-niveau`;
     EX().READING.forEach(r => { const g = r.group || practice; (groups[g] = groups[g] || []).push(r); });
+    const rank = items => items[0].real ? 0 : items[0].group ? 1 : 2;
+    const ordered = Object.entries(groups).sort((a, b) => rank(a[1]) - rank(b[1]));
     app.innerHTML = `
       <h1>📖 Læsning <span class="tag">${META().name} · ${META().cefr}</span></h1>
       <p class="muted">${esc(META().readingIntro)}</p>
-      ${Object.entries(groups).map(([g, items]) => `
-        <h2 style="margin-top:24px">${items[0].group ? '<span class="tag real">Rigtig prøve</span> ' : ""}${esc(g)}</h2>
+      ${ordered.map(([g, items]) => `
+        <h2 style="margin-top:24px">${items[0].real ? '<span class="tag real">Rigtig prøve</span> ' : ""}${esc(g)}</h2>
         <div class="stack">
           ${items.map(r => {
             const res = S.reading[r.id];
             const sc = res ? `<span class="score-badge ${res.best === res.total ? "full" : ""}">${res.best}/${res.total}</span>` : `<span class="score-badge">Ny</span>`;
             return `<a class="list-item" href="#/reading/${r.id}">
-              <span class="ico">${r.group ? "🏛️" : "📰"}</span>
+              <span class="ico">${r.real ? "🏛️" : r.group ? "📝" : "📰"}</span>
               <span class="meta"><b>${esc(r.title)}</b><span class="small muted">${esc(r.kind)}${r.minutes ? ` · ca. ${r.minutes} min` : ""} · <span class="stars">${"★".repeat(r.level || 1)}${"☆".repeat(3 - (r.level || 1))}</span></span></span>
               ${sc}
             </a>`;
@@ -557,7 +560,7 @@
     app.innerHTML = `
       <a class="back" href="#/reading">← Alle læseopgaver</a>
       <div class="row"><h1 style="margin:0">${esc(r.title)}</h1></div>
-      <p class="muted">${r.group ? '<span class="tag real">Rigtig prøve</span> ' : ""}${esc(r.kind)}</p>
+      <p class="muted">${r.real ? `<span class="tag real">Rigtig prøve · ${esc(r.group.replace("PD2 ", ""))}</span> ` : ""}${esc(r.kind)}</p>
       <div class="row" style="margin-bottom:16px">
         ${r.minutes ? `<button class="btn ghost sm" id="timerBtn">⏱️ Start prøvetid (${r.minutes} min)</button><span class="timer" id="timer"></span>` : ""}
       </div>
@@ -689,8 +692,8 @@
       const res = S.writing[w.id];
       const sc = res && res.best ? `<span class="score-badge full">${res.best}</span>` : res && res.draft ? `<span class="score-badge">Kladde</span>` : `<span class="score-badge">Ny</span>`;
       return `<a class="list-item" href="#/writing/${w.id}">
-        <span class="ico">${w.delprove === 1 ? "✉️" : "📝"}</span>
-        <span class="meta"><b>${esc(w.title)}</b><span class="small muted">${esc(w.kind)} · ${w.minWords}-${w.maxWords} ord</span></span>${sc}</a>`;
+        <span class="ico">${w.real ? "🏛️" : w.delprove === 1 ? "✉️" : "📝"}</span>
+        <span class="meta"><b>${esc(w.title)}</b>${w.real ? ' <span class="tag real">Rigtig prøve</span>' : ""}<span class="small muted">${esc(w.kind)} · ${w.minWords}-${w.maxWords} ord</span></span>${sc}</a>`;
     };
     app.innerHTML = `
       <h1>✍️ Skrivning <span class="tag">${META().name} · ${META().cefr}</span></h1>
@@ -761,7 +764,7 @@
     app.innerHTML = `
       <a class="back" href="#/writing">← Alle skriveopgaver</a>
       <h1>${esc(w.title)}</h1>
-      <p class="muted"><span class="tag">Delprøve ${w.delprove}</span> ${esc(w.kind)} · mål: ${w.minWords}-${w.maxWords} ord</p>
+      <p class="muted">${w.real ? `<span class="tag real">Rigtig prøveopgave ${w.year}</span> ` : ""}<span class="tag">Delprøve ${w.delprove}</span> ${esc(w.kind)} · mål: ${w.minWords}-${w.maxWords} ord</p>
       <div class="writer">
         <div class="stack">
           <div class="card">
@@ -772,7 +775,7 @@
           <div class="card">
             <div class="row" style="margin-bottom:8px">
               <b id="wc">0 ord</b><span class="spacer"></span>
-              <button class="btn ghost sm" id="wtimer">⏱️ Start 30 min</button><span class="timer" id="wtime"></span>
+              <button class="btn ghost sm" id="wtimer">⏱️ Start ${META().writingMinutes || 30} min</button><span class="timer" id="wtime"></span>
             </div>
             <div class="wordbar" style="margin-bottom:12px"><div class="zone" id="zone"></div><div class="fill" id="fill"></div></div>
             <textarea class="editor" id="editor" spellcheck="true" lang="da" placeholder="Skriv din tekst her …">${esc(st.draft || "")}</textarea>
@@ -838,7 +841,7 @@
     });
 
     $("#wtimer").onclick = () => {
-      let left = 30 * 60;
+      let left = (META().writingMinutes || 30) * 60;
       $("#wtimer").disabled = true;
       every(1000, () => {
         left--;
@@ -905,7 +908,16 @@
 
   // ---------- Speaking ----------
   function speakingList() {
-    const mono = EX().SPEAKING_MONO, dia = EX().SPEAKING_DIALOG;
+    const mono = EX().SPEAKING_MONO, dia = EX().SPEAKING_DIALOG, pics = EX().SPEAKING_PICTURE || [];
+    const done = id => S.speaking.done[id] ? '<span class="score-badge full">✓</span>' : "";
+    const realTag = p => p.real ? ` <span class="tag real">Emne ${p.year}</span>` : "";
+    const monoList = mono.map(m => `<a class="list-item" href="#/speaking/mono/${m.id}">
+        <span class="ico">🎤</span><span class="meta"><b>${esc(m.title)}</b><span class="small muted">${m.points.length} stikord · ${m.followUp.length} spørgsmål</span></span>${done(m.id)}</a>`).join("");
+    const picList = pics.map(p => `<a class="list-item" href="#/speaking/picture/${p.id}">
+        <span class="ico">🖼️</span><span class="meta"><b>${esc(p.title)}</b>${realTag(p)}<span class="small muted">Billede · ${p.interview.length} spørgsmål · samtale</span></span>${done(p.id)}</a>`).join("");
+    const diaList = dia.map(d => `<a class="list-item" href="#/speaking/dialog/${d.id}">
+        <span class="ico">💬</span><span class="meta"><b>${esc(d.title)}</b><span class="small muted">${d.lines.length} replikker</span></span>${done(d.id)}</a>`).join("");
+    const examFormat = pics.length > 0;
     app.innerHTML = `
       <h1>🗣️ Tale <span class="tag">${META().name} · ${META().cefr}</span></h1>
       <p class="muted">Øv dig i at tale frit. Appen kan læse spørgsmål op på dansk, optage dig og skrive det, du siger, så du kan høre og læse det bagefter.
@@ -915,31 +927,91 @@
         <div class="wheel" id="wheel">Klar?</div>
         <button class="btn speak" id="spin">Træk et tilfældigt emne</button>
       </div>
-      <h2 style="margin-top:24px">Monolog + samtale</h2>
-      <p class="small muted">Forbered dig, tal om emnet, og svar på opfølgende spørgsmål.</p>
-      <div class="grid grid-2">${mono.map(m => `<a class="list-item" href="#/speaking/mono/${m.id}">
-        <span class="ico">🎤</span><span class="meta"><b>${esc(m.title)}</b><span class="small muted">${m.points.length} stikord · ${m.followUp.length} spørgsmål</span></span>
-        ${S.speaking.done[m.id] ? '<span class="score-badge full">✓</span>' : ""}</a>`).join("")}</div>
-      <h2 style="margin-top:24px">Dialog</h2>
-      <p class="small muted">Eksaminator siger en replik. Du svarer. I skal blive enige.</p>
-      <div class="grid grid-2">${dia.map(d => `<a class="list-item" href="#/speaking/dialog/${d.id}">
-        <span class="ico">💬</span><span class="meta"><b>${esc(d.title)}</b><span class="small muted">${d.lines.length} replikker</span></span>
-        ${S.speaking.done[d.id] ? '<span class="score-badge full">✓</span>' : ""}</a>`).join("")}</div>
+      ${examFormat ? `
+        <h2 style="margin-top:24px">Delprøve 1 · Præsentation og interview</h2>
+        <p class="small muted">Som til prøven: Præsenter et emne i ca. 1½ minut ud fra dine egne stikord. Derefter stiller eksaminator opfølgende spørgsmål (ca. 3½ minut).</p>
+        <div class="grid grid-2">${monoList}</div>
+        <h2 style="margin-top:24px">Delprøve 2 · Billede og samtale</h2>
+        <p class="small muted">Som til prøven: Se på billedet i ½ minut, beskriv det, og svar på spørgsmål (ca. 3 minutter). Derefter en samtale med en anden prøvedeltager (ca. 4 minutter).</p>
+        <div class="grid grid-2">${picList}</div>
+        <h2 style="margin-top:24px">Ekstra · Rollespil</h2>
+        <p class="small muted">Eksaminator siger en replik. Du svarer. I skal blive enige.</p>
+        <div class="grid grid-2">${diaList}</div>` : `
+        <h2 style="margin-top:24px">Monolog + samtale</h2>
+        <p class="small muted">Forbered dig, tal om emnet, og svar på opfølgende spørgsmål.</p>
+        <div class="grid grid-2">${monoList}</div>
+        <h2 style="margin-top:24px">Dialog</h2>
+        <p class="small muted">Eksaminator siger en replik. Du svarer. I skal blive enige.</p>
+        <div class="grid grid-2">${diaList}</div>`}
       <p class="small muted" style="margin-top:20px">I alt har du øvet ${S.speaking.sessions} gange og talt i ${Math.round(S.speaking.seconds / 60)} minutter.</p>`;
     $("#spin").onclick = () => {
       const wheel = $("#wheel"), btn = $("#spin");
       btn.disabled = true; wheel.classList.add("spin");
       let i = 0;
-      const pick = mono[Math.floor(Math.random() * mono.length)];
+      const pool = mono.map(m => ["mono", m]).concat(pics.map(p => ["picture", p]));
+      const [kind, pick] = pool[Math.floor(Math.random() * pool.length)];
       const id = setInterval(() => {
-        wheel.textContent = mono[i++ % mono.length].title;
+        wheel.textContent = pool[i++ % pool.length][1].title;
         if (i > 14) {
           clearInterval(id); wheel.classList.remove("spin"); wheel.textContent = "🎯 " + pick.title;
-          setTimeout(() => { location.hash = "#/speaking/mono/" + pick.id; }, 900);
+          setTimeout(() => { location.hash = `#/speaking/${kind}/${pick.id}`; }, 900);
         }
       }, 90);
       onLeave(() => clearInterval(id));
     };
+  }
+
+  // Oral self-assessment, using the criteria on the PD2 oral grading sheet.
+  const Q4 = [["Ringe", 0], ["Acceptabel", 1], ["God", 2], ["Særdeles god", 3]];
+  const ADQ = [["Ikke adækvat", 0], ["Delvis adækvat", 1], ["Stort set adækvat", 2], ["Adækvat", 3]];
+  const REP = [["Ikke mulig", 0], ["Megen", 1], ["Nogen", 2], ["Ingen", 3]];
+  const ORAL_RUBRIC = {
+    1: [
+      ["Opbygning og sammenhæng", "Har præsentationen en begyndelse, en midte og en slutning?", Q4],
+      ["Udtale", "Er du let at forstå?", Q4],
+      ["Besvarer spørgsmål", "Svarer du på det, eksaminator spørger om, og forklarer du nok?", ADQ],
+      ["Reparation", "Hvor meget skal lytteren gætte, hvad du mener? (Ingen = let at forstå)", REP],
+      ["Ordvalg", "Passende og varierede ord?", ADQ],
+      ["Syntaks", "Ordstilling: inversion, ledsætninger, placering af ikke.", Q4],
+      ["Morfologi", "Bøjning: en/et, flertal, verbernes tider.", Q4]
+    ],
+    2: [
+      ["Beskrivelse af billedet", "Fik du beskrevet personer, sted og handling?", [["Ikke dækkende", 0], ["Nogenlunde", 1.5], ["Dækkende", 3]]],
+      ["Besvarer spørgsmål", "Udtrykker og begrunder du dine synspunkter?", ADQ],
+      ["Forstår samtalepartneren", "Hvor tit skulle du have spørgsmålet gentaget?", REP],
+      ["Holder samtalen i gang", "Stiller du selv spørgsmål og bygger videre på det, den anden siger?", [["Slet ikke", 0], ["Stort set ikke", 1], ["Nogenlunde", 2], ["I høj grad", 3]]],
+      ["Ordvalg", "Passende og varierede ord?", ADQ],
+      ["Syntaks", "Ordstilling: inversion, ledsætninger, placering af ikke.", Q4],
+      ["Morfologi", "Bøjning: en/et, flertal, verbernes tider.", Q4],
+      ["Udtale", "Er du let at forstå?", Q4]
+    ]
+  };
+  function oralRubric(part) {
+    const rows = ORAL_RUBRIC[part], vals = {};
+    const box = document.createElement("div");
+    box.className = "oral-rubric";
+    box.innerHTML = `<h3 style="margin-top:20px">📋 Bedøm dig selv – som censor</h3>
+      <p class="small muted">Lyt til din optagelse, og vær ærlig. Kriterierne er de samme som på censors bedømmerark til den mundtlige prøve.</p>
+      <div class="rubric" style="text-align:left">${rows.map(([name, help, opts], i) => `
+        <div class="rrow"><div><b>${esc(name)}</b><div class="small muted">${esc(help)}</div></div>
+        <div class="seg" data-row="${i}">${opts.map(([l, v]) => `<button type="button" data-v="${v}">${esc(l)}</button>`).join("")}</div></div>`).join("")}
+      </div>
+      <div class="row" style="justify-content:center;margin-top:14px"><button type="button" class="btn speak" data-calc>Beregn karakter</button></div>
+      <div data-out></div>`;
+    $$(".seg", box).forEach(seg => $$("button", seg).forEach(b => b.onclick = () => {
+      vals[+seg.dataset.row] = +b.dataset.v;
+      $$("button", seg).forEach(x => x.classList.toggle("on", x === b));
+    }));
+    $("[data-calc]", box).onclick = () => {
+      if (rows.some((_, i) => vals[i] === undefined)) { toast("Vælg en vurdering i alle rækker."); return; }
+      const avg = rows.reduce((a, _, i) => a + vals[i], 0) / rows.length;
+      const g = toGrade(avg);
+      $("[data-out]", box).innerHTML = `<div class="result" style="margin-top:14px"><div class="grade" style="color:var(--speak)">${g}</div>
+        <p style="margin:6px 0 0;font-weight:800">Dit skøn på 7-trins-skalaen</p>
+        <p class="small muted" style="margin:4px 0 0">Kun et groft skøn – øv gerne med en lærer eller en ven.</p></div>`;
+      if (["12", "10", "7"].includes(g)) confetti();
+    };
+    return box;
   }
 
   function finishSpeaking(id, seconds, isDialog) {
@@ -956,7 +1028,10 @@
   function speakingMono(id) {
     const m = findItem("SPEAKING_MONO", id);
     if (!m) return speakingList();
-    let prepMin = 3, talkMin = 3;
+    let prepMin = 3, talkMin = (META().talkSeconds || 180) / 60;
+    const fmtMin = v => String(v).replace(".5", ",5");
+    const FQ = { opklarende: "Opklarende spørgsmål", uddybende: "Uddybende spørgsmål", begrundelse: "Begrund dit svar", generalisering: "Generelt spørgsmål" };
+    const qText = f => typeof f === "string" ? f : f.q;
     let phase = "setup", qi = 0, talked = 0;
     const steps = ["Forbered", "Tal", "Spørgsmål", "Feedback"];
     let rec = null, audioUrl = null, transcript = "";
@@ -978,14 +1053,15 @@
         <ul class="points-list">${m.points.map(p => `<li>${esc(p)}</li>`).join("")}</ul>
         <div class="row" style="justify-content:center;margin:18px 0;gap:24px">
           <span>Forberedelse: <span class="stepper"><button data-a="prep" data-d="-1" aria-label="Mindre">−</button><b id="prep">${prepMin}</b> min<button data-a="prep" data-d="1" aria-label="Mere">+</button></span></span>
-          <span>Taletid: <span class="stepper"><button data-a="talk" data-d="-1" aria-label="Mindre">−</button><b id="talk">${talkMin}</b> min<button data-a="talk" data-d="1" aria-label="Mere">+</button></span></span>
+          <span>Taletid: <span class="stepper"><button data-a="talk" data-d="-1" aria-label="Mindre">−</button><b id="talk">${fmtMin(talkMin)}</b> min<button data-a="talk" data-d="1" aria-label="Mere">+</button></span></span>
         </div>
+        ${META().talkSeconds ? `<p class="small muted">Til prøven: præsentation i ca. 1½ minut. Du må bruge stikord, men ikke læse op fra en tekst.</p>` : ""}
         <button class="btn speak" id="go">Start forberedelse</button>
         <button class="btn ghost" id="skip">Spring over – tal nu</button>`, 0);
       $$(".stepper button").forEach(b => b.onclick = () => {
         if (b.dataset.a === "prep") prepMin = Math.max(0, Math.min(15, prepMin + +b.dataset.d));
-        else talkMin = Math.max(1, Math.min(10, talkMin + +b.dataset.d));
-        $("#prep").textContent = prepMin; $("#talk").textContent = talkMin;
+        else talkMin = Math.max(0.5, Math.min(10, talkMin + b.dataset.d * 0.5));
+        $("#prep").textContent = prepMin; $("#talk").textContent = fmtMin(talkMin);
       });
       $("#go").onclick = prep;
       $("#skip").onclick = talk;
@@ -1042,9 +1118,9 @@
 
     function followUps() {
       phase = "follow";
-      const q = m.followUp[qi];
+      const f = m.followUp[qi], q = qText(f);
       shell(`
-        <span class="phase">Eksaminator spørger</span>
+        <span class="phase">${f.t ? esc(FQ[f.t]) : "Eksaminator spørger"}</span>
         <div class="dots" style="margin:12px 0">${m.followUp.map((_, i) => `<i class="${i <= qi ? "on" : ""}"></i>`).join("")}</div>
         <div class="bubble">🧑‍🏫 ${esc(q)}</div>
         <div class="row" style="justify-content:center;margin-top:16px">
@@ -1097,9 +1173,132 @@
       finishSpeaking(m.id, talked);
       $$("#rate button").forEach(b => b.onclick = () => $$("#rate button").forEach(x => x.classList.toggle("on", +x.dataset.r <= +b.dataset.r)));
       $("#again").onclick = () => speakingMono(id);
+      $(".stage").appendChild(oralRubric(1));
     }
 
     setup();
+  }
+
+  // Delprøve 2: look at a picture (½ min), describe it, answer questions, then talk with a partner.
+  function speakingPicture(id) {
+    const p = findItem("SPEAKING_PICTURE", id);
+    if (!p) return speakingList();
+    const steps = ["Se billedet", "Beskriv", "Spørgsmål", "Samtale", "Feedback"];
+    let pic = null, talked = 0, qi = 0, ti = 0, rec = null, t0 = 0, audioUrl = null;
+
+    function shell(inner, stepIdx) {
+      app.innerHTML = `
+        <a class="back" href="#/speaking">← Alle taleopgaver</a>
+        <h1>🖼️ ${esc(p.title)}${p.real ? ` <span class="tag real">Emne fra prøven ${p.year}</span>` : ""}</h1>
+        <div class="grid" style="grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:20px" id="pl">
+          <div class="card stage">
+            <div class="steps">${steps.map((s, i) => `<span class="${i === stepIdx ? "on" : i < stepIdx ? "done" : ""}">${i + 1}. ${s}</span>`).join("")}</div>
+            ${inner}
+          </div>
+          <div class="card">
+            <h3>💬 Nyttige vendinger</h3>
+            <div class="chips">${p.phrases.map(x => `<span class="chip">${esc(x)}</span>`).join("")}</div>
+            ${pic ? `<details class="info" style="margin-top:14px"><summary>💡 Ord du kan bruge om billedet</summary><div class="chips">${pic.words.map(w => `<span class="chip">${esc(w)}</span>`).join("")}</div></details>` : ""}
+          </div>
+        </div>`;
+      if (innerWidth < 900) $("#pl").style.gridTemplateColumns = "1fr";
+    }
+    const picture = () => `<div class="picture" role="img" aria-label="Billede til opgaven">${esc(pic.scene).replace(/\n/g, "<br>")}</div>`;
+
+    // A mic button that records one answer; returns the transcript when stopped.
+    function micControls(onNext, nextLabel) {
+      const mic = $("#mic");
+      mic.onclick = async () => {
+        if (!rec) { rec = makeRecorder($("#tr")); await rec.start(); t0 = Date.now(); mic.classList.add("on"); mic.textContent = "⏹ Stop"; }
+        else { talked += (Date.now() - t0) / 1000; const u = await rec.stop(); if (u) audioUrl = u; rec = null; mic.classList.remove("on"); mic.textContent = "🎙️ Svar igen"; }
+      };
+      $("#next").textContent = nextLabel;
+      $("#next").onclick = async () => {
+        if (rec) { talked += (Date.now() - t0) / 1000; const u = await rec.stop(); if (u) audioUrl = u; rec = null; }
+        onNext();
+      };
+    }
+    const answerBox = `<div class="transcript" id="tr" style="max-width:560px;margin:14px auto"><i>Tryk på mikrofonen og svar.</i></div>
+      <div class="row" style="justify-content:center"><button class="btn rec" id="mic">🎙️ Svar</button><button class="btn speak" id="next"></button></div>`;
+
+    function choose() {
+      shell(`
+        <span class="phase">Emne: ${esc(p.title)}</span>
+        <p style="max-width:560px;margin:14px auto">Til prøven får hver prøvedeltager sit eget billede. Vælg et billede. Du får ½ minut til at se på det, før samtalen begynder.</p>
+        <div class="row" style="justify-content:center">${p.pictures.map((_, i) => `<button class="btn speak" data-pic="${i}">Billede ${i + 1}</button>`).join("")}</div>`, 0);
+      $$("[data-pic]").forEach(b => b.onclick = () => { pic = p.pictures[+b.dataset.pic]; look(); });
+    }
+    function look() {
+      let left = 30;
+      shell(`
+        <span class="phase">Se på billedet</span>
+        <div class="clock" id="clock" style="font-size:2.4rem">${fmtTime(left)}</div>
+        ${picture()}
+        <p class="small muted">Tænk over: Hvem? Hvor? Hvad laver de? Hvordan har de det?</p>
+        <button class="btn speak" id="ready">Jeg er klar</button>`, 0);
+      every(1000, () => { left--; const c = $("#clock"); if (c) c.textContent = fmtTime(Math.max(0, left)); if (left <= 0) describe(); });
+      $("#ready").onclick = describe;
+    }
+    function describe() {
+      clearTimers();
+      const q = "Vil du beskrive billedet? Hvad kan du se?";
+      shell(`
+        <span class="phase">Beskriv billedet</span>
+        ${picture()}
+        <div class="bubble">🧑‍🏫 ${esc(q)}</div>
+        ${answerBox}`, 1);
+      speak(q);
+      micControls(() => { qi = 0; interview(); }, "Videre til spørgsmål →");
+    }
+    function interview() {
+      const q = p.interview[qi];
+      shell(`
+        <span class="phase">Eksaminator spørger</span>
+        ${picture()}
+        <div class="dots" style="margin:12px 0">${p.interview.map((_, i) => `<i class="${i <= qi ? "on" : ""}"></i>`).join("")}</div>
+        <div class="bubble">🧑‍🏫 ${esc(q)}</div>
+        <div class="row" style="justify-content:center;margin-top:10px"><button class="btn ghost sm" id="say">🔊 Hør igen</button></div>
+        ${answerBox}`, 2);
+      speak(q);
+      $("#say").onclick = () => speak(q);
+      micControls(() => { if (qi < p.interview.length - 1) { qi++; interview(); } else { ti = 0; talk(); } },
+        qi < p.interview.length - 1 ? "Næste spørgsmål →" : "Videre til samtalen →");
+    }
+    function talk() {
+      const line = p.talk[ti];
+      const who = line.who === "partner" ? "👤 Din samtalepartner" : "🧑‍🏫 Eksaminator";
+      shell(`
+        <span class="phase">Samtale med en anden prøvedeltager</span>
+        <p class="small muted" style="max-width:560px;margin:10px auto">Til prøven taler du med den anden prøvedeltager. Svar, giv din mening med en begrundelse, og stil gerne et spørgsmål tilbage.</p>
+        <div class="dots" style="margin:12px 0">${p.talk.map((_, i) => `<i class="${i <= ti ? "on" : ""}"></i>`).join("")}</div>
+        <div class="bubble"><span class="small muted">${who}</span><br>${esc(line.say)}</div>
+        <div class="row" style="justify-content:center;margin-top:10px"><button class="btn ghost sm" id="say">🔊 Hør igen</button></div>
+        ${answerBox}`, 3);
+      speak(line.say);
+      $("#say").onclick = () => speak(line.say);
+      micControls(() => { if (ti < p.talk.length - 1) { ti++; talk(); } else feedback(); },
+        ti < p.talk.length - 1 ? "Næste →" : "Afslut");
+    }
+    function feedback() {
+      shell(`
+        <span class="phase">Godt klaret! 🎉</span>
+        <div class="row" style="justify-content:center;gap:12px;margin:12px 0 16px"><span class="pill">⏱️ ${fmtTime(talked)} talt</span></div>
+        ${audioUrl ? `<p><b>Hør dit sidste svar:</b></p><audio controls src="${audioUrl}" style="width:100%;max-width:480px"></audio>` : ""}
+        <ul class="points-list small" style="margin-top:14px">
+          <li>Beskrev jeg både personer, sted og hvad der sker?</li>
+          <li>Begrundede jeg mine meninger med "fordi …"?</li>
+          <li>Stillede jeg selv spørgsmål til min samtalepartner?</li>
+          <li>Gik jeg fra mine egne erfaringer til mere generelle synspunkter?</li>
+        </ul>
+        <div class="row" style="justify-content:center;margin-top:16px">
+          <button class="btn speak" id="again">Øv igen</button>
+          <a class="btn ghost" href="#/speaking">Nyt emne</a>
+        </div>`, 4);
+      finishSpeaking(p.id, talked, true);
+      $("#again").onclick = () => speakingPicture(id);
+      $(".stage").appendChild(oralRubric(2));
+    }
+    choose();
   }
 
   function speakingDialog(id) {

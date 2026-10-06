@@ -278,48 +278,7 @@ Hvis jeg kunne vælge, ville jeg bo i et lille hus lidt uden for byen. Så kan m
   }
 ];
 
-PD2.SPEAKING_MONO = [
-  {
-    id: "m1", title: "Fritid og hobbyer",
-    points: ["Hvad laver du i din fritid?", "Hvor ofte, og med hvem?", "Hvad lavede du i din fritid i dit hjemland?", "Hvad vil du gerne prøve i fremtiden?"],
-    followUp: ["Synes du, at danskerne har meget fritid?", "Hvad laver børn i Danmark i deres fritid?", "Er det dyrt at have en hobby i Danmark?"]
-  },
-  {
-    id: "m2", title: "Mad og madvaner",
-    points: ["Hvad spiser du til morgenmad, frokost og aftensmad?", "Hvem laver mad hjemme hos dig?", "Hvilken ret fra dit hjemland kan du bedst lide?", "Hvad synes du om dansk mad?"],
-    followUp: ["Hvad er forskellen på madvaner i Danmark og i dit hjemland?", "Er det vigtigt at spise sundt? Hvorfor?", "Har du smagt rugbrød eller frikadeller?"]
-  },
-  {
-    id: "m3", title: "Arbejde og uddannelse",
-    points: ["Hvad arbejder eller studerer du med nu?", "Hvad lavede du i dit hjemland?", "Hvad er dit drømmejob?", "Hvad skal du gøre for at få det job?"],
-    followUp: ["Hvad er vigtigt for dig ved et job?", "Hvordan er det at søge arbejde i Danmark?", "Hvad synes du om danske arbejdspladser?"]
-  },
-  {
-    id: "m4", title: "Bolig",
-    points: ["Hvor bor du nu, og hvordan ser din bolig ud?", "Hvad kan du lide ved dit kvarter?", "Hvordan boede du i dit hjemland?", "Hvor vil du helst bo i fremtiden – by eller land?"],
-    followUp: ["Er det svært at finde en bolig i Danmark?", "Hvad er fordelene ved at bo i en lejlighed?", "Kender du dine naboer?"]
-  },
-  {
-    id: "m5", title: "Sundhed og motion",
-    points: ["Hvad gør du for at holde dig sund?", "Dyrker du sport eller motion?", "Hvordan er det danske sundhedssystem?", "Hvad er sundt og usundt for dig?"],
-    followUp: ["Hvorfor cykler mange danskere?", "Hvad gør du, når du bliver syg?", "Skal staten hjælpe folk med at leve sundt?"]
-  },
-  {
-    id: "m6", title: "Ferie og rejser",
-    points: ["Hvor har du været på ferie?", "Hvad kan du lide at lave på ferie?", "Hvordan holder man ferie i dit hjemland?", "Hvor vil du gerne rejse hen en dag?"],
-    followUp: ["Hvad er det bedste sted i Danmark, du har besøgt?", "Er det bedst at rejse alene eller sammen med andre?", "Hvordan holder danskerne ferie?"]
-  },
-  {
-    id: "m7", title: "Familie og traditioner",
-    points: ["Fortæl om din familie.", "Hvilke traditioner har I i din familie?", "Hvordan fejrer I fødselsdage?", "Hvilke danske traditioner kender du?"],
-    followUp: ["Hvad synes du om jul i Danmark?", "Er familien vigtigere i dit hjemland end i Danmark?", "Hvilken tradition vil du gerne give videre til dine børn?"]
-  },
-  {
-    id: "m8", title: "Transport",
-    points: ["Hvordan kommer du rundt i hverdagen?", "Hvad er fordele og ulemper ved bil, bus og cykel?", "Hvordan var transport i dit hjemland?", "Hvad synes du om offentlig transport i Danmark?"],
-    followUp: ["Er det for dyrt at have bil i Danmark?", "Hvorfor tror du, at mange danskere cykler hele året?", "Hvordan kan vi gøre transport mere miljøvenlig?"]
-  }
-];
+// PD2.SPEAKING_MONO (presentation topics) is defined in data-pd2-extra.js.
 
 PD2.SPEAKING_DIALOG = [
   {

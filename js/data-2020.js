@@ -11,6 +11,7 @@
   const opg1 = {
     id: "p20-1",
     group: G,
+    real: true,
     title: "Opgave 1 – Find informationen",
     kind: "Delprøve 1 · kort svar",
     level: 2,
@@ -79,6 +80,7 @@
   const opg3 = {
     id: "p20-3",
     group: G,
+    real: true,
     title: "Opgave 3 – Ida bor på kollegium",
     kind: "Delprøve 2 · udfyld hullerne",
     level: 2,
@@ -106,6 +108,7 @@ Men alt i alt er Ida [[20]] med at bo på kollegiet, fordi hun bor centralt og h
   const opg4 = {
     id: "p20-4",
     group: G,
+    real: true,
     title: "Opgave 4 – Kærlighed på internettet",
     kind: "Delprøve 2 · find sætningen",
     level: 3,
@@ -146,6 +149,7 @@ Men alt i alt er Ida [[20]] med at bo på kollegiet, fordi hun bor centralt og h
   const opg5 = {
     id: "p20-5",
     group: G,
+    real: true,
     title: "Opgave 5 – Interview med Frank",
     kind: "Delprøve 2 · match spørgsmål og svar",
     level: 3,

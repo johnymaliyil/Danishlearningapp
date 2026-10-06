@@ -7,6 +7,7 @@ PD2.EXAMS.pd2 = {
   WRITING: PD2.WRITING,
   SPEAKING_MONO: PD2.SPEAKING_MONO,
   SPEAKING_DIALOG: PD2.SPEAKING_DIALOG,
+  SPEAKING_PICTURE: PD2.SPEAKING_PICTURE,
   WORDS: PD2.WORDS
 };
 
@@ -29,9 +30,11 @@ PD2.EXAM_META = {
     name: "PD2",
     full: "Prøve i Dansk 2",
     cefr: "B1",
-    tagline: "Rigtige opgaver fra 2020 plus øvelser i læsning, skrivning og tale.",
-    readingIntro: "Prøvesættet fra maj-juni 2020 har de officielle svar. Delprøve 2 (opgave 3-5) tager 60 minutter til prøven.",
-    writingIntro: "Mails og holdningstekster med skrivecoach og bedømmelse.",
+    tagline: "Rigtige prøveopgaver fra 2019 og 2020 plus øvesæt i samme format.",
+    readingIntro: "To rigtige prøvesæt (2020 med de officielle svar, 2019 med svar fundet ud fra teksterne) og to øvesæt i samme format. Til prøven tager delprøve 1 (opgave 1-2) 30 minutter og delprøve 2 (opgave 3-5) 60 minutter.",
+    writingIntro: "Rigtige prøveopgaver fra 2019 plus mails og holdningstekster med skrivecoach og bedømmelse.",
+    writingMinutes: 45,
+    talkSeconds: 90,
     writingParts: {
       1: "Delprøve 1 · give faktuelle informationer, fortælle, beskrive",
       2: "Delprøve 2 · fortælle, beskrive, udtrykke synspunkter"
@@ -52,7 +55,16 @@ PD2.EXAM_META = {
       <b>Delprøve 2:</b> fortælle, beskrive, udtrykke synspunkter.</p>
       <p>Censor vurderer: om instruktionen er fulgt, reparation (hvor let teksten er at forstå), pragmatisk færdighed, diskursiv færdighed
       (delprøve 2: retorisk organisering, kohærens og kohæsion) og lingvistisk færdighed (ordvalg, syntaks, morfologi, retskrivning).</p>
-      <p class="small muted">Karakter gives på 7-trins-skalaen: 12, 10, 7, 4, 02, 00, -3.</p>`
+      <p>Til prøven har du <b>1½ time</b> til begge delprøver, og du må bruge <b>alle ordbøger</b>. I delprøve 1 vælger du mellem to opgaver (fx en klage eller en anbefaling). I delprøve 2 skriver du fx en e-mail på mindst 100 ord (tal fra prøven maj-juni 2019).</p>
+      <p class="small muted">Karakter gives på 7-trins-skalaen: 12, 10, 7, 4, 02, 00, -3.</p>
+      <h3>🗣️ Mundtlig kommunikation</h3>
+      <p>Den mundtlige prøve tager man to og to. Niveauet ligger mellem B1 og B2.</p>
+      <table class="simple">
+        <tr><th>Delprøve</th><th>Indhold</th><th>Tid</th></tr>
+        <tr><td>1</td><td><b>Præsentation</b> af et emne, du selv har valgt og forberedt (ca. 1½ min.). Du må bruge stikord, men ikke læse op. Derefter <b>opfølgende spørgsmål</b> fra eksaminator (ca. 3½ min.).</td><td>10 min. pr. par</td></tr>
+        <tr><td>2</td><td>Du får et <b>billede</b> og ½ minut til at se på det. Du beskriver billedet og svarer på eksaminators spørgsmål (ca. 3 min.). Til sidst en <b>samtale</b> med den anden prøvedeltager om emnet (ca. 4 min.).</td><td>10 min. pr. par</td></tr>
+      </table>
+      <p class="small muted" style="margin-top:8px">Eksaminator stiller fire slags spørgsmål: opklarende ("Vil du ikke forklare det lidt nærmere?"), uddybende ("Kan du ikke fortælle lidt mere om det?"), spørgsmål om begrundelse ("Hvordan kan det så være, at …?") og om generalisering ("Hvad synes du så generelt, forskellen er på …?"). Emner til delprøve 2 i 2019: Husarbejde, At lære noget nyt som voksen, Transport til arbejde. I 2020: Gæster, Et godt job, At spare penge i hverdagen.</p>`
   },
   pd3: {
     name: "PD3",

@@ -265,6 +265,13 @@ main { max-width: 1120px; margin: 0 auto; padding: 24px 20px 80px; outline: none
 .sec-h { margin: 18px 0 10px; color: var(--read); }
 .mini-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; }
 .mini-card { background: var(--surface-2); border-radius: 12px; padding: 12px 14px; font-size: .92rem; line-height: 1.5; }
+.mini-card { white-space: pre-line; }
+.picture {
+  margin: 14px auto; max-width: 420px; padding: 26px 18px; border-radius: 18px; border: 6px solid var(--surface);
+  background: linear-gradient(160deg, var(--speak-soft), var(--read-soft)); box-shadow: var(--shadow), 0 0 0 1px var(--border);
+  font-size: clamp(2.4rem, 9vw, 3.6rem); line-height: 1.5; letter-spacing: .12em;
+}
+.oral-rubric .seg button.on { background: var(--speak); }
 .mini-card h4 { margin: 0 0 2px; font-size: 1rem; font-weight: 900; }
 .mini-card .sub { font-size: .8rem; color: var(--muted); margin-bottom: 4px; }
 .mini-card .facts { margin-top: 6px; font-weight: 800; font-size: .82rem; }

@@ -42,7 +42,7 @@ The service worker only runs over HTTPS (or on `localhost`), so test it on dansk
 | Exam | Files | Content |
 |------|-------|---------|
 | PD1 (A2) | `js/data-pd1.js` | Original practice material: 4 reading tasks, 5 writing tasks, 6 speaking topics, 3 dialogues, 32 words |
-| PD2 (B1) | `js/data.js`, `js/data-2020.js` | The real May–June 2020 reading set plus original practice material |
+| PD2 (B1) | `js/data-2020.js`, `js/data-2019.js`, `js/data-pd2-extra.js`, `js/data.js` | Real exam sets from May–June 2020 (reading, official answers) and May–June 2019 (reading opgave 1–5, writing tasks, oral topics; answers worked out from the texts). Two practice sets in the same format, presentation topics with the exam's four follow-up question types, picture-and-conversation tasks, oral self-assessment with the official criteria, and more writing tasks |
 | PD3 (B2) | `js/data-pd3.js` | Original practice material: 4 reading tasks, 5 writing tasks, 6 speaking topics, 3 dialogues, 32 words |
 
 `js/exams.js` holds each exam's name, level, descriptions and info page.
