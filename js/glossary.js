@@ -9323,4 +9323,15 @@ udendørsbassinet=the outdoor pool
 udlejeren=the landlord
 universitetshospital=university hospital
 årskort=annual pass
+ophavsret=copyright
+mærket=marked, labelled
+offentliggjort=published
+øvemateriale=practice material
+ophavsretten=the copyright
+tilhører=belongs to
+tegningerne=the drawings
+læseopgaverne=the reading tasks
+oversættelser=translations
+rettighedshaver=rights holder
+fjernet=removed
 `;

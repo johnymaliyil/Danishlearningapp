@@ -2455,6 +2455,13 @@
           <h2>🗣️ Mundtlig prøve</h2>
           <p>Taleøvelserne i appen træner både at tale sammenhængende om et emne og at føre en dialog. Tjek de præcise regler og tider for din egen prøve hos din sprogskole.</p>
         </div>
+        <div class="card" id="kilder">
+          <h2>📚 Kilder og ophavsret</h2>
+          <p>Opgaverne, der er mærket <b>Rigtig prøve</b>, kommer fra tidligere prøver i Prøve i Dansk, som de danske myndigheder har offentliggjort som øvemateriale. Ophavsretten tilhører dem, der har lavet prøverne. Tegningerne til de mundtlige opgaver er lavet af <b>Niels Roland</b>, og teksterne i læseopgaverne har deres egne kilder, som står ved hver opgave.</p>
+          <p>Alt andet er lavet til DanskKlar: modelsvar, skabeloner, oversættelser, øvesæt, grammatik, spil og ordtræner.</p>
+          <p>DanskKlar er gratis og ikke-kommercielt og bruges kun til at øve sig til prøverne. Er du rettighedshaver og ønsker, at noget bliver fjernet, så <a href="https://github.com/johnymaliyil/Danishlearningapp/issues" target="_blank" rel="noopener">skriv til os her</a>. Så fjerner vi det hurtigst muligt.</p>
+          <p class="small muted" lang="en">🇬🇧 Tasks marked "Rigtig prøve" come from past Prøve i Dansk exams that the Danish authorities have published as practice material; the copyright belongs to their makers. The oral illustrations are by Niels Roland, and the reading texts keep their own sources, listed with each task. Everything else (model answers, templates, translations, practice sets, grammar, games and the word trainer) was made for DanskKlar. DanskKlar is free and non-commercial. If you are a rights holder and want something removed, please contact us via the link above and it will be taken down promptly.</p>
+        </div>
         <p class="small muted">DanskKlar er et uofficielt øveprogram og har ingen forbindelse til de myndigheder, der afholder prøverne.</p>
       </div>`;
   }
