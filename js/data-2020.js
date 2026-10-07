@@ -1,9 +1,8 @@
 // Prøve i Dansk 2, maj-juni 2020 – skriftlig del, læseforståelse.
 // Texts and answer keys transcribed from the official exam papers
-// (teksthæfte delprøve 1, tekst- og opgavehæfte delprøve 2, censorhæfte).
-// The question booklet for delprøve 1 was not available, so the opgave 1
-// questions are reconstructed from the official answer key (rettenøgle).
-// Opgave 2 is left out because its text was not included.
+// (teksthæfte og opgavehæfte delprøve 1, tekst- og opgavehæfte delprøve 2,
+// censorhæfte), plus the skriftlig fremstilling tasks. All reading answers are
+// the official ones from the rettenøgle; the writing model answers were written for DanskKlar.
 
 (function () {
   const G = "PD2 maj-juni 2020";
@@ -16,8 +15,8 @@
     kind: "Delprøve 1 · kort svar",
     level: 2,
     minutes: 25,
-    note: "Spørgsmål 1-6 er genskabt ud fra den officielle rettenøgle. Spørgsmål 7-12 er ekstra træning med de samme tekster.",
-    instruction: "Læs teksterne. Skriv svaret (navnet på holdet, adressen eller bageriet) på linjen.",
+    note: "Spørgsmål 1-6 er prøvens egne spørgsmål. Spørgsmål 7-11 er ekstra træning med de samme tekster.",
+    instruction: "Svar på spørgsmålene (1-6). Find oplysningerne i teksterne. Svar kort og præcist. Se eksemplet: \"På hvilket motionshold er der rabat for pensionister?\" – Motionsgymnastik.",
     sections: [
       {
         heading: "AK aftenskole – Motionshold",
@@ -62,18 +61,60 @@
       }
     ],
     questions: [
-      { type: "short", n: 1, q: "Fatima vil gerne træne på et hold, hvor der kun er kvinder. Hvilket hold skal hun vælge?", accept: ["aerobic"] },
-      { type: "short", n: 2, q: "Familien Berg vil gerne bo tæt på en badestrand, og forældrene vil gerne have deres eget badeværelse. Hvilket hus passer til dem?", accept: ["køgevej 112", "køgevej"] },
-      { type: "short", n: 3, q: "Jens og Lise vil gerne have en carport og et udhus til deres cykler. Hvilket hus passer til dem?", accept: ["smedevej 76", "smedevej"] },
-      { type: "short", n: 4, q: "Et ungt par skal købe deres første bolig. De tager toget på arbejde og vil gerne bo tæt på stationen. Hvilket hus passer til dem?", accept: ["kildevej 59", "kildevej"] },
-      { type: "short", n: 5, q: "Familien Nielsen træner meget og vil gerne have et fitnessrum i kælderen. Hvilket hus passer til dem?", accept: ["stormøllevej 85", "stormøllevej"] },
-      { type: "short", n: 6, q: "Maja vil gerne selv blande sine småkager, ligesom når man køber bland-selv-slik. Hvilket bageri skal hun gå til?", accept: ["småkagehuset"] },
+      { type: "short", n: 1, q: "Hvilket motionshold er kun for kvinder?", accept: ["aerobic"] },
+      { type: "short", n: 2, q: "Hvad er adressen på den bolig, som ligger tæt på en strand?", accept: ["køgevej 112", "køgevej"] },
+      { type: "short", n: 3, q: "Hvad er adressen på den bolig, som har et nyt badeværelse?", accept: ["smedevej 76", "smedevej"] },
+      { type: "short", n: 4, q: "Hvad er adressen på den bolig, som ligger tæt på en station?", accept: ["kildevej 59", "kildevej"] },
+      { type: "short", n: 5, q: "Hvad er adressen på den bolig, som har en kælder med fitnessrum?", accept: ["stormøllevej 85", "stormøllevej"] },
+      { type: "short", n: 6, q: "I hvilket bageri kan man købe boller, som er bagt i stenovn?", accept: ["småkagehuset"] },
       { type: "short", n: 7, extra: true, q: "Hvilket hold er kun for mænd?", accept: ["mand og motion"] },
-      { type: "short", n: 8, extra: true, q: "Hvilket hold giver rabat til pensionister?", accept: ["motionsgymnastik"] },
-      { type: "short", n: 9, extra: true, q: "På hvilket hold bliver træningen ledet af en fysioterapeut?", accept: ["styrke og bevægelighed"] },
-      { type: "short", n: 10, extra: true, q: "Hvilket hus har en tagterrasse?", accept: ["vordingborgvej 264", "vordingborgvej"] },
-      { type: "short", n: 11, extra: true, q: "Hvilket hus har en kælder med festlokale?", accept: ["langesvej 63", "langesvej"] },
-      { type: "short", n: 12, extra: true, q: "Hvor kan man købe glutenfrit brød om onsdagen?", accept: ["schweizerbageriet", "schweizer bageriet"] }
+      { type: "short", n: 8, extra: true, q: "På hvilket hold bliver træningen ledet af en fysioterapeut?", accept: ["styrke og bevægelighed"] },
+      { type: "short", n: 9, extra: true, q: "Hvilket hus har en tagterrasse?", accept: ["vordingborgvej 264", "vordingborgvej"] },
+      { type: "short", n: 10, extra: true, q: "Hvilket hus har en kælder med festlokale?", accept: ["langesvej 63", "langesvej"] },
+      { type: "short", n: 11, extra: true, q: "Hvor kan man købe glutenfrit brød om onsdagen?", accept: ["schweizerbageriet", "schweizer bageriet"] }
+    ]
+  };
+
+  const opg2 = {
+    id: "p20-2",
+    group: G,
+    real: true,
+    title: "Opgave 2 – Annoncer",
+    kind: "Delprøve 1 · find annoncen",
+    level: 2,
+    minutes: 15,
+    instruction: "Læs annoncerne (A-I). Der mangler et eller flere ord i hver annonce. Find den annonce, der passer til ordene på listen (7-12). Der er to annoncer, du ikke skal bruge. Se eksemplet (0).",
+    sections: [
+      {
+        heading: "Annoncer",
+        cards: [
+          { title: "A – Ny tandklinik i centrum", body: "Vi benytter nyeste teknologi inden for tandbehandling.\nFå den første tandrensning til halv pris.\n■■■■■■\nEller kom og hør, hvad vi kan gøre for dig. Alle er velkomne!\nTandlægerne Frisch, tlf. 84 75 63 07, Østergade 34" },
+          { title: "B", body: "■■■■■■\nVi tilbyder vikarjob inden for netop din branche. Lige nu mangler vi fx akut tømrere og murere til nybyggeri.\nSend os en ansøgning eller kig forbi.\nFlexvikar, Møllegade 88. Tlf. 21 13 42 10, flexvikar@centrum.dk" },
+          { title: "C", body: "■■■■■■\nJeg har ryddet op og har følgende ting til overs: sofabord, lille skab og en lænestol.\nAlt er brugt, men i fin stand. Kan afhentes gratis.\nKontakt Sofie på tlf. 63 84 03 29" },
+          { title: "D – Reception for Ole Larsen", body: "Praktiserende læge Ole Larsen går på pension. Klinikken holder derfor reception torsdag d. 6/8 kl. 16-17.\n■■■■■■\nFamilielægerne i Nygade" },
+          { title: "E – Alt til badeværelset", body: "Hos os finder du alt i møbler og udstyr til badeværelset. Kom og se vores store udvalg. Mange forskellige designs og materialer.\nRabat i uge 21:\n■■■■■■\nZehler i City-centret" },
+          { title: "F – Ferielukket", body: "Sommeren er over os, og vi lukker derfor klinikken fra d. 13/7 til 2/8.\n■■■■■■\nGod sommer til alle vores patienter.\nØrelægerne Bak Nielsen, Torvet 1" },
+          { title: "G – Rent hjem", body: "Vi har alt, hvad du har brug for til den daglige rengøring af din bolig. Stort udvalg af miljøvenlige produkter til rensning af møbler og tæpper.\nUgens tilbud i webshoppen:\n■■■■■■\nwww.rent-nu.dk" },
+          { title: "H", body: "■■■■■■\nSå kontakt byens bedste håndværkerteam – vi skaber et uderum, som du kan nyde hele sommeren. Vi bruger kun de bedste materialer!\nKontakt os og få et godt tilbud.\nHåndværkerteamet, tlf. 49 58 95 30" },
+          { title: "I", body: "■■■■■■\nVi er en familie på fem, som har brug for et par flittige hænder til støvsugning, gulvvask, vinduespudsning m.m.\nUgentlig arbejdstid: 6 timer. Løn efter aftale.\nKontakt Maria på tlf. 88 42 47 58" }
+        ]
+      }
+    ],
+    questions: [
+      {
+        type: "match",
+        q: "Hvilken annonce mangler ordene?",
+        options: ["B", "C", "D", "E", "F", "G", "H", "I"],
+        items: [
+          { n: 0, text: "Ring og bestil tid nu.", answer: "A", example: true },
+          { n: 7, text: "20 % på spejle og håndvaske.", answer: "E" },
+          { n: 8, text: "Skal du have ny terrasse?", answer: "H" },
+          { n: 9, text: "Alle patienter er velkomne.", answer: "D" },
+          { n: 10, text: "Rengøringshjælp søges.", answer: "I" },
+          { n: 11, text: "Møbler gives væk.", answer: "C" },
+          { n: 12, text: "Er du håndværker?", answer: "B" }
+        ]
+      }
     ]
   };
 
@@ -188,5 +229,86 @@ Men alt i alt er Ida [[20]] med at bo på kollegiet, fordi hun bor centralt og h
     ]
   };
 
-  PD2.READING.unshift(opg1, opg3, opg4, opg5);
+  PD2.READING.unshift(opg1, opg2, opg3, opg4, opg5);
+
+  // ---------- Skriftlig fremstilling 2020 (tasks from the exam; model answers written for DanskKlar) ----------
+  PD2.WRITING.unshift(
+    {
+      id: "w20a", delprove: 1, real: true, year: 2020,
+      title: "A: En invitation (2020)",
+      kind: "Prøveopgave · invitation til en cykeltur",
+      minWords: 80, maxWords: 150,
+      situation: "Du vil arrangere en cykeltur for alle medarbejderne på din arbejdsplads. Du vil skrive en invitation. Du skal begynde og afslutte invitationen på en passende måde. (Til prøven vælger du opgave A eller B.)",
+      points: ["Hvorfor du gerne vil arrangere en cykeltur", "Hvor I skal cykle hen, og hvad I skal se på turen", "Hvornår I skal afsted (dato og tidspunkt)", "Hvordan man kan melde sig til turen"],
+      phrases: ["Kom med på cykeltur!", "Hej alle sammen", "Jeg skriver, fordi …", "Vi cykler fra … til …", "Vi mødes … kl. …", "Hvis du vil med, så …"],
+      model: `Kom med på cykeltur!
+
+Hej alle sammen
+
+Jeg hedder Jonas fra lageret, og jeg skriver, fordi jeg gerne vil arrangere en cykeltur for alle os, der arbejder her. Vi har haft travlt i lang tid, og jeg synes, det kunne være hyggeligt at lave noget sammen uden for arbejdet.
+
+Vi cykler langs fjorden fra Vejle til Jelling. Undervejs holder vi pause ved Fårup Sø, hvor vi spiser frokost, og i Jelling skal vi se de berømte runesten. Turen er cirka 25 kilometer i alt.
+
+Vi mødes lørdag den 13. juni kl. 10 ved hovedindgangen, og vi er tilbage ved 16-tiden.
+
+Hvis du vil med, så ring eller skriv til mig på 23 45 67 89 senest fredag den 5. juni.
+
+På forhånd tak!
+
+Mange hilsner
+Jonas`
+    },
+    {
+      id: "w20b", delprove: 1, real: true, year: 2020,
+      title: "B: Et opslag om et sommerhus (2020)",
+      kind: "Prøveopgave · opslag på Facebook",
+      minWords: 80, maxWords: 150,
+      situation: "Du har et sommerhus. Du vil gerne leje dit sommerhus ud. Du vil skrive et opslag på Facebook. Du skal begynde og afslutte opslaget på en passende måde. (Til prøven vælger du opgave A eller B.)",
+      points: ["Hvor i Danmark dit sommerhus ligger", "Lidt om sommerhuset, og hvor mange personer der er plads til", "Lidt om det område, hvor sommerhuset ligger", "Hvad det koster at leje sommerhuset pr. uge, og hvordan du kan kontaktes"],
+      phrases: ["Sommerhus til leje!", "Hej alle sammen", "Sommerhuset ligger i …", "Der er plads til … personer.", "I nærheden er der …", "Det koster … kr. pr. uge."],
+      model: `Sommerhus til leje ved Vesterhavet!
+
+Hej alle sammen
+
+Jeg hedder Sara, og jeg skriver, fordi jeg gerne vil leje mit sommerhus ud i sommerferien.
+
+Sommerhuset ligger i Søndervig ved Vesterhavet i Vestjylland. Det er på 80 m² og har tre soveværelser, et stort køkken og en stue med brændeovn. Der er plads til seks personer.
+
+Området er perfekt til en ferie med familien. Der er kun 300 meter til en bred sandstrand, og der er gode cykelstier, en golfbane og et lille supermarked i nærheden.
+
+Det koster 4.500 kr. pr. uge at leje huset. Prisen er inklusive el og vand.
+
+Hvis du er interesseret, så ring eller skriv til mig på 31 22 44 55 eller send en besked her på Facebook.
+
+På forhånd tak!
+
+Mange hilsner
+Sara`
+    },
+    {
+      id: "w20c", delprove: 2, real: true, year: 2020,
+      title: "En e-mail om dit nye job (2020)",
+      kind: "Prøveopgave · e-mail til en ven · mindst 100 ord",
+      minWords: 100, maxWords: 180,
+      situation: "Du har fået en e-mail fra din ven Johan. Han skriver bl.a.: \"Jeg har hørt, at du har fået nyt job. Tillykke med det! Skriv og fortæl mig lidt om, hvilke arbejdsopgaver du har, og hvad du synes om dem.\" Skriv et svar til Johan og fortæl, hvilke arbejdsopgaver du har på dit nye job, og hvad du synes om dem. Du skal skrive minimum 100 ord.",
+      points: ["Fortæl, hvad dit nye job er, og hvor du arbejder", "Fortæl, hvilke arbejdsopgaver du har", "Fortæl, hvad du synes om arbejdsopgaverne, og hvorfor", "Fortæl, hvordan du har det med dine nye kolleger"],
+      phrases: ["Hej Johan", "Tak for din mail.", "Jeg arbejder nu som …", "Mine arbejdsopgaver er at …", "Jeg er glad for …, fordi …", "Mange hilsner"],
+      model: `Hej Johan
+
+Tak for din mail. Det var dejligt at høre fra dig. Jeg håber, at du har det godt. Jeg har det fint.
+
+Du spørger om mit nye job, og det vil jeg gerne fortælle dig lidt om.
+
+For det første arbejder jeg nu som køkkenmedhjælper på et plejehjem i Aarhus. Jeg arbejder 30 timer om ugen, og jeg møder kl. 7 om morgenen.
+
+Derudover er mine arbejdsopgaver at lave morgenmad og frokost til beboerne, at gøre køkkenet rent og at tage imod varer, når de bliver leveret. Nogle gange hjælper jeg også med at servere maden i spisesalen.
+
+Til sidst vil jeg sige, at jeg er rigtig glad for mit nye job. Det er travlt, men mine kolleger er søde, og beboerne er altid glade, når maden kommer. Jeg lærer også meget dansk hver dag.
+
+Jeg glæder mig til at høre fra dig. Vi ses snart!
+
+Mange hilsner
+Amina`
+    }
+  );
 })();

@@ -32,7 +32,7 @@ PD2.EXAM_META = {
     cefr: "B1",
     tagline: "Rigtige prøveopgaver fra 2012-2020 plus øvesæt i samme format.",
     readingIntro: "Ni rigtige prøvesæt (2020 med de officielle svar; 2019, 2018, 2016, 2014 og 2013 to gange (maj-juni og nov.-dec.) og 2012 med svar fundet ud fra teksterne) og to øvesæt i samme format. Til prøven tager delprøve 1 (opgave 1-2) 30 minutter og delprøve 2 (opgave 3-5) 60 minutter.",
-    writingIntro: "Rigtige prøveopgaver fra 2012, 2013, 2014, 2016, 2018 og 2019 plus mails og holdningstekster med skrivecoach og bedømmelse.",
+    writingIntro: "Rigtige prøveopgaver fra 2012, 2013, 2014, 2016, 2018, 2019 og 2020 plus mails og holdningstekster med skrivecoach og bedømmelse.",
     writingMinutes: 45,
     talkSeconds: 90,
     writingParts: {

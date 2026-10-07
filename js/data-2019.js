@@ -212,7 +212,9 @@ Han siger, at han håber, at de vil [[18]] den dårlige oplevelse. Alligevel er 
   PD2.READING.splice(at < 0 ? PD2.READING.length : at, 0, opg1, opg2, opg3, opg4, opg5);
 
   // ---------- Skriftlig fremstilling 2019 (tasks from the exam; model answers written for DanskKlar) ----------
-  PD2.WRITING.unshift(
+  // Right after the 2020 tasks (newest first).
+  const w20 = PD2.WRITING.findIndex(w => w.year !== 2020);
+  PD2.WRITING.splice(w20 < 0 ? PD2.WRITING.length : w20, 0,
     {
       id: "w19a", delprove: 1, real: true, year: 2019,
       title: "A: En klage (2019)",

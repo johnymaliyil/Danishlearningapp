@@ -2,6 +2,56 @@
 // Each translation has the same paragraphs, in the same order, as the Danish model answer,
 // so the app can show them side by side.
 PD2.MODEL_EN = {
+  w20a: `Come on a bike ride!
+
+Hi everyone
+
+My name is Jonas from the warehouse, and I am writing because I would like to arrange a bike ride for all of us who work here. We have been busy for a long time, and I think it could be nice to do something together outside work.
+
+We will cycle along the fjord from Vejle to Jelling. On the way we will stop at Fårup Lake, where we will have lunch, and in Jelling we will see the famous rune stones. The trip is about 25 kilometres in total.
+
+We will meet on Saturday 13 June at 10 o'clock at the main entrance, and we will be back at around 4 pm.
+
+If you want to come, call or text me on 23 45 67 89 by Friday 5 June at the latest.
+
+Thanks in advance!
+
+Best wishes
+Jonas`,
+  w20b: `Summer house for rent by the North Sea!
+
+Hi everyone
+
+My name is Sara, and I am writing because I would like to rent out my summer house during the summer holidays.
+
+The summer house is in Søndervig by the North Sea in West Jutland. It is 80 m² and has three bedrooms, a large kitchen and a living room with a wood-burning stove. There is room for six people.
+
+The area is perfect for a family holiday. It is only 300 metres to a wide sandy beach, and there are good cycle paths, a golf course and a small supermarket nearby.
+
+It costs 4,500 kr. per week to rent the house. The price includes electricity and water.
+
+If you are interested, call or text me on 31 22 44 55 or send a message here on Facebook.
+
+Thanks in advance!
+
+Best wishes
+Sara`,
+  w20c: `Hi Johan
+
+Thank you for your email. It was lovely to hear from you. I hope you are well. I am fine.
+
+You ask about my new job, and I would like to tell you a little about it.
+
+Firstly, I now work as a kitchen assistant at a care home in Aarhus. I work 30 hours a week, and I start at 7 o'clock in the morning.
+
+In addition, my tasks are to make breakfast and lunch for the residents, to clean the kitchen and to receive goods when they are delivered. Sometimes I also help to serve the food in the dining room.
+
+Finally, I would like to say that I am really happy with my new job. It is busy, but my colleagues are nice, and the residents are always happy when the food arrives. I also learn a lot of Danish every day.
+
+I look forward to hearing from you. See you soon!
+
+Best wishes
+Amina`,
   "pd1-w1": `Hi Jonas
 
 Sorry, but I can't come to football tonight. My son is ill, and I have to look after him.
