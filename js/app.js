@@ -8,7 +8,7 @@
   // ---------- Storage ----------
   const KEY = "pd2-trainer-v1";
   const today = () => new Date().toISOString().slice(0, 10);
-  const blank = () => ({ exam: "pd2", xp: 0, xpDay: { date: today(), xp: 0 }, streak: 0, lastDay: null, badges: [], reading: {}, writing: {}, speaking: { sessions: 0, seconds: 0, done: {} }, words: { best: 0 }, games: { best: {}, played: {} }, vocab: { b: {}, h: {}, dir: "da", say: false }, grammar: {} });
+  const blank = () => ({ exam: "pd2", xp: 0, xpDay: { date: today(), xp: 0 }, streak: 0, lastDay: null, badges: [], reading: {}, writing: {}, speaking: { sessions: 0, seconds: 0, done: {} }, words: { best: 0 }, games: { best: {}, played: {} }, vocab: { b: {}, h: {}, dir: "da", say: false }, grammar: {}, mistakes: { reading: {}, grammar: {} }, exams: [], plan: { date: "" }, today: { date: "" } });
   let S = blank();
   try {
     const raw = localStorage.getItem(KEY);
@@ -18,6 +18,10 @@
   S.games = Object.assign({ best: {}, played: {} }, S.games); // older saves
   S.vocab = Object.assign({ b: {}, h: {}, dir: "da", say: false }, S.vocab);
   S.grammar = S.grammar || {};
+  S.mistakes = Object.assign({ reading: {}, grammar: {} }, S.mistakes);
+  S.exams = S.exams || [];
+  S.plan = Object.assign({ date: "" }, S.plan);
+  S.today = S.today || { date: "" };
   if (S.words && S.words.best !== undefined && S.words.pd2 === undefined) S.words.pd2 = S.words.best; // older saves
   const EX = () => PD2.EXAMS[S.exam];
   // Find an item by id in the current exam, or switch to the exam that has it (e.g. a shared link).
@@ -89,6 +93,15 @@
     if (S.streak >= 3) award("streak3");
     if (S.streak >= 7) award("streak7");
   }
+
+  // What was practised today (used by the study plan).
+  function bump(kind) {
+    const d = today();
+    if (S.today.date !== d) S.today = { date: d };
+    S.today[kind] = (S.today[kind] || 0) + 1;
+    save();
+  }
+  const todayCount = kind => (S.today.date === today() ? S.today[kind] || 0 : 0);
 
   function addXP(n, why) {
     if (n <= 0) return;
@@ -275,6 +288,7 @@
     [/^\/writing\/skabeloner(?:\/(\w+))?$/, templatesPage],
     [/^\/writing\/([\w-]+)$/, writingItem],
     [/^\/speaking$/, speakingList],
+    [/^\/speaking\/sim(?:\/(\w+))?$/, speakingSim],
     [/^\/speaking\/mono\/([\w-]+)$/, speakingMono],
     [/^\/speaking\/dialog\/([\w-]+)$/, speakingDialog],
     [/^\/speaking\/picture\/([\w-]+)$/, speakingPicture],
@@ -284,6 +298,9 @@
     [/^\/games\/(\w+)$/, gameRoute],
     [/^\/grammar$/, grammarList],
     [/^\/grammar\/([\w-]+)$/, grammarLesson],
+    [/^\/exam$/, examPage],
+    [/^\/plan$/, planPage],
+    [/^\/mistakes$/, mistakesPage],
     [/^\/about$/, about]
   ];
   function route() {
@@ -440,6 +457,11 @@
         </div>
       </section>
 
+      ${(() => { const st = planStatus(); return `<a class="card plan-banner" href="#/plan">
+        <span class="pb-ico">📅</span><span class="pb-meta"><b>${esc(countdownText())}</b>
+        <span class="small muted">${S.plan.date ? `Dagens plan: ${st.done}/${st.items.length} klaret` : "Lav en prøveplan med opgaver til hver dag"}</span></span>
+        <span class="bar pb-bar"><i style="width:${st.items.length ? st.done / st.items.length * 100 : 0}%"></i></span></a>`; })()}
+
       <div class="grid grid-3" style="margin-top:20px">
         ${taskCard("read", "#/reading", "📖", "Læsning", META().readingIntro.split(". ")[0].replace(/\.$/, "") + ".", rd, rt, "opgaver løst")}
         ${taskCard("write", "#/writing", "✍️", "Skrivning", META().writingIntro, wd, wt, "tekster bedømt")}
@@ -447,6 +469,16 @@
       </div>
 
       <div class="grid grid-2" style="margin-top:16px">
+        ${S.exam === "pd2" ? `<a class="task read" href="#/exam">
+          <span class="emoji">📝</span>
+          <h2>Prøvesimulering</h2>
+          <p class="muted" style="margin:0">Tag en hel skriftlig prøve med tid og få et anslået resultat.${S.exams.length ? ` Sidst: <b>${S.exams[0].score}/${S.exams[0].total}</b> (${esc(S.exams[0].grade)}).` : ""}</p>
+        </a>` : ""}
+        <a class="task write" href="#/mistakes">
+          <span class="emoji">❌</span>
+          <h2>Mine fejl</h2>
+          <p class="muted" style="margin:0">${mistakeCount() ? `Du har <b>${mistakeCount()}</b> fejl at øve. Lav dem igen, til de sidder.` : "Her samles dine forkerte svar, så du kan øve dem igen."}</p>
+        </a>
         <a class="task words" href="#/games/vocab">
           <span class="emoji">📚</span>
           <h2>Ordtræner</h2>
@@ -525,7 +557,8 @@
         </div>`).join("")}`;
   }
 
-  function readingItem(id) {
+  // exam (optional): { header: () => html, done: (score, total) => {} } – used by the mock exam.
+  function readingItem(id, exam) {
     const r = findItem("READING", id);
     if (!r) return readingList();
     const answers = {}; // key -> value
@@ -589,12 +622,12 @@
     }).join("");
 
     app.innerHTML = `
-      <a class="back" href="#/reading">← Alle læseopgaver</a>
+      ${exam ? exam.header() : `<a class="back" href="#/reading">← Alle læseopgaver</a>`}
       <div class="row"><h1 style="margin:0">${esc(r.title)}</h1></div>
       <p class="muted">${r.real ? `<span class="tag real">Rigtig prøve · ${esc(r.group.replace("PD2 ", ""))}</span> ` : ""}${esc(r.kind)}</p>
-      <div class="row" style="margin-bottom:16px">
+      ${exam ? "" : `<div class="row" style="margin-bottom:16px">
         ${r.minutes ? `<button class="btn ghost sm" id="timerBtn">⏱️ Start prøvetid (${r.minutes} min)</button><span class="timer" id="timer"></span>` : ""}
-      </div>
+      </div>`}
       <div class="reader ${solo ? "solo" : ""}">
         <div class="card text">
           ${r.instruction ? `<div class="instruction">${esc(r.instruction)}</div>` : ""}
@@ -606,7 +639,7 @@
           ${solo ? "" : "<h2>Spørgsmål</h2>"}
           ${qHtml}
           <div class="row" style="margin-top:18px">
-            <button class="btn read" id="check">Tjek svar</button>
+            <button class="btn read" id="check">${exam ? "Aflevér og gå videre →" : "Tjek svar"}</button>
             <button class="btn ghost" id="retry" hidden>Prøv igen</button>
           </div>
           <div id="result" style="margin-top:16px"></div>
@@ -650,6 +683,7 @@
       checked = true;
       let score = 0, total = 0, mainScore = 0, mainTotal = 0;
       const tally = (ok, extra) => { total++; if (ok) score++; if (!extra) { mainTotal++; if (ok) mainScore++; } };
+      const wrongItems = []; // for "Mine fejl"
       r.questions.forEach((q, qi) => {
         if (q.type === "gaps") {
           let wrong = [];
@@ -657,7 +691,7 @@
             const sel = $(`[data-key="g${n}"]`);
             const ok = q.open ? [].concat(a).some(x => norm(x) === norm(sel.value)) : sel.value === a;
             sel.classList.add(ok ? "ok" : "bad"); sel.disabled = true;
-            if (!ok) wrong.push(`(${n}) ${[].concat(a)[0]}`);
+            if (!ok) { wrong.push(`(${n}) ${[].concat(a)[0]}`); wrongItems.push({ q: `Hul ${n}`, a: [].concat(a)[0] }); }
             tally(ok);
           });
           const fb = $("#fb-gaps");
@@ -670,7 +704,7 @@
             const ok = sel.value === it.answer;
             sel.classList.add(ok ? "ok" : "bad"); sel.disabled = true;
             const fb = $(`#fb-m${qi}-${ii}`);
-            if (!ok) { fb.className = "fb bad"; fb.textContent = `Rigtigt svar: ${it.answer}`; }
+            if (!ok) { fb.className = "fb bad"; fb.textContent = `Rigtigt svar: ${it.answer}`; wrongItems.push({ q: (it.n !== undefined ? it.n + ". " : "") + it.text, a: it.answer }); }
             tally(ok);
           });
         } else {
@@ -687,10 +721,15 @@
           });
           fb.className = "fb " + (ok ? "ok" : "bad");
           fb.textContent = ok ? "✓ Rigtigt" : `✗ Rigtigt svar: ${correctText}`;
+          if (!ok) wrongItems.push({ q: (q.n !== undefined ? q.n + ". " : "") + q.q, a: correctText });
           tally(ok, q.extra);
         }
       });
 
+      if (wrongItems.length) S.mistakes.reading[r.id] = { date: today(), items: wrongItems.slice(0, 15) };
+      else delete S.mistakes.reading[r.id];
+      bump("reading");
+      if (exam) { save(); exam.done(mainScore, mainTotal); return; }
       const prev = S.reading[r.id];
       const isNewBest = !prev || score > prev.best;
       S.reading[r.id] = { best: Math.max(score, prev ? prev.best : 0), total };
@@ -963,6 +1002,7 @@
         $$("button", seg).forEach(x => x.classList.toggle("on", x === b));
       }));
       $("#calc").onclick = () => {
+        bump("writing");
         const filled = rows.map((_, i) => vals[i]);
         if (filled.some(v => v === undefined || v === null)) { toast("Vælg en vurdering i alle rækker."); return; }
         const instr = filled[0], rest = filled.slice(1);
@@ -997,6 +1037,9 @@
     const examFormat = pics.length > 0;
     app.innerHTML = `
       <h1>🗣️ Tale <span class="tag">${META().name} · ${META().cefr}</span></h1>
+      ${pics.length ? `<a class="task speak" href="#/speaking/sim" style="display:block;margin:10px 0 18px">
+        <span class="emoji">🎬</span><h2>Mundtlig prøvesimulering</h2>
+        <p class="muted" style="margin:0">Begge delprøver lige efter hinanden: præsentation med spørgsmål og billede med samtale.</p></a>` : ""}
       <p class="muted">Øv dig i at tale frit. Appen kan læse spørgsmål op på dansk, optage dig og skrive det, du siger, så du kan høre og læse det bagefter.
       Live-tekst virker bedst i Chrome eller Edge.</p>
       <div class="card" style="margin-top:16px;text-align:center">
@@ -1093,6 +1136,7 @@
 
   function finishSpeaking(id, seconds, isDialog) {
     S.speaking.sessions++;
+    bump("speaking");
     S.speaking.seconds += Math.round(seconds);
     const first = !S.speaking.done[id];
     S.speaking.done[id] = true;
@@ -1251,6 +1295,7 @@
       $$("#rate button").forEach(b => b.onclick = () => $$("#rate button").forEach(x => x.classList.toggle("on", +x.dataset.r <= +b.dataset.r)));
       $("#again").onclick = () => speakingMono(id);
       $(".stage").appendChild(oralRubric(1));
+      simNext("mono", m.id);
     }
 
     setup();
@@ -1376,6 +1421,7 @@
       finishSpeaking(p.id, talked, true);
       $("#again").onclick = () => speakingPicture(id);
       $(".stage").appendChild(oralRubric(2));
+      simNext("pic", p.id);
     }
     choose();
   }
@@ -1520,6 +1566,354 @@
     intro();
   }
 
+  // ---------- Exam preparation: study plan, my mistakes, mock exam, oral simulation ----------
+  // The official point-to-grade table is set per exam after the exam, so this is only an estimate.
+  const GRADES = [[0.9, "12"], [0.78, "10"], [0.62, "7"], [0.5, "4"], [0.4, "02"], [0.2, "00"], [0, "-3"]];
+  const estGrade = pct => GRADES.find(([p]) => pct >= p)[1];
+  const dayNo = d => Math.round(new Date(d + "T00:00:00").getTime() / 864e5);
+  const daysUntil = d => (d ? dayNo(d) - dayNo(today()) : null);
+  const findAny = (list, id) => { for (const k of Object.keys(PD2.EXAMS)) { const x = (PD2.EXAMS[k][list] || []).find(i => i.id === id); if (x) return x; } return null; };
+  const mistakeCount = () => Object.keys(S.mistakes.reading).length + Object.keys(S.mistakes.grammar).length + Object.keys(S.vocab.h).length;
+
+  // ----- Min prøveplan -----
+  function planItems() {
+    const days = daysUntil(S.plan.date), idx = dayNo(today());
+    const items = [];
+    const pick = (list, isDone) => list.find(x => !isDone(x)) || list[idx % list.length];
+    if (S.exam === "pd2" && days !== null && days >= 1 && days <= 14 && days % 3 === 1)
+      items.push({ ico: "📝", text: "Prøvesimulering: hele den skriftlige prøve", kind: "exam", href: "#/exam" });
+    const r = pick(EX().READING, x => S.reading[x.id]);
+    if (r) items.push({ ico: "📖", text: `Læs: ${r.title}`, kind: "reading", href: `#/reading/${r.id}` });
+    items.push({ ico: "📚", text: "Ordtræner: én runde (10 ord)", kind: "vocab", href: "#/games/vocab" });
+    const g = pick(PD2.GRAMMAR, x => { const b = gramBest(x.id); return b && b.score === b.total; });
+    items.push({ ico: "📐", text: `Grammatik: ${g.title}`, kind: "grammar", href: `#/grammar/${g.id}` });
+    const mono = EX().SPEAKING_MONO.map(m => ({ x: m, href: `#/speaking/mono/${m.id}` }));
+    const pics = (EX().SPEAKING_PICTURE || []).map(p => ({ x: p, href: `#/speaking/picture/${p.id}` }));
+    const sp = pick(idx % 2 ? pics.concat(mono) : mono.concat(pics), s => S.speaking.done[s.x.id]);
+    if (sp) items.push({ ico: "🗣️", text: `Tal: ${sp.x.title}`, kind: "speaking", href: sp.href });
+    if (idx % 2 === 0) {
+      const w = pick(EX().WRITING, x => S.writing[x.id] && S.writing[x.id].best);
+      if (w) items.push({ ico: "✍️", text: `Skriv og bedøm: ${w.title}`, kind: "writing", href: `#/writing/${w.id}` });
+    }
+    if (mistakeCount()) items.push({ ico: "❌", text: "Gennemgå dine fejl", kind: "mistakes", href: "#/mistakes" });
+    items.forEach(it => { it.done = todayCount(it.kind) > 0; });
+    return items;
+  }
+  function planStatus() {
+    const items = planItems(), done = items.filter(i => i.done).length;
+    if (done === items.length && items.length) {
+      S.plan.log = S.plan.log || {};
+      if (!S.plan.log[today()]) { S.plan.log[today()] = true; save(); addXP(30, "dagens plan"); }
+    }
+    return { items, done };
+  }
+  const countdownText = () => {
+    const d = daysUntil(S.plan.date);
+    if (d === null) return "Sæt din prøvedato";
+    if (d > 1) return `${d} dage til prøven`;
+    if (d === 1) return "Prøven er i morgen!";
+    if (d === 0) return "I dag er prøvedagen – held og lykke! 🍀";
+    return "Prøven er overstået – sæt en ny dato";
+  };
+
+  function planPage() {
+    const d = daysUntil(S.plan.date);
+    const { items, done } = planStatus();
+    const tip = d === null ? "Sæt din prøvedato, så tilpasser planen sig, jo tættere du kommer på prøven."
+      : d > 30 ? "Fokus nu: ordforråd og grammatik. Små daglige skridt giver mest."
+      : d > 7 ? "Øv alle tre dele hver uge, og skriv mindst to tekster om ugen."
+      : d >= 1 ? "Sidste uge: lav prøvesimuleringer, gennemgå dine fejl, og sov godt."
+      : "";
+    const log = S.plan.log || {};
+    const week = Array.from({ length: 7 }, (_, i) => { const t = new Date(Date.now() - (6 - i) * 864e5).toISOString().slice(0, 10); return { t, ok: !!log[t] }; });
+    app.innerHTML = `
+      <a class="back" href="#/">← Forside</a>
+      <h1>📅 Min prøveplan <span class="tag">${META().name}</span></h1>
+      <div class="card stage">
+        <div class="word-big" style="font-size:clamp(1.6rem,6vw,2.4rem)">${esc(countdownText())}</div>
+        <label class="row" style="justify-content:center;gap:8px">Min prøvedato:
+          <input type="date" id="planDate" value="${esc(S.plan.date)}" class="short" style="width:auto;padding:6px 10px"></label>
+        ${tip ? `<p class="muted" style="margin-bottom:0">💡 ${esc(tip)}</p>` : ""}
+      </div>
+      <h2 style="margin-top:22px">I dag <span class="muted small">${done}/${items.length} klaret</span></h2>
+      <div class="bar" style="margin-bottom:12px"><i style="width:${items.length ? done / items.length * 100 : 0}%"></i></div>
+      <div class="stack">${items.map(it => `<a class="list-item plan-item ${it.done ? "done" : ""}" href="${it.href}">
+          <span class="ico">${it.ico}</span><span class="meta"><b>${esc(it.text)}</b></span>
+          <span class="score-badge ${it.done ? "full" : ""}">${it.done ? "✓" : "Start"}</span></a>`).join("")}</div>
+      ${done === items.length && items.length ? `<p class="card" style="margin-top:12px;font-weight:800">🎉 Dagens plan er klaret! Kom igen i morgen.</p>` : ""}
+      <h2 style="margin-top:22px">De sidste 7 dage</h2>
+      <div class="week">${week.map(w => `<span class="${w.ok ? "ok" : ""}" title="${w.t}">${["S", "M", "T", "O", "T", "F", "L"][new Date(w.t + "T00:00:00").getDay()]}</span>`).join("")}</div>
+      <p class="small muted">Planen ændrer sig hver dag og vælger opgaver, du ikke har lavet endnu. Opgaverne bliver krydset af automatisk, når du laver dem.</p>`;
+    $("#planDate").onchange = e => { S.plan.date = e.target.value; save(); planPage(); };
+  }
+
+  // ----- Mine fejl -----
+  function mistakesPage() {
+    bump("mistakes");
+    const rd = Object.entries(S.mistakes.reading).map(([id, m]) => ({ r: findAny("READING", id), m })).filter(x => x.r);
+    const gr = Object.entries(S.mistakes.grammar).map(([id, m]) => ({ g: PD2.GRAMMAR.find(x => x.id === id), m })).filter(x => x.g);
+    const hard = Object.keys(S.vocab.h).length;
+    const list = items => `<ul class="mistakes">${items.map(it => `<li><span>${esc(it.q)}</span> <b>→ ${esc(it.a)}</b></li>`).join("")}</ul>`;
+    app.innerHTML = `
+      <a class="back" href="#/">← Forside</a>
+      <h1>❌ Mine fejl</h1>
+      <p class="muted">Her samles de spørgsmål, du har svaret forkert på. Lav opgaven igen – når du får alt rigtigt, forsvinder den fra listen.</p>
+      ${!rd.length && !gr.length && !hard ? `<div class="card stage"><div class="word-big">🎉</div><p style="font-weight:800">Ingen fejl lige nu. Flot!</p></div>` : ""}
+      ${rd.length ? `<h2>📖 Læsning <span class="muted small">${rd.length} opgaver</span></h2>
+        <div class="stack">${rd.map(({ r, m }) => `<div class="card">
+          <div class="row"><b>${esc(r.title)}</b>${r.group ? `<span class="tag">${esc(r.group)}</span>` : ""}<span class="spacer"></span>
+          <a class="btn read sm" href="#/reading/${r.id}">Prøv igen</a></div>${list(m.items)}</div>`).join("")}</div>` : ""}
+      ${gr.length ? `<h2 style="margin-top:20px">📐 Grammatik <span class="muted small">${gr.length} lektioner</span></h2>
+        <div class="stack">${gr.map(({ g, m }) => `<div class="card">
+          <div class="row"><b>${g.ico} ${esc(g.title)}</b><span class="spacer"></span><a class="btn write sm" href="#/grammar/${g.id}">Prøv igen</a></div>${list(m.items)}</div>`).join("")}</div>` : ""}
+      ${hard ? `<h2 style="margin-top:20px">📚 Svære ord</h2>
+        <div class="card row"><span><b>${hard}</b> ord, du har svaret forkert på i Ordtræneren.</span><span class="spacer"></span>
+        <a class="btn words sm" href="#/games/vocab">Øv de svære ord</a></div>` : ""}
+      ${rd.length || gr.length ? `<p style="margin-top:20px"><button class="btn ghost sm" id="clearMistakes">Ryd listen</button></p>` : ""}`;
+    const c = $("#clearMistakes");
+    if (c) c.onclick = () => {
+      if (!c.dataset.armed) { c.dataset.armed = "1"; c.textContent = "Sikker? Klik igen"; return; }
+      S.mistakes = { reading: {}, grammar: {} }; save(); mistakesPage();
+    };
+  }
+
+  // ----- Prøvesimulering (mock written exam, PD2) -----
+  let MOCK = null;
+  function mockSets() {
+    const g = {};
+    PD2.EXAMS.pd2.READING.filter(r => r.real).forEach(r => (g[r.group] = g[r.group] || []).push(r));
+    return Object.entries(g).filter(([, rs]) => rs.length >= 5).map(([name, rs]) => {
+      const reading = rs.slice().sort((a, b) => a.id.localeCompare(b.id));
+      const wp = reading[0].id.replace(/^p/, "w").replace(/-\d+$/, "");
+      const writing = PD2.EXAMS.pd2.WRITING.filter(w => new RegExp(`^${wp}[abc]$`).test(w.id));
+      return { name, reading, writing };
+    });
+  }
+  const MOCK_MIN = { d1: 30, d2: 60, w: 90 };
+  const MOCK_NAME = { d1: "Læseforståelse 1", d2: "Læseforståelse 2", w: "Skriftlig fremstilling" };
+  function mockClock() {
+    const el = $("#mockClock");
+    if (!el || !MOCK) return;
+    const st = MOCK.steps[MOCK.step], part = st && st.part;
+    if (!part || !MOCK.start[part]) return;
+    const left = MOCK_MIN[part] * 60 - (Date.now() - MOCK.start[part]) / 1000;
+    el.textContent = left >= 0 ? `⏱️ ${fmtTime(left)} tilbage` : `⏰ +${fmtTime(-left)} over tiden`;
+    el.classList.toggle("over", left < 0);
+    el.classList.toggle("low", left >= 0 && left < 300);
+  }
+  function mockHeader() {
+    const st = MOCK.steps[MOCK.step];
+    const readSteps = MOCK.steps.filter(s => s.type === "reading"), k = readSteps.indexOf(st);
+    return `<div class="mock-bar">
+      <b>📝 Prøvesimulering · ${esc(MOCK.set.name)}</b>
+      <span class="pill">${MOCK_NAME[st.part]}${k >= 0 ? ` · opgave ${k + 1}/${readSteps.length}` : ""}</span>
+      <span class="pill" id="mockClock"></span><span class="spacer"></span>
+      <button class="btn ghost sm" id="mockQuit">Afbryd</button></div>`;
+  }
+  function mockBind() {
+    mockClock();
+    const q = $("#mockQuit");
+    if (q) q.onclick = () => {
+      if (!q.dataset.armed) { q.dataset.armed = "1"; q.textContent = "Sikker? Klik igen"; return; }
+      MOCK = null; examPage();
+    };
+  }
+  function mockStep() {
+    const st = MOCK.steps[MOCK.step];
+    if (st.part && !MOCK.start[st.part]) MOCK.start[st.part] = Date.now();
+    if (!MOCK.ticking) { MOCK.ticking = true; every(1000, mockClock); onLeave(() => { if (MOCK) MOCK.ticking = false; }); }
+    if (st.type === "reading") {
+      readingItem(st.id, {
+        header: mockHeader,
+        done: (score, total) => {
+          MOCK.results.push({ id: st.id, part: st.part, score, total });
+          if (!MOCK.steps[MOCK.step + 1] || MOCK.steps[MOCK.step + 1].part !== st.part) MOCK.end[st.part] = Date.now();
+          MOCK.step++; mockStep(); window.scrollTo(0, 0);
+        }
+      });
+      mockBind();
+    } else if (st.type === "writing") mockWriting();
+    else mockResult();
+  }
+  function mockWriting() {
+    const d1 = MOCK.set.writing.filter(w => w.delprove === 1), d2 = MOCK.set.writing.find(w => w.delprove === 2);
+    MOCK.texts = MOCK.texts || { choice: d1[0] && d1[0].id, t1: "", t2: "" };
+    const task = w => `<div class="instruction" style="background:var(--write-soft)">${esc(w.situation)}</div>
+      <ul class="points-list small">${w.points.map(p => `<li>${esc(p)}</li>`).join("")}</ul>`;
+    app.innerHTML = `${mockHeader()}
+      <h1>✍️ Skriftlig fremstilling</h1>
+      <p class="muted">Du har 1½ time til begge delprøver. Vælg opgave A eller B i delprøve 1, og skriv derefter delprøve 2. Til den rigtige prøve skriver du i hånden – og du må bruge ordbøger.</p>
+      <div class="card">
+        <h2>Delprøve 1</h2>
+        <div class="row" style="margin-bottom:10px">${d1.map(w => `<button class="chip ${MOCK.texts.choice === w.id ? "on" : ""}" data-choose="${w.id}">${esc(w.title)}</button>`).join("")}</div>
+        ${d1.filter(w => w.id === MOCK.texts.choice).map(task).join("")}
+        <textarea class="editor" id="mw1" lang="da" spellcheck="false" placeholder="Skriv din tekst her …">${esc(MOCK.texts.t1)}</textarea>
+        <p class="small muted" id="mw1c"></p>
+      </div>
+      ${d2 ? `<div class="card" style="margin-top:16px">
+        <h2>Delprøve 2: ${esc(d2.title)}</h2>${task(d2)}
+        <textarea class="editor" id="mw2" lang="da" spellcheck="false" placeholder="Skriv din e-mail her …">${esc(MOCK.texts.t2)}</textarea>
+        <p class="small muted" id="mw2c"></p>
+      </div>` : ""}
+      <div class="row" style="margin-top:16px"><button class="btn write" id="mwDone">Aflevér og se resultatet →</button></div>`;
+    mockBind();
+    const w1 = d1.find(w => w.id === MOCK.texts.choice);
+    const count = () => {
+      MOCK.texts.t1 = $("#mw1").value; if ($("#mw2")) MOCK.texts.t2 = $("#mw2").value;
+      $("#mw1c").textContent = `${countWords(MOCK.texts.t1)} ord (mål: ${w1.minWords}-${w1.maxWords})`;
+      if (d2) $("#mw2c").textContent = `${countWords(MOCK.texts.t2)} ord (mindst ${d2.minWords})`;
+    };
+    $$("#mw1, #mw2").forEach(t => t.oninput = count);
+    count();
+    $$("[data-choose]").forEach(b => b.onclick = () => { count(); MOCK.texts.choice = b.dataset.choose; mockWriting(); });
+    $("#mwDone").onclick = () => { count(); MOCK.end.w = Date.now(); MOCK.step++; mockStep(); window.scrollTo(0, 0); };
+  }
+  function mockResult() {
+    const res = MOCK.results, score = res.reduce((a, r) => a + r.score, 0), total = res.reduce((a, r) => a + r.total, 0);
+    const pct = total ? score / total : 0, grade = estGrade(pct);
+    const used = p => MOCK.start[p] && MOCK.end[p] ? Math.round((MOCK.end[p] - MOCK.start[p]) / 60000) : null;
+    if (!MOCK.saved) {
+      MOCK.saved = true;
+      S.exams.unshift({ date: today(), set: MOCK.set.name, score, total, grade, writing: MOCK.withWriting });
+      S.exams = S.exams.slice(0, 20);
+      bump("exam"); addXP(50, "prøvesimulering"); save();
+      if (+grade >= 7 || grade === "10" || grade === "12") confetti();
+    }
+    const written = MOCK.withWriting ? [[MOCK.texts.choice, MOCK.texts.t1], [(MOCK.set.writing.find(w => w.delprove === 2) || {}).id, MOCK.texts.t2]]
+      .filter(([id]) => id).map(([id, text]) => ({ w: PD2.EXAMS.pd2.WRITING.find(x => x.id === id), text })) : [];
+    app.innerHTML = `
+      <a class="back" href="#/exam">← Prøvesimulering</a>
+      <h1>📝 Dit resultat · ${esc(MOCK.set.name)}</h1>
+      <div class="card stage">
+        <div class="word-big">${score}/${total}</div>
+        <p style="font-weight:800;margin:0">Læseforståelse · anslået karakter: <span class="grade-pill ${["02", "00", "-3"].includes(grade) && grade !== "02" ? "fail" : ""}">${grade}</span></p>
+        <p class="small muted">Karakteren er et skøn. Til den rigtige prøve fastsættes omregningen fra point til karakter for hver prøve. 02 eller derover er bestået.</p>
+      </div>
+      <div class="card" style="margin-top:16px">
+        <table class="simple"><tr><th>Opgave</th><th>Point</th></tr>
+          ${res.map(r => `<tr><td>${esc(findAny("READING", r.id).title)}</td><td><b>${r.score}</b>/${r.total}</td></tr>`).join("")}
+        </table>
+        <p class="small muted" style="margin-bottom:0">Tid brugt: ${["d1", "d2"].map(p => used(p) !== null ? `${MOCK_NAME[p]} ${used(p)} af ${MOCK_MIN[p]} min` : "").filter(Boolean).join(" · ")}</p>
+      </div>
+      ${written.map(({ w, text }) => {
+        const a = analyse(text, w);
+        return `<div class="card" style="margin-top:16px">
+          <h3>✍️ ${esc(w.title)}</h3>
+          <ul class="checks">${a.checks.map(([k, t]) => `<li><span class="i">${k === "ok" ? "✅" : "💡"}</span><span>${esc(t)}</span></li>`).join("")}</ul>
+          <button class="btn write sm" data-assess="${w.id}">Bedøm teksten og se modelsvaret →</button>
+        </div>`;
+      }).join("")}
+      <div class="row" style="margin-top:16px">
+        <button class="btn read" id="mockAgain">Ny prøvesimulering</button>
+        <a class="btn ghost" href="#/mistakes">Se dine fejl</a>
+      </div>`;
+    $$("[data-assess]").forEach(b => b.onclick = () => {
+      const id = b.dataset.assess, text = written.find(x => x.w.id === id).text;
+      S.writing[id] = Object.assign(S.writing[id] || { ticks: [] }, { draft: text }); save();
+      location.hash = `#/writing/${id}`;
+    });
+    $("#mockAgain").onclick = () => { MOCK = null; examPage(); };
+  }
+  function examPage() {
+    if (MOCK && MOCK.steps[MOCK.step]) return mockStep();
+    if (S.exam !== "pd2") {
+      app.innerHTML = `<a class="back" href="#/">← Forside</a><h1>📝 Prøvesimulering</h1>
+        <div class="card"><p>Prøvesimuleringen bruger rigtige prøvesæt fra PD2.</p><button class="btn read" id="toPd2">Skift til PD2</button></div>`;
+      $("#toPd2").onclick = () => { S.exam = "pd2"; save(); renderStats(); examPage(); };
+      return;
+    }
+    const sets = mockSets();
+    app.innerHTML = `
+      <a class="back" href="#/">← Forside</a>
+      <h1>📝 Prøvesimulering</h1>
+      <p class="muted">Tag en hel skriftlig PD2-prøve under prøvelignende forhold: med tid, uden facit undervejs og med et anslået resultat til sidst.</p>
+      <div class="card">
+        <table class="simple"><tr><th>Del</th><th>Opgaver</th><th>Tid</th></tr>
+          <tr><td>Læseforståelse 1</td><td>Opgave 1-2</td><td>30 min</td></tr>
+          <tr><td>Læseforståelse 2</td><td>Opgave 3-5</td><td>60 min</td></tr>
+          <tr><td>Skriftlig fremstilling</td><td>Delprøve 1 (A eller B) + delprøve 2</td><td>1½ time</td></tr>
+        </table>
+        <label class="row" style="margin-top:14px;gap:8px">Prøvesæt:
+          <select id="mockSet" class="short" style="width:auto;padding:8px">
+            <option value="">🎲 Tilfældigt</option>${sets.map((s, i) => `<option value="${i}">${esc(s.name)}</option>`).join("")}
+          </select></label>
+        <label class="tick" style="margin-top:8px"><input type="checkbox" id="mockWrite" checked> <span>Med skriftlig fremstilling (hele prøven, ca. 3 timer)</span></label>
+        <p class="small muted">Tip: Sæt dig et roligt sted, sluk telefonen, og lad være med at kigge i bøger under læseforståelsen – ligesom til prøven.</p>
+        <button class="btn read" id="mockStart">Start prøven</button>
+      </div>
+      ${S.exams.length ? `<h2 style="margin-top:22px">Dine tidligere simuleringer</h2>
+        <div class="card"><table class="simple"><tr><th>Dato</th><th>Prøvesæt</th><th>Point</th><th>Karakter</th></tr>
+        ${S.exams.map(e => `<tr><td>${esc(e.date)}</td><td>${esc(e.set)}</td><td>${e.score}/${e.total}</td><td><b>${esc(e.grade)}</b></td></tr>`).join("")}</table></div>` : ""}`;
+    $("#mockStart").onclick = () => {
+      const v = $("#mockSet").value, set = v === "" ? sets[Math.floor(Math.random() * sets.length)] : sets[+v];
+      const withWriting = $("#mockWrite").checked && set.writing.length > 0;
+      const steps = set.reading.map((r, i) => ({ type: "reading", id: r.id, part: i < 2 ? "d1" : "d2" }));
+      if (withWriting) steps.push({ type: "writing", part: "w" });
+      steps.push({ type: "result" });
+      MOCK = { set, withWriting, steps, step: 0, results: [], start: {}, end: {} };
+      mockStep(); window.scrollTo(0, 0);
+    };
+  }
+
+  // ----- Mundtlig prøvesimulering -----
+  let SIM = null;
+  function speakingSim(arg) {
+    const pics = EX().SPEAKING_PICTURE || [], monos = EX().SPEAKING_MONO;
+    if (arg === "done") {
+      app.innerHTML = `<a class="back" href="#/speaking">← Alle taleopgaver</a>
+        <div class="card stage"><div class="word-big">🎉</div>
+        <h1>Du har gennemført en hel mundtlig prøve!</h1>
+        <ul class="points-list" style="text-align:left;max-width:520px;margin:12px auto">
+          <li>Talte du sammenhængende i ca. 1½ minut i delprøve 1?</li>
+          <li>Svarede du på eksaminators spørgsmål med eksempler og begrundelser?</li>
+          <li>Beskrev du billedet og sagde din mening i delprøve 2?</li>
+          <li>Stillede du også spørgsmål i samtalen?</li>
+        </ul>
+        <div class="row" style="justify-content:center"><a class="btn speak" href="#/speaking/sim">Ny simulering</a><a class="btn ghost" href="#/speaking">Alle taleopgaver</a></div></div>`;
+      return;
+    }
+    if (!pics.length) {
+      app.innerHTML = `<a class="back" href="#/speaking">← Alle taleopgaver</a><h1>🎬 Mundtlig prøvesimulering</h1>
+        <div class="card"><p>Simuleringen bruger PD2-prøvens to delprøver. Skift til PD2 for at prøve den.</p></div>`;
+      return;
+    }
+    const rnd = a => a[Math.floor(Math.random() * a.length)];
+    const real = pics.filter(p => p.real);
+    let mono = rnd(monos), pic = rnd(real.length ? real : pics);
+    const draw = () => {
+      app.innerHTML = `<a class="back" href="#/speaking">← Alle taleopgaver</a>
+        <h1>🎬 Mundtlig prøvesimulering</h1>
+        <p class="muted">Gennemfør begge delprøver lige efter hinanden – som til den rigtige prøve. Find et roligt sted, og sig svarene højt.</p>
+        <div class="card">
+          <table class="simple"><tr><th>Delprøve</th><th>Indhold</th><th>Emne</th></tr>
+            <tr><td>1</td><td>Præsentation af et emne (ca. 1½ min.) og spørgsmål fra eksaminator</td><td><b>${esc(mono.title)}</b></td></tr>
+            <tr><td>2</td><td>Beskriv et billede, svar på spørgsmål, og tal med den anden deltager</td><td><b>${esc(pic.title)}</b></td></tr>
+          </table>
+          <div class="row" style="margin-top:14px"><button class="btn speak" id="simStart">Start delprøve 1</button><button class="btn ghost" id="simShuffle">🎲 Andre emner</button></div>
+          <p class="small muted">Til den rigtige prøve vælger og forbereder du selv emnet til delprøve 1 hjemmefra.</p>
+        </div>`;
+      $("#simShuffle").onclick = () => { mono = rnd(monos); pic = rnd(real.length ? real : pics); draw(); };
+      $("#simStart").onclick = () => { SIM = { step: 1, mono: mono.id, pic: pic.id }; location.hash = `#/speaking/mono/${mono.id}`; };
+    };
+    draw();
+  }
+  function simNext(kind, id) {
+    if (!SIM) return;
+    const box = document.createElement("div");
+    box.className = "sim-next";
+    if (kind === "mono" && SIM.step === 1 && SIM.mono === id) {
+      const p = findAny("SPEAKING_PICTURE", SIM.pic);
+      box.innerHTML = `<b>🎬 Delprøve 1 er færdig.</b> Næste: delprøve 2 – billede og samtale om "${esc(p.title)}".
+        <button class="btn speak sm" id="simGo">Videre til delprøve 2 →</button>`;
+      $(".stage").prepend(box);
+      $("#simGo").onclick = () => { SIM.step = 2; location.hash = `#/speaking/picture/${SIM.pic}`; };
+    } else if (kind === "pic" && SIM.step === 2 && SIM.pic === id) {
+      box.innerHTML = `<b>🎬 Delprøve 2 er færdig.</b> <button class="btn speak sm" id="simGo">Afslut prøvesimuleringen →</button>`;
+      $(".stage").prepend(box);
+      $("#simGo").onclick = () => { SIM = null; addXP(40, "mundtlig simulering"); location.hash = "#/speaking/sim/done"; };
+    }
+  }
+
   // ---------- Grammatik ----------
   const GP = { S: "subjekt", V: "verbum", O: "objekt", A: "tid / sted", N: "ikke, altid …", C: "bindeord / spørgeord" };
   // "[S|Jeg] [V|spiser]" → colour-coded spans.
@@ -1645,6 +2039,9 @@
 
     function finish() {
       const score = Object.values(done).filter(Boolean).length, total = exs.length;
+      const wrongs = exs.map((e, i) => done[i] ? null : { q: e.q || e.da, a: e.t === "mc" ? e.o[e.a] : e.t === "type" ? e.a[0] : e.da }).filter(Boolean);
+      if (wrongs.length) S.mistakes.grammar[g.id] = { date: today(), items: wrongs }; else delete S.mistakes.grammar[g.id];
+      bump("grammar");
       const old = gramBest(g.id);
       if (!old || score > old.score) S.grammar[g.id] = { score, total };
       save();
@@ -2035,6 +2432,7 @@
         document.removeEventListener("keydown", onKey);
         const now = vLearnedCount(), gained = Math.max(0, now - before);
         markPlayed("vocab");
+        bump("vocab");
         addXP(score + gained * 2, "ordtræner");
         if (now >= 100) award("vocab100");
         if (now >= 1000) award("vocab1000");
@@ -2455,6 +2853,41 @@
           <h2>🗣️ Mundtlig prøve</h2>
           <p>Taleøvelserne i appen træner både at tale sammenhængende om et emne og at føre en dialog. Tjek de præcise regler og tider for din egen prøve hos din sprogskole.</p>
         </div>
+        ${S.exam === "pd2" ? `<div class="card" id="proevedagen">
+          <h2>📅 Prøvedagen</h2>
+          <ul class="points-list">
+            <li>Tag gyldigt billed-ID med, fx pas, kørekort eller opholdskort.</li>
+            <li>Kom i god tid – gerne en halv time før.</li>
+            <li>Den skriftlige prøve skrives i hånden på papir. Tag en kuglepen med, og øv dig i at skrive i hånden.</li>
+            <li>Til læseforståelse er der ingen hjælpemidler. Til skriftlig fremstilling må du bruge ordbøger.</li>
+            <li>Sluk mobiltelefonen.</li>
+          </ul>
+          <h3>⏱️ Tidsplan for den skriftlige prøve</h3>
+          <table class="simple"><tr><th>Del</th><th>Opgaver</th><th>Tid</th><th>Hjælpemidler</th></tr>
+            <tr><td>Læseforståelse 1</td><td>1-2</td><td>30 min</td><td>Ingen</td></tr>
+            <tr><td>Læseforståelse 2</td><td>3-5</td><td>60 min</td><td>Ingen</td></tr>
+            <tr><td>Skriftlig fremstilling</td><td>Delprøve 1 + 2</td><td>1½ time</td><td>Ordbøger</td></tr>
+          </table>
+          <h3>🎯 Gode råd</h3>
+          <ul class="points-list">
+            <li><b>Læsning:</b> Læs spørgsmålene først. Brug ikke for lang tid på ét spørgsmål, og svar på alle – der er ingen minuspoint for forkerte svar. I opgave 1 skal svaret være kort og præcist.</li>
+            <li><b>Skrivning:</b> Brug 5 minutter på at planlægge. Svar på alle punkterne i opgaven. Brug din skabelon til start og slutning. Tæl ordene, og læs teksten igennem til sidst.</li>
+            <li><b>Mundtlig:</b> Forbered dit emne hjemme med stikord – ikke en tekst, du læser op. Tal roligt, giv eksempler, og stil også spørgsmål til den anden deltager.</li>
+          </ul>
+          <h3>⚠️ Typiske fejl</h3>
+          <ul class="points-list">
+            <li>Teksten mangler en hilsen i starten eller slutningen.</li>
+            <li>Et af punkterne i skriveopgaven er glemt.</li>
+            <li>For få ord i e-mailen (mindst 100).</li>
+            <li>Verbet står ikke på plads 2: "I dag jeg arbejder" i stedet for "I dag arbejder jeg".</li>
+            <li>For lange svar i læseopgave 1, med ekstra ord, der ikke hører til svaret.</li>
+          </ul>
+          <div class="row" style="margin-top:12px">
+            <a class="btn read sm" href="#/exam">📝 Prøvesimulering</a>
+            <a class="btn speak sm" href="#/speaking/sim">🎬 Mundtlig simulering</a>
+            <a class="btn ghost sm" href="#/plan">📅 Min prøveplan</a>
+          </div>
+        </div>` : ""}
         <div class="card" id="kilder">
           <h2>📚 Kilder og ophavsret</h2>
           <p>Opgaverne, der er mærket <b>Rigtig prøve</b>, kommer fra tidligere prøver i Prøve i Dansk, som de danske myndigheder har offentliggjort som øvemateriale. Ophavsretten tilhører dem, der har lavet prøverne. Tegningerne til de mundtlige opgaver er lavet af <b>Niels Roland</b>, og teksterne i læseopgaverne har deres egne kilder, som står ved hver opgave.</p>
