@@ -8,7 +8,7 @@
   // ---------- Storage ----------
   const KEY = "pd2-trainer-v1";
   const today = () => new Date().toISOString().slice(0, 10);
-  const blank = () => ({ exam: "pd2", xp: 0, xpDay: { date: today(), xp: 0 }, streak: 0, lastDay: null, badges: [], reading: {}, writing: {}, speaking: { sessions: 0, seconds: 0, done: {} }, words: { best: 0 }, games: { best: {}, played: {} } });
+  const blank = () => ({ exam: "pd2", xp: 0, xpDay: { date: today(), xp: 0 }, streak: 0, lastDay: null, badges: [], reading: {}, writing: {}, speaking: { sessions: 0, seconds: 0, done: {} }, words: { best: 0 }, games: { best: {}, played: {} }, vocab: { b: {}, h: {}, dir: "da", say: false } });
   let S = blank();
   try {
     const raw = localStorage.getItem(KEY);
@@ -16,6 +16,7 @@
   } catch (e) { /* storage blocked: progress lives in memory only */ }
   if (!PD2.EXAMS[S.exam]) S.exam = "pd2";
   S.games = Object.assign({ best: {}, played: {} }, S.games); // older saves
+  S.vocab = Object.assign({ b: {}, h: {}, dir: "da", say: false }, S.vocab);
   if (S.words && S.words.best !== undefined && S.words.pd2 === undefined) S.words.pd2 = S.words.best; // older saves
   const EX = () => PD2.EXAMS[S.exam];
   // Find an item by id in the current exam, or switch to the exam that has it (e.g. a shared link).
@@ -71,7 +72,9 @@
     { id: "gamer", ico: "🎮", name: "Spilleglad (5 spil)" },
     { id: "ordle", ico: "🔤", name: "Ordle-mester" },
     { id: "builder", ico: "🧩", name: "Ordstilling uden fejl" },
-    { id: "template", ico: "📋", name: "Skabelon udenad" }
+    { id: "template", ico: "📋", name: "Skabelon udenad" },
+    { id: "vocab100", ico: "📚", name: "100 ord lært" },
+    { id: "vocab1000", ico: "🎓", name: "1.000 ord lært" }
   ];
 
   function touchDay() {
@@ -275,6 +278,7 @@
     [/^\/speaking\/picture\/([\w-]+)$/, speakingPicture],
     [/^\/words$/, wordsGame],
     [/^\/games$/, gamesHub],
+    [/^\/games\/vocab\/(\d+)$/, n => vocabGame().setPage(+n - 1)],
     [/^\/games\/(\w+)$/, gameRoute],
     [/^\/about$/, about]
   ];
@@ -438,11 +442,16 @@
         ${taskCard("speak", "#/speaking", "🗣️", "Tale", "Monolog og dialog med timer, optagelse og oplæsning.", sd, st, "emner øvet")}
       </div>
 
-      <div class="grid grid-2" style="margin-top:16px">
+      <div class="grid grid-3" style="margin-top:16px">
+        <a class="task words" href="#/games/vocab">
+          <span class="emoji">📚</span>
+          <h2>Ordtræner</h2>
+          <p class="muted" style="margin:0">Lær over 5.000 ord fra prøverne. Du har lært <b>${vLearnedCount()}</b> ord.</p>
+        </a>
         <a class="task words" href="#/games">
           <span class="emoji">🎮</span>
           <h2>Spil & leg</h2>
-          <p class="muted" style="margin:0">${GAMES.length} sjove spil: Ordjagt, Vendespil, Ordle, En eller et?, Byg sætningen, Lyt og skriv, Bøj verbet og Talemåder.</p>
+          <p class="muted" style="margin:0">${GAMES.length} sjove spil: Ordtræner, Ordjagt, Vendespil, Ordle, En eller et?, Byg sætningen, Lyt og skriv, Bøj verbet og Talemåder.</p>
         </a>
         <div class="card">
           <h3>💡 Dagens tip</h3>
@@ -1598,6 +1607,7 @@
   const ORDLE = () => lines(GD().ORDLE).map(l => l.split("="));
   // perExam: the content (and so the record) depends on the chosen exam. lower: fewer is better.
   const GAMES = [
+    { id: "vocab", ico: "📚", name: "Ordtræner", desc: "Lær over 5.000 danske ord: vælg den rigtige engelske betydning. Ord, du har svært ved, kommer igen, indtil du kan dem.", unit: "ord lært" },
     { id: "words", href: "#/words", ico: "⚡", name: "Ordjagt", desc: "60 sekunder. Hvor mange ord kan du nå?", perExam: true, unit: "point" },
     { id: "memory", ico: "🃏", name: "Vendespil", desc: "Vend kortene og find parrene: det danske ord og den engelske betydning.", perExam: true, lower: true, unit: "træk" },
     { id: "ordle", ico: "🔤", name: "Ordle", desc: "Gæt et dansk ord på fem bogstaver. Du har seks forsøg.", unit: "vundet" },
@@ -1609,7 +1619,7 @@
   ];
   const gameInfo = id => GAMES.find(g => g.id === id);
   const bestKey = id => (gameInfo(id).perExam ? id + ":" + S.exam : id);
-  const gameBest = id => (id === "words" ? wordBest() || undefined : S.games.best[bestKey(id)]);
+  const gameBest = id => (id === "words" ? wordBest() || undefined : id === "vocab" ? vLearnedCount() || undefined : S.games.best[bestKey(id)]);
   const gameHead = g => `<a class="back" href="#/games">← Alle spil</a><h1>${g.ico} ${g.name}</h1>`;
 
   function markPlayed(id) {
@@ -1657,7 +1667,7 @@
   }
 
   function gameRoute(id) {
-    const fn = { memory: memoryGame, ordle: ordleGame, gender: genderGame, order: orderGame, dictation: dictationGame, verbs: verbsGame, idioms: idiomsGame }[id];
+    const fn = { vocab: () => vocabGame().home(), memory: memoryGame, ordle: ordleGame, gender: genderGame, order: orderGame, dictation: dictationGame, verbs: verbsGame, idioms: idiomsGame }[id];
     (fn || gamesHub)();
   }
 
@@ -1689,6 +1699,194 @@
       });
     }
     show();
+  }
+
+  // 📚 Ordtræner: every word in the hover dictionary as a multiple-choice drill,
+  // ordered so the words used most in the exam texts come first.
+  const VOCAB_SET = 50, LEARNED = 3, VOCAB_ROUND = 10;
+  let vocabCache = null;
+  const meaningOf = v => v.replace(/\s*\([^)]*\)/g, "").replace(/\s+/g, " ").trim();
+  function vocabList() {
+    if (vocabCache) return vocabCache;
+    const freq = new Map();
+    (JSON.stringify(PD2.EXAMS).toLowerCase().match(/[a-zæøåé]+(?:-[a-zæøåé]+)*/g) || []).forEach(t => freq.set(t, (freq.get(t) || 0) + 1));
+    const seen = new Set(), list = [];
+    PD2.GLOSSARY_RAW.split("\n").forEach((line, i) => {
+      const k = line.indexOf("=");
+      if (k < 1) return;
+      const w = line.slice(0, k).trim(), v = line.slice(k + 1).trim(), m = meaningOf(v);
+      // Skip names, English titles, and entries whose "meaning" is the word itself.
+      if (seen.has(w) || w.length < 2 || !/^[a-zæøåé][a-zæøåé-]*$/.test(w) || /^\(/.test(v) || /a name|english/i.test(v) || !m || m.toLowerCase() === w) return;
+      seen.add(w);
+      list.push({ w, v, m, f: freq.get(w) || 0, i });
+    });
+    list.sort((a, b) => b.f - a.f || a.i - b.i);
+    list.forEach((x, n) => { x.n = n; });
+    return (vocabCache = list);
+  }
+  const vBox = w => S.vocab.b[w] || 0;
+  const vLearned = w => vBox(w) >= LEARNED;
+  const vLearnedCount = () => Object.values(S.vocab.b).filter(b => b >= LEARNED).length;
+  const vSets = () => { const l = vocabList(), out = []; for (let i = 0; i < l.length; i += VOCAB_SET) out.push(l.slice(i, i + VOCAB_SET)); return out; };
+  const fmtN = n => n.toLocaleString("da-DK");
+
+  function vocabGame() {
+    const g = gameInfo("vocab");
+    function home() {
+      const sets = vSets(), total = vocabList().length, learned = vLearnedCount();
+      const hard = Object.keys(S.vocab.h).length;
+      const next = sets.findIndex(s => s.some(x => !vLearned(x.w)));
+      app.innerHTML = `${gameHead(g)}
+        <p class="muted">Vælg den rigtige betydning. Et ord er <b>lært</b>, når du har svaret rigtigt ${LEARNED} gange i træk. Ord, du svarer forkert på, kommer på listen over svære ord, indtil du kan dem. Ordene i sæt 1 er dem, der bruges mest i prøveteksterne.</p>
+        <div class="card stage">
+          <div class="word-big">${fmtN(learned)} <span class="muted" style="font-size:.45em">/ ${fmtN(total)} ord lært</span></div>
+          <div class="bar" style="max-width:520px;margin:0 auto 14px"><i style="width:${learned / total * 100}%"></i></div>
+          <div class="row" style="justify-content:center;margin-bottom:12px">
+            <button class="chip ${S.vocab.dir === "da" ? "on" : ""}" data-vdir="da">Dansk → engelsk</button>
+            <button class="chip ${S.vocab.dir === "en" ? "on" : ""}" data-vdir="en">Engelsk → dansk</button>
+            <button class="chip ${S.vocab.say ? "on" : ""}" id="vsay">🔊 Læs ordene op</button>
+          </div>
+          <div class="row" style="justify-content:center">
+            ${next >= 0 ? `<button class="btn words" data-play="set:${next}">▶ Fortsæt med sæt ${next + 1}</button>` : ""}
+            <button class="btn ghost" data-play="hard" ${hard ? "" : "disabled"}>🔁 Svære ord (${hard})</button>
+            <button class="btn ghost" data-play="review" ${learned >= 4 ? "" : "disabled"}>🎲 Gentag lærte ord</button>
+          </div>
+        </div>
+        <h2 style="margin-top:22px">Ordsæt <span class="muted small">${sets.length} sæt à ${VOCAB_SET} ord</span></h2>
+        <p class="small muted">Tryk på et sæt for at se og høre ordene, før du øver dem.</p>
+        <div class="vsets">${sets.map((s, i) => {
+          const d = s.filter(x => vLearned(x.w)).length;
+          return `<a class="vset ${d === s.length ? "done" : ""}" href="#/games/vocab/${i + 1}">
+            <b>Sæt ${i + 1}</b><span class="small muted no-tr">${esc(s[0].w)} …</span>
+            <span class="bar"><i style="width:${d / s.length * 100}%"></i></span><span class="small">${d}/${s.length}</span></a>`;
+        }).join("")}</div>`;
+      $$("[data-vdir]").forEach(b => b.onclick = () => { S.vocab.dir = b.dataset.vdir; save(); home(); });
+      $("#vsay").onclick = () => { S.vocab.say = !S.vocab.say; save(); home(); };
+      $$("[data-play]").forEach(b => b.onclick = () => play(b.dataset.play));
+    }
+    function setPage(si) {
+      const s = vSets()[si];
+      if (!s) return home();
+      const d = s.filter(x => vLearned(x.w)).length;
+      app.innerHTML = `<a class="back" href="#/games/vocab">← Ordtræner</a>
+        <h1>📚 Sæt ${si + 1} <span class="tag">${d}/${s.length} lært</span></h1>
+        <p class="muted">Læs ordene og tryk på 🔊 for at høre dem. Når du er klar, så start øvelsen.</p>
+        <div class="row" style="margin-bottom:14px"><button class="btn words" data-play="set:${si}">▶ Øv sæt ${si + 1}</button>
+          ${si > 0 ? `<a class="btn ghost sm" href="#/games/vocab/${si}">← Sæt ${si}</a>` : ""}
+          ${si + 1 < vSets().length ? `<a class="btn ghost sm" href="#/games/vocab/${si + 2}">Sæt ${si + 2} →</a>` : ""}</div>
+        <div class="card vlist">${s.map(x => `<div class="vrow">
+            <button class="say" data-say="${esc(x.w)}" aria-label="Hør ${esc(x.w)}">🔊</button>
+            <b class="no-tr">${esc(x.w)}</b>
+            <span lang="en">${esc(x.v)}</span>
+            <span class="vmark">${vLearned(x.w) ? "✅" : vBox(x.w) ? "•".repeat(vBox(x.w)) : ""}</span>
+          </div>`).join("")}</div>`;
+      $$("[data-say]").forEach(b => b.onclick = () => speak(b.dataset.say));
+      $$("[data-play]").forEach(b => b.onclick = () => play(b.dataset.play));
+    }
+    function pickWords(kind) {
+      const all = vocabList();
+      if (kind === "hard") return shuffle(all.filter(x => S.vocab.h[x.w])).slice(0, VOCAB_ROUND);
+      if (kind === "review") return shuffle(all.filter(x => vLearned(x.w))).slice(0, VOCAB_ROUND);
+      // Mostly words already in progress (so they come back until learned), plus a few new ones.
+      const s = vSets()[+kind.split(":")[1]] || [];
+      const busy = shuffle(s.filter(x => vBox(x.w) > 0 && !vLearned(x.w))).sort((a, b) => vBox(b.w) - vBox(a.w)).slice(0, 7);
+      const fresh = shuffle(s.filter(x => !vBox(x.w)));
+      const done = shuffle(s.filter(x => vLearned(x.w)));
+      return shuffle(busy.concat(fresh).slice(0, VOCAB_ROUND).concat(done).slice(0, VOCAB_ROUND));
+    }
+    // Three wrong options of similar frequency, never with the same meaning as the answer.
+    function distractors(x) {
+      const all = vocabList(), out = [], used = new Set([x.m.toLowerCase()]);
+      for (let tries = 0; out.length < 3 && tries < 200; tries++) {
+        const span = tries < 60 ? 300 : all.length;
+        const y = all[Math.max(0, Math.min(all.length - 1, x.n + Math.floor((Math.random() - 0.5) * 2 * span)))];
+        if (y === x || used.has(y.m.toLowerCase()) || out.some(o => o.w === y.w)) continue;
+        used.add(y.m.toLowerCase());
+        out.push(y);
+      }
+      return out;
+    }
+    function play(kind) {
+      const words = pickWords(kind);
+      if (!words.length) { toast("Der er ingen ord at øve her endnu."); return home(); }
+      const dir = S.vocab.dir, results = [];
+      let n = 0, score = 0, locked = false, cur, advance = null;
+      const before = vLearnedCount();
+      const onKey = e => {
+        if (!$("#vq")) return;
+        if (/^[1-4]$/.test(e.key) && !locked) { const b = $$("#vq .choice")[+e.key - 1]; if (b) b.click(); }
+        else if (e.key === "Enter" && advance) { e.preventDefault(); advance(); }
+      };
+      document.addEventListener("keydown", onKey);
+      onLeave(() => document.removeEventListener("keydown", onKey));
+      function show() {
+        cur = words[n];
+        const opts = shuffle([cur].concat(distractors(cur)));
+        locked = false; advance = null;
+        app.innerHTML = `${gameHead(g)}
+          <div class="card stage no-tr" id="vq">
+            <div class="row" style="justify-content:space-between"><span class="pill">${n + 1}/${words.length}</span><span class="pill">✅ ${score}</span></div>
+            <div class="word-big" ${dir === "en" ? 'lang="en"' : ""}>${esc(dir === "da" ? cur.w : cur.m)}</div>
+            ${dir === "da" ? `<button class="btn ghost sm" id="vhear">🔊 Hør ordet</button>` : ""}
+            <p class="muted small">${dir === "da" ? "Hvad betyder ordet på engelsk?" : "Hvad hedder det på dansk?"}</p>
+            <div class="answers"${dir === "da" ? ' lang="en"' : ""}>${opts.map((o, i) => `<button class="choice" data-w="${esc(o.w)}"><span class="key">${i + 1}</span>${esc(dir === "da" ? o.m : o.w)}</button>`).join("")}</div>
+            <div id="vfb" class="quiz-after"></div>
+          </div>`;
+        const hear = $("#vhear"); if (hear) hear.onclick = () => speak(cur.w);
+        if (dir === "da" && S.vocab.say) speak(cur.w);
+        $$("#vq .choice").forEach(b => b.onclick = () => answer(b, opts));
+      }
+      function answer(b, opts) {
+        if (locked) return;
+        locked = true;
+        const pick = opts.find(o => o.w === b.dataset.w), ok = pick === cur;
+        b.classList.add(ok ? "ok" : "bad");
+        if (!ok) $(`#vq .choice[data-w="${CSS.escape(cur.w)}"]`).classList.add("ok");
+        if (ok) {
+          score++;
+          S.vocab.b[cur.w] = vBox(cur.w) + 1;
+          if (vLearned(cur.w)) delete S.vocab.h[cur.w];
+        } else {
+          S.vocab.b[cur.w] = 0;
+          S.vocab.h[cur.w] = 1;
+        }
+        save();
+        results.push({ x: cur, ok });
+        if (dir === "en" && S.vocab.say) speak(cur.w);
+        advance = () => { advance = null; n++; if (n < words.length) show(); else finish(); };
+        $("#vfb").innerHTML = `<p>${ok ? "✅" : "❌"} <b>${esc(cur.w)}</b> = <span lang="en">${esc(cur.v)}</span>${vLearned(cur.w) ? " · <b>lært!</b> ⭐" : ""}</p>
+          ${ok ? "" : `<button class="btn words" id="vnext">Næste →</button>`}`;
+        if (ok) { const at = n; setTimeout(() => { if (advance && n === at && $("#vq")) advance(); }, 1100); }
+        else { $("#vnext").onclick = () => advance && advance(); $("#vnext").focus(); }
+      }
+      function finish() {
+        document.removeEventListener("keydown", onKey);
+        const now = vLearnedCount(), gained = Math.max(0, now - before);
+        markPlayed("vocab");
+        addXP(score + gained * 2, "ordtræner");
+        if (now >= 100) award("vocab100");
+        if (now >= 1000) award("vocab1000");
+        if (score === words.length) confetti();
+        app.innerHTML = `${gameHead(g)}
+          <div class="card stage">
+            <div class="word-big">${score}/${words.length}</div>
+            <p style="font-weight:800">${gained ? `⭐ ${gained} nye ord lært!` : score === words.length ? "Fejlfrit!" : "Godt øvet – ordene kommer igen."} I alt ${fmtN(now)} ord lært.</p>
+            <div class="vlist small" style="text-align:left;max-width:620px;margin:12px auto">${results.map(r => `<div class="vrow">
+              <button class="say" data-say="${esc(r.x.w)}" aria-label="Hør ${esc(r.x.w)}">🔊</button>
+              <b class="no-tr">${esc(r.x.w)}</b><span lang="en">${esc(r.x.v)}</span><span class="vmark">${r.ok ? "✅" : "❌"}</span></div>`).join("")}</div>
+            <div class="row" style="justify-content:center;margin-top:12px">
+              <button class="btn words" id="again">Næste runde</button>
+              <button class="btn ghost" id="vhome">Alle ordsæt</button>
+            </div>
+          </div>`;
+        $$("[data-say]").forEach(x => x.onclick = () => speak(x.dataset.say));
+        $("#again").onclick = () => play(kind);
+        $("#vhome").onclick = () => { if (location.hash === "#/games/vocab") home(); else location.hash = "#/games/vocab"; };
+        $("#again").focus();
+      }
+      show();
+    }
+    return { home, setPage };
   }
 
   // 🃏 Vendespil

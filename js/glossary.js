@@ -7523,4 +7523,12 @@ sammenligne=compare
 kortere=shorter
 garanti=guarantee
 overblik=overview
+ordtræner=word trainer
+svære=difficult
+prøveteksterne=the exam texts
+fortsæt=continue
+gentag=repeat
+ordsæt=word set(s)
+øvelsen=the exercise
+runde=round
 `;
