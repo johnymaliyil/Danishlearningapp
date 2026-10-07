@@ -2,6 +2,54 @@
 // Each translation has the same paragraphs, in the same order, as the Danish model answer,
 // so the app can show them side by side.
 PD2.MODEL_EN = {
+  w15ma: `Cooking club at the language school!
+
+Hi everyone
+
+My name is Mariam, and I am writing because I would like to start a cooking club for students at the language school. We come from many different countries, and I think it is a cosy way to get to know each other. We can also practise speaking Danish while we cook.
+
+I suggest that we cook food from our home countries. Each time, two students decide what we are going to make. We can also try to make Danish dishes such as meatballs and apple cake.
+
+I think that we should meet once a month, on the first Friday at 17.00. We can borrow the school's kitchen in room 12.
+
+If you want to join, call or text me on 31 47 26 85 by Friday 5 June at the latest.
+
+Thanks in advance!
+
+Best wishes
+Mariam, class 3A`,
+  w15mb: `Dear Homework Café
+
+I have seen your job advertisement at the library, and I would like to apply for the position of volunteer homework helper.
+
+My name is Ahmad Rahimi, and I am 34 years old. I come from Afghanistan. I am good at maths and English, so I can help the children with homework in those subjects.
+
+I have experience of working with children. In my home country I was a teacher at a school for two years, and here in Denmark I am a coach for a children's football team.
+
+I think that I would be good at the job because I am patient and fond of children. I can work in the homework café twice a week, Monday and Wednesday from 15.00 to 17.00.
+
+You can contact me by phone on 42 18 63 95.
+
+I hope that you will invite me to an interview. I look forward to hearing from you.
+
+Yours sincerely
+Ahmad Rahimi`,
+  w15mc: `Hi Søren
+
+Thank you for your email. It was lovely to hear from you. I hope you are well. I am fine.
+
+You ask about the problem with my boss, and I would like to tell you a little about it.
+
+Firstly, I work at a hotel in Odense, where I clean the rooms. My boss is called Bent, and he is very strict.
+
+In addition, he always gives me too many rooms, so I cannot get everything done. When I am not finished, he shouts at me in front of the other colleagues. He also often gives me weekend shifts, even though I have asked to have time off. It makes me sad, and I sleep badly.
+
+Finally, I would like to say that I will talk to my union representative about the problem next week. Maybe I should also start looking for a new job.
+
+I look forward to hearing from you. See you soon!
+
+Best wishes
+Ali`,
   w12na: `Dear Lindegården Housing Association
 
 I am writing to you because I want to complain about my neighbour, who smokes in the stairwell.
