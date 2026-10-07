@@ -6,60 +6,70 @@ PD2.MODEL_EN = {
 
 Sorry, but I can't come to football tonight. My son is ill, and I have to look after him.
 
-Can you play on Thursday instead? I finish work at 16.
+Can you play on Thursday instead? I finish at 4 pm.
 
-Regards, Ali`,
+See you!
+
+Best wishes, Ali`,
 
   "pd1-w2": `Dear Karen
 
-My daughter Amina is in class 2B. She is ill today. She has a fever and a sore throat, so she has to stay at home.
+I am writing because my daughter Amina is ill today. She is in class 2B.
+
+She has a fever and a sore throat, so she has to stay at home.
 
 I think she will be back at school on Thursday.
+
+Have a nice day.
 
 Kind regards
 Fatima`,
 
-  "pd1-w3": `Sofa for sale
+  "pd1-w3": `Sofa for sale!
 
-Grey three-seater sofa. It is five years old and in good condition. It is 2 metres long.
+I am selling my grey three-seater sofa. It is five years old and in good condition. It is 2 metres long.
 
-Price: 800 kr.
+Price: 800 kr. You have to collect it yourself.
 
-You must collect it yourself. Call or text Maria on 22 33 44 55.`,
+Call or text Maria on 22 33 44 55.`,
 
   "pd1-w4": `My family
 
-My family consists of my husband, my two children and me. My son is called Adam, and he is eight years old. My daughter is called Lina, and she is five years old.
+I would like to tell you about my family.
 
-We live in a flat in Aalborg. The flat has three rooms and a small balcony.
+First I will tell you who we are. My family consists of my husband, my two children and me. My son is called Adam, and he is eight years old. My daughter is called Lina, and she is five years old.
 
-At the weekend we often go for a walk in the park, or we visit my parents. In the evening we always eat together.
+Then I will tell you where we live. We live in a flat in Aalborg with three rooms and a small balcony.
 
-The best thing about my family is that we laugh a lot together. I am happy with my family.`,
+Finally I will tell you what we do together. At the weekend we often go for a walk in the park, or we visit my parents. In the evening we always eat together.
+
+The best thing is that we laugh a lot together. I am happy with my family.`,
 
   "pd1-w5": `My day
 
-I get up at 6.30. First I drink a cup of tea, and then I eat breakfast with my children. At 7.45 I cycle to work. I work in a kitchen at a nursing home.
+I would like to tell you about an ordinary day in my life.
 
-In the afternoon I pick up the children. Afterwards we go shopping, and I make dinner.
+First I will tell you about the morning. I get up at 6.30. I drink a cup of tea and have breakfast with my children. At 7.45 I cycle to work. I work in a kitchen at a care home.
 
-In the evening I do homework for the language school, and I watch a little TV. I go to bed at 22.
+Then I will tell you about the afternoon. I pick up the children, and afterwards we do the shopping. Then I make dinner.
 
-I like the evening best, because the whole family is together.`,
+Finally I will tell you about the evening. I do homework for the language school, and I watch a little TV. I go to bed at 10 pm.
+
+The best thing is that the whole family is together in the evening. I am happy with my day.`,
 
   "pd3-w1": `To Technical and Environmental Services, Vestby Municipality
 
-Complaint about noise from the construction work at Søndergade 12
+Re: Noise from the construction site at Søndergade 12
 
 I am contacting you because the construction work next to my flat at Søndergade 14 is causing major problems for me and my neighbours.
 
-Since 1 March the work has started every morning at 6, and for the last three Saturdays there has also been drilling and banging from morning to evening. The noise from the machines is so loud that we cannot sleep or talk to each other indoors.
+Since 1 March the work has started at 6 o'clock every morning, and on the last three Saturdays there has also been drilling and banging from morning to evening. The noise from the machines is so loud that we can neither sleep nor talk to each other indoors.
 
-This has meant that my two-year-old son wakes up long before his usual time every morning, and that I myself am tired when I arrive at work. Several of my neighbours who work at night are having an even harder time.
+This has meant that my two-year-old son wakes up long before time every morning, and that I am tired myself when I arrive at work. Several of my neighbours who work at night are finding it even harder.
 
-I understand that the construction work has to be finished. But I do not think it is reasonable that there is noise so early and at the weekend.
+I understand that the building work has to be finished. But I do not find it reasonable that there is so much noise so early and at weekends.
 
-I must therefore request that the municipality investigates the matter and ensures that the work starts no earlier than 7 on weekdays and does not take place at the weekend.
+I must therefore request that the municipality looks into the matter and makes sure that the work starts at 7 o'clock at the earliest on weekdays and does not take place at weekends.
 
 I look forward to your reply.
 
@@ -69,60 +79,60 @@ Søndergade 14, 2. tv.`,
 
   "pd3-w2": `Application for the position of communications officer
 
-It is with great interest that I have read your advertisement on the job portal, and I hereby apply for the position of communications officer. I am passionate about making information easy to understand, and I know how important it is that residents feel heard.
+It was with great interest that I read your job advertisement on the job portal, and I hereby apply for the position of communications officer. I am passionate about making information easy to understand, and I know how important it is that residents feel heard.
 
-I have a master's degree in journalism from the University of Tehran and have worked for five years as a journalist at a local newspaper. Since I came to Denmark in 2021, I have worked as a volunteer editor of a newsletter for an association with over 500 members. Here I write articles, update the website and make posts on social media.
+I am a trained journalist with a master's degree from the University of Tehran and have five years' experience from a local newspaper. Since I came to Denmark in 2021, I have also been a volunteer editor of a newsletter for an association with over 500 members. Here I write articles, update the website and make posts on social media.
 
-In my current job as a customer service officer I have also learned to handle enquiries from many different people, including when they are dissatisfied. I speak Danish, English and Persian, which can be an advantage in your housing areas, where many residents have a background other than Danish.
+In my current job as a customer service assistant I have learned to handle enquiries from many different people, also when they are dissatisfied. I speak Danish, English and Persian, which can be an advantage in your residential areas, where many residents have a background other than Danish.
 
-I am known for being structured and curious, and I work well both independently and in teams. I am not afraid to knock on a door or stand up at a residents' meeting.
+I am known for being structured and curious, and I would be able to contribute clear texts and a good dialogue with the residents. I work well both independently and in teams, and I am not afraid to knock on a door or speak at a residents' meeting.
 
-I look forward to elaborating on my application at an interview.
+I look forward to elaborating on my application at a personal interview.
 
 Yours sincerely
 Reza Ahmadi`,
 
   "pd3-w3": `Free buses are a good investment
 
-The proposal to make public transport free has created a big debate here in the town. I am convinced that it is a good idea, and I would like to explain why.
+The proposal to make public transport free has caused a great deal of debate here in town. The question is whether it is worth the money. I think it is a good idea, and I would like to explain why.
 
-Firstly, free transport will get more people to leave the car at home. It will reduce traffic in the rush hour and reduce CO2 emissions. If we are serious about the green transition, we must make the climate-friendly choice the easiest choice.
+Firstly, free transport will make more people leave the car at home. It will reduce traffic in the rush hour and cut CO2 emissions. If we are serious about the green transition, we must make the climate-friendly choice the easiest choice. A good example is Tallinn in Estonia, where public transport has been free for the city's residents since 2013, and where more people now take the bus.
 
-Secondly, transport is a big expense for many families. A student or a pensioner with a small income can today spend several hundred kroner a month on a bus pass. Free transport will give them greater freedom to go to work, visit family and take part in leisure activities.
+Secondly, transport is a big expense for many families. A student or a pensioner with a small income can today spend several hundred kroner a month on a bus pass. Free transport will give them greater freedom to go to work, visit family and take part in leisure activities. It is about equal opportunities for everyone.
 
-The critics will no doubt claim that it will be too expensive for the municipality, and that the money will have to be found elsewhere, for example in elderly care. It is true that the proposal costs money. But we must remember that ticket systems, inspections and administration also cost a lot. In addition, society saves money when there are fewer traffic accidents and less air pollution.
+Opponents may claim that it will be too expensive for the municipality, and that the money will have to be found elsewhere, for example in care for the elderly. It is true that the proposal costs money, but ticket systems, inspections and administration also cost a lot. Moreover, society saves money when there are fewer traffic accidents and less air pollution.
 
-Overall, I think that free public transport is an investment in both the climate and a more equal society. I hope that the town council will support the proposal, and that we can at least start with a trial for a couple of years.
+In summary, I think that free public transport is an investment in both the climate and a more equal society. Therefore I propose that the town council at least starts with a trial for a couple of years, so that we can see whether it works.
 
 Mohammed Saleh, Vestby`,
 
   "pd3-w4": `Yes to mobile-free school time
 
-Today almost all pupils from year 4 and up have a smartphone in their pocket. Many teachers say that the phones disturb the lessons, and that the pupils sit with the screen during breaks instead of playing or talking to each other.
+Today almost all pupils from year 4 upwards have a smartphone in their pocket. Many teachers say that the phones disturb the lessons, and that the pupils sit with their screens during breaks instead of playing or talking to each other. The question is whether mobile phones should be banned for the whole school day. I think that a ban is a good idea.
 
-As a parent of two schoolchildren, I support a ban. My daughter says that she feels pressured to answer messages all the time, even while she is at school. A ban will give the pupils peace to concentrate and the opportunity to be together without a screen between them.
+Firstly, a ban gives pupils peace to concentrate. My daughter says that she feels under pressure to answer messages all the time, also while she is at school. Several studies also show that pupils learn more when the phone is not lying on the desk.
 
-In addition, several studies show that pupils learn more when the phone is not lying on the desk. Even when it is switched off, it takes up part of their attention.
+Secondly, the children get the chance to be together without a screen between them. Breaks once again become time for play, movement and conversation. Many children already spend several hours a day in front of a screen at home, so school should be a free space.
 
-On the other hand, the phone can also be used sensibly, for example to search for information or make videos in lessons. Some parents are also worried that they cannot get hold of their child. But the school has both computers and a telephone in the office, so these problems can be solved.
+Opponents may claim that the phone can also be used sensibly, for example to search for information or make videos in lessons. It is true that the phone can be a useful tool, but the school has computers that can be used for the same thing. Some parents are also worried that they cannot get hold of their child, but the school has a telephone in the office.
 
-Therefore I propose that the phones are locked in a cupboard in the morning and only handed out when the school day is over. It is a simple solution that is already used at several schools with good results.
-
-Let us give the children their breaks back.
+In summary, I think that the advantages of a ban are greater than the disadvantages. Therefore I propose that the phones are locked in a cupboard in the morning and only handed out when the school day is over. It is a simple solution that is already used at several schools with good results.
 
 Lise Hansen, parent`,
 
   "pd3-w5": `Two schools – two ways of thinking
 
-When my son started at a Danish school, I was surprised. In my home country, Ukraine, the pupils sat in rows, and the teacher talked most of the time. Here the children work in groups, and they call the teacher by their first name.
+In this article I will compare the school in my home country, Ukraine, with the Danish school.
 
-In Ukraine great emphasis is placed on academic knowledge. The pupils learn a lot by heart, and there are many tests. An advantage of this is that the children get a solid foundation in subjects such as maths and physics. On the other hand, there is not so much room for asking questions or being creative.
+In Ukraine the pupils sit in rows, and the teacher talks most of the time. Great emphasis is placed on academic knowledge, and the pupils learn a lot by heart and have many tests. Discipline is strict, and the pupils rarely work together in groups.
 
-In contrast to this, the Danish school focuses on cooperation, independence and well-being. My son is learning to discuss and to express his opinion, and he looks forward to going to school. However, I sometimes miss a few more demands being made, especially in maths.
+In contrast to this, the Danish school focuses on cooperation, independence and well-being. The children work in groups, and they call the teacher by their first name. My son is learning to discuss and to express his opinion, and he looks forward to going to school.
+
+An advantage of the Ukrainian system is that the children get a solid foundation in subjects such as maths and physics. On the other hand, there is not so much room for asking questions or being creative. In Denmark, however, I sometimes miss a few more demands being made, especially in maths.
 
 As in Denmark, education is free in Ukraine, and both countries see education as the way to a good life. But in Denmark you can also get SU (a student grant) while you study, and that makes it easier for young people from poor families to take a long education.
 
-In my opinion, both countries could learn from each other. The Danish school could be more ambitious academically, while the Ukrainian school could give the pupils more freedom and responsibility. The best would be a school where the children both learn a lot and are happy.
+In my opinion the two countries could learn from each other. The Danish school could be more academically ambitious, while the Ukrainian school could give the pupils more freedom and responsibility. The best would be a school where the children both learn a lot and are happy. Then more children would want to learn.
 
 Olena Kovalenko`,
 

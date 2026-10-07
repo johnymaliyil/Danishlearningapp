@@ -193,11 +193,171 @@ Alt i alt mener jeg, at [din mening].
 [dit navn]`,
     marks: ["I denne tekst vil jeg skrive om", "Først vil jeg fortælle", "For det første", "For det andet", "På den ene side", "På den anden side", "Alt i alt mener jeg, at"],
     tip: "\"På den ene side … På den anden side …\" viser både fordele og ulemper – det giver point for organisering."
+  },
+
+  // ---------- PD1 (A2): short and simple ----------
+  pd1sms: {
+    ico: "📱", name: "Sms til en ven",
+    use: "PD1: en kort besked til en ven, fx et afbud eller en aftale.",
+    skeleton: `Hej [navn]
+
+Undskyld, men [beskeden …]
+
+Kan du [spørgsmål eller forslag]?
+
+Vi ses!
+
+Hilsen [dit navn]`,
+    marks: ["Undskyld, men", "Kan du", "Vi ses!", "Hilsen"],
+    tip: "En sms er kort. Skriv kun det vigtigste – men husk hilsen i starten og slutningen."
+  },
+  pd1mail: {
+    ico: "✉️", name: "Mail til skolen eller læreren",
+    use: "PD1: en kort, høflig mail, fx når dit barn er sygt.",
+    skeleton: `Kære [navn]
+
+Jeg skriver, fordi [grunden].
+
+[Mere information …]
+
+Jeg tror, [hvornår …]
+
+Hav en god dag.
+
+Venlig hilsen
+[dit navn]`,
+    marks: ["Jeg skriver, fordi", "Jeg tror,", "Hav en god dag.", "Venlig hilsen"],
+    tip: "Skriv \"Kære …\" til en lærer – det er høfligt og helt normalt på dansk."
+  },
+  pd1annonce: {
+    ico: "🏷️", name: "Annonce: noget til salg",
+    use: "PD1: sælg en ting på opslagstavlen eller på nettet.",
+    skeleton: `[Ting] sælges!
+
+Jeg sælger [ting]. Den / Det er [farve, størrelse, alder].
+
+Pris: [pris] kr.
+
+Ring eller skriv til [navn] på [telefon].`,
+    marks: ["sælges!", "Jeg sælger", "Pris:", "Ring eller skriv til"],
+    tip: "\"Den\" om en-ord (en sofa → den), \"det\" om et-ord (et bord → det)."
+  },
+  pd1tekst: {
+    ico: "📝", name: "Kort tekst om dig selv",
+    use: "PD1: en kort tekst om din familie, din dag, din bolig …",
+    skeleton: `[Overskrift]
+
+Jeg vil fortælle om [emnet].
+
+Først vil jeg fortælle [om / hvem / hvor …]. [Punkt 1 …]
+
+Så vil jeg fortælle [ … ]. [Punkt 2 …]
+
+Til sidst vil jeg fortælle [ … ]. [Punkt 3 …]
+
+Det bedste er, at [ … ]. Jeg er glad for [ … ].`,
+    marks: ["Jeg vil fortælle om", "Først vil jeg fortælle", "Så vil jeg fortælle", "Til sidst vil jeg fortælle", "Det bedste er, at", "Jeg er glad for"],
+    tip: "Ét afsnit for hvert punkt i opgaven. Så glemmer du ingen af punkterne."
+  },
+
+  // ---------- PD3 (B2): formal and argumentative ----------
+  pd3klage: {
+    ico: "🏛️", name: "Formel klage",
+    use: "PD3: en klage til en kommune, en myndighed eller et firma.",
+    skeleton: `Til [modtager]
+
+Vedrørende: [emnet]
+
+Jeg henvender mig, fordi [problemet].
+
+[Hvad, hvornår, hvor længe …]
+
+Det har betydet, at [konsekvenserne for dig …]
+
+Jeg har forståelse for, at [ … ]. Men jeg finder det ikke rimeligt, at [ … ].
+
+Jeg skal derfor anmode om, at [dit konkrete forslag].
+
+Jeg ser frem til jeres svar.
+
+Med venlig hilsen
+[dit navn]
+[adresse]`,
+    marks: ["Vedrørende:", "Jeg henvender mig, fordi", "Det har betydet, at", "Jeg har forståelse for, at", "Men jeg finder det ikke rimeligt, at", "Jeg skal derfor anmode om, at", "Jeg ser frem til jeres svar.", "Med venlig hilsen"],
+    tip: "\"Jeg har forståelse for … Men …\" viser, at du er saglig og ser begge sider – det gør klagen stærkere."
+  },
+  pd3ansoegning: {
+    ico: "💼", name: "Jobansøgning (formel)",
+    use: "PD3: ansøgning om et job, der kræver uddannelse og erfaring.",
+    skeleton: `Ansøgning om stillingen som [job]
+
+Med stor interesse har jeg læst jeres stillingsopslag [hvor], og jeg søger hermed stillingen som [job]. [Hvorfor du søger …]
+
+Jeg er uddannet [uddannelse] og har [antal] års erfaring med [ … ].
+
+I mit nuværende job [ … ]
+
+Jeg er kendt for at være [egenskaber], og jeg vil kunne bidrage med [ … ].
+
+Jeg ser frem til at uddybe min ansøgning ved en personlig samtale.
+
+Med venlig hilsen
+[dit navn]`,
+    marks: ["Ansøgning om stillingen som", "Med stor interesse har jeg læst jeres stillingsopslag", "og jeg søger hermed stillingen som", "Jeg er uddannet", "I mit nuværende job", "Jeg er kendt for at være", "og jeg vil kunne bidrage med", "Jeg ser frem til at uddybe min ansøgning ved en personlig samtale.", "Med venlig hilsen"],
+    tip: "Giv konkrete eksempler på din erfaring – tal og resultater overbeviser mere end store ord."
+  },
+  pd3debat: {
+    ico: "📣", name: "Læserbrev / debatindlæg",
+    use: "PD3: argumenter for eller imod et forslag i en avis.",
+    skeleton: `[Overskrift med din holdning]
+
+[Kort om sagen.] Spørgsmålet er, om [ … ]. Jeg mener, at [din holdning].
+
+For det første [argument 1 + eksempel …]
+
+For det andet [argument 2 + eksempel …]
+
+Modstanderne vil måske hævde, at [modargument]. Det er rigtigt, at [ … ], men [dit svar …]
+
+Sammenfattende mener jeg, at [konklusion]. Derfor foreslår jeg, at [forslag].
+
+[dit navn, by]`,
+    marks: ["Spørgsmålet er, om", "Jeg mener, at", "For det første", "For det andet", "Modstanderne vil måske hævde, at", "Det er rigtigt, at", "Sammenfattende mener jeg, at", "Derfor foreslår jeg, at"],
+    tip: "Et stærkt indlæg nævner modargumentet – og svarer på det. Brug \"Det er rigtigt, at …, men …\"."
+  },
+  pd3sammenlign: {
+    ico: "⚖️", name: "Sammenlignende tekst",
+    use: "PD3: sammenlign to lande, systemer eller måder at leve på.",
+    skeleton: `[Overskrift]
+
+I denne artikel vil jeg sammenligne [A] med [B].
+
+I [A] [beskriv A …]
+
+I modsætning til det [beskriv B …]
+
+En fordel ved [ … ] er, at [ … ]. Til gengæld [ … ]
+
+Ligesom i [ … ] [en lighed …]
+
+Efter min mening kunne [A og B] lære af hinanden. [Hvad og hvordan …]
+
+[dit navn]`,
+    marks: ["I denne artikel vil jeg sammenligne", "I modsætning til det", "En fordel ved", "Til gengæld", "Ligesom i", "Efter min mening kunne", "lære af hinanden"],
+    tip: "Ord til sammenligning: i modsætning til, til gengæld, ligesom, begge, mens, derimod."
   }
 };
 
-// Which template each PD2 writing task uses.
+// Which template each writing task uses (PD2 first, then PD1 and PD3).
 PD2.TEMPLATE_FOR = {
+  pd1sms: ["pd1-w1"],
+  pd1mail: ["pd1-w2"],
+  pd1annonce: ["pd1-w3"],
+  pd1tekst: ["pd1-w4", "pd1-w5"],
+  pd3klage: ["pd3-w1"],
+  pd3ansoegning: ["pd3-w2"],
+  pd3debat: ["pd3-w3", "pd3-w4"],
+  pd3sammenlign: ["pd3-w5"],
   ven: ["w19c", "w18c", "w16c", "w14nc", "w14c", "w13nc", "w13c", "w12c", "w1", "w9"],
   klage: ["w19a", "w13nb", "w12b", "w2"],
   ansoegning: ["w14b", "w5"],
@@ -758,12 +918,140 @@ På den ene side er det smart at købe brugte ting, fx tøj og møbler, fordi de
 
 Alt i alt mener jeg, at det vigtigste er at planlægge. Hvis man har overblik over sine penge, kan små ændringer give store besparelser.
 
-Amal`
+Amal`,
+
+  // ---------- PD1 ----------
+  "pd1-w1": `Hej Jonas
+
+Undskyld, men jeg kan ikke komme til fodbold i aften. Min søn er syg, og jeg skal passe ham.
+
+Kan du spille på torsdag i stedet? Jeg har fri kl. 16.
+
+Vi ses!
+
+Hilsen Ali`,
+  "pd1-w2": `Kære Karen
+
+Jeg skriver, fordi min datter Amina er syg i dag. Hun går i 2.B.
+
+Hun har feber og ondt i halsen, så hun skal blive hjemme.
+
+Jeg tror, hun kommer i skole igen på torsdag.
+
+Hav en god dag.
+
+Venlig hilsen
+Fatima`,
+  "pd1-w3": `Sofa sælges!
+
+Jeg sælger min grå sofa til tre personer. Den er fem år gammel og i god stand. Den er 2 meter lang.
+
+Pris: 800 kr. Du skal selv hente den.
+
+Ring eller skriv til Maria på 22 33 44 55.`,
+  "pd1-w4": `Min familie
+
+Jeg vil fortælle om min familie.
+
+Først vil jeg fortælle, hvem vi er. Min familie består af min mand, mine to børn og mig. Min søn hedder Adam, og han er otte år. Min datter hedder Lina, og hun er fem år.
+
+Så vil jeg fortælle, hvor vi bor. Vi bor i en lejlighed i Aalborg med tre værelser og en lille altan.
+
+Til sidst vil jeg fortælle, hvad vi laver sammen. I weekenden går vi tit en tur i parken, eller vi besøger mine forældre. Om aftenen spiser vi altid sammen.
+
+Det bedste er, at vi griner meget sammen. Jeg er glad for min familie.`,
+  "pd1-w5": `Min dag
+
+Jeg vil fortælle om en almindelig dag i mit liv.
+
+Først vil jeg fortælle om morgenen. Jeg står op kl. 6.30. Jeg drikker en kop te og spiser morgenmad med mine børn. Kl. 7.45 cykler jeg på arbejde. Jeg arbejder i et køkken på et plejehjem.
+
+Så vil jeg fortælle om eftermiddagen. Jeg henter børnene, og bagefter handler vi ind. Så laver jeg aftensmad.
+
+Til sidst vil jeg fortælle om aftenen. Jeg laver lektier til sprogskolen, og jeg ser lidt tv. Jeg går i seng kl. 22.
+
+Det bedste er, at vi er sammen hele familien om aftenen. Jeg er glad for min dag.`,
+
+  // ---------- PD3 ----------
+  "pd3-w1": `Til Teknik og Miljø, Vestby Kommune
+
+Vedrørende: Støj fra byggeriet på Søndergade 12
+
+Jeg henvender mig, fordi byggeriet ved siden af min lejlighed på Søndergade 14 giver store problemer for mig og mine naboer.
+
+Siden den 1. marts er arbejdet startet hver morgen kl. 6, og de seneste tre lørdage har der også været boret og banket fra morgen til aften. Larmen fra maskinerne er så kraftig, at vi hverken kan sove eller tale sammen indendørs.
+
+Det har betydet, at min søn på to år vågner hver morgen længe før tid, og at jeg selv er træt, når jeg møder på arbejde. Flere af mine naboer, som arbejder om natten, har det endnu sværere.
+
+Jeg har forståelse for, at byggeriet skal gøres færdigt. Men jeg finder det ikke rimeligt, at der larmes så tidligt og i weekenden.
+
+Jeg skal derfor anmode om, at kommunen undersøger sagen og sørger for, at arbejdet tidligst starter kl. 7 på hverdage og ikke foregår i weekenden.
+
+Jeg ser frem til jeres svar.
+
+Med venlig hilsen
+Nadia Rahimi
+Søndergade 14, 2. tv.`,
+  "pd3-w2": `Ansøgning om stillingen som kommunikationsmedarbejder
+
+Med stor interesse har jeg læst jeres stillingsopslag på jobportalen, og jeg søger hermed stillingen som kommunikationsmedarbejder. Jeg brænder for at gøre information let at forstå, og jeg ved, hvor vigtigt det er, at beboerne føler sig hørt.
+
+Jeg er uddannet journalist med en kandidatgrad fra universitetet i Teheran og har fem års erfaring fra en lokal avis. Siden jeg kom til Danmark i 2021, har jeg desuden været frivillig redaktør på et nyhedsbrev for en forening med over 500 medlemmer. Her skriver jeg artikler, opdaterer hjemmesiden og laver opslag på sociale medier.
+
+I mit nuværende job som kundeservicemedarbejder har jeg lært at håndtere henvendelser fra mange forskellige mennesker, også når de er utilfredse. Jeg taler dansk, engelsk og persisk, hvilket kan være en fordel i jeres boligområder, hvor mange beboere har en anden baggrund end dansk.
+
+Jeg er kendt for at være struktureret og nysgerrig, og jeg vil kunne bidrage med klare tekster og en god dialog med beboerne. Jeg arbejder godt både selvstændigt og i teams, og jeg er ikke bange for at ringe på en dør eller stille mig op til et beboermøde.
+
+Jeg ser frem til at uddybe min ansøgning ved en personlig samtale.
+
+Med venlig hilsen
+Reza Ahmadi`,
+  "pd3-w3": `Gratis busser er en god investering
+
+Forslaget om at gøre den offentlige transport gratis har skabt stor debat her i byen. Spørgsmålet er, om det er pengene værd. Jeg mener, at det er en god idé, og jeg vil gerne forklare hvorfor.
+
+For det første vil gratis transport få flere til at lade bilen stå. Det vil mindske trafikken i myldretiden og reducere CO2-udslippet. Hvis vi mener det alvorligt med den grønne omstilling, må vi gøre det klimavenlige valg til det nemmeste valg. Et godt eksempel er Tallinn i Estland, hvor den offentlige transport har været gratis for byens indbyggere siden 2013, og hvor flere nu tager bussen.
+
+For det andet er transport en stor udgift for mange familier. En studerende eller en pensionist med en lille indkomst kan i dag bruge flere hundrede kroner om måneden på buskort. Gratis transport vil give dem større frihed til at tage på arbejde, besøge familie og deltage i fritidsaktiviteter. Det handler om lige muligheder for alle.
+
+Modstanderne vil måske hævde, at det bliver for dyrt for kommunen, og at pengene skal findes andre steder, for eksempel i ældreplejen. Det er rigtigt, at forslaget koster penge, men billetsystemer, kontrol og administration koster også meget. Desuden sparer samfundet penge, når der kommer færre trafikuheld og mindre luftforurening.
+
+Sammenfattende mener jeg, at gratis offentlig transport er en investering i både klimaet og et mere lige samfund. Derfor foreslår jeg, at byrådet i det mindste starter med et forsøg i et par år, så vi kan se, om det virker.
+
+Mohammed Saleh, Vestby`,
+  "pd3-w4": `Ja til mobilfri skoletid
+
+I dag har næsten alle elever fra 4. klasse og opefter en smartphone i lommen. Mange lærere fortæller, at telefonerne forstyrrer undervisningen, og at eleverne sidder med skærmen i frikvartererne i stedet for at lege eller tale sammen. Spørgsmålet er, om mobiltelefoner bør forbydes i hele skoletiden. Jeg mener, at et forbud er en god idé.
+
+For det første giver et forbud eleverne ro til at koncentrere sig. Min datter fortæller, at hun føler sig presset til hele tiden at svare på beskeder, også mens hun er i skole. Flere undersøgelser viser desuden, at elever lærer mere, når telefonen ikke ligger på bordet.
+
+For det andet får børnene mulighed for at være sammen uden en skærm imellem sig. Frikvartererne bliver igen tid til leg, bevægelse og samtale. Mange børn bruger allerede flere timer om dagen foran en skærm derhjemme, så skolen bør være et frirum.
+
+Modstanderne vil måske hævde, at telefonen også kan bruges fornuftigt, for eksempel til at søge information eller lave video i undervisningen. Det er rigtigt, at telefonen kan være et nyttigt redskab, men skolen har computere, som kan bruges til det samme. Nogle forældre er også bekymrede for, at de ikke kan få fat i deres barn, men skolen har en telefon på kontoret.
+
+Sammenfattende mener jeg, at fordelene ved et forbud er større end ulemperne. Derfor foreslår jeg, at telefonerne bliver låst inde i et skab om morgenen og først udleveres, når skoledagen er slut. Det er en enkel løsning, som allerede bruges på flere skoler med gode resultater.
+
+Lise Hansen, forælder`,
+  "pd3-w5": `To skoler – to tankegange
+
+I denne artikel vil jeg sammenligne skolen i mit hjemland, Ukraine, med den danske skole.
+
+I Ukraine sidder eleverne på rækker, og læreren taler det meste af tiden. Man lægger stor vægt på faglig viden, og eleverne lærer meget udenad og har mange prøver. Disciplinen er streng, og det er sjældent, at eleverne arbejder sammen i grupper.
+
+I modsætning til det fokuserer den danske skole på samarbejde, selvstændighed og trivsel. Børnene arbejder i grupper, og de kalder læreren ved fornavn. Min søn lærer at diskutere og at give sin mening til kende, og han glæder sig til at komme i skole.
+
+En fordel ved det ukrainske system er, at børnene får et solidt grundlag i fag som matematik og fysik. Til gengæld er der ikke så meget plads til at stille spørgsmål eller være kreativ. I Danmark savner jeg dog nogle gange, at der bliver stillet lidt flere krav, især i matematik.
+
+Ligesom i Danmark er uddannelse gratis i Ukraine, og begge lande ser uddannelse som vejen til et godt liv. Men i Danmark kan man også få SU, mens man studerer, og det gør det lettere for unge fra fattige familier at tage en lang uddannelse.
+
+Efter min mening kunne de to lande lære af hinanden. Den danske skole kunne være mere ambitiøs fagligt, mens den ukrainske skole kunne give eleverne mere frihed og ansvar. Det bedste ville være en skole, hvor børnene både lærer meget og har det godt. Så ville flere børn få lyst til at lære.
+
+Olena Kovalenko`
 };
 
-// Attach the template and the template model answer to each PD2 writing task.
+// Attach the template and the template model answer to each writing task in every exam.
 (function () {
-  const all = PD2.EXAMS ? PD2.EXAMS.pd2.WRITING : PD2.WRITING;
+  const all = PD2.EXAMS ? Object.values(PD2.EXAMS).flatMap(E => E.WRITING) : PD2.WRITING;
   Object.entries(PD2.TEMPLATE_FOR).forEach(([tpl, ids]) => ids.forEach(id => {
     const w = all.find(x => x.id === id);
     if (!w) return;

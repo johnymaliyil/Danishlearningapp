@@ -729,7 +729,7 @@
       ${EX().WRITING.some(w => w.tpl) ? `<a class="task write tpl-link" href="#/writing/skabeloner">
         <span class="emoji">📋</span>
         <h2>Skabeloner – lær dem udenad</h2>
-        <p class="muted" style="margin:0">Én fast start, faste afsnit og én fast slutning til hver teksttype: e-mail til en ven, klage, anbefaling, opslag … Lær dem, så skriver du hurtigere og sikrere til prøven.</p>
+        <p class="muted" style="margin:0">Én fast start, faste afsnit og én fast slutning til hver teksttype: ${esc(Object.values(PD2.TEMPLATES).filter(t => EX().WRITING.some(w => w.tpl === t.id)).map(t => t.name.toLowerCase()).join(", "))}. Lær dem, så skriver du hurtigere og sikrere til prøven.</p>
       </a>` : ""}
       ${[1, 2].map(d => `
         <h2 style="margin-top:22px">${esc(META().writingParts[d])}</h2>
@@ -1668,10 +1668,17 @@
   const skeletonHtml = tpl => markFixed(tpl.skeleton, tpl).replace(/\[([^\]]*)\]/g, '<span class="ph">$1</span>');
 
   function templatesPage(openId) {
-    const T = PD2.TEMPLATES, tasks = PD2.EXAMS.pd2.WRITING;
+    // A link to another exam's template (e.g. shared) switches to that exam.
+    if (openId && !EX().WRITING.some(w => w.tpl === openId)) {
+      const k = Object.keys(PD2.EXAMS).find(x => PD2.EXAMS[x].WRITING.some(w => w.tpl === openId));
+      if (k) { S.exam = k; save(); renderStats(); }
+    }
+    // Only the templates used by the chosen exam's writing tasks.
+    const tasks = EX().WRITING, T = {};
+    Object.values(PD2.TEMPLATES).forEach(t => { if (tasks.some(w => w.tpl === t.id)) T[t.id] = t; });
     app.innerHTML = `
       <a class="back" href="#/writing">← Alle skriveopgaver</a>
-      <h1>📋 Skabeloner til skrivning</h1>
+      <h1>📋 Skabeloner til skrivning <span class="tag">${META().name} · ${META().cefr}</span></h1>
       <div class="card">
         <p style="margin-top:0">Til prøven skal du begynde og afslutte teksten på en passende måde. Lær én fast skabelon til hver teksttype, så har du altid starten, afsnittene og slutningen klar – og kan bruge tiden på indholdet.</p>
         <ol class="small" style="margin-bottom:0">
@@ -1679,7 +1686,7 @@
           <li>Øv de faste vendinger med <b>🧠 Lær udenad</b>, indtil du kan dem.</li>
           <li>Skriv en af opgaverne og brug skabelonen. Modelsvarene følger skabelonen ord for ord.</li>
         </ol>
-        ${S.exam !== "pd2" ? `<p class="small muted" style="margin-bottom:0">Skabelonerne og modelsvarene er lavet til PD2, men vendingerne kan bruges ved alle prøver.</p>` : ""}
+        <p class="small muted" style="margin-bottom:0">Skabelonerne passer til ${META().name}. Skift prøve øverst for at se skabelonerne til de andre prøver.</p>
       </div>
       <div class="stack" style="margin-top:16px">
         ${Object.values(T).map(t => {
