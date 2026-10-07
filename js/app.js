@@ -70,7 +70,8 @@
     { id: "level5", ico: "👑", name: "Niveau 5" },
     { id: "gamer", ico: "🎮", name: "Spilleglad (5 spil)" },
     { id: "ordle", ico: "🔤", name: "Ordle-mester" },
-    { id: "builder", ico: "🧩", name: "Ordstilling uden fejl" }
+    { id: "builder", ico: "🧩", name: "Ordstilling uden fejl" },
+    { id: "template", ico: "📋", name: "Skabelon udenad" }
   ];
 
   function touchDay() {
@@ -266,6 +267,7 @@
     [/^\/reading$/, readingList],
     [/^\/reading\/([\w-]+)$/, readingItem],
     [/^\/writing$/, writingList],
+    [/^\/writing\/skabeloner(?:\/(\w+))?$/, templatesPage],
     [/^\/writing\/([\w-]+)$/, writingItem],
     [/^\/speaking$/, speakingList],
     [/^\/speaking\/mono\/([\w-]+)$/, speakingMono],
@@ -706,6 +708,11 @@
       <h1>✍️ Skrivning <span class="tag">${META().name} · ${META().cefr}</span></h1>
       <p class="muted">Skriv din tekst, få live-feedback fra skrivecoachen, og bedøm dig selv med de samme kriterier som censor bruger.
       Ordantallene er vejledende øvemål. Følg altid instruktionen på din egen prøve.</p>
+      ${EX().WRITING.some(w => w.tpl) ? `<a class="task write tpl-link" href="#/writing/skabeloner">
+        <span class="emoji">📋</span>
+        <h2>Skabeloner – lær dem udenad</h2>
+        <p class="muted" style="margin:0">Én fast start, faste afsnit og én fast slutning til hver teksttype: e-mail til en ven, klage, anbefaling, opslag … Lær dem, så skriver du hurtigere og sikrere til prøven.</p>
+      </a>` : ""}
       ${[1, 2].map(d => `
         <h2 style="margin-top:22px">${esc(META().writingParts[d])}</h2>
         <div class="stack">${by(d).map(item).join("")}</div>`).join("")}`;
@@ -737,6 +744,12 @@
       checks.push([capErr === 0 ? "ok" : "warn", capErr === 0 ? "Store bogstaver efter punktum ser fine ud." : `${capErr} sted(er) mangler stort bogstav efter punktum.`]);
       if (sentences.length >= 4) checks.push([jegStarts / sentences.length <= .4 ? "ok" : "warn", jegStarts / sentences.length <= .4 ? "God variation i sætningsstarter." : "Mange sætninger starter med \"Jeg\". Prøv inversion: \"I weekenden spiser jeg …\"."]);
       checks.push([avg <= 22 ? "ok" : "warn", avg <= 22 ? `Sætningslængde: ca. ${Math.round(avg)} ord – fint.` : "Dine sætninger er meget lange. Del nogle af dem op."]);
+    }
+    const tpl = w.tpl && PD2.TEMPLATES[w.tpl];
+    if (tpl && words > 20) {
+      const low = text.toLowerCase(), used = tpl.marks.filter(m => low.includes(m.toLowerCase())).length;
+      const enough = used >= Math.ceil(tpl.marks.length * 0.6);
+      checks.push([enough ? "ok" : "warn", enough ? `Skabelonen: du bruger ${used} af ${tpl.marks.length} faste vendinger.` : `Skabelonen: ${used} af ${tpl.marks.length} faste vendinger. Tryk på "Vis skabelon" og brug den faste start og slutning.`]);
     }
     return { words, conns, checks };
   }
@@ -788,11 +801,13 @@
             <textarea class="editor" id="editor" spellcheck="true" lang="da" placeholder="Skriv din tekst her …">${esc(st.draft || "")}</textarea>
             <div class="row" style="margin-top:12px">
               <button class="btn write" id="grade">Bedøm min tekst</button>
-              <button class="btn ghost" id="showModel">👀 Se modelsvar</button>
+              ${w.tpl ? `<button class="btn ghost" id="showTpl">📋 Vis skabelon</button>` : ""}
+              <button class="btn ghost" id="showModel">👀 Vis modelsvar</button>
               <span class="spacer"></span>
               <span class="small muted" id="saved"></span>
             </div>
           </div>
+          <div id="tplBox"></div>
           <div id="gradeBox"></div>
           <div id="modelBox"></div>
         </div>
@@ -858,15 +873,38 @@
       });
     };
 
+    const tpl = w.tpl && PD2.TEMPLATES[w.tpl];
+    // Sample answer and template are hidden until asked for; the buttons toggle them.
     $("#showModel").onclick = e => {
       const box = $("#modelBox"), b = e.currentTarget;
-      if (box.innerHTML) { box.innerHTML = ""; return; }
-      if (countWords(ed.value) < 20 && !b.dataset.armed) {
-        b.dataset.armed = "1";
-        b.textContent = "Prøv selv først! Klik igen for at se det";
-        return;
-      }
-      box.innerHTML = `<div class="card"><h3>Modelsvar <span class="muted small">(${countWords(w.model)} ord)</span></h3><div class="model">${esc(w.model)}</div></div>`;
+      if (box.innerHTML) { box.innerHTML = ""; b.textContent = "👀 Vis modelsvar"; return; }
+      box.innerHTML = `<div class="card"><h3>Modelsvar <span class="muted small">(${countWords(w.model)} ord)</span></h3>
+        ${tpl ? `<p class="small muted">Følger skabelonen <b>${esc(tpl.name)}</b>. <mark class="fixed">Markeret</mark> = faste vendinger, som du kan lære udenad.</p>` : ""}
+        <div class="model">${tpl ? markFixed(w.model, tpl) : esc(w.model)}</div></div>`;
+      b.textContent = "🙈 Skjul modelsvar";
+      box.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    };
+    const tb = $("#showTpl");
+    if (tb) tb.onclick = () => {
+      const box = $("#tplBox");
+      if (box.innerHTML) { box.innerHTML = ""; tb.textContent = "📋 Vis skabelon"; return; }
+      box.innerHTML = `<div class="card">
+        <h3>${tpl.ico} Skabelon: ${esc(tpl.name)}</h3>
+        <p class="small muted">Det markerede er fast – det skriver du hver gang. <span class="ph">Det i felterne</span> udfylder du selv.</p>
+        <div class="model tpl">${skeletonHtml(tpl)}</div>
+        <p class="small" style="margin-top:10px">💡 ${esc(tpl.tip)}</p>
+        <div class="row" style="margin-top:10px">
+          <button class="btn write sm" id="useTpl">✍️ Indsæt skabelonen i teksten</button>
+          <a class="btn ghost sm" href="#/writing/skabeloner/${tpl.id}">🧠 Lær den udenad</a>
+        </div></div>`;
+      tb.textContent = "🙈 Skjul skabelon";
+      $("#useTpl").onclick = e => {
+        const b = e.currentTarget;
+        if (ed.value.trim() && !b.dataset.armed) { b.dataset.armed = "1"; b.textContent = "Din tekst bliver erstattet – klik igen"; return; }
+        ed.value = tpl.skeleton.replace(/\[[^\]]*\]/g, "…");
+        update(); ed.focus(); ed.selectionStart = ed.selectionEnd = 0;
+        ed.scrollIntoView({ behavior: "smooth", block: "center" });
+      };
       box.scrollIntoView({ behavior: "smooth", block: "nearest" });
     };
 
@@ -1448,6 +1486,108 @@
       }
     }
     intro();
+  }
+
+  // ---------- Skabeloner (writing templates) ----------
+  const reEsc = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  // Escapes the text and highlights the template's fixed phrases.
+  function markFixed(text, tpl) {
+    const re = new RegExp(tpl.marks.map(m => reEsc(esc(m))).sort((a, b) => b.length - a.length).join("|"), "g");
+    return esc(text).replace(re, m => `<mark class="fixed">${m}</mark>`);
+  }
+  const skeletonHtml = tpl => markFixed(tpl.skeleton, tpl).replace(/\[([^\]]*)\]/g, '<span class="ph">$1</span>');
+
+  function templatesPage(openId) {
+    const T = PD2.TEMPLATES, tasks = PD2.EXAMS.pd2.WRITING;
+    app.innerHTML = `
+      <a class="back" href="#/writing">← Alle skriveopgaver</a>
+      <h1>📋 Skabeloner til skrivning</h1>
+      <div class="card">
+        <p style="margin-top:0">Til prøven skal du begynde og afslutte teksten på en passende måde. Lær én fast skabelon til hver teksttype, så har du altid starten, afsnittene og slutningen klar – og kan bruge tiden på indholdet.</p>
+        <ol class="small" style="margin-bottom:0">
+          <li>Tryk på <b>Vis skabelon</b> og læs den højt (🔊).</li>
+          <li>Øv de faste vendinger med <b>🧠 Lær udenad</b>, indtil du kan dem.</li>
+          <li>Skriv en af opgaverne og brug skabelonen. Modelsvarene følger skabelonen ord for ord.</li>
+        </ol>
+        ${S.exam !== "pd2" ? `<p class="small muted" style="margin-bottom:0">Skabelonerne og modelsvarene er lavet til PD2, men vendingerne kan bruges ved alle prøver.</p>` : ""}
+      </div>
+      <div class="stack" style="margin-top:16px">
+        ${Object.values(T).map(t => {
+          const ts = tasks.filter(w => w.tpl === t.id);
+          return `<div class="card tpl-card" id="tpl-${t.id}">
+            <h2 style="margin:0 0 4px">${t.ico} ${esc(t.name)}</h2>
+            <p class="muted small" style="margin:0 0 8px">${esc(t.use)}</p>
+            <div class="chips">${ts.map(w => `<a class="chip" href="#/writing/${w.id}">${esc(w.title)}</a>`).join("")}</div>
+            <div class="row" style="margin-top:12px">
+              <button class="btn ghost sm" data-show="${t.id}">📋 Vis skabelon</button>
+              <button class="btn ghost sm" data-say="${t.id}">🔊 Læs op</button>
+              <button class="btn write sm" data-learn="${t.id}">🧠 Lær udenad</button>
+            </div>
+            <div class="tpl-body" data-body="${t.id}"></div>
+          </div>`;
+        }).join("")}
+      </div>`;
+    const body = id => $(`[data-body="${id}"]`);
+    function show(id) {
+      const t = T[id], b = body(id);
+      if (b.dataset.mode === "show") { b.innerHTML = ""; b.dataset.mode = ""; return; }
+      b.dataset.mode = "show";
+      b.innerHTML = `<p class="small muted" style="margin-top:12px"><mark class="fixed">Markeret</mark> = fast, lær det udenad. <span class="ph">Felter</span> = udfyld selv.</p>
+        <div class="model tpl">${skeletonHtml(t)}</div><p class="small" style="margin-top:10px">💡 ${esc(t.tip)}</p>`;
+    }
+    function learn(id, level) {
+      const t = T[id], b = body(id);
+      level = level || 1;
+      b.dataset.mode = "learn";
+      let k = 0;
+      const lines = t.marks.map(m => {
+        let wi = 0;
+        return m.split(/(\s+)/).map(tok => {
+          const mm = tok.match(/^([^A-Za-zÆØÅæøå]*)([A-Za-zÆØÅæøå-]{2,})([^A-Za-zÆØÅæøå]*)$/);
+          if (!mm) return esc(tok);
+          const hide = level === 3 || (level === 2 ? wi % 3 !== 2 : wi % 3 === 1);
+          wi++;
+          if (!hide) return esc(tok);
+          return `${esc(mm[1])}<input class="cl no-tr" data-a="${esc(mm[2])}" data-k="${k++}" size="${Math.max(3, mm[2].length)}" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Manglende ord">${esc(mm[3])}`;
+        }).join("");
+      });
+      b.innerHTML = `<div class="row" style="margin-top:12px">
+          ${[[1, "Let"], [2, "Mellem"], [3, "Svær"]].map(([l, n]) => `<button class="chip ${l === level ? "on" : ""}" data-lvl="${l}">${n}</button>`).join("")}
+          <span class="small muted">Skriv de ord, der mangler.</span>
+        </div>
+        <div class="cloze">${lines.map(l => `<p class="cloze-line">${l}</p>`).join("")}</div>
+        <div class="row"><button class="btn write sm" data-check>Tjek</button><span class="cl-res" aria-live="polite"></span></div>`;
+      $$("[data-lvl]", b).forEach(c => c.onclick = () => learn(id, +c.dataset.lvl));
+      const ins = $$("input.cl", b);
+      ins.forEach((inp, i) => inp.onkeydown = e => {
+        if (e.key !== "Enter") return;
+        e.preventDefault();
+        if (ins[i + 1]) ins[i + 1].focus(); else $("[data-check]", b).click();
+      });
+      if (ins[0]) ins[0].focus({ preventScroll: true });
+      let rewarded = false;
+      $("[data-check]", b).onclick = () => {
+        let ok = 0;
+        ins.forEach(inp => {
+          const good = inp.value.trim().toLowerCase() === inp.dataset.a.toLowerCase();
+          inp.classList.toggle("ok", good); inp.classList.toggle("bad", !good);
+          const nx = inp.nextElementSibling;
+          if (nx && nx.classList.contains("cl-ans")) nx.remove();
+          if (!good) inp.insertAdjacentHTML("afterend", `<span class="cl-ans">${esc(inp.dataset.a)}</span>`);
+          if (good) ok++;
+        });
+        $(".cl-res", b).textContent = ok === ins.length ? `🎉 Alle ${ok} rigtige!` : `${ok} af ${ins.length} rigtige. Prøv igen!`;
+        if (!rewarded && ok) { rewarded = true; addXP(Math.min(25, ok), "skabelon"); }
+        if (ok === ins.length && level === 3) { award("template"); confetti(); }
+      };
+    }
+    $$("[data-show]").forEach(x => x.onclick = () => show(x.dataset.show));
+    $$("[data-learn]").forEach(x => x.onclick = () => learn(x.dataset.learn));
+    $$("[data-say]").forEach(x => x.onclick = () => speak(T[x.dataset.say].skeleton.replace(/\[[^\]]*\]/g, ", ")));
+    if (openId && T[openId]) {
+      learn(openId);
+      $(`#tpl-${openId}`).scrollIntoView({ block: "start" });
+    }
   }
 
   // ---------- Games ("Spil & leg") ----------

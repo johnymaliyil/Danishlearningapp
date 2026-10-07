@@ -545,3 +545,17 @@ table.simple td, table.simple th { padding: 6px 8px; border-bottom: 1px solid va
 input.short.dict { max-width: 620px; font-size: 1.1rem; display: block; margin: 0 auto; }
 .dw.ok { color: var(--ok); }
 .dw.miss { color: var(--bad); text-decoration: underline wavy; text-underline-offset: 4px; }
+
+/* ---------- Writing templates ---------- */
+mark.fixed { background: var(--write-soft); color: inherit; border-bottom: 2px solid var(--write); border-radius: 3px; padding: 0 2px; }
+.ph { display: inline-block; padding: 0 6px; border: 1px dashed var(--muted); border-radius: 6px; color: var(--muted); font-style: italic; font-size: .92em; }
+.tpl-link { display: block; margin: 8px 0 4px; }
+.tpl-link .emoji { font-size: 1.8rem; }
+.cloze { margin: 12px 0; }
+.cloze-line { margin: 0 0 10px; line-height: 2.1; }
+input.cl { border: 2px solid var(--border); border-radius: 8px; padding: 2px 6px; background: var(--surface); color: var(--text); font: inherit; font-weight: 700; max-width: 100%; }
+input.cl:focus { border-color: var(--write); outline: none; }
+input.cl.ok { border-color: var(--ok); background: var(--ok-soft); }
+input.cl.bad { border-color: var(--bad); background: var(--bad-soft); }
+.cl-ans { color: var(--ok); font-weight: 800; font-size: .85em; margin-left: 3px; }
+.cl-res { font-weight: 800; }
