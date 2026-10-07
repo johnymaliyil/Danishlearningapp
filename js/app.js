@@ -4,6 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
+  const APP_VERSION = "27"; // keep in step with ?v= in index.html and VERSION in sw.js
 
   // ---------- Storage ----------
   const KEY = "pd2-trainer-v1";
@@ -519,7 +520,8 @@
         <a class="btn ghost sm" href="#/about">ℹ️ Om ${META().name}-prøven</a>
         <span class="spacer"></span>
         <button class="btn ghost sm" id="reset">Nulstil fremskridt</button>
-      </p>`;
+      </p>
+      <p class="small muted" style="text-align:right;margin-top:6px">DanskKlar version ${APP_VERSION}</p>`;
     // Two-step button instead of confirm(): dialogs are blocked in some embedded viewers.
     $("#reset").onclick = e => {
       const b = e.currentTarget;

@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="da" translate="no" class="notranslate">
 <head>
+  <!-- Asset URLs carry ?v=N (same N as APP_VERSION in app.js and VERSION in sw.js) so caches fetch new files after each update. -->
   <meta charset="utf-8">
   <!-- The app is for learning Danish: stop Chrome/Edge from machine-translating the page,
        which would also stop the word-by-word hover translation from working. -->
@@ -20,7 +21,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=27">
 </head>
 <body>
   <header class="topbar">
@@ -44,32 +45,32 @@
   <div id="toasts" aria-live="polite"></div>
   <canvas id="confetti" aria-hidden="true"></canvas>
 
-  <script src="js/data.js"></script>
-  <script src="js/data-2020.js"></script>
-  <script src="js/data-pd2-extra.js"></script>
-  <script src="js/data-2019.js"></script>
-  <script src="js/data-2012.js"></script>
-  <script src="js/data-2013.js"></script>
-  <script src="js/data-2014.js"></script>
-  <script src="js/data-2016.js"></script>
-  <script src="js/data-2018.js"></script>
-  <script src="js/data-2013nd.js"></script>
-  <script src="js/data-2014nd.js"></script>
-  <script src="js/data-2016m.js"></script>
-  <script src="js/data-2017m.js"></script>
-  <script src="js/data-2012nd.js"></script>
-  <script src="js/data-2015m.js"></script>
-  <script src="js/data-2018m.js"></script>
-  <script src="js/data-pd1.js"></script>
-  <script src="js/data-pd3.js"></script>
-  <script src="js/data-pd3-modul.js"></script>
-  <script src="js/exams.js"></script>
-  <script src="js/games.js"></script>
-  <script src="js/templates.js"></script>
-  <script src="js/model-translations.js"></script>
-  <script src="js/grammar.js"></script>
-  <script src="js/glossary.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/translate.js"></script>
+  <script src="js/data.js?v=27"></script>
+  <script src="js/data-2020.js?v=27"></script>
+  <script src="js/data-pd2-extra.js?v=27"></script>
+  <script src="js/data-2019.js?v=27"></script>
+  <script src="js/data-2012.js?v=27"></script>
+  <script src="js/data-2013.js?v=27"></script>
+  <script src="js/data-2014.js?v=27"></script>
+  <script src="js/data-2016.js?v=27"></script>
+  <script src="js/data-2018.js?v=27"></script>
+  <script src="js/data-2013nd.js?v=27"></script>
+  <script src="js/data-2014nd.js?v=27"></script>
+  <script src="js/data-2016m.js?v=27"></script>
+  <script src="js/data-2017m.js?v=27"></script>
+  <script src="js/data-2012nd.js?v=27"></script>
+  <script src="js/data-2015m.js?v=27"></script>
+  <script src="js/data-2018m.js?v=27"></script>
+  <script src="js/data-pd1.js?v=27"></script>
+  <script src="js/data-pd3.js?v=27"></script>
+  <script src="js/data-pd3-modul.js?v=27"></script>
+  <script src="js/exams.js?v=27"></script>
+  <script src="js/games.js?v=27"></script>
+  <script src="js/templates.js?v=27"></script>
+  <script src="js/model-translations.js?v=27"></script>
+  <script src="js/grammar.js?v=27"></script>
+  <script src="js/glossary.js?v=27"></script>
+  <script src="js/app.js?v=27"></script>
+  <script src="js/translate.js?v=27"></script>
 </body>
 </html>
