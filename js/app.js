@@ -532,12 +532,16 @@
     let checked = false;
     const gapQ = r.questions.find(q => q.type === "gaps");
     const exampleKeys = gapQ ? Object.values(gapQ.example || {}) : [];
-    const gapOptions = gapQ ? gapQ.bank.map(b => b.key).filter(k => !exampleKeys.includes(k)) : [];
+    const gapOptions = gapQ && gapQ.bank ? gapQ.bank.map(b => b.key).filter(k => !exampleKeys.includes(k)) : [];
 
+    // Three kinds of gap task: one shared word/sentence bank (bank), own A-D choices per gap (choices),
+    // or an open gap where you write one word yourself (open; answers are lists of accepted words).
     const gapHtml = n => {
       if (!gapQ) return "____";
       if (gapQ.example && gapQ.example[n] !== undefined) return `<span class="gap-label">(${n})</span><span class="example-fill">${esc(gapQ.example[n])}</span>`;
-      return `<span class="gap-label">(${n})</span><select class="gap" data-key="g${n}" aria-label="Hul ${n}"><option value="">…</option>${gapOptions.map(o => `<option>${esc(o)}</option>`).join("")}</select>`;
+      if (gapQ.open) return `<span class="gap-label">(${n})</span><input class="gap open" data-key="g${n}" aria-label="Hul ${n}" autocomplete="off" autocapitalize="off" spellcheck="false">`;
+      const opts = gapQ.choices ? gapQ.choices[n] : gapOptions;
+      return `<span class="gap-label">(${n})</span><select class="gap" data-key="g${n}" aria-label="Hul ${n}"><option value="">…</option>${opts.map(o => `<option>${esc(o)}</option>`).join("")}</select>`;
     };
 
     const sectionsHtml = (r.sections || []).map(sec => `
@@ -548,7 +552,7 @@
 
     // Gap tasks: the word/sentence bank sits above the text so it stays in view while choosing.
     const solo = r.questions.every(q => q.type === "gaps");
-    const bankHtml = gapQ ? `<div class="bankbox ${gapQ.bank.every(b => b.key === b.text) ? "" : "sentences"}">
+    const bankHtml = gapQ && gapQ.bank ? `<div class="bankbox ${gapQ.bank.every(b => b.key === b.text) ? "" : "sentences"}">
         <b class="small">${gapQ.bank.every(b => b.key === b.text) ? "Ord i rammen" : "Sætninger"}</b>
         ${gapQ.bank.every(b => b.key === b.text)
           ? `<div class="bank used" id="bank">${gapQ.bank.map(b => `<span data-w="${esc(b.key)}" class="${exampleKeys.includes(b.key) ? "used" : ""}">${esc(b.text)}</span>`).join("")}</div>`
@@ -616,7 +620,7 @@
       answers[k] = b.dataset.val;
       $$(`.choice[data-key="${k}"]`).forEach(x => x.classList.toggle("sel", x === b));
     });
-    $$("select[data-key], input.short").forEach(el => el.oninput = () => {
+    $$("select[data-key], input.short, input.gap").forEach(el => el.oninput = () => {
       answers[el.dataset.key] = el.value;
       if (el.classList.contains("gap")) markBank();
     });
@@ -650,10 +654,10 @@
         if (q.type === "gaps") {
           let wrong = [];
           Object.entries(q.answers).forEach(([n, a]) => {
-            const sel = $(`select[data-key="g${n}"]`);
-            const ok = sel.value === a;
+            const sel = $(`[data-key="g${n}"]`);
+            const ok = q.open ? [].concat(a).some(x => norm(x) === norm(sel.value)) : sel.value === a;
             sel.classList.add(ok ? "ok" : "bad"); sel.disabled = true;
-            if (!ok) wrong.push(`(${n}) ${a}`);
+            if (!ok) wrong.push(`(${n}) ${[].concat(a)[0]}`);
             tally(ok);
           });
           const fb = $("#fb-gaps");

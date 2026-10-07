@@ -228,6 +228,9 @@ main { max-width: 1120px; margin: 0 auto; padding: 24px 20px 80px; outline: none
 .badge.got .b-ico { filter: none; opacity: 1; }
 
 /* Buttons */
+/* The hidden attribute must win over display rules (e.g. .btn), so hidden buttons stay hidden. */
+[hidden] { display: none !important; }
+
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 8px;
   padding: 11px 18px; border-radius: 14px; border: 0; cursor: pointer; font-weight: 800;
@@ -600,3 +603,9 @@ input.cl.bad { border-color: var(--bad); background: var(--bad-soft); }
 .gram-choices { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
 .gram-fb p { margin: 8px 0 0; }
 .blank { display: inline-block; min-width: 3em; border-bottom: 2px solid var(--muted); color: transparent; }
+
+/* Open gaps (write one word) */
+input.gap.open { width: 7.5em; margin: 0 2px; border: 2px solid var(--border); border-radius: 10px; padding: 3px 8px; background: var(--surface); color: var(--text); font: inherit; font-weight: 700; }
+input.gap.open:focus { border-color: var(--read); outline: none; }
+input.gap.open.ok { border-color: var(--ok); background: var(--ok-soft); }
+input.gap.open.bad { border-color: var(--bad); background: var(--bad-soft); }
