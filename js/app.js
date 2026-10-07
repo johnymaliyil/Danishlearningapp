@@ -8,13 +8,14 @@
   // ---------- Storage ----------
   const KEY = "pd2-trainer-v1";
   const today = () => new Date().toISOString().slice(0, 10);
-  const blank = () => ({ exam: "pd2", xp: 0, xpDay: { date: today(), xp: 0 }, streak: 0, lastDay: null, badges: [], reading: {}, writing: {}, speaking: { sessions: 0, seconds: 0, done: {} }, words: { best: 0 } });
+  const blank = () => ({ exam: "pd2", xp: 0, xpDay: { date: today(), xp: 0 }, streak: 0, lastDay: null, badges: [], reading: {}, writing: {}, speaking: { sessions: 0, seconds: 0, done: {} }, words: { best: 0 }, games: { best: {}, played: {} } });
   let S = blank();
   try {
     const raw = localStorage.getItem(KEY);
     if (raw) S = Object.assign(blank(), JSON.parse(raw));
   } catch (e) { /* storage blocked: progress lives in memory only */ }
   if (!PD2.EXAMS[S.exam]) S.exam = "pd2";
+  S.games = Object.assign({ best: {}, played: {} }, S.games); // older saves
   if (S.words && S.words.best !== undefined && S.words.pd2 === undefined) S.words.pd2 = S.words.best; // older saves
   const EX = () => PD2.EXAMS[S.exam];
   // Find an item by id in the current exam, or switch to the exam that has it (e.g. a shared link).
@@ -66,7 +67,10 @@
     { id: "hunter", ico: "⚡", name: "Ordjæger (15+)" },
     { id: "streak3", ico: "🔥", name: "3 dage i træk" },
     { id: "streak7", ico: "🚀", name: "7 dage i træk" },
-    { id: "level5", ico: "👑", name: "Niveau 5" }
+    { id: "level5", ico: "👑", name: "Niveau 5" },
+    { id: "gamer", ico: "🎮", name: "Spilleglad (5 spil)" },
+    { id: "ordle", ico: "🔤", name: "Ordle-mester" },
+    { id: "builder", ico: "🧩", name: "Ordstilling uden fejl" }
   ];
 
   function touchDay() {
@@ -191,11 +195,11 @@
     daVoice = vs.find(v => /^da(-|_|$)/i.test(v.lang)) || null;
   }
   if ("speechSynthesis" in window) { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
-  function speak(text, onend) {
+  function speak(text, onend, rate) {
     if (!("speechSynthesis" in window)) { onend && onend(); return false; }
     speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(text);
-    u.lang = "da-DK"; u.rate = 0.92;
+    u.lang = "da-DK"; u.rate = rate || 0.92;
     if (daVoice) u.voice = daVoice;
     if (onend) u.onend = onend;
     speechSynthesis.speak(u);
@@ -268,6 +272,8 @@
     [/^\/speaking\/dialog\/([\w-]+)$/, speakingDialog],
     [/^\/speaking\/picture\/([\w-]+)$/, speakingPicture],
     [/^\/words$/, wordsGame],
+    [/^\/games$/, gamesHub],
+    [/^\/games\/(\w+)$/, gameRoute],
     [/^\/about$/, about]
   ];
   function route() {
@@ -276,7 +282,8 @@
     if ("speechSynthesis" in window) speechSynthesis.cancel();
     const path = location.hash.replace(/^#/, "") || "/";
     const section = path.split("/")[1] || "";
-    $$(".nav a").forEach(a => a.classList.toggle("active", a.dataset.nav === section));
+    const navSection = section === "words" ? "games" : section;
+    $$(".nav a").forEach(a => a.classList.toggle("active", a.dataset.nav === navSection));
     document.body.classList.toggle("starting", section === "start");
     for (const [re, fn] of routes) {
       const m = path.match(re);
@@ -430,10 +437,10 @@
       </div>
 
       <div class="grid grid-2" style="margin-top:16px">
-        <a class="task words" href="#/words">
-          <span class="emoji">⚡</span>
-          <h2>Ordjagt</h2>
-          <p class="muted" style="margin:0">60 sekunder. Hvor mange ord kan du nå? Rekord: <b>${wordBest()}</b></p>
+        <a class="task words" href="#/games">
+          <span class="emoji">🎮</span>
+          <h2>Spil & leg</h2>
+          <p class="muted" style="margin:0">${GAMES.length} sjove spil: Ordjagt, Vendespil, Ordle, En eller et?, Byg sætningen, Lyt og skriv, Bøj verbet og Talemåder.</p>
         </a>
         <div class="card">
           <h3>💡 Dagens tip</h3>
@@ -1369,6 +1376,7 @@
     let dir = "da";
     function intro() {
       app.innerHTML = `
+        <a class="back" href="#/games">← Alle spil</a>
         <h1>⚡ Ordjagt</h1>
         <p class="muted">Ord fra ${META().name}-opgaverne. Du har 60 sekunder – svar rigtigt i træk for at få combo-bonus!</p>
         <div class="card stage">
@@ -1426,7 +1434,7 @@
         const record = score > wordBest();
         if (record) S.words[S.exam] = score;
         if (score >= 15) award("hunter");
-        save();
+        markPlayed("words");
         addXP(score * 2, "ordjagt");
         if (record && score > 0) confetti();
         app.innerHTML = `
@@ -1434,12 +1442,488 @@
           <div class="card stage">
             <div class="word-big">${score}</div>
             <p style="font-weight:800">${record ? "🏆 Ny rekord!" : `Rekord: ${wordBest()}`}</p>
-            <div class="row" style="justify-content:center"><button class="btn words" id="again">Spil igen</button><a class="btn ghost" href="#/">Til forsiden</a></div>
+            <div class="row" style="justify-content:center"><button class="btn words" id="again">Spil igen</button><a class="btn ghost" href="#/games">Alle spil</a></div>
           </div>`;
         $("#again").onclick = play;
       }
     }
     intro();
+  }
+
+  // ---------- Games ("Spil & leg") ----------
+  const GD = () => PD2.GAMES;
+  const lines = txt => txt.split("\n").map(l => l.trim()).filter(Boolean);
+  const NOUNS = () => lines(GD().NOUNS).map(l => { const [w, en] = l.split("="); const [g, ...n] = w.split(" "); return { g, w: n.join(" "), en }; });
+  const VERBS = () => lines(GD().VERBS).map(l => l.split("|"));
+  const ORDLE = () => lines(GD().ORDLE).map(l => l.split("="));
+  // perExam: the content (and so the record) depends on the chosen exam. lower: fewer is better.
+  const GAMES = [
+    { id: "words", href: "#/words", ico: "⚡", name: "Ordjagt", desc: "60 sekunder. Hvor mange ord kan du nå?", perExam: true, unit: "point" },
+    { id: "memory", ico: "🃏", name: "Vendespil", desc: "Vend kortene og find parrene: det danske ord og den engelske betydning.", perExam: true, lower: true, unit: "træk" },
+    { id: "ordle", ico: "🔤", name: "Ordle", desc: "Gæt et dansk ord på fem bogstaver. Du har seks forsøg.", unit: "vundet" },
+    { id: "gender", ico: "🎯", name: "En eller et?", desc: "Hurtigt nu: hedder det en eller et? Du har 45 sekunder.", unit: "point" },
+    { id: "order", ico: "🧩", name: "Byg sætningen", desc: "Sæt ordene i den rigtige rækkefølge. Husk: verbet står på plads 2!", perExam: true, unit: "rigtige" },
+    { id: "dictation", ico: "🎧", name: "Lyt og skriv", desc: "Hør en sætning og skriv den. Træner både lytning og stavning.", perExam: true, unit: "%" },
+    { id: "verbs", ico: "🔁", name: "Bøj verbet", desc: "Nutid, datid og førnutid af de vigtigste verber.", unit: "rigtige" },
+    { id: "idioms", ico: "💬", name: "Talemåder", desc: "Hvad betyder \"Der er ingen ko på isen\"? Lær sjove danske udtryk.", unit: "rigtige" }
+  ];
+  const gameInfo = id => GAMES.find(g => g.id === id);
+  const bestKey = id => (gameInfo(id).perExam ? id + ":" + S.exam : id);
+  const gameBest = id => (id === "words" ? wordBest() || undefined : S.games.best[bestKey(id)]);
+  const gameHead = g => `<a class="back" href="#/games">← Alle spil</a><h1>${g.ico} ${g.name}</h1>`;
+
+  function markPlayed(id) {
+    S.games.played[id] = (S.games.played[id] || 0) + 1;
+    if (Object.keys(S.games.played).length >= 5) award("gamer");
+    save();
+  }
+  // Saves the score; returns true when it beats the old record.
+  function recordGame(id, score) {
+    const g = gameInfo(id), k = bestKey(id), old = S.games.best[k];
+    const better = old === undefined || (g.lower ? score < old : score > old);
+    if (better) S.games.best[k] = score;
+    markPlayed(id);
+    return better && old !== undefined;
+  }
+  function gameOver(g, big, line, again, extra) {
+    app.innerHTML = `${gameHead(g)}
+      <div class="card stage">
+        <div class="word-big">${big}</div>
+        <p style="font-weight:800">${line}</p>
+        ${extra || ""}
+        <div class="row" style="justify-content:center;margin-top:12px"><button class="btn words" id="again">Spil igen</button><a class="btn ghost" href="#/games">Alle spil</a></div>
+      </div>`;
+    $("#again").onclick = again;
+    $("#again").focus();
+  }
+  const recordLine = (rec, id) => rec ? "🏆 Ny rekord!" : (gameBest(id) !== undefined ? `Rekord: ${gameBest(id)} ${gameInfo(id).unit}` : "");
+
+  function gamesHub() {
+    app.innerHTML = `
+      <a class="back" href="#/">← Forside</a>
+      <h1>🎮 Spil & leg</h1>
+      <p class="muted">Sjove små spil, der træner ordforråd, grammatik, lytning og stavning. Alle spil giver XP. Spillene med ${META().name}-ikonet følger den prøve, du har valgt.</p>
+      <div class="grid grid-2 games">
+        ${GAMES.map(g => {
+          const b = gameBest(g.id);
+          return `<a class="task words" href="${g.href || "#/games/" + g.id}">
+            <span class="emoji">${g.ico}</span>
+            <h2>${g.name}</h2>
+            <p class="muted">${esc(g.desc)}</p>
+            <span class="row">${g.perExam ? `<span class="pill">${META().name}</span>` : ""}${b !== undefined ? `<span class="pill">🏆 ${b} ${g.unit}</span>` : ""}</span>
+          </a>`;
+        }).join("")}
+      </div>`;
+  }
+
+  function gameRoute(id) {
+    const fn = { memory: memoryGame, ordle: ordleGame, gender: genderGame, order: orderGame, dictation: dictationGame, verbs: verbsGame, idioms: idiomsGame }[id];
+    (fn || gamesHub)();
+  }
+
+  // Shared multiple-choice round used by Bøj verbet and Talemåder.
+  // makeQ(n) returns { prompt, options, answer, after }.
+  function quiz(g, rounds, makeQ, onDone) {
+    let n = 0, score = 0;
+    function show() {
+      const q = makeQ(n);
+      app.innerHTML = `${gameHead(g)}
+        <div class="card stage">
+          <div class="row" style="justify-content:space-between"><span class="pill">${n + 1}/${rounds}</span><span class="pill">✅ ${score}</span></div>
+          ${q.prompt}
+          <div class="answers${q.noTr ? " no-tr" : ""}"${q.lang ? ` lang="${q.lang}"` : ""}>${q.options.map(o => `<button class="choice" data-o="${esc(o)}">${esc(o)}</button>`).join("")}</div>
+          <div id="after" class="quiz-after"></div>
+        </div>`;
+      let locked = false;
+      $$(".answers .choice").forEach(b => b.onclick = () => {
+        if (locked) return;
+        locked = true;
+        const ok = b.dataset.o === q.answer;
+        b.classList.add(ok ? "ok" : "bad");
+        if (!ok) $$(".answers .choice").find(x => x.dataset.o === q.answer).classList.add("ok");
+        if (ok) score++;
+        $("#after").innerHTML = `<p>${ok ? "✅ Rigtigt!" : "❌ Ikke helt."} ${q.after}</p>
+          <button class="btn words" id="nx">${n + 1 < rounds ? "Næste →" : "Se resultat"}</button>`;
+        $("#nx").focus();
+        $("#nx").onclick = () => { n++; if (n < rounds) show(); else onDone(score); };
+      });
+    }
+    show();
+  }
+
+  // 🃏 Vendespil
+  function memoryGame() {
+    const g = gameInfo("memory"), PAIRS = 6;
+    function start() {
+      const pairs = shuffle(EX().WORDS).slice(0, PAIRS);
+      const cards = shuffle(pairs.flatMap(([da, en], i) => [{ i, t: da, lang: "da" }, { i, t: en, lang: "en" }]));
+      let first = null, lock = false, moves = 0, found = 0;
+      app.innerHTML = `${gameHead(g)}
+        <p class="muted">Vend to kort ad gangen. Find det danske ord og dets engelske betydning – med så få træk som muligt.</p>
+        <div class="row" style="justify-content:center;margin-bottom:12px"><span class="pill">🔄 <span id="mv">0</span> træk</span><span class="pill">✅ <span id="fd">0</span>/${PAIRS} par</span></div>
+        <div class="memory">${cards.map(c => `<button class="mcard" data-i="${c.i}" aria-label="Skjult kort"><span class="front no-tr" lang="${c.lang}">${esc(c.t)}</span></button>`).join("")}</div>`;
+      $$(".mcard").forEach(b => b.onclick = () => {
+        if (lock || b.classList.contains("up")) return;
+        b.classList.add("up");
+        b.setAttribute("aria-label", b.textContent);
+        if (!first) { first = b; return; }
+        moves++;
+        $("#mv").textContent = moves;
+        if (first.dataset.i === b.dataset.i) {
+          first.classList.add("done"); b.classList.add("done");
+          first = null; found++;
+          $("#fd").textContent = found;
+          if (found === PAIRS) setTimeout(() => finish(moves, pairs), 600);
+        } else {
+          lock = true;
+          const a = first; first = null;
+          setTimeout(() => { a.classList.remove("up"); b.classList.remove("up"); a.setAttribute("aria-label", "Skjult kort"); b.setAttribute("aria-label", "Skjult kort"); lock = false; }, 900);
+        }
+      });
+    }
+    function finish(moves, pairs) {
+      if (!$(".memory")) return; // left the game meanwhile
+      const rec = recordGame("memory", moves);
+      addXP(Math.max(5, 30 - (moves - PAIRS) * 2), "vendespil");
+      if (rec) confetti();
+      gameOver(g, `${moves} træk`, recordLine(rec, "memory"), start,
+        `<div class="chips" style="justify-content:center">${pairs.map(([da, en]) => `<span class="chip">${esc(da)} = <span lang="en">${esc(en)}</span></span>`).join("")}</div>`);
+    }
+    start();
+  }
+
+  // 🔤 Ordle
+  function ordleGame() {
+    const g = gameInfo("ordle"), KB = ["qwertyuiopå", "asdfghjklæø", "zxcvbnm"];
+    let target, en, rows, cur, over;
+    function start() {
+      const list = ORDLE();
+      [target, en] = list[Math.floor(Math.random() * list.length)];
+      rows = []; cur = ""; over = false;
+      app.innerHTML = `${gameHead(g)}
+        <p class="muted">Gæt et dansk ord på fem bogstaver. Efter hvert gæt viser farverne, hvor tæt du er: <b class="okey">grøn</b> = rigtigt bogstav på rigtigt sted, <b class="nkey">gul</b> = bogstavet er med, men et andet sted, grå = bogstavet er ikke med.</p>
+        <div class="ordle no-tr" id="board" aria-live="polite"></div>
+        <div class="ordle-msg" id="omsg"></div>
+        <div class="kb no-tr" id="kb"></div>`;
+      draw();
+    }
+    function mark(guess) {
+      const res = Array(5).fill("no"), t = [...target], used = Array(5).fill(false), gs = [...guess];
+      gs.forEach((c, i) => { if (c === t[i]) { res[i] = "hit"; used[i] = true; } });
+      gs.forEach((c, i) => {
+        if (res[i] === "hit") return;
+        const j = t.findIndex((x, k) => !used[k] && x === c);
+        if (j >= 0) { res[i] = "near"; used[j] = true; }
+      });
+      return res;
+    }
+    function draw() {
+      const all = over ? rows : rows.concat([{ w: cur, r: null }]);
+      let html = "";
+      for (let i = 0; i < 6; i++) {
+        const row = all[i] || { w: "", r: null }, ch = [...row.w];
+        html += `<div class="orow">${[0, 1, 2, 3, 4].map(k => `<span class="otile ${row.r ? row.r[k] : ch[k] ? "typed" : ""}">${ch[k] ? esc(ch[k].toUpperCase()) : ""}</span>`).join("")}</div>`;
+      }
+      $("#board").innerHTML = html;
+      const state = {};
+      rows.forEach(r => [...r.w].forEach((c, k) => {
+        const s = r.r[k];
+        state[c] = state[c] === "hit" || s === "hit" ? "hit" : state[c] === "near" || s === "near" ? "near" : "no";
+      }));
+      $("#kb").innerHTML = KB.map((line, li) => `<div class="kbrow">
+        ${li === 2 ? `<button class="kkey wide" data-key="enter">Gæt</button>` : ""}
+        ${[...line].map(c => `<button class="kkey ${state[c] || ""}" data-key="${c}">${c.toUpperCase()}</button>`).join("")}
+        ${li === 2 ? `<button class="kkey wide" data-key="back" aria-label="Slet">⌫</button>` : ""}</div>`).join("");
+      $$("#kb .kkey").forEach(b => b.onclick = () => press(b.dataset.key));
+    }
+    function msg(t) { $("#omsg").innerHTML = t; }
+    function press(k) {
+      if (over || !$("#board")) return;
+      msg("");
+      if (k === "back") cur = cur.slice(0, -1);
+      else if (k === "enter") {
+        if (cur.length < 5) { msg("Ordet skal have fem bogstaver."); return; }
+        rows.push({ w: cur, r: mark(cur) });
+        const won = cur === target;
+        cur = "";
+        if (won || rows.length === 6) return end(won);
+      } else if (cur.length < 5) cur += k;
+      draw();
+    }
+    function end(won) {
+      over = true;
+      draw();
+      markPlayed("ordle");
+      if (won) {
+        S.games.best.ordle = (S.games.best.ordle || 0) + 1;
+        save();
+        award("ordle");
+        addXP(30 - (rows.length - 1) * 4, "ordle");
+        confetti();
+      }
+      msg(`${won ? ["🤯 Genialt!", "🌟 Fantastisk!", "🎉 Flot!", "👏 Godt gået!", "😅 Det var tæt på!", "😮‍💨 Puha, i sidste forsøg!"][rows.length - 1] : "😢 Ikke denne gang."}
+        Ordet var <b>${esc(target.toUpperCase())}</b> <span lang="en">(${esc(en)})</span>.
+        <div class="row" style="justify-content:center;margin-top:10px"><button class="btn words" id="again">Nyt ord</button><a class="btn ghost" href="#/games">Alle spil</a></div>`);
+      $("#again").onclick = start;
+    }
+    const onKey = e => {
+      if (e.ctrlKey || e.metaKey || e.altKey || !$("#board")) return;
+      const k = e.key.toLowerCase();
+      if (k === "enter") { e.preventDefault(); press("enter"); }
+      else if (k === "backspace") press("back");
+      else if (/^[a-zæøå]$/.test(k)) press(k);
+    };
+    document.addEventListener("keydown", onKey);
+    onLeave(() => document.removeEventListener("keydown", onKey));
+    start();
+  }
+
+  // 🎯 En eller et?
+  function genderGame() {
+    const g = gameInfo("gender"), SECS = 45;
+    function intro() {
+      app.innerHTML = `${gameHead(g)}
+        <div class="card stage">
+          <div class="word-big">🏆 ${gameBest("gender") || 0}</div>
+          <p class="muted">Din rekord</p>
+          <p>Du har ${SECS} sekunder. Tryk <b>en</b> eller <b>et</b> – eller brug piletasterne ← og →. Tre rigtige i træk giver dobbelt point.</p>
+          <button class="btn words" id="go">Start!</button>
+        </div>`;
+      $("#go").onclick = play;
+    }
+    function play() {
+      let left = SECS, score = 0, combo = 0, deck = shuffle(NOUNS()), idx = 0, locked = false, cur;
+      app.innerHTML = `${gameHead(g)}
+        <div class="card stage">
+          <div class="row" style="justify-content:space-between"><span class="pill">⏱️ <span id="t">${SECS}</span>s</span><span class="pill">✅ <span id="s">0</span></span></div>
+          <div class="word-big" id="w"></div>
+          <div class="combo" id="c"></div>
+          <div class="answers"><button class="choice" data-g="en">en</button><button class="choice" data-g="et">et</button></div>
+          <p class="small muted" id="fb" style="min-height:1.6em;margin-top:12px"></p>
+        </div>`;
+      function next() {
+        if (idx >= deck.length) { deck = shuffle(NOUNS()); idx = 0; }
+        cur = deck[idx++];
+        $("#w").textContent = cur.w;
+        $$(".answers .choice").forEach(b => b.classList.remove("ok", "bad"));
+        locked = false;
+      }
+      function pick(gg) {
+        if (locked || left <= 0) return;
+        locked = true;
+        const ok = gg === cur.g;
+        $(`.choice[data-g="${gg}"]`).classList.add(ok ? "ok" : "bad");
+        if (!ok) $(`.choice[data-g="${cur.g}"]`).classList.add("ok");
+        if (ok) { combo++; score += combo >= 3 ? 2 : 1; } else combo = 0;
+        $("#s").textContent = score;
+        $("#c").textContent = combo >= 3 ? `🔥 Combo x${combo} – dobbelt point!` : "";
+        $("#fb").innerHTML = `${ok ? "✅" : "❌"} ${cur.g} ${esc(cur.w)} – <span lang="en">${esc(cur.en)}</span>`;
+        setTimeout(next, ok ? 300 : 1000);
+      }
+      $$(".answers .choice").forEach(b => b.onclick = () => pick(b.dataset.g));
+      const onKey = e => { if (e.key === "ArrowLeft") pick("en"); else if (e.key === "ArrowRight") pick("et"); };
+      document.addEventListener("keydown", onKey);
+      onLeave(() => document.removeEventListener("keydown", onKey));
+      next();
+      every(1000, () => {
+        left--;
+        const t = $("#t"); if (t) t.textContent = left;
+        if (left <= 0) done();
+      });
+      function done() {
+        clearTimers();
+        document.removeEventListener("keydown", onKey);
+        const rec = recordGame("gender", score);
+        addXP(score * 2, "en eller et");
+        if (rec) confetti();
+        gameOver(g, score, recordLine(rec, "gender"), play,
+          `<p class="small muted">Tip: De fleste danske navneord (ca. 75 %) er en-ord. Lær altid ordet sammen med en eller et.</p>`);
+      }
+    }
+    intro();
+  }
+
+  // 🧩 Byg sætningen
+  function orderGame() {
+    const g = gameInfo("order"), ROUNDS = 6;
+    let list, n, score;
+    const clean = s => s.replace(/[.,!?]/g, "").split(/\s+/).filter(Boolean);
+    function start() {
+      list = shuffle(GD().ORDER[S.exam] || GD().ORDER.pd2).slice(0, ROUNDS);
+      n = 0; score = 0;
+      show();
+    }
+    function show() {
+      const s = list[n], words = clean(s.da);
+      words[0] = words[0].toLowerCase();
+      let tiles = words.map((w, i) => ({ w, i }));
+      for (let k = 0; k < 6; k++) { tiles = shuffle(tiles); if (tiles.some((t, i) => t.i !== i)) break; }
+      const placed = [];
+      app.innerHTML = `${gameHead(g)}
+        <div class="card stage">
+          <div class="row" style="justify-content:space-between"><span class="pill">${n + 1}/${ROUNDS}</span><span class="pill">✅ ${score}</span></div>
+          <p class="muted">Tryk på ordene i den rigtige rækkefølge. Tryk på et ord i sætningen for at fjerne det igen.</p>
+          <div class="tiles answer" id="ans" aria-label="Din sætning"></div>
+          <div class="tiles" id="bank"></div>
+          <div class="row" style="justify-content:center;margin-top:12px"><button class="btn words" id="chk" disabled>Tjek</button><button class="btn ghost" id="clr">Ryd</button></div>
+          <div id="after" class="quiz-after"></div>
+        </div>`;
+      function draw() {
+        $("#ans").innerHTML = placed.map((t, k) => `<button class="tile" data-k="${k}">${esc(t.w)}</button>`).join("");
+        $("#bank").innerHTML = tiles.map((t, k) => placed.includes(t) ? "" : `<button class="tile" data-b="${k}">${esc(t.w)}</button>`).join("");
+        $$("#ans .tile").forEach(b => b.onclick = () => { placed.splice(+b.dataset.k, 1); draw(); });
+        $$("#bank .tile").forEach(b => b.onclick = () => { placed.push(tiles[+b.dataset.b]); draw(); });
+        $("#chk").disabled = placed.length !== tiles.length;
+      }
+      draw();
+      $("#clr").onclick = () => { placed.length = 0; draw(); };
+      $("#chk").onclick = () => {
+        const mine = norm(placed.map(t => t.w).join(" "));
+        const ok = [s.da].concat(s.alt || []).some(a => norm(a) === mine);
+        if (ok) score++;
+        $("#ans").classList.add(ok ? "ok" : "bad");
+        $$("#ans .tile, #bank .tile").forEach(b => b.disabled = true);
+        $("#chk").remove(); $("#clr").remove();
+        $("#after").innerHTML = `<p>${ok ? "✅ Rigtigt!" : "❌ Ikke helt. Sådan kan det skrives:"}</p>
+          <p class="big-sentence">${esc(s.da)}</p>
+          ${s.alt && !ok ? `<p class="small muted">Eller: ${s.alt.map(esc).join(" / ")}</p>` : ""}
+          <p class="small muted" lang="en">${esc(s.en)}</p>
+          <button class="btn words" id="nx">${n + 1 < ROUNDS ? "Næste →" : "Se resultat"}</button>`;
+        $("#nx").focus();
+        $("#nx").onclick = () => { n++; if (n < ROUNDS) show(); else finish(); };
+      };
+    }
+    function finish() {
+      const rec = recordGame("order", score);
+      addXP(score * 5, "byg sætningen");
+      if (score === ROUNDS) { award("builder"); confetti(); }
+      gameOver(g, `${score}/${ROUNDS}`, recordLine(rec, "order"), start,
+        `<p class="small muted">Husk reglen: I en hovedsætning står verbet altid på plads 2 – også når sætningen begynder med fx "I dag" eller "Om morgenen".</p>`);
+    }
+    start();
+  }
+
+  // 🎧 Lyt og skriv
+  function dictationGame() {
+    const g = gameInfo("dictation"), ROUNDS = 5;
+    let list, n, total;
+    const toks = s => norm(s).split(" ").filter(Boolean);
+    function start() {
+      list = shuffle(GD().DICTATION[S.exam] || GD().DICTATION.pd2).slice(0, ROUNDS);
+      n = 0; total = 0;
+      show();
+    }
+    function show() {
+      const s = list[n];
+      const canSpeak = "speechSynthesis" in window;
+      app.innerHTML = `${gameHead(g)}
+        <div class="card stage">
+          <div class="row" style="justify-content:space-between"><span class="pill">${n + 1}/${ROUNDS}</span><span class="pill">🎯 ${Math.round(total / Math.max(1, n) * 100)} %</span></div>
+          <div class="row" style="justify-content:center;margin:12px 0"><button class="btn words" id="play">🔊 Hør sætningen</button><button class="btn ghost" id="slow">🐢 Langsomt</button></div>
+          ${!canSpeak ? `<p class="small muted">Din browser kan ikke læse op. Tryk på "Vis sætningen" og øv dig i at skrive den af.</p>`
+            : !daVoice ? `<p class="small muted">Tip: Hvis udtalen lyder forkert, har din enhed måske ingen dansk stemme. Den kan tit tilføjes under sprogindstillingerne.</p>` : ""}
+          <input class="short dict" id="inp" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Skriv det, du hører …" aria-label="Skriv sætningen">
+          <div class="row" style="justify-content:center;margin-top:12px"><button class="btn words" id="chk">Tjek</button><button class="btn ghost sm" id="reveal">Vis sætningen</button></div>
+          <div id="after" class="quiz-after"></div>
+        </div>`;
+      $("#play").onclick = () => speak(s.da);
+      $("#slow").onclick = () => speak(s.da, null, 0.6);
+      $("#inp").focus();
+      setTimeout(() => { if ($("#inp")) speak(s.da); }, 400);
+      let checked = false;
+      const check = given => {
+        if (checked) return;
+        checked = true;
+        const want = toks(s.da), got = toks(given);
+        // Longest common subsequence: which words of the sentence were written correctly.
+        const L = Array.from({ length: want.length + 1 }, () => Array(got.length + 1).fill(0));
+        for (let i = want.length - 1; i >= 0; i--) for (let j = got.length - 1; j >= 0; j--)
+          L[i][j] = want[i] === got[j] ? L[i + 1][j + 1] + 1 : Math.max(L[i + 1][j], L[i][j + 1]);
+        const hit = new Set();
+        for (let i = 0, j = 0; i < want.length && j < got.length;) {
+          if (want[i] === got[j]) { hit.add(i); i++; j++; } else if (L[i + 1][j] >= L[i][j + 1]) i++; else j++;
+        }
+        const extra = Math.max(0, got.length - hit.size);
+        const part = Math.max(0, (hit.size - extra * 0.5) / want.length);
+        total += part;
+        const shown = s.da.split(/\s+/);
+        $("#inp").disabled = true;
+        $("#inp").classList.add(part === 1 ? "ok" : "bad");
+        $("#chk").remove(); $("#reveal").remove();
+        $("#after").innerHTML = `<p>${part === 1 ? "✅ Helt rigtigt!" : `Du fik ${hit.size} af ${want.length} ord rigtigt.`}</p>
+          <p class="big-sentence">${shown.map((w, i) => `<span class="dw ${hit.has(i) ? "ok" : "miss"}">${esc(w)}</span>`).join(" ")}</p>
+          <p class="small muted" lang="en">${esc(s.en)}</p>
+          <button class="btn words" id="nx">${n + 1 < ROUNDS ? "Næste →" : "Se resultat"}</button>`;
+        $("#nx").focus();
+        $("#nx").onclick = () => { n++; if (n < ROUNDS) show(); else finish(); };
+      };
+      $("#chk").onclick = () => check($("#inp").value);
+      $("#reveal").onclick = () => check("");
+      $("#inp").onkeydown = e => { if (e.key === "Enter") { e.preventDefault(); check($("#inp").value); } };
+    }
+    function finish() {
+      const pct = Math.round(total / ROUNDS * 100);
+      const rec = recordGame("dictation", pct);
+      addXP(Math.round(pct / 4), "lyt og skriv");
+      if (rec || pct === 100) confetti();
+      gameOver(g, `${pct} %`, recordLine(rec, "dictation"), start);
+    }
+    start();
+  }
+
+  // 🔁 Bøj verbet
+  function verbsGame() {
+    const g = gameInfo("verbs"), ROUNDS = 10;
+    const TENSES = [null, ["nutid", "I dag …"], ["datid", "I går …"], ["førnutid", "Jeg har/er …"]];
+    function start() {
+      const verbs = shuffle(VERBS()).slice(0, ROUNDS);
+      quiz(g, ROUNDS, n => {
+        const v = verbs[n], t = 1 + Math.floor(Math.random() * 3), answer = v[t];
+        const inf = v[0].replace(/^at /, ""), stem = inf.replace(/e$/, "");
+        const wrong = {
+          1: [stem + "er", inf, v[2]],
+          2: [stem + "ede", stem + "te", inf + "de", v[1]],
+          3: ["har " + stem + "et", "har " + stem + "t", v[3].startsWith("har") ? v[3].replace(/^har/, "er") : v[3].replace(/^er/, "har"), "har " + v[2]]
+        }[t];
+        const options = shuffle([answer].concat(shuffle(wrong.filter((w, i, a) => w !== answer && a.indexOf(w) === i)).slice(0, 3)));
+        return {
+          prompt: `<div class="word-big">${esc(v[0])}</div><p>Hvad er <b>${TENSES[t][0]}</b>? <span class="muted">(${TENSES[t][1]})</span></p>`,
+          options, answer, noTr: true, // hovering an option would give the answer away
+          after: `<b>${esc(v[0])} – ${esc(v[1])} – ${esc(v[2])} – ${esc(v[3])}</b> <span class="muted" lang="en">(${esc(v[4])})</span>`
+        };
+      }, score => {
+        const rec = recordGame("verbs", score);
+        addXP(score * 3, "bøj verbet");
+        if (rec || score === ROUNDS) confetti();
+        gameOver(g, `${score}/${ROUNDS}`, recordLine(rec, "verbs"), start,
+          `<p class="small muted">Mange af de vigtigste verber er uregelmæssige. Lær dem i rækker: gå – går – gik – er gået.</p>`);
+      });
+    }
+    start();
+  }
+
+  // 💬 Talemåder
+  function idiomsGame() {
+    const g = gameInfo("idioms"), ROUNDS = 8;
+    function start() {
+      const all = GD().IDIOMS, picks = shuffle(all).slice(0, ROUNDS);
+      quiz(g, ROUNDS, n => {
+        const d = picks[n];
+        const others = shuffle(all.filter(x => x !== d)).slice(0, 2).map(x => x.en);
+        return {
+          prompt: `<p class="idiom">"${esc(d.da)}"</p><p class="muted">Hvad betyder det?</p>`,
+          options: shuffle([d.en].concat(others)), answer: d.en, lang: "en",
+          after: `<span class="muted">Ordret:</span> <i lang="en">${esc(d.lit)}</i>`
+        };
+      }, score => {
+        const rec = recordGame("idioms", score);
+        addXP(score * 3, "talemåder");
+        if (rec || score === ROUNDS) confetti();
+        gameOver(g, `${score}/${ROUNDS}`, recordLine(rec, "idioms"), start,
+          `<p class="small muted">Prøv at bruge en talemåde i din næste mundtlige øvelse – det imponerer!</p>`);
+      });
+    }
+    start();
   }
 
   // ---------- About ----------
