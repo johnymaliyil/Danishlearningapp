@@ -2,6 +2,140 @@
 // Each translation has the same paragraphs, in the same order, as the Danish model answer,
 // so the app can show them side by side.
 PD2.MODEL_EN = {
+  w12na: `Dear Lindegården Housing Association
+
+I am writing to you because I want to complain about my neighbour, who smokes in the stairwell.
+
+It concerns my neighbour, Jens Nielsen, who lives on the 3rd floor at Lindegården 14 in Aalborg. My name is Amina Hassan, and I live on the 2nd floor in the same stairwell. Jens smokes in the stairwell almost every day, even though it is forbidden.
+
+The problem is that the whole stairwell smells of smoke, and the smoke comes into my flat. My son has asthma, and he coughs a lot when we walk up the stairs.
+
+I have already talked to Jens twice and put up a sign, but he still smokes.
+
+Therefore I would like to ask you to talk to him and remind him of the rules.
+
+I hope that you will help me, and I look forward to hearing from you as soon as possible.
+
+Yours sincerely
+Amina Hassan
+Lindegården 14, 2nd floor right`,
+  w12nb: `Come to a party at my place!
+
+Hi everyone
+
+My name is Sofia, and I am writing because I would like to invite you to a party at my home. We have soon been in class 4 together for a year, and I would like to celebrate that with you.
+
+The party is on Saturday 15 December at 18.00, and my address is Søndergade 22, 1st floor left, in Vejle.
+
+We will eat food from many countries. I am making a big stew from Spain, and everyone brings a small dish from their home country. Afterwards we will listen to music, dance and have a cosy time.
+
+If you want to come, call or text me on 28 64 19 37 by Friday 7 December at the latest.
+
+Thanks in advance!
+
+Best wishes
+Sofia`,
+  w12nc: `Hi Rasmus
+
+Thank you for your email. It was lovely to hear from you. I hope you are well. I am fine.
+
+You ask about my colleague, and I would like to tell you a little about it.
+
+Firstly, his name is Peter, and we work together in a warehouse in Kolding. We have been colleagues for half a year.
+
+In addition, he is not very nice. He is often late, and then I have to do his work. He also says nasty things about me to the other colleagues. It makes me sad.
+
+Finally, I would like to say that I will talk to our boss about it next week. I hope that it will get better.
+
+I look forward to hearing from you. See you soon!
+
+Best wishes
+Ali`,
+  w17ma: `Restaurant Bella Italia – highly recommended!
+
+I would like to recommend Restaurant Bella Italia, which is at Torvet 5 in Horsens. I was there last Friday with my friend Sara.
+
+At the restaurant you can buy Italian food, e.g. pizza, pasta, salads and ice cream. We ate a big pizza with ham and mushrooms, and for dessert we had tiramisu. The best thing about the restaurant is that the food is fresh and delicious, and that the portions are big.
+
+In addition, the waiters are nice and quick, and the restaurant is cosy with candlelight and quiet music.
+
+I would recommend Bella Italia because the food is good, and the prices are reasonable. Try it yourself – you won't be disappointed!
+
+Kind regards
+Amina, class 4`,
+  w17mb: `My voluntary work in a youth club
+
+In this text I will write about my voluntary work in a club for young people.
+
+First I will tell you a little about myself. My name is Ahmed, I am 34 years old, and I come from Syria. I live in Kolding with my family.
+
+Firstly, I work as a volunteer in the youth club Kernen, where young people between 13 and 18 meet after school. I am there four hours a week. Secondly, I help with many activities. I play football and table tennis with the young people, and we cook together.
+
+On the one hand, I do not get paid for my work. On the other hand, I get a lot of other things. I speak Danish all the time, I meet new people, and I do something good for others.
+
+All in all, I think that voluntary work is a good idea for everyone who wants to learn Danish.
+
+Ahmed`,
+  w17mc: `Hi Daniel
+
+Thank you for your email. It was lovely to hear from you. I hope you are well. I am fine.
+
+You ask about my new work placement, and I would like to tell you a little about it.
+
+Firstly, I am doing a work placement in a kindergarten in Aarhus. I work from 8 to 2 four days a week, and I will be there for three months.
+
+In addition, I am happy with my colleagues. They are very nice and helpful, and they explain everything to me if I do not understand it. We have lunch together every day, and I speak Danish all the time, so my Danish has become much better.
+
+Finally, I would like to say that I love being with the children. We play, sing and go for walks in the forest. My boss says that I may be able to get a job when the work placement is over.
+
+I look forward to hearing from you. See you soon!
+
+Best wishes
+Sara`,
+  w16ma: `The language café at the library – highly recommended!
+
+I would like to recommend the language café at the library, which is on Torvet in the middle of town. There is a language café twice a week, every Tuesday and Thursday from 4 to 6 pm.
+
+For example, you can get help with homework, letters and job applications, or you can just practise speaking Danish. The best thing about the language café is that the volunteers always have plenty of time to talk. Most of them are pensioners, but some students come too.
+
+In addition, there is free coffee and tea, and the atmosphere is always cosy.
+
+I would recommend the language café because I have learned a lot of Danish there, and because it is free. Try it yourself – you won't be disappointed!
+
+Kind regards
+Amina, class 4B`,
+  w16mb: `Dear Netto
+
+I have seen your job advertisement on the internet, and I would like to apply for the position of checkout assistant.
+
+My name is Maria Lopez, and I am 29 years old. I come from Spain and have lived in Denmark for three years. I would like to work at Netto because I like meeting lots of people, and because the shop is close to my home.
+
+I have experience of working in a shop. I have done a six-month work placement in a supermarket, where I sat at the checkout. I have also taken a course in customer service.
+
+I think that I would be good at the job because I am fast, honest and good with numbers.
+
+You can contact me by phone on 26 48 15 73.
+
+I hope that you will invite me to an interview. I look forward to hearing from you.
+
+Yours sincerely
+Maria Lopez`,
+  w16mc: `Hi Simon
+
+Thank you for your email. It was lovely to hear from you. I hope you are well. I am fine.
+
+You ask about the problems in my work placement, and I would like to tell you a little about it.
+
+Firstly, I am doing my work placement in a big supermarket, but I get almost only boring tasks. I have to stock the shelves and clean all day, and I do not learn very much.
+
+In addition, I find it hard to talk to my colleagues. They talk very fast, and they eat lunch together without me. My boss never has time to help me either, so I often feel alone.
+
+Finally, I would like to say that I have a meeting with my caseworker next week. I hope that I can get a new work placement. Do you have any good advice?
+
+I look forward to hearing from you. See you soon!
+
+Best wishes
+Ali`,
   w20a: `Come on a bike ride!
 
 Hi everyone
