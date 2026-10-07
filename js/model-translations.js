@@ -2,6 +2,54 @@
 // Each translation has the same paragraphs, in the same order, as the Danish model answer,
 // so the app can show them side by side.
 PD2.MODEL_EN = {
+  w18ma: `Dear everyone at the canteen at the Town Hall
+
+Thank you so much for a really good work placement with you. I have been so happy with my ten weeks in the canteen.
+
+I have learned to cook for many people at once, and I have learned a lot about hygiene in a big kitchen. I have also learned many new Danish words, because we talked together so much.
+
+I am going to miss you, because you were always kind and helpful. You welcomed me warmly from the first day, and we laughed a lot together while we cooked.
+
+Now I am going to start an education as a nutrition assistant in August. I would like to come and visit and have lunch in the canteen one day.
+
+Once again, thank you so much for everything. I hope we will see each other soon!
+
+Best wishes
+Amina`,
+  w18mb: `Helpers wanted for a flea market!
+
+Hi everyone
+
+My name is Mina, and I am writing because we in class 4B are going to hold a flea market here at the language school. The flea market will be on Saturday 9 June from 10 to 15 in the schoolyard.
+
+We have collected lots of things. We are selling, for example, clothes, books, toys, lamps and kitchen things. Everything is cheap, and most things cost between 5 and 50 kroner.
+
+The money from the flea market will be used for a trip for all the students at the school. We would like to go to The Old Town in Aarhus.
+
+We need helpers to set up tables in the morning, sell things and tidy up afterwards. We also need someone who can bake cakes for the café.
+
+If you want to help, call or text me on 28 64 19 37 by Friday 1 June at the latest.
+
+Thanks in advance!
+
+Best wishes
+Mina, class 4B`,
+  w18mc: `Hi Morten
+
+Thank you for your email. It was lovely to hear from you. I hope you are well. I am fine.
+
+You ask about the problems we have living together, and I would like to tell you a little about it.
+
+Firstly, I live with my friends Jonas and Sara in a big flat with three rooms. We do not always agree about the cleaning. I often clean the kitchen and the bathroom, but the other two forget it. Then dirty dishes stand in the sink for several days.
+
+In addition, Jonas often has parties at the weekend, even though I have to go to work early on Saturdays. It is hard to sleep when the music is playing loudly, and it annoys me a lot.
+
+Finally, I would like to say that I am still happy with the flat and with my friends. We have agreed to hold a house meeting every Sunday, and we have made a cleaning rota. I hope that it helps.
+
+I look forward to hearing from you. See you soon!
+
+Best wishes
+Karim`,
   w15ma: `Cooking club at the language school!
 
 Hi everyone
