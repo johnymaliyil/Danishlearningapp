@@ -237,6 +237,121 @@ Hvis man selv kan vælge, synes jeg, [[9]] man skal prøve begge dele og finde u
     }
   );
 
+  // ---------- Øvesæt 3 ----------
+  const G3 = "Modul 4-format · øvesæt 3";
+  sets.push(
+    {
+      id: "pd3-m3-1", group: G3,
+      title: "Opgave 1 – Frivilligt arbejde i Danmark",
+      kind: "Vælg det rigtige ord (A-D)",
+      level: 3, minutes: 10,
+      instruction: "Læs teksten. I teksten mangler der otte ord/udtryk (1-8). Vælg det ord/udtryk, der passer til hvert hul. Se eksemplet (0).",
+      text: `Omkring 40 procent af alle voksne danskere laver frivilligt arbejde. De træner børn i sportsklubber, hjælper ældre med indkøb eller [[0]] i genbrugsbutikker. Det frivillige arbejde er en vigtig del af det danske samfund, og mange foreninger ville slet ikke kunne [[1]] uden de frivillige.
+
+Hvorfor bruger så mange mennesker deres fritid på at arbejde gratis? Undersøgelser viser, at de fleste gør det, fordi de gerne vil [[2]] andre. Men mange nævner også, at det er sjovt, og at de møder nye mennesker. [[3]] kan frivilligt arbejde give erfaring, som man kan bruge, når man søger job.
+
+For mennesker, der er nye i Danmark, kan frivilligt arbejde være en god [[4]] til at lære sproget og forstå den danske kultur. Man taler dansk i praksis og får et netværk, som det [[5]] kan være svært at få.
+
+Der er dog også udfordringer. Mange foreninger har svært ved at finde nok frivillige, [[6]] især unge mennesker har travlt med uddannelse og job. [[7]] er det blevet mere almindeligt at være frivillig i kortere perioder, fx til en festival eller et enkelt arrangement.
+
+Uanset hvordan man gør det, er der næppe tvivl om, at frivilligt arbejde gør en stor [[8]] – både for dem, der hjælper, og for dem, der bliver hjulpet.`,
+      questions: [{
+        type: "gaps",
+        choices: {
+          1: words(["eksistere", "betale", "flytte", "lukke"]),
+          2: words(["hjælpe", "undgå", "glemme", "kritisere"]),
+          3: words(["Desuden", "Derimod", "Tværtimod", "Ellers"]),
+          4: words(["vej", "grund", "pris", "regel"]),
+          5: words(["ellers", "aldrig", "derfor", "tit"]),
+          6: words(["fordi", "selvom", "hvis", "mens"]),
+          7: words(["Til gengæld", "Desværre", "Selvfølgelig", "Altså"]),
+          8: words(["forskel", "fejl", "skade", "larm"])
+        },
+        example: { 0: "arbejder" },
+        answers: { 1: "eksistere", 2: "hjælpe", 3: "Desuden", 4: "vej", 5: "ellers", 6: "fordi", 7: "Til gengæld", 8: "forskel" }
+      }]
+    },
+    {
+      id: "pd3-m3-2", group: G3,
+      title: "Opgave 2 – Rania blev sygeplejerske i Danmark",
+      kind: "Find sætningen (A-H)",
+      level: 3, minutes: 15,
+      instruction: "Læs teksten. I hvert afsnit er der et hul, hvor der mangler en sætning. Find den sætning (A-H), der passer bedst i hvert afsnit (1-5). Der er to sætninger, du ikke skal bruge. Se eksemplet (0).",
+      text: `Rania er 34 år og arbejder som sygeplejerske på Aalborg Universitetshospital. [[0]]. Dengang kunne hun ikke et ord dansk.
+
+**1.** De første år gik Rania på sprogskole fire dage om ugen. Det var svært, især udtalen. [[1]]. Hun så danske tv-serier med undertekster og talte med naboerne, når hun kunne.
+
+**2.** I sit hjemland havde Rania arbejdet som sygeplejerske i fem år. [[2]]. Hun skulle tage flere kurser og bestå en sprogprøve, før hun måtte arbejde som sygeplejerske i Danmark.
+
+**3.** Mens hun læste til prøverne, arbejdede hun som social- og sundhedshjælper på et plejehjem. [[3]]. Hun lærte mange ord, som man ikke lærer på sprogskolen, og hun fik gode kolleger.
+
+**4.** I dag arbejder Rania på en afdeling for hjertepatienter. [[4]]. Nogle gange taler hun også arabisk med patienter, der ikke forstår dansk så godt.
+
+**5.** Rania er stolt af, hvad hun har nået. [[5]]. "Man skal bare ikke give op," siger hun.`,
+      questions: [{
+        type: "gaps",
+        bank: [
+          { key: "A", text: "Hun kom til Danmark for ti år siden" },
+          { key: "B", text: "Men hun øvede sig hver eneste dag" },
+          { key: "C", text: "Alligevel blev hendes uddannelse ikke godkendt med det samme" },
+          { key: "D", text: "Det job var en stor hjælp for hendes dansk" },
+          { key: "E", text: "Hun har travlt, men hun elsker sit arbejde" },
+          { key: "F", text: "Og hun håber, at andre kan blive inspireret af hendes historie" },
+          { key: "G", text: "Derfor flyttede hun tilbage til sit hjemland" },
+          { key: "H", text: "Hun har aldrig arbejdet på et hospital" }
+        ],
+        example: { 0: "A" },
+        answers: { 1: "B", 2: "C", 3: "D", 4: "E", 5: "F" }
+      }]
+    },
+    {
+      id: "pd3-m3-3", group: G3,
+      title: "Opgave 3 – Maria fortæller om sin nye bolig",
+      kind: "Skriv det ord, der mangler",
+      level: 3, minutes: 15,
+      instruction: "Læs teksten. Der mangler 10 ord (1-10). Skriv et ord, der passer. Du skal kun skrive ét ord i hvert hul.",
+      text: `Sidste år flyttede jeg og min familie fra en lille lejlighed i centrum [[1]] et rækkehus i en forstad. Vi havde længe drømt om at få en have, og [[2]] børnene blev større, blev lejligheden for lille.
+
+Der er mange fordele [[3]] at bo i forstaden. Huset er større, og det er meget roligere end i byen. Børnene kan lege udenfor, og der er kun fem minutter [[4]] skolen.
+
+[[5]] der er også ulemper. Vi har længere til arbejde, og jeg bruger næsten en time om dagen [[6]] transport. Vi har også været nødt til at købe en bil mere, og det koster mange penge.
+
+Alligevel er vi glade [[7]] at være flyttet. Vi har fået nye naboer, som er meget søde, og om sommeren spiser vi tit sammen i [[8]] haver. Det sociale fællesskab er meget [[9]] end i lejligheden, hvor vi ikke kendte nogen.
+
+Hvis jeg skulle vælge igen, ville jeg gøre præcis det [[10]].`,
+      questions: [{
+        type: "gaps", open: true,
+        answers: { 1: ["til"], 2: ["da"], 3: ["ved"], 4: ["til"], 5: ["men"], 6: ["på"], 7: ["for"], 8: ["vores", "hinandens"], 9: ["større", "bedre", "stærkere"], 10: ["samme"] }
+      }]
+    },
+    {
+      id: "pd3-m3-4", group: G3,
+      title: "Opgave 4 – Seks små tekster",
+      kind: "Vælg det rigtige svar (A-C)",
+      level: 3, minutes: 15,
+      instruction: "Læs de seks små tekster (1-6). Vælg det svar (A-C), der passer til teksten.",
+      sections: [{
+        heading: "Seks små tekster",
+        cards: [
+          { title: "1. Affaldssortering", body: "Fra 1. januar skal alle husstande sortere madaffald i den grønne spand. Spanden tømmes hver anden uge. Poser til madaffald kan hentes gratis i Kvickly og på genbrugspladsen." },
+          { title: "2. Sms", body: "Hej mor\nToget er forsinket, så jeg når ikke hjem til aftensmad. Gem lidt mad til mig, så spiser jeg, når jeg kommer.\nKnus Emma" },
+          { title: "3. Svømmehallen", body: "På grund af renovering er svømmehallen lukket fra 1. til 21. august. Udendørsbassinet er åbent som normalt. Har du årskort, forlænges det automatisk med tre uger." },
+          { title: "4. Påmindelse fra tandlægen", body: "Husk din tid hos tandlægen tirsdag kl. 14.30. Hvis du er forhindret, skal du melde afbud senest 24 timer før. Ellers skal du betale et gebyr på 250 kr." },
+          { title: "5. Jobannonce", body: "Vi søger en lagermedarbejder 30 timer om ugen. Du skal kunne løfte tunge ting og have truckcertifikat. Erfaring er en fordel, men ikke et krav." },
+          { title: "6. Mail fra udlejeren", body: "Kære beboere\nMandag den 3. marts bliver der lukket for vandet mellem kl. 9 og 12 på grund af en reparation. Vi beklager ulejligheden.\nVenlig hilsen Boligselskabet" }
+        ]
+      }],
+      questions: [
+        { type: "mc", n: 1, q: "Tekst 1: Hvad er rigtigt?", options: ["Madaffald skal i den grønne spand.", "Spanden tømmes hver uge.", "Poserne til madaffald koster penge."], answer: 0 },
+        { type: "mc", n: 2, q: "Tekst 2: Hvad er rigtigt?", options: ["Emma kommer ikke hjem i aften.", "Emma vil gerne have mad, når hun kommer hjem.", "Emma har allerede spist."], answer: 1 },
+        { type: "mc", n: 3, q: "Tekst 3: Hvad er rigtigt?", options: ["Hele svømmehallen er lukket i hele august.", "Årskort bliver forlænget uden ekstra betaling.", "Udendørsbassinet er lukket."], answer: 1 },
+        { type: "mc", n: 4, q: "Tekst 4: Hvad er rigtigt?", options: ["Du kan ikke flytte din tid.", "Du skal betale et gebyr, hvis du melder afbud for sent.", "Din tid er om onsdagen."], answer: 1 },
+        { type: "mc", n: 5, q: "Tekst 5: Hvad er rigtigt?", options: ["Du skal have erfaring.", "Jobbet er på fuld tid.", "Du skal have truckcertifikat."], answer: 2 },
+        { type: "mc", n: 6, q: "Tekst 6: Hvad er rigtigt?", options: ["Der er ikke vand hele mandagen.", "Der er ikke vand mandag formiddag.", "Beboerne skal selv reparere rørene."], answer: 1 }
+      ]
+    }
+  );
+
   // First in the PD3 reading list.
   PD2.EXAMS.pd3.READING.unshift(...sets);
 })();
