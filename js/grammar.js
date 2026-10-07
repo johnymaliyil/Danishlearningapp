@@ -344,3 +344,59 @@ PD2.GRAMMAR = [
     ]
   }
 ];
+
+// Øvebank: building blocks for endless, generated grammar drills.
+// Every combination of subject + activity + starter gives a correct Danish sentence.
+PD2.DRILLS = {
+  subjects: [["jeg", "I"], ["du", "you"], ["han", "he"], ["hun", "she"], ["vi", "we"], ["de", "they"], ["min bror", "my brother"], ["Maria", "Maria"]],
+  // [infinitive, present, past, perfect auxiliary, past participle, rest of the sentence, English]
+  acts: [
+    ["spise", "spiser", "spiste", "har", "spist", "morgenmad", "eat breakfast"],
+    ["drikke", "drikker", "drak", "har", "drukket", "kaffe", "drink coffee"],
+    ["læse", "læser", "læste", "har", "læst", "avis", "read the newspaper"],
+    ["se", "ser", "så", "har", "set", "fjernsyn", "watch TV"],
+    ["spille", "spiller", "spillede", "har", "spillet", "fodbold", "play football"],
+    ["lave", "laver", "lavede", "har", "lavet", "mad", "cook"],
+    ["arbejde", "arbejder", "arbejdede", "har", "arbejdet", "hjemme", "work from home"],
+    ["lære", "lærer", "lærte", "har", "lært", "dansk", "learn Danish"],
+    ["købe", "køber", "købte", "har", "købt", "brød", "buy bread"],
+    ["skrive", "skriver", "skrev", "har", "skrevet", "en mail", "write an e-mail"],
+    ["ringe", "ringer", "ringede", "har", "ringet", "til min mor", "call my mother"],
+    ["gå", "går", "gik", "er", "gået", "en tur", "go for a walk"],
+    ["cykle", "cykler", "cyklede", "er", "cyklet", "på arbejde", "cycle to work"],
+    ["handle", "handler", "handlede", "har", "handlet", "ind", "do the shopping"]
+  ],
+  // Sentence starters that take the present tense / the past tense.
+  nowStarters: [["i dag", "today"], ["i morgen", "tomorrow"], ["om morgenen", "in the morning"], ["om aftenen", "in the evening"], ["i weekenden", "at the weekend"], ["hver dag", "every day"], ["nu", "now"], ["om lørdagen", "on Saturdays"], ["derfor", "therefore"], ["heldigvis", "fortunately"]],
+  pastStarters: [["i går", "yesterday"], ["i sidste uge", "last week"], ["i lørdags", "last Saturday"], ["i går aftes", "last night"]],
+  adverbs: [["ikke", "not"], ["altid", "always"], ["aldrig", "never"], ["tit", "often"], ["også", "also"]],
+  becauseMain: [["Det er et problem", "It is a problem"], ["Det er synd", "It is a pity"], ["Det er mærkeligt", "It is strange"]],
+  // Conjunction gaps: [sentence with ___, answer, English]
+  conj: [
+    ["Jeg er træt, ___ jeg har arbejdet hele dagen.", "fordi", "I am tired because I have worked all day."],
+    ["Jeg vil gerne komme, ___ jeg har ikke tid.", "men", "I would like to come, but I don't have time."],
+    ["Det regner, ___ vi bliver hjemme.", "så", "It is raining, so we are staying at home."],
+    ["Vil du have kaffe ___ te?", "eller", "Would you like coffee or tea?"],
+    ["Vi går en tur, ___ det regner.", "selvom", "We go for a walk, even though it is raining."],
+    ["___ det bliver godt vejr, tager vi til stranden.", "Hvis", "If the weather is good, we will go to the beach."],
+    ["___ jeg kommer hjem, laver jeg mad.", "Når", "When I come home, I make dinner."],
+    ["Hun spiser ikke kød, ___ hun er vegetar.", "fordi", "She doesn't eat meat, because she is a vegetarian."],
+    ["Han går på arbejde, ___ han er syg.", "selvom", "He goes to work, even though he is ill."],
+    ["Jeg drikker kaffe ___ spiser en bolle.", "og", "I drink coffee and eat a bun."],
+    ["Bussen var forsinket, ___ jeg kom for sent.", "så", "The bus was late, so I was late."],
+    ["Du kan ringe ___ skrive til mig.", "eller", "You can call or write to me."],
+    ["Jeg lærer dansk, ___ jeg gerne vil have et job i Danmark.", "fordi", "I am learning Danish because I would like a job in Denmark."],
+    ["___ du har spørgsmål, kan du skrive til mig.", "Hvis", "If you have questions, you can write to me."],
+    ["Jeg hører musik, ___ jeg laver mad.", "mens", "I listen to music while I cook."],
+    ["Lejligheden er dyr, ___ den er meget flot.", "men", "The flat is expensive, but it is very nice."],
+    ["___ jeg var barn, boede jeg på landet.", "Da", "When I was a child, I lived in the countryside."],
+    ["Han siger, ___ han kommer i morgen.", "at", "He says that he is coming tomorrow."],
+    ["Jeg ved ikke, ___ hun kommer.", "om", "I don't know whether she is coming."],
+    ["Vi skal handle ind, ___ vi har ingen mad.", "for", "We have to go shopping, for we have no food."]
+  ],
+  conjWords: ["og", "men", "eller", "så", "for", "fordi", "selvom", "hvis", "når", "da", "mens", "at", "om"],
+  conjEn: { og: "and", men: "but", eller: "or", "så": "so", for: "for (because)", fordi: "because", selvom: "even though", hvis: "if", "når": "when (each time / future)", da: "when (once, in the past)", mens: "while", at: "that", om: "whether" },
+  // Adjectives: [base, et-form, e-form, English]
+  adjs: [["stor", "stort", "store", "big"], ["ny", "nyt", "nye", "new"], ["gammel", "gammelt", "gamle", "old"], ["dyr", "dyrt", "dyre", "expensive"], ["billig", "billigt", "billige", "cheap"], ["flot", "flot", "flotte", "nice-looking"], ["god", "godt", "gode", "good"], ["dansk", "dansk", "danske", "Danish"], ["varm", "varmt", "varme", "warm"], ["rød", "rødt", "røde", "red"]],
+  adjNouns: [["en", "bil", "car"], ["en", "lejlighed", "flat"], ["en", "jakke", "jacket"], ["en", "cykel", "bike"], ["en", "lampe", "lamp"], ["en", "sofa", "sofa"], ["en", "kop", "cup"], ["et", "hus", "house"], ["et", "bord", "table"], ["et", "køkken", "kitchen"], ["et", "ur", "watch"], ["et", "tæppe", "blanket"], ["et", "værelse", "room"], ["et", "billede", "picture"]]
+};

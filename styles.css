@@ -636,3 +636,10 @@ input.short.dict-search { font-size: 1.15rem; padding: 12px 14px; }
 .dict-res .vrow { grid-template-columns: auto minmax(100px, auto) 1fr auto; }
 .star { border: 0; background: none; cursor: pointer; font-size: 1.1rem; filter: grayscale(1); opacity: .45; padding: 2px 4px; }
 .star.on { filter: none; opacity: 1; }
+
+/* ---------- Øvebank ---------- */
+.drills .task h2 { font-size: 1.1rem; }
+.drill-q { font-size: 1.05rem; margin: 12px 0; }
+.drill-base { font-size: 1.3rem; font-weight: 800; margin: 10px 0; color: var(--text); }
+.drill-lead { font-weight: 800; margin: 4px 0 0; }
+.drill-rule summary { cursor: pointer; }

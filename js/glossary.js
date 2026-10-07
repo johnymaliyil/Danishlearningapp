@@ -9378,4 +9378,14 @@ ordtræneren=the word trainer
 søg=search
 bøjninger=inflected forms
 grundformen=the base form
+øvebank=practice bank
+forklaring=explanation
+verbets=the verb's
+reglen=the rule
+øvelse=practice / exercise
+mester=master
+tillægsordet=the adjective
+aftes=evening (i aftes = this evening)
+vegetar=vegetarian
+bolle=bun / roll
 `;

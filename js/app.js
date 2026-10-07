@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "27"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "28"; // keep in step with ?v= in index.html and VERSION in sw.js
 
   // ---------- Storage ----------
   const KEY = "pd2-trainer-v1";
@@ -298,6 +298,7 @@
     [/^\/games\/vocab\/(\d+)$/, n => vocabGame().setPage(+n - 1)],
     [/^\/games\/(\w+)$/, gameRoute],
     [/^\/grammar$/, grammarList],
+    [/^\/grammar\/drill\/(\w+)$/, drillPage],
     [/^\/grammar\/([\w-]+)$/, grammarLesson],
     [/^\/ordbog$/, dictionaryPage],
     [/^\/exam$/, examPage],
@@ -1999,7 +2000,14 @@
       <h1>📐 Grammatik <span class="tag">for begyndere</span></h1>
       <p class="muted">Korte lektioner om, hvordan man bygger danske sætninger: subjekt og verbum, inversion, spørgsmål, bindeord, navneord, tillægsord og meget mere. Hver lektion har forklaringer på dansk og engelsk, farvede eksempler og øvelser.</p>
       <div class="card"><b class="small">Farverne i eksemplerne</b>${gramLegend()}</div>
-      <div class="stack" style="margin-top:16px">
+      <h2 style="margin-top:22px">🏋️ Øvebank – træn så meget du vil</h2>
+      <p class="muted small" style="margin-top:-4px">Nye opgaver hver gang: byg sætninger, flyt ikke, vælg bindeord og bøj ord. Med forklaring og farver efter hvert svar.</p>
+      <div class="grid grid-2 drills">${Object.entries(DRILL_INFO).map(([k, d]) => `<a class="task read" href="#/grammar/drill/${k}">
+          <span class="emoji">${d.ico}</span><h2>${esc(d.name)}</h2>
+          <p class="muted small" lang="en" style="margin:0">${esc(d.en)}</p>
+          ${S.drills && S.drills[k] ? `<span class="pill" style="margin-top:8px">🏆 ${S.drills[k]}/10</span>` : ""}</a>`).join("")}</div>
+      <h2 style="margin-top:22px">📚 Lektioner</h2>
+      <div class="stack" style="margin-top:8px">
         ${L.map((g, i) => {
           const b = gramBest(g.id);
           return `<a class="list-item" href="#/grammar/${g.id}">
@@ -2127,6 +2135,192 @@
         </div></div>`;
       $("#gramAgain").onclick = () => { grammarLesson(g.id); window.scrollTo(0, 0); };
     }
+  }
+
+  // ---------- Øvebank: endless generated grammar drills ----------
+  const DRILL_INFO = {
+    inversion: { ico: "🔄", name: "Inversion: verbet på plads 2", en: "Inversion: the verb in second place",
+      rule: "Når sætningen begynder med fx en tid (i dag, i går, om morgenen) eller derfor/heldigvis, kommer verbet lige efter – og så subjektet.",
+      ruleEn: "When the sentence starts with a time (i dag, i går …) or derfor/heldigvis, the verb comes next – then the subject." },
+    adverb: { ico: "🚫", name: "Ikke, altid, aldrig …", en: "Where to put ikke, altid, aldrig …",
+      rule: "Hovedsætning: verbum + ikke. Med inversion: verbum + subjekt + ikke. Efter fordi, at, hvis …: subjekt + ikke + verbum.",
+      ruleEn: "Main clause: verb + ikke. With inversion: verb + subject + ikke. After fordi, at, hvis …: subject + ikke + verb." },
+    conj: { ico: "🔗", name: "Bindeord", en: "Conjunctions",
+      rule: "og, men, eller, så, for binder to hovedsætninger. fordi, selvom, hvis, når, da, mens, at, om starter en ledsætning.",
+      ruleEn: "og, men, eller, så, for join two main clauses. fordi, selvom, hvis, når, da, mens, at, om start a subordinate clause." },
+    adj: { ico: "🎨", name: "Tillægsord: stor, stort, store", en: "Adjective endings",
+      rule: "en + tillægsord (en stor bil). et + tillægsord + t (et stort hus). den/det + tillægsord + e (den store bil, det store hus).",
+      ruleEn: "en-words: no ending. et-words: add -t. After den/det: add -e." },
+    verb: { ico: "⏰", name: "Verbets tid: nu, i går, har …", en: "Verb tenses",
+      rule: "Nu → nutid (spiser). I går → datid (spiste). har/er + førnutid (har spist, er gået).",
+      ruleEn: "Now → present (spiser). Yesterday → past (spiste). har/er + past participle (har spist, er gået)." }
+  };
+  const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+  const pickOne = a => a[Math.floor(Math.random() * a.length)];
+  const restRole = r => /^(til|på|hjemme|ind)\b/.test(r) ? "A" : "O";
+
+  function drillQuestion(type) {
+    const D = PD2.DRILLS;
+    const [subj, subjEn] = pickOne(D.subjects), act = pickOne(D.acts);
+    const [, pres, past, aux, part, rest, actEn] = act;
+    const R = restRole(rest);
+    if (type === "inversion") {
+      const isPast = Math.random() < .35;
+      const [start, startEn] = pickOne(isPast ? D.pastStarters : D.nowStarters), verb = isPast ? past : pres;
+      return {
+        kind: "order",
+        prompt: `Skriv sætningen, så den begynder med <b>»${esc(cap(start))}«</b>:<div class="drill-base">${esc(cap(subj))} ${esc(verb)} ${esc(rest)}.</div>`,
+        chunks: [start, verb, subj, rest], answers: [[start, verb, subj, rest]],
+        markup: `[A|${cap(start)}] [V|${verb}] [S|${subj}] [${R}|${rest}].`,
+        en: `${cap(startEn)} ${subjEn} ${isPast ? "(past) " : ""}${actEn}.`
+      };
+    }
+    if (type === "adverb") {
+      const pattern = pickOne(["main", "inv", "sub"]);
+      const [adv, advEn] = pattern === "sub" ? pickOne(D.adverbs.slice(0, 3)) : pickOne(D.adverbs);
+      if (pattern === "main") return {
+        kind: "order",
+        prompt: `Sæt <b>»${esc(adv)}«</b> ind på den rigtige plads:<div class="drill-base">${esc(cap(subj))} ${esc(pres)} ${esc(rest)}.</div>`,
+        chunks: [subj, pres, adv, rest], answers: [[subj, pres, adv, rest]],
+        markup: `[S|${cap(subj)}] [V|${pres}] [N|${adv}] [${R}|${rest}].`, en: `${cap(subjEn)} ${advEn} ${actEn}.`
+      };
+      if (pattern === "inv") {
+        const [start, startEn] = pickOne(D.nowStarters.filter(s => s[0] !== "derfor" && s[0] !== "heldigvis"));
+        return {
+          kind: "order",
+          prompt: `Begynd med <b>»${esc(cap(start))}«</b>, og sæt <b>»${esc(adv)}«</b> ind:<div class="drill-base">${esc(cap(subj))} ${esc(pres)} ${esc(rest)}.</div>`,
+          chunks: [start, pres, subj, adv, rest], answers: [[start, pres, subj, adv, rest]],
+          markup: `[A|${cap(start)}] [V|${pres}] [S|${subj}] [N|${adv}] [${R}|${rest}].`, en: `${cap(startEn)} ${subjEn} ${advEn} ${actEn}.`
+        };
+      }
+      const [main, mainEn] = pickOne(D.becauseMain);
+      return {
+        kind: "order",
+        prompt: `Gør sætningen færdig med <b>»fordi«</b>:<div class="drill-base">${esc(main)}, … (${esc(subj)} ${esc(pres)} ${esc(adv)} ${esc(rest)})</div>`,
+        lead: `${main},`,
+        chunks: ["fordi", subj, adv, pres, rest], answers: [["fordi", subj, adv, pres, rest]],
+        markup: `${main}, [C|fordi] [S|${subj}] [N|${adv}] [V|${pres}] [${R}|${rest}].`, en: `${mainEn}, because ${subjEn} ${advEn} ${actEn}.`
+      };
+    }
+    if (type === "conj") {
+      const [s, a, en] = pickOne(D.conj);
+      const capd = /^___/.test(s), norm1 = a.toLowerCase();
+      const opts = shuffle([norm1].concat(shuffle(D.conjWords.filter(w => w !== norm1)).slice(0, 3))).map(w => capd ? cap(w) : w);
+      return {
+        kind: "mc", prompt: `Vælg det bindeord, der passer:<div class="drill-base">${esc(s).replace("___", '<span class="blank">____</span>')}</div>`,
+        options: opts, answer: a,
+        markup: s.replace("___", `[C|${a}]`), en, why: `${a} =`, whyEn: D.conjEn[norm1]
+      };
+    }
+    if (type === "adj") {
+      const [base, tForm, eForm, adjEn] = pickOne(D.adjs), [g, noun, nounEn] = pickOne(D.adjNouns);
+      const def = Math.random() < .45, art = def ? (g === "en" ? "den" : "det") : g;
+      const answer = def ? eForm : g === "et" ? tForm : base;
+      return {
+        kind: "mc", prompt: `Skriv tillægsordet <b>»${esc(base)}«</b> i den rigtige form:<div class="drill-base">${art} <span class="blank">____</span> ${esc(noun)}</div>`,
+        options: shuffle([...new Set([base, tForm, eForm])]), answer,
+        markup: `[O|${art} ${answer} ${noun}]`, en: `${def ? "the" : "a"} ${adjEn} ${nounEn}`,
+        why: def ? `Efter ${art} får tillægsordet altid -e.` : g === "et" ? `${noun} er et et-ord, så tillægsordet får -t.` : `${noun} er et en-ord, så tillægsordet har ingen endelse.`
+      };
+    }
+    // verb tenses
+    const tense = pickOne(["now", "past", "perfect"]);
+    const options = shuffle([...new Set([pres, past, part])]);
+    if (tense === "now") return {
+      kind: "mc", prompt: `Vælg den rigtige form af <b>»at ${esc(act[0])}«</b>:<div class="drill-base">Nu <span class="blank">____</span> ${esc(subj)} ${esc(rest)}.</div>`,
+      options, answer: pres, markup: `[A|Nu] [V|${pres}] [S|${subj}] [${R}|${rest}].`, en: `Now ${subjEn} ${actEn}.`, why: "Nu → nutid (-r)."
+    };
+    if (tense === "past") return {
+      kind: "mc", prompt: `Vælg den rigtige form af <b>»at ${esc(act[0])}«</b>:<div class="drill-base">I går <span class="blank">____</span> ${esc(subj)} ${esc(rest)}.</div>`,
+      options, answer: past, markup: `[A|I går] [V|${past}] [S|${subj}] [${R}|${rest}].`, en: `Yesterday ${subjEn} (past) ${actEn}.`, why: "I går → datid."
+    };
+    return {
+      kind: "mc", prompt: `Vælg den rigtige form af <b>»at ${esc(act[0])}«</b>:<div class="drill-base">${esc(cap(subj))} ${aux} <span class="blank">____</span> ${esc(rest)}.</div>`,
+      options, answer: part, markup: `[S|${cap(subj)}] [V|${aux} ${part}] [${R}|${rest}].`, en: `${cap(subjEn)} ${aux === "er" ? "has" : "has/have"} (done): ${actEn}.`, why: `${aux} + førnutid: ${aux} ${part}.`
+    };
+  }
+
+  function drillPage(type) {
+    const info = DRILL_INFO[type];
+    if (!info) return grammarList();
+    const ROUND = 10;
+    let n = 0, score = 0, streak = 0;
+    S.drills = S.drills || {};
+    function show() {
+      const q = drillQuestion(type);
+      app.innerHTML = `
+        <a class="back" href="#/grammar">← Grammatik</a>
+        <h1>${info.ico} ${esc(info.name)}</h1>
+        <details class="card drill-rule"><summary><b>💡 Reglen</b> <span class="muted small">(tryk for at vise)</span></summary>
+          <p>${esc(info.rule)}</p><p class="small muted" lang="en">🇬🇧 ${esc(info.ruleEn)}</p>${gramLegend()}</details>
+        <div class="card stage" style="margin-top:12px">
+          <div class="row" style="justify-content:space-between"><span class="pill">${n + 1}/${ROUND}</span><span class="pill">✅ ${score}${streak >= 3 ? ` · 🔥 ${streak}` : ""}</span></div>
+          <div class="drill-q">${q.prompt}</div>
+          <div id="dw"></div>
+          <div id="dfb" class="quiz-after"></div>
+        </div>`;
+      const fb = ok => {
+        if (ok) { score++; streak++; } else streak = 0;
+        $("#dfb").innerHTML = `<p>${ok ? "✅ Rigtigt!" : "❌ Ikke helt. Sådan skal det være:"}</p>
+          <p class="gram-da">${gramHtml(q.markup)}</p>
+          <p class="small muted" lang="en">${esc(q.en)}</p>
+          ${q.why ? `<p class="small">💡 ${esc(q.why)}${q.whyEn ? ` <span lang="en">${esc(q.whyEn)}</span>` : ""}</p>` : ""}
+          <button class="btn write" id="dnext">${n + 1 < ROUND ? "Næste →" : "Se resultat"}</button>`;
+        $("#dnext").focus();
+        $("#dnext").onclick = () => { n++; if (n < ROUND) show(); else finish(); };
+      };
+      const w = $("#dw");
+      if (q.kind === "mc") {
+        w.innerHTML = `<div class="answers no-tr">${q.options.map(o => `<button class="choice" data-o="${esc(o)}">${esc(o)}</button>`).join("")}</div>`;
+        let locked = false;
+        $$(".choice", w).forEach(b => b.onclick = () => {
+          if (locked) return; locked = true;
+          const ok = b.dataset.o === q.answer;
+          b.classList.add(ok ? "ok" : "bad");
+          if (!ok) $$(".choice", w).find(x => x.dataset.o === q.answer).classList.add("ok");
+          fb(ok);
+        });
+      } else {
+        let tiles = q.chunks.map((t, i) => ({ t, i }));
+        for (let k = 0; k < 6; k++) { tiles = shuffle(tiles); if (tiles.some((x, j) => x.i !== j)) break; }
+        const placed = [];
+        w.innerHTML = `${q.lead ? `<p class="drill-lead">${esc(q.lead)}</p>` : ""}<div class="tiles answer" id="dans"></div><div class="tiles" id="dbank"></div>
+          <div class="row" style="justify-content:center;margin-top:10px"><button class="btn write" id="dchk" disabled>Tjek</button><button class="btn ghost" id="dclr">Ryd</button></div>`;
+        let done = false;
+        const draw = () => {
+          $("#dans").innerHTML = placed.map((x, k) => `<button class="tile" data-p="${k}">${esc(x.t)}</button>`).join("");
+          $("#dbank").innerHTML = tiles.map((x, k) => placed.includes(x) ? "" : `<button class="tile" data-b="${k}">${esc(x.t)}</button>`).join("");
+          $$("#dans .tile").forEach(b => b.onclick = () => { if (!done) { placed.splice(+b.dataset.p, 1); draw(); } });
+          $$("#dbank .tile").forEach(b => b.onclick = () => { if (!done) { placed.push(tiles[+b.dataset.b]); draw(); } });
+          $("#dchk").disabled = done || placed.length !== tiles.length;
+        };
+        draw();
+        $("#dclr").onclick = () => { if (!done) { placed.length = 0; draw(); } };
+        $("#dchk").onclick = () => {
+          done = true;
+          const mine = norm(placed.map(x => x.t).join(" "));
+          const ok = q.answers.some(a => norm(a.join(" ")) === mine);
+          $("#dans").classList.add(ok ? "ok" : "bad");
+          $("#dchk").disabled = true;
+          fb(ok);
+        };
+      }
+    }
+    function finish() {
+      const best = S.drills[type] || 0;
+      if (score > best) S.drills[type] = score;
+      bump("grammar"); save();
+      addXP(score * 2, "øvebank");
+      if (score === ROUND) confetti();
+      app.innerHTML = `<a class="back" href="#/grammar">← Grammatik</a>
+        <h1>${info.ico} ${esc(info.name)}</h1>
+        <div class="card stage"><div class="word-big">${score}/${ROUND}</div>
+          <p style="font-weight:800">${score === ROUND ? "🎉 Perfekt!" : score >= 7 ? "👏 Flot!" : "Øvelse gør mester – prøv en runde til."}${score > best && best ? " 🏆 Ny rekord!" : ""}</p>
+          <div class="row" style="justify-content:center"><button class="btn write" id="dagain">Ny runde</button><a class="btn ghost" href="#/grammar">Grammatik</a></div></div>`;
+      $("#dagain").onclick = () => { n = 0; score = 0; streak = 0; show(); };
+      $("#dagain").focus();
+    }
+    show();
   }
 
   // ---------- Skabeloner (writing templates) ----------
