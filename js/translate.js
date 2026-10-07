@@ -41,14 +41,22 @@
     return null;
   }
 
+  // Browsers differ in which caret API they have and in what they return, so try both
+  // and accept the first answer that points into a text node.
   function caretAt(x, y) {
-    if (document.caretPositionFromPoint) {
-      const p = document.caretPositionFromPoint(x, y);
-      return p && { node: p.offsetNode, offset: p.offset };
-    }
-    if (document.caretRangeFromPoint) {
-      const r = document.caretRangeFromPoint(x, y);
-      return r && { node: r.startContainer, offset: r.startOffset };
+    const tries = [];
+    if (document.caretRangeFromPoint) tries.push(() => { const r = document.caretRangeFromPoint(x, y); return r && { node: r.startContainer, offset: r.startOffset }; });
+    if (document.caretPositionFromPoint) tries.push(() => { const p = document.caretPositionFromPoint(x, y); return p && { node: p.offsetNode, offset: p.offset }; });
+    for (const t of tries) {
+      let c = null;
+      try { c = t(); } catch (e) { /* try the next API */ }
+      if (!c || !c.node) continue;
+      if (c.node.nodeType === Node.TEXT_NODE) return c;
+      // Some engines report the element and a child index instead of the text node itself.
+      const kids = c.node.childNodes || [];
+      for (const k of [kids[c.offset], kids[c.offset - 1]]) {
+        if (k && k.nodeType === Node.TEXT_NODE) return { node: k, offset: k === kids[c.offset] ? 0 : k.data.length };
+      }
     }
     return null;
   }
@@ -105,13 +113,15 @@
   }
 
   // Mouse: follow the pointer, one lookup per animation frame.
-  let pending = null;
+  let pending = null, pinned = null;
   document.addEventListener("mousemove", ev => {
     if (!enabled) return;
     if (!pending) requestAnimationFrame(() => {
       const p = pending; pending = null;
       const hit = wordAt(p.x, p.y);
-      if (hit) show(hit); else hide();
+      if (hit) { pinned = null; show(hit); }
+      // A word shown by double-click stays until the pointer leaves it.
+      else if (!(pinned && Math.abs(p.x - pinned.x) < 40 && Math.abs(p.y - pinned.y) < 20)) { pinned = null; hide(); }
     });
     pending = { x: ev.clientX, y: ev.clientY };
   }, { passive: true });
@@ -122,6 +132,20 @@
   document.addEventListener("click", hide, true);
   // An image finishing loading can move the text away from under the tooltip.
   document.addEventListener("load", e => { if (e.target.tagName === "IMG") hide(); }, true);
+
+  // Double-click: works even where the pointer lookup does not (the browser selects the word itself).
+  document.addEventListener("dblclick", () => {
+    if (!enabled) return;
+    const sel = getSelection();
+    if (!sel || sel.rangeCount === 0) return;
+    const range = sel.getRangeAt(0), node = range.startContainer;
+    const el = node.nodeType === Node.TEXT_NODE ? node.parentElement : node;
+    if (!el || el.closest(SKIP)) return;
+    const word = sel.toString().trim().replace(/[^A-Za-zÆØÅæøåÄÖÜäöüÉé-]/g, "");
+    if (!word) return;
+    const rect = range.getBoundingClientRect();
+    if (rect.width) setTimeout(() => { pinned = { x: rect.left + rect.width / 2, y: rect.top + rect.height / 2 }; show({ word, rect }); }, 0);
+  });
 
   // Touch: press and hold a word.
   let holdTimer = null;
