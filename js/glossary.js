@@ -9372,4 +9372,10 @@ typiske=typical
 læseopgave=reading task
 chrome=(a name: web browser)
 edge=(a name: web browser)
+ordbog=dictionary
+ordbogen=the dictionary
+ordtræneren=the word trainer
+søg=search
+bøjninger=inflected forms
+grundformen=the base form
 `;

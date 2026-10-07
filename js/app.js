@@ -298,6 +298,7 @@
     [/^\/games\/(\w+)$/, gameRoute],
     [/^\/grammar$/, grammarList],
     [/^\/grammar\/([\w-]+)$/, grammarLesson],
+    [/^\/ordbog$/, dictionaryPage],
     [/^\/exam$/, examPage],
     [/^\/plan$/, planPage],
     [/^\/mistakes$/, mistakesPage],
@@ -474,6 +475,11 @@
           <h2>Prøvesimulering</h2>
           <p class="muted" style="margin:0">Tag en hel skriftlig prøve med tid og få et anslået resultat.${S.exams.length ? ` Sidst: <b>${S.exams[0].score}/${S.exams[0].total}</b> (${esc(S.exams[0].grade)}).` : ""}</p>
         </a>` : ""}
+        <a class="task read" href="#/ordbog">
+          <span class="emoji">🔎</span>
+          <h2>Ordbog</h2>
+          <p class="muted" style="margin:0">Slå danske og engelske ord op – med udtale – og gem svære ord til Ordtræneren.</p>
+        </a>
         <a class="task write" href="#/mistakes">
           <span class="emoji">❌</span>
           <h2>Mine fejl</h2>
@@ -1912,6 +1918,68 @@
       $(".stage").prepend(box);
       $("#simGo").onclick = () => { SIM = null; addXP(40, "mundtlig simulering"); location.hash = "#/speaking/sim/done"; };
     }
+  }
+
+  // ---------- Ordbog (Danish-English dictionary built from the hover glossary) ----------
+  let dictCache = null;
+  function dictEntries() {
+    if (dictCache) return dictCache;
+    const seen = new Set();
+    dictCache = PD2.GLOSSARY_RAW.split("\n").map(l => { const i = l.indexOf("="); return i > 0 ? [l.slice(0, i).trim(), l.slice(i + 1).trim()] : null; })
+      .filter(e => e && e[0].length > 1 && !/^\(a name|^\((a )?name/i.test(e[1]) && !seen.has(e[0]) && seen.add(e[0]))
+      .map(([da, en]) => ({ da, en, enL: en.toLowerCase() }));
+    return dictCache;
+  }
+  // Lets you type "ae", "oe", "aa" for æ, ø, å.
+  const dkFold = s => s.toLowerCase().trim().replace(/ae/g, "æ").replace(/oe/g, "ø").replace(/aa/g, "å");
+  function dictSearch(q) {
+    q = q.toLowerCase().trim();
+    if (!q) return [];
+    const qs = [...new Set([q, dkFold(q)])], ranked = [];
+    const enWord = new RegExp(`(^|[^a-z])${q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}([^a-z]|$)`);
+    dictEntries().forEach(e => {
+      let r = 0;
+      if (qs.includes(e.da)) r = 100;
+      else if (qs.some(x => e.da.startsWith(x))) r = 80 - Math.min(30, e.da.length);
+      else if (enWord.test(e.enL)) r = 60 - Math.min(30, e.enL.length / 2);
+      else if (qs.some(x => x.length > 2 && e.da.includes(x))) r = 30;
+      else if (q.length > 2 && e.enL.includes(q)) r = 20;
+      if (r) ranked.push([r, e]);
+    });
+    return ranked.sort((a, b) => b[0] - a[0] || a[1].da.length - b[1].da.length).slice(0, 60).map(x => x[1]);
+  }
+  function dictionaryPage() {
+    app.innerHTML = `
+      <h1>🔎 Ordbog <span class="tag">dansk ⇄ engelsk</span></h1>
+      <p class="muted">Søg på et dansk eller et engelsk ord. Ordbogen har ${fmtN(dictEntries().length)} ord og bøjninger fra prøveteksterne og appen. Tryk 🔊 for at høre ordet, og ⭐ for at øve det i Ordtræneren.</p>
+      <div class="card">
+        <input class="short dict-search" id="dq" type="search" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Skriv et ord, fx hus, arbejde eller house …" aria-label="Søg i ordbogen">
+        <p class="small muted" style="margin:8px 0 0">Tip: Du kan skrive ae, oe og aa i stedet for æ, ø og å.</p>
+      </div>
+      <div id="dres" class="card dict-res" style="margin-top:14px" hidden></div>`;
+    const inp = $("#dq"), out = $("#dres");
+    const render = () => {
+      const q = inp.value, res = dictSearch(q);
+      try { sessionStorage.setItem("dict-q", q); } catch (e) { /* ignore */ }
+      out.hidden = !q.trim();
+      if (!q.trim()) return;
+      out.innerHTML = res.length ? res.map(e => `<div class="vrow">
+          <button class="say" data-say="${esc(e.da)}" aria-label="Hør ${esc(e.da)}">🔊</button>
+          <b class="no-tr">${esc(e.da)}</b><span lang="en">${esc(e.en)}</span>
+          <button class="star ${S.vocab.h[e.da] ? "on" : ""}" data-star="${esc(e.da)}" title="Øv ordet i Ordtræneren">⭐</button></div>`).join("")
+        : `<p class="muted" style="margin:0">Ingen ord fundet for "${esc(q)}". Prøv grundformen, fx "spise" i stedet for "spiste".</p>`;
+      $$("[data-say]", out).forEach(b => b.onclick = () => speak(b.dataset.say));
+      $$("[data-star]", out).forEach(b => b.onclick = () => {
+        const w = b.dataset.star;
+        if (S.vocab.h[w]) delete S.vocab.h[w]; else { S.vocab.h[w] = 1; toast(`⭐ "${w}" er føjet til dine svære ord`); }
+        b.classList.toggle("on", !!S.vocab.h[w]); save();
+      });
+    };
+    let t;
+    inp.oninput = () => { clearTimeout(t); t = setTimeout(render, 120); };
+    try { inp.value = sessionStorage.getItem("dict-q") || ""; } catch (e) { /* ignore */ }
+    render();
+    inp.focus();
   }
 
   // ---------- Grammatik ----------
