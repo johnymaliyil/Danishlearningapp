@@ -174,6 +174,12 @@
     try { localStorage.setItem(PREF, enabled ? "on" : "off"); } catch (e) { /* ignore */ }
     if (!enabled) hide();
     paint();
+    // Say clearly what the switch did – it is easy to turn off by accident.
+    const note = document.createElement("div");
+    note.className = "toast";
+    note.textContent = enabled ? "🇬🇧 Engelsk oversættelse er slået TIL – peg på et ord" : "🇬🇧 Engelsk oversættelse er slået FRA – klik på 🇬🇧 for at slå den til igen";
+    const box = document.querySelector("#toasts");
+    if (box) { box.appendChild(note); setTimeout(() => note.remove(), 3100); }
   };
   paint();
   const stats = document.querySelector(".topbar");

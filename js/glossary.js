@@ -9334,4 +9334,6 @@ læseopgaverne=the reading tasks
 oversættelser=translations
 rettighedshaver=rights holder
 fjernet=removed
+peg=point
+slået=switched (slået til/fra = switched on/off)
 `;

@@ -477,7 +477,8 @@ h1 .tag { vertical-align: middle; font-size: .8rem; }
   background: color-mix(in srgb, var(--gold) 28%, transparent);
 }
 .tr-toggle { cursor: pointer; }
-.tr-toggle[aria-pressed="false"] { opacity: .6; }
+.tr-toggle[aria-pressed="false"] { background: var(--bad-soft); border-color: var(--bad); color: var(--bad); }
+.tr-toggle[aria-pressed="false"]::after { content: "✕"; font-weight: 900; margin-left: 2px; }
 @media (max-width: 760px) { .tr-label { display: none; } .tr-toggle { padding: 4px 8px; } }
 
 details.info summary { cursor: pointer; font-weight: 800; }
