@@ -572,3 +572,31 @@ input.cl.bad { border-color: var(--bad); background: var(--bad-soft); }
 .vrow:first-child { border-top: 0; }
 .vrow .say { border: 0; background: none; cursor: pointer; font-size: 1.05rem; padding: 2px; }
 .vmark { color: var(--words); font-weight: 900; letter-spacing: 2px; }
+
+/* ---------- Model answer translation ---------- */
+.model.paired { white-space: normal; display: grid; gap: 10px; }
+.model .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
+.model .pair:last-child { border-bottom: 0; padding-bottom: 0; }
+.model .pda, .model .pen { white-space: pre-wrap; }
+.model .pen { color: var(--muted); font-style: italic; }
+@media (max-width: 640px) { .model .pair { grid-template-columns: 1fr; gap: 4px; } }
+
+/* ---------- Grammatik ---------- */
+.gp { font-weight: 800; border-bottom: 3px solid; padding: 0 1px; }
+.gp.S { color: var(--read); }
+.gp.V { color: var(--red); }
+.gp.O { color: var(--ok); }
+.gp.A { color: var(--gold); }
+.gp.N { color: var(--write); }
+.gp.C { color: var(--words); }
+.gp-legend { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 8px; font-size: .9rem; }
+.gram-rule h2 { margin-top: 0; font-size: 1.15rem; }
+.gram-ex { display: grid; gap: 10px; margin: 12px 0; }
+.gram-line { display: flex; gap: 8px; align-items: flex-start; padding: 10px 12px; border-radius: 12px; background: var(--surface-2); }
+.gram-da { font-size: 1.1rem; line-height: 1.7; }
+.gram-line .say, .vrow .say { border: 0; background: none; cursor: pointer; font-size: 1.05rem; padding: 2px; }
+.table-wrap { overflow-x: auto; }
+.gram-table td, .gram-table th { white-space: nowrap; }
+.gram-choices { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+.gram-fb p { margin: 8px 0 0; }
+.blank { display: inline-block; min-width: 3em; border-bottom: 2px solid var(--muted); color: transparent; }

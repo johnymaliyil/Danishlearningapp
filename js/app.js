@@ -8,7 +8,7 @@
   // ---------- Storage ----------
   const KEY = "pd2-trainer-v1";
   const today = () => new Date().toISOString().slice(0, 10);
-  const blank = () => ({ exam: "pd2", xp: 0, xpDay: { date: today(), xp: 0 }, streak: 0, lastDay: null, badges: [], reading: {}, writing: {}, speaking: { sessions: 0, seconds: 0, done: {} }, words: { best: 0 }, games: { best: {}, played: {} }, vocab: { b: {}, h: {}, dir: "da", say: false } });
+  const blank = () => ({ exam: "pd2", xp: 0, xpDay: { date: today(), xp: 0 }, streak: 0, lastDay: null, badges: [], reading: {}, writing: {}, speaking: { sessions: 0, seconds: 0, done: {} }, words: { best: 0 }, games: { best: {}, played: {} }, vocab: { b: {}, h: {}, dir: "da", say: false }, grammar: {} });
   let S = blank();
   try {
     const raw = localStorage.getItem(KEY);
@@ -17,6 +17,7 @@
   if (!PD2.EXAMS[S.exam]) S.exam = "pd2";
   S.games = Object.assign({ best: {}, played: {} }, S.games); // older saves
   S.vocab = Object.assign({ b: {}, h: {}, dir: "da", say: false }, S.vocab);
+  S.grammar = S.grammar || {};
   if (S.words && S.words.best !== undefined && S.words.pd2 === undefined) S.words.pd2 = S.words.best; // older saves
   const EX = () => PD2.EXAMS[S.exam];
   // Find an item by id in the current exam, or switch to the exam that has it (e.g. a shared link).
@@ -74,7 +75,8 @@
     { id: "builder", ico: "🧩", name: "Ordstilling uden fejl" },
     { id: "template", ico: "📋", name: "Skabelon udenad" },
     { id: "vocab100", ico: "📚", name: "100 ord lært" },
-    { id: "vocab1000", ico: "🎓", name: "1.000 ord lært" }
+    { id: "vocab1000", ico: "🎓", name: "1.000 ord lært" },
+    { id: "grammar", ico: "📐", name: "Alle grammatiklektioner" }
   ];
 
   function touchDay() {
@@ -280,6 +282,8 @@
     [/^\/games$/, gamesHub],
     [/^\/games\/vocab\/(\d+)$/, n => vocabGame().setPage(+n - 1)],
     [/^\/games\/(\w+)$/, gameRoute],
+    [/^\/grammar$/, grammarList],
+    [/^\/grammar\/([\w-]+)$/, grammarLesson],
     [/^\/about$/, about]
   ];
   function route() {
@@ -442,11 +446,16 @@
         ${taskCard("speak", "#/speaking", "🗣️", "Tale", "Monolog og dialog med timer, optagelse og oplæsning.", sd, st, "emner øvet")}
       </div>
 
-      <div class="grid grid-3" style="margin-top:16px">
+      <div class="grid grid-2" style="margin-top:16px">
         <a class="task words" href="#/games/vocab">
           <span class="emoji">📚</span>
           <h2>Ordtræner</h2>
           <p class="muted" style="margin:0">Lær over 5.000 ord fra prøverne. Du har lært <b>${vLearnedCount()}</b> ord.</p>
+        </a>
+        <a class="task read" href="#/grammar">
+          <span class="emoji">📐</span>
+          <h2>Grammatik</h2>
+          <p class="muted" style="margin:0">${PD2.GRAMMAR.length} korte lektioner for begyndere: ordstilling, inversion, spørgsmål, bindeord, tillægsord og verber – med øvelser.</p>
         </a>
         <a class="task words" href="#/games">
           <span class="emoji">🎮</span>
@@ -889,7 +898,17 @@
       if (box.innerHTML) { box.innerHTML = ""; b.textContent = "👀 Vis modelsvar"; return; }
       box.innerHTML = `<div class="card"><h3>Modelsvar <span class="muted small">(${countWords(w.model)} ord)</span></h3>
         ${tpl ? `<p class="small muted">Følger skabelonen <b>${esc(tpl.name)}</b>. <mark class="fixed">Markeret</mark> = faste vendinger, som du kan lære udenad.</p>` : ""}
-        <div class="model">${tpl ? markFixed(w.model, tpl) : esc(w.model)}</div></div>`;
+        ${PD2.MODEL_EN && PD2.MODEL_EN[w.id] ? `<button class="btn ghost sm" id="showTr" style="margin-bottom:10px">🇬🇧 Vis oversættelse</button>` : ""}
+        <div class="model" id="modelText">${tpl ? markFixed(w.model, tpl) : esc(w.model)}</div></div>`;
+      const trb = $("#showTr");
+      if (trb) trb.onclick = () => {
+        const mt = $("#modelText"), on = mt.classList.toggle("paired");
+        trb.textContent = on ? "🇩🇰 Kun dansk" : "🇬🇧 Vis oversættelse";
+        if (!on) { mt.innerHTML = tpl ? markFixed(w.model, tpl) : esc(w.model); return; }
+        // Paragraph by paragraph: Danish on the left, English on the right (stacked on phones).
+        const da = w.model.split(/\n\s*\n/), en = PD2.MODEL_EN[w.id].split(/\n\s*\n/);
+        mt.innerHTML = da.map((p, i) => `<div class="pair"><div class="pda">${tpl ? markFixed(p, tpl) : esc(p)}</div><div class="pen" lang="en">${esc(en[i] || "")}</div></div>`).join("");
+      };
       b.textContent = "🙈 Skjul modelsvar";
       box.scrollIntoView({ behavior: "smooth", block: "nearest" });
     };
@@ -1495,6 +1514,148 @@
       }
     }
     intro();
+  }
+
+  // ---------- Grammatik ----------
+  const GP = { S: "subjekt", V: "verbum", O: "objekt", A: "tid / sted", N: "ikke, altid …", C: "bindeord / spørgeord" };
+  // "[S|Jeg] [V|spiser]" → colour-coded spans.
+  const gramHtml = s => esc(s).replace(/\[([SVOANC])\|([^\]]+)\]/g, (_, k, t) => `<span class="gp ${k}" title="${GP[k]}">${t}</span>`);
+  const gramLegend = () => `<div class="gp-legend">${Object.entries(GP).map(([k, n]) => `<span class="gp ${k}">${n}</span>`).join("")}</div>`;
+  const gramBest = id => S.grammar[id];
+  // English hints in brackets, e.g. "(because)" or "billig (cheap)", are marked as English.
+  const enParens = s => esc(s).replace(/\(([^)]*)\)/g, '(<span lang="en">$1</span>)');
+
+  function grammarList() {
+    const L = PD2.GRAMMAR;
+    app.innerHTML = `
+      <h1>📐 Grammatik <span class="tag">for begyndere</span></h1>
+      <p class="muted">Korte lektioner om, hvordan man bygger danske sætninger: subjekt og verbum, inversion, spørgsmål, bindeord, navneord, tillægsord og meget mere. Hver lektion har forklaringer på dansk og engelsk, farvede eksempler og øvelser.</p>
+      <div class="card"><b class="small">Farverne i eksemplerne</b>${gramLegend()}</div>
+      <div class="stack" style="margin-top:16px">
+        ${L.map((g, i) => {
+          const b = gramBest(g.id);
+          return `<a class="list-item" href="#/grammar/${g.id}">
+            <span class="ico">${g.ico}</span>
+            <span class="meta"><b>${i + 1}. ${esc(g.title)}</b><span class="small muted" lang="en">${esc(g.en)}</span></span>
+            ${b ? `<span class="score-badge ${b.score === b.total ? "full" : ""}">${b.score}/${b.total}</span>` : `<span class="score-badge">Ny</span>`}
+          </a>`;
+        }).join("")}
+      </div>`;
+  }
+
+  function grammarLesson(id) {
+    const L = PD2.GRAMMAR, idx = L.findIndex(g => g.id === id), g = L[idx];
+    if (!g) return grammarList();
+    const prev = L[idx - 1], next = L[idx + 1];
+    const exs = g.ex.map(e => e.t === "mc" ? Object.assign({}, e, { opts: shuffle(e.o.map((o, i) => ({ o, ok: i === e.a }))) }) : e);
+    app.innerHTML = `
+      <a class="back" href="#/grammar">← Alle lektioner</a>
+      <h1>${g.ico} ${esc(g.title)}</h1>
+      <p class="muted" lang="en" style="margin-top:-6px">${esc(g.en)}</p>
+      <div class="card">
+        <p style="margin-top:0">${esc(g.intro)}</p>
+        <p class="small muted" lang="en" style="margin-bottom:0">🇬🇧 ${esc(g.introEn)}</p>
+      </div>
+      ${g.rules.map(r => `<div class="card gram-rule">
+        <h2>${esc(r.h)}</h2>
+        <p>${esc(r.da)}</p>
+        <p class="small muted" lang="en">🇬🇧 ${esc(r.en)}</p>
+        ${r.ex ? `<div class="gram-ex">${r.ex.map(([da, en]) => `<div class="gram-line"><button class="say" data-say="${esc(da.replace(/\[[A-Z]\|([^\]]+)\]/g, "$1"))}" aria-label="Hør sætningen">🔊</button><div><div class="gram-da">${gramHtml(da)}</div><div class="small muted" lang="en">${esc(en)}</div></div></div>`).join("")}</div>` : ""}
+        ${r.table ? `<div class="table-wrap"><table class="simple gram-table"><tr>${r.table.head.map(h => `<th>${esc(h)}</th>`).join("")}</tr>${r.table.rows.map(row => `<tr>${row.map((c, ci) => r.table.head[ci] === "English" ? `<td lang="en">${esc(c)}</td>` : `<td>${enParens(c)}</td>`).join("")}</tr>`).join("")}</table></div>` : ""}
+      </div>`).join("")}
+      ${g.rules.some(r => r.ex) ? `<div class="card"><b class="small">Farverne</b>${gramLegend()}</div>` : ""}
+      <h2 style="margin-top:24px">✏️ Øv dig</h2>
+      <div class="card"><div class="gram-exs">${exs.map((e, i) => exHtml(e, i)).join("")}</div></div>
+      <div id="gramRes"></div>
+      <div class="row" style="margin-top:16px">
+        ${prev ? `<a class="btn ghost sm" href="#/grammar/${prev.id}">← ${esc(prev.title)}</a>` : ""}
+        <span class="spacer"></span>
+        ${next ? `<a class="btn ghost sm" href="#/grammar/${next.id}">${esc(next.title)} →</a>` : ""}
+      </div>`;
+
+    function exHtml(e, i) {
+      const q = (e.en ? `<span lang="en">${esc(e.q)}</span>` : enParens(e.q || "")).replace(/___/g, '<span class="blank">____</span>');
+      if (e.t === "mc") return `<div class="q" data-ex="${i}"><div class="qtext"><span class="num">${i + 1}</span>${q}</div>
+        <div class="choices gram-choices">${e.opts.map((o, k) => `<button class="choice no-tr" data-k="${k}">${esc(o.o)}</button>`).join("")}</div><div class="gram-fb"></div></div>`;
+      if (e.t === "type") return `<div class="q" data-ex="${i}"><div class="qtext"><span class="num">${i + 1}</span>${q}</div>
+        <div class="row"><input class="short gram-in" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Dit svar" style="max-width:320px"><button class="btn ghost sm" data-chk>Tjek</button></div><div class="gram-fb"></div></div>`;
+      return `<div class="q" data-ex="${i}"><div class="qtext"><span class="num">${i + 1}</span>Byg sætningen: <span class="muted" lang="en">${esc(e.en)}</span>${e.hint ? ` <span class="small muted">· ${esc(e.hint)}</span>` : ""}</div>
+        <div class="tiles answer" data-ans></div><div class="tiles" data-bank></div>
+        <div class="row"><button class="btn ghost sm" data-chk disabled>Tjek</button><button class="btn ghost sm" data-clr>Ryd</button></div><div class="gram-fb"></div></div>`;
+    }
+
+    const done = {};
+    function mark(i, ok, html) {
+      if (done[i] !== undefined) return;
+      done[i] = ok;
+      const box = $(`[data-ex="${i}"] .gram-fb`);
+      box.innerHTML = `<p>${ok ? "✅ Rigtigt!" : "❌ Ikke helt."} ${html || ""}</p>${exs[i].why ? `<p class="small muted" lang="en">💡 ${esc(exs[i].why)}</p>` : ""}`;
+      if (Object.keys(done).length === exs.length) finish();
+    }
+    exs.forEach((e, i) => {
+      const root = $(`[data-ex="${i}"]`);
+      if (e.t === "mc") {
+        $$(".choice", root).forEach(b => b.onclick = () => {
+          if (done[i] !== undefined) return;
+          const o = e.opts[+b.dataset.k];
+          b.classList.add(o.ok ? "ok" : "bad");
+          if (!o.ok) $$(".choice", root).find(x => e.opts[+x.dataset.k].ok).classList.add("ok");
+          mark(i, o.ok);
+        });
+      } else if (e.t === "type") {
+        const inp = $(".gram-in", root);
+        const check = () => {
+          if (done[i] !== undefined || !inp.value.trim()) return;
+          const ok = e.a.some(a => norm(a) === norm(inp.value));
+          inp.classList.add(ok ? "ok" : "bad");
+          inp.disabled = true;
+          mark(i, ok, ok ? "" : `Svaret er: <b>${esc(e.a[0])}</b>`);
+        };
+        $("[data-chk]", root).onclick = check;
+        inp.onkeydown = ev => { if (ev.key === "Enter") { ev.preventDefault(); check(); } };
+      } else {
+        const words = e.da.replace(/[.,!?]/g, "").split(/\s+/).filter(Boolean);
+        words[0] = words[0].toLowerCase();
+        let tiles = words.map((w, k) => ({ w, k }));
+        for (let k = 0; k < 6; k++) { tiles = shuffle(tiles); if (tiles.some((t, j) => t.k !== j)) break; }
+        const placed = [], ans = $("[data-ans]", root), bank = $("[data-bank]", root), chk = $("[data-chk]", root);
+        const draw = () => {
+          ans.innerHTML = placed.map((t, k) => `<button class="tile" data-p="${k}">${esc(t.w)}</button>`).join("");
+          bank.innerHTML = tiles.map((t, k) => placed.includes(t) ? "" : `<button class="tile" data-b="${k}">${esc(t.w)}</button>`).join("");
+          $$("[data-p]", ans).forEach(b => b.onclick = () => { if (done[i] === undefined) { placed.splice(+b.dataset.p, 1); draw(); } });
+          $$("[data-b]", bank).forEach(b => b.onclick = () => { if (done[i] === undefined) { placed.push(tiles[+b.dataset.b]); draw(); } });
+          chk.disabled = placed.length !== tiles.length || done[i] !== undefined;
+        };
+        draw();
+        $("[data-clr]", root).onclick = () => { if (done[i] === undefined) { placed.length = 0; draw(); } };
+        chk.onclick = () => {
+          const mine = norm(placed.map(t => t.w).join(" "));
+          const ok = [e.da].concat(e.alt || []).some(a => norm(a) === mine);
+          ans.classList.add(ok ? "ok" : "bad");
+          chk.disabled = true;
+          mark(i, ok, `<b>${esc(e.da)}</b>`);
+        };
+      }
+    });
+    $$("[data-say]").forEach(b => b.onclick = () => speak(b.dataset.say));
+
+    function finish() {
+      const score = Object.values(done).filter(Boolean).length, total = exs.length;
+      const old = gramBest(g.id);
+      if (!old || score > old.score) S.grammar[g.id] = { score, total };
+      save();
+      addXP(score * 2, "grammatik");
+      if (score === total) confetti();
+      if (PD2.GRAMMAR.every(x => gramBest(x.id))) award("grammar");
+      $("#gramRes").innerHTML = `<div class="card stage" style="margin-top:16px">
+        <div class="word-big">${score}/${total}</div>
+        <p style="font-weight:800">${score === total ? "🎉 Perfekt!" : score >= total * 0.75 ? "👏 Flot klaret!" : "Læs reglerne igen, og prøv en gang til."}</p>
+        <div class="row" style="justify-content:center">
+          <button class="btn write" id="gramAgain">Prøv igen</button>
+          ${next ? `<a class="btn ghost" href="#/grammar/${next.id}">Næste lektion →</a>` : `<a class="btn ghost" href="#/grammar">Alle lektioner</a>`}
+        </div></div>`;
+      $("#gramAgain").onclick = () => { grammarLesson(g.id); window.scrollTo(0, 0); };
+    }
   }
 
   // ---------- Skabeloner (writing templates) ----------
