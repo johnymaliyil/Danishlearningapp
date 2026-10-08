@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "36"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "37"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -3257,6 +3257,8 @@
 
   // ---------- Privatliv, vilkår og ophavsret ----------
   const LEGAL_UPDATED = "8. oktober 2026";
+  // Name of the private person behind DanskKlar (data controller). Empty = "the private person behind DanskKlar".
+  const LEGAL_OWNER = "";
   function legalPage() {
     const en = t => `<p class="small muted" lang="en">🇬🇧 ${t}</p>`;
     const mail = FEEDBACK_TO ? `<a href="mailto:${esc(FEEDBACK_TO)}">${esc(FEEDBACK_TO)}</a>` : "";
@@ -3267,7 +3269,8 @@
       <nav class="chips legal-toc" aria-label="Indhold">
         <a class="chip" href="#/legal" data-jump="lg-om">Hvem står bag</a><a class="chip" href="#/legal" data-jump="lg-priv">Privatlivspolitik</a>
         <a class="chip" href="#/legal" data-jump="lg-cookies">Cookies</a><a class="chip" href="#/legal" data-jump="lg-vilkaar">Vilkår</a>
-        <a class="chip" href="#/legal" data-jump="lg-ophav">Ophavsret</a><a class="chip" href="#/legal" data-jump="lg-kontakt">Kontakt</a></nav>
+        <a class="chip" href="#/legal" data-jump="lg-ophav">Ophavsret</a><a class="chip" href="#/legal" data-jump="lg-ai">AI og indhold</a>
+        <a class="chip" href="#/legal" data-jump="lg-a11y">Tilgængelighed</a><a class="chip" href="#/legal" data-jump="lg-kontakt">Kontakt</a></nav>
       <div class="stack legal">
         <div class="card" id="lg-om"><h2>Hvem står bag DanskKlar?</h2>
           <p>DanskKlar (danskklar.com) er et gratis privat projekt, der hjælper med at øve til Prøve i Dansk 1, 2 og 3. Der er ingen reklamer, ingen betalte funktioner, og du skal ikke oprette en konto. Frivillige bidrag via Ko-fi bruges kun til at dække udgifter (fx domæne) og til at lave flere øvelser – alt indhold er gratis for alle, uanset om man giver noget.</p>
@@ -3275,6 +3278,8 @@
           ${en("DanskKlar is a free private project to practise for the Danish language exams PD1–PD3. No ads, no paid features, no accounts. Voluntary Ko-fi contributions only cover costs (e.g. the domain) and new exercises; all content stays free for everyone. It is not an official site and is not affiliated with SIRI, the Ministry or any language school.")}</div>
 
         <div class="card" id="lg-priv"><h2>Privatlivspolitik</h2>
+          <h3>Dataansvarlig</h3>
+          <p>Dataansvarlig for de få oplysninger, DanskKlar modtager (kun feedback, som du selv sender), er ${LEGAL_OWNER ? `<b>${esc(LEGAL_OWNER)}</b>, privatperson og ejer af DanskKlar` : "privatpersonen bag DanskKlar"}${FEEDBACK_TO ? `, e-mail ${mail}` : ""}.</p>
           <h3>Dine data bliver på din enhed</h3>
           <p>Dit fremskridt (XP, svar, kladder, fejl, prøveplan, ord du har lært, indstillinger) gemmes kun i din egen browser (localStorage) på din enhed. Det bliver ikke sendt til os eller andre. Du kan slette det når som helst med <b>Nulstil fremskridt</b> på forsiden eller ved at rydde browserens data for danskklar.com.</p>
           <h3>Vi indsamler ikke data om dig</h3>
@@ -3285,8 +3290,21 @@
           <p>Når du optager dig selv i taleøvelserne, bliver lydoptagelsen kun i din browser og bliver ikke gemt eller sendt til os. <b>Live-tekst</b> (tale til tekst) bruger browserens indbyggede talegenkendelse; i fx Chrome og Edge kan lyden blive sendt til browserproducentens (Google/Microsoft) server for at blive lavet om til tekst. Oplæsning af tekst bruger browserens egne stemmer. Mikrofonen bruges kun, når du selv trykker på optag.</p>
           <h3>Links til andre sider</h3>
           <p>Knappen <b>☕ Støt DanskKlar</b> åbner Ko-fi (ko-fi.com) i et nyt vindue. Først når du klikker, gælder Ko-fis egne vilkår og privatlivspolitik. Betalinger håndteres af Ko-fi og deres betalingsudbydere – vi ser ikke dine betalingsoplysninger. Siden hostes på GitHub Pages, og domænet går gennem Cloudflare; som alle webservere kan de registrere tekniske oplysninger som IP-adresse i deres logfiler for at levere og beskytte siden.</p>
+          <h3>Modtagere og databehandlere</h3>
+          <ul>
+            <li><b>FormSubmit</b> (formsubmit.co) – videresender feedback som e-mail.</li>
+            <li><b>Google (Gmail)</b> – e-mailkontoen, som feedback modtages i.</li>
+            <li><b>GitHub Pages</b> (GitHub Inc.) – hosting af appens filer.</li>
+            <li><b>Cloudflare</b> – domæne (DNS) og beskyttelse af siden.</li>
+          </ul>
+          <p>Nogle af dem er placeret i USA. Overførsel sker på grundlag af EU-Kommissionens standardkontraktbestemmelser og/eller EU-U.S. Data Privacy Framework, som tjenesterne selv angiver. Vi sælger eller deler aldrig oplysninger med andre.</p>
+          <h3>Børn</h3>
+          <p>Alle kan bruge DanskKlar uden at give personoplysninger. Er du under 15 år, så spørg en forælder, før du skriver dit navn eller din e-mail i feedback-formularen.</p>
+          <h3>Sikkerhed</h3>
+          <p>Siden bruger kun krypteret forbindelse (HTTPS). Da dit fremskridt kun ligger i din browser, er det beskyttet af din egen enhed – brug ikke DanskKlar på en delt computer, hvis du ikke vil have, at andre ser dine svar.</p>
           <h3>Dine rettigheder</h3>
-          <p>Du har ret til at få indsigt i, rette og slette de oplysninger, du har sendt til os, og til at trække dit samtykke tilbage. Skriv til os (se Kontakt). Du kan også klage til <a href="https://www.datatilsynet.dk" target="_blank" rel="noopener">Datatilsynet</a>.</p>
+          <p>Du har ret til at få indsigt i, rette og slette de oplysninger, du har sendt til os, til at få dem udleveret (dataportabilitet), til at gøre indsigelse og til at trække dit samtykke tilbage. Vi svarer senest inden for 1 måned. Skriv til os (se Kontakt). Du kan også klage til <a href="https://www.datatilsynet.dk" target="_blank" rel="noopener">Datatilsynet</a>.</p>
+          ${en("Data controller: " + (LEGAL_OWNER || "the private person behind DanskKlar") + (FEEDBACK_TO ? " (" + FEEDBACK_TO + ")" : "") + ". Recipients/processors: FormSubmit, Google (Gmail), GitHub Pages, Cloudflare – some in the USA, under EU standard contractual clauses / the EU-US Data Privacy Framework; we never sell or share data. Under-15s should ask a parent before entering their name or e-mail. HTTPS only. You may also request a copy of your data and object; we reply within 1 month.")}
           ${en("Your progress is stored only in your own browser (localStorage) and never sent to us. We use no analytics, tracking or ads, and the font is self-hosted. Feedback/ratings you choose to send (and your name/e-mail if you add them) are e-mailed to us via FormSubmit, possibly processed outside the EU, based on your consent; we use them only to improve the app or reply, and delete them within 2 years. Voice recordings stay in your browser; live captions use the browser's speech recognition, which in Chrome/Edge may send audio to Google/Microsoft. The Ko-fi button opens ko-fi.com, which has its own terms; we never see payment details. Hosting is GitHub Pages behind Cloudflare, which may log technical data such as IP addresses. You may request access, correction or deletion and complain to Datatilsynet.")}</div>
 
         <div class="card" id="lg-cookies"><h2>Cookies</h2>
@@ -3302,7 +3320,12 @@
             <li>Appen kan blive ændret, sat på pause eller lukket uden varsel.</li>
             <li>Bidrag via Ko-fi er frivillige gaver og giver ikke ret til ydelser.</li>
             <li>Det er ikke tilladt at kopiere DanskKlars eget indhold til kommercielle formål uden tilladelse.</li>
+            <li>Feedback, du sender, må vi bruge til at rette fejl og forbedre appen – uden at offentliggøre dit navn.</li>
+            <li>Brug ikke appen til at forsøge at snyde ved en prøve. Ved prøven gælder prøvens egne regler.</li>
+            <li>Vi kan opdatere disse vilkår og privatlivspolitikken. Datoen øverst viser den seneste ændring; væsentlige ændringer bliver nævnt i appen.</li>
+            <li>Dansk ret gælder, og eventuelle tvister afgøres ved de danske domstole. Det ændrer ikke ved dine rettigheder som forbruger efter lovgivningen i dit eget land.</li>
           </ul>
+          ${en("Feedback may be used to improve the app without publishing your name. Do not use the app to cheat in an exam. These terms may be updated (see the date at the top). Danish law applies; Danish courts decide disputes, without limiting your consumer rights in your own country.")}
           ${en("Free for personal study and teaching. Content is made with care but without guarantee; model answers, translations and grade estimates are guidance only, not an official assessment. Use at your own risk; we are not liable for exam results or lost local progress. The app may change or close without notice. Ko-fi contributions are voluntary gifts. DanskKlar's own content may not be reused commercially without permission.")}</div>
 
         <div class="card" id="lg-ophav"><h2>Ophavsret</h2>
@@ -3313,6 +3336,14 @@
           <p><b>Er du rettighedshaver?</b> Hvis du mener, at noget materiale ikke må være her, så skriv til os (se Kontakt) med en beskrivelse af materialet. Så fjerner vi det hurtigst muligt.</p>
           <p class="small"><a href="#/about">Se også Kilder og ophavsret under Om prøven →</a></p>
           ${en("Tasks marked “Rigtig prøve” are past Prøve i Dansk exams published by the authorities as practice material; copyright stays with their makers (oral illustrations by Niels Roland; reading texts credited per task), used here free of charge for practice only – never behind payment, and Ko-fi contributions are not payment for them. The PD3 module-test-style sets contain new texts written for DanskKlar. All other content and the app itself © DanskKlar. Font: Nunito (SIL OFL 1.1). Rights holders can contact us and we will remove material promptly.")}</div>
+
+        <div class="card" id="lg-ai"><h2>AI og indhold</h2>
+          <p>En del af DanskKlars indhold – fx modelsvar, oversættelser, forklaringer og øvesæt – er lavet med hjælp fra AI-værktøjer og derefter gennemgået. Der kan alligevel være fejl. Finder du en, så <a href="#/feedback">skriv til os</a>, så retter vi den. Vurderingen af dine tekster i appen er automatiske tjek af fx længde og bindeord – ikke en bedømmelse fra en censor.</p>
+          ${en("Parts of the content (model answers, translations, explanations, practice sets) were made with the help of AI tools and then reviewed; mistakes can still occur – please report them. The writing feedback is an automatic check (length, linking words etc.), not an examiner's assessment.")}</div>
+
+        <div class="card" id="lg-a11y"><h2>Tilgængelighed</h2>
+          <p>Vi vil gerne have, at alle kan bruge DanskKlar. Appen kan bruges med tastatur, virker på telefon og computer, følger mørk tilstand og har engelsk oversættelse og oplæsning. Opgavebilleder fra de rigtige prøver har ikke altid en fuld tekstbeskrivelse. Har du problemer med at bruge appen, så <a href="#/feedback">skriv til os</a>.</p>
+          ${en("We aim for everyone to be able to use DanskKlar: keyboard use, phone and desktop, dark mode, English translations and read-aloud. Pictures from the real exams do not always have a full text description. Please tell us about any accessibility problems.")}</div>
 
         <div class="card" id="lg-kontakt"><h2>Kontakt</h2>
           <p>Spørgsmål om privatliv, ophavsret eller appen: ${FEEDBACK_TO ? `brug <a href="#/feedback">feedback-formularen</a> eller skriv til ${mail}` : `<a href="https://github.com/johnymaliyil/Danishlearningapp/issues" target="_blank" rel="noopener">skriv til os her</a>`}.</p>

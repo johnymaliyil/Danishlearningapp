@@ -73,3 +73,11 @@ Reading question types:
 
 - The question booklet for delprøve 1 was not among the uploaded files. So the opgave 1 questions were rebuilt from the official answer key, and extra questions were added. Opgave 2 is left out because its text was missing.
 - The texts are from the official exam papers. They are for personal practice only.
+
+## Legal and copyright
+
+- **Past exam material** (tasks marked "Rigtig prøve", their pictures and texts) is © its original makers. The oral illustrations are by Niels Roland. It is used free of charge for practice only and is never behind payment. Rights holders can ask for removal via the in-app feedback form, and the material will be removed promptly.
+- **Everything else** in this repository (code, design, model answers, templates, translations, practice sets, grammar, games) is © DanskKlar, all rights reserved. Please ask before reusing it.
+- **Font:** Nunito, SIL Open Font License 1.1 (self-hosted in `fonts/`).
+- The app's privacy policy, terms, cookie statement, copyright, AI and accessibility statements are in the app at `#/legal`. Keep `LEGAL_UPDATED` in `js/app.js` current when they change.
+- DanskKlar is free, without ads or paid features. Voluntary Ko-fi donations only cover costs.
