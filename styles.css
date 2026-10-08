@@ -689,3 +689,8 @@ input.short.dict-search { font-size: 1.15rem; padding: 12px 14px; }
 .legal li { margin: 6px 0; }
 .legal-toc { margin: 8px 0 16px; }
 .legal .card { scroll-margin-top: 130px; }
+
+/* Site footer (legal links on every page) */
+main { padding-bottom: 32px; }
+.site-foot { max-width: 1120px; margin: 0 auto; padding: 16px 20px 40px; border-top: 1px solid var(--border); text-align: center; font-size: .85rem; color: var(--muted); line-height: 1.8; }
+.site-foot a { color: inherit; font-weight: 700; }
