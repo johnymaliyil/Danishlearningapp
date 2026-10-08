@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "29"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "30"; // keep in step with ?v= in index.html and VERSION in sw.js
 
   // ---------- Storage ----------
   const KEY = "pd2-trainer-v1";
