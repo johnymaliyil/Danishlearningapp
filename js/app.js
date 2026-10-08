@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "31"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "32"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -308,7 +308,7 @@
     [/^\/plan$/, planPage],
     [/^\/mistakes$/, mistakesPage],
     [/^\/about$/, about],
-    [/^\/feedback$/, feedbackPage]
+    [/^\/feedback(?:\/([1-5]))?$/, feedbackPage]
   ];
   let lastPath = "/";
   function route() {
@@ -316,7 +316,7 @@
     cleanups = [];
     if ("speechSynthesis" in window) speechSynthesis.cancel();
     const path = location.hash.replace(/^#/, "") || "/";
-    if (path !== "/feedback") lastPath = path;
+    if (!path.startsWith("/feedback")) lastPath = path;
     const section = path.split("/")[1] || "";
     const navSection = section === "words" ? "games" : section;
     $$(".nav a").forEach(a => a.classList.toggle("active", a.dataset.nav === navSection));
@@ -521,15 +521,22 @@
         </div>
       </section>
 
+      ${FEEDBACK_TO && !S.rated && !S.rateHide && S.xp >= 50 ? `<div class="card rate-card" id="rateCard">
+        <div><b>⭐ Hvad synes du om DanskKlar?</b><div class="small muted">Tryk på en stjerne – det tager kun et øjeblik.</div></div>
+        <div class="stars">${[1, 2, 3, 4, 5].map(n => `<a class="star-btn" href="#/feedback/${n}" aria-label="${n} stjerne${n > 1 ? "r" : ""}">★</a>`).join("")}</div>
+        <button class="btn ghost sm" id="rateHide">Ikke nu</button></div>` : ""}
+
       <p style="margin-top:24px" class="row">
         <a class="btn ghost sm" href="#/start">🔁 Skift prøve</a>
         ${installButton()}
         <a class="btn ghost sm" href="#/about">ℹ️ Om ${META().name}-prøven</a>
-        ${FEEDBACK_TO ? `<a class="btn ghost sm" href="#/feedback">💬 Giv feedback</a>` : ""}
+        ${FEEDBACK_TO ? `<a class="btn ghost sm" href="#/feedback">⭐ Bedøm / giv feedback</a>` : ""}
         <span class="spacer"></span>
         <button class="btn ghost sm" id="reset">Nulstil fremskridt</button>
       </p>
       <p class="small muted" style="text-align:right;margin-top:6px">DanskKlar version ${APP_VERSION}</p>`;
+    const rh = $("#rateHide");
+    if (rh) rh.onclick = () => { S.rateHide = true; save(); $("#rateCard").remove(); };
     // Two-step button instead of confirm(): dialogs are blocked in some embedded viewers.
     $("#reset").onclick = e => {
       const b = e.currentTarget;
@@ -3175,34 +3182,49 @@
 
   // ---------- About ----------
   // ---------- Feedback ----------
-  function feedbackPage() {
+  const STAR_WORDS = ["", "Dårlig", "Ikke så god", "OK", "God", "Fantastisk"];
+  function feedbackPage(preStars) {
     if (!FEEDBACK_TO) { location.hash = "#/"; return; }
     const from = lastPath;
+    let stars = +preStars || 0;
     app.innerHTML = `
       <a class="back" href="#/">← Forside</a>
-      <h1>💬 Giv feedback</h1>
-      <p class="muted">Har du fundet en fejl, en forkert oversættelse eller har du en idé? Skriv gerne på dansk eller engelsk.</p>
+      <h1>💬 Feedback og bedømmelse</h1>
+      <p class="muted">Giv appen stjerner, og fortæl os gerne, hvad der er godt, eller hvad der kan blive bedre. Har du fundet en fejl eller en forkert oversættelse? Skriv gerne på dansk eller engelsk.</p>
       <form class="card stack fb-form" id="fbForm">
+        <div><b>Hvad synes du om DanskKlar?</b>
+          <div class="stars" role="radiogroup" aria-label="Bedømmelse">${[1, 2, 3, 4, 5].map(n => `<button type="button" class="star-btn" role="radio" data-star="${n}" aria-label="${n} stjerne${n > 1 ? "r" : ""}">★</button>`).join("")}
+          <span class="small muted" id="starTxt"></span></div></div>
         <label>Hvad drejer det sig om?
           <select id="fbType"><option>💡 Idé / ønske</option><option>🐞 Fejl i appen</option><option>📝 Fejl i en opgave eller oversættelse</option><option>❤️ Ros</option><option>Andet</option></select></label>
-        <label>Din besked <span class="muted small">(påkrævet)</span>
-          <textarea id="fbMsg" rows="6" required maxlength="4000" placeholder="Skriv her …"></textarea></label>
+        <label>Din besked <span class="muted small" id="msgReq">(påkrævet)</span>
+          <textarea id="fbMsg" rows="6" maxlength="4000" placeholder="Skriv her …"></textarea></label>
         <label>Dit navn <span class="muted small">(valgfrit)</span><input id="fbName" autocomplete="name" maxlength="100"></label>
         <label>Din e-mail <span class="muted small">(valgfrit – hvis du vil have svar)</span><input id="fbMail" type="email" autocomplete="email" maxlength="200"></label>
         <input type="checkbox" id="fbBot" tabindex="-1" autocomplete="off" style="display:none">
         <div class="row"><button class="btn write" id="fbSend" type="submit">Send feedback</button><span class="small muted" id="fbStatus" role="status"></span></div>
         <p class="small muted">Vi sender kun det, du skriver her, plus hvilken prøve og side du kom fra.</p>
       </form>`;
+    const drawStars = () => {
+      $$(".star-btn").forEach(b => { const on = +b.dataset.star <= stars; b.classList.toggle("on", on); b.setAttribute("aria-checked", +b.dataset.star === stars); });
+      $("#starTxt").textContent = stars ? `${stars}/5 – ${STAR_WORDS[stars]}` : "Tryk på en stjerne";
+      $("#msgReq").textContent = stars ? "(valgfrit)" : "(påkrævet, hvis du ikke giver stjerner)";
+      if (stars && !$("#fbMsg").value.trim() && $("#fbType").selectedIndex === 0) $("#fbType").value = stars >= 4 ? "❤️ Ros" : "💡 Idé / ønske";
+    };
+    $$(".star-btn").forEach(b => b.onclick = () => { stars = +b.dataset.star; drawStars(); });
+    drawStars();
     $("#fbForm").onsubmit = async e => {
       e.preventDefault();
       const msg = $("#fbMsg").value.trim(), st = $("#fbStatus"), btn = $("#fbSend");
-      if (!msg) { st.textContent = "Skriv en besked først."; return; }
+      if (!msg && !stars) { st.textContent = "Giv stjerner eller skriv en besked først."; return; }
       if ($("#fbBot").checked) return;
       btn.disabled = true; st.textContent = "Sender …";
       try {
         const mail = $("#fbMail").value.trim(), body = {
-          _subject: `DanskKlar feedback: ${$("#fbType").value}`, _template: "table", _captcha: "false",
-          Navn: $("#fbName").value.trim() || "(ikke oplyst)", Emne: $("#fbType").value, Besked: msg,
+          _subject: stars ? `DanskKlar bedømmelse: ${"★".repeat(stars)}${"☆".repeat(5 - stars)} (${stars}/5)` : `DanskKlar feedback: ${$("#fbType").value}`,
+          _template: "table", _captcha: "false",
+          Stjerner: stars ? `${"★".repeat(stars)}${"☆".repeat(5 - stars)} ${stars}/5 – ${STAR_WORDS[stars]}` : "(ingen)",
+          Navn: $("#fbName").value.trim() || "(ikke oplyst)", Emne: $("#fbType").value, Besked: msg || "(ingen besked)",
           Prøve: S.exam.toUpperCase(), Side: "#" + from, Version: APP_VERSION
         };
         if (mail) { body.email = mail; body._replyto = mail; }
@@ -3212,6 +3234,7 @@
         });
         const j = await res.json().catch(() => ({}));
         if (!res.ok || String(j.success) === "false") throw new Error(j.message || res.status);
+        if (stars) { S.rated = stars; save(); }
         app.innerHTML = `<a class="back" href="#/">← Forside</a><div class="card stage" style="margin-top:16px">
           <div class="word-big">🙏</div><p style="font-weight:800">Tak for din feedback!</p>
           <p class="muted">Den er sendt. Vi læser alle beskeder.</p><a class="btn write" href="#/">Til forsiden</a></div>`;
