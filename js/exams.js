@@ -30,9 +30,9 @@ PD2.EXAM_META = {
     name: "PD2",
     full: "Prøve i Dansk 2",
     cefr: "B1",
-    tagline: "Rigtige prøveopgaver fra 2012-2020 plus øvesæt i samme format.",
-    readingIntro: "Fjorten rigtige prøvesæt fra 2012 til 2020 (2020 med de officielle svar, de andre med svar fundet ud fra teksterne) og to øvesæt i samme format. Til prøven tager delprøve 1 (opgave 1-2) 30 minutter og delprøve 2 (opgave 3-5) 60 minutter.",
-    writingIntro: "Rigtige prøveopgaver fra 2012 til 2020 (12 prøvesæt) plus mails og holdningstekster med skrivecoach og bedømmelse.",
+    tagline: "14 rigtige prøvesæt plus øvesæt i samme format.",
+    readingIntro: "Fjorten rigtige prøvesæt (Sæt 1-14; sæt 14 med de officielle svar, de andre med svar fundet ud fra teksterne) og to øvesæt i samme format. Til prøven tager delprøve 1 (opgave 1-2) 30 minutter og delprøve 2 (opgave 3-5) 60 minutter.",
+    writingIntro: "Rigtige prøveopgaver fra 14 prøvesæt (Sæt 1-14) plus mails og holdningstekster med skrivecoach og bedømmelse.",
     writingMinutes: 45,
     talkSeconds: 90,
     writingParts: {
@@ -49,13 +49,13 @@ PD2.EXAM_META = {
         <tr><td>2</td><td>4</td><td>Find den sætning, der mangler i hvert afsnit</td><td>5</td></tr>
         <tr><td>2</td><td>5</td><td>Match spørgsmål med afsnit i et interview</td><td>5</td></tr>
       </table>
-      <p class="small muted" style="margin-top:8px">I alt 30 point (tal fra prøven maj-juni 2020). Delprøve 2 varer 60 minutter, uden hjælpemidler. Pointene regnes om til en karakter.</p>
+      <p class="small muted" style="margin-top:8px">I alt 30 point (tal fra en rigtig prøve). Delprøve 2 varer 60 minutter, uden hjælpemidler. Pointene regnes om til en karakter.</p>
       <h3>✍️ Skriftlig fremstilling</h3>
       <p><b>Delprøve 1:</b> give faktuelle informationer, fortælle, beskrive.<br>
       <b>Delprøve 2:</b> fortælle, beskrive, udtrykke synspunkter.</p>
       <p>Censor vurderer: om instruktionen er fulgt, reparation (hvor let teksten er at forstå), pragmatisk færdighed, diskursiv færdighed
       (delprøve 2: retorisk organisering, kohærens og kohæsion) og lingvistisk færdighed (ordvalg, syntaks, morfologi, retskrivning).</p>
-      <p>Til prøven har du <b>1½ time</b> til begge delprøver, og du må bruge <b>alle ordbøger</b>. I delprøve 1 vælger du mellem to opgaver (fx en klage eller en anbefaling). I delprøve 2 skriver du fx en e-mail på mindst 100 ord (tal fra prøven maj-juni 2019).</p>
+      <p>Til prøven har du <b>1½ time</b> til begge delprøver, og du må bruge <b>alle ordbøger</b>. I delprøve 1 vælger du mellem to opgaver (fx en klage eller en anbefaling). I delprøve 2 skriver du fx en e-mail på mindst 100 ord (tal fra en rigtig prøve).</p>
       <p class="small muted">Karakter gives på 7-trins-skalaen: 12, 10, 7, 4, 02, 00, -3.</p>
       <h3>🗣️ Mundtlig kommunikation</h3>
       <p>Den mundtlige prøve tager man to og to. Niveauet ligger mellem B1 og B2.</p>
@@ -64,7 +64,7 @@ PD2.EXAM_META = {
         <tr><td>1</td><td><b>Præsentation</b> af et emne, du selv har valgt og forberedt (ca. 1½ min.). Du må bruge stikord, men ikke læse op. Derefter <b>opfølgende spørgsmål</b> fra eksaminator (ca. 3½ min.).</td><td>10 min. pr. par</td></tr>
         <tr><td>2</td><td>Du får et <b>billede</b> og ½ minut til at se på det. Du beskriver billedet og svarer på eksaminators spørgsmål (ca. 3 min.). Til sidst en <b>samtale</b> med den anden prøvedeltager om emnet (ca. 4 min.).</td><td>10 min. pr. par</td></tr>
       </table>
-      <p class="small muted" style="margin-top:8px">Eksaminator stiller fire slags spørgsmål: opklarende ("Vil du ikke forklare det lidt nærmere?"), uddybende ("Kan du ikke fortælle lidt mere om det?"), spørgsmål om begrundelse ("Hvordan kan det så være, at …?") og om generalisering ("Hvad synes du så generelt, forskellen er på …?"). Emner til delprøve 2: 2012 Teknologi i hjemmet, Rygning, Frivilligt arbejde · nov.-dec. 2012 Venner, Transport, Mobiltelefoner · 2013 Søskende, By eller land, Hjælpsomhed · nov.-dec. 2013 Aktive ældre, Gaver, Penge · 2014 Fester, På tur, At flytte hjemmefra · nov.-dec. 2014 At være sammen med andre, Fritidsinteresser, Dyr · 2015 Morgen, Sund eller usund mad, At få danske venner · 2018 Fritid, Mad, Kolleger og klassekammerater · 2019 Husarbejde, At lære noget nyt som voksen, Transport til arbejde · 2020 Gæster, Et godt job, At spare penge i hverdagen.</p>`
+      <p class="small muted" style="margin-top:8px">Eksaminator stiller fire slags spørgsmål: opklarende ("Vil du ikke forklare det lidt nærmere?"), uddybende ("Kan du ikke fortælle lidt mere om det?"), spørgsmål om begrundelse ("Hvordan kan det så være, at …?") og om generalisering ("Hvad synes du så generelt, forskellen er på …?"). Emner til delprøve 2: Sæt 1 Teknologi i hjemmet, Rygning, Frivilligt arbejde · Sæt 2 Venner, Transport, Mobiltelefoner · Sæt 3 Søskende, By eller land, Hjælpsomhed · Sæt 4 Aktive ældre, Gaver, Penge · Sæt 5 Fester, På tur, At flytte hjemmefra · Sæt 6 At være sammen med andre, Fritidsinteresser, Dyr · Sæt 7 Morgen, Sund eller usund mad, At få danske venner · Sæt 12 Fritid, Mad, Kolleger og klassekammerater · Sæt 13 Husarbejde, At lære noget nyt som voksen, Transport til arbejde · Sæt 14 Gæster, Et godt job, At spare penge i hverdagen.</p>`
   },
   pd3: {
     name: "PD3",

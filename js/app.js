@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "39"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "40"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -72,7 +72,7 @@
   const BADGES = [
     { id: "first_read", ico: "📖", name: "Første læsning" },
     { id: "perfect", ico: "💯", name: "Fejlfri" },
-    { id: "exam2020", ico: "🏛️", name: "Prøvesæt 2020" },
+    { id: "exam2020", ico: "🏛️", name: "Alle rigtige læseprøver" },
     { id: "first_write", ico: "✍️", name: "Første tekst" },
     { id: "wordsmith", ico: "🖋️", name: "Ordsmed (150+ ord)" },
     { id: "first_speak", ico: "🎤", name: "Første tale" },
@@ -943,7 +943,7 @@
     app.innerHTML = `
       <a class="back" href="#/writing">← Alle skriveopgaver</a>
       <h1>${esc(w.title)}</h1>
-      <p class="muted">${w.real ? `<span class="tag real">Rigtig prøveopgave ${w.year}</span> ` : ""}<span class="tag">Delprøve ${w.delprove}</span> ${esc(w.kind)} · mål: ${w.minWords}-${w.maxWords} ord</p>
+      <p class="muted">${w.real ? `<span class="tag real">Rigtig prøveopgave${w.set ? ` · Sæt ${w.set}` : ""}</span> ` : ""}<span class="tag">Delprøve ${w.delprove}</span> ${esc(w.kind)} · mål: ${w.minWords}-${w.maxWords} ord</p>
       <div class="writer">
         <div class="stack">
           <div class="card">
@@ -1126,7 +1126,7 @@
   function speakingList() {
     const mono = EX().SPEAKING_MONO, dia = EX().SPEAKING_DIALOG, pics = EX().SPEAKING_PICTURE || [];
     const done = id => S.speaking.done[id] ? '<span class="score-badge full">✓</span>' : "";
-    const realTag = p => p.real ? ` <span class="tag real">Emne ${p.year}</span>` : "";
+    const realTag = p => p.real ? ` <span class="tag real">Emne fra prøven${p.set ? ` · Sæt ${p.set}` : ""}</span>` : "";
     const monoList = mono.map(m => `<a class="list-item" href="#/speaking/mono/${m.id}">
         <span class="ico">🎤</span><span class="meta"><b>${esc(m.title)}</b><span class="small muted">${m.points.length} stikord · ${m.followUp.length} spørgsmål</span></span>${done(m.id)}</a>`).join("");
     const picList = pics.map(p => `<a class="list-item" href="#/speaking/picture/${p.id}">
@@ -1410,7 +1410,7 @@
     function shell(inner, stepIdx) {
       app.innerHTML = `
         <a class="back" href="#/speaking">← Alle taleopgaver</a>
-        <h1>🖼️ ${esc(p.title)}${p.real ? ` <span class="tag real">Emne fra prøven ${p.year}</span>` : ""}</h1>
+        <h1>🖼️ ${esc(p.title)}${p.real ? ` <span class="tag real">Emne fra prøven${p.set ? ` · Sæt ${p.set}` : ""}</span>` : ""}</h1>
         <div class="grid" style="grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:20px" id="pl">
           <div class="card stage">
             <div class="steps">${steps.map((s, i) => `<span class="${i === stepIdx ? "on" : i < stepIdx ? "done" : ""}">${i + 1}. ${s}</span>`).join("")}</div>

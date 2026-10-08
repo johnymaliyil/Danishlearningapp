@@ -9388,4 +9388,12 @@ tillægsordet=the adjective
 aftes=evening (i aftes = this evening)
 vegetar=vegetarian
 bolle=bun / roll
+støt=support
+læseprøver=reading tests
+stjerne=star
+privatliv=privacy
+vilkår=terms
+cookies=cookies
+prøvemyndighederne=the exam authorities
+domænet=the domain
 `;
