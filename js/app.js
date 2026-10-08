@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "28"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "29"; // keep in step with ?v= in index.html and VERSION in sw.js
 
   // ---------- Storage ----------
   const KEY = "pd2-trainer-v1";
@@ -765,6 +765,33 @@
   }
 
   // ---------- Writing ----------
+  // EN button under a writing task: opens a pop-up with the English translation.
+  const taskEnBtn = w => PD2.TASK_EN && PD2.TASK_EN[w.id]
+    ? `<button class="btn ghost sm task-en-btn" data-task-en="${esc(w.id)}" aria-haspopup="dialog">🇬🇧 EN</button>` : "";
+  function showTaskEn(id) {
+    const w = findItem("WRITING", id) || Object.values(PD2.EXAMS).flatMap(e => e.WRITING).find(x => x.id === id);
+    const t = PD2.TASK_EN[id];
+    if (!t) return;
+    closeTaskEn();
+    const box = document.createElement("div");
+    box.className = "pop-overlay"; box.id = "taskEnPop";
+    box.innerHTML = `<div class="pop" role="dialog" aria-modal="true" aria-label="English translation" lang="en">
+        <button class="pop-x" aria-label="Close">✕</button>
+        <h3>🇬🇧 ${w ? esc(w.title) : "Task"} – in English</h3>
+        <p>${esc(t.s)}</p>
+        <h4>You must write about:</h4>
+        <ul>${t.p.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+        <div class="row" style="justify-content:flex-end"><button class="btn write sm pop-ok">OK</button></div>
+      </div>`;
+    document.body.appendChild(box);
+    box.onclick = e => { if (e.target === box || e.target.closest(".pop-x,.pop-ok")) closeTaskEn(); };
+    $(".pop-ok", box).focus();
+  }
+  function closeTaskEn() { const b = $("#taskEnPop"); if (b) b.remove(); }
+  document.addEventListener("click", e => { const b = e.target.closest("[data-task-en]"); if (b) { e.preventDefault(); showTaskEn(b.dataset.taskEn); } });
+  document.addEventListener("keydown", e => { if (e.key === "Escape") closeTaskEn(); });
+  window.addEventListener("hashchange", closeTaskEn);
+
   function writingList() {
     const by = d => EX().WRITING.filter(w => w.delprove === d);
     const item = w => {
@@ -861,6 +888,7 @@
             <div class="instruction" style="background:var(--write-soft)">${esc(w.situation)}</div>
             <h3 style="margin-top:14px">Du skal skrive om:</h3>
             ${w.points.map((p, i) => `<label class="tick"><input type="checkbox" data-tick="${i}" ${st.ticks.includes(i) ? "checked" : ""}> <span>${esc(p)}</span></label>`).join("")}
+            ${taskEnBtn(w)}
           </div>
           <div class="card">
             <div class="row" style="margin-bottom:8px">
@@ -1748,7 +1776,7 @@
     const d1 = MOCK.set.writing.filter(w => w.delprove === 1), d2 = MOCK.set.writing.find(w => w.delprove === 2);
     MOCK.texts = MOCK.texts || { choice: d1[0] && d1[0].id, t1: "", t2: "" };
     const task = w => `<div class="instruction" style="background:var(--write-soft)">${esc(w.situation)}</div>
-      <ul class="points-list small">${w.points.map(p => `<li>${esc(p)}</li>`).join("")}</ul>`;
+      <ul class="points-list small">${w.points.map(p => `<li>${esc(p)}</li>`).join("")}</ul>${taskEnBtn(w)}`;
     app.innerHTML = `${mockHeader()}
       <h1>✍️ Skriftlig fremstilling</h1>
       <p class="muted">Du har 1½ time til begge delprøver. Vælg opgave A eller B i delprøve 1, og skriv derefter delprøve 2. Til den rigtige prøve skriver du i hånden – og du må bruge ordbøger.</p>

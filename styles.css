@@ -643,3 +643,13 @@ input.short.dict-search { font-size: 1.15rem; padding: 12px 14px; }
 .drill-base { font-size: 1.3rem; font-weight: 800; margin: 10px 0; color: var(--text); }
 .drill-lead { font-weight: 800; margin: 4px 0 0; }
 .drill-rule summary { cursor: pointer; }
+
+/* EN pop-up for writing tasks */
+.task-en-btn { margin-top: 10px; }
+.pop-overlay { position: fixed; inset: 0; z-index: 1000; background: rgba(0,0,0,.45); display: flex; align-items: center; justify-content: center; padding: 16px; }
+.pop { position: relative; background: var(--surface); color: var(--text, inherit); border: 1px solid var(--border); border-radius: 16px; padding: 20px 20px 16px; max-width: 560px; width: 100%; max-height: 85vh; overflow: auto; box-shadow: 0 12px 40px rgba(0,0,0,.3); }
+.pop h3 { margin: 0 32px 10px 0; }
+.pop h4 { margin: 14px 0 6px; }
+.pop ul { margin: 0 0 12px; padding-left: 20px; }
+.pop li { margin: 4px 0; }
+.pop-x { position: absolute; top: 10px; right: 10px; border: 0; background: none; font-size: 1.2rem; cursor: pointer; color: inherit; padding: 6px; }

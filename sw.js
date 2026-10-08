@@ -2,7 +2,7 @@
 // Strategy: network first for the app's own files (so updates show up as soon
 // as you are online), falling back to the cached copy when offline.
 // Google Fonts are cached on first use.
-const VERSION = "v28";
+const VERSION = "v29";
 const APP_CACHE = `danskklar-app-${VERSION}`;
 const FONT_CACHE = "danskklar-fonts";
 
@@ -34,6 +34,7 @@ const APP_FILES = [
   "js/games.js",
   "js/templates.js",
   "js/model-translations.js",
+  "js/task-translations.js",
   "js/grammar.js",
   "js/glossary.js",
   "js/app.js",
