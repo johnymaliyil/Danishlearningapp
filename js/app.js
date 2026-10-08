@@ -640,12 +640,13 @@
       <div class="reader ${solo ? "solo" : ""}">
         <div class="card text">
           ${r.instruction ? `<div class="instruction">${esc(r.instruction)}</div>` : ""}
+          ${exam ? "" : readingEnBtn(r, "text")}
           ${r.note ? `<p class="note" style="margin-top:10px">${esc(r.note)}</p>` : ""}
           ${bankHtml}
           <div style="margin-top:14px">${r.text ? fmtText(r.text, gapHtml) : ""}${sectionsHtml}</div>
         </div>
         <div class="card">
-          ${solo ? "" : "<h2>Spørgsmål</h2>"}
+          ${solo ? "" : `<div class="row" style="justify-content:space-between;align-items:center"><h2 style="margin:0">Spørgsmål</h2>${exam ? "" : readingEnBtn(r, "q")}</div>`}
           ${qHtml}
           <div class="row" style="margin-top:18px">
             <button class="btn read" id="check">${exam ? "Aflevér og gå videre →" : "Tjek svar"}</button>
@@ -765,30 +766,69 @@
   }
 
   // ---------- Writing ----------
-  // EN button under a writing task: opens a pop-up with the English translation.
+  // EN buttons open a pop-up with an English translation (writing tasks, model answers, reading tasks).
   const taskEnBtn = w => PD2.TASK_EN && PD2.TASK_EN[w.id]
     ? `<button class="btn ghost sm task-en-btn" data-task-en="${esc(w.id)}" aria-haspopup="dialog">🇬🇧 EN</button>` : "";
-  function showTaskEn(id) {
-    const w = findItem("WRITING", id) || Object.values(PD2.EXAMS).flatMap(e => e.WRITING).find(x => x.id === id);
-    const t = PD2.TASK_EN[id];
-    if (!t) return;
+  const allWriting = () => Object.values(PD2.EXAMS).flatMap(e => e.WRITING);
+  function openEnPop(title, bodyHtml) {
     closeTaskEn();
     const box = document.createElement("div");
     box.className = "pop-overlay"; box.id = "taskEnPop";
     box.innerHTML = `<div class="pop" role="dialog" aria-modal="true" aria-label="English translation" lang="en">
         <button class="pop-x" aria-label="Close">✕</button>
-        <h3>🇬🇧 ${w ? esc(w.title) : "Task"} – in English</h3>
-        <p>${esc(t.s)}</p>
-        <h4>You must write about:</h4>
-        <ul>${t.p.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+        <h3>🇬🇧 ${esc(title)}</h3>${bodyHtml}
         <div class="row" style="justify-content:flex-end"><button class="btn write sm pop-ok">OK</button></div>
       </div>`;
     document.body.appendChild(box);
     box.onclick = e => { if (e.target === box || e.target.closest(".pop-x,.pop-ok")) closeTaskEn(); };
     $(".pop-ok", box).focus();
   }
+  const enParas = t => t.split(/\n\s*\n/).map(p => `<p>${esc(p).replace(/\n/g, "<br>")}</p>`).join("");
+  function showTaskEn(id) {
+    const w = allWriting().find(x => x.id === id), t = PD2.TASK_EN[id];
+    if (t) openEnPop(`${w ? w.title : "Task"} – in English`, `<p>${esc(t.s)}</p>
+        <h4>You must write about:</h4><ul>${t.p.map(x => `<li>${esc(x)}</li>`).join("")}</ul>`);
+  }
+  function showModelEn(id) {
+    const w = allWriting().find(x => x.id === id), en = PD2.MODEL_EN && PD2.MODEL_EN[id];
+    if (en) openEnPop(`${w ? w.title : ""} – model answer in English`, `<div class="pop-model">${enParas(en)}</div>`);
+  }
+  // Reading: part "text" = instruction + text/sections, part "q" = the questions.
+  function showReadingEn(id, part) {
+    const r = Object.values(PD2.EXAMS).flatMap(e => e.READING).find(x => x.id === id), t = PD2.READING_EN && PD2.READING_EN[id];
+    if (!r || !t) return;
+    const gapsEn = s => esc(s).replace(/\[\[(\d+)\]\]/g, '<b class="gap-en">($1) ____</b>');
+    if (part === "text") {
+      const secs = (t.sections || []).map(sec => `<h4>${esc(sec.heading || "")}</h4>${(sec.cards || []).map(c =>
+        `<div class="pop-card"><b>${esc(c.title || "")}</b>${c.sub ? `<div class="small muted">${esc(c.sub)}</div>` : ""}<div>${esc(c.body || "")}</div>${c.facts ? `<div class="small">${esc(c.facts)}</div>` : ""}</div>`).join("")}`).join("");
+      const text = t.text ? t.text.split(/\n\s*\n/).map(p => `<p>${gapsEn(p).replace(/\n/g, "<br>")}</p>`).join("") : "";
+      openEnPop(`${t.title || r.title} – text in English`, `${t.instruction ? `<p class="pop-instr">${esc(t.instruction)}</p>` : ""}${text}${secs}`);
+    } else {
+      let qn = 0;
+      const items = r.questions.map((q, i) => {
+        const e = (t.questions || [])[i] || {};
+        if (q.type === "gaps") return "";
+        if (q.type === "match") return `<li class="pop-q"><b>${esc(e.q || "")}</b><ul>${(e.items || []).map(x => `<li>${esc(x)}</li>`).join("")}</ul></li>`;
+        qn++;
+        const num = q.n !== undefined ? q.n : qn;
+        const opts = e.options ? `<ol type="a">${e.options.map(o => `<li>${esc(o)}</li>`).join("")}</ol>`
+          : q.type === "tf" ? `<div class="small muted">True / False / Not in the text</div>` : "";
+        return `<li class="pop-q" value="${num}">${esc(e.q || "")}${opts}</li>`;
+      }).join("");
+      openEnPop(`${t.title || r.title} – questions in English`, items ? `<ol class="pop-qs">${items}</ol>` : `<p>${esc(t.instruction || "")}</p>`);
+    }
+  }
+  const readingEnBtn = (r, part) => PD2.READING_EN && PD2.READING_EN[r.id]
+    ? `<button class="btn ghost sm task-en-btn" data-reading-en="${esc(r.id)}" data-part="${part}" aria-haspopup="dialog">🇬🇧 EN</button>` : "";
   function closeTaskEn() { const b = $("#taskEnPop"); if (b) b.remove(); }
-  document.addEventListener("click", e => { const b = e.target.closest("[data-task-en]"); if (b) { e.preventDefault(); showTaskEn(b.dataset.taskEn); } });
+  document.addEventListener("click", e => {
+    const b = e.target.closest("[data-task-en],[data-model-en],[data-reading-en]");
+    if (!b) return;
+    e.preventDefault();
+    if (b.dataset.taskEn) showTaskEn(b.dataset.taskEn);
+    else if (b.dataset.modelEn) showModelEn(b.dataset.modelEn);
+    else showReadingEn(b.dataset.readingEn, b.dataset.part);
+  });
   document.addEventListener("keydown", e => { if (e.key === "Escape") closeTaskEn(); });
   window.addEventListener("hashchange", closeTaskEn);
 
@@ -978,7 +1018,7 @@
       if (box.innerHTML) { box.innerHTML = ""; b.textContent = "👀 Vis modelsvar"; return; }
       box.innerHTML = `<div class="card"><h3>Modelsvar <span class="muted small">(${countWords(w.model)} ord)</span></h3>
         ${tpl ? `<p class="small muted">Følger skabelonen <b>${esc(tpl.name)}</b>. <mark class="fixed">Markeret</mark> = faste vendinger, som du kan lære udenad.</p>` : ""}
-        ${PD2.MODEL_EN && PD2.MODEL_EN[w.id] ? `<button class="btn ghost sm" id="showTr" style="margin-bottom:10px">🇬🇧 Vis oversættelse</button>` : ""}
+        ${PD2.MODEL_EN && PD2.MODEL_EN[w.id] ? `<div class="row" style="margin-bottom:10px"><button class="btn ghost sm" id="showTr">🇬🇧 Vis oversættelse</button><button class="btn ghost sm" data-model-en="${esc(w.id)}" aria-haspopup="dialog">🇬🇧 EN</button></div>` : ""}
         <div class="model" id="modelText">${tpl ? markFixed(w.model, tpl) : esc(w.model)}</div></div>`;
       const trb = $("#showTr");
       if (trb) trb.onclick = () => {
