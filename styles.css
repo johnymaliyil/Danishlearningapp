@@ -660,3 +660,7 @@ input.short.dict-search { font-size: 1.15rem; padding: 12px 14px; }
 .pop-q { margin: 8px 0; }
 .pop-q ol, .pop-q ul { margin: 4px 0 0; }
 .gap-en { white-space: nowrap; }
+
+/* Feedback form */
+.fb-form label { display: flex; flex-direction: column; gap: 6px; font-weight: 700; }
+.fb-form textarea, .fb-form input, .fb-form select { font: inherit; font-weight: 400; padding: 10px 12px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); color: var(--text); width: 100%; box-sizing: border-box; }

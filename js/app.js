@@ -5,6 +5,9 @@
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
   const APP_VERSION = "30"; // keep in step with ?v= in index.html and VERSION in sw.js
+  // Web3Forms access key (public by design): feedback is e-mailed to the address it was created for.
+  // Leave empty to hide the feedback form.
+  const FEEDBACK_KEY = "";
 
   // ---------- Storage ----------
   const KEY = "pd2-trainer-v1";
@@ -304,13 +307,16 @@
     [/^\/exam$/, examPage],
     [/^\/plan$/, planPage],
     [/^\/mistakes$/, mistakesPage],
-    [/^\/about$/, about]
+    [/^\/about$/, about],
+    [/^\/feedback$/, feedbackPage]
   ];
+  let lastPath = "/";
   function route() {
     cleanups.forEach(fn => { try { fn(); } catch (e) { /* ignore */ } });
     cleanups = [];
     if ("speechSynthesis" in window) speechSynthesis.cancel();
     const path = location.hash.replace(/^#/, "") || "/";
+    if (path !== "/feedback") lastPath = path;
     const section = path.split("/")[1] || "";
     const navSection = section === "words" ? "games" : section;
     $$(".nav a").forEach(a => a.classList.toggle("active", a.dataset.nav === navSection));
@@ -519,6 +525,7 @@
         <a class="btn ghost sm" href="#/start">🔁 Skift prøve</a>
         ${installButton()}
         <a class="btn ghost sm" href="#/about">ℹ️ Om ${META().name}-prøven</a>
+        ${FEEDBACK_KEY ? `<a class="btn ghost sm" href="#/feedback">💬 Giv feedback</a>` : ""}
         <span class="spacer"></span>
         <button class="btn ghost sm" id="reset">Nulstil fremskridt</button>
       </p>
@@ -3167,6 +3174,55 @@
   }
 
   // ---------- About ----------
+  // ---------- Feedback ----------
+  function feedbackPage() {
+    if (!FEEDBACK_KEY) { location.hash = "#/"; return; }
+    const from = lastPath;
+    app.innerHTML = `
+      <a class="back" href="#/">← Forside</a>
+      <h1>💬 Giv feedback</h1>
+      <p class="muted">Har du fundet en fejl, en forkert oversættelse eller har du en idé? Skriv gerne på dansk eller engelsk.</p>
+      <form class="card stack fb-form" id="fbForm">
+        <label>Hvad drejer det sig om?
+          <select id="fbType"><option>💡 Idé / ønske</option><option>🐞 Fejl i appen</option><option>📝 Fejl i en opgave eller oversættelse</option><option>❤️ Ros</option><option>Andet</option></select></label>
+        <label>Din besked <span class="muted small">(påkrævet)</span>
+          <textarea id="fbMsg" rows="6" required maxlength="4000" placeholder="Skriv her …"></textarea></label>
+        <label>Dit navn <span class="muted small">(valgfrit)</span><input id="fbName" autocomplete="name" maxlength="100"></label>
+        <label>Din e-mail <span class="muted small">(valgfrit – hvis du vil have svar)</span><input id="fbMail" type="email" autocomplete="email" maxlength="200"></label>
+        <input type="checkbox" id="fbBot" tabindex="-1" autocomplete="off" style="display:none">
+        <div class="row"><button class="btn write" id="fbSend" type="submit">Send feedback</button><span class="small muted" id="fbStatus" role="status"></span></div>
+        <p class="small muted">Vi sender kun det, du skriver her, plus hvilken prøve og side du kom fra.</p>
+      </form>`;
+    $("#fbForm").onsubmit = async e => {
+      e.preventDefault();
+      const msg = $("#fbMsg").value.trim(), st = $("#fbStatus"), btn = $("#fbSend");
+      if (!msg) { st.textContent = "Skriv en besked først."; return; }
+      if ($("#fbBot").checked) return;
+      btn.disabled = true; st.textContent = "Sender …";
+      try {
+        const res = await fetch("https://api.web3forms.com/submit", {
+          method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" },
+          body: JSON.stringify({
+            access_key: FEEDBACK_KEY,
+            subject: `DanskKlar feedback: ${$("#fbType").value}`,
+            from_name: $("#fbName").value.trim() || "DanskKlar-bruger",
+            email: $("#fbMail").value.trim() || undefined,
+            type: $("#fbType").value, message: msg,
+            exam: S.exam, page: from, version: APP_VERSION
+          })
+        });
+        const j = await res.json().catch(() => ({}));
+        if (!res.ok || j.success === false) throw new Error(j.message || res.status);
+        app.innerHTML = `<a class="back" href="#/">← Forside</a><div class="card stage" style="margin-top:16px">
+          <div class="word-big">🙏</div><p style="font-weight:800">Tak for din feedback!</p>
+          <p class="muted">Den er sendt. Vi læser alle beskeder.</p><a class="btn write" href="#/">Til forsiden</a></div>`;
+      } catch (err) {
+        btn.disabled = false;
+        st.textContent = navigator.onLine === false ? "Du er offline – prøv igen, når du har internet." : "Det lykkedes ikke at sende. Prøv igen om lidt.";
+      }
+    };
+  }
+
   function about() {
     app.innerHTML = `
       <a class="back" href="#/">← Forside</a>
