@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "35"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "36"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -3270,9 +3270,9 @@
         <a class="chip" href="#/legal" data-jump="lg-ophav">Ophavsret</a><a class="chip" href="#/legal" data-jump="lg-kontakt">Kontakt</a></nav>
       <div class="stack legal">
         <div class="card" id="lg-om"><h2>Hvem står bag DanskKlar?</h2>
-          <p>DanskKlar (danskklar.com) er et gratis, ikke-kommercielt privat projekt, der hjælper med at øve til Prøve i Dansk 1, 2 og 3. Der er ingen reklamer, og du skal ikke oprette en konto.</p>
+          <p>DanskKlar (danskklar.com) er et gratis privat projekt, der hjælper med at øve til Prøve i Dansk 1, 2 og 3. Der er ingen reklamer, ingen betalte funktioner, og du skal ikke oprette en konto. Frivillige bidrag via Ko-fi bruges kun til at dække udgifter (fx domæne) og til at lave flere øvelser – alt indhold er gratis for alle, uanset om man giver noget.</p>
           <p>DanskKlar er <b>ikke</b> en officiel side og har ingen forbindelse til Styrelsen for International Rekruttering og Integration (SIRI), Uddannelses- og Forskningsministeriet, sprogcentrene eller andre, der laver eller afholder prøverne.</p>
-          ${en("DanskKlar is a free, non-commercial private project to practise for the Danish language exams PD1–PD3. No ads, no accounts. It is not an official site and is not affiliated with SIRI, the Ministry or any language school.")}</div>
+          ${en("DanskKlar is a free private project to practise for the Danish language exams PD1–PD3. No ads, no paid features, no accounts. Voluntary Ko-fi contributions only cover costs (e.g. the domain) and new exercises; all content stays free for everyone. It is not an official site and is not affiliated with SIRI, the Ministry or any language school.")}</div>
 
         <div class="card" id="lg-priv"><h2>Privatlivspolitik</h2>
           <h3>Dine data bliver på din enhed</h3>
@@ -3306,13 +3306,13 @@
           ${en("Free for personal study and teaching. Content is made with care but without guarantee; model answers, translations and grade estimates are guidance only, not an official assessment. Use at your own risk; we are not liable for exam results or lost local progress. The app may change or close without notice. Ko-fi contributions are voluntary gifts. DanskKlar's own content may not be reused commercially without permission.")}</div>
 
         <div class="card" id="lg-ophav"><h2>Ophavsret</h2>
-          <p><b>Tidligere prøveopgaver:</b> Opgaverne mærket <b>Rigtig prøve</b> stammer fra tidligere Prøve i Dansk-prøver, som myndighederne har offentliggjort som øvemateriale. Ophavsretten tilhører prøvernes ophavsmænd. Tegningerne til de mundtlige opgaver er lavet af Niels Roland, og læseteksterne har de kilder, der står ved hver opgave. De bruges her ikke-kommercielt til øvebrug.</p>
+          <p><b>Tidligere prøveopgaver:</b> Opgaverne mærket <b>Rigtig prøve</b> stammer fra tidligere Prøve i Dansk-prøver, som myndighederne har offentliggjort som øvemateriale. Ophavsretten tilhører prøvernes ophavsmænd. Tegningerne til de mundtlige opgaver er lavet af Niels Roland, og læseteksterne har de kilder, der står ved hver opgave. De bruges her gratis og kun til øvebrug – de ligger aldrig bag betaling, og frivillige bidrag via Ko-fi er ikke betaling for dem.</p>
           <p><b>PD3-modultests:</b> Sættene i stil med DU3-modultests indeholder nye tekster skrevet til DanskKlar – de er ikke kopier af forlagets materiale.</p>
           <p><b>DanskKlars eget indhold</b> – modelsvar, skabeloner, oversættelser, øvesæt, grammatik, øvebank, spil, ordtræner, ordbog og appens kode og design – © ${new Date().getFullYear()} DanskKlar.</p>
           <p><b>Skrifttype:</b> Nunito, SIL Open Font License 1.1.</p>
           <p><b>Er du rettighedshaver?</b> Hvis du mener, at noget materiale ikke må være her, så skriv til os (se Kontakt) med en beskrivelse af materialet. Så fjerner vi det hurtigst muligt.</p>
           <p class="small"><a href="#/about">Se også Kilder og ophavsret under Om prøven →</a></p>
-          ${en("Tasks marked “Rigtig prøve” are past Prøve i Dansk exams published by the authorities as practice material; copyright stays with their makers (oral illustrations by Niels Roland; reading texts credited per task), used here non-commercially for practice. The PD3 module-test-style sets contain new texts written for DanskKlar. All other content and the app itself © DanskKlar. Font: Nunito (SIL OFL 1.1). Rights holders can contact us and we will remove material promptly.")}</div>
+          ${en("Tasks marked “Rigtig prøve” are past Prøve i Dansk exams published by the authorities as practice material; copyright stays with their makers (oral illustrations by Niels Roland; reading texts credited per task), used here free of charge for practice only – never behind payment, and Ko-fi contributions are not payment for them. The PD3 module-test-style sets contain new texts written for DanskKlar. All other content and the app itself © DanskKlar. Font: Nunito (SIL OFL 1.1). Rights holders can contact us and we will remove material promptly.")}</div>
 
         <div class="card" id="lg-kontakt"><h2>Kontakt</h2>
           <p>Spørgsmål om privatliv, ophavsret eller appen: ${FEEDBACK_TO ? `brug <a href="#/feedback">feedback-formularen</a> eller skriv til ${mail}` : `<a href="https://github.com/johnymaliyil/Danishlearningapp/issues" target="_blank" rel="noopener">skriv til os her</a>`}.</p>
@@ -3381,7 +3381,7 @@
           <h2>📚 Kilder og ophavsret</h2>
           <p>Opgaverne, der er mærket <b>Rigtig prøve</b>, kommer fra tidligere prøver i Prøve i Dansk, som de danske myndigheder har offentliggjort som øvemateriale. Ophavsretten tilhører dem, der har lavet prøverne. Tegningerne til de mundtlige opgaver er lavet af <b>Niels Roland</b>, og teksterne i læseopgaverne har deres egne kilder, som står ved hver opgave.</p>
           <p>Alt andet er lavet til DanskKlar: modelsvar, skabeloner, oversættelser, øvesæt, grammatik, spil og ordtræner.</p>
-          <p>DanskKlar er gratis og ikke-kommercielt og bruges kun til at øve sig til prøverne. Er du rettighedshaver og ønsker, at noget bliver fjernet, så <a href="https://github.com/johnymaliyil/Danishlearningapp/issues" target="_blank" rel="noopener">skriv til os her</a>. Så fjerner vi det hurtigst muligt.</p>
+          <p>DanskKlar er gratis, uden reklamer og bruges kun til at øve sig til prøverne. Er du rettighedshaver og ønsker, at noget bliver fjernet, så <a href="https://github.com/johnymaliyil/Danishlearningapp/issues" target="_blank" rel="noopener">skriv til os her</a>. Så fjerner vi det hurtigst muligt.</p>
           <p class="small muted" lang="en">🇬🇧 Tasks marked "Rigtig prøve" come from past Prøve i Dansk exams that the Danish authorities have published as practice material; the copyright belongs to their makers. The oral illustrations are by Niels Roland, and the reading texts keep their own sources, listed with each task. Everything else (model answers, templates, translations, practice sets, grammar, games and the word trainer) was made for DanskKlar. DanskKlar is free and non-commercial. If you are a rights holder and want something removed, please contact us via the link above and it will be taken down promptly.</p>
         </div>
         <p class="small muted">DanskKlar er et uofficielt øveprogram og har ingen forbindelse til de myndigheder, der afholder prøverne. Læs mere under <a href="#/legal">⚖️ Privatliv, vilkår og ophavsret</a>.</p>
