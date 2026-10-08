@@ -4,14 +4,14 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "38"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "39"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
   // Ko-fi page name (ko-fi.com/<name>). Leave empty to hide the support buttons.
   const KOFI = "annaos";
   const kofiBtn = (cls = "btn ghost sm") => KOFI
-    ? `<a class="${cls} kofi" href="https://ko-fi.com/${encodeURIComponent(KOFI)}" target="_blank" rel="noopener">☕ Støt DanskKlar</a>` : "";
+    ? `<a class="${cls} kofi" href="https://ko-fi.com/${encodeURIComponent(KOFI)}" target="_blank" rel="noopener"><span class="cup" aria-hidden="true"><i></i><i></i><i></i>☕</span> Støt DanskKlar</a>` : "";
 
   // ---------- Storage ----------
   const KEY = "pd2-trainer-v1";
@@ -194,7 +194,7 @@
       <span class="examsw" role="group" aria-label="Vælg prøve">${examButtons()}</span>
       <span class="pill" title="Dage i træk">🔥 ${S.streak}</span>
       <span class="pill" title="Niveau ${level()}">⭐ ${S.xp} XP</span>
-      ${KOFI ? `<a class="pill kofi-pill" href="https://ko-fi.com/${encodeURIComponent(KOFI)}" target="_blank" rel="noopener" title="Støt DanskKlar på Ko-fi" aria-label="Støt DanskKlar på Ko-fi">☕<span> Støt</span></a>` : ""}`;
+      ${KOFI ? `<a class="pill kofi-pill" href="https://ko-fi.com/${encodeURIComponent(KOFI)}" target="_blank" rel="noopener" title="Støt DanskKlar på Ko-fi" aria-label="Støt DanskKlar på Ko-fi"><span class="cup" aria-hidden="true"><i></i><i></i><i></i>☕</span><span class="kofi-txt"> Støt</span></a>` : ""}`;
   }
 
   // ---------- Timers (cleared on navigation) ----------

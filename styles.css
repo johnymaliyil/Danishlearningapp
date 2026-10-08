@@ -683,7 +683,7 @@ input.short.dict-search { font-size: 1.15rem; padding: 12px 14px; }
 .kofi-pill { text-decoration: none; color: inherit; border-color: #ff5e5b; background: #fff1f0; font-weight: 700; }
 .kofi-pill:hover { background: #ffe0de; }
 @media (prefers-color-scheme: dark) { .kofi-pill { background: #3a2222; } .kofi-pill:hover { background: #4a2a2a; } }
-@media (max-width: 560px) { .kofi-pill span { display: none; } }
+@media (max-width: 560px) { .kofi-pill .kofi-txt { display: none; } }
 .legal h3 { margin: 14px 0 4px; font-size: 1rem; }
 .legal ul { padding-left: 20px; }
 .legal li { margin: 6px 0; }
@@ -694,3 +694,23 @@ input.short.dict-search { font-size: 1.15rem; padding: 12px 14px; }
 main { padding-bottom: 32px; }
 .site-foot { max-width: 1120px; margin: 0 auto; padding: 16px 20px 40px; border-top: 1px solid var(--border); text-align: center; font-size: .85rem; color: var(--muted); line-height: 1.8; }
 .site-foot a { color: inherit; font-weight: 700; }
+
+/* Ko-fi cup: steam rises, and every few seconds the cup tilts for a sip. */
+.cup { position: relative; display: inline-block; transform-origin: 60% 90%; animation: cup-sip 6s ease-in-out infinite; }
+.cup i { position: absolute; bottom: 74%; width: 2px; height: 6px; border-radius: 2px; background: var(--muted); opacity: 0; animation: cup-steam 2.4s ease-out infinite; }
+.cup i:nth-child(1) { left: 30%; animation-delay: 0s; }
+.cup i:nth-child(2) { left: 46%; animation-delay: .8s; }
+.cup i:nth-child(3) { left: 62%; animation-delay: 1.6s; }
+@keyframes cup-steam {
+  0% { opacity: 0; transform: translateY(2px) scaleY(.6) rotate(0deg); }
+  30% { opacity: .55; }
+  100% { opacity: 0; transform: translateY(-6px) scaleY(1.1) rotate(12deg); }
+}
+@keyframes cup-sip {
+  0%, 78%, 100% { transform: rotate(0deg) translateY(0); }
+  84% { transform: rotate(-28deg) translateY(-2px); }
+  90% { transform: rotate(-28deg) translateY(-2px); }
+  95% { transform: rotate(0deg) translateY(0); }
+}
+.kofi:hover .cup, .kofi-pill:hover .cup, .kofi:focus-visible .cup, .kofi-pill:focus-visible .cup { animation-duration: 1.6s; }
+@media (prefers-reduced-motion: reduce) { .cup, .cup i { animation: none; } .cup i { display: none; } }
