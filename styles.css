@@ -670,3 +670,4 @@ input.short.dict-search { font-size: 1.15rem; padding: 12px 14px; }
 .star-btn.on, .stars:has(.star-btn:hover) .star-btn { color: #f5b301; }
 .stars .star-btn:hover ~ .star-btn { color: var(--border); }
 .rate-card { margin-top: 24px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; justify-content: space-between; }
+.kofi { border-color: #ff5e5b; }

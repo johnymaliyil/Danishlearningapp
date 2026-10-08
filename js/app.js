@@ -8,6 +8,10 @@
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
+  // Ko-fi page name (ko-fi.com/<name>). Leave empty to hide the support buttons.
+  const KOFI = "";
+  const kofiBtn = (cls = "btn ghost sm") => KOFI
+    ? `<a class="${cls} kofi" href="https://ko-fi.com/${encodeURIComponent(KOFI)}" target="_blank" rel="noopener">☕ Støt DanskKlar</a>` : "";
 
   // ---------- Storage ----------
   const KEY = "pd2-trainer-v1";
@@ -531,6 +535,7 @@
         ${installButton()}
         <a class="btn ghost sm" href="#/about">ℹ️ Om ${META().name}-prøven</a>
         ${FEEDBACK_TO ? `<a class="btn ghost sm" href="#/feedback">⭐ Bedøm / giv feedback</a>` : ""}
+        ${kofiBtn()}
         <span class="spacer"></span>
         <button class="btn ghost sm" id="reset">Nulstil fremskridt</button>
       </p>
@@ -3237,7 +3242,9 @@
         if (stars) { S.rated = stars; save(); }
         app.innerHTML = `<a class="back" href="#/">← Forside</a><div class="card stage" style="margin-top:16px">
           <div class="word-big">🙏</div><p style="font-weight:800">Tak for din feedback!</p>
-          <p class="muted">Den er sendt. Vi læser alle beskeder.</p><a class="btn write" href="#/">Til forsiden</a></div>`;
+          <p class="muted">Den er sendt. Vi læser alle beskeder.</p>
+          ${KOFI ? `<p class="small muted">Kan du lide appen? DanskKlar er gratis og uden reklamer – du kan give en kop kaffe, hvis du har lyst.</p>` : ""}
+          <div class="row" style="justify-content:center"><a class="btn write" href="#/">Til forsiden</a>${kofiBtn("btn ghost")}</div></div>`;
       } catch (err) {
         btn.disabled = false;
         st.textContent = navigator.onLine === false ? "Du er offline – prøv igen, når du har internet." : "Det lykkedes ikke at sende. Prøv igen om lidt.";
@@ -3298,6 +3305,9 @@
             <a class="btn ghost sm" href="#/plan">📅 Min prøveplan</a>
           </div>
         </div>` : ""}
+        ${KOFI ? `<div class="card" id="stoet"><h2>☕ Støt DanskKlar</h2>
+          <p>DanskKlar er gratis og uden reklamer. Hvis appen hjælper dig, kan du give en kop kaffe på Ko-fi – det hjælper med at betale for domænet og med at lave flere opgaver. Det er helt frivilligt.</p>
+          <p>${kofiBtn("btn write")}</p></div>` : ""}
         <div class="card" id="kilder">
           <h2>📚 Kilder og ophavsret</h2>
           <p>Opgaverne, der er mærket <b>Rigtig prøve</b>, kommer fra tidligere prøver i Prøve i Dansk, som de danske myndigheder har offentliggjort som øvemateriale. Ophavsretten tilhører dem, der har lavet prøverne. Tegningerne til de mundtlige opgaver er lavet af <b>Niels Roland</b>, og teksterne i læseopgaverne har deres egne kilder, som står ved hver opgave.</p>
