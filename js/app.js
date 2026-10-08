@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "34"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "35"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -313,6 +313,7 @@
     [/^\/plan$/, planPage],
     [/^\/mistakes$/, mistakesPage],
     [/^\/about$/, about],
+    [/^\/legal$/, legalPage],
     [/^\/feedback(?:\/([1-5]))?$/, feedbackPage]
   ];
   let lastPath = "/";
@@ -537,6 +538,7 @@
         <a class="btn ghost sm" href="#/about">ℹ️ Om ${META().name}-prøven</a>
         ${FEEDBACK_TO ? `<a class="btn ghost sm" href="#/feedback">⭐ Bedøm / giv feedback</a>` : ""}
         ${kofiBtn()}
+        <a class="btn ghost sm" href="#/legal">⚖️ Privatliv og vilkår</a>
         <span class="spacer"></span>
         <button class="btn ghost sm" id="reset">Nulstil fremskridt</button>
       </p>
@@ -3209,7 +3211,7 @@
         <label>Din e-mail <span class="muted small">(valgfrit – hvis du vil have svar)</span><input id="fbMail" type="email" autocomplete="email" maxlength="200"></label>
         <input type="checkbox" id="fbBot" tabindex="-1" autocomplete="off" style="display:none">
         <div class="row"><button class="btn write" id="fbSend" type="submit">Send feedback</button><span class="small muted" id="fbStatus" role="status"></span></div>
-        <p class="small muted">Vi sender kun det, du skriver her, plus hvilken prøve og side du kom fra.</p>
+        <p class="small muted">Vi sender kun det, du skriver her, plus hvilken prøve og side du kom fra. Se <a href="#/legal">privatlivspolitikken</a>.</p>
       </form>`;
     const drawStars = () => {
       $$(".star-btn").forEach(b => { const on = +b.dataset.star <= stars; b.classList.toggle("on", on); b.setAttribute("aria-checked", +b.dataset.star === stars); });
@@ -3251,6 +3253,72 @@
         st.textContent = navigator.onLine === false ? "Du er offline – prøv igen, når du har internet." : "Det lykkedes ikke at sende. Prøv igen om lidt.";
       }
     };
+  }
+
+  // ---------- Privatliv, vilkår og ophavsret ----------
+  const LEGAL_UPDATED = "8. oktober 2026";
+  function legalPage() {
+    const en = t => `<p class="small muted" lang="en">🇬🇧 ${t}</p>`;
+    const mail = FEEDBACK_TO ? `<a href="mailto:${esc(FEEDBACK_TO)}">${esc(FEEDBACK_TO)}</a>` : "";
+    app.innerHTML = `
+      <a class="back" href="#/">← Forside</a>
+      <h1>⚖️ Privatliv, vilkår og ophavsret</h1>
+      <p class="muted">Senest opdateret: ${LEGAL_UPDATED}</p>
+      <nav class="chips legal-toc" aria-label="Indhold">
+        <a class="chip" href="#/legal" data-jump="lg-om">Hvem står bag</a><a class="chip" href="#/legal" data-jump="lg-priv">Privatlivspolitik</a>
+        <a class="chip" href="#/legal" data-jump="lg-cookies">Cookies</a><a class="chip" href="#/legal" data-jump="lg-vilkaar">Vilkår</a>
+        <a class="chip" href="#/legal" data-jump="lg-ophav">Ophavsret</a><a class="chip" href="#/legal" data-jump="lg-kontakt">Kontakt</a></nav>
+      <div class="stack legal">
+        <div class="card" id="lg-om"><h2>Hvem står bag DanskKlar?</h2>
+          <p>DanskKlar (danskklar.com) er et gratis, ikke-kommercielt privat projekt, der hjælper med at øve til Prøve i Dansk 1, 2 og 3. Der er ingen reklamer, og du skal ikke oprette en konto.</p>
+          <p>DanskKlar er <b>ikke</b> en officiel side og har ingen forbindelse til Styrelsen for International Rekruttering og Integration (SIRI), Uddannelses- og Forskningsministeriet, sprogcentrene eller andre, der laver eller afholder prøverne.</p>
+          ${en("DanskKlar is a free, non-commercial private project to practise for the Danish language exams PD1–PD3. No ads, no accounts. It is not an official site and is not affiliated with SIRI, the Ministry or any language school.")}</div>
+
+        <div class="card" id="lg-priv"><h2>Privatlivspolitik</h2>
+          <h3>Dine data bliver på din enhed</h3>
+          <p>Dit fremskridt (XP, svar, kladder, fejl, prøveplan, ord du har lært, indstillinger) gemmes kun i din egen browser (localStorage) på din enhed. Det bliver ikke sendt til os eller andre. Du kan slette det når som helst med <b>Nulstil fremskridt</b> på forsiden eller ved at rydde browserens data for danskklar.com.</p>
+          <h3>Vi indsamler ikke data om dig</h3>
+          <p>Vi bruger ingen statistik- eller sporingsværktøjer, ingen reklamenetværk og ingen sociale-medie-knapper, der sporer dig. Skrifttypen ligger på vores egen server, så din browser ikke kontakter Google for at hente den.</p>
+          <h3>Feedback og bedømmelse</h3>
+          <p>Hvis du sender feedback eller en bedømmelse, sendes det, du skriver (stjerner, emne, besked og – hvis du vil – navn og e-mail), sammen med valgt prøve, den side du kom fra og appens version, til os som en e-mail. Det sker gennem tjenesten <b>FormSubmit</b> (formsubmit.co), som videresender beskeden; den kan blive behandlet på servere uden for EU. Vi bruger kun oplysningerne til at forbedre appen og til at svare dig, hvis du har skrevet din e-mail. Grundlaget er dit samtykke, når du trykker <i>Send</i> (GDPR art. 6, stk. 1, litra a). Vi sletter beskederne, når de ikke længere er relevante, og senest efter 2 år. Skriv ikke følsomme personoplysninger i beskeden.</p>
+          <h3>Tale og mikrofon</h3>
+          <p>Når du optager dig selv i taleøvelserne, bliver lydoptagelsen kun i din browser og bliver ikke gemt eller sendt til os. <b>Live-tekst</b> (tale til tekst) bruger browserens indbyggede talegenkendelse; i fx Chrome og Edge kan lyden blive sendt til browserproducentens (Google/Microsoft) server for at blive lavet om til tekst. Oplæsning af tekst bruger browserens egne stemmer. Mikrofonen bruges kun, når du selv trykker på optag.</p>
+          <h3>Links til andre sider</h3>
+          <p>Knappen <b>☕ Støt DanskKlar</b> åbner Ko-fi (ko-fi.com) i et nyt vindue. Først når du klikker, gælder Ko-fis egne vilkår og privatlivspolitik. Betalinger håndteres af Ko-fi og deres betalingsudbydere – vi ser ikke dine betalingsoplysninger. Siden hostes på GitHub Pages, og domænet går gennem Cloudflare; som alle webservere kan de registrere tekniske oplysninger som IP-adresse i deres logfiler for at levere og beskytte siden.</p>
+          <h3>Dine rettigheder</h3>
+          <p>Du har ret til at få indsigt i, rette og slette de oplysninger, du har sendt til os, og til at trække dit samtykke tilbage. Skriv til os (se Kontakt). Du kan også klage til <a href="https://www.datatilsynet.dk" target="_blank" rel="noopener">Datatilsynet</a>.</p>
+          ${en("Your progress is stored only in your own browser (localStorage) and never sent to us. We use no analytics, tracking or ads, and the font is self-hosted. Feedback/ratings you choose to send (and your name/e-mail if you add them) are e-mailed to us via FormSubmit, possibly processed outside the EU, based on your consent; we use them only to improve the app or reply, and delete them within 2 years. Voice recordings stay in your browser; live captions use the browser's speech recognition, which in Chrome/Edge may send audio to Google/Microsoft. The Ko-fi button opens ko-fi.com, which has its own terms; we never see payment details. Hosting is GitHub Pages behind Cloudflare, which may log technical data such as IP addresses. You may request access, correction or deletion and complain to Datatilsynet.")}</div>
+
+        <div class="card" id="lg-cookies"><h2>Cookies</h2>
+          <p>DanskKlar bruger <b>ingen cookies</b>. Appen gemmer kun dit eget fremskridt og dine indstillinger lokalt i browseren (localStorage/sessionStorage), og det er nødvendigt for, at appen virker. Derfor er der ingen cookie-banner.</p>
+          <p>Når appen er installeret eller har været brugt, gemmer browseren også appens filer (service worker), så den virker uden internet.</p>
+          ${en("No cookies are used. Only your own progress and settings are kept in local browser storage, which the app needs to work, plus an offline copy of the app's files.")}</div>
+
+        <div class="card" id="lg-vilkaar"><h2>Vilkår for brug</h2>
+          <ul>
+            <li>DanskKlar er gratis og må bruges til personlig forberedelse og i undervisning.</li>
+            <li>Indholdet er lavet med omhu, men vi kan ikke garantere, at alt er korrekt eller opdateret. Modelsvar, skabeloner, oversættelser, karakterer og vurderinger er vejledende og <b>ikke</b> en officiel bedømmelse. Tjek altid de gældende regler for prøven hos dit sprogcenter eller på uim.dk.</li>
+            <li>Brug af appen sker på eget ansvar. Vi er ikke ansvarlige for resultatet af en prøve eller for tab af fremskridt, der kun er gemt i din browser.</li>
+            <li>Appen kan blive ændret, sat på pause eller lukket uden varsel.</li>
+            <li>Bidrag via Ko-fi er frivillige gaver og giver ikke ret til ydelser.</li>
+            <li>Det er ikke tilladt at kopiere DanskKlars eget indhold til kommercielle formål uden tilladelse.</li>
+          </ul>
+          ${en("Free for personal study and teaching. Content is made with care but without guarantee; model answers, translations and grade estimates are guidance only, not an official assessment. Use at your own risk; we are not liable for exam results or lost local progress. The app may change or close without notice. Ko-fi contributions are voluntary gifts. DanskKlar's own content may not be reused commercially without permission.")}</div>
+
+        <div class="card" id="lg-ophav"><h2>Ophavsret</h2>
+          <p><b>Tidligere prøveopgaver:</b> Opgaverne mærket <b>Rigtig prøve</b> stammer fra tidligere Prøve i Dansk-prøver, som myndighederne har offentliggjort som øvemateriale. Ophavsretten tilhører prøvernes ophavsmænd. Tegningerne til de mundtlige opgaver er lavet af Niels Roland, og læseteksterne har de kilder, der står ved hver opgave. De bruges her ikke-kommercielt til øvebrug.</p>
+          <p><b>PD3-modultests:</b> Sættene i stil med DU3-modultests indeholder nye tekster skrevet til DanskKlar – de er ikke kopier af forlagets materiale.</p>
+          <p><b>DanskKlars eget indhold</b> – modelsvar, skabeloner, oversættelser, øvesæt, grammatik, øvebank, spil, ordtræner, ordbog og appens kode og design – © ${new Date().getFullYear()} DanskKlar.</p>
+          <p><b>Skrifttype:</b> Nunito, SIL Open Font License 1.1.</p>
+          <p><b>Er du rettighedshaver?</b> Hvis du mener, at noget materiale ikke må være her, så skriv til os (se Kontakt) med en beskrivelse af materialet. Så fjerner vi det hurtigst muligt.</p>
+          <p class="small"><a href="#/about">Se også Kilder og ophavsret under Om prøven →</a></p>
+          ${en("Tasks marked “Rigtig prøve” are past Prøve i Dansk exams published by the authorities as practice material; copyright stays with their makers (oral illustrations by Niels Roland; reading texts credited per task), used here non-commercially for practice. The PD3 module-test-style sets contain new texts written for DanskKlar. All other content and the app itself © DanskKlar. Font: Nunito (SIL OFL 1.1). Rights holders can contact us and we will remove material promptly.")}</div>
+
+        <div class="card" id="lg-kontakt"><h2>Kontakt</h2>
+          <p>Spørgsmål om privatliv, ophavsret eller appen: ${FEEDBACK_TO ? `brug <a href="#/feedback">feedback-formularen</a> eller skriv til ${mail}` : `<a href="https://github.com/johnymaliyil/Danishlearningapp/issues" target="_blank" rel="noopener">skriv til os her</a>`}.</p>
+          ${en("Questions about privacy, copyright or the app: use the feedback form" + (FEEDBACK_TO ? " or e-mail " + FEEDBACK_TO : "") + ".")}</div>
+      </div>`;
+    $$(".legal-toc [data-jump]").forEach(a => a.onclick = e => { e.preventDefault(); const t = document.getElementById(a.dataset.jump); if (t) t.scrollIntoView({ behavior: "smooth", block: "start" }); });
   }
 
   function about() {
@@ -3316,7 +3384,7 @@
           <p>DanskKlar er gratis og ikke-kommercielt og bruges kun til at øve sig til prøverne. Er du rettighedshaver og ønsker, at noget bliver fjernet, så <a href="https://github.com/johnymaliyil/Danishlearningapp/issues" target="_blank" rel="noopener">skriv til os her</a>. Så fjerner vi det hurtigst muligt.</p>
           <p class="small muted" lang="en">🇬🇧 Tasks marked "Rigtig prøve" come from past Prøve i Dansk exams that the Danish authorities have published as practice material; the copyright belongs to their makers. The oral illustrations are by Niels Roland, and the reading texts keep their own sources, listed with each task. Everything else (model answers, templates, translations, practice sets, grammar, games and the word trainer) was made for DanskKlar. DanskKlar is free and non-commercial. If you are a rights holder and want something removed, please contact us via the link above and it will be taken down promptly.</p>
         </div>
-        <p class="small muted">DanskKlar er et uofficielt øveprogram og har ingen forbindelse til de myndigheder, der afholder prøverne.</p>
+        <p class="small muted">DanskKlar er et uofficielt øveprogram og har ingen forbindelse til de myndigheder, der afholder prøverne. Læs mere under <a href="#/legal">⚖️ Privatliv, vilkår og ophavsret</a>.</p>
       </div>`;
   }
 

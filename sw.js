@@ -2,14 +2,15 @@
 // Strategy: network first for the app's own files (so updates show up as soon
 // as you are online), falling back to the cached copy when offline.
 // Google Fonts are cached on first use.
-const VERSION = "v34";
+const VERSION = "v35";
 const APP_CACHE = `danskklar-app-${VERSION}`;
-const FONT_CACHE = "danskklar-fonts";
 
 const APP_FILES = [
   "./",
   "index.html",
   "styles.css",
+  "fonts/nunito-latin.woff2",
+  "fonts/nunito-latin-ext.woff2",
   "manifest.webmanifest",
   "js/data.js",
   "js/data-2020.js",
@@ -96,7 +97,7 @@ self.addEventListener("install", event => {
 self.addEventListener("activate", event => {
   event.waitUntil(
     caches.keys()
-      .then(keys => Promise.all(keys.filter(k => k.startsWith("danskklar-app-") && k !== APP_CACHE).map(k => caches.delete(k))))
+      .then(keys => Promise.all(keys.filter(k => (k.startsWith("danskklar-app-") && k !== APP_CACHE) || k === "danskklar-fonts").map(k => caches.delete(k))))
       .then(() => self.clients.claim())
   );
 });
@@ -105,17 +106,6 @@ self.addEventListener("fetch", event => {
   const req = event.request;
   if (req.method !== "GET") return;
   const url = new URL(req.url);
-
-  if (url.hostname === "fonts.googleapis.com" || url.hostname === "fonts.gstatic.com") {
-    event.respondWith(caches.open(FONT_CACHE).then(async cache => {
-      const hit = await cache.match(req);
-      if (hit) return hit;
-      const res = await fetch(req);
-      if (res.ok || res.type === "opaque") cache.put(req, res.clone());
-      return res;
-    }));
-    return;
-  }
 
   if (url.origin !== self.location.origin) return;
 
