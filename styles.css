@@ -127,6 +127,12 @@ p { margin: 0 0 .8em; }
   font-weight: 800; font-size: .9rem; white-space: nowrap;
 }
 
+/* Medium screens: the menu moves to its own row so the top bar never gets wider than the screen. */
+@media (max-width: 1360px) {
+  .topbar { flex-wrap: wrap; row-gap: 6px; }
+  .brand { flex: 1; }
+  .nav { order: 3; flex-basis: 100%; }
+}
 @media (max-width: 760px) {
   .topbar { flex-wrap: wrap; padding: 8px 16px; gap: 8px; }
   .brand { flex: 1; }
@@ -671,3 +677,7 @@ input.short.dict-search { font-size: 1.15rem; padding: 12px 14px; }
 .stars .star-btn:hover ~ .star-btn { color: var(--border); }
 .rate-card { margin-top: 24px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; justify-content: space-between; }
 .kofi { border-color: #ff5e5b; }
+.kofi-pill { text-decoration: none; color: inherit; border-color: #ff5e5b; background: #fff1f0; font-weight: 700; }
+.kofi-pill:hover { background: #ffe0de; }
+@media (prefers-color-scheme: dark) { .kofi-pill { background: #3a2222; } .kofi-pill:hover { background: #4a2a2a; } }
+@media (max-width: 560px) { .kofi-pill span { display: none; } }
