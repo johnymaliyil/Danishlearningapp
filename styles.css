@@ -46,6 +46,40 @@
   --shadow: 0 1px 2px rgba(20, 50, 25, .06), 0 8px 24px rgba(20, 50, 25, .07);
 }
 
+:root[data-skin="lavender"] {
+  --accent: #7c3aed; --accent-2: #a78bfa; --accent-soft: #efe9ff;
+  --bg: #f7f5fc; --surface: #ffffff; --surface-2: #efebf8; --text: #221a33; --muted: #6a6280; --border: #e3ddf0;
+  --shadow: 0 1px 2px rgba(50, 25, 90, .06), 0 8px 24px rgba(50, 25, 90, .07);
+}
+:root[data-skin="ocean"] {
+  --accent: #0f766e; --accent-2: #2dd4bf; --accent-soft: #d9f4f0;
+  --bg: #f2f9f8; --surface: #ffffff; --surface-2: #e5f2f0; --text: #142826; --muted: #56706c; --border: #d4e7e4;
+  --shadow: 0 1px 2px rgba(10, 60, 55, .06), 0 8px 24px rgba(10, 60, 55, .07);
+}
+:root[data-skin="sunset"] {
+  --accent: #c2410c; --accent-2: #f59e0b; --accent-soft: #ffedd5;
+  --bg: #fdf8f3; --surface: #ffffff; --surface-2: #f7ede2; --text: #2a1d14; --muted: #74655a; --border: #eadccd;
+  --shadow: 0 1px 2px rgba(90, 45, 10, .06), 0 8px 24px rgba(90, 45, 10, .07);
+}
+:root[data-skin="rose"] {
+  --accent: #be185d; --accent-2: #f472b6; --accent-soft: #fce7f3;
+  --bg: #fdf6f9; --surface: #ffffff; --surface-2: #f7e9f0; --text: #2b1722; --muted: #7a6170; --border: #efdbe5;
+  --shadow: 0 1px 2px rgba(90, 20, 50, .06), 0 8px 24px rgba(90, 20, 50, .07);
+}
+:root[data-skin="paper"] {
+  --accent: #8a5a2b; --accent-2: #c08a4f; --accent-soft: #f3e7d6;
+  --bg: #f6f0e4; --surface: #fffaf0; --surface-2: #efe5d3; --text: #2b2318; --muted: #6f6352; --border: #e2d5bf;
+  --shadow: 0 1px 2px rgba(70, 50, 20, .07), 0 8px 24px rgba(70, 50, 20, .07);
+}
+:root[data-skin="contrast"] {
+  --accent: #0033a0; --accent-2: #0033a0; --accent-soft: #dfe7ff;
+  --bg: #ffffff; --surface: #ffffff; --surface-2: #f0f0f0; --text: #000000; --muted: #2e2e2e; --border: #6b6b6b;
+  --read: #0033a0; --write: #9a3412; --speak: #065f46; --words: #5b21b6; --ok: #0f5f2a; --bad: #9b1111;
+  --shadow: none;
+}
+:root[data-skin="contrast"] .card, :root[data-skin="contrast"] .btn, :root[data-skin="contrast"] .pill { border-width: 2px; }
+:root[data-skin="contrast"] main a:not(.btn):not(.pill):not(.tab):not(.card) { text-decoration: underline; }
+
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --red-soft: #3b1219;
@@ -97,6 +131,12 @@
     --gold: #fbbf24;
     --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 6px 20px rgba(0, 0, 0, .25);
   color-scheme: dark;
+}
+/* Midnat: a navy-blue dark theme (needs to come after the dark rules above). */
+:root[data-skin="midnight"][data-theme="dark"] {
+  --accent: #3b82f6; --accent-2: #38bdf8; --accent-soft: #1b2b4a;
+  --bg: #0b1324; --surface: #15203a; --surface-2: #1d2a47; --text: #e6edf7; --muted: #9aa8bf; --border: #2a3a5c;
+  --read-soft: #18264a; --write-soft: #33220f; --speak-soft: #0f2e2a; --words-soft: #261d45; --ok-soft: #0f2f22; --bad-soft: #351619;
 }
 
 * { box-sizing: border-box; }

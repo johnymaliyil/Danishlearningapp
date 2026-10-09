@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "65"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "66"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -3997,7 +3997,7 @@
     ["Getting started", [
       ["🎯", "Choose your exam", "Pick PD1, PD2 or PD3 at the top. Reading, writing, speaking and the mock exam follow the exam you choose. You can switch at any time.", "#/start"],
       ["🇬🇧", "Hover translation", "Point at (or double-click / tap) any Danish word to see it in English. Use the 🇬🇧 button at the top to turn it on or off.", ""],
-      ["⚙️", "Settings", "Top right: change the theme (Nordisk blå, Dansk rød, Skovgrøn, Mørk), text size and a reading-friendly font, and find help, feedback and more. The ☕ Støt button next to it opens Ko-fi.", ""],
+      ["⚙️", "Settings", "Top right: change the theme (11 colour themes incl. dark, Midnat and Høj kontrast), text size and a reading-friendly font, and find help, feedback and more. The ☕ Støt button next to it opens Ko-fi.", ""],
       ["🌐", "English interface", "Settings ⚙️ → Sprog / Language → English shows menus, buttons and explanations in English. Exam texts, tasks and model answers always stay in Danish.", ""],
       ["⭐", "XP, streak and badges", "You earn XP for everything you practise. Practise every day to keep your 🔥 streak and unlock badges on the home page.", "#/"],
       ["📱", "Install as an app", "On your phone, use \"Add to Home Screen\" (or the install button on the home page). The app also works offline.", "#/"]
@@ -4067,16 +4067,24 @@
     ["nordic", "Nordisk blå", "Lys og rolig · følger telefonens mørke tilstand", ["#f5f8fc", "#ffffff", "#2563eb", "#38bdf8"]],
     ["red", "Dansk rød", "Den klassiske danske røde", ["#fbf7f2", "#ffffff", "#c8102e", "#e2475f"]],
     ["green", "Skovgrøn", "Frisk og naturlig", ["#f3f8f3", "#ffffff", "#15803d", "#34b46c"]],
-    ["dark", "Mørk", "Behageligt om aftenen", ["#15131a", "#1f1c25", "#2563eb", "#7aa2ff"]]
+    ["lavender", "Lavendel", "Blød og venlig lilla", ["#f7f5fc", "#ffffff", "#7c3aed", "#a78bfa"]],
+    ["ocean", "Hav", "Roligt turkis som Vesterhavet", ["#f2f9f8", "#ffffff", "#0f766e", "#2dd4bf"]],
+    ["sunset", "Solnedgang", "Varm orange og rav", ["#fdf8f3", "#ffffff", "#c2410c", "#f59e0b"]],
+    ["rose", "Rosa", "Lys og blød pink", ["#fdf6f9", "#ffffff", "#be185d", "#f472b6"]],
+    ["paper", "Papir", "Varme papirfarver – rart til lange tekster", ["#f6f0e4", "#fffaf0", "#8a5a2b", "#c08a4f"]],
+    ["contrast", "Høj kontrast", "Sort på hvidt med tydelige kanter – nemmere at læse", ["#ffffff", "#000000", "#0033a0", "#6b6b6b"]],
+    ["dark", "Mørk", "Behageligt om aftenen", ["#15131a", "#1f1c25", "#2563eb", "#7aa2ff"]],
+    ["midnight", "Midnat", "Mørk natteblå", ["#0b1324", "#15203a", "#3b82f6", "#38bdf8"]]
   ];
+  const THEME_MAP = { nordic: ["nordic", ""], red: ["red", "light"], green: ["green", "light"], lavender: ["lavender", "light"], ocean: ["ocean", "light"], sunset: ["sunset", "light"], rose: ["rose", "light"], paper: ["paper", "light"], contrast: ["contrast", "light"], dark: ["nordic", "dark"], midnight: ["midnight", "dark"] };
   const curTheme = () => { try { return localStorage.getItem("dk-theme") || "nordic"; } catch (e) { return "nordic"; } };
   function applyTheme(t) {
-    const r = document.documentElement, m = { nordic: ["nordic", ""], red: ["red", "light"], green: ["green", "light"], dark: ["nordic", "dark"] }[t] || ["nordic", ""];
+    const r = document.documentElement, m = THEME_MAP[t] || THEME_MAP.nordic;
     r.setAttribute("data-skin", m[0]);
     if (m[1]) r.setAttribute("data-theme", m[1]); else r.removeAttribute("data-theme");
     try { localStorage.setItem("dk-theme", t); } catch (e) { /* ignore */ }
     const meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.content = (THEMES.find(x => x[0] === t) || THEMES[0])[3][t === "dark" ? 0 : 2];
+    if (meta) meta.content = (THEMES.find(x => x[0] === t) || THEMES[0])[3][(THEME_MAP[t] || [])[1] === "dark" ? 0 : 2];
   }
   function themePicker() {
     const cur = curTheme();
