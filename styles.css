@@ -752,3 +752,11 @@ main { padding-bottom: 32px; }
 .why-row { margin-top: 8px; }
 .why-row.ok > b { color: var(--good, #1b7f3b); }
 .why-row.bad > b { color: var(--bad, #c0392b); }
+
+/* Grammatik-tjek in the writing coach */
+.gram-issues { padding-left: 20px; margin: 0; }
+.gram-issues li { margin: 8px 0; }
+.gram-issues .good { color: var(--good, #15803d); }
+.gram-marked { margin-top: 8px; padding: 10px; border-radius: 10px; background: var(--surface-2); line-height: 1.7; }
+mark.gerr { background: transparent; color: inherit; text-decoration: underline wavy var(--bad); text-underline-offset: 3px; }
+mark.gerr sup { color: var(--bad); font-weight: 800; margin-left: 1px; }

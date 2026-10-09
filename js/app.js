@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "51"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "52"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -892,6 +892,61 @@
   const CLOSE = /(hilsen|mvh|kh\b|knus|vh\b)/i;
   const isLetter = w => /mail|klage|ansøgning|brev|afbud/i.test(w.kind + " " + w.title);
 
+  // ---------- Grammatik-tjek: typical learner mistakes found with simple rules ----------
+  const G_SUBJ = "jeg|du|han|hun|vi|de|man|det|den|der";
+  const G_FIN = "er|har|kan|vil|skal|må|bør|var|havde|kunne|ville|skulle|måtte|gør|gjorde|kommer|kom|bliver|blev|går|gik|får|fik|ved|vidste|tror|synes|bor|arbejder";
+  const G_ADV = "ikke|aldrig|altid|også|gerne|tit|ofte|bare|kun|allerede|stadig|nok|egentlig|faktisk|heller ikke";
+  const G_SUB = "fordi|hvis|når|selvom|selv om|mens|eftersom|da|om|at|hvor|hvad|hvorfor|hvordan|hvornår|som";
+  const G_FRONT = "i dag|i går|i morgen|i aften|i weekenden|i sommer|i vinter|nu|derfor|så|bagefter|desværre|heldigvis|senere|først|til sidst|tit|ofte|normalt|om morgenen|om aftenen|om eftermiddagen|om dagen|om lørdagen|om søndagen|næste uge|næste år|sidste år|sidste uge|for to år siden|efter arbejde|efter skole|i danmark|hjemme|måske|desuden|alligevel|endelig";
+  const ET_NOUNS = "hus|barn|job|arbejde|år|problem|værelse|køkken|kursus|firma|møde|sted|spørgsmål|billede|hotel|tog|land|sprog|liv|område|tilbud|kort|brev|vindue|bord|bad|badeværelse|toilet|praktiksted|forslag|svar|øjeblik|hold|bibliotek|museum|supermarked|center|apartment|teater|loppemarked|opslag|fællesskab|venskab";
+  const EN_NOUNS = "bil|lejlighed|dag|uge|skole|by|familie|mand|kvinde|ven|veninde|mail|e-mail|klage|invitation|restaurant|butik|time|aften|morgen|nabo|kollega|chef|lærer|ting|tur|fest|have|cykel|telefon|stol|seng|computer|bog|film|pris|plads|uddannelse|praktik|ansøgning|annonce|dato|adresse|ferie|weekend|kat|hund|stue|sofa";
+  const ADJ_T = "stor|god|ny|dejlig|fin|flot|sjov|hyggelig|billig|dyr|lang|kort|varm|kold|rolig|travl|venlig|smuk|pæn|stille|grøn|rød|lys|mørk";
+  function grammarIssues(text) {
+    const out = [], seen = new Set();
+    const add = (re, fn) => { let m; re.lastIndex = 0; while ((m = re.exec(text))) { const r = fn(m); if (!r) continue; const sub = r.sub || m[0], at = m.index + m[0].indexOf(sub); if (!seen.has(at)) { seen.add(at); out.push(Object.assign({ at, len: sub.length, text: sub }, r)); } } };
+    // 1. Ledsætning: subjekt + ikke/altid … før verbet (fordi jeg har ikke → fordi jeg ikke har)
+    add(new RegExp(`\\b(${G_SUB})\\s+(${G_SUBJ})\\s+(${G_FIN})\\s+(${G_ADV})\\b`, "gi"), m => ({
+      fix: `${m[1]} ${m[2]} ${m[4]} ${m[3]}`, da: `Efter «${m[1].toLowerCase()}» er det en ledsætning: «${m[4]}» skal stå før verbet.`, en: `In a subordinate clause the adverb comes before the verb.` }));
+    // 2. Hovedsætning: Jeg ikke har → Jeg har ikke
+    add(new RegExp(`(?:^|[.!?]\\s+|\\n)((${G_SUBJ})\\s+(${G_ADV})\\s+(${G_FIN}))\\b`, "gi"), m => ({
+      sub: m[1], fix: `${m[2]} ${m[4]} ${m[3]}`, da: `I en hovedsætning står verbet først: «${m[2]} ${m[4]} ${m[3]}».`, en: `In a main clause the verb comes before ikke/altid etc.` }));
+    // 3. Manglende inversion: I dag jeg skal → I dag skal jeg
+    add(new RegExp(`(?:^|[.!?]\\s+|\\n)(${G_FRONT}),?\\s+(${G_SUBJ})\\s+(${G_FIN}|\\p{L}+(?:er|ede|te))\\b`, "giu"), m => {
+      if (/^(så|da)$/i.test(m[1]) && /^(det|der)$/i.test(m[2])) return null;
+      return { sub: m[0].replace(/^[.!?\s]+/, ""), fix: `${m[1]} ${m[3]} ${m[2]}`, da: `Når sætningen starter med «${m[1]}», kommer verbet før subjektet (inversion): «${m[1]} ${m[3]} ${m[2]}».`, en: `After a fronted time word or adverb, the verb comes second (before the subject).` };
+    });
+    // 4. en/et
+    add(new RegExp(`\\b(en)\\s+(${ET_NOUNS})\\b`, "gi"), m => ({ fix: `et ${m[2]}`, da: `«${m[2]}» er et et-ord: et ${m[2]}.`, en: `"${m[2]}" takes et.` }));
+    add(new RegExp(`\\b(et)\\s+(${EN_NOUNS})\\b`, "gi"), m => ({ fix: `en ${m[2]}`, da: `«${m[2]}» er et en-ord: en ${m[2]}.`, en: `"${m[2]}" takes en.` }));
+    add(new RegExp(`\\ben\\s+(${ADJ_T})\\s+(${ET_NOUNS})\\b`, "giu"), m => ({ fix: `et ${m[1]}t ${m[2]}`, da: `«${m[2]}» er et et-ord, og tillægsordet får -t: et ${m[1]}t ${m[2]}.`, en: `"${m[2]}" takes et, and the adjective takes -t.` }));
+    add(new RegExp(`\\bet\\s+(${ADJ_T})\\s+(\\p{L}+)`, "giu"), m => ({ fix: `et ${m[1]}t ${m[2]}`, da: `Efter «et» får tillægsordet -t: et ${m[1]}t ${m[2]}.`, en: `After "et" the adjective takes -t.` }));
+    add(new RegExp(`\\ben\\s+(${ADJ_T})t\\s+(\\p{L}+)`, "giu"), m => ({ fix: `en ${m[1]} ${m[2]}`, da: `Efter «en» har tillægsordet ingen endelse: en ${m[1]} ${m[2]}.`, en: `After "en" the adjective has no ending.` }));
+    // 5. Modalverbum + at (jeg kan at svømme → jeg kan svømme)
+    add(/\b(kan|vil|skal|må|bør|kunne|ville|skulle|måtte)\s+at\s+(\p{L}+)/giu, m => ({ fix: `${m[1]} ${m[2]}`, da: `Efter «${m[1]}» kommer verbet uden «at».`, en: `No "at" after a modal verb (kan, vil, skal …).` }));
+    // 6. siden + antal år (siden 3 år → i 3 år)
+    add(/\bsiden\s+(\d+|et|to|tre|fire|fem|seks|syv|otte|ni|ti)\s+(år|måneder|uger|dage)\b/gi, m => ({ fix: `i ${m[1]} ${m[2]}`, da: `Om en periode siger man «i ${m[1]} ${m[2]}» (eller «for ${m[1]} ${m[2]} siden»).`, en: `Use "i ... år" for a period, not "siden".` }));
+    // 7. lyst at → lyst til at; glad i at
+    add(/\blyst\s+at\b/gi, () => ({ fix: "lyst til at", da: "Man har «lyst til at» gøre noget.", en: `"have lyst til at" = want to.` }));
+    add(/\binteresseret for\b/gi, () => ({ fix: "interesseret i", da: "Man er «interesseret i» noget.", en: `"interested in" = interesseret i.` }));
+    // 8. Stort bogstav efter punktum
+    add(/[.!?]\s+([a-zæøå])/g, m => {
+      const before = text.slice(Math.max(0, m.index - 12), m.index + 1);
+      if (/(\b(kl|kr|pr|ca|fx|evt|nr|tlf|mv|osv|etc|dvs|jf|vedr|pga|ift|mht|inkl|st|th|tv|sal|mr|mrs|d|f\.eks|bl\.a|m\.v|o\.l|e\.l|p\.t|s\.u|a\.s|aps|j\.p)|\d)\.$/i.test(before)) return null;
+      return { fix: m[0].slice(0, -1) + m[1].toUpperCase(), da: "Efter punktum starter en ny sætning med stort bogstav.", en: "Capital letter after a full stop." };
+    });
+    return out.sort((a, b) => a.at - b.at);
+  }
+  // Text with the found mistakes underlined.
+  function grammarMarked(text, issues) {
+    let html = "", pos = 0;
+    issues.forEach((g, i) => {
+      if (g.at < pos) return;
+      html += esc(text.slice(pos, g.at)) + `<mark class="gerr" title="${esc(g.da)}">${esc(text.slice(g.at, g.at + g.len))}<sup>${i + 1}</sup></mark>`;
+      pos = g.at + g.len;
+    });
+    return (html + esc(text.slice(pos))).replace(/\n/g, "<br>");
+  }
+
   function analyse(text, w) {
     const words = countWords(text);
     const sentences = text.split(/[.!?]+(?:\s|$)/).map(s => s.trim()).filter(s => countWords(s) > 0);
@@ -988,6 +1043,11 @@
             <ul class="checks" id="checks"></ul>
           </div>
           <div class="card">
+            <h3>🔍 Grammatik-tjek</h3>
+            <p class="small muted" style="margin-top:-4px">Finder typiske fejl: ordstilling, ikke-placering, inversion, en/et og mere. Det finder ikke alle fejl.</p>
+            <div id="gram"></div>
+          </div>
+          <div class="card">
             <h3>🔗 Bindeord du har brugt</h3>
             <div class="chips" id="conns"></div>
           </div>
@@ -1010,6 +1070,11 @@
       $("#wc").textContent = `${a.words} ord`;
       fill.style.width = Math.min(100, a.words / maxScale * 100) + "%";
       $("#checks").innerHTML = a.checks.map(([k, t]) => `<li><span class="i">${k === "ok" ? "✅" : "💡"}</span><span>${esc(t)}</span></li>`).join("");
+      const gi = grammarIssues(ed.value);
+      $("#gram").innerHTML = !countWords(ed.value) ? `<p class="small muted" style="margin:0">Begynd at skrive …</p>`
+        : gi.length ? `<ol class="gram-issues">${gi.slice(0, 12).map(g => `<li><b class="no-tr">«${esc(g.text.trim())}»</b> → <b class="good no-tr">${esc(g.fix)}</b><div class="small">${esc(g.da)}</div><div class="small muted" lang="en">${esc(g.en)}</div></li>`).join("")}</ol>
+          <details class="small"><summary>Vis fejlene i din tekst</summary><div class="gram-marked">${grammarMarked(ed.value, gi)}</div></details>`
+        : `<p class="small" style="margin:0">✅ Ingen typiske fejl fundet.</p>`;
       $("#conns").innerHTML = PD2.CONNECTORS.slice(0, 16).map(c => `<span class="chip ${a.conns.includes(c) ? "on" : ""}">${esc(c)}</span>`).join("");
       clearTimeout(saveT);
       saveT = setTimeout(() => { st.draft = ed.value; save(); const sv = $("#saved"); if (sv) sv.textContent = "Kladde gemt ✓"; }, 500);
