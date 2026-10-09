@@ -11583,4 +11583,17 @@ tømmer=empties
 opvaskemaskinen=the dishwasher
 pudse=polish / clean (windows)
 solskinsdag=sunny day
+kartoffelsalat=potato salad
+jordbærkage=strawberry cake
+håndklæde=towel
+formand=chairman
+møderne=the meetings
+motionere=exercise / work out
+klubhuset=the clubhouse
+parkvej=(a street name)
+filmaften=film night
+luxdan=(a name)
+maryam=(a name)
+somalia=Somalia
+fatma=(a name)
 `;

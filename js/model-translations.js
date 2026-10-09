@@ -2,6 +2,129 @@
 // Each translation has the same paragraphs, in the same order, as the Danish model answer,
 // so the app can show them side by side.
 PD2.MODEL_EN = {
+  w15na: `Come to a summer party at my summer house!
+
+Hi everyone
+
+My name is Leila, and I am writing because this year our summer party is going to be held at my summer house in Søndervig by the North Sea.
+
+We leave on Saturday 20 June at 10.00 from the car park at the company. We will travel together by bus, and the journey takes about two hours.
+
+For lunch we will barbecue sausages and chicken, and there will be potato salad with it. In the evening we will have fish and strawberry cake.
+
+Remember to bring swimwear, a towel and warm clothes, because it can get cold in the evening.
+
+The summer house is big and has a garden with room for games. It is in a quiet area close to the beach and the dunes.
+
+If you want to come, call or write to me on 31 52 74 96 by 1 June at the latest.
+
+Thanks in advance!
+
+Best wishes
+Leila`,
+  w15nb: `Become a member of the Frisk Running Club!
+
+Hi everyone
+
+My name is Omar, and I am writing because our running club is looking for new members. I am the chairman of the club.
+
+The Frisk Running Club is a club for everyone who likes exercising in nature. We run together twice a week, and afterwards we drink coffee and chat.
+
+We are looking for new members of all ages, both men and women. You do not need to be fast. The most important thing is that you want to run and meet new people.
+
+We meet at the clubhouse at Parkvej 4 every Tuesday at 18.00 and every Saturday at 9.30. The clubhouse is open on the same days.
+
+It costs 100 kroner a month to be a member. If you want to join, call or write to me on 40 18 63 25.
+
+Thanks in advance!
+
+Best wishes
+Omar Haddad
+Chairman of the Frisk Running Club`,
+  w15nc: `Hi Mads
+
+Thanks for your e-mail. It was lovely to hear from you. I hope you are well. I am fine.
+
+You ask about the problems with my neighbour, and I would like to tell you a little about it.
+
+First of all, my neighbour makes a lot of noise. He lives right above me, and he plays loud music every evening, even after 11 pm. At weekends he often has parties, so I cannot sleep.
+
+In addition, I have tried to talk to him, but he just gets angry. I have also written to the housing association, but nothing has happened. It is really hard when I have to get up early for work.
+
+Finally, I would like to say that I am therefore looking for a new flat. I would like to live in a quiet area close to my work. If you hear about a vacant flat, please let me know.
+
+I look forward to hearing from you. See you soon!
+
+Best wishes
+Samira`,
+  w17na: `Come to a film night!
+
+Hi everyone
+
+My name is Nadia, and I am writing because I would like to invite you to a film night. We have been very busy in the company for a long time, and now we deserve a cosy evening together where we do not talk about work.
+
+We are going to watch a Danish comedy about three old friends who go to a party with their old class. I have seen it before, and I laughed a lot.
+
+We will watch the film at my home at Søndergade 15 in Vejle on Friday 24 November at 19.00. I have a big screen and a good sofa.
+
+After the film we will eat pizza together, and then we can talk about the film or play cards.
+
+If you want to come, call or write to me on 28 64 19 37 by 20 November at the latest.
+
+Thanks in advance!
+
+Best wishes
+Nadia`,
+  w17nc: `Hi Mariam
+
+Thanks for your e-mail. It was lovely to hear from you. I hope you are well. I am fine.
+
+You ask about my job, and I would like to tell you a little about it.
+
+First of all, I have stopped working there because I was very tired of it. I worked in a warehouse, and the work was hard on my back. I also had to work at night, so I almost never saw my family.
+
+In addition, I can tell you that I have started training as a social and health care helper. I go to school three days a week, and two days I am on a work placement at a nursing home. I am happy to help the elderly, and my colleagues are nice.
+
+Finally, I would like to say that I do not regret my decision. I earn less money now, but I have more time for my family, and I hope to get a permanent job at the nursing home.
+
+I look forward to hearing from you. See you soon!
+
+Best wishes
+Hana`,
+  w19nb: `Dear Hotel Luxdan
+
+I have seen your job advertisement on jobnet.dk, and I would like to apply for the position of cleaning assistant.
+
+My name is Maryam Ali, and I am 38 years old. I come from Somalia and have lived in Denmark for five years.
+
+I have experience with cleaning, because I have been on a six-month work placement at a nursing home. I have also taken a course in cleaning and hygiene.
+
+I would like to work at Hotel Luxdan because I like making things clean and nice for others, and because I would like to work at a big hotel with many colleagues.
+
+I believe I will be good at the job, because I am thorough, reliable and quick.
+
+You can contact me on 52 37 81 44.
+
+I hope that you will invite me to an interview. I look forward to hearing from you.
+
+Yours sincerely
+Maryam Ali`,
+  w19nc: `Hi Johan
+
+Thanks for your e-mail. It was lovely to hear from you. I hope you are well. I am fine.
+
+You ask about my new house in the countryside, and I would like to tell you a little about it.
+
+First of all, we have moved because our flat in the town was too small. We have had another child, and houses in the countryside are much cheaper than in the town. My husband has also got a job in a town nearby.
+
+In addition, it is lovely to live in the countryside. It is quiet and the air is fresh, and we have a big garden where the children can play. We have got hens, so we have fresh eggs every day. The neighbours are friendly and helpful.
+
+Finally, I would like to say that there are also disadvantages. It is a long way to the shops, and the bus only runs once an hour, so we use the car a lot. But I am happy, and you are very welcome to visit.
+
+I look forward to hearing from you. See you soon!
+
+Best wishes
+Fatma`,
   w20na: `Dear everyone in the warehouse – and especially dear Bente
 
 Thank you so much for the six years we have worked together. You have been a really good colleague, and you have always been helpful and in a good mood.

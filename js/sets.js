@@ -2,7 +2,6 @@
 // Runs after all data files; it renames groups/titles and sorts lists by set number.
 (function () {
   const SESSIONS = [
-    // [set number, reading group, writing id prefix, picture ids]
     [1, "PD2 maj 2012", /^w12[abc]$/, ["p9", "p10", "p11"]],
     [2, "PD2 nov.-dec. 2012", /^w12n/, ["p12n-a", "p12n-b", "p12n-c"]],
     [3, "PD2 maj-juni 2013", /^w13[abc]$/, ["p12", "p13", "p14"]],
@@ -10,19 +9,22 @@
     [5, "PD2 maj-juni 2014", /^w14[abc]$/, ["p15", "p16", "p17"]],
     [6, "PD2 nov.-dec. 2014", /^w14n/, ["p14n-a", "p14n-b", "p14n-c"]],
     [7, "PD2 maj-juni 2015", /^w15m/, ["p15m-a", "p15m-b", "p15m-c"]],
-    [8, "PD2 maj-juni 2016", /^w16m/, []],
-    [9, "PD2 nov.-dec. 2016", /^w16[abc]$/, []],
-    [10, "PD2 maj-juni 2017", /^w17m/, []],
-    [11, "PD2 maj-juni 2018", /^w18m/, []],
-    [12, "PD2 nov.-dec. 2018", /^w18[abc]$/, ["p18", "p19", "p20"]],
-    [13, "PD2 maj-juni 2019", /^w19/, ["p4", "p7", "p8"]],
-    [14, "PD2 maj-juni 2020", /^w20[abc]$/, ["p1", "p2", "p3"]],
-    [20, "PD2 maj-juni 2023", /^w23m/, ["p23m-a", "p23m-b", "p23m-c"]],
-    [18, "PD2 maj-juni 2022", /^w22m/, ["p22m-a", "p22m-b", "p22m-c"]],
-    [19, "PD2 nov.-dec. 2022", /^w22n/, ["p22n-a", "p22n-b", "p22n-c"]],
-    [16, "PD2 maj-juni 2021", /^w21m/, []],
-    [17, "PD2 nov.-dec. 2021", /^w21n/, ["p21n-a", "p21n-b", "p21n-c"]],
-    [15, "PD2 nov.-dec. 2020", /^w20n/, ["p20n-a", "p20n-b", "p20n-c"]]
+    [8, "PD2 nov.-dec. 2015", /^w15n/, []],
+    [9, "PD2 maj-juni 2016", /^w16m/, []],
+    [10, "PD2 nov.-dec. 2016", /^w16[abc]$/, []],
+    [11, "PD2 maj-juni 2017", /^w17m/, []],
+    [12, "PD2 nov.-dec. 2017", /^w17n/, []],
+    [13, "PD2 maj-juni 2018", /^w18m/, []],
+    [14, "PD2 nov.-dec. 2018", /^w18[abc]$/, ["p18", "p19", "p20"]],
+    [15, "PD2 maj-juni 2019", /^w19[abc]$/, ["p4", "p7", "p8"]],
+    [16, "PD2 nov.-dec. 2019", /^w19n/, []],
+    [17, "PD2 maj-juni 2020", /^w20[abc]$/, ["p1", "p2", "p3"]],
+    [18, "PD2 nov.-dec. 2020", /^w20n/, ["p20n-a", "p20n-b", "p20n-c"]],
+    [19, "PD2 maj-juni 2021", /^w21m/, []],
+    [20, "PD2 nov.-dec. 2021", /^w21n/, ["p21n-a", "p21n-b", "p21n-c"]],
+    [21, "PD2 maj-juni 2022", /^w22m/, ["p22m-a", "p22m-b", "p22m-c"]],
+    [22, "PD2 nov.-dec. 2022", /^w22n/, ["p22n-a", "p22n-b", "p22n-c"]],
+    [23, "PD2 maj-juni 2023", /^w23m/, ["p23m-a", "p23m-b", "p23m-c"]]
   ];
   PD2.SET_COUNT = SESSIONS.length;
   const E = PD2.EXAMS.pd2;
