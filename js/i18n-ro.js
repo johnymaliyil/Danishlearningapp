@@ -996,5 +996,6 @@ PD2.I18N.ro = {
 "Ny farve hver dag": "O culoare nouă în fiecare zi",
 "Standard": "Implicit",
 "skifter automatisk hver dag": "se schimbă automat în fiecare zi",
-"· Ny farve hver dag": "· O culoare nouă în fiecare zi"
+"· Ny farve hver dag": "· O culoare nouă în fiecare zi",
+"Farven skifter automatisk hver dag. Vælger du en farve, gælder den resten af dagen. Mørk, Midnat og Høj kontrast bliver, til du skifter.": "Culoarea se schimbă automat în fiecare zi. Dacă alegi o culoare, ea rămâne până la sfârșitul zilei. Întunecat, Miezul nopții și Contrast ridicat rămân până le schimbi."
 };

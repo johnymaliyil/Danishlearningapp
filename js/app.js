@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "69"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "70"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -3997,7 +3997,7 @@
     ["Getting started", [
       ["🎯", "Choose your exam", "Pick PD1, PD2 or PD3 at the top. Reading, writing, speaking and the mock exam follow the exam you choose. You can switch at any time.", "#/start"],
       ["🇬🇧", "Hover translation", "Point at (or double-click / tap) any Danish word to see it in English. Use the 🇬🇧 button at the top to turn it on or off.", ""],
-      ["⚙️", "Settings", "Top right: change the theme (by default a new colour every day, or pick one of 11 themes incl. dark, Midnat and Høj kontrast), text size and a reading-friendly font, and find help, feedback and more. The ☕ Støt button next to it opens Ko-fi.", ""],
+      ["⚙️", "Settings", "Top right: change the theme (the colour changes automatically every day; a colour you pick lasts for the day, while Mørk, Midnat and Høj kontrast stay until you change them), text size and a reading-friendly font, and find help, feedback and more. The ☕ Støt button next to it opens Ko-fi.", ""],
       ["🌐", "English interface", "Settings ⚙️ → Sprog / Language → English shows menus, buttons and explanations in English. Exam texts, tasks and model answers always stay in Danish.", ""],
       ["⭐", "XP, streak and badges", "You earn XP for everything you practise. Practise every day to keep your 🔥 streak and unlock badges on the home page.", "#/"],
       ["📱", "Install as an app", "On your phone, use \"Add to Home Screen\" (or the install button on the home page). The app also works offline.", "#/"]
@@ -4082,12 +4082,13 @@
   const DAILY_SKINS = ["nordic", "red", "green", "lavender", "ocean", "sunset", "rose", "paper"];
   const themeDay = () => Math.floor((Date.now() - new Date().getTimezoneOffset() * 60000) / 864e5);
   const todaysSkin = () => DAILY_SKINS[themeDay() % DAILY_SKINS.length];
-  // dk-theme2 holds a theme the user picked. Older versions saved "nordic" on every visit, so only a
-  // different old value counts as a real choice.
+  // The colour changes by itself every day. A colour picked by hand is saved as "red@<day>" and only
+  // lasts that day; Mørk, Midnat and Høj kontrast are comfort/readability choices and stay until changed.
+  const KEEP_THEMES = ["dark", "midnight", "contrast"];
   const curTheme = () => {
     try {
-      const t = localStorage.getItem("dk-theme2"); if (t) return t;
-      const old = localStorage.getItem("dk-theme"); return old && old !== "nordic" ? old : "daily";
+      const [t, d] = (localStorage.getItem("dk-theme3") || "daily").split("@");
+      return d && +d !== themeDay() ? "daily" : t;
     } catch (e) { return "daily"; }
   };
   function applyTheme(t, save) {
@@ -4095,13 +4096,13 @@
     const m = daily ? [todaysSkin(), ""] : THEME_MAP[t] || THEME_MAP.nordic;
     r.setAttribute("data-skin", m[0]);
     if (m[1]) r.setAttribute("data-theme", m[1]); else r.removeAttribute("data-theme");
-    if (save) try { localStorage.setItem("dk-theme2", t); } catch (e) { /* ignore */ }
+    if (save) try { localStorage.setItem("dk-theme3", daily || KEEP_THEMES.includes(t) ? t : `${t}@${themeDay()}`); } catch (e) { /* ignore */ }
     const meta = document.querySelector('meta[name="theme-color"]');
     if (meta) meta.content = (THEMES.find(x => x[0] === (daily ? m[0] : t)) || THEMES[1])[3][m[1] === "dark" ? 0 : 2];
   }
   function themePicker() {
     const cur = curTheme();
-    openEnPop("🎨 Vælg tema", `<p class="small muted" style="margin-top:-4px">Skift farver og udseende. Valget gemmes i denne browser.</p>
+    openEnPop("🎨 Vælg tema", `<p class="small muted" style="margin-top:-4px">Farven skifter automatisk hver dag. Vælger du en farve, gælder den resten af dagen. Mørk, Midnat og Høj kontrast bliver, til du skifter.</p>
       <div class="theme-grid">${THEMES.map(([id, name, desc, c]) => `<button class="theme-opt ${id === cur ? "on" : ""}" data-theme-set="${id}">
         <span class="theme-swatch">${c.map(x => `<i style="background:${x}"></i>`).join("")}</span>
         <b>${esc(name)}</b><span class="small muted">${esc(desc)}</span></button>`).join("")}</div>`, true);
@@ -4113,7 +4114,7 @@
   document.addEventListener("click", e => { if (e.target.closest("[data-theme-pick]")) { e.preventDefault(); themePicker(); } });
   applyTheme(curTheme());
   // A new day while the app stays open: pick up the next daily colour when the user comes back.
-  document.addEventListener("visibilitychange", () => { if (!document.hidden && curTheme() === "daily") applyTheme("daily"); });
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) applyTheme(curTheme()); });
 
   // ---------- 📊 Min fremgang ----------
   function progressPage() {

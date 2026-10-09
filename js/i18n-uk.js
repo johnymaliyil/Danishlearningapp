@@ -996,5 +996,6 @@ PD2.I18N.uk = {
 "Ny farve hver dag": "Новий колір щодня",
 "Standard": "За замовчуванням",
 "skifter automatisk hver dag": "змінюється автоматично щодня",
-"· Ny farve hver dag": "· Новий колір щодня"
+"· Ny farve hver dag": "· Новий колір щодня",
+"Farven skifter automatisk hver dag. Vælger du en farve, gælder den resten af dagen. Mørk, Midnat og Høj kontrast bliver, til du skifter.": "Колір змінюється автоматично щодня. Якщо ти обереш колір, він діятиме до кінця дня. Темна, Північ і Висока контрастність залишаються, доки ти їх не зміниш."
 };

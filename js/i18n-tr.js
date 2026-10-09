@@ -996,5 +996,6 @@ PD2.I18N.tr = {
 "Ny farve hver dag": "Her gün yeni bir renk",
 "Standard": "Varsayılan",
 "skifter automatisk hver dag": "her gün otomatik olarak değişir",
-"· Ny farve hver dag": "· Her gün yeni bir renk"
+"· Ny farve hver dag": "· Her gün yeni bir renk",
+"Farven skifter automatisk hver dag. Vælger du en farve, gælder den resten af dagen. Mørk, Midnat og Høj kontrast bliver, til du skifter.": "Renk her gün otomatik olarak değişir. Bir renk seçersen günün geri kalanında geçerli olur. Koyu, Gece yarısı ve Yüksek kontrast sen değiştirene kadar kalır."
 };

@@ -996,5 +996,6 @@ PD2.I18N.pl = {
 "Ny farve hver dag": "Nowy kolor każdego dnia",
 "Standard": "Domyślny",
 "skifter automatisk hver dag": "zmienia się automatycznie każdego dnia",
-"· Ny farve hver dag": "· Nowy kolor każdego dnia"
+"· Ny farve hver dag": "· Nowy kolor każdego dnia",
+"Farven skifter automatisk hver dag. Vælger du en farve, gælder den resten af dagen. Mørk, Midnat og Høj kontrast bliver, til du skifter.": "Kolor zmienia się automatycznie każdego dnia. Jeśli wybierzesz kolor, zostanie do końca dnia. Ciemny, Północ i Wysoki kontrast zostają, dopóki ich nie zmienisz."
 };

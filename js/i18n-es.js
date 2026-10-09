@@ -996,5 +996,6 @@ PD2.I18N.es = {
 "Ny farve hver dag": "Un color nuevo cada día",
 "Standard": "Predeterminado",
 "skifter automatisk hver dag": "cambia automáticamente cada día",
-"· Ny farve hver dag": "· Un color nuevo cada día"
+"· Ny farve hver dag": "· Un color nuevo cada día",
+"Farven skifter automatisk hver dag. Vælger du en farve, gælder den resten af dagen. Mørk, Midnat og Høj kontrast bliver, til du skifter.": "El color cambia automáticamente cada día. Si eliges un color, se mantiene el resto del día. Oscuro, Medianoche y Alto contraste se quedan hasta que los cambies."
 };
