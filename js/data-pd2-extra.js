@@ -1,6 +1,9 @@
 // More PD2 practice material, written for DanskKlar in the formats of the real exam
-// (May–June 2020 reading set and the oral examiners' booklet). Nothing here is
-// copied from the exam papers; the three 2020 oral topics are used as titles only.
+// (May–June 2020 reading set and the oral examiners' booklet).
+// The three oral topics from maj-juni 2020 (p1 Gæster, p2 Et godt job, p3 At spare penge
+// i hverdagen) now use the real pictures (illustrations by Niels Roland, images/pd2-2020/)
+// and the interview questions, discussion task and input lines from the examiner sheets.
+// Everything else in this file is still DanskKlar-written practice material.
 
 // ---------- Mundtlig delprøve 1: præsentation (ca. 1½ min) + opfølgende interview (ca. 3½ min) ----------
 // Follow-up question types from the examiners' booklet:
@@ -89,70 +92,71 @@ PD2.SPEAKING_MONO = [
 ];
 
 // ---------- Mundtlig delprøve 2: billede + interview (ca. 3 min) og samtale (ca. 4 min) ----------
-// In the exam each candidate gets a photo. Here the photo is an illustrated scene card.
+// In the exam each candidate gets a picture. p1-p3 use the real 2020 pictures; the
+// DanskKlar-written topics (p4 onwards) use an illustrated scene card instead.
 PD2.SPEAKING_PICTURE = [
   {
-    id: "p1", title: "Gæster", real: true,
+    id: "p1", title: "Gæster", real: true, year: 2020,
     pictures: [
-      { scene: "🏠 🎂 ☕ 🍰\n👵 👴 👨‍👩‍👧", words: ["fødselsdag", "kaffe og kage", "bedsteforældre", "stuen", "hyggeligt"] },
-      { scene: "🍕 🥤 🎶\n👫 👬 🛋️", words: ["venner", "fest", "pizza", "musik", "sofaen"] }
+      { img: "images/pd2-2020/gaester-1.jpg", credit: "Illustration: Niels Roland (fra Prøve i Dansk 2)", alt: "En familie har gæster på besøg: to kvinder i køkkenet skærer grøntsager og blander salat med et glas rødvin ved siden af, ude på terrassen griller to mænd, og i haven hopper to børn på en trampolin", words: ["have gæster", "lave salat", "grille", "terrasse", "trampolin"] },
+      { img: "images/pd2-2020/gaester-2.jpg", credit: "Illustration: Niels Roland (fra Prøve i Dansk 2)", alt: "Et par har gæster til middag: kvinden i forklæde står ved komfuret og laver mad i gryder og en pande, manden i jakkesæt bærer en bakke med glas og en karaffel, og i baggrunden står gæsterne pænt klædt på og skåler og griner", words: ["middagsselskab", "servere", "forklæde", "skåle", "fint tøj"] }
     ],
     interview: [
-      "Hvad tror du, personerne på billedet fejrer?",
-      "Hvor tit får du gæster?",
-      "Hvad serverer du, når du får gæster?",
-      "Hvordan er det at være gæst i Danmark sammenlignet med dit hjemland?"
+      "Synes du, gæster skal hjælpe med noget, når de er på besøg? Hvorfor/hvorfor ikke?",
+      "Har du nogle gange gæster på besøg?",
+      "Hvis ja: Hvad laver I så sammen?",
+      "Hvis nej: Hvordan kan det være?"
     ],
     talk: [
-      { who: "partner", say: "Jeg elsker at få gæster, men det kan godt blive dyrt. Hvad gør du for at holde det billigt?" },
-      { who: "partner", say: "Hos mig kommer folk bare forbi uden at ringe først. Hvad synes du om det?" },
-      { who: "mediator", say: "Hvordan er det med gæster i jeres hjemlande? Er der en forskel?" },
-      { who: "partner", say: "Jeg synes, danskerne planlægger alting lang tid i forvejen. Er du enig?" },
-      { who: "mediator", say: "Hvad synes I generelt er vigtigst, når man inviterer gæster?" }
+      { who: "mediator", say: "Er der forskel på at have gæster i Danmark og i andre lande? Tal sammen og prøv at blive enige." },
+      { who: "partner", say: "Jeg synes, værten skal servere en god middag, måske tre retter. I Danmark får man også tit kaffe og kage. Hvad synes du?" },
+      { who: "partner", say: "Hos os tager gæsterne altid en gave med til værten, fx blomster, vin eller chokolade. Gør man også det, hvor du kommer fra?" },
+      { who: "partner", say: "I Danmark skal gæsterne komme præcis til tiden, og man tager skoene af. Er det sådan i dit hjemland?" },
+      { who: "mediator", say: "Er det ok, at gæsterne tager venner eller børn med uden at spørge eller bruger deres mobil ved bordet? Skal de hjælpe med at dække bord eller rydde af?" }
     ],
-    phrases: ["På billedet kan jeg se …", "I forgrunden / i baggrunden …", "Det ser ud som om …", "Hos os er det sådan, at …", "Jeg er enig, fordi …", "Hvad med dig?"]
+    phrases: ["På billedet kan jeg se …", "Det ser ud som om …", "Jeg synes (ikke), gæster skal hjælpe, fordi …", "Når vi har gæster, plejer vi at …", "I Danmark … men i mit hjemland …", "Er du enig?"]
   },
   {
-    id: "p2", title: "Et godt job", real: true,
+    id: "p2", title: "Et godt job", real: true, year: 2020,
     pictures: [
-      { scene: "🏥 👩‍⚕️ 🩺\n🛏️ 🧓 🕗", words: ["sygeplejerske", "hospital", "patient", "nattevagt", "omsorg"] },
-      { scene: "🏢 👨‍💻 💻\n☕ 📊 🪴", words: ["kontor", "computer", "møde", "kolleger", "skrivebord"] }
+      { img: "images/pd2-2020/godt-job-1.jpg", credit: "Illustration: Niels Roland (fra Prøve i Dansk 2)", alt: "En glad ung kvinde er pædagog i en børnehave: hun sidder på gulvet og spiller guitar for en gruppe børn, som klapper og synger; bagved læser en anden pædagog højt for to børn, og nogle børn tegner ved et bord", words: ["pædagog", "børnehave", "spille guitar", "synge", "læse højt"] },
+      { img: "images/pd2-2020/godt-job-2.jpg", credit: "Illustration: Niels Roland (fra Prøve i Dansk 2)", alt: "En smilende pilot i uniform står med en stewardesse øverst på trappen til et fly og byder passagererne velkommen; passagererne går op ad trappen med kufferter og rygsække, og bagved ses lufthavnens kontroltårn", words: ["pilot", "stewardesse", "fly", "passagerer", "lufthavn"] }
     ],
     interview: [
-      "Hvad tror du, personen synes om sit arbejde?",
-      "Hvad arbejder du med nu, eller hvad vil du gerne arbejde med?",
-      "Hvad er vigtigst for dig: en høj løn eller gode kolleger?",
-      "Hvordan finder man et job i Danmark?"
+      "Hvad kan være godt ved at være pædagog?",
+      "Hvad kan være godt ved at være pilot?",
+      "Har du et job, du er glad for? Hvorfor er du (ikke) glad for jobbet?",
+      "Hvis du ikke har et job: Hvad for et job vil du gerne have? Hvorfor?"
     ],
     talk: [
-      { who: "partner", say: "For mig er et godt job et job, hvor jeg kan hjælpe andre mennesker. Hvad er et godt job for dig?" },
-      { who: "partner", say: "Jeg vil hellere have en lav løn og gode kolleger end en høj løn og et dårligt arbejdsmiljø. Hvad med dig?" },
-      { who: "mediator", say: "Er det let eller svært at få et job i Danmark, når man kommer fra et andet land?" },
-      { who: "partner", say: "Jeg tror, sproget er det vigtigste for at få et job. Er du enig?" },
-      { who: "mediator", say: "Hvad synes I generelt, arbejdsgiverne kan gøre for at få gode medarbejdere?" }
+      { who: "mediator", say: "Hvordan kan man få et godt job i Danmark? Tal sammen og prøv at blive enige." },
+      { who: "partner", say: "Jeg tror, man skal få nye kompetencer, fx tage en uddannelse, gå på kursus eller lære mere dansk. Hvad synes du?" },
+      { who: "partner", say: "Man kan også komme i praktik eller spørge på forskellige arbejdspladser, om man kan få arbejde. Er du enig?" },
+      { who: "partner", say: "Det er vigtigt at skrive en god ansøgning og lave et godt CV – og at bruge sociale medier som Facebook og LinkedIn. Hvad tænker du om det?" },
+      { who: "mediator", say: "Hvad med at få et større netværk og lære flere danskere at kende, søge inden for nye brancher eller blive selvstændig?" }
     ],
-    phrases: ["Personen på billedet arbejder som …", "Det ser ud til, at …", "For mig er det vigtigt, at …", "En fordel ved … er …", "Det kommer an på …", "Hvad synes du?"]
+    phrases: ["På billedet kan jeg se …", "Det gode ved at være … er, at …", "Jeg er glad for mit job, fordi …", "Jeg vil gerne være …, fordi …", "Man kan få et godt job ved at …", "Hvad synes du?"]
   },
   {
-    id: "p3", title: "At spare penge i hverdagen", real: true,
+    id: "p3", title: "At spare penge i hverdagen", real: true, year: 2020,
     pictures: [
-      { scene: "🛒 🏷️ 🥕\n🥖 🧾 💰", words: ["supermarked", "tilbud", "indkøbsliste", "kvittering", "billigt"] },
-      { scene: "🚲 ♻️ 👕\n🧥 🏪 💶", words: ["genbrugsbutik", "brugt tøj", "cykel", "genbrug", "pris"] }
+      { img: "images/pd2-2020/spare-penge-1.jpg", credit: "Illustration: Niels Roland (fra Prøve i Dansk 2)", alt: "Folk køber varer på tilbud i et supermarked med skilte, hvor der står ”Fødselsdagstilbud” og ”Tilbud”: en mand har en indkøbsvogn fuld af toiletpapir og vaskemiddel, og en kvinde skubber en vogn med et fjernsyn og mange flasker sodavand", words: ["tilbud", "supermarked", "indkøbsvogn", "købe stort ind", "fødselsdagstilbud"] },
+      { img: "images/pd2-2020/spare-penge-2.jpg", credit: "Illustration: Niels Roland (fra Prøve i Dansk 2)", alt: "Folk køber brugte ting i en genbrugsbutik: en ung kvinde betaler for en gryde ved kassen, en mand kigger på en lampe med et prisskilt, og en kvinde ser på glas ved en reol; der er brugt tøj, møbler, vaser og plader", words: ["genbrugsbutik", "brugte ting", "kasse", "prisskilt", "billigt"] }
     ],
     interview: [
-      "Hvad laver personen på billedet, tror du?",
-      "Hvordan prøver du selv at spare penge?",
-      "Hvad bruger du flest penge på hver måned?",
-      "Køber du nogle gange brugte ting? Hvorfor eller hvorfor ikke?"
+      "Hvad synes du om, at man sparer penge ved at købe varer på tilbud?",
+      "Hvad synes du om, at man sparer penge ved at købe brugte ting?",
+      "Prøver du selv at spare penge i hverdagen?",
+      "Hvis ja: Hvordan? Hvis nej: Hvorfor ikke?"
     ],
     talk: [
-      { who: "partner", say: "Jeg skriver altid en indkøbsliste, så jeg ikke køber for meget. Gør du også det?" },
-      { who: "partner", say: "Jeg køber næsten alt mit tøj i genbrugsbutikker. Hvad synes du om det?" },
-      { who: "mediator", say: "Er det dyrere at leve i Danmark end i jeres hjemlande?" },
-      { who: "partner", say: "Jeg synes, at børn skal lære at spare op, når de er små. Hvad mener du?" },
-      { who: "mediator", say: "Hvad synes I generelt er den bedste måde at spare penge på?" }
+      { who: "mediator", say: "Hvad kan en familie gøre for at spare penge i hverdagen? Tal sammen og prøv at blive enige." },
+      { who: "partner", say: "Man kan spare på transport: gå eller cykle til skole og arbejde, tage bus eller tog i stedet for bil eller køre sammen med andre. Hvad synes du?" },
+      { who: "partner", say: "Man kan også spare på el, vand og varme – slukke lyset, skrue ned for varmen, tørre tøj udenfor og tage korte bade. Er du enig?" },
+      { who: "partner", say: "Jeg køber tøj og ting på udsalg, på nettet, i genbrugsbutikker, på loppemarkeder eller i Den Blå Avis. Hvad tænker du om det?" },
+      { who: "mediator", say: "Hvad med maden? Man kan købe ind på tilbud i billige supermarkeder, tage madpakke med, lave madplan og købe stort ind én gang om ugen eller spise mindre kød." }
     ],
-    phrases: ["På billedet ser jeg …", "Jeg tror, at personen …", "Jeg prøver at …", "Det er dyrt at …", "På den ene side … på den anden side …", "Enig – og desuden …"]
+    phrases: ["På billedet kan jeg se …", "Jeg synes, det er en god idé at …, fordi …", "Jeg prøver selv at spare penge ved at …", "En familie kan spare penge ved at …", "På den ene side … på den anden side …", "Er du enig?"]
   },
   {
     id: "p4", title: "Transport i hverdagen",
