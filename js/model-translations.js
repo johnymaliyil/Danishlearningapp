@@ -2,6 +2,51 @@
 // Each translation has the same paragraphs, in the same order, as the Danish model answer,
 // so the app can show them side by side.
 PD2.MODEL_EN = {
+  w22na: `Restaurant Havblik – highly recommended!
+
+I would like to recommend Restaurant Havblik, which is by the harbour in Aarhus. It is a small, cosy fish restaurant with a beautiful view over the water.
+
+I had dinner at the restaurant with my husband on Saturday evening last week. We had fish soup as a starter, fried cod with potatoes as the main course and ice cream with strawberries for dessert. The best thing about the restaurant is the food. The fish was fresh and delicious, and the portions were big. Three courses cost 345 kr. per person, and I think that is a fair price for such good food.
+
+In addition, the waiters were very nice and helpful. They smiled all the time, and they gave us good advice about the wine.
+
+I would recommend Restaurant Havblik, because you get good food and good service at a reasonable price. Try it yourself – you won't be disappointed!
+
+Kind regards
+Nadia`,
+  w22nb: `Dear Lysbo Housing Association
+
+I am writing to you because I want to complain about my neighbour, who makes a lot of noise.
+
+It concerns my neighbour, Mikkel Jensen, who lives on the 3rd floor right above me at Lysbovej 8. My name is Hassan Ali, and I live on the 2nd floor, right-hand door, in the same stairwell.
+
+The problem is that Mikkel plays very loud music almost every evening, and at the weekend he often has parties until 3 o'clock at night. I can't sleep, and I am tired when I have to go to work.
+
+I have already talked to Mikkel twice and put a note in his letterbox, but he is still noisy.
+
+Therefore I would like to ask you to talk to him and remind him of the house rules.
+
+I hope that you will help me, and I look forward to hearing from you as soon as possible.
+
+Yours sincerely
+Hassan Ali
+Lysbovej 8, 2nd floor, right`,
+  w22nc: `Hi Emma
+
+Thank you for your e-mail. It was lovely to hear from you. I hope you are well. I am fine.
+
+You ask about my new job, and I would like to tell you a little about it.
+
+First of all, I now work as a social and health care helper at a nursing home in Esbjerg. I help the elderly get up in the morning, have a bath and eat. My colleagues are nice, and I am fond of the elderly residents.
+
+In addition, the work is sometimes hard and stressful. There are too few of us, so we are very busy, and there isn't always time to talk to the elderly. I also have to lift a lot, so I often get back pain. And when a colleague is ill, I have to work extra at the weekend.
+
+Finally, I would like to say that I am still happy with the job, because I feel that I make a difference.
+
+I look forward to hearing from you. See you soon!
+
+Best wishes
+Sara`,
   w22ma: `Dear Vedbys Kokkeskole
 
 I am writing to you because I want to complain about the cooking course I attended with you.

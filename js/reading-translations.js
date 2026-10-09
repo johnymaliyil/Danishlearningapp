@@ -5828,5 +5828,301 @@ PD2.READING_EN = {
     ]
    }
   ]
+ },
+ "p22n-1": {
+  "title": "Task 1 – Find the information",
+  "instruction": "Answer the questions (1-6). Find the information in the texts. Answer briefly and precisely. See the example: \"Which beach is accessible for disabled people?\" – Dronningmølle Strand.",
+  "sections": [
+   {
+    "heading": "Beaches in North Zealand",
+    "cards": [
+     {
+      "title": "Dronningmølle Strand",
+      "sub": "Dronningmølle Strandvej, 3120 Dronningmølle",
+      "body": "Dronningmølle Strand is one of the north coast's best and most visited beaches. It is child-friendly and accessible for disabled people at the eastern end and staffed by two lifeguard stations in the season. Natural conditions have formed a lovely wide sandy beach with low dunes, and the water only gets deep slowly. The beach is therefore very child-friendly, often with shallow little lagoons and pools where the little ones can splash about in the warm water, build sandcastles and dig canals – under the watchful eye of their parents, of course! There is a car park at Villingebæk. There is a wheelchair ramp from the coast road all the way down to the water's edge, and there are toilets including a disabled toilet."
+     },
+     {
+      "title": "Hornbæk Strand",
+      "sub": "Hornbæk Strand, 3100 Hornbæk",
+      "body": "Hornbæk is one of the north coast's most popular seaside towns, and that is mainly due to the kilometre-long white sandy beach. Hornbæk Strand is a wide sandy beach with fine-grained sand, good water quality, protective dunes and safe bathing conditions for both children and adults, and the beach is staffed by two lifeguard stations all summer. The shallow, crystal-clear water is especially attractive to families with children, who can also let the children loose on the beach playground. Here they can swing, climb, play captain on their own ship and much more. The playground has recently got a new resident: Luffe the seal, which is made of wood – and just right for climbing on. In July and August there are exciting activities for children every Wednesday. In the middle of the beach you will find Café Sunspot, which is open every day in the summer season and offers ice cream, hot dogs, sandwiches, snacks, water, beer, wine, drinks, coffee to go and much more."
+     },
+     {
+      "title": "Gilleleje Veststrand",
+      "sub": "Feilbergsvej 10, 3250 Gilleleje",
+      "body": "A visit to Gilleleje Veststrand is much more than a trip to the beach. Only 100 m to shopping, delicious restaurants, ice-cream parlours, cafés and the authentic fishing village. Gilleleje Veststrand is a wide sandy beach about 20 m wide and 350 m long. The beach even has the Blue Flag. It guarantees the quality of the bathing water, the environment and the facilities. Let the children play on the nature playground with the loveliest view, or enjoy a meal of fresh fish at one of the town's many restaurants. There is parking close to the beach at the end of Feilbergsvej. During the school summer holidays there are lifeguards on the beach from 10.00 to 18.00. There is a bathing jetty and access to toilets by the beach."
+     },
+     {
+      "title": "Rågeleje Strand",
+      "sub": "Rågeleje Strandvej 91, 3210 Vejby",
+      "body": "When you follow the coast road in North Zealand, it suddenly turns right out to the water. Then you have arrived in Rågeleje. The best-known thing about Rågeleje Strand must be the iconic, striped beach huts. They are private, but nice to walk past and take pictures of when you are on the beach in the summer. Jump into the water on a warm day, or go for a long walk with the wind in your hair in the autumn. In the summer season the ice-cream parlours are open, so you can stroll along the beach promenade with a refreshment. In the high season you can swim safely at Rågeleje Strand, because there are lifeguards on the beach keeping watch. But don't forget that you yourself are responsible for taking good care of yourself, the people you know and the people you don't know."
+     },
+     {
+      "title": "Nødebo Huse Strand",
+      "sub": "Nødebovejen 2, 3390 Hundested",
+      "body": "A quiet, child-friendly beach with fine sand and good steps that give easy access to the beach. Nødebo Huse Strand is on the north coast and stands out from the crowd by being a quiet and not so visited beach in North Zealand. White sand, lovely water, very child-friendly and with the possibility of a slightly more private trip to the beach. The beach is in the summer-house area between Hundested and Liseleje. It is quiet and cosy here. There is good parking and a toilet nearby."
+     },
+     {
+      "title": "Strandbakkerne",
+      "sub": "Strandbakkerne, 3250 Gilleleje",
+      "body": "Strandbakkerne is a sandy beach close to town in beautiful natural surroundings about 1 km east of Gilleleje Harbour. The beach has a lifeguard service in the summer holidays. The shallow water makes the beach child-friendly. Strandbakkerne is in a rather hilly area and is therefore not very accessible for disabled people."
+     }
+    ]
+   },
+   {
+    "heading": "Brunch places in Odense",
+    "cards": [
+     {
+      "title": "Café Vivaldi",
+      "sub": "Vestergade 33",
+      "body": "Just under three weeks ago the enormous Café Vivaldi opened in Vestergade, with room for as many as 400 guests at a time. Here they serve a big, delicious brunch buffet every weekend from 10 to 13.\nThe buffet consists of all the classic brunch dishes such as scrambled eggs, bacon, sausages, skyr with lots of different toppings, tuna mousse, breaded chicken and fruit, and there is also a little something for those with a sweet tooth in the form of cakes and pancakes. You can also choose between lots of different kinds of bread and crispbread."
+     },
+     {
+      "title": "Café Fleuri",
+      "sub": "Nørregade 28",
+      "body": "Seen from the outside, Café Fleuri doesn't make much fuss about itself, but when you step inside you are met by the cosiest interior and an exclusive delicatessen. But the best thing of all has to be their lush courtyard garden, where in the summer you can enjoy your food while you look at the goldfish.\nCafé Fleuri serves plant-based, organic and healthy food. Try especially their lavish brunch plate. There are gluten-free alternatives. Open Wednesday to Saturday from 10 to 18."
+     },
+     {
+      "title": "Nouvelle",
+      "sub": "Pogestræde 31A",
+      "body": "Are you tired of the usual brunch menu? Then perhaps you should pay Nouvelle a visit. Here you get breakfast and lunch from Tuesday to Sunday – and that's it. No evening service or anything – then you will have to go somewhere else.\nNouvelle combines breakfast, lunch and brunch, and they actually do it pretty well. The menu consists of a number of small dishes, so you can put together your own brunch / lunch. There are also a number of larger dishes you can choose if you prefer. The style is mainly French with a Nordic touch. When it comes to drinks, there are different kinds of coffee, juice, soft drinks, beer and wine."
+     },
+     {
+      "title": "Olivia Brasserie",
+      "sub": "Vintapperstræde 37",
+      "body": "Olivia Brasserie – or just 'Olivia' – is located in the cosy Vintapperstræde, which every summer is full of life and good times. The restaurant's authentic interior is reminiscent of the brasseries in the streets of Paris, and here you enjoy your food in informal surroundings while the service-minded staff take care of you.\nAt Olivia you can enjoy a big brunch buffet on Sundays, and on all other days you can choose between two different brunch plates or put together your own from lots of small dishes. That way you are sure to get exactly the brunch you want."
+     },
+     {
+      "title": "Café Biografen",
+      "sub": "Brandts Passage 39-41",
+      "body": "At Café Biografen in the cosy Brandts Passage you can kill two birds with one stone and start the day with a delicious brunch buffet followed by a film at the cinema. The brunch buffet at Café Biografen is served every Saturday from 10 to 14, and it consists of a large selection of different hot and cold dishes – from the more traditional ones to the slightly different, tapas-like dishes."
+     },
+     {
+      "title": "Café Cuckoo’s Nest",
+      "sub": "Vestergade 73",
+      "body": "Café Cuckoo's Nest has recently got new owners, who want to bring the well-known Odense café back to its heyday. But a brunch buffet is still served every Saturday and Sunday from 10 to 14. The buffet consists of scrambled eggs, sausages, bacon, salads, cold cuts, fresh fruit and a huge selection of delicious cakes such as doughnuts, macarons and muffins.\nAfter a one-month trial period, Cuckoo's Nest has decided that from now on they will offer a permanent student discount of 25 per cent."
+     },
+     {
+      "title": "Eydes Gastro Pub",
+      "sub": "Kongensgade 31A",
+      "body": "The Odense favourite Eydes Gastro Pub in Kongensgade – or just 'Eydes', as it is called in Odense – is the very essence of cosiness. Inspired by a classic English pub, with dimmed lighting and small intimate booths, you immediately feel at home. Eydes is known for its delicious and varied brunch buffet, which is served every day of the week from 9 to 14.30. The buffet consists of classic brunch specialities such as eggs, bacon, sausages and warm pancakes. The buffet also offers various lunch dishes such as tuna salad and vol-au-vents. In addition, the selection on the buffet varies from day to day, so you can always taste something new when you come."
+     },
+     {
+      "title": "Marcello’s",
+      "sub": "Kongensgade 10",
+      "body": "About a year and a half ago the cosy café Marcello's opened in Kongensgade in Odense, and it has quickly become known for its good student discount. You get as much as 25 per cent off if you can show a valid student card.\nAt Marcello's you can enjoy a big brunch buffet every Saturday and Sunday from 9.30 to 13 with all the classic brunch dishes such as scrambled eggs, bacon, brunch sausages and yoghurt.\nThe buffet also has a large selection of fresh fruit, beautifully cut, and many different kinds of cake."
+     },
+     {
+      "title": "Restaurant Nordatlanten",
+      "sub": "Nordatlantisk Promenade 1",
+      "body": "Every Saturday and Sunday from 10 to 15, Restaurant Nordatlanten on Nordatlantisk Promenade serves a lavish brunch buffet that certainly lacks nothing. Everything is served as small, delicious dishes, and you can have all the traditional brunch dishes such as eggs, bacon and sausages. But you can also enjoy more luxurious specialities such as duck salad and pâté with pickled golden beetroot as well as homemade Nutella, jam, smoothie and bitters. Restaurant Nordatlanten is part of the North Atlantic House at Odense Harbour. Here you can enjoy your food while you look out over the water. You can also see exhibitions about and from the North Atlantic countries or take a look in the house's shop, which offers design, clothes and jewellery from the North Atlantic countries."
+     },
+     {
+      "title": "Restaurant Under Lindetræet",
+      "sub": "Ramsherred 2",
+      "body": "Every Saturday and Sunday from 10 to 14, Restaurant Under Lindetræet offers brunch in Odense in some of the most beautiful surroundings Odense has to offer. The restaurant has a view of H.C. Andersen's House and is no more than a few minutes' walk from the pedestrian street.\nThe brunch consists of 4 courses made up of all the delights that a brunch meal with the best ingredients from Funen can offer.\nThe experience ranges from yoghurt with muesli to a Funen breakfast table, followed by a warm course and finally rounded off with the season's homemade cake. The restaurant caters for most allergies and other dietary restrictions, as long as the restaurant is informed in advance."
+     },
+     {
+      "title": "Dalle Valle",
+      "sub": "Fisketorvet 2",
+      "body": "At Dalle Valle on Fisketorvet in Odense you can enjoy a big brunch buffet every day of the week from 10 to 16. Throughout February, Dalle Valle in Odense serves the buffet at half price. You probably won't find a much cheaper brunch in Odense.\nThe big brunch and lunch buffet consists of everything from scrambled eggs, bacon and sausages to slightly more lunch-style dishes such as fish, pasta dishes and different kinds of potatoes and salads."
+     },
+     {
+      "title": "Froggys Café",
+      "sub": "Vestergade 68",
+      "body": "Every Saturday, Sunday and on public holidays, Froggys Café serves a brunch buffet full of delicacies from 9.30 to 15.\nThe buffet consists of all the traditional brunch dishes such as scrambled eggs, bacon, sausages, stirred yoghurt with homemade nut muesli, freshly cut fruit, pancakes with maple syrup and of course bread and butter. But you can also taste lots of small, tapas-like dishes."
+     }
+    ]
+   },
+   {
+    "heading": "Playgrounds in Aarhus",
+    "cards": [
+     {
+      "title": "Mindeparkens legeplads",
+      "sub": "Kongevejen",
+      "body": "A little outside the city centre you will find the lovely Mindepark. Surrounded by woods, with a view out over Aarhus Bay and with Marselisborg Palace as its neighbour, it is a true paradise for the whole family. A footbridge winds through the playground, which has climbing frames and swings, slides and play towers. The surface around the play towers and slides is made of soft rubber. Next to the playground there is a large outdoor fitness area, and the big green area is ideal for ball games. There are toilets in the park and a kiosk that sells ice cream and coffee, among other things."
+     },
+     {
+      "title": "Legepladsen Kloden",
+      "sub": "Hack Kampmanns Plads 2",
+      "body": "At Dokk1 you will find the spectacular playground Kloden (The Globe). It is built on the large outdoor deck that surrounds Dokk1 seven metres above the ground, which makes it a completely unique experience for young and old. The playground is called Kloden because the five play areas placed around the building each represent a particular continent. So go on a journey around the world, where play is spiced up with stories and fun facts. Try the tilting ice floes, take a trip to monkey land or climb up into the six-metre-high bear, and enjoy the view on the way down the slide. In designing the playground, emphasis was also placed on giving children with special needs or disabilities the chance to be part of the play. Inside there is a lovely café where you can buy lunch or coffee, among other things, which can be enjoyed at the outdoor tables and benches."
+     },
+     {
+      "title": "Frederiksbjerg Byparks legeplads",
+      "sub": "Læssøesgade",
+      "body": "Between Ankersgade and Læssøesgade you will find the oasis Frederiksbjerg Bypark. The lovely playground offers a huge sandpit where there are always tools for mixing a delicious sand cake. There is also a large play tower with a slide, seesaws and roundabouts. Next to the playground there is a huge climbing frame for both big and small children. While the kids have fun on the playground, mum and dad can go all out at the outdoor fitness area. In the park there are also lovely urban gardens with a free tasting garden that everyone may use, and you may also help yourself to the apples from the garden's many different apple trees. There are plenty of tables and benches where you can enjoy your packed lunch."
+     },
+     {
+      "title": "Børnenes Jord",
+      "sub": "Thunøgade 2A",
+      "body": "In the middle of the cosy Øgade quarter there is a little oasis where children aged 10-17 can get really close to nature. During opening hours there are pedagogues employed at the playground who are in charge of leading the activities. The children can, for example, help look after the place's goats, rabbits, hens and birds. The large nature site with lots of plants and play opportunities is almost just waiting to be taken over by imaginative children who are ready for physical activity. If it rains, there is, among other things, a woodwork shop, billiard tables and a homework room inside. Børnenes Jord is also great at holding regular events for families with children – e.g. Shrovetide, planting days, twist-bread baking and cake baking."
+     },
+     {
+      "title": "N.J. Fjordsgades legeplads",
+      "sub": "N. J. Fjords Gade 2",
+      "body": "Next to Frederiksbjerg Sports Centre on Ingerslevs Boulevard and behind the old N.J. Fjordsgade School you will find a nice but somewhat hidden playground. Here there are bird's-nest swings, balance courses and spinning poles. Next to the playground are the multi-courts, where you can play football. The playground is in surroundings that are perfect for the kids to go full speed on scooters and bikes. In addition, the coffee bar Go' Kaffe is on Ingerslevs Boulevard, which makes the place even more attractive for mum and dad."
+     },
+     {
+      "title": "Skanseparkens legeplads",
+      "sub": "Marselisborg Allé 1",
+      "body": "Not far from Bruuns Galleri is Skanseparken, a large park full of old trees and a lovely playground. Here there are swings, climbing nets and a slide. The big park invites ball games, and the paths around the park are ideal for cycle races. A lovely playground close to the city centre for children of all ages."
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "On which two beaches is there a playground?"
+   },
+   {
+    "q": "Which two brunch places have a brunch buffet every day?"
+   },
+   {
+    "q": "At which brunch place can you only get a brunch buffet on Saturdays?"
+   },
+   {
+    "q": "At which two brunch places can you get a student discount?"
+   },
+   {
+    "q": "Which brunch place has a courtyard garden?"
+   },
+   {
+    "q": "At which playground can the children look after animals?"
+   }
+  ]
+ },
+ "p22n-2": {
+  "title": "Task 2 – Advertisements",
+  "instruction": "Read the advertisements (A-I). One or more words are missing in each advertisement. Find the advertisement that matches the words on the list (7-12). There are two advertisements you do not need to use. See the example (0).",
+  "sections": [
+   {
+    "heading": "Advertisements",
+    "cards": [
+     {
+      "title": "A – Getting your car ready for its MOT",
+      "sub": "Example",
+      "body": "Free inspection of your car\nincl. a list of necessary repairs.\nBook an appointment now at www.auto-bixen.dk\n■■■■■■"
+     },
+     {
+      "title": "B",
+      "body": "■■■■■■\nStorage units from 1.5 m² to 15 m².\n• Dry and safe storage\n• Video surveillance and alarm in all units\n• Access round the clock\nPrices from 129 kr. a month.\nCentrum-Depot, Brogade 42\nwww.centrum-depot.dk"
+     },
+     {
+      "title": "C",
+      "body": "■■■■■■\nThen sign up for an exciting course on Thursday 24 November from 19 to 22.\nChoose between: Sourdough bread, Crispbread or Cakes for parties.\nPrice: 350 kr. per participant (incl. ingredients).\nMax. 6 participants per class.\nMadskolen.dk"
+     },
+     {
+      "title": "D",
+      "body": "■■■■■■\nRent one of our cosy rooms for your event. There is room for dinner for up to 60 people. Access to a kitchen with 4 large fridges, an industrial cooker and a dishwasher.\nPossibility of renting a sound system.\nBook in good time at:\nwww.lokale-lokaler.dk"
+     },
+     {
+      "title": "E",
+      "body": "■■■■■■\nLearn to sew a party dress\nPlace: Sisby Skole\nTime: Saturday 26/11 + Sunday 27/11 from 9 to 16\nPrice: 625 kr. (incl. sandwiches both days)\nTeacher: Beate Sølvholm\nBring fabric and other materials for your dress.\nSign up with Beate on tel. 66 80 43 21"
+     },
+     {
+      "title": "F – We bake for everyday and for parties",
+      "body": "Fresh morning bread, rye bread and delicious cakes.\nNew: No more queuing and waiting! Order and pay online, and your order will be ready in the shop when you arrive.\n■■■■■■\nGodt Brød, Bredgade 34\nwww.godt-broed.dk"
+     },
+     {
+      "title": "G – Buy your groceries online",
+      "body": "New online supermarket with a large selection of organic products.\n■■■■■■\nWe deliver goods to your door every day of the week. At weekends, though, only between 10 and 12.\nOrder your goods quickly and easily via our website:\nSuper-online.dk"
+     },
+     {
+      "title": "H – Midtbyens Renseri (dry cleaner's)",
+      "body": "Is there red wine on your shirt or gravy on your party dress?\n■■■■■■\nWe collect the clothes from your home and guarantee delivery back to you within max. 48 hours.\nwww.mb-rens.dk"
+     },
+     {
+      "title": "I – Second-hand quality clothes for women wanted",
+      "body": "Clear out your wardrobe, and come by and get a good offer for the clothes you no longer use. Good prices paid.\n■■■■■■\nThe clothes must be clean and in good condition.\nLuksusgenbrug, Adelgade 3"
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "Which advertisement are the words missing from?",
+    "items": [
+     "Mechanic Svend Ibsen.",
+     "For example, you get at least 100 kr. for a party dress.",
+     "New weekend course.",
+     "NB: We do not deliver goods.",
+     "Would you like to get better at baking?",
+     "Rent extra space for your things.",
+     "Hold the party at our place."
+    ]
+   }
+  ]
+ },
+ "p22n-3": {
+  "title": "Task 3 – Thomas and Lea's new hobby",
+  "instruction": "Read the text. Eight words are missing in the text (13-20). Choose the missing words. There are five words you do not need to use. See the example (0).",
+  "text": "Thomas and Lea are married, and they both work full time. They have 3 small children and a busy everyday life, so they [[0]] do anything other than work, do housework and look after the children.\n\nThomas and Lea almost never have any time when the two of them are alone together, like before they had children, and they are sad about that. They miss doing something fun [[13]] their children, so they agree that they will find a hobby they can share. One evening Lea watches a dance programme on TV. She suggests to Thomas that they start dancing at a dance school, [[14]] she thinks it would be lovely to learn to dance. But Thomas doesn't think it's a good idea, because he has [[15]] been bad at dancing, and he doesn't feel like learning it now. But Lea would really like to try going dancing with Thomas, so he promises to come along to a trial lesson at the dance school, even though he is a little afraid that it will be [[16]] for him, because he can't dance.\n\nLea asks her parents if they will look after the children while she and Thomas are dancing. They live just nearby, and they almost [[17]] say no when she asks them for help looking after the children. Luckily they don't this time either.\n\nThomas is [[18]] when he and Lea arrive at the dance school, because he is unsure and mostly feels like going home again. But to his great surprise he actually thinks it is [[19]] to dance, and it doesn't matter so much that he isn't good at it, because he is having a nice time with Lea. And when the dance lesson [[20]], he is in a much better mood than when he arrived, because he thinks it has been a really good lesson. So Thomas and Lea agree that they have now found their new hobby.",
+  "questions": [
+   {}
+  ]
+ },
+ "p22n-4": {
+  "title": "Task 4 – Sahil's allotment garden",
+  "instruction": "Read the text. One sentence is missing in each section. Find the sentence (A-H) that fits in each section (21-25). There are two sentences you do not need to use. See the example (0).",
+  "text": "Sahil is 32 years old and comes from India. On weekdays he works in a Danish company, and in his free time he is often in his allotment garden.\n\n**0.** Sahil came to Denmark three years ago, because he got a job as an engineer in a large Danish company, and he quickly came to like his colleagues and the exciting tasks. [[0]]. But he doesn't any more. Because two years ago Sahil bought an allotment garden with a small house. So now he spends many hours relaxing in his allotment garden when he is not at work.\n\n**21.** The garden Sahil has bought is in an allotment association with 86 allotment gardens, and there are small houses in all the gardens. Sahil's garden is quite big, about 400 m², so there is plenty of room. The house in his garden is only 10 m², and it is one of the smallest in the association. [[21]]. You see, he only goes into the house if he is going to eat or it starts to rain. Because it is the garden that interests him most, so he doesn't need a bigger house.\n\n**22.** Sahil likes cooking with many different vegetables that he knows from India, but they are sometimes hard to get hold of in Denmark. So Sahil has tried growing different Indian vegetables in his garden. [[22]]. Not all Indian vegetables can grow in Denmark, so Sahil has been lucky with the ones he has planted. Now he can fetch most of the vegetables he needs when he cooks from his own garden.\n\n**23.** In fact, Sahil gets many more vegetables in his garden than he can manage to use himself. It is important to him that the vegetables get eaten, so that he doesn't have to throw them out, and he would also like others besides himself to enjoy them. [[23]]. Because Sahil often takes a bag of vegetables to work, which he hands out to the other employees in the company. And they think it is fantastic to get fresh vegetables to take home completely free.\n\n**24.** In the allotment association people are very open and like to talk to Sahil. But Sahil doesn't speak Danish very well, so they often speak English to him, because they think that is easiest. [[24]]. Because Sahil is really good at English, but he would like to get better at speaking Danish. He just doesn't like asking people to speak Danish with him. So he doesn't say anything about it, even though he is tired of them speaking English to him.\n\n**25.** From October to March there isn't much to do in the garden. Sahil thinks it is boring to be at home in the flat, so every winter he joins a fitness centre. [[25]]. You see, he thinks it is nice to get exercise and meet some people, and he can do that at the fitness centre. But of course he looks forward to spring coming, when he can get out into his garden again.",
+  "questions": [
+   {}
+  ]
+ },
+ "p22n-5": {
+  "title": "Task 5 – Interview with Alex",
+  "instruction": "Read the interview. Find the section (A-H) that matches each of the five questions (26-30). There are two sections you do not need to use. See the example (0).",
+  "sections": [
+   {
+    "heading": "Interview with Alex – car dealer",
+    "cards": [
+     {
+      "title": "A",
+      "sub": "Example",
+      "body": "My father has had a car business for many years, and cars have always been part of my life. I am a trained mechanic, but a couple of years ago my father asked if I wanted to be co-owner of the business. I said yes to that, because I think it is exciting to sell cars."
+     },
+     {
+      "title": "B",
+      "body": "It varies a bit. Some days, for example, I spend most of my time selling cars and keeping up with what is happening on the car market and reading about the newest models online. Other days the financial side takes up most of my time. And I actually also spend many hours making adverts for our business."
+     },
+     {
+      "title": "C",
+      "body": "No, not really. I do have some long working days sometimes, but that's how it is when you have your own company. And when you like what you do, it doesn't matter so much. My father feels the same way. He also loves selling cars and often works much more than 37 hours a week."
+     },
+     {
+      "title": "D",
+      "body": "It's that the number of cars we sell changes so much. Some months we sell a lot of cars and earn well. But the periods when we don't sell so many cars are hard for me, and I get nervous and stressed. My father takes it more calmly, but then he has been in the business for many years."
+     },
+     {
+      "title": "E",
+      "body": "The most important thing is that you listen to your customers. If you just try to get them to buy a car that you yourself like, it doesn't work. And you should never try to persuade a customer to buy. Many customers get annoyed if they feel that you are pressuring them, and then they don't buy anything."
+     },
+     {
+      "title": "F",
+      "body": "It's a good idea to start by thinking about whether it should be an electric car or a petrol car, what you will use the car for, and how many kilometres you will drive a day. But there are many other things that are also important. So the best thing you can do is to have a good talk with a car dealer."
+     },
+     {
+      "title": "G",
+      "body": "Yes, mostly. But it can be annoying that we are so alike. For example, we both like to be in charge, and that's why we sometimes get cross with each other. But luckily we always make up again quickly, and then we find a solution to the problem."
+     },
+     {
+      "title": "H",
+      "body": "Finding the right car for a customer, even though it can also be difficult sometimes. It has to be a car that the customer likes and that the customer can afford. But it is clearly the part of the job I find most exciting. I never get tired of satisfied customers."
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "Which section answers the question?",
+    "items": [
+     "Why did you become a car dealer?",
+     "Do you like working with your father?",
+     "What is the best thing about your job?",
+     "What is the worst thing about your job?",
+     "Do you think it is hard being self-employed?",
+     "How do you become a good car salesman?"
+    ]
+   }
+  ]
  }
 };
