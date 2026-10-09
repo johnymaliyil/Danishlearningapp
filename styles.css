@@ -935,7 +935,7 @@ a.help-item:hover { border-color: var(--read); }
   animation: luck-pop .7s cubic-bezier(.2, 1.6, .4, 1) both; }
 .luck-clover { font-size: 52px; line-height: 1; display: inline-block; animation: luck-spin 1.4s ease-out .2s both; }
 .luck-title { font-size: clamp(28px, 7vw, 42px); font-weight: 900; color: var(--accent); margin-top: 6px; letter-spacing: .5px; }
-.luck-sub { font-size: 17px; font-weight: 700; color: var(--muted); margin-top: 2px; animation: luck-rise .6s ease-out .45s both; }
+.luck-sub { max-width: 340px; margin-left: auto; margin-right: auto; font-size: 17px; font-weight: 700; color: var(--muted); margin-top: 2px; animation: luck-rise .6s ease-out .45s both; }
 .luck-bit { position: absolute; left: 50%; top: 50%; font-size: 26px; opacity: 0;
   animation: luck-burst 1.8s ease-out calc(.15s + var(--i) * .06s) both; }
 @keyframes luck-pop { 0% { transform: scale(.3) rotate(-8deg); opacity: 0; } 100% { transform: none; opacity: 1; } }

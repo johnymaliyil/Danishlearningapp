@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "67"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "68"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -4418,18 +4418,38 @@
   // 🍀 A short animated "Held og lykke!" greeting, once per visit (browser tab session).
   // It never blocks clicks, fades out by itself and can be tapped away.
   function luckSplash() {
-    try { if (sessionStorage.getItem("dk-luck")) return; sessionStorage.setItem("dk-luck", "1"); } catch (e) { /* show anyway */ }
+    if (onceThisVisit("dk-luck")) return;
     const subs = ["Du kan godt!", "Øvelse gør mester.", "Et skridt ad gangen – du klarer det!", "Hver dag lidt bedre.", "Tro på dig selv!"];
-    const sub = subs[Math.floor(Math.random() * subs.length)];
-    const bits = ["🍀", "⭐", "🇩🇰", "✨", "🍀", "💪", "⭐", "✨"];
+    splash("🍀", "Held og lykke!", subs[Math.floor(Math.random() * subs.length)], ["🍀", "⭐", "🇩🇰", "✨", "🍀", "💪", "⭐", "✨"], 3200);
+  }
+
+  // 🙏 "Tak for i dag!" when someone is about to leave. Browsers do not let a page show its own
+  // message while a tab closes, so on computers we show it when the mouse heads for the tab bar or
+  // the close button (after at least 15 seconds on the site, once per visit). Not shown on phones.
+  const arrived = Date.now();
+  if (window.matchMedia && matchMedia("(hover: hover) and (pointer: fine)").matches) {
+    document.addEventListener("mouseout", e => {
+      if (e.relatedTarget || e.clientY > 0 || Date.now() - arrived < 15000 || document.querySelector(".luck")) return;
+      if (onceThisVisit("dk-bye")) return;
+      const xp = S.xpDay && S.xpDay.date === today() ? S.xpDay.xp : 0;
+      splash("🙏", "Tak for i dag!", xp > 0 ? `Du har fået ${xp} XP i dag – flot arbejde! Vi ses snart igen 👋` : "Tak fordi du øver dansk med DanskKlar. Vi ses snart igen 👋",
+        ["💙", "⭐", "🇩🇰", "✨", "👋", "💙", "⭐", "✨"], 5000);
+    });
+  }
+
+  function onceThisVisit(key) {
+    try { if (sessionStorage.getItem(key)) return true; sessionStorage.setItem(key, "1"); } catch (e) { /* show anyway */ }
+    return false;
+  }
+  function splash(icon, title, sub, bits, ms) {
     const el = document.createElement("div");
     el.className = "luck no-tr"; el.setAttribute("role", "status"); el.setAttribute("lang", "da");
-    el.innerHTML = `<div class="luck-card"><div class="luck-clover" aria-hidden="true">🍀</div>
-        <div class="luck-title">Held og lykke!</div><div class="luck-sub">${esc(sub)}</div></div>
+    el.innerHTML = `<div class="luck-card"><div class="luck-clover" aria-hidden="true">${icon}</div>
+        <div class="luck-title">${esc(title)}</div><div class="luck-sub">${esc(sub)}</div></div>
       ${bits.map((b, i) => `<span class="luck-bit" aria-hidden="true" style="--i:${i};--x:${Math.round((i - 3.5) * 13)}vw">${b}</span>`).join("")}`;
     document.body.appendChild(el);
     const bye = () => { el.classList.add("out"); setTimeout(() => el.remove(), 600); };
     el.querySelector(".luck-card").addEventListener("click", bye);
-    setTimeout(bye, 3200);
+    setTimeout(bye, ms);
   }
 })();
