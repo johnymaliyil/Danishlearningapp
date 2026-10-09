@@ -1,6 +1,13 @@
 // English translations of the writing tasks (situation + points), shown in a pop-up.
 window.PD2 = window.PD2 || {};
 PD2.TASK_EN = {
+
+  w21na: { s: "Your 8-year-old son has to change schools because you are moving. You and your son have both been happy with his class teacher, whose name is Mette. So you will write a thank-you letter to her. Write the thank-you letter to your son's teacher Mette. You must begin and end the thank-you letter in a suitable way. (At the exam you choose task A or B.)",
+    p: ["Tell her where you are moving to, and why you are moving", "Thank Mette for her good work", "Tell her why you and your son have been happy with her", "Tell her how your son will keep in touch with his old classmates"] },
+  w21nb: { s: "You would like to rent out your flat for a year, because you will not be using it yourself. You will write a post on Facebook. Write the post. You must begin and end the post in a suitable way. (At the exam you choose task A or B.)",
+    p: ["Why you would like to rent out your flat for a year", "A little about the flat and the area it is in", "A little about who you would like to rent your flat out to (e.g. number of people, gender, age)", "How much the rent is per month"] },
+  w21nc: { s: "You have received an e-mail from your friend Vera. Among other things she writes: “… I've heard that you have started a work placement in a clothes shop. Write and tell me why you have started a work placement, and what you think of it…” Write a reply to Vera and tell her why you have started a work placement, and what you think of it. You must write at least 100 words.",
+    p: ["Tell her why you have started a work placement", "Tell her where your placement is, and what you do", "Tell her what you think of the placement", "Tell her what you would like to do when the placement is over"] },
   w21ma: { s: "You would like to invite your friends out to a restaurant. You will write an invitation. Write the invitation. You must begin and end the invitation in a suitable way. (At the exam you choose task A or B.)",
     p: ["Why you would like to invite your friends out to a restaurant", "Where and when you will meet (place, date and time)", "A little about the restaurant and the food you are going to have", "What you are going to do after you have eaten"] },
   w21mb: { s: "You take the bus to work every day. Unfortunately there are problems with the bus driver. So you will write to the bus company Citybus and complain about the driver. Write the complaint to Citybus. You must begin and end the complaint in a suitable way. (At the exam you choose task A or B.)",

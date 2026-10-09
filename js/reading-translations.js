@@ -6426,5 +6426,302 @@ PD2.READING_EN = {
     ]
    }
   ]
+ },
+ "p21n-1": {
+  "title": "Task 1 – Find the information",
+  "instruction": "Answer the questions (1-6). Find the information in the texts. Answer briefly and precisely. See the example: \"Which farm shop sells ice cream?\" – ØkoLaden.",
+  "sections": [
+   {
+    "heading": "Organic farm shops – Central Jutland",
+    "cards": [
+     {
+      "title": "Ausumgaard",
+      "sub": "Kristian, Maria and Kirsten Lundgaard-Karlshøj · Holstebrovej 101, 7560 Hjerm · Tel. 97 46 44 11",
+      "body": "Farm shop selling, among other things, meat from the Ausumgaard pig and beef from the Vesterhavsoksen (North Sea ox). Both the Ausumgaard pig and the Vesterhavsoksen are recommended by Dyrenes Beskyttelse (the Danish animal welfare society), which is a guarantee of good animal welfare. The farm shop also has a small selection of local groceries, e.g. local honey from Ausumgaard, jams and pickled beetroot.\nThe shop is self-service and is open almost every day from 8 to 22 all year round. You can pay with Dankort, MobilePay or the exact money in the shop."
+     },
+     {
+      "title": "Sevel Øko",
+      "sub": "Linda Andersen and Kurt Lauersen · Skovhusvej 4, Sevel, 7830 Vinderup · Tel. 30 22 68 98",
+      "body": "Farm shop with a wide selection of organic products, e.g. pork and hung (dry-aged) beef from our own production. In addition, cheeses from Thise dairy, coffee beans, herbal tea, chocolate, crisps, groceries, soft drinks, beer, wine and boiled sweets are sold, as well as handmade soap, horn products and other crafts by local artists.\nThe shop is open by appointment, and you are also welcome to just drop by."
+     },
+     {
+      "title": "Øster Dalsgaard",
+      "sub": "Hans and Lisbeth Ladefoged · Stårupvej 24, Dommerby, 7840 Højslev · Tel. 97 53 63 38",
+      "body": "Farm shop selling organic beef, lamb and pork as well as eggs from our own hens. All meat is slaughtered at Sevel Slaughterhouse and finely processed at the Gl. Amstrup butcher in Struer – both approved for processing organic products. In addition, organic beer, wine, soft drinks, spices, coffee, tea, chocolate, olive oil, pasta and children's clothes are sold.\nYou can call for information about opening hours."
+     },
+     {
+      "title": "Lindbjerggård",
+      "sub": "Bente and Espen Nielsen · Hulen 16, Lindbjerg, 8930 Randers · Tel. 86 44 22 82 or 61 78 22 82",
+      "body": "Farm shop selling organic beef, pork, lamb and chickens. Mulard ducks as well as geese and strawberries in summer are also sold. Slaughtered animals are sold whole, as halves or as quarters, and various cuts are sold, such as roast pork, roast beef and steaks, as well as sausage, mince, liver pâté etc.\nOpening hours are Saturday 9-13 or by appointment."
+     },
+     {
+      "title": "ØkoLaden",
+      "sub": "Britta and Søren Pedersen · Nørbæk 15, Højmark, 6950 Ringkøbing · Tel. 97 34 33 41 or 25 36 15 51",
+      "body": "Farm shop with a large selection of home-grown vegetables, beef from our own Jersey steers and many other organic and biodynamic products, e.g. organic cheeses and dairy products, mainly from Thise Dairy. There is also a wide range of flour and oil from e.g. Nyborggaard, ice cream from Skarø, Søbogaard's juices and jams, chickens from Frank Boddum and eggs from Økogårdene. There are over 1400 organic products in the shop.\nNormal opening hours are Tuesday to Thursday 14-17.30, Friday 10-17.30 and Saturday 10-14."
+     },
+     {
+      "title": "Viktualia",
+      "sub": "Anette Feldtmann · Borgergade 20, 8450 Hammel · Tel. 26 84 11 30",
+      "body": "Farm shop selling organic salami sausages, barbecue sausages, cuts and mince of veal and beef from our own animals, organic poultry from Gothenborg and organic meat from free-range pigs. Flour, bread, tea, coffee and beer from Herslev Bryghus are also sold. In season, jams, syrup and vinegars made from fruit and berries from our own garden are sold, as well as tomatoes, chilli, cucumbers, courgettes and lettuce. We also sell seeds and plants for the greenhouse and the garden.\nOpening hours: Every Friday 11-17 and Saturday 9-13."
+     }
+    ],
+    "source": "Source: gaardbutiklisten.dk, ausumgaard.dk/gaardbutik, www.hulen16.dk, www.seveloeko.dk, www.okoladen.dk, www.ditlandkoeb.dk/oster-dalsgaard-okologi, www.viktualia.dk (30.01.2020, extract, edited)"
+   },
+   {
+    "heading": "Jobs in hotels, restaurants and kitchens",
+    "cards": [
+     {
+      "title": "Job: Canteen assistant at a school",
+      "sub": "Den Kreative Skole",
+      "body": "For our school's canteen we are looking for a canteen assistant who is passionate about making healthy, good food. We are a professionally working team of three employees, and we value a good mood and good teamwork skills.\nWe expect that you:\n• can work independently and show initiative\n• are service-minded and flexible\nYour tasks include: preparing vegetables, making sandwiches, working at the till and restocking.\nWorking hours: 7.00-13.00 every weekday."
+     },
+     {
+      "title": "Job: Chef at a restaurant",
+      "sub": "Restaurant Nomi",
+      "body": "Temporary replacement for a full-time position wanted, as our skilled chef is going on parental leave. You will be part of our fantastic kitchen team at our lively restaurant in the town centre. The work consists of preparing Danish hot dishes à la carte, open sandwiches and a buffet. You must be able to work independently, and at times there will be very busy periods.\nWe expect you to be at least 25 years old and a trained chef. Experience from a similar position is an advantage, but not a requirement.\nChanging working hours – you must expect a fair amount of evening and weekend work."
+     },
+     {
+      "title": "Job: Nutrition assistant",
+      "sub": "Ældrecaféen (the café for the elderly)",
+      "body": "For our café for the elderly we are looking as soon as possible for a nutrition assistant with experience from a similar job.\nYour tasks will be:\n• shopping\n• making open sandwiches\n• making hot food (once a week)\n• making food for special events\nYou have a good sense of order, can work independently and have a driving licence. It is an advantage if you also have your own car, but it is not a condition.\nWorking hours: 25 hours a week with changing working hours (between 10.00 and 19.00)."
+     },
+     {
+      "title": "Job: Trained chef",
+      "sub": "Tivoli",
+      "body": "Would you like to make dishes from scratch together with our skilled chefs? Then you might be our next chef. Your tasks are preparing and cooking hot and cold dishes of high quality.\nYou are:\n• a trained chef\n• flexible, responsible and independent\n• robust and like being busy\nYou can work every evening and every other weekend from 1/5 to 15/9.\nLook forward to an exciting workplace with lots of positive energy and good team spirit."
+     },
+     {
+      "title": "Job: Dishwasher and kitchen assistant",
+      "sub": "KLG Group Denmark A/S",
+      "body": "Can you say yes to drive and a good mood? Are you the type who thrives when things move fast? And are you also service-minded and interested in food? Then you might be the new dishwasher and kitchen assistant we are looking for for our staff canteen.\nEvery day we make food for about 230-300 people. The food is home-made, and we focus on variety, organic food and health.\nYour main tasks will be washing up, cleaning kitchen sections, tidying the canteen, making sandwiches and preparing the salad bar.\nPermanent part-time position, 30 hours a week with working hours from 8.30 to 14.30 Monday to Friday."
+     },
+     {
+      "title": "Job: Kitchen assistant at a care centre",
+      "sub": "Plejecenter Norahus (Norahus care centre)",
+      "body": "We are looking for a kitchen assistant for permanent weekend shifts at Norahus care centre.\nYou will help create the very best meals for our residents, and you will help with serving, tidying up, washing up and cleaning.\nWe are looking for you who\n• are committed, flexible, a good listener and good at dialogue\n• have a sense of humour and are good at working with others\n• are responsible and reliable about attendance\nWorking hours: every weekend (Saturday and Sunday) from 11.00 to 18.30. Experience from a similar position will be an advantage, but is not a requirement. We expect you to have good Danish language skills."
+     },
+     {
+      "title": "Job: Kitchen assistant",
+      "sub": "Bowling centre",
+      "body": "We are looking for a flexible and independent colleague for a newly opened bowling centre.\nYour main tasks are:\n• Arranging warm dishes\n• Serving\n• Serving customers\nThe job requires you to have lots of energy and a good mood. You must be able to speak and understand Danish.\nWe offer you an exciting permanent full-time position where you will be part of a dedicated and professional team. Flexible working hours, but you must expect a fair amount of evening and weekend work."
+     },
+     {
+      "title": "Job: Chef at a hotel",
+      "sub": "Hotel Stjernen",
+      "body": "At Hotel Stjernen your most important task is to give our guests a food experience through passion, quality, skill and finesse. Here you will work with the best ingredients and experience how quality and the joy of food go hand in hand.\nAbout you:\n• You have a great passion for cooking\n• You are a real team player with a positive mind\nIt is a requirement that you are a trained chef.\nWe can offer a permanent full-time position with changing working hours and influence on the rota."
+     },
+     {
+      "title": "Job: All-rounder for a centre for the elderly",
+      "sub": "City of Copenhagen",
+      "body": "Would you like to help make sure that our elderly residents at Nybo Centre for the Elderly have a lovely evening focusing on a cosy meal? Then this part-time position might be something for you.\nYou start at 13.30 every weekday and begin with practical tasks such as tidying up and washing up as well as making coffee. Later it is time to lay the table for dinner and serve our residents.\nLight shopping may occur, so a driving licence is an advantage but not a requirement.\nAfter tidying up and washing up, your shift ends at 19.00."
+     },
+     {
+      "title": "Job: Kitchen staff for Toftkroen",
+      "sub": "Restaurant Toftkroen",
+      "body": "We are busy at Toftkroen and need extra help in our kitchen. We are looking for staff who are up for an average of 20 hours of work a week. The working hours will mainly be Thursdays, Fridays and Saturdays, and the times will mainly be from 12 to 21.\nThe tasks will be: preparing ingredients, serving, tidying up, washing up and cleaning.\nWe expect you to be good at working with others and to work at a fast pace.\nExperience is not a condition, as we provide the necessary training."
+     },
+     {
+      "title": "Job: Canteen worker",
+      "sub": "IT Consult WWB",
+      "body": "We are a large IT company with our own canteen, and we are looking for a canteen worker who can make healthy food of high quality. Would you like to join our kitchen team and help plan the week's menu?\nYour tasks will mainly be the cold kitchen and catering for meetings. It is a requirement that you can communicate in English, as we are an international workplace.\nIt is also a requirement that you:\n• have taken a hygiene course\n• have experience of working in a kitchen or a canteen\nWorking hours: 8.30-14.00 every weekday."
+     },
+     {
+      "title": "Job: Kitchen manager",
+      "sub": "De Vilde Svaner",
+      "body": "The forest kindergarten De Vilde Svaner (The Wild Swans) has about 50 kindergarten children aged 3-6 every day, who on most days of the week go out to Hareskoven forest.\nVaried and exciting lunches have to be made for our 50 children, so we are looking for a kitchen manager who is interested in children's nutrition and diet, and who can think both of hot dishes that can be eaten at home in the building and of food that can be taken out into the forest and eaten there.\nIt is a requirement that you are a trained dietary adviser.\nWe expect you to be reliable, fond of children and in a good mood.\nYou must have a clean criminal record.\nWorking hours 6.30-13 every day."
+     }
+    ]
+   },
+   {
+    "heading": "Island camps",
+    "cards": [
+     {
+      "title": "Drejø Island Camp",
+      "sub": "When: Weeks 24-34 · Price: Adults 1085,- Young people 805,- Children 630,-",
+      "body": "The theme of Drejø Island Camp is body, mind and spirit. Drejø is about an hour's boat trip from Svendborg. The island has a grocer's, a post office, a café, an inn, a church and a museum. The bathing beach is 50 metres from the camp. The camp has electricity, a big kitchen and common tent, activity tents, a campfire site, a bathhouse with a sauna and sleeping tents. You sleep in shared sleeping tents or in a smaller private tent you bring yourself. In all weeks the food is vegetarian and mainly organic. Everyone is expected to take part in the practical chores."
+     },
+     {
+      "title": "Samsø Island Camp",
+      "sub": "When: Weeks 27-31 · Price: Adults 1085,- Young people 805,- Children 630,-",
+      "body": "Samsø Island Camp is a family camp for children and adults of all ages, and the participants help decide the week's content and activities themselves.\nThe camp is on the north-west side of Samsø in Ballebjerg Bakker. There are lovely beaches (about three km away) and nature areas nearby. The camp has a kitchen tent, a dining tent, a shower trailer with hot water and shared sleeping tents. It is not allowed to bring your own tents, but you must bring your own sleeping bag/duvet and mattress or sleeping mat."
+     },
+     {
+      "title": "Lyø Island Camp",
+      "sub": "When: Weeks 26-33 · Price: Adults 1085,- Young people 805,- Children 630,-",
+      "body": "Lyø is an island camp where music is at the centre. Lyø is in the South Funen Archipelago about 40 minutes' sailing from Fåborg. The camp is on the southernmost part of the island and has direct access to the sea.\nThe camp has a dance tent, a big kitchen tent with all the equipment for cooking and eating, sleeping tents, bathing facilities, a sauna, a campfire site, a sweat lodge etc. You can either sleep in one of the shared sleeping tents or put up your own tent. Everyone is expected to take part in the practical chores such as cooking, shopping, washing up, cleaning etc. Participants are encouraged to bring acoustic instruments (there is no electricity)."
+     },
+     {
+      "title": "Skarø Island Camp",
+      "sub": "When: Weeks 26-31 · Price: Adults 1085,- Young people 805,- Children 630,-",
+      "body": "The themes at Skarø Island Camp vary from week to week, e.g. week 29 is for singles with children, and week 30 is an alcohol-free island camp.\nSkarø is in the South Funen Archipelago, half an hour's sailing from Svendborg. The camp is by the water about 1 km from Skarø town. The camp has a kitchen tent, an activity tent and shared sleeping tents. You can either sleep in one of the camp's sleeping tents, or you can bring your own tent. There are no flush toilets, but a toilet house with compost toilets. There is no electricity either, but gas for cooking, fridges and hot water. As there is no card machine on the island, you must bring cash."
+     },
+     {
+      "title": "Omø Island Camp",
+      "sub": "When: Weeks 27-32 · Price: Adults 1085,- Young people 805,- Children 630,-",
+      "body": "At Omø Island Camp the themes vary from week to week, e.g. week 30 is an Irish week and the theme of week 31 is Food at any time.\nOmø is next to Agersø off Stigsnæs, south-west of Skælskør. The camp is on the island's south-east coast with direct access to the water. In the camp there is, among other things, a 150 m² play and dance tent with a solid floor, a toilet trailer with flush toilets and sleeping tents. You can either sleep in a big shared sleeping tent or in your own small tent. Because of the limited space for tent pitches, you must book a tent pitch in advance."
+     },
+     {
+      "title": "Vejlø Island Camp",
+      "sub": "When: Weeks 27-30 · Price: Adults 1085,- Young people 805,- Children 630,-",
+      "body": "The topics and activities vary from week to week, and there are activity leaders in all the weeks.\nVejlø is a small island in Nakskov Fjord. There is a single farm with a small kiosk on the island, a nature campsite and Vejlø Island Camp, which is close to the beach, where there are sea kayaks, canoes, surfboards etc. The day's practical chores are done together with initiative and cooperation among the camp's participants. At Vejlø Island Camp you sleep in big military tents, and it is not allowed to bring your own tents to the island camp."
+     }
+    ],
+    "source": "Source: oelejr.dk, samsoe-oelejr.dk (02.05.2020, extract, edited)"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Which farm shop sells children's clothes?"
+   },
+   {
+    "q": "In which job do you only work at weekends?"
+   },
+   {
+    "q": "In which job must you be trained as a dietary adviser?"
+   },
+   {
+    "q": "In which job must you have a driving licence?"
+   },
+   {
+    "q": "In which job must you be able to speak English?"
+   },
+   {
+    "q": "At which two island camps is it not allowed to bring your own tent?"
+   }
+  ]
+ },
+ "p21n-2": {
+  "title": "Task 2 – Advertisements",
+  "instruction": "Read the advertisements (A-I). One or more words are missing in each advertisement. Find the advertisement that matches the words on the list (7-12). There are two advertisements you do not need to use. See the example (0).",
+  "sections": [
+   {
+    "heading": "Advertisements",
+    "cards": [
+     {
+      "title": "A",
+      "body": "■■■■■■\nCentrally located on Enghavegade in Aarhus C.\nRoom for up to 50 people.\nPrices from 2,500 kr.\nOption to add e.g. a sound system, a disco ball and cleaning.\nContact Simon Arendt for further info on tel. 86 54 13 09."
+     },
+     {
+      "title": "B",
+      "body": "■■■■■■\nThen drop by our shop and get a free test ride.\nWe are ready with advice and guidance, and together we will find the model that suits you best.\nPrices from 8,995 kr.\nVæltepeter & Co\nTorvet 7"
+     },
+     {
+      "title": "C",
+      "body": "■■■■■■\nThis season offers many new classes, e.g.:\nClass 234: Men and food\nClass 235: Healthy food – easy to make\nClass 236: Make friends with your wok\nPrice for taking part: 495 kr. per person.\nSee all our cooking classes at www.husby-aftenskole.dk"
+     },
+     {
+      "title": "D – Anniversary concert at Vilsby Music School",
+      "body": "We are celebrating our 30th anniversary with a big concert on Sunday 24/11 from 14 to 17.\nSee the programme and book tickets at vilsby-mus.dk\n■■■■■■\nFree admission for everyone under 18.\nVilsby Musikskole"
+     },
+     {
+      "title": "E",
+      "body": "■■■■■■\nCome in and see our large selection of both new and used instruments.\nOffer in week 47: Evergreen bass 2,299 kr.\nLydladen Vestergade 32\nwww.lydladen.dk"
+     },
+     {
+      "title": "F – Find food in the forest",
+      "body": "Experience Rold Forest with a guide on Sunday 26/9. We start at 10 and walk a route of about 5 km. We find edible plants, and you get good advice on how to prepare them.\n■■■■■■\nPrice: 75 kr. per person.\nSign up with Tanja on 53 22 54 79."
+     },
+     {
+      "title": "G",
+      "body": "■■■■■■\nFor example, we can offer\n• Puncture repair 70 kr.\n• Fitting a new inner tube 135 kr.\n• Replacing a chain 150 kr.\nService and a good mood are a matter of course in our workshop.\nPå2hjul • Møllegade 10"
+     },
+     {
+      "title": "H – Cycling holiday on Bornholm",
+      "body": "Take the family on a trip on beautiful Bornholm for 5, 7 or 10 days. You cycle 4-6 hours a day between some of the island's cosiest hotels.\n■■■■■■\nPrices from 2,495 kr. per person incl. accommodation.\nRead more and book your holiday at www.cykeløen.dk"
+     },
+     {
+      "title": "I",
+      "body": "■■■■■■\nDoes your child dream of learning to play an instrument?\nWe teach children and young people aged 5-18 in small and larger groups.\nFurther information about lessons and prices on our website.\nwww.spil-nu.dk"
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "Which advertisement are the words missing from?",
+    "items": [
+     "Party rooms for hire.",
+     "Are you going to buy an e-bike?",
+     "Bicycle repairs.",
+     "The walk lasts about two hours.",
+     "New music shop opens on 22/11.",
+     "It costs 50 kr. for adults.",
+     "The music school in the town centre is starting new classes."
+    ]
+   }
+  ]
+ },
+ "p21n-3": {
+  "title": "Task 3 – Kasper lives cheaply",
+  "instruction": "Read the text. Eight words are missing in the text (13-20). Choose the missing words. There are five words you do not need to use. See the example (0).",
+  "text": "When you are studying in Denmark, you can get about 6,000 kr. a month in SU (student grant). Even though it is [[0]] a lot of money, it is actually enough to live on.\n\nKasper is 20 years old and lives in Aalborg, where he is training to be a marine engineer. Many of his classmates have a part-time job because they would like to earn a bit extra. But Kasper does not, [[13]] he has decided that he would rather concentrate on his studies. So Kasper only has about 6000 kr. a month to live on, but he is completely fine with that, because he actually does not think it is that [[14]] to live cheaply. For example, he does not spend much money on rent and transport, because he rents a room where the rent is [[15]] not very high. And when he has to get around Aalborg, he cycles almost [[16]]. That way he gets both free exercise and free transport.\n\nKasper is also good at saving money on food. He makes most of his food himself, and he always buys the food he needs in the supermarket where the price is [[17]]. Kasper really likes meat, [[18]] he thinks it is too expensive, so he rarely buys it. So he mostly makes dishes with vegetables, and he is really good at it. He actually also thinks it is quite [[19]] to make vegetarian food, but he still sometimes misses eating meat. Luckily his mother knows that, and so she often invites him for a [[20]]. Kasper enjoys that, because when he comes home to her, she always fries a good steak for him.",
+  "questions": [
+   {}
+  ]
+ },
+ "p21n-4": {
+  "title": "Task 4 – A life with a dog",
+  "instruction": "Read the text. One sentence is missing in each section. Find the sentence (A-H) that fits in each section (21-25). There are two sentences you do not need to use. See the example (0).",
+  "text": "Viktor, 29, works as an electrician, and he has a dog that is one year old.\n\n**0.** Half a year ago Viktor got the dog Max, a black labrador who is now one year old. Before, Max lived with one of Viktor's good friends, but the friend could no longer keep Max, and so Viktor offered that Max could live with him. Viktor has never had a dog before, even though he likes dogs. [[0]]. And now he has got Max, and he is happy about that.\n\n**21.** Every morning Viktor gets up early to take Max for a walk before he has to go to work. Then Max has to stay at home all day until Viktor finishes work. [[21]]. Max only starts to get bored or to need to go out for a pee when about eight hours have passed. And that fits perfectly with Viktor's working hours, so it is no problem for Max to be alone while Viktor is at work.\n\n**22.** When Viktor and Max go for a walk, they usually go to a park near where they live. Max loves walking in the park, you see. [[22]]. Because there he almost always meets other dog owners who are also walking their dogs. Then Max plays a bit with the other dogs while Viktor stands talking to the owners. And they both like that.\n\n**23.** Viktor thinks it is important that Max is well trained and, for example, learns to walk nicely on the lead and to come when you call. So he goes to training with Max at a dog school every Saturday morning. And they both think it is fun. [[23]]. Because when they are at training, Max runs around a lot and uses a lot of energy, so when they get home, Max is always very tired.\n\n**24.** A big dog like Max has a lot of fur and sheds quite a lot of hair. If Viktor does not want black dog hair all over his flat, he has to vacuum almost every day. [[24]]. So he has started saving up for an automatic robot vacuum cleaner. One like that costs quite a lot of money, but it will mean a lot to him in everyday life if he does not have to spend so much time cleaning up after Max, and he hates vacuuming.\n\n**25.** It is expensive to have a dog, and Viktor can feel in his finances that he has got Max. On average he spends about 600 kr. a month on dog food, insurance, the vet, dog school and things for Max. [[25]]. Because it means a lot to him that he has a lovely dog that puts him in a good mood every day. So he thinks Max is worth all the money.",
+  "questions": [
+   {}
+  ]
+ },
+ "p21n-5": {
+  "title": "Task 5 – Interview with Rune",
+  "instruction": "Read the interview. Find the section (A-H) that matches each of the five questions (26-30). There are two sections you do not need to use. See the example (0).",
+  "sections": [
+   {
+    "heading": "Interview with Rune – a father on parental leave",
+    "cards": [
+     {
+      "title": "A",
+      "sub": "Example",
+      "body": "Of course I look after Ingrid and play with her, and then I do a lot of housework. After lunch I always take her for a walk in the pram for at least an hour, because then she sleeps so well. Sometimes we also go to the swimming pool. She loves that."
+     },
+     {
+      "title": "B",
+      "body": "Yes, I think so! I am with my daughter for many hours every day, and I really like that. Because then I can see how much new she learns all the time. I did not experience that in the same way at all before I went on parental leave, and it is lovely to follow."
+     },
+     {
+      "title": "C",
+      "body": "Yes, at the moment it is. Ingrid is teething, you see, and she often wakes up at night and cries. And of course it is me who has to get up and get her to sleep again, because Signe has to get up and go to work every morning. So I do not get much sleep, and I do not have very much energy. But it is just a phase."
+     },
+     {
+      "title": "D",
+      "body": "Going on slightly longer trips with her. Of course it can be hard sometimes and has to be well planned in a practical way, because she can suddenly get tired or hungry. But I always think it is great when we get out and experience something."
+     },
+     {
+      "title": "E",
+      "body": "She thinks it is completely fine. As a manager at my workplace she is used to it, because with us it is completely normal that the men take parental leave for a shorter or longer time. So neither she nor my colleagues think there is anything strange about me doing it too."
+     },
+     {
+      "title": "F",
+      "body": "Not any more. But I did at the beginning of my parental leave. I am a teacher at a state school, and I thought a lot about how my pupils were getting on. But I know that I have skilled colleagues who are teaching my classes while I am at home."
+     },
+     {
+      "title": "G",
+      "body": "It varies a bit. Most days I think she finds it lovely to be at work, where she can think about other things than nappies and baby food. But some days it is a bit hard for her, because she misses Ingrid. I can understand that, because it was like that for me too when she was the one at home."
+     },
+     {
+      "title": "H",
+      "body": "Not really. In fact I am surprised at how little I get done. Because while Ingrid is awake, I am with her, and when she sleeps, I tidy up or sleep myself. At the beginning I thought I could manage to do a few repairs on the house and watch some series on Netflix. But I can almost never do that."
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "Which section answers the question?",
+    "items": [
+     "What do you do on a typical day?",
+     "What do you like doing best with Ingrid?",
+     "Do you sometimes miss your work?",
+     "Is it hard to be on parental leave?",
+     "Do you have time for anything other than looking after Ingrid?",
+     "How does your wife feel about her parental leave being over?"
+    ]
+   }
+  ]
  }
 };

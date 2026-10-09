@@ -2,6 +2,54 @@
 // Each translation has the same paragraphs, in the same order, as the Danish model answer,
 // so the app can show them side by side.
 PD2.MODEL_EN = {
+  w21na: `Dear everyone in 2.B – and especially dear Mette
+
+Thank you so much for your good work as Oliver's class teacher. As you know, Oliver has to change schools because we are moving to Odense in December. I have got a new job at the hospital there.
+
+I have learned a lot from you about how I can help my child at school.
+
+I am going to miss you, and so is Oliver. He has been so happy going to school, because you always listened to him and helped him when maths was difficult.
+
+Now I have to pack our things. Oliver would like to keep in touch with his old classmates, so he will write to them on his tablet, and in the summer holidays we will invite his best friends to visit.
+
+Once again, thank you so much for everything. I hope we will see each other soon!
+
+Best wishes
+Fatima and Oliver`,
+  w21nb: `Flat to rent for a year!
+
+Hi everyone
+
+My name is Ahmad, and I am writing because I would like to rent out my flat from 1 February. I have got a job in Norway for a year, so I will not be using it myself.
+
+The flat is 65 m² and has two rooms, a new kitchen and a small balcony. It is on the 3rd floor in a quiet area of Østerbro in Copenhagen. It is not far to the metro, and there is a park and several cafés nearby.
+
+I would like to rent the flat out to one or two adults, e.g. a couple or two students. It does not matter whether you are men or women, but you must not smoke in the flat.
+
+The rent is 8,500 kroner a month.
+
+If you are interested, call or write to me on 22 45 67 89.
+
+Thanks in advance!
+
+Best wishes
+Ahmad`,
+  w21nc: `Hi Vera
+
+Thanks for your e-mail. It was lovely to hear from you. I hope you are well. I am fine.
+
+You ask about my work placement, and I would like to tell you a little about it.
+
+First of all, I have started a work placement because I would like to work in a shop, but I have no experience from Denmark. So my caseworker suggested that I should try an eight-week placement. I am in a clothes shop in the town centre four days a week.
+
+In addition, I can tell you that I am really happy with the placement. I help the customers find the right clothes, and I hang up new clothes. My colleagues are nice, and I am learning lots of new Danish words. It is a bit difficult when the customers speak fast, but it is getting better.
+
+Finally, I would like to say that I hope I can get a permanent job in the shop. My boss says that she is pleased with me.
+
+I look forward to hearing from you. See you soon!
+
+Best wishes
+Amira`,
   w21ma: `Come out to a restaurant!
 
 Hi everyone
