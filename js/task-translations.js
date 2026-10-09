@@ -1,6 +1,12 @@
 // English translations of the writing tasks (situation + points), shown in a pop-up.
 window.PD2 = window.PD2 || {};
 PD2.TASK_EN = {
+  w23ma: { s: "You would like to go travelling, but you don't have anyone to travel with. So you will write a post on Facebook looking for a person you can travel with. Write the post. You must begin and end the post in a suitable way. (At the exam you choose task A or B.)",
+    p: ["A little about yourself", "When you would like to travel", "Where you would like to travel to, and why", "A little about who you would like to travel with (e.g. age, gender, interests)"] },
+  w23mb: { s: "You would like to work as a kitchen assistant in a restaurant. You have seen online that Restaurant Nimo is looking for kitchen assistants. You will write a job application to Restaurant Nimo. Write the job application. You must begin and end the application in a suitable way. (At the exam you choose task A or B.)",
+    p: ["A little about yourself, and what you are like as a person", "What you have done before", "Why you would like to work as a kitchen assistant", "How you can be contacted"] },
+  w23mc: { s: "You have received an e-mail from your friend Viktor. Among other things he writes: “… You wrote that you would like to move because you are not happy with your home. Write and tell me a little about why you are unhappy with your home, and where you want to move to …” Write a reply to Viktor and tell him why you are not happy with your home, and where you would like to move to. You must write at least 100 words.",
+    p: ["Tell him where you live now, and what your home is like", "Explain why you are not happy with your home", "Tell him where you would like to move to", "Tell him why you would like to live there"] },
   "pd1-w1": { s: "You are supposed to play football with your friend Jonas tonight, but you can't come. Write a text message to Jonas.",
     p: ["Say sorry", "Write why you can't come", "Suggest another day"] },
   "pd1-w2": { s: "Your daughter is ill and can't go to school. Write an e-mail to her teacher, Karen.",

@@ -5207,5 +5207,311 @@ PD2.READING_EN = {
     ]
    }
   ]
+ },
+ "p23m-1": {
+  "title": "Task 1 – Find the information",
+  "instruction": "Answer the questions (1-6). Find the information in the texts. Answer briefly and precisely. See the example: \"Which dance school is in Rødovre?\" – Dancelab.dk.",
+  "sections": [
+   {
+    "heading": "Dance schools in the Capital Region",
+    "cards": [
+     {
+      "title": "Akinyis danseskole",
+      "sub": "Østerbro · www.akinyidans.dk",
+      "body": "We have baby rhythmics, rhythmics and play training for families with children, and dance for 10-19-year-olds. Songadans is our very own answer to Zumba and consists of salsa, merengue, cumbia and African dance. At Akinyis danseskole, values such as development, well-being and joy of life are a high priority. We have replaced judgement with community and joy, and you notice progress when you dare to let go of how you look from the outside and instead enjoy moving."
+     },
+     {
+      "title": "Dance Affair",
+      "sub": "Islands Brygge · www.danceaffair.dk",
+      "body": "Our teaching focuses most on salsa and latin lady styling, but we also teach reggaeton, bachata, afro, dancehall and burlesque.\nLearn to move beautifully and sensually, whichever dance style you choose to be taught.\nIt's difficult, but that's why it's fun! Let your inner dancer loose, enjoy the class and step out of your comfort zone."
+     },
+     {
+      "title": "Cphdans",
+      "sub": "Vanløse, Tårnby, Dragør, Hørsholm, Hvidovre og Værløse · www.cphdans.dk",
+      "body": "At Cphdans there is a wide range of dance classes for children, young people and adults. Children can start from the age of 3, where there is great emphasis on dancing to the music the children know from radio and TV. They can choose ballet, Zumba, MGP, show dance, hip hop and many other genres. At Cphdans we dance at all levels, and we have dancers from beginner level to the show team, which takes part in competitions both nationally and internationally. Classes take place at our 6 dance schools in Tårnby, Værløse, Hvidovre, Hørsholm, Vanløse and Dragør. In all our branches you have free parking, and you can have a cosy chat in our café, where there is also wireless internet for those of you who want to make use of the time while the children dance."
+     },
+     {
+      "title": "Global Kidz",
+      "sub": "Nørrebro, Bispebjerg og Amager · www.globalkidz.dk",
+      "body": "Global Kidz offers dance classes for children and young people. Our teachers are dancers from all corners of the world. The teaching is of high quality, with a focus on developing each person's dance potential. The children's creativity, motor skills and musicality are stimulated through play, dance and movement adapted to their age.\nGlobal Kidz has classes in Amager, Bispebjerg and Nørrebro, teaching dancehall, hip hop, afrobeat, afrohouse, breakdance, show teams, competition teams and family classes in world dance, rhythmics, creative dance, African dance and song, and other fun styles. Classes for all ages from 1 year and up."
+     },
+     {
+      "title": "Dancelab.dk",
+      "sub": "Rødovre · www.dancelab.dk",
+      "body": "We are a dance school located at Tæbyvej 9 in Rødovre, in the same premises as Rødovre Fitness Club and right next to Rødovre EventCenter. We teach children from 5 years old pole dance (little spinners) and MGP. In the little spinners classes we focus on the gymnastic side of pole, challenge the children's motor skills and give them better body awareness. In the MGP classes the children learn different choreographies and dance, among other things, to music they know from the Children's MGP.\nIn addition, we specialise in pole dance/pole fitness for adults, where we have some extremely skilled teachers, including the Danish champion and number 2 in the Nordic countries, Nathasja Sztuk."
+     },
+     {
+      "title": "Al-dans",
+      "sub": "Søborg og Kongens Lyngby · www.al-dans.dk",
+      "body": "We are a dance school with lots of offers and challenges for both big and small. There is a fast pace and a cosy atmosphere. We offer a wide range of dance categories, and among our many dance classes it should be possible to find several classes that suit exactly your needs or your child's needs. At Al-dans we dance at all levels, and we have dancers from beginner level to the absolute world elite, who take part in competitions both nationally and internationally. Our students also take part in many different events, including TV programmes, music videos, concerts and dance and fashion shows. The dance school offers classes in the following styles: ballet, breakdance, disco, hip hop, jazz, jitterbug and Vild med dans (Danish 'Strictly Come Dancing')."
+     }
+    ]
+   },
+   {
+    "heading": "Co-housing communities on Zealand",
+    "cards": [
+     {
+      "title": "Ab Allerslev Kloster",
+      "sub": "Munkedammen, 4320 Lejre",
+      "body": "Allerslev Kloster is a co-housing community that has existed for more than 40 years. We are a mixed group of about 10 adults with children.\nWe have a practical and social community in beautiful surroundings. Both the buildings and the garden are old, so there is quite a lot of maintenance.\nWe have two working weekends a year and otherwise one Sunday a month set aside for a house meeting and a working day, in turn.\nAll adults cook the shared meal once every three weeks, which means there are communal dinners three times a week.\nWe each have our own home and share the lovely garden, a large shared kitchen, a laundry room and the old chapel, which we use for parties and events."
+     },
+     {
+      "title": "Andedammen",
+      "sub": "Andedammen, 3460 Birkerød",
+      "body": "The housing cooperative Andedammen consists of 17 homes in a quiet, car-free area with large green spaces. About 40 people live here, aged from 2 to 90+.\nWe have arranged things so that we live in private homes but otherwise have a strong community life.\nOur common house is well used, with communal dinners a couple of times a week, among other things.\nThe community is run democratically, with a lot of delegation to smaller groups with special areas of responsibility. As an adult in Andedammen you are obliged to take part in fixed work tasks. In addition, you are welcome to contribute to the community with the qualities and qualifications you have."
+     },
+     {
+      "title": "Trekronerbo",
+      "sub": "Isafjordvej, 4000 Roskilde",
+      "body": "We are adults, children and, at the last count, 4 dogs, 12 cats and 14 rabbits. Trekronerbo was built in 2002-2003 and consists of 17 semi-detached houses, i.e. 34 owner-occupied homes with individual floor plans, all with small gardens. Together we own a common house, green areas with playgrounds, beehives, cosy corners, a football pitch and access to a lovely lake for swimming.\nMany people in Trekronerbo would say that the heart of the community is the activities in our common house. This is where our three weekly communal dinners are held. The common house is also the setting for a number of events and recurring parties at Christmas, Shrovetide, midsummer, summer, general elections, MGP, major sporting events, beer brewing, food battles etc., plus courses and talks."
+     },
+     {
+      "title": "Sneglebo",
+      "sub": "Sneglebo, 4000 Roskilde",
+      "body": "Sneglebo consists of 20 rented homes of 55-85 m² for adults and children of all ages. Sneglebo is in the western part of Roskilde, and we live close to forest, bog, fjord, fields, a golf course, childcare institutions and schools. It is not far to the shops or to Roskilde centre. The purpose of the community is the social and practical activities:\nWe have communal dinners in our common house 2-3 times a week, where we eat both meat and vegetarian food, and organic if the budget allows. We have shared work days, indoors and outdoors, where we look after our common areas and common house.\nWe celebrate festive occasions such as Midsummer Eve, the Christmas lunch etc. and have other social initiatives. We value residents' democracy highly and hold regular meetings."
+     },
+     {
+      "title": "Buske",
+      "sub": "Raunsbjergvej, 4330 Hvalsø",
+      "body": "We are 8 families with children who live together on a large manor estate on a beautiful 30,000 m² plot with several buildings.\nWe each have our own flat, but we also have a lovely big common house with a kitchen and a lounge. We have communal dinners four days a week and always cook organic food. We have a large kitchen garden and grow many of our vegetables ourselves.\nOur many hens give eggs and meat in OK quantities. We have a shared exercise room, a book club, beekeeping, film nights, a beer club and lots more fun things."
+     },
+     {
+      "title": "Trekronergård",
+      "sub": "Isafjordvej, 4000 Roskilde",
+      "body": "Trekronergård is a small cooperative for adults without children living at home.\nThe red-painted wooden terraced houses stand side by side in a horseshoe shape with a small glass pavilion in the middle of the courtyard.\nAt one end of the rows is the common house, which is used for meals and meetings. We have a communal dinner once a month and enjoy lunch together in the garden room on Saturdays in the summer half of the year.\nWe also have gymnastics one morning a week. And there are plenty of neighbours right outside the door. There are general meetings once a month, and the residents share the gardening."
+     },
+     {
+      "title": "Fælleden",
+      "sub": "Bispehøjen, 4300 Holbæk",
+      "body": "The housing cooperative Fælleden is a well-run co-housing community where 75 residents aged 0 to 80 currently live.\nThere are 30 homes beautifully placed in the landscape on a south-facing slope directly facing the 150-hectare recreational and protected nature area, Fælleden. The association has a large common house of almost 400 m², where there are communal dinners five days a week, from Monday to Friday. The food is good, varied and mainly organic.\nThe common house was renovated and extended in 2006, and there are opportunities for many activities for both children and adults. The common house contains a shared laundry, a guest room, a children's room, a TV room, an activity room with table football, a large well-equipped kitchen where the food is prepared, and 2 dining rooms. Besides the common house, the residents also have a workshop with plenty of space for hobby activities."
+     },
+     {
+      "title": "Gundsølille",
+      "sub": "Store Valbyvej, 4000 Roskilde",
+      "body": "We are a co-housing community of 36 residents, most of whom are children. We are in the former school in the small village of Gundsølille north of Roskilde. The school building is the setting for nine lovely and very different homes, which have been set up in the former classrooms.\nWe have communal dinners once a week, general meetings once a month and a shared work day one Saturday a month.\nWe have lots of common areas. The house has a range of facilities, such as a shared kitchen, a garden room, a gym and a children's room.\nWe have a large garden with apple trees, blackcurrant bushes, a fire pit, a small lake, a trampoline, sandpits, a swing set, free-range hens and the possibility of a kitchen garden. The community is the centre of our house, and there are endless possibilities for children and adults."
+     },
+     {
+      "title": "Stokken",
+      "sub": "Stokrosevej, 4450 Jyderup",
+      "body": "Stokken is a co-housing community in a housing cooperative with 20 shares, located on the outskirts of Jyderup in Holbæk Municipality. Both single people and families with children live here, and the adult residents are currently from their mid-20s to their mid-70s.\nWe have communal dinners in our large common house with its own kitchen six days a week. All the homes are connected by a glass corridor, so you can walk around with dry feet whatever the weather. There is also a workshop, a flower meadow, a playhouse, a fire pit, a shelter, a pétanque court, a shared laundry, a TV room and a guest room, and our terrace also helps to support the community."
+     },
+     {
+      "title": "Åhusene",
+      "sub": "Tønsbergvej, 4000 Roskilde",
+      "body": "We are a well-functioning co-housing community in Trekroner near Roskilde. The community was built in 2005 and consists of adults and children of all ages.\nThe purpose of the Åhusene community is that we, as neighbours, can make each other's everyday lives easier and take an interest in each other.\nThat is why a significant part of everyday life in Åhusene is about the communal dinners, which take place three times a week in the 140 m² common house, which also houses a laundry, an industrial kitchen, a large dining room, a children's room etc.\nThe homes are on one and a half floors and come in two sizes, 112 and 81 m², with twelve large and five small houses."
+     },
+     {
+      "title": "Karise Permatopia",
+      "sub": "Køgevej, 4653 Karise",
+      "body": "Karise Permatopia is a living and working community in South Zealand, where about 150 adults and 85 children live. It is a sustainable, organic and self-sufficient eco-community with a vision of a meaningful everyday life, where the residents create a sustainable life and farm the shared land.\nThe heart of the community is the converted barn, which now works as a dining hall with a large industrial kitchen. In the beautiful hall it is possible to have communal dinners every weekday.\nPermatopia has its own geothermal heating system, which supplies underfloor heating and hot water to all 90 homes. The geothermal system runs on electricity from Permatopia's wind turbine, which also supplies electricity to the shared kitchen, the laundry and the electric cars owned by residents of Permatopia."
+     },
+     {
+      "title": "Glashusene",
+      "sub": "Tønsbergvej, 4000 Roskilde",
+      "body": "Glashusene is a co-housing community from 2008, located in the Trekroner district close to Roskilde. We are a good mix of children and adults of all ages – and quite a few cats, dogs and rabbits.\nWe make it a priority that there is room for both privacy and community in Glashusene. We have therefore created a shared space where we meet around our hobbies and interests and for social events, but we also respect that people sometimes prefer peace and privacy. We have communal dinners three days a week in our common house. The communal dinners are a central part of our community, and this is where we meet in everyday life and get to talk to all our fellow residents.\nAbout every 5th week you have one cooking day, where you are in charge of cooking and washing up in teams of 3 people."
+     }
+    ]
+   },
+   {
+    "heading": "Nyekontakter.dk (new contacts)",
+    "cards": [
+     {
+      "title": "Lasse, 41 år",
+      "body": "I'm looking for new acquaintances, both men and women, as I miss having someone to do things with in my free time. I'm a 41-year-old man, have no children and live in Copenhagen. I love travelling and walking in nature, and I love music and concerts, everything from classical to rock, pop and blues. I like working out, and it would be nice to find someone to train with (I go to Fitness World). I look forward to hearing from you."
+     },
+     {
+      "title": "Alice, 68 år",
+      "body": "I'm a lively pensioner who lives alone in Frederiksberg with my two cats. I have many interests and am never bored, but I miss my two grandchildren, who have just moved abroad with their parents. That's why I'm looking for a family in Frederiksberg who need a stand-in grandparent for young children. I'm happy to come to your home and look after the children when they are ill etc. Write if you are interested."
+     },
+     {
+      "title": "Daniel, 38 år",
+      "body": "I've reached an age where many of my friends are in relationships and/or have children, which limits the chances of having company and coming up with new adventures. So I'm looking for a friend for new experiences. It could be, for example, going out to eat together (preferably plant-based), hiking, kayaking, travelling – yes, there are many possibilities. Write if you live in the Copenhagen area and also want new experiences."
+     },
+     {
+      "title": "Toni, 53 år",
+      "body": "I'm 53 and enjoying life. I live in Østerbro with my youngest daughter, who is 19. I'm looking for women and men of my own age nearby who would like to join a food club, where we meet once a month and eat together. We take turns meeting at each other's homes, each bring a small dish for our shared table, and then we have a nice time for a few hours. I'm thinking we should be about 6-8 people."
+     },
+     {
+      "title": "Kristian, 41 år",
+      "body": "I'm a lively 41-year-old guy, single with no children. I'm from Aalborg but have just moved to the capital because of a new job, so I need to meet new people. I'd like to start a small men's club where we meet in town and have a beer a couple of times a month. We could also watch a football match together, go running or maybe go for a bike ride in the forest. In time we could also meet privately and eat together."
+     },
+     {
+      "title": "Gerd, 49 år",
+      "body": "We are a group of women aged 40-60 who have started a book club in Brønshøj. We meet on Monday evenings about every other month on agreed dates. We meet in each other's homes. We are university graduates, but of course that is not a requirement. We take turns choosing a book – it can be biographies and literature about society, but also fiction. Are you in? We would like a couple of new, lively members. Men are also welcome."
+     },
+     {
+      "title": "Henning, 81 år",
+      "body": "My father is a happy 81-year-old pensioner, formerly an accountant. My mother died 5 years ago, so now he lives alone in Viborg with a 10-year-old cat. He is healthy and mentally sharp, but misses the company of other men and women for walks, card games and pleasant get-togethers with a little good food. If you also lack company in everyday life, write to my father. It would make him very happy."
+     },
+     {
+      "title": "Rikke, 44 år",
+      "body": "I'm a 44-year-old woman with a sweet boyfriend and a 16-year-old son. I live on Amager and train in Strandparken every weekend. I'm looking for someone who would like to run, walk, cycle or swim with me. I'm looking for someone to train with, so that together we can keep our spirits up. Maybe we could start a running club? It doesn't matter whether you're a man or a woman."
+     },
+     {
+      "title": "Inge, 71 år",
+      "body": "I'm a pensioner, single and live in Taastrup. I'd like to start a knitting club. I'd like to meet other creative people about once a month to knit or crochet. I can teach you to crochet and knit, so you can join too if you'd like to learn. We can meet at my place."
+     },
+     {
+      "title": "Marek, 26 år",
+      "body": "I'm from Latvia and have lived in Aarhus for a year. I study at the university and work in a café, where we mostly speak English. I'm looking for a Danish friend to speak Danish with, so I can get better at Danish. We could go for a walk or meet at a café. Of course, we can also meet privately."
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "Which two dance schools teach ballet?"
+   },
+   {
+    "q": "Which co-housing community is only for adults?"
+   },
+   {
+    "q": "In which co-housing community are there communal dinners 6 days a week?"
+   },
+   {
+    "q": "Which two co-housing communities have hens?"
+   },
+   {
+    "q": "Which co-housing community has a wind turbine?"
+   },
+   {
+    "q": "Who would like to start a club that is only for men?"
+   }
+  ]
+ },
+ "p23m-2": {
+  "title": "Task 2 – Advertisements",
+  "instruction": "Read the advertisements (A-I). One or more words are missing in each advertisement. Find the advertisement that matches the words on the list (7-12). There are two advertisements you do not need to use. See the example (0).",
+  "sections": [
+   {
+    "heading": "Advertisements",
+    "cards": [
+     {
+      "title": "A",
+      "sub": "Example",
+      "body": "■■■■■■\nHead teacher Karin Børgesen is retiring.\nThe event will be held in the gym on Friday 16 June from 16 to 17.\nHavreholmens Skole, Havreholmen 12"
+     },
+     {
+      "title": "B – A festive evening at the Culture House",
+      "body": "Come and join a festive evening on Friday 9 June.\nWe start with dinner at 18:00.\n■■■■■■\nDJ Henning is in charge of the disco.\nPrice: 125 kroner excl. drinks.\nNB: You must be at least 18 years old to take part.\nKulturhuset, Hovedgaden 17"
+     },
+     {
+      "title": "C",
+      "body": "■■■■■■\nWe have sold sports and training clothes for the whole family for 25 fantastic years, but on 31 May we say goodbye and thank you.\nThat's why we are holding a closing-down sale all next week with big discounts. Everything must go!\nCentrum Sport og Træning\nJuelsgade 19"
+     },
+     {
+      "title": "D – Lykkehus Physiotherapy",
+      "body": "■■■■■■\nThen we can help you! Our clinic offers, among other things:\n• Physiotherapy\n• Massage and acupuncture\n• Individual training and group training\nThere is free parking for our patients in front of the clinic at Algade 2.\nwww.lh-fysio.dk • Tel. 64 32 10 98"
+     },
+     {
+      "title": "E",
+      "body": "■■■■■■\nBe among the first to celebrate that we are opening the doors to our big indoor play centre on Sunday 4 June at 10:00. Admission is free all day, and we serve slush ice to the children and coffee to the parents.\nBibis Legeland, Grønnevej 33\nwww.bibislegeland.dk"
+     },
+     {
+      "title": "F – Exercise day for children",
+      "body": "Vindby Sports Club has lots of activities for children aged 5-15.\nOn Saturday 27 May from 12 to 16 we are holding a free exercise day, where you can try dancing, gymnastics, football, handball and badminton. Remember sportswear and sports shoes!\n■■■■■■\nwww.vindby-if.dk"
+     },
+     {
+      "title": "G",
+      "body": "■■■■■■\nWe are looking for young people under 18 to deliver advertising leaflets and newspapers. The job can be done on foot or by bike. Fixed pay per route. You must be at least 13 years old.\nDoes that sound like a spare-time job for you?\nCall Flex Omdeling on 94 20 48 56"
+     },
+     {
+      "title": "H – New app: Healthy back",
+      "body": "Strengthen your back in a quick, fun and effective way with the brand-new app 'Sund ryg' (Healthy back).\n• ■■■■■■\n• All exercises are shown in videos\n• The app is completely free\nDownload 'Sund ryg' to your smartphone now and read more at www.sundrygnu.dk"
+     },
+     {
+      "title": "I – Los Latinos play for dancing!",
+      "body": "Concert with the popular band at Kasernen on Friday 2 June at 20:00.\n■■■■■■\nCan be bought at www.kasernen.dk. Also sold at the door before the concert if it is not sold out.\nKasernen, Stationstorvet 12"
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "Which advertisement are the words missing from?",
+    "items": [
+     "Farewell reception",
+     "Training at home in only 15 minutes.",
+     "Big opening party for the whole family.",
+     "After the meal there is dancing and music.",
+     "Does your back hurt?",
+     "Earn money – and get fresh air and exercise!",
+     "Tickets: 100 kroner each."
+    ]
+   }
+  ]
+ },
+ "p23m-3": {
+  "title": "Task 3 – Two neighbours meet",
+  "instruction": "Read the text. Eight words are missing in the text (13-20). Choose the missing words. There are five words you do not need to use. See the example (0).",
+  "text": "Sofie, 22, is a hairdresser and works in a salon in Aarhus. A month ago she moved from an area outside Aarhus to a flat [[0]] is in the centre of the city.\n\nSofie pays a little [[13]] in rent than she did before. Even so, she is glad that she has moved. Before, it took her almost an hour to cycle to work, you see, and now it only takes a quarter of an hour. And Sofie thinks it is lovely to [[14]] time on transport.\n\nIn the month Sofie has lived in the building, it has been very [[15]], but one Thursday evening she suddenly hears loud music. It is her neighbour, Clara, who is having a party. Sofie has to get up and go to work the next day, so she wants to go to bed [[16]], and so she hopes that the party won't go on for very long. But at one o'clock in the morning the music is still loud, and Sofie rings Clara's doorbell, [[17]] she wants her to turn it down. But the door is not opened, and the party doesn't end until three o'clock in the morning.\n\nSofie finds it hard to fall asleep, [[18]] the party is over and there is peace and quiet. She lies there thinking, you see, that she has to get up soon.\n\nA couple of days later Sofie and Clara meet on the stairs, and Sofie tells her that she couldn't sleep at night because of the party. Clara apologises and says that she does [[19]] usually have parties on weekdays, but that it was only because it was her 25th birthday. She says that she is going to have a party again next Saturday and asks if Sofie would like to come. Sofie is still a little annoyed, but she would [[20]] like to come to the party anyway, because she thinks Clara seems nice. They agree that they will put up a notice in the building so that the other neighbours know there is going to be a party.",
+  "questions": [
+   {}
+  ]
+ },
+ "p23m-4": {
+  "title": "Task 4 – Bus driver with back problems",
+  "instruction": "Read the text. One sentence is missing in each section. Find the sentence (A-H) that fits in each section (21-25). There are two sentences you do not need to use. See the example (0).",
+  "text": "Klaus is 45 years old and a bus driver. Unfortunately, he has got problems with his back.\n\n**0.** Klaus loves driving, and he has worked as a driver ever since he got his driving licence at 18. He has driven taxis, buses and lorries. Now he is 45, and for the last 15 years he has worked as a bus driver. [[0]]. But even though he is happy with the job, it is hard to sit down for so many hours every day, and he sometimes gets a pain in his back.\n\n**21.** Klaus talks to his doctor about his back problems. She says that he should train to get a stronger back – for example join a fitness centre or do another kind of sport. [[21]]. He likes watching sport on TV, but he has never done sport or gone to a gym himself, because he doesn't like exercising. So he doesn't feel like starting to train at all.\n\n**22.** Klaus's back gets worse and worse, so one day he goes to the local fitness centre after all and joins. He is a bit unsure how the machines in the fitness centre work. [[22]]. Because he talks to an instructor, and she shows him how to use the machines, and Klaus is happy about that. So he gets off to a good start with his training on the very first day.\n\n**23.** Klaus plans to go to the gym three times a week after work, but sometimes he can't be bothered. [[23]]. He has tried wearing a headset so he can listen to some good music while he trains, to make it a bit more fun. Even so, he feels that time passes very slowly when he is at the fitness centre. So unfortunately he doesn't always go after a long working day.\n\n**24.** One day Klaus meets one of his colleagues, Omar, at the fitness centre. Klaus doesn't know Omar very well, because there are many bus drivers in the company, and Omar hasn't been employed there for very long. But they chat a little, and Omar asks if they should train together. [[24]]. Omar knows all the machines, you see, and likes going to the fitness centre. So Klaus thinks that he can learn a lot from Omar, and that it will be nice to train together with someone else.\n\n**25.** Klaus and Omar often meet and train together at the fitness centre. But some days they have very different working hours, and then it is difficult for them to meet. [[25]]. Because he has actually become so fond of going to the gym that he also goes when Omar isn't there. And thanks to the training, Klaus can now do his job without getting back pain.",
+  "questions": [
+   {}
+  ]
+ },
+ "p23m-5": {
+  "title": "Task 5 – Interview with Ida",
+  "instruction": "Read the interview. Find the section (A-H) that matches each of the five questions (26-30). There are two sections you do not need to use. See the example (0).",
+  "sections": [
+   {
+    "heading": "Interview with Ida – waiter",
+    "cards": [
+     {
+      "title": "A",
+      "sub": "Example",
+      "body": "When I left year 10, I got a job in a café. I thought it was fun, and I liked the contact with the guests. So when I had worked there for a couple of years, I decided to train as a waiter."
+     },
+     {
+      "title": "B",
+      "body": "Yes, definitely. We walk a lot on the job and often carry heavy trays and dishes, so sometimes you can get pain in both your legs and your back. My night's sleep also often suffers because I work in the evening and often come home late. And I know that many of my colleagues feel the same way."
+     },
+     {
+      "title": "C",
+      "body": "Yes, most days. My colleagues and I share them among us when the day is over. It's always exciting to see how much there is. Of course it's nice when you get a little extra for good service. That way the guests also show that they have been satisfied."
+     },
+     {
+      "title": "D",
+      "body": "I like working as a waiter, and I would like to continue doing it for many years to come. But if I am to try something else one day, for example because it gets too hard to work as a waiter, I think I'll open a wine shop, because I'm very interested in wine. But that's not relevant right now."
+     },
+     {
+      "title": "E",
+      "body": "Lots of things! But the most important thing is probably that you are service-minded and that you like dealing with people. It's also an advantage to be able to speak several languages. And then you have to be able to handle a bit of everything. You shouldn't be the type who gets upset if someone speaks a bit harshly to you."
+     },
+     {
+      "title": "F",
+      "body": "No, actually not, but it doesn't matter much that the pay isn't very high, because I work at a rather fine restaurant where, luckily, many of the guests give good tips. So all in all my finances work out quite well."
+     },
+     {
+      "title": "G",
+      "body": "Yes, because even though it's a workplace where it's often very busy, we also have fun with each other, and we are almost like one big family. We sometimes speak a bit harshly to each other, but if there is a problem, we always sit down when we have closed and talk about it."
+     },
+     {
+      "title": "H",
+      "body": "Being part of a big team that works together to give the guests a good experience is definitely what matters most to me. You're in a good mood when you go home after an evening at the restaurant where everything just went as it should and the guests were satisfied when they left."
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "Which section answers the question?",
+    "items": [
+     "Why did you become a waiter?",
+     "What should a waiter be good at?",
+     "Do you have good colleagues?",
+     "What do you like best about your job?",
+     "Is it hard being a waiter?",
+     "Do you get a lot of tips?"
+    ]
+   }
+  ]
  }
 };

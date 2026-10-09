@@ -2,6 +2,56 @@
 // Each translation has the same paragraphs, in the same order, as the Danish model answer,
 // so the app can show them side by side.
 PD2.MODEL_EN = {
+  w23ma: `Travel companion wanted!
+
+Hi everyone
+
+My name is Leila, and I am writing because I would like to go travelling, but I don't have anyone to travel with. I am 32 years old, live in Vejle and work as a social and health care assistant.
+
+I would like to travel for two weeks in September, when I have my holiday. Then there aren't so many tourists, and it isn't as hot as in the summer.
+
+I would like to travel to Italy, because I dream of seeing Rome and Florence. I would also like to eat real Italian pizza.
+
+I am looking for a woman between 25 and 45 who also likes going for walks and experiencing new places. It's good if you are cheerful and easy to be with.
+
+If you are interested, call or write to me on 31 47 82 56 by 15 June at the latest.
+
+Thanks in advance!
+
+Best wishes
+Leila`,
+  w23mb: `Dear Restaurant Nimo
+
+I have seen your job advertisement online, and I would like to apply for the position of kitchen assistant.
+
+My name is Samir Haddad, and I am 29 years old. I come from Syria and live in Kolding. As a person I am cheerful and good at working with others.
+
+I have experience of kitchen work. In my home country I worked at a restaurant for three years, and in Denmark I have done a work placement in a canteen, where I washed up and cut vegetables.
+
+I think I will be good at the job, because I work quickly and thoroughly. I would like to work as a kitchen assistant, because I love food and would like to learn more in a professional kitchen.
+
+You can contact me on 26 58 91 34 or at samir.haddad@mail.dk.
+
+I hope that you will invite me to an interview. I look forward to hearing from you.
+
+Yours sincerely
+Samir Haddad`,
+  w23mc: `Hi Viktor
+
+Thank you for your e-mail. It was lovely to hear from you. I hope you are well. I am fine.
+
+You ask why I want to move, and I would like to tell you a little about that.
+
+First of all, my flat is far too small. I live in a one-room flat of 35 m² in Odense, and now that I work from home two days a week, I don't have room for a desk.
+
+In addition, there is a lot of noise. The flat faces a big road, so I can hear the cars all night. The neighbour above me also plays loud music, and I sleep badly. The rent is also quite high.
+
+Finally, I would like to say that I would like to move to Svendborg, because my sister lives there. I dream of a two-room flat with a balcony close to the water.
+
+I look forward to hearing from you. See you soon!
+
+Best wishes
+Amir`,
   w18ma: `Dear everyone at the canteen at the Town Hall
 
 Thank you so much for a really good work placement with you. I have been so happy with my ten weeks in the canteen.
