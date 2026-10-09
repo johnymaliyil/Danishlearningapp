@@ -5513,5 +5513,320 @@ PD2.READING_EN = {
     ]
    }
   ]
+ },
+ "p22m-1": {
+  "title": "Task 1 – Find the information",
+  "instruction": "Answer the questions (1-6). Find the information in the texts. Answer briefly and precisely. See the example: \"On which canoe trip do you stay overnight at a hotel?\" – Tour no. 6.",
+  "sections": [
+   {
+    "heading": "Canoe trips in Jutland",
+    "cards": [
+     {
+      "title": "Tour no. 1: Mosbjerg-Uggerby",
+      "sub": "Uggerby Kanofart · Tel. 98 97 53 04",
+      "body": "The trip, starting in Mosbjerg, goes through beautiful, scenic surroundings that give you the chance to experience the many varied impressions of a canoe trip. Mosbjerg can be warmly recommended as the start of a one-day trip. In Mosbjerg there are plenty of options for staying overnight – either in your own tent or in the shelters set up at the primitive campsite. There is also a toilet and a campfire site here."
+     },
+     {
+      "title": "Tour no. 2: Tørring-Klostermølle",
+      "sub": "Tørring Kanoudlejning · Tel. 75 80 13 01",
+      "body": "Whether you are going with your children, friends or partner, you get a unique nature experience on this two-day canoe trip. If you have a busy everyday life, a canoe trip gives you peace and time to relax and recharge your batteries. With an overnight stay in a standard cabin at a campsite, we have thought of everything for you.\nYou must bring yourself: bed linen, towels and a tea towel."
+     },
+     {
+      "title": "Tour no. 3: Bjerringbro-Randers",
+      "sub": "Silkeborg Kanocenter · Tel. 86 80 30 03",
+      "body": "Your canoe is ready at the starting point at 9.00 and must be at the finishing point by 15.00 at the latest.\nA great child-friendly trip of three days with two overnight stays on the way at Langå Camping and Randers City Camp. At both sites a tent is set up and ready for you when you arrive. Please note that dogs are not allowed on this trip."
+     },
+     {
+      "title": "Tour no. 4: Silkeborg-Bjerringbro",
+      "sub": "Silkeborg Kanocenter · Tel. 86 80 30 03",
+      "body": "Absolute first-class luxury combined with a two-day canoe trip. After a lovely day on the water you will be welcomed at Kongensbro Kro with afternoon coffee and cake. For dinner a 3-course menu is served, followed by an overnight stay in a double room at Kongensbro Kro. After the breakfast buffet you continue on day 2 towards Bjerringbro Teltplads."
+     },
+     {
+      "title": "Tour no. 5: Bindslev-Uggerby",
+      "sub": "Uggerby Kanofart · Tel. 98 97 53 04",
+      "body": "If you want to explore lovely Bindslev and then paddle by canoe to Uggerby or the beach, Bindslev is the ideal starting point for a 2.5-hour canoe (great) experience that takes you through areas unlike anywhere else in Denmark. You can enjoy a packed lunch at the foot of Denmark's largest fish ladder to the sound of a babbling waterfall. If there is time, the power station's exhibition is worth a visit."
+     },
+     {
+      "title": "Tour no. 6: Tørring-Voervadsbro",
+      "sub": "Tørring Kanoudlejning · Tel. 75 80 13 01",
+      "body": "Luxury sweetheart/pampering canoe trip with an overnight stay at a hotel. Take a lovely canoe trip on the Gudenå river for two days. Experience Denmark's most beautiful canoe trip by paddling on the Gudenå.\nWith an overnight stay at a hotel we have thought of everything for you, and you only have to think about having time off. A burger lunch basket can be bought as an extra, and a barbecue menu can be ordered when booking the canoe and accommodation."
+     },
+     {
+      "title": "Tour no. 7: Ry-Ans",
+      "sub": "Silkeborg Kanocenter · Tel. 86 80 30 03",
+      "body": "Canoe trip of 48 km lasting three days. The canoe is ready at the starting point at 9.00 and must be at the finishing point by 16.00 at the latest. A 4-person igloo tent is handed out together with the canoe. The tent is then yours and is taken home after the trip for future use.\nWe recommend spending the 1st night on the way at De Små Fisk Teltplads and the 2nd night at Sminge Teltplads (overnight fee not included)."
+     },
+     {
+      "title": "Tour no. 8: Tørring-Fladbro",
+      "sub": "Ry Kanofart · Tel. 86 89 11 67",
+      "body": "The ultimate Gudenå trip from source to fjord. 160 km with everything the Gudenå has to offer in nature, towns, culture and history. If you like tents and campfires for about a week and want to test yourself on both the narrow jungle-like river and the bigger lakes, this seven-day trip takes you through more or less everything there is to see on the Gudenå. Overnight stays in your own tent at campsites along the way."
+     }
+    ]
+   },
+   {
+    "heading": "Hotels on Bornholm",
+    "cards": [
+     {
+      "title": "Allinge Badehotel",
+      "sub": "Løsebækgade 3, 3770 Allinge",
+      "body": "Allinge Badehotel is in Allinge and offers accommodation by the beach 5 km from Hammershus. There are various facilities, such as a restaurant, a shared lounge and a garden. Family rooms and a terrace are also offered. Free Wi-Fi is offered. There is a private bathroom with a shower, hairdryer and free toiletries. The rooms at the hotel have a seating area.\nGuests at Allinge Badehotel can enjoy a continental breakfast or a breakfast buffet.\nThe area is popular for hiking and cycling, and bike rental is offered at the hotel."
+     },
+     {
+      "title": "Hotel Fredensborg",
+      "sub": "Strandvejen 116, 3700 Rønne",
+      "body": "This hotel is by the sea in Rønne, a 5-minute drive from Bornholm Airport. It offers accommodation with a balcony or terrace, free Wi-Fi and free parking. The hotel has a French-inspired restaurant with sea views, which serves a fish and seafood buffet.\nAll rooms at Hotel Fredensborg have a desk. There is a private bathroom with a shower and hairdryer. The hotel also has a bar, a lounge, a hot tub and a spacious garden. The building and the view can also be enjoyed from the shared terrace. Fredensborg Hotel is less than a 10-minute drive from Rønne Ferry Terminal."
+     },
+     {
+      "title": "Hotel Gudhjem",
+      "sub": "Brøddegade 29, 3760 Gudhjem",
+      "body": "This hotel is in the centre of Gudhjem and offers rooms with a TV and free Wi-Fi. The boat terminal to Christiansø is 150 metres away.\nAll rooms at Hotel Gudhjem have a seating area, a flat-screen TV and a private bathroom with a shower. Some of the rooms have views of the Baltic Sea. Leisure facilities include an indoor swimming pool, a petanque court and a billiard table. Guests can also relax with a book from the hotel's library. The restaurant on site serves the dish of the day for dinner.\nThe Oluf Høst Museum is a 5-minute walk from Hotel Gudhjem. Rø Golf Club and Gudhjem Golf Club are also less than 5 km away."
+     },
+     {
+      "title": "Hotel Siemsens Gaard",
+      "sub": "Havnebryggen 9, 3740 Svaneke",
+      "body": "This hotel is in a charming 17th-century building on Bornholm and offers fantastic views of the Baltic Sea. All rooms have a flat-screen TV and a fridge. The bright rooms at Hotel Siemsens Gaard are decorated in navy blue and cream-white colours. Some of the rooms have views of the garden or the sea. There is both free Wi-Fi and free parking.\nGuests can relax in Siemens Gaard Hotel's sauna and work out in the fitness centre. In addition, you can swim at Svaneke Harbour, which is 100 metres away.\nThe seasonal restaurant serves Danish and French dishes made with local ingredients. Guests can eat on the terrace while enjoying the view of the sea and the harbour."
+     },
+     {
+      "title": "Sverre's Hotel",
+      "sub": "Snellemark 2, 3700 Rønne",
+      "body": "This intimate, family-owned hotel is in central Rønne. The town's main square and Rønne Ferry Terminal are both 300 metres away. The breakfast room offers free coffee, tea and cocoa around the clock.\nThe simply furnished rooms at Sverre's Hotel have a TV, a seating area and a private bathroom. Guests are offered free wireless internet access in the room. The cosy courtyard and rose garden is a lovely place to eat breakfast or relax in the afternoon. There is free parking.\nThe Bornholm Museum is less than a 10-minute walk away, and it is only 200 metres to Nørrekås sandy beach."
+     },
+     {
+      "title": "Hotel Balka Strand",
+      "sub": "Boulevarden 9, 3730 Neksø",
+      "body": "This peaceful Bornholm hotel is just 150 metres from Balka Beach. Free wireless internet access in the shared areas, parking and an outdoor swimming pool are offered. Neksø is 2.5 km away.\nHotel Balka Strand's holiday homes have a seating area, a fridge, satellite TV and a private terrace. All apartments also have a kitchen or kitchenette. High chairs can be borrowed at reception.\nRestaurant Balka Strand serves Danish and international dishes. After dinner, guests can relax with a drink in the bar.\nThere is also a sauna and a playground. Guests can play chess, billiards and petanque in the lush garden."
+     },
+     {
+      "title": "Hotel Sandvig Havn",
+      "sub": "Strandpromenaden 5, 3770 Allinge",
+      "body": "This peaceful hotel is on Bornholm by Sandvig Harbour. It offers rooms with a private bathroom and a terrace with fantastic views of the Baltic Sea. Sandvig Beach is just 200 metres away. All rooms have a TV, and some of the rooms have sea views. There is free wireless internet access. Leisure facilities include a TV lounge and an inner courtyard garden.\nThe Hammerknuden nature reserve and the medieval castle ruin Hammershus are just a few minutes' walk from Sandvig Havn Hotel.\nThe surrounding streets offer shops and restaurants. The local buses stop nearby."
+     },
+     {
+      "title": "Hotel Skovly",
+      "sub": "Nyker Strandvej 40, 3700 Rønne",
+      "body": "This hotel is in a protected forest, just 5 km from Rønne and 150 metres from a sandy beach and the Baltic Sea. It offers fresh, modern rooms with a sofa and satellite TV. There is free Wi-Fi.\nThe rooms at Hotel Skovly are spread across 5 wings and have a private bathroom. The hotel serves a breakfast buffet daily. In summer, the spacious, furnished terrace is a lovely place to enjoy the sun.\nThe quiet, scenic surroundings are ideal for hiking and fishing. There is bike rental on site, and the cycle paths start just outside the hotel and lead to the surrounding forest area."
+     },
+     {
+      "title": "Stammershalle Badehotel",
+      "sub": "Sdr. Strandvej 128, Stammershalle, 3760 Bådsted",
+      "body": "This charming hotel has a peaceful location on Bornholm's rocky coast and offers fantastic views of the Baltic Sea and Christiansø. The hotel houses a gourmet restaurant serving fresh, local specialities.\nThe bright and airy rooms at Stammershalle Badehotel have a TV and a bathroom. There is free Wi-Fi. All rooms have sea views.\nLeisure activities include tennis courts, among other things, and there is free parking on site.\nHelligdomsklipperne and the Døndal waterfall are both about 2 km from Stammershalle. Gudhjem is an 8-minute drive away."
+     },
+     {
+      "title": "Hotel Friheden",
+      "sub": "Tejnvej 80, 3770 Allinge",
+      "body": "This hotel is a 25-minute drive from Rønne Harbour and 100 metres from the beach in Sandkås. The accommodation is by the sea, and there is access to a hot tub and sauna as well as an indoor pool.\nAll rooms at Hotel Friheden have a private balcony or terrace. Some rooms have panoramic views of the Baltic Sea. There is also a TV and a fridge. Most rooms have hotplates, tea and coffee facilities and underfloor heating in the bathroom. The restaurant offers an à la carte menu that combines Scandinavian ingredients with ingredients from the Mediterranean. Friheden's café-bar serves coffee, snacks and locally brewed beer.\nThere is the opportunity to relax on the furnished sea-view terrace and in the wellness centre."
+     },
+     {
+      "title": "Kanns Hotel",
+      "sub": "Eskildsgade 6, 3720 Åkirkeby",
+      "body": "This modern hotel in Aakirkeby on Bornholm is 16 km from Rønne. It offers free wireless internet access, a restaurant with a furnished terrace and rooms with a large flat-screen TV. All rooms at Kanns Hotel have fresh decor, a desk and a private bathroom with a shower.\nGuests can enjoy the dish of the day as well as Danish and international à la carte specialities in the hotel's restaurant for lunch and dinner.\nIt is 5 km to Bodernes white sandy beach and an 11-minute drive to Bornholm Golf Club."
+     },
+     {
+      "title": "BB-Hotel Rønne Bornholm",
+      "sub": "Store Torv 17, 1., 3700 Rønne",
+      "body": "BB-Hotel Rønne Bornholm is on Store Torv in the centre of Rønne. The property offers free parking, and the rooms all have free Wi-Fi and a flat-screen TV. Rønne Theatre is a 3-minute walk away. All rooms at BB-Hotel Rønne have a desk, a wardrobe and a private bathroom with a shower.\nThe hotel has a terrace and a shared lounge.\nRønne Ferry Terminal is 600 metres away. Nørrekås beach is a 15-minute walk from the hotel."
+     }
+    ]
+   },
+   {
+    "heading": "Choirs in the Capital Region",
+    "cards": [
+     {
+      "title": "Cikaderne",
+      "sub": "Brønshøj",
+      "body": "The choir currently has 30 members aged 20 to 50, and the members are divided into 6 voice groups. Enthusiasm and joy are characteristic of the choir, and there is plenty of ambition. But of course there is also room for laughter, cosiness and cake during rehearsals and on the intense rehearsal weekends. The association is run by a board made up of members of the choir, each of whom has their own area of responsibility. Cikaderne rehearses every Thursday at EnergiCenter Voldparken in Brønshøj."
+     },
+     {
+      "title": "ØreVOX",
+      "sub": "Nørrebro",
+      "body": "The choir is based in Nørrebro in a lovely rehearsal room, which the music nursing home Sølund makes available in return for the choir now and then giving small concerts for the residents. Over its more than 25 years, the choir has varied in size between 15 and 30 members. In the autumn season of 2019 we were 30. We rehearse on Mondays 18.30-21.00. We sing Nordic songs and ballads, classical and rhythmic, jazz and pop. Several times a year the choir gives public concerts."
+     },
+     {
+      "title": "Facett",
+      "sub": "Taastrup",
+      "body": "The choir Facett is a fine-sounding choir with 45 happy singers. We all have in common that we love to sing and to feel the joy and the good energy of creating musical experiences together with others. We sing with great enthusiasm a broad and extensive repertoire of rhythmic and classical choral music – Danish and foreign, old and new. We rehearse every Wednesday evening from September to May at Taastrup Kulturcenter – and create a fantastic atmosphere with a good mix of serious rehearsal work and socialising with smiles and laughter."
+     },
+     {
+      "title": "Kor Dialis",
+      "sub": "Valby",
+      "body": "Kor Dialis was founded in 2001 and is a mixed choir consisting of about 45 experienced amateur choir singers aged 30-70. We rehearse every Tuesday in the large hall at the Langgadehus nursing home, Valby Langgade 97, 2500 Valby, 18.30-21.00.\nWe sing a mixed repertoire of classical choral works and motets with both religious and secular content. We typically hold 5-6 concerts a year, divided between Christmas and spring concerts, usually accompanied by a pianist/organist."
+     },
+     {
+      "title": "Elverhøjkoret",
+      "sub": "Virum",
+      "body": "An ambitious women's choir with currently 20 experienced singers and a long tradition. We work on optimising our sound, dynamics, text and expression. We explore and immerse ourselves in the details in order to achieve a well-rounded communication of the music.\nWe sing at both traditional and 'quirky' events, and we are happy to develop a concept or come up with ideas for concerts in a special setting. We rehearse on Mondays 19.15-21.45 at Kulturstedet Lindegården, Peter Lunds Vej 8, 2800 Kgs. Lyngby."
+     },
+     {
+      "title": "Vox Humana",
+      "sub": "Allerød",
+      "body": "Vox Humana is a choir that for the last ten years has specialised in singing new Nordic choral music. Much of the music is newly composed and also specially arranged for Vox Humana. We sing about 8-10 concerts a year. We can also be booked for company parties, weddings and other private events. We aim for a trip abroad every other year and a bigger project in the other years. Among other things, we have recorded 4 CDs. We rehearse on Thursdays 19.15-22.00 at Allerød Music School, Gl. Lyngevej in Allerød."
+     },
+     {
+      "title": "Eventyrkoret",
+      "sub": "Herlev",
+      "body": "Eventyrkoret is a gospel and folk choir from Herlev that has existed since September 2009. The choir consists of 33 singers – men and women – soprano, alto, tenor and bass. The choir sings both a cappella and with piano accompaniment. We sing gospel, ballads, hymns, pop, swing and Danish songs. The choir is for everyone who likes to sing.\nThe choir rehearses on Thursdays 19.00-21.30 in Korskirken (the Cross Church), Herlev Hovedgade 42, 2730 Herlev."
+     },
+     {
+      "title": "Korinor",
+      "sub": "Helsingør",
+      "body": "Korinor is a well-functioning, well-staffed mixed choir based in Helsingør. We rehearse every Wednesday evening in the music room at Helsingør Gymnasium.\nThe choir has about 35 singers of all ages divided into soprano, alto, tenor and bass, though with a slight over-representation of female voices. We sing rhythmic music in the broad sense, from Queen and Procol Harum to Tina Dickow. We place emphasis on being good at choral singing and on the community around the social activities."
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "Which canoe trip lasts 7 days?"
+   },
+   {
+    "q": "Which hotel has an outdoor swimming pool?"
+   },
+   {
+    "q": "Which hotel has both a hot tub and a sauna?"
+   },
+   {
+    "q": "Which hotel has tennis courts?"
+   },
+   {
+    "q": "Which two hotels offer bike rental?"
+   },
+   {
+    "q": "Which choir rehearses in a church?"
+   }
+  ]
+ },
+ "p22m-2": {
+  "title": "Task 2 – Advertisements",
+  "instruction": "Read the advertisements (A-I). One or more words are missing in each advertisement. Find the advertisement that matches the words on the list (7-12). There are two advertisements you do not need to use. See the example (0).",
+  "sections": [
+   {
+    "heading": "Advertisements",
+    "cards": [
+     {
+      "title": "A – Do as 100,000 others…",
+      "body": "Get our online newsletter straight to your inbox.\nLots of tips about fashion and home. Get good offers before everyone else!\n■■■■■■"
+     },
+     {
+      "title": "B",
+      "body": "■■■■■■\nWe offer inspiring exercise in nature with a focus on strength, balance and fitness.\nWe have classes with professional instructors every day of the week.\nBook a free trial session now.\nwww.naturfit.dk"
+     },
+     {
+      "title": "C",
+      "body": "■■■■■■\n• Children's menus\n• Build-your-own burgers and salad bar\n• Help-yourself soft ice cream\nOpening hours: Monday-Saturday 15-22\nSpisehuset Madglad in the shopping centre\n– take a break from your shopping trip"
+     },
+     {
+      "title": "D – Sale at the pet shop",
+      "body": "We have a large selection of all the well-known brands of luxury food, equipment and toys for happy and healthy pets!\nSpecial offer this week:\n■■■■■■\nSee you at Storevej 16"
+     },
+     {
+      "title": "E",
+      "body": "■■■■■■\nAll this week we have a discount on, for example:\nbags, pencil cases, exercise books, writing materials and calculators.\nOpen every weekday 10-17\nJørgens Boghandel\nby Jørgen Utvad, Norgesgade 11"
+     },
+     {
+      "title": "F – Fresh air and good company",
+      "body": "Sign up for our next pleasant 7 km hike in Gribskov on Sunday 5/6 at 10. Dogs are also very welcome.\nParticipation is free.\nSign up at www.gs-vl.dk\n■■■■■■"
+     },
+     {
+      "title": "G – Training for small and big dogs",
+      "body": "Intensive training in small groups with a qualified instructor.\nWe train on Tuesday and Thursday afternoons in Visby Hallen. All dog breeds are welcome.\nGet more information about classes, times and prices on our website:\n■■■■■■"
+     },
+     {
+      "title": "H",
+      "body": "■■■■■■\nHere the whole family can learn to make easy and healthy everyday dishes, and everyone helps each other.\n• Price incl. ingredients: 680 kr.\n• Time: Sunday 6/8, 3/9 and 1/10, 11-14\n• Place: Engvangskolen\nSign up at www.familieforeningen.dk"
+     },
+     {
+      "title": "I",
+      "body": "■■■■■■\nGamby School is looking for some volunteers who would like to read with schoolchildren from year 1 to year 3 during school hours.\nInterested?\nContact the counsellor Lene Ibsen on tel. 31 98 08 31"
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "Which advertisement are the words missing from?",
+    "items": [
+     "Sign up at www.smukkehjem.dk",
+     "20% discount on dog food.",
+     "Effective outdoor training!",
+     "Cooking course for children and adults.",
+     "Everything for your child's first day at school.",
+     "Visit our family-friendly restaurant.",
+     "Can you help us 2-3 hours a week?"
+    ]
+   }
+  ]
+ },
+ "p22m-3": {
+  "title": "Task 3 – A blessing in disguise",
+  "instruction": "Read the text. Eight words are missing in the text (13-20). Choose the missing words. There are five words you do not need to use. See the example (0).",
+  "text": "Linda, 55, is [[0]] and lives alone in a house just outside Herning. Her sister lives in town, and Linda often takes the car and drives to Herning to visit her sister.\n\nOne Saturday morning Linda is going to Herning to shop and have lunch with her sister. She drives into a big car park in the middle of Herning, even though she knows that it can take a [[13]] time to find a space there. There are many cars in the car park, and Linda drives around looking for a free space. When the car in front of her suddenly stops, she sees it too [[14]], and so she drives into it. Linda is quite shocked, but the man in the other car [[15]] looks as if he is okay, and that makes her calmer. She gets out of her car and greets the man, whose name is Ole, and they look at the cars together. Nothing has happened to Linda's car, but there is [[16]] a small dent in Ole's car, and he is quite annoyed about that. But when Linda says that her insurance will pay, and asks if she may invite him for a cup of coffee, he gets into a [[17]] mood. He says yes please and smiles, and when they have parked their cars, they go to a café nearby.\n\nThey sit in the café for a long time talking, and Linda completely forgets that she has a lunch date with her sister, [[18]] she is having such a nice time with Ole. But suddenly Linda sees that it is late. Her sister is waiting for her, and [[19]] Linda would like to talk more with Ole, she has to go. Luckily Ole [[20]] wants to talk more with Linda, so before she hurries off, they agree to call each other and meet again another day.",
+  "questions": [
+   {}
+  ]
+ },
+ "p22m-4": {
+  "title": "Task 4 – Sanne is a social and health care helper",
+  "instruction": "Read the text. One sentence is missing in each section. Find the sentence (A-H) that fits in each section (21-25). There are two sentences you do not need to use. See the example (0).",
+  "text": "Sanne, 26, has a busy everyday life. She is married and has a 3-year-old daughter, and a few months ago she got a permanent job as a social and health care helper.\n\n**0.** Sanne is 26 years old and lives in Viborg with her husband and their 3-year-old daughter. She is a newly qualified social and health care helper, and for the last couple of years her training has taken up a lot of her life. [[0]]. Because now she is employed and works full time as a social and health care helper at a nursing home called Birkebo. And she spends a lot of energy on her new job and on making everyday life work at home.\n\n**21.** Most of the social and health care helpers at Birkebo have worked there for many years, so they have a lot of experience. [[21]]. Because even though she learned a lot during her training, she is also new in the job, and so there is often something she does not know how to do. So she thinks it is really nice that she can always get help from an experienced colleague.\n\n**22.** Working with elderly people in a nursing home can be physically hard. That is why many social and health care helpers have back pain. [[22]]. When she did her training, she learned various techniques for lifting the elderly, for example when they have to get out of bed, and of course she uses them. She is also strong and in good shape, because she does yoga and swims several times a week, and so she actually never has back pain.\n\n**23.** Sanne has changing working hours at Birkebo, and she and her husband, Claus, always have to take that into account in their planning. When Sanne has an afternoon shift, for example, she cannot pick up their daughter from kindergarten. [[23]]. Claus works as a painter, and he has fixed working hours and finishes at 15 every day. So he is always able to pick up their daughter, Olivia, and that is important in the family's everyday life.\n\n**24.** Sanne also has quite a few evening shifts at the nursing home. [[24]]. Otherwise she thinks it is nice to be at Birkebo in the evening and serve dinner to the elderly, but when she works in the evening, she cannot be at home and put Olivia to bed. Olivia is sad about that, and so is Sanne. So she would rather work during the day.\n\n**25.** Sanne has been at Birkebo for three months, and she will soon have a meeting with her boss, where they will talk about how the work is going. [[25]]. Because she has never been to that kind of meeting before, and she is a little afraid of her boss. But she hopes he is satisfied with her work, because she herself thinks it is going well, and she is happy to be at Birkebo.",
+  "questions": [
+   {}
+  ]
+ },
+ "p22m-5": {
+  "title": "Task 5 – Interview with Lena",
+  "instruction": "Read the interview. Find the section (A-H) that matches each of the five questions (26-30). There are two sections you do not need to use. See the example (0).",
+  "sections": [
+   {
+    "heading": "Interview with Lena – professional musician",
+    "cards": [
+     {
+      "title": "A",
+      "sub": "Example",
+      "body": "I have loved singing since I was very little, and when I was 10, I wanted to learn to play an instrument. So my parents bought me a guitar, and I also started taking lessons. And since then music has been almost my whole life."
+     },
+     {
+      "title": "B",
+      "body": "Yes, it's going okay. Of course, what comes into my account each month varies a lot. And there have also been periods when my finances haven't been so good, and then of course I've had to think more about how I spend my money. But right now it's actually going really well."
+     },
+     {
+      "title": "C",
+      "body": "Standing on a stage in front of lots of people and playing my music. Because when I do that, I can always feel that my music means something to others. And when people hear my music and come up to me after the concert and say that they love my songs, I feel really proud and happy."
+     },
+     {
+      "title": "D",
+      "body": "No, I don't think so. But that's only because I'm now in a situation where I can live off my music. Many of my colleagues would definitely say that it's a big problem that they don't earn enough to live off playing. And that's hard. I know all about that, because I've been through it myself."
+     },
+     {
+      "title": "E",
+      "body": "It feels most natural, because it's my mother tongue. I write my songs myself, after all, and it's the language I can express myself best in. But I do know that if I'm also going to be successful abroad in the future, I'll have to write my songs in English."
+     },
+     {
+      "title": "F",
+      "body": "I have a broad taste in music, so I actually listen to many different kinds of music. I often go to classical concerts. And I also like heavy rock. Many people are surprised by that, but I often listen to it when I'm running or at the gym, for example, because I think there's a good energy in that music."
+     },
+     {
+      "title": "G",
+      "body": "To have international success with my music and travel all over the world and one day give concerts on some of the really big stages around the world, for example in England and Japan. But unfortunately that's not something that happens to very many musicians. But I would really like that."
+     },
+     {
+      "title": "H",
+      "body": "I have my own style, where I mix pop with a bit of jazz. I sing in Danish, and most of my songs are love songs about dreams and experiences I've had myself. I think the best of my songs are the ones that are very personal."
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "Which section answers the question?",
+    "items": [
+     "When did you start to be interested in music?",
+     "What kind of music do you make?",
+     "Why do you sing in Danish?",
+     "Can you earn enough as a musician?",
+     "Are there any disadvantages to being a musician?",
+     "What do you dream about for the future?"
+    ]
+   }
+  ]
  }
 };

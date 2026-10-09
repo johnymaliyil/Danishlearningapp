@@ -2,6 +2,53 @@
 // Each translation has the same paragraphs, in the same order, as the Danish model answer,
 // so the app can show them side by side.
 PD2.MODEL_EN = {
+  w22ma: `Dear Vedbys Kokkeskole
+
+I am writing to you because I want to complain about the cooking course I attended with you.
+
+It concerns the course "The Italian Kitchen" on Saturday 14 May from 10 to 16. I paid 1,200 kroner for the course. We were supposed to make fresh pasta, risotto and tiramisu.
+
+The problem is that the course was not as described on your website. There were 20 participants, but there were only four cookers, so most of us just stood and watched. In addition, the chef arrived an hour late, so we never got to make the tiramisu.
+
+I have already spoken to the chef after the course, but he just said that it was not his fault.
+
+Therefore I would like to ask you to give me my money back.
+
+I hope that you will help me, and I look forward to hearing from you as soon as possible.
+
+Yours sincerely
+Ali Hassan
+Søndergade 18, 8600 Silkeborg`,
+  w22mb: `Dear everyone at Total
+
+Thank you so much for a really good work placement with you. I have been so happy with my twelve weeks in the supermarket.
+
+I have learned to stock the shelves, check dates and work at the till. I have also learned to talk to the customers in Danish, and I have become much more confident at that.
+
+I am going to miss you, because you were always kind and patient, and because we had fun in the lunch breaks. I would like to keep in touch, so I have made a group on Facebook, and of course I will still come and shop with you.
+
+Now I am going to start training as a retail assistant after the summer holidays. I hope that I can get an apprenticeship in a supermarket like Total.
+
+Once again, thank you so much for everything. I hope we will see each other soon!
+
+Best wishes
+Leila`,
+  w22mc: `Hi Lasse
+
+Thanks for your e-mail. It was lovely to hear from you. I hope you are well. I am fine.
+
+You ask about my holiday, and I would like to tell you a little about it.
+
+First of all, I spent a week in Spain with my wife and our two children. We had been looking forward to it a lot, but things already went wrong at the airport, because the plane was four hours late.
+
+In addition, the hotel was not at all like in the pictures. The room was small and dirty, and there was a lot of noise from a bar right next door, so we could not sleep at night. In the middle of the week my son also got ill with a fever, so we had to stay in the room for two days.
+
+Finally, I would like to say that in spite of everything we had some lovely days on the beach. But next year I think we will go on holiday in a summer house in Denmark.
+
+I look forward to hearing from you. See you soon!
+
+Best wishes
+Karim`,
   w23ma: `Travel companion wanted!
 
 Hi everyone
