@@ -6723,5 +6723,325 @@ PD2.READING_EN = {
     ]
    }
   ]
+ },
+ "p20n-1": {
+  "title": "Task 1 – Find the information",
+  "instruction": "Answer the questions (1-6). Find the information in the texts. Answer briefly and precisely. See the example: \"In which fitness centre are there solariums?\" – Nordjysk Helsestudio.",
+  "sections": [
+   {
+    "heading": "Fitness centres in Aalborg",
+    "cards": [
+     {
+      "title": "Aalborg Ny Helsecenter",
+      "body": "Aalborg Ny Helsecenter is in the centre of Aalborg. Aalborg Ny Helsecenter is a fitness centre only for girls and women. The fitness centre offers strength training and cardio training based on the motto: 'A relaxed and cosy atmosphere with room for the individual'. In addition, Aalborg Ny Helsecenter offers aerobics and body toning in many different classes.\nThe centre is happy to give you a guided tour if you drop by."
+     },
+     {
+      "title": "Fitness World",
+      "body": "Fitness World is a nationwide chain of modern fitness centres that always offers the latest in exercise equipment and group training. The instructors at Fitness World are well trained, and Fitness World advertises that there is no commitment period on membership.\nIn Aalborg there are Fitness World centres on the top floor of Friis, Aalborg Citycenter, and in Dannebrogsgade 58, Prinsensgade 15 and Vesterbro 76."
+     },
+     {
+      "title": "FAB Dance Studio",
+      "body": "FAB Dance Studio is a fitness and dance studio. The dance concept is put together so that in the classes you achieve high fat burning and tone up your muscle groups. It is cardio training in a different way.\nEveryone can join our classes, and you do not need any special skills to keep up."
+     },
+     {
+      "title": "FYSIOFitness",
+      "body": "FYSIOFitness is a fitness centre that is run with roots in physiotherapy and with the option of physiotherapy guidance in cooperation with Klinik For Fysioterapi (a physiotherapy clinic). At FYSIOFitness there is a relaxed atmosphere, professional instructors, flexible memberships and low prices. At FYSIOFitness you can get advice on training methods and injuries.\nThe fitness centre offers kick-and-box, fat burner, abs-bums-thighs, pilates, pump, spinning, step and yoga classes with professional instructors."
+     },
+     {
+      "title": "Fitness4Life",
+      "body": "Fitness4life is a fitness centre that offers functional training with instructors who are all trained according to Team Danmark or ProAcademy.\nApart from individual training, Fitness4life also offers group training in spinning, kettlebell (a weight shaped like a ball with a U-shaped handle), fitness boxing, abs-bums-thighs and ordinary circuit training. Fitness4Life also offers guidance on diet and exercise as well as slimming programmes for children."
+     },
+     {
+      "title": "Nordjysk Helsestudio",
+      "body": "Nordjysk Helsestudio is one of the oldest exercise and fitness centres in the Aalborg area, with spinning, aerobics and a dance hall as well as a full range of equipment for exercise and strength training.\nAll LifeFitness circuit machines as well as machines for strength, exercise and bodybuilding from World Class and Competition Line. Aerobics, spinning, group training, sauna and solariums."
+     },
+     {
+      "title": "Equinox Fitness",
+      "body": "Equinox Fitness has two fitness centres in the centre of Aalborg. Equinox Fitness has a large range of fitness and wellness.\nEquinox Fitness offers, among other things, strength training, circuit training, aerobics, spinning, group training, yoga, squash, fitness boxing, an indoor running track, personal training, sauna, steam bath, spa bath and massage."
+     },
+     {
+      "title": "Motionskælderen",
+      "body": "Motionskælderen (the exercise cellar) offers everything in exercise and strength training at competitive prices without commitment. Motionskælderen in Aalborg also offers Thai boxing and fitness boxing with an instructor. At Motionskælderen there is always the option of a free trial session in exercise or martial arts."
+     }
+    ],
+    "source": "Source: www.aalborg-portalen.dk/guide/fitnesscentre-aalborg (21.07.2018, extract)"
+   },
+   {
+    "heading": "Boarding schools (efterskoler) on Funen",
+    "cards": [
+     {
+      "title": "Bernstorffsminde Efterskole",
+      "sub": "Bernstorffsminde 4, 5600 Faaborg · www.berns.dk",
+      "body": "Bernstorffsminde Efterskole is an academic school where gymnastics and sport are an important part of everyday life. Main subjects and many electives.\nWe have a swimming pool, a gym, a large sports hall, a football stadium, the country's biggest trampoline and gymnastics centre as well as a sound studio and rehearsal rooms for music. IT is an integrated part of the teaching."
+     },
+     {
+      "title": "Haarby Efterskole",
+      "sub": "Assensvej 8, 5683 Haarby · www.haarbyefterskole.dk",
+      "body": "The boarding school for you who love sport and would like to use 10th grade for personal, social and academic development.\nYou must choose one of four sports lines: badminton, dance, handball or football AND a study programme: Business, International, Science or Fitness."
+     },
+     {
+      "title": "Billeshave Efterskole",
+      "sub": "Billeshavevej 51, 5500 Middelfart · www.billeshave.dk",
+      "body": "Emphasis on a high academic level. Attractive lines: adventure, skateboarding, cooking, horse riding, art, photography, e-sport and rugby. Varied teaching with projects and exciting themes. Teaching at different levels in Danish, maths, English and German. Good facilities. A school year with line weeks, trips abroad, lots of experiences and events."
+     },
+     {
+      "title": "Hjemly Idrætsefterskole",
+      "sub": "Assensvej 154, 5750 Ringe · www.hjemly.dk",
+      "body": "At Hjemly you do sport every school day of the week – whether it is football, handball, basketball, badminton, running or dance.\nWe prioritise academic and creative skills that strengthen you both academically and socially, and we see it as our most important task to give you a boarding school year full of enlightenment, joy of life and community."
+     },
+     {
+      "title": "Eisbjerghus Internationale Efterskole",
+      "sub": "Eisbjergvej 2, 5580 Nr. Åby · www.eisbjerghus.dk",
+      "body": "Would you like to go out into the world to learn languages, meet new friends and have experiences for life? With us you get a boarding school life that prepares you for upper secondary school at a high academic level, and teaching in English in 3 Cambridge subjects, DELF French, Goethe German, Chinese, Japanese and Spanish. A community that challenges you – with time for creativity and fun!"
+     },
+     {
+      "title": "Kerteminde Efterskole",
+      "sub": "Degnehøjvej 20, 5300 Kerteminde · www.kertemindeefterskole.dk",
+      "body": "Put together your own unique boarding school year. You choose an academic profile, and you can choose main subjects and electives 3 times a year.\nWe go on a study trip to Berlin and a ski trip to Norway. Experience a strong community, lots of challenges, and have an experience you will never forget."
+     },
+     {
+      "title": "Faaborgegnens Efterskole",
+      "sub": "Kirkevej 13, 5600 Faaborg · www.faae.dk",
+      "body": "Faaborgegnens Efterskole has four lines: Art & Design, Nature & Outdoor Life, IT & Media and Food & Life. A stay at a boarding school should be a celebration of the magic of life; seeing the world in colour and enjoying and embracing its many nuances.\nTeaching at different levels, iPads for everyone, LEGO Education, electives (e.g. kayak polo, climbing, music, choir, street dance and photography)."
+     },
+     {
+      "title": "Korinth Efterskole",
+      "sub": "Kaj Lykkesvej 9, 5600 Faaborg · www.korinth-efterskole.dk",
+      "body": "The boarding school for you who are up for nature, outdoor life and community. You can develop at our small and cosy school.\nChoose between the main subjects: adventure & outdoor life, gourmet, horse riding, scouting, sailing and international. Electives: hunting, diving, navigation, e-sport, climbing and choir."
+     },
+     {
+      "title": "Midtfyns Efterskole",
+      "sub": "Torpegårdsvej 19, 5792 Årslev · www.midtfyns-efterskole.dk",
+      "body": "Fire & Police, adventure, football, parkour, dance and 'cooking crazy'. An active and creative school. You meet committed and caring adults who really want the best for you. We have teaching at different levels, and the top levels prepare you for upper secondary school. Become an important piece in our close community and get lots of challenges that give you courage for life!"
+     },
+     {
+      "title": "Ollerup Efterskole",
+      "sub": "Svendborgvej 10, 5762 Vester Skerninge · www.ollemus.dk",
+      "body": "State-of-the-art rehearsal rooms and a sound studio, tours and festivals, singing and playing together, music theory and instrument lessons, big band and a joint choir, café evenings with guitar solos and a hundred screaming fans.\nAt Ollerup Efterskole the stage is set for a fantastic boarding school year."
+     },
+     {
+      "title": "Musikefterskolen i Humble",
+      "sub": "Hovedgaden 21, 5932 Humble · www.musikefterskolen.dk",
+      "body": "At the Music Boarding School in Humble you get a boarding school year focusing on music, immersion, community and academic skills.\nYou can choose between 4 music lines: Rhythmic, Electronic, Jazz and Folk & World. We go to Berlin and New York, on tour around Denmark and play at VEGA. We have a professional studio, great rehearsal rooms, solo lessons, a choir and much more!"
+     },
+     {
+      "title": "Strib Idrætsefterskole",
+      "sub": "Staurbyskovvej 6, 5500 Middelfart · www.stribidraetsefterskole.dk",
+      "body": "Strib Sports Boarding School gives you the chance to have the coolest year that develops you – both in your sport and definitely also academically. Experiences and quality are words that characterise our everyday life.\nWe have 3 main lines, namely badminton, handball and football, and we train 3-4 times a week."
+     },
+     {
+      "title": "Nordfyns Efterskole",
+      "sub": "Klaus Berntsensvej 19, 5471 Søndersø · www.nordfe.dk",
+      "body": "Lines: Football girls/boys, gymnastics, dance, music, art and e-sport. Cooperation with Judo Danmark. 2 sports halls, a jumping pit, a big trampoline, good pitches – lots of leisure options and fitness.\nYou get an active and developing school year. High academic level. Ski trip to the Austrian mountains. Trip to London. All students take part in the gymnastics displays."
+     },
+     {
+      "title": "Vestfyns Efterskole",
+      "sub": "Nørremarksvej 21, 5690 Tommerup · www.vestfynsefterskole.dk",
+      "body": "Denmark's smallest boarding school – max 36 students. Academic teaching – FP9 or FP10 (the 9th/10th grade exams). Working with animals: cows, pigs, horses, sheep and hens. Lessons in horse riding, sailing and navigation, a boating licence and a tractor licence.\nTrip abroad, to Tanzania or India (included in the school fees). From farm to table, kitchen garden and cooking, outdoor life."
+     },
+     {
+      "title": "Nørre Åby Efterskole",
+      "sub": "Olaf-Nielsensvej 7, 5580 Nørre Aaby · www.naae.dk",
+      "body": "We are a sports, music, drama, dance and design boarding school – and much more.\nWe are a boarding school where you have your main subjects every afternoon, and where it is possible to choose new lines four times a year. You can also have the same subject all year."
+     },
+     {
+      "title": "Ærø Efterskole",
+      "sub": "Tranderupgade 59, 5970 Ærøskøbing · www.aeroe-efterskole.dk",
+      "body": "A practical, workshop-based school for students with special learning needs.\nWhat we teach: Farming, arts and crafts, horse riding, kitchen, sailing, sport, handicrafts etc.\nWe work with values such as security, honesty, respect, self-knowledge, self-confidence and self-esteem. FP9 (the 9th grade exam) in Danish and maths."
+     }
+    ],
+    "source": "Source: www.efterskolerne.dk (04.04.2019, extract)"
+   },
+   {
+    "heading": "Music festivals in Copenhagen",
+    "cards": [
+     {
+      "title": "Copenhagen Jazz Festival",
+      "sub": "When: 6-15 July · Line-up: Rokia Traoré, The Roots, Mulatu Astatke, Pharoah Sanders, Sons of Kemet, Jeff Beck, Brad Mehldau Trio and others",
+      "body": "Copenhagen Jazz Festival has existed since 1979 and is one of Europe's biggest jazz festivals. Every summer Copenhagen is transformed when the festival celebrates jazz in all its forms for 10 days in a row. The music plays everywhere: in parks and gardens, in the city's squares, in cafés, in theatres and concert halls. Copenhagen Jazz Festival offers over 1000 concerts, many of them free concerts with the best jazz of the day from Denmark and abroad. Altogether these concerts are visited by more than 250,000 happy audience members."
+     },
+     {
+      "title": "Distortion",
+      "sub": "When: 30 May-3 June · Line-up: Solomun, Mall Grab, Yaeji, Acid Arab, Princess Nokia, Ekali, Charlotte De Witte, Big Freedia, Injury Reserve and others",
+      "body": "Distortion started in 1998 to bring life to the streets of Copenhagen and has now grown into a popular festival that gathers several hundred thousand people for a wealth of new and exciting music names, especially from the electronic music scene. Something very special about this festival is that it is mobile. Distortion takes place in a new area every day – Wednesday in Nørrebro and Thursday in Vesterbro and Friday and Saturday on Refshaleøen, where the festival ends with a big two-day electronic music festival, Distortion Ø. At all the street parties the music is free, but for Distortion's club events and Distortion Ø you have to buy a Distortion Week Pass."
+     },
+     {
+      "title": "Copenhagen Opera Festival",
+      "sub": "When: 29 July-12 August · Line-up: Clara Cecilie Thomsen, Golda Schultz, Elisabeth Jansson, Ilker Aracayürek, The Alehouse Sessions and others",
+      "body": "Copenhagen Opera Festival is a Copenhagen music festival that celebrates opera, and which tries to bring opera out of its usual setting, out onto the street and out to a wider audience. The festival is held in the streets of Copenhagen, on the water and underground. The heart of the opera festival is the Wilhelm Stage by Torvehallerne. Here there are artist talks, morning singing, a masterclass, concerts etc. Apart from opera on a stage, you can experience opera on a bike, opera bingo, opera in private homes and opera on the water. You can experience opera on the water with the Operetta Boat, which sails around the city's canals, so just keep an eye out."
+     },
+     {
+      "title": "Haven Festival",
+      "sub": "When: 10-11 August · Line-up: Arcade Fire, Arial Pink, Big Thief, Cancer, Den Sorte Skole, Katinka and others",
+      "body": "In 2017 Haven Festival was held for the first time. The people behind the festival are Aaron and Bryce Dessner from The National, the chef Claus Meyer and the brewer Mikkel Borg Bjergsø. They themselves call Haven a 'festival for the senses'. And with those profiles you can expect lots of quality experiences in the form of gourmet food, art and of course music. The festival is held on Refshaleøen with a harbour view and only 10 minutes by bike from the centre."
+     },
+     {
+      "title": "Copenhell",
+      "sub": "When: 20-23 June · Line-up: Ozzy Osbourne, Avenged Sevenfold, Ghost, Nightwish, Alice in Chains and others",
+      "body": "Copenhell is Denmark's biggest rock and metal festival, which since 2010 has gathered thousands of rock and metal fans on Refshaleøen in Copenhagen harbour. Here the old B&W shipyard makes up the raw, industrial setting for three days of outdoor festival with loads of bands on a total of three stages. The festival presents a broad and varied programme with both big established international names and less well-known up-and-coming names. But the festival also offers other activities, such as parties in the beer tent Biergarten, entertainment and evil art."
+     },
+     {
+      "title": "Strøm Festival",
+      "sub": "When: 8-11 August · Line-up: Laid Back, Meute, Moses Boyd Red Roof, Shanti Celeste, Larry Heard, Flipkompagniet and others",
+      "body": "Since 2007 electronic music has had its own festival: Strøm Festival, which takes place every year in August in Copenhagen and Frederiksberg. The programme consists of local as well as established names from the Danish and international electronic music scene, and the festival tries to present the latest trends in electronic music. Besides lots of music, Strøm also offers workshops, parties, roller-skating disco, artist talks and seminars – such as a DJ workshop."
+     }
+    ],
+    "source": "Sources: www.jazz.dk, www.operafestival.dk, www.copenhell.dk, www.cphdistortion.dk, www.havenkbh.dk, www.strm.dk (2018, edited)"
+   }
+  ],
+  "questions": [
+   {
+    "q": "In which fitness centre can you do Thai boxing?"
+   },
+   {
+    "q": "At which boarding school can you go on a ski trip to Austria?"
+   },
+   {
+    "q": "At which boarding school can you do diving?"
+   },
+   {
+    "q": "At which two boarding schools can you go on a trip to Berlin?"
+   },
+   {
+    "q": "At which boarding school can you do both choir and photography?"
+   },
+   {
+    "q": "At which music festival can you buy gourmet food?"
+   }
+  ]
+ },
+ "p20n-2": {
+  "title": "Task 2 – Advertisements",
+  "instruction": "Read the advertisements (A-I). One or more words are missing in each advertisement. Find the advertisement that matches the words on the list (7-12). There are two advertisements you do not need to use. See the example (0).",
+  "sections": [
+   {
+    "heading": "Advertisements",
+    "cards": [
+     {
+      "title": "A – Fiat Punto for sale",
+      "body": "Fiat Punto 1.2 from 2010, has done 134,000 km.\n■■■■■■\nIt comes with a new MOT and new brakes.\nPrice: 25,000 kr.\nCall for more info on 86 30 09 28"
+     },
+     {
+      "title": "B – Do you need a part-time job?",
+      "body": "Become a distributor of advertising leaflets and newspapers, and earn extra in your free time. Mainly at weekends.\n■■■■■■\nYour own car is an advantage.\nInterested? Apply for the job at:\nwww.flexomdeling.dk"
+     },
+     {
+      "title": "C",
+      "body": "■■■■■■\nAll repairs are carried out by experienced mechanics.\nYou can borrow a car for free while your own is being repaired.\nService only 995,-.\nCall now and book a time.\nCity-Mekanikeren\nNørregade 2 – Tel. 52 43 20 13"
+     },
+     {
+      "title": "D",
+      "body": "■■■■■■\nAt Start Godt we have what you need for the newborn and for the child's first year. Popular brands and good offers in our newly opened webshop. See for example our huge range of changing tables, cots and baby carriers.\nStart Godt\nwww.startgodt.dk"
+     },
+     {
+      "title": "E – Summer is here!",
+      "body": "■■■■■■\nThat is why it is important to protect yourself against the sun's strong rays!\nWe have a wide range of different sun creams with a high factor.\nwww.alticremer.dk"
+     },
+     {
+      "title": "F",
+      "body": "■■■■■■\nGive your baby a lovely experience.\nThe lessons take place in warm water together with the parents.\nWe have classes every weekday.\nRead more about our different classes at www.nygaard-svoemmehal.dk\nNygaard Svømmehal (swimming pool)"
+     },
+     {
+      "title": "G",
+      "body": "■■■■■■\nThen treat yourself to a stay at one of our destinations, where high temperatures and total relaxation are guaranteed.\nBook one of our fantastic hotels with half or full board.\nFerieexperten\nTel. 28 77 43 18"
+     },
+     {
+      "title": "H",
+      "body": "■■■■■■\nLarge selection – also vans and minibuses at unbeatable prices.\nFrom 249 kr. per day.\nFree loan of car seats for children.\nCall and get an offer from Book & Kør\nTel.: 38 60 52 08"
+     },
+     {
+      "title": "I",
+      "body": "■■■■■■\nI am a young girl of 14 who would like to work after school (about 5 hours a week).\nEverything is of interest. E.g.\n• Childcare\n• Cleaning\n• Dog walking\nCall Signe on 64 80 12 78"
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "Which advertisement are the words missing from?",
+    "items": [
+     "The car is very well kept.",
+     "Everything in baby equipment.",
+     "Do you miss sun and warmth?",
+     "Car hire.",
+     "Weekly working hours about 10 hours.",
+     "Newly opened car workshop.",
+     "Part-time job wanted."
+    ]
+   }
+  ]
+ },
+ "p20n-3": {
+  "title": "Task 3 – A lovely surprise",
+  "instruction": "Read the text. Eight words are missing in the text (13-20). Choose the missing words. There are five words you do not need to use. See the example (0).",
+  "text": "Allan and Lena have been married for 3 years. They both have good jobs, but they have [[0]] working days, and they often feel they have too little time for each other.\n\nIt is Friday, and Allan has just finished work. This day is very [[13]], because it is Allan and Lena's wedding anniversary, and they want to celebrate it with a romantic dinner at an Italian restaurant. On the way home Allan buys flowers for Lena. When he gets home, Lena is already there, because she finished work [[14]] than him. Allan gives her the flowers and a kiss, and then they go in to change their clothes before they go to the restaurant.\n\nSuddenly there is a knock at the door, and they are a little surprised, because they have [[15]] invited any guests. Allan opens the door, and outside stands his mother-in-law. He invites his mother-in-law in, [[16]] he and Lena are in a bit of a hurry. But he tells her that unfortunately they [[17]] have time to drink a quick cup of coffee with her, because they are going to a restaurant soon. While all three of them are sitting on the sofa drinking coffee, Allan's mother-in-law suddenly asks if she can come along to the restaurant. Allan becomes [[18]]. He likes his mother-in-law, but he does not feel like having her along at dinner, and he says that it is not very convenient. But then his mother-in-law laughs and explains that she was only joking, and that of course she is not coming along. She understands [[19]], you see, that Allan and Lena are looking forward to a romantic evening alone together. Then she takes an envelope out of her bag and gives it to Allan and Lena. In it there is a gift voucher for a trip for two to Italy. Allan and Lena are very happy, [[20]] now they are going both to an Italian restaurant and on a trip to Italy.",
+  "questions": [
+   {}
+  ]
+ },
+ "p20n-4": {
+  "title": "Task 4 – Andrea Cruz – a Mexican in Denmark",
+  "instruction": "Read the text. One sentence is missing in each section. Find the sentence (A-H) that fits in each section (21-25). There are two sentences you do not need to use. See the example (0).",
+  "text": "Andrea is 22 years old and comes from Mexico. Now she lives in Aarhus, where she also studies and works.\n\n**0.** Andrea was born and grew up in Mexico, but in 2018 she came to Denmark to study in Aarhus. At first her plan was that she would only be in Denmark for six months. [[0]]. She quickly came to like being in the country, you see, and after the six months she decided that she would stay and finish her education.\n\n**21.** Andrea is studying to be an engineer at Aarhus University. It is an international programme, so there are students from both Denmark and other countries on her course, and the teaching is in English. [[21]]. She knows quite a lot of Danish, but she is much better at English. So it gives her the chance to take her education in Denmark in a language she is really good at.\n\n**22.** Alongside her studies Andrea also has a student job at a small Spanish restaurant in the middle of town. Here she works as a waitress a couple of times a week. [[22]]. She would like to earn some money, but the pay could be better, and she does not think the job is particularly exciting. So she has tried to find another student job, but unfortunately she has not succeeded yet.\n\n**23.** Andrea has a Danish boyfriend called Emil. They have known each other for about a year, and they are very fond of each other. But Emil lives and works in a town a little outside Aarhus, and they are both busy in everyday life, so they do not see each other very often. [[23]]. Emil has rented a flat in Aarhus from next month, you see, and they have agreed that Andrea will move into it with him so they can be together more.\n\n**24.** Andrea is looking forward to moving in with Emil, and she thinks she has a good chance of finding a job as an engineer in Denmark when she has finished her studies. So she has decided to stay on in Aarhus. Emil thinks that is a good decision. [[24]]. They would prefer her to move back to Mexico when she has finished her studies, you see.\n\n**25.** Andrea misses her parents, and she would like to see them again soon. She talks to Emil about it, and he has a good idea. [[25]]. He also offers to pay for the trip. Andrea is very happy, and she immediately calls her parents and tells them that she and Emil are coming to visit soon. She is looking forward to seeing them again and to showing Emil the city and the country she comes from.",
+  "questions": [
+   {}
+  ]
+ },
+ "p20n-5": {
+  "title": "Task 5 – Interview with Mehmet",
+  "instruction": "Read the interview. Find the section (A-H) that matches each of the five questions (26-30). There are two sections you do not need to use. See the example (0).",
+  "sections": [
+   {
+    "heading": "Interview with Mehmet – self-employed with his own restaurant",
+    "cards": [
+     {
+      "title": "A",
+      "sub": "Example",
+      "body": "It has always been my dream. I have worked at several different restaurants, and even though it has been fine, I have always wanted to try doing things my own way and start my own place."
+     },
+     {
+      "title": "B",
+      "body": "It is that I now have a restaurant that is exactly the way I want it to be. If my staff have a good idea, of course I listen to them, but I am the one who decides and makes the big decisions, and that suits me really well."
+     },
+     {
+      "title": "C",
+      "body": "Yes, luckily it is. In general our customers seem very satisfied with the food, and they are good at recommending us to others. So we keep getting more customers. That means a lot, especially here in Copenhagen, where there are lots of places to eat and the competition for customers is tough."
+     },
+     {
+      "title": "D",
+      "body": "No, not particularly. Of course I can feel that I have more responsibility now, but that is okay. And for example it is not new for me to work many hours every day. I did that before I got my own restaurant too. Now I just work for myself instead, and that gives me extra energy."
+     },
+     {
+      "title": "E",
+      "body": "Lots of different things! The most important thing is definitely that you think carefully about where your restaurant should be. That can make a big difference to whether it goes well. But it is also important that you hire staff who turn up reliably and are good at what they do."
+     },
+     {
+      "title": "F",
+      "body": "That is hard to say. They can see how happy I am with my restaurant, and they know that it has always been my big dream to open my own place. And they often tell me that I should not feel bad about not being at home very much. But I still think they miss me sometimes."
+     },
+     {
+      "title": "G",
+      "body": "No, unfortunately not. The restaurant is going really well, and that is great, of course. But it also means that it is busy and that I have to be there a lot. In fact I can only take a single day off if I have something very important to do. But I hope it will get better in a year or two."
+     },
+     {
+      "title": "H",
+      "body": "To put it briefly, my most important task is of course to run the restaurant and the staff. That means, for example, that I am the one who orders goods and is responsible for the budget, rotas and accounts. But on a busy day with lots of customers I also help my staff in the kitchen."
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "Which section answers the question?",
+    "items": [
+     "Why did you choose to open a restaurant?",
+     "Is the restaurant going well?",
+     "What do you do in the restaurant?",
+     "Is it hard to be self-employed?",
+     "What is the best thing about being self-employed?",
+     "Do you have time for anything other than the restaurant?"
+    ]
+   }
+  ]
  }
 };

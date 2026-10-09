@@ -2,6 +2,13 @@
 window.PD2 = window.PD2 || {};
 PD2.TASK_EN = {
 
+  w20na: { s: "You have a colleague who is retiring soon. You will write a thank-you letter to your colleague. Write the thank-you letter. You must begin and end the thank-you letter in a suitable way. (At the exam you choose task A or B.)",
+    p: ["Thank him/her for being a good colleague", "Tell him/her what you have learned from your colleague", "Tell him/her why you will miss your colleague at the workplace", "Invite your colleague for a cup of coffee"] },
+  w20nb: { s: "You are going to open a new shop in the town where you live. You will write a post on Facebook in which you tell people about the shop and the first opening day. Write the post. You must begin and end the post in a suitable way. (At the exam you choose task A or B.)",
+    p: ["A little about your new shop, and where the shop is", "A little about what you sell in your shop", "When the shop opens for the first time (date and time)", "What happens in the shop on the first opening day (e.g. offers, competitions, music)"] },
+  w20nc: { s: "You have received an e-mail from your friend Johan. Among other things he writes: “… Congratulations! I've heard that you have won 2 million. That is absolutely fantastic! Write and tell me how you won the money, and what you are going to spend it on…” Write a reply to Johan and tell him how you won 2 million, and what you are going to spend the money on. You must write at least 100 words.",
+    p: ["Tell him how you won the 2 million", "Tell him how you felt when you found out", "Tell him what you are going to spend the money on", "Tell him whether you will give some of the money to others"] },
+
   w21na: { s: "Your 8-year-old son has to change schools because you are moving. You and your son have both been happy with his class teacher, whose name is Mette. So you will write a thank-you letter to her. Write the thank-you letter to your son's teacher Mette. You must begin and end the thank-you letter in a suitable way. (At the exam you choose task A or B.)",
     p: ["Tell her where you are moving to, and why you are moving", "Thank Mette for her good work", "Tell her why you and your son have been happy with her", "Tell her how your son will keep in touch with his old classmates"] },
   w21nb: { s: "You would like to rent out your flat for a year, because you will not be using it yourself. You will write a post on Facebook. Write the post. You must begin and end the post in a suitable way. (At the exam you choose task A or B.)",

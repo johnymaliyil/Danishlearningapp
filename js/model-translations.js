@@ -2,6 +2,54 @@
 // Each translation has the same paragraphs, in the same order, as the Danish model answer,
 // so the app can show them side by side.
 PD2.MODEL_EN = {
+  w20na: `Dear everyone in the warehouse – and especially dear Bente
+
+Thank you so much for the six years we have worked together. You have been a really good colleague, and you have always been helpful and in a good mood.
+
+I have learned a lot from you. When I started, I could hardly speak Danish, but you took the time to explain things to me. You also taught me to drive a forklift and to plan my work.
+
+I am going to miss you at the workplace, because you always made us laugh in the lunch breaks. It will not be the same without you.
+
+Now I have to get used to working without you, but I would like to keep in touch. Would you like to come round to my place for a cup of coffee one day next month?
+
+Once again, thank you so much for everything. I hope we will see each other soon!
+
+Best wishes
+Hassan`,
+  w20nb: `New shop opening in Vejle!
+
+Hi everyone
+
+My name is Maria, and I am writing because I will soon be opening my own shop, Marias Te & Kaffe (Maria's Tea & Coffee). The shop is on Søndergade 12 in the centre of Vejle, right next to the pharmacy.
+
+In the shop I sell coffee and tea from all over the world. I also sell chocolate, biscuits and beautiful cups and pots, which make good presents.
+
+The shop opens for the first time on Saturday 5 December at 10.00.
+
+On the opening day all customers get a free cup of coffee and a piece of cake, and there is 20% off all goods. There is also a competition where you can win a big gift basket, and a guitarist will be playing Christmas music all day.
+
+If you have any questions, call or write to me on 41 22 63 85.
+
+Thanks in advance! I look forward to seeing you.
+
+Best wishes
+Maria`,
+  w20nc: `Hi Johan
+
+Thanks for your e-mail. It was lovely to hear from you. I hope you are well. I am fine. In fact I am absolutely fantastic!
+
+You ask about the 2 million, and I would like to tell you a little about it.
+
+First of all, I won the money in the Lotto. I play every week with the same numbers, namely the birthdays in my family. Last Saturday I had all seven right. I did not believe it until the bank called me on the Monday.
+
+Besides that, I have already planned what I will spend the money on. First I will pay off the debt on our house and buy a new car, because our old car keeps breaking down. Then I will take my family on a long holiday in Thailand.
+
+Finally, I would like to say that I will also give some of the money to my parents and save the rest for my children's education.
+
+I look forward to hearing from you. See you soon!
+
+Best wishes
+Samir`,
   w21na: `Dear everyone in 2.B – and especially dear Mette
 
 Thank you so much for your good work as Oliver's class teacher. As you know, Oliver has to change schools because we are moving to Odense in December. I have got a new job at the hospital there.
