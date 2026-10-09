@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "54"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "55"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -315,6 +315,8 @@
     [/^\/mistakes$/, mistakesPage],
     [/^\/about$/, about],
     [/^\/legal$/, legalPage],
+    [/^\/review$/, reviewPage],
+    [/^\/backup$/, backupPage],
     [/^\/feedback(?:\/([1-5]))?$/, feedbackPage]
   ];
   let lastPath = "/";
@@ -473,6 +475,10 @@
         </div>
       </section>
 
+      ${(() => { const due = srsDueCount(); return `<a class="card plan-banner review-banner" href="#/review">
+        <span class="pb-ico">🔁</span><span class="pb-meta"><b>Dagens repetition</b>
+        <span class="small muted">${due ? `${due} kort klar: dine fejl, svære ord og nye ord` : "Lær nye ord fra listen over de 3000 hyppigste"}</span></span>
+        <span class="pill">${due ? due : "Start"}</span></a>`; })()}
       ${(() => { const st = planStatus(); return `<a class="card plan-banner" href="#/plan">
         <span class="pb-ico">📅</span><span class="pb-meta"><b>${esc(countdownText())}</b>
         <span class="small muted">${S.plan.date ? `Dagens plan: ${st.done}/${st.items.length} klaret` : "Lav en prøveplan med opgaver til hver dag"}</span></span>
@@ -539,6 +545,7 @@
         <a class="btn ghost sm" href="#/about">ℹ️ Om ${META().name}-prøven</a>
         ${FEEDBACK_TO ? `<a class="btn ghost sm" href="#/feedback">⭐ Bedøm / giv feedback</a>` : ""}
         ${kofiBtn()}
+        <a class="btn ghost sm" href="#/backup">💾 Gem/hent fremskridt</a>
         <button class="btn ghost sm" data-share>📤 Del DanskKlar</button>
         <a class="btn ghost sm" href="#/legal">⚖️ Privatliv og vilkår</a>
         <span class="spacer"></span>
@@ -2272,12 +2279,12 @@
       if (kind === "ord") {
         const pool = data.slice(Math.max(0, range - 500), range), r = pick(pool);
         const opts = shuffle([r[1], ...shuffle(pool.filter(x => x[1] !== r[1])).slice(0, 3).map(x => x[1])]);
-        return { kind: "mc", da: r[0], opts, answer: r[1] };
+        return { kind: "mc", da: r[0], opts, answer: r[1], srs: ["w:" + r[0], { t: "w", w: r[0] }] };
       }
       if (kind === "verber") {
         const r = pick(data), [i, name, hint] = pick(VF);
         const ans = r[i].split(/\s*\/\s*/).map(a => a.replace(/^(har|er|har\/er)\s+/, ""));
-        return { kind: "type", prompt: `<b>at ${esc(r[0])}</b> <span class="muted small" lang="en">(${esc(r[7] || "")})</span><br>Skriv <b>${name}</b> <span class="muted small">– ${esc(hint)}</span>`, accept: [r[i], ...ans], show: r[i], say: r[i] };
+        return { kind: "type", prompt: `<b>at ${esc(r[0])}</b> <span class="muted small" lang="en">(${esc(r[7] || "")})</span><br>Skriv <b>${name}</b> <span class="muted small">– ${esc(hint)}</span>`, accept: [r[i], ...ans], show: r[i], say: r[i], srs: [`v:${r[0]}:${i}`, { t: "v", inf: r[0], name, a: r[i] }] };
       }
       let r, f;
       do { r = pick(data); f = pick(AF); } while (!r[f[0]] || r[f[0]] === "-");
@@ -2302,6 +2309,7 @@
       $$("[data-range]").forEach(b => b.onclick = () => { range = +b.dataset.range; S.wl.range = range; save(); n = 0; score = 0; show(); });
       const done = ok => {
         if (ok) score++;
+        else if (q.srs) srsAdd(q.srs[0], q.srs[1]);
         $("#qfb").innerHTML = `<p>${ok ? "✅ Rigtigt!" : `❌ Det rigtige svar er: <b>${esc(q.kind === "mc" ? q.answer : q.show)}</b>`}</p>
           <button class="btn write" id="qnext">${n + 1 < ROUND ? "Næste →" : "Se resultat"}</button>`;
         if (q.say) speak(q.say);
@@ -3477,7 +3485,7 @@
           const ok = b.dataset.o === answer;
           b.classList.add(ok ? "ok" : "bad");
           if (!ok) $$(".answers .choice").find(x => x.dataset.o === answer).classList.add("ok");
-          if (ok) score++;
+          if (ok) score++; else srsAdd(`v:${v[0]}:${i}`, { t: "v", inf: v[0], name, a: answer });
           setTimeout(next, ok ? 250 : 900);
         });
       }
@@ -3566,7 +3574,7 @@
         setTimeout(play, 250);
         const answer = mode === "meaning" ? w[1] : w[0];
         const done = ok => {
-          if (ok) score++;
+          if (ok) score++; else srsAdd("w:" + w[0], { t: "w", w: w[0] });
           $("#after").innerHTML = `<p>${ok ? "✅ Rigtigt!" : "❌ Ikke helt."} <b class="no-tr">${esc(w[0])}</b> = <span lang="en">${esc(w[1])}</span></p>
             <button class="btn words" id="nx">${n + 1 < ROUNDS ? "Næste →" : "Se resultat"}</button>`;
           $("#nx").focus();
@@ -3691,6 +3699,150 @@
     };
   }
 
+  // ---------- Dagens repetition (spaced repetition) ----------
+  // Cards come from: words you starred/got wrong, verb forms you missed, and your reading/grammar mistakes.
+  // Each card has a box 1-5; a right answer moves it up (seen again after 1, 3, 7, 14, 30 days), a wrong one back to box 1.
+  const SRS_DAYS = [0, 1, 3, 7, 14, 30];
+  const addDays = (d, n) => { const x = new Date(d + "T12:00:00"); x.setDate(x.getDate() + n); return x.toISOString().slice(0, 10); };
+  function srs() { S.srs = S.srs || { items: {}, newIdx: 150, done: {} }; return S.srs; }
+  function srsAdd(key, data) {
+    const s = srs();
+    if (!s.items[key]) s.items[key] = Object.assign({ box: 1, due: today() }, data);
+    else { s.items[key].box = 1; s.items[key].due = today(); }
+  }
+  // Collect cards from the rest of the app (cheap; run when the review opens).
+  function srsSync() {
+    Object.keys(S.vocab.h || {}).forEach(w => { if (!srs().items["w:" + w]) srsAdd("w:" + w, { t: "w", w }); });
+    Object.entries(S.mistakes.reading || {}).forEach(([id, m]) => (m.items || []).forEach(it => { const k = `r:${id}:${it.q}`; if (!srs().items[k]) srsAdd(k, { t: "r", id, q: it.q, a: it.a }); }));
+    Object.entries(S.mistakes.grammar || {}).forEach(([id, m]) => (m.items || []).forEach(it => { const k = `g:${id}:${it.q}`; if (!srs().items[k]) srsAdd(k, { t: "g", id, q: it.q, a: it.a }); }));
+  }
+  const srsDue = () => Object.entries(srs().items).filter(([, c]) => c.due <= today()).map(([k, c]) => Object.assign({ k }, c));
+  const srsDueCount = () => { srsSync(); return srsDue().length; };
+  const enOf = w => { const f = freqMap().get(w.toLowerCase()); return f ? f.en : (PD2.translate && PD2.translate(w)) || ""; };
+
+  function reviewPage() {
+    srsSync();
+    const s = srs(), SIZE = 20;
+    let cards = shuffle(srsDue()).slice(0, SIZE);
+    // Top up with new words from the frequency list so there is always something to learn.
+    const NEW = Math.max(0, 8 - cards.length), F = PD2.FREQ || [];
+    for (let i = 0; i < NEW && s.newIdx < F.length; i++, s.newIdx++) {
+      const w = F[s.newIdx][0];
+      if (/\s/.test(w) || s.items["w:" + w]) { i--; continue; }
+      srsAdd("w:" + w, { t: "w", w, fresh: true }); cards.push(Object.assign({ k: "w:" + w }, s.items["w:" + w]));
+    }
+    save();
+    let n = 0, right = 0;
+    const again = [];
+    if (!cards.length) {
+      app.innerHTML = `<a class="back" href="#/">← Forside</a><h1>🔁 Dagens repetition</h1><div class="card stage"><div class="word-big">✅</div><p>Du er færdig for i dag! Kom igen i morgen.</p><a class="btn write" href="#/">Til forsiden</a></div>`;
+      return;
+    }
+    function grade(c, ok) {
+      const it = s.items[c.k]; if (!it) return;
+      delete it.fresh;
+      if (ok) { it.box = Math.min(5, (it.box || 1) + 1); it.due = addDays(today(), SRS_DAYS[it.box]); right++; }
+      else { it.box = 1; it.due = addDays(today(), 1); if (!c.again) again.push(Object.assign({}, c, { again: true })); }
+      save();
+    }
+    function show() {
+      if (n >= cards.length && again.length) cards = cards.concat(again.splice(0));
+      if (n >= cards.length) return finish();
+      const c = cards[n], total = cards.length;
+      let body = "";
+      const head = `<a class="back" href="#/">← Forside</a><h1>🔁 Dagens repetition</h1>
+        <div class="row" style="justify-content:space-between;margin-bottom:8px"><span class="pill">${n + 1}/${total}</span><span class="pill">✅ ${right}</span></div>`;
+      if (c.t === "w") {
+        const en = enOf(c.w) || "?";
+        const pool = (PD2.FREQ || []).filter(x => x[1] !== en);
+        const opts = shuffle([en, ...shuffle(pool).slice(0, 3).map(x => x[1])]);
+        body = `<div class="card stage">${c.fresh ? `<span class="tag">Nyt ord</span>` : `<span class="tag">Ord · boks ${c.box}</span>`}
+          <div class="word-big no-tr">${esc(c.w)}</div><button class="btn ghost sm" id="rsay">🔊 Hør</button>
+          <p>Hvad betyder ordet?</p><div class="answers" lang="en">${opts.map(o => `<button class="choice" data-o="${esc(o)}">${esc(o)}</button>`).join("")}</div><div id="rfb" class="quiz-after"></div></div>`;
+        app.innerHTML = head + body;
+        $("#rsay").onclick = () => speak(c.w); speak(c.w);
+        let locked = false;
+        $$(".choice").forEach(b => b.onclick = () => {
+          if (locked) return; locked = true;
+          const ok = b.dataset.o === en; b.classList.add(ok ? "ok" : "bad");
+          if (!ok) $$(".choice").find(x => x.dataset.o === en).classList.add("ok");
+          grade(c, ok); next(ok, `<b class="no-tr">${esc(c.w)}</b> = <span lang="en">${esc(en)}</span>`);
+        });
+      } else if (c.t === "v") {
+        body = `<div class="card stage"><span class="tag">Verbum · boks ${c.box}</span>
+          <div class="word-big no-tr">at ${esc(c.inf)}</div><p>Skriv <b>${esc(c.name)}</b></p>
+          <input class="short" id="rin" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Skriv svaret …">
+          <div class="row" style="justify-content:center;margin-top:10px"><button class="btn write" id="rchk">Tjek</button></div><div id="rfb" class="quiz-after"></div></div>`;
+        app.innerHTML = head + body;
+        const inp = $("#rin"); inp.focus();
+        const chk = () => {
+          if ($("#rchk").disabled) return; $("#rchk").disabled = true; inp.disabled = true;
+          const v = norm(inp.value), ok = [c.a, c.a.replace(/^(har|er|har\/er)\s+/, "")].some(a => norm(a) === v);
+          inp.classList.add(ok ? "ok" : "bad"); grade(c, ok); next(ok, `<b class="no-tr">${esc(c.inf)} → ${esc(c.a)}</b>`); speak(c.a);
+        };
+        $("#rchk").onclick = chk; inp.onkeydown = e => { if (e.key === "Enter") { e.preventDefault(); chk(); } };
+      } else {
+        // Reading/grammar mistake: recall the answer, then rate yourself.
+        const src = c.t === "r" ? (findAny("READING", c.id) || {}).title : ((PD2.GRAMMAR || []).find(g => g.id === c.id) || {}).title;
+        body = `<div class="card stage"><span class="tag">${c.t === "r" ? "📖 Fejl i læsning" : "📐 Fejl i grammatik"} · boks ${c.box}</span>
+          <p class="small muted">${esc(src || "")}</p><p style="font-weight:800;font-size:1.1rem" class="no-tr">${esc(c.q)}</p>
+          <p class="muted">Tænk på svaret – tryk så for at se det.</p>
+          <button class="btn write" id="rshow">Vis svaret</button><div id="rfb" class="quiz-after"></div></div>`;
+        app.innerHTML = head + body;
+        $("#rshow").onclick = () => {
+          $("#rshow").remove();
+          $("#rfb").innerHTML = `<p>Svar: <b class="no-tr">${esc(c.a)}</b></p><p class="small muted">Vidste du det?</p>
+            <div class="row" style="justify-content:center"><button class="btn write" id="rgood">✅ Ja</button><button class="btn ghost" id="rbad">❌ Nej</button></div>`;
+          $("#rgood").onclick = () => { grade(c, true); n++; show(); };
+          $("#rbad").onclick = () => { grade(c, false); n++; show(); };
+        };
+      }
+    }
+    function next(ok, info) {
+      $("#rfb").innerHTML = `<p>${ok ? "✅ Rigtigt!" : "❌ Ikke helt."} ${info}</p><button class="btn write" id="rnext">Næste →</button>`;
+      $("#rnext").focus(); $("#rnext").onclick = () => { n++; show(); };
+    }
+    function finish() {
+      s.done[today()] = (s.done[today()] || 0) + n;
+      bump("vocab"); addXP(right * 2 + 10, "dagens repetition"); save();
+      const left = srsDue().length;
+      confetti();
+      app.innerHTML = `<a class="back" href="#/">← Forside</a><h1>🔁 Dagens repetition</h1>
+        <div class="card stage"><div class="word-big">${right}/${n}</div><p style="font-weight:800">Godt arbejde! 💪</p>
+          <p class="muted">${left ? `Der er ${left} kort mere klar.` : "Du er færdig for i dag. Kom igen i morgen – så kommer de næste ord og dine fejl igen på det rigtige tidspunkt."}</p>
+          <div class="row" style="justify-content:center">${left ? `<button class="btn write" id="rmore">Fortsæt</button>` : ""}<a class="btn ghost" href="#/">Til forsiden</a></div></div>`;
+      if (left) $("#rmore").onclick = reviewPage;
+    }
+    show();
+  }
+
+  // ---------- Gem og hent fremskridt (backup) ----------
+  function backupPage() {
+    app.innerHTML = `<a class="back" href="#/">← Forside</a><h1>💾 Gem og hent dit fremskridt</h1>
+      <p class="muted">Dit fremskridt gemmes kun i denne browser. Gem det som en fil, så kan du hente det igen på en ny telefon eller computer – uden login.</p>
+      <div class="card"><h2>1. Gem en fil</h2><p>Filen indeholder dine point, svar, kladder, fejl, ord og indstillinger.</p>
+        <button class="btn write" id="bdl">💾 Download min fil</button></div>
+      <div class="card" style="margin-top:14px"><h2>2. Hent en fil</h2><p>Vælg en fil, du har gemt før. <b>Det erstatter dit nuværende fremskridt i denne browser.</b></p>
+        <input type="file" id="bfile" accept="application/json,.json">
+        <p class="small" id="bmsg" role="status"></p></div>`;
+    $("#bdl").onclick = () => {
+      const blob = new Blob([JSON.stringify({ app: "DanskKlar", version: APP_VERSION, saved: new Date().toISOString(), data: S }, null, 1)], { type: "application/json" });
+      const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = `danskklar-fremskridt-${today()}.json`;
+      document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
+      toast("💾 Filen er gemt");
+    };
+    $("#bfile").onchange = async e => {
+      const f = e.target.files[0], msg = $("#bmsg");
+      if (!f) return;
+      try {
+        const j = JSON.parse(await f.text()), d = j && j.app === "DanskKlar" ? j.data : null;
+        if (!d || typeof d !== "object" || typeof d.xp !== "number" || !d.reading) throw new Error("bad");
+        msg.innerHTML = `Filen er fra ${esc((j.saved || "").slice(0, 10))} med ${d.xp} XP. <button class="btn write sm" id="bok">Hent fremskridtet</button>`;
+        $("#bok").onclick = () => { S = Object.assign(blank(), d); save(); location.hash = "#/"; location.reload(); };
+      } catch (err) { msg.textContent = "Filen kunne ikke læses. Vælg en fil, du har gemt fra DanskKlar."; }
+    };
+  }
+
   // ---------- Del appen ----------
   const SHARE_URL = "https://danskklar.com/";
   const SHARE_TEXT = "DanskKlar – gratis app til at øve Prøve i Dansk 1, 2 og 3: læsning, skrivning, tale, grammatik og ord.";
@@ -3745,7 +3897,7 @@
           <h3>Dataansvarlig</h3>
           <p>Dataansvarlig for de få oplysninger, DanskKlar modtager (kun feedback, som du selv sender), er ${LEGAL_OWNER ? `<b>${esc(LEGAL_OWNER)}</b>, privatperson og ejer af DanskKlar` : "privatpersonen bag DanskKlar"}${FEEDBACK_TO ? `, e-mail ${mail}` : ""}.</p>
           <h3>Dine data bliver på din enhed</h3>
-          <p>Dit fremskridt (XP, svar, kladder, fejl, prøveplan, ord du har lært, indstillinger) gemmes kun i din egen browser (localStorage) på din enhed. Det bliver ikke sendt til os eller andre. Du kan slette det når som helst med <b>Nulstil fremskridt</b> på forsiden eller ved at rydde browserens data for danskklar.com.</p>
+          <p>Dit fremskridt (XP, svar, kladder, fejl, prøveplan, ord du har lært, indstillinger) gemmes kun i din egen browser (localStorage) på din enhed. Det bliver ikke sendt til os eller andre. Du kan slette det når som helst med <b>Nulstil fremskridt</b> på forsiden eller ved at rydde browserens data for danskklar.com. Med <b>💾 Gem/hent fremskridt</b> kan du selv gemme det som en fil på din enhed – filen bliver ikke sendt til os.</p>
           <h3>Vi indsamler ikke data om dig</h3>
           <p>Vi bruger ingen statistik- eller sporingsværktøjer, ingen reklamenetværk og ingen sociale-medie-knapper, der sporer dig. Skrifttypen ligger på vores egen server, så din browser ikke kontakter Google for at hente den.</p>
           <h3>Feedback og bedømmelse</h3>
