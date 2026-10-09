@@ -498,6 +498,8 @@ PD2.I18N.en = {
 "Indholdet er lavet med omhu, men vi kan ikke garantere, at alt er korrekt eller opdateret. Modelsvar, skabeloner, oversættelser, karakterer og vurderinger er vejledende og": "The content is made with care, but we cannot guarantee that everything is correct or up to date. Model answers, templates, translations, grades and assessments are for guidance only and",
 "Indledning, midte og afslutning? Afsnit?": "Introduction, middle and ending? Paragraphs?",
 "Indstillinger": "Settings",
+"Indstillinger · tema, hjælp": "Settings · theme, help",
+"Støt": "Support",
 "Indstillinger · tema, hjælp, støt": "Settings · theme, help, support",
 "Informationstekst ·": "Informative text ·",
 "Ingen": "None",
