@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "57"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "58"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -194,6 +194,7 @@
       <span class="examsw" role="group" aria-label="Vælg prøve">${examButtons()}</span>
       <span class="pill" title="Dage i træk">🔥 ${S.streak}</span>
       <span class="pill" title="Niveau ${level()}">⭐ ${S.xp} XP</span>
+      <button class="pill theme-pill" data-theme-pick title="Skift tema / change theme" aria-label="Tema">🎨</button>
       <a class="pill help-pill" href="#/help" lang="en" title="Help – all features explained in English" aria-label="Help">❓<span class="help-txt"> Help</span></a>
       ${KOFI ? `<a class="pill kofi-pill" href="https://ko-fi.com/${encodeURIComponent(KOFI)}" target="_blank" rel="noopener" title="Støt DanskKlar på Ko-fi" aria-label="Støt DanskKlar på Ko-fi"><span class="cup" aria-hidden="true"><i></i><i></i><i></i>☕</span><span class="kofi-txt"> Støt</span></a>` : ""}`;
   }
@@ -3909,6 +3910,36 @@
     </div>`;
     $$("[data-hj]").forEach(a => a.onclick = e => { e.preventDefault(); const t = document.getElementById(a.dataset.hj); if (t) t.scrollIntoView({ behavior: "smooth", block: "start" }); });
   }
+
+  // ---------- Tema (look and feel) ----------
+  const THEMES = [
+    ["nordic", "Nordisk blå", "Lys og rolig · følger telefonens mørke tilstand", ["#f5f8fc", "#ffffff", "#2563eb", "#38bdf8"]],
+    ["red", "Dansk rød", "Den klassiske danske røde", ["#fbf7f2", "#ffffff", "#c8102e", "#e2475f"]],
+    ["green", "Skovgrøn", "Frisk og naturlig", ["#f3f8f3", "#ffffff", "#15803d", "#34b46c"]],
+    ["dark", "Mørk", "Behageligt om aftenen", ["#15131a", "#1f1c25", "#2563eb", "#7aa2ff"]]
+  ];
+  const curTheme = () => { try { return localStorage.getItem("dk-theme") || "nordic"; } catch (e) { return "nordic"; } };
+  function applyTheme(t) {
+    const r = document.documentElement, m = { nordic: ["nordic", ""], red: ["red", "light"], green: ["green", "light"], dark: ["nordic", "dark"] }[t] || ["nordic", ""];
+    r.setAttribute("data-skin", m[0]);
+    if (m[1]) r.setAttribute("data-theme", m[1]); else r.removeAttribute("data-theme");
+    try { localStorage.setItem("dk-theme", t); } catch (e) { /* ignore */ }
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.content = (THEMES.find(x => x[0] === t) || THEMES[0])[3][t === "dark" ? 0 : 2];
+  }
+  function themePicker() {
+    const cur = curTheme();
+    openEnPop("🎨 Vælg tema", `<p class="small muted" style="margin-top:-4px">Skift farver og udseende. Valget gemmes i denne browser.</p>
+      <div class="theme-grid">${THEMES.map(([id, name, desc, c]) => `<button class="theme-opt ${id === cur ? "on" : ""}" data-theme-set="${id}">
+        <span class="theme-swatch">${c.map(x => `<i style="background:${x}"></i>`).join("")}</span>
+        <b>${esc(name)}</b><span class="small muted">${esc(desc)}</span></button>`).join("")}</div>`, true);
+    $$("[data-theme-set]").forEach(b => b.onclick = () => {
+      applyTheme(b.dataset.themeSet);
+      $$("[data-theme-set]").forEach(x => x.classList.toggle("on", x === b));
+    });
+  }
+  document.addEventListener("click", e => { if (e.target.closest("[data-theme-pick]")) { e.preventDefault(); themePicker(); } });
+  applyTheme(curTheme());
 
   // ---------- Del appen ----------
   const SHARE_URL = "https://danskklar.com/";
