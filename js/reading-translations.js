@@ -6124,5 +6124,307 @@ PD2.READING_EN = {
     ]
    }
   ]
+ },
+ "p21m-1": {
+  "title": "Task 1 – Find the information",
+  "instruction": "Answer the questions (1-6). Find the information in the texts. Answer briefly and precisely. See the example: \"Which restaurant sells pizza with rhubarb?\" – PzNordic.",
+  "sections": [
+   {
+    "heading": "Good pizzas in Copenhagen",
+    "cards": [
+     {
+      "title": "PzNordic",
+      "sub": "Gothersgade 153, 1123 København K",
+      "body": "PzNordic, between Kongens Have and the Botanical Garden, combines the best of two food traditions, namely the Italian and the Nordic. The two owners, Davide Maganuco and Morten Frydensdal, are passionate about gourmet pizza that changes depending on the colour of the season's leaves out on the trees.\nExpect ingredients such as oyster mushroom purée, burnt leek dust and pickled rhubarb. You have probably never had your pizza like that before."
+     },
+     {
+      "title": "Forno a Legna",
+      "sub": "Falkoner Allé 42, 2000 Frederiksberg",
+      "body": "At Forno a Legna in Frederiksberg they have specialised in white pizzas. This means that you can have your favourite food without the traditional tomato sauce that otherwise forms the base of many pizzas. The base is crisp and crunchy, and there are countless Italian delicacies you can choose as topping."
+     },
+     {
+      "title": "Mother",
+      "sub": "Høkerboderne 9-15, 1712 København V",
+      "body": "Mother in the Meatpacking District is one of the city's safest bets if you want to taste the Italian national dish. The base is made with sourdough, which of course you can taste. When you work with sourdough, there is always a mother sourdough, and that is in fact where the name Mother comes from. Owner David Biffani has had an almost full house since the first opening day, and people flock not only to the popular pizzas but also enjoy the raw surroundings in the Meatpacking District, where you can also sit outside on the many benches."
+     },
+     {
+      "title": "Hos Fischer",
+      "sub": "Victor Borges Plads 12, 2100 København Ø",
+      "body": "Hos Fischer is run by David Fischer. Fischer worked at L'Arpège in Paris and for a couple of years at Rome's only three-star Michelin restaurant, La Pergola, before he opened Hos Fischer on Victor Borges Plads. In 2019 he went all in on pizza. The Roman kind – the one with an ultra-thin and crunchy base. You can really taste that Fischer knows instinctively that simple but superb ingredients make all the difference.\nHos Fischer always has 4-6 different pizzas on the menu, and they cost 100 kr."
+     },
+     {
+      "title": "Bæst",
+      "sub": "Guldbergsgade 29, 2200 København N",
+      "body": "Bæst makes a – yes – beast of a pizza. That is how it must be, of course, when the owner of the 1,000 m² restaurant is Christian Puglisi. With his Italian roots he has a pride in the ingredients like few others in the world. Yes, in the world. Bæst's pizza has several times been voted one of the world's 10 best pizzas. Their grilled base gives the best foundation for their home-made produce such as charcuterie and cheeses."
+     },
+     {
+      "title": "Frankies Pizza Nørrebro",
+      "sub": "Sortedam Dossering 5, 2200 København N",
+      "body": "Madklubben also wants to join in with the Italian. Their most used weapon is the Valoriani pizza ovens they have had installed, which bake one crisp, half-smoked pizza base after another – after just about a minute in the heat.\nWith a view straight over the Lakes there is also something for the eyes in here."
+     },
+     {
+      "title": "Behov – en spisebutik",
+      "sub": "Rentemestervej 94, 2400 København NV",
+      "body": "Everyone probably needs pizza. Out in Nordvest so much that they have named their joint after it (behov = need). Here you can even build-your-own-pizza, and no matter how many toppings you put on, the price is the same.\nAs with a house, you start from the bottom by choosing the dough: classic, wholemeal or gluten-free. Then you must choose red, white or green sauce and then the cheese, before you have a free choice in the ingredient lottery."
+     },
+     {
+      "title": "Tribeca NV",
+      "sub": "Bygmestervej 2, 2400 København NV",
+      "body": "Tribeca in Nordvest is nothing less than a real pizza and beer laboratory that has specialised in Sicilian stone-oven pizza. They constantly develop new flavour combinations, but always with organic ingredients. Tomato and mozzarella are fixed ingredients on the menu, but there is also always room for exotic ingredients such as 'nduja (spicy, spreadable Italian sausage), goat's cheese, asparagus and artichoke cream."
+     }
+    ],
+    "source": "Source: migogkbh.dk/her-faar-du-koebenhavns-bedste-pizza (24.11.2019, edited)"
+   },
+   {
+    "heading": "Holiday homes in West Jutland",
+    "cards": [
+     {
+      "title": "Holiday home no. 111",
+      "sub": "Bjerregård Strand",
+      "body": "Exciting holiday home with a large indoor swimming pool and a breathtaking view over the heath and the dunes by the North Sea. The house's lovely furnishings with, among other things, good bedrooms, a cosy kitchen-family room with a wood-burning stove, a hot tub and a sauna make the setting for a good and relaxing holiday. The beach is only 400 m away. Visit the area, e.g. Hvide Sande with a fishing harbour with the chance of water-skiing, surfing and fishing, or Bork Havn with a cosy fjord harbour and an exciting Viking museum. This is the perfect holiday home, where pets are also welcome, in a lovely area for the perfect holiday."
+     },
+     {
+      "title": "Holiday home no. 112",
+      "sub": "Blåvand",
+      "body": "This large, rustic holiday home is on a lovely heather plot. It has four bedrooms in all, and in addition there is a loft with two sleeping places. The cosy living room is directly connected to the kitchen and dining room. The living room has large panoramic windows with a view of the beautiful nature, and you get the feeling that nature has been let inside. At one end of the house there is a swimming pool, a hot tub and a sauna. On the terrace you can sit undisturbed and enjoy the fresh air. It is not far to a water park, tennis courts and a golf course. You are only allowed to bring one pet."
+     },
+     {
+      "title": "Holiday home no. 113",
+      "sub": "Bork Havn",
+      "body": "Unique house with a pool, built in a fine, modern style and containing everything you need on holiday. The pool room also has a large indoor spa. All the rooms are very spacious and have high ceilings, and both bathrooms are new. The well-equipped kitchen-family room with a wood-burning stove contains all the major appliances. Pets are allowed. The area is known for good surfing in Ringkøbing Fjord and the small, cosy harbour. There is a child-friendly beach nearby."
+     },
+     {
+      "title": "Holiday home no. 114",
+      "sub": "Henne Strand",
+      "body": "Lovely holiday home with a spa and a sauna and a unique location by Henne Strand. In many ways it is a practical house where all generations have been thought of. For the children there is, among other things, a good little loft that can be used as a den. Pets are allowed. The house's indoor pool area can be seen from the living room, so you can keep an eye on the children. Henne has one of Denmark's best nature areas, and in addition there is golf, riding and hiking almost right outside the door. The centre of Henne Strand with restaurants, shops and the west coast's best bathing beaches is within walking distance of the house."
+     },
+     {
+      "title": "Holiday home no. 115",
+      "sub": "Ho",
+      "body": "This well-kept holiday home is in scenic surroundings and close to Ho Golf Course and Ho Bay. The kitchen is open-plan with the dining and living room. The living room has tiles with loose rugs, and all the bedrooms have wooden floors. There are 5 lovely bedrooms and two nice bathrooms. The well-furnished living room has a wood-burning stove that spreads cosiness and warmth. From the living room you can keep an eye on the swimmers playing through the glass doors to the large indoor pool room with a swimming pool, a sauna and a hot tub. The house also has two lovely terraces, both with low walls to give shelter. Pets are allowed."
+     },
+     {
+      "title": "Holiday home no. 116",
+      "sub": "Houstrup",
+      "body": "Enjoy your holiday in this spacious and cosily furnished house with a larger kitchen-family room with an exit to the 35 m² outdoor swimming pool. The house is suitable for wheelchair users (the front door is 90 cm wide and the other doors 77 cm). The edge around the pool is 50 cm high. The house has several good bedrooms – in one of them a work and computer desk has been set up. You may have pets in the house. Enjoy the area on the paths on foot, on horseback and by bike. If you are lucky, you can see some of the red deer that live in the plantation."
+     },
+     {
+      "title": "Holiday home no. 117",
+      "sub": "Houvig",
+      "body": "In scenic surroundings north of Søndervig lies this magnificent thatched brick house, which is suitable for several families. The comfort in this holiday home is outstanding, and all the floors in the house are tiled. In the pool area you can take a dip and recharge in the warm, bubbling water of the hot tub. The 10,500 m² plot goes straight down to the beach. Pets are allowed. There is a large loft with sleeping space for two people, ideal for the family's children and teenagers. Søndervig is a cosy little town with craftspeople, grocery shops, restaurants and cafés."
+     },
+     {
+      "title": "Holiday home no. 118",
+      "sub": "Jegum",
+      "body": "Lovely holiday home with a large pool area, a hot tub and a sauna. The house is practically furnished with a larger kitchen-family room with a tiled floor and underfloor heating and an exit to a large terrace with a covered barbecue area. On the plot there is a large play castle with a slide and outdoor table tennis. Pets are welcome. Outrup Golf Course is seven km from the house, and there is a cycle path to one of the west coast's best bathing beaches at Hvidbjerg in Blåvand. If you want a slightly quieter beach, Børsmose Strand is ideal, and you may drive your car right down onto the beach."
+     },
+     {
+      "title": "Holiday home no. 119",
+      "sub": "Klegod",
+      "body": "In the magnificent nature of Holmsland Klit lies this tastefully furnished holiday home close to the sea and with a lovely view from the plot. The pool room invites activity and play in the 19 m² swimming pool, and there is also a hot tub and a sauna. Outdoors you can relax on the terrace, rest in the deckchairs and barbecue delicious meals. Pets are allowed. The house is in Klegod between the two attractive towns of Hvide Sande and Søndervig. In Klegod itself you will find, besides many good hiking and cycle paths, a cosy fishing lake and Lyngvig Lighthouse, from where you have the most beautiful view of both sea and fjord. Free fishing rights in part of Hover Å are also included in the rent."
+     },
+     {
+      "title": "Holiday home no. 120",
+      "sub": "Nymindegab",
+      "body": "This holiday home with an indoor swimming pool is on a large natural plot bordering Nyminde Klitplantage. The house has a lovely terrace with a swing and a sandpit. The living room is cosily and personally furnished and has direct access to the terrace as well as a wood-burning stove that warms on cool days. Please note that pets are not allowed. Experience the beautiful nature around the fjord on lovely walks or bike rides. If you are keen anglers, you can take a trip out to sea on a fishing boat. There are many possibilities in this lovely part of Denmark."
+     },
+     {
+      "title": "Holiday home no. 121",
+      "sub": "Vejers Strand",
+      "body": "Magnificent holiday home in the front row on a hilly dune plot very close to the North Sea. The finely decorated indoor pool area offers a large swimming pool, a hot tub and access to a sauna and a bathroom. The house is cosily furnished and pets are allowed. The kitchen is open-plan with the large dining and living room with a wood-burning stove. On the house's sheltered terrace you can relax with a cup of coffee while you cook a delicious meal on the barbecue. It is within walking distance of Vejers town, where there is, among other things, a sweet factory and a bakery. On one side of Vejers Strand driving is allowed, while the other part is car-free."
+     },
+     {
+      "title": "Holiday home no. 122",
+      "sub": "Vester Husby",
+      "body": "This thatched idyll offers the best possibilities for both a relaxing and an active holiday. The holiday home is in an old dune and plantation area with rich wildlife. The area is perfect for long walks, runs or bike rides on the marked paths, which among other places lead out to the North Sea. If you have not used all your energy out in nature, you can go for a brisk swim in the large indoor swimming pool. There is also a children's pool. The house is modern and suitable for several families. On the large enclosed terrace you can always find shelter when you want to enjoy the warm rays of the sun. Pets are allowed."
+     }
+    ],
+    "source": "Source: novasol.dk/feriehuse (29.11.2019, edited)"
+   },
+   {
+    "heading": "Boat trips on the Limfjord",
+    "cards": [
+     {
+      "title": "Tour no. 1: Sunset trip",
+      "body": "Our tour boat takes you on a cosy 2-hour evening trip on the Limfjord. Enjoy the breathtaking landscape around the Sallingsund Bridge and the beautiful area at Legind Vejle seen from the water.\nYou may bring your own picnic basket. Beer, soft drinks and wine must be bought on board.\nGuests who get on at Sallingsund Færgekro are welcome to come along to Nykøbing, where they can take the city bus back to Sallingsund at 20.15 for free."
+     },
+     {
+      "title": "Tour no. 2: Seal safari",
+      "body": "The Limfjord is teeming with seals. The population is estimated at 2,700 seals, an increase of no less than 80 per cent since 2010. Many of them live on Blinderøn. The seals usually lie in large groups and live on Blinderøn all year. In case of high tide, when the seals' resting places are flooded, an evening trip is sailed with the chance to admire the beautiful moler cliffs.\nDeparture from Nykøbing Harbour at 18.00, return at 21.00. Dinner can be bought: pork loin roasted like game with trimmings, followed by apple cake."
+     },
+     {
+      "title": "Tour no. 3: Island hop to Livø",
+      "body": "Sail with us to Livø. The little island is car-free, so it invites good walks. On the way there is plenty of opportunity to see seals, especially on the protected and inaccessible Livø Tap.\nThere is a stay of about 3 hours on the island, and lunch on Livø can be ordered through Morsø Tourist Office. You are also welcome to bring your own picnic basket. It is possible to get off on Fur. You can bring a bike/pram on the trip for 50 kr."
+     },
+     {
+      "title": "Tour no. 4: Around Mors",
+      "body": "The trip around Mors offers unique natural scenery. The landscape changes from north to south. From the rugged to the gentle and from low salt marshes to raw cliffs that rise almost vertically out of the fjord.\nThe lunch break is at Øst Vildsund Gl. Færgekro. Lunch can be ordered from Morsø Tourist Office and consists of either 'stjerneskud' (fish fillet open sandwich) or 'pariserbøf' (beef patty on bread). You are also welcome to bring your own picnic basket. Drinks can be bought on board."
+     },
+     {
+      "title": "Tour no. 5: Around Fur",
+      "body": "Fur is in the Limfjord north of Salling and is 22 km².\nNorthern Fur is made up of ash and moler (diatomite). The moler consists of dead diatoms that 55 million years ago were deposited in enormous quantities in layers alternating with layers of ash from volcanic eruptions. Experience the unspoilt landscape from the water – a fantastically beautiful trip.\nCoffee and cake can be bought on board.\nYou may start the trip around Fur from Nykøbing Harbour at 12.00. The boat is back in Nykøbing at 17.45."
+     },
+     {
+      "title": "Tour no. 6: Evening sailing with jazz music",
+      "body": "Go on a beautiful 3-hour boat trip on the Limfjord spiced up with jazz music. Enjoy the sound, the water and the evening sun in the lovely surroundings of the Limfjord, accompanied by wonderful jazz. Departure from Nykøbing Harbour at 18.00, return at 21.00. You can enjoy dinner on the trip in the cosy saloon, e.g. hot-smoked salmon with mixed salad and baguettes for only 99 kr."
+     }
+    ],
+    "source": "Source: Mors 2019, Morsø Tourist Office (edited) and visitnordjylland.dk (November 2019, extract)"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Which restaurant sells pizza without gluten?"
+   },
+   {
+    "q": "In which holiday home is there an outdoor swimming pool?"
+   },
+   {
+    "q": "In which holiday home are you not allowed to have pets?"
+   },
+   {
+    "q": "In which holiday home are there two terraces?"
+   },
+   {
+    "q": "In which holiday home is there a pool especially for children?"
+   },
+   {
+    "q": "On which two trips can you buy dinner on the boat?"
+   }
+  ]
+ },
+ "p21m-2": {
+  "title": "Task 2 – Advertisements",
+  "instruction": "Read the advertisements (A-I). One or more words are missing in each advertisement. Find the advertisement that matches the words on the list (7-12). There are two advertisements you do not need to use. See the example (0).",
+  "sections": [
+   {
+    "heading": "Advertisements",
+    "cards": [
+     {
+      "title": "A – Music for your party",
+      "body": "Three cheerful musicians play for dancing.\n■■■■■■\nThe price includes transport if the event is on Funen or in Jutland.\nWe play on Fridays, Saturdays and Sundays.\nYou can read more and book us at:\nwww.tremusikanter.dk"
+     },
+     {
+      "title": "B – Farewell reception at Brillebixen",
+      "body": "We are retiring and would like to say a proper goodbye to our good customers and partners.\nSo we are inviting you to a reception:\n■■■■■■\nOn this day we offer free sandwiches and a glass of wine.\nLis and Jørgen Sandemose from Brillebixen"
+     },
+     {
+      "title": "C – A-Z Møbler opens a shop in Nygade",
+      "body": "We have the latest in modern designer furniture of high quality.\nOpening offer:\n■■■■■■\nBut only in limited numbers. So hurry!\nA-Z Møbler, Nygade 45"
+     },
+     {
+      "title": "D – Wedding at Lindehave Castle",
+      "body": "For those of you who want to get married in historic surroundings, we can offer, among other things:\n• Castle park and our own church\n• Banqueting hall with antique furniture\n• ■■■■■■\n• Accommodation for up to 40 people\nRead more and contact us at: www.lindehaveslot.dk"
+     },
+     {
+      "title": "E – Drop in at Loppelageret",
+      "body": "■■■■■■\nRight now the shop is full of, among other things, fine old sofas. Our shop is run by volunteers, and part of the profit from our sales goes to poor children all over the world. Opening hours: Monday-Friday 10-17.\nLoppelageret, Hovedgaden 11"
+     },
+     {
+      "title": "F – Romantic wedding rings",
+      "body": "■■■■■■ – Then we have the rings!\nCome and see our large selection of engagement and wedding rings. We also make specially designed rings if you have special wishes.\nCitycenterets Guldsmed (the City Centre's goldsmith)\nMøllehøjen 2"
+     },
+     {
+      "title": "G",
+      "body": "■■■■■■\nHave a modern laser treatment carried out by our experienced staff.\nMost of our patients get completely normal sight after the operation.\nRight now you get a 10% discount on a treatment.\nØjenklinikken (the Eye Clinic)\nNørregade 23"
+     },
+     {
+      "title": "H",
+      "body": "■■■■■■\nI have many years' experience of repairing and upholstering older furniture.\nCome for a chat and a good offer.\nRené's Furniture Upholstery\nTel. 48 58 40 03"
+     },
+     {
+      "title": "I – Sale at Zenit Optik",
+      "body": "■■■■■■\nIncluding a free eye test.\nWe have a large selection of modern frames in nice colours and designs.\nZenit Optik\nHavvej 14\nTel. 78 93 16 78"
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "Which advertisement are the words missing from?",
+    "items": [
+     "3 hours for only 3,500 kr.",
+     "Half price on all glasses this month.",
+     "Are you getting married?",
+     "We have the town's best second-hand furniture.",
+     "Are you tired of wearing glasses?",
+     "New life for your old sofa.",
+     "5-course menu including wine."
+    ]
+   }
+  ]
+ },
+ "p21m-3": {
+  "title": "Task 3 – A strange parcel",
+  "instruction": "Read the text. Eight words are missing in the text (13-20). Choose the missing words. There are five words you do not need to use. See the example (0).",
+  "text": "Anders, 20, moved away from home a year ago, and now he lives and studies in Copenhagen. His parents live in Jutland, [[0]] he often visits them when he is on holiday.\n\nAnders is visiting his parents in the Easter holidays, [[13]] he thinks it is nice to be on holiday with them. In the evening he often sits in his old room playing computer games, drinking cola and eating food, sweets and crisps. But he does [[14]] tidy up after himself. He leaves the empty sweet bags and cans lying all over the place. His mother tells him that he must throw them out. But Anders does not do it, [[15]] his mother asks him to. He does not think it is a problem that it is a bit messy. When the holiday is over, Anders goes back to Copenhagen. The day after, his mother calls and says that a parcel will [[16]] arrive for him in the post. Anders looks forward to that.\n\nA couple of days later he [[17]] the parcel at the post office. When he gets home and opens it, he is very [[18]]. The parcel is full of old rubbish, including empty cola cans and an old cheese sandwich. Anders thinks it is really [[19]], and at first he thinks a mistake has been made. But then he suddenly understands that his mother has sent him all the rubbish that he could not be bothered to throw out when he was visiting. He can see that it is not okay that his mother has had to tidy up after him. The next day he goes to the post office again and [[20]] a parcel that is to be sent to his mother. In the parcel there is a box of chocolates and a card in which he apologises and promises that he will clean the whole house the next time he visits.",
+  "questions": [
+   {}
+  ]
+ },
+ "p21m-4": {
+  "title": "Task 4 – Kirsten's new life",
+  "instruction": "Read the text. One sentence is missing in each section. Find the sentence (A-H) that fits in each section (21-25). There are two sentences you do not need to use. See the example (0).",
+  "text": "Kirsten is 58 years old and lives alone. She is a hairdresser, and a year ago she went part-time to get more time for things other than work.\n\n**0.** Kirsten is a hairdresser with her own salon. For many years she worked more than 45 hours a week and only had Sundays off. But a year ago she decided that she wanted to cut down her hours. So she hired an employee, and now she is only in the salon three days a week herself. [[0]]. But she is fine with that. She would rather have more time than money, and now she has, among other things, more time for exercise and for being with her friends and her grandson, Anton.\n\n**21.** When you are a hairdresser, it can be hard on the body to stand up all day cutting people's hair, and many hairdressers have pain in their shoulders, back and legs. Kirsten has also had that problem for many years. [[21]]. Now she has found time to go to both yoga and swimming several times a week, and since she started exercising more often, her pain has actually disappeared.\n\n**22.** Kirsten has many good friends, but before she went part-time, she did not have much time to see them. When her friends, for example, went to a summer house at the weekend, she always had to look after her salon, so she never had the chance to go with them. [[22]]. Her salon is still open on Saturdays, because that suits many customers. But it is Kirsten's employee in the salon who takes all the Saturday shifts, and that means that Kirsten now has time to be with her friends at the weekends.\n\n**23.** Kirsten also loves being with her 4-year-old grandson Anton. Every Wednesday she picks him up from nursery, and at weekends he often sleeps at her place. They both think that is nice. [[23]]. Anton gets up very early in the morning. And he is full of energy and wants something to happen, so they always play together out in the playground for several hours. So it can be a bit hard for Kirsten to be with him, but she is happy that she has more time for it.\n\n**24.** Kirsten has also moved into a new flat, which is quite a bit smaller than her old flat. She has done that because the rent is not so high in the new flat. And it suits her well that she can save some money by living more cheaply. [[24]]. Because after she moved, she has also come to live closer to Anton. So it is not so far when they visit each other.\n\n**25.** Kirsten's new flat is close enough to her salon for her to cycle to work, so she sold her car a couple of months ago. And she saves a lot of money by not having it any more. [[25]]. She does, for example, when she has been shopping and has to ride home with a lot of groceries on her bike, because that can be a bit hard. But it is a small thing, and all in all Kirsten is happy with the changes she has made in her life.",
+  "questions": [
+   {}
+  ]
+ },
+ "p21m-5": {
+  "title": "Task 5 – Interview with Michael",
+  "instruction": "Read the interview. Find the section (A-H) that matches each of the five questions (26-30). There are two sections you do not need to use. See the example (0).",
+  "sections": [
+   {
+    "heading": "Interview with Michael – carpenter",
+    "cards": [
+     {
+      "title": "A",
+      "sub": "Example",
+      "body": "It's because of my father. He has always built all sorts of things, and since I was very little I have helped him with it. And I have always thought it was fun. So I had no doubt about which training to choose when I finished school."
+     },
+     {
+      "title": "B",
+      "body": "When we have to renovate very old houses or buildings. It's difficult because it takes a long time, and you have to use some special techniques. Not all carpenters know how to do it, but I do. And I definitely think that kind of job is the most interesting."
+     },
+     {
+      "title": "C",
+      "body": "Yes, but I'm not very good at finances. And you have to be if you are going to have your own business. So I plan to take a course in finance next year. And when I have finished it, I actually think I'll be ready to start my own business."
+     },
+     {
+      "title": "D",
+      "body": "Working outdoors, because it depends far too much on the weather. Of course I think it's nice when the sun is shining and it's warm. But unfortunately the weather isn't always like that in this country. And on a day like that, when it's raining and very windy, I really don't think it's much fun having to work outside for 8 hours. Then I just look forward to finishing work!"
+     },
+     {
+      "title": "E",
+      "body": "Lots of things. But first and foremost it's important that you are good with your hands. You also have to be able to work both independently and with others, because some days you work completely alone, and other days there may be several colleagues together on a job."
+     },
+     {
+      "title": "F",
+      "body": "Yes, that's one of my really big dreams. I also know exactly what it should look like, but as things are now, I simply don't have the money for my dream house. Because even though I'm building it myself, I still have to be able to afford the materials. So I probably won't be able to build it for a couple of years."
+     },
+     {
+      "title": "G",
+      "body": "Yes, even though I have to get up very early. I start at seven o'clock! But then I have a cup of coffee with my colleagues, and then I'm awake and ready to work. And I normally finish at three o'clock. I'm not a morning person, but it's lovely that I don't get home so late."
+     },
+     {
+      "title": "H",
+      "body": "Yes, and that means a lot to me. We are roughly the same age, and we have the same sense of humour. So we laugh at the same things and have a lot of fun with each other. I think that's important in a workplace. Otherwise it all gets a bit boring."
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "Which section answers the question?",
+    "items": [
+     "Why did you become a carpenter?",
+     "What should a carpenter be good at?",
+     "Do you have good colleagues?",
+     "What is the best thing about your job?",
+     "Is there anything about your work that you don't like?",
+     "Would you like to become self-employed one day?"
+    ]
+   }
+  ]
  }
 };

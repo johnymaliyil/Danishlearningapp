@@ -2,6 +2,57 @@
 // Each translation has the same paragraphs, in the same order, as the Danish model answer,
 // so the app can show them side by side.
 PD2.MODEL_EN = {
+  w21ma: `Come out to a restaurant!
+
+Hi everyone
+
+My name is Maria, and I am writing because I would like to invite you out to a restaurant. I have got a permanent job as a nurse, and I would like to celebrate it with you, because you have helped me so much.
+
+We will meet on Friday 18 June at 18.30 in front of Restaurant Bella Vista, Åboulevarden 12 in Aarhus.
+
+The restaurant is Italian and is right by the river. We are going to have a menu with three courses: bruschetta, homemade pasta and tiramisu. I will pay for the food, but you must pay for your own drinks.
+
+After the meal we will go for a walk along the river, and afterwards we will go to a cosy bar and listen to live music.
+
+If you want to come, call or write to me on 26 41 83 57 by Friday 11 June at the latest.
+
+Thank you in advance!
+
+Best wishes
+Maria`,
+  w21mb: `Dear Citybus
+
+I am writing to you because I want to complain about the driver on the bus I take to work.
+
+It concerns bus no. 5A from Banegårdspladsen towards the hospital. I take the bus every day from Monday to Friday at 7.15.
+
+The problem is that the driver often drives off before all the passengers have sat down. In addition, he is very rude. He does not answer when you say good morning, and he talks on the phone while he is driving.
+
+I have already spoken to the driver about the problems, but he just said that he was busy. I have also called your customer service, but nothing has happened.
+
+Therefore I would like to ask you to talk to the driver and make sure that he drives more carefully.
+
+I hope that you will help me, and I look forward to hearing from you as soon as possible.
+
+Yours sincerely
+Ahmad Rahimi
+Tel. 31 52 76 90`,
+  w21mc: `Hi Adam
+
+Thanks for your e-mail. It was lovely to hear from you. I hope you are well. I am fine.
+
+You ask what it is like to live in Denmark, and I would like to tell you a little about it.
+
+First of all, I am happy living here. I have lived in Odense for three years now, and I think that Denmark is a safe and peaceful country. In the beginning it was hard, because the language is difficult, and the weather is often cold and grey.
+
+In addition, I have found new friends in different ways. At the language school I got to know lots of nice people from all over the world. I have also started playing football in a club, and after training we often have coffee together.
+
+Finally, I would like to say that it is easier to make Danish friends when you do something together with them. So when you come to visit, I would like to introduce you to them.
+
+I look forward to hearing from you. See you soon!
+
+Best wishes
+Hassan`,
   w22na: `Restaurant Havblik – highly recommended!
 
 I would like to recommend Restaurant Havblik, which is by the harbour in Aarhus. It is a small, cosy fish restaurant with a beautiful view over the water.

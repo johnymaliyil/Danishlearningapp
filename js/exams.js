@@ -31,7 +31,7 @@ PD2.EXAM_META = {
     full: "Prøve i Dansk 2",
     cefr: "B1",
     tagline: "Rigtige prøvesæt plus øvesæt i samme format.",
-    readingIntro: "Rigtige prøvesæt (sæt 14 og 17-19 med de officielle svar, de andre med svar fundet ud fra teksterne) og to øvesæt i samme format. Til prøven tager delprøve 1 (opgave 1-2) 30 minutter og delprøve 2 (opgave 3-5) 60 minutter.",
+    readingIntro: "Rigtige prøvesæt (sæt 14, 15 og 17-19 med de officielle svar, de andre med svar fundet ud fra teksterne) og to øvesæt i samme format. Til prøven tager delprøve 1 (opgave 1-2) 30 minutter og delprøve 2 (opgave 3-5) 60 minutter.",
     writingIntro: "Rigtige prøveopgaver fra alle prøvesæt plus mails og holdningstekster med skrivecoach og bedømmelse.",
     writingMinutes: 45,
     talkSeconds: 90,

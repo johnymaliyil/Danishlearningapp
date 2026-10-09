@@ -1,6 +1,12 @@
 // English translations of the writing tasks (situation + points), shown in a pop-up.
 window.PD2 = window.PD2 || {};
 PD2.TASK_EN = {
+  w21ma: { s: "You would like to invite your friends out to a restaurant. You will write an invitation. Write the invitation. You must begin and end the invitation in a suitable way. (At the exam you choose task A or B.)",
+    p: ["Why you would like to invite your friends out to a restaurant", "Where and when you will meet (place, date and time)", "A little about the restaurant and the food you are going to have", "What you are going to do after you have eaten"] },
+  w21mb: { s: "You take the bus to work every day. Unfortunately there are problems with the bus driver. So you will write to the bus company Citybus and complain about the driver. Write the complaint to Citybus. You must begin and end the complaint in a suitable way. (At the exam you choose task A or B.)",
+    p: ["Which bus you take, and what time you take it", "What problems there are with the driver", "What you have done to solve the problems", "What you think the bus company should do"] },
+  w21mc: { s: "You have received an e-mail from your Danish friend Adam. Among other things he writes: “… You have been living in Denmark for a while now. What is it like to live in Denmark? And how have you found new friends here?” Write a reply to Adam and tell him what it is like to live in Denmark, and how you have found new friends here. You must write at least 100 words.",
+    p: ["Tell him where and for how long you have lived in Denmark", "Tell him what it is like to live in Denmark – what is good, and what is difficult", "Tell him how you have found new friends", "Tell him what you do together with your new friends"] },
   w22na: { s: "You have had dinner at a restaurant. You want to write a review of the restaurant on Facebook. Write the review. You must begin and end the review in a suitable way. (At the exam you choose task A or B.)",
     p: ["A little about the restaurant", "When you had dinner at the restaurant, and what you ate", "What the food was like, and what you think of the price", "What the waiters were like"] },
   w22nb: { s: "You live in a flat in the housing association Lysbo. You have a neighbour who makes a lot of noise. You want to write a complaint about your neighbour to the housing association. Write the complaint to the housing association Lysbo. You must begin and end the complaint in a suitable way. (At the exam you choose task A or B.)",
