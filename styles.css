@@ -926,3 +926,24 @@ a.help-item:hover { border-color: var(--read); }
 .say-ok { color: var(--ok); }
 .say-bad { color: var(--bad); text-decoration: underline wavy; text-underline-offset: 3px; }
 .speech-check { text-align: left; margin-top: 16px; }
+
+/* 🍀 "Held og lykke!" greeting on arrival */
+.luck { position: fixed; inset: 0; z-index: 9999; display: grid; place-items: center; pointer-events: none; overflow: hidden; transition: opacity .5s ease; }
+.luck.out { opacity: 0; }
+.luck-card { pointer-events: auto; cursor: pointer; text-align: center; padding: 22px 34px 20px; border-radius: 24px;
+  background: var(--surface); color: var(--text); border: 2px solid var(--accent); box-shadow: 0 18px 50px rgba(0, 0, 0, .22);
+  animation: luck-pop .7s cubic-bezier(.2, 1.6, .4, 1) both; }
+.luck-clover { font-size: 52px; line-height: 1; display: inline-block; animation: luck-spin 1.4s ease-out .2s both; }
+.luck-title { font-size: clamp(28px, 7vw, 42px); font-weight: 900; color: var(--accent); margin-top: 6px; letter-spacing: .5px; }
+.luck-sub { font-size: 17px; font-weight: 700; color: var(--muted); margin-top: 2px; animation: luck-rise .6s ease-out .45s both; }
+.luck-bit { position: absolute; left: 50%; top: 50%; font-size: 26px; opacity: 0;
+  animation: luck-burst 1.8s ease-out calc(.15s + var(--i) * .06s) both; }
+@keyframes luck-pop { 0% { transform: scale(.3) rotate(-8deg); opacity: 0; } 100% { transform: none; opacity: 1; } }
+@keyframes luck-spin { 0% { transform: rotate(-200deg) scale(.4); } 70% { transform: rotate(15deg) scale(1.15); } 100% { transform: none; } }
+@keyframes luck-rise { from { transform: translateY(8px); opacity: 0; } to { transform: none; opacity: 1; } }
+@keyframes luck-burst {
+  0% { transform: translate(-50%, -50%) scale(.4); opacity: 0; }
+  20% { opacity: 1; }
+  100% { transform: translate(calc(-50% + var(--x)), calc(-50% - 34vh + var(--i) * 3vh)) scale(1.1) rotate(25deg); opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) { .luck-card, .luck-clover, .luck-sub { animation: none; } .luck-bit { display: none; } }

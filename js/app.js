@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "66"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "67"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -4413,4 +4413,23 @@
   if (!hasChosen() && opening === "") location.replace("#/start");
   else markChosen();
   route();
+  luckSplash();
+
+  // 🍀 A short animated "Held og lykke!" greeting, once per visit (browser tab session).
+  // It never blocks clicks, fades out by itself and can be tapped away.
+  function luckSplash() {
+    try { if (sessionStorage.getItem("dk-luck")) return; sessionStorage.setItem("dk-luck", "1"); } catch (e) { /* show anyway */ }
+    const subs = ["Du kan godt!", "Øvelse gør mester.", "Et skridt ad gangen – du klarer det!", "Hver dag lidt bedre.", "Tro på dig selv!"];
+    const sub = subs[Math.floor(Math.random() * subs.length)];
+    const bits = ["🍀", "⭐", "🇩🇰", "✨", "🍀", "💪", "⭐", "✨"];
+    const el = document.createElement("div");
+    el.className = "luck no-tr"; el.setAttribute("role", "status"); el.setAttribute("lang", "da");
+    el.innerHTML = `<div class="luck-card"><div class="luck-clover" aria-hidden="true">🍀</div>
+        <div class="luck-title">Held og lykke!</div><div class="luck-sub">${esc(sub)}</div></div>
+      ${bits.map((b, i) => `<span class="luck-bit" aria-hidden="true" style="--i:${i};--x:${Math.round((i - 3.5) * 13)}vw">${b}</span>`).join("")}`;
+    document.body.appendChild(el);
+    const bye = () => { el.classList.add("out"); setTimeout(() => el.remove(), 600); };
+    el.querySelector(".luck-card").addEventListener("click", bye);
+    setTimeout(bye, 3200);
+  }
 })();
