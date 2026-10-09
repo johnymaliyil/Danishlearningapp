@@ -1,9 +1,9 @@
 // Prøve i Dansk 2, november-december 2020 – transcribed from the exam papers (produktionsnr. 07-13).
 // Included: læseforståelse opgave 1-5, skriftlig fremstilling (delprøve 1 A/B and delprøve 2)
 // and the three oral topics for mundtlig delprøve 2 (Brug af mobiltelefoner, Naboer, Weekend,
-// from the cover sheet, produktionsnr. 12). The picture sheets were not supplied, and the
-// censor- og eksaminatorhæfte (produktionsnr. 13) has no topic-specific eksaminatorark, so the
-// pictures are illustrated scene cards and the questions and discussion tasks are our own.
+// from the opgaveark, produktionsnr. 12) with the examiner's questions, the discussion task and
+// input from the eksaminatorark, and the pictures (illustrations by Niels Roland, from the
+// picture sheets).
 // Delprøve 1 of the oral exam is a topic the candidate chooses, so there are no monologue topics.
 // The answers to opgave 1-5 are the official ones from the censor- og eksaminatorhæfte
 // (rettenøgler, produktionsnr. 11); the short-answer accept lists add reasonable variants.
@@ -311,76 +311,70 @@ Samir`
     }
   );
 
-  // ---------- Mundtlig delprøve 2: emner fra prøven nov.-dec. 2020 ----------
-  // The picture sheets and the topic-specific eksaminatorark were not supplied, so the scenes,
-  // interview questions and discussion tasks below are our own, modelled on the usual sheets.
+  // ---------- Mundtlig delprøve 2: emner og billeder fra prøven nov.-dec. 2020 ----------
+  const credit = "Illustration: Niels Roland (fra Prøve i Dansk 2)";
   PD2.SPEAKING_PICTURE = PD2.SPEAKING_PICTURE || [];
   PD2.SPEAKING_PICTURE.push(
     {
       id: "p20n-a", title: "Brug af mobiltelefoner", real: true, year: 2020,
       pictures: [
-        { scene: "👨‍👩‍👧‍👦 🍽️ 📱\n📱 📱 😶", words: ["spisebordet", "mobiltelefon", "kigge på skærmen", "ikke tale sammen", "familie"] },
-        { scene: "🚆 🧑‍💼 📱\n🗣️ 😠 🎧", words: ["toget", "tale i telefon", "højt", "irriteret", "medpassagerer"] }
+        { img: "images/pd2-2020-n/brug-af-mobiltelefoner-1.jpg", credit, alt: "En klasse på en sprogskole: læreren står ved tavlen og underviser, men flere af kursisterne kigger ikke på hende – en kvinde taler i mobiltelefon, en mand skriver på sin mobil, og en anden har benene oppe på en stol", words: ["sprogskole", "undervisning", "tale i telefon", "skrive en sms", "forstyrre"] },
+        { img: "images/pd2-2020-n/brug-af-mobiltelefoner-2.jpg", credit, alt: "Tre mekanikere i kedeldragt holder pause i frokoststuen ved et værksted: den ene hører musik med høretelefoner og kigger på sin mobil, den anden taler i telefon og smiler, og den tredje sidder alene og ser trist og kedelig ud med sin madpakke", words: ["kolleger", "frokostpause", "høretelefoner", "værksted", "tale sammen"] }
       ],
       interview: [
-        "Som sagt viser billedet en familie, der bruger deres mobiltelefoner. Vil du godt beskrive situationen på billedet?",
-        "Hvad synes du om, at man bruger sin mobiltelefon, når man spiser sammen?",
-        "Som sagt viser billedet en person, der taler i mobiltelefon i toget. Vil du godt beskrive situationen på billedet?",
-        "Hvad synes du om, at man taler i telefon i bussen eller toget?",
-        "Hvad bruger du selv din mobiltelefon til? Hvor meget bruger du den?"
+        "Hvad synes du om, at man bruger sin mobil, når man har undervisning i klassen?",
+        "Bruger du også din mobil, når du har undervisning i klassen?",
+        "Hvis ja: Hvad bruger du den til? Hvis nej: Hvorfor ikke?",
+        "Hvad synes du om, at man bruger sin mobil, når man har pause?",
+        "Bruger du din mobil, når du har pause? Hvis ja: Hvad bruger du den til? Hvis nej: Hvorfor ikke?"
       ],
       talk: [
-        { who: "mediator", say: "Hvor gammel skal et barn være, før det får sin egen mobiltelefon? Tal sammen og prøv at blive enige." },
-        { who: "partner", say: "Jeg synes, et barn skal have en mobil, når det begynder at gå alene i skole, så forældrene kan ringe til det. Hvad synes du?" },
-        { who: "partner", say: "Men små børn bruger alt for meget tid på spil og sociale medier, så de leger mindre med andre børn. Er du enig?" },
-        { who: "partner", say: "Måske kan barnet få en simpel mobil uden internet, når det er 8-9 år. Hvad tænker du om det?" },
-        { who: "mediator", say: "Hvad med voksne – bruger de også for meget tid på mobilen? Hvad synes I generelt er fordelene og ulemperne ved mobiltelefoner?" }
+        { who: "mediator", say: "Skal et barn på 6-7 år have en mobil? Tal sammen og prøv at blive enige." },
+        { who: "partner", say: "Jeg synes, det er en god idé, for så kan børn og forældre altid komme i kontakt med hinanden. Hvad synes du?" },
+        { who: "partner", say: "Børn synes også, det er sjovt at spille, se film og tage billeder med mobilen, og de kan bruge den som hjælp til lektier. Er du enig?" },
+        { who: "partner", say: "Men det er dyrt at købe og bruge en mobil, og måske kan et barn på 6-7 år ikke passe på den. Hvad tænker du om det?" },
+        { who: "mediator", say: "Måske forstyrrer mobilen undervisningen i skolen, og det er bedre, at børn leger med hinanden og får motion. Hvad synes I generelt?" }
       ],
-      phrases: ["På billedet kan jeg se …", "Jeg synes, det er uhøfligt at …, fordi …", "Jeg bruger selv min mobil til …", "Et barn skal have en mobil, når …", "Fordelen ved … er, at …", "Er du enig?"]
+      phrases: ["På billedet kan jeg se …", "Jeg synes ikke, man skal bruge mobilen i timerne, fordi …", "Når jeg har pause, bruger jeg min mobil til …", "Det er en god idé, fordi …", "Det er en dårlig idé, fordi …", "Er du enig?"]
     },
     {
       id: "p20n-b", title: "Naboer", real: true, year: 2020,
       pictures: [
-        { scene: "🏡 🤝 🏡\n🍰 ☕ 😊", words: ["naboer", "hjælpe hinanden", "hilse på", "kaffe", "hyggeligt"] },
-        { scene: "🏢 🎉 🔊\n🛏️ 😠 🌙", words: ["fest", "larme", "musik", "kan ikke sove", "klage"] }
+        { img: "images/pd2-2020-n/naboer-1.jpg", credit, alt: "To altaner over hinanden i en boligblok: på den nederste altan griller en glad mand pølser og bøffer, og røgen fra grillen stiger op til altanen ovenover, hvor et ældre par sidder og drikker kaffe og ser sure og irriterede ud", words: ["altan", "grille", "røg", "irriteret", "boligblok"] },
+        { img: "images/pd2-2020-n/naboer-2.jpg", credit, alt: "To lejligheder i en opgang: i den øverste lejlighed spiller en mand højt på elguitar med en stor højttaler, så billederne på væggen ryster, og i lejligheden nedenunder ligger en person i sengen om natten og holder sig for ørerne med puden", words: ["larme", "elguitar", "højttaler", "kan ikke sove", "lejlighed"] }
       ],
       interview: [
-        "Som sagt viser billedet nogle naboer, der hjælper hinanden. Vil du godt beskrive situationen på billedet?",
-        "Hvad synes du om, at naboer hjælper hinanden?",
-        "Som sagt viser billedet en nabo, der larmer om natten. Vil du godt beskrive situationen på billedet?",
-        "Hvad synes du, man skal gøre, hvis ens nabo larmer?",
-        "Hvordan er dit forhold til dine naboer? Hvorfor?"
+        "Hvad synes du, man skal gøre, hvis man har et problem med en nabo?",
+        "Har du prøvet at have problemer med en nabo?",
+        "Hvis ja: Vil du fortælle lidt om det? Hvis nej: Hvordan har du det med dine naboer?"
       ],
       talk: [
-        { who: "mediator", say: "En familie er lige flyttet ind i en ny lejlighed. Hvad kan de gøre for at lære deres naboer at kende? Tal sammen og prøv at blive enige." },
-        { who: "partner", say: "Jeg synes, de skal banke på hos naboerne og præsentere sig selv. Hvad synes du?" },
-        { who: "partner", say: "De kan også invitere naboerne på kaffe og kage en søndag eftermiddag. Er du enig?" },
-        { who: "partner", say: "Det er en god idé at komme til gårdfesten eller til beboermøderne i ejendommen. Hvad tænker du om det?" },
-        { who: "mediator", say: "Men nogle mennesker vil helst være i fred. Hvad synes I generelt er en god nabo?" }
+        { who: "mediator", say: "Hvordan er man en god nabo? Tal sammen og prøv at blive enige." },
+        { who: "partner", say: "Jeg synes, man skal være venlig, hilse på sin nabo og byde nye naboer velkommen. Hvad synes du?" },
+        { who: "partner", say: "Man skal prøve ikke at larme, og man skal fortælle det til naboerne, hvis man holder fest. Er du enig?" },
+        { who: "partner", say: "En god nabo hjælper også, fx ved at låne naboen ting, passe naboens kæledyr eller passe blomsterne, når naboen er på ferie. Hvad tænker du om det?" },
+        { who: "mediator", say: "Hvad med at gøre ting sammen – fx spise sammen, holde fest eller hjælpe hinanden med haven? Hvad synes I generelt er det vigtigste?" }
       ],
-      phrases: ["På billedet kan jeg se …", "En god nabo er en, der …", "Hvis min nabo larmer, vil jeg …", "Jeg kender mine naboer, fordi …", "De kan fx …", "Hvad med dig?"]
+      phrases: ["På billedet kan jeg se …", "Hvis jeg har et problem med en nabo, vil jeg …", "Jeg synes, man skal tale med naboen, fordi …", "Mine naboer er …", "En god nabo er en, der …", "Hvad med dig?"]
     },
     {
       id: "p20n-c", title: "Weekend", real: true, year: 2020,
       pictures: [
-        { scene: "🛋️ 📺 🍕\n👨‍👩‍👧 🐕 😴", words: ["slappe af", "sofaen", "se fjernsyn", "hjemme", "hygge"] },
-        { scene: "🌲 🚴 ⛺\n👫 🧺 ☀️", words: ["tage på tur", "naturen", "cykle", "madpakke", "aktiv"] }
+        { img: "images/pd2-2020-n/weekend-1.jpg", credit, alt: "En familie gør rent derhjemme i weekenden: moren pudser vinduer, en dreng tømmer opvaskemaskinen, faren støvsuger, og en pige bærer en stor kurv med vasketøj", words: ["gøre rent", "pudse vinduer", "opvaskemaskine", "støvsuge", "vasketøj"] },
+        { img: "images/pd2-2020-n/weekend-2.jpg", credit, alt: "En mand og en kvinde løber en tur sammen i en park en solskinsdag; i baggrunden løber en anden person, en kører på løbehjul, og nogle sidder på græsset og slapper af", words: ["løbe en tur", "parken", "motion", "solskin", "slappe af"] }
       ],
       interview: [
-        "Som sagt viser billedet en familie, der slapper af derhjemme i weekenden. Vil du godt beskrive situationen på billedet?",
-        "Hvad synes du om at bruge weekenden på at slappe af derhjemme?",
-        "Som sagt viser billedet nogle personer, der er aktive i weekenden. Vil du godt beskrive situationen på billedet?",
-        "Hvad synes du om at være aktiv og tage på tur i weekenden?",
-        "Hvad laver du selv i weekenden? Hvorfor?"
+        "Hvad synes du om, at man bruger sin weekend på den måde?",
+        "Hvad laver du selv i weekenden?"
       ],
       talk: [
-        { who: "mediator", say: "Et par med to små børn har begge travlt med arbejde hele ugen. Hvad skal de bruge weekenden til? Tal sammen og prøv at blive enige." },
-        { who: "partner", say: "Jeg synes, de skal slappe af derhjemme og sove længe, for de er trætte efter en lang uge. Hvad synes du?" },
-        { who: "partner", say: "Men børnene har brug for at komme ud og lege, fx på legepladsen eller i skoven. Er du enig?" },
-        { who: "partner", say: "De skal også bruge noget af weekenden på at gøre rent og handle ind til næste uge. Hvad tænker du om det?" },
-        { who: "mediator", say: "Hvad med at besøge familie og venner? Hvad synes I generelt er en god weekend?" }
+        { who: "mediator", say: "Hvad er det godt for en familie med små børn at lave sammen i weekenden? Tal sammen og prøv at blive enige." },
+        { who: "partner", say: "Jeg synes, de skal være sammen derhjemme og fx lave mad, spille spil eller læse bøger sammen. Hvad synes du?" },
+        { who: "partner", say: "De kan også tage på tur, fx i biografen, på biblioteket eller i Zoo. Er du enig?" },
+        { who: "partner", say: "Det er godt at lave noget aktivt, fx tage i svømmehallen, gå tur i skoven eller spille fodbold. Hvad tænker du om det?" },
+        { who: "mediator", say: "Hvad med at invitere gæster, fx bedsteforældre eller andre familier med børn? Hvad synes I generelt er en god weekend for en familie?" }
       ],
-      phrases: ["På billedet kan jeg se …", "I weekenden kan jeg godt lide at …", "Jeg synes, det er vigtigt at …, fordi …", "Om lørdagen plejer jeg at …", "De kan fx …", "Er du enig?"]
+      phrases: ["På billedet kan jeg se …", "Jeg synes, det er fint at …, fordi …", "I weekenden plejer jeg at …", "En familie med små børn kan fx …", "Det er godt for børn at …", "Er du enig?"]
     }
   );
 })();
