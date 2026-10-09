@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "61"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "63"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -209,6 +209,7 @@
     m.innerHTML = `
       <div class="set-sec">Udseende</div>
       <button role="menuitem" class="set-item" data-theme-pick><span class="set-ico">🎨</span><span>Tema <span class="small muted">· ${esc((THEMES.find(t => t[0] === curTheme()) || THEMES[0])[1])}</span></span></button>
+      <button role="menuitem" class="set-item" data-lang-pick><span class="set-ico">🌐</span><span>Sprog / Language <span class="small muted">· ${window.DK_LANG && DK_LANG.lang === "en" ? "English" : "Dansk"}</span></span></button>
       <button role="menuitem" class="set-item" data-text-pick><span class="set-ico">🔠</span><span>Tekststørrelse og skrift</span></button>
       <a role="menuitem" class="set-item" href="#/progress"><span class="set-ico">📊</span><span>Min fremgang</span></a>
       <button role="menuitem" class="set-item" data-reminder><span class="set-ico">⏰</span><span>Daglig påmindelse i kalenderen</span></button>
@@ -3997,6 +3998,7 @@
       ["🎯", "Choose your exam", "Pick PD1, PD2 or PD3 at the top. Reading, writing, speaking and the mock exam follow the exam you choose. You can switch at any time.", "#/start"],
       ["🇬🇧", "Hover translation", "Point at (or double-click / tap) any Danish word to see it in English. Use the 🇬🇧 button at the top to turn it on or off.", ""],
       ["⚙️", "Settings", "Top right: change the theme (Nordisk blå, Dansk rød, Skovgrøn, Mørk), text size and a reading-friendly font, and find help, feedback, Ko-fi and more.", ""],
+      ["🌐", "English interface", "Settings ⚙️ → Sprog / Language → English shows menus, buttons and explanations in English. Exam texts, tasks and model answers always stay in Danish.", ""],
       ["⭐", "XP, streak and badges", "You earn XP for everything you practise. Practise every day to keep your 🔥 streak and unlock badges on the home page.", "#/"],
       ["📱", "Install as an app", "On your phone, use \"Add to Home Screen\" (or the install button on the home page). The app also works offline.", "#/"]
     ]],
@@ -4156,6 +4158,15 @@
     if (pref("dk-readfont") === "1") r.setAttribute("data-readfont", "1"); else r.removeAttribute("data-readfont");
   }
 
+  // ---------- 🌐 Interface language ----------
+  function langPicker() {
+    const cur = window.DK_LANG ? DK_LANG.lang : "da";
+    openEnPop("🌐 Sprog / Language", `<div data-keep>
+      <p class="small muted" style="margin-top:-4px">Vælg sproget for menuer, knapper og forklaringer. Prøveteksterne og opgaverne er altid på dansk.<br><span lang="en">Choose the language of menus, buttons and explanations. The exam texts and tasks always stay in Danish.</span></p>
+      <div class="theme-grid">${[["da", "🇩🇰", "Dansk", "Standard – godt, når du vil vænne dig til dansk"], ["en", "🇬🇧", "English", "Easier for beginners – exam content stays Danish"]].map(([id, f, name, d]) => `<button class="theme-opt ${id === cur ? "on" : ""}" data-lang-set="${id}"><span style="font-size:1.6rem">${f}</span><b>${name}</b><span class="small muted"${id === "en" ? ' lang="en"' : ""}>${d}</span></button>`).join("")}</div></div>`, true);
+    $$("[data-lang-set]").forEach(b => b.onclick = () => { if (b.dataset.langSet !== cur && window.DK_LANG) DK_LANG.set(b.dataset.langSet); else closeTaskEn(); });
+  }
+
   // ---------- Daglig påmindelse (calendar file) ----------
   function reminderFile() {
     const d = new Date(), pad = n => String(n).padStart(2, "0");
@@ -4172,7 +4183,8 @@
       <p>Du får en påmindelse <b>hver dag kl. 19.00</b> om at øve 15 minutter. Du kan ændre tidspunktet i din kalender bagefter.</p>`, true);
   }
   document.addEventListener("click", e => {
-    if (e.target.closest("[data-text-pick]")) { e.preventDefault(); textPicker(); }
+    if (e.target.closest("[data-lang-pick]")) { e.preventDefault(); langPicker(); }
+    else if (e.target.closest("[data-text-pick]")) { e.preventDefault(); textPicker(); }
     else if (e.target.closest("[data-reminder]")) { e.preventDefault(); reminderFile(); }
   });
 
