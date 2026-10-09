@@ -998,5 +998,22 @@ PD2.I18N.en = {
 "Standard": "Default",
 "skifter automatisk hver dag": "changes automatically every day",
 "· Ny farve hver dag": "· New colour every day",
-"Farven skifter automatisk hver dag. Vælger du en farve, gælder den resten af dagen. Mørk, Midnat og Høj kontrast bliver, til du skifter.": "The colour changes automatically every day. If you pick a colour, it lasts for the rest of the day. Dark, Midnight and High contrast stay until you change them."
+"Farven skifter automatisk hver dag. Vælger du en farve, gælder den resten af dagen. Mørk, Midnat og Høj kontrast bliver, til du skifter.": "The colour changes automatically every day. If you pick a colour, it lasts for the rest of the day. Dark, Midnight and High contrast stay until you change them.",
+"Dagens nyheder": "Today's news",
+"📰 Dagens nyheder": "📰 Today's news",
+"Korte nyheder på dansk fra DR. Læs dem højt, og peg på et ord for at se, hvad det betyder.": "Short news in Danish from DR. Read them aloud, and point at a word to see what it means.",
+"Henter nyheder …": "Loading news …",
+"Vis engelsk": "Show English",
+"Skjul engelsk": "Hide English",
+"🇬🇧 Vis engelsk": "🇬🇧 Show English",
+"🇬🇧 Skjul engelsk": "🇬🇧 Hide English",
+"Læs hele artiklen ↗": "Read the full article ↗",
+"lige nu": "just now",
+"for {n} min. siden": "{n} min ago",
+"for 1 time siden": "1 hour ago",
+"for {n} timer siden": "{n} hours ago",
+"i går": "yesterday",
+"Der er ingen nyheder lige nu. Prøv igen senere.": "There is no news right now. Please try again later.",
+"Nyhederne kunne ikke hentes. Tjek din internetforbindelse og prøv igen.": "The news could not be loaded. Check your internet connection and try again.",
+"Nyhederne kommer fra de offentlige RSS-feeds hos DR (dr.dk) og evt. TV 2, og rettighederne tilhører dem. DanskKlar viser kun overskriften og en kort tekst og linker til hele artikler. Den engelske tekst er maskinoversat og kan indeholde fejl.": "The news comes from the public RSS feeds of DR (dr.dk) and possibly TV 2, who own the rights. DanskKlar only shows the headline and a short text and links to the full articles. The English text is machine-translated and may contain mistakes."
 };

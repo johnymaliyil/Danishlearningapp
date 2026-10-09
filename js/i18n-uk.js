@@ -997,5 +997,22 @@ PD2.I18N.uk = {
 "Standard": "За замовчуванням",
 "skifter automatisk hver dag": "змінюється автоматично щодня",
 "· Ny farve hver dag": "· Новий колір щодня",
-"Farven skifter automatisk hver dag. Vælger du en farve, gælder den resten af dagen. Mørk, Midnat og Høj kontrast bliver, til du skifter.": "Колір змінюється автоматично щодня. Якщо ти обереш колір, він діятиме до кінця дня. Темна, Північ і Висока контрастність залишаються, доки ти їх не зміниш."
+"Farven skifter automatisk hver dag. Vælger du en farve, gælder den resten af dagen. Mørk, Midnat og Høj kontrast bliver, til du skifter.": "Колір змінюється автоматично щодня. Якщо ти обереш колір, він діятиме до кінця дня. Темна, Північ і Висока контрастність залишаються, доки ти їх не зміниш.",
+"Dagens nyheder": "Новини дня",
+"📰 Dagens nyheder": "📰 Новини дня",
+"Korte nyheder på dansk fra DR. Læs dem højt, og peg på et ord for at se, hvad det betyder.": "Короткі новини данською від DR. Читай їх уголос і наведи на слово, щоб побачити його значення.",
+"Henter nyheder …": "Завантаження новин …",
+"Vis engelsk": "Показати англійською",
+"Skjul engelsk": "Сховати англійську",
+"🇬🇧 Vis engelsk": "🇬🇧 Показати англійською",
+"🇬🇧 Skjul engelsk": "🇬🇧 Сховати англійську",
+"Læs hele artiklen ↗": "Читати всю статтю ↗",
+"lige nu": "щойно",
+"for {n} min. siden": "{n} хв тому",
+"for 1 time siden": "1 годину тому",
+"for {n} timer siden": "{n} год тому",
+"i går": "учора",
+"Der er ingen nyheder lige nu. Prøv igen senere.": "Зараз немає новин. Спробуй пізніше.",
+"Nyhederne kunne ikke hentes. Tjek din internetforbindelse og prøv igen.": "Не вдалося завантажити новини. Перевір інтернет-з'єднання і спробуй ще раз.",
+"Nyhederne kommer fra de offentlige RSS-feeds hos DR (dr.dk) og evt. TV 2, og rettighederne tilhører dem. DanskKlar viser kun overskriften og en kort tekst og linker til hele artikler. Den engelske tekst er maskinoversat og kan indeholde fejl.": "Новини беруться з публічних RSS-стрічок DR (dr.dk) і, можливо, TV 2, яким належать права. DanskKlar показує лише заголовок і короткий текст та посилається на повні статті. Англійський текст перекладено машинно, і він може містити помилки."
 };

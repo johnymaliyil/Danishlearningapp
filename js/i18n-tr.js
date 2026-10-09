@@ -997,5 +997,22 @@ PD2.I18N.tr = {
 "Standard": "Varsayılan",
 "skifter automatisk hver dag": "her gün otomatik olarak değişir",
 "· Ny farve hver dag": "· Her gün yeni bir renk",
-"Farven skifter automatisk hver dag. Vælger du en farve, gælder den resten af dagen. Mørk, Midnat og Høj kontrast bliver, til du skifter.": "Renk her gün otomatik olarak değişir. Bir renk seçersen günün geri kalanında geçerli olur. Koyu, Gece yarısı ve Yüksek kontrast sen değiştirene kadar kalır."
+"Farven skifter automatisk hver dag. Vælger du en farve, gælder den resten af dagen. Mørk, Midnat og Høj kontrast bliver, til du skifter.": "Renk her gün otomatik olarak değişir. Bir renk seçersen günün geri kalanında geçerli olur. Koyu, Gece yarısı ve Yüksek kontrast sen değiştirene kadar kalır.",
+"Dagens nyheder": "Günün haberleri",
+"📰 Dagens nyheder": "📰 Günün haberleri",
+"Korte nyheder på dansk fra DR. Læs dem højt, og peg på et ord for at se, hvad det betyder.": "DR'dan Danca kısa haberler. Sesli oku ve anlamını görmek için bir kelimenin üzerine gel.",
+"Henter nyheder …": "Haberler yükleniyor …",
+"Vis engelsk": "İngilizcesini göster",
+"Skjul engelsk": "İngilizceyi gizle",
+"🇬🇧 Vis engelsk": "🇬🇧 İngilizcesini göster",
+"🇬🇧 Skjul engelsk": "🇬🇧 İngilizceyi gizle",
+"Læs hele artiklen ↗": "Haberin tamamını oku ↗",
+"lige nu": "az önce",
+"for {n} min. siden": "{n} dk önce",
+"for 1 time siden": "1 saat önce",
+"for {n} timer siden": "{n} saat önce",
+"i går": "dün",
+"Der er ingen nyheder lige nu. Prøv igen senere.": "Şu anda haber yok. Daha sonra tekrar dene.",
+"Nyhederne kunne ikke hentes. Tjek din internetforbindelse og prøv igen.": "Haberler yüklenemedi. İnternet bağlantını kontrol edip tekrar dene.",
+"Nyhederne kommer fra de offentlige RSS-feeds hos DR (dr.dk) og evt. TV 2, og rettighederne tilhører dem. DanskKlar viser kun overskriften og en kort tekst og linker til hele artikler. Den engelske tekst er maskinoversat og kan indeholde fejl.": "Haberler DR'ın (dr.dk) ve bazen TV 2'nin herkese açık RSS akışlarından gelir; haklar onlara aittir. DanskKlar yalnızca başlığı ve kısa bir metni gösterir ve haberin tamamına bağlantı verir. İngilizce metin makine çevirisidir ve hata içerebilir."
 };

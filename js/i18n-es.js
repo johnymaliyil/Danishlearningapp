@@ -997,5 +997,22 @@ PD2.I18N.es = {
 "Standard": "Predeterminado",
 "skifter automatisk hver dag": "cambia automáticamente cada día",
 "· Ny farve hver dag": "· Un color nuevo cada día",
-"Farven skifter automatisk hver dag. Vælger du en farve, gælder den resten af dagen. Mørk, Midnat og Høj kontrast bliver, til du skifter.": "El color cambia automáticamente cada día. Si eliges un color, se mantiene el resto del día. Oscuro, Medianoche y Alto contraste se quedan hasta que los cambies."
+"Farven skifter automatisk hver dag. Vælger du en farve, gælder den resten af dagen. Mørk, Midnat og Høj kontrast bliver, til du skifter.": "El color cambia automáticamente cada día. Si eliges un color, se mantiene el resto del día. Oscuro, Medianoche y Alto contraste se quedan hasta que los cambies.",
+"Dagens nyheder": "Noticias de hoy",
+"📰 Dagens nyheder": "📰 Noticias de hoy",
+"Korte nyheder på dansk fra DR. Læs dem højt, og peg på et ord for at se, hvad det betyder.": "Noticias breves en danés de DR. Léelas en voz alta y señala una palabra para ver qué significa.",
+"Henter nyheder …": "Cargando noticias …",
+"Vis engelsk": "Mostrar inglés",
+"Skjul engelsk": "Ocultar inglés",
+"🇬🇧 Vis engelsk": "🇬🇧 Mostrar inglés",
+"🇬🇧 Skjul engelsk": "🇬🇧 Ocultar inglés",
+"Læs hele artiklen ↗": "Leer el artículo completo ↗",
+"lige nu": "ahora mismo",
+"for {n} min. siden": "hace {n} min",
+"for 1 time siden": "hace 1 hora",
+"for {n} timer siden": "hace {n} horas",
+"i går": "ayer",
+"Der er ingen nyheder lige nu. Prøv igen senere.": "No hay noticias ahora. Inténtalo más tarde.",
+"Nyhederne kunne ikke hentes. Tjek din internetforbindelse og prøv igen.": "No se pudieron cargar las noticias. Revisa tu conexión a internet e inténtalo de nuevo.",
+"Nyhederne kommer fra de offentlige RSS-feeds hos DR (dr.dk) og evt. TV 2, og rettighederne tilhører dem. DanskKlar viser kun overskriften og en kort tekst og linker til hele artikler. Den engelske tekst er maskinoversat og kan indeholde fejl.": "Las noticias provienen de los feeds RSS públicos de DR (dr.dk) y a veces de TV 2, que tienen los derechos. DanskKlar solo muestra el titular y un texto breve, con enlace al artículo completo. El texto en inglés es una traducción automática y puede tener errores."
 };

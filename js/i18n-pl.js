@@ -997,5 +997,22 @@ PD2.I18N.pl = {
 "Standard": "Domyślny",
 "skifter automatisk hver dag": "zmienia się automatycznie każdego dnia",
 "· Ny farve hver dag": "· Nowy kolor każdego dnia",
-"Farven skifter automatisk hver dag. Vælger du en farve, gælder den resten af dagen. Mørk, Midnat og Høj kontrast bliver, til du skifter.": "Kolor zmienia się automatycznie każdego dnia. Jeśli wybierzesz kolor, zostanie do końca dnia. Ciemny, Północ i Wysoki kontrast zostają, dopóki ich nie zmienisz."
+"Farven skifter automatisk hver dag. Vælger du en farve, gælder den resten af dagen. Mørk, Midnat og Høj kontrast bliver, til du skifter.": "Kolor zmienia się automatycznie każdego dnia. Jeśli wybierzesz kolor, zostanie do końca dnia. Ciemny, Północ i Wysoki kontrast zostają, dopóki ich nie zmienisz.",
+"Dagens nyheder": "Dzisiejsze wiadomości",
+"📰 Dagens nyheder": "📰 Dzisiejsze wiadomości",
+"Korte nyheder på dansk fra DR. Læs dem højt, og peg på et ord for at se, hvad det betyder.": "Krótkie wiadomości po duńsku z DR. Czytaj je na głos i wskaż słowo, aby zobaczyć, co znaczy.",
+"Henter nyheder …": "Wczytywanie wiadomości …",
+"Vis engelsk": "Pokaż po angielsku",
+"Skjul engelsk": "Ukryj angielski",
+"🇬🇧 Vis engelsk": "🇬🇧 Pokaż po angielsku",
+"🇬🇧 Skjul engelsk": "🇬🇧 Ukryj angielski",
+"Læs hele artiklen ↗": "Przeczytaj cały artykuł ↗",
+"lige nu": "przed chwilą",
+"for {n} min. siden": "{n} min temu",
+"for 1 time siden": "1 godzinę temu",
+"for {n} timer siden": "{n} godz. temu",
+"i går": "wczoraj",
+"Der er ingen nyheder lige nu. Prøv igen senere.": "Na razie nie ma wiadomości. Spróbuj później.",
+"Nyhederne kunne ikke hentes. Tjek din internetforbindelse og prøv igen.": "Nie udało się wczytać wiadomości. Sprawdź połączenie z internetem i spróbuj ponownie.",
+"Nyhederne kommer fra de offentlige RSS-feeds hos DR (dr.dk) og evt. TV 2, og rettighederne tilhører dem. DanskKlar viser kun overskriften og en kort tekst og linker til hele artikler. Den engelske tekst er maskinoversat og kan indeholde fejl.": "Wiadomości pochodzą z publicznych kanałów RSS DR (dr.dk) i ewentualnie TV 2, do których należą prawa. DanskKlar pokazuje tylko nagłówek i krótki tekst oraz link do całego artykułu. Tekst angielski jest tłumaczony maszynowo i może zawierać błędy."
 };

@@ -997,5 +997,22 @@ PD2.I18N.ro = {
 "Standard": "Implicit",
 "skifter automatisk hver dag": "se schimbă automat în fiecare zi",
 "· Ny farve hver dag": "· O culoare nouă în fiecare zi",
-"Farven skifter automatisk hver dag. Vælger du en farve, gælder den resten af dagen. Mørk, Midnat og Høj kontrast bliver, til du skifter.": "Culoarea se schimbă automat în fiecare zi. Dacă alegi o culoare, ea rămâne până la sfârșitul zilei. Întunecat, Miezul nopții și Contrast ridicat rămân până le schimbi."
+"Farven skifter automatisk hver dag. Vælger du en farve, gælder den resten af dagen. Mørk, Midnat og Høj kontrast bliver, til du skifter.": "Culoarea se schimbă automat în fiecare zi. Dacă alegi o culoare, ea rămâne până la sfârșitul zilei. Întunecat, Miezul nopții și Contrast ridicat rămân până le schimbi.",
+"Dagens nyheder": "Știrile zilei",
+"📰 Dagens nyheder": "📰 Știrile zilei",
+"Korte nyheder på dansk fra DR. Læs dem højt, og peg på et ord for at se, hvad det betyder.": "Știri scurte în daneză de la DR. Citește-le cu voce tare și arată un cuvânt ca să vezi ce înseamnă.",
+"Henter nyheder …": "Se încarcă știrile …",
+"Vis engelsk": "Arată în engleză",
+"Skjul engelsk": "Ascunde engleza",
+"🇬🇧 Vis engelsk": "🇬🇧 Arată în engleză",
+"🇬🇧 Skjul engelsk": "🇬🇧 Ascunde engleza",
+"Læs hele artiklen ↗": "Citește tot articolul ↗",
+"lige nu": "chiar acum",
+"for {n} min. siden": "acum {n} min",
+"for 1 time siden": "acum o oră",
+"for {n} timer siden": "acum {n} ore",
+"i går": "ieri",
+"Der er ingen nyheder lige nu. Prøv igen senere.": "Nu sunt știri acum. Încearcă mai târziu.",
+"Nyhederne kunne ikke hentes. Tjek din internetforbindelse og prøv igen.": "Știrile nu au putut fi încărcate. Verifică conexiunea la internet și încearcă din nou.",
+"Nyhederne kommer fra de offentlige RSS-feeds hos DR (dr.dk) og evt. TV 2, og rettighederne tilhører dem. DanskKlar viser kun overskriften og en kort tekst og linker til hele artikler. Den engelske tekst er maskinoversat og kan indeholde fejl.": "Știrile provin din fluxurile RSS publice ale DR (dr.dk) și eventual TV 2, care dețin drepturile. DanskKlar arată doar titlul și un text scurt, cu link către articolul complet. Textul în engleză este tradus automat și poate conține greșeli."
 };

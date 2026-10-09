@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "70"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "71"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -213,6 +213,7 @@
       <button role="menuitem" class="set-item" data-lang-pick><span class="set-ico">🌐</span><span>Sprog / Language <span class="small muted">· ${esc((UI_LANGS.find(l => l[0] === (window.DK_LANG ? DK_LANG.lang : "da")) || UI_LANGS[0])[2])}</span></span></button>
       <button role="menuitem" class="set-item" data-text-pick><span class="set-ico">🔠</span><span>Tekststørrelse og skrift</span></button>
       <a role="menuitem" class="set-item" href="#/progress"><span class="set-ico">📊</span><span>Min fremgang</span></a>
+      <a role="menuitem" class="set-item" href="#/news"><span class="set-ico">📰</span><span>Dagens nyheder</span></a>
       <button role="menuitem" class="set-item" data-reminder><span class="set-ico">⏰</span><span>Daglig påmindelse i kalenderen</span></button>
       <div class="set-sec">Hjælp</div>
       ${item("#/help", "❓", '<span lang="en">Help – all features (English)</span>')}
@@ -369,6 +370,7 @@
     [/^\/review$/, reviewPage],
     [/^\/help$/, helpPage],
     [/^\/progress$/, progressPage],
+    [/^\/news$/, newsPage],
     [/^\/backup$/, backupPage],
     [/^\/feedback(?:\/([1-5]))?$/, feedbackPage]
   ];
@@ -508,6 +510,7 @@
     const goalPct = Math.min(1, S.xpDay.xp / DAILY_GOAL);
     const [rd, rt] = readingProgress(), [wd, wt] = writingProgress(), [sd, st] = speakingProgress();
     const tip = TIPS[new Date().getDate() % TIPS.length];
+    setTimeout(fillNewsBanner);
     app.innerHTML = `
       <section class="hero">
         <div style="position:relative;z-index:1">
@@ -533,6 +536,7 @@
         <span class="pb-ico">🔁</span><span class="pb-meta"><b>Dagens repetition</b>
         <span class="small muted">${due ? `${due} kort klar: dine fejl, svære ord og nye ord` : "Lær nye ord fra listen over de 3000 hyppigste"}</span></span>
         <span class="pill">${due ? due : "Start"}</span></a>`; })()}
+      <a class="card plan-banner news-banner" href="#/news" id="newsBanner" hidden></a>
       ${(() => { const st = planStatus(); return `<a class="card plan-banner" href="#/plan">
         <span class="pb-ico">📅</span><span class="pb-meta"><b>${esc(countdownText())}</b>
         <span class="small muted">${S.plan.date ? `Dagens plan: ${st.done}/${st.items.length} klaret` : "Lav en prøveplan med opgaver til hver dag"}</span></span>
@@ -3848,6 +3852,73 @@
     };
   }
 
+  // ---------- 📰 Dagens nyheder ----------
+  // news.json is refreshed a few times a day by .github/workflows/news.yml (DR's public RSS feed,
+  // English by machine translation). The visitor's browser only loads the file from this site.
+  let NEWS = null, newsAt = 0;
+  function loadNews() {
+    if (NEWS && Date.now() - newsAt < 30 * 60000) return Promise.resolve(NEWS);
+    return fetch("news.json?h=" + Math.floor(Date.now() / 36e5), { cache: "no-cache" })
+      .then(r => (r.ok ? r.json() : Promise.reject(r.status)))
+      .then(d => { NEWS = d && Array.isArray(d.items) ? d : { items: [] }; newsAt = Date.now(); return NEWS; });
+  }
+  const newsEnOn = () => { try { return localStorage.getItem("dk-news-en") === "1"; } catch (e) { return false; } };
+  function newsAgo(iso) {
+    if (!iso) return "";
+    const min = Math.max(0, Math.round((Date.now() - new Date(iso).getTime()) / 60000));
+    if (min < 60) return min <= 1 ? "lige nu" : `for ${min} min. siden`;
+    const h = Math.round(min / 60);
+    if (h < 24) return h === 1 ? "for 1 time siden" : `for ${h} timer siden`;
+    return h < 48 ? "i går" : new Date(iso).toLocaleDateString("da-DK", { day: "numeric", month: "long" });
+  }
+  function fillNewsBanner() {
+    loadNews().then(d => {
+      const b = $("#newsBanner"), top = d.items[0];
+      if (!b || !top) return;
+      b.innerHTML = `<span class="pb-ico">📰</span><span class="pb-meta"><b>Dagens nyheder</b>
+        <span class="small muted news-top" data-keep>${esc(top.da.title)}</span></span><span class="pill">${d.items.length}</span>`;
+      b.hidden = false;
+    }).catch(() => { /* no news yet: keep the banner hidden */ });
+  }
+  function newsPage() {
+    app.innerHTML = `<a class="back" href="#/">← Forside</a>
+      <h1>📰 Dagens nyheder</h1>
+      <p class="muted">Korte nyheder på dansk fra DR. Læs dem højt, og peg på et ord for at se, hvad det betyder.</p>
+      <div id="newsBox"><div class="card"><p class="muted">Henter nyheder …</p></div></div>`;
+    loadNews().then(d => {
+      const box = $("#newsBox"); if (!box) return;
+      if (!d.items.length) { box.innerHTML = `<div class="card"><p>Der er ingen nyheder lige nu. Prøv igen senere.</p></div>`; return; }
+      const en = newsEnOn(), upd = d.updated ? new Date(d.updated) : null;
+      box.innerHTML = `<div class="row news-tools">
+          <button class="btn ghost sm" id="newsEn" aria-pressed="${en}">🇬🇧 ${en ? "Skjul engelsk" : "Vis engelsk"}</button>
+          ${upd ? `<span class="small muted">Opdateret ${upd.toLocaleDateString("da-DK", { day: "numeric", month: "long" })} kl. ${upd.toLocaleTimeString("da-DK", { hour: "2-digit", minute: "2-digit" })}</span>` : ""}
+        </div>
+        <div class="news-list ${en ? "show-en" : ""}">${d.items.map((it, i) => `<article class="card news-item">
+          <div class="small muted">${esc(it.source || "DR")}${it.date ? " · " + esc(newsAgo(it.date)) : ""}</div>
+          <h3 data-keep>${esc(it.da.title)}</h3>
+          ${it.da.desc ? `<p data-keep>${esc(it.da.desc)}</p>` : ""}
+          <div class="news-en" lang="en">${it.en ? `<b>${esc(it.en.title)}</b>${it.en.desc ? `<br>${esc(it.en.desc)}` : ""}` : `<i>English translation not available yet.</i>`}</div>
+          <div class="row"><button class="btn ghost sm" data-news-say="${i}">🔊 Læs op</button>
+            <a class="btn ghost sm" href="${esc(it.link)}" target="_blank" rel="noopener">Læs hele artiklen ↗</a></div>
+        </article>`).join("")}</div>
+        <p class="small muted">Nyhederne kommer fra de offentlige RSS-feeds hos DR (dr.dk) og evt. TV 2, og rettighederne tilhører dem. DanskKlar viser kun overskriften og en kort tekst og linker til hele artikler. Den engelske tekst er maskinoversat og kan indeholde fejl.</p>`;
+      $("#newsEn").onclick = () => {
+        const on = !newsEnOn();
+        try { localStorage.setItem("dk-news-en", on ? "1" : "0"); } catch (e) { /* ignore */ }
+        $(".news-list").classList.toggle("show-en", on);
+        $("#newsEn").setAttribute("aria-pressed", on);
+        $("#newsEn").textContent = "🇬🇧 " + (on ? "Skjul engelsk" : "Vis engelsk");
+      };
+      $$("[data-news-say]").forEach(b => b.onclick = () => {
+        const it = d.items[+b.dataset.newsSay];
+        if (!speak(it.da.title + ". " + (it.da.desc || ""))) toast("Din browser kan ikke læse op.");
+      });
+    }).catch(() => {
+      const box = $("#newsBox");
+      if (box) box.innerHTML = `<div class="card"><p>Nyhederne kunne ikke hentes. Tjek din internetforbindelse og prøv igen.</p></div>`;
+    });
+  }
+
   // ---------- Dagens repetition (spaced repetition) ----------
   // Cards come from: words you starred/got wrong, verb forms you missed, and your reading/grammar mistakes.
   // Each card has a box 1-5; a right answer moves it up (seen again after 1, 3, 7, 14, 30 days), a wrong one back to box 1.
@@ -4027,6 +4098,7 @@
       ["🔁", "Daily review", "Spaced repetition of your mistakes, hard words, verb forms and new words – each card comes back at the right time.", "#/review"],
       ["❌", "My mistakes", "All your wrong answers in one place, so you can practise them again.", "#/mistakes"],
       ["📊", "My progress", "XP per day, your strong and weak reading task types, which exam sets you have done, and your review cards.", "#/progress"],
+      ["📰", "Today's news", "Short Danish news headlines from DR, updated a few times a day. Tap 🇬🇧 Vis engelsk for an English translation, 🔊 to hear it read aloud, and point at any word for its meaning. Find it on the home page or in ⚙️ Settings.", "#/news"],
       ["⏰", "Daily reminder", "Settings ⚙️ → Daily reminder adds a 15-minute practice reminder at 19:00 to your phone's calendar.", ""]
     ]],
     ["Grammar and words", [
@@ -4323,13 +4395,14 @@
           ${en("Free for personal study and teaching. Content is made with care but without guarantee; model answers, translations and grade estimates are guidance only, not an official assessment. Use at your own risk; we are not liable for exam results or lost local progress. The app may change or close without notice. Ko-fi contributions are voluntary gifts. DanskKlar's own content may not be reused commercially without permission.")}</div>
 
         <div class="card" id="lg-ophav"><h2>Ophavsret</h2>
+          <p><b>Nyheder:</b> Siden 📰 Dagens nyheder viser overskrifter og korte tekster fra de offentlige RSS-feeds hos DR (og evt. TV 2) med link til hele artiklen. Rettighederne tilhører DR/TV 2. Teksterne hentes og maskinoversættes automatisk til engelsk (MyMemory) et par gange om dagen, før de lægges på siden. Din browser henter kun filen fra danskklar.com, og der sendes ingen oplysninger om dig.</p>
           <p><b>Tidligere prøveopgaver:</b> Opgaverne mærket <b>Rigtig prøve</b> stammer fra tidligere Prøve i Dansk-prøver, som myndighederne har offentliggjort som øvemateriale. Ophavsretten tilhører prøvernes ophavsmænd. Tegningerne til de mundtlige opgaver er lavet af Niels Roland, og læseteksterne har de kilder, der står ved hver opgave. De bruges her gratis og kun til øvebrug – de ligger aldrig bag betaling, og frivillige bidrag via Ko-fi er ikke betaling for dem.</p>
           <p><b>PD3-modultests:</b> Sættene i stil med DU3-modultests indeholder nye tekster skrevet til DanskKlar – de er ikke kopier af forlagets materiale.</p>
           <p><b>DanskKlars eget indhold</b> – modelsvar, skabeloner, oversættelser, øvesæt, grammatik, øvebank, spil, ordtræner, ordbog og appens kode og design – © ${new Date().getFullYear()} DanskKlar.</p>
           <p><b>Skrifttype:</b> Nunito, SIL Open Font License 1.1.</p>
           <p><b>Er du rettighedshaver?</b> Hvis du mener, at noget materiale ikke må være her, så skriv til os (se Kontakt) med en beskrivelse af materialet. Så fjerner vi det hurtigst muligt.</p>
           <p class="small"><a href="#/about">Se også Kilder og ophavsret under Om prøven →</a></p>
-          ${en("Tasks marked “Rigtig prøve” are past Prøve i Dansk exams published by the authorities as practice material; copyright stays with their makers (oral illustrations by Niels Roland; reading texts credited per task), used here free of charge for practice only – never behind payment, and Ko-fi contributions are not payment for them. The PD3 module-test-style sets contain new texts written for DanskKlar. All other content and the app itself © DanskKlar. Font: Nunito (SIL OFL 1.1). Rights holders can contact us and we will remove material promptly.")}</div>
+          ${en("Tasks marked “Rigtig prøve” are past Prøve i Dansk exams published by the authorities as practice material; copyright stays with their makers (oral illustrations by Niels Roland; reading texts credited per task), used here free of charge for practice only – never behind payment, and Ko-fi contributions are not payment for them. The PD3 module-test-style sets contain new texts written for DanskKlar. All other content and the app itself © DanskKlar. News on the 📰 page are headlines and short teasers from DR's (or TV 2's) public RSS feeds with a link to the full article; rights stay with them, and the English is machine-translated before publishing here, so no data about you is sent. Font: Nunito (SIL OFL 1.1). Rights holders can contact us and we will remove material promptly.")}</div>
 
         <div class="card" id="lg-ai"><h2>AI og indhold</h2>
           <p>En del af DanskKlars indhold – fx modelsvar, oversættelser, forklaringer og øvesæt – er lavet med hjælp fra AI-værktøjer og derefter gennemgået. Der kan alligevel være fejl. Finder du en, så <a href="#/feedback">skriv til os</a>, så retter vi den. Vurderingen af dine tekster i appen er automatiske tjek af fx længde og bindeord – ikke en bedømmelse fra en censor.</p>

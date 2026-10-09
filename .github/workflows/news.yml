@@ -1,0 +1,33 @@
+# Fetches Danish news headlines (DR RSS) with an English translation into news.json
+# for the 📰 Dagens nyheder page. Times are UTC (≈ 06:20, 12:20 and 17:20 in Denmark in summer).
+name: Dagens nyheder
+
+on:
+  schedule:
+    - cron: "20 4,10,15 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news
+  cancel-in-progress: false
+
+jobs:
+  news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch headlines
+        run: python3 scripts/fetch_news.py
+      - name: Commit news.json if it changed
+        run: |
+          if git diff --quiet -- news.json; then echo "No changes"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add news.json
+          git commit -m "Update Danish news headlines"
+          git pull --rebase origin main
+          git push origin HEAD:main
