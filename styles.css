@@ -743,3 +743,12 @@ main { padding-bottom: 32px; }
   .site-foot { padding-bottom: calc(84px + env(safe-area-inset-bottom, 0px)); }
   #toasts { bottom: calc(76px + env(safe-area-inset-bottom, 0px)); }
 }
+
+/* Answer explanations ("Derfor") after checking a reading task */
+.why { margin-top: 6px; padding: 8px 10px; border-radius: 10px; background: var(--surface-2); color: var(--text); font-weight: 500; font-size: .92rem; line-height: 1.45; }
+.why-en { display: block; margin-top: 3px; color: var(--muted); font-size: .85rem; }
+.why-list { margin-top: 10px; }
+.why-list summary { cursor: pointer; font-weight: 800; }
+.why-row { margin-top: 8px; }
+.why-row.ok > b { color: var(--good, #1b7f3b); }
+.why-row.bad > b { color: var(--bad, #c0392b); }

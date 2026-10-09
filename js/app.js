@@ -712,6 +712,9 @@
       });
     };
 
+    // "Derfor": a short explanation shown under each answer after checking.
+    const W = (PD2.WHY && PD2.WHY[r.id]) || {};
+    const why = key => W[key] ? `<div class="why">💡 <b>Derfor:</b> ${esc(W[key].da)}${W[key].en ? `<span class="why-en" lang="en">${esc(W[key].en)}</span>` : ""}</div>` : "";
     $("#check").onclick = () => {
       checked = true;
       let score = 0, total = 0, mainScore = 0, mainTotal = 0;
@@ -730,6 +733,11 @@
           const fb = $("#fb-gaps");
           fb.className = "fb " + (wrong.length ? "bad" : "ok");
           fb.textContent = wrong.length ? "Rigtige svar: " + wrong.join(", ") : "Alle huller er rigtige!";
+          const gw = Object.keys(q.answers).filter(n => W["g" + n]);
+          if (gw.length) fb.insertAdjacentHTML("afterend", `<details class="why-list" ${wrong.length ? "open" : ""}><summary>💡 Derfor – forklaring til hvert hul</summary>${gw.map(n => {
+            const ok = $(`[data-key="g${n}"]`).classList.contains("ok");
+            return `<div class="why-row ${ok ? "ok" : "bad"}"><b>(${n}) ${esc([].concat(q.answers[n])[0])}</b> ${ok ? "✓" : "✗"}${why("g" + n)}</div>`;
+          }).join("")}</details>`);
         } else if (q.type === "match") {
           q.items.forEach((it, ii) => {
             if (it.example) return;
@@ -738,6 +746,7 @@
             sel.classList.add(ok ? "ok" : "bad"); sel.disabled = true;
             const fb = $(`#fb-m${qi}-${ii}`);
             if (!ok) { fb.className = "fb bad"; fb.textContent = `Rigtigt svar: ${it.answer}`; wrongItems.push({ q: (it.n !== undefined ? it.n + ". " : "") + it.text, a: it.answer }); }
+            fb.insertAdjacentHTML("beforeend", why(`m${qi}-${ii}`));
             tally(ok);
           });
         } else {
@@ -754,6 +763,7 @@
           });
           fb.className = "fb " + (ok ? "ok" : "bad");
           fb.textContent = ok ? "✓ Rigtigt" : `✗ Rigtigt svar: ${correctText}`;
+          fb.insertAdjacentHTML("beforeend", why("q" + qi));
           if (!ok) wrongItems.push({ q: (q.n !== undefined ? q.n + ". " : "") + q.q, a: correctText });
           tally(ok, q.extra);
         }
