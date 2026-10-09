@@ -772,3 +772,13 @@ mark.gerr sup { color: var(--bad); font-weight: 800; margin-left: 1px; }
 .wl-texts { border: 0; background: none; color: var(--read, inherit); font-weight: 800; cursor: pointer; text-decoration: underline; padding: 0; }
 .share-row { gap: 8px; flex-wrap: wrap; }
 .share-row a.btn { text-decoration: none; }
+
+/* Help page */
+.help-h { margin-top: 24px; scroll-margin-top: 120px; }
+.help-grid { margin-top: 8px; }
+.help-item { display: flex; gap: 12px; align-items: flex-start; text-decoration: none; color: inherit; padding: 14px; }
+a.help-item:hover { border-color: var(--read); }
+.help-item > span:last-child { display: flex; flex-direction: column; gap: 4px; }
+.help-ico { font-size: 1.6rem; line-height: 1; }
+.help-toc { margin: 8px 0 4px; }
+.help-toc .chip { text-decoration: none; }

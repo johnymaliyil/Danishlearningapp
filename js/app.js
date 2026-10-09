@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "55"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "56"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -316,6 +316,7 @@
     [/^\/about$/, about],
     [/^\/legal$/, legalPage],
     [/^\/review$/, reviewPage],
+    [/^\/help$/, helpPage],
     [/^\/backup$/, backupPage],
     [/^\/feedback(?:\/([1-5]))?$/, feedbackPage]
   ];
@@ -545,6 +546,7 @@
         <a class="btn ghost sm" href="#/about">ℹ️ Om ${META().name}-prøven</a>
         ${FEEDBACK_TO ? `<a class="btn ghost sm" href="#/feedback">⭐ Bedøm / giv feedback</a>` : ""}
         ${kofiBtn()}
+        <a class="btn ghost sm" href="#/help" lang="en">❓ Help (English)</a>
         <a class="btn ghost sm" href="#/backup">💾 Gem/hent fremskridt</a>
         <button class="btn ghost sm" data-share>📤 Del DanskKlar</button>
         <a class="btn ghost sm" href="#/legal">⚖️ Privatliv og vilkår</a>
@@ -3841,6 +3843,70 @@
         $("#bok").onclick = () => { S = Object.assign(blank(), d); save(); location.hash = "#/"; location.reload(); };
       } catch (err) { msg.textContent = "Filen kunne ikke læses. Vælg en fil, du har gemt fra DanskKlar."; }
     };
+  }
+
+  // ---------- Help (English overview of all features) ----------
+  const HELP = [
+    ["Getting started", [
+      ["🎯", "Choose your exam", "Pick PD1, PD2 or PD3 at the top. Reading, writing, speaking and the mock exam follow the exam you choose. You can switch at any time.", "#/start"],
+      ["🇬🇧", "Hover translation", "Point at (or double-click / tap) any Danish word to see it in English. Use the 🇬🇧 button at the top to turn it on or off.", ""],
+      ["⭐", "XP, streak and badges", "You earn XP for everything you practise. Practise every day to keep your 🔥 streak and unlock badges on the home page.", "#/"],
+      ["📱", "Install as an app", "On your phone, use \"Add to Home Screen\" (or the install button on the home page). The app also works offline.", "#/"]
+    ]],
+    ["Reading – 📖 Læsning", [
+      ["🏛️", "Real past exams", "PD2 has 23 numbered sets (Sæt 1–23) from real exams, plus practice sets for PD1, PD2 and PD3. Start the exam timer if you want real exam conditions.", "#/reading"],
+      ["🇬🇧", "EN buttons", "Each reading task has an EN button that shows the instruction, the text and the questions in English.", "#/reading"],
+      ["💡", "Explanations (Derfor)", "After \"Tjek svar\", every answer shows why it is correct, with the words from the text that prove it – in Danish and English.", "#/reading"],
+      ["📈", "Important words", "Each text lists the words from the 3000 most frequent Danish words that appear in it, with English and audio.", "#/reading"]
+    ]],
+    ["Writing – ✍️ Skrivning", [
+      ["📝", "Real exam tasks", "Write the real writing tasks with a word counter and timer. Your draft is saved automatically.", "#/writing"],
+      ["🔍", "Grammar check", "The coach underlines typical mistakes as you type: word order after fordi/hvis/når, the place of ikke, inversion, en/et and more – with the correction.", "#/writing"],
+      ["👀", "Model answers", "See a model answer, with an English translation (side by side or EN pop-up).", "#/writing"],
+      ["🧠", "Templates", "Fixed openings and endings for e-mails, complaints, applications, invitations and more – learn them by heart.", "#/writing/skabeloner"],
+      ["📋", "Self-assessment", "Rate your text with the examiners' criteria and get an estimated grade.", "#/writing"]
+    ]],
+    ["Speaking – 🗣️ Tale", [
+      ["🎤", "Presentation and picture tasks", "Practise the oral exam with real topics and pictures, the examiner's questions, a timer and recording of yourself.", "#/speaking"],
+      ["🎬", "Oral exam simulation", "Go through a whole oral exam step by step.", "#/speaking/sim"]
+    ]],
+    ["Exam preparation", [
+      ["📝", "Mock exam", "Take a full written exam (PD1, PD2 or PD3) with time limits and get an estimated grade.", "#/exam"],
+      ["📅", "Study plan", "Set your exam date and get a small plan for every day.", "#/plan"],
+      ["🔁", "Daily review", "Spaced repetition of your mistakes, hard words, verb forms and new words – each card comes back at the right time.", "#/review"],
+      ["❌", "My mistakes", "All your wrong answers in one place, so you can practise them again.", "#/mistakes"]
+    ]],
+    ["Grammar and words", [
+      ["📐", "Grammar lessons", "Short beginner lessons on sentence building, inversion, questions, conjunctions, nouns, adjectives and verbs – with colour-coded examples.", "#/grammar"],
+      ["🏋️", "Practice bank", "Endless new exercises: build sentences, place ikke, choose conjunctions and inflect words.", "#/grammar"],
+      ["🔎", "Dictionary", "Danish ⇄ English dictionary with audio. Star words to practise them.", "#/ordbog"],
+      ["📚", "Word lists", "500 verbs with all forms, 250 adjectives and the 3000 most frequent words – with English, audio, quizzes and links to the reading texts.", "#/ordlister"]
+    ]],
+    ["Games – 🎮 Spil", [
+      ["📚", "Word trainer", "Learn thousands of words: choose the English meaning. Words you find hard come back.", "#/games/vocab"],
+      ["👂", "Listening", "\"Lyt og vælg\" (hear a word and choose) and \"Lyt og skriv\" (dictation).", "#/games/listen"],
+      ["⏱️", "Verb games", "\"Bøj verbet\", \"Bøj verbet på tid\" (60 seconds) and \"Find parret\" (match the verb with its past tense).", "#/games/verbrace"],
+      ["🎯", "More games", "En eller et?, Byg sætningen, Ordle, Vendespil, Ordjagt and Talemåder.", "#/games"]
+    ]],
+    ["Your data and contact", [
+      ["💾", "Save / load progress", "Your progress is stored only in this browser. Download it as a file and load it on a new phone or computer – no login needed.", "#/backup"],
+      ["⭐", "Feedback and rating", "Found a mistake or have an idea? Rate the app and send us a message.", "#/feedback"],
+      ["📤", "Share", "Send DanskKlar to a friend who is preparing for the exam.", "#/about"],
+      ["⚖️", "Privacy and terms", "No cookies, no tracking, no ads. Read the privacy policy, terms and copyright.", "#/legal"]
+    ]]
+  ];
+  function helpPage() {
+    app.innerHTML = `<div lang="en">
+      <a class="back" href="#/">← Home</a>
+      <h1>❓ Help – what can DanskKlar do?</h1>
+      <p class="muted">DanskKlar is a free app for practising the Danish language exams Prøve i Dansk 1, 2 and 3. Here is everything it can do. Tap a feature to open it.</p>
+      <div class="chips help-toc">${HELP.map(([h], i) => `<a class="chip" href="#/help" data-hj="h${i}">${esc(h)}</a>`).join("")}</div>
+      ${HELP.map(([h, items], i) => `<h2 id="h${i}" class="help-h">${esc(h)}</h2>
+        <div class="grid grid-2 help-grid">${items.map(([ico, t, d, href]) => `<${href ? `a href="${href}"` : "div"} class="card help-item">
+          <span class="help-ico">${ico}</span><span><b>${esc(t)}</b><span class="small muted">${esc(d)}</span></span></${href ? "a" : "div"}>`).join("")}</div>`).join("")}
+      <div class="card" style="margin-top:20px"><b>Still stuck?</b> <span class="muted">Write to us with the <a href="#/feedback">feedback form</a> – in English or Danish.</span></div>
+    </div>`;
+    $$("[data-hj]").forEach(a => a.onclick = e => { e.preventDefault(); const t = document.getElementById(a.dataset.hj); if (t) t.scrollIntoView({ behavior: "smooth", block: "start" }); });
   }
 
   // ---------- Del appen ----------
