@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "49"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "50"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -309,6 +309,7 @@
     [/^\/grammar\/drill\/(\w+)$/, drillPage],
     [/^\/grammar\/([\w-]+)$/, grammarLesson],
     [/^\/ordbog$/, dictionaryPage],
+    [/^\/ordlister(?:\/(\w+))?(?:\/(quiz))?$/, wordlistPage],
     [/^\/exam$/, examPage],
     [/^\/plan$/, planPage],
     [/^\/mistakes$/, mistakesPage],
@@ -2073,6 +2074,156 @@
     try { inp.value = sessionStorage.getItem("dict-q") || ""; } catch (e) { /* ignore */ }
     render();
     inp.focus();
+  }
+
+  // ---------- Ordlister: verber, adjektiver og de 3000 hyppigste ord (for alle prøver) ----------
+  const WL = {
+    verber: { ico: "🔤", name: "500 verber", en: "500 common verbs" },
+    adj: { ico: "🎨", name: "250 adjektiver", en: "250 common adjectives" },
+    ord: { ico: "📈", name: "3000 hyppigste ord", en: "3000 most frequent words" }
+  };
+  const VGROUP = { b1: "-ede (gruppe 1)", b2: "-te (gruppe 2)", uv: "uregelmæssig" };
+  const wlData = k => (k === "verber" ? PD2.VERBS : k === "adj" ? PD2.ADJS : PD2.FREQ) || [];
+  const foldQ = s => dkFold(String(s).toLowerCase());
+
+  function wordlistPage(kind, quiz) {
+    kind = WL[kind] ? kind : "verber";
+    if (quiz) return wordlistQuiz(kind);
+    const data = wlData(kind);
+    let filter = "alle", shown = 100;
+    app.innerHTML = `
+      <h1>📚 Ordlister <span class="tag">for alle prøver</span></h1>
+      <p class="muted">De vigtigste ord at kunne: 500 verber med alle former, 250 adjektiver med bøjning og de 3000 ord, der bruges mest på dansk. Søg, lyt med 🔊, og øv dig med quizzen.</p>
+      <div class="chips wl-tabs" role="tablist">${Object.entries(WL).map(([k, w]) => `<a class="chip ${k === kind ? "on" : ""}" role="tab" aria-selected="${k === kind}" href="#/ordlister/${k}">${w.ico} ${esc(w.name)}</a>`).join("")}</div>
+      <div class="card" style="margin-top:12px">
+        <div class="row" style="gap:10px;flex-wrap:wrap">
+          <input class="short dict-search" id="wq" type="search" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Søg på dansk eller engelsk …" aria-label="Søg i listen" style="flex:1;min-width:200px">
+          <a class="btn write" href="#/ordlister/${kind}/quiz">🎯 Øv med quiz</a>
+        </div>
+        ${kind === "verber" ? `<div class="chips" style="margin-top:10px">${[["alle", "Alle"], ...Object.entries(VGROUP)].map(([k, l]) => `<button class="chip ${k === "alle" ? "on" : ""}" data-vf="${k}">${esc(l)}</button>`).join("")}</div>` : ""}
+        <p class="small muted" style="margin:8px 0 0" id="wcount"></p>
+      </div>
+      <div class="card wl-card" style="margin-top:12px"><div class="wl-scroll" id="wlist"></div>
+        <div class="row" style="justify-content:center;margin-top:10px"><button class="btn ghost" id="wmore" hidden>Vis flere</button></div></div>
+      ${kind === "verber" ? `<p class="small muted">Bøjningsgrupper: <b>-ede</b> (arbejde → arbejdede), <b>-te</b> (spise → spiste) og <b>uregelmæssige</b> verber (gå → gik), som man skal lære udenad. Verber med <i>er</i> i førnutid (er gået) handler om bevægelse eller forandring.</p>` : ""}
+      ${kind === "adj" ? `<p class="small muted">n-form: en stor bil · t-form: et stort hus · e-form: den store bil / store biler. Komparativ og superlativ: større – størst, eller mere/mest foran lange ord.</p>` : ""}`;
+    const head = {
+      verber: ["Navneform", "Nutid", "Datid", "Førnutid", "Førdatid", "Bydeform", "Gruppe", "Engelsk"],
+      adj: ["n-form", "t-form", "e-form", "Komparativ", "Superlativ", "Engelsk"],
+      ord: ["#", "Ord", "Engelsk"]
+    }[kind];
+    const rows = () => {
+      const q = foldQ($("#wq").value.trim());
+      return data.map((r, i) => ({ r, i })).filter(({ r }) =>
+        (kind !== "verber" || filter === "alle" || r[6] === filter) &&
+        (!q || r.some(c => foldQ(c).includes(q))));
+    };
+    const cell = (r, i) => kind === "ord"
+      ? `<td class="muted">${i + 1}</td><td><button class="say" data-say="${esc(r[0])}" aria-label="Hør ${esc(r[0])}">🔊</button> <b>${esc(r[0])}</b></td><td lang="en">${esc(r[1])}</td>`
+      : kind === "verber"
+        ? `<td><button class="say" data-say="at ${esc(r[0])}" aria-label="Hør ${esc(r[0])}">🔊</button> <b>${esc(r[0])}</b></td>${r.slice(1, 6).map(c => `<td>${esc(c)}</td>`).join("")}<td><span class="tag ${r[6] === "uv" ? "real" : ""}">${esc(r[6])}</span></td><td lang="en">${esc(r[7] || "")}</td>`
+        : `<td><button class="say" data-say="${esc(r[0])}" aria-label="Hør ${esc(r[0])}">🔊</button> <b>${esc(r[0])}</b></td>${r.slice(1, 5).map(c => `<td>${esc(c)}</td>`).join("")}<td lang="en">${esc(r[5] || "")}</td>`;
+    const draw = () => {
+      const list = rows();
+      $("#wcount").textContent = `${fmtN(list.length)} af ${fmtN(data.length)} ord`;
+      $("#wlist").innerHTML = list.length ? `<table class="simple wl-table wl-${kind}"><thead><tr>${head.map(h => `<th>${h}</th>`).join("")}</tr></thead>
+        <tbody>${list.slice(0, shown).map(({ r, i }) => `<tr>${cell(r, i)}</tr>`).join("")}</tbody></table>`
+        : `<p class="muted">Ingen ord fundet.</p>`;
+      $("#wmore").hidden = list.length <= shown;
+      $$("#wlist [data-say]").forEach(b => b.onclick = () => speak(b.dataset.say));
+    };
+    let t;
+    $("#wq").oninput = () => { clearTimeout(t); shown = 100; t = setTimeout(draw, 120); };
+    $("#wmore").onclick = () => { shown += 200; draw(); };
+    $$("[data-vf]").forEach(b => b.onclick = () => { filter = b.dataset.vf; shown = 100; $$("[data-vf]").forEach(x => x.classList.toggle("on", x === b)); draw(); });
+    draw();
+  }
+
+  // Quiz: verbs and adjectives = write the form; frequent words = choose the English meaning.
+  function wordlistQuiz(kind) {
+    const data = wlData(kind), ROUND = 10;
+    S.wl = S.wl || {};
+    let n = 0, score = 0, range = S.wl.range || 500;
+    const VF = [[1, "nutid", "i dag: jeg …"], [2, "datid", "i går: jeg …"], [3, "førnutid", "jeg har / er …"]];
+    const AF = [[1, "t-form", "et … hus"], [2, "e-form", "den … bil / … biler"], [3, "komparativ", "mere … / -ere"], [4, "superlativ", "mest … / -est"]];
+    const pick = a => a[Math.floor(Math.random() * a.length)];
+    function makeQ() {
+      if (kind === "ord") {
+        const pool = data.slice(Math.max(0, range - 500), range), r = pick(pool);
+        const opts = shuffle([r[1], ...shuffle(pool.filter(x => x[1] !== r[1])).slice(0, 3).map(x => x[1])]);
+        return { kind: "mc", da: r[0], opts, answer: r[1] };
+      }
+      if (kind === "verber") {
+        const r = pick(data), [i, name, hint] = pick(VF);
+        const ans = r[i].split(/\s*\/\s*/).map(a => a.replace(/^(har|er|har\/er)\s+/, ""));
+        return { kind: "type", prompt: `<b>at ${esc(r[0])}</b> <span class="muted small" lang="en">(${esc(r[7] || "")})</span><br>Skriv <b>${name}</b> <span class="muted small">– ${esc(hint)}</span>`, accept: [r[i], ...ans], show: r[i], say: r[i] };
+      }
+      let r, f;
+      do { r = pick(data); f = pick(AF); } while (!r[f[0]] || r[f[0]] === "-");
+      const forms = r[f[0]].split(/\s*\/\s*/);
+      return { kind: "type", prompt: `<b>${esc(r[0])}</b> <span class="muted small" lang="en">(${esc(r[5] || "")})</span><br>Skriv <b>${f[1]}</b> <span class="muted small">– ${esc(f[2])}</span>`, accept: forms.concat(forms.map(x => x.replace(/^mere |^mest /, ""))), show: r[f[0]], say: forms[0] };
+    }
+    function show() {
+      const q = makeQ();
+      app.innerHTML = `<a class="back" href="#/ordlister/${kind}">← ${esc(WL[kind].name)}</a>
+        <h1>🎯 Quiz: ${esc(WL[kind].name)}</h1>
+        ${kind === "ord" ? `<div class="chips" style="margin-bottom:10px">${[500, 1000, 1500, 2000, 2500, 3000].filter(x => x <= Math.max(500, data.length + 499)).map(x => `<button class="chip ${x === range ? "on" : ""}" data-range="${x}">${x - 499}-${x}</button>`).join("")}</div>` : ""}
+        <div class="card stage">
+          <div class="row" style="justify-content:space-between"><span class="pill">${n + 1}/${ROUND}</span><span class="pill">✅ ${score}</span></div>
+          ${q.kind === "mc"
+            ? `<div class="word-big no-tr">${esc(q.da)}</div><button class="btn ghost sm" id="qsay">🔊 Hør</button>
+               <div class="answers" style="margin-top:12px">${q.opts.map(o => `<button class="choice" lang="en" data-o="${esc(o)}">${esc(o)}</button>`).join("")}</div>`
+            : `<div class="drill-q no-tr">${q.prompt}</div>
+               <input class="short" id="qin" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Skriv svaret …" aria-label="Dit svar">
+               <div class="row" style="justify-content:center;margin-top:10px"><button class="btn write" id="qchk">Tjek</button></div>`}
+          <div id="qfb" class="quiz-after"></div>
+        </div>`;
+      $$("[data-range]").forEach(b => b.onclick = () => { range = +b.dataset.range; S.wl.range = range; save(); n = 0; score = 0; show(); });
+      const done = ok => {
+        if (ok) score++;
+        $("#qfb").innerHTML = `<p>${ok ? "✅ Rigtigt!" : `❌ Det rigtige svar er: <b>${esc(q.kind === "mc" ? q.answer : q.show)}</b>`}</p>
+          <button class="btn write" id="qnext">${n + 1 < ROUND ? "Næste →" : "Se resultat"}</button>`;
+        if (q.say) speak(q.say);
+        $("#qnext").focus();
+        $("#qnext").onclick = () => { n++; if (n < ROUND) show(); else finish(); };
+      };
+      if (q.kind === "mc") {
+        $("#qsay").onclick = () => speak(q.da);
+        let locked = false;
+        $$(".choice").forEach(b => b.onclick = () => {
+          if (locked) return; locked = true;
+          const ok = b.dataset.o === q.answer;
+          b.classList.add(ok ? "ok" : "bad");
+          if (!ok) $$(".choice").find(x => x.dataset.o === q.answer).classList.add("ok");
+          done(ok);
+        });
+      } else {
+        const inp = $("#qin");
+        inp.focus();
+        const chk = () => {
+          if ($("#qchk").disabled) return;
+          $("#qchk").disabled = true; inp.disabled = true;
+          const v = norm(inp.value);
+          done(q.accept.some(a => norm(a) === v));
+        };
+        $("#qchk").onclick = chk;
+        inp.onkeydown = e => { if (e.key === "Enter") { e.preventDefault(); chk(); } };
+      }
+    }
+    function finish() {
+      S.wl[kind] = Math.max(S.wl[kind] || 0, score); save();
+      addXP(score * 2, "ordliste");
+      if (score === ROUND) confetti();
+      app.innerHTML = `<a class="back" href="#/ordlister/${kind}">← ${esc(WL[kind].name)}</a>
+        <h1>🎯 Quiz: ${esc(WL[kind].name)}</h1>
+        <div class="card stage"><div class="word-big">${score}/${ROUND}</div>
+          <p style="font-weight:800">${score === ROUND ? "🎉 Perfekt!" : score >= 7 ? "👏 Flot!" : "Øvelse gør mester – prøv en runde til."}</p>
+          <div class="row" style="justify-content:center"><button class="btn write" id="qagain">Ny runde</button><a class="btn ghost" href="#/ordlister/${kind}">Til listen</a></div></div>`;
+      $("#qagain").onclick = () => { n = 0; score = 0; show(); };
+      $("#qagain").focus();
+    }
+    if (!data.length) { app.innerHTML = `<p class="muted">Listen er ikke indlæst.</p>`; return; }
+    show();
   }
 
   // ---------- Grammatik ----------
