@@ -770,3 +770,5 @@ mark.gerr sup { color: var(--bad); font-weight: 800; margin-left: 1px; }
 .fw .say { border: 0; background: none; cursor: pointer; padding: 0; }
 .fw small { color: var(--muted); }
 .wl-texts { border: 0; background: none; color: var(--read, inherit); font-weight: 800; cursor: pointer; text-decoration: underline; padding: 0; }
+.share-row { gap: 8px; flex-wrap: wrap; }
+.share-row a.btn { text-decoration: none; }

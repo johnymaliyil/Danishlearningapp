@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "53"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "54"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -539,6 +539,7 @@
         <a class="btn ghost sm" href="#/about">ℹ️ Om ${META().name}-prøven</a>
         ${FEEDBACK_TO ? `<a class="btn ghost sm" href="#/feedback">⭐ Bedøm / giv feedback</a>` : ""}
         ${kofiBtn()}
+        <button class="btn ghost sm" data-share>📤 Del DanskKlar</button>
         <a class="btn ghost sm" href="#/legal">⚖️ Privatliv og vilkår</a>
         <span class="spacer"></span>
         <button class="btn ghost sm" id="reset">Nulstil fremskridt</button>
@@ -3690,6 +3691,34 @@
     };
   }
 
+  // ---------- Del appen ----------
+  const SHARE_URL = "https://danskklar.com/";
+  const SHARE_TEXT = "DanskKlar – gratis app til at øve Prøve i Dansk 1, 2 og 3: læsning, skrivning, tale, grammatik og ord.";
+  const shareRow = () => {
+    const u = encodeURIComponent(SHARE_URL), t = encodeURIComponent(SHARE_TEXT);
+    return `<div class="row share-row">
+      ${navigator.share ? `<button class="btn write sm" data-share>📤 Del …</button>` : ""}
+      <a class="btn ghost sm" href="https://wa.me/?text=${t}%20${u}" target="_blank" rel="noopener">💬 WhatsApp</a>
+      <a class="btn ghost sm" href="https://www.facebook.com/sharer/sharer.php?u=${u}" target="_blank" rel="noopener">📘 Facebook</a>
+      <a class="btn ghost sm" href="mailto:?subject=${encodeURIComponent("Øv dansk med DanskKlar")}&body=${t}%0A%0A${u}">✉️ E-mail</a>
+      <button class="btn ghost sm" data-copylink>🔗 Kopiér link</button></div>`;
+  };
+  async function copyLink() {
+    try { await navigator.clipboard.writeText(SHARE_URL); toast("🔗 Linket er kopieret"); }
+    catch (e) { prompt("Kopiér linket:", SHARE_URL); }
+  }
+  async function shareApp() {
+    if (navigator.share) {
+      try { await navigator.share({ title: "DanskKlar", text: SHARE_TEXT, url: SHARE_URL }); } catch (e) { /* cancelled */ }
+      return;
+    }
+    openEnPop("Del DanskKlar", `<p>Send linket til en ven, der skal til Prøve i Dansk:</p>${shareRow()}`, true);
+  }
+  document.addEventListener("click", e => {
+    if (e.target.closest("[data-share]")) { e.preventDefault(); shareApp(); }
+    else if (e.target.closest("[data-copylink]")) { e.preventDefault(); copyLink(); }
+  });
+
   // ---------- Privatliv, vilkår og ophavsret ----------
   const LEGAL_UPDATED = "8. oktober 2026";
   // Name of the private person behind DanskKlar (data controller). Empty = "the private person behind DanskKlar".
@@ -3843,6 +3872,9 @@
         ${KOFI ? `<div class="card" id="stoet"><h2>☕ Støt DanskKlar</h2>
           <p>DanskKlar er gratis og uden reklamer. Hvis appen hjælper dig, kan du give en kop kaffe på Ko-fi – det hjælper med at betale for domænet og med at lave flere opgaver. Det er helt frivilligt.</p>
           <p>${kofiBtn("btn write")}</p></div>` : ""}
+        <div class="card" id="del"><h2>📤 Del DanskKlar</h2>
+          <p>Kender du andre, der skal til Prøve i Dansk? Send dem et link – appen er gratis.</p>
+          ${shareRow()}</div>
         <div class="card" id="kilder">
           <h2>📚 Kilder og ophavsret</h2>
           <p>Opgaverne, der er mærket <b>Rigtig prøve</b>, kommer fra tidligere prøver i Prøve i Dansk, som de danske myndigheder har offentliggjort som øvemateriale. Ophavsretten tilhører dem, der har lavet prøverne. Tegningerne til de mundtlige opgaver er lavet af <b>Niels Roland</b>, og teksterne i læseopgaverne har deres egne kilder, som står ved hver opgave.</p>
