@@ -1,4 +1,200 @@
 {
- "updated": null,
- "items": []
+ "updated": "2026-10-09T19:40+00:00",
+ "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/trump-lover-traengte-amerikanere-russisk-diesel",
+   "date": "2026-10-09T19:21:58+00:00",
+   "da": {
+    "title": "Trump lover trængte amerikanere russisk diesel",
+    "desc": ""
+   },
+   "en": {
+    "title": "Trump Promises Troubled Americans Russian Diesel",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tidligere-raadgiver-tilbydes-job-som-pressesekretaer-det-hvide-hus",
+   "date": "2026-10-09T19:00:07+00:00",
+   "da": {
+    "title": "Tidligere rådgiver tilbydes job som pressesekretær for Det Hvide Hus",
+    "desc": ""
+   },
+   "en": {
+    "title": "Former advisor offered White House press secretary job",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tsunamivarsel-efter-kraftigt-jordskaelv-i-panama",
+   "date": "2026-10-09T18:25:21+00:00",
+   "da": {
+    "title": "Tsunamivarsel efter kraftigt jordskælv i Panama",
+    "desc": ""
+   },
+   "en": {
+    "title": "Tsunami warning after strong earthquake in Panama",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/spoegelsesbilist-vendte-om-paa-motorvej-og-udloeste-uheld",
+   "date": "2026-10-09T17:01:59+00:00",
+   "da": {
+    "title": "Spøgelsesbilist vendte om på motorvej og udløste uheld",
+    "desc": ""
+   },
+   "en": {
+    "title": "Ghost driver turned around on highway and triggered accident",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/icc-medlemslande-bekymrede-over-usa-s-sanktioner",
+   "date": "2026-10-09T16:48:39+00:00",
+   "da": {
+    "title": "ICC-medlemslande bekymrede over USA's sanktioner",
+    "desc": ""
+   },
+   "en": {
+    "title": "ICC member states concerned about US sanctions",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/fly-maa-noedlande-i-miami-efter-kraftig-turbulens-ni-kvaestet",
+   "date": "2026-10-09T16:16:15+00:00",
+   "da": {
+    "title": "Fly må nødlande i Miami efter kraftig turbulens - ni kvæstet",
+    "desc": ""
+   },
+   "en": {
+    "title": "Aircraft must crash land in Miami after severe turbulence - nine injured",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/ingen-prognose-normal-togtrafik-efter-brand-i-teknikhytte",
+   "date": "2026-10-09T14:39:24+00:00",
+   "da": {
+    "title": "Ingen prognose for normal togtrafik efter brand i teknikhytte",
+    "desc": ""
+   },
+   "en": {
+    "title": "No forecast for normal train traffic after fire in technical cabin",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/betjent-faar-boede-og-skal-betale-erstatning-efter-trafikuheld-paa-bornholm",
+   "date": "2026-10-09T13:54:32+00:00",
+   "da": {
+    "title": "Betjent får bøde og skal betale erstatning efter trafikuheld på Bornholm",
+    "desc": ""
+   },
+   "en": {
+    "title": "Officer fined and must pay compensation after traffic accident on Bornholm",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/kongeparret-indvier-badebro-i-skive",
+   "date": "2026-10-09T13:04:07+00:00",
+   "da": {
+    "title": "Kongeparret indvier badebro i Skive",
+    "desc": ""
+   },
+   "en": {
+    "title": "The King and Queen inaugurate bathing jetty in Skive",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/landsret-afviser-varetaegtsfaengsle-voldssigtede-faengselsbetjente-fra-kosovo",
+   "date": "2026-10-09T12:59:12+00:00",
+   "da": {
+    "title": "Landsret afviser at varetægtsfængsle voldssigtede fængselsbetjente fra Kosovo",
+    "desc": ""
+   },
+   "en": {
+    "title": "The High Court refuses to remand violent prison officers from Kosovo in custody",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/unge-maend-idoemmes-lange-faengselsstraffe-narko",
+   "date": "2026-10-09T12:48:52+00:00",
+   "da": {
+    "title": "To unge mænd idømmes lange fængselsstraffe for narko",
+    "desc": ""
+   },
+   "en": {
+    "title": "Two young men sentenced to long prison terms for drugs",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/stjaalne-renoir-malerier-er-fundet-seks-er-anholdt",
+   "date": "2026-10-09T11:31:54+00:00",
+   "da": {
+    "title": "To stjålne Renoir-malerier er fundet - seks er anholdt",
+    "desc": ""
+   },
+   "en": {
+    "title": "Two stolen Renoir paintings found - six arrested",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/sager-om-indfoedsret-genoptages-efter-fejl-i-register",
+   "date": "2026-10-09T10:40:04+00:00",
+   "da": {
+    "title": "Sager om indfødsret genoptages efter fejl i register",
+    "desc": ""
+   },
+   "en": {
+    "title": "Cases of citizenship are resumed after errors in the register",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/kommune-faar-kritik-manglende-undervisning-paa-doegninstitution",
+   "date": "2026-10-09T09:21:33+00:00",
+   "da": {
+    "title": "Kommune får kritik for manglende undervisning på døgninstitution",
+    "desc": ""
+   },
+   "en": {
+    "title": "Municipality criticized for lack of education in residential institution",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/polsk-politi-anholder-flere-unge-trusler-om-angreb",
+   "date": "2026-10-09T08:58:05+00:00",
+   "da": {
+    "title": "Polsk politi anholder flere unge for trusler om angreb",
+    "desc": ""
+   },
+   "en": {
+    "title": "Polish police arrest more youths for threats of attack",
+    "desc": ""
+   }
+  }
+ ]
 }
