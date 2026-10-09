@@ -45,7 +45,7 @@ Flere supermarkeder har [[3]] ændret strategi. De sælger nu varer med kort hol
       questions: [
         {
           type: "gaps",
-          bank: ["derfor", "fordi", "selvom", "hvorefter", "imidlertid", "desuden", "ikke desto mindre", "hvorimod", "eftersom", "medmindre", "dermed"].map(w => ({ key: w, text: w })),
+          bank: ["derfor", "fordi", "selvom", "hvorefter", "imidlertid", "desuden", "ikke desto mindre", "hvis", "indtil", "medmindre", "dermed"].map(w => ({ key: w, text: w })),
           example: { 0: "derfor" },
           answers: { 1: "fordi", 2: "hvorefter", 3: "imidlertid", 4: "desuden", 5: "ikke desto mindre", 6: "selvom" }
         }

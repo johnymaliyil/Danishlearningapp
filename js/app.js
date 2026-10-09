@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "50"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "51"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -485,10 +485,10 @@
       </div>
 
       <div class="grid grid-2" style="margin-top:16px">
-        ${S.exam === "pd2" ? `<a class="task read" href="#/exam">
+        ${true ? `<a class="task read" href="#/exam">
           <span class="emoji">📝</span>
           <h2>Prøvesimulering</h2>
-          <p class="muted" style="margin:0">Tag en hel skriftlig prøve med tid og få et anslået resultat.${S.exams.length ? ` Sidst: <b>${S.exams[0].score}/${S.exams[0].total}</b> (${esc(S.exams[0].grade)}).` : ""}</p>
+          <p class="muted" style="margin:0">Tag en hel skriftlig prøve med tid og få et anslået resultat.${(() => { const e = S.exams.find(x => (x.exam || "pd2") === S.exam); return e ? ` Sidst: <b>${e.score}/${e.total}</b> (${esc(e.grade)}).` : ""; })()}</p>
         </a>` : ""}
         <a class="task read" href="#/ordbog">
           <span class="emoji">🔎</span>
@@ -1690,7 +1690,7 @@
     const days = daysUntil(S.plan.date), idx = dayNo(today());
     const items = [];
     const pick = (list, isDone) => list.find(x => !isDone(x)) || list[idx % list.length];
-    if (S.exam === "pd2" && days !== null && days >= 1 && days <= 14 && days % 3 === 1)
+    if (days !== null && days >= 1 && days <= 14 && days % 3 === 1)
       items.push({ ico: "📝", text: "Prøvesimulering: hele den skriftlige prøve", kind: "exam", href: "#/exam" });
     const r = pick(EX().READING, x => S.reading[x.id]);
     if (r) items.push({ ico: "📖", text: `Læs: ${r.title}`, kind: "reading", href: `#/reading/${r.id}` });
@@ -1787,26 +1787,43 @@
     };
   }
 
-  // ----- Prøvesimulering (mock written exam, PD2) -----
+  // ----- Prøvesimulering (mock written exam: PD1, PD2, PD3) -----
   let MOCK = null;
-  function mockSets() {
+  // Per exam: which parts the reading is split into (minutes) and the writing time.
+  const MOCK_CFG = {
+    pd1: { min: { d1: 40, w: 60 }, names: { d1: "Læsning", w: "Skriftlig fremstilling" }, part: () => "d1",
+      rows: [["Læsning", "Opslag, annoncer, sms og huller", "ca. 40 min"], ["Skriftlig fremstilling", "En kort besked + en kort tekst", "ca. 1 time"]] },
+    pd2: { min: { d1: 30, d2: 60, w: 90 }, names: { d1: "Læseforståelse 1", d2: "Læseforståelse 2", w: "Skriftlig fremstilling" }, part: i => (i < 2 ? "d1" : "d2"),
+      rows: [["Læseforståelse 1", "Opgave 1-2", "30 min"], ["Læseforståelse 2", "Opgave 3-5", "60 min"], ["Skriftlig fremstilling", "Delprøve 1 (A eller B) + delprøve 2", "1½ time"]] },
+    pd3: { min: { d1: 60, w: 120 }, names: { d1: "Læseforståelse", w: "Skriftlig fremstilling" }, part: () => "d1",
+      rows: [["Læseforståelse", "4 opgaver: ord, sætninger, huller og spørgsmål", "ca. 1 time"], ["Skriftlig fremstilling", "Delprøve 1 (klage eller ansøgning) + delprøve 2 (argumenterende tekst)", "ca. 2 timer"]] }
+  };
+  const mockCfg = () => MOCK_CFG[(MOCK && MOCK.exam) || S.exam] || MOCK_CFG.pd2;
+  function mockSets(k = S.exam) {
+    const E = PD2.EXAMS[k];
+    if (k === "pd2") {
+      const g = {};
+      E.READING.filter(r => r.real).forEach(r => (g[r.group] = g[r.group] || []).push(r));
+      return Object.entries(g).filter(([, rs]) => rs.length >= 5).map(([name, rs]) => {
+        const reading = rs.slice().sort((a, b) => a.id.localeCompare(b.id));
+        const wp = reading[0].id.replace(/^p/, "w").replace(/-\d+$/, "");
+        const writing = E.WRITING.filter(w => new RegExp(`^${wp}[abc]$`).test(w.id));
+        return { name, reading, writing };
+      });
+    }
+    // PD1/PD3: each reading group is a set; tasks without a group form one more set.
+    // Writing: all delprøve 1 tasks to choose from + one delprøve 2 task (picked when the set is started).
     const g = {};
-    PD2.EXAMS.pd2.READING.filter(r => r.real).forEach(r => (g[r.group] = g[r.group] || []).push(r));
-    return Object.entries(g).filter(([, rs]) => rs.length >= 5).map(([name, rs]) => {
-      const reading = rs.slice().sort((a, b) => a.id.localeCompare(b.id));
-      const wp = reading[0].id.replace(/^p/, "w").replace(/-\d+$/, "");
-      const writing = PD2.EXAMS.pd2.WRITING.filter(w => new RegExp(`^${wp}[abc]$`).test(w.id));
-      return { name, reading, writing };
-    });
+    E.READING.forEach(r => { const n = r.group || `${PD2.EXAM_META[k].name} · øvesæt`; (g[n] = g[n] || []).push(r); });
+    const d1 = E.WRITING.filter(w => w.delprove === 1), d2 = E.WRITING.filter(w => w.delprove === 2);
+    return Object.entries(g).map(([name, reading]) => ({ name, reading, writing: d1.slice(0, 2), d2pool: d2 }));
   }
-  const MOCK_MIN = { d1: 30, d2: 60, w: 90 };
-  const MOCK_NAME = { d1: "Læseforståelse 1", d2: "Læseforståelse 2", w: "Skriftlig fremstilling" };
   function mockClock() {
     const el = $("#mockClock");
     if (!el || !MOCK) return;
     const st = MOCK.steps[MOCK.step], part = st && st.part;
     if (!part || !MOCK.start[part]) return;
-    const left = MOCK_MIN[part] * 60 - (Date.now() - MOCK.start[part]) / 1000;
+    const left = mockCfg().min[part] * 60 - (Date.now() - MOCK.start[part]) / 1000;
     el.textContent = left >= 0 ? `⏱️ ${fmtTime(left)} tilbage` : `⏰ +${fmtTime(-left)} over tiden`;
     el.classList.toggle("over", left < 0);
     el.classList.toggle("low", left >= 0 && left < 300);
@@ -1816,7 +1833,7 @@
     const readSteps = MOCK.steps.filter(s => s.type === "reading"), k = readSteps.indexOf(st);
     return `<div class="mock-bar">
       <b>📝 Prøvesimulering · ${esc(MOCK.set.name)}</b>
-      <span class="pill">${MOCK_NAME[st.part]}${k >= 0 ? ` · opgave ${k + 1}/${readSteps.length}` : ""}</span>
+      <span class="pill">${mockCfg().names[st.part]}${k >= 0 ? ` · opgave ${k + 1}/${readSteps.length}` : ""}</span>
       <span class="pill" id="mockClock"></span><span class="spacer"></span>
       <button class="btn ghost sm" id="mockQuit">Afbryd</button></div>`;
   }
@@ -1852,7 +1869,7 @@
       <ul class="points-list small">${w.points.map(p => `<li>${esc(p)}</li>`).join("")}</ul>${taskEnBtn(w)}`;
     app.innerHTML = `${mockHeader()}
       <h1>✍️ Skriftlig fremstilling</h1>
-      <p class="muted">Du har 1½ time til begge delprøver. Vælg opgave A eller B i delprøve 1, og skriv derefter delprøve 2. Til den rigtige prøve skriver du i hånden – og du må bruge ordbøger.</p>
+      <p class="muted">Du har ${mockCfg().min.w >= 120 ? `${mockCfg().min.w / 60} timer` : mockCfg().min.w === 90 ? "1½ time" : "1 time"} til begge delprøver. Vælg en opgave i delprøve 1, og skriv derefter delprøve 2. Til den rigtige prøve skriver du i hånden – og du må bruge ordbøger.</p>
       <div class="card">
         <h2>Delprøve 1</h2>
         <div class="row" style="margin-bottom:10px">${d1.map(w => `<button class="chip ${MOCK.texts.choice === w.id ? "on" : ""}" data-choose="${w.id}">${esc(w.title)}</button>`).join("")}</div>
@@ -1884,13 +1901,13 @@
     const used = p => MOCK.start[p] && MOCK.end[p] ? Math.round((MOCK.end[p] - MOCK.start[p]) / 60000) : null;
     if (!MOCK.saved) {
       MOCK.saved = true;
-      S.exams.unshift({ date: today(), set: MOCK.set.name, score, total, grade, writing: MOCK.withWriting });
+      S.exams.unshift({ date: today(), exam: MOCK.exam, set: MOCK.set.name, score, total, grade, writing: MOCK.withWriting });
       S.exams = S.exams.slice(0, 20);
       bump("exam"); addXP(50, "prøvesimulering"); save();
       if (+grade >= 7 || grade === "10" || grade === "12") confetti();
     }
     const written = MOCK.withWriting ? [[MOCK.texts.choice, MOCK.texts.t1], [(MOCK.set.writing.find(w => w.delprove === 2) || {}).id, MOCK.texts.t2]]
-      .filter(([id]) => id).map(([id, text]) => ({ w: PD2.EXAMS.pd2.WRITING.find(x => x.id === id), text })) : [];
+      .filter(([id]) => id).map(([id, text]) => ({ w: Object.values(PD2.EXAMS).flatMap(e => e.WRITING).find(x => x.id === id), text })) : [];
     app.innerHTML = `
       <a class="back" href="#/exam">← Prøvesimulering</a>
       <h1>📝 Dit resultat · ${esc(MOCK.set.name)}</h1>
@@ -1903,7 +1920,7 @@
         <table class="simple"><tr><th>Opgave</th><th>Point</th></tr>
           ${res.map(r => `<tr><td>${esc(findAny("READING", r.id).title)}</td><td><b>${r.score}</b>/${r.total}</td></tr>`).join("")}
         </table>
-        <p class="small muted" style="margin-bottom:0">Tid brugt: ${["d1", "d2"].map(p => used(p) !== null ? `${MOCK_NAME[p]} ${used(p)} af ${MOCK_MIN[p]} min` : "").filter(Boolean).join(" · ")}</p>
+        <p class="small muted" style="margin-bottom:0">Tid brugt: ${["d1", "d2"].map(p => used(p) !== null ? `${mockCfg().names[p]} ${used(p)} af ${mockCfg().min[p]} min` : "").filter(Boolean).join(" · ")}</p>
       </div>
       ${written.map(({ w, text }) => {
         const a = analyse(text, w);
@@ -1926,41 +1943,36 @@
   }
   function examPage() {
     if (MOCK && MOCK.steps[MOCK.step]) return mockStep();
-    if (S.exam !== "pd2") {
-      app.innerHTML = `<a class="back" href="#/">← Forside</a><h1>📝 Prøvesimulering</h1>
-        <div class="card"><p>Prøvesimuleringen bruger rigtige prøvesæt fra PD2.</p><button class="btn read" id="toPd2">Skift til PD2</button></div>`;
-      $("#toPd2").onclick = () => { S.exam = "pd2"; save(); renderStats(); examPage(); };
-      return;
-    }
-    const sets = mockSets();
+    const sets = mockSets(), cfg = mockCfg(), M = META();
+    const mine = S.exams.filter(e => (e.exam || "pd2") === S.exam);
     app.innerHTML = `
       <a class="back" href="#/">← Forside</a>
       <h1>📝 Prøvesimulering</h1>
-      <p class="muted">Tag en hel skriftlig PD2-prøve under prøvelignende forhold: med tid, uden facit undervejs og med et anslået resultat til sidst.</p>
+      <div class="examsw big" role="group" aria-label="Vælg prøve" style="margin-bottom:12px">${examButtons()}</div>
+      <p class="muted">Tag en hel skriftlig ${esc(M.name)}-prøve under prøvelignende forhold: med tid, uden facit undervejs og med et anslået resultat til sidst.${S.exam !== "pd2" ? ` <span class="small">${esc(M.name)}-simuleringen bruger appens øvesæt i prøvens format.</span>` : ""}</p>
       <div class="card">
         <table class="simple"><tr><th>Del</th><th>Opgaver</th><th>Tid</th></tr>
-          <tr><td>Læseforståelse 1</td><td>Opgave 1-2</td><td>30 min</td></tr>
-          <tr><td>Læseforståelse 2</td><td>Opgave 3-5</td><td>60 min</td></tr>
-          <tr><td>Skriftlig fremstilling</td><td>Delprøve 1 (A eller B) + delprøve 2</td><td>1½ time</td></tr>
+          ${cfg.rows.map(([a, b, c]) => `<tr><td>${a}</td><td>${b}</td><td>${c}</td></tr>`).join("")}
         </table>
         <label class="row" style="margin-top:14px;gap:8px">Prøvesæt:
           <select id="mockSet" class="short" style="width:auto;padding:8px">
             <option value="">🎲 Tilfældigt</option>${sets.map((s, i) => `<option value="${i}">${esc(s.name)}</option>`).join("")}
           </select></label>
-        <label class="tick" style="margin-top:8px"><input type="checkbox" id="mockWrite" checked> <span>Med skriftlig fremstilling (hele prøven, ca. 3 timer)</span></label>
+        <label class="tick" style="margin-top:8px"><input type="checkbox" id="mockWrite" checked> <span>Med skriftlig fremstilling (hele prøven)</span></label>
         <p class="small muted">Tip: Sæt dig et roligt sted, sluk telefonen, og lad være med at kigge i bøger under læseforståelsen – ligesom til prøven.</p>
         <button class="btn read" id="mockStart">Start prøven</button>
       </div>
-      ${S.exams.length ? `<h2 style="margin-top:22px">Dine tidligere simuleringer</h2>
+      ${mine.length ? `<h2 style="margin-top:22px">Dine tidligere simuleringer</h2>
         <div class="card"><table class="simple"><tr><th>Dato</th><th>Prøvesæt</th><th>Point</th><th>Karakter</th></tr>
-        ${S.exams.map(e => `<tr><td>${esc(e.date)}</td><td>${esc(e.set)}</td><td>${e.score}/${e.total}</td><td><b>${esc(e.grade)}</b></td></tr>`).join("")}</table></div>` : ""}`;
+        ${mine.map(e => `<tr><td>${esc(e.date)}</td><td>${esc(e.set)}</td><td>${e.score}/${e.total}</td><td><b>${esc(e.grade)}</b></td></tr>`).join("")}</table></div>` : ""}`;
     $("#mockStart").onclick = () => {
-      const v = $("#mockSet").value, set = v === "" ? sets[Math.floor(Math.random() * sets.length)] : sets[+v];
+      const v = $("#mockSet").value, base = v === "" ? sets[Math.floor(Math.random() * sets.length)] : sets[+v];
+      const set = base.d2pool ? Object.assign({}, base, { writing: base.writing.concat(base.d2pool.length ? [base.d2pool[Math.floor(Math.random() * base.d2pool.length)]] : []) }) : base;
       const withWriting = $("#mockWrite").checked && set.writing.length > 0;
-      const steps = set.reading.map((r, i) => ({ type: "reading", id: r.id, part: i < 2 ? "d1" : "d2" }));
+      const steps = set.reading.map((r, i) => ({ type: "reading", id: r.id, part: cfg.part(i) }));
       if (withWriting) steps.push({ type: "writing", part: "w" });
       steps.push({ type: "result" });
-      MOCK = { set, withWriting, steps, step: 0, results: [], start: {}, end: {} };
+      MOCK = { exam: S.exam, set, withWriting, steps, step: 0, results: [], start: {}, end: {} };
       mockStep(); window.scrollTo(0, 0);
     };
   }
