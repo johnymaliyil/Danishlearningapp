@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "58"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "59"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -194,10 +194,49 @@
       <span class="examsw" role="group" aria-label="Vælg prøve">${examButtons()}</span>
       <span class="pill" title="Dage i træk">🔥 ${S.streak}</span>
       <span class="pill" title="Niveau ${level()}">⭐ ${S.xp} XP</span>
-      <button class="pill theme-pill" data-theme-pick title="Skift tema / change theme" aria-label="Tema">🎨</button>
-      <a class="pill help-pill" href="#/help" lang="en" title="Help – all features explained in English" aria-label="Help">❓<span class="help-txt"> Help</span></a>
-      ${KOFI ? `<a class="pill kofi-pill" href="https://ko-fi.com/${encodeURIComponent(KOFI)}" target="_blank" rel="noopener" title="Støt DanskKlar på Ko-fi" aria-label="Støt DanskKlar på Ko-fi"><span class="cup" aria-hidden="true"><i></i><i></i><i></i>☕</span><span class="kofi-txt"> Støt</span></a>` : ""}`;
+      <button class="pill settings-pill" id="setBtn" data-settings aria-haspopup="menu" aria-expanded="false" title="Indstillinger · tema, hjælp, støt">⚙️<span class="set-txt"> Indstillinger</span></button>`;
   }
+  // ⚙️ Settings menu (top right): theme, help, Ko-fi and the other app links.
+  function settingsMenu() {
+    const old = $("#setMenu");
+    if (old) { closeSettings(); return; }
+    const m = document.createElement("div");
+    m.id = "setMenu"; m.className = "set-menu"; m.setAttribute("role", "menu");
+    const item = (href, ico, label, extra = "") => `<a role="menuitem" class="set-item" href="${href}" ${extra}><span class="set-ico">${ico}</span><span>${label}</span></a>`;
+    m.innerHTML = `
+      <div class="set-sec">Udseende</div>
+      <button role="menuitem" class="set-item" data-theme-pick><span class="set-ico">🎨</span><span>Tema <span class="small muted">· ${esc((THEMES.find(t => t[0] === curTheme()) || THEMES[0])[1])}</span></span></button>
+      <div class="set-sec">Hjælp</div>
+      ${item("#/help", "❓", '<span lang="en">Help – all features (English)</span>')}
+      ${item("#/feedback", "⭐", "Bedøm / giv feedback")}
+      <div class="set-sec">Appen</div>
+      ${KOFI ? item(`https://ko-fi.com/${encodeURIComponent(KOFI)}`, '<span class="cup" aria-hidden="true"><i></i><i></i><i></i>☕</span>', "Støt DanskKlar på Ko-fi", 'target="_blank" rel="noopener"') : ""}
+      <button role="menuitem" class="set-item" data-share><span class="set-ico">📤</span><span>Del DanskKlar</span></button>
+      ${item("#/backup", "💾", "Gem / hent fremskridt")}
+      ${item("#/about", "ℹ️", `Om ${esc(META().name)}-prøven`)}
+      ${item("#/legal", "⚖️", "Privatliv og vilkår")}`;
+    document.body.appendChild(m);
+    const b = $("#setBtn");
+    if (b) {
+      b.setAttribute("aria-expanded", "true");
+      const r = b.getBoundingClientRect();
+      m.style.top = Math.round(r.bottom + 8) + "px";
+      const wdt = m.offsetWidth, left = Math.min(Math.max(8, r.right - wdt), innerWidth - wdt - 8);
+      m.style.left = Math.max(8, Math.round(left)) + "px"; m.style.right = "auto";
+    }
+    m.addEventListener("click", e => { if (e.target.closest(".set-item")) setTimeout(closeSettings, 0); });
+    const f = $(".set-item", m); if (f) f.focus();
+  }
+  function closeSettings() {
+    const m = $("#setMenu"); if (m) m.remove();
+    const b = $("#setBtn"); if (b) b.setAttribute("aria-expanded", "false");
+  }
+  document.addEventListener("click", e => {
+    if (e.target.closest("[data-settings]")) { e.preventDefault(); settingsMenu(); return; }
+    if ($("#setMenu") && !e.target.closest("#setMenu")) closeSettings();
+  });
+  document.addEventListener("keydown", e => { if (e.key === "Escape") closeSettings(); });
+  window.addEventListener("hashchange", closeSettings);
 
   // ---------- Timers (cleared on navigation) ----------
   let cleanups = [];
