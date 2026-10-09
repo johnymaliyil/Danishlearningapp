@@ -992,5 +992,9 @@ PD2.I18N.pl = {
 "Mørk natteblå": "Ciemny nocny granat",
 "Vælg tema": "Wybierz motyw",
 "🎨 Vælg tema": "🎨 Wybierz motyw",
-"Skift farver og udseende. Valget gemmes i denne browser.": "Zmień kolory i wygląd. Wybór zapisuje się w tej przeglądarce."
+"Skift farver og udseende. Valget gemmes i denne browser.": "Zmień kolory i wygląd. Wybór zapisuje się w tej przeglądarce.",
+"Ny farve hver dag": "Nowy kolor każdego dnia",
+"Standard": "Domyślny",
+"skifter automatisk hver dag": "zmienia się automatycznie każdego dnia",
+"· Ny farve hver dag": "· Nowy kolor każdego dnia"
 };

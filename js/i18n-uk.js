@@ -992,5 +992,9 @@ PD2.I18N.uk = {
 "Mørk natteblå": "Темний нічний синій",
 "Vælg tema": "Обери тему",
 "🎨 Vælg tema": "🎨 Обери тему",
-"Skift farver og udseende. Valget gemmes i denne browser.": "Зміни кольори та вигляд. Вибір зберігається в цьому браузері."
+"Skift farver og udseende. Valget gemmes i denne browser.": "Зміни кольори та вигляд. Вибір зберігається в цьому браузері.",
+"Ny farve hver dag": "Новий колір щодня",
+"Standard": "За замовчуванням",
+"skifter automatisk hver dag": "змінюється автоматично щодня",
+"· Ny farve hver dag": "· Новий колір щодня"
 };

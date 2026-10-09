@@ -992,5 +992,9 @@ PD2.I18N.ro = {
 "Mørk natteblå": "Albastru închis de noapte",
 "Vælg tema": "Alege o temă",
 "🎨 Vælg tema": "🎨 Alege o temă",
-"Skift farver og udseende. Valget gemmes i denne browser.": "Schimbă culorile și aspectul. Alegerea se salvează în acest browser."
+"Skift farver og udseende. Valget gemmes i denne browser.": "Schimbă culorile și aspectul. Alegerea se salvează în acest browser.",
+"Ny farve hver dag": "O culoare nouă în fiecare zi",
+"Standard": "Implicit",
+"skifter automatisk hver dag": "se schimbă automat în fiecare zi",
+"· Ny farve hver dag": "· O culoare nouă în fiecare zi"
 };

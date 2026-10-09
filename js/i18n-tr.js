@@ -992,5 +992,9 @@ PD2.I18N.tr = {
 "Mørk natteblå": "Koyu gece mavisi",
 "Vælg tema": "Tema seç",
 "🎨 Vælg tema": "🎨 Tema seç",
-"Skift farver og udseende. Valget gemmes i denne browser.": "Renkleri ve görünümü değiştir. Seçimin bu tarayıcıda kaydedilir."
+"Skift farver og udseende. Valget gemmes i denne browser.": "Renkleri ve görünümü değiştir. Seçimin bu tarayıcıda kaydedilir.",
+"Ny farve hver dag": "Her gün yeni bir renk",
+"Standard": "Varsayılan",
+"skifter automatisk hver dag": "her gün otomatik olarak değişir",
+"· Ny farve hver dag": "· Her gün yeni bir renk"
 };

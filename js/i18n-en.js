@@ -993,5 +993,9 @@ PD2.I18N.en = {
 "Mørk natteblå": "Dark night blue",
 "Vælg tema": "Choose a theme",
 "🎨 Vælg tema": "🎨 Choose a theme",
-"Skift farver og udseende. Valget gemmes i denne browser.": "Change the colours and look. Your choice is saved in this browser."
+"Skift farver og udseende. Valget gemmes i denne browser.": "Change the colours and look. Your choice is saved in this browser.",
+"Ny farve hver dag": "New colour every day",
+"Standard": "Default",
+"skifter automatisk hver dag": "changes automatically every day",
+"· Ny farve hver dag": "· New colour every day"
 };
