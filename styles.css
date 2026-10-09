@@ -839,3 +839,50 @@ a.help-item:hover { border-color: var(--read); }
 .set-ico { width: 26px; text-align: center; font-size: 1.15rem; }
 @media (max-width: 560px) { .settings-pill .set-txt { display: none; } }
 @media (max-width: 1580px) { .set-menu { top: 56px; } }
+
+/* "Buy me a coffee" bubble on Ko-fi links (mouse hover / keyboard focus) */
+[data-tip] { position: relative; }
+@media (hover: hover) {
+  [data-tip]::after {
+    content: attr(data-tip); position: absolute; left: 50%; bottom: calc(100% + 10px); transform: translate(-50%, 6px) scale(.95);
+    background: #3b2a1e; color: #fff; font-size: .85rem; font-weight: 800; white-space: nowrap; padding: 6px 12px; border-radius: 999px;
+    box-shadow: 0 6px 18px rgba(0,0,0,.2); opacity: 0; pointer-events: none; transition: opacity .15s, transform .15s; z-index: 20;
+  }
+  [data-tip]:hover::after, [data-tip]:focus-visible::after { opacity: 1; transform: translate(-50%, 0) scale(1); }
+  .set-menu [data-tip]::after { left: auto; right: 8px; bottom: auto; top: 50%; transform: translate(0, -50%) scale(.95); }
+  .set-menu [data-tip]:hover::after, .set-menu [data-tip]:focus-visible::after { transform: translate(0, -50%) scale(1); }
+  [data-tip]:hover .cup { animation-duration: 1.2s; }
+}
+
+/* Text size + reading-friendly font (⚙️ Settings) */
+:root[data-size="l"] body { font-size: 19px; }
+:root[data-size="xl"] body { font-size: 21px; }
+:root[data-readfont="1"] body { font-family: Verdana, Tahoma, "Segoe UI", system-ui, sans-serif; letter-spacing: .02em; word-spacing: .12em; line-height: 1.75; }
+.size-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.size-opt { align-items: center; text-align: center; }
+
+/* 📊 Min fremgang */
+.prog-tiles { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+.prog-tile { display: flex; flex-direction: column; gap: 2px; padding: 14px; }
+.prog-tile b { font-size: 1.5rem; font-weight: 900; }
+.prog-ico { font-size: 1.4rem; }
+.xp-chart { display: grid; grid-template-columns: repeat(14, 1fr); gap: 4px; align-items: end; height: 150px; margin-top: 8px; }
+.xp-col { display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%; gap: 2px; }
+.xp-col i { display: block; width: 100%; max-width: 26px; min-height: 2px; border-radius: 6px 6px 2px 2px; background: var(--accent); }
+.xp-val { font-size: .65rem; color: var(--muted); }
+.xp-day { font-size: .7rem; color: var(--muted); }
+.prog-row { display: grid; grid-template-columns: minmax(0, 1.4fr) 1fr auto; gap: 10px; align-items: center; margin: 8px 0; }
+.prog-bar { height: 10px; border-radius: 999px; background: var(--surface-2); overflow: hidden; }
+.prog-bar i { display: block; height: 100%; border-radius: inherit; }
+.set-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(54px, 1fr)); gap: 8px; }
+.set-cell { display: flex; flex-direction: column; align-items: center; padding: 8px 4px; border-radius: 12px; border: 1px solid var(--border); background: var(--surface-2); text-decoration: none; color: inherit; font-size: .8rem; }
+.set-cell b { font-size: 1.05rem; }
+.set-cell.part { background: color-mix(in srgb, var(--gold) 22%, var(--surface)); }
+.set-cell.done { background: var(--ok-soft); border-color: var(--ok); }
+.box-bars { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; align-items: end; height: 60px; }
+.box-bars span { display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%; }
+.box-bars i { display: block; width: 100%; min-height: 2px; border-radius: 4px; background: var(--accent); }
+.box-bars small { color: var(--muted); }
+.say-ok { color: var(--ok); }
+.say-bad { color: var(--bad); text-decoration: underline wavy; text-underline-offset: 3px; }
+.speech-check { text-align: left; margin-top: 16px; }

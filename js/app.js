@@ -4,14 +4,14 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "59"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "61"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
   // Ko-fi page name (ko-fi.com/<name>). Leave empty to hide the support buttons.
   const KOFI = "annaos";
   const kofiBtn = (cls = "btn ghost sm") => KOFI
-    ? `<a class="${cls} kofi" href="https://ko-fi.com/${encodeURIComponent(KOFI)}" target="_blank" rel="noopener"><span class="cup" aria-hidden="true"><i></i><i></i><i></i>☕</span> Støt DanskKlar</a>` : "";
+    ? `<a class="${cls} kofi coffee-tip" data-tip="☕ Buy me a coffee!" title="Buy me a coffee on Ko-fi" href="https://ko-fi.com/${encodeURIComponent(KOFI)}" target="_blank" rel="noopener"><span class="cup" aria-hidden="true"><i></i><i></i><i></i>☕</span> Støt DanskKlar</a>` : "";
 
   // ---------- Storage ----------
   const KEY = "pd2-trainer-v1";
@@ -117,6 +117,9 @@
     const before = level();
     S.xp += n;
     S.xpDay.xp += n;
+    S.xpLog = S.xpLog || {};
+    S.xpLog[today()] = (S.xpLog[today()] || 0) + n;
+    const keys = Object.keys(S.xpLog).sort(); if (keys.length > 120) keys.slice(0, keys.length - 120).forEach(k => delete S.xpLog[k]);
     toast(`+${n} XP${why ? " · " + why : ""}`);
     if (level() > before) {
       toast(`🎉 Niveau ${level()}: ${levelName(level())}!`, true);
@@ -206,11 +209,14 @@
     m.innerHTML = `
       <div class="set-sec">Udseende</div>
       <button role="menuitem" class="set-item" data-theme-pick><span class="set-ico">🎨</span><span>Tema <span class="small muted">· ${esc((THEMES.find(t => t[0] === curTheme()) || THEMES[0])[1])}</span></span></button>
+      <button role="menuitem" class="set-item" data-text-pick><span class="set-ico">🔠</span><span>Tekststørrelse og skrift</span></button>
+      <a role="menuitem" class="set-item" href="#/progress"><span class="set-ico">📊</span><span>Min fremgang</span></a>
+      <button role="menuitem" class="set-item" data-reminder><span class="set-ico">⏰</span><span>Daglig påmindelse i kalenderen</span></button>
       <div class="set-sec">Hjælp</div>
       ${item("#/help", "❓", '<span lang="en">Help – all features (English)</span>')}
       ${item("#/feedback", "⭐", "Bedøm / giv feedback")}
       <div class="set-sec">Appen</div>
-      ${KOFI ? item(`https://ko-fi.com/${encodeURIComponent(KOFI)}`, '<span class="cup" aria-hidden="true"><i></i><i></i><i></i>☕</span>', "Støt DanskKlar på Ko-fi", 'target="_blank" rel="noopener"') : ""}
+      ${KOFI ? item(`https://ko-fi.com/${encodeURIComponent(KOFI)}`, '<span class="cup" aria-hidden="true"><i></i><i></i><i></i>☕</span>', 'Støt DanskKlar på Ko-fi <span class="small muted" lang="en">· buy me a coffee</span>', 'target="_blank" rel="noopener" title="Buy me a coffee on Ko-fi" data-tip="☕ Buy me a coffee!"') : ""}
       <button role="menuitem" class="set-item" data-share><span class="set-ico">📤</span><span>Del DanskKlar</span></button>
       ${item("#/backup", "💾", "Gem / hent fremskridt")}
       ${item("#/about", "ℹ️", `Om ${esc(META().name)}-prøven`)}
@@ -275,6 +281,8 @@
     return true;
   }
 
+  // Everything said in the current exercise (for the speech check at the end).
+  let SPOKEN = "";
   // Microphone recorder + live transcript
   function makeRecorder(transcriptEl) {
     let rec = null, chunks = [], stream = null, recog = null, finalText = "", url = null;
@@ -313,6 +321,7 @@
       stop() {
         return new Promise(res => {
           api.active = false;
+          SPOKEN += " " + finalText;
           if (recog) { try { recog.stop(); } catch (e) { /* ignore */ } recog = null; }
           if (!rec) { res(null); return; }
           rec.onstop = () => {
@@ -358,6 +367,7 @@
     [/^\/legal$/, legalPage],
     [/^\/review$/, reviewPage],
     [/^\/help$/, helpPage],
+    [/^\/progress$/, progressPage],
     [/^\/backup$/, backupPage],
     [/^\/feedback(?:\/([1-5]))?$/, feedbackPage]
   ];
@@ -365,6 +375,7 @@
   function route() {
     cleanups.forEach(fn => { try { fn(); } catch (e) { /* ignore */ } });
     cleanups = [];
+    SPOKEN = "";
     if ("speechSynthesis" in window) speechSynthesis.cancel();
     const path = location.hash.replace(/^#/, "") || "/";
     if (!path.startsWith("/feedback")) lastPath = path;
@@ -587,6 +598,7 @@
         <a class="btn ghost sm" href="#/about">ℹ️ Om ${META().name}-prøven</a>
         ${FEEDBACK_TO ? `<a class="btn ghost sm" href="#/feedback">⭐ Bedøm / giv feedback</a>` : ""}
         ${kofiBtn()}
+        <a class="btn ghost sm" href="#/progress">📊 Min fremgang</a>
         <a class="btn ghost sm" href="#/help" lang="en">❓ Help (English)</a>
         <a class="btn ghost sm" href="#/backup">💾 Gem/hent fremskridt</a>
         <button class="btn ghost sm" data-share>📤 Del DanskKlar</button>
@@ -1268,6 +1280,9 @@
       ${pics.length ? `<a class="task speak" href="#/speaking/sim" style="display:block;margin:10px 0 18px">
         <span class="emoji">🎬</span><h2>Mundtlig prøvesimulering</h2>
         <p class="muted" style="margin:0">Begge delprøver lige efter hinanden: præsentation med spørgsmål og billede med samtale.</p></a>` : ""}
+      <a class="task speak" href="#/games/repeat" style="display:block;margin:0 0 18px">
+        <span class="emoji">🗣️</span><h2>Sig det efter – udtaletræning</h2>
+        <p class="muted" style="margin:0">Hør en sætning, sig den højt, og se hvilke ord appen forstod.</p></a>
       <p class="muted">Øv dig i at tale frit. Appen kan læse spørgsmål op på dansk, optage dig og skrive det, du siger, så du kan høre og læse det bagefter.
       Live-tekst virker bedst i Chrome eller Edge.</p>
       <div class="card" style="margin-top:16px;text-align:center">
@@ -1362,7 +1377,28 @@
     return box;
   }
 
+  // 🗣️ Speech check shown after a speaking exercise (needs live captions: Chrome/Edge).
+  function speechCheckCard(seconds) {
+    const text = SPOKEN.replace(/\s+/g, " ").trim(), words = countWords(text);
+    if (!SR) return `<div class="card speech-check"><h3>🗣️ Tjek af din tale</h3><p class="small muted" style="margin:0">Åbn appen i Chrome eller Edge, så kan den skrive, hvad du siger, og give dig feedback på din tale.</p></div>`;
+    if (words < 5) return `<div class="card speech-check"><h3>🗣️ Tjek af din tale</h3><p class="small muted" style="margin:0">Appen hørte ikke nok tale til et tjek. Tal tydeligt og tæt på mikrofonen næste gang.</p></div>`;
+    const wpm = seconds > 5 ? Math.round(words / (seconds / 60)) : 0;
+    const fillers = (text.toLowerCase().match(/\b(øh+m*|ehm+|hmm+|æh+)\b/g) || []).length;
+    const low = " " + text.toLowerCase() + " ", conns = PD2.CONNECTORS.filter(c => low.includes(" " + c + " "));
+    const gi = grammarIssues(text).filter(g => !/stort bogstav/.test(g.da));
+    const tip = !wpm ? "" : wpm < 70 ? "Du taler lidt langsomt. Prøv at holde talen i gang – det er ok at lave små fejl." : wpm > 150 ? "Du taler hurtigt. Sæt farten lidt ned, så censor kan følge med." : "God taletempo.";
+    return `<div class="card speech-check"><h3>🗣️ Tjek af din tale</h3>
+      <div class="row" style="gap:8px;flex-wrap:wrap;margin-bottom:8px">
+        <span class="pill">💬 ${words} ord</span>${wpm ? `<span class="pill">🏃 ${wpm} ord/min</span>` : ""}
+        <span class="pill">🔗 ${conns.length} bindeord</span><span class="pill">${fillers ? `😶 ${fillers} × øh` : "✅ ingen øh"}</span></div>
+      ${tip ? `<p class="small" style="margin:0 0 6px">🏃 ${tip}</p>` : ""}
+      <p class="small" style="margin:0 0 6px">${conns.length >= 3 ? `🔗 Fint – du brugte ${conns.slice(0, 5).map(c => `«${esc(c)}»`).join(", ")}.` : "🔗 Brug flere bindeord: fordi, men, derfor, selvom, for eksempel."}</p>
+      ${gi.length ? `<p class="small" style="margin:8px 0 4px"><b>Mulige fejl i det, du sagde:</b></p><ol class="gram-issues">${gi.slice(0, 6).map(g => `<li><b class="no-tr">«${esc(g.text.trim())}»</b> → <b class="good no-tr">${esc(g.fix)}</b><div class="small">${esc(g.da)}</div></li>`).join("")}</ol>`
+        : `<p class="small" style="margin:0">✅ Ingen typiske grammatikfejl hørt.</p>`}
+      <p class="small muted" style="margin:8px 0 0">Talegenkendelsen er ikke perfekt – nogle "fejl" kan skyldes, at den hørte forkert.</p></div>`;
+  }
   function finishSpeaking(id, seconds, isDialog) {
+    setTimeout(() => { const st = $(".stage"); if (st && !$(".speech-check")) st.insertAdjacentHTML("beforeend", speechCheckCard(seconds)); }, 0);
     S.speaking.sessions++;
     bump("speaking");
     S.speaking.seconds += Math.round(seconds);
@@ -2863,6 +2899,7 @@
     { id: "verbs", ico: "🔁", name: "Bøj verbet", desc: "Nutid, datid og førnutid af de vigtigste verber.", unit: "rigtige" },
     { id: "verbrace", ico: "⏱️", name: "Bøj verbet på tid", desc: "60 sekunder med de 500 vigtigste verber. Hvor mange former kan du nå?", unit: "rigtige" },
     { id: "verbmatch", ico: "🔗", name: "Find parret", desc: "Match verbet med dets datid: gå – gik, spise – spiste.", lower: true, unit: "forsøg" },
+    { id: "repeat", ico: "🗣️", name: "Sig det efter", desc: "Udtaletræning: hør en sætning, sig den højt, og se hvilke ord appen forstod.", perExam: true, unit: "%" },
     { id: "listen", ico: "👂", name: "Lyt og vælg", desc: "Hør et af de 3000 hyppigste ord: vælg betydningen, find stavningen eller skriv det.", unit: "rigtige" },
     { id: "idioms", ico: "💬", name: "Talemåder", desc: "Hvad betyder \"Der er ingen ko på isen\"? Lær sjove danske udtryk.", unit: "rigtige" }
   ];
@@ -2916,7 +2953,7 @@
   }
 
   function gameRoute(id) {
-    const fn = { vocab: () => vocabGame().home(), memory: memoryGame, ordle: ordleGame, gender: genderGame, order: orderGame, dictation: dictationGame, verbs: verbsGame, verbrace: verbRaceGame, verbmatch: verbMatchGame, listen: listenGame, idioms: idiomsGame }[id];
+    const fn = { vocab: () => vocabGame().home(), memory: memoryGame, ordle: ordleGame, gender: genderGame, order: orderGame, dictation: dictationGame, verbs: verbsGame, verbrace: verbRaceGame, verbmatch: verbMatchGame, listen: listenGame, repeat: repeatGame, idioms: idiomsGame }[id];
     (fn || gamesHub)();
   }
 
@@ -3651,6 +3688,74 @@
     start();
   }
 
+  // 🗣️ Sig det efter: hear a sentence, say it, and see which words the app understood.
+  function repeatGame() {
+    const g = gameInfo("repeat"), ROUNDS = 5;
+    if (!SR || !("speechSynthesis" in window)) {
+      app.innerHTML = `${gameHead(g)}<div class="card"><p>Udtaletræning kræver tale-genkendelse. Åbn DanskKlar i <b>Chrome</b> eller <b>Edge</b> (på computer eller Android) og giv adgang til mikrofonen.</p></div>`;
+      return;
+    }
+    const toks = s => norm(s).split(" ").filter(Boolean);
+    function start() {
+      const list = shuffle(GD().DICTATION[S.exam] || GD().DICTATION.pd2).slice(0, ROUNDS);
+      let n = 0, total = 0;
+      function show() {
+        const s = list[n].da || String(list[n]), en = list[n].en || "";
+        let recog = null, heard = "";
+        app.innerHTML = `${gameHead(g)}
+          <div class="card stage">
+            <div class="row" style="justify-content:space-between"><span class="pill">${n + 1}/${ROUNDS}</span><span class="pill">🎯 ${n ? Math.round(total / n) : 0} %</span></div>
+            <p class="drill-q no-tr" id="rsent">${esc(s)}</p>
+            ${en ? `<p class="small muted" lang="en" style="margin-top:-6px">${esc(en)}</p>` : ""}
+            <div class="row" style="justify-content:center"><button class="btn ghost" id="rplay">🔊 Hør</button><button class="btn ghost sm" id="rslow">🐢 Langsomt</button></div>
+            <p class="muted small">Lyt, og sig så sætningen højt.</p>
+            <button class="btn rec" id="rmic">🎙️ Sig det</button>
+            <div class="transcript" id="rheard" style="margin:12px auto;max-width:560px"></div>
+            <div id="rfb" class="quiz-after"></div>
+          </div>`;
+        $("#rplay").onclick = () => speak(s); $("#rslow").onclick = () => speak(s, null, 0.65);
+        setTimeout(() => speak(s), 250);
+        const stop = () => { if (recog) { try { recog.stop(); } catch (e) { /* ignore */ } } };
+        onLeave(stop);
+        $("#rmic").onclick = () => {
+          const b = $("#rmic");
+          if (recog) { stop(); return; }
+          speechSynthesis.cancel();
+          heard = "";
+          recog = new SR(); recog.lang = "da-DK"; recog.interimResults = true; recog.continuous = false;
+          recog.onresult = ev => { heard = [...ev.results].map(r => r[0].transcript).join(" "); $("#rheard").textContent = heard; };
+          recog.onend = () => { recog = null; b.classList.remove("on"); b.textContent = "🎙️ Prøv igen"; grade(); };
+          recog.onerror = () => {};
+          try { recog.start(); b.classList.add("on"); b.textContent = "⏹ Stop"; $("#rheard").innerHTML = "<i>Lytter …</i>"; } catch (e) { recog = null; }
+        };
+        function grade() {
+          if (!heard.trim()) { $("#rheard").innerHTML = "<i>Jeg hørte ikke noget – prøv igen, lidt tættere på mikrofonen.</i>"; return; }
+          const want = toks(s), got = toks(heard), pool = got.slice();
+          let hit = 0;
+          const marked = s.split(/(\s+)/).map(w => {
+            if (!w.trim()) return w;
+            const k = norm(w), i = pool.indexOf(k);
+            if (k && i >= 0) { pool.splice(i, 1); hit++; return `<span class="say-ok">${esc(w)}</span>`; }
+            return k ? `<span class="say-bad" title="Øv dette ord">${esc(w)}</span>` : esc(w);
+          }).join("");
+          const pct = Math.round(hit / Math.max(1, want.length) * 100);
+          $("#rsent").innerHTML = marked;
+          $("#rfb").innerHTML = `<p>${pct >= 90 ? "🎉 Flot udtale!" : pct >= 70 ? "👍 Godt – øv de røde ord." : "Prøv igen, og lyt efter de røde ord."} <b>${pct} %</b></p>
+            <div class="row" style="justify-content:center"><button class="btn words" id="rnext">${n + 1 < ROUNDS ? "Næste sætning →" : "Se resultat"}</button></div>`;
+          $("#rnext").onclick = () => { total += pct; n++; if (n < ROUNDS) show(); else finish(); };
+        }
+      }
+      function finish() {
+        const avg = Math.round(total / ROUNDS), rec = recordGame("repeat", avg);
+        addXP(Math.round(avg / 5), "sig det efter");
+        if (rec || avg >= 90) confetti();
+        gameOver(g, `${avg} %`, recordLine(rec, "repeat"), start, `<p class="small muted">Grønne ord blev forstået. Røde ord kan skyldes udtalen – eller at talegenkendelsen hørte forkert.</p>`);
+      }
+      show();
+    }
+    start();
+  }
+
   // 💬 Talemåder
   function idiomsGame() {
     const g = gameInfo("idioms"), ROUNDS = 8;
@@ -3891,6 +3996,7 @@
     ["Getting started", [
       ["🎯", "Choose your exam", "Pick PD1, PD2 or PD3 at the top. Reading, writing, speaking and the mock exam follow the exam you choose. You can switch at any time.", "#/start"],
       ["🇬🇧", "Hover translation", "Point at (or double-click / tap) any Danish word to see it in English. Use the 🇬🇧 button at the top to turn it on or off.", ""],
+      ["⚙️", "Settings", "Top right: change the theme (Nordisk blå, Dansk rød, Skovgrøn, Mørk), text size and a reading-friendly font, and find help, feedback, Ko-fi and more.", ""],
       ["⭐", "XP, streak and badges", "You earn XP for everything you practise. Practise every day to keep your 🔥 streak and unlock badges on the home page.", "#/"],
       ["📱", "Install as an app", "On your phone, use \"Add to Home Screen\" (or the install button on the home page). The app also works offline.", "#/"]
     ]],
@@ -3909,13 +4015,17 @@
     ]],
     ["Speaking – 🗣️ Tale", [
       ["🎤", "Presentation and picture tasks", "Practise the oral exam with real topics and pictures, the examiner's questions, a timer and recording of yourself.", "#/speaking"],
-      ["🎬", "Oral exam simulation", "Go through a whole oral exam step by step.", "#/speaking/sim"]
+      ["🎬", "Oral exam simulation", "Go through a whole oral exam step by step.", "#/speaking/sim"],
+      ["🗣️", "Speech check", "After a speaking exercise you see your words per minute, filler words (øh), linking words and possible grammar mistakes in what you said (Chrome/Edge).", "#/speaking"],
+      ["🎙️", "Pronunciation – Sig det efter", "Hear a sentence, say it, and see which words the app understood.", "#/games/repeat"]
     ]],
     ["Exam preparation", [
       ["📝", "Mock exam", "Take a full written exam (PD1, PD2 or PD3) with time limits and get an estimated grade.", "#/exam"],
       ["📅", "Study plan", "Set your exam date and get a small plan for every day.", "#/plan"],
       ["🔁", "Daily review", "Spaced repetition of your mistakes, hard words, verb forms and new words – each card comes back at the right time.", "#/review"],
-      ["❌", "My mistakes", "All your wrong answers in one place, so you can practise them again.", "#/mistakes"]
+      ["❌", "My mistakes", "All your wrong answers in one place, so you can practise them again.", "#/mistakes"],
+      ["📊", "My progress", "XP per day, your strong and weak reading task types, which exam sets you have done, and your review cards.", "#/progress"],
+      ["⏰", "Daily reminder", "Settings ⚙️ → Daily reminder adds a 15-minute practice reminder at 19:00 to your phone's calendar.", ""]
     ]],
     ["Grammar and words", [
       ["📐", "Grammar lessons", "Short beginner lessons on sentence building, inversion, questions, conjunctions, nouns, adjectives and verbs – with colour-coded examples.", "#/grammar"],
@@ -3979,6 +4089,92 @@
   }
   document.addEventListener("click", e => { if (e.target.closest("[data-theme-pick]")) { e.preventDefault(); themePicker(); } });
   applyTheme(curTheme());
+
+  // ---------- 📊 Min fremgang ----------
+  function progressPage() {
+    const E = EX(), M = META();
+    const rd = E.READING.filter(r => S.reading[r.id]), pct = (a, b) => (b ? Math.round(a / b * 100) : 0);
+    const rScore = rd.reduce((a, r) => a + S.reading[r.id].best, 0), rTotal = rd.reduce((a, r) => a + S.reading[r.id].total, 0);
+    const wDone = E.WRITING.filter(w => S.writing[w.id] && (S.writing[w.id].best || countWords(S.writing[w.id].draft || "") > 30)).length;
+    const exams = S.exams.filter(e => (e.exam || "pd2") === S.exam);
+    const cards = Object.values((S.srs && S.srs.items) || {}), boxes = [1, 2, 3, 4, 5].map(b => cards.filter(c => (c.box || 1) === b).length);
+    // XP the last 14 days
+    const log = S.xpLog || {}, days = [...Array(14)].map((_, i) => addDays(today(), i - 13)), maxXp = Math.max(30, ...days.map(d => log[d] || 0));
+    // Reading by task type
+    const types = {};
+    rd.forEach(r => { const k = (r.kind || "").replace(/^Delprøve \d · /, ""), t = types[k] = types[k] || { s: 0, t: 0, n: 0 }; t.s += S.reading[r.id].best; t.t += S.reading[r.id].total; t.n++; });
+    const typeRows = Object.entries(types).map(([k, v]) => [k, pct(v.s, v.t), v.n]).sort((a, b) => a[1] - b[1]);
+    // PD2 sets
+    const sets = {};
+    E.READING.filter(r => r.set).forEach(r => { const x = sets[r.set] = sets[r.set] || { s: 0, t: 0, done: 0, n: 0 }; x.n++; if (S.reading[r.id]) { x.done++; x.s += S.reading[r.id].best; x.t += S.reading[r.id].total; } });
+    const tile = (ico, big, label) => `<div class="card prog-tile"><span class="prog-ico">${ico}</span><b>${big}</b><span class="small muted">${label}</span></div>`;
+    app.innerHTML = `<a class="back" href="#/">← Forside</a>
+      <h1>📊 Min fremgang <span class="tag">${esc(M.name)}</span></h1>
+      <div class="grid prog-tiles">
+        ${tile("⭐", `${S.xp} XP`, `Niveau ${level()} · ${esc(levelName(level()))}`)}
+        ${tile("🔥", S.streak, "dage i træk")}
+        ${tile("📖", `${rd.length}/${E.READING.length}`, `læseopgaver · ${pct(rScore, rTotal)} % rigtige`)}
+        ${tile("✍️", `${wDone}/${E.WRITING.length}`, "skriveopgaver")}
+        ${tile("📚", vLearnedCount(), "ord lært i Ordtræneren")}
+        ${tile("🔁", cards.length, `kort i repetition · ${boxes[4]} kan du`)}
+      </div>
+      <div class="card" style="margin-top:16px"><h2>XP de sidste 14 dage</h2>
+        <div class="xp-chart" role="img" aria-label="XP per dag">${days.map(d => { const v = log[d] || 0; return `<div class="xp-col" title="${d}: ${v} XP"><span class="xp-val">${v || ""}</span><i style="height:${Math.round(v / maxXp * 100)}%"></i><span class="xp-day">${+d.slice(8)}</span></div>`; }).join("")}</div>
+        ${!Object.keys(log).length ? `<p class="small muted" style="margin:8px 0 0">Grafen fyldes op, efterhånden som du øver dig.</p>` : ""}</div>
+      <div class="card" style="margin-top:16px"><h2>Læsning: hvor er du stærk og svag?</h2>
+        ${typeRows.length ? typeRows.map(([k, p, n], i) => `<div class="prog-row"><span>${i === 0 && typeRows.length > 1 && p < 80 ? "🎯 " : ""}${esc(k)} <span class="small muted">(${n})</span></span><span class="prog-bar"><i style="width:${p}%;background:${p >= 80 ? "var(--ok)" : p >= 50 ? "var(--gold)" : "var(--bad)"}"></i></span><b>${p} %</b></div>`).join("")
+          + (typeRows[0] && typeRows[0][1] < 80 ? `<p class="small" style="margin:10px 0 0">🎯 Øv mest: <b>${esc(typeRows[0][0])}</b>. Læs forklaringerne (💡 Derfor) efter hver opgave.</p>` : "")
+          : `<p class="muted" style="margin:0">Løs nogle læseopgaver, så kan du se, hvilke opgavetyper du er bedst til.</p>`}</div>
+      ${Object.keys(sets).length ? `<div class="card" style="margin-top:16px"><h2>Prøvesæt</h2>
+        <div class="set-grid">${Object.entries(sets).sort((a, b) => a[0] - b[0]).map(([n, x]) => `<a class="set-cell ${x.done === x.n ? "done" : x.done ? "part" : ""}" href="#/reading" title="Sæt ${n}: ${x.done}/${x.n} opgaver${x.t ? ` · ${pct(x.s, x.t)} %` : ""}"><b>${n}</b><span>${x.t ? pct(x.s, x.t) + "%" : "–"}</span></a>`).join("")}</div>
+        <p class="small muted" style="margin:8px 0 0">Grøn = alle opgaver løst · gul = delvist · tallet er dine rigtige svar i procent.</p></div>` : ""}
+      <div class="card" style="margin-top:16px"><h2>Repetition</h2>
+        <div class="prog-row"><span>Boks 1–5</span><span class="box-bars">${boxes.map((b, i) => `<span title="Boks ${i + 1}: ${b} kort"><i style="height:${Math.round(b / Math.max(1, ...boxes) * 100)}%"></i><small>${i + 1}</small></span>`).join("")}</span><b>${cards.length}</b></div>
+        <p class="small muted" style="margin:6px 0 0">Kort i boks 5 kan du rigtig godt. <a href="#/review">Start dagens repetition →</a></p></div>
+      ${exams.length ? `<div class="card" style="margin-top:16px"><h2>Prøvesimuleringer</h2><table class="simple"><tr><th>Dato</th><th>Sæt</th><th>Point</th><th>Karakter</th></tr>${exams.slice(0, 8).map(e => `<tr><td>${esc(e.date)}</td><td>${esc(e.set)}</td><td>${e.score}/${e.total}</td><td><b>${esc(e.grade)}</b></td></tr>`).join("")}</table></div>` : ""}
+      <p class="small muted" style="margin-top:14px">Fremgangen gemmes i denne browser. <a href="#/backup">💾 Gem en kopi</a></p>`;
+  }
+
+  // ---------- Tekststørrelse og læsevenlig skrift ----------
+  const SIZES = [["", "Normal", "A"], ["l", "Stor", "A"], ["xl", "Ekstra stor", "A"]];
+  const pref = (k, d = "") => { try { return localStorage.getItem(k) || d; } catch (e) { return d; } };
+  const setPref = (k, v) => { try { if (v) localStorage.setItem(k, v); else localStorage.removeItem(k); } catch (e) { /* ignore */ } };
+  function textPicker() {
+    const draw = () => {
+      const z = pref("dk-size"), rf = pref("dk-readfont") === "1";
+      openEnPop("🔠 Tekststørrelse og skrift", `<p class="small muted" style="margin-top:-4px">Gør teksten større eller lettere at læse. Gemmes i denne browser.</p>
+        <div class="size-row">${SIZES.map(([id, name, a], i) => `<button class="theme-opt size-opt ${id === z ? "on" : ""}" data-size-set="${id}"><span style="font-size:${1 + i * 0.25}rem;font-weight:900">${a}</span><span class="small">${name}</span></button>`).join("")}</div>
+        <label class="tick" style="margin-top:12px"><input type="checkbox" id="rfont" ${rf ? "checked" : ""}> <span><b>Læsevenlig skrift</b><br><span class="small muted">Mere luft mellem bogstaver og linjer – godt ved ordblindhed.</span></span></label>`, true);
+      $$("[data-size-set]").forEach(b => b.onclick = () => { setPref("dk-size", b.dataset.sizeSet); applyText(); draw(); });
+      $("#rfont").onchange = e => { setPref("dk-readfont", e.target.checked ? "1" : ""); applyText(); };
+    };
+    draw();
+  }
+  function applyText() {
+    const r = document.documentElement, z = pref("dk-size");
+    if (z) r.setAttribute("data-size", z); else r.removeAttribute("data-size");
+    if (pref("dk-readfont") === "1") r.setAttribute("data-readfont", "1"); else r.removeAttribute("data-readfont");
+  }
+
+  // ---------- Daglig påmindelse (calendar file) ----------
+  function reminderFile() {
+    const d = new Date(), pad = n => String(n).padStart(2, "0");
+    const t = new Date(d.getTime() + 86400000), day = `${t.getFullYear()}${pad(t.getMonth() + 1)}${pad(t.getDate())}`;
+    const ics = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//DanskKlar//DA", "BEGIN:VEVENT",
+      `UID:danskklar-${Date.now()}@danskklar.com`, `DTSTAMP:${d.toISOString().replace(/[-:]/g, "").slice(0, 15)}Z`,
+      `DTSTART:${day}T190000`, `DTEND:${day}T191500`, "RRULE:FREQ=DAILY",
+      "SUMMARY:🇩🇰 15 minutters dansk med DanskKlar", "DESCRIPTION:Dagens repetition og en opgave: https://danskklar.com/#/review", "URL:https://danskklar.com/#/review",
+      "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:Tid til dansk!", "TRIGGER:PT0M", "END:VALARM", "END:VEVENT", "END:VCALENDAR"].join("\r\n");
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([ics], { type: "text/calendar" })); a.download = "danskklar-paamindelse.ics";
+    document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
+    openEnPop("⏰ Daglig påmindelse", `<p>Åbn filen <b>danskklar-paamindelse.ics</b>, og tilføj den til din kalender (iPhone, Android, Outlook eller Google Kalender).</p>
+      <p>Du får en påmindelse <b>hver dag kl. 19.00</b> om at øve 15 minutter. Du kan ændre tidspunktet i din kalender bagefter.</p>`, true);
+  }
+  document.addEventListener("click", e => {
+    if (e.target.closest("[data-text-pick]")) { e.preventDefault(); textPicker(); }
+    else if (e.target.closest("[data-reminder]")) { e.preventDefault(); reminderFile(); }
+  });
 
   // ---------- Del appen ----------
   const SHARE_URL = "https://danskklar.com/";
