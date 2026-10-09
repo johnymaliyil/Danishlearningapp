@@ -760,3 +760,13 @@ main { padding-bottom: 32px; }
 .gram-marked { margin-top: 8px; padding: 10px; border-radius: 10px; background: var(--surface-2); line-height: 1.7; }
 mark.gerr { background: transparent; color: inherit; text-decoration: underline wavy var(--bad); text-underline-offset: 3px; }
 mark.gerr sup { color: var(--bad); font-weight: 800; margin-left: 1px; }
+.match-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.match-cols > div { display: grid; gap: 8px; align-content: start; }
+.mcard.sel { outline: 3px solid var(--words, var(--gold)); }
+.freq-words { margin-top: 12px; }
+.freq-words summary { cursor: pointer; font-weight: 800; }
+.fw-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.fw { display: inline-flex; align-items: center; gap: 4px; padding: 4px 8px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--border); font-size: .88rem; }
+.fw .say { border: 0; background: none; cursor: pointer; padding: 0; }
+.fw small { color: var(--muted); }
+.wl-texts { border: 0; background: none; color: var(--read, inherit); font-weight: 800; cursor: pointer; text-decoration: underline; padding: 0; }

@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "52"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "53"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -664,6 +664,7 @@
         <div class="card text">
           ${r.instruction ? `<div class="instruction">${esc(r.instruction)}</div>` : ""}
           ${exam ? "" : readingEnBtn(r, "text")}
+          ${exam ? "" : freqWordsBox(r)}
           ${r.note ? `<p class="note" style="margin-top:10px">${esc(r.note)}</p>` : ""}
           ${bankHtml}
           <div style="margin-top:14px">${r.text ? fmtText(r.text, gapHtml) : ""}${sectionsHtml}</div>
@@ -712,6 +713,7 @@
       });
     };
 
+    $$(".freq-words [data-say]").forEach(b => b.onclick = () => speak(b.dataset.say));
     // "Derfor": a short explanation shown under each answer after checking.
     const W = (PD2.WHY && PD2.WHY[r.id]) || {};
     const why = key => W[key] ? `<div class="why">💡 <b>Derfor:</b> ${esc(W[key].da)}${W[key].en ? `<span class="why-en" lang="en">${esc(W[key].en)}</span>` : ""}</div>` : "";
@@ -803,13 +805,13 @@
   const taskEnBtn = w => PD2.TASK_EN && PD2.TASK_EN[w.id]
     ? `<button class="btn ghost sm task-en-btn" data-task-en="${esc(w.id)}" aria-haspopup="dialog">🇬🇧 EN</button>` : "";
   const allWriting = () => Object.values(PD2.EXAMS).flatMap(e => e.WRITING);
-  function openEnPop(title, bodyHtml) {
+  function openEnPop(title, bodyHtml, plain) {
     closeTaskEn();
     const box = document.createElement("div");
     box.className = "pop-overlay"; box.id = "taskEnPop";
-    box.innerHTML = `<div class="pop" role="dialog" aria-modal="true" aria-label="English translation" lang="en">
-        <button class="pop-x" aria-label="Close">✕</button>
-        <h3>🇬🇧 ${esc(title)}</h3>${bodyHtml}
+    box.innerHTML = `<div class="pop" role="dialog" aria-modal="true" aria-label="${plain ? esc(title) : "English translation"}"${plain ? "" : ' lang="en"'}>
+        <button class="pop-x" aria-label="${plain ? "Luk" : "Close"}">✕</button>
+        <h3>${plain ? "" : "🇬🇧 "}${esc(title)}</h3>${bodyHtml}
         <div class="row" style="justify-content:flex-end"><button class="btn write sm pop-ok">OK</button></div>
       </div>`;
     document.body.appendChild(box);
@@ -2173,6 +2175,32 @@
   const wlData = k => (k === "verber" ? PD2.VERBS : k === "adj" ? PD2.ADJS : PD2.FREQ) || [];
   const foldQ = s => dkFold(String(s).toLowerCase());
 
+  // Link the 3000-word list to the reading texts.
+  let FREQ_MAP = null, TEXT_INDEX = null;
+  const freqMap = () => FREQ_MAP || (FREQ_MAP = new Map((PD2.FREQ || []).map((w, i) => [w[0].toLowerCase(), { rank: i + 1, en: w[1], w: w[0] }])));
+  const readingWords = r => {
+    const parts = [r.text || ""].concat((r.sections || []).flatMap(sec => [sec.heading || ""].concat((sec.cards || []).flatMap(c => [c.title, c.sub, c.body, c.facts]))));
+    return new Set((parts.join(" ").toLowerCase().match(/[a-zæøåéü]+/g) || []));
+  };
+  function textIndex() {
+    if (TEXT_INDEX) return TEXT_INDEX;
+    TEXT_INDEX = new Map();
+    Object.entries(PD2.EXAMS).forEach(([k, e]) => e.READING.forEach(r => readingWords(r).forEach(w => {
+      if (!freqMap().has(w)) return;
+      (TEXT_INDEX.get(w) || TEXT_INDEX.set(w, []).get(w)).push({ k, r });
+    })));
+    return TEXT_INDEX;
+  }
+  // "Vigtige ord" box in a reading task: the frequent-list words found in the text (very basic words left out).
+  function freqWordsBox(r) {
+    if (!PD2.FREQ) return "";
+    const found = [...readingWords(r)].map(w => freqMap().get(w)).filter(x => x && x.rank > 150).sort((a, b) => a.rank - b.rank);
+    if (!found.length) return "";
+    return `<details class="freq-words"><summary>📈 ${found.length} vigtige ord i teksten <span class="small muted">(fra de 3000 hyppigste)</span></summary>
+      <div class="fw-list">${found.map(x => `<span class="fw"><button class="say" data-say="${esc(x.w)}" aria-label="Hør ${esc(x.w)}">🔊</button><b class="no-tr">${esc(x.w)}</b> <span lang="en">${esc(x.en)}</span> <small>#${x.rank}</small></span>`).join("")}</div>
+      <p class="small muted" style="margin:8px 0 0">Tallet er ordets plads på listen over de hyppigste ord. Øv dem under <a href="#/ordlister/ord">📚 Ordlister</a>.</p></details>`;
+  }
+
   function wordlistPage(kind, quiz) {
     kind = WL[kind] ? kind : "verber";
     if (quiz) return wordlistQuiz(kind);
@@ -2197,7 +2225,7 @@
     const head = {
       verber: ["Navneform", "Nutid", "Datid", "Førnutid", "Førdatid", "Bydeform", "Gruppe", "Engelsk"],
       adj: ["n-form", "t-form", "e-form", "Komparativ", "Superlativ", "Engelsk"],
-      ord: ["#", "Ord", "Engelsk"]
+      ord: ["#", "Ord", "Engelsk", "I læsetekster"]
     }[kind];
     const rows = () => {
       const q = foldQ($("#wq").value.trim());
@@ -2206,7 +2234,7 @@
         (!q || r.some(c => foldQ(c).includes(q))));
     };
     const cell = (r, i) => kind === "ord"
-      ? `<td class="muted">${i + 1}</td><td><button class="say" data-say="${esc(r[0])}" aria-label="Hør ${esc(r[0])}">🔊</button> <b>${esc(r[0])}</b></td><td lang="en">${esc(r[1])}</td>`
+      ? `<td class="muted">${i + 1}</td><td><button class="say" data-say="${esc(r[0])}" aria-label="Hør ${esc(r[0])}">🔊</button> <b>${esc(r[0])}</b></td><td lang="en">${esc(r[1])}</td><td>${(() => { const t = textIndex().get(r[0].toLowerCase()); return t ? `<button class="wl-texts" data-texts="${esc(r[0].toLowerCase())}">${t.length} ${t.length === 1 ? "tekst" : "tekster"}</button>` : `<span class="muted">–</span>`; })()}</td>`
       : kind === "verber"
         ? `<td><button class="say" data-say="at ${esc(r[0])}" aria-label="Hør ${esc(r[0])}">🔊</button> <b>${esc(r[0])}</b></td>${r.slice(1, 6).map(c => `<td>${esc(c)}</td>`).join("")}<td><span class="tag ${r[6] === "uv" ? "real" : ""}">${esc(r[6])}</span></td><td lang="en">${esc(r[7] || "")}</td>`
         : `<td><button class="say" data-say="${esc(r[0])}" aria-label="Hør ${esc(r[0])}">🔊</button> <b>${esc(r[0])}</b></td>${r.slice(1, 5).map(c => `<td>${esc(c)}</td>`).join("")}<td lang="en">${esc(r[5] || "")}</td>`;
@@ -2218,6 +2246,11 @@
         : `<p class="muted">Ingen ord fundet.</p>`;
       $("#wmore").hidden = list.length <= shown;
       $$("#wlist [data-say]").forEach(b => b.onclick = () => speak(b.dataset.say));
+      $$("#wlist [data-texts]").forEach(b => b.onclick = () => {
+        const w = b.dataset.texts, list = textIndex().get(w) || [];
+        openEnPop(`«${w}» i læseteksterne`, `<ul>${list.slice(0, 40).map(({ k, r }) => `<li><a href="#/reading/${esc(r.id)}" data-exam="${k}">${esc(PD2.EXAM_META[k].name)} · ${esc(r.group ? r.group.replace(/^PD2 /, "") + " · " : "")}${esc(r.title)}</a></li>`).join("")}</ul>${list.length > 40 ? `<p class="small muted">… og ${list.length - 40} mere.</p>` : ""}`, true);
+        $$("#taskEnPop [data-exam]").forEach(a => a.onclick = () => { if (S.exam !== a.dataset.exam) { S.exam = a.dataset.exam; save(); renderStats(); } closeTaskEn(); });
+      });
     };
     let t;
     $("#wq").oninput = () => { clearTimeout(t); shown = 100; t = setTimeout(draw, 120); };
@@ -2776,6 +2809,9 @@
     { id: "order", ico: "🧩", name: "Byg sætningen", desc: "Sæt ordene i den rigtige rækkefølge. Husk: verbet står på plads 2!", perExam: true, unit: "rigtige" },
     { id: "dictation", ico: "🎧", name: "Lyt og skriv", desc: "Hør en sætning og skriv den. Træner både lytning og stavning.", perExam: true, unit: "%" },
     { id: "verbs", ico: "🔁", name: "Bøj verbet", desc: "Nutid, datid og førnutid af de vigtigste verber.", unit: "rigtige" },
+    { id: "verbrace", ico: "⏱️", name: "Bøj verbet på tid", desc: "60 sekunder med de 500 vigtigste verber. Hvor mange former kan du nå?", unit: "rigtige" },
+    { id: "verbmatch", ico: "🔗", name: "Find parret", desc: "Match verbet med dets datid: gå – gik, spise – spiste.", lower: true, unit: "forsøg" },
+    { id: "listen", ico: "👂", name: "Lyt og vælg", desc: "Hør et af de 3000 hyppigste ord: vælg betydningen, find stavningen eller skriv det.", unit: "rigtige" },
     { id: "idioms", ico: "💬", name: "Talemåder", desc: "Hvad betyder \"Der er ingen ko på isen\"? Lær sjove danske udtryk.", unit: "rigtige" }
   ];
   const gameInfo = id => GAMES.find(g => g.id === id);
@@ -2828,7 +2864,7 @@
   }
 
   function gameRoute(id) {
-    const fn = { vocab: () => vocabGame().home(), memory: memoryGame, ordle: ordleGame, gender: genderGame, order: orderGame, dictation: dictationGame, verbs: verbsGame, idioms: idiomsGame }[id];
+    const fn = { vocab: () => vocabGame().home(), memory: memoryGame, ordle: ordleGame, gender: genderGame, order: orderGame, dictation: dictationGame, verbs: verbsGame, verbrace: verbRaceGame, verbmatch: verbMatchGame, listen: listenGame, idioms: idiomsGame }[id];
     (fn || gamesHub)();
   }
 
@@ -3399,6 +3435,167 @@
           `<p class="small muted">Mange af de vigtigste verber er uregelmæssige. Lær dem i rækker: gå – går – gik – er gået.</p>`);
       });
     }
+    start();
+  }
+
+  // ⏱️ Bøj verbet på tid: 60 seconds with the 500 verbs from Ordlister.
+  function verbRaceGame() {
+    const g = gameInfo("verbrace"), SECS = 60;
+    const FORMS = [[1, "nutid", "i dag: jeg …"], [2, "datid", "i går: jeg …"], [3, "førnutid", "jeg har/er …"]];
+    const V = (PD2.VERBS || []).filter(v => !/\s/.test(v[0]));
+    function start() {
+      let score = 0, asked = 0, end = Date.now() + SECS * 1000, done = false;
+      const tick = () => {
+        const left = Math.max(0, Math.ceil((end - Date.now()) / 1000)), el = $("#vrt");
+        if (el) { el.textContent = `⏱️ ${left}`; el.classList.toggle("low", left <= 10); }
+        if (!left && !done) { done = true; finish(); }
+      };
+      function next() {
+        if (done) return;
+        const v = V[Math.floor(Math.random() * V.length)], [i, name, hint] = FORMS[Math.floor(Math.random() * 3)];
+        const answer = v[i], others = V.filter(x => x !== v && x[6] === v[6]);
+        const stem = v[0].replace(/e$/, "");
+        const fakes = {
+          1: [v[0], stem + "ede", v[2]],
+          2: [stem + "ede", stem + "te", v[1], v[0] + "de"].filter(x => x !== answer),
+          3: ["har " + stem + "et", "har " + v[2], answer.startsWith("har") ? answer.replace(/^har/, "er") : answer.replace(/^er/, "har"), "har " + stem + "t"].filter(x => x !== answer)
+        }[i];
+        const options = shuffle([answer, ...shuffle([...new Set(fakes)]).slice(0, 3)]);
+        asked++;
+        app.innerHTML = `${gameHead(g)}
+          <div class="card stage">
+            <div class="row" style="justify-content:space-between"><span class="pill timer" id="vrt"></span><span class="pill">✅ ${score}</span></div>
+            <div class="word-big no-tr">${esc(v[0])}</div>
+            <p>Hvad er <b>${name}</b>? <span class="muted">(${hint})</span></p>
+            <div class="answers no-tr">${options.map(o => `<button class="choice" data-o="${esc(o)}">${esc(o)}</button>`).join("")}</div>
+          </div>`;
+        tick();
+        let locked = false;
+        $$(".answers .choice").forEach(b => b.onclick = () => {
+          if (locked || done) return; locked = true;
+          const ok = b.dataset.o === answer;
+          b.classList.add(ok ? "ok" : "bad");
+          if (!ok) $$(".answers .choice").find(x => x.dataset.o === answer).classList.add("ok");
+          if (ok) score++;
+          setTimeout(next, ok ? 250 : 900);
+        });
+      }
+      function finish() {
+        const rec = recordGame("verbrace", score);
+        addXP(score * 2, "bøj verbet på tid");
+        if (rec) confetti();
+        gameOver(g, `${score}`, `${score} rigtige af ${asked} på ${SECS} sekunder. ${recordLine(rec, "verbrace")}`, start,
+          `<p class="small muted">Se alle 500 verber med bøjning under <a href="#/ordlister/verber">📚 Ordlister</a>.</p>`);
+      }
+      every(250, tick);
+      next();
+    }
+    start();
+  }
+
+  // 🔗 Find parret: match each infinitive with its past tense (datid).
+  function verbMatchGame() {
+    const g = gameInfo("verbmatch"), PAIRS = 6;
+    const V = (PD2.VERBS || []).filter(v => !/\s/.test(v[0]));
+    function start() {
+      const irregular = V.filter(v => v[6] === "uv"), pick = shuffle(irregular).slice(0, 4).concat(shuffle(V.filter(v => v[6] !== "uv")).slice(0, PAIRS - 4));
+      const left = shuffle(pick.map((v, i) => ({ i, t: v[0] }))), right = shuffle(pick.map((v, i) => ({ i, t: v[2] })));
+      let sel = null, found = 0, moves = 0;
+      const t0 = Date.now();
+      app.innerHTML = `${gameHead(g)}
+        <p class="muted">Tryk på et verbum i navneform og derefter på dets datid.</p>
+        <div class="card"><div class="match-cols no-tr">
+          <div>${left.map(x => `<button class="choice mcard" data-side="l" data-i="${x.i}">${esc(x.t)}</button>`).join("")}</div>
+          <div>${right.map(x => `<button class="choice mcard" data-side="r" data-i="${x.i}">${esc(x.t)}</button>`).join("")}</div>
+        </div><p class="small muted" id="vmstat" style="margin-bottom:0"></p></div>`;
+      const stat = () => { $("#vmstat").textContent = `${found}/${PAIRS} par · ${moves} forsøg`; };
+      stat();
+      $$(".mcard").forEach(b => b.onclick = () => {
+        if (b.disabled) return;
+        if (!sel || sel.dataset.side === b.dataset.side) { $$(".mcard.sel").forEach(x => x.classList.remove("sel")); sel = b; b.classList.add("sel"); return; }
+        moves++;
+        if (sel.dataset.i === b.dataset.i) {
+          [sel, b].forEach(x => { x.classList.remove("sel"); x.classList.add("ok"); x.disabled = true; });
+          const v = pick[+b.dataset.i]; speak(`${v[0]}, ${v[2]}`);
+          found++;
+        } else {
+          const a = sel; [a, b].forEach(x => x.classList.add("bad"));
+          setTimeout(() => [a, b].forEach(x => x.classList.remove("bad", "sel")), 600);
+        }
+        sel = null; stat();
+        if (found === PAIRS) {
+          const secs = Math.round((Date.now() - t0) / 1000), rec = recordGame("verbmatch", moves);
+          addXP(20, "find parret");
+          if (rec || moves === PAIRS) confetti();
+          setTimeout(() => gameOver(g, `${moves} forsøg`, `${secs} sekunder. ${recordLine(rec, "verbmatch")}`, start,
+            `<div class="small" style="text-align:left;max-width:420px;margin:8px auto">${pick.map(v => `<div class="no-tr"><b>${esc(v[0])}</b> – ${esc(v[1])} – <b>${esc(v[2])}</b> – ${esc(v[3])} <span class="muted" lang="en">(${esc(v[7] || "")})</span></div>`).join("")}</div>`), 500);
+        }
+      });
+    }
+    start();
+  }
+
+  // 👂 Lyt og vælg: hear a frequent word, then choose its meaning, choose the right spelling, or write it.
+  function listenGame() {
+    const g = gameInfo("listen"), ROUNDS = 10;
+    const F = (PD2.FREQ || []).filter(w => w[0].length > 1 && !/\s/.test(w[0]));
+    S.wl = S.wl || {};
+    function start() {
+      const range = S.wl.listenRange || 1000, pool = F.slice(Math.max(0, range - 1000), range);
+      let n = 0, score = 0;
+      function show() {
+        const w = pool[Math.floor(Math.random() * pool.length)], mode = ["meaning", "spelling", "write"][n % 3];
+        const sim = pool.filter(x => x !== w && x[0][0] === w[0][0] && Math.abs(x[0].length - w[0].length) <= 2);
+        const opts = mode === "meaning" ? shuffle([w[1], ...shuffle(pool.filter(x => x[1] !== w[1])).slice(0, 3).map(x => x[1])])
+          : mode === "spelling" ? shuffle([w[0], ...shuffle((sim.length >= 3 ? sim : pool.filter(x => x !== w))).slice(0, 3).map(x => x[0])]) : [];
+        app.innerHTML = `${gameHead(g)}
+          <div class="chips" style="margin-bottom:10px">${[1000, 2000, 3000].map(x => `<button class="chip ${x === range ? "on" : ""}" data-lr="${x}">Ord ${x - 999}-${x}</button>`).join("")}</div>
+          <div class="card stage">
+            <div class="row" style="justify-content:space-between"><span class="pill">${n + 1}/${ROUNDS}</span><span class="pill">✅ ${score}</span></div>
+            <button class="btn words" id="lplay" style="font-size:1.4rem">🔊 Hør ordet</button>
+            <button class="btn ghost sm" id="lslow">🐢 Langsomt</button>
+            <p style="margin-top:12px">${mode === "meaning" ? "Hvad betyder ordet?" : mode === "spelling" ? "Hvilket ord hørte du?" : "Skriv det ord, du hører."}</p>
+            ${mode === "write" ? `<input class="short" id="lin" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Skriv ordet …"><div class="row" style="justify-content:center;margin-top:10px"><button class="btn words" id="lchk">Tjek</button></div>`
+              : `<div class="answers no-tr"${mode === "meaning" ? ' lang="en"' : ""}>${opts.map(o => `<button class="choice" data-o="${esc(o)}">${esc(o)}</button>`).join("")}</div>`}
+            <div id="after" class="quiz-after"></div>
+          </div>`;
+        $$("[data-lr]").forEach(b => b.onclick = () => { S.wl.listenRange = +b.dataset.lr; save(); start(); });
+        const play = rate => speak(w[0], null, rate);
+        $("#lplay").onclick = () => play(); $("#lslow").onclick = () => play(0.6);
+        setTimeout(play, 250);
+        const answer = mode === "meaning" ? w[1] : w[0];
+        const done = ok => {
+          if (ok) score++;
+          $("#after").innerHTML = `<p>${ok ? "✅ Rigtigt!" : "❌ Ikke helt."} <b class="no-tr">${esc(w[0])}</b> = <span lang="en">${esc(w[1])}</span></p>
+            <button class="btn words" id="nx">${n + 1 < ROUNDS ? "Næste →" : "Se resultat"}</button>`;
+          $("#nx").focus();
+          $("#nx").onclick = () => { n++; if (n < ROUNDS) show(); else finish(); };
+        };
+        if (mode === "write") {
+          const inp = $("#lin"); inp.focus();
+          const chk = () => { if ($("#lchk").disabled) return; $("#lchk").disabled = true; inp.disabled = true; const ok = norm(inp.value) === norm(w[0]); inp.classList.add(ok ? "ok" : "bad"); done(ok); };
+          $("#lchk").onclick = chk; inp.onkeydown = e => { if (e.key === "Enter") { e.preventDefault(); chk(); } };
+        } else {
+          let locked = false;
+          $$(".answers .choice").forEach(b => b.onclick = () => {
+            if (locked) return; locked = true;
+            const ok = b.dataset.o === answer;
+            b.classList.add(ok ? "ok" : "bad");
+            if (!ok) $$(".answers .choice").find(x => x.dataset.o === answer).classList.add("ok");
+            done(ok);
+          });
+        }
+      }
+      function finish() {
+        const rec = recordGame("listen", score);
+        addXP(score * 2, "lyt og vælg");
+        if (rec || score === ROUNDS) confetti();
+        gameOver(g, `${score}/${ROUNDS}`, recordLine(rec, "listen"), start,
+          `<p class="small muted">Ordene er fra listen over de 3000 hyppigste ord. Se hele listen under <a href="#/ordlister/ord">📚 Ordlister</a>.</p>`);
+      }
+      show();
+    }
+    if (!("speechSynthesis" in window)) { app.innerHTML = `${gameHead(g)}<div class="card"><p>Din browser kan ikke læse tekst højt. Prøv Chrome, Edge eller Safari.</p></div>`; return; }
     start();
   }
 
