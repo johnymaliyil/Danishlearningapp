@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "71"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "72"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -214,6 +214,7 @@
       <button role="menuitem" class="set-item" data-text-pick><span class="set-ico">🔠</span><span>Tekststørrelse og skrift</span></button>
       <a role="menuitem" class="set-item" href="#/progress"><span class="set-ico">📊</span><span>Min fremgang</span></a>
       <a role="menuitem" class="set-item" href="#/news"><span class="set-ico">📰</span><span>Dagens nyheder</span></a>
+      <a role="menuitem" class="set-item" href="#/fvu"><span class="set-ico">📗</span><span>FVU-dansk trin 1–4</span></a>
       <button role="menuitem" class="set-item" data-reminder><span class="set-ico">⏰</span><span>Daglig påmindelse i kalenderen</span></button>
       <div class="set-sec">Hjælp</div>
       ${item("#/help", "❓", '<span lang="en">Help – all features (English)</span>')}
@@ -371,6 +372,7 @@
     [/^\/help$/, helpPage],
     [/^\/progress$/, progressPage],
     [/^\/news$/, newsPage],
+    [/^\/fvu(?:\/(\d))?$/, fvuPage],
     [/^\/backup$/, backupPage],
     [/^\/feedback(?:\/([1-5]))?$/, feedbackPage]
   ];
@@ -467,9 +469,12 @@
           <p class="muted">Hvilken prøve vil du træne til? Du kan altid skifte senere.</p>
         </div>
         <div class="exam-cards">${cards}</div>
+        <a class="card plan-banner start-fvu" href="#/fvu" data-fvu-start><span class="pb-ico">📗</span><span class="pb-meta"><b>FVU-dansk trin 1–4</b>
+          <span class="small muted">Eksempelopgaver i læsning og stavning · flere kommer snart</span></span><span class="pill">Ny</span></a>
         <p class="small muted start-foot">Ved du ikke, hvilken prøve du skal til? PD1 er den letteste og PD3 den sværeste. Spørg din sprogskole.</p>
         <div><div class="start-install">${installButton()}</div></div>
       </section>`;
+    $("[data-fvu-start]").onclick = () => markChosen();
     $$("[data-start]").forEach(b => b.onclick = () => {
       const k = b.dataset.start;
       markChosen();
@@ -537,6 +542,8 @@
         <span class="small muted">${due ? `${due} kort klar: dine fejl, svære ord og nye ord` : "Lær nye ord fra listen over de 3000 hyppigste"}</span></span>
         <span class="pill">${due ? due : "Start"}</span></a>`; })()}
       <a class="card plan-banner news-banner" href="#/news" id="newsBanner" hidden></a>
+      <a class="card plan-banner" href="#/fvu"><span class="pb-ico">📗</span><span class="pb-meta"><b>FVU-dansk trin 1–4</b>
+        <span class="small muted">Eksempelopgaver i læsning og stavning · flere kommer snart</span></span><span class="pill">Ny</span></a>
       ${(() => { const st = planStatus(); return `<a class="card plan-banner" href="#/plan">
         <span class="pb-ico">📅</span><span class="pb-meta"><b>${esc(countdownText())}</b>
         <span class="small muted">${S.plan.date ? `Dagens plan: ${st.done}/${st.items.length} klaret` : "Lav en prøveplan med opgaver til hver dag"}</span></span>
@@ -3852,6 +3859,76 @@
     };
   }
 
+  // ---------- 📗 FVU-dansk trin 1–4 (sample tasks in js/fvu.js) ----------
+  function fvuPage(trin) {
+    S.fvu = S.fvu || {};
+    const soon = `<div class="card soon-note"><b>🚧 Flere opgaver kommer snart</b><p class="small muted" style="margin:4px 0 0">Det her er eksempelopgaver, som DanskKlar selv har lavet i samme stil som FVU-prøverne – ikke officielle prøveopgaver. Vi opdaterer med flere tekster og opgaver til hvert trin.</p></div>`;
+    if (!trin) {
+      app.innerHTML = `<a class="back" href="#/">← Forside</a>
+        <h1>📗 FVU-dansk trin 1–4</h1>
+        <p class="muted">FVU-dansk (forberedende voksenundervisning) har fire trin. Trin 1 er det letteste, og trin 4 det sværeste. Hvert sæt har en tekst med spørgsmål og nogle opgaver i stavning og sprog.</p>
+        ${soon}
+        <div class="grid grid-2" style="margin-top:16px">${PD2.FVU.map(t => {
+          const r = S.fvu[t.trin], total = t.qs.length + t.lang.length;
+          return `<a class="card fvu-card" href="#/fvu/${t.trin}">
+            <span class="fvu-trin">Trin ${t.trin}</span>
+            <b>${esc(t.texts[0].title)}</b>
+            <span class="small muted">${esc(t.level)}</span>
+            <span class="bar"><i style="width:${r ? r.best / total * 100 : 0}%"></i></span>
+            <span class="small muted">${r ? `Bedste resultat: ${r.best}/${total}` : `${total} spørgsmål`}</span></a>`;
+        }).join("")}</div>`;
+      return;
+    }
+    const t = PD2.FVU.find(x => x.trin === +trin);
+    if (!t) { location.hash = "#/fvu"; return; }
+    const all = t.qs.concat(t.lang);
+    const qHtml = (list, off) => list.map((q, i) => `<div class="q" data-q="${off + i}">
+        <div class="qtext"><span class="num">${off + i + 1}</span>${esc(q.q)}</div>
+        <div class="choices">${q.o.map((o, j) => `<button type="button" class="choice" data-o="${j}"><span class="key">${"ABC"[j]}</span><span>${esc(o)}</span></button>`).join("")}</div>
+        <div class="why" hidden><b>Derfor:</b> ${esc(q.why)}</div></div>`).join("");
+    app.innerHTML = `<a class="back" href="#/fvu">← Alle trin</a>
+      <h1>📗 FVU-dansk trin ${t.trin}</h1>
+      <p class="muted"><span>${esc(t.level)}</span> · <span>Læs teksten, og vælg det rigtige svar.</span></p>
+      <div class="grid grid-2 fvu-grid">
+        <div class="card">${t.texts.map(x => `<h2>${esc(x.title)}</h2><div class="text fvu-text">${x.body.split("\n\n").map(p => `<p>${esc(p).replace(/\n/g, "<br>")}</p>`).join("")}</div>`).join("")}</div>
+        <div class="card"><h2>📖 Læsning</h2>${qHtml(t.qs, 0)}
+          <h2 style="margin-top:18px">✏️ Stavning og sprog</h2>${qHtml(t.lang, t.qs.length)}
+          <div class="row" style="margin-top:14px"><button class="btn write" id="fvuCheck">Tjek svar</button><span id="fvuRes" class="score-badge" hidden></span></div>
+        </div>
+      </div>
+      ${soon}
+      <div class="row" style="margin-top:12px">${t.trin > 1 ? `<a class="btn ghost sm" href="#/fvu/${t.trin - 1}">← Trin ${t.trin - 1}</a>` : ""}<span class="spacer"></span>${t.trin < PD2.FVU.length ? `<a class="btn ghost sm" href="#/fvu/${t.trin + 1}">Trin ${t.trin + 1} →</a>` : ""}</div>`;
+    const pick = {};
+    let checked = false;
+    $$(".fvu-grid .q").forEach(qe => qe.querySelectorAll(".choice").forEach(b => b.onclick = () => {
+      if (checked) return;
+      qe.querySelectorAll(".choice").forEach(x => x.classList.toggle("sel", x === b));
+      pick[qe.dataset.q] = +b.dataset.o;
+    }));
+    $("#fvuCheck").onclick = () => {
+      if (checked) { fvuPage(trin); return; }
+      if (Object.keys(pick).length < all.length && !confirm("Du har ikke svaret på alle spørgsmål. Vil du tjekke alligevel?")) return;
+      checked = true;
+      let score = 0;
+      $$(".fvu-grid .q").forEach(qe => {
+        const i = +qe.dataset.q, q = all[i];
+        qe.querySelectorAll(".choice").forEach(x => {
+          const o = +x.dataset.o;
+          x.classList.remove("sel");
+          if (o === q.a) x.classList.add("ok"); else if (o === pick[i]) x.classList.add("bad");
+        });
+        if (pick[i] === q.a) score++;
+        qe.querySelector(".why").hidden = false;
+      });
+      const prev = S.fvu[t.trin];
+      if (!prev || score > prev.best) S.fvu[t.trin] = { best: score };
+      save();
+      addXP(score * 2, `FVU trin ${t.trin}`);
+      const res = $("#fvuRes"); res.hidden = false; res.textContent = `${score}/${all.length} rigtige`;
+      $("#fvuCheck").textContent = "Prøv igen";
+    };
+  }
+
   // ---------- 📰 Dagens nyheder ----------
   // news.json is refreshed a few times a day by .github/workflows/news.yml (DR's public RSS feed,
   // English by machine translation). The visitor's browser only loads the file from this site.
@@ -4098,6 +4175,7 @@
       ["🔁", "Daily review", "Spaced repetition of your mistakes, hard words, verb forms and new words – each card comes back at the right time.", "#/review"],
       ["❌", "My mistakes", "All your wrong answers in one place, so you can practise them again.", "#/mistakes"],
       ["📊", "My progress", "XP per day, your strong and weak reading task types, which exam sets you have done, and your review cards.", "#/progress"],
+      ["📗", "FVU-dansk trin 1–4", "Sample reading and spelling tasks for the four FVU-dansk levels (trin 1 easiest, trin 4 hardest), with answers explained. These are DanskKlar's own practice tasks, not official tests – more are coming soon. Find it on the home page, the start screen or in ⚙️ Settings.", "#/fvu"],
       ["📰", "Today's news", "Short Danish news headlines from DR, updated a few times a day. Tap 🇬🇧 Vis engelsk for an English translation, 🔊 to hear it read aloud, and point at any word for its meaning. Find it on the home page or in ⚙️ Settings.", "#/news"],
       ["⏰", "Daily reminder", "Settings ⚙️ → Daily reminder adds a 15-minute practice reminder at 19:00 to your phone's calendar.", ""]
     ]],
