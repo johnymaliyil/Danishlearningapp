@@ -1,16 +1,146 @@
 {
- "updated": "2026-10-10T10:37+00:00",
+ "updated": "2026-10-10T19:17+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/rusland-muliggoer-dieseleksport-til-usa-ved-fjerne-eksportforbud",
+   "date": "2026-10-10T19:02:01+00:00",
+   "da": {
+    "title": "Rusland muliggør dieseleksport til USA ved at fjerne eksportforbud",
+    "desc": ""
+   },
+   "en": {
+    "title": "Russia enables diesel exports to the US by removing export bans",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/otte-draebt-i-masseskyderi-i-pennsylvania",
+   "date": "2026-10-10T18:09:16+00:00",
+   "da": {
+    "title": "Otte dræbt i masseskyderi i Pennsylvania",
+    "desc": ""
+   },
+   "en": {
+    "title": "Eight killed in Pennsylvania mass shooting",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mand-draebt-af-tiger-i-britisk-zoo",
+   "date": "2026-10-10T17:30:11+00:00",
+   "da": {
+    "title": "Mand dræbt af tiger i britisk zoo",
+    "desc": ""
+   },
+   "en": {
+    "title": "Man killed by tiger in British zoo",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/groenlaendere-slipper-betale-fejl-ydelse-tilbage",
+   "date": "2026-10-10T17:16:16+00:00",
+   "da": {
+    "title": "Grønlændere slipper for at betale fejl-ydelse tilbage",
+    "desc": ""
+   },
+   "en": {
+    "title": "Greenlanders do not have to pay back faulty service",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/flere-saarede-efter-nyt-angreb-paa-saudisk-lufthavn",
+   "date": "2026-10-10T16:49:18+00:00",
+   "da": {
+    "title": "Flere sårede efter nyt angreb på saudisk lufthavn",
+    "desc": ""
+   },
+   "en": {
+    "title": "More wounded after new attack on Saudi airport",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/christa-pike-er-blevet-udskrevet-og-sendt-tilbage-til-faengsel-efter-mislykket-henrettelse",
+   "date": "2026-10-10T15:45:13+00:00",
+   "da": {
+    "title": "Christa Pike er blevet udskrevet og sendt tilbage til fængsel efter mislykket henrettelse",
+    "desc": ""
+   },
+   "en": {
+    "title": "Christa Pike has been discharged and sent back to prison after unsuccessful execution",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/verstappen-koerer-i-pole-position-anden-weekend-i-traek",
+   "date": "2026-10-10T14:52:03+00:00",
+   "da": {
+    "title": "Verstappen kører i pole position for anden weekend i træk",
+    "desc": ""
+   },
+   "en": {
+    "title": "Verstappen runs in pole position for the second consecutive weekend",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/palaestinensisk-valg-udsaettes-til-naeste-aar",
+   "date": "2026-10-10T13:13:17+00:00",
+   "da": {
+    "title": "Palæstinensisk valg udsættes til næste år",
+    "desc": ""
+   },
+   "en": {
+    "title": "Palestinian elections postponed to next year",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/en-fjerde-person-er-faengslet-i-sag-om-lig-i-gudenaaen",
+   "date": "2026-10-10T11:11:13+00:00",
+   "da": {
+    "title": "En fjerde person er fængslet i sag om lig i Gudenåen",
+    "desc": ""
+   },
+   "en": {
+    "title": "A fourth person is imprisoned in the case of bodies in Gudenåen",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/nfl-legenden-mike-ditka-er-doed-i-en-alder-af-86-aar",
+   "date": "2026-10-10T10:48:58+00:00",
+   "da": {
+    "title": "NFL-legenden Mike Ditka er død i en alder af 86 år",
+    "desc": ""
+   },
+   "en": {
+    "title": "NFL legend Mike Ditka has died at the age of 86",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/17-aarig-anholdt-efter-formodet-drabsforsoeg-der-skete-over-et-aar-siden",
    "date": "2026-10-10T08:21:16+00:00",
    "da": {
-    "title": "17-årig anholdt efter formodet drabsforsøg, der skete for over et år siden",
+    "title": "17-årig tiltalt for grov vold i sag om knivstik i april 2025",
     "desc": ""
    },
    "en": {
-    "title": "17-year-old arrested after suspected attempted murder that occurred over a year ago",
+    "title": "17-year-old accused of aggravated violence in stabbing case in April 2025",
     "desc": ""
    }
   },
@@ -63,136 +193,6 @@
    },
    "en": {
     "title": "Leaked water pipes caused the water to splash onto baggage belts at Copenhagen Airport",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/katie-zacharia-bliver-trumps-nye-talskvinde",
-   "date": "2026-10-09T20:13:40+00:00",
-   "da": {
-    "title": "Katie Zacharia bliver Trumps nye talskvinde",
-    "desc": ""
-   },
-   "en": {
-    "title": "Katie Zacharia becomes Trump's new spokeswoman",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tidligere-raadgiver-tilbydes-job-som-pressesekretaer-det-hvide-hus",
-   "date": "2026-10-09T19:00:07+00:00",
-   "da": {
-    "title": "Tidligere rådgiver tilbydes job som pressesekretær for Det Hvide Hus",
-    "desc": ""
-   },
-   "en": {
-    "title": "Former advisor offered White House press secretary job",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tsunamivarsel-efter-kraftigt-jordskaelv-i-panama",
-   "date": "2026-10-09T18:25:21+00:00",
-   "da": {
-    "title": "Tsunamivarsel efter kraftigt jordskælv i Panama afblæst",
-    "desc": ""
-   },
-   "en": {
-    "title": "Tsunami warning after strong earthquake in Panama called off",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/spoegelsesbilist-vendte-om-paa-motorvej-og-udloeste-uheld",
-   "date": "2026-10-09T17:01:59+00:00",
-   "da": {
-    "title": "Spøgelsesbilist vendte om på motorvej og udløste uheld",
-    "desc": ""
-   },
-   "en": {
-    "title": "Ghost driver turned around on highway and triggered accident",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/icc-medlemslande-bekymrede-over-usa-s-sanktioner",
-   "date": "2026-10-09T16:48:39+00:00",
-   "da": {
-    "title": "ICC-medlemslande bekymrede over USA's sanktioner",
-    "desc": ""
-   },
-   "en": {
-    "title": "ICC member states concerned about US sanctions",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/fly-maa-noedlande-i-miami-efter-kraftig-turbulens-ni-kvaestet",
-   "date": "2026-10-09T16:16:15+00:00",
-   "da": {
-    "title": "Fly må nødlande i Miami efter kraftig turbulens - ni kvæstet",
-    "desc": ""
-   },
-   "en": {
-    "title": "Aircraft must crash land in Miami after severe turbulence - nine injured",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/ingen-prognose-normal-togtrafik-efter-brand-i-teknikhytte",
-   "date": "2026-10-09T14:39:24+00:00",
-   "da": {
-    "title": "Ingen prognose for normal togtrafik efter brand i teknikhytte",
-    "desc": ""
-   },
-   "en": {
-    "title": "No forecast for normal train traffic after fire in technical cabin",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/betjent-faar-boede-og-skal-betale-erstatning-efter-trafikuheld-paa-bornholm",
-   "date": "2026-10-09T13:54:32+00:00",
-   "da": {
-    "title": "Betjent får bøde og skal betale erstatning efter trafikuheld på Bornholm",
-    "desc": ""
-   },
-   "en": {
-    "title": "Officer fined and must pay compensation after traffic accident on Bornholm",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/kongeparret-indvier-badebro-i-skive",
-   "date": "2026-10-09T13:04:07+00:00",
-   "da": {
-    "title": "Kongeparret indvier badebro i Skive",
-    "desc": ""
-   },
-   "en": {
-    "title": "The King and Queen inaugurate bathing jetty in Skive",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/landsret-afviser-varetaegtsfaengsle-voldssigtede-faengselsbetjente-fra-kosovo",
-   "date": "2026-10-09T12:59:12+00:00",
-   "da": {
-    "title": "Landsret afviser at varetægtsfængsle voldssigtede fængselsbetjente fra Kosovo",
-    "desc": ""
-   },
-   "en": {
-    "title": "The High Court refuses to remand violent prison officers from Kosovo in custody",
     "desc": ""
    }
   }
