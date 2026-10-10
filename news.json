@@ -1,16 +1,81 @@
 {
- "updated": "2026-10-09T19:40+00:00",
+ "updated": "2026-10-10T10:37+00:00",
  "items": [
   {
    "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/trump-lover-traengte-amerikanere-russisk-diesel",
-   "date": "2026-10-09T19:21:58+00:00",
+   "link": "https://www.dr.dk/nyheder/seneste/17-aarig-anholdt-efter-formodet-drabsforsoeg-der-skete-over-et-aar-siden",
+   "date": "2026-10-10T08:21:16+00:00",
    "da": {
-    "title": "Trump lover trængte amerikanere russisk diesel",
+    "title": "17-årig anholdt efter formodet drabsforsøg, der skete for over et år siden",
     "desc": ""
    },
    "en": {
-    "title": "Trump Promises Troubled Americans Russian Diesel",
+    "title": "17-year-old arrested after suspected attempted murder that occurred over a year ago",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/flere-anmeldelser-om-ketchup-kast-i-aalborg",
+   "date": "2026-10-10T08:03:05+00:00",
+   "da": {
+    "title": "Flere anmeldelser om ketchup-kast i Aalborg",
+    "desc": ""
+   },
+   "en": {
+    "title": "More reviews about ketchup throwing in Aalborg",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/kommune-faar-millioner-til-hjaelpe-fyrede-medarbejdere-fra-fmc-roenland",
+   "date": "2026-10-10T06:47:49+00:00",
+   "da": {
+    "title": "Kommune får millioner til at hjælpe fyrede medarbejdere fra FMC Rønland",
+    "desc": ""
+   },
+   "en": {
+    "title": "Municipality gets millions to help fired employees from FMC Rønland",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/witkoff-har-holdt-moede-om-ukraine-krigen-i-miami",
+   "date": "2026-10-10T03:45:00+00:00",
+   "da": {
+    "title": "Witkoff har holdt møde om Ukraine-krigen i Miami",
+    "desc": ""
+   },
+   "en": {
+    "title": "Witkoff has held a meeting on the Ukraine war in Miami",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/vandet-staar-ind-i-koebenhavns-lufthavn-efter-laekket-vandroer",
+   "date": "2026-10-09T21:40:59+00:00",
+   "da": {
+    "title": "Lækket vandrør fik vandet til at plaske ned på bagagebånd i Københavns Lufthavn",
+    "desc": ""
+   },
+   "en": {
+    "title": "Leaked water pipes caused the water to splash onto baggage belts at Copenhagen Airport",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/katie-zacharia-bliver-trumps-nye-talskvinde",
+   "date": "2026-10-09T20:13:40+00:00",
+   "da": {
+    "title": "Katie Zacharia bliver Trumps nye talskvinde",
+    "desc": ""
+   },
+   "en": {
+    "title": "Katie Zacharia becomes Trump's new spokeswoman",
     "desc": ""
    }
   },
@@ -32,11 +97,11 @@
    "link": "https://www.dr.dk/nyheder/seneste/tsunamivarsel-efter-kraftigt-jordskaelv-i-panama",
    "date": "2026-10-09T18:25:21+00:00",
    "da": {
-    "title": "Tsunamivarsel efter kraftigt jordskælv i Panama",
+    "title": "Tsunamivarsel efter kraftigt jordskælv i Panama afblæst",
     "desc": ""
    },
    "en": {
-    "title": "Tsunami warning after strong earthquake in Panama",
+    "title": "Tsunami warning after strong earthquake in Panama called off",
     "desc": ""
    }
   },
@@ -128,71 +193,6 @@
    },
    "en": {
     "title": "The High Court refuses to remand violent prison officers from Kosovo in custody",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/unge-maend-idoemmes-lange-faengselsstraffe-narko",
-   "date": "2026-10-09T12:48:52+00:00",
-   "da": {
-    "title": "To unge mænd idømmes lange fængselsstraffe for narko",
-    "desc": ""
-   },
-   "en": {
-    "title": "Two young men sentenced to long prison terms for drugs",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/stjaalne-renoir-malerier-er-fundet-seks-er-anholdt",
-   "date": "2026-10-09T11:31:54+00:00",
-   "da": {
-    "title": "To stjålne Renoir-malerier er fundet - seks er anholdt",
-    "desc": ""
-   },
-   "en": {
-    "title": "Two stolen Renoir paintings found - six arrested",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/sager-om-indfoedsret-genoptages-efter-fejl-i-register",
-   "date": "2026-10-09T10:40:04+00:00",
-   "da": {
-    "title": "Sager om indfødsret genoptages efter fejl i register",
-    "desc": ""
-   },
-   "en": {
-    "title": "Cases of citizenship are resumed after errors in the register",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/kommune-faar-kritik-manglende-undervisning-paa-doegninstitution",
-   "date": "2026-10-09T09:21:33+00:00",
-   "da": {
-    "title": "Kommune får kritik for manglende undervisning på døgninstitution",
-    "desc": ""
-   },
-   "en": {
-    "title": "Municipality criticized for lack of education in residential institution",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/polsk-politi-anholder-flere-unge-trusler-om-angreb",
-   "date": "2026-10-09T08:58:05+00:00",
-   "da": {
-    "title": "Polsk politi anholder flere unge for trusler om angreb",
-    "desc": ""
-   },
-   "en": {
-    "title": "Polish police arrest more youths for threats of attack",
     "desc": ""
    }
   }
