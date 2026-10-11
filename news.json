@@ -1,6 +1,84 @@
 {
- "updated": "2026-10-11T10:50+00:00",
+ "updated": "2026-10-11T19:34+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/houthierne-tager-ansvar-lufthavnsangreb-med-12-draebte-i-gaar",
+   "date": "2026-10-11T16:11:44+00:00",
+   "da": {
+    "title": "Houthierne tager ansvar for lufthavnsangreb med 12 dræbte i går",
+    "desc": ""
+   },
+   "en": {
+    "title": "Houthis take responsibility for airport attacks with 12 killed yesterday",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/meldinger-om-endnu-et-angreb-i-saudisk-lufthavn",
+   "date": "2026-10-11T15:31:50+00:00",
+   "da": {
+    "title": "Meldinger om endnu et angreb i saudisk lufthavn",
+    "desc": ""
+   },
+   "en": {
+    "title": "Reports of another attack at Saudi airport",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/polsk-politi-har-anholdt-mand-efter-trusler-mod-donald-tusk",
+   "date": "2026-10-11T15:21:48+00:00",
+   "da": {
+    "title": "Polsk politi har anholdt mand efter trusler mod Donald Tusk",
+    "desc": ""
+   },
+   "en": {
+    "title": "Polish police have arrested a man after threats against Donald Tusk",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/11-draebt-i-busulykke-i-tyrkiet",
+   "date": "2026-10-11T13:59:47+00:00",
+   "da": {
+    "title": "11 dræbt i busulykke i Tyrkiet",
+    "desc": ""
+   },
+   "en": {
+    "title": "11 killed in bus accident in Turkey",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/over-100-migranter-mister-livet-i-baadforlis",
+   "date": "2026-10-11T11:29:09+00:00",
+   "da": {
+    "title": "Over 100 migranter mister livet i bådforlis",
+    "desc": ""
+   },
+   "en": {
+    "title": "Over 100 migrants lose their lives in boat wrecks",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/politiaktion-spaerrede-kortvarigt-motorvej-taet-ved-koebenhavns-lufthavn",
+   "date": "2026-10-11T11:05:17+00:00",
+   "da": {
+    "title": "Politiaktion spærrede kortvarigt motorvej tæt ved Københavns Lufthavn",
+    "desc": ""
+   },
+   "en": {
+    "title": "Police action briefly blocked highway near Copenhagen Airport",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/butikker-bemaerker-stort-salg-af-gaer-efter-alkoholstop-i-sydgroenland",
@@ -115,84 +193,6 @@
    },
    "en": {
     "title": "Man killed by tiger in British zoo",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/groenlaendere-slipper-betale-fejl-ydelse-tilbage",
-   "date": "2026-10-10T17:16:16+00:00",
-   "da": {
-    "title": "Grønlændere slipper for at betale fejl-ydelse tilbage",
-    "desc": ""
-   },
-   "en": {
-    "title": "Greenlanders do not have to pay back faulty service",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/flere-saarede-efter-nyt-angreb-paa-saudisk-lufthavn",
-   "date": "2026-10-10T16:49:18+00:00",
-   "da": {
-    "title": "Flere sårede efter nyt angreb på saudisk lufthavn",
-    "desc": ""
-   },
-   "en": {
-    "title": "More wounded after new attack on Saudi airport",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/christa-pike-er-blevet-udskrevet-og-sendt-tilbage-til-faengsel-efter-mislykket-henrettelse",
-   "date": "2026-10-10T15:45:13+00:00",
-   "da": {
-    "title": "Christa Pike er blevet udskrevet og sendt tilbage til fængsel efter mislykket henrettelse",
-    "desc": ""
-   },
-   "en": {
-    "title": "Christa Pike has been discharged and sent back to prison after unsuccessful execution",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/verstappen-koerer-i-pole-position-anden-weekend-i-traek",
-   "date": "2026-10-10T14:52:03+00:00",
-   "da": {
-    "title": "Verstappen kører i pole position for anden weekend i træk",
-    "desc": ""
-   },
-   "en": {
-    "title": "Verstappen runs in pole position for the second consecutive weekend",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/palaestinensisk-valg-udsaettes-til-naeste-aar",
-   "date": "2026-10-10T13:13:17+00:00",
-   "da": {
-    "title": "Palæstinensisk valg udsættes til næste år",
-    "desc": ""
-   },
-   "en": {
-    "title": "Palestinian elections postponed to next year",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/en-fjerde-person-er-faengslet-i-sag-om-lig-i-gudenaaen",
-   "date": "2026-10-10T11:11:13+00:00",
-   "da": {
-    "title": "En fjerde person er fængslet i sag om lig i Gudenåen",
-    "desc": ""
-   },
-   "en": {
-    "title": "A fourth person is imprisoned in the case of bodies in Gudenåen",
     "desc": ""
    }
   }
