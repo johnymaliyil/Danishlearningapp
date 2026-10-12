@@ -11,7 +11,7 @@
   try { lang = localStorage.getItem("dk-lang") || "da"; } catch (e) { /* ignore */ }
   const SKIP = 'script,style,textarea,input,select,.no-tr,[lang="en"],#tr-tip,.text,.instruction,.model,.pair,.bubble,.transcript,.tiles,.qtext,.drill-q,.word-big,.gram-da,.mini-card,.bank,.sentence-bank,.choices,.answers,.match select,.gram-marked,.gram-issues,.fw-list,.wl-table td,.dict-res,.vrow,.points-list,.tick span,.gp,.example-fill,select.gap,.ph,mark,.why,.pop-model,.pop-qs,[data-keep]';
   // UI bits that sit inside content containers.
-  const ALLOW = ".freq-words summary,.freq-words > p,.bankbox > b,.why > b,.why-list summary,.drill-rule summary,.speech-check h3,.speech-check .pill,.speech-check > p,.tag,.score-badge,.num,.quiz-after > p > b:first-child";
+  const ALLOW = ".src-credit,.freq-words summary,.freq-words > p,.bankbox > b,.why > b,.why-list summary,.drill-rule summary,.speech-check h3,.speech-check .pill,.speech-check > p,.tag,.score-badge,.num,.quiz-after > p > b:first-child";
   const skip = el => el.closest(SKIP) && !el.closest(ALLOW);
   // Labels with a Danish word or title at the end: "Hør pris", "Læs: Opgave 3 …".
   const P = {

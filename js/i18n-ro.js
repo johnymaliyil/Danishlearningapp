@@ -1034,5 +1034,8 @@ PD2.I18N.ro = {
 "{n} spørgsmål": "{n} întrebări",
 "Bedste resultat: {n}/{n}": "Cel mai bun rezultat: {n}/{n}",
 "{n}/{n} rigtige": "{n}/{n} corecte",
-"← Vælg prøve": "← Alege examenul"
+"← Vælg prøve": "← Alege examenul",
+"Fra Prøve i Dansk {n}, sæt {n} – offentliggjort af myndighederne som øvemateriale. Ophavsretten tilhører prøvens ophavsmænd og de nævnte kilder.": "Din Prøve i Dansk {n}, setul {n} – publicat de autorități ca material de exercițiu. Drepturile de autor aparțin autorilor examenului și surselor menționate.",
+"Opgaven er fra Prøve i Dansk {n}, sæt {n} – offentliggjort af myndighederne som øvemateriale. Modelsvaret er skrevet af DanskKlar.": "Sarcina este din Prøve i Dansk {n}, setul {n} – publicată ca material de exercițiu. Răspunsul model este scris de DanskKlar.",
+"Billeder og eksaminators spørgsmål fra Prøve i Dansk {n}, sæt {n} – offentliggjort som øvemateriale. Modelsvarene er skrevet af DanskKlar.": "Imagini și întrebările examinatorului din Prøve i Dansk {n}, setul {n} – publicate ca material de exercițiu. Răspunsurile model sunt scrise de DanskKlar."
 };

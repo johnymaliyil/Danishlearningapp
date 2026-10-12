@@ -1034,5 +1034,8 @@ PD2.I18N.tr = {
 "{n} spørgsmål": "{n} soru",
 "Bedste resultat: {n}/{n}": "En iyi sonuç: {n}/{n}",
 "{n}/{n} rigtige": "{n}/{n} doğru",
-"← Vælg prøve": "← Sınav seç"
+"← Vælg prøve": "← Sınav seç",
+"Fra Prøve i Dansk {n}, sæt {n} – offentliggjort af myndighederne som øvemateriale. Ophavsretten tilhører prøvens ophavsmænd og de nævnte kilder.": "Prøve i Dansk {n}, set {n} – yetkililer tarafından alıştırma materyali olarak yayımlandı. Telif hakkı sınavı hazırlayanlara ve belirtilen kaynaklara aittir.",
+"Opgaven er fra Prøve i Dansk {n}, sæt {n} – offentliggjort af myndighederne som øvemateriale. Modelsvaret er skrevet af DanskKlar.": "Görev Prøve i Dansk {n}, set {n}'dan – alıştırma materyali olarak yayımlandı. Örnek cevabı DanskKlar yazdı.",
+"Billeder og eksaminators spørgsmål fra Prøve i Dansk {n}, sæt {n} – offentliggjort som øvemateriale. Modelsvarene er skrevet af DanskKlar.": "Resimler ve sınav görevlisinin soruları Prøve i Dansk {n}, set {n}'dan – alıştırma materyali olarak yayımlandı. Örnek cevapları DanskKlar yazdı."
 };

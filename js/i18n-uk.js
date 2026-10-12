@@ -1034,5 +1034,8 @@ PD2.I18N.uk = {
 "{n} spørgsmål": "{n} запитань",
 "Bedste resultat: {n}/{n}": "Найкращий результат: {n}/{n}",
 "{n}/{n} rigtige": "{n}/{n} правильно",
-"← Vælg prøve": "← Вибрати іспит"
+"← Vælg prøve": "← Вибрати іспит",
+"Fra Prøve i Dansk {n}, sæt {n} – offentliggjort af myndighederne som øvemateriale. Ophavsretten tilhører prøvens ophavsmænd og de nævnte kilder.": "З Prøve i Dansk {n}, набір {n} – опубліковано органами влади як матеріал для тренування. Авторські права належать укладачам іспиту та зазначеним джерелам.",
+"Opgaven er fra Prøve i Dansk {n}, sæt {n} – offentliggjort af myndighederne som øvemateriale. Modelsvaret er skrevet af DanskKlar.": "Завдання з Prøve i Dansk {n}, набір {n} – опубліковано як матеріал для тренування. Зразок відповіді написав DanskKlar.",
+"Billeder og eksaminators spørgsmål fra Prøve i Dansk {n}, sæt {n} – offentliggjort som øvemateriale. Modelsvarene er skrevet af DanskKlar.": "Малюнки й запитання екзаменатора з Prøve i Dansk {n}, набір {n} – опубліковано як матеріал для тренування. Зразки відповідей написав DanskKlar."
 };

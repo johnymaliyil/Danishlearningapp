@@ -1034,5 +1034,8 @@ PD2.I18N.pl = {
 "{n} spørgsmål": "{n} pytań",
 "Bedste resultat: {n}/{n}": "Najlepszy wynik: {n}/{n}",
 "{n}/{n} rigtige": "{n}/{n} poprawnie",
-"← Vælg prøve": "← Wybierz egzamin"
+"← Vælg prøve": "← Wybierz egzamin",
+"Fra Prøve i Dansk {n}, sæt {n} – offentliggjort af myndighederne som øvemateriale. Ophavsretten tilhører prøvens ophavsmænd og de nævnte kilder.": "Z Prøve i Dansk {n}, zestaw {n} – opublikowane przez władze jako materiał do ćwiczeń. Prawa autorskie należą do autorów egzaminu i podanych źródeł.",
+"Opgaven er fra Prøve i Dansk {n}, sæt {n} – offentliggjort af myndighederne som øvemateriale. Modelsvaret er skrevet af DanskKlar.": "Zadanie pochodzi z Prøve i Dansk {n}, zestaw {n} – opublikowane jako materiał do ćwiczeń. Przykładową odpowiedź napisał DanskKlar.",
+"Billeder og eksaminators spørgsmål fra Prøve i Dansk {n}, sæt {n} – offentliggjort som øvemateriale. Modelsvarene er skrevet af DanskKlar.": "Obrazki i pytania egzaminatora z Prøve i Dansk {n}, zestaw {n} – opublikowane jako materiał do ćwiczeń. Przykładowe odpowiedzi napisał DanskKlar."
 };
