@@ -102,5 +102,106 @@ Object.assign(PD2.WHY, {
 "g8": {
 "da": "De smukke gamle huse og historien er noget, nettet og storcentrene ikke kan konkurrere med, altså «en fordel»."
 }
+},
+"pd3-23m-1": {
+"q0": {
+"da": "Under Hærvejen står der, at man kommer forbi «Hærvejens karakteristiske gamle broer, der er bygget af store sten»."
+},
+"q1": {
+"da": "I 2015 blev strækningen certificeret af European Ramblers Association «som kvalitetsvandrevej»."
+},
+"q2": {
+"da": "Marskstien er «en såkaldt trampesti, hvor man primært vandrer på græs» – nogle steder kan der dog være høj bevoksning."
+},
+"q3": {
+"da": "Man starter ved Haderslev Domkirke og kommer forbi «yderligere otte kirker» – ruten forbinder «områdets ni kirker»."
+},
+"q4": {
+"da": "Der står: «Generelt er de sønderjyske pølser krydrede». Ifølge forcensuren godkendes også «god kvalitet» og «inspireret af tyske pølser»."
+},
+"q5": {
+"da": "Forsamlingshusene kunne ikke lave kager til så mange, så «medbragte deltagerne i stedet for selv kager». Forcensuren godkender også «danskerne/sønderjyderne»."
+},
+"q6": {
+"da": "«Der er bl.a. en twittervæg, hvor man kan skrive opslag, og på tre andre vægge kan man opleve film»."
+},
+"q7": {
+"da": "Cirka 12.000 fanger passerede lejren «i de cirka ni måneder, lejren eksisterede». Forcensuren godkender også «1944-1945»."
+},
+"q8": {
+"da": "«I barak H6 får man et spændende indblik i Fårhuslejren i efterkrigstiden 1945-1949»."
+},
+"q9": {
+"da": "«Fra den 15. juni 1920 var Sønderjylland en del af Danmark igen, og derfor kaldes denne dag Genforeningsdagen»."
+},
+"q10": {
+"da": "«Det tyske mindretal er som det eneste i Danmark anerkendt som et nationalt mindretal» (med København-Bonn-erklæringerne i 1955) – altså ja."
+},
+"q11": {
+"da": "Hos kommunerne kan man hente hjælp til «karriere- og jobmuligheder, jobsøgningskurser, mentorprogrammer og sociale netværk»."
+},
+"q12": {
+"da": "Mimi roser tilflytterservice for at være en kæmpe støtte «i forhold til at skabe netværk og finde jobmuligheder»."
+},
+"q13": {
+"da": "«selvom der er færre stillinger, så er der også færre ansøgere»."
+},
+"q14": {
+"da": "«At huslejen er så billig gør, at hun kan klare sig uden at tage et studiejob» – hun betaler 2.500 kr. inkl. vand og varme."
+}
+},
+"pd3-23m-2": {
+"q0": {
+"da": "Hun bliver «ikke blot underholdt», men også «klogere på mennesker» – hun læser altså ikke kun for at blive klogere. Det er «nogle» andre, der synes, det er overraskende (A) – B."
+},
+"q1": {
+"da": "Hun tror, at træningen giver «mere overskud til at tale med og lytte til fx medarbejderne». Det med energi til familien handler om hende selv (B) – A."
+},
+"q2": {
+"da": "Hun inspireres af «forskellige menneskers følelser, oplevelser og erfaringer». Konkrete råd er netop det, managementlitteraturen har (B) – A."
+}
+},
+"pd3-23m-3": {
+"g1": {
+"da": "C forklarer, hvad et handicap er («en permanent fysisk eller psykisk svaghed, der begrænser ens muligheder»), og derfor kan det «derfor» blive svært at passe et arbejde."
+},
+"g2": {
+"da": "A viser de «store forskelle i tilknytningen» – nogle har slet intet job, andre et job, hvor virksomheden kompenseres af kommunen: «Det er det, man kalder løntilskud»."
+},
+"g3": {
+"da": "Efter de 81 % uden handicap kommer kontrasten i F: kun seks ud af ti med handicap kom i arbejde – «Det er selvfølgelig ikke et acceptabelt resultat»."
+},
+"g4": {
+"da": "G siger, at der ikke er noget, der tyder på, at de studerende «har ret» i deres bekymring, og nævner interviewene med en lille gruppe – «15 ud af 18» svarede."
+},
+"g5": {
+"da": "D begrunder forslaget om et kursus i jobsøgning: mange har ikke haft studiejob og har svært ved at beskrive deres kompetencer og erfaringer."
+}
+},
+"pd3-23m-4": {
+"g1": {
+"da": "Prisen er én udfordring, men «ikke den eneste udfordring» – derefter nævnes endnu en: man skal øge produktionen markant."
+},
+"g2": {
+"da": "Satsningen på vindenergi er årsagen til, at der er sat vindmøller op overalt – «Derfor»."
+},
+"g3": {
+"da": "Sætningen forklarer, hvorfor borgerne gør modstand: møllerne kan «nemlig» ses og høres vidt omkring."
+},
+"g4": {
+"da": "Efter løsningen (havet) kommer et problem: «Problematikken er imidlertid, at de er dyrere»."
+},
+"g5": {
+"da": "At husene falder i pris er en konsekvens af, at møllerne kan ses – «følgen af» placeringen."
+},
+"g6": {
+"da": "Klager gør sagsbehandlingen længere, så projekter «trækker ud» – klager kan «forlænge» den."
+},
+"g7": {
+"da": "Det er borgernes «modstand mod» at sætte vindmøller op, der kan forsinke processen – det handler om protester og klager."
+},
+"g8": {
+"da": "Hvis undersøgelsen viser, at møllerne kan skade naturen, må planerne opgives – undersøgelsen skal «bekræfte» det."
+}
 }
 });
