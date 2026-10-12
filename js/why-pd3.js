@@ -103,6 +103,102 @@ Object.assign(PD2.WHY, {
 "da": "De smukke gamle huse og historien er noget, nettet og storcentrene ikke kan konkurrere med, altså «en fordel»."
 }
 },
+"pd3-19n-1": {
+"q0": {
+"da": "Under FILM-X står der, at FILM-X har tilbud til børnefødselsdage og polterabender, til daginstitutioner «samt teambuildingkurser». Teambuilding er det tilbud, der er rettet mod firmaer. (Ved prøven fik alle prøvedeltagere point i dette spørgsmål, uanset svaret.)"
+},
+"q1": {
+"da": "Cinemateket skal bl.a. «vise udvalgte nutidige film, der ellers ikke bliver vist i de danske biografer»."
+},
+"q2": {
+"da": "Om Cinematekets butik står der: «nu også lp-plader med filmmusik, noget man ikke har solgt tidligere»."
+},
+"q3": {
+"da": "Kim BB skriver: «De frivillige, der passer biografen, ved nemlig rigtig meget om film» – og først derefter: «Derudover smiler de altid og hilser pænt.»"
+},
+"q4": {
+"da": "Helle H skriver: «Da min veninde først nævnte det for mig, så troede jeg faktisk, at man i babybio viste film for små børn, men det gør man ikke.»"
+},
+"q5": {
+"da": "Kamilla R skriver: «Det eneste, jeg kan kritisere, er faktisk kiosken, som jeg synes er lidt dyr.»"
+},
+"q6": {
+"da": "Under International anerkendelse i 1980’erne og 1990’erne står der: «Bille August vandt yderligere Den Gyldne Palme med Den Gode Vilje i 1991.»"
+},
+"q7": {
+"da": "Under Krise i 00’erne står der: «Selvom salget af biografbilletter var stigende, så faldt andelen af billetter til danske film …» – salget steg altså."
+},
+"q8": {
+"da": "Om Jeanne d’Arcs Lidelse og Død står der: «Paradoksalt nok blev filmen en økonomisk katastrofe, hvilket bevirkede, at filmproducenterne i mange år ikke ville samarbejde med Dreyer.»"
+},
+"q9": {
+"da": "Løvejagten fik dansk premiere i november 1908 – «et år efter den internationale premiere». Den internationale premiere var altså i 1907."
+},
+"q10": {
+"da": "Der står: «Det kunne lade sig gøre, fordi Danmark var neutralt i 1. verdenskrig og derfor undgik det tyske importforbud.»"
+},
+"q11": {
+"da": "Om Seniorbiografen står der: «Når der vises film om formiddagen, er der morgenbuffet fra kl. 9.00. Den er inkluderet i billetprisen» – man har en time «til at nyde morgenmaden og kaffen»."
+},
+"q12": {
+"da": "Under Frivillig i Kinorevyen står der: «De, der gerne vil arbejde frivilligt som cafévagter eller operatører, bliver oplært af erfarne kolleger, så de er helt sikre på, hvad der forventes af dem.»"
+},
+"q13": {
+"da": "Om Palads står der: «I tiden frem til kl. 19 er børnefilmene nemlig flyttet ind i de store biografsale, og … er der skåret ned på reklameblokken»."
+},
+"q14": {
+"da": "Om Biffens Venner står der: «Som medlem af Biffens Venner hjælper man med til at bevare Biffen Nordkraft som en uafhængig biograf ved at støtte op omkring aktiviteter og arrangementer, der kan samle penge ind til biografens drift.»"
+}
+},
+"pd3-19n-2": {
+"q0": {
+"da": "B: Helene Bagger mente, at Andrei ville passe godt ind: «Ud over en relevant uddannelse virkede Andrei innovativ, nytænkende og åben.» A passer ikke – i Rumænien arbejdede han med drift og udvikling af it-systemer, og robotteknologi var et område, han gerne ville «prøve kræfter med». C nævnes ikke."
+},
+"q1": {
+"da": "C: Han ville også få en god løn, «men ved at skifte til jobbet i Roskilde kunne han både udvikle sig personligt og styrke sine kvalifikationer som datalog, og derfor sagde han sit job op». Lønnen (A) var ikke det afgørende, og om Storbritannien (B) havde han ikke besluttet sig."
+},
+"q2": {
+"da": "A: Han vil gerne «følge med i de danske nyheder og kunne tale dansk med danske venner», og han vil gerne «integreres mere i det danske samfund». B passer ikke – hans arbejdssprog er engelsk; sprogskolens placering (C) er ikke grunden."
+},
+"q3": {
+"da": "B: Medarbejderne skal have «et vist kendskab til lokale samarbejdspartnere og den nationale lovgivning mv., og det er en mangelvare blandt mange danske kandidater». Teksten siger ikke, at danskerne mangler teknisk ekspertise (C) eller ikke søger jobbene (A)."
+},
+"q4": {
+"da": "A: «mange internationale talenter ikke ved ret meget om Danmark. Der er derfor brug for en indsats for at brande Danmark bedre.» C passer ikke: «Selv hvis Danmark øgede antallet af uddannelsespladser … ville der være behov for endnu mere højtuddannet arbejdskraft.»"
+},
+"q5": {
+"da": "C: «Man kan ydermere regne med den sidegevinst, at de i deres nye land er med til at sprede budskabet om, at Danmark er et godt land at arbejde i.» A og B passer ikke: de er sunde, fordi de er unge, og de betaler meget i skat, fordi de har en høj løn – ikke en større del af lønnen."
+},
+"q6": {
+"da": "B: «Med den store indvandring af lavtuddannet arbejdskraft har dette til gengæld været et problem for de lavtuddannede danskere» – dvs. deres jobmuligheder er blevet forringet. C passer ikke: indvandringen har «ikke påvirket lønningerne negativt»."
+}
+},
+"pd3-19n-3": {
+"g1": {
+"da": "attraktivt: Mange synes, det er godt at være sin egen chef, «også selvom man samtidig mister en stabil månedsløn» – næste sætning nævner friheden som motiverende."
+},
+"g2": {
+"da": "fleksibilitet: «Denne» henviser til forrige afsnit: muligheden for «selv at definere og planlægge sin arbejdsdag, både i forhold til indhold og arbejdstid»."
+},
+"g3": {
+"da": "Samtidig: René nævner to ting, han er glad for: friheden og ansvaret. «Samtidig» tilføjer det andet punkt – der er ingen modsætning (Derimod/Alligevel) og ingen årsag (Derfor)."
+},
+"g4": {
+"da": "tilfældighed: «Det er på ingen måde en tilfældighed, at …» – bagefter kommer forklaringen med «nemlig» (nye platforme på nettet)."
+},
+"g5": {
+"da": "desuden: Afsnittet tilføjer endnu en grund til, at det er blevet nemmere at blive freelancer (politiske initiativer)."
+},
+"g6": {
+"da": "opmærksom på: Man skal vide, «at der også er nogle udfordringer og ulemper» – man skal være opmærksom på dem."
+},
+"g7": {
+"da": "indtil: Man må betale andre for at lave regnskabet, indtil man eventuelt selv har sat sig ind i reglerne."
+},
+"g8": {
+"da": "have mulighed for: Risikoen er prisen for gevinsten – «til gengæld» får man muligheden for «at prioritere selvstændigt og frit i sit arbejdsliv»."
+}
+},
 "pd3-20m-1": {
 "q0": {
 "da": "Under Forløb for sprogskoler (Demokrati og stemmeret) står der: «Der arbejdes selvfølgelig også med at udvikle kursisternes sprog»."
