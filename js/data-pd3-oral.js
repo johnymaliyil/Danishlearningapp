@@ -1,5 +1,5 @@
 // PD3 mundtlig delprøve 2 – emner om ARBEJDE fra tidligere prøver (2018-2024).
-// Billeder og spørgsmål: Prøve i Dansk 3 (officielle prøvematerialer). Modelsvar: skrevet af en kursist (MJM).
+// Billeder og spørgsmål: Prøve i Dansk 3 (officielle prøvematerialer). Modelsvar: skrevet af DanskKlar.
 window.PD2 = window.PD2 || {};
 PD2.EXAMS.pd3.SPEAKING_TOPIC = PD2.EXAMS.pd3.SPEAKING_TOPIC || [];
 PD2.EXAMS.pd3.SPEAKING_TOPIC.push(...[
@@ -40,23 +40,23 @@ PD2.EXAMS.pd3.SPEAKING_TOPIC.push(...[
    "A": {
     "q": "På mange arbejdspladser har man sociale arrangementer som fx firmafester og skovture. Hvorfor tror du, man har det?",
     "follow": "Hvad tror du, det betyder for medarbejdernes tilfredshed med deres arbejde, at man har sociale arrangementer?",
-    "answer": "Sociale arrangementer på arbejdspladsen hjælper med at styrke fællesskabet og skabe bedre relationer mellem medarbejderne. Når kolleger har mulighed for at mødes i en uformel sammenhæng, kan det føre til bedre samarbejde og en mere positiv arbejdsatmosfære.",
-    "followAnswer": "Sociale arrangementer kan øge medarbejdernes trivsel, fordi de føler sig som en del af et fællesskab. Det kan også mindske stress og forbedre samarbejdet. Når medarbejdere trives, kan det resultere i højere produktivitet og mindre sygefravær."
+    "answer": "Jeg tror, at firmaerne holder fester og skovture, fordi kollegerne skal lære hinanden at kende som mennesker og ikke kun som fagpersoner. I hverdagen taler man mest om opgaver og deadlines. Men når man står ved grillen med en øl i hånden, får man pludselig snakket om børn, ferier og fritidsinteresser. Det gør det lettere at gå til en kollega senere, hvis man har et problem. Derfor synes jeg, at pengene er givet godt ud.",
+    "followAnswer": "Efter min mening betyder det ret meget for tilfredsheden. Man går gladere på arbejde, hvis man har kolleger, man kan lide og grine sammen med. Min nabo fortalte mig engang, at han blev i sit job i mange år, primært på grund af den gode stemning på kontoret. Lønnen er selvfølgelig vigtig, men den er ikke alt. Til gengæld skal festerne være frivillige, for ikke alle har lyst til at feste med deres kolleger."
    },
    "B": {
     "q": "På mange arbejdspladser kommer medarbejderne på kursus i teambuilding. Hvorfor tror du, de gør det?",
     "follow": "Hvad tror du, det betyder for medarbejdernes tilfredshed med deres arbejde, at de kommer på kursus i teambuilding?",
-    "answer": "",
-    "followAnswer": ""
+    "answer": "Jeg tror, at mange ledere sender medarbejderne på teambuilding, fordi de gerne vil have, at folk arbejder bedre sammen. På et kursus løser man opgaver, som ikke har noget med det daglige arbejde at gøre, fx at bygge et tårn af klodser. Så ser man, hvem der tager styringen, og hvem der lytter. Det kan give en bedre forståelse af hinandens roller. Især i nye teams eller efter en fusion giver det god mening, synes jeg.",
+    "followAnswer": "Jeg tror, det kan øge tilfredsheden, men kun hvis kurset bliver fulgt op i hverdagen. Hvis man har haft en sjov dag sammen og derefter vender tilbage til de samme konflikter, sker der ikke rigtig noget. En veninde af mig var på et kursus, hvor de skulle klatre i træer i en skov. Hun syntes, det var spændende, men hun mente ikke, at det ændrede noget på kontoret bagefter. Så effekten afhænger meget af ledelsen."
    }
   },
   "second": {
    "q": "I nogle virksomheder giver man en bonus – altså en ekstra sum penge – til medarbejdere, hvis de gør en særlig indsats for virksomheden. Hvilke fordele og ulemper mener du, der kan være ved det?",
    "follow": "Hvordan tror du, en bonus påvirker samarbejdet mellem medarbejderne? Og mellem medarbejderne og ledelsen?",
-   "answer": "Fordele:\n- Bonus kan motivere medarbejderne til at yde en ekstra indsats og øge produktiviteten.\n- Det kan skabe en følelse af anerkendelse og tilfredshed, hvilket kan forbedre arbejdsmiljøet.\n- Virksomheden kan tiltrække og fastholde dygtige medarbejdere.\n\nUlemper:\n- Det kan skabe konkurrence mellem kolleger, hvilket kan føre til et dårligere samarbejde.\n- Hvis bonusserne ikke er fordelt retfærdigt, kan det skabe utilfredshed og frustration.\n- Nogle medarbejdere kan føle sig pressede til at arbejde mere, hvilket kan føre til stress og udbrændthed.",
-   "followAnswer": "En bonus kan både styrke og svække samarbejdet. Hvis den gives på en retfærdig måde, kan den motivere medarbejderne til at yde deres bedste. Men hvis nogle føler sig forbigået, kan det skabe splittelse. Forholdet mellem medarbejderne og ledelsen kan også påvirkes – en velstruktureret bonusordning kan styrke tilliden, mens en uretfærdig ordning kan føre til mistillid."
+   "answer": "Fordele:\n- En bonus viser, at ledelsen lægger mærke til en ekstra indsats, og det kan give lyst til at gøre sig umage.\n- Firmaet kan belønne gode resultater uden at hæve den faste løn for alle.\n\nUlemper:\n- Det kan være svært at måle, hvem der egentlig har gjort mest, især når man arbejder i team.\n- Kolleger kan begynde at holde gode ideer for sig selv.\n\nJeg er mest for en fælles bonus til hele afdelingen, fx når man har nået et salgsmål sammen.",
+   "followAnswer": "Jeg tror, det kommer an på, hvordan bonussen bliver givet. Hvis kun én person får den, kan de andre føle sig snydt, og så bliver samarbejdet dårligere. Får hele teamet en bonus, hjælper folk derimod hinanden mere. Over for ledelsen er åbenhed vigtig. Hvis medarbejderne ikke forstår kriterierne, mister de tilliden til chefen. Jeg har hørt om en butik, hvor bonussen skabte så meget jalousi, at den blev afskaffet igen."
   },
-  "conclusion": "Et godt arbejdsmiljø handler ikke kun om løn, men også om trivsel og samarbejde. Sociale arrangementer og teambuilding kan være med til at styrke fællesskabet, mens en bonus kan motivere medarbejdere – men det er vigtigt at undgå uretfærdighed og konkurrence, der kan skade arbejdsmiljøet."
+  "conclusion": "Samlet set mener jeg, at trivsel på arbejdspladsen kræver mere end en god løn. Fester, kurser og bonusser kan alle gøre en forskel, men de virker kun, hvis de bliver brugt på en fair måde, og hvis ledelsen tager medarbejdernes behov alvorligt."
  },
  {
   "id": "pd3-o-frivilligt-arbejde-2018m",
@@ -95,21 +95,21 @@ PD2.EXAMS.pd3.SPEAKING_TOPIC.push(...[
    "A": {
     "q": "Nogle studerende bruger tid på at lave frivilligt ulønnet arbejde, selvom de også har travlt med deres studier. Hvorfor tror du, de gør det?",
     "follow": "Hvad tror du, det betyder for studerendes fremtidige jobmuligheder, at de laver frivilligt arbejde?",
-    "answer": "Mange studerende vælger at lave frivilligt arbejde, fordi det giver dem værdifulde kompetencer og erfaringer, som kan styrke deres CV. Eksempelvis kan en studerende, der underviser som lektiehjælper, udvikle kommunikative evner og tålmodighed, hvilket kan være relevant i mange job. Derudover giver frivilligt arbejde en følelse af mening og fællesskab, hvilket kan være en motivationsfaktor.",
-    "followAnswer": "Frivilligt arbejde kan forbedre studerendes jobmuligheder, da arbejdsgivere ofte ser positivt på kandidater med praktisk erfaring. Ifølge undersøgelser værdsætter mange virksomheder medarbejdere, der har vist initiativ og engagement gennem frivilligt arbejde. Det kan også give adgang til netværk, der kan føre til jobmuligheder efter endt studie."
+    "answer": "Jeg tror, at mange studerende arbejder frivilligt, fordi de gerne vil gøre noget meningsfuldt ved siden af bøgerne. Studiet kan føles meget teoretisk, og så er det rart at hjælpe rigtige mennesker. Nogle gør det også for at få nye venner eller for at prøve kræfter med et fag. En medicinstuderende kan fx være frivillig i Røde Kors og øve sig i at tale med patienter. Jeg synes, det er flot, at de prioriterer det.",
+    "followAnswer": "Jeg tror, det kan styrke deres jobmuligheder ret meget. Arbejdsgivere kigger ikke kun på karakterer, men også på, hvad man har lavet ved siden af. Frivilligt arbejde viser, at man er engageret og kan tage ansvar. Hvis man fx har været leder i en fodboldklub for børn, kan man fortælle om det til en jobsamtale. Det giver gode eksempler på samarbejde og problemløsning. Desuden kan man få et netværk, som senere kan hjælpe en med at finde et job."
    },
    "B": {
     "q": "Nogle danskere laver frivilligt ulønnet arbejde, når de er gået på pension. Hvorfor tror du, de gør det?",
     "follow": "Hvad tror du, det betyder for pensionisters livskvalitet, at de laver frivilligt ulønnet arbejde?",
-    "answer": "Mange pensionister laver frivilligt arbejde for at holde sig aktive og bevare en følelse af formål. Når man ikke længere har et fast arbejde, kan frivilligt arbejde give struktur i hverdagen og sociale relationer. Eksempelvis vælger nogle pensionister at blive lektiehjælpere for at føle sig nyttige og samtidig bidrage til samfundet.",
-    "followAnswer": "Det kan have en positiv effekt på pensionisters mentale og fysiske sundhed, fordi det giver dem mulighed for at være sociale og aktive. Mange ældre oplever ensomhed, og frivilligt arbejde kan hjælpe dem med at forblive en del af fællesskabet. Samtidig kan det give dem en følelse af anerkendelse og livsglæde."
+    "answer": "Mange pensionister har stadig masser af energi, og de savner måske at have noget at stå op til om morgenen. Jeg tror, at de vælger frivilligt arbejde, fordi de vil bruge deres erfaring og føle sig nyttige. Når man har arbejdet i fyrre år, kan det være svært at stoppe fra den ene dag til den anden. Min tidligere lærer læser fx lektier med børn i en boligforening hver tirsdag. Hun siger, at det giver hendes uge en fast rytme.",
+    "followAnswer": "Jeg tror, det betyder meget for livskvaliteten. Frivilligt arbejde giver kontakt til andre mennesker, og ensomhed er et stort problem for mange ældre. Man får også en følelse af at blive brugt og værdsat. Desuden holder man sig både fysisk og mentalt i gang, når man skal møde op et bestemt sted og løse opgaver. For eksempel kan en pensioneret tømrer hjælpe i et værksted for unge og samtidig få nye venner. Det er en gevinst for begge parter."
    }
   },
   "second": {
    "q": "På mange institutioner, fx plejehjem, skoler og museer, bruger man frivillige udover den professionelle arbejdskraft. Hvilke fordele og ulemper mener du, der kan være ved det?",
    "follow": "Hvilke typer af frivilligt arbejde mener du er mest nyttige for et velfærdssamfund som det danske? Hvorfor?",
-   "answer": "En fordel ved at bruge frivillige er, at de kan give ekstra støtte og omsorg, som den faste arbejdskraft måske ikke har tid til. På plejehjem kan frivillige for eksempel give mere tid til sociale aktiviteter med de ældre.\n\nEn ulempe kan være, at det kan føre til, at institutionerne bliver for afhængige af frivillige, hvilket kan skabe ustabilitet. Hvis frivillige pludselig stopper, kan det skabe problemer, hvis der ikke er nok fast personale til at dække behovet.",
-   "followAnswer": "Frivilligt arbejde, der understøtter sårbare grupper, er særligt nyttigt. For eksempel lektiehjælp til udsatte børn eller besøgsvenner til ældre, der føler sig ensomme. Disse former for frivilligt arbejde forbedrer livskvaliteten for de mest udsatte og styrker sammenhængskraften i samfundet."
+   "answer": "Fordele:\n- De frivillige kan give tid og nærvær, som personalet ofte ikke har, fx en gåtur med en beboer på plejehjemmet.\n- Institutionerne kan tilbyde flere aktiviteter uden store udgifter.\n\nUlemper:\n- Frivillige har ikke altid den rigtige uddannelse, og der kan opstå fejl.\n- Man kan ikke stille krav til dem på samme måde som til ansatte.\n\nJeg synes, frivillige er et godt supplement, men de må aldrig erstatte fagfolk.",
+   "followAnswer": "Efter min mening er det mest nyttige frivillige arbejde det, der handler om fællesskab og omsorg. Det kan være besøgsvenner til ensomme ældre eller lektiehjælp til børn, hvis forældre ikke kan hjælpe dem. Den slags opgaver kræver ikke en lang uddannelse, men de gør en stor forskel for den enkelte. Staten kan betale for behandling og undervisning, men den kan ikke købe venskab. Derfor synes jeg, at netop disse opgaver passer godt til frivillige."
   },
   "conclusion": ""
  },
@@ -150,21 +150,21 @@ PD2.EXAMS.pd3.SPEAKING_TOPIC.push(...[
    "A": {
     "q": "Nogle mennesker går sommetider på arbejde, selvom de er forkølede. Hvorfor tror du, de gør det?",
     "follow": "Hvad tror du, det betyder for ens forhold til kollegerne, at man nogle gange går på arbejde, selvom man er forkølet?",
-    "answer": "Mange vælger at tage på arbejde, selvom de er syge, fordi de føler et ansvar over for deres kolleger og arbejdsopgaver. I nogle brancher er der pres for at møde op, da fravær kan påvirke produktiviteten. Desuden kan nogle ansatte frygte at virke uengagerede eller være bekymrede for at miste løn.",
-    "followAnswer": "Det kan vise engagement og ansvarsfølelse, men det kan også skabe irritation blandt kolleger, især hvis man smitter andre. I nogle tilfælde kan det endda føre til lavere effektivitet og flere sygemeldinger i teamet, hvis sygdommen spreder sig."
+    "answer": "Jeg tror, at mange går på arbejde med en forkølelse, fordi de ikke vil svigte deres kolleger. Hvis man er væk, skal de andre måske lave ens opgaver. Nogle er også bange for at virke dovne over for chefen, især hvis de har en midlertidig kontrakt. Desuden føler man sig ofte ikke rigtig syg, når man bare snotter lidt. Jeg er også selv mødt op med ondt i halsen, fordi vi havde en vigtig deadline.",
+    "followAnswer": "Jeg tror, det kan gå begge veje. Nogle kolleger synes, det er pligtopfyldende, at man møder op, og de sætter pris på hjælpen. Men andre bliver irriterede, fordi de ikke har lyst til at blive smittet. Hvis en hel afdeling bliver syg på grund af én person, er det jo ikke særlig smart. Personligt synes jeg, at man bør blive hjemme eller arbejde hjemmefra, når man hoster og nyser meget. Så tager man hensyn til de andre."
    },
    "B": {
     "q": "Pædagoger og sygehjælpere har et højere sygefravær end ingeniører og konsulenter. Hvorfor tror du, det er sådan?",
     "follow": "Hvad tror du, det betyder for ens forhold til kollegerne, at man har et højt sygefravær?",
-    "answer": "Fysiske og psykiske belastninger i omsorgssektoren kan være en væsentlig årsag. Pædagoger og sygehjælpere arbejder ofte med mennesker, der har behov for meget pleje og støtte, hvilket kan føre til stress og udmattelse. Derudover er de mere udsatte for smitte fra børn og patienter.",
-    "followAnswer": "Højt sygefravær kan skabe ekstra pres på kollegerne, da de ofte skal overtage de sygemeldtes opgaver. Det kan føre til frustration og stress, hvis fraværet bliver for hyppigt. Omvendt kan det også skabe en forståelse for, at nogle job er mere fysisk og psykisk krævende end andre."
+    "answer": "Jeg tror, det især skyldes, at pædagoger og sygehjælpere har et meget fysisk og hårdt job. De løfter, står op hele dagen og har tæt kontakt med børn eller patienter, så de bliver oftere smittet. Samtidig er der ofte for lidt personale, og det giver stress. En ingeniør kan derimod arbejde hjemmefra, hvis han er lidt sløj. Så jeg mener ikke, at forskellen handler om, at nogle faggrupper er mindre pligtopfyldende end andre.",
+    "followAnswer": "Jeg tror, et højt sygefravær kan belaste forholdet til kollegerne. Når én ofte er væk, skal de andre løbe hurtigere, og så kan der opstå irritation eller sladder. Det gælder især på steder, hvor man ikke kan udskyde arbejdet, fx i en børnehave. Men hvis kollegerne kender årsagen, fx en kronisk sygdom, viser de som regel mere forståelse. Derfor synes jeg, at åbenhed er vigtig, selvom man selvfølgelig ikke behøver at fortælle alle detaljer."
    }
   },
   "second": {
    "q": "Nogle virksomheder gør meget for at reducere de ansattes sygefravær. Virksomhederne tilbyder for eksempel gratis lægetjek og rådgivning om kost og motion. Hvilke fordele og ulemper mener du, der kan være ved, at de gør det?",
    "follow": "Synes du, at det er i orden, at en virksomhed blander sig i de ansattes livsstil, eller bør ens livsstil være en privat sag? Hvorfor?/Hvorfor ikke?",
-   "answer": "En fordel er, at det kan føre til sundere medarbejdere og dermed lavere sygefravær. Forebyggende sundhedsinitiativer kan forbedre trivslen og skabe en bedre balance mellem arbejde og helbred.\n\nEn ulempe kan være, at nogle ansatte kan føle sig presset til at ændre deres livsstil, selvom det bør være en privat sag. Der kan også opstå en grænse mellem, hvor meget en virksomhed bør blande sig i medarbejdernes personlige valg.",
-   "followAnswer": "Jeg mener, at virksomheder kan opfordre til en sund livsstil, men ikke tvinge medarbejdere til at følge bestemte sundhedstiltag. Sundhed er en individuel beslutning, og arbejdsgivere bør respektere privatlivet. Dog kan frivillige sundhedsinitiativer være en god måde at fremme trivsel på arbejdspladsen."
+   "answer": "Fordele:\n- Medarbejderne kan opdage helbredsproblemer i tide, fx forhøjet blodtryk.\n- Færre sygedage sparer virksomheden for penge og giver mindre pres på kollegerne.\n- Det viser, at firmaet bekymrer sig om de ansatte.\n\nUlemper:\n- Nogle kan føle, at chefen blander sig for meget i deres privatliv.\n- Tilbuddene hjælper ikke, hvis årsagen til fraværet er dårlige arbejdsforhold.\n\nAlt i alt synes jeg, det er en god idé, så længe det er frivilligt.",
+   "followAnswer": "Jeg synes, det er i orden, så længe virksomheden kun giver tilbud og ikke stiller krav. Hvis firmaet tilbyder en gratis frugtordning eller et motionsrum, kan man selv vælge, om man vil bruge det. Men hvis chefen begynder at kommentere, hvad man spiser, eller hvor meget man vejer, går det for langt. Det, man gør i sin fritid, er efter min mening ens egen sag. Der skal være en klar grænse mellem arbejde og privatliv."
   },
   "conclusion": ""
  },
@@ -205,21 +205,21 @@ PD2.EXAMS.pd3.SPEAKING_TOPIC.push(...[
    "A": {
     "q": "Nogle mennesker vælger i perioder at arbejde på deltid. Hvorfor tror du, de gør det?",
     "follow": "Hvad tror du, det betyder for folks karrieremuligheder, at de i perioder arbejder på deltid?",
-    "answer": "Mange vælger deltidsarbejde for at få en bedre balance mellem arbejde og privatliv. For eksempel kan småbørnsforældre have behov for mere tid med deres børn. Derudover kan nogle ældre medarbejdere vælge deltid for at reducere stress og arbejdsbelastning.",
-    "followAnswer": "Deltidsarbejde kan gøre det sværere at avancere i karrieren, da man måske ikke bliver prioriteret til lederstillinger. Dog kan det også give værdifulde erfaringer, især hvis man bruger tiden på videreuddannelse eller frivilligt arbejde."
+    "answer": "Jeg tror, folk vælger deltid i perioder, hvor livet kræver ekstra tid til noget andet. Det kan være, når de har små børn, skal passe en syg forælder eller tager en uddannelse ved siden af. Nogle gør det også for at undgå at brænde ud. Min kusine gik fx ned i tid, da hendes søn startede i skole, og hun syntes, at hverdagen blev meget roligere. Jeg synes, det er godt, at man har den mulighed.",
+    "followAnswer": "Jeg tror desværre, at deltid kan bremse karrieren. Når man arbejder færre timer, er man ikke altid med til de vigtige møder, og chefen tænker måske ikke på en, når der skal vælges en ny leder. Man får også mindre i pension. Men der er stor forskel på brancherne. I mange firmaer er det helt normalt, og så er det ikke et problem. Jeg synes, arbejdsgivere bør bedømme folk efter deres resultater og ikke efter antallet af timer."
    },
    "B": {
     "q": "Nogle mennesker tjekker deres arbejdsmails om aftenen eller i weekenden. Hvorfor tror du, de gør det?",
     "follow": "Hvad tror du, det betyder for folks karrieremuligheder, at de tjekker arbejdsmails om aftenen eller i weekenden?",
-    "answer": "Mange føler, at de skal være tilgængelige hele tiden, især i stillinger med stort ansvar. Nogle gør det for at være forberedte til næste arbejdsdag, mens andre føler et pres fra arbejdsgiveren eller kolleger. Teknologi har også gjort det nemmere at arbejde uden for normale arbejdstider.",
-    "followAnswer": "Det kan give et godt indtryk hos chefen og vise engagement, hvilket kan føre til bedre karrieremuligheder. Men det kan også føre til stress og dårlig work-life balance, hvilket på længere sigt kan reducere produktiviteten."
+    "answer": "Jeg tror, mange tjekker mails om aftenen, fordi de vil have overblik over, hvad der venter dem næste dag. Andre føler sig presset af chefen eller af kunder, der forventer hurtige svar. Med smartphonen har man jo altid arbejdet i lommen. Jeg kender en sælger, der har kunder i Asien, så han bliver nødt til at svare uden for normal arbejdstid. Personligt prøver jeg at lade være, fordi jeg ellers har svært ved at slappe af.",
+    "followAnswer": "Jeg tror, det kan give nogle fordele på kort sigt. Chefen lægger mærke til, at man er hurtig og engageret, og det kan måske føre til en forfremmelse. Men på lang sigt kan det blive et problem, hvis man aldrig holder fri. Man risikerer stress, og så falder kvaliteten af arbejdet. Jeg synes, det vigtigste for karrieren er, at man præsterer godt i arbejdstiden, ikke at man svarer på mails søndag aften."
    }
   },
   "second": {
    "q": "Nogle mennesker mener, at den almindelige arbejdstid skal sættes ned til 30 timer om ugen. Hvilke fordele og ulemper mener du, der kan være ved det for samfundet?",
    "follow": "Tror du, at en 30 timers arbejdsuge vil betyde, at arbejdet bliver bedre fordelt mellem folk? Hvorfor?/Hvorfor ikke?",
-   "answer": "En fordel er, at det kan give folk mere fritid og dermed øge livskvaliteten. Det kan også skabe flere arbejdspladser, da virksomheder kan ansætte flere medarbejdere.\n\nEn ulempe er, at det kan føre til lavere produktivitet og økonomisk vækst. Desuden kan virksomheder have svært ved at dække deres behov, hvis arbejdstiden reduceres.",
-   "followAnswer": "Det kan betyde, at flere mennesker får mulighed for at arbejde, men det afhænger af branchen. I nogle sektorer kan det være svært at reducere arbejdstiden uden at påvirke produktiviteten negativt."
+   "answer": "Fordele:\n- Borgerne får bedre tid til familien, motion og frivilligt arbejde.\n- Færre bliver syge af stress, og det kan spare penge i sundhedsvæsenet.\n\nUlemper:\n- Samfundet producerer mindre, og skatteindtægterne falder.\n- Der mangler allerede personale på fx hospitaler og i ældreplejen, og problemet bliver større.\n\nJeg synes, at en 30 timers uge lyder dejligt, men jeg er bange for, at vores velfærd ikke kan betale for den.",
+   "followAnswer": "Jeg er lidt i tvivl. I teorien kunne arbejdet blive fordelt på flere hænder, så nogle arbejdsløse fik et job. Men i praksis passer de arbejdsløses kompetencer ikke altid til de ledige timer. Hvis en virksomhed mangler en specialist, kan den ikke bare ansætte en tilfældig person. Derfor tror jeg ikke, at en kortere uge automatisk løser ledigheden. Det kræver også, at folk bliver uddannet til de job, hvor der mangler hænder."
   },
   "conclusion": ""
  },
@@ -260,21 +260,21 @@ PD2.EXAMS.pd3.SPEAKING_TOPIC.push(...[
    "A": {
     "q": "I Danmark er der færre kvinder end mænd, der arbejder med it og finans. Hvorfor tror du, det er sådan?",
     "follow": "Kan der efter din mening være nogen problemer ved, at der er færre kvinder end mænd, der arbejder med it og finans? Hvorfor?/Hvorfor ikke?",
-    "answer": "Traditionelt har IT og finans været mandedominerede brancher, hvor mænd har haft flere rollemodeller og netværk. Mange kvinder vælger andre fag, fordi de ikke ser IT og finans som attraktive eller relevante for dem. Samtidig kan kønsstereotyper påvirke studievalg tidligt i livet.",
-    "followAnswer": "Ja, det kan være et problem, fordi manglende diversitet kan føre til ensidige løsninger og mindre innovation. Forskning viser, at virksomheder med kønsdiverse teams træffer bedre beslutninger. Desuden kan en lav repræsentation af kvinder afholde flere unge piger fra at søge ind i branchen."
+    "answer": "Jeg tror, det især skyldes gamle forestillinger om, hvad drenge og piger er gode til. Allerede i skolen bliver drenge måske mere opfordret til at programmere og lege med tal. Når piger så skal vælge uddannelse, ser de få kvindelige rollemodeller i it-branchen. Nogle oplever også, at kulturen på arbejdspladserne er meget maskulin. Jeg har en veninde, der var den eneste kvinde på sit datalogihold, og hun følte sig tit udenfor.",
+    "followAnswer": "Ja, det mener jeg. Når næsten kun mænd udvikler apps og finansielle produkter, risikerer man at overse kvinders behov. Et kendt eksempel er sundhedsapps, som i starten ikke kunne registrere menstruation. Desuden går virksomhederne glip af mange talenter, hvis halvdelen af befolkningen ikke søger ind. Forskellige perspektiver giver ofte bedre beslutninger. Endelig er det et ligestillingsproblem, fordi it og finans er brancher med høje lønninger."
    },
    "B": {
     "q": "I Danmark er der færre mænd end kvinder, der arbejder med børn, fx som lærer eller pædagog. Hvorfor tror du, det er sådan?",
     "follow": "Hvad tror du, det betyder for børnene, at der er færre mænd end kvinder, der er pædagoger eller lærere?",
-    "answer": "Traditionelt er pædagog- og lærerfaget blevet set som kvindedominerede, fordi det kræver empati, omsorg og kommunikation – egenskaber, som ofte forbindes med kvinder. Desuden kan nogle mænd frygte fordomme eller føle sig alene i et kvindedomineret fag.",
-    "followAnswer": "Det kan betyde, at børn mangler mandlige rollemodeller i deres opvækst, især dem, der ikke har en far i hjemmet. Forskning viser, at en blanding af mandlige og kvindelige lærere kan give et mere afbalanceret læringsmiljø."
+    "answer": "Jeg tror, en vigtig grund er, at lønnen i de fag er relativt lav, og traditionelt har mænd valgt job med høj løn og status. Der findes også stadig fordomme om, at omsorg er en kvindeopgave. Nogle mænd er måske også nervøse for, at andre vil se mistænkeligt på dem, hvis de arbejder med små børn. Det er synd, for jeg kender en mandlig pædagog, som er utroligt populær blandt både børn og forældre.",
+    "followAnswer": "Jeg tror, børnene går glip af noget. Mænd og kvinder har ofte lidt forskellige måder at lege og løse konflikter på, og børn har godt af at møde begge dele. Især drenge, som vokser op med en enlig mor, kan mangle en mandlig rollemodel i hverdagen. Desuden lærer børnene, at omsorg ikke kun er noget for kvinder. Derfor synes jeg, det ville være godt, hvis flere mænd blev pædagoger og lærere."
    }
   },
   "second": {
    "q": "Man kunne lave regler for, hvor mange kvinder og mænd der kan optages på forskellige uddannelser, så der ikke er nogen uddannelser, hvor der næsten kun er kvinder eller kun mænd. Hvilke fordele og ulemper mener du, der ville være ved det?",
    "follow": "Synes du, det er vigtigt med en mere lige fordeling af kvinder og mænd i de forskellige brancher på arbejdsmarkedet? Hvorfor?/Hvorfor ikke?",
-   "answer": "En fordel kunne være, at det skaber mere kønsbalance i forskellige brancher, hvilket kan føre til større diversitet og bedre arbejdsmiljøer. Det kunne også bryde kønsstereotyper og give flere mulighed for at vælge frit.\n\nEn ulempe er, at det kan begrænse folks frie valg. Hvis en kvinde gerne vil arbejde i IT, men der allerede er fyldt op med kvinder, kan hun blive afvist. Det samme gælder mænd i fx pædagogfaget.",
-   "followAnswer": "Ja, det er vigtigt, fordi et mere ligeligt fordelt arbejdsmarked giver bedre dynamik og større ligestilling. Dog mener jeg, at det skal ske naturligt gennem oplysning og rollemodeller frem for regler."
+   "answer": "Fordele:\n- Uddannelserne ville afspejle samfundet bedre, og flere ville møde kolleger af det andet køn.\n- Det kunne bryde fastlåste kønsroller, fx på sygeplejerske- og ingeniøruddannelserne.\n\nUlemper:\n- Nogle kvalificerede ansøgere ville blive afvist på grund af deres køn, og det virker uretfærdigt.\n- Man kan ikke tvinge folk til at interessere sig for et fag.\n\nJeg er imod faste kvoter, men jeg synes, man bør gøre en indsats for at informere om alle uddannelser.",
+   "followAnswer": "Ja, jeg synes, det er vigtigt, men det skal ske frivilligt. Når brancherne er meget opdelte, bliver lønforskellen mellem mænd og kvinder ved med at eksistere, fordi de typiske kvindefag ofte er dårligere betalt. Blandede arbejdspladser har også tit et bedre arbejdsmiljø, fordi folk ser tingene fra flere vinkler. Et eksempel kan være et byggefirma, som har fået flere kvindelige håndværkere og oplever en mere rolig tone. Så det gavner alle."
   },
   "conclusion": ""
  },
@@ -315,21 +315,21 @@ PD2.EXAMS.pd3.SPEAKING_TOPIC.push(...[
    "A": {
     "q": "Nogle firmaer betaler for danskkurser til deres udenlandske medarbejdere, selvom virksomhedssproget er engelsk. Hvorfor tror du, de gør det?",
     "follow": "Hvad tror du, det betyder for det kollegiale samvær på arbejdspladsen, at de udenlandske medarbejdere lærer dansk?",
-    "answer": "I mange brancher er det vigtigt at kunne kommunikere med kolleger og kunder på dansk. For eksempel i sundhedssektoren og detailhandlen kræves det, at man taler dansk for at kunne forstå patienter eller kunder. Desuden kan manglende danskkundskaber gøre det sværere at indgå i sociale fællesskaber på arbejdspladsen.",
-    "followAnswer": "Det kan forbedre samarbejdet og styrke fællesskabet. Hvis alle taler samme sprog, undgår man misforståelser, og udenlandske medarbejdere føler sig mere inkluderede. Desuden viser forskning, at integrationen på arbejdspladsen fungerer bedre, når medarbejderne kan deltage i uformelle samtaler på dansk."
+    "answer": "Jeg tror, firmaerne gør det, fordi de gerne vil beholde deres udenlandske medarbejdere i mange år. Hvis man kan tale dansk, falder man lettere til i Danmark og får måske danske venner. Så er man mindre tilbøjelig til at flytte hjem igen. Desuden foregår frokostpausen og den uformelle snak tit på dansk, selvom mødesproget er engelsk. En ingeniør, jeg kender, sagde, at han først følte sig hjemme, da han kunne forstå jokes ved kaffemaskinen.",
+    "followAnswer": "Jeg tror, det betyder meget for samværet. Når alle kan forstå hinanden på dansk, bliver der ikke dannet små grupper efter sprog. De danske kolleger behøver ikke skifte til engelsk, hver gang en udlænding kommer ind i rummet, og det gør stemningen mere naturlig. Det viser også respekt for landets kultur. For eksempel kan en udenlandsk kollega pludselig deltage i snakken om fodbold eller tv-programmer, og så bliver han en del af fællesskabet."
    },
    "B": {
     "q": "Der er flere og flere uddannelser i Danmark, hvor studiesproget er engelsk. Hvorfor tror du, det er sådan?",
     "follow": "Mener du, der kan være nogen problemer ved, at studiesproget på flere og flere uddannelser i Danmark er engelsk?",
-    "answer": "Globaliseringen har gjort det nødvendigt at tiltrække internationale studerende og forskere. Mange danske universiteter ønsker at være mere konkurrencedygtige og tiltrække talent fra udlandet. Desuden arbejder mange i internationale virksomheder efter studiet, hvor engelsk er det primære sprog.",
-    "followAnswer": "Ja, det kan gøre det sværere for danske studerende at udvikle stærke skriftlige og mundtlige færdigheder på dansk i deres fag. På længere sigt kan det påvirke arbejdsmarkedet, hvis tekniske og akademiske termer forsvinder på dansk. Samtidig kan det skabe et skel mellem danske og internationale studerende, hvis undervisningen primært foregår på engelsk."
+    "answer": "Jeg tror, det hænger sammen med, at universiteterne gerne vil tiltrække internationale studerende og forskere. Engelsk er forskningens sprog, og mange virksomheder efterspørger kandidater, der kan arbejde internationalt. Danske studerende får samtidig mulighed for at forbedre deres engelsk. På mange handelsuddannelser foregår en stor del af undervisningen fx allerede på engelsk. Jeg synes, det giver mening på nogle uddannelser, men ikke på alle.",
+    "followAnswer": "Ja, der kan være nogle problemer. Hvis studerende kun lærer fagbegreber på engelsk, kan de få svært ved at forklare deres viden til danske patienter, kunder eller borgere. Det danske fagsprog kan også blive svagere over tid. Desuden får mange udenlandske studerende aldrig lært dansk, og så forlader de landet efter uddannelsen, selvom Danmark har betalt for den. Jeg mener derfor, at fag som medicin og jura bør undervises på dansk."
    }
   },
   "second": {
    "q": "Udlændinge kan ofte arbejde i Danmark uden at kunne tale dansk, hvis de kan tale engelsk. Hvilke fordele og ulemper mener du, der kan være ved det for det danske samfund?",
    "follow": "Hvad tror du, det betyder for udenlandske medarbejderes muligheder for at blive integreret i det danske samfund, at de kan klare sig på engelsk?",
-   "answer": "En fordel er, at det gør det lettere at tiltrække kvalificeret arbejdskraft fra udlandet, hvilket er nødvendigt i nogle sektorer som IT og forskning. Det giver også virksomheder mulighed for at rekruttere globalt og styrke innovation.\n\nEn ulempe kan være, at integrationen bliver sværere, hvis udenlandske medarbejdere ikke lærer dansk. Det kan føre til en opdelt arbejdsplads, hvor nogle medarbejdere kun taler engelsk, mens andre taler dansk. På længere sigt kan det også påvirke sammenhængskraften i samfundet, hvis flere og flere ikke lærer dansk.",
-   "followAnswer": "Hvis man kun taler engelsk, kan det være svært at deltage i sociale fællesskaber uden for arbejdet. Mange danskere foretrækker at tale dansk i fritiden, og udenlandske medarbejdere kan derfor føle sig isolerede. På den anden side gør engelsk det muligt for dem at komme hurtigere ind på arbejdsmarkedet, hvilket kan være en fordel."
+   "answer": "Fordele:\n- Virksomhederne kan hurtigt finde specialister, de ikke kan finde i Danmark.\n- Udlændinge kan begynde at arbejde og betale skat fra første dag.\n\nUlemper:\n- Mange lærer aldrig dansk, og det gør det sværere at deltage i samfundet.\n- Hvis de mister jobbet, bliver det svært for dem at finde et nyt, fordi mange stillinger kræver dansk.\n\nJeg synes, det er en fordel på kort sigt, men på lang sigt bør man støtte, at de også lærer sproget.",
+   "followAnswer": "Jeg tror, det kan gøre integrationen langsommere. Når man kan klare både arbejde og indkøb på engelsk, føler man ikke det samme behov for at lære dansk. Men uden sproget er det svært at forstå breve fra kommunen, tale med børnenes lærere eller deltage i foreningslivet. Mange udlændinge, jeg har mødt, bor her i årevis og har stadig mest kontakt med andre udlændinge. Derfor mener jeg, at sproget er nøglen til at blive en rigtig del af samfundet."
   },
   "conclusion": ""
  },
@@ -370,21 +370,21 @@ PD2.EXAMS.pd3.SPEAKING_TOPIC.push(...[
    "A": {
     "q": "Der er nogle, der venter med at få børn, til de er sidst i 30’erne. Hvorfor tror du, det er sådan?",
     "follow": "Mener du, der kan være nogen problemer ved at vente med at få børn, til man er sidst i 30’erne? Hvorfor?/Hvorfor ikke?",
-    "answer": "Mange ønsker at fokusere på deres karriere og økonomiske stabilitet, før de får børn. I dag kræver mange job høj uddannelse og erfaring, hvilket betyder, at folk ofte prioriterer arbejde først. Derudover kan ønsket om at opleve frihed og rejse også spille en rolle.",
-    "followAnswer": "Ja, der kan være helbredsmæssige risici ved at få børn sent, da fertiliteten falder med alderen. Samtidig kan det være mere fysisk krævende at tage sig af små børn, når man er ældre. På den anden side kan forældre være mere modne og økonomisk stabile, hvilket kan skabe en tryg opvækst for barnet."
+    "answer": "Jeg tror, mange venter, fordi de først vil have en uddannelse og et fast job. Uddannelserne er lange, og det tager tid at komme ind på arbejdsmarkedet. Mange vil også gerne have en bolig, der er stor nok til en familie, og det kan være dyrt i de store byer. Desuden finder nogle først den rigtige partner sent. Min søster fik fx sit første barn som 38-årig, fordi hun først ville rejse og prøve forskellige job.",
+    "followAnswer": "Ja, der kan være nogle problemer. Det kan blive sværere at blive gravid, når man nærmer sig de 40, og nogle par ender med at have brug for fertilitetsbehandling. Det er både dyrt og hårdt psykisk. Desuden har man måske mindre energi, når børnene er små, og bedsteforældrene er ældre og kan hjælpe mindre. Til gengæld er forældrene ofte mere modne og økonomisk trygge. Så jeg synes ikke, man skal vente for længe, men det er et personligt valg."
    },
    "B": {
     "q": "Der er nogle, der vælger at få børn, mens de er studerende. Hvorfor tror du, de vælger det?",
     "follow": "Mener du, der kan være nogen problemer ved at få børn, mens man er studerende? Hvorfor?/Hvorfor ikke?",
-    "answer": "For nogle giver det mening at få børn tidligt, da de senere kan fokusere fuldt ud på deres karriere uden barselsorlov. Studerende har ofte mere fleksible skemaer end fuldtidsansatte, hvilket kan gøre det lettere at passe et barn. Desuden kan unge forældre have mere energi til at tage sig af børnene.",
-    "followAnswer": "Ja, det kan være økonomisk svært at forsørge et barn, mens man studerer, da SU og deltidsarbejde ofte ikke er nok. Derudover kan det være stressende at balancere studier, eksamener og forældrerollen. Dog kan det være en fordel, at man har mere fleksibilitet i hverdagen sammenlignet med et fuldtidsjob."
+    "answer": "Jeg tror, nogle vælger at få børn under studiet, fordi de har mere fleksibel tid end senere i et fuldtidsjob. Man kan selv planlægge, hvornår man læser, og man kan få ekstra SU, når man bliver forælder. Nogle vil også gerne være unge forældre og have energi til at lege med deres børn. En studiekammerat af mig fik en datter på tredje semester, og hun sagde, at det var det rigtige tidspunkt for hende.",
+    "followAnswer": "Jeg synes, der kan være nogle udfordringer. Økonomien er stram, når man lever af SU, og boligen er ofte lille. Det kan også være svært at nå at læse til eksamen, når barnet er sygt eller ikke vil sove. Nogle bliver derfor forsinket med deres uddannelse. På den anden side får mange det til at fungere, især hvis de har en partner eller familie, der hjælper. Så jeg synes ikke, at det er et dårligt valg, bare et krævende valg."
    }
   },
   "second": {
    "q": "Det er ofte moren, der holder den længste forældreorlov. Hvilke fordele og ulemper mener du, der kan være ved det for moren i forhold til familie og arbejde?",
    "follow": "Hvad tror du, det betyder for ligestillingen i samfundet, at moren ofte holder den længste orlov?",
-   "answer": "En fordel er, at moren får mulighed for at skabe en tæt relation til barnet i de første leveår. Det kan også være positivt for amning og barnets tryghed. På den anden side kan en lang orlov gøre det sværere for moren at vende tilbage til arbejdsmarkedet, da hun kan miste karrieremuligheder eller risikere lønefterslæb.",
-   "followAnswer": "Det kan forstærke traditionelle kønsroller og gøre det sværere for kvinder at opnå ledelsesstillinger. Hvis mænd tog mere barsel, kunne det skabe en bedre balance både i hjemmet og på arbejdsmarkedet. Dog afhænger det også af familiens økonomiske situation og individuelle præferencer."
+   "answer": "Fordele:\n- Moren får god tid til at amme og knytte sig til barnet i det første år.\n- Hun kan komme sig efter fødslen uden at tænke på arbejdet.\n\nUlemper:\n- Hun er væk længe fra arbejdspladsen og kan gå glip af projekter og lønforhøjelser.\n- Hun ender ofte med hovedansvaret derhjemme, også når hun er startet på job igen.\n\nJeg synes derfor, at forældrene bør dele orloven mere lige, fx ved at faren tager de sidste måneder.",
+   "followAnswer": "Jeg tror, det betyder, at ligestillingen går langsommere. Når kvinder holder lang orlov, tjener de mindre i de år, og det påvirker også deres pension. Nogle arbejdsgivere tænker måske, at en ung kvinde er en større risiko at ansætte end en ung mand. Derfor synes jeg, det var en god idé, at der blev indført øremærket barsel til fædre. Så bliver det mere normalt, at mænd også er hjemme med deres små børn."
   },
   "conclusion": ""
  },
@@ -425,21 +425,21 @@ PD2.EXAMS.pd3.SPEAKING_TOPIC.push(...[
    "A": {
     "q": "Mange af dem, der arbejder frivilligt, er forældre med hjemmeboende børn. Hvorfor tror du, det er sådan?",
     "follow": "Hvad tror du, det betyder for familielivet, at mange af dem, der arbejder frivilligt, er forældre med hjemmeboende børn?",
-    "answer": "Forældre med hjemmeboende børn deltager ofte i frivilligt arbejde, fordi det giver dem mulighed for at engagere sig i deres børns aktiviteter, f.eks. i skoler, idrætsklubber eller spejderforeninger. Desuden kan frivilligt arbejde være en god måde at skabe sociale relationer på og bidrage til lokalsamfundet.",
-    "followAnswer": "Det kan styrke båndet mellem forældre og børn, fordi forældrene viser interesse for deres børns fritidsaktiviteter. Samtidig kan det dog også være tidskrævende, hvilket kan gøre det svært at balancere arbejde, familie og frivilligt engagement."
+    "answer": "Jeg tror, det hænger sammen med, at forældre ofte allerede er en del af lokalsamfundet gennem deres børn. Hvis ens søn går til håndbold, bliver man hurtigt spurgt, om man vil være træner eller sidde i bestyrelsen. Man vil også gerne bidrage til de aktiviteter, ens egne børn har glæde af. Min nabo er fx kasserer i en spejdergruppe, fordi begge hans døtre er spejdere. Det giver mening for ham.",
+    "followAnswer": "Jeg tror, det kan have både positive og negative sider for familien. Det positive er, at børnene ser deres forældre engagere sig og lærer, at man skal hjælpe andre. Ofte laver familien også noget sammen, fx når far er træner, og barnet spiller på holdet. Men hvis forældrene har mange møder om aftenen, bliver der mindre tid til ro og samvær derhjemme. Så det handler om at finde en god balance."
    },
    "B": {
     "q": "Mange af dem, der arbejder frivilligt er pensionister. Hvorfor tror du, det er sådan?",
     "follow": "Hvad tror du, det betyder for pensionisters livskvalitet, at de arbejder frivilligt?",
-    "answer": "Pensionister har ofte mere tid til rådighed og ønsker at forblive aktive og sociale efter arbejdslivet. Mange finder glæde i at hjælpe andre og føle, at de stadig bidrager til samfundet. Derudover kan frivilligt arbejde være en måde at forebygge ensomhed på.",
-    "followAnswer": "Frivilligt arbejde kan give pensionister en følelse af formål og fællesskab. Det kan også være med til at holde dem fysisk og mentalt aktive. Dog kan nogle føle sig pressede til at tage frivilligt arbejde, hvis de oplever, at det forventes af dem."
+    "answer": "Jeg tror, mange pensionister arbejder frivilligt, fordi de endelig har tid til det. De har ikke længere et job eller små børn, der fylder kalenderen. Samtidig er mange stadig raske og har en masse viden, som de gerne vil give videre. Nogle savner også kolleger og en fast struktur i hverdagen. Min morfar kører fx ældre mennesker til lægen to gange om ugen, og han elsker at snakke med dem undervejs.",
+    "followAnswer": "Efter min mening forbedrer det deres livskvalitet. Når man går på pension, mister man pludselig en stor del af sit sociale netværk. Frivilligt arbejde kan erstatte noget af det, fordi man møder nye mennesker med samme interesser. Man får også en oplevelse af at være til nytte, og det giver selvtillid. Forskning viser desuden, at aktive ældre ofte holder sig sundere længere. Et eksempel kan være en pensionist, der viser turister rundt på et museum."
    }
   },
   "second": {
    "q": "Kommunerne gør mere og mere brug af frivillig arbejdskraft inden for fx ældrepleje og sundhed. Hvilke fordele og ulemper mener du, der kan være ved det?",
    "follow": "Hvad mener du om, at kommuner gør brug af frivillig arbejdskraft for at spare penge på løn til professionelle?",
-   "answer": "En fordel er, at frivillige kan skabe mere omsorg og nærvær i ældreplejen, da de kan give ekstra opmærksomhed, som personalet måske ikke har tid til. Frivillige kan også hjælpe med praktiske opgaver og sociale aktiviteter.\n\nEn ulempe er, at det kan føre til, at kommunerne skærer ned på professionelt personale og erstatter lønnet arbejde med frivilligt arbejde. Dette kan påvirke kvaliteten af plejen, hvis frivillige ikke har den nødvendige faglige viden.",
-   "followAnswer": "Det kan være en god løsning i nogle tilfælde, men det er vigtigt, at det ikke bliver en erstatning for faglært personale. Frivillige bør ses som et supplement og ikke som en billig arbejdskraft, der dækker huller i velfærdssystemet."
+   "answer": "Fordele:\n- De frivillige kan give ekstra tid og selskab, fx læse avis højt for en ældre borger.\n- Det styrker sammenholdet i lokalområdet.\n\nUlemper:\n- Kommunen kan blive fristet til at skære i personalet, fordi de frivillige er gratis.\n- De frivillige kan stoppe, når de vil, og det giver usikkerhed for borgerne.\n\nJeg synes, frivillige er værdifulde, men kerneopgaverne i ældreplejen bør løses af uddannet personale.",
+   "followAnswer": "Jeg synes ikke, det er i orden. Frivillige skal være en ekstra hjælp og ikke en billig erstatning for fagfolk. Hvis kommunen bruger dem til at spare penge, kan kvaliteten falde, fordi de frivillige ikke har den rigtige uddannelse. Det kan fx være farligt, hvis en frivillig skal give medicin. Desuden kan de ansatte blive frustrerede, hvis deres stillinger forsvinder. Så kommunen bør hellere prioritere pengene og ansætte nok personale."
   },
   "conclusion": ""
  },
@@ -480,21 +480,21 @@ PD2.EXAMS.pd3.SPEAKING_TOPIC.push(...[
    "A": {
     "q": "Nogle nyuddannede kan have svært ved at finde det første job. Hvorfor tror du, det er sådan?",
     "follow": "Hvad tror du, erfaring fra fx et studiejob eller praktik kan betyde for de nyuddannedes muligheder for at finde et job?",
-    "answer": "Nyuddannede mangler ofte praktisk erfaring, som arbejdsgivere efterspørger. Derudover kan de have svært ved at konkurrere med kandidater, der allerede har erhvervserfaring. Nogle brancher har også få ledige stillinger, hvilket gør det endnu sværere.",
-    "followAnswer": "Erfaring fra et studiejob eller praktik kan gøre det lettere at finde et job, fordi det viser, at man har kendskab til arbejdsmarkedet. Det kan også give et netværk, som kan hjælpe med at få en fast stilling."
+    "answer": "Jeg tror, det største problem er, at mange arbejdsgivere ønsker erfaring, og det har nyuddannede jo ikke så meget af. Der er også mange ansøgere til de samme stillinger, især i populære fag som kommunikation og psykologi. Nogle nyuddannede kender heller ikke nogen i branchen, og mange job bliver besat gennem netværk. En ven af mig sendte over fyrre ansøgninger, før han fik sin første samtale.",
+    "followAnswer": "Jeg tror, det betyder rigtig meget. Et studiejob eller en praktik viser, at man kan bruge sin teori i praksis og møde til tiden. Man får også referencer og kontakter, som kan hjælpe senere. Mange får faktisk tilbudt fast job det sted, hvor de har været i praktik. Min kollega startede fx som studentermedhjælper i en bank og blev ansat, så snart hun var færdig. Derfor vil jeg anbefale alle studerende at finde et relevant job ved siden af studiet."
    },
    "B": {
     "q": "Jobsøgende over 55 år kan have svært ved at finde et nyt job, selvom de har mange års erfaring. Hvorfor tror du, det er sådan?",
     "follow": "Mener du, der kan være nogen problemer ved, at nogle arbejdsgivere fravælger jobsøgende over 55 år med mange års erfaring? Hvorfor?/Hvorfor ikke?",
-    "answer": "Nogle arbejdsgivere foretrækker yngre medarbejdere, fordi de måske tror, at ældre ansatte ikke er lige så fleksible eller har svært ved at lære nye teknologier. Derudover kan lønkravene være højere for erfarne medarbejdere.",
-    "followAnswer": "Ja, det kan føre til diskrimination og spild af talent, fordi ældre medarbejdere har værdifuld erfaring. Det kan også skabe økonomiske problemer for dem, der ikke kan finde job, selvom de stadig har mange år tilbage på arbejdsmarkedet."
+    "answer": "Jeg tror, nogle arbejdsgivere har fordomme om ældre ansøgere. De tror måske, at de er dyrere, oftere syge eller ikke så gode til ny teknologi. Nogle er også bange for, at en erfaren person vil være svær at lede, eller at han snart går på pension. Derudover kan en ung chef føle sig usikker over for en medarbejder med mere erfaring end ham selv. Jeg synes, det er ærgerligt, for ældre er ofte meget loyale.",
+    "followAnswer": "Ja, det mener jeg. For det første er det diskrimination, og det er faktisk ulovligt at fravælge folk på grund af alder. For det andet går virksomhederne glip af en masse viden og stabilitet. En 58-årig har måske ti gode år tilbage på arbejdsmarkedet, og mange unge skifter job efter to år. Desuden koster det samfundet penge, når erfarne mennesker går ledige. Derfor bør arbejdsgiverne kigge på kompetencer og ikke på fødselsåret."
    }
   },
   "second": {
    "q": "De fleste jobsøgende i Danmark kan modtage økonomisk hjælp som fx dagpenge eller kontanthjælp, mens de søger job. Hvilke fordele og ulemper mener du, der kan være ved det for samfundet?",
    "follow": "Hvad tror du, den økonomiske hjælp kan betyde for de arbejdsløses jobsøgning?",
-   "answer": "En fordel er, at det giver jobsøgende økonomisk sikkerhed, mens de leder efter arbejde, så de ikke havner i fattigdom. Det kan også give dem mulighed for at tage kurser eller videreuddanne sig.\n\nEn ulempe er, at det kan være en økonomisk byrde for staten, hvis mange mennesker er på dagpenge i lang tid. Derudover kan nogle misbruge systemet og undgå at tage ledige job.",
-   "followAnswer": "Det afhænger af personen. Nogle bliver mere motiverede, fordi de føler sig trygge, mens andre måske udsætter jobsøgningen, hvis de kan leve af dagpenge i en længere periode."
+   "answer": "Fordele:\n- Folk kan søge et job, der passer til deres uddannelse, i stedet for at tage det første, de finder.\n- Det skaber tryghed, og familier undgår at miste deres bolig.\n\nUlemper:\n- Det koster mange skattekroner.\n- Nogle bliver måske for komfortable og søger ikke så aktivt.\n\nJeg synes, systemet er en af styrkerne ved den danske model, fordi det gør det lettere for virksomhederne at fyre og ansætte.",
+   "followAnswer": "Jeg tror, den økonomiske hjælp mest har en positiv betydning. Når man ikke skal bekymre sig om husleje og mad, kan man bruge sin energi på at skrive gode ansøgninger. Man kan også tage et kursus, der gør en mere attraktiv. Men hvis man får støtte i meget lang tid, kan man miste motivationen. Derfor synes jeg, det er rimeligt, at jobcentret følger op og stiller krav, fx om et bestemt antal ansøgninger om ugen."
   },
   "conclusion": ""
  },
@@ -535,21 +535,21 @@ PD2.EXAMS.pd3.SPEAKING_TOPIC.push(...[
    "A": {
     "q": "Der er nogle, der arbejder på deltid, selvom de er glade for deres job. Hvorfor tror du, det er sådan?",
     "follow": "Hvad tror du, det kan betyde for ens karriere, at man arbejder på deltid?",
-    "answer": "Mange vælger deltid for at få en bedre balance mellem arbejde og privatliv. Nogle har børn eller andre forpligtelser, der gør det svært at arbejde fuldtid. Andre prioriterer mere fritid frem for højere løn.",
-    "followAnswer": "Det kan være sværere at avancere i karrieren, fordi deltidsansatte ofte får færre ansvarsområder. Dog kan deltidsarbejde også give mere overskud og dermed øge produktiviteten."
+    "answer": "Jeg tror, nogle vælger deltid, fordi de sætter mere pris på fritid end på en højere løn. Måske har de små børn, en hobby eller en partner med et krævende job. Andre har et fysisk hårdt arbejde, som de ikke kan holde til 37 timer om ugen. Min tante er fx sygeplejerske og arbejder 30 timer, fordi hun ellers bliver alt for træt. Hun er glad for sit fag, men hun vil ikke gå ned med stress.",
+    "followAnswer": "Jeg tror, det kan gøre karrieren lidt langsommere. Man får mindre erfaring end kolleger på fuld tid, og det kan være sværere at få lederstillinger, fordi en leder normalt forventes at være til stede hele ugen. Lønnen og pensionen bliver også lavere. På den anden side er nogle deltidsansatte meget effektive og leverer gode resultater. I nogle fag, fx i det offentlige, er deltid desuden helt almindeligt. Så det afhænger meget af arbejdspladsen."
    },
    "B": {
     "q": "Der er nogle, der arbejder meget, selvom de har familie og børn. Hvorfor tror du, det er sådan?",
     "follow": "Hvad tror du, det kan betyde for forholdet til familie og børn, at man arbejder meget?",
-    "answer": "Nogle arbejder meget for at tjene flere penge og sikre familiens økonomi. Andre gør det, fordi deres job kræver det, eller fordi de elsker deres arbejde. Nogle frygter også at miste deres job, hvis de ikke arbejder nok.",
-    "followAnswer": "Det kan skabe afstand i familien, fordi man ikke har nok tid til sine børn og partner. På den anden side kan en stabil økonomi give familien en bedre livskvalitet."
+    "answer": "Jeg tror, mange arbejder meget, fordi de brænder for deres job og synes, det er spændende. Andre har brug for pengene, fx fordi de har et stort huslån. Nogle er selvstændige og føler, at de ikke kan sige nej til kunderne. Der kan også være et pres fra arbejdspladsen, hvor det bliver set som et tegn på engagement at blive længe. En bekendt af mig har sin egen restaurant og arbejder tit 60 timer om ugen.",
+    "followAnswer": "Jeg tror, det kan skade forholdet til familien, hvis det står på i lang tid. Børnene savner deres forælder, og partneren kan føle sig alene med ansvaret for hjemmet. Når man er træt efter en lang dag, har man heller ikke så meget overskud til at lege eller lytte. Til gengæld kan familien få bedre økonomi. Men efter min mening kan penge ikke erstatte tid sammen, så man bør prøve at holde nogle aftener helt fri."
    }
   },
   "second": {
    "q": "Der er nogle, der mener, at den gennemsnitlige ugentlige arbejdstid skal sættes ned til ca. 30 timer om ugen. Hvilke fordele og ulemper mener du, der kan være ved det for samfundet?",
    "follow": "Hvad tror du, det vil betyde for medarbejdernes effektivitet, hvis den gennemsnitlige ugentlige arbejdstid sættes ned til ca. 30 timer om ugen?",
-   "answer": "En fordel er, at det kan forbedre livskvaliteten, fordi folk får mere tid til familie og fritidsaktiviteter. Det kan også føre til færre stressrelaterede sygdomme og dermed lavere sundhedsudgifter.\n\nEn ulempe er, at det kan påvirke økonomien, hvis produktiviteten falder, eller hvis virksomheder bliver nødt til at ansætte flere medarbejdere for at dække arbejdsopgaverne.",
-   "followAnswer": "Det kan øge effektiviteten, fordi folk vil være mere udhvilede og motiverede. Dog kan nogle måske føle, at de ikke har nok tid til at udføre deres opgaver ordentligt."
+   "answer": "Fordele:\n- Folk får mere overskud, og der bliver måske færre sygemeldinger på grund af stress.\n- Forældre kan hente deres børn tidligere fra institution.\n\nUlemper:\n- Velfærden bliver sværere at finansiere, fordi der kommer færre skattekroner ind.\n- Brancher med mangel på arbejdskraft, fx sundhedssektoren, får endnu flere huller i vagtplanen.\n\nJeg synes, ideen er sympatisk, men jeg tror ikke, at Danmark har råd til den lige nu.",
+   "followAnswer": "Jeg tror, effektiviteten pr. time ville stige, i hvert fald i nogle job. Når man har kortere tid, holder man færre lange pauser og unødvendige møder. Man er også mere udhvilet, og det giver bedre koncentration. Men i job, hvor man skal være til stede, fx som buschauffør eller i en butik, kan man ikke bare arbejde hurtigere. Der skal stadig være nogen bag rattet eller ved kassen. Så effekten afhænger af faget."
   },
   "conclusion": ""
  },
@@ -590,21 +590,21 @@ PD2.EXAMS.pd3.SPEAKING_TOPIC.push(...[
    "A": {
     "q": "Nyuddannede skifter oftere job end folk med mange års erfaring. Hvorfor tror du, det er sådan?",
     "follow": "Hvad tror du, det betyder for de nyuddannedes arbejdsliv, at de oftere skifter job?",
-    "answer": "Nyuddannede søger ofte nye udfordringer og bedre karrieremuligheder. De har mindre erfaring og prøver forskellige job for at finde den rette karrierevej. Nogle skifter også job for at få en højere løn eller bedre arbejdsforhold.",
-    "followAnswer": "Det kan give dem bred erfaring og flere kompetencer, men det kan også gøre det sværere at få en fast stilling og opbygge stabilitet i arbejdslivet."
+    "answer": "Jeg tror, nyuddannede skifter job oftere, fordi de stadig er ved at finde ud af, hvad de egentlig vil. Det første job er ofte ikke drømmejobbet, men en måde at komme ind på arbejdsmarkedet. Unge har heller ikke så mange forpligtelser som hus og børn, så de tør tage chancer. Desuden kan man ofte få en højere løn ved at skifte. Min fætter har fx haft tre forskellige job på fire år.",
+    "followAnswer": "Jeg tror, det giver de nyuddannede et mere varieret arbejdsliv. De får erfaring fra forskellige arbejdspladser og lærer nye måder at arbejde på, og det gør dem mere fleksible. De bygger også et stort netværk. Til gengæld kan de risikere at virke ustabile på deres cv, hvis de skifter for tit. Man når heller ikke at fordybe sig i opgaverne. Jeg synes, to eller tre år i hvert job er en god tommelfingerregel."
    },
    "B": {
     "q": "Der er nogen, der vælger at skifte til et nyt job på samme arbejdsplads. Hvorfor tror du, de vælger det?",
     "follow": "Mener du, der kan være nogen problemer ved at skifte til et nyt job på samme arbejdsplads? Hvorfor?/Hvorfor ikke?",
-    "answer": "Mange skifter job internt for at udvikle sig fagligt, få nye ansvarsområder eller prøve en ny afdeling. Det kan også være en måde at undgå at forlade en arbejdsplads, hvor man er glad for kollegerne og arbejdsmiljøet.",
-    "followAnswer": "Det kan være svært at blive set som en ny medarbejder, hvis man allerede har arbejdet i virksomheden. Nogle kan opleve, at det er svært at adskille deres gamle og nye roller."
+    "answer": "Jeg tror, mange vælger det, fordi de er glade for virksomheden og kollegerne, men gerne vil have nye udfordringer. Det er tryggere end at starte helt forfra et nyt sted, fordi man allerede kender kulturen og systemerne. Man beholder også sin anciennitet og sine personalegoder. For eksempel kan en sælger skifte til marketingafdelingen og bruge sin viden om kunderne på en ny måde. Det er en smart løsning for begge parter.",
+    "followAnswer": "Jeg synes ikke, der er så mange problemer, men der kan være nogle. Det kan fx være akavet, hvis man bliver chef for sine tidligere kolleger. Nogle kan også blive misundelige, hvis de selv havde søgt stillingen. Desuden får man måske ikke helt den samme fornyelse, som hvis man skiftede arbejdsplads, fordi man stadig er i den samme kultur. Men alt i alt tror jeg, at fordelene er større end ulemperne."
    }
   },
   "second": {
    "q": "I Danmark er der generelt flere, der skifter job i løbet af deres arbejdsliv end i mange andre lande. Hvilke fordele og ulemper mener du, der kan være ved det for de danske virksomheder?",
    "follow": "Tror du, det er vigtigere for en virksomhed at få nye medarbejdere med nye ideer end at beholde erfarne medarbejdere? Hvorfor?/Hvorfor ikke?",
-   "answer": "En fordel er, at virksomheder får nye medarbejdere med friske idéer og nye perspektiver. Det kan skabe innovation og udvikling.\n\nEn ulempe er, at det kan blive dyrt at oplære nye medarbejdere ofte, og det kan skabe ustabilitet på arbejdspladsen.",
-   "followAnswer": "Det afhænger af situationen. Erfarne medarbejdere har vigtig viden og stabilitet, mens nye medarbejdere kan bringe innovation og dynamik. En god balance er vigtig."
+   "answer": "Fordele:\n- Virksomhederne får nye medarbejdere med friske ideer og erfaringer fra andre firmaer.\n- Det er lettere at finde folk med de rigtige kompetencer, når mange er åbne for at skifte.\n\nUlemper:\n- Det koster tid og penge at rekruttere og oplære nye hele tiden.\n- Viden forsvinder, når en erfaren medarbejder går til en konkurrent.\n\nJeg mener, at fordelene vejer tungest, men virksomhederne skal gøre en indsats for at holde på deres bedste folk.",
+   "followAnswer": "Nej, det tror jeg ikke. Efter min mening har en virksomhed brug for begge dele. Erfarne medarbejdere kender kunderne, produkterne og de fejl, man har lavet før, og den viden er svær at erstatte. Nye medarbejdere kan til gengæld stille spørgsmål ved gamle vaner. Den bedste løsning er derfor et blandet team, hvor de erfarne fungerer som mentorer for de nye. På den måde lærer begge grupper noget af hinanden."
   },
   "conclusion": ""
  },
@@ -645,23 +645,23 @@ PD2.EXAMS.pd3.SPEAKING_TOPIC.push(...[
    "A": {
     "q": "Arbejdsløse under 25 år kommer generelt hurtigere i job end arbejdsløse over 60 år. Hvorfor tror du, det er sådan?",
     "follow": "Mener du, at arbejdsløse, der har en uddannelse, bør søge et ufaglært arbejde for hurtigere at komme i arbejde igen? Hvorfor?/Hvorfor ikke?",
-    "answer": "Unge arbejdsløse har ofte lettere ved at finde et job, fordi de er mere fleksible og har færre forpligtelser. Mange arbejdsgivere foretrækker også yngre medarbejdere, da de kan tilpasse sig lettere til nye arbejdsmetoder og forventes at have en længere karriere foran sig. Derudover kan der være fordomme mod ældre medarbejdere, såsom at de er mindre omstillingsparate eller ikke er opdateret med ny teknologi.",
-    "followAnswer": "Det afhænger af situationen. På den ene side kan det være en fordel at tage et ufaglært job for at undgå langvarig ledighed, hvilket også viser arbejdsgivere, at man er villig til at arbejde. På den anden side kan det være en ulempe, hvis det forhindrer dem i at finde et job, der passer bedre til deres kvalifikationer og langsigtede karriereplaner.",
+    "answer": "Jeg tror, unge arbejdsløse kommer hurtigere i job, fordi de er billigere og ofte mere fleksible. De kan arbejde om aftenen eller flytte efter et job. Mange arbejdsgivere tror også, at unge er hurtigere til at lære nye it-systemer. Ældre ansøgere møder derimod fordomme om, at de snart går på pension eller er mindre omstillingsparate. Det er uretfærdigt, for en 62-årig kan sagtens være lige så motiveret som en 23-årig.",
+    "followAnswer": "Det synes jeg i nogle tilfælde. Hvis man har været ledig længe, kan et ufaglært job være en god måde at komme tilbage på arbejdsmarkedet. Man får en fast rytme, nye kolleger og måske kontakter til bedre stillinger. Men man skal ikke tage et ufaglært job lige efter uddannelsen, for så risikerer man at sidde fast. En nyuddannet økonom bør hellere søge bredt i et par måneder først. Samfundet har jo også investeret i uddannelsen.",
     "lead": "Situation A viser en ung og en ældre mand, der søger job. Den unge mand er til en jobsamtale, og den ældre er mødt op på jobcentret."
    },
    "B": {
     "q": "Nogle søger kun job tæt på, hvor de bor, selvom de har svært ved at finde et job. Hvorfor tror du, det er sådan?",
     "follow": "Mener du, der kan være nogen problemer ved, at nogle kun søger job tæt på, hvor de bor? Hvorfor?/Hvorfor ikke?",
-    "answer": "Nogle vælger kun at søge job i nærområdet, fordi de ønsker en bedre balance mellem arbejde og privatliv. Pendling kan være tidskrævende og dyrt, og mange foretrækker at have et job tæt på deres hjem for at få mere tid med deres familie eller fritidsinteresser.",
-    "followAnswer": "Ja, det kan begrænse deres muligheder og forlænge deres ledighed. Samtidig kan det føre til mangel på arbejdskraft i visse områder, hvis folk ikke er villige til at flytte eller pendle. Dog er det også vigtigt at tage hensyn til livskvalitet og transportudgifter.",
+    "answer": "Jeg tror, mange kun søger job lokalt, fordi de har familie og børn, der skal hentes og bringes. Lang transport tager tid og koster penge, især hvis man ikke har bil. Nogle har også et stærkt netværk i deres område og vil ikke forlade det. Det kan fx være en ældre person i en lille by, der har boet samme sted hele sit liv. Jeg kan godt forstå det, men det begrænser mulighederne.",
+    "followAnswer": "Ja, det kan der godt være. Hvis der ikke findes job i ens område, kan man være arbejdsløs i meget lang tid, og det er hårdt både for økonomien og selvtilliden. Samtidig mangler virksomheder i andre dele af landet arbejdskraft. Jeg synes, det er rimeligt at forvente, at man kan pendle en time hver vej. Mange gør det allerede, fx fra Roskilde til København. Det er bedre end at gå hjemme uden noget at lave.",
     "lead": "Situation B viser en arbejdsløs mand, der har fundet et job, der ligger langt væk fra, hvor han bor."
    }
   },
   "second": {
    "q": "I Danmark kan man få økonomisk støtte, hvis man er arbejdsløs. Hvilke fordele og ulemper mener du, der kan være ved det for samfundet?",
    "follow": "Synes du, der bør være en grænse for, hvor længe arbejdsløse kan få økonomisk støtte fra det offentlige? Hvorfor?/Hvorfor ikke?",
-   "answer": "En fordel er, at økonomisk støtte sikrer, at arbejdsløse har en grundlæggende indkomst, så de kan dække deres behov, mens de søger job. Det reducerer fattigdom og giver dem mulighed for at finde et job, der matcher deres kompetencer.\n\nEn ulempe er, at det kan mindske incitamentet til hurtigt at finde et job, hvis støtten er høj eller varer for længe. Derudover kan det være en økonomisk byrde for samfundet, hvis mange mennesker er afhængige af denne støtte.",
-   "followAnswer": "Ja, der bør være en tidsgrænse for at motivere folk til at søge job aktivt. Dog bør der være fleksibilitet, så personer, der har svært ved at finde job, ikke ender i økonomiske problemer. For eksempel kan man differentiere støtten afhængigt af, hvor aktivt en person søger arbejde."
+   "answer": "Fordele:\n- Folk kan betale deres regninger og undgå at gå fra hus og hjem.\n- Det gør det trygt at skifte job eller tage en risiko, og det gør arbejdsmarkedet mere fleksibelt.\n\nUlemper:\n- Det er dyrt for staten.\n- Nogle få misbruger systemet og har ikke travlt med at komme i arbejde.\n\nJeg synes alligevel, at støtten er vigtig, for de fleste ledige vil hellere arbejde, og vi kan alle sammen miste vores job.",
+   "followAnswer": "Ja, jeg synes, der bør være en grænse, men den skal ikke være for kort. Hvis man kan få støtte i mange år, mister nogle motivationen, og deres kompetencer bliver forældede. En grænse på fx to år giver et klart signal om, at man skal gøre en aktiv indsats. Samtidig skal der være hjælp til dem, der er syge eller ikke kan finde arbejde trods mange forsøg. De må ikke ende helt uden indtægt."
   },
   "conclusion": ""
  },
@@ -702,23 +702,23 @@ PD2.EXAMS.pd3.SPEAKING_TOPIC.push(...[
    "A": {
     "q": "Nogle bliver ved med at arbejde, selvom de har mulighed for at gå på pension. Hvorfor tror du, det er sådan?",
     "follow": "Kan der være nogen problemer ved at blive ved med at arbejde, selvom man har mulighed for at gå på pension? Hvorfor?/Hvorfor ikke?",
-    "answer": "Mange vælger at fortsætte med at arbejde efter pensionsalderen, fordi de stadig føler sig fysisk og mentalt i stand til det. Arbejde giver en følelse af formål og socialt fællesskab, hvilket kan være vigtigt for ældre mennesker. Derudover kan økonomiske faktorer spille en rolle, da nogle har behov for en ekstra indtægt for at opretholde deres levestandard.",
-    "followAnswer": "Ja, der kan være udfordringer. Hvis ældre medarbejdere bliver for længe i deres job, kan det blokere for yngre generationer, der søger arbejde. Samtidig kan arbejdsbelastningen være for høj for nogle ældre, hvilket kan føre til helbredsproblemer. Dog kan fleksible løsninger som deltidsarbejde eller rådgiverroller være en fordel, så ældre fortsat kan bidrage uden at overanstrenge sig.",
+    "answer": "Jeg tror, mange bliver ved med at arbejde, fordi jobbet giver dem identitet og mening. De er glade for deres kolleger og vil ikke miste kontakten. Nogle har også brug for pengene, fx hvis de ikke har sparet nok op til pension. Andre er bare ikke klar til at sidde stille derhjemme. Kvinden på billedet arbejder måske videre som lægesekretær, fordi hun kan lide at møde patienterne og have en travl hverdag.",
+    "followAnswer": "Der kan være nogle problemer, men ikke så mange efter min mening. Ældre medarbejdere kan have sværere ved at følge med i nye digitale systemer, og de bliver måske hurtigere trætte. Nogle mener også, at de tager job fra unge. Det tror jeg dog ikke er rigtigt, for der er mangel på arbejdskraft i mange brancher. Desuden er det godt for samfundets økonomi, når flere arbejder længere. Så længe man er rask og motiveret, synes jeg, man skal fortsætte.",
     "lead": "Situation A viser en ældre kvinde, der arbejder som lægesekretær."
    },
    "B": {
     "q": "Nogle unge får ikke en uddannelse efter folkeskolen, men kommer direkte ud på arbejdsmarkedet. Hvorfor tror du, det er sådan?",
     "follow": "Kan der være nogen problemer ved, at nogle unge ikke får en uddannelse efter folkeskolen, men kommer direkte ud på arbejdsmarkedet? Hvorfor?/Hvorfor ikke?",
-    "answer": "Nogle unge vælger at starte direkte på arbejdsmarkedet, fordi de ønsker hurtig økonomisk uafhængighed eller ikke føler sig motiverede til videre uddannelse. Andre ser en mulighed for at opbygge praktisk erfaring og måske arbejde sig op i en virksomhed uden en formel uddannelse.",
-    "followAnswer": "Ja, det kan være en udfordring, fordi de kan have færre karrieremuligheder på lang sigt. Mange job kræver en form for uddannelse, og uden en formel kvalifikation kan de risikere lavere løn og mindre jobsikkerhed. Dog kan nogle unge klare sig godt gennem erhvervserfaring og senere supplere med videreuddannelse.",
+    "answer": "Jeg tror, nogle unge går direkte ud på arbejdsmarkedet, fordi de er skoletrætte efter ti år i folkeskolen. De har lyst til at lave noget praktisk og tjene deres egne penge. Andre ved ikke, hvad de vil uddanne sig til, og vil hellere vente lidt. Det kan også handle om økonomi eller om, at forældrene heller ikke har en uddannelse. Den unge mand på lageret har måske bare brug for en pause.",
+    "followAnswer": "Ja, det tror jeg. Ufaglærte job er ofte dårligt betalt og fysisk hårde, og mange af dem forsvinder på grund af robotter og automatisering. Hvis man bliver fyret som 40-årig uden uddannelse, kan det være svært at finde et nyt job. Det er derfor vigtigt, at de unge senere får mulighed for at tage en uddannelse, fx som voksenlærling. En pause kan være fin, men den bør ikke vare hele livet.",
     "lead": "Situation B viser en ung mand, der arbejder som lagermedarbejder."
    }
   },
   "second": {
    "q": "Folkepensionsalderen er den samme for alle, der er født det samme år. Hvilke fordele og ulemper mener du, der kan være ved det?",
    "follow": "Mener du, pensionsalderen bør være kortere for faggrupper, der har hårdt fysisk arbejde – som fx murere og rengøringsassistenter? Hvorfor?/Hvorfor ikke?",
-   "answer": "En fordel ved en fast pensionsalder er, at det skaber et klart og retfærdigt system for alle. Det sikrer også, at folk har en stabil forventning til, hvornår de kan trække sig tilbage.\n\nEn ulempe er, at ikke alle har samme arbejdsvilkår. Nogle, især dem med fysisk hårdt arbejde, kan have svært ved at arbejde til pensionsalderen, mens personer med mindre fysisk krævende job kan fortsætte længere uden problemer.",
-   "followAnswer": "Ja, det ville være en retfærdig løsning, fordi nogle job er mere fysisk nedslidende end andre. Personer med hårdt fysisk arbejde har ofte dårligere helbred, når de når pensionsalderen, og det kan være urimeligt at forvente, at de arbejder lige så længe som fx kontoransatte."
+   "answer": "Fordele:\n- Reglen er enkel og ens for alle, så ingen kan føle sig forskelsbehandlet.\n- Folk kan planlægge deres økonomi mange år frem.\n\nUlemper:\n- Den tager ikke hensyn til, at nogle har haft et hårdt fysisk arbejde i mange år.\n- En akademiker, der startede sent på arbejdsmarkedet, går på pension på samme tidspunkt som en håndværker, der begyndte som 16-årig.\n\nJeg synes derfor, at systemet er lidt for stift.",
+   "followAnswer": "Ja, det synes jeg. En murer eller en rengøringsassistent har slidt på sin krop i mange år, og mange får ondt i ryg og knæ længe før pensionsalderen. Det er ikke fair, at de skal arbejde lige så længe som en, der sidder på et kontor. Problemet er dog, at det kan være svært at definere, hvilke job der er hårde nok. Alligevel bør man prøve at lave en ordning, fx baseret på antallet af år på arbejdsmarkedet."
   },
   "conclusion": ""
  },
@@ -759,23 +759,23 @@ PD2.EXAMS.pd3.SPEAKING_TOPIC.push(...[
    "A": {
     "q": "Der mangler arbejdskraft i sundhedssektoren, fx sygeplejersker og social- og sundhedsassistenter. Hvorfor tror du, der gør det?",
     "follow": "Hvilke problemer mener du, der kan være ved, at der mangler sygeplejersker og social- og sundhedsassistenter?",
-    "answer": "Mangel på arbejdskraft i sundhedssektoren skyldes flere faktorer. For det første er arbejdsbelastningen høj, og mange sygeplejersker oplever stress og udbrændthed. For det andet er lønnen i sektoren ikke altid attraktiv i forhold til arbejdsbyrden, hvilket gør det mindre attraktivt at vælge eller blive i faget. Derudover kan dårlige arbejdsforhold og skiftende arbejdstider gøre det svært at fastholde medarbejdere.",
-    "followAnswer": "Mangel på sygeplejersker og sundhedsassistenter kan føre til dårligere pleje af patienter og længere ventetider i sundhedsvæsenet. Det kan også medføre øget pres på de eksisterende medarbejdere, hvilket kan føre til endnu mere sygefravær og flere, der forlader branchen. På længere sigt kan det betyde, at sundhedsvæsenet ikke kan opretholde den nødvendige kvalitet i behandlingen.",
+    "answer": "Jeg tror, der mangler personale, fordi arbejdet er hårdt, og lønnen ikke står mål med ansvaret. Mange sygeplejersker oplever travle vagter, hvor de ikke når at give patienterne ordentlig omsorg, og så forlader nogle faget. Samtidig bliver der flere ældre, som har brug for pleje. Der er også mange skæve arbejdstider med aften, nat og weekend. En sosu-assistent, jeg kender, skiftede til et kontorjob, fordi hun ville have fri om aftenen.",
+    "followAnswer": "Jeg mener, det kan give alvorlige problemer. Når der er for få hænder, får patienterne mindre tid og opmærksomhed, og der kan ske fejl, fx med medicin. Ventelisterne bliver længere, og ældre kan komme til at vente på hjælp til at komme i bad. Det personale, der er tilbage, bliver også mere stresset, og så siger flere op. Det bliver en ond cirkel, som kan være svær at bryde.",
     "lead": "Situation A viser en sygeplejerske, der har ansvar for mange patienter og har travlt."
    },
    "B": {
     "q": "Der mangler arbejdskraft i byggebranchen, fx tømrere og jord- og betonarbejdere. Hvorfor tror du, der gør det?",
     "follow": "Hvilke problemer mener du, der kan være ved, at der mangler arbejdskraft inden for byggebranchen?",
-    "answer": "Mangel på arbejdskraft i byggebranchen kan skyldes, at færre unge vælger at uddanne sig inden for håndværksfag. Mange foretrækker akademiske uddannelser, hvilket skaber en ubalance i arbejdsmarkedet. Samtidig kan de fysiske krav i branchen gøre, at nogle forlader faget tidligt på grund af skader eller nedslidning.",
-    "followAnswer": "Hvis der ikke er nok arbejdskraft i byggebranchen, kan det føre til forsinkelser i byggeprojekter, hvilket påvirker boligmarkedet og infrastrukturprojekter. Derudover kan mangel på arbejdskraft betyde, at virksomheder er nødt til at ansætte udenlandske arbejdere eller betale højere lønninger, hvilket kan gøre byggerier dyrere.",
+    "answer": "Jeg tror, en del af forklaringen er, at mange unge vælger gymnasiet frem for en erhvervsuddannelse. Håndværksfag har ikke den samme status, selvom lønnen faktisk kan være god. Arbejdet er også fysisk hårdt og foregår udendørs i al slags vejr. Samtidig bygges der meget i de store byer, så efterspørgslen er høj. Jeg synes, man burde fortælle de unge mere om, hvor spændende det er at se et hus blive til.",
+    "followAnswer": "Jeg mener, det især kan forsinke vigtige projekter. Hvis der ikke er nok tømrere og betonarbejdere, bliver nye boliger, skoler og veje færdige senere, og det bliver dyrere. Det kan fx betyde, at boligpriserne stiger, fordi der bygges for lidt. Virksomhederne må også sige nej til opgaver og mister indtægter. Desuden kan presset på de ansatte føre til fejl og arbejdsulykker. Derfor er det et problem for hele samfundet.",
     "lead": "Situation B viser en byggeplads, hvor arbejdet endnu ikke er gået i gang."
    }
   },
   "second": {
    "q": "Ved mangel på arbejdskraft kan man fra politisk side vælge at gøre det nemmere for virksomheder at rekruttere udenlandsk arbejdskraft. Hvilke fordele og ulemper mener du, der kan være ved det for samfundet?",
    "follow": "Mener du, det er i orden at rekruttere udenlandsk arbejdskraft, selvom der er borgere i Danmark, der er arbejdsløse? Hvorfor?/Hvorfor ikke?",
-   "answer": "En fordel ved at tiltrække udenlandsk arbejdskraft er, at det hurtigt kan afhjælpe manglen på medarbejdere og sikre, at virksomhederne fortsætter deres produktion. Det kan også give en mere dynamisk arbejdsstyrke med nye perspektiver.\n\nEn ulempe kan være, at det kan presse lønningerne ned og skabe konkurrence om job, især for lavtuddannede danskere. Der kan også være sproglige og kulturelle udfordringer, som kan gøre det sværere for udenlandske arbejdere at integrere sig på arbejdspladsen og i samfundet.",
-   "followAnswer": "Det kan være nødvendigt at rekruttere udenlandsk arbejdskraft, hvis der er mangel på kvalificerede medarbejdere i bestemte sektorer. Men samtidig bør regeringen fokusere på at opkvalificere arbejdsløse danskere, så de kan besætte de ledige stillinger. Hvis der er ledige job, som ingen danskere ønsker, kan det være en god løsning at tiltrække udenlandske medarbejdere."
+   "answer": "Fordele:\n- Virksomhederne kan hurtigt få løst deres opgaver, og produktionen kan fortsætte.\n- Udenlandske medarbejdere betaler skat og kan bringe nye kompetencer med sig.\n\nUlemper:\n- Der er risiko for social dumping, hvor udlændinge arbejder for en lavere løn.\n- Politikerne kan glemme at uddanne nok danskere til fagene.\n\nJeg synes, det er en god løsning på kort sigt, men den skal kombineres med bedre uddannelsesmuligheder herhjemme.",
+   "followAnswer": "Ja, det synes jeg som udgangspunkt. Mange arbejdsløse har ikke de kompetencer, der efterspørges, fx en sygeplejerskeuddannelse, og det tager år at uddanne dem. Virksomhederne kan ikke vente så længe. Men det må ikke blive en undskyldning for at glemme de ledige. Jeg synes, man skal gøre begge dele: hente hjælp udefra og samtidig tilbyde efteruddannelse til danske arbejdsløse, så de på sigt kan tage nogle af jobbene."
   },
   "conclusion": ""
  }
