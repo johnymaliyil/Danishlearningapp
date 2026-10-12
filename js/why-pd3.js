@@ -103,6 +103,102 @@ Object.assign(PD2.WHY, {
 "da": "De smukke gamle huse og historien er noget, nettet og storcentrene ikke kan konkurrere med, altså «en fordel»."
 }
 },
+"pd3-19m-1": {
+"q0": {
+"da": "Under Langelandsfestival – Børneland står der: «Onsdag kl. 10.00 åbner Børneland for alle sine aktiviteter, som alle vil være åbne hver dag i festivalens sidste fire dage.» De første fire dage er kun legepladsen åben."
+},
+"q1": {
+"da": "Under En speciel billettype til gæsten med et handicap står der: «For at kunne købe denne specielle billet, skal man have et gyldigt ledsagerkort med på festivalen.»"
+},
+"q2": {
+"da": "Under Indtjekning i HandicapCamp står der: «Man kan tjekke ind ved et særligt indtjekningssted ved området.» Det officielle indtjekningssted (Laden) er det andet sted. Efter forcensuren er «særligt indtjekningssted» nok."
+},
+"q3": {
+"da": "Under Smukfest – Boformer og campingområder står der om projektet Menneskeligheden: «man kan ansøge om en soveplads til området»."
+},
+"q4": {
+"da": "Nej. Under Billetkøb og Smukfest-konto står der, at e-mailen «ikke [er] en adgangsgivende billet, men blot en kvittering for købet». Billetten er et digitalt produkt på Smukfest-kontoen, og armbåndet sendes med posten."
+},
+"q5": {
+"da": "Under Skagen Festival – Overnatning/camping står der: «I festival-dagene kan ledige pladser på campingpladsen købes ved at møde frem i Kulturhus Kappelborg.»"
+},
+"q6": {
+"da": "Under Skagen Festival – Tid og sted står der: «Som konsekvens af at skolerne flyttede sommerferien, afholdes festivalen nu i den første weekend i juli.»"
+},
+"q7": {
+"da": "Under Den Danske Folkemusikpris står der: «Det var også for at spare penge, at TV2/Nord i 2014 stoppede med samarbejdet» – ligesom radioen, der stoppede «af sparegrunde»."
+},
+"q8": {
+"da": "Under NorthSide står der om BikeSide: «Her er der mulighed for cykelparkering, mens man er til festival, og der er også mulighed for at få et cykeltjek.» Begge ting skal nævnes."
+},
+"q9": {
+"da": "Under Heartland Festival står der, at festivalen kombinerer musik med andre temaer og arrangementer: «Den ønsker derved at tiltrække nye typer af festivaldeltagere.» Efter forcensuren er «nye festivaldeltagere» også rigtigt."
+},
+"q10": {
+"da": "Under Smukfonden står der: «alle ansøgninger, der modtages inden d. 15. maj, vil blive behandlet og uddelt op til festivalen i august.» Fristen 1. december gælder generalforsamlingen i januar."
+},
+"q11": {
+"da": "Under Roskilde Festival-gruppen står der: «De udvikler også projekter sammen med modtageren, og på den måde donerer de også viden og erfaringer.»"
+},
+"q12": {
+"da": "Erika skriver: «I mange år skulle jeg altid til eksamen i juni, hvor festivalen finder sted, så jeg har ikke tidligere haft tid til at tage af sted.»"
+},
+"q13": {
+"da": "Peter skriver, at han i år havde bestemt sig for «også at lytte til nye bands, hvilket jeg heldigvis nåede. Og det var en ny og god oplevelse»."
+},
+"q14": {
+"da": "Sofie besøgte Smukfest «på den sidste dag, der var åbent», og skriver: «Da det var den sidste dag, så var dele af festivalpladsen dog lukket»."
+}
+},
+"pd3-19m-2": {
+"q0": {
+"da": "A: Karen siger: «Idéen om at arbejde bredt, så de støtter både ude og hjemme, betyder meget for mig». Hun nævner ikke social og økonomisk hjælp som sin grund (B), og hun siger, at mange organisationer er professionelle (C)."
+},
+"q1": {
+"da": "A: Niels gik på pension for to år siden: «nu, hvor jeg ikke skal af sted på arbejde hver dag, kan jeg også sagtens passe det ind i min hverdag». Hans kone synes kun, det er fint (C), og nye bekendtskaber nævnes ikke (B)."
+},
+"q2": {
+"da": "B: Karen siger, at de store indsamlinger er vigtige, «så folk kan få øjnene op for, at mange mennesker i verden lever i stor nød og har brug for hjælp». At showet sikrer tilstrækkelig hjælp (C), siges ikke."
+},
+"q3": {
+"da": "A: Vi betaler de fælles udgifter over skatten og er vant til, at det offentlige hjælper. «Nogle mener således ikke, at vi herudover også skal give støtte som individuelle borgere.»"
+},
+"q4": {
+"da": "C: Husindsamlingerne er suppleret med såkaldte facere, der «henvender sig til folk på offentlige steder». Mobilbetaling er blevet almindeligt, men der nævnes ingen kampagner for det (A), og der må kun holdes én husindsamling om året (B)."
+},
+"q5": {
+"da": "C: Det er blevet nemt: «Man skal blot give den godkendte organisation … sit cpr.-nummer, så kontakter organisationen selv Skat.» Organisationerne har oplyst om, at fradraget findes, ikke om hvor meget man kan trække fra (A)."
+},
+"q6": {
+"da": "B: Organisationerne vil øge antallet af mandlige donorer, «fordi organisationerne også vil begynde at lave kampagner rettet mod mændene» – altså nye kampagner med fokus på mænd."
+}
+},
+"pd3-19m-3": {
+"g1": {
+"da": "nemlig: Sætningen forklarer, hvorfor hun fik problemer med at følge med – hun arbejdede nemlig alt for meget."
+},
+"g2": {
+"da": "Samtidig: Endnu et problem, der skete på samme tid: Hun havde ikke tid til at læse, og samtidig kendte hun ikke de andre."
+},
+"g3": {
+"da": "konsekvenser af: Bagefter nævnes følgerne af frafald – et personligt nederlag, en dyr studieplads og færre muligheder på jobmarkedet."
+},
+"g4": {
+"da": "årsag til: «en typisk årsag til, at de studerende springer fra … er, at de har svært ved at følge med» – teksten handler om hvorfor."
+},
+"g5": {
+"da": "fællesskabet: Modsætningen til «det faglige» er det sociale; teksten nævner netværk og støtte fra studiekammerater."
+},
+"g6": {
+"da": "forebygge: Uddannelsesstederne kan hjælpe, før problemerne bliver for store – altså forebygge (forhindre) frafaldet."
+},
+"g7": {
+"da": "som nævnt: At Anne fik problemer på studiet, er allerede fortalt tidligere i teksten."
+},
+"g8": {
+"da": "økonomiske: En billigere bolig betyder, at hun ikke skal arbejde så meget for at tjene penge – det løser pengeproblemerne."
+}
+},
 "pd3-19n-1": {
 "q0": {
 "da": "Under FILM-X står der, at FILM-X har tilbud til børnefødselsdage og polterabender, til daginstitutioner «samt teambuildingkurser». Teambuilding er det tilbud, der er rettet mod firmaer. (Ved prøven fik alle prøvedeltagere point i dette spørgsmål, uanset svaret.)"
