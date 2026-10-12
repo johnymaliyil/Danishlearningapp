@@ -79,6 +79,21 @@ PD2.EXAM_META = {
     },
     about: `<p><b>Prøve i Dansk 3</b> er den sværeste af de tre danskprøver. Den svarer til niveau <b>B2</b> i den fælles europæiske referenceramme (CEFR).</p>
       <p>Prøven tester, om du kan forstå længere tekster om samfundsemner, skrive sammenhængende og argumenterende tekster, og diskutere og begrunde dine holdninger mundtligt.</p>
+      <h3>📖 Læseforståelse (90 minutter, ingen hjælpemidler)</h3>
+      <table class="simple">
+        <tr><th>Del</th><th>Delprøve</th><th>Type</th><th>Tid</th></tr>
+        <tr><td>Læseforståelse 1</td><td>1</td><td>Find korte svar i en tekstsamling på ca. 12 sider (15 spørgsmål)</td><td>25 min.</td></tr>
+        <tr><td>Læseforståelse 2</td><td>2A</td><td>Multiple choice til en længere tekst</td><td rowspan="3">65 min.</td></tr>
+        <tr><td></td><td>2B</td><td>Sæt de manglende afsnit ind i en tekst</td></tr>
+        <tr><td></td><td>3</td><td>Udfyld hullerne i en tekst</td></tr>
+      </table>
+      <h3>🔢 Omregningstabel – læseforståelse (sommer 2024)</h3>
+      <table class="simple">
+        <tr><th>Point (af 39)</th><th>Karakter</th></tr>
+        <tr><td>39-38</td><td>12</td></tr><tr><td>37-33</td><td>10</td></tr><tr><td>32-27</td><td>7</td></tr>
+        <tr><td>26-22</td><td>4</td></tr><tr><td>21-20</td><td>02</td></tr><tr><td>19-10</td><td>00</td></tr><tr><td>9-0</td><td>-3</td></tr>
+      </table>
+      <p class="small muted">Tabellen ændrer sig lidt fra prøve til prøve. Du består med et gennemsnit på mindst 02, og den mundtlige karakter tæller dobbelt: (læsning + skrivning + 2 × mundtlig) / 4.</p>
       <p class="small muted">PD3 bruges blandt andet som sprogkrav, når man søger om dansk statsborgerskab. Tjek altid de aktuelle regler.</p>`
   }
 };

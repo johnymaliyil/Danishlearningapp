@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "72"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "73"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -354,6 +354,7 @@
     [/^\/speaking\/mono\/([\w-]+)$/, speakingMono],
     [/^\/speaking\/dialog\/([\w-]+)$/, speakingDialog],
     [/^\/speaking\/picture\/([\w-]+)$/, speakingPicture],
+    [/^\/speaking\/topic\/([\w-]+)$/, speakingTopic],
     [/^\/words$/, wordsGame],
     [/^\/games$/, gamesHub],
     [/^\/games\/vocab\/(\d+)$/, n => vocabGame().setPage(+n - 1)],
@@ -373,6 +374,7 @@
     [/^\/progress$/, progressPage],
     [/^\/news$/, newsPage],
     [/^\/fvu(?:\/(\d))?$/, fvuPage],
+    [/^\/pd3guide$/, pd3GuidePage],
     [/^\/backup$/, backupPage],
     [/^\/feedback(?:\/([1-5]))?$/, feedbackPage]
   ];
@@ -542,6 +544,8 @@
         <span class="small muted">${due ? `${due} kort klar: dine fejl, svære ord og nye ord` : "Lær nye ord fra listen over de 3000 hyppigste"}</span></span>
         <span class="pill">${due ? due : "Start"}</span></a>`; })()}
       <a class="card plan-banner news-banner" href="#/news" id="newsBanner" hidden></a>
+      ${S.exam === "pd3" && PD2.PD3_GUIDE ? `<a class="card plan-banner" href="#/pd3guide"><span class="pb-ico">🧭</span><span class="pb-meta"><b>PD3-guide: strategier og ordlister</b>
+        <span class="small muted">Sådan griber du læsning, skrivning og mundtlig an – plus bindeord og faste vendinger</span></span><span class="pill">Ny</span></a>` : ""}
       <a class="card plan-banner" href="#/fvu"><span class="pb-ico">📗</span><span class="pb-meta"><b>FVU-dansk trin 1–4</b>
         <span class="small muted">Eksempelopgaver i læsning og stavning · flere kommer snart</span></span><span class="pill">Ny</span></a>
       ${(() => { const st = planStatus(); return `<a class="card plan-banner" href="#/plan">
@@ -1286,6 +1290,13 @@
         <span class="ico">🖼️</span><span class="meta"><b>${esc(p.title)}</b>${realTag(p)}<span class="small muted">Billede · ${p.interview.length} spørgsmål · samtale</span></span>${done(p.id)}</a>`).join("");
     const diaList = dia.map(d => `<a class="list-item" href="#/speaking/dialog/${d.id}">
         <span class="ico">💬</span><span class="meta"><b>${esc(d.title)}</b><span class="small muted">${d.lines.length} replikker</span></span>${done(d.id)}</a>`).join("");
+    const topics = EX().SPEAKING_TOPIC || [];
+    const topicList = topics.map(p => `<a class="list-item" href="#/speaking/topic/${p.id}">
+        <span class="ico">🖼️</span><span class="meta"><b>${esc(p.title)}</b>${p.session ? ` <span class="tag real">${esc(p.session)}</span>` : ""}<span class="small muted">2 billeder · 2 obligatoriske spørgsmål · modelsvar</span></span>${done(p.id)}</a>`).join("");
+    const topicSection = topics.length ? `
+        <h2 style="margin-top:24px">Delprøve 2 · Samtale ud fra billeder <span class="tag real">Rigtige prøveemner</span></h2>
+        <p class="small muted">Som til prøven: Du får to billeder om et emne, beskriver kort situationerne og svarer på to obligatoriske spørgsmål med opfølgende spørgsmål (ca. 4½ minut). Emner fra tidligere PD3-prøver om arbejde – med modelsvar.</p>
+        <div class="grid grid-2">${topicList}</div>` : "";
     const examFormat = pics.length > 0;
     app.innerHTML = `
       <h1>🗣️ Tale <span class="tag">${META().name} · ${META().cefr}</span></h1>
@@ -1308,13 +1319,13 @@
         <div class="grid grid-2">${monoList}</div>
         <h2 style="margin-top:24px">Delprøve 2 · Billede og samtale</h2>
         <p class="small muted">Som til prøven: Se på billedet i ½ minut, beskriv det, og svar på spørgsmål (ca. 3 minutter). Derefter en samtale med en anden prøvedeltager (ca. 4 minutter).</p>
-        <div class="grid grid-2">${picList}</div>
+        <div class="grid grid-2">${picList}</div>${topicSection}
         <h2 style="margin-top:24px">Ekstra · Rollespil</h2>
         <p class="small muted">Eksaminator siger en replik. Du svarer. I skal blive enige.</p>
         <div class="grid grid-2">${diaList}</div>` : `
         <h2 style="margin-top:24px">Monolog + samtale</h2>
         <p class="small muted">Forbered dig, tal om emnet, og svar på opfølgende spørgsmål.</p>
-        <div class="grid grid-2">${monoList}</div>
+        <div class="grid grid-2">${monoList}</div>${topicSection}
         <h2 style="margin-top:24px">Dialog</h2>
         <p class="small muted">Eksaminator siger en replik. Du svarer. I skal blive enige.</p>
         <div class="grid grid-2">${diaList}</div>`}
@@ -1701,6 +1712,144 @@
     }
     choose();
   }
+
+  // ---------- PD3 mundtlig delprøve 2: samtale om et emne ud fra to billeder (rigtige prøveemner) ----------
+  // Data: PD2.EXAMS.pd3.SPEAKING_TOPIC (js/data-pd3-oral.js). The examiner shows two pictures, asks for a
+  // short description, then the first obligatory question (A or B) + follow-up and the second one + follow-up.
+  function modelHtml(txt) {
+    return String(txt || "").split(/\n\n+/).map(par => {
+      const lines = par.split("\n");
+      const items = lines.filter(l => /^\s*[-•→]\s*/.test(l));
+      if (items.length && items.length >= lines.length - 1) {
+        const head = lines.find(l => !/^\s*[-•→]\s*/.test(l));
+        return `${head ? `<p><b>${esc(head)}</b></p>` : ""}<ul>${items.map(l => `<li>${esc(l.replace(/^\s*[-•→]\s*/, ""))}</li>`).join("")}</ul>`;
+      }
+      return `<p>${esc(par).replace(/\n/g, "<br>")}</p>`;
+    }).join("");
+  }
+  function speakingTopic(id) {
+    const p = findItem("SPEAKING_TOPIC", id);
+    if (!p) return speakingList();
+    const steps = ["Se billederne", "Beskriv", "1. spørgsmål", "2. spørgsmål", "Færdig"];
+    let talked = 0, rec = null, t0 = 0, audioUrl = null, letter = Math.random() < 0.5 ? "A" : "B";
+    const pics = () => `<div class="topic-pics">${p.pictures.map(x => `<figure class="photo"><img src="${esc(x.file)}" alt="${esc(x.alt || x.caption || "Billede til emnet")}" loading="lazy">${x.caption ? `<figcaption><b>${esc(x.caption)}</b></figcaption>` : ""}</figure>`).join("")}</div>`;
+    const model = (txt, label = "💡 Vis modelsvar") => txt ? `<details class="model-ans"><summary>${label}</summary><div class="model">${modelHtml(txt)}</div></details>` : "";
+    function shell(inner, stepIdx) {
+      app.innerHTML = `
+        <a class="back" href="#/speaking">← Alle taleopgaver</a>
+        <h1>🖼️ ${esc(p.title)} <span class="tag real">Emne fra prøven${p.session ? ` · ${esc(p.session)}` : ""}</span></h1>
+        <div class="grid" style="grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:20px" id="pl">
+          <div class="card stage">
+            <div class="steps">${steps.map((s, i) => `<span class="${i === stepIdx ? "on" : i < stepIdx ? "done" : ""}">${i + 1}. ${s}</span>`).join("")}</div>
+            ${inner}
+          </div>
+          <div class="card">
+            <h3>💬 Nyttige vendinger</h3>
+            <div class="chips">${PD3_TOPIC_PHRASES.map(x => `<span class="chip">${esc(x)}</span>`).join("")}</div>
+            <details class="info" style="margin-top:14px"><summary>💡 Ord du kan bruge om billederne</summary>
+              <div class="chips">${p.pictures.flatMap(x => x.words || []).map(w => `<span class="chip">${esc(w)}</span>`).join("")}</div></details>
+            <p class="small muted" style="margin-top:14px">Til prøven trækker du et af tre emner. Delprøve 2 varer ca. 4½ minut. Svar med en mening, en begrundelse og et eksempel – og se gerne sagen fra flere sider.</p>
+          </div>
+        </div>`;
+      if (innerWidth < 900) $("#pl").style.gridTemplateColumns = "1fr";
+    }
+    const answerBox = `<div class="transcript" id="tr" style="max-width:560px;margin:14px auto"><i>Tryk på mikrofonen og svar.</i></div>
+      <div class="row" style="justify-content:center"><button class="btn rec" id="mic">🎙️ Svar</button><button class="btn speak" id="next"></button></div>`;
+    function micControls(onNext, nextLabel) {
+      const mic = $("#mic");
+      mic.onclick = async () => {
+        if (!rec) { rec = makeRecorder($("#tr")); await rec.start(); t0 = Date.now(); mic.classList.add("on"); mic.textContent = "⏹ Stop"; }
+        else { talked += (Date.now() - t0) / 1000; const u = await rec.stop(); if (u) audioUrl = u; rec = null; mic.classList.remove("on"); mic.textContent = "🎙️ Svar igen"; }
+      };
+      $("#next").textContent = nextLabel;
+      $("#next").onclick = async () => {
+        if (rec) { talked += (Date.now() - t0) / 1000; const u = await rec.stop(); if (u) audioUrl = u; rec = null; }
+        onNext();
+      };
+    }
+    function ask(phase, stepIdx, q, answer, next, nextLabel, extra = "") {
+      shell(`
+        <span class="phase">${phase}</span>
+        ${extra}
+        <div class="bubble">🧑‍🏫 ${esc(q)}</div>
+        <div class="row" style="justify-content:center;margin-top:10px"><button class="btn ghost sm" id="say">🔊 Hør igen</button></div>
+        ${answerBox}
+        ${model(answer)}
+        <details class="info" style="margin-top:10px"><summary>🖼️ Se billederne igen</summary>${pics()}</details>`, stepIdx);
+      speak(q);
+      $("#say").onclick = () => speak(q);
+      micControls(next, nextLabel);
+    }
+    function look() {
+      let left = 10;
+      const intro = p.intro || `Her er der to billeder til emnet '${p.title}'.`;
+      shell(`
+        <span class="phase">Se på billederne</span>
+        <div class="bubble">🧑‍🏫 ${esc(intro)} Du har nu ca. 10 sekunder til at kigge på billederne.</div>
+        <div class="clock" id="clock" style="font-size:2.4rem">${fmtTime(left)}</div>
+        ${pics()}
+        <button class="btn speak" id="ready">Jeg er klar</button>`, 0);
+      speak(intro + " Du har nu ca. 10 sekunder til at kigge på billederne.");
+      every(1000, () => { left--; const c = $("#clock"); if (c) c.textContent = fmtTime(Math.max(0, left)); if (left <= 0) describe(); });
+      $("#ready").onclick = describe;
+    }
+    function describe() {
+      clearTimers();
+      const q = "Vil du godt beskrive kort, hvad der sker i de to situationer?";
+      shell(`
+        <span class="phase">Beskriv billederne</span>
+        ${pics()}
+        <div class="bubble">🧑‍🏫 ${esc(q)}</div>
+        ${answerBox}`, 1);
+      speak(q);
+      micControls(first, "Videre til 1. spørgsmål →");
+    }
+    function first() {
+      const f = p.first[letter];
+      const other = letter === "A" ? "B" : "A";
+      ask(`Første obligatoriske spørgsmål · ${letter}`, 2, f.q, f.answer, () => firstFollow(), "Opfølgende spørgsmål →",
+        p.first[other] && p.first[other].q ? `<p class="small muted">Eksaminator vælger spørgsmål A eller B. <button class="btn ghost sm" id="swap">Prøv spørgsmål ${other} i stedet</button></p>` : "");
+      const sw = $("#swap"); if (sw) sw.onclick = () => { letter = other; first(); };
+    }
+    function firstFollow() {
+      const f = p.first[letter];
+      if (!f.follow) return second();
+      ask("Opfølgende spørgsmål", 2, f.follow, f.followAnswer, second, "Videre til 2. spørgsmål →");
+    }
+    function second() {
+      ask("Andet obligatoriske spørgsmål", 3, p.second.q, p.second.answer, () => p.second.follow ? secondFollow() : done(), p.second.follow ? "Opfølgende spørgsmål →" : "Afslut");
+    }
+    function secondFollow() {
+      ask("Opfølgende spørgsmål", 3, p.second.follow, p.second.followAnswer, done, "Afslut");
+    }
+    function done() {
+      speak("Tak, så er prøven forbi.");
+      const all = [["Første obligatoriske spørgsmål A", p.first.A], ["Første obligatoriske spørgsmål B", p.first.B], ["Andet obligatoriske spørgsmål", p.second]]
+        .filter(x => x[1] && x[1].q);
+      shell(`
+        <span class="phase">Tak, så er prøven forbi. 🎉</span>
+        <div class="row" style="justify-content:center;gap:12px;margin:12px 0 16px"><span class="pill">⏱️ ${fmtTime(talked)} talt</span></div>
+        ${audioUrl ? `<p><b>Hør dit sidste svar:</b></p><audio controls src="${audioUrl}" style="width:100%;max-width:480px"></audio>` : ""}
+        <ul class="points-list small" style="margin-top:14px;text-align:left">
+          <li>Gav jeg min mening og begrundede den med "fordi …" og et eksempel?</li>
+          <li>Så jeg sagen fra flere sider (fordele og ulemper)?</li>
+          <li>Gik jeg fra billederne til mere generelle synspunkter om samfundet?</li>
+          <li>Brugte jeg forbinderord som "desuden", "derimod" og "alt i alt"?</li>
+        </ul>
+        <div class="topic-review">${all.map(([h, x]) => `<div class="card"><h3>${h}</h3><p><b>${esc(x.q)}</b></p>${model(x.answer, "💡 Modelsvar")}
+          ${x.follow ? `<p style="margin-top:10px"><b>Opfølgende:</b> ${esc(x.follow)}</p>${model(x.followAnswer, "💡 Modelsvar")}` : ""}</div>`).join("")}
+          ${p.conclusion ? `<div class="card"><h3>Konklusion</h3><div class="model">${modelHtml(p.conclusion)}</div></div>` : ""}</div>
+        <p class="small muted">Modelsvarene er skrevet af en kursist som eksempel – brug dem som inspiration, ikke som facitliste.</p>
+        <div class="row" style="justify-content:center;margin-top:16px">
+          <button class="btn speak" id="again">Øv igen</button>
+          <a class="btn ghost" href="#/speaking">Nyt emne</a>
+        </div>`, 4);
+      finishSpeaking(p.id, talked, true);
+      $("#again").onclick = () => speakingTopic(id);
+    }
+    look();
+  }
+  const PD3_TOPIC_PHRASES = ["På det ene billede kan man se …", "Det andet billede viser …", "Jeg tror, at det skyldes, at …", "En fordel er, at … En ulempe er derimod, at …", "Det kommer an på …", "Set fra arbejdsgiverens side …", "Alt i alt mener jeg, at …"];
 
   function speakingDialog(id) {
     const d = findItem("SPEAKING_DIALOG", id);
@@ -3859,6 +4008,35 @@
     };
   }
 
+  // ---------- 🧭 PD3-guide (strategies + word lists, data in js/pd3-guide.js) ----------
+  function pd3GuidePage() {
+    const G = PD2.PD3_GUIDE;
+    if (!G) { location.hash = "#/"; return; }
+    const tbl = (rows, cols) => `<div class="table-wrap"><table class="simple guide-tbl"><tr>${cols.map(c => `<th>${c}</th>`).join("")}</tr>
+      ${rows.map(r => `<tr>${r.map((c, i) => `<td${i === 0 ? ' class="da"' : i === 1 ? ' lang="en"' : ""}>${esc(c)}</td>`).join("")}</tr>`).join("")}</table></div>`;
+    const sec = (id, title, body, open) => `<details class="card guide-sec" id="g-${id}"${open ? " open" : ""}><summary><h2>${title}</h2></summary>${body}</details>`;
+    app.innerHTML = `<a class="back" href="#/">← Forside</a>
+      <h1>🧭 PD3-guide</h1>
+      <p class="muted">Strategier til alle dele af Prøve i Dansk 3 – og ordlister med bindeord, forbinderord og faste vendinger til argumentation. Forklaringerne er på engelsk, eksemplerne på dansk.</p>
+      <div class="row guide-jump">${G.sections.map(x => `<a class="btn ghost sm" href="#/pd3guide" data-jump="g-${x.id}">${x.icon} ${esc(x.title.split(" – ")[0])}</a>`).join("")}
+        <a class="btn ghost sm" href="#/pd3guide" data-jump="g-words">📚 Ordlister</a></div>
+      ${sec("overview", "📋 Prøven kort", `<ul lang="en">${G.overview.map(t => `<li>${esc(t)}</li>`).join("")}</ul>`, true)}
+      ${G.sections.map(x => sec(x.id, `${x.icon} ${esc(x.title)}`, x.parts.map(pt => `<h3 lang="en">${esc(pt.h)}</h3><ul lang="en">${pt.tips.map(t => `<li>${esc(t)}</li>`).join("")}</ul>`).join(""))).join("")}
+      ${G.templates && G.templates.length ? sec("templates", "🧱 Skabeloner", G.templates.map(t => `<h3>${esc(t.h)}</h3><p class="guide-da">${esc(t.da)}</p>`).join("")) : ""}
+      ${G.examples && G.examples.length ? sec("examples", "📝 Eksempler på punkt 3", G.examples.map(t => `<h3>${esc(t.h)}</h3><div class="model">${modelHtml(t.da)}</div>`).join("")) : ""}
+      <div id="g-words"></div>
+      ${sec("conj", "🔗 Konjunktioner (bindeord)", tbl(G.conjunctions, ["Dansk", "English", "Eksempel"]))}
+      ${sec("conn", "➡️ Forbinderord", `<p class="small muted" lang="en">Remember inversion: when a connector starts the sentence, the verb comes before the subject (Desuden <b>er</b> det billigt).</p>` + tbl(G.connectors, ["Dansk", "English", "Eksempel"]))}
+      ${sec("phr", "💬 Faste vendinger til argumentation", tbl(G.phrases, ["Dansk", "English"]))}
+      ${sec("vocab", `📚 Svære ord (${G.vocab.length})`, tbl(G.vocab, ["Dansk", "English"]))}
+      <p class="small muted">Bygger på en guide, som kursister har delt ("How to PD3"), omskrevet og tjekket af DanskKlar. Tjek altid de officielle regler for prøven.</p>`;
+    $$("[data-jump]").forEach(a => a.onclick = e => {
+      e.preventDefault();
+      const t = document.getElementById(a.dataset.jump);
+      if (t) { if (t.tagName === "DETAILS") t.open = true; t.scrollIntoView({ behavior: "smooth", block: "start" }); }
+    });
+  }
+
   // ---------- 📗 FVU-dansk trin 1–4 (sample tasks in js/fvu.js) ----------
   function fvuPage(trin) {
     S.fvu = S.fvu || {};
@@ -4175,6 +4353,7 @@
       ["🔁", "Daily review", "Spaced repetition of your mistakes, hard words, verb forms and new words – each card comes back at the right time.", "#/review"],
       ["❌", "My mistakes", "All your wrong answers in one place, so you can practise them again.", "#/mistakes"],
       ["📊", "My progress", "XP per day, your strong and weak reading task types, which exam sets you have done, and your review cards.", "#/progress"],
+      ["🧭", "PD3 guide", "For PD3: strategies for reading, writing and the oral exam, writing templates, and word lists (conjunctions, connectors, phrases for arguing, hard words). Shown on the home page when PD3 is selected.", "#/pd3guide"],
       ["📗", "FVU-dansk trin 1–4", "Sample reading and spelling tasks for the four FVU-dansk levels (trin 1 easiest, trin 4 hardest), with answers explained. These are DanskKlar's own practice tasks, not official tests – more are coming soon. Find it on the home page, the start screen or in ⚙️ Settings.", "#/fvu"],
       ["📰", "Today's news", "Short Danish news headlines from DR, updated a few times a day. Tap 🇬🇧 Vis engelsk for an English translation, 🔊 to hear it read aloud, and point at any word for its meaning. Find it on the home page or in ⚙️ Settings.", "#/news"],
       ["⏰", "Daily reminder", "Settings ⚙️ → Daily reminder adds a 15-minute practice reminder at 19:00 to your phone's calendar.", ""]

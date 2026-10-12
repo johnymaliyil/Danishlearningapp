@@ -963,3 +963,22 @@ a.help-item:hover { border-color: var(--read); }
 .fvu-text p { margin: 0 0 12px; }
 .soon-note { border-style: dashed; margin-top: 16px; }
 .start-fvu { max-width: 720px; margin: 18px auto 0; }
+
+/* 🖼️ PD3 samtale om emne + 🧭 PD3-guide */
+.topic-pics { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin: 12px 0; }
+.topic-pics .photo { margin: 0; }
+.topic-pics img { width: 100%; height: auto; border-radius: 12px; background: #fff; }
+.model-ans { margin-top: 12px; text-align: left; }
+.model-ans summary { cursor: pointer; font-weight: 700; }
+.model-ans .model, .topic-review .model { margin-top: 8px; padding: 12px 14px; border-radius: 12px; background: var(--surface-2); }
+.topic-review { display: grid; gap: 12px; margin-top: 16px; text-align: left; }
+.guide-sec > summary { cursor: pointer; list-style: none; }
+.guide-sec > summary h2 { display: inline; margin: 0; }
+.guide-sec > summary::-webkit-details-marker { display: none; }
+.guide-sec > summary::after { content: " ▾"; color: var(--muted); }
+.guide-sec[open] > summary::after { content: " ▴"; }
+.guide-sec { margin-top: 12px; scroll-margin-top: 130px; }
+.guide-jump { margin: 10px 0 4px; }
+.guide-da { padding: 10px 12px; border-radius: 12px; background: var(--surface-2); }
+.table-wrap { overflow-x: auto; }
+.guide-tbl td.da { font-weight: 700; white-space: nowrap; }
