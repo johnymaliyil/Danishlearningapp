@@ -103,6 +103,198 @@ Object.assign(PD2.WHY, {
 "da": "De smukke gamle huse og historien er noget, nettet og storcentrene ikke kan konkurrere med, altså «en fordel»."
 }
 },
+"pd3-21m-1": {
+"q0": {
+"da": "Signe Larsen skriver: Teatret anbefaler tre år, «men der er høje lyde, så jeg vil anbefale en minimumsalder på fem år»."
+},
+"q1": {
+"da": "Christian Lollike erstatter Holbergs hyggehumor med «en satirisk tone og et tema om danskhed» – og det tema «gør stykket mere aktuelt»."
+},
+"q2": {
+"da": "Stina Hansen skriver, at «det vigtigste er, hvordan skuespillerne synger. Og de synger godt», derfor er det gode skuespillere. Ifølge forcensuren godkendes begge dele."
+},
+"q3": {
+"da": "Teatret ønsker at «fortælle specielt yngre generationer om den komplicerede fortid»."
+},
+"q4": {
+"da": "Under Rundvisning på Gamle scene: «besøg skræddersalen, hvor de eventyrlige kostumer til teaterets forestillinger bliver lavet»."
+},
+"q5": {
+"da": "Under Aarhus Teater – bag kulissen: Rundvisninger sker «under hensyntagen til kunsten. Der kan være prøver på scener», så turen ikke altid går forbi alle scener."
+},
+"q6": {
+"da": "Under Guidet tur i Rønne Theater: «Varighed: ca. 60-90 min. – afhænger af gruppens spørgelyst»."
+},
+"q7": {
+"da": "Kjeld Abell-prisen «blev første gang uddelt i 1976». Pas på: Abell døde i 1961, og fonden blev oprettet da."
+},
+"q8": {
+"da": "Teaterpokalen «er udformet som en sølvskål designet af Manuel Sjødahl». Ifølge forcensuren er «sølv» nok, og hele formuleringen godkendes også."
+},
+"q9": {
+"da": "«Årets hæderspris på 200.000 kr. har en særlig betydning ved uddelingen»."
+},
+"q10": {
+"da": "Under Gamle Scene: Kørestolspladserne «kan bestilles senest en uge før forestillingen»."
+},
+"q11": {
+"da": "Til de mindre scener skal man ind ad indgangen til højre, «og man skal forbi vores billetservice for at få adgang til foyeren og disse scener». Ifølge forcensuren godkendes både «billetservice» og «foyeren»."
+},
+"q12": {
+"da": "Om turneforestillinger: «samarbejder Bornholms Teater med andre professionelle teatre i Danmark»."
+},
+"q13": {
+"da": "«fra sommeren 2015 til og med 2017 blev revyen erstattet af en række Holberg-forestillinger»."
+},
+"q14": {
+"da": "Gamle scene har plads til 306, men med udvidet scenegulv «mindskes kapaciteten til ca. 260 personer»."
+}
+},
+"pd3-21m-2": {
+"q0": {
+"da": "Parret siger: «Vi ønsker også at være gode rollemodeller for vores børn … det er vigtigt, at børn lærer, at man skal gøre noget». De venter netop ikke på politikerne (B) – C."
+},
+"q1": {
+"da": "Torben troede ikke, han kunne vænne sig til toget, «men det kunne jeg, og det gik endda hurtigt». Det var «sværere for mig at undvære kød» – A. De holder stadig ferie i Europa (B)."
+},
+"q2": {
+"da": "Marianne: «Før man gør noget som helst andet, bør man sikre sig, at familien bakker op om projektet» – B. Man behøver ikke ændre alt (A) og kan godt beholde traditionerne (C)."
+},
+"q3": {
+"da": "«Mennesker har altid udledt drivhusgasser», og drivhusgasser «findes faktisk naturligt i Jordens atmosfære» – A. Uden dem ville livet være «helt forskelligt», ikke umuligt (B)."
+},
+"q4": {
+"da": "Han siger: «I første omgang må vi lade det være op til markedet og forbrugeren, og hvis det ikke er nok, så må politikere … arbejde for at få globale regler» – B, ikke «alene markedet» (C)."
+},
+"q5": {
+"da": "Folk har hørt om klimaforandringer, men «de ved ikke, hvordan de kan være med til at løse dem» – «De vidste ganske enkelt ikke, hvad de skulle gøre» – C."
+},
+"q6": {
+"da": "«Vi har meget svært ved at reagere på klimaproblemet, fordi vi oplever, det ligger ude i fremtiden» – man reagerer først, «når kælderen flyder med vand» – A."
+}
+},
+"pd3-21m-3": {
+"g1": {
+"da": "Hun har gjort meget for at finde et job, men et job er det «imidlertid» (dog) ikke blevet til endnu – en modsætning."
+},
+"g2": {
+"da": "Den lange dagpengeperiode kan være en «årsag til», at der går lang tid, før nogle nyuddannede får det første job."
+},
+"g3": {
+"da": "Thea mener selv, at den lange periode betyder noget: «Uden den lange dagpengeperiode mener hun, at hun hurtigere ville være gået i gang med at søge job uden for sit fagområde». Med «da heller ikke» bliver sætningen: hun afviser ikke, at den har haft betydning – «afviser»."
+},
+"g4": {
+"da": "Hun mener, reglerne påvirker, hvor bredt man søger – så hvis folk skal hurtigere i arbejde, er det måske «nødvendigt» at ændre reglerne."
+},
+"g5": {
+"da": "Det er allerede nævnt, at hendes dagpenge «stopper snart» – derfor «som nævnt»."
+},
+"g6": {
+"da": "Næste sætning siger, at mange af dem «er negative» – det er altså «holdninger til», at nyuddannede går ledige."
+},
+"g7": {
+"da": "Camilla Gregersen mener det modsatte af Hans Andersen: de højtuddannede skal søge job, der passer til uddannelsen – «derimod»."
+},
+"g8": {
+"da": "Arbejdsgiverne siger «nej tak» til overkvalificerede ansøgere, så der er ikke noget «ønske om» at ansætte dem."
+}
+},
+"pd3-21n-1": {
+"q0": {
+"da": "Under «Rundvisning på museet» står der: «Ved ønske om rundvisning med fokus på et særligt emne kan rundvisningen varetages af en museumsinspektør: Pris 2.000 kr. + entré.» (550 kr. er prisen for en almindelig rundviser.)"
+},
+"q1": {
+"da": "Om Histotoriet står der: «det er bedst, hvis børn og voksne følges ad, for udstillingen lægger op til, at børn og voksne taler sammen». Forcensuren godkender også «de taler sammen»."
+},
+"q2": {
+"da": "Den kinesiske turist skriver: «På museet var der rigtigt meget at læse om H.C. Andersens liv, og jeg var meget begejstret for at se de originale genstande.»"
+},
+"q3": {
+"da": "OFF «lever året rundt … blandt andet gennem projektet Film for alle, hvor OFF året rundt støtter den danske filmkultur»."
+},
+"q4": {
+"da": "Der bruges ca. 100.000 planter «fra de danske gartnerier for at udsmykke byen, så festivalen brander også gartnerierhvervet»."
+},
+"q5": {
+"da": "Man belønnes med point for hver solgt billet, og «De optjente point kan bruges til at købe billetter og merchandise»."
+},
+"q6": {
+"da": "Om SPIS! står der: «Samtidig debatteres mad- og måltidskultur sammen med gæsterne.» Rettenøglen godkender «mad(kultur) / måltidskultur»."
+},
+"q7": {
+"da": "Om Restaurant Grand: «Da det er uddannede tjenere, der serverer, kan man som gæst være sikker på en professionel håndtering af mad, vin og gæster.»"
+},
+"q8": {
+"da": "Nej: «Hvis man kun har kontanter med i Storms Pakhus, skal man først veksle disse til et kreditkort i den bar, der hedder Vakse Viggo.» Boderne tager altså ikke selv kontanter."
+},
+"q9": {
+"da": "«Ind mod Brandts Passage ligger caféens gårdhave, der gør det muligt uanset årstid at sidde udenfor. Her er der af og til mulighed for at opleve caféens egen live-musik.» Ud til Vestergade hører man musikken fra gågaden, ikke caféens egen."
+},
+"q10": {
+"da": "I Odense Zoo kan man spise sin medbragte mad ved borde og bænke i haven «eller trække indenfor i madpakkehuset, Atollen»."
+},
+"q11": {
+"da": "«Museets skiftende udstillinger består oftest af dansk og international billedkunst eller fotokunst.»"
+},
+"q12": {
+"da": "Om Den Fynske Landsby står der: «Museets aktiviteter er tilpasset landbrugets opgaver.» Forcensuren godkender også «for at gøre besøget mere autentisk» (aktiviteterne «er med til at gøre jeres besøg meget autentisk»)."
+},
+"q13": {
+"da": "«I 980-erne … byggede Kong Harald Blåtand en ringborg til soldater syd for Odense Å, ved Nonnebakken.»"
+},
+"q14": {
+"da": "«… blev jernbanen mellem Nyborg og Middelfart via Odense først åbnet i 1865»."
+}
+},
+"pd3-21n-2": {
+"q0": {
+"da": "B: På andet år er der mange skriftlige opgaver, «som lærerne ikke altid får samarbejdet godt nok om at fordele jævnt over skoleåret». Teksten siger ikke, at opgaverne er for svære (A), og det er eleverne, der ikke tør tale med lærerne om problemer – ikke lærerne, der ikke accepterer dem (C)."
+},
+"q1": {
+"da": "B: Ida siger selv, at hun ikke kunne klare ikke at få topkarakterer som pigerne i klassen: «jeg oplevede det som om, jeg ikke var god nok … og det blev til sidst for meget for mig og endte med min sygemelding». Psykologi (A) og politikerne er kun en medvirkende årsag, og de mange afleveringer var på andet år, ikke i 3.g (C)."
+},
+"q2": {
+"da": "C: Faderen siger, at de unge har mange muligheder, men «lægger … også mere pres på sig selv for at præstere hver eneste dag i skolen, så de kan holde mulighederne åbne». Han siger ikke, at de har mindre grund til stress (A), og forældrene stiller ikke krav – de vil lære de unge, at det er i orden ikke at få topkarakter (B)."
+},
+"q3": {
+"da": "A: Nanna Eller mener, at feedback «med fokus på, hvor eleverne har udviklet sig» i stedet for karakterer «er den rigtige vej at gå», og at der skal være «mere fokus på læring og mindre på karakterer». B og C står ikke i teksten."
+},
+"q4": {
+"da": "A: Rapporten konkluderer, at «unge, der trives i hverdagen, også trives godt med de sociale medier. Det modsatte gør sig gældende for unge, der ikke har det godt.» De unge adskiller netop ikke livet på de sociale medier fra resten af livet (B)."
+},
+"q5": {
+"da": "B: De unge, der ikke får stress, er gode til «at give sig selv tid til at dyrke sport og socialt samvær, og det giver dem en pause fra at skulle præstere». De bruger mindre energi på nogle opgaver, men dropper dem ikke (C), og de er åbne for mange veje til en god uddannelse (ikke A)."
+},
+"q6": {
+"da": "C: Thomas Pape mener, at drengene «er en overset gruppe, der ikke er så meget fokus på». Teksten siger intet om, hvor hurtigt de kommer igennem et stressforløb (A), og drengene har færre stresstilfælde pga. deres «selektive lektiestrategi», ikke fordi voksne presser dem mindre (B)."
+}
+},
+"pd3-21n-3": {
+"g1": {
+"da": "A «indflydelse på»: Overskriften og resten af teksten handler om at få «større indflydelse på» arbejdstiden; mange offentligt ansatte har ikke samme indflydelse på, hvor og hvornår de arbejder."
+},
+"g2": {
+"da": "D «skyldes»: Forskellen har sin årsag i, at mange offentligt ansatte arbejder med pleje eller pasning, hvor de skal være fysisk til stede – «skyldes i høj grad, at …»."
+},
+"g3": {
+"da": "C «derfor»: Fordi kommunerne ønsker at give de ansatte større indflydelse (sætningen før), har flere kommuner «derfor» planer om mere fleksibilitet."
+},
+"g4": {
+"da": "A «effekten af»: Sætningen handler om, at virkningen af øget fleksibilitet, «fx i forhold til et forbedret fysisk og psykisk arbejdsmiljø», endnu ikke er veldokumenteret."
+},
+"g5": {
+"da": "B «Som nævnt»: At mange arbejder med pleje eller pasning, er allerede sagt i andet afsnit, så det gentages «Som nævnt»."
+},
+"g6": {
+"da": "C «kræver»: Hvis nogle ansatte skal arbejde færre timer, er det en forudsætning, at andre går op i tid, eller at man bruger flere vikarer – det «kræver» dette."
+},
+"g7": {
+"da": "D «muligt»: Næste sætning begrunder det med «nemlig»: nogle unge ansatte vil gerne arbejde mere i perioder, så det er «muligt at undgå» flere vikarer."
+},
+"g8": {
+"da": "D «Således»: Den sidste sætning opsummerer konklusionen af det foregående (= på denne måde/altså): de offentligt ansatte kan også få et mere fleksibelt arbejdsliv."
+}
+},
 "pd3-22m-1": {
 "q0": {
 "da": "Under Anholtfærgen står der: «Om søndagen afgår færgen fx først fra Anholt ved middagstid, så turister kan have formiddagen på øen»."
