@@ -8,7 +8,7 @@
 // with the corrections from the forcensur passed on to us: delprøve 1 items 5, 10 and 15 get the
 // widened answers, and in delprøve 2B item 7 every candidate got the point because of an error in the
 // teksthæfte (the text has "(7) ... på arbejdskraft", so the key "mangel på" gives "mangel på på").
-// Item 7 therefore accepts all four options here; the text is kept as printed.
+// The app corrects the text (the extra "på" is removed), so item 7 is scored by the key again: B "mangel på".
 // The short-answer accept lists add reasonable variants of the vejledende rettenøgle.
 // Pictures and logos from the tekstsamling are left out (they are not needed for any answer).
 // This session has only delprøve 2A (7 × multiple choice, two texts) and 2B (8 × A-D gaps) in
@@ -16,8 +16,8 @@
 // Points at the exam: delprøve 1 = 15 × 1, 2A = 7 × 2, 2B = 8 × 1 → 37 points.
 // Omregningstabel (vinter 2020): 37-36 = 12, 35-32 = 10, 31-26 = 7, 25-21 = 4, 20-19 = 02, 18-10 = 00, 9-0 = -3.
 // The app scores every question as 1, so 2A counts half as much here as at the exam.
-// Kept as printed: the missing opening quotation mark before "Det var det helt rigtige" in tekst 1 of 2A,
-// and the missing comma in the oral question "Mange af dem, der arbejder frivilligt er pensionister".
+// Printing errors corrected in the app: the missing opening quotation mark before "Det var det helt rigtige" in tekst 1 of 2A,
+// and the missing comma in the oral question "Mange af dem, der arbejder frivilligt, er pensionister".
 // The writing task wording, the friend's e-mail, the oral questions and the chart labels are copied
 // from the papers; the chart values are read off the bar chart (ca.-values). All model answers are our
 // own (the papers have none).
@@ -359,7 +359,7 @@ Skiftet fra det ene job til det andet har været en glidende overgang. Trine Sun
 
 Kollegerne i den nye afdeling kendte hun godt i forvejen, fordi hun som geotekniker har haft en del samarbejde med jernbaneafdelingen på bl.a. Ringsted-Femern-banen. Fremover kommer hun sandsynligvis til at arbejde på jernbaneprojekter i Norge. Efter ti år i det samme team har det da også været lidt vemodigt at sige farvel til sine gamle kolleger: ”Det sværeste har helt klart været det sociale, fordi jeg har været rigtig glad for at være i mit team.”
 
-Det betyder dog ikke, at hun har fortrudt et øjeblik – tværtimod: Det var det helt rigtige. Før havde jeg et fagligt fællesskab inden for geoteknik. I dag sidder jeg i et team, hvor jeg kan få faglig sparring inden for projektledelse. Det kunne jeg ikke før.”
+Det betyder dog ikke, at hun har fortrudt et øjeblik – tværtimod: ”Det var det helt rigtige. Før havde jeg et fagligt fællesskab inden for geoteknik. I dag sidder jeg i et team, hvor jeg kan få faglig sparring inden for projektledelse. Det kunne jeg ikke før.”
 
 *Ingeniøren den 16.04.2018: ’Internt jobskifte opfyldte karrieredrøm’.*
 
@@ -418,7 +418,7 @@ Når ansatte i korte midlertidige ansættelser generelt foretrækker en længere
     title: "Delprøve 2B – Danske firmaer tager samfundsmæssigt ansvar",
     kind: "Læseforståelse 2 · vælg det rigtige ord/udtryk (A-D)",
     level: 3, minutes: 20,
-    instruction: "Læs teksten Danske firmaer tager samfundsmæssigt ansvar. Der er fjernet otte ord eller udtryk, og de otte huller er angivet med tallene 1-8. For hvert hul (1-8) er der angivet fire ord eller udtryk: A, B, C og D. Vælg det ord eller udtryk, der passer til hvert af hullerne i teksten. Der er et eksempel angivet som 0. Der gives 1 point for hvert korrekt svar. (Ved prøven fik alle prøvedeltagere point i hul 7 på grund af en fejl i teksthæftet – derfor tæller alle svar i hul 7 som rigtige her.)",
+    instruction: "Læs teksten Danske firmaer tager samfundsmæssigt ansvar. Der er fjernet otte ord eller udtryk, og de otte huller er angivet med tallene 1-8. For hvert hul (1-8) er der angivet fire ord eller udtryk: A, B, C og D. Vælg det ord eller udtryk, der passer til hvert af hullerne i teksten. Der er et eksempel angivet som 0. Der gives 1 point for hvert korrekt svar.",
     text: `**Danske firmaer tager samfundsmæssigt ansvar**
 
 Corporate Social Responsibility (CSR), eller på dansk ’virksomhedens samfundsmæssige ansvar’, opstod i 1800-tallet i USA. Her donerede rige forretningsfolk penge til fx skoler og hospitaler i fattige bydele. [[0]] er CSR i dag andet og mere end blot donationer. CSR betegner i dag virksomheders arbejde med at integrere sociale og miljømæssige hensyn i deres forretningsaktiviteter i samspil med deres kunder.
@@ -431,7 +431,7 @@ At CSR har bredt sig hænger også sammen med, at der generelt er kommet mere fo
 
 Endelig kan [[4]] det øgede fokus på CSR være, at de sociale medier er mere udbredte i dag. Med de sociale medier er samfundet som helhed blevet mere åbent, fordi alle har nem adgang til både gode og dårlige nyheder og historier. Det er derfor vigtigt for en virksomhed at tage hensyn til miljøet og behandle de ansatte godt, så virksomheden kan få en god omtale.
 
-En klar CSR-profil er god reklame for en virksomhed, og [[5]] kan det blive lettere at finde nye medarbejdere i brancher, hvor der ikke er arbejdskraft nok. Det gælder særligt i forhold til de unge. En undersøgelse fra 2018 viser [[6]], at 75 % af lønmodtagerne mellem 24 og 34 år mener, at en arbejdsplads skal påvirke samfund og miljø positivt. Undersøgelsen viser også, at netop de unge skifter job ofte. I en tid med [[7]] på arbejdskraft er det derfor vigtigt med CSR-initiativer.
+En klar CSR-profil er god reklame for en virksomhed, og [[5]] kan det blive lettere at finde nye medarbejdere i brancher, hvor der ikke er arbejdskraft nok. Det gælder særligt i forhold til de unge. En undersøgelse fra 2018 viser [[6]], at 75 % af lønmodtagerne mellem 24 og 34 år mener, at en arbejdsplads skal påvirke samfund og miljø positivt. Undersøgelsen viser også, at netop de unge skifter job ofte. I en tid med [[7]] arbejdskraft er det derfor vigtigt med CSR-initiativer.
 
 Der er bred enighed i samfundet om, at det er positivt at arbejde for social inklusion, miljøbevidsthed og samfundsmæssigt ansvar. Alligevel er der [[8]] CSR’s plads i dansk erhvervsliv. Samtidig med at der er mange, der mener, at det er positivt, er der nemlig også kritikere, der mener, at virksomhederne netop kun bidrager, så længe de oplever, at det kan betale sig for dem.`,
     questions: [{
@@ -447,8 +447,8 @@ Der er bred enighed i samfundet om, at det er positivt at arbejde for social ink
         8: ["forventninger til", "fordele ved", "tillid til", "uenighed om"]
       },
       example: { 0: "Imidlertid" },
-      // 7: the key says B "mangel på", but the forcensur gave every candidate the point (error in the text).
-      answers: { 1: "eksempelvis", 2: "spare på", 3: "gevinst", 4: "en forklaring på", 5: "dermed", 6: "nemlig", 7: ["mangel på", "overskud af", "tilstrømning af", "masser af"], 8: "uenighed om" }
+      // 7: the key says B "mangel på". (At the exam everyone got the point because of a misprint, which the app corrects.)
+      answers: { 1: "eksempelvis", 2: "spare på", 3: "gevinst", 4: "en forklaring på", 5: "dermed", 6: "nemlig", 7: "mangel på", 8: "uenighed om" }
     }]
   };
 
@@ -640,7 +640,7 @@ Alt i alt mener jeg, at personalegoder kan forbedre arbejdsmiljøet, men kun hvi
           followAnswer: "Jeg tror, det kan betyde meget godt for familielivet. Forældre og børn får en fælles interesse, og de bruger mere tid sammen, fx til kampe i weekenden. Børnene kan også være stolte af, at deres mor eller far er træner. Men det kan også gå ud over familien, hvis den frivillige bruger flere aftener om ugen i klubben. Så har man mindre tid til de andre børn og til sin partner."
         },
         B: {
-          q: "Mange af dem, der arbejder frivilligt er pensionister. Hvorfor tror du, det er sådan?",
+          q: "Mange af dem, der arbejder frivilligt, er pensionister. Hvorfor tror du, det er sådan?",
           follow: "Hvad tror du, det betyder for pensionisters livskvalitet, at de arbejder frivilligt?",
           answer: "Jeg tror, det er, fordi pensionister har mere tid, når de er holdt op med at arbejde. Mange er stadig friske og vil gerne lave noget meningsfuldt. Når man ikke længere har kolleger, kan man let blive ensom, og i en genbrugsbutik møder man både andre frivillige og mange kunder. Desuden har mange pensionister en stor erfaring, som de gerne vil bruge til at hjælpe andre.",
           followAnswer: "Jeg tror, det betyder meget for deres livskvalitet. De får en fast struktur i hverdagen og en grund til at komme ud af huset. De føler sig også nyttige og får nye venner, så de bliver mindre ensomme. Det er godt for både helbredet og humøret at være aktiv. Min nabo arbejder frivilligt i en genbrugsbutik to dage om ugen, og hun siger, at det har givet hende et nyt netværk."

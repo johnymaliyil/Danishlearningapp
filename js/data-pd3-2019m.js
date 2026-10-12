@@ -16,8 +16,8 @@
 // Points at the exam: delprøve 1 = 15 × 1, 2A = 7 × 2, 2B = 8 × 1 → 37 points.
 // Omregningstabel (sommer 2019): 37-35 = 12, 34-31 = 10, 30-26 = 7, 25-22 = 4, 21-19 = 02, 18-10 = 00, 9-0 = -3.
 // The app scores every question as 1, so 2A counts half as much here as at the exam.
-// Kept as printed: "bornolmere" (teksthæfte, Søbadet), "overføre penge va sin mobiltelefon" (2A tekst 2),
-// the missing full stop after option C in 2A question 6, "Hun skriverr blandt andet" (skriftlig
+// Printing errors corrected in the app: "bornolmere" (teksthæfte, Søbadet), "overføre penge via sin mobiltelefon" (2A tekst 2),
+// the missing full stop after option C in 2A question 6, "Hun skriver blandt andet" (skriftlig
 // fremstilling, delprøve 1) and "udenfor klasselokalerne" (2B list).
 // The writing task wording, the friend's e-mail, the oral questions and the chart labels are copied
 // from the papers; the chart values are read off the bar chart (ca.-values). All model answers are our
@@ -189,7 +189,7 @@ Fra januar vil der blive trukket et månedligt gebyr på 25 kr. fra Cashless-kon
 
 **Søbadet**
 
-Smukfest er en af Danmarks mest mangfoldige festivaler – her er der både unge og ældre, direktører og studerende, jyder, københavnere og bornolmere. Derfor finder man også mange forskellige oplevelser i en række forskellige kategorier og for enhver smag i skoven.
+Smukfest er en af Danmarks mest mangfoldige festivaler – her er der både unge og ældre, direktører og studerende, jyder, københavnere og bornholmere. Derfor finder man også mange forskellige oplevelser i en række forskellige kategorier og for enhver smag i skoven.
 
 Ved Søbadet er der en række oplevelser at tage sig til, blandt andet kan man helt gratis sejle en tur på Skanderborg Sø.
 
@@ -339,7 +339,7 @@ Hver organisation må som udgangspunkt holde én husindsamling i hele landet om 
 
 Flere organisationer har også fået et samarbejde med supermarkeder. Her kan folk via et tryk på en knap på flaskeautomaterne donere panten fra deres tomme flasker til velgørenhed i stedet for selv at få pengene.
 
-I de senere år er det blevet mere og mere almindeligt at betale udgifter og overføre penge va sin mobiltelefon – især via sms og mobilepay. Det har også været medvirkende til, at flere har doneret penge til de velgørende organisationer. Overførsel via sin mobiltelefon er også mere praktisk for folk, der måske har gode intentioner om at donere penge, men ikke får taget sig sammen til at gøre det på computeren.
+I de senere år er det blevet mere og mere almindeligt at betale udgifter og overføre penge via sin mobiltelefon – især via sms og mobilepay. Det har også været medvirkende til, at flere har doneret penge til de velgørende organisationer. Overførsel via sin mobiltelefon er også mere praktisk for folk, der måske har gode intentioner om at donere penge, men ikke får taget sig sammen til at gøre det på computeren.
 
 **Fradrag i skat for velgørenhed**
 En anden væsentlig årsag til, at danskerne giver flere penge til velgørenhed kan være, at man kan få skattefradrag for bidragene. Siden 2012 har man kunnet trække selv de mindste donationer til velgørenhed fra i skat. En undersøgelse fra 2015 viser, at mere end hver fjerde dansker fik fradrag i skat for at give gaver til foreninger eller organisationer. Måske fordi det er blevet forholdsvis nemt at få fradrag for sine donationer. Man skal blot give den godkendte organisation, som man har doneret penge til, sit cpr.-nummer, så kontakter organisationen selv Skat.
@@ -364,7 +364,7 @@ En opgørelse over, hvem der donerede penge i 2015, viser dog, at mænd i gennem
       { type: "mc", n: 5, q: "Tekst 2: Hvilket af følgende initiativer for at få flere mennesker til at donere penge nævnes i teksten?",
         options: ["De velgørende organisationer har lavet kampagner for betaling via telefon.", "Hver velgørende organisation har holdt mere end én national husindsamling om året.", "De velgørende organisationer har taget personlig kontakt til og talt med flere mennesker."], answer: 2 },
       { type: "mc", n: 6, q: "Tekst 2: Hvilken af følgende grunde nævnes der i teksten til, at mange danskere får fradrag for donationer til velgørenhed?",
-        options: ["Organisationerne har været gode til at oplyse borgerne om, hvor meget de kan trække fra i skat.", "Flere og flere danskere kontakter Skat og oplyser om deres donation til velgørenhed.", "Man skal som bidragyder ikke selv have besvær med at trække fradraget til velgørenhed fra i skat"], answer: 2 },
+        options: ["Organisationerne har været gode til at oplyse borgerne om, hvor meget de kan trække fra i skat.", "Flere og flere danskere kontakter Skat og oplyser om deres donation til velgørenhed.", "Man skal som bidragyder ikke selv have besvær med at trække fradraget til velgørenhed fra i skat."], answer: 2 },
       { type: "mc", n: 7, q: "Tekst 2: Hvad vil de velgørende organisationer ifølge teksten satse på i deres markedsføring i fremtiden?",
         options: ["De vil satse på, at temaerne i de enkelte kampagner retter sig lige meget mod kvinder og mænd.", "De vil i deres kampagner satse på nye temaer, som de forventer mænd er særligt optagede af.", "De vil satse på de samme temaer, men øge antallet af kampagner for at få flere mænd til at donere penge."], answer: 1 }
     ]
@@ -417,7 +417,7 @@ Uddannelsesstederne spiller en vigtig rolle for at [[6]] frafaldet. Ved at tilby
       title: "Delprøve 1: En e-mail til en ven (maj-juni 2019)",
       kind: "Prøveopgave · e-mail til en ven",
       minWords: 150, maxWords: 200,
-      situation: "Situation: Du har fået en e-mail fra din ven Sofie, der arbejder som kommunikationsmedarbejder i et stort firma. Hun er glad for jobbet, men hun arbejder meget. Hun skriverr blandt andet: " +
+      situation: "Situation: Du har fået en e-mail fra din ven Sofie, der arbejder som kommunikationsmedarbejder i et stort firma. Hun er glad for jobbet, men hun arbejder meget. Hun skriver blandt andet: " +
         "Mailen (de understregede dele står i «»): " +
         "\"… Tak for sidst, det var meget hyggeligt at have besøg af dig. Og hvor lyder det spændende, at du har meldt dig til maraton i Berlin næste år. «Hvordan går det med træningen?» " +
         "Som vi talte om, er jeg meget glad for mit nye job. Men jeg arbejder over 40 timer om ugen, og nu har min chef spurgt, om jeg vil være projektleder på et nyt projekt. Det er en stor chance for mig, men det betyder også mere overarbejde, så jeg ved ikke, om jeg skal sige ja. «Hvad synes du, jeg skal gøre?» " +
@@ -506,9 +506,9 @@ Alt i alt mener jeg, at staten har et ansvar for at beskytte forbrugerne, men de
       minWords: 200, maxWords: 300,
       situation: "I delprøve 2 skal du besvare enten opgave A eller opgave B. 2B: Uro i timerne i folkeskolen. " +
         "Der er mange, der mener, at der er for meget uro i timerne i folkeskolen, og at det går ud over børnenes læring. Der er forskellige holdninger til, hvordan man kan skabe mere ro i timerne. Her er der nogle synspunkter: " +
-        "• Mere af undervisningen skal foregå udenfor klasselokalerne. • Eleverne skal være med til at bestemme indholdet i undervisningen. • Der skal være mere udenadslære. • Lærerne skal sende urolige elever uden for døren. • Lærerne skal uddannes bedre i at skabe respekt. • Urolige elever skal gå i mindre klasser med andre urolige elever. " +
+        "• Mere af undervisningen skal foregå uden for klasselokalerne. • Eleverne skal være med til at bestemme indholdet i undervisningen. • Der skal være mere udenadslære. • Lærerne skal sende urolige elever uden for døren. • Lærerne skal uddannes bedre i at skabe respekt. • Urolige elever skal gå i mindre klasser med andre urolige elever. " +
         "Du skal skrive minimum 200 ord.",
-      list: ["Mere af undervisningen skal foregå udenfor klasselokalerne.", "Eleverne skal være med til at bestemme indholdet i undervisningen.", "Der skal være mere udenadslære.", "Lærerne skal sende urolige elever uden for døren.", "Lærerne skal uddannes bedre i at skabe respekt.", "Urolige elever skal gå i mindre klasser med andre urolige elever."],
+      list: ["Mere af undervisningen skal foregå uden for klasselokalerne.", "Eleverne skal være med til at bestemme indholdet i undervisningen.", "Der skal være mere udenadslære.", "Lærerne skal sende urolige elever uden for døren.", "Lærerne skal uddannes bedre i at skabe respekt.", "Urolige elever skal gå i mindre klasser med andre urolige elever."],
       points: [
         "Fortæl kort om dine egne erfaringer med uro i timerne, da du gik i skole.",
         "Kommentér et eller to af synspunkterne fra listen.",

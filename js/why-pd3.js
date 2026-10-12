@@ -481,7 +481,7 @@ Object.assign(PD2.WHY, {
 "da": "nemlig: Undersøgelsen begrunder det foregående om de unge – «nemlig» indleder en forklaring eller et belæg."
 },
 "g7": {
-"da": "mangel på: Der er brancher, «hvor der ikke er arbejdskraft nok», så det handler om mangel på arbejdskraft. Men teksthæftet havde en fejl («(7) ... på arbejdskraft» giver «mangel på på»), og derfor fik alle prøvedeltagere point i dette hul."
+"da": "mangel på: Der er brancher, «hvor der ikke er arbejdskraft nok», så det handler om mangel på arbejdskraft. (I det trykte teksthæfte stod der ved en fejl «på» efter hullet – den fejl er rettet her.)"
 },
 "g8": {
 "da": "uenighed om: Næste sætning viser, at nogle synes, CSR er positivt, mens kritikere mener, at virksomhederne kun bidrager, når det kan betale sig – der er altså uenighed om CSR’s plads."

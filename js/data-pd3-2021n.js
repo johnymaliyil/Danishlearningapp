@@ -13,7 +13,7 @@
 // Points at the exam: delprøve 1 = 15 × 1, 2A = 7 × 2, 2B = 8 × 1 → 37 points.
 // Omregningstabel (vinter 2021): 37-36 = 12, 35-32 = 10, 31-26 = 7, 25-21 = 4, 20-19 = 02, 18-10 = 00, 9-0 = -3.
 // The app scores every question as 1, so 2A counts half as much here as at the exam.
-// Typos in the papers are kept as printed ("som lidt at et chok" in tekst 1 of 2A, "giver for svære
+// Typos in the papers are corrected in the app ("som lidt af et chok" in tekst 1 of 2A, "giver for svære
 // skriftlige opgaver for" in 2A question 1). In the oral booklet the closing quotation marks are missing
 // after two questions, and one follow-up question (C, B) ends with a full stop; it is kept as printed.
 // The writing task wording, the friend's e-mail, the oral questions and the chart labels are copied
@@ -298,7 +298,7 @@ Endelig forventer mange unge meget af sig selv, og de sammenligner sig meget med
 
 Hun giver dog også politikerne en del af skylden for presset på gymnasieeleverne. Optagelsessystemet til de videregående uddannelser er nemlig indrettet sådan, at et højt karaktergennemsnit er det, der giver direkte adgang til de mest attraktive uddannelser. Det stresser de unge, mener Ida, der i løbet af 3.g har tænkt på, at hun gerne vil læse psykologi efter gymnasiet, men hun tror ikke, at hun vil opnå det krævede karaktergennemsnit.
 
-Ligesom det for Ida selv kom som en overraskelse, at hun fik stress, selvom hun i dag sagtens kan se, at der i tiden op til var klare tegn på det, kom det også for hendes forældre som lidt at et chok, hvordan Ida havde det.
+Ligesom det for Ida selv kom som en overraskelse, at hun fik stress, selvom hun i dag sagtens kan se, at der i tiden op til var klare tegn på det, kom det også for hendes forældre som lidt af et chok, hvordan Ida havde det.
 
 ”Ida virkede som om, hun trivedes med konkurrence og med at have travlt, og vi er vant til at have mange jern i ilden i vores familie. Så det var derfor en overraskelse for os, da Ida fik stress. Men det mest overraskende og chokerende for os var nu, at vi slet ikke havde set det komme,” siger Idas mor og fortsætter: ”Vi har fået os nogle gode snakke med Ida og er blevet mere opmærksomme på, at de unge er pressede i dag.”
 
@@ -354,7 +354,7 @@ Heldigvis kan de fleste unge, både drenge og piger, lære at prioritere deres o
 ⁴ Se note 3.`,
     questions: [
       { type: "mc", n: 1, q: "Tekst 1: Hvilket af følgende udsagn om lærerne i gymnasiet er i overensstemmelse med det, der gives udtryk for i teksten?",
-        options: ["Lærerne giver for svære skriftlige opgaver for som hjemmearbejde på andet år i gymnasiet.", "Lærerne er ikke gode nok til at koordinere med hinanden, når de giver eleverne skriftlige opgaver for.", "Lærerne er for dårlige til at acceptere, at eleverne kan have faglige eller personlige problemer."], answer: 1 },
+        options: ["Lærerne giver for svære skriftlige opgaver som hjemmearbejde på andet år i gymnasiet.", "Lærerne er ikke gode nok til at koordinere med hinanden, når de giver eleverne skriftlige opgaver for.", "Lærerne er for dårlige til at acceptere, at eleverne kan have faglige eller personlige problemer."], answer: 1 },
       { type: "mc", n: 2, q: "Tekst 1: Hvad er ifølge Ida den afgørende årsag til, at hun blev sygemeldt med stress?",
         options: ["Hun var presset af at skulle have høje karakterer for at komme ind på psykologistudiet.", "Hun havde for lidt selvværd i forhold til de dygtigste elever i klassen.", "Hun skulle aflevere for mange skriftlige opgaver i 3.g."], answer: 1 },
       { type: "mc", n: 3, q: "Tekst 1: Hvilket af følgende udsagn er i overensstemmelse med det, Idas forældre giver udtryk for?",

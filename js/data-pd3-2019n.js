@@ -16,8 +16,8 @@
 // Points at the exam: delprøve 1 = 15 × 1, 2A = 7 × 2, 2B = 8 × 1 → 37 points.
 // Omregningstabel (vinter 2019): 37-35 = 12, 34-31 = 10, 30-25 = 7, 24-21 = 4, 20-18 = 02, 17-10 = 00, 9-0 = -3.
 // The app scores every question as 1, so 2A counts half as much here as at the exam.
-// Kept as printed: "I SFI ligger der også en restaurant" (tekstsamling), "Det har indtil nu generelt være
-// muligt" (2A tekst 2), "skeptisk overfor" (2B option), "Det skabte opmærksom omkring dansk film" (tekstsamling, Dogme95) and the oral question "Hvorfor tror du ikke, de gør det?"
+// Printing errors corrected in the app: "I DFI ligger der også en restaurant" (tekstsamling), "Det har indtil nu generelt være
+// muligt" (2A tekst 2), "skeptisk over for" (2B option), "Det skabte opmærksomhed omkring dansk film" (tekstsamling, Dogme95) and the oral question "Hvorfor tror du, at de ikke gør det?"
 // (emne B, spørgsmål B).
 // The writing task wording, the friends' e-mail, the oral questions and the chart labels are copied
 // from the papers; the chart values are read off the stacked bar chart (ca.-values). All model answers
@@ -98,7 +98,7 @@ I 1994 kom Ole Bornedals *Nattevagten*. Det var en gennembrudsfilm for to unge s
 Den amerikanske version af filmen med bl.a. Nick Nolte og Ewan McGregor blev dog ikke nogen stor succes. På trods af et større budget og stjerneskuespillere fra Hollywood, så formåede filmen ikke at begejstre publikum og anmeldere på samme måde, som det danske forlæg havde gjort det.
 
 **Dogme95**
-1995 var et helt specielt år for dansk film. Det var nemlig året, hvor de fire instruktører Lars von Trier, Søren Kragh-Jacobsen, Kristian Levring og Thomas Vinterberg introducerede manifestet Dogme95, der fik international opmærksomhed. Ideen bag manifestet var, at historien og skuespillet i filmen var det vigtigste. Filminstruktører måtte derfor blandt andet kun bruge håndholdt kamera og direkte lyd, de måtte ikke tilføje rekvisitter eller bruge lyssætning eller special effects. De tre første dogmefilm – *Idioterne* (1998) af Lars von Trier, *Festen* (1998) af Thomas Vinterberg og *Mifunes sidste sang* (1999) af Søren Kragh-Jacobsen – vandt flere internationale priser på de vigtigste festivaler i Cannes, Berlin og Venedig. Det skabte opmærksom omkring dansk film generelt og banede dermed vej for instruktører som Susanne Bier med *Den eneste ene* (1999) og Lone Scherfig med *Italiensk for begyndere* (2000). Desuden blev *Festen* nomineret til en Golden Globe for bedste udenlandske film.
+1995 var et helt specielt år for dansk film. Det var nemlig året, hvor de fire instruktører Lars von Trier, Søren Kragh-Jacobsen, Kristian Levring og Thomas Vinterberg introducerede manifestet Dogme95, der fik international opmærksomhed. Ideen bag manifestet var, at historien og skuespillet i filmen var det vigtigste. Filminstruktører måtte derfor blandt andet kun bruge håndholdt kamera og direkte lyd, de måtte ikke tilføje rekvisitter eller bruge lyssætning eller special effects. De tre første dogmefilm – *Idioterne* (1998) af Lars von Trier, *Festen* (1998) af Thomas Vinterberg og *Mifunes sidste sang* (1999) af Søren Kragh-Jacobsen – vandt flere internationale priser på de vigtigste festivaler i Cannes, Berlin og Venedig. Det skabte opmærksomhed omkring dansk film generelt og banede dermed vej for instruktører som Susanne Bier med *Den eneste ene* (1999) og Lone Scherfig med *Italiensk for begyndere* (2000). Desuden blev *Festen* nomineret til en Golden Globe for bedste udenlandske film.
 
 **Dansk film i de seneste to årtier**
 
@@ -132,7 +132,7 @@ I bibliotekets bemandede åbningstid hjælper de ansatte med at besvare spørgsm
 FILM-X er et tilbud til bl.a. skoleklasser, som i Cinematekets filmstudier kan skabe deres egne film i et professionelt miljø. Eleverne kommer gennem en klassisk produktionsproces, hvor de idéudvikler, optager og klipper med professionelt filmudstyr. Forløbene varer 3 timer, og undervejs får de kyndig vejledning af filmpædagogiske guider. Skoleelever anvender film og video i dagligdagen til at finde informationer og til at kommunikere med hele verden. Stort set alle har adgang til teknologi, der gør det muligt at producere og dele egne optagelser, men hensigten med FILM-X er også, at eleverne her har mulighed for at reflektere over deres anvendelse af filmmediet. FILM-X har tilbud i forbindelse med børnefødselsdage og polterabender, særlige tilbud til daginstitutioner samt teambuildingkurser.
 
 **Restaurant SULT**
-I SFI ligger der også en restaurant, og den er navngivet efter Henning Carlsens berømte filmklassiker *SULT* fra 1966. Restaurant SULT har plads til 300 gæster. Menuen er sammensat af sæsonens friske råvarer med fokus på økologi, og restauranten har et bredt udvalg af frokost- og middagsretter. I alle weekender, på helligdage samt i udvalgte ferier serveres der brunchbuffet. Der er taget særligt hensyn til de af restaurantens gæster, der er gluten- eller laktoseallergikere. Brunchbuffeten har åbningstider, så den kan kombineres med Cinematekets formiddagsvisninger og tidlige eftermiddagsvisninger. Restauranten er velbesøgt, så det er en god ide at reservere bord.
+I DFI ligger der også en restaurant, og den er navngivet efter Henning Carlsens berømte filmklassiker *SULT* fra 1966. Restaurant SULT har plads til 300 gæster. Menuen er sammensat af sæsonens friske råvarer med fokus på økologi, og restauranten har et bredt udvalg af frokost- og middagsretter. I alle weekender, på helligdage samt i udvalgte ferier serveres der brunchbuffet. Der er taget særligt hensyn til de af restaurantens gæster, der er gluten- eller laktoseallergikere. Brunchbuffeten har åbningstider, så den kan kombineres med Cinematekets formiddagsvisninger og tidlige eftermiddagsvisninger. Restauranten er velbesøgt, så det er en god ide at reservere bord.
 
 **Cinematekets Butik**
 I Cinematekets butik kan man finde et stort udvalg af blu-rays, DVD’er med film fra hele filmhistorien, CD’er med filmmusik og nu også lp-plader med filmmusik, noget man ikke har solgt tidligere. Derudover kan man bl.a. købe filmplakater, sjove gadgets og legetøj. Butikken har åbent alle dage undtagen mandag: på hverdage 9:00-22:00, lørdag 10:45-22:00 og søndag 10:45-19:30. Webshoppen er åben døgnet rundt.
@@ -290,7 +290,7 @@ Det går godt for dansk økonomi. I erhvervslivet er der gang i væksten, og i m
 
 COWI arbejder blandt andet med store projekter både i Danmark og internationalt. Det er projekter som for eksempel bygning af jernbanenet, metroringe og letbaner. COWI satser på at udvide sine internationale aktiviteter i de kommende år. Men COWI har brug for flere dygtige specialister, hvis det skal lykkes.
 
-Det har indtil nu generelt være muligt for COWI at få nok dygtige medarbejdere til projekter uden at skulle rekruttere i udlandet. Det er stadig muligt til projekter i Danmark, men det samme gælder ikke for internationale projekter, der kræver højt specialiserede medarbejdere. Her er der ikke blot brug for medarbejdere med faglig ekspertise inden for et specifikt teknisk område. Medarbejderne skal også have et vist kendskab til lokale samarbejdspartnere og den nationale lovgivning mv., og det er en mangelvare blandt mange danske kandidater.
+Det har indtil nu generelt været muligt for COWI at få nok dygtige medarbejdere til projekter uden at skulle rekruttere i udlandet. Det er stadig muligt til projekter i Danmark, men det samme gælder ikke for internationale projekter, der kræver højt specialiserede medarbejdere. Her er der ikke blot brug for medarbejdere med faglig ekspertise inden for et specifikt teknisk område. Medarbejderne skal også have et vist kendskab til lokale samarbejdspartnere og den nationale lovgivning mv., og det er en mangelvare blandt mange danske kandidater.
 
 **Attraktivt at bo og arbejde i Danmark**
 COWI er derfor afhængig af at kunne tiltrække udenlandske specialister. Og det er svært, selvom Danmark er et attraktivt land at bo og arbejde i. Danmark er sammenlignet med mange andre lande et trygt og velfungerende velfærdssamfund. Der er også en meget fleksibel arbejdskultur, hvor den enkelte medarbejder har relativt meget ansvar. Det er dog især den gode work-life-balance, som mange herboende udlændinge fremhæver. I Danmark er der plads til både karriere, familieliv og fritidsaktiviteter. Det er der ikke altid i andre lande.
@@ -366,7 +366,7 @@ At være sin egen chef er hårdt arbejde, og man løber en risiko. Man skal selv
         3: ["Derimod", "Derfor", "Samtidig", "Alligevel"],
         4: ["nødvendighed", "rettighed", "sandsynlighed", "tilfældighed"],
         5: ["desuden", "imidlertid", "omvendt", "allerførst"],
-        6: ["vant til", "opmærksom på", "skeptisk overfor", "imod"],
+        6: ["vant til", "opmærksom på", "skeptisk over for", "imod"],
         7: ["hvis", "indtil", "når", "fordi"],
         8: ["være nødt til", "have råd til", "have tid til", "have mulighed for"]
       },
@@ -571,7 +571,7 @@ Derfor mener jeg, at uddannelsesstederne bør gøre en særlig indsats for de st
           followAnswer: "Nej, egentlig ikke, hvis det kun er en gang imellem. Kroppen kan godt tåle lidt slik eller en cola i weekenden, når man ellers spiser sundt og bevæger sig. Det er også en del af hyggen, for eksempel i biografen eller til en fødselsdag. Problemet opstår, hvis det bliver til hver dag. Så kan man tage på i vægt og få dårlige tænder, og på lang sigt øger det risikoen for sygdomme som diabetes."
         },
         B: {
-          q: "Nogle mennesker spiser ikke mad, der indeholder kød, æg eller mælkeprodukter. Hvorfor tror du ikke, de gør det?",
+          q: "Nogle mennesker spiser ikke mad, der indeholder kød, æg eller mælkeprodukter. Hvorfor tror du, at de ikke gør det?",
           follow: "Kan der efter din mening være nogen problemer ved ikke at spise mad, der indeholder kød, æg eller mælkeprodukter? Hvorfor?/Hvorfor ikke?",
           answer: "Jeg tror, mange vælger at være veganere af hensyn til klimaet, fordi produktionen af kød og mælk udleder meget CO2. Andre gør det af hensyn til dyrene, fordi de ikke synes, det er i orden, at dyr lever i små stalde. Nogle har også en allergi, eller de mener, at det er sundere at spise mange grøntsager og bønner. Og så er det blevet moderne, især blandt unge i de store byer.",
           followAnswer: "Ja, det kan der godt være. Hvis man ikke planlægger sin kost, kan man mangle vigtige næringsstoffer som protein, jern, calcium og vitamin B12. Det gælder især for børn, der vokser. Derfor er det en god idé at tale med en læge eller en diætist og måske tage vitamintilskud. Det kan også være socialt besværligt, for eksempel når man er inviteret til middag hos familie eller venner, som ikke ved, hvad de skal lave."
