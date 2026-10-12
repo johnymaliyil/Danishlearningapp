@@ -1033,5 +1033,6 @@ PD2.I18N.pl = {
 "Svære tekster: holdninger, debat og at læse mellem linjerne": "Trudne teksty: opinie, debata i czytanie między wierszami",
 "{n} spørgsmål": "{n} pytań",
 "Bedste resultat: {n}/{n}": "Najlepszy wynik: {n}/{n}",
-"{n}/{n} rigtige": "{n}/{n} poprawnie"
+"{n}/{n} rigtige": "{n}/{n} poprawnie",
+"← Vælg prøve": "← Wybierz egzamin"
 };

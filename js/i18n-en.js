@@ -1034,5 +1034,6 @@ PD2.I18N.en = {
 "Svære tekster: holdninger, debat og at læse mellem linjerne": "Hard texts: opinions, debate and reading between the lines",
 "{n} spørgsmål": "{n} questions",
 "Bedste resultat: {n}/{n}": "Best result: {n}/{n}",
-"{n}/{n} rigtige": "{n}/{n} correct"
+"{n}/{n} rigtige": "{n}/{n} correct",
+"← Vælg prøve": "← Choose exam"
 };

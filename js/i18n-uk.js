@@ -1033,5 +1033,6 @@ PD2.I18N.uk = {
 "Svære tekster: holdninger, debat og at læse mellem linjerne": "Складні тексти: думки, дебати й читання між рядками",
 "{n} spørgsmål": "{n} запитань",
 "Bedste resultat: {n}/{n}": "Найкращий результат: {n}/{n}",
-"{n}/{n} rigtige": "{n}/{n} правильно"
+"{n}/{n} rigtige": "{n}/{n} правильно",
+"← Vælg prøve": "← Вибрати іспит"
 };

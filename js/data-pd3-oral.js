@@ -554,49 +554,6 @@ PD2.EXAMS.pd3.SPEAKING_TOPIC.push(...[
   "conclusion": ""
  },
  {
-  "id": "pd3-o-fritidsjob-i-gymnasiet-2022n",
-  "title": "Fritidsjob i gymnasiet",
-  "session": "November-december 2022",
-  "year": 2022,
-  "real": true,
-  "intro": "",
-  "pictures": [
-   {
-    "file": "images/pd3-oral/fritidsjob-i-gymnasiet-2022n-1.jpg",
-    "caption": "Fritidsjob i gymnasiet",
-    "alt": "Til venstre gaber en træt gymnasieelev i timen; til højre arbejder den samme unge som kasseassistent i et supermarked.",
-    "words": [
-     "et fritidsjob",
-     "en gymnasieelev",
-     "at være træt",
-     "en kasseassistent",
-     "et supermarked"
-    ]
-   }
-  ],
-  "first": {
-   "A": {
-    "q": "",
-    "follow": "Kan der være nogen problemer ved, at man kun er tilfreds med sig selv, hvis man får topkarakterer i alle fag? Hvorfor?/Hvorfor ikke?",
-    "answer": "",
-    "followAnswer": ""
-   },
-   "B": {
-    "q": "Nogle gymnasieelever vælger at have et fritidsjob, mens de går i gymnasiet. Hvorfor tror du, de vælger det?",
-    "follow": "Kan der være nogen problemer ved at have et fritidsjob, mens man går i gymnasiet? Hvorfor?/Hvorfor ikke?",
-    "answer": "Der kan være flere grunde til, at gymnasieelever vælger at have et fritidsjob. Nogle ønsker økonomisk uafhængighed og mulighed for at tjene egne penge, mens andre ser det som en chance for at få erhvervserfaring og udvikle ansvarsfølelse. Derudover kan et fritidsjob give praktiske færdigheder, der kan være nyttige senere i livet.",
-    "followAnswer": "Ja, hvis arbejdstimerne er for lange, kan det påvirke elevernes skolearbejde negativt. De kan opleve træthed, have mindre tid til lektier og dermed få lavere karakterer. På den anden side kan et moderat antal arbejdstimer give struktur i hverdagen og forbedre deres evne til at håndtere ansvar."
-   }
-  },
-  "second": {
-   "q": "",
-   "follow": "",
-   "answer": "",
-   "followAnswer": ""
-  },
-  "conclusion": ""
- },
- {
   "id": "pd3-o-at-skifte-job-2022n",
   "title": "At skifte job",
   "session": "November-december 2022",

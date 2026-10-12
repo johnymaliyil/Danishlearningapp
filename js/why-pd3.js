@@ -103,6 +103,107 @@ Object.assign(PD2.WHY, {
 "da": "De smukke gamle huse og historien er noget, nettet og storcentrene ikke kan konkurrere med, altså «en fordel»."
 }
 },
+"pd3-22n-1": {
+"q0": {
+"da": "Under Vikingemad til alle tider står der: «Arkæologiske udgravninger giver os dog et godt billede af, hvilke råvarer der var tilgængelige i vikingetiden» – der er nemlig ikke bevaret opskrifter."
+},
+"q1": {
+"da": "De fem originale Skuldelevskibe kan man «opleve i Vikingeskibshallen»."
+},
+"q2": {
+"da": "Der står: «Trelleborg er langt den bedst bevarede og i øvrigt den eneste med en befæstet forborg»."
+},
+"q3": {
+"da": "Om VIKING står der: «navnet og designet giver et indtryk af produkter, der er solide og holdbare»."
+},
+"q4": {
+"da": "I begge logoer findes «den hjelm med horn», selvom det er historisk ukorrekt: «vikingernes hjelme ikke havde horn»."
+},
+"q5": {
+"da": "Vikingegenstande bruges som symboler på styrke: «Styrke anses som en meget positiv egenskab, og nogle danskere vælger derfor at få tatoveret motiver»."
+},
+"q6": {
+"da": "Kampene ved Moesgaard «er kendt som det uofficielle VM i vikingekamp»."
+},
+"q7": {
+"da": "«I asatrossamfundet Forn Sidr dyrkes de nordiske vikingeguder», og Kirkeministeriet har godkendt det som et officielt trossamfund."
+},
+"q8": {
+"da": "Guderne bliver gjort menneskelige, «så man kan identificere sig med dem» – og på den måde bliver myterne gjort lettilgængelige. Ifølge forcensuren godkendes også: man kan (som tilskuer) føle med dem (og le ad dem)."
+},
+"q9": {
+"da": "Julekalenderen «blev genudsendt på TV 2 i Danmark i 2012» (i Norge blev den vist i 2006)."
+},
+"q10": {
+"da": "Familieterapistedet er «virkelighedens Ravnsborg, der er en vikingeborg, der er blevet rekonstrueret», og «her er filmen indspillet»."
+},
+"q11": {
+"da": "Der tales engelsk, men «skuespillerne forsøger at tale med nordisk accent for at få serien til at virke mere autentisk»."
+},
+"q12": {
+"da": "Marcela er interesseret i ligestilling og vil læse sagaerne, fordi de «kan give mig mere viden om dette» – altså om kvindens rolle, og at kvinder var selvstændige og havde rettigheder."
+},
+"q13": {
+"da": "Julia siger: «nu har jeg også lært, at der faktisk er mange nordiske låneord i det engelske sprog»."
+},
+"q14": {
+"da": "Asbjørn rejser «rundt til vikingemarkeder og vikingefestivaler, hvor jeg viser mine varer frem … og så sælger jeg dem selvfølgelig»."
+}
+},
+"pd3-22n-2": {
+"q0": {
+"da": "B: Han havde gode kolleger, chef og løn, men «det var mere opgaverne» – de lavede tømrerarbejde i stedet for møbler. At bestemme selv var «ikke grunden», og pengene kom først senere."
+},
+"q1": {
+"da": "B: Det, der «kom bag på hende», var, at hun på sin gamle arbejdsplads «mødte … en enorm støtte. Det havde jeg overhovedet ikke forventet.»"
+},
+"q2": {
+"da": "C: Anders ville «være fortsat i sit gamle job», og Susan ville ikke «have sagt mit job op i kommunen», før hun havde netværk og opgaver. Kurset (A) gælder kun Anders, familien (B) kun Susan."
+}
+},
+"pd3-22n-3": {
+"g1": {
+"da": "D: Efter at iværksætterne er præsenteret, forklarer D, at det først og fremmest er «hårdt arbejde» – det uddyber næste afsnit om alt det, man selv må stå for."
+},
+"g2": {
+"da": "B: Afsnit 1 beskriver «en masse ulemper»; B vender det til noget positivt – man er «sin egen chef» – og næste afsnit forklarer, at ingen bestemmer over ens opgaver."
+},
+"g3": {
+"da": "G: Efter de store firmaer Mærsk og Novo Nordisk siger G, at man ikke må «overse de små og mellemstore virksomheder», og næste sætning fortsætter: «de udgør en meget vigtig del af dansk økonomi»."
+},
+"g4": {
+"da": "F: Dansk Erhverv er netop præsenteret som «en magtfuld interesseorganisation»; F forklarer, hvad det betyder: de forsøger at påvirke politikerne."
+},
+"g5": {
+"da": "C: Rådet er, at den offentlige sektor skal handle mere hos små og mellemstore virksomheder; C giver tallet (60 % af indkøbene), og det «vil helt sikkert skaffe flere kunder»."
+}
+},
+"pd3-22n-4": {
+"g1": {
+"da": "«Eksempelvis» indleder eksempler på passive fritidsaktiviteter: at hygge med familien, se fjernsyn eller læse."
+},
+"g2": {
+"da": "Man kunne tro, at topchefer med lange arbejdsdage «har behov for» at slappe af mere end andre."
+},
+"g3": {
+"da": "De fleste «oplever», at de får mere energi af at være fysisk aktive – det er en erfaring, ikke noget de beklager eller afviser."
+},
+"g4": {
+"da": "Sociale relationer og fællesskaber er vigtige for, at vi har det godt «mentalt set» – sætningen handler om humøret."
+},
+"g5": {
+"da": "At vi dyrker fritiden intensivt, er «en konsekvens af», at hobbyerne spiller en vigtigere rolle for os i dag."
+},
+"g6": {
+"da": "Hobbyer som en del af vores identitet er «forskelligt fra» tidligere tider, hvor hobbyer kun skulle være sjove og afslappende."
+},
+"g7": {
+"da": "Tidligere havde man den samme hobby hele livet; i dag går man videre til noget nyt – vi «udskifter» altså oftere vores fritidsinteresser."
+},
+"g8": {
+"da": "Sidste sætning siger det samme som de foregående med andre ord: vi er mere åbne over for noget nyt. Ifølge forcensuren godkendes også C «Derudover»."
+}
+},
 "pd3-23m-1": {
 "q0": {
 "da": "Under Hærvejen står der, at man kommer forbi «Hærvejens karakteristiske gamle broer, der er bygget af store sten»."
@@ -202,6 +303,107 @@ Object.assign(PD2.WHY, {
 },
 "g8": {
 "da": "Hvis undersøgelsen viser, at møllerne kan skade naturen, må planerne opgives – undersøgelsen skal «bekræfte» det."
+}
+},
+"pd3-23n-1": {
+"q0": {
+"da": "Under Helligdomsklipperne står der, at de «har fået deres navn efter en hellig kilde, der i gammel tid løb ud for foden af klipperne»."
+},
+"q1": {
+"da": "Under Dueodde strand står der: «Ved p-pladsen på Fyrvejen er der også kiosk, toiletter og busforbindelse»."
+},
+"q2": {
+"da": "Under Hammershus står der, at «nye udgravnings- og forskningsresultater fra 2015» viser, at borgen først stod klar i slutningen af 1200-tallet."
+},
+"q3": {
+"da": "Helligdomskilden løber gennem museumsbygningen, men der står ikke, at der er en udstilling om den – udstillingerne handler om kunst, design og kunsthåndværk, så svaret er nej."
+},
+"q4": {
+"da": "Under Rundkirkerne står der: «De er bygget som kombinerede kirker og forsvarsværker»."
+},
+"q5": {
+"da": "Romanen «skildrer arbejderbevægelsens udvikling i 1800-tallets slutning» og begynder i 1871; ifølge forcensuren godkendes også «den senere del» og «fra 1871», men ikke bare «1871»."
+},
+"q6": {
+"da": "Anmelderen skriver: «Beskrivelsen af Bornholm virker troværdig og genkendelig for alle, der er vokset op i et lille landsbysamfund»."
+},
+"q7": {
+"da": "Under Ung Agenda står der: «Ambitionen er at sikre, at en femtedel af deltagerne på Folkemødet i 2026 vil være mellem 16 og 30 år»."
+},
+"q8": {
+"da": "Under Historie og kulturhistorie står der: «I Kulturugen indgår spændende byvandringer, og arkæologisk udgravning er efterhånden også blevet en tradition»."
+},
+"q9": {
+"da": "Under Kunsthåndværk står der: «Den rige tradition, oprindeligt baseret på produktion af glas og keramik»."
+},
+"q10": {
+"da": "Under Nummererede cykelruter står der: «Rute 21 til 26 er regionale ruter» (rute 10 er national)."
+},
+"q11": {
+"da": "Under Bed+Bike står der, at man kan «stille din cykel i et aflåst skur og låne værktøj til eventuelle reparationer»."
+},
+"q12": {
+"da": "Under Natur og landskab står der, at «Bornholm som det eneste sted i landet har klippekyster»."
+},
+"q13": {
+"da": "Under Skov står der, at Almindingen «er Bornholms største sammenhængende skovområde»."
+},
+"q14": {
+"da": "Under Klima står der: «Fra maj til september er den faktisk landets solrigeste» kommune."
+}
+},
+"pd3-23n-2": {
+"q0": {
+"da": "Mette troede, det ville blive svært at lede sine gamle kolleger, men «det voldte faktisk ikke de store problemer» – i stedet savnede hun kolleger at sparre med om sin nye rolle (B)."
+},
+"q1": {
+"da": "Henriette siger, at hovedproblemet var, at hendes leder ikke var tydelig omkring hendes arbejdsopgaver, og det endte med en længerevarende sygemelding (C)."
+},
+"q2": {
+"da": "Henriette siger direkte, at hun «ikke var god nok til at inddrage mine medarbejdere i mine beslutninger» – derfor er C det rigtige svar ifølge rettenøglen."
+}
+},
+"pd3-23n-3": {
+"g1": {
+"da": "E fortsætter beskrivelsen af, at vi bruger internettet hver dag, og fører over i næste afsnit om, at en verden uden internet er utænkelig."
+},
+"g2": {
+"da": "C forklarer, hvorfor løsningen med internetudbyderne er «problematisk» (overvågning), og næste afsnit fortsætter med «Desuden …»."
+},
+"g3": {
+"da": "F fortsætter tanken om fælles standardløsninger med et «Men»: mange vil få en dyrere løsning, end de har brug for."
+},
+"g4": {
+"da": "G introducerer adgangskoderne, som næste afsnit uddyber med «Dels … bruge både tegn, tal og bogstaver»."
+},
+"g5": {
+"da": "A nævner «fejl i kodningen», og næste sætning henviser tilbage med «De fejl kan softwarefirmaet løbende rette»."
+}
+},
+"pd3-23n-4": {
+"g1": {
+"da": "«Alligevel» viser en modsætning: selvom der er flere job til teknikere, begyndte dobbelt så mange på humaniora."
+},
+"g2": {
+"da": "Fordelingen er «overraskende», fordi både jobmuligheder og løn taler for de tekniske uddannelser."
+},
+"g3": {
+"da": "Valget kan være «en følge af» velfærdssamfundet – altså en konsekvens af gratis uddannelse, SU og dagpenge."
+},
+"g4": {
+"da": "For at få flere over på de tekniske uddannelser kan man «reducere» (skære ned på) antallet af studiepladser på humaniora."
+},
+"g5": {
+"da": "Charlotte Rønhof indrømmer, at tiltagene ikke kan «garantere», at de unge vælger en teknisk uddannelse."
+},
+"g6": {
+"da": "Færre steder kunne være «en fordel» for filosofi, for det ville give flere penge, flere studerende og et bedre studiemiljø."
+},
+"g7": {
+"da": "David Budtz Pedersen «påpeger» (gør opmærksom på), at man ikke kan forudsige fremtiden."
+},
+"g8": {
+"da": "«Blandt andet» viser, at det er én af flere grunde til, at humanister bliver ansat i it-virksomheder."
 }
 }
 });

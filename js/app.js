@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "75"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "76"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -214,7 +214,6 @@
       <button role="menuitem" class="set-item" data-text-pick><span class="set-ico">🔠</span><span>Tekststørrelse og skrift</span></button>
       <a role="menuitem" class="set-item" href="#/progress"><span class="set-ico">📊</span><span>Min fremgang</span></a>
       <a role="menuitem" class="set-item" href="#/news"><span class="set-ico">📰</span><span>Dagens nyheder</span></a>
-      <a role="menuitem" class="set-item" href="#/fvu"><span class="set-ico">📗</span><span>FVU-dansk trin 1–4</span></a>
       <button role="menuitem" class="set-item" data-reminder><span class="set-ico">⏰</span><span>Daglig påmindelse i kalenderen</span></button>
       <div class="set-sec">Hjælp</div>
       ${item("#/help", "❓", '<span lang="en">Help – all features (English)</span>')}
@@ -390,6 +389,7 @@
     const navSection = section === "words" ? "games" : section;
     $$(".nav a").forEach(a => a.classList.toggle("active", a.dataset.nav === navSection));
     document.body.classList.toggle("starting", section === "start");
+    document.body.classList.toggle("fvu-mode", section === "fvu"); // FVU is separate from PD1-PD3: hide the PD tabs and exam switch
     for (const [re, fn] of routes) {
       const m = path.match(re);
       if (m) { fn(...m.slice(1)); window.scrollTo(0, 0); app.focus({ preventScroll: true }); return; }
@@ -546,8 +546,6 @@
       <a class="card plan-banner news-banner" href="#/news" id="newsBanner" hidden></a>
       ${S.exam === "pd3" && PD2.PD3_GUIDE ? `<a class="card plan-banner" href="#/pd3guide"><span class="pb-ico">🧭</span><span class="pb-meta"><b>PD3-guide: strategier og ordlister</b>
         <span class="small muted">Sådan griber du læsning, skrivning og mundtlig an – plus bindeord og faste vendinger</span></span><span class="pill">Ny</span></a>` : ""}
-      <a class="card plan-banner" href="#/fvu"><span class="pb-ico">📗</span><span class="pb-meta"><b>FVU-dansk trin 1–4</b>
-        <span class="small muted">Eksempelopgaver i læsning og stavning · flere kommer snart</span></span><span class="pill">Ny</span></a>
       ${(() => { const st = planStatus(); return `<a class="card plan-banner" href="#/plan">
         <span class="pb-ico">📅</span><span class="pb-meta"><b>${esc(countdownText())}</b>
         <span class="small muted">${S.plan.date ? `Dagens plan: ${st.done}/${st.items.length} klaret` : "Lav en prøveplan med opgaver til hver dag"}</span></span>
@@ -806,7 +804,7 @@
           let wrong = [];
           Object.entries(q.answers).forEach(([n, a]) => {
             const sel = $(`[data-key="g${n}"]`);
-            const ok = q.open ? [].concat(a).some(x => norm(x) === norm(sel.value)) : sel.value === a;
+            const ok = q.open ? [].concat(a).some(x => norm(x) === norm(sel.value)) : [].concat(a).includes(sel.value); // an array = several accepted answers
             sel.classList.add(ok ? "ok" : "bad"); sel.disabled = true;
             if (!ok) { wrong.push(`(${n}) ${[].concat(a)[0]}`); wrongItems.push({ q: `Hul ${n}`, a: [].concat(a)[0] }); }
             tally(ok);
@@ -834,12 +832,12 @@
           const v = answers["q" + qi];
           const fb = $(`#fb-q${qi}`);
           let ok, correctText;
-          if (q.type === "mc") { ok = String(v) === String(q.answer); correctText = q.options[q.answer]; }
+          if (q.type === "mc") { const ans = [].concat(q.answer); ok = ans.some(x => String(v) === String(x)); correctText = ans.map(x => q.options[x]).join(" / "); }
           else if (q.type === "tf") { ok = v === q.answer; correctText = { R: "Rigtigt", F: "Forkert", S: "Står ikke i teksten" }[q.answer]; }
           else { ok = !!v && q.accept.some(a => norm(v) === norm(a)); correctText = q.accept[0].replace(/\b\p{L}/u, c => c.toUpperCase()); }
           if (q.type === "short") { const inp = $(`input[data-key="q${qi}"]`); inp.classList.add(ok ? "ok" : "bad"); inp.disabled = true; }
           $$(`.choice[data-key="q${qi}"]`).forEach(b => {
-            const isAns = q.type === "mc" ? +b.dataset.val === q.answer : b.dataset.val === q.answer;
+            const isAns = q.type === "mc" ? [].concat(q.answer).includes(+b.dataset.val) : b.dataset.val === q.answer;
             if (isAns) b.classList.add("ok"); else if (b.classList.contains("sel")) b.classList.add("bad");
           });
           fb.className = "fb " + (ok ? "ok" : "bad");
@@ -4051,7 +4049,7 @@
     S.fvu = S.fvu || {};
     const soon = `<div class="card soon-note"><b>🚧 Flere opgaver kommer snart</b><p class="small muted" style="margin:4px 0 0">Det her er eksempelopgaver, som DanskKlar selv har lavet i samme stil som FVU-prøverne – ikke officielle prøveopgaver. Vi opdaterer med flere tekster og opgaver til hvert trin.</p></div>`;
     if (!trin) {
-      app.innerHTML = `<a class="back" href="#/">← Forside</a>
+      app.innerHTML = `<a class="back" href="#/start">← Vælg prøve</a>
         <h1>📗 FVU-dansk trin 1–4</h1>
         <p class="muted">FVU-dansk (forberedende voksenundervisning) har fire trin. Trin 1 er det letteste, og trin 4 det sværeste. Hvert sæt har en tekst med spørgsmål og nogle opgaver i stavning og sprog.</p>
         ${soon}
@@ -4363,7 +4361,7 @@
       ["❌", "My mistakes", "All your wrong answers in one place, so you can practise them again.", "#/mistakes"],
       ["📊", "My progress", "XP per day, your strong and weak reading task types, which exam sets you have done, and your review cards.", "#/progress"],
       ["🧭", "PD3 guide", "For PD3: strategies for reading, writing and the oral exam, writing templates, and word lists (conjunctions, connectors, phrases for arguing, hard words). Shown on the home page when PD3 is selected.", "#/pd3guide"],
-      ["📗", "FVU-dansk trin 1–4", "Sample reading and spelling tasks for the four FVU-dansk levels (trin 1 easiest, trin 4 hardest), with answers explained. These are DanskKlar's own practice tasks, not official tests – more are coming soon. Find it on the home page, the start screen or in ⚙️ Settings.", "#/fvu"],
+      ["📗", "FVU-dansk trin 1–4", "Sample reading and spelling tasks for the four FVU-dansk levels (trin 1 easiest, trin 4 hardest), with answers explained. These are DanskKlar's own practice tasks, not official tests – more are coming soon. It is separate from PD1–PD3: choose it on the start screen (🔁 Skift prøve).", "#/fvu"],
       ["📰", "Today's news", "Short Danish news headlines from DR, updated a few times a day. Tap 🇬🇧 Vis engelsk for an English translation, 🔊 to hear it read aloud, and point at any word for its meaning. Find it on the home page or in ⚙️ Settings.", "#/news"],
       ["⏰", "Daily reminder", "Settings ⚙️ → Daily reminder adds a 15-minute practice reminder at 19:00 to your phone's calendar.", ""]
     ]],

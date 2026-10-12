@@ -487,6 +487,7 @@ label.tick input { width: 20px; height: 20px; accent-color: var(--write); margin
 /* Start screen: choose exam */
 body.starting .nav, body.starting #topstats { display: none; }
 body.starting .tr-toggle { margin-left: auto; }
+body.fvu-mode .nav, body.fvu-mode #topstats .examsw { display: none; }
 .start { max-width: 960px; margin: 0 auto; padding-block: 24px; }
 .start-head { text-align: center; margin-bottom: 28px; }
 .start-head h1 { text-wrap: balance; margin-top: 14px; }

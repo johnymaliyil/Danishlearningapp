@@ -1033,5 +1033,6 @@ PD2.I18N.ro = {
 "Svære tekster: holdninger, debat og at læse mellem linjerne": "Texte grele: opinii, dezbatere și citit printre rânduri",
 "{n} spørgsmål": "{n} întrebări",
 "Bedste resultat: {n}/{n}": "Cel mai bun rezultat: {n}/{n}",
-"{n}/{n} rigtige": "{n}/{n} corecte"
+"{n}/{n} rigtige": "{n}/{n} corecte",
+"← Vælg prøve": "← Alege examenul"
 };

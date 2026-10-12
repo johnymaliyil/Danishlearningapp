@@ -220,7 +220,7 @@ Derfor er det også forholdsvist sjældent, man ser journalister skifte til et h
       { type: "mc", n: 2, q: "Hvad er den mest almindelige grund til, at der er nogle, der ikke skifter karriere, selvom de er utilfredse med deres arbejdsliv?",
         options: ["De tvivler på deres egne kompetencer inden for et nyt område.", "De vil ikke arbejde så meget, som man ofte gør i begyndelsen i et nyt job.", "De vil ikke miste de privilegier, de har opnået i deres nuværende job."], answer: 2 },
       { type: "mc", n: 3, q: "Hvilket udsagn er i overensstemmelse med det, der står i teksten?",
-        options: ["Journalister har generelt gode muligheder for at finde arbejde i forskellige brancher.", "Journalister foretrækker generelt at arbejde i andre brancher end mediebranchen.", "Journalister har generelt nemt ved at få arbejde, selvom de arbejder med sproglig formidling."], answer: 0 }
+        options: ["Journalister har generelt gode muligheder for at finde arbejde i forskellige brancher.", "Journalister foretrækker generelt at arbejde i andre brancher end mediebranchen.", "Journalister har generelt nemt ved at få arbejde, selvom de arbejder med sproglig formidling."], answer: [0, 2] }
     ]
   };
 

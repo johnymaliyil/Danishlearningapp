@@ -1033,5 +1033,6 @@ PD2.I18N.tr = {
 "Svære tekster: holdninger, debat og at læse mellem linjerne": "Zor metinler: görüşler, tartışma ve satır aralarını okumak",
 "{n} spørgsmål": "{n} soru",
 "Bedste resultat: {n}/{n}": "En iyi sonuç: {n}/{n}",
-"{n}/{n} rigtige": "{n}/{n} doğru"
+"{n}/{n} rigtige": "{n}/{n} doğru",
+"← Vælg prøve": "← Sınav seç"
 };
