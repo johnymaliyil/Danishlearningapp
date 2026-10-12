@@ -1,6 +1,136 @@
 {
- "updated": "2026-10-12T12:02+00:00",
+ "updated": "2026-10-12T22:30+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/trump-overvejer-fyring-af-ambassadoer-i-graekenland-vi-er-ikke-glade",
+   "date": "2026-10-12T22:15:35+00:00",
+   "da": {
+    "title": "Trump overvejer fyring af ambassadør i Grækenland: Vi er ikke glade",
+    "desc": ""
+   },
+   "en": {
+    "title": "Trump considers sacking ambassador to Greece: We're not happy",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/breaking-bad-skuespiller-doed-34-aar-gammel",
+   "date": "2026-10-12T21:43:36+00:00",
+   "da": {
+    "title": "'Breaking Bad'-skuespiller død 34 år gammel",
+    "desc": ""
+   },
+   "en": {
+    "title": "'Breaking Bad' actor dies aged 34",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/skuespiller-selma-blair-anholdt-i-sag-om-vold-paa-fly",
+   "date": "2026-10-12T19:59:57+00:00",
+   "da": {
+    "title": "Skuespiller Selma Blair anholdt i sag om vold på fly",
+    "desc": ""
+   },
+   "en": {
+    "title": "Actor Selma Blair Arrested in Airplane Violence Case",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/polen-mistaenker-rusland-staa-bag-starlink-brand",
+   "date": "2026-10-12T18:54:50+00:00",
+   "da": {
+    "title": "Polen mistænker Rusland for at stå bag Starlink-brand",
+    "desc": ""
+   },
+   "en": {
+    "title": "Poland suspects Russia of being behind Starlink fire",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/paris-aeldste-markedshal-udbraendt",
+   "date": "2026-10-12T17:44:00+00:00",
+   "da": {
+    "title": "Paris' ældste markedshal udbrændt",
+    "desc": ""
+   },
+   "en": {
+    "title": "Paris' oldest market hall burned out",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/29-lande-fordoemmer-iran-efter-haendelse-ved-flybase-i-england",
+   "date": "2026-10-12T16:10:12+00:00",
+   "da": {
+    "title": "29 lande fordømmer Iran efter hændelse ved flybase i England",
+    "desc": ""
+   },
+   "en": {
+    "title": "29 countries condemn Iran after incident at UK air base",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/eu-lande-godkender-traeningsmission-i-libanon",
+   "date": "2026-10-12T15:33:32+00:00",
+   "da": {
+    "title": "EU-lande godkender træningsmission i Libanon",
+    "desc": ""
+   },
+   "en": {
+    "title": "EU countries approve training mission in Lebanon",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/pave-leo-indlaegges-i-morgen-efter-fund-af-lungeknude",
+   "date": "2026-10-12T12:59:43+00:00",
+   "da": {
+    "title": "Pave Leo indlægges i morgen efter fund af lungeknude",
+    "desc": ""
+   },
+   "en": {
+    "title": "Pope Leo is admitted tomorrow after finding a pulmonary nodule",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/28-aarig-idoemt-betinget-faengsel-paa-tiktok-billige-terrorhandlinger",
+   "date": "2026-10-12T12:34:50+00:00",
+   "da": {
+    "title": "28-årig idømt betinget fængsel for på TikTok at billige terrorhandlinger",
+    "desc": ""
+   },
+   "en": {
+    "title": "28-year-old sentenced to conditional imprisonment for condoning terrorist acts on TikTok",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/microsoft-ejet-selskab-har-videregivet-foelsomme-oplysninger-om-grindr-brugere",
+   "date": "2026-10-12T12:10:25+00:00",
+   "da": {
+    "title": "Microsoft-ejet selskab har videregivet følsomme oplysninger om Grindr-brugere",
+    "desc": ""
+   },
+   "en": {
+    "title": "Microsoft-owned company has disclosed sensitive information about Grindr users",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/antallet-af-foertidspensionister-under-40-aar-falder",
@@ -64,136 +194,6 @@
    "en": {
     "title": "Principal and schoolteacher shot in France",
     "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/oestjyllands-politi-beklager-fejlagtige-loebehjulsboeder",
-   "date": "2026-10-12T08:29:09+00:00",
-   "da": {
-    "title": "Østjyllands Politi beklager fejlagtige løbehjulsbøder",
-    "desc": "Der har ikke været hjemmel til at uddele bøderne, som er blevet givet til børnenes forældre."
-   },
-   "en": {
-    "title": "East Jutland Police apologize for incorrect scooter fines",
-    "desc": "There has been no authority to distribute the fines, which have been given to the children's parents."
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/microsoft-praesident-maelk-og-vaskemaskiner-er-bedre-reguleret-end-ai",
-   "date": "2026-10-12T08:02:29+00:00",
-   "da": {
-    "title": "Microsoft-præsident: Mælk og vaskemaskiner er bedre reguleret end AI",
-    "desc": ""
-   },
-   "en": {
-    "title": "Microsoft President: Milk and washing machines are better regulated than AI",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/saudi-arabiens-energiminister-varsler-modsvar-efter-houthi-angreb",
-   "date": "2026-10-12T08:00:42+00:00",
-   "da": {
-    "title": "Saudi-Arabiens energiminister varsler modsvar efter houthi-angreb",
-    "desc": ""
-   },
-   "en": {
-    "title": "Saudi Arabia's Energy Minister Warns Response to Houthi Attack",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/orkanen-simon-har-oedelagt-resorts-og-udsatte-landsbyer-paa-den-mexicanske-kyst",
-   "date": "2026-10-12T07:39:46+00:00",
-   "da": {
-    "title": "Orkanen Simon har ødelagt resorts og udsatte landsbyer på den mexicanske kyst",
-    "desc": ""
-   },
-   "en": {
-    "title": "Hurricane Simon has destroyed resorts and vulnerable villages on the Mexican coast",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/seniorer-og-ikke-vestlige-indvandrere-driver-historisk-hoej-beskaeftigelse",
-   "date": "2026-10-12T06:05:18+00:00",
-   "da": {
-    "title": "Seniorer og ikke-vestlige indvandrere driver historisk høj beskæftigelse",
-    "desc": ""
-   },
-   "en": {
-    "title": "Seniors and non-Western immigrants drive historically high employment",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/manden-bag-bueangreb-i-norge-skal-i-retten",
-   "date": "2026-10-12T05:44:14+00:00",
-   "da": {
-    "title": "Manden bag bueangreb i Norge skal i retten",
-    "desc": ""
-   },
-   "en": {
-    "title": "The man behind the bow attack in Norway must go to court",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/udsigt-til-dyrere-fjernvarme-flere-steder-i-landet",
-   "date": "2026-10-12T05:35:30+00:00",
-   "da": {
-    "title": "Udsigt til dyrere fjernvarme flere steder i landet",
-    "desc": ""
-   },
-   "en": {
-    "title": "View of more expensive district heating in several places in the country",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tre-brande-og-et-indbrudsforsoeg-paa-lolland-det-plejer-vi-ikke-opleve",
-   "date": "2026-10-12T04:30:47+00:00",
-   "da": {
-    "title": "Tre brande og et indbrudsforsøg på Lolland: 'Det plejer vi ikke at opleve'",
-    "desc": ""
-   },
-   "en": {
-    "title": "Three fires and a burglary attempt on Lolland: 'We don't usually experience that'",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/650-personer-beroert-af-nye-oversvoemmelser-i-nepal",
-   "date": "2026-10-12T04:29:11+00:00",
-   "da": {
-    "title": "650 personer berørt af nye oversvømmelser i Nepal",
-    "desc": ""
-   },
-   "en": {
-    "title": "650 people affected by new floods in Nepal",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/vaeltet-trae-stopper-alle-tog-over-vestfyn-30-togbusser-er-paa-vej",
-   "date": "2026-10-12T03:21:59+00:00",
-   "da": {
-    "title": "Væltet træ fjernet: Togtrafik mellem Odense og Fredericia kan genoptages fra klokken 6",
-    "desc": "Det væltede træ er nu fjernet. DSB oplyser, at tog kan køre fra klokken 06."
-   },
-   "en": {
-    "title": "Rolled tree removed: Train traffic between Odense and Fredericia can resume from 6 o'clock",
-    "desc": "The overturned tree has now been removed. DSB states that trains can run from 06:00."
    }
   }
  ]
