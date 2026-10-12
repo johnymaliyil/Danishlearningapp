@@ -103,6 +103,102 @@ Object.assign(PD2.WHY, {
 "da": "De smukke gamle huse og historien er noget, nettet og storcentrene ikke kan konkurrere med, altså «en fordel»."
 }
 },
+"pd3-20n-1": {
+"q0": {
+"da": "Under LOF – Sundhed og samarbejdspartnere står der: «Mange af forbundets sundhedsaktiviteter finder sted i samarbejde med kommuner og patientforeninger». Begge skal nævnes."
+},
+"q1": {
+"da": "Om LOF står der: «Desuden tilbyder LOF debatter og foredrag om samfundsrelevante emner»."
+},
+"q2": {
+"da": "Om FOF står der, at afdelingerne fordeler sig «fra Region Nordjyllands fire afdelinger til Region Syddanmark, som med 11 afdelinger er topscoreren»."
+},
+"q3": {
+"da": "Under Hvad er folkeoplysning – og for hvem? står der: «sammen med en voksen kan børn deltage i kurser, der er målrettet familier»."
+},
+"q4": {
+"da": "Der står: «Kurserne afsluttes … ikke med en eksamen efter endt kursus. Dog kan man få et kursusbevis, hvis man ønsker det.» Svaret er altså nej."
+},
+"q5": {
+"da": "Grundtvig ville have bønder og almue oplyst om Danmarks historie, og hvad det vil sige at være dansk, «så de kunne deltage i det nye demokrati» – det var omkring indførelsen af grundloven og demokratiet i 1849."
+},
+"q6": {
+"da": "Man ventede et fald på 30-40 %, men «Nedgangen var kun på 10 % ved årsskiftet 2003-2004»."
+},
+"q7": {
+"da": "I annoncen for klaverkurset står der: «Der undervises individuelt, så undervisningen kan tilrettelægges efter den enkelte kursusdeltagers niveau og ønsker» – hver deltager får soloundervisning."
+},
+"q8": {
+"da": "Ved kursets afslutning samler man en mappe «med manual(er) til ansøgninger og CV samt en handleplan for din fortsatte jobsøgning»."
+},
+"q9": {
+"da": "Om DOF Underviser står der: «Siden er først og fremmest for undervisere i en af DOF’s aftenskoler, men andre skolers undervisere er også velkomne»."
+},
+"q10": {
+"da": "DOF’s landsorganisation omfatter omkring 250 aftenskoleforeninger «samt enkelte daghøjskoler og sprogskoler»."
+},
+"q11": {
+"da": "Under Underviserjobs i aftenskolen står der: «Har man ikke dansk som modersmål, er det dog et krav, at man har lært både at tale, læse og skrive dansk.» Svaret er altså nej."
+},
+"q12": {
+"da": "Kasper Andersen skriver: «Men det bedste var alligevel de oplæg til inspiration, som underviseren lavede til os, før vi fik vores hjemmeopgaver.»"
+},
+"q13": {
+"da": "Vinni Holm skriver: «I slutningen af timen gav hun os desuden et link til en video, hvor hun forklarer de nye stegeteknikker.»"
+},
+"q14": {
+"da": "Mona Sørensen skriver: «Faktisk er jeg nu blevet bedre til at lægge telefonen til side derhjemme i hverdagen, og det hjælper mig med at bevare den ro». Efter forcensuren tæller også svaret, at hun går til yoga."
+}
+},
+"pd3-20n-2": {
+"q0": {
+"da": "B: Da hun overtog opgaven som fagprojektleder, «fandt [hun] ud af, at jeg var rigtig god til koordineringsopgaverne», og så opstod drømmen. Firmaet tilbød hende ikke jobbet af den grund (A), og hun skiftede netop til en anden afdeling (C)."
+},
+"q1": {
+"da": "C: Afdelingslederen og teamchefen kunne mærke, at det var alvor, og de «ville ikke slippe en medarbejder, der er så meget inde i organisationen». Der står ikke, at hun var den bedst kvalificerede (A), og det var hende, der ville skifte afdeling (B)."
+},
+"q2": {
+"da": "A: Hun siger, at det var det helt rigtige, fordi «I dag sidder jeg i et team, hvor jeg kan få faglig sparring inden for projektledelse. Det kunne jeg ikke før.» De nye kolleger kendte hun i forvejen (B), og projekterne i Norge er kun noget, der sandsynligvis kommer (C)."
+},
+"q3": {
+"da": "B: Fordi det er almindeligt at blive fyret og ikke giver alvorlige økonomiske konsekvenser, «er det oftest ikke forbundet med samme grad af skam eller fiasko som i mange andre lande». Man går ned i indkomst, når man bliver fyret (A), og der er regler – bare ikke så strenge (C)."
+},
+"q4": {
+"da": "A: «Inden for de fleste brancher er det en fordel for arbejdsgiverne», selvom tab af medarbejdere kan give «tab af viden» og «ekstra udgifter». For it- og byggebranchen er den høje jobomsætning netop et problem (C), og B står ikke i teksten."
+},
+"q5": {
+"da": "C: I brancher, hvor virksomhederne har svært ved at få medarbejdere, er der «en stigende tendens til, at medarbejderne vælger arbejdsgiverne til og fra». De fleste unge ønsker en fastansættelse (ikke B), og de korte ansættelser er ikke et tilbud for at tiltrække unge (A)."
+},
+"q6": {
+"da": "A: «ønsker de fleste unge dog en længerevarende fastansættelse», og ansatte i korte midlertidige ansættelser «foretrækker en længerevarende fastansættelse». De har sværere ved at optjene dagpenge, men det er ikke umuligt (B), og løn for samme arbejde nævnes ikke (C)."
+}
+},
+"pd3-20n-3": {
+"g1": {
+"da": "eksempelvis: Hotellernes arbejde med bæredygtighed og miljø er et eksempel på, hvordan hoteller tænker CSR ind i deres aktiviteter."
+},
+"g2": {
+"da": "spare på: Gæsterne skal bruge håndklæderne flere gange, så hotellerne bruger færre vaskemidler – de sparer på dem."
+},
+"g3": {
+"da": "gevinst: Studier viser, at virksomheder med CSR «klarer sig nemlig ofte godt økonomisk» – CSR er altså en gevinst, ikke en omkostning."
+},
+"g4": {
+"da": "en forklaring på: Afsnittet nævner årsager til CSR’s udbredelse («For det første …»); de sociale medier er den sidste forklaring på det øgede fokus."
+},
+"g5": {
+"da": "dermed: En klar CSR-profil er god reklame, og som en følge af det (dermed) bliver det lettere at finde nye medarbejdere."
+},
+"g6": {
+"da": "nemlig: Undersøgelsen begrunder det foregående om de unge – «nemlig» indleder en forklaring eller et belæg."
+},
+"g7": {
+"da": "mangel på: Der er brancher, «hvor der ikke er arbejdskraft nok», så det handler om mangel på arbejdskraft. Men teksthæftet havde en fejl («(7) ... på arbejdskraft» giver «mangel på på»), og derfor fik alle prøvedeltagere point i dette hul."
+},
+"g8": {
+"da": "uenighed om: Næste sætning viser, at nogle synes, CSR er positivt, mens kritikere mener, at virksomhederne kun bidrager, når det kan betale sig – der er altså uenighed om CSR’s plads."
+}
+},
 "pd3-21m-1": {
 "q0": {
 "da": "Signe Larsen skriver: Teatret anbefaler tre år, «men der er høje lyde, så jeg vil anbefale en minimumsalder på fem år»."
