@@ -103,6 +103,102 @@ Object.assign(PD2.WHY, {
 "da": "De smukke gamle huse og historien er noget, nettet og storcentrene ikke kan konkurrere med, altså «en fordel»."
 }
 },
+"pd3-22m-1": {
+"q0": {
+"da": "Under Anholtfærgen står der: «Om søndagen afgår færgen fx først fra Anholt ved middagstid, så turister kan have formiddagen på øen»."
+},
+"q1": {
+"da": "Om Totten på Anholts østspids står der: «Området er fredet … Det er nemlig et sælreservat, hvor Danmarks største sælkoloni … lever»."
+},
+"q2": {
+"da": "Pas på: Turen til og fra Mandø varer ca. 40 minutter, men om køreturen rundt på Mandø står der: «Turen varer ca. 35 min.»."
+},
+"q3": {
+"da": "Ved at samle østers i den kølige tid «minimerer man risikoen for at østersene indeholder giftige alger»."
+},
+"q4": {
+"da": "I 1980’erne endte det med, at «der kom et øget fokus på personlig udvikling». Ifølge forcensuren godkendes også «lejrens fremtid» (der var «mange diskussioner om lejrens fremtid»)."
+},
+"q5": {
+"da": "«Der er i de seneste år kommet hurtigt internet på de fleste øer, og netop dette har været afgørende for, at flere nu arbejder som selvstændige». Ifølge forcensuren er «internet» nok."
+},
+"q6": {
+"da": "Ø-passet er kun gratis på ø-færger og turistkontorer. Man kan «få det tilsendt mod et gebyr», så svaret er nej."
+},
+"q7": {
+"da": "Produkterne er produceret på øerne «med det formål at skabe lokal identitet og jobmuligheder på øerne»."
+},
+"q8": {
+"da": "Ø-boligpakken giver «1) tilskud til nye boliger, 2) tilskud til huslejenedsættelse og 3) mere fleksible regler for finansiering»."
+},
+"q9": {
+"da": "Øerne skal være helårssamfund, «hvor der maksimalt må være 1.200 beboere». (Tallet 500 handler om affolkning, ikke om medlemskab.)"
+},
+"q10": {
+"da": "Under Befolkningssammensætningen står der: «For alle de små øer gælder det, at gruppen af 18-34-årige er meget svagt repræsenteret»."
+},
+"q11": {
+"da": "Initiativtagerne definerer hvert år et tema, «og det er et krav til dette tema, at det er aktuelt»."
+},
+"q12": {
+"da": "Danielle siger, at det ville være perfekt at starte i Fejø Skole, «da klasserne er små, så læreren bedre kunne holde fokus på at lære ham dansk»."
+},
+"q13": {
+"da": "Bosætningsgruppen hjalp, «da vi fik problemer med at optage boliglån» – så de kunne købe det hus, de ville."
+},
+"q14": {
+"da": "Første gang flyttede hun fra Oslo til Omø «i 1984, da jeg var to år». Som 36-årig er hun flyttet tilbage."
+}
+},
+"pd3-22m-2": {
+"q0": {
+"da": "Hun troede, karaktererne og ansøgningerne ville være nok, men det var «via aktivt brug af sit netværk på de sociale medier», at hun fik jobbet (en gammel skolekammerat på LinkedIn) – C."
+},
+"q1": {
+"da": "Personlighedstesten viste, at René «både er kreativ og struktureret, hvilket netop var egenskaber, firmaet efterspurgte» – altså hans personlige kvalifikationer – A."
+},
+"q2": {
+"da": "Kamilla siger: «Et gennemarbejdet, overskueligt og velordnet CV er også vigtigt», og René tilføjer: «Det er nemlig ofte det første, en arbejdsgiver kigger på» – A. (Sociale medier er kun Kamillas råd, A-kassen kun Renés.)"
+},
+"q3": {
+"da": "Anne Lund siger, at testen er «et rigtig godt udgangspunkt for en jobsamtale», og at man med den kan «stille bedre spørgsmål» – den forbedrer ansættelsesprocessen – B. Testene er dyre, så C er forkert."
+},
+"q4": {
+"da": "Martin Holm: «Vi mennesker forandrer os alt efter den sammenhæng, vi indgår i» – vi kan være udadvendte i én sammenhæng og indadvendte i en anden – C."
+},
+"q5": {
+"da": "Det skyldes, at vi har «en evne til at tilpasse os i en ny kontekst», og det er noget, «de fleste kvalificerede og egnede nye medarbejdere lærer hurtigt» – A."
+},
+"q6": {
+"da": "Martin Holm vil «lade dem løse konkrete opgaver … sammen med nogle, der allerede er ansat i virksomheden. Så kan man se, hvordan de præsterer i praksis» – C."
+}
+},
+"pd3-22m-3": {
+"g1": {
+"da": "Efter «flere …» kommer der positive eksempler (mere fokus, mere ro, sparet tid og penge), så det er «fordele ved»."
+},
+"g2": {
+"da": "Sætningen tilføjer endnu en fordel (sparet tid og penge på transporten) – «Herudover» betyder ’desuden’."
+},
+"g3": {
+"da": "Et godt arbejdsmiljø er noget, man har krav på som ansat, og arbejdsgiveren har ansvaret – en «rettighed»."
+},
+"g4": {
+"da": "Det er negativt, at mange arbejder uden det rigtige udstyr (museskader og hovedpine), men det kan rettes op – det er «bekymrende»."
+},
+"g5": {
+"da": "Med det rigtige udstyr følger arbejdsgiveren loven – arbejdsgiveren «overholder» loven om arbejdsmiljø."
+},
+"g6": {
+"da": "At man mangler struktur, er en følge af, at grænsen mellem arbejde og fritid forsvinder – «Dermed» viser en konsekvens."
+},
+"g7": {
+"da": "Ensomhed og stress kommer af meget hjemmearbejde, fordi man savner fællesskabet – det er «en konsekvens af»."
+},
+"g8": {
+"da": "«vil han ikke afvise, at …» betyder, at han mener, det godt kan være sandt – og citatet efter viser fordelene ved hjemmearbejde."
+}
+},
 "pd3-22n-1": {
 "q0": {
 "da": "Under Vikingemad til alle tider står der: «Arkæologiske udgravninger giver os dog et godt billede af, hvilke råvarer der var tilgængelige i vikingetiden» – der er nemlig ikke bevaret opskrifter."
