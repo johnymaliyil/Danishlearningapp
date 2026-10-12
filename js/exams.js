@@ -87,7 +87,7 @@ PD2.EXAM_META = {
         <tr><td></td><td>2B</td><td>Sæt de manglende afsnit ind i en tekst</td></tr>
         <tr><td></td><td>3</td><td>Udfyld hullerne i en tekst</td></tr>
       </table>
-      <h3>🔢 Omregningstabel – læseforståelse (sommer 2024)</h3>
+      <h3>🔢 Omregningstabel – læseforståelse (eksempel: Sæt 13)</h3>
       <table class="simple">
         <tr><th>Point (af 39)</th><th>Karakter</th></tr>
         <tr><td>39-38</td><td>12</td></tr><tr><td>37-33</td><td>10</td></tr><tr><td>32-27</td><td>7</td></tr>

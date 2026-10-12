@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "76"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "77"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -1294,9 +1294,9 @@
     const richness = t => t.pictures.length * 10 + ["A", "B"].filter(l => t.first[l] && t.first[l].q).length * 5 + (t.second && t.second.q ? 5 : 0) + (/^pd3-o-/.test(t.id) ? 1 : 0);
     const best = {};
     (EX().SPEAKING_TOPIC || []).forEach(t => { const k = t.title.toLowerCase() + "|" + (t.year || ""); if (!best[k] || richness(t) > richness(best[k])) best[k] = t; });
-    const topics = Object.values(best).sort((a, b) => (b.year || 0) - (a.year || 0) || a.title.localeCompare(b.title, "da"));
+    const topics = Object.values(best).sort((a, b) => (a.set || 99) - (b.set || 99) || a.title.localeCompare(b.title, "da"));
     const topicList = topics.map(p => `<a class="list-item" href="#/speaking/topic/${p.id}">
-        <span class="ico">🖼️</span><span class="meta"><b>${esc(p.title)}</b>${p.session ? ` <span class="tag real">${esc(p.session)}</span>` : ""}<span class="small muted">${p.pictures.length} billede${p.pictures.length > 1 ? "r" : ""} · obligatoriske spørgsmål · ${[p.first.A, p.first.B, p.second].some(x => x && x.answer) ? "modelsvar" : "samtale"}</span></span>${done(p.id)}</a>`).join("");
+        <span class="ico">🖼️</span><span class="meta"><b>${esc(p.title)}</b>${p.set ? ` <span class="tag real">Sæt ${p.set}</span>` : ""}<span class="small muted">${p.pictures.length} billede${p.pictures.length > 1 ? "r" : ""} · obligatoriske spørgsmål · ${[p.first.A, p.first.B, p.second].some(x => x && x.answer) ? "modelsvar" : "samtale"}</span></span>${done(p.id)}</a>`).join("");
     const topicSection = topics.length ? `
         <h2 style="margin-top:24px">Delprøve 2 · Samtale ud fra billeder <span class="tag real">Rigtige prøveemner</span></h2>
         <p class="small muted">Som til prøven: Du får to billeder om et emne, beskriver kort situationerne og svarer på to obligatoriske spørgsmål med opfølgende spørgsmål (ca. 4½ minut). Emner fra tidligere PD3-prøver om arbejde – med modelsvar.</p>
