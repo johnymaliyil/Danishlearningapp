@@ -103,6 +103,102 @@ Object.assign(PD2.WHY, {
 "da": "De smukke gamle huse og historien er noget, nettet og storcentrene ikke kan konkurrere med, altså «en fordel»."
 }
 },
+"pd3-20m-1": {
+"q0": {
+"da": "Under Forløb for sprogskoler (Demokrati og stemmeret) står der: «Der arbejdes selvfølgelig også med at udvikle kursisternes sprog»."
+},
+"q1": {
+"da": "Under Da jægeren blev bonde (Forløb for grundskolen) står der: «Eleverne får mulighed for at røre originale genstande og prøve kopier af redskaber». Svaret er altså ja."
+},
+"q2": {
+"da": "Under Pædagogisk profil: «Gennem dialog og aktiv deltagelse skal undervisningen styrke elevernes samarbejdsevne». Evnen til at argumentere og diskutere står i spørgsmålet, så den tæller ikke."
+},
+"q3": {
+"da": "Under Undervisning på Frilandsmuseet: et besøg i Stenstruphuset, «hvor undervisningen foregår som værkstedsaktiviteter». Brændekomfuret og måltidet gælder kun «de lidt ældre elever»."
+},
+"q4": {
+"da": "Under Gratis adgang – eller entré?: «I 2005 blev det besluttet at genindføre gratis adgang til statslige museer fra 1. januar 2006». 2005 er året for beslutningen, ikke for den gratis adgang."
+},
+"q5": {
+"da": "Under Leje af lokaler: Forhallen kan benyttes fra kl. 17.00, men «Serveringen kan foregå fra kl. 18.30». Kl. 17.00 er altså ikke svaret."
+},
+"q6": {
+"da": "Under Eksempel på en udstilling: «Danmarks historie er ikke én lang fortælling, men mange. Deraf også udstillingens titel i flertal»."
+},
+"q7": {
+"da": "Om Egtvedpigen: «Klædedragten er meget velbevaret, så det er et unikt fund, selvom pigens hud og kropsdele er helt borte»."
+},
+"q8": {
+"da": "Under Rundvisninger og foredrag: «I visse tilfælde kan der dog vises rundt i oplevelsescentret for grupper på op til 15 personer». 25-30 gælder rundvisningerne udendørs, og 90 gælder foredragene."
+},
+"q9": {
+"da": "Under Monumentområdet: «Museet har været nødt til at beskytte stenene mod vind og vejr. I 2011 valgte man således at sætte montrer omkring dem». Lyset om aftenen er ikke grunden til montrerne."
+},
+"q10": {
+"da": "Under Musikmuseets bibliotek: Bøgerne kan ikke hjemlånes, men «De kan dog bestilles til et andet biblioteks læsesal». Ifølge forcensuren godkendes også «(en) anden læsesal»."
+},
+"q11": {
+"da": "Om Klangrummet: «Museet udskifter jævnligt instrumenterne, så gæster, der kommer igen, kan få nye oplevelser». Ifølge forcensuren er «der kommer igen» nok."
+},
+"q12": {
+"da": "Ib F. skriver: «På museet var der også en skattejagt, som hele familien deltog i … så den vil vi gerne rose Nationalmuseet for». Restauranten Smör er ikke en aktivitet, de alle deltog i."
+},
+"q13": {
+"da": "Dorte P. skriver: «Udstillingen var i øvrigt under ombygning, og derfor var en del af den lukket». At museet skulle lukke, er grunden til, at de ikke så mere, ikke til at udstillingen var lukket."
+},
+"q14": {
+"da": "James Milner skriver: «Før besøget på Nationalmuseet havde jeg kun set genstandene i bøger, så derfor var det spændende at se dem udstillet»."
+}
+},
+"pd3-20m-2": {
+"q0": {
+"da": "Eva siger: «Det helt centrale for mig var dog, at jeg kunne komme til at studere på et universitet, hvor jeg kunne få et godt fagligt udbytte af undervisningen». Engelsk var ikke afgørende, og hun søgte aldrig ind på University of London."
+},
+"q1": {
+"da": "Per siger, at han «havde været på et par dejlige ferier i Wales» som barn og gerne ville tilbage. Fagene var han interesseret i, men der står ikke, at han ikke kunne studere dem i København, og kontakterne fik han først, da han planlagde opholdet."
+},
+"q2": {
+"da": "«Selvom det alt i alt har været meget dyrt … synes de, det har været det hele værd». Eva lånte af sine forældre og Per brugte sin børneopsparing (ikke studielån), og de anbefaler alle unge at rejse ud."
+},
+"q3": {
+"da": "Virksomhederne lægger vægt på «forståelse for andre kulturer»: En åben medarbejder «vil være bedre til at agere og fungere sammen med kolleger fra andre lande». Sprog er kun «også et plus», og der står ikke noget om arbejde i udlandet."
+},
+"q4": {
+"da": "«Der skal også være et klart fagligt udbytte, hvis et studieophold i udlandet skal være en fordel». Et eksotisk sted alene er ikke nok, men der står ikke, at man skal vælge mindre eksotiske lande."
+},
+"q5": {
+"da": "De unge frygter at få «problemer med at få merit for deres fag»: Måske kan man kun få overført et halvt år af et helt års fag."
+},
+"q6": {
+"da": "«Med den nuværende fordeling … er der balance», og de udenlandske studerende bidrager økonomisk, «også selvom de får betalt uddannelsen og måske også kan få SU». På nogle uddannelser rejser de hurtigt hjem, men den samlede fordeling er en gevinst."
+}
+},
+"pd3-20m-3": {
+"g1": {
+"da": "Man bliver «eksponeret for» (= udsat for) stråling. Senere i teksten står der netop «den stråling, de bliver udsat for»."
+},
+"g2": {
+"da": "Rådene «handler blandt andet om» – der nævnes tre eksempler på råd (sms'e, headset, ikke sove med telefonen ved hovedet)."
+},
+"g3": {
+"da": "Sundhedsstyrelsens råd er «opfordringer» (gode råd), ikke krav eller forbud."
+},
+"g4": {
+"da": "«de ovennævnte anbefalinger» henviser tilbage til rådene, som er baseret på forsigtighed."
+},
+"g5": {
+"da": "«Konklusionen i de forskellige undersøgelser … er ikke den samme»: Én undersøgelse peger på én ting, en anden viser det modsatte."
+},
+"g6": {
+"da": "Rettenøglen sagde A (Samtidig), men forcensuren godkender A/B: Mængden af data er vokset, og «samtidig» / «modsat» er der sat flere master op, så telefonerne sender med mindre styrke."
+},
+"g7": {
+"da": "Bygningerne ligger «typisk» i områder, hvor folk ikke tjener så meget – det forklarer, hvorfor kræftrisikoen er højere der."
+},
+"g8": {
+"da": "Man ved for lidt til at sige noget præcist om «konsekvenserne ved» konstant at være logget på (dvs. hvad det betyder for helbredet)."
+}
+},
 "pd3-20n-1": {
 "q0": {
 "da": "Under LOF – Sundhed og samarbejdspartnere står der: «Mange af forbundets sundhedsaktiviteter finder sted i samarbejde med kommuner og patientforeninger». Begge skal nævnes."
