@@ -71,7 +71,7 @@ PD2.EXAM_META = {
     full: "Prøve i Dansk 3",
     cefr: "B2",
     tagline: "Længere tekster, argumentation og diskussion af samfundsemner.",
-    readingIntro: "Længere artikler, bindeord, tekstsammenhæng og holdninger.",
+    readingIntro: "Rigtige prøvesæt med de officielle svar plus øvesæt: længere artikler, bindeord, tekstsammenhæng og holdninger. Til prøven tager læseforståelse 1 25 minutter og læseforståelse 2 65 minutter.",
     writingIntro: "Formelle breve, ansøgninger og argumenterende tekster.",
     writingParts: {
       1: "Formelle tekster · klage, ansøgning",
@@ -93,6 +93,11 @@ PD2.EXAM_META = {
         <tr><td>39-38</td><td>12</td></tr><tr><td>37-33</td><td>10</td></tr><tr><td>32-27</td><td>7</td></tr>
         <tr><td>26-22</td><td>4</td></tr><tr><td>21-20</td><td>02</td></tr><tr><td>19-10</td><td>00</td></tr><tr><td>9-0</td><td>-3</td></tr>
       </table>
+      <h3>✍️ Skriftlig fremstilling (2½ time, alle ordbøger)</h3>
+      <p><b>Delprøve 1:</b> en e-mail, hvor du svarer på de understregede dele. <b>Delprøve 2:</b> vælg 2A (beskriv et diagram, forklar forskelle, vurdér) eller 2B (kommentér holdninger og vurdér fordele og ulemper) – mindst 200 ord, og det sidste punkt skal udgøre ca. 50 %.</p>
+      <h3>🗣️ Mundtlig kommunikation (ca. 10 minutter)</h3>
+      <p><b>Delprøve 1:</b> Du præsenterer et emne, du har forberedt, i ca. 2 minutter uden hjælp. Derefter stiller eksaminator opfølgende spørgsmål i ca. 2½ minut (opklarende, uddybende, "hvorfor tror du …?" og "mener du, at …?").</p>
+      <p><b>Delprøve 2:</b> Du trækker et af tre emner og får to billeder. Efter ca. 10 sekunder beskriver du kort situationerne. Eksaminator vælger situation A eller B og stiller det første obligatoriske spørgsmål og et opfølgende spørgsmål – derefter et mere generelt andet obligatorisk spørgsmål med opfølgning (ca. 4½ minut). Prøven slutter med "Tak, så er prøven forbi."</p>
       <p class="small muted">Tabellen ændrer sig lidt fra prøve til prøve. Du består med et gennemsnit på mindst 02, og den mundtlige karakter tæller dobbelt: (læsning + skrivning + 2 × mundtlig) / 4.</p>
       <p class="small muted">PD3 bruges blandt andet som sprogkrav, når man søger om dansk statsborgerskab. Tjek altid de aktuelle regler.</p>`
   }

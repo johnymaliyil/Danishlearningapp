@@ -982,3 +982,5 @@ a.help-item:hover { border-color: var(--read); }
 .guide-da { padding: 10px 12px; border-radius: 12px; background: var(--surface-2); }
 .table-wrap { overflow-x: auto; }
 .guide-tbl td.da { font-weight: 700; white-space: nowrap; }
+.task-chart { margin: 12px 0; }
+.task-chart img { width: 100%; max-width: 720px; height: auto; border-radius: 12px; background: #fff; }

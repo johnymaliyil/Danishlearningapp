@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "73"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "74"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -1095,6 +1095,7 @@
         <div class="stack">
           <div class="card">
             <div class="instruction" style="background:var(--write-soft)">${esc(w.situation)}</div>
+            ${w.image ? `<figure class="photo task-chart"><img src="${esc(w.image)}" alt="${esc(w.imageAlt || "Diagram til opgaven")}" loading="lazy"></figure>` : ""}
             <h3 style="margin-top:14px">Du skal skrive om:</h3>
             ${w.points.map((p, i) => `<label class="tick"><input type="checkbox" data-tick="${i}" ${st.ticks.includes(i) ? "checked" : ""}> <span>${esc(p)}</span></label>`).join("")}
             ${taskEnBtn(w)}
@@ -1290,9 +1291,14 @@
         <span class="ico">🖼️</span><span class="meta"><b>${esc(p.title)}</b>${realTag(p)}<span class="small muted">Billede · ${p.interview.length} spørgsmål · samtale</span></span>${done(p.id)}</a>`).join("");
     const diaList = dia.map(d => `<a class="list-item" href="#/speaking/dialog/${d.id}">
         <span class="ico">💬</span><span class="meta"><b>${esc(d.title)}</b><span class="small muted">${d.lines.length} replikker</span></span>${done(d.id)}</a>`).join("");
-    const topics = EX().SPEAKING_TOPIC || [];
+    // The same exam topic can come from two sources (a learner's notes with model answers, and the official
+    // booklets). Keep one per title + year: the most complete one, preferring the learner's model answers on a tie.
+    const richness = t => t.pictures.length * 10 + ["A", "B"].filter(l => t.first[l] && t.first[l].q).length * 5 + (t.second && t.second.q ? 5 : 0) + (/^pd3-o-/.test(t.id) ? 1 : 0);
+    const best = {};
+    (EX().SPEAKING_TOPIC || []).forEach(t => { const k = t.title.toLowerCase() + "|" + (t.year || ""); if (!best[k] || richness(t) > richness(best[k])) best[k] = t; });
+    const topics = Object.values(best).sort((a, b) => (b.year || 0) - (a.year || 0) || a.title.localeCompare(b.title, "da"));
     const topicList = topics.map(p => `<a class="list-item" href="#/speaking/topic/${p.id}">
-        <span class="ico">🖼️</span><span class="meta"><b>${esc(p.title)}</b>${p.session ? ` <span class="tag real">${esc(p.session)}</span>` : ""}<span class="small muted">2 billeder · 2 obligatoriske spørgsmål · modelsvar</span></span>${done(p.id)}</a>`).join("");
+        <span class="ico">🖼️</span><span class="meta"><b>${esc(p.title)}</b>${p.session ? ` <span class="tag real">${esc(p.session)}</span>` : ""}<span class="small muted">${p.pictures.length} billede${p.pictures.length > 1 ? "r" : ""} · obligatoriske spørgsmål · ${[p.first.A, p.first.B, p.second].some(x => x && x.answer) ? "modelsvar" : "samtale"}</span></span>${done(p.id)}</a>`).join("");
     const topicSection = topics.length ? `
         <h2 style="margin-top:24px">Delprøve 2 · Samtale ud fra billeder <span class="tag real">Rigtige prøveemner</span></h2>
         <p class="small muted">Som til prøven: Du får to billeder om et emne, beskriver kort situationerne og svarer på to obligatoriske spørgsmål med opfølgende spørgsmål (ca. 4½ minut). Emner fra tidligere PD3-prøver om arbejde – med modelsvar.</p>
@@ -1731,7 +1737,8 @@
     const p = findItem("SPEAKING_TOPIC", id);
     if (!p) return speakingList();
     const steps = ["Se billederne", "Beskriv", "1. spørgsmål", "2. spørgsmål", "Færdig"];
-    let talked = 0, rec = null, t0 = 0, audioUrl = null, letter = Math.random() < 0.5 ? "A" : "B";
+    const letters = ["A", "B"].filter(l => p.first[l] && p.first[l].q);
+    let talked = 0, rec = null, t0 = 0, audioUrl = null, letter = letters[Math.floor(Math.random() * letters.length)] || "A";
     const pics = () => `<div class="topic-pics">${p.pictures.map(x => `<figure class="photo"><img src="${esc(x.file)}" alt="${esc(x.alt || x.caption || "Billede til emnet")}" loading="lazy">${x.caption ? `<figcaption><b>${esc(x.caption)}</b></figcaption>` : ""}</figure>`).join("")}</div>`;
     const model = (txt, label = "💡 Vis modelsvar") => txt ? `<details class="model-ans"><summary>${label}</summary><div class="model">${modelHtml(txt)}</div></details>` : "";
     function shell(inner, stepIdx) {
@@ -1807,8 +1814,9 @@
     function first() {
       const f = p.first[letter];
       const other = letter === "A" ? "B" : "A";
-      ask(`Første obligatoriske spørgsmål · ${letter}`, 2, f.q, f.answer, () => firstFollow(), "Opfølgende spørgsmål →",
-        p.first[other] && p.first[other].q ? `<p class="small muted">Eksaminator vælger spørgsmål A eller B. <button class="btn ghost sm" id="swap">Prøv spørgsmål ${other} i stedet</button></p>` : "");
+      ask(`Første obligatoriske spørgsmål · ${letter}`, 2, f.q, f.answer, () => firstFollow(), f.follow ? "Opfølgende spørgsmål →" : "Videre →",
+        (p.first[other] && p.first[other].q ? `<p class="small muted">Eksaminator vælger spørgsmål A eller B. <button class="btn ghost sm" id="swap">Prøv spørgsmål ${other} i stedet</button></p>` : "") +
+        (f.lead ? `<p class="small muted">Eksaminator indleder: <i>${esc(f.lead)}</i></p>` : ""));
       const sw = $("#swap"); if (sw) sw.onclick = () => { letter = other; first(); };
     }
     function firstFollow() {
@@ -1817,6 +1825,7 @@
       ask("Opfølgende spørgsmål", 2, f.follow, f.followAnswer, second, "Videre til 2. spørgsmål →");
     }
     function second() {
+      if (!p.second || !p.second.q) return done();
       ask("Andet obligatoriske spørgsmål", 3, p.second.q, p.second.answer, () => p.second.follow ? secondFollow() : done(), p.second.follow ? "Opfølgende spørgsmål →" : "Afslut");
     }
     function secondFollow() {
@@ -2180,7 +2189,7 @@
   function mockWriting() {
     const d1 = MOCK.set.writing.filter(w => w.delprove === 1), d2 = MOCK.set.writing.find(w => w.delprove === 2);
     MOCK.texts = MOCK.texts || { choice: d1[0] && d1[0].id, t1: "", t2: "" };
-    const task = w => `<div class="instruction" style="background:var(--write-soft)">${esc(w.situation)}</div>
+    const task = w => `<div class="instruction" style="background:var(--write-soft)">${esc(w.situation)}</div>${w.image ? `<figure class="photo task-chart"><img src="${esc(w.image)}" alt="${esc(w.imageAlt || "Diagram til opgaven")}" loading="lazy"></figure>` : ""}
       <ul class="points-list small">${w.points.map(p => `<li>${esc(p)}</li>`).join("")}</ul>${taskEnBtn(w)}`;
     app.innerHTML = `${mockHeader()}
       <h1>✍️ Skriftlig fremstilling</h1>
