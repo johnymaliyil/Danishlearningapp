@@ -429,7 +429,7 @@ PD2.EXAMS.pd3.SPEAKING_TOPIC.push(...[
     "followAnswer": "Jeg tror, det kan have både positive og negative sider for familien. Det positive er, at børnene ser deres forældre engagere sig og lærer, at man skal hjælpe andre. Ofte laver familien også noget sammen, fx når far er træner, og barnet spiller på holdet. Men hvis forældrene har mange møder om aftenen, bliver der mindre tid til ro og samvær derhjemme. Så det handler om at finde en god balance."
    },
    "B": {
-    "q": "Mange af dem, der arbejder frivilligt er pensionister. Hvorfor tror du, det er sådan?",
+    "q": "Mange af dem, der arbejder frivilligt, er pensionister. Hvorfor tror du, det er sådan?",
     "follow": "Hvad tror du, det betyder for pensionisters livskvalitet, at de arbejder frivilligt?",
     "answer": "Jeg tror, mange pensionister arbejder frivilligt, fordi de endelig har tid til det. De har ikke længere et job eller små børn, der fylder kalenderen. Samtidig er mange stadig raske og har en masse viden, som de gerne vil give videre. Nogle savner også kolleger og en fast struktur i hverdagen. Min morfar kører fx ældre mennesker til lægen to gange om ugen, og han elsker at snakke med dem undervejs.",
     "followAnswer": "Efter min mening forbedrer det deres livskvalitet. Når man går på pension, mister man pludselig en stor del af sit sociale netværk. Frivilligt arbejde kan erstatte noget af det, fordi man møder nye mennesker med samme interesser. Man får også en oplevelse af at være til nytte, og det giver selvtillid. Forskning viser desuden, at aktive ældre ofte holder sig sundere længere. Et eksempel kan være en pensionist, der viser turister rundt på et museum."
