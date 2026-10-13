@@ -103,6 +103,102 @@ Object.assign(PD2.WHY, {
 "da": "De smukke gamle huse og historien er noget, nettet og storcentrene ikke kan konkurrere med, altså «en fordel»."
 }
 },
+"pd3-18m-1": {
+"q0": {
+"da": "Under Forlystelsessted med faste artister står der: «På Bakken blev der derfor skabt en selvstændig Pjerrot, der især er beregnet for et børnepublikum». I Tivoli var Pjerrot for et bredt publikum."
+},
+"q1": {
+"da": "Under Varieté og cirkus står der om Cirkusrevyen: «i nyere tid er den især blevet berømt for parodier og politisk satire». Fra begyndelsen var den berømt for traditionel underholdning med revystjerner og dansenumre."
+},
+"q2": {
+"da": "Nej. Under Legoland – Uniformsregler står der: «Der udleveres uniformer til de medarbejdere, der har direkte gæstekontakt.» Altså ikke til alle."
+},
+"q3": {
+"da": "Under Legoland – 2. samtale står der: «Inden 2. samtale vil du typisk blive bedt om på forhånd at udfylde en online personprofil, som vi tager udgangspunkt i til samtalen.»"
+},
+"q4": {
+"da": "Under Legoland – Sociale arrangementer står der: «I løbet af sæsonen afholdes der mindst et arrangement hver måned». Tallet 50-750 er antallet af deltagere, ikke hvor ofte."
+},
+"q5": {
+"da": "Under Tivoli søger servicemedarbejdere står der: «Du skal være fyldt 15 år for at arbejde i Tivoli, men det er kun Tivolis spisesteder, som ansætter medarbejdere under 18 år.» I billetsalget skal man være 20 år."
+},
+"q6": {
+"da": "Under Servicemedarbejdere i billetsalget står der: «Du er det første, tivoligæsten oplever af Tivoli, så du har et stort ansvar for at sikre en god begyndelse på Tivolituren.»"
+},
+"q7": {
+"da": "Under Tivoli som arbejdsplads står der: «Vi lægger vægt på mangfoldighed og er derfor stolte af, at vi har en medarbejdergruppe med folk i mange aldre …». Ordet «derfor» viser årsagen."
+},
+"q8": {
+"da": "Under Hverdagen for kontrollører på forlystelserne står der: «Du skal holde pause på præcis det tidspunkt, der er aftalt, så der hele tiden er en kollega på alle forlystelser.»"
+},
+"q9": {
+"da": "Under Universe – Nye medarbejdere er velkomne står der: «Derfor bliver der investeret meget i vores medarbejdere, hvilket blandt andet gøres via uddannelse inden ansættelse i Universe.» Rettenøglen godtager også rekruttering(sworkshop) og ansættelsesforløb."
+},
+"q10": {
+"da": "Under Uddannelsesforløb 3 (U3) står der: «U3 … kan forløbe over flere dage. Antallet af dage afhænger af, hvor mange kompetencer deltageren bliver oplært i.»"
+},
+"q11": {
+"da": "Under FAQ – Hvornår kan jeg forvente at skulle arbejde? står der, at Universe har allermest travlt «i perioden slut juni til midt august, som vi også kalder for højsæsonen», og «du kan derfor ikke forvente at få ferie i denne periode»."
+},
+"q12": {
+"da": "Under Job i BonBon-Land – Kurset består af tre faser står der under Fase 1 – Ansøgningen: «Vi hjælper dig via samtaler med at sætte ord på netop dine kompetencer.» Fase 2 handler om styrker og indtryk til samtalen."
+},
+"q13": {
+"da": "Under Niels Brock – Målgrupper står der: «Personer med en højere uddannelse kan også deltage på jobkurset, men er ikke berettiget til uddannelsesydelse.»"
+},
+"q14": {
+"da": "Under Niels Brock – Jobmuligheder står der: «Du kan for eksempel søge ansættelse i forlystelsesparker, på turistbureauer, på hotel og konferencesteder og på museer og andre seværdigheder». Spørgsmålet siger «udover forlystelsesparker», så man skal nævne mindst to af de tre andre steder."
+}
+},
+"pd3-18m-2": {
+"q0": {
+"da": "B. Peter siger, at «traditioner ikke [skal] stå i vejen» for, at kvinder kan gøre karriere, og han vil ikke forringe Tines muligheder, «bare fordi hun er kvinde». Han siger ikke, at kvinder skal holde kortere orlov (A), og han nævner ikke staten (C) – det skal være op til den enkelte familie."
+},
+"q1": {
+"da": "B. Tine siger: «Jeg har ikke noget imod, at kvinder vælger at gå på deltid … for nogle familier er det den rigtige løsning.» Hun siger ikke noget om børneopdragelse (A) eller om, hvad der er bedst for et parforhold (C)."
+},
+"q2": {
+"da": "C. De ønsker en institutionsplads, og «Hvis Sofie ikke kan få den ønskede institutionsplads … Så kan Peters mor heldigvis passe Sofie». Farmoren er altså kun en nødløsning, og en au-pair kommer måske først om nogle år."
+},
+"q3": {
+"da": "A. Teksten siger, at der i mange virksomheder er «en udbredt maskulin og stereotyp opfattelse» af en topleder, og at det for mange kvinder er «svært at se sig selv som chef, hvis man skal være chef på denne måde». B og C står der ikke – kvinder er tværtimod gode ledere."
+},
+"q4": {
+"da": "A. Under Arven fra 1970’erne står der, at kvinderne kom til at arbejde i omsorgsfag, hvor det var almindeligt at gå hjemme længe med børnene, og at de «har … taget den lange barselsorlov med sig». B og C nævnes ikke som årsager."
+},
+"q5": {
+"da": "B. Om kvoter står der: «man ikke skal se på ansøgeres køn, men udelukkende på deres kvalifikationer. Det er et argument, der i høj grad støttes af kvinder». C (at motivere frem for at tvinge) er lovens idé, ikke kvindernes holdning til kvoter."
+},
+"q6": {
+"da": "C. Under Lederrollen skal nytænkes står der, at virksomhederne skal være bedre til at fortælle, «at man i mange toplederjob selv kan styre arbejdstiden og nogle gange arbejde hjemmefra». Forfremmelse (A) og løn (B) nævnes ikke som løsning."
+}
+},
+"pd3-18m-3": {
+"g1": {
+"da": "«Derudover» tilføjer en ny årsag til de høje boligpriser: Først flytter flere folk til, og derudover gør udlejning til turister situationen endnu sværere. Der er ingen modsætning, så «derimod», «til gengæld» og «i stedet» passer ikke."
+},
+"g2": {
+"da": "Turisterne betaler en høj pris, og konsekvensen (følgen) er, at prisen på lejeboliger stiger. Det er ikke en forudsætning, en hensigt eller en forklaring."
+},
+"g3": {
+"da": "«det betyder, at det næsten er en umulig opgave …» – tendensen fører til, at de studerende ikke kan finde en bolig. «Skyldes» ville vende årsag og virkning om."
+},
+"g4": {
+"da": "Citatet handler om at bo i gåafstand fra studiet og tæt på Kongens Nytorv, altså hvor boligen ligger: dens beliggenhed."
+},
+"g5": {
+"da": "København er allerede nævnt; i Aarhus er det ligeledes (også) svært. «Som nævnt» passer ikke, fordi Aarhus ikke er nævnt før."
+},
+"g6": {
+"da": "Det er svært at finde en billig bolig, og derfor vil det være bedst, hvis der bliver bygget flere billige boliger. «Derfor» viser konklusionen."
+},
+"g7": {
+"da": "Byggeriet skal kunne betale sig, så kommunerne må ændre reglerne – fx kravet om parkeringspladser. At følge, overholde eller stramme reglerne ville ikke gøre det billigere."
+},
+"g8": {
+"da": "Frank Jensen vil bygge ungdomsboliger uden et bestemt antal p-pladser, så han afviser, at der skal være lige så mange parkeringspladser som ved andre boliger."
+}
+},
 "pd3-18n-1": {
 "q0": {
 "da": "Under Regler for EU/EØS-borgere står der: «Med dette samt pas og nationalt identitetskort kan man i Borgerservice i højskolens kommune få tildelt CPR-nummer». «Dette» er opholdsdokumentet."
