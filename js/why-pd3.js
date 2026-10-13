@@ -103,6 +103,102 @@ Object.assign(PD2.WHY, {
 "da": "De smukke gamle huse og historien er noget, nettet og storcentrene ikke kan konkurrere med, altså «en fordel»."
 }
 },
+"pd3-18n-1": {
+"q0": {
+"da": "Under Regler for EU/EØS-borgere står der: «Med dette samt pas og nationalt identitetskort kan man i Borgerservice i højskolens kommune få tildelt CPR-nummer». «Dette» er opholdsdokumentet."
+},
+"q1": {
+"da": "Under Opholdstilladelse og højskoleophold står der: «Det er en forudsætning for opholdstilladelsen, at man er studieaktiv. Hvis man ikke er det, kan man miste opholdstilladelsen.»"
+},
+"q2": {
+"da": "Under Opholdstilladelse og højskoleophold står der: «Man kan dog i nogle tilfælde få arbejdstilladelse, hvis særlige grunde taler for det, fx i forbindelse med et praktikophold.»"
+},
+"q3": {
+"da": "Under Erhvervsgrunduddannelse (egu) på højskole står der: «Udgifter i forbindelse med kost og logi betales normalt af eleven selv.» Kommunen kan kun dække egenbetalingen."
+},
+"q4": {
+"da": "Under Tilskud til udlændinge står der, at hver højskole selv administrerer sin kvote: «Derfor skal udenlandske elever kontakte den højskole, de ønsker at gå på, for at høre om de giver stipendium.»"
+},
+"q5": {
+"da": "Under Korte og lange kurser står der: «De korte kurser varer typisk 1-2 uger og er normalt temabaserede.»"
+},
+"q6": {
+"da": "Under Tidligere højskoleelever fortæller siger Asger: «det, jeg var mest glad for, var faktisk, at de andre højskoleelever elskede at diskutere ligesom jeg selv.»"
+},
+"q7": {
+"da": "Marie fortæller, at hun kunne glæde sig til hver dag «helt uden at skulle bekymre mig om arbejde eller indkøb og madlavning». Spørgsmålet siger «udover arbejde», så svaret er indkøb og/eller madlavning."
+},
+"q8": {
+"da": "Katrine siger: «Det helt specielle ved højskolen var, at alt hvad jeg lavede, var noget jeg selv havde valgt.»"
+},
+"q9": {
+"da": "Under Oure Højskole – Dans, musik og teater står der: «Med særligt henblik på optagelsesprøven afholdes der også fiktive optagelsesprøver, så kursisterne kan lære prøveformen at kende.»"
+},
+"q10": {
+"da": "Under Suhrs Højskole – Bæredygtighed står der, at skolen «aktivt forsøger at begrænse madspild ved at genanvende alle madrester, hvis det er muligt.»"
+},
+"q11": {
+"da": "Under Folkehøjskoler og andre højskoler står der, at fx handelshøjskoler og professionshøjskoler er uddannelsesinstitutioner, «der tilbyder kompetencegivende eksaminer». Folkehøjskolerne tilbyder normalt ikke eksaminer."
+},
+"q12": {
+"da": "Under De to første højskoler står der: «Kold var den første til at afholde højskolekurser for kvinder»."
+},
+"q13": {
+"da": "Under Nye typer højskoler står der: «i 1985, da højskolernes popularitet var på dens højeste, var der 107.» 1918 (63) og 2017 (68) er færre."
+},
+"q14": {
+"da": "Under Grundtvig og folkehøjskolen står der: «Grundtvigs tanke var, at Danmarks historie, sprog, politiske system samt de danske sange skulle være det vigtigste i undervisningen.»"
+}
+},
+"pd3-18n-2": {
+"q0": {
+"da": "C: Helle siger om den større bolig: «det var faktisk det, der gjorde, at vi endte med at blive enige om, at det hele nok skulle gå godt». Lars fik først job, efter at beslutningen var taget (A), og forældrene i Hobro kommer kun «lidt tættere på» (B)."
+},
+"q1": {
+"da": "B: «De valgte dog Hjørring for at undgå at skulle bruge tid på at pendle … Dermed ville de få mere tid til at engagere sig i lokalmiljøet og få nye venner.» Naturen har de først lært at sætte pris på bagefter (A), og prisen var ikke grunden (C)."
+},
+"q2": {
+"da": "A: Lars siger: «Jeg tror, at alle de her nye ting, vi har engageret os i, er helt afgørende for, at vi nu befinder os rigtig godt her i Hjørring» – dvs. nye hobbyer, koret og frivilligt arbejde."
+},
+"q3": {
+"da": "C: Hvis mange ikke flytter med, «så vil der være mange nye kolleger, der skal læres op. Det kan give et ekstra arbejdspres … og det kan skræmme nogle fra at flytte med.» Det er medarbejdere med generelle kvalifikationer – ikke eksperter – der lettere finder nyt job (A)."
+},
+"q4": {
+"da": "B: «Fra regeringens side har man hele tiden været bevidst om … at medarbejderne i en overgangsperiode har brug for mere tid end normalt til at løse deres arbejdsopgaver.» Tabet af viden er kun midlertidigt (A)."
+},
+"q5": {
+"da": "A: Flytningerne bliver dyrere, fordi «der er større udgifter til blandt andet etablering af nye lokaler og til løn end beregnet». Højere løn til dem, der flytter med (C), står der ikke. Når hele arbejdspladsen flytter, sparer staten penge (B)."
+},
+"q6": {
+"da": "B: Kommunerne viser, hvad de har at byde på (busturen i Næstved), og Viborg har fortalt «om det positive ved den lokale kultur og natur» og om institutioner og skoler. De informerer om jobmuligheder, men sikrer ikke job (A) eller pladser (C)."
+}
+},
+"pd3-18n-3": {
+"g1": {
+"da": "derefter: Undersøgelsen faldt i to dele. «Først» lavede forskerne en spørgeskemaundersøgelse, derefter undersøgte de børnenes evne til at løse opgaver."
+},
+"g2": {
+"da": "konklusion: Sætningen fortæller resultatet af undersøgelsen – at børn, der selv går eller cykler, kan koncentrere sig længere."
+},
+"g3": {
+"da": "overraskende: Lige før står der, at «det er nyt, at virkningen varer så lang tid». Professoren synes derfor, det er overraskende."
+},
+"g4": {
+"da": "dokumenteret: Undersøgelsen har nu vist (bevist), at der er en fordel – den er dokumenteret."
+},
+"g5": {
+"da": "som nævnt: At eleverne har lettere ved at koncentrere sig, er allerede sagt tidligere i teksten."
+},
+"g6": {
+"da": "nemlig: Sætningen forklarer de «andre gode grunde» – flere cykelture betyder nemlig mere sundhed, færre sygedage og renere luft."
+},
+"g7": {
+"da": "fordi: Forældrene gør det i bedste mening, og derfor er det svært at få dem til at lade være. «fordi … så» viser årsagen."
+},
+"g8": {
+"da": "fravælge: Forbundet håber, at forældrene holder op med at køre børnene i skole – altså fravælger det."
+}
+},
 "pd3-19m-1": {
 "q0": {
 "da": "Under Langelandsfestival – Børneland står der: «Onsdag kl. 10.00 åbner Børneland for alle sine aktiviteter, som alle vil være åbne hver dag i festivalens sidste fire dage.» De første fire dage er kun legepladsen åben."
