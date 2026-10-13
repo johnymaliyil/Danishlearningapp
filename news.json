@@ -1,6 +1,97 @@
 {
- "updated": "2026-10-12T22:30+00:00",
+ "updated": "2026-10-13T11:50+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/nurnbergs-lufthavn-indstiller-flytrafikken-efter-noedsituation-i-luften",
+   "date": "2026-10-13T10:58:11+00:00",
+   "da": {
+    "title": "Nürnbergs lufthavn indstillede kortvarigt flytrafikken efter 'nødsituation i luften'",
+    "desc": "Lufthavnen blev lukket, lige inden et fly fra Korfu skulle lande. Ifølge politiet var der dog ingen fare."
+   },
+   "en": {
+    "title": "Nuremberg Airport briefly suspended air traffic after 'emergency in the air'",
+    "desc": "The airport was closed just before a plane from Corfu was due to land. According to the police, however, there was no danger."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/seneste-sport/rwanda-bringer-formel-1-tilbage-til-afrika",
+   "date": "2026-10-13T10:33:14+00:00",
+   "da": {
+    "title": "Rwanda bringer Formel 1 tilbage til Afrika",
+    "desc": ""
+   },
+   "en": {
+    "title": "Rwanda brings Formula 1 back to Africa",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/motorregistret-er-midlertidigt-lukket-ned-paa-grund-af-en-fejl",
+   "date": "2026-10-13T10:20:16+00:00",
+   "da": {
+    "title": "Motorregistret er midlertidigt lukket ned 'på grund af en fejl'",
+    "desc": ""
+   },
+   "en": {
+    "title": "The engine register is temporarily shut down 'due to an error'",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/26-aarig-havde-fire-rifler-og-40-kilo-kokain-liggende-derhjemme",
+   "date": "2026-10-13T10:16:31+00:00",
+   "da": {
+    "title": "26-årig havde fire rifler og 40 kilo kokain liggende derhjemme",
+    "desc": ""
+   },
+   "en": {
+    "title": "26-year-old had four rifles and 40 kilos of cocaine at home",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/flere-saaret-efter-knivangreb-i-sydkoreansk-supermarked",
+   "date": "2026-10-13T06:55:07+00:00",
+   "da": {
+    "title": "Flere såret efter knivangreb i sydkoreansk supermarked",
+    "desc": ""
+   },
+   "en": {
+    "title": "Several wounded after knife attack in South Korean supermarket",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mand-doer-i-rutsjebaneulykke-i-usa",
+   "date": "2026-10-13T05:00:29+00:00",
+   "da": {
+    "title": "Mand dør i rutsjebaneulykke i USA",
+    "desc": ""
+   },
+   "en": {
+    "title": "Man dies in roller coaster accident in USA",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/antallet-af-hjortepaakoersler-stiger",
+   "date": "2026-10-13T04:26:34+00:00",
+   "da": {
+    "title": "Antallet af hjortepåkørsler stiger",
+    "desc": ""
+   },
+   "en": {
+    "title": "The number of deer collisions is increasing",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/trump-overvejer-fyring-af-ambassadoer-i-graekenland-vi-er-ikke-glade",
@@ -11,19 +102,6 @@
    },
    "en": {
     "title": "Trump considers sacking ambassador to Greece: We're not happy",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/breaking-bad-skuespiller-doed-34-aar-gammel",
-   "date": "2026-10-12T21:43:36+00:00",
-   "da": {
-    "title": "'Breaking Bad'-skuespiller død 34 år gammel",
-    "desc": ""
-   },
-   "en": {
-    "title": "'Breaking Bad' actor dies aged 34",
     "desc": ""
    }
   },
@@ -115,84 +193,6 @@
    },
    "en": {
     "title": "28-year-old sentenced to conditional imprisonment for condoning terrorist acts on TikTok",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/microsoft-ejet-selskab-har-videregivet-foelsomme-oplysninger-om-grindr-brugere",
-   "date": "2026-10-12T12:10:25+00:00",
-   "da": {
-    "title": "Microsoft-ejet selskab har videregivet følsomme oplysninger om Grindr-brugere",
-    "desc": ""
-   },
-   "en": {
-    "title": "Microsoft-owned company has disclosed sensitive information about Grindr users",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/antallet-af-foertidspensionister-under-40-aar-falder",
-   "date": "2026-10-12T11:40:38+00:00",
-   "da": {
-    "title": "Antallet af førtidspensionister under 40 år falder",
-    "desc": ""
-   },
-   "en": {
-    "title": "The number of early retirees under 40 decreases",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/22-aarig-ungarer-accepterer-forlaengelse-af-varetaegtsfaengsling",
-   "date": "2026-10-12T11:15:37+00:00",
-   "da": {
-    "title": "22-årig ungarer accepterer forlængelse af varetægtsfængsling",
-    "desc": ""
-   },
-   "en": {
-    "title": "22-year-old Hungarian accepts extension of pre-trial detention",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/135-personer-tilbageholdt-efter-stor-politiaktion-paa-polske-skoler",
-   "date": "2026-10-12T10:52:25+00:00",
-   "da": {
-    "title": "135 personer tilbageholdt efter stor politiaktion på polske skoler",
-    "desc": ""
-   },
-   "en": {
-    "title": "135 people detained after major police action in Polish schools",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/oekonomer-fra-amerikanske-eliteuniversiteter-modtager-nobel-prisen-i-oekonomi",
-   "date": "2026-10-12T10:13:03+00:00",
-   "da": {
-    "title": "Økonomer fra amerikanske eliteuniversiteter modtager Nobel-prisen i økonomi",
-    "desc": ""
-   },
-   "en": {
-    "title": "Economists from elite American universities receive the Nobel Prize in Economics",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/rektor-og-skolelaerer-skudt-i-frankrig",
-   "date": "2026-10-12T09:42:19+00:00",
-   "da": {
-    "title": "Rektor og skolelærer skudt i Frankrig",
-    "desc": ""
-   },
-   "en": {
-    "title": "Principal and schoolteacher shot in France",
     "desc": ""
    }
   }
