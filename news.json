@@ -1,13 +1,143 @@
 {
- "updated": "2026-10-13T11:50+00:00",
+ "updated": "2026-10-13T20:42+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/volvo-tilbagekalder-5-500-biler-i-danmark-efter-fejl-ved-nakkestoette",
+   "date": "2026-10-13T20:03:56+00:00",
+   "da": {
+    "title": "Volvo tilbagekalder 5.500 biler i Danmark efter fejl ved nakkestøtte",
+    "desc": ""
+   },
+   "en": {
+    "title": "Volvo recalls 5,500 cars in Denmark after headrest failure",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/pavens-operation-er-gaaet-godt",
+   "date": "2026-10-13T18:36:31+00:00",
+   "da": {
+    "title": "Pavens operation er gået godt",
+    "desc": ""
+   },
+   "en": {
+    "title": "The Pope's operation has gone well",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/journalist-anholdt-og-anklaget-spionage-i-rusland",
+   "date": "2026-10-13T16:31:10+00:00",
+   "da": {
+    "title": "Journalist anholdt og anklaget for spionage i Rusland",
+    "desc": "En 34-årig japansk journalist skal sidde fængslet frem til december anklaget for spionage af de russiske myndigheder."
+   },
+   "en": {
+    "title": "Journalist arrested and charged with espionage in Russia",
+    "desc": "A 34-year-old Japanese journalist will be in prison until December on charges of espionage by the Russian authorities."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/taliban-har-lukket-adgangen-til-sidste-internationale-nyhedskanal",
+   "date": "2026-10-13T16:00:22+00:00",
+   "da": {
+    "title": "Taliban har lukket for adgangen til sidste internationale nyhedskanal",
+    "desc": ""
+   },
+   "en": {
+    "title": "The Taliban has closed access to the last international news channel",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/motorregistret-er-tilbage-i-normal-drift",
+   "date": "2026-10-13T15:40:20+00:00",
+   "da": {
+    "title": "Motorregistret er tilbage i normal drift",
+    "desc": ""
+   },
+   "en": {
+    "title": "The motor register is back to normal operation",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/politi-rykkede-ud-til-nabostridighed-i-koebenhavn",
+   "date": "2026-10-13T14:41:06+00:00",
+   "da": {
+    "title": "Politi rykkede ud til nabostridighed i København",
+    "desc": ""
+   },
+   "en": {
+    "title": "Police moved out to neighbouring dispute in Copenhagen",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/over-9-000-ebola-tilfaelde-i-dr-congo",
+   "date": "2026-10-13T13:30:38+00:00",
+   "da": {
+    "title": "Over 9.000 ebola-tilfælde i DR Congo",
+    "desc": ""
+   },
+   "en": {
+    "title": "Over 9,000 Ebola cases in DR Congo",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mi5-chef-advarer-om-intensiverede-iranske-angreb",
+   "date": "2026-10-13T13:18:35+00:00",
+   "da": {
+    "title": "MI5-chef advarer om intensiverede iranske angreb",
+    "desc": ""
+   },
+   "en": {
+    "title": "MI5 chief warns of intensified Iranian attacks",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tog-holder-stille-paa-fyn",
+   "date": "2026-10-13T12:55:31+00:00",
+   "da": {
+    "title": "Tog holder stille på Vestfyn",
+    "desc": ""
+   },
+   "en": {
+    "title": "Trains stop on West Funen",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/danske-supermarkeder-er-paa-stikkerne-efter-cyberangreb-i-frankrig",
+   "date": "2026-10-13T11:52:26+00:00",
+   "da": {
+    "title": "Danske supermarkeder er på stikkerne efter cyberangreb i Frankrig",
+    "desc": ""
+   },
+   "en": {
+    "title": "Danish supermarkets are on the cusp of cyberattacks in France",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/nurnbergs-lufthavn-indstiller-flytrafikken-efter-noedsituation-i-luften",
    "date": "2026-10-13T10:58:11+00:00",
    "da": {
     "title": "Nürnbergs lufthavn indstillede kortvarigt flytrafikken efter 'nødsituation i luften'",
-    "desc": "Lufthavnen blev lukket, lige inden et fly fra Korfu skulle lande. Ifølge politiet var der dog ingen fare."
+    "desc": "Ifølge det lokale politi blev der udsendt et nødsignal fra flyet, hvorfor et alarmberedskab blev sat i gang."
    },
    "en": {
     "title": "Nuremberg Airport briefly suspended air traffic after 'emergency in the air'",
@@ -63,136 +193,6 @@
    },
    "en": {
     "title": "Several wounded after knife attack in South Korean supermarket",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/mand-doer-i-rutsjebaneulykke-i-usa",
-   "date": "2026-10-13T05:00:29+00:00",
-   "da": {
-    "title": "Mand dør i rutsjebaneulykke i USA",
-    "desc": ""
-   },
-   "en": {
-    "title": "Man dies in roller coaster accident in USA",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/antallet-af-hjortepaakoersler-stiger",
-   "date": "2026-10-13T04:26:34+00:00",
-   "da": {
-    "title": "Antallet af hjortepåkørsler stiger",
-    "desc": ""
-   },
-   "en": {
-    "title": "The number of deer collisions is increasing",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/trump-overvejer-fyring-af-ambassadoer-i-graekenland-vi-er-ikke-glade",
-   "date": "2026-10-12T22:15:35+00:00",
-   "da": {
-    "title": "Trump overvejer fyring af ambassadør i Grækenland: Vi er ikke glade",
-    "desc": ""
-   },
-   "en": {
-    "title": "Trump considers sacking ambassador to Greece: We're not happy",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/skuespiller-selma-blair-anholdt-i-sag-om-vold-paa-fly",
-   "date": "2026-10-12T19:59:57+00:00",
-   "da": {
-    "title": "Skuespiller Selma Blair anholdt i sag om vold på fly",
-    "desc": ""
-   },
-   "en": {
-    "title": "Actor Selma Blair Arrested in Airplane Violence Case",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/polen-mistaenker-rusland-staa-bag-starlink-brand",
-   "date": "2026-10-12T18:54:50+00:00",
-   "da": {
-    "title": "Polen mistænker Rusland for at stå bag Starlink-brand",
-    "desc": ""
-   },
-   "en": {
-    "title": "Poland suspects Russia of being behind Starlink fire",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/paris-aeldste-markedshal-udbraendt",
-   "date": "2026-10-12T17:44:00+00:00",
-   "da": {
-    "title": "Paris' ældste markedshal udbrændt",
-    "desc": ""
-   },
-   "en": {
-    "title": "Paris' oldest market hall burned out",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/29-lande-fordoemmer-iran-efter-haendelse-ved-flybase-i-england",
-   "date": "2026-10-12T16:10:12+00:00",
-   "da": {
-    "title": "29 lande fordømmer Iran efter hændelse ved flybase i England",
-    "desc": ""
-   },
-   "en": {
-    "title": "29 countries condemn Iran after incident at UK air base",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/eu-lande-godkender-traeningsmission-i-libanon",
-   "date": "2026-10-12T15:33:32+00:00",
-   "da": {
-    "title": "EU-lande godkender træningsmission i Libanon",
-    "desc": ""
-   },
-   "en": {
-    "title": "EU countries approve training mission in Lebanon",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/pave-leo-indlaegges-i-morgen-efter-fund-af-lungeknude",
-   "date": "2026-10-12T12:59:43+00:00",
-   "da": {
-    "title": "Pave Leo indlægges i morgen efter fund af lungeknude",
-    "desc": ""
-   },
-   "en": {
-    "title": "Pope Leo is admitted tomorrow after finding a pulmonary nodule",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/28-aarig-idoemt-betinget-faengsel-paa-tiktok-billige-terrorhandlinger",
-   "date": "2026-10-12T12:34:50+00:00",
-   "da": {
-    "title": "28-årig idømt betinget fængsel for på TikTok at billige terrorhandlinger",
-    "desc": ""
-   },
-   "en": {
-    "title": "28-year-old sentenced to conditional imprisonment for condoning terrorist acts on TikTok",
     "desc": ""
    }
   }
