@@ -4109,14 +4109,14 @@
       <p class="small muted">Modelsvarene er skrevet enkelt af DanskKlar. Oplæsningen bruger din browsers stemmer – i Chrome og Edge er der som regel en dansk og en engelsk stemme.</p>`;
     const mark = i => { $$(".lline").forEach(x => x.classList.toggle("on", +x.dataset.i === i)); const el = $(`.lline[data-i="${i}"]`); if (el) el.scrollIntoView({ behavior: "smooth", block: "center" }); };
     const queueFor = i => {
-      const l = L.lines[i], r = pr.slow ? 0.7 : 0.95, q = [{ text: l.da, lang: "da", rate: r, label: "🇩🇰 Sætningen" }];
-      if (pr.notes && l.note) q.push({ text: l.note, lang: "en", rate: 0.95, label: "📐 Grammatik" });
+      const l = L.lines[i], r = pr.slow ? 0.62 : 0.9, q = [{ text: l.da, lang: "da", rate: r, label: "🇩🇰 Sætningen" }];
+      if (pr.notes && l.note) q.push({ pause: 400 }, { text: l.note, lang: "en", rate: 0.88, label: "📐 Grammatik" });
       if (pr.spell) (l.words || []).forEach(([a, b]) => q.push(
-        { text: a, lang: "da", rate: 0.6, label: `🔤 ${a}` },
-        { text: spellOut(a), lang: "da", rate: 0.55, label: `🔤 ${spellOut(a).replace(/, /g, "-")}` },
-        { text: `It means: ${b}.`, lang: "en", rate: 0.95, label: `= ${b}` }));
+        { pause: 300 }, { text: a, lang: "da", rate: 0.55, label: `🔤 ${a}` },
+        { text: spellOut(a), lang: "da", rate: 0.45, gap: 500, label: `🔤 ${spellOut(a).replace(/, /g, "-")}` },
+        { text: `It means: ${b}.`, lang: "en", rate: 0.88, label: `= ${b}` }));
       if (pr.repeat && (pr.notes && l.note || pr.spell && (l.words || []).length)) q.push({ pause: 300 }, { text: l.da, lang: "da", rate: r, label: "🔁 Igen" });
-      q.push({ pause: 700 });
+      q.push({ pause: 1200 });
       return q;
     };
     const setBtn = () => { $("#lPlay").textContent = playing ? "⏸ Pause" : "▶ Afspil"; };
