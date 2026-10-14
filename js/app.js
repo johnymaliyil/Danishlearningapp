@@ -373,6 +373,8 @@
     [/^\/progress$/, progressPage],
     [/^\/lyt(?:\/(\d))?$/, listenList],
     [/^\/lyt\/w\/([\w-]+)$/, listenItem],
+    [/^\/lyt-r$/, listenReadingList],
+    [/^\/lyt\/r\/([\w-]+)$/, listenReadingItem],
     [/^\/news$/, newsPage],
     [/^\/fvu(?:\/(\d))?$/, fvuPage],
     [/^\/pd3guide$/, pd3GuidePage],
@@ -653,6 +655,9 @@
     app.innerHTML = `
       <h1>📖 Læsning <span class="tag">${META().name} · ${META().cefr}</span></h1>
       <p class="muted">${esc(META().readingIntro)}</p>
+      ${PD2.LISTEN_R && EX().READING.some(r => PD2.LISTEN_R[r.id]) ? `<a class="task read" href="#/lyt-r" style="display:block;margin:12px 0 4px">
+        <span class="emoji">🎧</span><h2>Lyt til læseteksterne</h2>
+        <p class="muted" style="margin:0">Hør teksterne langsomt, sætning for sætning, med en forklaring på engelsk og stavning af svære ord.</p></a>` : ""}
       ${ordered.map(([g, items]) => `
         <h2 style="margin-top:24px">${items[0].real ? '<span class="tag real">Rigtig prøve</span> ' : ""}${esc(g)}</h2>
         <div class="stack">
@@ -744,6 +749,7 @@
       <p class="muted">${r.real ? `<span class="tag real">Rigtig prøve · ${esc(r.group.replace("PD2 ", ""))}</span> ` : ""}${esc(r.kind)}</p>
       ${exam ? "" : `<div class="row" style="margin-bottom:16px">
         ${r.minutes ? `<button class="btn ghost sm" id="timerBtn">⏱️ Start prøvetid (${r.minutes} min)</button><span class="timer" id="timer"></span>` : ""}
+        ${PD2.LISTEN_R && PD2.LISTEN_R[r.id] ? `<a class="btn ghost sm" href="#/lyt/r/${r.id}">🎧 Lyt til teksten</a>` : ""}
       </div>`}
       <div class="reader ${solo ? "solo" : ""}">
         <div class="card text">
@@ -4085,11 +4091,36 @@
     const w = findItem("WRITING", id);
     const L = PD2.LISTEN && PD2.LISTEN[id];
     if (!w || !L) { location.hash = "#/lyt"; return; }
-    let pr = listenPrefs(), cur = 0, stop = null, playing = false;
-    app.innerHTML = `<a class="back" href="#/lyt/${w.delprove}">← Alle modelsvar · Delprøve ${w.delprove}</a>
+    listenPlayer(L, id, `<a class="back" href="#/lyt/${w.delprove}">← Alle modelsvar · Delprøve ${w.delprove}</a>
       <h1>🎧 ${esc(w.title)}</h1>
       <details class="info"><summary>📄 Opgaven</summary><div class="instruction" style="background:var(--write-soft)">${esc(w.situation)}</div>
-        ${w.points && w.points.length ? `<ul>${w.points.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}</details>
+        ${w.points && w.points.length ? `<ul>${w.points.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}</details>`,
+      "Modelsvarene er skrevet enkelt af DanskKlar.");
+  }
+  // 🎧 Reading texts (data: PD2.LISTEN_R in js/listen-reading-pd2.js); gaps are read with the right words filled in.
+  function listenReadingList() {
+    const items = EX().READING.filter(r => PD2.LISTEN_R && PD2.LISTEN_R[r.id]);
+    const groups = {};
+    items.forEach(r => { const g = r.group || "Øvelser"; (groups[g] = groups[g] || []).push(r); });
+    app.innerHTML = `<a class="back" href="#/reading">← Læsning</a>
+      <h1>🎧 Lyt til læseteksterne</h1>
+      <p class="muted">Appen læser teksten langsomt op sætning for sætning, forklarer hver sætning på engelsk, staver de svære ord og siger, hvad de betyder. Tip: Løs opgaven først – i hulteksterne bliver de rigtige ord læst op.</p>
+      ${Object.entries(groups).map(([g, rs]) => `<h2 style="margin-top:18px">${esc(g)}</h2><div class="stack">${rs.map(r => `<a class="list-item" href="#/lyt/r/${r.id}"><span class="ico">🎧</span>
+        <span class="meta"><b>${esc(r.title)}</b><span class="small muted">${PD2.LISTEN_R[r.id].lines.length} sætninger</span></span>${S.listened && S.listened[r.id] ? '<span class="score-badge full">✓</span>' : ""}</a>`).join("")}</div>`).join("") || `<p class="muted">Kommer snart.</p>`}`;
+  }
+  function listenReadingItem(id) {
+    const r = findItem("READING", id);
+    const L = PD2.LISTEN_R && PD2.LISTEN_R[id];
+    if (!r || !L) { location.hash = "#/lyt-r"; return; }
+    const gaps = (r.questions || []).some(q => q.type === "gaps");
+    listenPlayer(L, id, `<a class="back" href="#/lyt-r">← Alle læsetekster</a>
+      <h1>🎧 ${esc(r.title)}</h1>
+      <p class="row"><a class="btn ghost sm" href="#/reading/${r.id}">📖 Gå til opgaven</a>${gaps ? '<span class="small muted">Hullerne er udfyldt med de rigtige ord – løs gerne opgaven først.</span>' : ""}</p>`,
+      "Forklaringerne er skrevet af DanskKlar. Teksten er fra prøven.");
+  }
+  function listenPlayer(L, id, headHtml, footNote) {
+    let pr = listenPrefs(), cur = 0, stop = null, playing = false;
+    app.innerHTML = `${headHtml}
       <div class="card listen-player">
         <div class="row" style="justify-content:center;gap:8px">
           <button class="btn ghost" id="lPrev" aria-label="Forrige sætning">⏮</button>
@@ -4106,7 +4137,7 @@
           <div class="len" lang="en">${esc(l.en || "")}</div>
           ${l.note || (l.words && l.words.length) ? `<div class="lnote">${l.note ? `<span lang="en">📐 ${esc(l.note)}</span>` : ""}${(l.words || []).map(([a, b]) => `<span class="lword"><b data-keep>${esc(a)}</b> <span class="muted">(${esc(spellOut(a).replace(/, /g, "-"))})</span> <span lang="en">= ${esc(b)}</span></span>`).join("")}</div>` : ""}
         </div>`).join("")}</div>
-      <p class="small muted">Modelsvarene er skrevet enkelt af DanskKlar. Oplæsningen bruger din browsers stemmer – i Chrome og Edge er der som regel en dansk og en engelsk stemme.</p>`;
+      <p class="small muted">${esc(footNote)} Oplæsningen bruger din browsers stemmer – i Chrome og Edge er der som regel en dansk og en engelsk stemme.</p>`;
     const mark = i => { $$(".lline").forEach(x => x.classList.toggle("on", +x.dataset.i === i)); const el = $(`.lline[data-i="${i}"]`); if (el) el.scrollIntoView({ behavior: "smooth", block: "center" }); };
     const queueFor = i => {
       const l = L.lines[i], r = pr.slow ? 0.62 : 0.9, q = [{ text: l.da, lang: "da", rate: r, label: "🇩🇰 Sætningen" }];
