@@ -1,6 +1,84 @@
 {
- "updated": "2026-10-14T09:32+00:00",
+ "updated": "2026-10-14T15:10+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/midlertidig-graensekontrol-mod-tyskland-forlaenges-med-et-halvt-aar",
+   "date": "2026-10-14T14:55:28+00:00",
+   "da": {
+    "title": "Midlertidig grænsekontrol mod Tyskland forlænges med et halvt år",
+    "desc": ""
+   },
+   "en": {
+    "title": "Temporary border controls with Germany extended by half a year",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/netflix-presset-af-konkurrenter-fyrer-1-000-ansatte",
+   "date": "2026-10-14T14:41:42+00:00",
+   "da": {
+    "title": "Netflix presset af konkurrenter - fyrer 1.000 ansatte",
+    "desc": ""
+   },
+   "en": {
+    "title": "Netflix pressured by competitors - Fires 1,000 employees",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/fuld-togtrafik-over-vestfyn-genoptages-foerst-mandag",
+   "date": "2026-10-14T13:36:53+00:00",
+   "da": {
+    "title": "Fuld togtrafik over Vestfyn genoptages først mandag",
+    "desc": ""
+   },
+   "en": {
+    "title": "Full train traffic over West Funen will not resume until Monday",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/byraadsveteran-forlader-venstre-konservative",
+   "date": "2026-10-14T13:31:29+00:00",
+   "da": {
+    "title": "Byrådsveteran forlader Venstre for Konservative",
+    "desc": ""
+   },
+   "en": {
+    "title": "City Council veteran leaves Left for Conservative",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mobil-politistation-rykkes-til-omraade-efter-overfald-paa-kvinder",
+   "date": "2026-10-14T11:49:35+00:00",
+   "da": {
+    "title": "Mobil politistation rykkes til område efter overfald på kvinder",
+    "desc": ""
+   },
+   "en": {
+    "title": "Mobile police station moved to area after assault on women",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tre-danske-film-er-blevet-shortlistet-til-stor-prisuddeling",
+   "date": "2026-10-14T10:37:47+00:00",
+   "da": {
+    "title": "Tre danske film er blevet shortlistet til stor prisuddeling",
+    "desc": ""
+   },
+   "en": {
+    "title": "Three Danish films have been shortlisted for major awards",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/65-aarig-mand-er-doed-efter-knivstikkeri-i-odense",
@@ -116,84 +194,6 @@
    "en": {
     "title": "Hannah, Marnie and the rest of 'Girls' return with new episodes",
     "desc": "Filming is scheduled to begin in 2027."
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/saudisk-medarbejder-sigtet-plante-aflytningsudstyr-hos-openai",
-   "date": "2026-10-13T21:37:23+00:00",
-   "da": {
-    "title": "Saudisk medarbejder sigtet for at plante aflytningsudstyr hos OpenAI",
-    "desc": "Ifølge selskabet er der ikke nogen tegn på, at medarbejderen har skaffet sig adgang til eller kopieret koder og data."
-   },
-   "en": {
-    "title": "Saudi employee charged with planting eavesdropping devices at OpenAI",
-    "desc": "According to the company, there is no evidence that the employee has accessed or copied codes and data."
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/pave-leo-har-faaet-konstateret-lungekraeft",
-   "date": "2026-10-13T20:58:04+00:00",
-   "da": {
-    "title": "Pave Leo har fået konstateret lungekræft",
-    "desc": ""
-   },
-   "en": {
-    "title": "Pope Leo has been diagnosed with lung cancer",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/volvo-tilbagekalder-5-500-biler-i-danmark-efter-fejl-ved-nakkestoette",
-   "date": "2026-10-13T20:03:56+00:00",
-   "da": {
-    "title": "Volvo tilbagekalder 5.500 biler i Danmark efter fejl ved nakkestøtte",
-    "desc": ""
-   },
-   "en": {
-    "title": "Volvo recalls 5,500 cars in Denmark after headrest failure",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/pavens-operation-er-gaaet-godt",
-   "date": "2026-10-13T18:36:31+00:00",
-   "da": {
-    "title": "Pavens operation er gået godt",
-    "desc": ""
-   },
-   "en": {
-    "title": "The Pope's operation has gone well",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/journalist-anholdt-og-anklaget-spionage-i-rusland",
-   "date": "2026-10-13T16:31:10+00:00",
-   "da": {
-    "title": "Journalist anholdt og anklaget for spionage i Rusland",
-    "desc": "En 34-årig japansk journalist skal sidde fængslet frem til december anklaget for spionage af de russiske myndigheder."
-   },
-   "en": {
-    "title": "Journalist arrested and charged with espionage in Russia",
-    "desc": "A 34-year-old Japanese journalist will be in prison until December on charges of espionage by the Russian authorities."
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/taliban-har-lukket-adgangen-til-sidste-internationale-nyhedskanal",
-   "date": "2026-10-13T16:00:22+00:00",
-   "da": {
-    "title": "Taliban har lukket for adgangen til sidste internationale nyhedskanal",
-    "desc": ""
-   },
-   "en": {
-    "title": "The Taliban has closed access to the last international news channel",
-    "desc": ""
    }
   }
  ]
