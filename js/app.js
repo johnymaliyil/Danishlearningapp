@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "88"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "89"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -4119,11 +4119,11 @@
       q.push({ pause: 1200 });
       return q;
     };
-    const setBtn = () => { $("#lPlay").textContent = playing ? "⏸ Pause" : "▶ Afspil"; };
-    const halt = () => { if (stop) stop(); stop = null; playing = false; setBtn(); $("#lNow").textContent = ""; };
+    const setBtn = () => { const b = $("#lPlay"); if (b) b.textContent = playing ? "⏸ Pause" : "▶ Afspil"; };
+    const halt = () => { if (stop) stop(); stop = null; playing = false; setBtn(); const n = $("#lNow"); if (n) n.textContent = ""; };
     const playFrom = i => {
       halt(); cur = Math.max(0, Math.min(L.lines.length - 1, i)); playing = true; setBtn(); mark(cur);
-      stop = speakQueue(queueFor(cur), it => { $("#lNow").textContent = it.label || ""; }, () => {
+      stop = speakQueue(queueFor(cur), it => { const n = $("#lNow"); if (n) n.textContent = it.label || ""; }, () => {
         if (!playing) return;
         if (cur < L.lines.length - 1) playFrom(cur + 1);
         else { halt(); S.listened = S.listened || {}; if (!S.listened[id]) { S.listened[id] = true; addXP(10, "lyt"); } save(); toast("Færdig! 🎧"); }
