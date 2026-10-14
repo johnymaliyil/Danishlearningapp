@@ -985,3 +985,20 @@ a.help-item:hover { border-color: var(--read); }
 .guide-tbl td.da { font-weight: 700; white-space: nowrap; }
 .task-chart { margin: 12px 0; }
 .task-chart img { width: 100%; max-width: 720px; height: auto; border-radius: 12px; background: #fff; }
+
+/* 🎧 Lyt til modelsvar */
+.listen-cards { margin-top: 16px; }
+.listen-player { position: sticky; top: 8px; z-index: 5; }
+.listen-opts { justify-content: center; gap: 6px; margin-top: 10px; }
+.chip-toggle { display: inline-flex; align-items: center; gap: 6px; padding: 6px 10px; border: 1px solid var(--border); border-radius: 999px; font-size: .9rem; cursor: pointer; background: var(--surface); }
+.chip-toggle input { accent-color: var(--accent); }
+.listen-text { margin-top: 12px; }
+.lline { padding: 10px 12px; border-radius: 12px; cursor: pointer; transition: background .2s; }
+.lline:hover { background: var(--surface-2); }
+.lline.on { background: var(--accent-soft); outline: 2px solid var(--accent); }
+.lda { font-size: 1.12rem; font-weight: 700; }
+.len { display: none; color: var(--muted); font-size: .95rem; margin-top: 2px; }
+.listen-text.show-en .len { display: block; }
+.lnote { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 6px; font-size: .9rem; color: var(--muted); }
+.lword b { color: var(--text); }
+.lpara { height: 10px; }
