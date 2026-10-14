@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "90"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "91"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -657,7 +657,7 @@
       <p class="muted">${esc(META().readingIntro)}</p>
       ${PD2.LISTEN_R && EX().READING.some(r => PD2.LISTEN_R[r.id]) ? `<a class="task read" href="#/lyt-r" style="display:block;margin:12px 0 4px">
         <span class="emoji">🎧</span><h2>Lyt til læseteksterne</h2>
-        <p class="muted" style="margin:0">Hør teksterne langsomt, sætning for sætning, med en forklaring på engelsk og stavning af svære ord.</p></a>` : ""}
+        <p class="muted" style="margin:0">Hør teksterne langsomt, sætning for sætning, med grammatik og engelsk oversættelse.</p></a>` : ""}
       ${ordered.map(([g, items]) => `
         <h2 style="margin-top:24px">${items[0].real ? '<span class="tag real">Rigtig prøve</span> ' : ""}${esc(g)}</h2>
         <div class="stack">
@@ -979,7 +979,7 @@
       </a>` : ""}
       ${PD2.LISTEN && EX().WRITING.some(w => PD2.LISTEN[w.id]) ? `<div class="grid grid-2 listen-cards">${[1, 2].map(d => `<a class="task write" href="#/lyt/${d}">
         <span class="emoji">🎧</span><h2>Lyt til modelsvar · Delprøve ${d}</h2>
-        <p class="muted" style="margin:0">Hør modelsvarene langsomt, sætning for sætning, med grammatik, stavning af svære ord og betydning.</p></a>`).join("")}</div>` : ""}
+        <p class="muted" style="margin:0">Hør modelsvarene langsomt, sætning for sætning, med grammatik og engelsk oversættelse.</p></a>`).join("")}</div>` : ""}
       ${[1, 2].map(d => `
         <h2 style="margin-top:22px">${esc(META().writingParts[d])}</h2>
         <div class="stack">${by(d).map(item).join("")}</div>`).join("")}`;
@@ -4036,8 +4036,8 @@
   }
 
   // ---------- 🎧 Lyt til modelsvar (data: PD2.LISTEN in js/listen-pd2.js) ----------
-  // Each model answer is read slowly sentence by sentence: the Danish sentence, a short grammar tip in English,
-  // the hard words spelled letter by letter with their meaning, and the sentence once more.
+  // Each model answer is read slowly sentence by sentence: the Danish sentence, a short grammar tip in English
+  // and the English translation.
   let enVoice = null;
   function pickEnVoice() {
     if (!("speechSynthesis" in window)) return;
@@ -4046,7 +4046,7 @@
   }
   if ("speechSynthesis" in window) { pickEnVoice(); speechSynthesis.addEventListener && speechSynthesis.addEventListener("voiceschanged", pickEnVoice); }
   const LISTEN_PREF = "dk-listen";
-  const listenPrefs = () => { try { return Object.assign({ speed: 0.5, notes: true, spell: true, repeat: true, en: false }, JSON.parse(localStorage.getItem(LISTEN_PREF) || "{}")); } catch (e) { return { speed: 0.5, notes: true, spell: true, repeat: true, en: false }; } };
+  const listenPrefs = () => { try { return Object.assign({ speed: 0.5, notes: true, trans: true, en: false }, JSON.parse(localStorage.getItem(LISTEN_PREF) || "{}")); } catch (e) { return { speed: 0.5, notes: true, trans: true, en: false }; } };
   const saveListenPrefs = o => { try { localStorage.setItem(LISTEN_PREF, JSON.stringify(o)); } catch (e) { /* ignore */ } };
   // Play a list of utterances one after another; returns a stop function.
   function speakQueue(items, onItem, onDone) {
@@ -4070,13 +4070,12 @@
     next();
     return () => { stopped = true; speechSynthesis.cancel(); };
   }
-  const spellOut = w => w.toLowerCase().replace(/[^a-zæøåäöüé]/g, "").split("").join(", ");
   function listenList(part) {
     const d = +part || 1;
     const items = EX().WRITING.filter(w => w.delprove === d && PD2.LISTEN && PD2.LISTEN[w.id]);
     app.innerHTML = `<a class="back" href="#/writing">← Skrivning</a>
       <h1>🎧 Lyt til modelsvar</h1>
-      <p class="muted">Vælg en opgave. Appen læser modelsvaret langsomt op sætning for sætning, forklarer grammatikken (på engelsk), staver de svære ord og siger, hvad de betyder.</p>
+      <p class="muted">Vælg en opgave. Appen læser modelsvaret langsomt op sætning for sætning, forklarer grammatikken og siger sætningen på engelsk.</p>
       <div class="row listen-tabs">${[1, 2].map(x => `<a class="btn ${x === d ? "write" : "ghost"} sm" href="#/lyt/${x}">Delprøve ${x}</a>`).join("")}</div>
       <h2 style="margin-top:14px">${esc(META().writingParts[d] || "Delprøve " + d)}</h2>
       <div class="stack">${items.map(w => `<a class="list-item" href="#/lyt/w/${w.id}"><span class="ico">🎧</span>
@@ -4104,7 +4103,7 @@
     items.forEach(r => { const g = r.group || "Øvelser"; (groups[g] = groups[g] || []).push(r); });
     app.innerHTML = `<a class="back" href="#/reading">← Læsning</a>
       <h1>🎧 Lyt til læseteksterne</h1>
-      <p class="muted">Appen læser teksten langsomt op sætning for sætning, forklarer hver sætning på engelsk, staver de svære ord og siger, hvad de betyder. Tip: Løs opgaven først – i hulteksterne bliver de rigtige ord læst op.</p>
+      <p class="muted">Appen læser teksten langsomt op sætning for sætning, forklarer grammatikken og siger sætningen på engelsk. Tip: Løs opgaven først – i hulteksterne bliver de rigtige ord læst op.</p>
       ${Object.entries(groups).map(([g, rs]) => `<h2 style="margin-top:18px">${esc(g)}</h2><div class="stack">${rs.map(r => `<a class="list-item" href="#/lyt/r/${r.id}"><span class="ico">🎧</span>
         <span class="meta"><b>${esc(r.title)}</b><span class="small muted">${PD2.LISTEN_R[r.id].lines.length} sætninger</span></span>${S.listened && S.listened[r.id] ? '<span class="score-badge full">✓</span>' : ""}</a>`).join("")}</div>`).join("") || `<p class="muted">Kommer snart.</p>`}`;
   }
@@ -4129,25 +4128,22 @@
         </div>
         <div class="row listen-opts">
           <label class="chip-toggle">🐢 <select id="lSpeed" aria-label="Hastighed">${[[0.5, "Meget langsomt"], [0.65, "Langsomt"], [0.9, "Normalt"]].map(([v, t]) => `<option value="${v}" ${+pr.speed === v ? "selected" : ""}>${t}</option>`).join("")}</select></label>
-          ${[["notes", "📐 Grammatik"], ["spell", "🔤 Stav svære ord"], ["repeat", "🔁 Gentag sætningen"], ["en", "🇬🇧 Vis engelsk"]].map(([k, t]) => `<label class="chip-toggle"><input type="checkbox" data-opt="${k}" ${pr[k] ? "checked" : ""}> ${t}</label>`).join("")}
+          ${[["notes", "📐 Grammatik"], ["trans", "🗣️ Sig oversættelsen"], ["en", "🇬🇧 Vis engelsk"]].map(([k, t]) => `<label class="chip-toggle"><input type="checkbox" data-opt="${k}" ${pr[k] ? "checked" : ""}> ${t}</label>`).join("")}
         </div>
         <div class="small muted" id="lNow" style="text-align:center;min-height:1.4em"></div>
       </div>
       <div class="card listen-text ${pr.en ? "show-en" : ""}" id="lText">${L.lines.map((l, i) => `${l.p && i ? '<div class="lpara"></div>' : ""}<div class="lline" data-i="${i}">
           <div class="lda" data-keep>${esc(l.da)}</div>
           <div class="len" lang="en">${esc(l.en || "")}</div>
-          ${l.note || (l.words && l.words.length) ? `<div class="lnote">${l.note ? `<span lang="en">📐 ${esc(l.note)}</span>` : ""}${(l.words || []).map(([a, b]) => `<span class="lword"><b data-keep>${esc(a)}</b> <span class="muted">(${esc(spellOut(a).replace(/, /g, "-"))})</span> <span lang="en">= ${esc(b)}</span></span>`).join("")}</div>` : ""}
+          ${l.note || (l.words && l.words.length) ? `<div class="lnote">${l.note ? `<span lang="en">📐 ${esc(l.note)}</span>` : ""}${(l.words || []).map(([a, b]) => `<span class="lword"><b data-keep>${esc(a)}</b> <span lang="en">= ${esc(b)}</span></span>`).join("")}</div>` : ""}
         </div>`).join("")}</div>
       <p class="small muted">${esc(footNote)} Oplæsningen bruger din browsers stemmer – i Chrome og Edge er der som regel en dansk og en engelsk stemme.</p>`;
     const mark = i => { $$(".lline").forEach(x => x.classList.toggle("on", +x.dataset.i === i)); const el = $(`.lline[data-i="${i}"]`); if (el) el.scrollIntoView({ behavior: "smooth", block: "center" }); };
+    // Each sentence: the Danish sentence slowly, then the grammar explanation and the English translation.
     const queueFor = i => {
       const l = L.lines[i], r = +pr.speed || 0.5, q = [{ text: l.da, lang: "da", rate: r, label: "🇩🇰 Sætningen" }];
-      if (pr.notes && l.note) q.push({ pause: 400 }, { text: l.note, lang: "en", rate: 0.88, label: "📐 Grammatik" });
-      if (pr.spell) (l.words || []).forEach(([a, b]) => q.push(
-        { pause: 300 }, { text: a, lang: "da", rate: Math.min(r, 0.55), label: `🔤 ${a}` },
-        { text: spellOut(a), lang: "da", rate: Math.min(r, 0.45), gap: 500, label: `🔤 ${spellOut(a).replace(/, /g, "-")}` },
-        { text: `It means: ${b}.`, lang: "en", rate: 0.88, label: `= ${b}` }));
-      if (pr.repeat && (pr.notes && l.note || pr.spell && (l.words || []).length)) q.push({ pause: 300 }, { text: l.da, lang: "da", rate: r, label: "🔁 Igen" });
+      if (pr.notes && l.note) q.push({ pause: 500 }, { text: l.note, lang: "en", rate: 0.88, label: "📐 Grammatik" });
+      if (pr.trans && l.en) q.push({ pause: 400 }, { text: l.en, lang: "en", rate: 0.88, label: "🇬🇧 På engelsk" });
       q.push({ pause: 1200 });
       return q;
     };
