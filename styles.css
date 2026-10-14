@@ -1002,3 +1002,4 @@ a.help-item:hover { border-color: var(--read); }
 .lnote { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 6px; font-size: .9rem; color: var(--muted); }
 .lword b { color: var(--text); }
 .lpara { height: 10px; }
+.chip-toggle select { border: 0; background: transparent; font: inherit; color: inherit; }

@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "89"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "90"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -4046,7 +4046,7 @@
   }
   if ("speechSynthesis" in window) { pickEnVoice(); speechSynthesis.addEventListener && speechSynthesis.addEventListener("voiceschanged", pickEnVoice); }
   const LISTEN_PREF = "dk-listen";
-  const listenPrefs = () => { try { return Object.assign({ slow: true, notes: true, spell: true, repeat: true, en: false }, JSON.parse(localStorage.getItem(LISTEN_PREF) || "{}")); } catch (e) { return { slow: true, notes: true, spell: true, repeat: true, en: false }; } };
+  const listenPrefs = () => { try { return Object.assign({ speed: 0.5, notes: true, spell: true, repeat: true, en: false }, JSON.parse(localStorage.getItem(LISTEN_PREF) || "{}")); } catch (e) { return { speed: 0.5, notes: true, spell: true, repeat: true, en: false }; } };
   const saveListenPrefs = o => { try { localStorage.setItem(LISTEN_PREF, JSON.stringify(o)); } catch (e) { /* ignore */ } };
   // Play a list of utterances one after another; returns a stop function.
   function speakQueue(items, onItem, onDone) {
@@ -4128,7 +4128,8 @@
           <button class="btn ghost" id="lNext" aria-label="Næste sætning">⏭</button>
         </div>
         <div class="row listen-opts">
-          ${[["slow", "🐢 Langsomt"], ["notes", "📐 Grammatik"], ["spell", "🔤 Stav svære ord"], ["repeat", "🔁 Gentag sætningen"], ["en", "🇬🇧 Vis engelsk"]].map(([k, t]) => `<label class="chip-toggle"><input type="checkbox" data-opt="${k}" ${pr[k] ? "checked" : ""}> ${t}</label>`).join("")}
+          <label class="chip-toggle">🐢 <select id="lSpeed" aria-label="Hastighed">${[[0.5, "Meget langsomt"], [0.65, "Langsomt"], [0.9, "Normalt"]].map(([v, t]) => `<option value="${v}" ${+pr.speed === v ? "selected" : ""}>${t}</option>`).join("")}</select></label>
+          ${[["notes", "📐 Grammatik"], ["spell", "🔤 Stav svære ord"], ["repeat", "🔁 Gentag sætningen"], ["en", "🇬🇧 Vis engelsk"]].map(([k, t]) => `<label class="chip-toggle"><input type="checkbox" data-opt="${k}" ${pr[k] ? "checked" : ""}> ${t}</label>`).join("")}
         </div>
         <div class="small muted" id="lNow" style="text-align:center;min-height:1.4em"></div>
       </div>
@@ -4140,11 +4141,11 @@
       <p class="small muted">${esc(footNote)} Oplæsningen bruger din browsers stemmer – i Chrome og Edge er der som regel en dansk og en engelsk stemme.</p>`;
     const mark = i => { $$(".lline").forEach(x => x.classList.toggle("on", +x.dataset.i === i)); const el = $(`.lline[data-i="${i}"]`); if (el) el.scrollIntoView({ behavior: "smooth", block: "center" }); };
     const queueFor = i => {
-      const l = L.lines[i], r = pr.slow ? 0.62 : 0.9, q = [{ text: l.da, lang: "da", rate: r, label: "🇩🇰 Sætningen" }];
+      const l = L.lines[i], r = +pr.speed || 0.5, q = [{ text: l.da, lang: "da", rate: r, label: "🇩🇰 Sætningen" }];
       if (pr.notes && l.note) q.push({ pause: 400 }, { text: l.note, lang: "en", rate: 0.88, label: "📐 Grammatik" });
       if (pr.spell) (l.words || []).forEach(([a, b]) => q.push(
-        { pause: 300 }, { text: a, lang: "da", rate: 0.55, label: `🔤 ${a}` },
-        { text: spellOut(a), lang: "da", rate: 0.45, gap: 500, label: `🔤 ${spellOut(a).replace(/, /g, "-")}` },
+        { pause: 300 }, { text: a, lang: "da", rate: Math.min(r, 0.55), label: `🔤 ${a}` },
+        { text: spellOut(a), lang: "da", rate: Math.min(r, 0.45), gap: 500, label: `🔤 ${spellOut(a).replace(/, /g, "-")}` },
         { text: `It means: ${b}.`, lang: "en", rate: 0.88, label: `= ${b}` }));
       if (pr.repeat && (pr.notes && l.note || pr.spell && (l.words || []).length)) q.push({ pause: 300 }, { text: l.da, lang: "da", rate: r, label: "🔁 Igen" });
       q.push({ pause: 1200 });
@@ -4164,6 +4165,7 @@
     $("#lPrev").onclick = () => playFrom(cur - 1);
     $("#lNext").onclick = () => playFrom(cur + 1);
     $$(".lline").forEach(x => x.onclick = () => playFrom(+x.dataset.i));
+    $("#lSpeed").onchange = e => { pr.speed = +e.target.value; saveListenPrefs(pr); };
     $$("[data-opt]").forEach(c => c.onchange = () => { pr[c.dataset.opt] = c.checked; saveListenPrefs(pr); $("#lText").classList.toggle("show-en", pr.en); });
     mark(0);
     // Stop speaking when the user leaves the page.
