@@ -1,6 +1,32 @@
 {
- "updated": "2026-10-14T15:10+00:00",
+ "updated": "2026-10-14T19:26+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/demonstranter-saetter-ild-til-albaniens-undervisningsministerium",
+   "date": "2026-10-14T15:33:36+00:00",
+   "da": {
+    "title": "Demonstranter sætter ild til Albaniens undervisningsministerium",
+    "desc": ""
+   },
+   "en": {
+    "title": "Protesters set fire to Albania's Ministry of Education",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/61-aarig-sigtet-facebook-trusler-mod-thistedborgmester",
+   "date": "2026-10-14T15:32:47+00:00",
+   "da": {
+    "title": "61-årig sigtet for Facebook-trusler mod Thistedborgmester",
+    "desc": ""
+   },
+   "en": {
+    "title": "61-year-old charged with Facebook threats against Thisted Mayor",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/midlertidig-graensekontrol-mod-tyskland-forlaenges-med-et-halvt-aar",
@@ -168,32 +194,6 @@
    "en": {
     "title": "Toldhund finds over 60 kilos of cannabis",
     "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/dommer-forhindrer-trump-i-udelukke-specifikke-medier",
-   "date": "2026-10-14T04:47:20+00:00",
-   "da": {
-    "title": "Dommer forhindrer Trump i at udelukke specifikke medier",
-    "desc": ""
-   },
-   "en": {
-    "title": "Judge Prevents Trump from Excluding Specific Media",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/hannah-marnie-og-resten-af-girls-vender-tilbage-med-nye-afsnit",
-   "date": "2026-10-14T02:47:32+00:00",
-   "da": {
-    "title": "Hannah, Marnie og resten af 'Girls' vender tilbage med nye afsnit",
-    "desc": "Optagelserne skal efter planen begynde i 2027."
-   },
-   "en": {
-    "title": "Hannah, Marnie and the rest of 'Girls' return with new episodes",
-    "desc": "Filming is scheduled to begin in 2027."
    }
   }
  ]
