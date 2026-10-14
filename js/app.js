@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "92"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "93"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -363,6 +363,7 @@
     [/^\/grammar\/([\w-]+)$/, grammarLesson],
     [/^\/ordbog$/, dictionaryPage],
     [/^\/ordlister(?:\/(\w+))?(?:\/(quiz))?$/, wordlistPage],
+    [/^\/tal(?:\/(\w+))?$/, numbersPage],
     [/^\/exam$/, examPage],
     [/^\/plan$/, planPage],
     [/^\/mistakes$/, mistakesPage],
@@ -548,6 +549,8 @@
         <span class="small muted">${due ? `${due} kort klar: dine fejl, svære ord og nye ord` : "Lær nye ord fra listen over de 3000 hyppigste"}</span></span>
         <span class="pill">${due ? due : "Start"}</span></a>`; })()}
       <a class="card plan-banner news-banner" href="#/news" id="newsBanner" hidden></a>
+      <a class="card plan-banner" href="#/tal"><span class="pb-ico">🔢</span><span class="pb-meta"><b>Tal og klokken</b>
+        <span class="small muted">Hør tallene 1-100, klokken og hvor lang tid på dansk</span></span><span class="pill">Ny</span></a>
       ${S.exam === "pd3" && PD2.PD3_GUIDE ? `<a class="card plan-banner" href="#/pd3guide"><span class="pb-ico">🧭</span><span class="pb-meta"><b>PD3-guide: strategier og ordlister</b>
         <span class="small muted">Sådan griber du læsning, skrivning og mundtlig an – plus bindeord og faste vendinger</span></span><span class="pill">Ny</span></a>` : ""}
       ${(() => { const st = planStatus(); return `<a class="card plan-banner" href="#/plan">
@@ -2484,6 +2487,7 @@
     app.innerHTML = `
       <h1>📚 Ordlister <span class="tag">for alle prøver</span></h1>
       <p class="muted">De vigtigste ord at kunne: 500 verber med alle former, 250 adjektiver med bøjning og de 3000 ord, der bruges mest på dansk. Søg, lyt med 🔊, og øv dig med quizzen.</p>
+      <a class="card plan-banner" href="#/tal"><span class="pb-ico">🔢</span><span class="pb-meta"><b>Tal og klokken</b><span class="small muted">Hør tallene 1-100, klokken (halv to, kvart i tre) og hvor lang tid (halvanden time)</span></span><span class="pill">Ny</span></a>
       <div class="chips wl-tabs" role="tablist">${Object.entries(WL).map(([k, w]) => `<a class="chip ${k === kind ? "on" : ""}" role="tab" aria-selected="${k === kind}" href="#/ordlister/${k}">${w.ico} ${esc(w.name)}</a>`).join("")}</div>
       <div class="card" style="margin-top:12px">
         <div class="row" style="gap:10px;flex-wrap:wrap">
@@ -4035,6 +4039,143 @@
     };
   }
 
+  // ---------- 🔢 Tal og klokken (numbers 1-100, clock times and durations) ----------
+  const ONES = ["nul", "en", "to", "tre", "fire", "fem", "seks", "syv", "otte", "ni", "ti", "elleve", "tolv", "tretten", "fjorten", "femten", "seksten", "sytten", "atten", "nitten"];
+  const TENS = { 20: "tyve", 30: "tredive", 40: "fyrre", 50: "halvtreds", 60: "tres", 70: "halvfjerds", 80: "firs", 90: "halvfems" };
+  const TENS_WHY = { 50: "halvtreds = 2½ × 20", 60: "tres = 3 × 20", 70: "halvfjerds = 3½ × 20", 80: "firs = 4 × 20", 90: "halvfems = 4½ × 20" };
+  function numDa(n) {
+    if (n < 20) return ONES[n];
+    if (n === 100) return "hundrede";
+    const t = n - n % 10, u = n % 10;
+    return u ? `${ONES[u]}og${TENS[t]}` : TENS[t];
+  }
+  const hourWord = h => (h === 1 ? "et" : numDa(h));
+  // Everyday clock time (12-hour), e.g. 1:30 -> "halv to", 1:45 -> "kvart i to".
+  function clockDa(h24, m) {
+    const h = ((h24 + 11) % 12) + 1, nx = (h % 12) + 1, H = hourWord(h), N = hourWord(nx);
+    const map = { 0: `klokken ${H}`, 5: `fem minutter over ${H}`, 10: `ti minutter over ${H}`, 15: `kvart over ${H}`, 20: `tyve minutter over ${H}`,
+      25: `fem minutter i halv ${N}`, 30: `halv ${N}`, 35: `fem minutter over halv ${N}`, 40: `tyve minutter i ${N}`, 45: `kvart i ${N}`, 50: `ti minutter i ${N}`, 55: `fem minutter i ${N}` };
+    return map[m];
+  }
+  function clockEn(h24, m) {
+    const h = ((h24 + 11) % 12) + 1, nx = (h % 12) + 1;
+    const map = { 0: `${h} o'clock`, 5: `five past ${h}`, 10: `ten past ${h}`, 15: `quarter past ${h}`, 20: `twenty past ${h}`, 25: `twenty-five past ${h}`,
+      30: `half past ${h}`, 35: `twenty-five to ${nx}`, 40: `twenty to ${nx}`, 45: `quarter to ${nx}`, 50: `ten to ${nx}`, 55: `five to ${nx}` };
+    return map[m];
+  }
+  const digitalDa = (h24, m) => `klokken ${hourWord(h24) === "et" ? "et" : numDa(h24)}${m ? " " + (m < 10 ? "nul " + numDa(m) : numDa(m)) : ""}`;
+  // Durations, e.g. 1 h 30 min -> "halvanden time" / "en time og tredive minutter".
+  function durationDa(h, m) {
+    const hrs = h === 0 ? "" : h === 1 ? "en time" : `${numDa(h)} timer`;
+    const mins = m === 0 ? "" : m === 1 ? "et minut" : `${numDa(m)} minutter`;
+    const plain = [hrs, mins].filter(Boolean).join(" og ");
+    const alt = [];
+    if (h === 0 && m === 15) alt.push("et kvarter");
+    if (h === 0 && m === 30) alt.push("en halv time");
+    if (h === 0 && m === 45) alt.push("tre kvarter");
+    if (h === 1 && m === 30) alt.push("halvanden time");
+    if (h > 1 && m === 30) alt.push(`${numDa(h)} en halv time`);
+    if (h > 0 && m === 15) alt.push(`${hrs} og et kvarter`);
+    if (h > 0 && m === 45) alt.push(`${hrs} og tre kvarter`);
+    return { plain, alt };
+  }
+  const durationEn = (h, m) => [h ? `${h} hour${h > 1 ? "s" : ""}` : "", m ? `${m} minutes` : ""].filter(Boolean).join(" ");
+  function sayDa(text, rate) { speakQueue([{ text, lang: "da", rate: rate || 0.6 }]); }
+  function numbersPage(tab) {
+    tab = tab || "tal";
+    const tabs = [["tal", "🔢 Tal 1-100"], ["klokken", "🕐 Klokken"], ["tid", "⏳ Hvor lang tid?"], ["quiz", "🎯 Quiz"]];
+    const head = `<a class="back" href="#/ordlister">← Ordlister</a>
+      <h1>🔢 Tal og klokken</h1>
+      <p class="muted">Tryk på et tal eller et klokkeslæt for at høre det langsomt på dansk.</p>
+      <div class="row num-tabs">${tabs.map(([k, t]) => `<a class="btn ${k === tab ? "write" : "ghost"} sm" href="#/tal/${k}">${t}</a>`).join("")}</div>`;
+    let body = "";
+    if (tab === "tal") {
+      body = `<div class="card"><p class="small muted" lang="en">💡 21-99: say the ones first, then "og", then the tens – <b>enogtyve</b> (one-and-twenty). The tens from 50 count in twenties: ${Object.values(TENS_WHY).map(esc).join(" · ")}.</p>
+        <div class="row" style="margin:6px 0 12px"><button class="btn write sm" id="numAll">▶ Læs 1-100 op</button><button class="btn ghost sm" id="numStop">⏹ Stop</button></div>
+        <div class="num-grid">${Array.from({ length: 100 }, (_, i) => i + 1).map(n => `<button class="num-cell" data-n="${n}"><b>${n}</b><span data-keep>${numDa(n)}</span></button>`).join("")}</div></div>`;
+    } else if (tab === "klokken") {
+      const hours = Array.from({ length: 24 }, (_, i) => i), mins = [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55];
+      body = `<div class="card">
+          <div class="row" style="align-items:center;gap:10px">
+            <label>Time <select id="ckH">${hours.map(h => `<option value="${h}" ${h === 13 ? "selected" : ""}>${String(h).padStart(2, "0")}</option>`).join("")}</select></label>
+            <label>Minutter <select id="ckM">${mins.map(m => `<option value="${m}" ${m === 30 ? "selected" : ""}>${String(m).padStart(2, "0")}</option>`).join("")}</select></label>
+          </div>
+          <div id="ckOut" class="ck-out"></div></div>
+        <div class="card"><h2>Sådan siger man klokken</h2>
+          <p class="small muted" lang="en">In daily speech Danes use the 12-hour clock. Careful: <b>halv to</b> means 1:30 (half an hour before two), not 2:30!</p>
+          <div class="stack">${[[1, 0], [1, 5], [1, 15], [1, 25], [1, 30], [1, 35], [1, 45], [1, 50], [7, 20], [8, 40]].map(([h, m]) => `<button class="list-item ck-ex" data-h="${h}" data-m="${m}">
+            <span class="ico">🕐</span><span class="meta"><b>${h}:${String(m).padStart(2, "0")} – <span data-keep>${clockDa(h, m)}</span></b><span class="small muted" lang="en">${clockEn(h, m)}</span></span><span>🔊</span></button>`).join("")}</div>
+          <p class="small muted" style="margin-top:10px" lang="en">Formal and on the radio, TV, train stations and in e-mails Danes use the 24-hour clock: 13.30 = <b>klokken tretten tredive</b>, 08.05 = <b>klokken otte nul fem</b>.</p></div>`;
+    } else if (tab === "tid") {
+      const ex = [[0, 15], [0, 30], [0, 45], [1, 0], [1, 15], [1, 30], [1, 45], [2, 0], [2, 30], [3, 15]];
+      body = `<div class="card">
+          <div class="row" style="align-items:center;gap:10px">
+            <label>Timer <select id="duH">${Array.from({ length: 13 }, (_, i) => `<option ${i === 1 ? "selected" : ""}>${i}</option>`).join("")}</select></label>
+            <label>Minutter <select id="duM">${[0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55].map(m => `<option ${m === 30 ? "selected" : ""}>${m}</option>`).join("")}</select></label>
+          </div>
+          <div id="duOut" class="ck-out"></div></div>
+        <div class="card"><h2>Eksempler</h2><div class="stack">${ex.map(([h, m]) => { const d = durationDa(h, m); return `<button class="list-item du-ex" data-h="${h}" data-m="${m}">
+            <span class="ico">⏳</span><span class="meta"><b data-keep>${esc(d.alt[0] || d.plain)}</b><span class="small muted"><span lang="en">${durationEn(h, m)}</span>${d.alt.length ? ` · også: <span data-keep>${esc(d.plain)}</span>` : ""}</span></span><span>🔊</span></button>`; }).join("")}</div>
+          <p class="small muted" style="margin-top:10px" lang="en">Useful: <b>et kvarter</b> = 15 minutes, <b>en halv time</b> = 30 minutes, <b>tre kvarter</b> = 45 minutes, <b>halvanden time</b> = 1½ hours. "Time" (hour) is <b>en time – to timer</b>; "minut" is <b>et minut – to minutter</b>.</p></div>`;
+    } else {
+      body = `<div class="card stage" id="nq"></div>`;
+    }
+    app.innerHTML = head + body;
+    if (tab === "tal") {
+      $$(".num-cell").forEach(b => b.onclick = () => sayDa(String(numDa(+b.dataset.n)), 0.55));
+      let stopAll = null;
+      $("#numAll").onclick = () => { if (stopAll) stopAll(); stopAll = speakQueue(Array.from({ length: 100 }, (_, i) => ({ text: numDa(i + 1), lang: "da", rate: 0.6, gap: 450, n: i + 1 })), it => { $$(".num-cell").forEach(c => c.classList.toggle("on", +c.dataset.n === it.n)); }); };
+      $("#numStop").onclick = () => { if (stopAll) stopAll(); stopAll = null; $$(".num-cell").forEach(c => c.classList.remove("on")); };
+      window.addEventListener("hashchange", function off() { if (stopAll) stopAll(); window.removeEventListener("hashchange", off); });
+    } else if (tab === "klokken") {
+      const show = () => {
+        const h = +$("#ckH").value, m = +$("#ckM").value, da = clockDa(h, m), dg = digitalDa(h, m);
+        $("#ckOut").innerHTML = `<div class="ck-big">${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}</div>
+          <p><b data-keep>${esc(da)}</b> <button class="btn ghost sm" data-say="${esc(da)}">🔊</button><br><span class="small muted" lang="en">${clockEn(h, m)} (everyday Danish)</span></p>
+          <p><b data-keep>${esc(dg)}</b> <button class="btn ghost sm" data-say="${esc(dg)}">🔊</button><br><span class="small muted" lang="en">24-hour clock (formal)</span></p>`;
+        $$("#ckOut [data-say]").forEach(b => b.onclick = () => sayDa(b.dataset.say));
+      };
+      $("#ckH").onchange = show; $("#ckM").onchange = show; show();
+      $$(".ck-ex").forEach(b => b.onclick = () => sayDa(clockDa(+b.dataset.h, +b.dataset.m)));
+    } else if (tab === "tid") {
+      const show = () => {
+        const h = +$("#duH").value, m = +$("#duM").value;
+        if (!h && !m) { $("#duOut").innerHTML = ""; return; }
+        const d = durationDa(h, m), all = d.alt.concat(d.plain);
+        $("#duOut").innerHTML = `<div class="ck-big">${durationEn(h, m)}</div>${all.map(t => `<p><b data-keep>${esc(t)}</b> <button class="btn ghost sm" data-say="${esc(t)}">🔊</button></p>`).join("")}`;
+        $$("#duOut [data-say]").forEach(b => b.onclick = () => sayDa(b.dataset.say));
+      };
+      $("#duH").onchange = show; $("#duM").onchange = show; show();
+      $$(".du-ex").forEach(b => b.onclick = () => { const d = durationDa(+b.dataset.h, +b.dataset.m); sayDa(d.alt[0] || d.plain); });
+    } else numbersQuiz();
+  }
+  // Listening quiz: hear a number, a clock time or a duration and pick the right answer.
+  function numbersQuiz() {
+    let score = 0, round = 0;
+    const rnd = n => Math.floor(Math.random() * n);
+    const next = () => {
+      if (round === 10) { $("#nq").innerHTML = `<h2>Færdig! ${score}/10 rigtige</h2><button class="btn write" id="nqAgain">Prøv igen</button>`; $("#nqAgain").onclick = () => { score = 0; round = 0; next(); }; if (score >= 7) addXP(score, "tal"); return; }
+      round++;
+      const kind = rnd(3); let say, right, opts;
+      if (kind === 0) { const n = 21 + rnd(79); say = numDa(n); right = String(n); const pool = new Set([right]); while (pool.size < 4) { const x = n + [-10, 10, -1, 1, 20, -20][rnd(6)]; if (x > 0 && x <= 100) pool.add(String(x)); } opts = [...pool]; }
+      else if (kind === 1) { const h = 1 + rnd(12), m = [0, 15, 25, 30, 35, 45][rnd(6)]; say = clockDa(h, m); const fmt = (a, b) => `${a}:${String(b).padStart(2, "0")}`; right = fmt(h, m); const nx = (h % 12) + 1, pv = ((h + 10) % 12) + 1; opts = [...new Set([right, fmt(nx, m), fmt(h, (m + 30) % 60), fmt(pv, m)])]; }
+      else { const h = rnd(3), m = [15, 30, 45][rnd(3)]; const d = durationDa(h, m); say = d.alt[0] || d.plain; right = durationEn(h, m); opts = [...new Set([right, durationEn(h + 1, m), durationEn(h, (m + 15) % 60 || 15), durationEn(Math.max(0, h - 1) + (h ? 0 : 1), m)])]; }
+      opts.sort(() => Math.random() - 0.5);
+      $("#nq").innerHTML = `<span class="phase">Spørgsmål ${round}/10 · ${["Tal", "Klokken", "Hvor lang tid?"][kind]}</span>
+        <button class="btn write" id="nqSay" style="margin:14px auto;display:block">🔊 Hør igen</button>
+        <div class="choices" style="max-width:420px;margin:0 auto">${opts.map(o => `<button class="choice" data-o="${esc(o)}">${esc(o)}</button>`).join("")}</div>
+        <div id="nqFb" class="small" style="margin-top:10px;min-height:1.4em"></div>`;
+      const hear = () => sayDa(say, 0.6); hear(); $("#nqSay").onclick = hear;
+      $$("#nq .choice").forEach(b => b.onclick = () => {
+        const ok = b.dataset.o === right; if (ok) score++;
+        $$("#nq .choice").forEach(x => { x.disabled = true; if (x.dataset.o === right) x.classList.add("ok"); else if (x === b) x.classList.add("bad"); });
+        $("#nqFb").innerHTML = `${ok ? "✅ Rigtigt!" : "❌ Det var:"} <b data-keep>${esc(say)}</b> = ${esc(right)}`;
+        setTimeout(next, 1800);
+      });
+    };
+    next();
+  }
+
   // ---------- 🎧 Lyt til modelsvar (data: PD2.LISTEN in js/listen-pd2.js) ----------
   // Each model answer is read slowly sentence by sentence: the Danish sentence, a short grammar tip in English
   // and the English translation.
@@ -4516,6 +4657,7 @@
       ["📊", "My progress", "XP per day, your strong and weak reading task types, which exam sets you have done, and your review cards.", "#/progress"],
       ["🧭", "PD3 guide", "For PD3: strategies for reading, writing and the oral exam, writing templates, and word lists (conjunctions, connectors, phrases for arguing, hard words). Shown on the home page when PD3 is selected.", "#/pd3guide"],
       ["📗", "FVU-dansk trin 1–4", "Sample reading and spelling tasks for the four FVU-dansk levels (trin 1 easiest, trin 4 hardest), with answers explained. These are DanskKlar's own practice tasks, not official tests – more are coming soon. It is separate from PD1–PD3: choose it on the start screen (🔁 Skift prøve).", "#/fvu"],
+      ["🔢", "Numbers and time", "Hear the Danish numbers 1-100 (with the tricky 50-90), clock times (halv to = 1:30, kvart i tre = 2:45) and durations (halvanden time = 1½ hours), plus a listening quiz. On the home page and under Ordlister.", "#/tal"],
       ["📰", "Today's news", "Short Danish news headlines from DR, updated a few times a day. Tap 🇬🇧 Vis engelsk for an English translation, 🔊 to hear it read aloud, and point at any word for its meaning. Find it on the home page or in ⚙️ Settings.", "#/news"],
       ["⏰", "Daily reminder", "Settings ⚙️ → Daily reminder adds a 15-minute practice reminder at 19:00 to your phone's calendar.", ""]
     ]],
