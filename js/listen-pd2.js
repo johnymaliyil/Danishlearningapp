@@ -17212,8 +17212,11497 @@ PD2.LISTEN = {
 "note": "End the text with your name."
 }
 ]
+},
+"pd3-18m-w1": {
+"lines": [
+{
+"da": "Kære Sofie",
+"en": "Dear Sofie",
+"p": true,
+"note": "A standard greeting in e-mails to friends. 'Kære' means 'dear' and is followed by the name."
+},
+{
+"da": "Tak for din mail – det var dejligt at høre fra dig.",
+"en": "Thank you for your e-mail – it was lovely to hear from you.",
+"p": true,
+"note": "'Tak for' + noun is the fixed way to thank someone. 'Det var dejligt at' + infinitive means 'it was nice to'.",
+"words": [
+[
+"dejligt",
+"lovely, nice"
+]
+]
+},
+{
+"da": "Du spørger, hvordan det var at have en lejer boende.",
+"en": "You ask what it was like to have a lodger.",
+"p": true,
+"note": "An indirect question: after 'hvordan' the word order is subject + verb ('det var'), not verb first.",
+"words": [
+[
+"en lejer",
+"a lodger, tenant"
+]
+]
+},
+{
+"da": "Det var faktisk en god oplevelse.",
+"en": "It was actually a good experience.",
+"p": false,
+"note": "The adverb 'faktisk' comes right after the verb in a main clause. 'Oplevelse' is an en-word, so the adjective is 'god' without -t.",
+"words": [
+[
+"faktisk",
+"actually"
+],
+[
+"en oplevelse",
+"an experience"
+]
+]
+},
+{
+"da": "Min lejer var rolig og betalte altid til tiden.",
+"en": "My lodger was quiet and always paid on time.",
+"p": false,
+"note": "Past tense: 'var' and 'betalte'. 'Altid' comes after the verb in a main clause. 'Til tiden' is a fixed phrase.",
+"words": [
+[
+"rolig",
+"quiet, calm"
+],
+[
+"til tiden",
+"on time"
+]
+]
+},
+{
+"da": "Men vi delte køkken og bad, og det var ikke altid nemt.",
+"en": "But we shared the kitchen and bathroom, and it was not always easy.",
+"p": false,
+"note": "Two main clauses joined by 'og'. 'Nemt' gets -t because it describes 'det'.",
+"words": [
+[
+"dele",
+"to share"
+]
+]
+},
+{
+"da": "Efter min mening er en mindre lejlighed ikke en bedre idé.",
+"en": "In my opinion, a smaller flat is not a better idea.",
+"p": true,
+"note": "When a sentence starts with 'Efter min mening', the verb 'er' comes before the subject (inversion, V2).",
+"words": [
+[
+"efter min mening",
+"in my opinion"
+]
+]
+},
+{
+"da": "Du er jo glad for din lejlighed, og nu har du fået nyt bad og køkken.",
+"en": "You are happy with your flat, after all, and now you have got a new bathroom and kitchen.",
+"p": false,
+"note": "'Jo' means 'as you know'. 'Bad' is an et-word, so the adjective is 'nyt'. Inversion after 'nu': 'har du'.",
+"words": [
+[
+"jo",
+"as you know, after all"
+]
+]
+},
+{
+"da": "Jeg synes, at du skal prøve med en lejer først.",
+"en": "I think you should try with a lodger first.",
+"p": false,
+"note": "'Jeg synes, at' + clause gives an opinion. After 'skal' the infinitive has no 'at'."
+},
+{
+"da": "Vi er meget glade for vores nye hus.",
+"en": "We are very happy with our new house.",
+"p": true,
+"note": "'Glade' has -e because the subject 'vi' is plural. After 'vores' the adjective takes -e: 'vores nye hus'.",
+"words": [
+[
+"glad for",
+"happy with"
+]
+]
+},
+{
+"da": "Til gengæld er det lidt hårdt at have langt til arbejde.",
+"en": "On the other hand, it is a bit hard to have a long way to work.",
+"p": false,
+"note": "'Til gengæld' means 'on the other hand' and causes inversion: 'er det'.",
+"words": [
+[
+"til gengæld",
+"on the other hand"
+],
+[
+"have langt til",
+"have a long way to"
+]
+]
+},
+{
+"da": "Jeg kører 45 minutter hver vej, men jeg hører podcasts i bilen.",
+"en": "I drive 45 minutes each way, but I listen to podcasts in the car.",
+"p": false,
+"note": "Present tense for a habit: 'kører', 'hører'. 'Men' joins two main clauses without changing word order.",
+"words": [
+[
+"hver vej",
+"each way"
+]
+]
+},
+{
+"da": "Børnene havde det svært i starten, fordi de savnede deres gamle venner.",
+"en": "The children had a hard time at first because they missed their old friends.",
+"p": true,
+"note": "'Have det svært' means 'have a hard time'. In the 'fordi' clause the order is subject + verb: 'de savnede'.",
+"words": [
+[
+"have det svært",
+"have a hard time"
+],
+[
+"savne",
+"to miss"
+]
+]
+},
+{
+"da": "Nu har de fået nye venner, og de elsker deres egne værelser.",
+"en": "Now they have made new friends, and they love their own rooms.",
+"p": false,
+"note": "Inversion after 'Nu': 'har de'. 'Egne' is plural because 'værelser' is plural.",
+"words": [
+[
+"egne",
+"own (plural)"
+]
+]
+},
+{
+"da": "Har du lyst til at komme på besøg en weekend snart?",
+"en": "Would you like to come and visit one weekend soon?",
+"p": true,
+"note": "A yes/no question starts with the verb. 'Have lyst til at' + infinitive means 'would like to'.",
+"words": [
+[
+"have lyst til",
+"would like to"
+],
+[
+"på besøg",
+"on a visit"
+]
+]
+},
+{
+"da": "Så kan du se huset og haven.",
+"en": "Then you can see the house and the garden.",
+"p": false,
+"note": "Inversion after 'Så': 'kan du'. Definite forms: 'huset' (et-word) and 'haven' (en-word)."
+},
+{
+"da": "Kærlig hilsen",
+"en": "Love,",
+"p": true,
+"note": "A warm, informal closing for e-mails to friends. 'Kærlig' is an adjective (loving) before the noun 'hilsen' (greeting)."
+},
+{
+"da": "Kim",
+"en": "Kim",
+"p": false,
+"note": "Write your first name on its own line under the closing. In an informal e-mail the first name is enough."
+}
+]
+},
+"pd3-18m-w2a": {
+"lines": [
+{
+"da": "Forældre for første gang",
+"en": "Parents for the first time",
+"p": true,
+"note": "A short title. Danish titles only use a capital letter on the first word."
+},
+{
+"da": "Diagrammet viser gennemsnitsalderen for førstegangsforældre i Danmark fra 1988 til 2015.",
+"en": "The chart shows the average age of first-time parents in Denmark from 1988 to 2015.",
+"p": true,
+"note": "'Diagrammet viser …' is a useful opening phrase. Long Danish nouns are compounds written as one word.",
+"words": [
+[
+"gennemsnitsalderen",
+"the average age"
+],
+[
+"førstegangsforældre",
+"first-time parents"
+]
+]
+},
+{
+"da": "I 1988 var kvinderne ca. 26 år, og fædrene var ca. 29 år.",
+"en": "In 1988 the women were about 26, and the fathers were about 29.",
+"p": false,
+"note": "A time phrase first causes inversion: 'I 1988 var kvinderne'. Past tense because the year is in the past.",
+"words": [
+[
+"ca.",
+"approximately"
+]
+]
+},
+{
+"da": "I 2015 var kvinderne ca. 29 år, og fædrene var ca. 31 år.",
+"en": "In 2015 the women were about 29, and the fathers were about 31.",
+"p": false,
+"note": "The same pattern again: time phrase, then verb, then subject. Repeating a structure makes comparisons clear."
+},
+{
+"da": "Begge linjer stiger frem til ca. 2006, og derefter er de næsten stabile.",
+"en": "Both lines rise until about 2006, and after that they are almost stable.",
+"p": false,
+"note": "Inversion after 'derefter': 'er de'. 'Stabile' has -e because 'de' is plural.",
+"words": [
+[
+"stige",
+"to rise"
+],
+[
+"stabil",
+"stable"
+]
+]
+},
+{
+"da": "Fædrene er hele tiden ca. to år ældre end mødrene.",
+"en": "The fathers are about two years older than the mothers all the time.",
+"p": false,
+"note": "Comparative: 'ældre end' means 'older than'. 'Fædrene' and 'mødrene' are definite plural forms.",
+"words": [
+[
+"hele tiden",
+"all the time"
+]
+]
+},
+{
+"da": "Der kan være flere årsager til denne udvikling.",
+"en": "There can be several reasons for this development.",
+"p": true,
+"note": "'Der kan være' means 'there can be'. 'Denne' is used with en-words; 'dette' with et-words.",
+"words": [
+[
+"en årsag",
+"a reason, cause"
+],
+[
+"en udvikling",
+"a development"
+]
+]
+},
+{
+"da": "For det første tager mange unge en lang uddannelse.",
+"en": "Firstly, many young people take a long education.",
+"p": false,
+"note": "'For det første' counts as the first element, so the verb comes next: 'tager mange unge'.",
+"words": [
+[
+"for det første",
+"firstly"
+],
+[
+"en uddannelse",
+"an education"
+]
+]
+},
+{
+"da": "For det andet ønsker mange et fast job og en god bolig først.",
+"en": "Secondly, many want a permanent job and a good home first.",
+"p": false,
+"note": "Inversion after 'For det andet': 'ønsker mange'. Adjective agreement: 'et fast job' but 'en god bolig'.",
+"words": [
+[
+"fast job",
+"permanent job"
+],
+[
+"en bolig",
+"a home, housing"
+]
+]
+},
+{
+"da": "Desuden rejser mange unge ud i verden, inden de stifter familie.",
+"en": "Moreover, many young people travel around the world before they start a family.",
+"p": false,
+"note": "'Desuden' causes inversion. 'Stifte familie' is a fixed phrase without an article.",
+"words": [
+[
+"desuden",
+"moreover"
+],
+[
+"stifte familie",
+"start a family"
+]
+]
+},
+{
+"da": "Hvis man venter med børn til slutningen af 30'erne, er der både fordele og ulemper.",
+"en": "If you wait to have children until your late 30s, there are both advantages and disadvantages.",
+"p": true,
+"note": "When a 'hvis' clause comes first, the main clause starts with the verb: 'er der'.",
+"words": [
+[
+"fordele og ulemper",
+"pros and cons"
+]
+]
+},
+{
+"da": "På den ene side har man ofte en god økonomi og et stabilt job.",
+"en": "On the one hand, you often have good finances and a stable job.",
+"p": false,
+"note": "Inversion after 'På den ene side'. Adjective agreement: 'en god økonomi' but 'et stabilt job'.",
+"words": [
+[
+"på den ene side",
+"on the one hand"
+],
+[
+"økonomi",
+"finances, economy"
+]
+]
+},
+{
+"da": "Man har også mere livserfaring og mere overskud.",
+"en": "You also have more life experience and more energy to spare.",
+"p": false,
+"note": "'Også' comes after the verb in a main clause. 'Mere' is used with uncountable nouns.",
+"words": [
+[
+"livserfaring",
+"life experience"
+],
+[
+"overskud",
+"energy, surplus"
+]
+]
+},
+{
+"da": "Mange har desuden nået deres mål i karrieren.",
+"en": "Many have also reached their career goals.",
+"p": false,
+"note": "Present perfect: 'har nået'. 'Desuden' comes after the verb in a normal main clause.",
+"words": [
+[
+"nå et mål",
+"reach a goal"
+]
+]
+},
+{
+"da": "På den anden side kan det være svært at blive gravid, når man er over 35.",
+"en": "On the other hand, it can be difficult to get pregnant when you are over 35.",
+"p": false,
+"note": "Inversion after 'På den anden side': 'kan det'. 'Svært' gets -t because it describes 'det'.",
+"words": [
+[
+"på den anden side",
+"on the other hand"
+],
+[
+"blive gravid",
+"get pregnant"
+]
+]
+},
+{
+"da": "Man har måske også mindre energi, når børnene er små.",
+"en": "You may also have less energy when the children are small.",
+"p": false,
+"note": "'Måske' and 'også' come after the verb in a main clause. 'Små' is the plural of 'lille'."
+},
+{
+"da": "Derudover får børnene færre år sammen med deres bedsteforældre.",
+"en": "In addition, the children get fewer years with their grandparents.",
+"p": false,
+"note": "Inversion after 'Derudover'. 'Færre' is used with countable nouns, 'mindre' with uncountable ones.",
+"words": [
+[
+"derudover",
+"in addition"
+],
+[
+"bedsteforældre",
+"grandparents"
+]
+]
+},
+{
+"da": "Alt i alt er det et personligt valg.",
+"en": "All in all, it is a personal choice.",
+"p": true,
+"note": "'Alt i alt' starts a conclusion and causes inversion: 'er det'. 'Et valg' is an et-word, so 'personligt' gets -t.",
+"words": [
+[
+"alt i alt",
+"all in all"
+],
+[
+"et valg",
+"a choice"
+]
+]
+},
+{
+"da": "Efter min mening er en uddannelse vigtig, men man skal ikke vente for længe.",
+"en": "In my opinion, an education is important, but you should not wait too long.",
+"p": false,
+"note": "Inversion after 'Efter min mening'. In a main clause 'ikke' comes after the modal verb: 'skal ikke vente'.",
+"words": [
+[
+"for længe",
+"too long"
+]
+]
+}
+]
+},
+"pd3-18m-w2b": {
+"lines": [
+{
+"da": "Digitalisering i hverdagen",
+"en": "Digitalisation in everyday life",
+"p": true,
+"note": "A short title. Only the first word has a capital letter.",
+"words": [
+[
+"hverdagen",
+"everyday life"
+]
+]
+},
+{
+"da": "Jeg bruger digitale løsninger hver dag.",
+"en": "I use digital solutions every day.",
+"p": true,
+"note": "Present tense for a habit. 'Digitale' has -e because 'løsninger' is plural.",
+"words": [
+[
+"en løsning",
+"a solution"
+]
+]
+},
+{
+"da": "Jeg betaler regninger med netbank og sender penge med min mobil.",
+"en": "I pay bills with online banking and send money with my mobile.",
+"p": false,
+"note": "One subject with two verbs in the present tense: 'betaler' and 'sender'.",
+"words": [
+[
+"en regning",
+"a bill"
+],
+[
+"netbank",
+"online banking"
+]
+]
+},
+{
+"da": "Jeg får også breve fra kommunen i min digitale postkasse.",
+"en": "I also get letters from the municipality in my digital mailbox.",
+"p": false,
+"note": "'Også' comes after the verb. After 'min' the adjective takes -e: 'min digitale postkasse'.",
+"words": [
+[
+"kommunen",
+"the municipality"
+],
+[
+"en postkasse",
+"a mailbox"
+]
+]
+},
+{
+"da": "Det sparer mig for meget tid.",
+"en": "It saves me a lot of time.",
+"p": false,
+"note": "'Spare nogen for noget' means 'save someone something'. 'Meget' is used with uncountable nouns like 'tid'."
+},
+{
+"da": "Jeg er enig i, at digitalisering gør det let at komme i kontakt med myndighederne.",
+"en": "I agree that digitalisation makes it easy to get in contact with the authorities.",
+"p": true,
+"note": "'Være enig i, at' + clause means 'agree that'. 'Let' has no -t here because it already ends in -t.",
+"words": [
+[
+"være enig i",
+"agree with"
+],
+[
+"myndighederne",
+"the authorities"
+]
+]
+},
+{
+"da": "Man kan skrive til kommunen om aftenen og behøver ikke at vente i telefonkø.",
+"en": "You can write to the municipality in the evening and do not need to wait in a phone queue.",
+"p": false,
+"note": "'Behøver ikke at' means 'do not need to'. 'Ikke' comes after the verb in a main clause.",
+"words": [
+[
+"en telefonkø",
+"a phone queue"
+]
+]
+},
+{
+"da": "Til gengæld er jeg bekymret for de ældre borgere.",
+"en": "On the other hand, I am worried about older citizens.",
+"p": false,
+"note": "Inversion after 'Til gengæld': 'er jeg'. 'Bekymret for' means 'worried about'.",
+"words": [
+[
+"bekymret for",
+"worried about"
+],
+[
+"en borger",
+"a citizen"
+]
+]
+},
+{
+"da": "Mange ældre har ikke en computer, og de synes, at selvbetjening er svært.",
+"en": "Many older people do not have a computer, and they find self-service difficult.",
+"p": false,
+"note": "In a main clause 'ikke' comes after the verb: 'har ikke'. 'Svært' with -t is used for a general statement.",
+"words": [
+[
+"selvbetjening",
+"self-service"
+]
+]
+},
+{
+"da": "Derfor bliver de stillet dårligere end yngre mennesker.",
+"en": "That is why they are put at a disadvantage compared to younger people.",
+"p": false,
+"note": "Passive with 'blive' + past participle: 'bliver stillet'. Inversion after 'Derfor'.",
+"words": [
+[
+"derfor",
+"therefore, that is why"
+],
+[
+"stille dårligere",
+"put at a disadvantage"
+]
+]
+},
+{
+"da": "I fremtiden vil digitaliseringen få stor betydning for borgernes trivsel.",
+"en": "In the future, digitalisation will have a great impact on citizens' well-being.",
+"p": true,
+"note": "'Vil' + infinitive expresses the future. Inversion after 'I fremtiden'. Genitive with -s: 'borgernes'.",
+"words": [
+[
+"betydning",
+"significance, impact"
+],
+[
+"trivsel",
+"well-being"
+]
+]
+},
+{
+"da": "På den ene side bliver hverdagen nemmere og hurtigere.",
+"en": "On the one hand, everyday life becomes easier and faster.",
+"p": false,
+"note": "Inversion after 'På den ene side'. Comparatives with -ere: 'nemmere', 'hurtigere'.",
+"words": [
+[
+"på den ene side",
+"on the one hand"
+]
+]
+},
+{
+"da": "Vi kan klare mange ting hjemmefra, og vi får mere fritid.",
+"en": "We can do many things from home, and we get more free time.",
+"p": false,
+"note": "Two main clauses joined by 'og'. 'Klare' here means 'manage, do'.",
+"words": [
+[
+"hjemmefra",
+"from home"
+],
+[
+"klare",
+"manage, handle"
+]
+]
+},
+{
+"da": "På den anden side kan digitalisering gøre mange mennesker ensomme.",
+"en": "On the other hand, digitalisation can make many people lonely.",
+"p": false,
+"note": "'Gøre nogen + adjective' means 'make someone …'. 'Ensomme' is plural because 'mennesker' is plural.",
+"words": [
+[
+"ensom",
+"lonely"
+]
+]
+},
+{
+"da": "Vi taler mindre med andre mennesker, fordi vi gør alt på en skærm.",
+"en": "We talk less with other people because we do everything on a screen.",
+"p": false,
+"note": "In the 'fordi' clause the subject comes before the verb: 'vi gør'.",
+"words": [
+[
+"en skærm",
+"a screen"
+]
+]
+},
+{
+"da": "Desuden kan it-kriminelle stjæle vores personlige oplysninger.",
+"en": "Moreover, cybercriminals can steal our personal information.",
+"p": false,
+"note": "Inversion after 'Desuden': 'kan it-kriminelle'. After 'vores' the adjective takes -e.",
+"words": [
+[
+"it-kriminelle",
+"cybercriminals"
+],
+[
+"oplysninger",
+"information, data"
+]
+]
+},
+{
+"da": "Derfor er det vigtigt, at staten beskytter borgernes data.",
+"en": "That is why it is important that the state protects citizens' data.",
+"p": false,
+"note": "'Det er vigtigt, at' + clause is a useful B2 phrase. Inversion after 'Derfor'.",
+"words": [
+[
+"beskytte",
+"to protect"
+]
+]
+},
+{
+"da": "Det er også vigtigt, at alle får hjælp, hvis de ikke kan bruge en computer.",
+"en": "It is also important that everyone gets help if they cannot use a computer.",
+"p": false,
+"note": "In a subordinate clause 'ikke' comes before the verb: 'hvis de ikke kan'."
+},
+{
+"da": "Alt i alt tror jeg, at digitaliseringen vil gøre livet lettere for de fleste.",
+"en": "All in all, I believe that digitalisation will make life easier for most people.",
+"p": true,
+"note": "Inversion after 'Alt i alt': 'tror jeg'. 'De fleste' means 'most people'.",
+"words": [
+[
+"alt i alt",
+"all in all"
+],
+[
+"de fleste",
+"most people"
+]
+]
+},
+{
+"da": "Men vi må ikke glemme de mennesker, som har brug for personlig kontakt.",
+"en": "But we must not forget the people who need personal contact.",
+"p": false,
+"note": "'Må ikke' means 'must not'. 'Som' starts a relative clause. 'Have brug for' means 'need'.",
+"words": [
+[
+"have brug for",
+"need"
+]
+]
+}
+]
+},
+"pd3-18n-w1": {
+"lines": [
+{
+"da": "Kære Anne",
+"en": "Dear Anne",
+"p": true,
+"note": "A standard greeting in e-mails to friends. 'Kære' means 'dear'."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thank you for your e-mail.",
+"p": true,
+"note": "'Tak for' + noun is the fixed way to thank someone for something."
+},
+{
+"da": "Jeg forstår godt, at du er ved at blive utålmodig.",
+"en": "I understand that you are getting impatient.",
+"p": false,
+"note": "'Være ved at' + infinitive describes something happening now. 'Godt' after the verb softens: 'I do understand'.",
+"words": [
+[
+"utålmodig",
+"impatient"
+]
+]
+},
+{
+"da": "Jeg synes, det er en god idé at arbejde gratis i en kort periode.",
+"en": "I think it is a good idea to work for free for a short period.",
+"p": true,
+"note": "'At' after 'synes' can be left out. 'Det er en god idé at' + infinitive is a useful phrase.",
+"words": [
+[
+"gratis",
+"for free"
+],
+[
+"en periode",
+"a period"
+]
+]
+},
+{
+"da": "Du får erfaring, og du kan skrive det på dit CV.",
+"en": "You get experience, and you can write it on your CV.",
+"p": false,
+"note": "Two main clauses joined by 'og'. 'Dit' is used because 'CV' is an et-word.",
+"words": [
+[
+"erfaring",
+"experience"
+]
+]
+},
+{
+"da": "Men det må ikke vare for længe, for du skal også have en løn.",
+"en": "But it must not last too long, because you also need a salary.",
+"p": false,
+"note": "'For' here means 'because' and joins two main clauses, so the word order stays normal.",
+"words": [
+[
+"en løn",
+"a salary, wage"
+]
+]
+},
+{
+"da": "Det kan være svært at bo i en by, hvor man ikke kender nogen.",
+"en": "It can be hard to live in a city where you do not know anyone.",
+"p": true,
+"note": "In the 'hvor' clause 'ikke' comes before the verb: 'man ikke kender'.",
+"words": [
+[
+"ikke … nogen",
+"not anyone"
+]
+]
+},
+{
+"da": "Men man kan hurtigt få nye venner gennem arbejdet eller en sportsklub.",
+"en": "But you can quickly make new friends through work or a sports club.",
+"p": false,
+"note": "'Hurtigt' is an adverb with -t and comes after the modal verb 'kan'.",
+"words": [
+[
+"gennem",
+"through"
+]
+]
+},
+{
+"da": "Jeg synes ikke, at du skal opgive din drøm om at blive arkitekt.",
+"en": "I do not think you should give up your dream of becoming an architect.",
+"p": true,
+"note": "In a main clause 'ikke' comes after the verb: 'synes ikke'. 'Drøm om at' + infinitive.",
+"words": [
+[
+"opgive",
+"give up"
+],
+[
+"en drøm",
+"a dream"
+]
+]
+},
+{
+"da": "Måske kan du finde et job, som ligger tæt på dit fag.",
+"en": "Maybe you can find a job that is close to your field.",
+"p": false,
+"note": "'Måske' first causes inversion: 'kan du'. 'Som' starts a relative clause.",
+"words": [
+[
+"et fag",
+"a field, subject"
+]
+]
+},
+{
+"da": "Så kan du stadig søge job som arkitekt ved siden af.",
+"en": "Then you can still apply for jobs as an architect on the side.",
+"p": false,
+"note": "Inversion after 'Så'. 'Søge job' means 'apply for jobs'. 'Ved siden af' means 'at the same time'.",
+"words": [
+[
+"ved siden af",
+"on the side"
+]
+]
+},
+{
+"da": "Jeg søgte nyt job, fordi jeg gerne ville have flere udfordringer.",
+"en": "I looked for a new job because I wanted more challenges.",
+"p": true,
+"note": "Past tense 'søgte'. 'Gerne ville' means 'wanted to' and is polite.",
+"words": [
+[
+"en udfordring",
+"a challenge"
+]
+]
+},
+{
+"da": "Mit gamle job var godt, men jeg lærte ikke noget nyt mere.",
+"en": "My old job was good, but I was not learning anything new any more.",
+"p": false,
+"note": "After 'mit' the adjective takes -e: 'mit gamle job'. 'Godt' has -t because 'job' is an et-word.",
+"words": [
+[
+"ikke … mere",
+"not any more"
+]
+]
+},
+{
+"da": "Skal vi ikke mødes snart og snakke om det hele?",
+"en": "Shall we meet soon and talk about it all?",
+"p": true,
+"note": "'Skal vi ikke …?' is a friendly way to suggest something. The question starts with the verb.",
+"words": [
+[
+"mødes",
+"to meet"
+]
+]
+},
+{
+"da": "Jeg kan komme til Aarhus en lørdag i næste måned.",
+"en": "I can come to Aarhus one Saturday next month.",
+"p": false,
+"note": "Modal verb 'kan' + infinitive without 'at'. 'I næste måned' means 'next month'."
+},
+{
+"da": "Kærlig hilsen",
+"en": "Love,",
+"p": true,
+"note": "A warm, informal closing for e-mails to friends. 'Kærlig' is an adjective (loving) before the noun 'hilsen' (greeting)."
+},
+{
+"da": "Kim",
+"en": "Kim",
+"p": false,
+"note": "Write your first name on its own line under the closing. In an informal e-mail the first name is enough."
+}
+]
+},
+"pd3-18n-w2a": {
+"lines": [
+{
+"da": "Nyheder på sociale medier",
+"en": "News on social media",
+"p": true,
+"note": "A short title. Only the first word has a capital letter."
+},
+{
+"da": "Diagrammet viser, hvor danskerne fik deres nyheder fra 2013 til 2016.",
+"en": "The chart shows where Danes got their news from 2013 to 2016.",
+"p": true,
+"note": "An indirect question: after 'hvor' the subject comes before the verb: 'danskerne fik'.",
+"words": [
+[
+"en nyhed",
+"a piece of news"
+]
+]
+},
+{
+"da": "TV er den største nyhedskilde, men den falder fra 85 til 73 procent.",
+"en": "TV is the biggest news source, but it falls from 85 to 73 per cent.",
+"p": false,
+"note": "Superlative with 'den': 'den største'. 'Den' refers back to 'nyhedskilde', an en-word.",
+"words": [
+[
+"en nyhedskilde",
+"a news source"
+],
+[
+"falde",
+"to fall"
+]
+]
+},
+{
+"da": "Aviserne falder fra 49 til 29 procent.",
+"en": "Newspapers fall from 49 to 29 per cent.",
+"p": false,
+"note": "'Fra … til …' is the simple way to describe a change in numbers."
+},
+{
+"da": "Til gengæld stiger de sociale medier fra 31 til 56 procent.",
+"en": "On the other hand, social media rise from 31 to 56 per cent.",
+"p": false,
+"note": "Inversion after 'Til gengæld': 'stiger de sociale medier'. Definite plural adjective: 'de sociale'.",
+"words": [
+[
+"til gengæld",
+"on the other hand"
+],
+[
+"stige",
+"to rise"
+]
+]
+},
+{
+"da": "Sociale medier er altså den eneste kilde, som stiger.",
+"en": "So social media are the only source that is rising.",
+"p": false,
+"note": "'Som' starts a relative clause. 'Den eneste' means 'the only'; the adjective after 'den' takes -e.",
+"words": [
+[
+"den eneste",
+"the only"
+]
+]
+},
+{
+"da": "Det skyldes især, at næsten alle har en smartphone i dag.",
+"en": "This is mainly because almost everyone has a smartphone today.",
+"p": true,
+"note": "'Det skyldes, at' + clause means 'this is due to the fact that'. 'Især' comes after the verb.",
+"words": [
+[
+"det skyldes",
+"it is due to"
+],
+[
+"især",
+"especially"
+]
+]
+},
+{
+"da": "Nyheder på sociale medier er gratis og hurtige, og man kan læse dem overalt.",
+"en": "News on social media is free and fast, and you can read it anywhere.",
+"p": false,
+"note": "'Nyheder' is plural, so the adjective is 'hurtige'. 'Gratis' never changes form.",
+"words": [
+[
+"overalt",
+"everywhere"
+]
+]
+},
+{
+"da": "Mange unge læser ikke aviser og ser ikke TV på faste tidspunkter.",
+"en": "Many young people do not read newspapers or watch TV at fixed times.",
+"p": false,
+"note": "In a main clause 'ikke' comes after each verb: 'læser ikke', 'ser ikke'.",
+"words": [
+[
+"et tidspunkt",
+"a time, point in time"
+]
+]
+},
+{
+"da": "Mange får derfor deres nyheder via Facebook.",
+"en": "Many therefore get their news via Facebook.",
+"p": false,
+"note": "'Derfor' comes after the verb in a normal main clause. With a plural subject like 'mange', 'their' is always 'deres'.",
+"words": [
+[
+"via",
+"via, through"
+]
+]
+},
+{
+"da": "Der er både fordele og ulemper ved, at flere får nyheder via sociale medier.",
+"en": "There are both advantages and disadvantages to more people getting news via social media.",
+"p": true,
+"note": "'Fordele og ulemper ved, at' + clause is a useful B2 phrase for this type of task.",
+"words": [
+[
+"fordele og ulemper",
+"pros and cons"
+]
+]
+},
+{
+"da": "På den ene side får man nyhederne med det samme.",
+"en": "On the one hand, you get the news straight away.",
+"p": false,
+"note": "Inversion after 'På den ene side': 'får man'. 'Med det samme' means 'immediately'.",
+"words": [
+[
+"på den ene side",
+"on the one hand"
+],
+[
+"med det samme",
+"immediately"
+]
+]
+},
+{
+"da": "Man kan også dele en artikel med sine venner og diskutere den.",
+"en": "You can also share an article with your friends and discuss it.",
+"p": false,
+"note": "'Sine' is reflexive because the friends belong to the subject 'man'. 'Den' refers to 'artikel'.",
+"words": [
+[
+"dele",
+"to share"
+]
+]
+},
+{
+"da": "På den anden side er der mange falske nyheder på nettet.",
+"en": "On the other hand, there is a lot of fake news online.",
+"p": false,
+"note": "Inversion after 'På den anden side': 'er der'. 'Falske' is plural.",
+"words": [
+[
+"falske nyheder",
+"fake news"
+]
+]
+},
+{
+"da": "Det kan være svært at se, om en historie er sand.",
+"en": "It can be hard to see whether a story is true.",
+"p": false,
+"note": "'Om' means 'whether' in an indirect question. 'Historie' is an en-word, so 'sand' has no -t.",
+"words": [
+[
+"sand",
+"true"
+]
+]
+},
+{
+"da": "Derudover viser nettet os mest det, vi allerede er enige i.",
+"en": "In addition, the internet mostly shows us what we already agree with.",
+"p": false,
+"note": "In a subordinate clause the adverb comes before the verb: 'vi allerede er'.",
+"words": [
+[
+"derudover",
+"in addition"
+],
+[
+"være enig i",
+"agree with"
+]
+]
+},
+{
+"da": "Så ser vi ikke andre meninger, og det kan skabe splittelse.",
+"en": "Then we do not see other opinions, and that can create division.",
+"p": false,
+"note": "Inversion after 'Så': 'ser vi'. 'Ikke' follows the subject in an inverted main clause.",
+"words": [
+[
+"en mening",
+"an opinion"
+],
+[
+"splittelse",
+"division"
+]
+]
+},
+{
+"da": "Endelig mister aviserne penge, og det kan gå ud over den gode journalistik.",
+"en": "Finally, newspapers lose money, and that can harm good journalism.",
+"p": false,
+"note": "'Gå ud over' means 'harm, affect badly'. After 'den' the adjective takes -e: 'den gode'.",
+"words": [
+[
+"gå ud over",
+"harm, affect badly"
+]
+]
+},
+{
+"da": "Alt i alt er sociale medier en praktisk nyhedskilde.",
+"en": "All in all, social media are a practical news source.",
+"p": false,
+"note": "Inversion after 'Alt i alt': 'er sociale medier'.",
+"words": [
+[
+"alt i alt",
+"all in all"
+]
+]
+},
+{
+"da": "Efter min mening skal man dog altid tjekke, hvor nyheden kommer fra.",
+"en": "In my opinion, however, you should always check where the news comes from.",
+"p": false,
+"note": "Inversion after 'Efter min mening'. 'Dog' means 'however' and comes after the verb.",
+"words": [
+[
+"dog",
+"however"
+]
+]
+}
+]
+},
+"pd3-18n-w2b": {
+"lines": [
+{
+"da": "Flere kvinder i ledelsen",
+"en": "More women in management",
+"p": true,
+"note": "A short title. Only the first word has a capital letter.",
+"words": [
+[
+"ledelsen",
+"the management"
+]
+]
+},
+{
+"da": "På min tidligere arbejdsplads var der fem ledere.",
+"en": "At my previous workplace there were five managers.",
+"p": true,
+"note": "A place phrase first causes inversion: 'var der'. After 'min' the adjective takes -e.",
+"words": [
+[
+"tidligere",
+"previous"
+],
+[
+"en leder",
+"a manager, leader"
+]
+]
+},
+{
+"da": "Fire af dem var mænd, og kun én var en kvinde.",
+"en": "Four of them were men, and only one was a woman.",
+"p": false,
+"note": "'Én' with an accent means the number one, not the article."
+},
+{
+"da": "Direktøren var også en mand.",
+"en": "The director was also a man.",
+"p": false,
+"note": "'Også' comes after the verb in a main clause. 'Direktøren' is the definite form.",
+"words": [
+[
+"en direktør",
+"a director, CEO"
+]
+]
+},
+{
+"da": "Men der var flere kvinder end mænd blandt medarbejderne.",
+"en": "But there were more women than men among the employees.",
+"p": false,
+"note": "Comparative: 'flere … end' means 'more … than' with countable nouns.",
+"words": [
+[
+"blandt",
+"among"
+],
+[
+"en medarbejder",
+"an employee"
+]
+]
+},
+{
+"da": "Jeg arbejdede der i tre år.",
+"en": "I worked there for three years.",
+"p": false,
+"note": "Past tense 'arbejdede' for a finished period. 'I tre år' means 'for three years'."
+},
+{
+"da": "Jeg er enig i, at mange kvinder prioriterer familien højere end karrieren.",
+"en": "I agree that many women give the family higher priority than their career.",
+"p": true,
+"note": "'Være enig i, at' + clause. In the 'at' clause the subject comes before the verb.",
+"words": [
+[
+"prioritere",
+"to prioritise"
+]
+]
+},
+{
+"da": "Det skyldes ofte, at de tager det meste af ansvaret derhjemme.",
+"en": "This is often because they take most of the responsibility at home.",
+"p": false,
+"note": "'Det skyldes, at' explains a cause. 'Det meste af' means 'most of'.",
+"words": [
+[
+"ansvaret",
+"the responsibility"
+],
+[
+"derhjemme",
+"at home"
+]
+]
+},
+{
+"da": "Mange kvinder går også ned i tid, når de får børn.",
+"en": "Many women also reduce their working hours when they have children.",
+"p": false,
+"note": "'Gå ned i tid' means 'work fewer hours'. In the 'når' clause the subject comes before the verb.",
+"words": [
+[
+"gå ned i tid",
+"reduce working hours"
+]
+]
+},
+{
+"da": "Til gengæld er jeg ikke enig i, at mænd er bedre til at træffe beslutninger.",
+"en": "On the other hand, I do not agree that men are better at making decisions.",
+"p": false,
+"note": "Inversion after 'Til gengæld': 'er jeg ikke'. 'Træffe en beslutning' means 'make a decision'.",
+"words": [
+[
+"træffe en beslutning",
+"make a decision"
+]
+]
+},
+{
+"da": "Det handler om personlighed og ikke om køn.",
+"en": "It is about personality and not about gender.",
+"p": false,
+"note": "'Det handler om' means 'it is about'. 'Ikke' here negates only the second part.",
+"words": [
+[
+"køn",
+"gender, sex"
+]
+]
+},
+{
+"da": "Jeg tror, at en mere lige fordeling af barslen vil give flere kvindelige topledere.",
+"en": "I believe that a more equal sharing of leave will produce more female top managers.",
+"p": true,
+"note": "'Vil' + infinitive for the future. 'Kvindelige' is plural because 'topledere' is plural.",
+"words": [
+[
+"en fordeling",
+"a distribution, sharing"
+],
+[
+"barsel",
+"maternity/parental leave"
+]
+]
+},
+{
+"da": "For det første kommer kvinderne hurtigere tilbage på arbejdet.",
+"en": "Firstly, women come back to work more quickly.",
+"p": false,
+"note": "Inversion after 'For det første'. 'Hurtigere' is the comparative of 'hurtigt'.",
+"words": [
+[
+"for det første",
+"firstly"
+]
+]
+},
+{
+"da": "De mister ikke så meget erfaring, og de kan fortsætte deres karriere.",
+"en": "They do not lose as much experience, and they can continue their career.",
+"p": false,
+"note": "'Ikke så meget' means 'not as much'. With a plural subject like 'de', 'their' is always 'deres', never 'sine'.",
+"words": [
+[
+"miste",
+"to lose"
+],
+[
+"fortsætte",
+"to continue"
+]
+]
+},
+{
+"da": "For det andet lærer fædrene at tage ansvar for børnene.",
+"en": "Secondly, fathers learn to take responsibility for the children.",
+"p": false,
+"note": "Inversion after 'For det andet'. 'Tage ansvar for' means 'take responsibility for'.",
+"words": [
+[
+"for det andet",
+"secondly"
+]
+]
+},
+{
+"da": "Så bliver det mere naturligt at dele arbejdet derhjemme.",
+"en": "Then it becomes more natural to share the work at home.",
+"p": false,
+"note": "Inversion after 'Så'. 'Naturligt' has -t because it describes 'det'.",
+"words": [
+[
+"naturlig",
+"natural"
+]
+]
+},
+{
+"da": "Desuden vil arbejdsgiverne ikke længere se kvinder som en større risiko.",
+"en": "Moreover, employers will no longer see women as a bigger risk.",
+"p": false,
+"note": "'Ikke længere' means 'no longer'. Inversion after 'Desuden': 'vil arbejdsgiverne'.",
+"words": [
+[
+"en arbejdsgiver",
+"an employer"
+],
+[
+"en risiko",
+"a risk"
+]
+]
+},
+{
+"da": "På den anden side løser barslen ikke hele problemet.",
+"en": "On the other hand, leave does not solve the whole problem.",
+"p": false,
+"note": "Inversion after 'På den anden side'. 'Hele' comes before the noun without an article: 'hele problemet'.",
+"words": [
+[
+"løse",
+"to solve"
+]
+]
+},
+{
+"da": "Nogle mandlige ledere foretrækker stadig at ansætte andre mænd.",
+"en": "Some male managers still prefer to hire other men.",
+"p": false,
+"note": "'Foretrække at' + infinitive means 'prefer to'. 'Stadig' comes after the verb.",
+"words": [
+[
+"foretrække",
+"to prefer"
+],
+[
+"ansætte",
+"to hire"
+]
+]
+},
+{
+"da": "Derfor skal virksomhederne også arbejde med deres kultur.",
+"en": "That is why companies must also work on their culture.",
+"p": false,
+"note": "Inversion after 'Derfor'. 'Også' comes after the subject in an inverted clause.",
+"words": [
+[
+"en virksomhed",
+"a company"
+]
+]
+},
+{
+"da": "Alt i alt er en lige barsel et vigtigt skridt, men den er ikke nok alene.",
+"en": "All in all, equal leave is an important step, but it is not enough on its own.",
+"p": false,
+"note": "'Et skridt' is an et-word, so 'vigtigt' gets -t. 'Den' refers to 'barsel', an en-word.",
+"words": [
+[
+"et skridt",
+"a step"
+],
+[
+"alene",
+"alone, on its own"
+]
+]
+}
+]
+},
+"pd3-19m-w1": {
+"lines": [
+{
+"da": "Kære Sofie",
+"en": "Dear Sofie",
+"p": true,
+"note": "A standard greeting in e-mails to friends. 'Kære' means 'dear'."
+},
+{
+"da": "Tak for din mail, og tak for sidst.",
+"en": "Thank you for your e-mail, and thanks for the other day.",
+"p": true,
+"note": "'Tak for sidst' is a fixed Danish phrase you say after you have met someone.",
+"words": [
+[
+"tak for sidst",
+"thanks for the last time we met"
+]
+]
+},
+{
+"da": "Det var også hyggeligt at se dig.",
+"en": "It was also nice to see you.",
+"p": false,
+"note": "'Det var hyggeligt at' + infinitive. 'Hyggeligt' has -t because it describes 'det'.",
+"words": [
+[
+"hyggelig",
+"cosy, nice"
+]
+]
+},
+{
+"da": "Træningen går faktisk rigtig godt.",
+"en": "The training is actually going really well.",
+"p": true,
+"note": "'Det går godt' means 'it is going well'. 'Faktisk' comes after the verb.",
+"words": [
+[
+"træningen",
+"the training"
+]
+]
+},
+{
+"da": "Jeg løber fire gange om ugen, og i søndags løb jeg 25 kilometer.",
+"en": "I run four times a week, and last Sunday I ran 25 kilometres.",
+"p": false,
+"note": "Present tense for a habit, past tense for last Sunday. Inversion after 'i søndags': 'løb jeg'.",
+"words": [
+[
+"om ugen",
+"a week, per week"
+],
+[
+"i søndags",
+"last Sunday"
+]
+]
+},
+{
+"da": "Det er en stor chance at blive projektleder, så jeg synes, du skal sige ja.",
+"en": "It is a big chance to become project manager, so I think you should say yes.",
+"p": true,
+"note": "'Så' here means 'so' and joins two main clauses, so there is no inversion: 'så jeg synes'.",
+"words": [
+[
+"en projektleder",
+"a project manager"
+]
+]
+},
+{
+"da": "Men du skal tale med din chef om overarbejdet først.",
+"en": "But you should talk to your boss about the overtime first.",
+"p": false,
+"note": "Modal 'skal' + infinitive without 'at'. 'Overarbejdet' is the definite form of an et-word.",
+"words": [
+[
+"overarbejde",
+"overtime"
+]
+]
+},
+{
+"da": "Måske kan du få nogle fridage, når projektet er færdigt.",
+"en": "Maybe you can get some days off when the project is finished.",
+"p": false,
+"note": "Inversion after 'Måske'. 'Færdigt' gets -t because 'projekt' is an et-word.",
+"words": [
+[
+"en fridag",
+"a day off"
+],
+[
+"færdig",
+"finished"
+]
+]
+},
+{
+"da": "Jeg er rigtig glad for at tage toget til arbejde.",
+"en": "I am really happy taking the train to work.",
+"p": true,
+"note": "'Glad for at' + infinitive means 'happy to/about'. 'Rigtig' means 'really' here."
+},
+{
+"da": "Jeg kan læse eller slappe af, og jeg sidder aldrig i kø.",
+"en": "I can read or relax, and I never sit in a queue.",
+"p": false,
+"note": "'Aldrig' comes after the verb in a main clause: 'sidder aldrig'. 'Slappe af' is a verb with a particle.",
+"words": [
+[
+"slappe af",
+"to relax"
+],
+[
+"en kø",
+"a queue"
+]
+]
+},
+{
+"da": "Toget er nogle gange forsinket, men det sker ikke så tit.",
+"en": "The train is sometimes delayed, but it does not happen very often.",
+"p": false,
+"note": "'Forsinket' describes 'toget'. 'Ikke så tit' means 'not very often'.",
+"words": [
+[
+"forsinket",
+"delayed"
+],
+[
+"tit",
+"often"
+]
+]
+},
+{
+"da": "Det lyder som en god idé at leje sommerhuset en uge i juli.",
+"en": "It sounds like a good idea to rent the summer house for a week in July.",
+"p": true,
+"note": "'Det lyder som' means 'it sounds like'. Months have a small letter in Danish: 'juli'.",
+"words": [
+[
+"leje",
+"to rent"
+]
+]
+},
+{
+"da": "Jeg har ferie de første tre uger af juli, så det passer fint.",
+"en": "I am on holiday the first three weeks of July, so it suits me fine.",
+"p": false,
+"note": "'Have ferie' means 'be on holiday'. 'Det passer fint' means 'it suits well'.",
+"words": [
+[
+"passe",
+"to suit, fit"
+]
+]
+},
+{
+"da": "Skal vi ikke mødes og snakke mere om vores ferieplaner?",
+"en": "Shall we meet and talk more about our holiday plans?",
+"p": true,
+"note": "'Skal vi ikke …?' is a friendly suggestion. 'Mødes' is a verb that always ends in -s.",
+"words": [
+[
+"en ferieplan",
+"a holiday plan"
+]
+]
+},
+{
+"da": "Du kan komme til middag hos mig på fredag, hvis du har tid.",
+"en": "You can come for dinner at my place on Friday if you have time.",
+"p": false,
+"note": "'Hos mig' means 'at my place'. 'På fredag' means 'this coming Friday'.",
+"words": [
+[
+"hos mig",
+"at my place"
+]
+]
+},
+{
+"da": "Jeg glæder mig meget til at se dig.",
+"en": "I am really looking forward to seeing you.",
+"p": false,
+"note": "'Glæde sig til' is reflexive: 'jeg glæder mig'. It is followed by 'at' + infinitive.",
+"words": [
+[
+"glæde sig til",
+"look forward to"
+]
+]
+},
+{
+"da": "Kærlig hilsen",
+"en": "Love,",
+"p": true,
+"note": "A warm, informal closing for e-mails to friends. 'Kærlig' is an adjective (loving) before the noun 'hilsen' (greeting)."
+},
+{
+"da": "Kim",
+"en": "Kim",
+"p": false,
+"note": "Write your first name on its own line under the closing. In an informal e-mail the first name is enough."
+}
+]
+},
+"pd3-19m-w2a": {
+"lines": [
+{
+"da": "Kviklån",
+"en": "Payday loans",
+"p": true,
+"note": "A short title of one word is fine. 'Lån' is the same in singular and plural.",
+"words": [
+[
+"et kviklån",
+"a payday loan"
+]
+]
+},
+{
+"da": "Diagrammet viser, hvor mange der tager kviklån, fordelt på erhvervsmæssig status.",
+"en": "The chart shows how many people take payday loans, divided by employment status.",
+"p": true,
+"note": "In an indirect question with 'hvor mange', you need 'der' as the subject: 'hvor mange der tager'.",
+"words": [
+[
+"fordelt på",
+"divided by"
+],
+[
+"erhvervsmæssig",
+"employment-related"
+]
+]
+},
+{
+"da": "Blandt folk i arbejde tager ca. fire procent et kviklån.",
+"en": "Among people in work, about four per cent take a payday loan.",
+"p": false,
+"note": "A place phrase first causes inversion: 'Blandt folk i arbejde tager …'.",
+"words": [
+[
+"blandt",
+"among"
+]
+]
+},
+{
+"da": "Blandt de arbejdsløse er tallet ca. syv procent.",
+"en": "Among the unemployed, the figure is about seven per cent.",
+"p": false,
+"note": "'De arbejdsløse' is an adjective used as a noun. Inversion: 'er tallet'.",
+"words": [
+[
+"arbejdsløs",
+"unemployed"
+]
+]
+},
+{
+"da": "Den største andel finder man blandt folk på pension eller sygedagpenge, nemlig ca. 12 procent.",
+"en": "The largest share is found among people on a pension or sickness benefit, namely about 12 per cent.",
+"p": false,
+"note": "The object 'Den største andel' is put first for emphasis, so the verb comes next: 'finder man'.",
+"words": [
+[
+"sygedagpenge",
+"sickness benefit"
+],
+[
+"nemlig",
+"namely"
+]
+]
+},
+{
+"da": "Folk i arbejde tager altså færrest kviklån.",
+"en": "So people in work take the fewest payday loans.",
+"p": false,
+"note": "'Altså' means 'so, in other words'. 'Færrest' is the superlative of 'få'.",
+"words": [
+[
+"færrest",
+"fewest"
+]
+]
+},
+{
+"da": "Der kan være flere årsager til forskellene.",
+"en": "There can be several reasons for the differences.",
+"p": true,
+"note": "'Der kan være' means 'there can be'. 'Forskellene' is definite plural.",
+"words": [
+[
+"en forskel",
+"a difference"
+]
+]
+},
+{
+"da": "For det første har arbejdsløse og pensionister ofte en lav indkomst.",
+"en": "Firstly, unemployed people and pensioners often have a low income.",
+"p": false,
+"note": "Inversion after 'For det første': 'har arbejdsløse'. 'Ofte' comes after the subject.",
+"words": [
+[
+"en indkomst",
+"an income"
+]
+]
+},
+{
+"da": "Derfor kan de mangle penge, når der kommer en uventet regning.",
+"en": "That is why they may lack money when an unexpected bill arrives.",
+"p": false,
+"note": "Inversion after 'Derfor'. 'Når der kommer' uses 'der' as a formal subject.",
+"words": [
+[
+"mangle",
+"to lack"
+],
+[
+"uventet",
+"unexpected"
+]
+]
+},
+{
+"da": "For det andet kan de ofte ikke låne penge i banken.",
+"en": "Secondly, they often cannot borrow money from the bank.",
+"p": false,
+"note": "Inversion after 'For det andet'. In a main clause 'ikke' comes after the subject and verb.",
+"words": [
+[
+"låne",
+"to borrow"
+]
+]
+},
+{
+"da": "Nogle har måske også svært ved at styre deres økonomi.",
+"en": "Some may also find it hard to manage their finances.",
+"p": false,
+"note": "'Have svært ved at' + infinitive means 'find it hard to'. 'Måske' and 'også' follow the verb.",
+"words": [
+[
+"have svært ved",
+"find it hard to"
+],
+[
+"styre",
+"to manage, control"
+]
+]
+},
+{
+"da": "Efter min mening er det statens ansvar at beskytte borgerne mod kviklån.",
+"en": "In my opinion, it is the state's responsibility to protect citizens against payday loans.",
+"p": true,
+"note": "Inversion after 'Efter min mening'. Genitive -s: 'statens ansvar'.",
+"words": [
+[
+"et ansvar",
+"a responsibility"
+],
+[
+"beskytte mod",
+"protect against"
+]
+]
+},
+{
+"da": "For det første har kviklån meget høje renter.",
+"en": "Firstly, payday loans have very high interest rates.",
+"p": false,
+"note": "Inversion after 'For det første'. 'Høje' is plural because 'renter' is plural.",
+"words": [
+[
+"en rente",
+"an interest rate"
+]
+]
+},
+{
+"da": "Mange forstår ikke, hvor dyrt lånet bliver til sidst.",
+"en": "Many do not understand how expensive the loan becomes in the end.",
+"p": false,
+"note": "'Dyrt' has -t because 'lån' is an et-word. Indirect question: 'lånet bliver'.",
+"words": [
+[
+"til sidst",
+"in the end"
+]
+]
+},
+{
+"da": "De ender med en gæld, som de ikke kan betale tilbage.",
+"en": "They end up with a debt that they cannot pay back.",
+"p": false,
+"note": "In the relative clause 'ikke' comes before the verb: 'som de ikke kan'.",
+"words": [
+[
+"en gæld",
+"a debt"
+],
+[
+"ende med",
+"end up with"
+]
+]
+},
+{
+"da": "For det andet er det let at tage et lån på få minutter.",
+"en": "Secondly, it is easy to take a loan in a few minutes.",
+"p": false,
+"note": "Inversion after 'For det andet'. 'På få minutter' means 'in a few minutes'."
+},
+{
+"da": "Så låner man penge uden at tænke sig om.",
+"en": "Then you borrow money without thinking it through.",
+"p": false,
+"note": "'Tænke sig om' is reflexive and means 'think carefully'. 'Uden at' + infinitive.",
+"words": [
+[
+"tænke sig om",
+"think carefully"
+]
+]
+},
+{
+"da": "Reglen om 48 timer giver folk tid til at overveje deres valg.",
+"en": "The 48-hour rule gives people time to consider their choice.",
+"p": false,
+"note": "'Tid til at' + infinitive. 'Deres' refers to 'folk', which is not the subject.",
+"words": [
+[
+"overveje",
+"to consider"
+]
+]
+},
+{
+"da": "På den anden side er voksne mennesker selv ansvarlige for deres økonomi.",
+"en": "On the other hand, adults are themselves responsible for their finances.",
+"p": false,
+"note": "Inversion after 'På den anden side'. 'Ansvarlige' is plural because 'mennesker' is plural.",
+"words": [
+[
+"ansvarlig for",
+"responsible for"
+]
+]
+},
+{
+"da": "Staten skal ikke bestemme alt i vores liv.",
+"en": "The state should not decide everything in our lives.",
+"p": false,
+"note": "In a main clause 'ikke' comes after the modal verb: 'skal ikke bestemme'.",
+"words": [
+[
+"bestemme",
+"to decide"
+]
+]
+},
+{
+"da": "Alt i alt synes jeg, at loven er god, fordi den beskytter de svageste borgere.",
+"en": "All in all, I think the law is good because it protects the weakest citizens.",
+"p": false,
+"note": "Inversion after 'Alt i alt'. Superlative with 'de': 'de svageste'. 'Den' refers to 'loven'.",
+"words": [
+[
+"svag",
+"weak"
+]
+]
+}
+]
+},
+"pd3-19m-w2b": {
+"lines": [
+{
+"da": "Ro i klassen",
+"en": "Calm in the classroom",
+"p": true,
+"note": "A short title. Only the first word has a capital letter.",
+"words": [
+[
+"ro",
+"calm, quiet"
+]
+]
+},
+{
+"da": "Da jeg gik i skole, var der ofte uro i timerne.",
+"en": "When I was at school, there was often disruption in lessons.",
+"p": true,
+"note": "When a 'da' clause comes first, the main clause starts with the verb: 'var der'.",
+"words": [
+[
+"uro",
+"disruption, unrest"
+],
+[
+"en time",
+"a lesson"
+]
+]
+},
+{
+"da": "Nogle elever snakkede hele tiden, og læreren måtte råbe for at få ro.",
+"en": "Some pupils talked all the time, and the teacher had to shout to get quiet.",
+"p": false,
+"note": "Past tense: 'snakkede', 'måtte'. 'For at' + infinitive means 'in order to'.",
+"words": [
+[
+"råbe",
+"to shout"
+]
+]
+},
+{
+"da": "Nogle elever gik også rundt i klassen, mens læreren talte.",
+"en": "Some pupils also walked around the classroom while the teacher was talking.",
+"p": false,
+"note": "'Mens' means 'while'. In the 'mens' clause the subject comes before the verb: 'læreren talte'.",
+"words": [
+[
+"mens",
+"while"
+]
+]
+},
+{
+"da": "Det var svært at koncentrere sig, og jeg lærte mindre.",
+"en": "It was hard to concentrate, and I learned less.",
+"p": false,
+"note": "'Koncentrere sig' is reflexive. 'Mindre' is the comparative of 'lidt'.",
+"words": [
+[
+"koncentrere sig",
+"to concentrate"
+]
+]
+},
+{
+"da": "Jeg er enig i, at lærerne skal uddannes bedre i at skabe respekt.",
+"en": "I agree that teachers should be better trained in creating respect.",
+"p": true,
+"note": "Passive with -s after a modal verb: 'skal uddannes'. 'Skabe respekt' means 'create respect'.",
+"words": [
+[
+"uddanne",
+"to train, educate"
+],
+[
+"skabe",
+"to create"
+]
+]
+},
+{
+"da": "En lærer med klare regler får ofte mere ro i klassen.",
+"en": "A teacher with clear rules often gets more calm in the class.",
+"p": false,
+"note": "'Klare' is plural because 'regler' is plural. 'Ofte' comes after the verb.",
+"words": [
+[
+"en regel",
+"a rule"
+]
+]
+},
+{
+"da": "Så ved alle, hvad de skal gøre.",
+"en": "Then everyone knows what to do.",
+"p": false,
+"note": "Inversion after 'Så': 'ved alle'. Indirect question: 'hvad de skal gøre' with subject before verb."
+},
+{
+"da": "Til gengæld er jeg ikke enig i, at urolige elever skal sendes uden for døren.",
+"en": "On the other hand, I do not agree that disruptive pupils should be sent out of the room.",
+"p": false,
+"note": "Inversion after 'Til gengæld'. Passive with -s after 'skal': 'skal sendes'.",
+"words": [
+[
+"urolig",
+"restless, disruptive"
+]
+]
+},
+{
+"da": "Så går eleven glip af undervisningen, og problemet bliver ikke løst.",
+"en": "Then the pupil misses the teaching, and the problem is not solved.",
+"p": false,
+"note": "'Gå glip af' means 'miss out on'. Passive with 'blive': 'bliver ikke løst'.",
+"words": [
+[
+"gå glip af",
+"miss out on"
+],
+[
+"løse",
+"to solve"
+]
+]
+},
+{
+"da": "Efter min mening er det et fælles ansvar at skabe ro i timerne.",
+"en": "In my opinion, creating calm in lessons is a shared responsibility.",
+"p": true,
+"note": "Inversion after 'Efter min mening'. 'Et ansvar' is an et-word, so 'fælles' does not change.",
+"words": [
+[
+"fælles",
+"shared, common"
+],
+[
+"et ansvar",
+"a responsibility"
+]
+]
+},
+{
+"da": "For det første har forældrene et stort ansvar.",
+"en": "Firstly, the parents have a big responsibility.",
+"p": false,
+"note": "Inversion after 'For det første'. 'Stort' has -t because 'ansvar' is an et-word.",
+"words": [
+[
+"for det første",
+"firstly"
+]
+]
+},
+{
+"da": "De skal lære deres børn at vise respekt og lytte til andre.",
+"en": "They must teach their children to show respect and listen to others.",
+"p": false,
+"note": "'Lære' can mean 'teach': 'lære nogen at' + infinitive. With a plural subject like 'de', 'their' is 'deres'.",
+"words": [
+[
+"lytte til",
+"listen to"
+]
+]
+},
+{
+"da": "De skal også sørge for, at børnene sover nok og spiser morgenmad.",
+"en": "They must also make sure that the children sleep enough and eat breakfast.",
+"p": false,
+"note": "'Sørge for, at' + clause means 'make sure that'. In the 'at' clause: subject + verb.",
+"words": [
+[
+"sørge for",
+"make sure"
+]
+]
+},
+{
+"da": "For det andet skal lærerne lave en klar struktur i timerne.",
+"en": "Secondly, teachers must create a clear structure in lessons.",
+"p": false,
+"note": "Inversion after 'For det andet': 'skal lærerne'. 'Klar' has no -t because 'struktur' is an en-word.",
+"words": [
+[
+"for det andet",
+"secondly"
+],
+[
+"en struktur",
+"a structure"
+]
+]
+},
+{
+"da": "Når undervisningen er spændende, er eleverne mere rolige.",
+"en": "When the teaching is exciting, the pupils are calmer.",
+"p": false,
+"note": "When the 'når' clause comes first, the main clause starts with the verb: 'er eleverne'.",
+"words": [
+[
+"spændende",
+"exciting"
+],
+[
+"rolig",
+"calm"
+]
+]
+},
+{
+"da": "For det tredje skal skolen have faste regler, som gælder i alle klasser.",
+"en": "Thirdly, the school must have fixed rules that apply in all classes.",
+"p": false,
+"note": "'Som' starts a relative clause. 'Faste' is plural because 'regler' is plural.",
+"words": [
+[
+"for det tredje",
+"thirdly"
+],
+[
+"gælde",
+"to apply"
+]
+]
+},
+{
+"da": "Skolen skal også give lærerne tid og hjælp til urolige elever.",
+"en": "The school must also give teachers time and help with disruptive pupils.",
+"p": false,
+"note": "'Give' takes two objects: 'give lærerne tid'. 'Også' comes after the modal verb."
+},
+{
+"da": "Alt i alt kan ingen klare opgaven alene.",
+"en": "All in all, nobody can do the task alone.",
+"p": false,
+"note": "Inversion after 'Alt i alt': 'kan ingen'. 'Ingen' means 'nobody'.",
+"words": [
+[
+"alt i alt",
+"all in all"
+],
+[
+"klare",
+"manage, handle"
+]
+]
+},
+{
+"da": "Forældre, lærere og skolen må samarbejde, hvis der skal være mere ro.",
+"en": "Parents, teachers and the school must work together if there is to be more calm.",
+"p": false,
+"note": "'Må' here means 'must'. In the 'hvis' clause 'der' is a formal subject.",
+"words": [
+[
+"samarbejde",
+"to cooperate"
+]
+]
+}
+]
+},
+"pd3-19n-w1": {
+"lines": [
+{
+"da": "Kære Lene og Peter",
+"en": "Dear Lene and Peter",
+"p": true,
+"note": "A greeting to two friends. 'Kære' is used before both names together."
+},
+{
+"da": "Tak for jeres mail – det var dejligt at høre fra jer.",
+"en": "Thank you for your e-mail – it was lovely to hear from you.",
+"p": true,
+"note": "'Jeres' and 'jer' are the plural forms of 'your' and 'you', because you write to two people.",
+"words": [
+[
+"jeres",
+"your (plural)"
+]
+]
+},
+{
+"da": "Jeg har besluttet at rejse til Vietnam i fire uger.",
+"en": "I have decided to travel to Vietnam for four weeks.",
+"p": true,
+"note": "Present perfect: 'har besluttet'. 'Beslutte at' + infinitive means 'decide to'.",
+"words": [
+[
+"beslutte",
+"to decide"
+]
+]
+},
+{
+"da": "Jeg glæder mig meget til at se landet og smage den lokale mad.",
+"en": "I am really looking forward to seeing the country and tasting the local food.",
+"p": false,
+"note": "'Glæde sig til' is reflexive. After 'den' the adjective takes -e: 'den lokale mad'.",
+"words": [
+[
+"glæde sig til",
+"look forward to"
+],
+[
+"lokal",
+"local"
+]
+]
+},
+{
+"da": "Jeg tager af sted i starten af juli.",
+"en": "I am leaving at the beginning of July.",
+"p": false,
+"note": "Present tense can express a planned future. 'Tage af sted' means 'set off, leave'.",
+"words": [
+[
+"tage af sted",
+"set off, leave"
+]
+]
+},
+{
+"da": "Jeg tror ikke, at Maria er for ung til at flytte hjemmefra.",
+"en": "I do not think Maria is too young to move away from home.",
+"p": true,
+"note": "In a main clause 'ikke' comes after the verb: 'tror ikke'. 'For … til at' means 'too … to'.",
+"words": [
+[
+"flytte hjemmefra",
+"move away from home"
+]
+]
+},
+{
+"da": "Hun er moden og ansvarlig, og hun kan sagtens klare sig selv.",
+"en": "She is mature and responsible, and she can easily manage on her own.",
+"p": false,
+"note": "'Klare sig selv' is reflexive and means 'manage on your own'. 'Sagtens' means 'easily'.",
+"words": [
+[
+"moden",
+"mature"
+],
+[
+"ansvarlig",
+"responsible"
+],
+[
+"sagtens",
+"easily"
+]
+]
+},
+{
+"da": "Det er også en god måde at blive mere selvstændig på.",
+"en": "It is also a good way to become more independent.",
+"p": false,
+"note": "'En måde at … på' means 'a way to …'. The preposition 'på' comes at the end.",
+"words": [
+[
+"selvstændig",
+"independent"
+]
+]
+},
+{
+"da": "Det er muligt at arbejde mere end ti timer om ugen, men det er hårdt.",
+"en": "It is possible to work more than ten hours a week, but it is hard.",
+"p": true,
+"note": "'Det er muligt at' + infinitive. 'Om ugen' means 'per week'.",
+"words": [
+[
+"muligt",
+"possible"
+]
+]
+},
+{
+"da": "Maria skal passe på, at hun ikke får for lidt tid til lektierne.",
+"en": "Maria must be careful that she does not get too little time for her homework.",
+"p": false,
+"note": "In the 'at' clause 'ikke' comes before the verb: 'hun ikke får'.",
+"words": [
+[
+"passe på",
+"be careful"
+],
+[
+"lektier",
+"homework"
+]
+]
+},
+{
+"da": "Måske kan I hjælpe hende lidt med huslejen i starten.",
+"en": "Maybe you can help her a little with the rent at first.",
+"p": false,
+"note": "Inversion after 'Måske': 'kan I'. 'I' with a capital letter means 'you' (plural).",
+"words": [
+[
+"huslejen",
+"the rent"
+]
+]
+},
+{
+"da": "Det bliver nok svært for jer i begyndelsen, fordi I vil savne hende.",
+"en": "It will probably be hard for you at first because you will miss her.",
+"p": true,
+"note": "'Bliver' can express the future. 'Nok' means 'probably'. In the 'fordi' clause: subject + verb.",
+"words": [
+[
+"nok",
+"probably"
+],
+[
+"savne",
+"to miss"
+]
+]
+},
+{
+"da": "Maria vil sikkert også savne jer, men hun lærer meget af det.",
+"en": "Maria will surely miss you too, but she will learn a lot from it.",
+"p": false,
+"note": "'Sikkert' means 'surely, probably'. Adverbs come after the modal verb: 'vil sikkert også'.",
+"words": [
+[
+"sikkert",
+"surely, probably"
+]
+]
+},
+{
+"da": "Skal vi ikke mødes, før jeg rejser?",
+"en": "Shall we meet before I leave?",
+"p": true,
+"note": "'Skal vi ikke …?' is a friendly suggestion. In the 'før' clause: subject + verb.",
+"words": [
+[
+"mødes",
+"to meet"
+]
+]
+},
+{
+"da": "I er velkomne til at komme til kaffe hos mig på søndag.",
+"en": "You are welcome to come for coffee at my place on Sunday.",
+"p": false,
+"note": "'Velkomne' has -e because 'I' is plural. 'Være velkommen til at' + infinitive.",
+"words": [
+[
+"velkommen",
+"welcome"
+]
+]
+},
+{
+"da": "Kærlig hilsen",
+"en": "Love,",
+"p": true,
+"note": "A warm, informal closing for e-mails to friends. 'Kærlig' is an adjective (loving) before the noun 'hilsen' (greeting)."
+},
+{
+"da": "Kim",
+"en": "Kim",
+"p": false,
+"note": "Write your first name on its own line under the closing. In an informal e-mail the first name is enough."
+}
+]
+},
+"pd3-19n-w2a": {
+"lines": [
+{
+"da": "Vi rejser mere end før",
+"en": "We travel more than before",
+"p": true,
+"note": "A short title. 'Mere end' means 'more than'."
+},
+{
+"da": "Diagrammet viser, hvor mange der rejste ud fra de store danske lufthavne.",
+"en": "The chart shows how many people travelled from the large Danish airports.",
+"p": true,
+"note": "In an indirect question with 'hvor mange', 'der' is the subject: 'hvor mange der rejste'.",
+"words": [
+[
+"en lufthavn",
+"an airport"
+]
+]
+},
+{
+"da": "Det samlede tal steg fra ca. 12 millioner i 2009 til ca. 17,5 millioner i 2017.",
+"en": "The total figure rose from about 12 million in 2009 to about 17.5 million in 2017.",
+"p": false,
+"note": "Past tense 'steg' (from 'stige'). After 'det' the adjective takes -e: 'det samlede tal'.",
+"words": [
+[
+"samlet",
+"total"
+]
+]
+},
+{
+"da": "Det er en stigning på ca. 45 procent.",
+"en": "That is an increase of about 45 per cent.",
+"p": false,
+"note": "'En stigning på' + number means 'an increase of'. 'Stigning' is an en-word.",
+"words": [
+[
+"en stigning",
+"an increase"
+]
+]
+},
+{
+"da": "Det er udenrigstrafikken, der er steget.",
+"en": "It is international traffic that has risen.",
+"p": false,
+"note": "'Det er …, der' puts focus on one thing. 'Er steget' is the present perfect of 'stige'.",
+"words": [
+[
+"udenrigstrafik",
+"international traffic"
+]
+]
+},
+{
+"da": "Udenrigstrafikken steg fra ca. 10 millioner til ca. 15,6 millioner.",
+"en": "International traffic rose from about 10 million to about 15.6 million.",
+"p": false,
+"note": "Past tense 'steg' for a finished period. Danish uses a comma in decimal numbers: 15,6."
+},
+{
+"da": "Indenrigstrafikken lå stabilt på ca. to millioner hvert år.",
+"en": "Domestic traffic stayed stable at about two million every year.",
+"p": false,
+"note": "'Stabilt' is an adverb with -t describing the verb 'lå'.",
+"words": [
+[
+"indenrigstrafik",
+"domestic traffic"
+]
+]
+},
+{
+"da": "Det skyldes især, at flybilletter er blevet billigere.",
+"en": "This is mainly because plane tickets have become cheaper.",
+"p": true,
+"note": "'Det skyldes, at' + clause. 'Er blevet' is the present perfect of 'blive'.",
+"words": [
+[
+"det skyldes",
+"it is due to"
+],
+[
+"en flybillet",
+"a plane ticket"
+]
+]
+},
+{
+"da": "Desuden har mange danskere fået en bedre økonomi.",
+"en": "Moreover, many Danes have better finances.",
+"p": false,
+"note": "Inversion after 'Desuden': 'har mange danskere'. 'Bedre' is the comparative of 'god'.",
+"words": [
+[
+"desuden",
+"moreover"
+]
+]
+},
+{
+"da": "Mange tager også på korte ferier, for eksempel en weekend i London.",
+"en": "Many also go on short holidays, for example a weekend in London.",
+"p": false,
+"note": "'Tage på ferie' means 'go on holiday'. 'Korte' is plural because 'ferier' is plural."
+},
+{
+"da": "Danmark er et lille land, så der er ikke brug for mange indenrigsfly.",
+"en": "Denmark is a small country, so there is no need for many domestic flights.",
+"p": false,
+"note": "'Et lille land' – 'lille' never changes after an article. 'Der er brug for' means 'there is a need for'.",
+"words": [
+[
+"have brug for",
+"need"
+]
+]
+},
+{
+"da": "Der er både fordele og ulemper ved, at folk rejser mere end tidligere.",
+"en": "There are both advantages and disadvantages to people travelling more than before.",
+"p": true,
+"note": "'Fordele og ulemper ved, at' + clause is a useful B2 phrase.",
+"words": [
+[
+"fordele og ulemper",
+"pros and cons"
+]
+]
+},
+{
+"da": "På den ene side lærer man meget, når man rejser.",
+"en": "On the one hand, you learn a lot when you travel.",
+"p": false,
+"note": "Inversion after 'På den ene side': 'lærer man'. In the 'når' clause: subject + verb.",
+"words": [
+[
+"på den ene side",
+"on the one hand"
+]
+]
+},
+{
+"da": "Man møder nye kulturer og bliver mere åben over for andre mennesker.",
+"en": "You meet new cultures and become more open to other people.",
+"p": false,
+"note": "'Åben over for' means 'open to'. 'Nye' is plural because 'kulturer' is plural.",
+"words": [
+[
+"en kultur",
+"a culture"
+],
+[
+"åben over for",
+"open to"
+]
+]
+},
+{
+"da": "Rejser giver også arbejdspladser i turismen og i lufthavnene.",
+"en": "Travel also creates jobs in tourism and at the airports.",
+"p": false,
+"note": "'Også' comes after the verb in a main clause. 'Lufthavnene' is definite plural.",
+"words": [
+[
+"en arbejdsplads",
+"a workplace, job"
+]
+]
+},
+{
+"da": "På den anden side er fly meget dårlige for klimaet.",
+"en": "On the other hand, planes are very bad for the climate.",
+"p": false,
+"note": "Inversion after 'På den anden side': 'er fly'. 'Dårlige' is plural because 'fly' is plural here.",
+"words": [
+[
+"klimaet",
+"the climate"
+]
+]
+},
+{
+"da": "Flyene udleder meget CO2, og det gør den globale opvarmning værre.",
+"en": "Planes emit a lot of CO2, and that makes global warming worse.",
+"p": false,
+"note": "After 'den' the adjective takes -e: 'den globale opvarmning'. 'Gøre noget værre' means 'make something worse'.",
+"words": [
+[
+"udlede",
+"to emit"
+],
+[
+"opvarmning",
+"warming"
+]
+]
+},
+{
+"da": "Desuden bliver nogle populære byer fyldt med turister.",
+"en": "Moreover, some popular cities become full of tourists.",
+"p": false,
+"note": "Inversion after 'Desuden'. 'Fyldt med' means 'full of'.",
+"words": [
+[
+"fyldt med",
+"full of"
+]
+]
+},
+{
+"da": "Det kan gøre livet sværere for de mennesker, som bor der.",
+"en": "That can make life harder for the people who live there.",
+"p": false,
+"note": "'Gøre noget sværere' means 'make something harder'. 'Som' starts a relative clause."
+},
+{
+"da": "Efter min mening skal vi ikke stoppe med at rejse.",
+"en": "In my opinion, we should not stop travelling.",
+"p": false,
+"note": "Inversion after 'Efter min mening'. 'Ikke' comes after 'skal vi'. 'Stoppe med at' + infinitive.",
+"words": [
+[
+"efter min mening",
+"in my opinion"
+]
+]
+},
+{
+"da": "Men vi bør flyve mindre og tage toget, når det er muligt.",
+"en": "But we ought to fly less and take the train when possible.",
+"p": false,
+"note": "'Bør' means 'ought to' and is followed by an infinitive without 'at'.",
+"words": [
+[
+"bør",
+"ought to, should"
+]
+]
+}
+]
+},
+"pd3-19n-w2b": {
+"lines": [
+{
+"da": "Hvorfor dropper unge ud?",
+"en": "Why do young people drop out?",
+"p": true,
+"note": "A short title can be a question. In a question the verb comes before the subject: 'dropper unge'.",
+"words": [
+[
+"droppe ud",
+"drop out"
+]
+]
+},
+{
+"da": "Det kan være svært at starte på en ny uddannelse.",
+"en": "It can be hard to start a new education.",
+"p": true,
+"note": "'Det kan være svært at' + infinitive is a useful opening phrase.",
+"words": [
+[
+"en uddannelse",
+"an education, programme"
+]
+]
+},
+{
+"da": "Man skal finde nye venner og vænne sig til en ny måde at arbejde på.",
+"en": "You have to find new friends and get used to a new way of working.",
+"p": false,
+"note": "'Vænne sig til' is reflexive. 'En måde at … på' means 'a way of …'.",
+"words": [
+[
+"vænne sig til",
+"get used to"
+]
+]
+},
+{
+"da": "Mange skal også flytte hjemmefra og klare deres egen økonomi.",
+"en": "Many also have to move away from home and manage their own finances.",
+"p": false,
+"note": "'Egen' is used with en-words: 'deres egen økonomi'.",
+"words": [
+[
+"flytte hjemmefra",
+"move away from home"
+]
+]
+},
+{
+"da": "Det kan give stress i det første semester.",
+"en": "That can cause stress in the first semester.",
+"p": false,
+"note": "After 'det' the adjective or ordinal takes the definite form: 'det første semester'."
+},
+{
+"da": "Jeg synes, at bedre vejledning før uddannelsesvalget er et godt forslag.",
+"en": "I think better guidance before choosing an education is a good suggestion.",
+"p": true,
+"note": "'Et forslag' is an et-word, so 'godt' gets -t. 'Bedre' is the comparative of 'god'.",
+"words": [
+[
+"vejledning",
+"guidance"
+],
+[
+"et forslag",
+"a suggestion"
+]
+]
+},
+{
+"da": "Hvis de unge ved mere om uddannelsen, vælger de oftere den rigtige.",
+"en": "If young people know more about the programme, they more often choose the right one.",
+"p": false,
+"note": "When a 'hvis' clause comes first, the main clause starts with the verb: 'vælger de'.",
+"words": [
+[
+"vælge",
+"to choose"
+]
+]
+},
+{
+"da": "Mere feedback fra underviserne er også en god idé.",
+"en": "More feedback from the teachers is also a good idea.",
+"p": false,
+"note": "'Mere' is used with uncountable nouns like 'feedback'. 'Også' comes after the verb.",
+"words": [
+[
+"en underviser",
+"a teacher, lecturer"
+]
+]
+},
+{
+"da": "Til gengæld er jeg imod brugerbetaling.",
+"en": "On the other hand, I am against tuition fees.",
+"p": false,
+"note": "Inversion after 'Til gengæld': 'er jeg'. 'Være imod' means 'be against'.",
+"words": [
+[
+"brugerbetaling",
+"user fees, tuition fees"
+]
+]
+},
+{
+"da": "Så ved de studerende, hvad de skal forbedre.",
+"en": "Then the students know what they need to improve.",
+"p": false,
+"note": "Inversion after 'Så'. Indirect question with 'hvad': subject + verb, 'de skal'.",
+"words": [
+[
+"forbedre",
+"to improve"
+]
+]
+},
+{
+"da": "Det vil gøre det sværere for unge med en lille økonomi at studere.",
+"en": "It would make it harder for young people with little money to study.",
+"p": false,
+"note": "'Gøre det sværere for nogen at' + infinitive means 'make it harder for someone to'."
+},
+{
+"da": "Efter min mening er der flere grunde til, at unge med veluddannede forældre oftere gennemfører.",
+"en": "In my opinion, there are several reasons why young people with well-educated parents complete more often.",
+"p": true,
+"note": "Inversion after 'Efter min mening'. In the 'at' clause the adverb comes before the verb: 'oftere gennemfører'.",
+"words": [
+[
+"veluddannet",
+"well-educated"
+],
+[
+"gennemføre",
+"to complete"
+]
+]
+},
+{
+"da": "For det første kan veluddannede forældre hjælpe med lektier og opgaver.",
+"en": "Firstly, well-educated parents can help with homework and assignments.",
+"p": false,
+"note": "Inversion after 'For det første': 'kan veluddannede forældre'.",
+"words": [
+[
+"en opgave",
+"an assignment, task"
+]
+]
+},
+{
+"da": "De kender uddannelsessystemet og kan give gode råd.",
+"en": "They know the education system and can give good advice.",
+"p": false,
+"note": "One subject with two verbs: 'kender' and 'kan give'. 'Råd' is plural here, so 'gode'.",
+"words": [
+[
+"et råd",
+"a piece of advice"
+]
+]
+},
+{
+"da": "For det andet er det normalt i familien at tage en lang uddannelse.",
+"en": "Secondly, it is normal in the family to take a long education.",
+"p": false,
+"note": "Inversion after 'For det andet': 'er det'. 'Normalt' has -t because it describes 'det'.",
+"words": [
+[
+"for det andet",
+"secondly"
+]
+]
+},
+{
+"da": "Børnene forventer selv at gå på universitetet.",
+"en": "The children themselves expect to go to university.",
+"p": false,
+"note": "'Forvente at' + infinitive. 'Selv' means 'themselves' and comes after the verb.",
+"words": [
+[
+"forvente",
+"to expect"
+]
+]
+},
+{
+"da": "For det tredje har veluddannede forældre ofte en bedre økonomi.",
+"en": "Thirdly, well-educated parents often have better finances.",
+"p": false,
+"note": "Inversion after 'For det tredje'. 'Ofte' comes after the subject in an inverted clause.",
+"words": [
+[
+"for det tredje",
+"thirdly"
+]
+]
+},
+{
+"da": "Så behøver de unge ikke at arbejde så meget ved siden af studiet.",
+"en": "Then the young people do not need to work so much alongside their studies.",
+"p": false,
+"note": "Inversion after 'Så'. 'Behøver ikke at' means 'do not need to'.",
+"words": [
+[
+"ved siden af",
+"alongside"
+]
+]
+},
+{
+"da": "Unge med kortuddannede forældre mangler ofte denne støtte.",
+"en": "Young people with parents with a short education often lack this support.",
+"p": false,
+"note": "'Denne' is used with en-words: 'denne støtte'. 'Ofte' comes after the verb.",
+"words": [
+[
+"mangle",
+"to lack"
+],
+[
+"støtte",
+"support"
+]
+]
+},
+{
+"da": "De føler sig måske også fremmede på universitetet.",
+"en": "They may also feel like strangers at university.",
+"p": false,
+"note": "'Føle sig' is reflexive. 'Fremmede' is plural because 'de' is plural.",
+"words": [
+[
+"fremmed",
+"foreign, a stranger"
+]
+]
+},
+{
+"da": "Derfor er det vigtigt, at uddannelserne giver ekstra hjælp til disse studerende.",
+"en": "That is why it is important that programmes give extra help to these students.",
+"p": false,
+"note": "'Det er vigtigt, at' + clause. 'Disse' is the plural of 'denne' and 'dette'.",
+"words": [
+[
+"en studerende",
+"a student"
+]
+]
+}
+]
+},
+"pd3-20m-w1": {
+"lines": [
+{
+"da": "Kære Christina",
+"en": "Dear Christina",
+"p": true,
+"note": "A standard greeting in e-mails to friends. 'Kære' means 'dear'."
+},
+{
+"da": "Tak for din mail – det var hyggeligt at høre fra dig.",
+"en": "Thank you for your e-mail – it was nice to hear from you.",
+"p": true,
+"note": "'Tak for' + noun is the fixed way to thank someone. 'Hyggeligt' has -t because it describes 'det'.",
+"words": [
+[
+"hyggelig",
+"cosy, nice"
+]
+]
+},
+{
+"da": "Ja, jeg tror, at jeg kommer til at savne skolen.",
+"en": "Yes, I think I will miss the school.",
+"p": true,
+"note": "'Komme til at' + infinitive is a common way to talk about the future.",
+"words": [
+[
+"komme til at",
+"will (future)"
+],
+[
+"savne",
+"to miss"
+]
+]
+},
+{
+"da": "Jeg vil især savne mine lærere og mine klassekammerater.",
+"en": "I will especially miss my teachers and my classmates.",
+"p": false,
+"note": "'Vil' + infinitive for the future. 'Især' comes after the modal verb.",
+"words": [
+[
+"især",
+"especially"
+],
+[
+"en klassekammerat",
+"a classmate"
+]
+]
+},
+{
+"da": "Det har været et godt år, og jeg har lært meget.",
+"en": "It has been a good year, and I have learned a lot.",
+"p": false,
+"note": "Present perfect: 'har været', 'har lært'. 'Godt' has -t because 'år' is an et-word."
+},
+{
+"da": "Laszlo kan lære dansk hurtigere, hvis I taler dansk sammen derhjemme.",
+"en": "Laszlo can learn Danish faster if you speak Danish together at home.",
+"p": true,
+"note": "'I' with a capital letter means 'you' (plural). In the 'hvis' clause: subject + verb.",
+"words": [
+[
+"derhjemme",
+"at home"
+]
+]
+},
+{
+"da": "I kan for eksempel tale dansk ved aftensmaden hver dag.",
+"en": "For example, you can speak Danish at dinner every day.",
+"p": false,
+"note": "'For eksempel' can stand in the middle of the sentence after the verb.",
+"words": [
+[
+"aftensmaden",
+"dinner, the evening meal"
+]
+]
+},
+{
+"da": "Han kan også se danske film med danske undertekster.",
+"en": "He can also watch Danish films with Danish subtitles.",
+"p": false,
+"note": "'Danske' has -e because 'film' and 'undertekster' are plural here.",
+"words": [
+[
+"en undertekst",
+"a subtitle"
+]
+]
+},
+{
+"da": "Han kan også gå på en sprogcafé og snakke med danskere.",
+"en": "He can also go to a language café and talk with Danes.",
+"p": false,
+"note": "One modal verb with two infinitives: 'kan gå' and '(kan) snakke'. No 'at' after 'kan'.",
+"words": [
+[
+"en sprogcafé",
+"a language café"
+]
+]
+},
+{
+"da": "Jeg fik danske venner, fordi jeg meldte mig til et fodboldhold.",
+"en": "I got Danish friends because I joined a football team.",
+"p": true,
+"note": "'Melde sig til' is reflexive and means 'sign up for'. Past tense: 'fik', 'meldte'.",
+"words": [
+[
+"melde sig til",
+"sign up for, join"
+]
+]
+},
+{
+"da": "Der mødte jeg mange søde mennesker, og vi ses stadig.",
+"en": "There I met many nice people, and we still see each other.",
+"p": false,
+"note": "Inversion after 'Der': 'mødte jeg'. 'Ses' means 'see each other'.",
+"words": [
+[
+"sød",
+"nice, sweet"
+]
+]
+},
+{
+"da": "Jeg arbejdede også som frivillig i en genbrugsbutik.",
+"en": "I also worked as a volunteer in a second-hand shop.",
+"p": false,
+"note": "'Som' + noun without an article for roles: 'som frivillig'.",
+"words": [
+[
+"frivillig",
+"volunteer"
+],
+[
+"en genbrugsbutik",
+"a second-hand shop"
+]
+]
+},
+{
+"da": "Det kan jeg varmt anbefale til Laszlo.",
+"en": "I can warmly recommend that to Laszlo.",
+"p": false,
+"note": "The object 'Det' is put first for emphasis, so the verb comes next: 'kan jeg'.",
+"words": [
+[
+"anbefale",
+"to recommend"
+]
+]
+},
+{
+"da": "Jeg glæder mig også meget til næste weekend.",
+"en": "I am also really looking forward to next weekend.",
+"p": true,
+"note": "'Glæde sig til' is reflexive: 'jeg glæder mig'.",
+"words": [
+[
+"glæde sig til",
+"look forward to"
+]
+]
+},
+{
+"da": "Hvad med at tage en cykeltur i skoven og spise frokost i det fri?",
+"en": "How about going on a bike ride in the forest and having lunch outdoors?",
+"p": false,
+"note": "'Hvad med at' + infinitive is an easy way to suggest something. 'I det fri' means 'outdoors'.",
+"words": [
+[
+"en cykeltur",
+"a bike ride"
+],
+[
+"i det fri",
+"outdoors"
+]
+]
+},
+{
+"da": "Hvis det regner, kan vi gå i biografen i stedet.",
+"en": "If it rains, we can go to the cinema instead.",
+"p": false,
+"note": "When the 'hvis' clause comes first, the main clause starts with the verb: 'kan vi'.",
+"words": [
+[
+"i stedet",
+"instead"
+]
+]
+},
+{
+"da": "Laszlo er selvfølgelig også velkommen.",
+"en": "Laszlo is of course welcome too.",
+"p": false,
+"note": "'Selvfølgelig' and 'også' come after the verb in a main clause.",
+"words": [
+[
+"selvfølgelig",
+"of course"
+]
+]
+},
+{
+"da": "Så kan han også øve sit dansk.",
+"en": "Then he can also practise his Danish.",
+"p": false,
+"note": "'Sit' is reflexive because the Danish belongs to the subject 'han'.",
+"words": [
+[
+"øve",
+"to practise"
+]
+]
+},
+{
+"da": "Kærlig hilsen",
+"en": "Love,",
+"p": true,
+"note": "A warm, informal closing for e-mails to friends. 'Kærlig' is an adjective (loving) before the noun 'hilsen' (greeting)."
+},
+{
+"da": "Kim",
+"en": "Kim",
+"p": false,
+"note": "Write your first name on its own line under the closing. In an informal e-mail the first name is enough."
+}
+]
+},
+"pd3-20m-w2a": {
+"lines": [
+{
+"da": "Stress i hverdagen",
+"en": "Stress in everyday life",
+"p": true,
+"note": "A short title. Only the first word has a capital letter.",
+"words": [
+[
+"hverdagen",
+"everyday life"
+]
+]
+},
+{
+"da": "Diagrammet viser, hvor mange danskere der føler sig stressede i hverdagen.",
+"en": "The chart shows how many Danes feel stressed in everyday life.",
+"p": true,
+"note": "With 'hvor mange' + noun, 'der' is the subject. 'Føle sig' is reflexive; 'stressede' is plural.",
+"words": [
+[
+"stresset",
+"stressed"
+]
+]
+},
+{
+"da": "Der er flere stressede kvinder end mænd i alle aldersgrupper.",
+"en": "There are more stressed women than men in all age groups.",
+"p": false,
+"note": "'Flere … end' means 'more … than' with countable nouns.",
+"words": [
+[
+"en aldersgruppe",
+"an age group"
+]
+]
+},
+{
+"da": "I alt er 20 procent af kvinderne og 13 procent af mændene stressede.",
+"en": "In total, 20 per cent of women and 13 per cent of men are stressed.",
+"p": false,
+"note": "Inversion after 'I alt': 'er 20 procent'. 'Stressede' is plural.",
+"words": [
+[
+"i alt",
+"in total"
+]
+]
+},
+{
+"da": "De 25-34-årige er mest stressede, og de 65-74-årige er mindst stressede.",
+"en": "The 25–34-year-olds are the most stressed, and the 65–74-year-olds are the least stressed.",
+"p": false,
+"note": "Superlatives with 'mest' and 'mindst'. '-årige' means '-year-olds'.",
+"words": [
+[
+"mest",
+"most"
+],
+[
+"mindst",
+"least"
+]
+]
+},
+{
+"da": "Efter 75 år stiger tallet en smule igen.",
+"en": "After 75, the figure rises slightly again.",
+"p": false,
+"note": "Inversion after 'Efter 75 år': 'stiger tallet'. 'En smule' means 'a little'.",
+"words": [
+[
+"en smule",
+"a little, slightly"
+]
+]
+},
+{
+"da": "Der kan være flere årsager til forskellene.",
+"en": "There can be several reasons for the differences.",
+"p": true,
+"note": "'Der kan være' means 'there can be'. 'Forskellene' is definite plural.",
+"words": [
+[
+"en årsag",
+"a reason, cause"
+]
+]
+},
+{
+"da": "Unge voksne har ofte travlt med både karriere og små børn.",
+"en": "Young adults are often busy with both a career and small children.",
+"p": false,
+"note": "'Have travlt med' means 'be busy with'. 'Både … og' means 'both … and'.",
+"words": [
+[
+"have travlt",
+"be busy"
+]
+]
+},
+{
+"da": "Mange unge har også en usikker økonomi.",
+"en": "Many young people also have insecure finances.",
+"p": false,
+"note": "'Usikker' has no -t because 'økonomi' is an en-word. 'Også' comes after the verb.",
+"words": [
+[
+"usikker",
+"insecure, uncertain"
+]
+]
+},
+{
+"da": "Mange kvinder tager desuden mest ansvar for hjemmet.",
+"en": "Moreover, many women take the most responsibility for the home.",
+"p": false,
+"note": "'Desuden' comes after the verb in a normal main clause.",
+"words": [
+[
+"ansvar",
+"responsibility"
+]
+]
+},
+{
+"da": "Pensionister har mere tid, og derfor er de mindre stressede.",
+"en": "Pensioners have more time, and that is why they are less stressed.",
+"p": false,
+"note": "Inversion after 'derfor': 'er de'. 'Mindre' is used before adjectives to mean 'less'.",
+"words": [
+[
+"en pensionist",
+"a pensioner"
+]
+]
+},
+{
+"da": "Nogle mener, at de sociale medier er en større stressfaktor end arbejdslivet.",
+"en": "Some believe that social media are a bigger stress factor than working life.",
+"p": true,
+"note": "'Mene, at' + clause gives an opinion. 'Større end' is a comparison.",
+"words": [
+[
+"en stressfaktor",
+"a stress factor"
+],
+[
+"arbejdslivet",
+"working life"
+]
+]
+},
+{
+"da": "På den ene side kan sociale medier skabe et stort pres.",
+"en": "On the one hand, social media can create a lot of pressure.",
+"p": false,
+"note": "Inversion after 'På den ene side'. 'Pres' is an et-word, so 'stort' gets -t.",
+"words": [
+[
+"et pres",
+"pressure"
+]
+]
+},
+{
+"da": "Vi ser hele tiden andres perfekte liv, og så føler vi os ikke gode nok.",
+"en": "We constantly see other people's perfect lives, and then we do not feel good enough.",
+"p": false,
+"note": "Inversion after 'så': 'føler vi os'. 'Føle sig' is reflexive: 'vi føler os'.",
+"words": [
+[
+"andres",
+"other people's"
+]
+]
+},
+{
+"da": "Mange tjekker også telefonen hele dagen og slapper aldrig rigtigt af.",
+"en": "Many also check their phone all day and never really relax.",
+"p": false,
+"note": "'Slappe af' is a verb with a particle; 'aldrig' comes between the verb and 'af'.",
+"words": [
+[
+"slappe af",
+"to relax"
+]
+]
+},
+{
+"da": "På den anden side fylder arbejdet meget mere i vores hverdag.",
+"en": "On the other hand, work takes up much more of our everyday life.",
+"p": false,
+"note": "Inversion after 'På den anden side'. 'Fylde' here means 'take up space'.",
+"words": [
+[
+"fylde",
+"take up space"
+]
+]
+},
+{
+"da": "Vi arbejder mange timer, og der er ofte høje krav.",
+"en": "We work many hours, and there are often high demands.",
+"p": false,
+"note": "'Høje' is plural because 'krav' is plural here. 'Ofte' comes after 'der er'.",
+"words": [
+[
+"et krav",
+"a demand, requirement"
+]
+]
+},
+{
+"da": "Hvis man mister sit job, kan det også skabe stor stress.",
+"en": "If you lose your job, that can also cause great stress.",
+"p": false,
+"note": "'Sit' is reflexive because the job belongs to the subject 'man'.",
+"words": [
+[
+"miste",
+"to lose"
+]
+]
+},
+{
+"da": "Desuden kan man slukke telefonen, men man kan ikke bare gå fra arbejdet.",
+"en": "Moreover, you can switch off your phone, but you cannot just walk away from work.",
+"p": false,
+"note": "Inversion after 'Desuden'. In the second main clause 'ikke' comes after the modal verb.",
+"words": [
+[
+"slukke",
+"switch off"
+]
+]
+},
+{
+"da": "Efter min mening er arbejdslivet derfor den største stressfaktor.",
+"en": "In my opinion, working life is therefore the biggest stress factor.",
+"p": false,
+"note": "Inversion after 'Efter min mening'. Superlative with 'den': 'den største'.",
+"words": [
+[
+"efter min mening",
+"in my opinion"
+]
+]
+},
+{
+"da": "Men sociale medier kan gøre stressen værre, hvis man ikke holder pauser.",
+"en": "But social media can make stress worse if you do not take breaks.",
+"p": false,
+"note": "In the 'hvis' clause 'ikke' comes before the verb: 'man ikke holder'.",
+"words": [
+[
+"holde pause",
+"take a break"
+]
+]
+}
+]
+},
+"pd3-20m-w2b": {
+"lines": [
+{
+"da": "Det første job",
+"en": "The first job",
+"p": true,
+"note": "A short title. After 'det' the ordinal is used: 'det første job'."
+},
+{
+"da": "Min veninde fik sit første job som sygeplejerske gennem sit studiejob.",
+"en": "My friend got her first job as a nurse through her student job.",
+"p": true,
+"note": "'Sit' is reflexive because the job belongs to the subject 'min veninde'.",
+"words": [
+[
+"en sygeplejerske",
+"a nurse"
+],
+[
+"et studiejob",
+"a student job"
+]
+]
+},
+{
+"da": "Hun arbejdede som vikar på et hospital under studiet.",
+"en": "She worked as a temp at a hospital during her studies.",
+"p": false,
+"note": "'Som' + noun without an article for roles: 'som vikar'. 'Under' means 'during'.",
+"words": [
+[
+"en vikar",
+"a temp, substitute"
+]
+]
+},
+{
+"da": "Kollegerne kendte hende allerede og vidste, at hun var dygtig.",
+"en": "The colleagues already knew her and knew that she was skilled.",
+"p": false,
+"note": "'Kende' is to know a person; 'vide' is to know a fact. Past tense: 'kendte', 'vidste'.",
+"words": [
+[
+"kende",
+"know (a person)"
+],
+[
+"vide",
+"know (a fact)"
+]
+]
+},
+{
+"da": "Da hun blev færdig, tilbød afdelingen hende en fast stilling.",
+"en": "When she graduated, the department offered her a permanent position.",
+"p": false,
+"note": "When the 'da' clause comes first, the main clause starts with the verb: 'tilbød afdelingen'.",
+"words": [
+[
+"en afdeling",
+"a department, ward"
+],
+[
+"en fast stilling",
+"a permanent position"
+]
+]
+},
+{
+"da": "Hun behøvede faktisk aldrig at skrive en ansøgning.",
+"en": "She actually never needed to write an application.",
+"p": false,
+"note": "'Behøve at' means 'need to'. 'Faktisk' and 'aldrig' come after the verb in a main clause.",
+"words": [
+[
+"en ansøgning",
+"an application"
+]
+]
+},
+{
+"da": "Jeg synes, at et studiejob er en stor fordel.",
+"en": "I think a student job is a big advantage.",
+"p": true,
+"note": "'Jeg synes, at' + clause gives an opinion. 'Fordel' is an en-word, so 'stor' has no -t.",
+"words": [
+[
+"en fordel",
+"an advantage"
+]
+]
+},
+{
+"da": "Man får erfaring og lærer en arbejdsplads at kende.",
+"en": "You get experience and get to know a workplace.",
+"p": false,
+"note": "'Lære noget at kende' means 'get to know'. The object comes between 'lære' and 'at kende'.",
+"words": [
+[
+"lære at kende",
+"get to know"
+]
+]
+},
+{
+"da": "Et personligt netværk er også vigtigt, fordi mange job aldrig bliver slået op.",
+"en": "A personal network is also important because many jobs are never advertised.",
+"p": false,
+"note": "Passive with 'blive': 'bliver slået op'. In the 'fordi' clause 'aldrig' comes before the verb.",
+"words": [
+[
+"et netværk",
+"a network"
+],
+[
+"slå op",
+"advertise (a job)"
+]
+]
+},
+{
+"da": "Sprogkundskaber er også vigtige på mange arbejdspladser.",
+"en": "Language skills are also important in many workplaces.",
+"p": false,
+"note": "'Vigtige' has -e because 'sprogkundskaber' is plural.",
+"words": [
+[
+"sprogkundskaber",
+"language skills"
+]
+]
+},
+{
+"da": "Hvis man taler flere sprog, har man flere muligheder.",
+"en": "If you speak several languages, you have more opportunities.",
+"p": false,
+"note": "When the 'hvis' clause comes first, the main clause starts with the verb: 'har man'.",
+"words": [
+[
+"en mulighed",
+"an opportunity"
+]
+]
+},
+{
+"da": "Til gengæld tror jeg ikke, at alder betyder så meget.",
+"en": "On the other hand, I do not think age matters that much.",
+"p": false,
+"note": "Inversion after 'Til gengæld': 'tror jeg ikke'. 'Betyde meget' means 'matter a lot'.",
+"words": [
+[
+"alder",
+"age"
+]
+]
+},
+{
+"da": "Mange diskuterer, om personlighed er vigtigere end eksamensresultater.",
+"en": "Many discuss whether personality is more important than exam results.",
+"p": true,
+"note": "'Om' means 'whether'. 'Vigtigere end' means 'more important than'.",
+"words": [
+[
+"personlighed",
+"personality"
+]
+]
+},
+{
+"da": "På den ene side viser gode karakterer, at man er dygtig og arbejder hårdt.",
+"en": "On the one hand, good grades show that you are skilled and work hard.",
+"p": false,
+"note": "Inversion after 'På den ene side': 'viser gode karakterer'. 'Hårdt' is an adverb.",
+"words": [
+[
+"en karakter",
+"a grade, mark"
+],
+[
+"dygtig",
+"skilled, clever"
+]
+]
+},
+{
+"da": "Nogle arbejdsgivere sorterer ansøgerne efter deres karakterer.",
+"en": "Some employers sort applicants by their grades.",
+"p": false,
+"note": "'Deres' refers to 'ansøgerne', not to the subject, so 'sine' is not used.",
+"words": [
+[
+"en ansøger",
+"an applicant"
+]
+]
+},
+{
+"da": "På den anden side skal man kunne samarbejde med sine kolleger.",
+"en": "On the other hand, you must be able to work with your colleagues.",
+"p": false,
+"note": "'Sine' is reflexive because the colleagues belong to the subject 'man'. Two verbs: 'skal kunne'.",
+"words": [
+[
+"samarbejde",
+"to cooperate"
+],
+[
+"en kollega",
+"a colleague"
+]
+]
+},
+{
+"da": "En arbejdsgiver ønsker en medarbejder, som er positiv og ansvarlig.",
+"en": "An employer wants an employee who is positive and responsible.",
+"p": false,
+"note": "'Som' starts a relative clause. Adjectives without -t because 'medarbejder' is an en-word.",
+"words": [
+[
+"ansvarlig",
+"responsible"
+]
+]
+},
+{
+"da": "Det gælder især i job, hvor man arbejder med mennesker.",
+"en": "This applies especially in jobs where you work with people.",
+"p": false,
+"note": "'Det gælder' means 'this applies'. In the 'hvor' clause: subject + verb, 'man arbejder'.",
+"words": [
+[
+"gælde",
+"to apply"
+]
+]
+},
+{
+"da": "Ved jobsamtalen er det især personligheden, der tæller.",
+"en": "At the job interview, it is especially personality that counts.",
+"p": false,
+"note": "'Det er …, der' puts focus on one thing. Inversion after 'Ved jobsamtalen'.",
+"words": [
+[
+"en jobsamtale",
+"a job interview"
+],
+[
+"tælle",
+"to count"
+]
+]
+},
+{
+"da": "En nyuddannet har ikke meget erfaring, så personligheden betyder ekstra meget.",
+"en": "A new graduate does not have much experience, so personality matters extra.",
+"p": false,
+"note": "'Så' here means 'so' and joins two main clauses, so there is no inversion.",
+"words": [
+[
+"nyuddannet",
+"newly graduated"
+]
+]
+},
+{
+"da": "Efter min mening er personlighed derfor lidt vigtigere end karakterer.",
+"en": "In my opinion, personality is therefore a little more important than grades.",
+"p": false,
+"note": "Inversion after 'Efter min mening'. 'Derfor' comes after the subject in an inverted clause.",
+"words": [
+[
+"efter min mening",
+"in my opinion"
+]
+]
+},
+{
+"da": "Men gode karakterer kan hjælpe én med at komme til jobsamtalen.",
+"en": "But good grades can help you get to the job interview.",
+"p": false,
+"note": "'Én' is the object form of 'man'. 'Hjælpe nogen med at' + infinitive."
+},
+{
+"da": "Alt i alt er det bedst at have begge dele.",
+"en": "All in all, it is best to have both.",
+"p": false,
+"note": "Inversion after 'Alt i alt'. 'Begge dele' means 'both things'.",
+"words": [
+[
+"alt i alt",
+"all in all"
+],
+[
+"begge dele",
+"both"
+]
+]
+}
+]
+},
+"pd3-20n-w1": {
+"lines": [
+{
+"da": "Hej Trine",
+"en": "Hi Trine",
+"p": true,
+"note": "An informal greeting: 'Hej' plus the first name. Danish e-mails usually have no comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "A fixed phrase without a verb: 'tak for' + noun. 'Mail' is an en-word, so we say 'din mail'."
+},
+{
+"da": "Du spørger, om jeg har nogen planer i juleferien.",
+"en": "You ask whether I have any plans for the Christmas holidays.",
+"p": true,
+"note": "'om' means 'whether' and starts an indirect question. In the om-clause the subject comes before the verb: jeg har.",
+"words": [
+[
+"juleferien",
+"the Christmas holidays"
+]
+]
+},
+{
+"da": "Jeg skal holde jul hos min familie, og jeg glæder mig meget.",
+"en": "I am going to spend Christmas with my family, and I am really looking forward to it.",
+"p": false,
+"note": "'skal' + infinitive describes a plan. 'glæde sig' is reflexive: jeg glæder mig, du glæder dig.",
+"words": [
+[
+"holde jul",
+"celebrate Christmas"
+],
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Med hensyn til Rikke tror jeg ikke, at det er et problem at vente et år.",
+"en": "As for Rikke, I don't think it is a problem to wait a year.",
+"p": true,
+"note": "The sentence starts with 'Med hensyn til Rikke', so the verb comes second and the subject after it (inversion): tror jeg ikke.",
+"words": [
+[
+"med hensyn til",
+"as for, regarding"
+]
+]
+},
+{
+"da": "Hun kan tjene penge, rejse og finde ud af, hvad hun gerne vil.",
+"en": "She can earn money, travel and find out what she wants.",
+"p": false,
+"note": "One modal verb 'kan' is followed by three infinitives without 'at'. 'finde ud af' means 'find out'.",
+"words": [
+[
+"tjene penge",
+"earn money"
+],
+[
+"finde ud af",
+"find out"
+]
+]
+},
+{
+"da": "Jeg tror faktisk, at hun bliver mere motiveret efter en pause.",
+"en": "I actually think that she will become more motivated after a break.",
+"p": false,
+"note": "The present tense 'bliver' is used about the future. In the at-clause the subject comes before the verb: hun bliver.",
+"words": [
+[
+"motiveret",
+"motivated"
+]
+]
+},
+{
+"da": "Jeg forstår godt, at du er nervøs for, at hun flytter hjemmefra.",
+"en": "I understand that you are nervous about her moving away from home.",
+"p": true,
+"note": "Two at-clauses in a row. The adjective 'nervøs' takes the preposition 'for' before the second at-clause.",
+"words": [
+[
+"flytter hjemmefra",
+"moves away from home"
+]
+]
+},
+{
+"da": "På den ene side har hun ikke en fast plan endnu.",
+"en": "On the one hand, she doesn't have a fixed plan yet.",
+"p": false,
+"note": "Inversion after 'På den ene side': the verb 'har' comes before 'hun'. In a main clause 'ikke' comes after the verb.",
+"words": [
+[
+"fast",
+"fixed, firm"
+]
+]
+},
+{
+"da": "På den anden side lærer hun at klare sig selv.",
+"en": "On the other hand, she learns to manage on her own.",
+"p": false,
+"note": "Inversion again: lærer hun. 'klare sig selv' is reflexive; with 'hun' the reflexive pronoun is 'sig'.",
+"words": [
+[
+"klare sig selv",
+"manage on one's own"
+]
+]
+},
+{
+"da": "Derfor synes jeg, at det er en god idé.",
+"en": "That is why I think it is a good idea.",
+"p": false,
+"note": "'Derfor' at the start gives inversion: synes jeg. 'idé' is an en-word, so it is 'en god idé'."
+},
+{
+"da": "Med hensyn til julen synes jeg, at I skal blive hjemme.",
+"en": "As for Christmas, I think you should stay at home.",
+"p": true,
+"note": "Inversion after the fronted phrase: synes jeg. 'I' with a capital letter means 'you' (plural). 'hjemme' means 'at home', with no movement.",
+"words": [
+[
+"blive hjemme",
+"stay at home"
+]
+]
+},
+{
+"da": "Det skyldes, at du har haft et travlt efterår.",
+"en": "That is because you have had a busy autumn.",
+"p": false,
+"note": "'Det skyldes, at …' gives a reason. 'efterår' is an et-word, so the adjective gets -t: et travlt efterår.",
+"words": [
+[
+"skyldes",
+"is due to"
+],
+[
+"travlt",
+"busy"
+]
+]
+},
+{
+"da": "Du trænger til ro og hygge sammen med familie og venner.",
+"en": "You need peace and quiet and cosy time with family and friends.",
+"p": false,
+"note": "'trænge til' means 'need' and is followed by a noun. General nouns like 'ro' and 'hygge' have no article.",
+"words": [
+[
+"trænger til",
+"need"
+],
+[
+"hygge",
+"cosiness"
+]
+]
+},
+{
+"da": "I kan jo rejse i vinterferien i stedet.",
+"en": "You can always travel in the winter holidays instead.",
+"p": false,
+"note": "The small word 'jo' softens the advice. It comes right after the verb (and subject) in a main clause.",
+"words": [
+[
+"vinterferien",
+"the winter holidays"
+],
+[
+"i stedet",
+"instead"
+]
+]
+},
+{
+"da": "Skal vi ikke mødes og snakke videre om Rikkes planer?",
+"en": "Shall we meet and talk more about Rikke's plans?",
+"p": true,
+"note": "A yes/no question starts with the verb. 'Skal vi ikke …?' is a polite suggestion. Genitive: Rikkes, with -s and no apostrophe.",
+"words": [
+[
+"mødes",
+"meet"
+],
+[
+"snakke videre",
+"talk more"
+]
+]
+},
+{
+"da": "Jeg kan komme forbi i næste uge.",
+"en": "I can drop by next week.",
+"p": false,
+"note": "Modal verb 'kan' + infinitive. 'komme forbi' means to visit for a short time.",
+"words": [
+[
+"komme forbi",
+"drop by"
+]
+]
+},
+{
+"da": "Kærlig hilsen",
+"en": "Love",
+"p": true,
+"note": "A warm sign-off for friends. 'hilsen' is an en-word, so the adjective has no ending: kærlig hilsen."
+},
+{
+"da": "Sara",
+"en": "Sara",
+"p": false,
+"note": "Write your first name alone on the last line."
+}
+]
+},
+"pd3-20n-w2a": {
+"lines": [
+{
+"da": "Hjemmearbejde og stress",
+"en": "Working from home and stress",
+"p": true,
+"note": "A short title with no verb. 'Hjemmearbejde' is a compound noun: hjemme + arbejde.",
+"words": [
+[
+"hjemmearbejde",
+"working from home"
+]
+]
+},
+{
+"da": "Diagrammet viser, hvor mange danskere der arbejdede hjemmefra i 2017.",
+"en": "The chart shows how many Danes worked from home in 2017.",
+"p": true,
+"note": "In an indirect question where 'hvor mange danskere' is the subject, Danish adds 'der'. Past tense 'arbejdede' because it is about 2017.",
+"words": [
+[
+"diagrammet",
+"the chart"
+]
+]
+},
+{
+"da": "Blandt personer med grundskole havde kun ca. 12 % arbejdet hjemmefra.",
+"en": "Among people with only primary school, only about 12% had worked from home.",
+"p": false,
+"note": "Inversion after 'Blandt personer med grundskole': havde kun ca. 12 %. 'havde arbejdet' is the past perfect.",
+"words": [
+[
+"blandt",
+"among"
+],
+[
+"grundskole",
+"primary and lower secondary school"
+]
+]
+},
+{
+"da": "For personer med en erhvervsuddannelse var tallet ca. 23 %.",
+"en": "For people with a vocational education, the figure was about 23%.",
+"p": false,
+"note": "The fronted phrase gives inversion: var tallet. 'tallet' is the definite form of 'et tal'.",
+"words": [
+[
+"erhvervsuddannelse",
+"vocational education"
+]
+]
+},
+{
+"da": "Blandt personer med en lang videregående uddannelse var det ca. 59 %.",
+"en": "Among people with a long higher education, it was about 59%.",
+"p": false,
+"note": "Inversion: var det. 'en lang videregående uddannelse' is an en-word, so the adjectives have no -t.",
+"words": [
+[
+"videregående uddannelse",
+"higher education"
+]
+]
+},
+{
+"da": "Jo længere uddannelse man har, jo oftere arbejder man hjemmefra.",
+"en": "The longer your education, the more often you work from home.",
+"p": false,
+"note": "'Jo … jo …' means 'the … the …'. After the second part comes inversion: arbejder man.",
+"words": [
+[
+"oftere",
+"more often"
+]
+]
+},
+{
+"da": "Der kan være flere årsager til forskellene.",
+"en": "There can be several reasons for the differences.",
+"p": true,
+"note": "'Der kan være' means 'there can be'. 'forskellene' is the definite plural of 'en forskel'.",
+"words": [
+[
+"årsager",
+"reasons"
+],
+[
+"forskellene",
+"the differences"
+]
+]
+},
+{
+"da": "For det første arbejder mange højtuddannede ved en computer.",
+"en": "Firstly, many highly educated people work at a computer.",
+"p": false,
+"note": "'For det første' starts the sentence, so the verb comes before the subject: arbejder mange højtuddannede.",
+"words": [
+[
+"højtuddannede",
+"highly educated people"
+]
+]
+},
+{
+"da": "For det andet har mange med en kort uddannelse et praktisk job.",
+"en": "Secondly, many people with a short education have a practical job.",
+"p": false,
+"note": "Inversion after 'For det andet': har mange. 'job' is an et-word, so the adjective gets -t: et praktisk job ('praktisk' already ends in -sk and gets no extra -t).",
+"words": [
+[
+"praktisk",
+"practical"
+]
+]
+},
+{
+"da": "En butiksassistent eller en elektriker kan ikke arbejde hjemmefra.",
+"en": "A shop assistant or an electrician cannot work from home.",
+"p": false,
+"note": "Normal word order: subject, modal verb, 'ikke', infinitive. 'ikke' comes after the modal verb in a main clause.",
+"words": [
+[
+"butiksassistent",
+"shop assistant"
+]
+]
+},
+{
+"da": "Det skyldes, at de skal være fysisk til stede på arbejdspladsen.",
+"en": "That is because they have to be physically present at the workplace.",
+"p": false,
+"note": "'Det skyldes, at …' introduces a reason. 'til stede' means 'present'.",
+"words": [
+[
+"fysisk",
+"physically"
+],
+[
+"til stede",
+"present"
+]
+]
+},
+{
+"da": "Efter min mening kan hjemmearbejde både mindske og øge risikoen for stress.",
+"en": "In my opinion, working from home can both reduce and increase the risk of stress.",
+"p": true,
+"note": "'Efter min mening' gives inversion: kan hjemmearbejde. 'både … og …' means 'both … and …'.",
+"words": [
+[
+"mindske",
+"reduce"
+],
+[
+"øge",
+"increase"
+],
+[
+"risikoen",
+"the risk"
+]
+]
+},
+{
+"da": "På den ene side giver det mere frihed i hverdagen.",
+"en": "On the one hand, it gives more freedom in everyday life.",
+"p": false,
+"note": "Inversion after 'På den ene side': giver det. 'frihed' has no article because it is a general idea.",
+"words": [
+[
+"frihed",
+"freedom"
+],
+[
+"hverdagen",
+"everyday life"
+]
+]
+},
+{
+"da": "Man sparer tid på transport og kan nemmere hente sine børn.",
+"en": "You save time on transport and can more easily pick up your children.",
+"p": false,
+"note": "'man' is the general subject. With 'man' the possessive is 'sine': hente sine børn.",
+"words": [
+[
+"sparer",
+"save"
+],
+[
+"hente",
+"pick up"
+]
+]
+},
+{
+"da": "Mange kan også koncentrere sig bedre, fordi der er ro derhjemme.",
+"en": "Many people can also concentrate better because it is quiet at home.",
+"p": false,
+"note": "'koncentrere sig' is reflexive. In the fordi-clause the order is normal: der er.",
+"words": [
+[
+"koncentrere sig",
+"concentrate"
+],
+[
+"derhjemme",
+"at home"
+]
+]
+},
+{
+"da": "På den anden side kan det være svært at holde fri.",
+"en": "On the other hand, it can be hard to take time off.",
+"p": false,
+"note": "Inversion: kan det. 'svært' has -t because it describes 'det'.",
+"words": [
+[
+"holde fri",
+"take time off"
+]
+]
+},
+{
+"da": "Computeren står i stuen, og mange tjekker mails om aftenen.",
+"en": "The computer is in the living room, and many people check e-mails in the evening.",
+"p": false,
+"note": "Two main clauses joined by 'og', both with normal word order. 'om aftenen' means 'in the evening' as a habit.",
+"words": [
+[
+"stuen",
+"the living room"
+]
+]
+},
+{
+"da": "Så forsvinder grænsen mellem arbejde og fritid, og det kan give stress.",
+"en": "Then the line between work and free time disappears, and that can cause stress.",
+"p": false,
+"note": "'Så' at the start gives inversion: forsvinder grænsen.",
+"words": [
+[
+"forsvinder",
+"disappears"
+],
+[
+"grænsen",
+"the boundary"
+]
+]
+},
+{
+"da": "Desuden kan man føle sig ensom, når man ikke ser sine kolleger.",
+"en": "In addition, you can feel lonely when you don't see your colleagues.",
+"p": false,
+"note": "In the når-clause 'ikke' comes before the verb: når man ikke ser. 'føle sig' is reflexive.",
+"words": [
+[
+"desuden",
+"in addition"
+],
+[
+"ensom",
+"lonely"
+]
+]
+},
+{
+"da": "Alt i alt tror jeg, at hjemmearbejde mindsker stress, hvis man har faste rammer.",
+"en": "All in all, I think working from home reduces stress if you have a fixed structure.",
+"p": false,
+"note": "'Alt i alt' gives inversion: tror jeg. The hvis-clause states a condition.",
+"words": [
+[
+"alt i alt",
+"all in all"
+],
+[
+"faste rammer",
+"a fixed structure"
+]
+]
+},
+{
+"da": "Derfor er det en god idé at arbejde hjemme en eller to dage om ugen.",
+"en": "That is why it is a good idea to work from home one or two days a week.",
+"p": false,
+"note": "Inversion after 'Derfor': er det. 'om ugen' means 'per week'.",
+"words": [
+[
+"om ugen",
+"per week"
+]
+]
+}
+]
+},
+"pd3-20n-w2b": {
+"lines": [
+{
+"da": "Personalegoder og arbejdsmiljø",
+"en": "Employee benefits and the working environment",
+"p": true,
+"note": "A short title with two nouns and no verb. Both are compound nouns.",
+"words": [
+[
+"personalegoder",
+"employee benefits"
+],
+[
+"arbejdsmiljø",
+"working environment"
+]
+]
+},
+{
+"da": "På min arbejdsplads får vi gratis frugt og kaffe hver dag.",
+"en": "At my workplace we get free fruit and coffee every day.",
+"p": true,
+"note": "The sentence starts with a place, so the verb comes before the subject: får vi.",
+"words": [
+[
+"arbejdsplads",
+"workplace"
+],
+[
+"gratis",
+"free of charge"
+]
+]
+},
+{
+"da": "Hvert år holder firmaet også en julefrokost for alle medarbejdere.",
+"en": "Every year the company also holds a Christmas lunch for all employees.",
+"p": false,
+"note": "Inversion after 'Hvert år': holder firmaet. 'også' comes after the subject in a main clause with inversion.",
+"words": [
+[
+"julefrokost",
+"Christmas lunch"
+],
+[
+"medarbejdere",
+"employees"
+]
+]
+},
+{
+"da": "Det er små ting, men vi er glade for dem.",
+"en": "They are small things, but we are happy with them.",
+"p": false,
+"note": "'små' is the plural of 'lille'. 'glade' has -e because 'vi' is plural.",
+"words": [
+[
+"glade for",
+"happy with"
+]
+]
+},
+{
+"da": "Jeg har desuden hørt om firmaer, der tilbyder fitness og sundhedstjek.",
+"en": "I have also heard about companies that offer gym access and health checks.",
+"p": false,
+"note": "Present perfect: har hørt. 'der' is the relative pronoun when it is the subject of the relative clause.",
+"words": [
+[
+"tilbyder",
+"offer"
+],
+[
+"sundhedstjek",
+"health check"
+]
+]
+},
+{
+"da": "Jeg vil gerne kommentere to af eksemplerne fra listen.",
+"en": "I would like to comment on two of the examples from the list.",
+"p": true,
+"note": "'vil gerne' + infinitive means 'would like to'. 'eksemplerne' is the definite plural of 'et eksempel'.",
+"words": [
+[
+"kommentere",
+"comment on"
+]
+]
+},
+{
+"da": "For det første synes jeg, at børnepasning på virksomheden er en god idé.",
+"en": "Firstly, I think that childcare at the company is a good idea.",
+"p": false,
+"note": "Inversion after 'For det første': synes jeg. In the at-clause the order is subject + verb.",
+"words": [
+[
+"børnepasning",
+"childcare"
+],
+[
+"virksomheden",
+"the company"
+]
+]
+},
+{
+"da": "Forældre sparer tid, og de kan arbejde mere roligt.",
+"en": "Parents save time, and they can work more calmly.",
+"p": false,
+"note": "Two main clauses joined by 'og'. 'roligt' ends in -t because it is used as an adverb.",
+"words": [
+[
+"roligt",
+"calmly"
+]
+]
+},
+{
+"da": "For det andet er efteruddannelse og kurser meget nyttige.",
+"en": "Secondly, further education and courses are very useful.",
+"p": false,
+"note": "Inversion: er efteruddannelse og kurser. The adjective 'nyttige' is plural because there are two things.",
+"words": [
+[
+"efteruddannelse",
+"further education"
+],
+[
+"nyttige",
+"useful"
+]
+]
+},
+{
+"da": "Medarbejderne lærer nye ting, og virksomheden får dygtigere folk.",
+"en": "The employees learn new things, and the company gets more skilled people.",
+"p": false,
+"note": "'dygtigere' is the comparative of 'dygtig'. 'nye' has -e because 'ting' is plural here.",
+"words": [
+[
+"dygtigere",
+"more skilled"
+]
+]
+},
+{
+"da": "Efter min mening er personalegoder vigtige for arbejdsmiljøet, men de er ikke det vigtigste.",
+"en": "In my opinion, employee benefits are important for the working environment, but they are not the most important thing.",
+"p": true,
+"note": "Inversion after 'Efter min mening': er personalegoder. 'det vigtigste' is the superlative used as a noun.",
+"words": [
+[
+"det vigtigste",
+"the most important thing"
+]
+]
+},
+{
+"da": "På den ene side viser de, at ledelsen tænker på medarbejderne.",
+"en": "On the one hand, they show that the management cares about the employees.",
+"p": false,
+"note": "Inversion: viser de. 'tænke på' means 'think about' or 'care about'.",
+"words": [
+[
+"ledelsen",
+"the management"
+]
+]
+},
+{
+"da": "Når man føler sig værdsat, bliver man mere glad for sit arbejde.",
+"en": "When you feel appreciated, you become happier with your job.",
+"p": false,
+"note": "When a sentence starts with a når-clause, the main clause has inversion: bliver man. 'sit' refers back to the subject 'man'.",
+"words": [
+[
+"værdsat",
+"appreciated"
+]
+]
+},
+{
+"da": "Sociale arrangementer kan også styrke sammenholdet mellem kollegerne.",
+"en": "Social events can also strengthen the team spirit among colleagues.",
+"p": false,
+"note": "Modal verb 'kan' + infinitive 'styrke'. 'Sociale' has -e because 'arrangementer' is plural.",
+"words": [
+[
+"arrangementer",
+"events"
+],
+[
+"styrke",
+"strengthen"
+],
+[
+"sammenholdet",
+"the team spirit"
+]
+]
+},
+{
+"da": "På den anden side kan personalegoder ikke løse alle problemer.",
+"en": "On the other hand, employee benefits cannot solve all problems.",
+"p": false,
+"note": "Inversion: kan personalegoder. 'ikke' comes after the subject when there is inversion.",
+"words": [
+[
+"løse",
+"solve"
+]
+]
+},
+{
+"da": "Hvis der er for meget arbejde eller en dårlig leder, hjælper gratis frugt ikke.",
+"en": "If there is too much work or a bad manager, free fruit does not help.",
+"p": false,
+"note": "The sentence starts with a hvis-clause, so the main clause has inversion: hjælper gratis frugt."
+},
+{
+"da": "Det skyldes, at arbejdsmiljøet især handler om respekt og et godt samarbejde.",
+"en": "That is because the working environment is mainly about respect and good cooperation.",
+"p": false,
+"note": "'Det skyldes, at …' gives a reason. 'samarbejde' is an et-word: et godt samarbejde.",
+"words": [
+[
+"især",
+"especially"
+],
+[
+"samarbejde",
+"cooperation"
+]
+]
+},
+{
+"da": "Desuden kan nogle personalegoder skabe misundelse, hvis ikke alle får dem.",
+"en": "In addition, some benefits can create envy if not everyone gets them.",
+"p": false,
+"note": "'Desuden' gives inversion: kan nogle personalegoder. In the subordinate clause 'ikke' comes before the verb.",
+"words": [
+[
+"skabe",
+"create"
+],
+[
+"misundelse",
+"envy"
+]
+]
+},
+{
+"da": "Alt i alt er personalegoder en god ekstra ting.",
+"en": "All in all, employee benefits are a nice extra.",
+"p": false,
+"note": "Inversion after 'Alt i alt': er personalegoder. 'ting' is an en-word: en god ting.",
+"words": [
+[
+"ekstra",
+"extra"
+]
+]
+},
+{
+"da": "Men et godt arbejdsmiljø kræver først og fremmest god ledelse og gode kolleger.",
+"en": "But a good working environment requires, first and foremost, good management and good colleagues.",
+"p": false,
+"note": "'Men' does not count as the first element, so there is no inversion. 'gode' has -e because 'kolleger' is plural.",
+"words": [
+[
+"kræver",
+"requires"
+],
+[
+"først og fremmest",
+"first and foremost"
+]
+]
+}
+]
+},
+"pd3-21m-w1": {
+"lines": [
+{
+"da": "Hej Lise",
+"en": "Hi Lise",
+"p": true,
+"note": "An informal greeting: 'Hej' plus the first name, on its own line."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "A fixed phrase: 'tak for' + noun. 'din' because 'mail' is an en-word."
+},
+{
+"da": "Det var også rigtig hyggeligt at se dig.",
+"en": "It was also really nice to see you.",
+"p": false,
+"note": "Past tense 'var'. 'også' comes after the verb in a main clause. 'hyggeligt' has -t because it describes 'det'.",
+"words": [
+[
+"hyggeligt",
+"nice, cosy"
+]
+]
+},
+{
+"da": "Ja, jeg har købt den elcykel, jeg snakkede om.",
+"en": "Yes, I have bought the e-bike I talked about.",
+"p": true,
+"note": "Present perfect: har købt. The relative clause 'jeg snakkede om' has no 'som', and the preposition 'om' goes at the end.",
+"words": [
+[
+"elcykel",
+"e-bike"
+]
+]
+},
+{
+"da": "Jeg cykler på arbejde hver dag, og det er dejligt.",
+"en": "I cycle to work every day, and it is lovely.",
+"p": false,
+"note": "Two main clauses joined by 'og'. 'på arbejde' means 'to work' here."
+},
+{
+"da": "Det er trist at høre, at Nina skal skilles.",
+"en": "It is sad to hear that Nina is getting divorced.",
+"p": true,
+"note": "'skal skilles' is a passive-like verb form ending in -s. It means 'is going to get divorced'.",
+"words": [
+[
+"trist",
+"sad"
+],
+[
+"skilles",
+"get divorced"
+]
+]
+},
+{
+"da": "Jeg tror, det er bedst, at hun og børnene flytter ind hos jer.",
+"en": "I think it is best that she and the children move in with you.",
+"p": false,
+"note": "'at' can be left out after 'tror'. 'jer' is the object form of 'I' (you, plural).",
+"words": [
+[
+"flytter ind",
+"move in"
+]
+]
+},
+{
+"da": "Det skyldes, at de har brug for støtte i en svær tid.",
+"en": "That is because they need support in a difficult time.",
+"p": false,
+"note": "'Det skyldes, at …' gives a reason. 'have brug for' means 'need'.",
+"words": [
+[
+"har brug for",
+"need"
+],
+[
+"støtte",
+"support"
+]
+]
+},
+{
+"da": "En måned går hurtigt, og så kan de flytte direkte ind i lejligheden.",
+"en": "A month goes quickly, and then they can move straight into the flat.",
+"p": false,
+"note": "After 'så' the verb comes before the subject: kan de.",
+"words": [
+[
+"direkte",
+"directly"
+],
+[
+"lejligheden",
+"the flat"
+]
+]
+},
+{
+"da": "Du spørger også, om I kan blive ved med at se hendes mand.",
+"en": "You also ask whether you can keep seeing her husband.",
+"p": true,
+"note": "'hendes' is used because the husband belongs to Nina, not to the subject 'I'. 'blive ved med at' means 'keep doing'.",
+"words": [
+[
+"blive ved med",
+"keep on"
+]
+]
+},
+{
+"da": "Det tror jeg godt, I kan, men det bliver måske lidt svært i starten.",
+"en": "I think you can, but it may be a bit difficult at first.",
+"p": false,
+"note": "The object 'Det' comes first, so there is inversion: tror jeg. 'i starten' means 'at first'.",
+"words": [
+[
+"i starten",
+"at first"
+]
+]
+},
+{
+"da": "I skal tale med Nina om det, så hun ikke bliver ked af det.",
+"en": "You should talk to Nina about it so that she doesn't get upset.",
+"p": false,
+"note": "In the så-clause (meaning 'so that') 'ikke' comes before the verb: hun ikke bliver.",
+"words": [
+[
+"ked af det",
+"upset, sad"
+]
+]
+},
+{
+"da": "Det går godt med at lære dansk.",
+"en": "Learning Danish is going well.",
+"p": true,
+"note": "'Det går godt med …' is a fixed phrase for saying that something is going well."
+},
+{
+"da": "Jeg er snart færdig med sprogskolen, og jeg forstår næsten alt i fjernsynet.",
+"en": "I will soon finish language school, and I understand almost everything on TV.",
+"p": false,
+"note": "'færdig med' means 'finished with'. 'snart' comes after the verb in a main clause.",
+"words": [
+[
+"sprogskolen",
+"the language school"
+],
+[
+"fjernsynet",
+"the TV"
+]
+]
+},
+{
+"da": "Men det er stadig svært at tale hurtigt.",
+"en": "But it is still hard to speak fast.",
+"p": false,
+"note": "'Men' does not cause inversion. 'stadig' comes after the verb.",
+"words": [
+[
+"stadig",
+"still"
+]
+]
+},
+{
+"da": "Skal vi ikke mødes snart?",
+"en": "Shall we meet soon?",
+"p": true,
+"note": "A yes/no question starts with the verb. 'Skal vi ikke …?' is a friendly suggestion. 'mødes' means 'meet each other'.",
+"words": [
+[
+"mødes",
+"meet"
+]
+]
+},
+{
+"da": "Så kan jeg fortælle dig, hvordan det går med at tale dansk.",
+"en": "Then I can tell you how it is going with speaking Danish.",
+"p": false,
+"note": "Inversion after 'Så': kan jeg. In the indirect question the order is normal: det går."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A common sign-off between friends. 'hilsner' is plural, so 'mange' is used."
+},
+{
+"da": "Maria",
+"en": "Maria",
+"p": false,
+"note": "Write your first name alone on the last line."
+}
+]
+},
+"pd3-21m-w2a": {
+"lines": [
+{
+"da": "Når medarbejdere skifter job",
+"en": "When employees change jobs",
+"p": true,
+"note": "A short title made as a når-clause. In the clause the subject comes before the verb: medarbejdere skifter.",
+"words": [
+[
+"skifter",
+"change"
+]
+]
+},
+{
+"da": "Diagrammet viser jobomsætningen i Danmark i 2018 fordelt på alder.",
+"en": "The chart shows job turnover in Denmark in 2018 by age.",
+"p": true,
+"note": "Normal word order: subject, verb, object. 'fordelt på' means 'divided by'.",
+"words": [
+[
+"jobomsætningen",
+"the job turnover"
+],
+[
+"fordelt på",
+"broken down by"
+]
+]
+},
+{
+"da": "Blandt de 20-34-årige var der ca. 40.600 personer.",
+"en": "Among the 20–34-year-olds there were about 40,600 people.",
+"p": false,
+"note": "Inversion after 'Blandt …': var der. Danish uses a full stop in large numbers: 40.600.",
+"words": [
+[
+"blandt",
+"among"
+]
+]
+},
+{
+"da": "Blandt de 35-49-årige var tallet ca. 23.200, og blandt de 50-64-årige ca. 14.100.",
+"en": "Among the 35–49-year-olds the figure was about 23,200, and among the 50–64-year-olds about 14,100.",
+"p": false,
+"note": "The second part leaves out the verb 'var tallet' to avoid repeating it. Inversion in the first part: var tallet."
+},
+{
+"da": "Hovedtrækket er, at de unge skifter job langt oftere end de ældre.",
+"en": "The main feature is that young people change jobs far more often than older people.",
+"p": false,
+"note": "'de unge' and 'de ældre' are adjectives used as plural nouns. 'langt oftere' means 'much more often'.",
+"words": [
+[
+"hovedtrækket",
+"the main feature"
+]
+]
+},
+{
+"da": "Der kan være flere årsager til forskellene.",
+"en": "There can be several reasons for the differences.",
+"p": true,
+"note": "'Der kan være' means 'there can be'. 'flere' means 'several' here.",
+"words": [
+[
+"årsager",
+"reasons"
+]
+]
+},
+{
+"da": "For det første er mange unge lige blevet færdige med deres uddannelse.",
+"en": "Firstly, many young people have just finished their education.",
+"p": false,
+"note": "Inversion after 'For det første': er mange unge. 'er … blevet' is the present perfect of 'blive'.",
+"words": [
+[
+"lige",
+"just"
+]
+]
+},
+{
+"da": "De søger deres første job eller prøver forskellige ting.",
+"en": "They look for their first job or try different things.",
+"p": false,
+"note": "'deres' is used with 'de'. Danish has no reflexive 'sin' in the plural.",
+"words": [
+[
+"søger",
+"look for, apply for"
+]
+]
+},
+{
+"da": "For det andet har ældre ofte familie, hus og en fast hverdag.",
+"en": "Secondly, older people often have a family, a house and a fixed routine.",
+"p": false,
+"note": "Inversion: har ældre. 'ofte' comes after the subject in a sentence with inversion.",
+"words": [
+[
+"en fast hverdag",
+"a fixed routine"
+]
+]
+},
+{
+"da": "Derfor er de mindre interesserede i at skifte job.",
+"en": "That is why they are less interested in changing jobs.",
+"p": false,
+"note": "Inversion after 'Derfor': er de. 'interesserede' has -e because 'de' is plural.",
+"words": [
+[
+"interesserede i",
+"interested in"
+]
+]
+},
+{
+"da": "For en virksomhed er der både fordele og ulemper ved, at medarbejderne skifter.",
+"en": "For a company there are both advantages and disadvantages when employees change.",
+"p": true,
+"note": "Inversion after the fronted phrase: er der. 'både … og …' means 'both … and …'.",
+"words": [
+[
+"fordele",
+"advantages"
+],
+[
+"ulemper",
+"disadvantages"
+]
+]
+},
+{
+"da": "På den ene side kommer der nye folk med nye idéer.",
+"en": "On the one hand, new people come with new ideas.",
+"p": false,
+"note": "Inversion: kommer der. 'der' is used as a formal subject when the real subject is new information.",
+"words": [
+[
+"idéer",
+"ideas"
+]
+]
+},
+{
+"da": "De kan have viden fra andre firmaer, som virksomheden kan bruge.",
+"en": "They may have knowledge from other companies that the company can use.",
+"p": false,
+"note": "'som' starts a relative clause where it is the object. 'viden' has no article.",
+"words": [
+[
+"viden",
+"knowledge"
+]
+]
+},
+{
+"da": "Unge medarbejdere er ofte også gode til ny teknologi.",
+"en": "Young employees are often also good with new technology.",
+"p": false,
+"note": "'gode til' means 'good at'. 'ny' has no -t because 'teknologi' is an en-word.",
+"words": [
+[
+"teknologi",
+"technology"
+]
+]
+},
+{
+"da": "På den anden side koster det mange penge at ansætte nye medarbejdere.",
+"en": "On the other hand, it costs a lot of money to hire new employees.",
+"p": false,
+"note": "Inversion: koster det. 'det' is a formal subject for the at-infinitive.",
+"words": [
+[
+"ansætte",
+"hire"
+]
+]
+},
+{
+"da": "Det tager tid at finde den rigtige person og lære ham eller hende op.",
+"en": "It takes time to find the right person and train him or her.",
+"p": false,
+"note": "'den rigtige person' has the -e ending after 'den'. 'lære op' is split around the object.",
+"words": [
+[
+"lære op",
+"train"
+]
+]
+},
+{
+"da": "Desuden mister virksomheden erfaring, når en dygtig medarbejder rejser.",
+"en": "In addition, the company loses experience when a skilled employee leaves.",
+"p": false,
+"note": "Inversion after 'Desuden': mister virksomheden. 'rejse' here means 'leave a job'.",
+"words": [
+[
+"mister",
+"loses"
+],
+[
+"erfaring",
+"experience"
+]
+]
+},
+{
+"da": "Kunderne kan også blive utilfredse, hvis de hele tiden møder nye ansigter.",
+"en": "Customers can also become dissatisfied if they keep meeting new faces.",
+"p": false,
+"note": "In the hvis-clause the adverb 'hele tiden' comes before the verb: de hele tiden møder.",
+"words": [
+[
+"utilfredse",
+"dissatisfied"
+],
+[
+"hele tiden",
+"all the time"
+]
+]
+},
+{
+"da": "Alt i alt mener jeg, at lidt udskiftning er sundt for en virksomhed.",
+"en": "All in all, I think a little turnover is healthy for a company.",
+"p": false,
+"note": "Inversion after 'Alt i alt': mener jeg. 'sundt' has -t because it describes a general idea, as in 'Motion er sundt'.",
+"words": [
+[
+"udskiftning",
+"turnover, replacement"
+],
+[
+"sundt",
+"healthy"
+]
+]
+},
+{
+"da": "Men hvis for mange medarbejdere rejser, bliver det et problem.",
+"en": "But if too many employees leave, it becomes a problem.",
+"p": false,
+"note": "The main clause comes after a hvis-clause, so it has inversion: bliver det."
+}
+]
+},
+"pd3-21m-w2b": {
+"lines": [
+{
+"da": "Unge og sundhed",
+"en": "Young people and health",
+"p": true,
+"note": "A short title. 'Unge' is an adjective used as a plural noun: young people.",
+"words": [
+[
+"sundhed",
+"health"
+]
+]
+},
+{
+"da": "Jeg prøver selv at leve sundt i hverdagen.",
+"en": "I try to live healthily in my everyday life.",
+"p": true,
+"note": "'prøve at' + infinitive means 'try to'. 'sundt' ends in -t because it is an adverb here.",
+"words": [
+[
+"leve sundt",
+"live healthily"
+]
+]
+},
+{
+"da": "Jeg cykler på arbejde, og jeg spiser mange grøntsager.",
+"en": "I cycle to work, and I eat a lot of vegetables.",
+"p": false,
+"note": "Two main clauses joined by 'og', both with subject + verb.",
+"words": [
+[
+"grøntsager",
+"vegetables"
+]
+]
+},
+{
+"da": "Jeg ryger ikke, og jeg prøver at sove otte timer hver nat.",
+"en": "I don't smoke, and I try to sleep eight hours every night.",
+"p": false,
+"note": "In a main clause 'ikke' comes after the verb: jeg ryger ikke.",
+"words": [
+[
+"ryger",
+"smoke"
+]
+]
+},
+{
+"da": "Men jeg spiser for meget chokolade, når jeg er træt.",
+"en": "But I eat too much chocolate when I am tired.",
+"p": false,
+"note": "'for meget' means 'too much'. The når-clause comes at the end, so there is no inversion.",
+"words": [
+[
+"for meget",
+"too much"
+]
+]
+},
+{
+"da": "Jeg vil gerne kommentere to af forslagene fra listen.",
+"en": "I would like to comment on two of the suggestions from the list.",
+"p": true,
+"note": "'vil gerne' + infinitive means 'would like to'. 'forslagene' is the definite plural of 'et forslag'.",
+"words": [
+[
+"forslagene",
+"the suggestions"
+]
+]
+},
+{
+"da": "For det første synes jeg, at sund mad på skolerne er en god idé.",
+"en": "Firstly, I think that healthy food at schools is a good idea.",
+"p": false,
+"note": "Inversion after 'For det første': synes jeg. 'sund' has no -t because 'mad' is an en-word.",
+"words": [
+[
+"sund",
+"healthy"
+]
+]
+},
+{
+"da": "Mange unge spiser ikke morgenmad, og så køber de slik i frikvarteret.",
+"en": "Many young people don't eat breakfast, and then they buy sweets during the break.",
+"p": false,
+"note": "After 'så' the verb comes before the subject: køber de.",
+"words": [
+[
+"slik",
+"sweets"
+],
+[
+"frikvarteret",
+"the break"
+]
+]
+},
+{
+"da": "For det andet tror jeg ikke, at et forbud mod reklamer hjælper meget.",
+"en": "Secondly, I don't think a ban on advertising helps much.",
+"p": false,
+"note": "Inversion: tror jeg ikke. 'forbud' is an et-word, and it takes the preposition 'mod'.",
+"words": [
+[
+"forbud mod",
+"ban on"
+],
+[
+"reklamer",
+"adverts"
+]
+]
+},
+{
+"da": "Unge kan jo stadig se reklamer på nettet.",
+"en": "Young people can still see adverts online, after all.",
+"p": false,
+"note": "'jo' means 'as we know' and comes after the verb. 'på nettet' means 'online'.",
+"words": [
+[
+"på nettet",
+"online"
+]
+]
+},
+{
+"da": "Efter min mening har venner og ungdomskultur større indflydelse end forældrene.",
+"en": "In my opinion, friends and youth culture have a greater influence than parents.",
+"p": true,
+"note": "Inversion after 'Efter min mening': har venner og ungdomskultur. 'større' is the comparative of 'stor'.",
+"words": [
+[
+"ungdomskultur",
+"youth culture"
+],
+[
+"indflydelse",
+"influence"
+]
+]
+},
+{
+"da": "Det skyldes, at unge gerne vil passe ind i gruppen.",
+"en": "That is because young people want to fit into the group.",
+"p": false,
+"note": "In the at-clause 'gerne' comes before the verb: unge gerne vil. 'passe ind' means 'fit in'.",
+"words": [
+[
+"passe ind",
+"fit in"
+]
+]
+},
+{
+"da": "Hvis vennerne ryger eller drikker meget, gør man ofte det samme.",
+"en": "If your friends smoke or drink a lot, you often do the same.",
+"p": false,
+"note": "After a hvis-clause, the main clause has inversion: gør man.",
+"words": [
+[
+"det samme",
+"the same"
+]
+]
+},
+{
+"da": "Sociale medier viser også et bestemt billede af, hvordan man skal leve.",
+"en": "Social media also show a certain picture of how you should live.",
+"p": false,
+"note": "'et bestemt billede' has no -t on 'bestemt' because it already ends in -t. The indirect question has normal word order.",
+"words": [
+[
+"sociale medier",
+"social media"
+],
+[
+"bestemt",
+"certain"
+]
+]
+},
+{
+"da": "Mange unge vil gerne ligne de influencere, de følger.",
+"en": "Many young people want to look like the influencers they follow.",
+"p": false,
+"note": "'gerne' comes after the verb in a main clause. 'som' is left out in 'de følger' because it would be the object, not the subject.",
+"words": [
+[
+"ligne",
+"look like"
+]
+]
+},
+{
+"da": "På den anden side er forældrene stadig vigtige.",
+"en": "On the other hand, parents are still important.",
+"p": false,
+"note": "Inversion: er forældrene. 'vigtige' has -e because 'forældrene' is plural.",
+"words": [
+[
+"forældrene",
+"the parents"
+]
+]
+},
+{
+"da": "De bestemmer, hvad der er i køleskabet, og de er rollemodeller.",
+"en": "They decide what is in the fridge, and they are role models.",
+"p": false,
+"note": "'hvad der' is used when 'hvad' is the subject of the indirect question.",
+"words": [
+[
+"køleskabet",
+"the fridge"
+],
+[
+"rollemodeller",
+"role models"
+]
+]
+},
+{
+"da": "Hvis forældrene dyrker sport, gør børnene det ofte også.",
+"en": "If the parents do sport, the children often do it too.",
+"p": false,
+"note": "Inversion after the hvis-clause: gør børnene. 'gøre det' replaces the verb phrase 'dyrke sport'.",
+"words": [
+[
+"dyrker sport",
+"do sport"
+]
+]
+},
+{
+"da": "Problemet er, at mange unge lytter mindre til deres forældre, når de bliver teenagere.",
+"en": "The problem is that many young people listen less to their parents when they become teenagers.",
+"p": false,
+"note": "'deres' is used because 'mange unge' is plural; Danish uses 'sin/sine' only for he, she, it and 'man'.",
+"words": [
+[
+"lytter til",
+"listen to"
+]
+]
+},
+{
+"da": "Alt i alt tror jeg, at vennerne betyder mest i ungdomsårene.",
+"en": "All in all, I think friends matter most in the teenage years.",
+"p": false,
+"note": "Inversion after 'Alt i alt': tror jeg. 'mest' is the superlative of 'meget'.",
+"words": [
+[
+"betyder mest",
+"matter most"
+],
+[
+"ungdomsårene",
+"the teenage years"
+]
+]
+},
+{
+"da": "Men forældrene lægger grunden, og den er vigtig resten af livet.",
+"en": "But the parents lay the foundation, and it is important for the rest of your life.",
+"p": false,
+"note": "'grunden' is an en-word, so it is replaced by 'den', and 'vigtig' has no -t.",
+"words": [
+[
+"lægger grunden",
+"lay the foundation"
+]
+]
+}
+]
+},
+"pd3-21n-w1": {
+"lines": [
+{
+"da": "Hej Erik",
+"en": "Hi Erik",
+"p": true,
+"note": "An informal greeting: 'Hej' plus the first name, on its own line."
+},
+{
+"da": "Tak for din mail, og tillykke med det nye job!",
+"en": "Thanks for your e-mail, and congratulations on the new job!",
+"p": true,
+"note": "'tillykke med' + noun means 'congratulations on'. After 'det' the adjective takes -e: det nye job.",
+"words": [
+[
+"tillykke med",
+"congratulations on"
+]
+]
+},
+{
+"da": "Det var også hyggeligt at ses sidst.",
+"en": "It was also nice to see each other last time.",
+"p": false,
+"note": "'ses' is a reciprocal verb ending in -s: it means 'see each other'.",
+"words": [
+[
+"ses",
+"see each other"
+]
+]
+},
+{
+"da": "Koncerten var rigtig god.",
+"en": "The concert was really good.",
+"p": true,
+"note": "Simple main clause in the past tense. 'god' has no -t because 'koncerten' is an en-word.",
+"words": [
+[
+"koncerten",
+"the concert"
+]
+]
+},
+{
+"da": "Bandet spillede alle mine yndlingssange, og stemningen var fantastisk.",
+"en": "The band played all my favourite songs, and the atmosphere was fantastic.",
+"p": false,
+"note": "Past tense 'spillede'. 'Bandet' is an et-word in the definite form.",
+"words": [
+[
+"yndlingssange",
+"favourite songs"
+],
+[
+"stemningen",
+"the atmosphere"
+]
+]
+},
+{
+"da": "Du spørger, om det bliver svært at være leder for dine kolleger.",
+"en": "You ask whether it will be hard to be the manager of your colleagues.",
+"p": true,
+"note": "'om' means 'whether'. The present tense 'bliver' is used about the future.",
+"words": [
+[
+"leder",
+"manager"
+]
+]
+},
+{
+"da": "Jeg tror, at det kan være lidt svært i starten.",
+"en": "I think it may be a little hard at first.",
+"p": false,
+"note": "In the at-clause the order is subject + verb: det kan. 'svært' has -t because it describes 'det'.",
+"words": [
+[
+"i starten",
+"at first"
+]
+]
+},
+{
+"da": "Måske kan du holde et møde med dem den første dag.",
+"en": "Maybe you can hold a meeting with them on the first day.",
+"p": false,
+"note": "'Måske' at the start gives inversion: kan du. 'den første dag' means 'on the first day', with no preposition.",
+"words": [
+[
+"holde et møde",
+"hold a meeting"
+]
+]
+},
+{
+"da": "Hvis du er ærlig og lytter til dem, går det sikkert godt.",
+"en": "If you are honest and listen to them, it will surely go well.",
+"p": false,
+"note": "After the hvis-clause the main clause has inversion: går det.",
+"words": [
+[
+"ærlig",
+"honest"
+],
+[
+"sikkert",
+"surely"
+]
+]
+},
+{
+"da": "De lange arbejdsdage kommer nok til at betyde noget for familielivet.",
+"en": "The long working days will probably mean something for family life.",
+"p": true,
+"note": "'komme til at' + infinitive talks about the future. 'nok' means 'probably'.",
+"words": [
+[
+"arbejdsdage",
+"working days"
+],
+[
+"familielivet",
+"family life"
+]
+]
+},
+{
+"da": "Du får mindre tid sammen med børnene om aftenen.",
+"en": "You will have less time with the children in the evening.",
+"p": false,
+"note": "'mindre' is the comparative of 'lidt'. 'om aftenen' means 'in the evening' as a habit.",
+"words": [
+[
+"mindre",
+"less"
+]
+]
+},
+{
+"da": "Derfor er det vigtigt, at I planlægger weekenderne godt.",
+"en": "That is why it is important that you plan your weekends well.",
+"p": false,
+"note": "Inversion after 'Derfor': er det. 'I' with a capital letter means 'you' (plural).",
+"words": [
+[
+"planlægger",
+"plan"
+]
+]
+},
+{
+"da": "Hvis jeg var dig, ville jeg tage toget.",
+"en": "If I were you, I would take the train.",
+"p": true,
+"note": "An unreal condition uses the past tense: 'Hvis jeg var …, ville jeg …'. Inversion in the main clause: ville jeg.",
+"words": [
+[
+"toget",
+"the train"
+]
+]
+},
+{
+"da": "I toget kan du læse, arbejde eller slappe af.",
+"en": "On the train you can read, work or relax.",
+"p": false,
+"note": "Inversion after 'I toget': kan du. One modal verb is followed by three infinitives.",
+"words": [
+[
+"slappe af",
+"relax"
+]
+]
+},
+{
+"da": "Det er også bedre for miljøet end at køre bil hver dag.",
+"en": "It is also better for the environment than driving every day.",
+"p": false,
+"note": "'bedre … end' compares two things. 'bedre' is the comparative of 'god'.",
+"words": [
+[
+"miljøet",
+"the environment"
+]
+]
+},
+{
+"da": "Skal vi ikke mødes snart og snakke mere om det hele?",
+"en": "Shall we meet soon and talk more about everything?",
+"p": true,
+"note": "A yes/no question starts with the verb. 'Skal vi ikke …?' is a friendly suggestion.",
+"words": [
+[
+"det hele",
+"everything"
+]
+]
+},
+{
+"da": "Du er velkommen til at komme forbi på lørdag.",
+"en": "You are welcome to drop by on Saturday.",
+"p": false,
+"note": "'velkommen til at' + infinitive means 'welcome to'. 'på lørdag' means 'this coming Saturday'.",
+"words": [
+[
+"komme forbi",
+"drop by"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A common sign-off between friends. 'hilsner' is plural."
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Write your first name alone on the last line."
+}
+]
+},
+"pd3-21n-w2a": {
+"lines": [
+{
+"da": "Sygefravær er et fælles ansvar",
+"en": "Sickness absence is a shared responsibility",
+"p": true,
+"note": "A title that is a full sentence. 'ansvar' is an et-word, so we say 'et fælles ansvar'.",
+"words": [
+[
+"sygefravær",
+"sickness absence"
+],
+[
+"fælles",
+"shared"
+]
+]
+},
+{
+"da": "Diagrammet viser det gennemsnitlige sygefravær i fire typer job.",
+"en": "The chart shows the average sickness absence in four types of job.",
+"p": true,
+"note": "After 'det' the adjective takes -e: det gennemsnitlige sygefravær.",
+"words": [
+[
+"gennemsnitlige",
+"average"
+]
+]
+},
+{
+"da": "Ledere har det laveste sygefravær med ca. 1,5 %.",
+"en": "Managers have the lowest sickness absence, at about 1.5%.",
+"p": false,
+"note": "'laveste' is the superlative of 'lav' with -e after 'det'. Danish uses a comma in decimals: 1,5.",
+"words": [
+[
+"laveste",
+"lowest"
+]
+]
+},
+{
+"da": "Forskere ved universiteter ligger på ca. 2,2 %.",
+"en": "University researchers are at about 2.2%.",
+"p": false,
+"note": "'ligge på' + a number means 'be at' a level.",
+"words": [
+[
+"forskere",
+"researchers"
+]
+]
+},
+{
+"da": "Sygeplejersker har ca. 5,5 %, og social- og sundhedsassistenter har det højeste med ca. 7,2 %.",
+"en": "Nurses have about 5.5%, and social and health care assistants have the highest, at about 7.2%.",
+"p": false,
+"note": "The hyphen in 'social- og sundhedsassistenter' shows that '-assistenter' belongs to both words.",
+"words": [
+[
+"sygeplejersker",
+"nurses"
+],
+[
+"højeste",
+"highest"
+]
+]
+},
+{
+"da": "Sygefraværet er altså højest i de job, hvor man arbejder med pleje.",
+"en": "So sickness absence is highest in the jobs where people work with care.",
+"p": false,
+"note": "'altså' means 'so' or 'in other words'. 'hvor' starts a relative clause about place or situation.",
+"words": [
+[
+"altså",
+"so, thus"
+],
+[
+"pleje",
+"care"
+]
+]
+},
+{
+"da": "Der kan være flere årsager til forskellene.",
+"en": "There can be several reasons for the differences.",
+"p": true,
+"note": "'Der kan være' means 'there can be'.",
+"words": [
+[
+"årsager",
+"reasons"
+]
+]
+},
+{
+"da": "For det første er plejejob meget hårde for kroppen.",
+"en": "Firstly, care jobs are very hard on the body.",
+"p": false,
+"note": "Inversion after 'For det første': er plejejob. 'hårde' has -e because 'plejejob' is plural here.",
+"words": [
+[
+"kroppen",
+"the body"
+]
+]
+},
+{
+"da": "Man løfter patienter og står op det meste af dagen.",
+"en": "You lift patients and stand most of the day.",
+"p": false,
+"note": "'man' is the general subject. 'det meste af' means 'most of'.",
+"words": [
+[
+"løfter",
+"lift"
+],
+[
+"det meste af",
+"most of"
+]
+]
+},
+{
+"da": "For det andet bliver man let smittet, når man arbejder med syge mennesker.",
+"en": "Secondly, you easily get infected when you work with sick people.",
+"p": false,
+"note": "Inversion: bliver man. 'bliver smittet' is a passive form with 'blive' + past participle.",
+"words": [
+[
+"smittet",
+"infected"
+]
+]
+},
+{
+"da": "Ledere og forskere har derimod mere frihed og kan arbejde hjemmefra.",
+"en": "Managers and researchers, on the other hand, have more freedom and can work from home.",
+"p": false,
+"note": "'derimod' means 'on the other hand' and comes after the verb in a main clause.",
+"words": [
+[
+"derimod",
+"on the other hand"
+]
+]
+},
+{
+"da": "Efter min mening er det både ledelsens og medarbejdernes ansvar at nedbringe sygefraværet.",
+"en": "In my opinion, it is both the management's and the employees' responsibility to reduce sickness absence.",
+"p": true,
+"note": "Inversion after 'Efter min mening': er det. The genitive -s is added to the definite forms: ledelsens, medarbejdernes.",
+"words": [
+[
+"nedbringe",
+"reduce"
+],
+[
+"ansvar",
+"responsibility"
+]
+]
+},
+{
+"da": "På den ene side har ledelsen et stort ansvar.",
+"en": "On the one hand, the management has a big responsibility.",
+"p": false,
+"note": "Inversion: har ledelsen. 'stort' has -t because 'ansvar' is an et-word.",
+"words": [
+[
+"ledelsen",
+"the management"
+]
+]
+},
+{
+"da": "Den skal sørge for et godt arbejdsmiljø, og at der ikke er for mange opgaver.",
+"en": "It must ensure a good working environment and that there are not too many tasks.",
+"p": false,
+"note": "'Den' refers to 'ledelsen', an en-word. In the at-clause 'ikke' comes before the verb: der ikke er.",
+"words": [
+[
+"sørge for",
+"make sure of"
+],
+[
+"opgaver",
+"tasks"
+]
+]
+},
+{
+"da": "Den kan også købe hjælpemidler, så medarbejderne ikke får ondt i ryggen.",
+"en": "It can also buy aids so that the employees don't get back pain.",
+"p": false,
+"note": "In the så-clause (so that) 'ikke' comes before the verb: medarbejderne ikke får.",
+"words": [
+[
+"hjælpemidler",
+"aids, equipment"
+],
+[
+"ondt i ryggen",
+"back pain"
+]
+]
+},
+{
+"da": "På den anden side har medarbejderne også et ansvar.",
+"en": "On the other hand, the employees also have a responsibility.",
+"p": false,
+"note": "Inversion: har medarbejderne. 'også' comes after the subject when there is inversion."
+},
+{
+"da": "De kan for eksempel motionere, spise sundt og sove nok.",
+"en": "For example, they can exercise, eat healthily and get enough sleep.",
+"p": false,
+"note": "One modal verb 'kan' is followed by three infinitives without 'at'.",
+"words": [
+[
+"motionere",
+"exercise"
+]
+]
+},
+{
+"da": "De skal også sige fra, hvis de har for travlt.",
+"en": "They should also speak up if they are too busy.",
+"p": false,
+"note": "'sige fra' means to say no or speak up. 'have travlt' means 'be busy'.",
+"words": [
+[
+"sige fra",
+"speak up, say no"
+],
+[
+"for travlt",
+"too busy"
+]
+]
+},
+{
+"da": "Medarbejderne kender jo selv deres krop bedst.",
+"en": "After all, the employees know their own bodies best.",
+"p": false,
+"note": "'jo' (as we know) comes after the verb. 'bedst' is the superlative of 'godt'.",
+"words": [
+[
+"krop",
+"body"
+]
+]
+},
+{
+"da": "Alt i alt er sygefravær et fælles problem, som kræver en fælles løsning.",
+"en": "All in all, sickness absence is a shared problem that requires a shared solution.",
+"p": false,
+"note": "Inversion after 'Alt i alt': er sygefravær. 'som' starts a relative clause and is the subject here.",
+"words": [
+[
+"løsning",
+"solution"
+]
+]
+},
+{
+"da": "Hvis ledelse og medarbejdere taler sammen, kan de finde gode løsninger.",
+"en": "If management and employees talk together, they can find good solutions.",
+"p": false,
+"note": "After the hvis-clause, the main clause has inversion: kan de."
+}
+]
+},
+"pd3-21n-w2b": {
+"lines": [
+{
+"da": "Klimaet er vores fælles ansvar",
+"en": "The climate is our shared responsibility",
+"p": true,
+"note": "A title that is a full sentence. 'Klimaet' is the definite form of 'et klima'.",
+"words": [
+[
+"fælles",
+"shared"
+],
+[
+"ansvar",
+"responsibility"
+]
+]
+},
+{
+"da": "Sidste sommer var der et stort skybrud i min by.",
+"en": "Last summer there was a big cloudburst in my town.",
+"p": true,
+"note": "Inversion after the time phrase 'Sidste sommer': var der. 'skybrud' is an et-word: et stort skybrud.",
+"words": [
+[
+"skybrud",
+"cloudburst"
+]
+]
+},
+{
+"da": "Mange kældre blev oversvømmet, og nogle veje var lukket i flere dage.",
+"en": "Many basements were flooded, and some roads were closed for several days.",
+"p": false,
+"note": "'blev oversvømmet' is a passive with 'blive' + past participle.",
+"words": [
+[
+"kældre",
+"basements"
+],
+[
+"oversvømmet",
+"flooded"
+]
+]
+},
+{
+"da": "Det var meget dyrt for mange familier at reparere deres huse.",
+"en": "It was very expensive for many families to repair their houses.",
+"p": false,
+"note": "'Det' is a formal subject for the at-infinitive. 'deres' is used with a plural subject.",
+"words": [
+[
+"reparere",
+"repair"
+]
+]
+},
+{
+"da": "Jeg tror, at den slags vejr bliver mere almindeligt på grund af klimaforandringerne.",
+"en": "I think that this kind of weather will become more common because of climate change.",
+"p": false,
+"note": "'på grund af' + noun means 'because of'. 'almindeligt' has -t because 'vejr' is an et-word.",
+"words": [
+[
+"den slags",
+"that kind of"
+],
+[
+"på grund af",
+"because of"
+],
+[
+"klimaforandringerne",
+"climate change"
+]
+]
+},
+{
+"da": "Jeg vil gerne kommentere to af forslagene fra listen.",
+"en": "I would like to comment on two of the suggestions from the list.",
+"p": true,
+"note": "'vil gerne' + infinitive means 'would like to'.",
+"words": [
+[
+"forslagene",
+"the suggestions"
+]
+]
+},
+{
+"da": "For det første er det nemt at sortere affaldet.",
+"en": "Firstly, it is easy to sort the waste.",
+"p": false,
+"note": "Inversion after 'For det første': er det. 'nemt' has -t because it describes 'det'.",
+"words": [
+[
+"sortere",
+"sort"
+],
+[
+"affaldet",
+"the waste"
+]
+]
+},
+{
+"da": "Det koster ikke meget, og alle kan gøre det derhjemme.",
+"en": "It doesn't cost much, and everyone can do it at home.",
+"p": false,
+"note": "'ikke' comes after the verb in a main clause: koster ikke.",
+"words": [
+[
+"derhjemme",
+"at home"
+]
+]
+},
+{
+"da": "For det andet er det godt at tage cyklen til arbejde eller skole.",
+"en": "Secondly, it is good to cycle to work or school.",
+"p": false,
+"note": "Inversion: er det. 'tage cyklen' literally means 'take the bike'.",
+"words": [
+[
+"tage cyklen",
+"cycle, take the bike"
+]
+]
+},
+{
+"da": "Man sparer CO2, og samtidig får man motion.",
+"en": "You save CO2, and at the same time you get exercise.",
+"p": false,
+"note": "After 'samtidig' the verb comes before the subject: får man.",
+"words": [
+[
+"samtidig",
+"at the same time"
+],
+[
+"motion",
+"exercise"
+]
+]
+},
+{
+"da": "Efter min mening er det både den enkeltes og samfundets ansvar.",
+"en": "In my opinion, it is both the individual's and society's responsibility.",
+"p": true,
+"note": "Inversion after 'Efter min mening': er det. Genitive -s on definite forms: den enkeltes, samfundets.",
+"words": [
+[
+"den enkelte",
+"the individual"
+],
+[
+"samfundets",
+"society's"
+]
+]
+},
+{
+"da": "På den ene side kan vi alle gøre noget i hverdagen.",
+"en": "On the one hand, we can all do something in everyday life.",
+"p": false,
+"note": "Inversion: kan vi. 'alle' comes right after the subject 'vi'.",
+"words": [
+[
+"hverdagen",
+"everyday life"
+]
+]
+},
+{
+"da": "Vi kan spise mindre kød, flyve mindre og købe genbrugstøj.",
+"en": "We can eat less meat, fly less and buy second-hand clothes.",
+"p": false,
+"note": "One modal verb 'kan' + three infinitives. 'mindre' means 'less'.",
+"words": [
+[
+"genbrugstøj",
+"second-hand clothes"
+]
+]
+},
+{
+"da": "Hvis millioner af mennesker gør det, betyder det noget.",
+"en": "If millions of people do it, it makes a difference.",
+"p": false,
+"note": "After a hvis-clause the main clause has inversion: betyder det.",
+"words": [
+[
+"betyder noget",
+"makes a difference"
+]
+]
+},
+{
+"da": "På den anden side kan den enkelte ikke løse problemet alene.",
+"en": "On the other hand, the individual cannot solve the problem alone.",
+"p": false,
+"note": "Inversion: kan den enkelte. 'ikke' comes after the subject.",
+"words": [
+[
+"alene",
+"alone"
+]
+]
+},
+{
+"da": "Det er politikerne, der bestemmer over energi, transport og industri.",
+"en": "It is the politicians who decide on energy, transport and industry.",
+"p": false,
+"note": "'Det er …, der …' is a cleft sentence that stresses who does something.",
+"words": [
+[
+"politikerne",
+"the politicians"
+]
+]
+},
+{
+"da": "De kan for eksempel gøre togene billigere og investere i vindmøller.",
+"en": "For example, they can make trains cheaper and invest in wind turbines.",
+"p": false,
+"note": "'billigere' is the comparative of 'billig'. 'investere i' means 'invest in'.",
+"words": [
+[
+"vindmøller",
+"wind turbines"
+]
+]
+},
+{
+"da": "Desuden står store virksomheder for en stor del af udledningen.",
+"en": "In addition, large companies are responsible for a large part of the emissions.",
+"p": false,
+"note": "Inversion after 'Desuden': står store virksomheder. 'stå for' means 'be responsible for'.",
+"words": [
+[
+"står for",
+"account for"
+],
+[
+"udledningen",
+"the emissions"
+]
+]
+},
+{
+"da": "Alt i alt mener jeg, at samfundet har det største ansvar.",
+"en": "All in all, I think society has the greatest responsibility.",
+"p": false,
+"note": "Inversion after 'Alt i alt': mener jeg. 'største' is the superlative of 'stor' with -e after 'det'.",
+"words": [
+[
+"samfundet",
+"society"
+]
+]
+},
+{
+"da": "Det skyldes, at politikerne kan lave regler for hele landet.",
+"en": "That is because the politicians can make rules for the whole country.",
+"p": false,
+"note": "'Det skyldes, at …' gives a reason. 'hele landet' needs no article before 'hele'.",
+"words": [
+[
+"regler",
+"rules"
+]
+]
+},
+{
+"da": "Men vi skal også selv gøre vores del.",
+"en": "But we must also do our part ourselves.",
+"p": false,
+"note": "'Men' gives no inversion. 'selv' means 'ourselves' here.",
+"words": [
+[
+"gøre vores del",
+"do our part"
+]
+]
+}
+]
+},
+"pd3-22m-w1": {
+"lines": [
+{
+"da": "Hej Mia",
+"en": "Hi Mia",
+"p": true,
+"note": "An informal greeting: 'Hej' plus the first name, on its own line."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "A fixed phrase: 'tak for' + noun."
+},
+{
+"da": "Det var også hyggeligt at snakke med dig på Skype.",
+"en": "It was also nice to talk to you on Skype.",
+"p": false,
+"note": "Past tense 'var'. 'også' comes after the verb in a main clause.",
+"words": [
+[
+"hyggeligt",
+"nice, cosy"
+]
+]
+},
+{
+"da": "Køreprøven gik heldigvis godt, og nu har jeg kørekort!",
+"en": "The driving test luckily went well, and now I have a driving licence!",
+"p": true,
+"note": "Past tense 'gik' of 'gå'. After 'nu' there is inversion: har jeg.",
+"words": [
+[
+"køreprøven",
+"the driving test"
+],
+[
+"heldigvis",
+"luckily"
+],
+[
+"kørekort",
+"driving licence"
+]
+]
+},
+{
+"da": "Jeg var meget nervøs, men jeg bestod i første forsøg.",
+"en": "I was very nervous, but I passed at the first attempt.",
+"p": false,
+"note": "Past tense 'bestod' of 'bestå'. 'i første forsøg' has no article.",
+"words": [
+[
+"bestod",
+"passed"
+],
+[
+"forsøg",
+"attempt"
+]
+]
+},
+{
+"da": "Du spørger, hvad du skal gøre for at få en god start på arbejdet.",
+"en": "You ask what you should do to get a good start at work.",
+"p": true,
+"note": "In the indirect question the order is subject + verb: du skal. 'for at' + infinitive means 'in order to'.",
+"words": [
+[
+"en god start",
+"a good start"
+]
+]
+},
+{
+"da": "Jeg synes, at du skal være åben og vise interesse for dine kolleger.",
+"en": "I think you should be open and show interest in your colleagues.",
+"p": false,
+"note": "'dine' is used because the colleagues belong to 'du'. 'interesse for' means 'interest in'.",
+"words": [
+[
+"åben",
+"open"
+],
+[
+"interesse for",
+"interest in"
+]
+]
+},
+{
+"da": "Du kan for eksempel tage kage med den første dag.",
+"en": "For example, you can bring cake on the first day.",
+"p": false,
+"note": "'tage med' means 'bring' and is split around the object: tage kage med.",
+"words": [
+[
+"tage med",
+"bring"
+]
+]
+},
+{
+"da": "Jeg tror godt, at børnene kan holde kontakten med deres venner.",
+"en": "I do think the children can keep in touch with their friends.",
+"p": true,
+"note": "'godt' here means 'indeed, quite possibly'. 'deres' is used because 'børnene' is plural.",
+"words": [
+[
+"holde kontakten",
+"keep in touch"
+]
+]
+},
+{
+"da": "Det er jo nemt at skrive og ringe over nettet i dag.",
+"en": "It is easy to write and call over the internet nowadays, after all.",
+"p": false,
+"note": "'jo' means 'as we know' and comes after the verb. 'i dag' means 'nowadays' here.",
+"words": [
+[
+"over nettet",
+"over the internet"
+]
+]
+},
+{
+"da": "Måske kan vennerne også besøge dem i Danmark en dag.",
+"en": "Maybe the friends can also visit them in Denmark one day.",
+"p": false,
+"note": "'Måske' at the start gives inversion: kan vennerne.",
+"words": [
+[
+"besøge",
+"visit"
+]
+]
+},
+{
+"da": "Hvis jeg var Jens, ville jeg tage toget.",
+"en": "If I were Jens, I would take the train.",
+"p": true,
+"note": "An unreal condition uses the past tense: 'Hvis jeg var …, ville jeg …'. Inversion in the main clause: ville jeg.",
+"words": [
+[
+"toget",
+"the train"
+]
+]
+},
+{
+"da": "Det er billigere end en ekstra bil, og han kan slappe af på turen.",
+"en": "It is cheaper than an extra car, and he can relax on the journey.",
+"p": false,
+"note": "'billigere end' compares two things. 'slappe af' is a phrasal verb.",
+"words": [
+[
+"billigere",
+"cheaper"
+],
+[
+"slappe af",
+"relax"
+]
+]
+},
+{
+"da": "Det er også godt for miljøet.",
+"en": "It is also good for the environment.",
+"p": false,
+"note": "Simple main clause: subject, verb, 'også', adjective.",
+"words": [
+[
+"miljøet",
+"the environment"
+]
+]
+},
+{
+"da": "Jeg glæder mig til, at I kommer hjem.",
+"en": "I am looking forward to you coming home.",
+"p": true,
+"note": "'glæde sig til' is reflexive and can be followed by an at-clause. 'hjem' shows movement towards home.",
+"words": [
+[
+"glæder mig til",
+"look forward to"
+]
+]
+},
+{
+"da": "Skal vi ikke mødes, når I er faldet på plads i Odense?",
+"en": "Shall we meet when you have settled in Odense?",
+"p": false,
+"note": "'er faldet' is the present perfect: verbs of movement often use 'være'. 'falde på plads' means 'settle in'.",
+"words": [
+[
+"falde på plads",
+"settle in"
+]
+]
+},
+{
+"da": "Så kan du fortælle mig alt om New York.",
+"en": "Then you can tell me everything about New York.",
+"p": false,
+"note": "Inversion after 'Så': kan du. 'fortælle' takes an indirect object: fortælle mig."
+},
+{
+"da": "Kærlig hilsen",
+"en": "Love",
+"p": true,
+"note": "A warm sign-off for friends. 'hilsen' is an en-word, so 'kærlig' has no ending."
+},
+{
+"da": "Sofie",
+"en": "Sofie",
+"p": false,
+"note": "Write your first name alone on the last line."
+}
+]
+},
+"pd3-22m-w2a": {
+"lines": [
+{
+"da": "Unge og klimabekymring",
+"en": "Young people and climate worry",
+"p": true,
+"note": "A short title with no verb. 'klimabekymring' is a compound noun: klima + bekymring.",
+"words": [
+[
+"klimabekymring",
+"worry about the climate"
+]
+]
+},
+{
+"da": "Diagrammet viser, hvor mange i forskellige aldersgrupper der er meget bekymrede over klimaforandringer.",
+"en": "The chart shows how many people in different age groups are very worried about climate change.",
+"p": true,
+"note": "When 'hvor mange' is the subject of an indirect question, Danish adds 'der'. 'bekymrede' is plural.",
+"words": [
+[
+"aldersgrupper",
+"age groups"
+],
+[
+"bekymrede over",
+"worried about"
+]
+]
+},
+{
+"da": "Blandt de 18-34-årige er ca. 27 % meget bekymrede.",
+"en": "Among the 18–34-year-olds, about 27% are very worried.",
+"p": false,
+"note": "Inversion after 'Blandt …': er ca. 27 %. Present tense because the chart describes the situation now.",
+"words": [
+[
+"blandt",
+"among"
+]
+]
+},
+{
+"da": "Blandt de 35-49-årige er tallet ca. 24 %, og blandt de 50-70-årige ca. 22 %.",
+"en": "Among the 35–49-year-olds the figure is about 24%, and among the 50–70-year-olds about 22%.",
+"p": false,
+"note": "The second part leaves out 'er tallet' to avoid repeating it. Inversion in the first part: er tallet."
+},
+{
+"da": "For hele gruppen er tallet ca. 24 %.",
+"en": "For the whole group the figure is about 24%.",
+"p": false,
+"note": "Inversion: er tallet. 'hele' comes before the noun, which then takes the definite ending: hele gruppen."
+},
+{
+"da": "De unge er altså lidt mere bekymrede end de ældre, men forskellen er ikke stor.",
+"en": "So young people are a little more worried than older people, but the difference is not big.",
+"p": false,
+"note": "'mere … end' compares two groups. 'stor' has no -t because 'forskellen' is an en-word.",
+"words": [
+[
+"forskellen",
+"the difference"
+]
+]
+},
+{
+"da": "Der kan være flere årsager til forskellene.",
+"en": "There can be several reasons for the differences.",
+"p": true,
+"note": "'Der kan være' means 'there can be'.",
+"words": [
+[
+"årsager",
+"reasons"
+]
+]
+},
+{
+"da": "For det første skal de unge leve længst med klimaforandringerne.",
+"en": "Firstly, young people will live the longest with climate change.",
+"p": false,
+"note": "Inversion after 'For det første': skal de unge. 'længst' is the superlative of 'længe'.",
+"words": [
+[
+"længst",
+"the longest"
+]
+]
+},
+{
+"da": "Det er deres fremtid, der er i fare.",
+"en": "It is their future that is in danger.",
+"p": false,
+"note": "'Det er …, der …' is a cleft sentence that stresses 'deres fremtid'.",
+"words": [
+[
+"i fare",
+"in danger"
+]
+]
+},
+{
+"da": "For det andet hører unge meget om klimaet i skolen og på sociale medier.",
+"en": "Secondly, young people hear a lot about the climate at school and on social media.",
+"p": false,
+"note": "Inversion: hører unge. Note the prepositions: i skolen, på sociale medier.",
+"words": [
+[
+"sociale medier",
+"social media"
+]
+]
+},
+{
+"da": "Efter min mening er der både fordele og ulemper ved, at unge bekymrer sig om klimaet.",
+"en": "In my opinion, there are both advantages and disadvantages in young people worrying about the climate.",
+"p": true,
+"note": "Inversion after 'Efter min mening': er der. 'bekymre sig om' is reflexive: unge bekymrer sig.",
+"words": [
+[
+"fordele",
+"advantages"
+],
+[
+"ulemper",
+"disadvantages"
+]
+]
+},
+{
+"da": "På den ene side er det en stor fordel for samfundet.",
+"en": "On the one hand, it is a big advantage for society.",
+"p": false,
+"note": "Inversion: er det. 'fordel' is an en-word, so 'stor' has no -t.",
+"words": [
+[
+"samfundet",
+"society"
+]
+]
+},
+{
+"da": "Unge, der bekymrer sig, vil ofte gerne handle.",
+"en": "Young people who worry often want to take action.",
+"p": false,
+"note": "The relative clause 'der bekymrer sig' is placed right after the subject 'Unge'.",
+"words": [
+[
+"handle",
+"act, take action"
+]
+]
+},
+{
+"da": "De spiser mindre kød, cykler mere og stemmer på partier, der vil gøre noget.",
+"en": "They eat less meat, cycle more and vote for parties that want to do something.",
+"p": false,
+"note": "Three verbs share one subject 'De'. 'stemme på' means 'vote for'.",
+"words": [
+[
+"stemmer på",
+"vote for"
+],
+[
+"partier",
+"parties"
+]
+]
+},
+{
+"da": "De presser også politikerne til at tage klimaet alvorligt.",
+"en": "They also push politicians to take the climate seriously.",
+"p": false,
+"note": "'presse nogen til at' + infinitive means 'push someone to'.",
+"words": [
+[
+"presser",
+"push, pressure"
+],
+[
+"alvorligt",
+"seriously"
+]
+]
+},
+{
+"da": "På den anden side kan for meget bekymring give angst og stress.",
+"en": "On the other hand, too much worry can cause anxiety and stress.",
+"p": false,
+"note": "Inversion: kan for meget bekymring. 'give' here means 'cause'.",
+"words": [
+[
+"angst",
+"anxiety"
+]
+]
+},
+{
+"da": "Nogle unge mister troen på fremtiden, og det er ikke godt for nogen.",
+"en": "Some young people lose faith in the future, and that is not good for anyone.",
+"p": false,
+"note": "'troen på' means 'faith in'. After 'ikke', Danish uses 'nogen' for 'anyone'.",
+"words": [
+[
+"troen på",
+"faith in"
+]
+]
+},
+{
+"da": "Desuden kan det skabe konflikter mellem generationerne.",
+"en": "In addition, it can create conflicts between the generations.",
+"p": false,
+"note": "Inversion after 'Desuden': kan det.",
+"words": [
+[
+"generationerne",
+"the generations"
+]
+]
+},
+{
+"da": "Alt i alt mener jeg, at fordelene er størst.",
+"en": "All in all, I think the advantages are greatest.",
+"p": false,
+"note": "Inversion after 'Alt i alt': mener jeg. 'størst' is the superlative of 'stor'.",
+"words": [
+[
+"størst",
+"greatest"
+]
+]
+},
+{
+"da": "Det er vigtigt, at de unge får håb og ikke kun dårlige nyheder.",
+"en": "It is important that young people get hope and not only bad news.",
+"p": false,
+"note": "'Det er vigtigt, at …' is a useful phrase. 'nyheder' is plural, so 'dårlige' has -e.",
+"words": [
+[
+"håb",
+"hope"
+],
+[
+"nyheder",
+"news"
+]
+]
+}
+]
+},
+"pd3-22m-w2b": {
+"lines": [
+{
+"da": "En god leder er vigtig",
+"en": "A good manager is important",
+"p": true,
+"note": "A title that is a full sentence. 'leder' is an en-word, so 'god' and 'vigtig' have no -t.",
+"words": [
+[
+"leder",
+"manager"
+]
+]
+},
+{
+"da": "Min svoger arbejder i et lille it-firma, som er en meget attraktiv arbejdsplads.",
+"en": "My brother-in-law works in a small IT company, which is a very attractive workplace.",
+"p": true,
+"note": "'lille' never changes its form. 'som' starts a relative clause and is the subject.",
+"words": [
+[
+"svoger",
+"brother-in-law"
+],
+[
+"attraktiv",
+"attractive"
+]
+]
+},
+{
+"da": "Medarbejderne kan selv planlægge deres dag, og der er en god stemning.",
+"en": "The employees can plan their own day, and there is a good atmosphere.",
+"p": false,
+"note": "'selv' means 'themselves'. 'deres' is used because 'medarbejderne' is plural.",
+"words": [
+[
+"planlægge",
+"plan"
+],
+[
+"stemning",
+"atmosphere"
+]
+]
+},
+{
+"da": "Hver fredag spiser de frokost sammen.",
+"en": "Every Friday they have lunch together.",
+"p": false,
+"note": "Inversion after the time phrase 'Hver fredag': spiser de."
+},
+{
+"da": "Han siger, at han aldrig har lyst til at skifte job.",
+"en": "He says that he never wants to change jobs.",
+"p": false,
+"note": "In the at-clause 'aldrig' comes before the verb: han aldrig har. 'have lyst til' means 'want to'.",
+"words": [
+[
+"har lyst til",
+"feel like, want to"
+]
+]
+},
+{
+"da": "Jeg vil gerne kommentere to af faktorerne fra listen.",
+"en": "I would like to comment on two of the factors from the list.",
+"p": true,
+"note": "'vil gerne' + infinitive means 'would like to'.",
+"words": [
+[
+"faktorerne",
+"the factors"
+]
+]
+},
+{
+"da": "For det første er fleksible arbejdstider meget vigtige for familier med børn.",
+"en": "Firstly, flexible working hours are very important for families with children.",
+"p": false,
+"note": "Inversion after 'For det første': er fleksible arbejdstider. Both adjectives are plural with -e.",
+"words": [
+[
+"fleksible",
+"flexible"
+],
+[
+"arbejdstider",
+"working hours"
+]
+]
+},
+{
+"da": "Man kan hente børnene tidligt og arbejde lidt om aftenen.",
+"en": "You can pick up the children early and work a little in the evening.",
+"p": false,
+"note": "One modal verb 'kan' is followed by two infinitives: hente, arbejde.",
+"words": [
+[
+"hente",
+"pick up"
+]
+]
+},
+{
+"da": "For det andet er god løn selvfølgelig vigtig, men den er ikke nok.",
+"en": "Secondly, good pay is of course important, but it is not enough.",
+"p": false,
+"note": "'løn' is an en-word, so it is replaced by 'den', and 'vigtig' has no -t.",
+"words": [
+[
+"løn",
+"pay, salary"
+],
+[
+"selvfølgelig",
+"of course"
+]
+]
+},
+{
+"da": "Hvis man ikke trives, hjælper en høj løn ikke ret meget.",
+"en": "If you are not happy at work, high pay does not help very much.",
+"p": false,
+"note": "In the hvis-clause 'ikke' comes before the verb: man ikke trives. The main clause then has inversion.",
+"words": [
+[
+"trives",
+"thrive, be happy"
+],
+[
+"ikke ret meget",
+"not very much"
+]
+]
+},
+{
+"da": "Efter min mening er lederens personlige kvalifikationer vigtigst.",
+"en": "In my opinion, the manager's personal qualities are most important.",
+"p": true,
+"note": "Inversion after 'Efter min mening': er lederens personlige kvalifikationer. 'vigtigst' is the superlative of 'vigtig'.",
+"words": [
+[
+"kvalifikationer",
+"qualifications, qualities"
+]
+]
+},
+{
+"da": "På den ene side skal en leder selvfølgelig have faglig viden.",
+"en": "On the one hand, a manager must of course have professional knowledge.",
+"p": false,
+"note": "Inversion: skal en leder. 'faglig' has no -t because 'viden' is an en-word.",
+"words": [
+[
+"faglig viden",
+"professional knowledge"
+]
+]
+},
+{
+"da": "Lederen skal forstå arbejdet og kunne træffe gode beslutninger.",
+"en": "The manager must understand the work and be able to make good decisions.",
+"p": false,
+"note": "'skal' is followed by two infinitives: forstå, kunne. 'træffe en beslutning' means 'make a decision'.",
+"words": [
+[
+"træffe beslutninger",
+"make decisions"
+]
+]
+},
+{
+"da": "På den anden side handler ledelse først og fremmest om mennesker.",
+"en": "On the other hand, management is first and foremost about people.",
+"p": false,
+"note": "Inversion: handler ledelse. 'handle om' means 'be about'.",
+"words": [
+[
+"først og fremmest",
+"first and foremost"
+]
+]
+},
+{
+"da": "En god leder lytter, er retfærdig og giver ros, når man gør det godt.",
+"en": "A good manager listens, is fair and gives praise when you do well.",
+"p": false,
+"note": "Three verbs share one subject: lytter, er, giver. 'ros' has no article.",
+"words": [
+[
+"retfærdig",
+"fair"
+],
+[
+"ros",
+"praise"
+]
+]
+},
+{
+"da": "Det skyldes, at medarbejderne skal føle sig set og respekteret.",
+"en": "That is because employees need to feel seen and respected.",
+"p": false,
+"note": "'Det skyldes, at …' gives a reason. 'føle sig' is reflexive.",
+"words": [
+[
+"respekteret",
+"respected"
+]
+]
+},
+{
+"da": "Hvis lederen er sur eller uretfærdig, bliver stemningen hurtigt dårlig.",
+"en": "If the manager is grumpy or unfair, the atmosphere quickly becomes bad.",
+"p": false,
+"note": "After the hvis-clause the main clause has inversion: bliver stemningen.",
+"words": [
+[
+"sur",
+"grumpy"
+],
+[
+"uretfærdig",
+"unfair"
+]
+]
+},
+{
+"da": "Så hjælper det ikke, at lederen er meget dygtig fagligt.",
+"en": "Then it doesn't help that the manager is very skilled professionally.",
+"p": false,
+"note": "Inversion after 'Så': hjælper det. 'fagligt' has -t because it is an adverb.",
+"words": [
+[
+"dygtig",
+"skilled"
+]
+]
+},
+{
+"da": "Alt i alt tror jeg, at de personlige egenskaber betyder mest.",
+"en": "All in all, I think personal qualities matter most.",
+"p": false,
+"note": "Inversion after 'Alt i alt': tror jeg. 'personlige' has -e after 'de'.",
+"words": [
+[
+"egenskaber",
+"qualities"
+]
+]
+},
+{
+"da": "Faglig viden kan man lære, men det er sværere at lære at være god til mennesker.",
+"en": "Professional knowledge can be learned, but it is harder to learn to be good with people.",
+"p": false,
+"note": "The object 'Faglig viden' comes first, so there is inversion: kan man. 'sværere' is the comparative of 'svær'.",
+"words": [
+[
+"sværere",
+"harder"
+]
+]
+}
+]
+},
+"pd3-22n-w1": {
+"lines": [
+{
+"da": "Hej Claus",
+"en": "Hi Claus",
+"p": true,
+"note": "An informal greeting: 'Hej' plus the first name, on its own line."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "A fixed phrase: 'tak for' + noun."
+},
+{
+"da": "Det var dejligt at høre, at du er glad for dit nye job.",
+"en": "It was lovely to hear that you are happy with your new job.",
+"p": false,
+"note": "'glad for' means 'happy with'. After 'dit' the adjective takes -e: dit nye job.",
+"words": [
+[
+"glad for",
+"happy with"
+]
+]
+},
+{
+"da": "Det var fantastisk at vandre i bjergene.",
+"en": "It was fantastic to hike in the mountains.",
+"p": true,
+"note": "'Det' is a formal subject for the at-infinitive. Past tense 'var'.",
+"words": [
+[
+"vandre",
+"hike"
+],
+[
+"bjergene",
+"the mountains"
+]
+]
+},
+{
+"da": "Naturen var smuk, men det var hårdt at gå op ad bjergene hver dag.",
+"en": "The nature was beautiful, but it was hard to walk up the mountains every day.",
+"p": false,
+"note": "'smuk' has no -t because 'naturen' is an en-word, while 'hårdt' has -t because it describes 'det'.",
+"words": [
+[
+"smuk",
+"beautiful"
+],
+[
+"op ad",
+"up"
+]
+]
+},
+{
+"da": "Jeg har taget mange flotte billeder, som jeg gerne vil vise dig.",
+"en": "I have taken a lot of nice photos that I would like to show you.",
+"p": false,
+"note": "Present perfect: har taget. In the relative clause 'gerne' comes before the verb: jeg gerne vil.",
+"words": [
+[
+"flotte",
+"nice, beautiful"
+]
+]
+},
+{
+"da": "Jeg synes, at du skal sige det til dine kolleger.",
+"en": "I think you should tell your colleagues.",
+"p": true,
+"note": "'dine' is used because the colleagues belong to 'du'. 'sige det til' means 'tell'."
+},
+{
+"da": "Det er svært at koncentrere sig, når der er meget larm.",
+"en": "It is hard to concentrate when there is a lot of noise.",
+"p": false,
+"note": "'koncentrere sig' is reflexive; after 'at' the general form 'sig' is used.",
+"words": [
+[
+"koncentrere sig",
+"concentrate"
+],
+[
+"larm",
+"noise"
+]
+]
+},
+{
+"da": "Men gør det på en venlig måde, så de ikke bliver sure.",
+"en": "But do it in a friendly way so that they don't get annoyed.",
+"p": false,
+"note": "'gør' is the imperative. In the så-clause 'ikke' comes before the verb: de ikke bliver.",
+"words": [
+[
+"venlig",
+"friendly"
+],
+[
+"sure",
+"annoyed"
+]
+]
+},
+{
+"da": "Jeg tror, at det er vigtigt at blive en gang imellem.",
+"en": "I think it is important to stay now and then.",
+"p": true,
+"note": "In the at-clause the order is subject + verb: det er. 'en gang imellem' means 'now and then'.",
+"words": [
+[
+"en gang imellem",
+"now and then"
+]
+]
+},
+{
+"da": "Du er ny, og det er en god måde at lære dine kolleger at kende på.",
+"en": "You are new, and it is a good way to get to know your colleagues.",
+"p": false,
+"note": "'lære … at kende' means 'get to know'. The preposition 'på' goes to the end.",
+"words": [
+[
+"lære at kende",
+"get to know"
+]
+]
+},
+{
+"da": "Men du behøver ikke at blive hver fredag.",
+"en": "But you don't need to stay every Friday.",
+"p": false,
+"note": "'behøve ikke at' means 'don't need to'. 'ikke' comes after the verb in a main clause.",
+"words": [
+[
+"behøver",
+"need to"
+]
+]
+},
+{
+"da": "Med hensyn til Steen kunne vi give ham en oplevelse.",
+"en": "As for Steen, we could give him an experience.",
+"p": true,
+"note": "Inversion after 'Med hensyn til Steen': kunne vi. 'kunne' (past form) makes the suggestion polite.",
+"words": [
+[
+"med hensyn til",
+"as for"
+],
+[
+"oplevelse",
+"experience"
+]
+]
+},
+{
+"da": "For eksempel kunne vi købe billetter til en koncert eller en fodboldkamp.",
+"en": "For example, we could buy tickets for a concert or a football match.",
+"p": false,
+"note": "Inversion after 'For eksempel': kunne vi. 'billetter til' means 'tickets for'.",
+"words": [
+[
+"billetter",
+"tickets"
+]
+]
+},
+{
+"da": "Han elsker jo musik og sport.",
+"en": "He loves music and sport, after all.",
+"p": false,
+"note": "'jo' means 'as we know' and comes after the verb."
+},
+{
+"da": "Skal vi ikke mødes snart?",
+"en": "Shall we meet soon?",
+"p": true,
+"note": "A yes/no question starts with the verb. 'Skal vi ikke …?' is a friendly suggestion.",
+"words": [
+[
+"mødes",
+"meet"
+]
+]
+},
+{
+"da": "Så kan du fortælle mere om dit nye job.",
+"en": "Then you can tell me more about your new job.",
+"p": false,
+"note": "Inversion after 'Så': kan du. 'job' is an et-word: dit nye job."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A common sign-off between friends. 'hilsner' is plural."
+},
+{
+"da": "Omar",
+"en": "Omar",
+"p": false,
+"note": "Write your first name alone on the last line."
+}
+]
+},
+"pd3-22n-w2a": {
+"lines": [
+{
+"da": "Udenlandsk arbejdskraft i Danmark",
+"en": "Foreign labour in Denmark",
+"p": true,
+"note": "A short title with no verb. 'arbejdskraft' is an en-word, so 'udenlandsk' has no -t.",
+"words": [
+[
+"arbejdskraft",
+"labour, workforce"
+]
+]
+},
+{
+"da": "Diagrammet viser antallet af udenlandske statsborgere med lønindkomst i Danmark fra 2012 til 2020.",
+"en": "The chart shows the number of foreign citizens with wage income in Denmark from 2012 to 2020.",
+"p": true,
+"note": "Normal word order: subject, verb, object. 'antallet af' means 'the number of'.",
+"words": [
+[
+"statsborgere",
+"citizens"
+],
+[
+"lønindkomst",
+"wage income"
+]
+]
+},
+{
+"da": "I 2012 var der ca. 250.000 personer.",
+"en": "In 2012 there were about 250,000 people.",
+"p": false,
+"note": "Inversion after the time phrase 'I 2012': var der. Danish uses a full stop in large numbers."
+},
+{
+"da": "Tallet steg hvert år og nåede ca. 400.000 i 2019.",
+"en": "The figure rose every year and reached about 400,000 in 2019.",
+"p": false,
+"note": "Past tense: steg (from 'stige') and nåede (from 'nå').",
+"words": [
+[
+"steg",
+"rose"
+],
+[
+"nåede",
+"reached"
+]
+]
+},
+{
+"da": "I 2020 faldt det en lille smule.",
+"en": "In 2020 it fell slightly.",
+"p": false,
+"note": "Inversion: faldt det. 'faldt' is the past tense of 'falde'.",
+"words": [
+[
+"faldt",
+"fell"
+],
+[
+"en lille smule",
+"slightly"
+]
+]
+},
+{
+"da": "Hovedtrækket er altså en stor stigning på ca. 150.000 personer.",
+"en": "So the main feature is a big rise of about 150,000 people.",
+"p": false,
+"note": "'stigning' is an en-word, so 'stor' has no -t. 'en stigning på' means 'a rise of'.",
+"words": [
+[
+"hovedtrækket",
+"the main feature"
+],
+[
+"stigning",
+"rise"
+]
+]
+},
+{
+"da": "Der kan være flere årsager til udviklingen.",
+"en": "There can be several reasons for the development.",
+"p": true,
+"note": "'Der kan være' means 'there can be'.",
+"words": [
+[
+"udviklingen",
+"the development"
+]
+]
+},
+{
+"da": "For det første manglede danske virksomheder arbejdskraft, fordi økonomien gik godt.",
+"en": "Firstly, Danish companies lacked workers because the economy was doing well.",
+"p": false,
+"note": "Inversion after 'For det første': manglede danske virksomheder. 'gå godt' means 'go well'.",
+"words": [
+[
+"manglede",
+"lacked"
+],
+[
+"økonomien",
+"the economy"
+]
+]
+},
+{
+"da": "For det andet er det nemt for EU-borgere at arbejde i Danmark.",
+"en": "Secondly, it is easy for EU citizens to work in Denmark.",
+"p": false,
+"note": "Inversion: er det. 'det' is a formal subject for 'at arbejde'.",
+"words": [
+[
+"EU-borgere",
+"EU citizens"
+]
+]
+},
+{
+"da": "Mange kom fra lande i Østeuropa, hvor lønnen er lavere.",
+"en": "Many came from countries in Eastern Europe, where wages are lower.",
+"p": false,
+"note": "'hvor' starts a relative clause about a place. 'lavere' is the comparative of 'lav'.",
+"words": [
+[
+"lønnen",
+"the wages"
+]
+]
+},
+{
+"da": "Det lille fald i 2020 skyldes sikkert coronakrisen.",
+"en": "The small fall in 2020 is probably due to the corona crisis.",
+"p": false,
+"note": "After 'det', 'lille' keeps its form: det lille fald. 'skyldes' means 'is due to'.",
+"words": [
+[
+"fald",
+"fall, drop"
+],
+[
+"sikkert",
+"probably"
+]
+]
+},
+{
+"da": "Efter min mening vil udenlandsk arbejdskraft blive endnu vigtigere i fremtiden.",
+"en": "In my opinion, foreign labour will become even more important in the future.",
+"p": true,
+"note": "Inversion after 'Efter min mening': vil udenlandsk arbejdskraft. 'endnu vigtigere' means 'even more important'.",
+"words": [
+[
+"endnu vigtigere",
+"even more important"
+]
+]
+},
+{
+"da": "Det skyldes, at der bliver flere ældre og færre unge i Danmark.",
+"en": "That is because there will be more elderly people and fewer young people in Denmark.",
+"p": false,
+"note": "'flere' and 'færre' are comparatives used with countable nouns.",
+"words": [
+[
+"færre",
+"fewer"
+]
+]
+},
+{
+"da": "Vi får brug for flere hænder, især i ældreplejen, byggeriet og landbruget.",
+"en": "We will need more workers, especially in elderly care, construction and agriculture.",
+"p": false,
+"note": "'få brug for' means 'come to need'. 'hænder' here means 'workers'.",
+"words": [
+[
+"ældreplejen",
+"elderly care"
+],
+[
+"byggeriet",
+"construction"
+],
+[
+"landbruget",
+"agriculture"
+]
+]
+},
+{
+"da": "Udenlandske medarbejdere betaler også skat, og det hjælper velfærdssamfundet.",
+"en": "Foreign employees also pay tax, and that helps the welfare society.",
+"p": false,
+"note": "'også' comes after the verb in a main clause. 'det' refers to the whole idea before it.",
+"words": [
+[
+"skat",
+"tax"
+],
+[
+"velfærdssamfundet",
+"the welfare society"
+]
+]
+},
+{
+"da": "Desuden kommer de med nye idéer og erfaringer.",
+"en": "In addition, they bring new ideas and experience.",
+"p": false,
+"note": "Inversion after 'Desuden': kommer de. 'komme med' means 'bring'.",
+"words": [
+[
+"erfaringer",
+"experience"
+]
+]
+},
+{
+"da": "På den anden side kan der også opstå problemer.",
+"en": "On the other hand, problems can also arise.",
+"p": false,
+"note": "Inversion: kan der. 'der' is a formal subject before new information.",
+"words": [
+[
+"opstå",
+"arise"
+]
+]
+},
+{
+"da": "Nogle udlændinge taler ikke dansk og har svært ved at blive integreret.",
+"en": "Some foreigners don't speak Danish and find it hard to become integrated.",
+"p": false,
+"note": "'have svært ved at' means 'find it hard to'. 'ikke' comes after the verb.",
+"words": [
+[
+"udlændinge",
+"foreigners"
+],
+[
+"integreret",
+"integrated"
+]
+]
+},
+{
+"da": "Der er også en risiko for social dumping, hvis de får en lav løn.",
+"en": "There is also a risk of social dumping if they get low pay.",
+"p": false,
+"note": "'risiko for' means 'risk of'. The hvis-clause comes last, so there is no inversion.",
+"words": [
+[
+"social dumping",
+"unfairly low wages and conditions"
+]
+]
+},
+{
+"da": "Alt i alt tror jeg, at udenlandsk arbejdskraft er en stor fordel for Danmark.",
+"en": "All in all, I think foreign labour is a big advantage for Denmark.",
+"p": false,
+"note": "Inversion after 'Alt i alt': tror jeg. 'fordel' is an en-word: en stor fordel.",
+"words": [
+[
+"fordel",
+"advantage"
+]
+]
+},
+{
+"da": "Men det er vigtigt med gode danskkurser og ordentlige arbejdsforhold.",
+"en": "But good Danish courses and proper working conditions are important.",
+"p": false,
+"note": "'Det er vigtigt med' + noun is a common way to say that something is important.",
+"words": [
+[
+"ordentlige",
+"proper"
+],
+[
+"arbejdsforhold",
+"working conditions"
+]
+]
+}
+]
+},
+"pd3-22n-w2b": {
+"lines": [
+{
+"da": "Gode kolleger gør hverdagen lettere",
+"en": "Good colleagues make everyday life easier",
+"p": true,
+"note": "A title that is a full sentence. 'lettere' is the comparative of 'let'.",
+"words": [
+[
+"hverdagen",
+"everyday life"
+],
+[
+"lettere",
+"easier"
+]
+]
+},
+{
+"da": "Min mand arbejdede i flere år på et lager i Odense.",
+"en": "My husband worked in a warehouse in Odense for several years.",
+"p": true,
+"note": "Past tense 'arbejdede'. 'i flere år' means 'for several years'.",
+"words": [
+[
+"lager",
+"warehouse"
+]
+]
+},
+{
+"da": "Han var rigtig glad for jobbet, fordi stemningen var god.",
+"en": "He was really happy with the job because the atmosphere was good.",
+"p": false,
+"note": "In the fordi-clause the order is subject + verb: stemningen var.",
+"words": [
+[
+"stemningen",
+"the atmosphere"
+]
+]
+},
+{
+"da": "Kollegerne hjalp hinanden, og chefen lyttede til medarbejderne.",
+"en": "The colleagues helped each other, and the boss listened to the employees.",
+"p": false,
+"note": "Past tense: hjalp (from 'hjælpe') and lyttede. 'hinanden' means 'each other'.",
+"words": [
+[
+"hinanden",
+"each other"
+]
+]
+},
+{
+"da": "Om fredagen spiste de ofte morgenmad sammen.",
+"en": "On Fridays they often had breakfast together.",
+"p": false,
+"note": "Inversion after 'Om fredagen': spiste de. 'Om fredagen' means 'on Fridays' as a habit.",
+"words": [
+[
+"morgenmad",
+"breakfast"
+]
+]
+},
+{
+"da": "Han siger stadig, at det var hans bedste job.",
+"en": "He still says that it was his best job.",
+"p": false,
+"note": "'hans' is used, not 'sin', because the subject of the at-clause is 'det', not 'han'.",
+"words": [
+[
+"stadig",
+"still"
+]
+]
+},
+{
+"da": "Jeg vil gerne kommentere to af faktorerne fra listen.",
+"en": "I would like to comment on two of the factors from the list.",
+"p": true,
+"note": "'vil gerne' + infinitive means 'would like to'.",
+"words": [
+[
+"faktorerne",
+"the factors"
+]
+]
+},
+{
+"da": "For det første er ledelsesstilen meget vigtig for trivslen.",
+"en": "Firstly, the management style is very important for well-being.",
+"p": false,
+"note": "Inversion after 'For det første': er ledelsesstilen. 'vigtig' has no -t because 'ledelsesstilen' is an en-word.",
+"words": [
+[
+"ledelsesstilen",
+"the management style"
+],
+[
+"trivslen",
+"well-being"
+]
+]
+},
+{
+"da": "En leder, der giver ros og lytter, gør medarbejderne glade.",
+"en": "A manager who gives praise and listens makes the employees happy.",
+"p": false,
+"note": "The relative clause comes right after 'En leder'. 'glade' has -e because 'medarbejderne' is plural.",
+"words": [
+[
+"ros",
+"praise"
+]
+]
+},
+{
+"da": "For det andet kan sikkerhed i ansættelsen betyde meget.",
+"en": "Secondly, job security can mean a lot.",
+"p": false,
+"note": "Inversion: kan sikkerhed i ansættelsen.",
+"words": [
+[
+"sikkerhed i ansættelsen",
+"job security"
+]
+]
+},
+{
+"da": "Hvis man er bange for at miste sit job, kan man let blive stresset.",
+"en": "If you are afraid of losing your job, you can easily become stressed.",
+"p": false,
+"note": "'sit' refers to the subject 'man'. After the hvis-clause there is inversion: kan man.",
+"words": [
+[
+"miste",
+"lose"
+],
+[
+"stresset",
+"stressed"
+]
+]
+},
+{
+"da": "Efter min mening er gode kolleger vigtigst for, om man trives.",
+"en": "In my opinion, good colleagues are most important for whether you thrive.",
+"p": true,
+"note": "Inversion after 'Efter min mening': er gode kolleger. 'om' means 'whether'.",
+"words": [
+[
+"trives",
+"thrive, be happy"
+]
+]
+},
+{
+"da": "På den ene side er udfordrende opgaver selvfølgelig godt.",
+"en": "On the one hand, challenging tasks are of course good.",
+"p": false,
+"note": "Inversion: er udfordrende opgaver. 'godt' has -t because it describes the situation in general.",
+"words": [
+[
+"udfordrende",
+"challenging"
+]
+]
+},
+{
+"da": "Man lærer nye ting og føler, at man udvikler sig.",
+"en": "You learn new things and feel that you are developing.",
+"p": false,
+"note": "'udvikle sig' is reflexive. With 'man' the reflexive pronoun is 'sig'.",
+"words": [
+[
+"udvikler sig",
+"develop"
+]
+]
+},
+{
+"da": "Uden udfordringer kan arbejdet blive kedeligt.",
+"en": "Without challenges the work can become boring.",
+"p": false,
+"note": "Inversion after 'Uden udfordringer': kan arbejdet. 'kedeligt' has -t because 'arbejdet' is an et-word.",
+"words": [
+[
+"kedeligt",
+"boring"
+]
+]
+},
+{
+"da": "På den anden side bruger man mange timer sammen med sine kolleger hver dag.",
+"en": "On the other hand, you spend many hours with your colleagues every day.",
+"p": false,
+"note": "Inversion: bruger man. 'sine' refers to 'man' and is used with a plural noun.",
+"words": [
+[
+"bruger",
+"spend"
+]
+]
+},
+{
+"da": "Hvis man ikke kan lide dem, er det svært at være glad for jobbet.",
+"en": "If you don't like them, it is hard to be happy with the job.",
+"p": false,
+"note": "In the hvis-clause 'ikke' comes before the verb: man ikke kan. Then inversion: er det.",
+"words": [
+[
+"kan lide",
+"like"
+]
+]
+},
+{
+"da": "Gode kolleger hjælper, når der er travlt, og de gør hverdagen sjovere.",
+"en": "Good colleagues help when it is busy, and they make everyday life more fun.",
+"p": false,
+"note": "'sjovere' is the comparative of 'sjov'. 'der er travlt' means 'it is busy'.",
+"words": [
+[
+"sjovere",
+"more fun"
+]
+]
+},
+{
+"da": "Det skyldes, at mennesker har brug for at føle sig som en del af en gruppe.",
+"en": "That is because people need to feel part of a group.",
+"p": false,
+"note": "'have brug for at' + infinitive means 'need to'. 'føle sig' is reflexive.",
+"words": [
+[
+"en del af",
+"a part of"
+]
+]
+},
+{
+"da": "Alt i alt tror jeg, at gode kolleger betyder mest.",
+"en": "All in all, I think good colleagues matter most.",
+"p": false,
+"note": "Inversion after 'Alt i alt': tror jeg.",
+"words": [
+[
+"betyder mest",
+"matter most"
+]
+]
+},
+{
+"da": "Men det bedste er selvfølgelig at have både gode kolleger og spændende opgaver.",
+"en": "But the best thing is of course to have both good colleagues and exciting tasks.",
+"p": false,
+"note": "'det bedste' is the superlative of 'god' used as a noun. 'både … og …' means 'both … and …'.",
+"words": [
+[
+"spændende",
+"exciting"
+]
+]
+}
+]
+},
+"pd3-23m-w1": {
+"lines": [
+{
+"da": "Hej Mathias",
+"en": "Hi Mathias",
+"p": true,
+"note": "An informal greeting for a friend: 'Hej' + the first name. No comma is needed in Danish."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thank you for your e-mail.",
+"p": true,
+"note": "'Tak for' + noun is the fixed way to say thank you. 'Mail' is a common noun (en mail), so it takes 'din'."
+},
+{
+"da": "Det var også hyggeligt at mødes med dig.",
+"en": "It was also nice to meet up with you.",
+"p": false,
+"note": "'Det var' + adjective + 'at' + infinitive. 'Også' comes right after the verb in a main clause.",
+"words": [
+[
+"hyggeligt",
+"nice, cosy"
+]
+]
+},
+{
+"da": "Du spørger, hvordan det går med at finde et nyt sted at bo.",
+"en": "You ask how it is going with finding a new place to live.",
+"p": true,
+"note": "An indirect question: after 'hvordan' the order is subject + verb ('det går'). After a preposition ('med') we use 'at' + infinitive.",
+"words": [
+[
+"et sted",
+"a place"
+]
+]
+},
+{
+"da": "Det går desværre lidt langsomt.",
+"en": "Unfortunately it is going a bit slowly.",
+"p": false,
+"note": "'Desværre' (unfortunately) is an adverb and comes after the verb in a main clause.",
+"words": [
+[
+"desværre",
+"unfortunately"
+]
+]
+},
+{
+"da": "Lejlighederne er enten for dyre eller for små.",
+"en": "The flats are either too expensive or too small.",
+"p": false,
+"note": "'Enten … eller' means 'either … or'. The adjectives get -e because the subject is plural.",
+"words": [
+[
+"lejlighederne",
+"the flats"
+]
+]
+},
+{
+"da": "Du spørger også, om man skal vide barnets køn på forhånd.",
+"en": "You also ask whether you should know the baby's sex in advance.",
+"p": true,
+"note": "'Om' introduces an indirect yes/no question. 'Barnets' is the genitive (the child's) with -s.",
+"words": [
+[
+"køn",
+"sex, gender"
+],
+[
+"på forhånd",
+"in advance"
+]
+]
+},
+{
+"da": "Efter min mening er det en personlig beslutning.",
+"en": "In my opinion it is a personal decision.",
+"p": false,
+"note": "Inversion: when the sentence starts with 'Efter min mening', the verb comes before the subject ('er det').",
+"words": [
+[
+"en beslutning",
+"a decision"
+]
+]
+},
+{
+"da": "Jeg ville selv gerne vide det, fordi man så kan forberede sig bedre.",
+"en": "I would like to know myself, because then you can prepare better.",
+"p": false,
+"note": "'Ville gerne' is a polite 'would like to'. After 'fordi' the subject comes first ('man så kan').",
+"words": [
+[
+"forberede sig",
+"prepare oneself"
+]
+]
+},
+{
+"da": "På den anden side kan det også være en dejlig overraskelse.",
+"en": "On the other hand it can also be a lovely surprise.",
+"p": false,
+"note": "A fronted phrase ('På den anden side') gives inversion: verb + subject ('kan det').",
+"words": [
+[
+"en overraskelse",
+"a surprise"
+]
+]
+},
+{
+"da": "Jeres idé om at rejse sammen i forældreorloven lyder rigtig god.",
+"en": "Your idea of travelling together during parental leave sounds really good.",
+"p": true,
+"note": "'Lyder' + adjective = 'sounds …'. 'God' has no -t because 'en idé' is a common gender noun.",
+"words": [
+[
+"forældreorloven",
+"the parental leave"
+]
+]
+},
+{
+"da": "Men husk, at en lille baby har brug for ro.",
+"en": "But remember that a little baby needs peace and quiet.",
+"p": false,
+"note": "'Husk' is the imperative of 'huske'. 'Have brug for' means 'need'.",
+"words": [
+[
+"have brug for",
+"need"
+],
+[
+"ro",
+"peace, quiet"
+]
+]
+},
+{
+"da": "Måske skal I vælge et sted, der ikke er for langt væk.",
+"en": "Maybe you should choose a place that is not too far away.",
+"p": false,
+"note": "'Måske' first gives inversion ('skal I'). In the relative clause 'ikke' comes before the verb ('der ikke er').",
+"words": [
+[
+"vælge",
+"choose"
+]
+]
+},
+{
+"da": "Tak for invitationen til sommerhuset.",
+"en": "Thank you for the invitation to the summer house.",
+"p": true,
+"note": "Definite nouns get an ending: 'invitationen' (en) and 'sommerhuset' (et).",
+"words": [
+[
+"invitationen",
+"the invitation"
+]
+]
+},
+{
+"da": "Jeg vil meget gerne med, hvis jeg kan få fri fra arbejde.",
+"en": "I would very much like to come, if I can get time off work.",
+"p": false,
+"note": "'Vil gerne med' means 'want to come along'; the verb 'komme' is left out. 'Få fri' means 'get time off'.",
+"words": [
+[
+"få fri",
+"get time off"
+]
+]
+},
+{
+"da": "Skal vi ikke mødes snart og tale om sommerferien?",
+"en": "Shouldn't we meet soon and talk about the summer holiday?",
+"p": true,
+"note": "A polite suggestion as a question: verb first ('Skal vi'), then 'ikke'. 'Skal vi ikke …?' means 'shouldn't we …?'.",
+"words": [
+[
+"mødes",
+"meet (each other)"
+]
+]
+},
+{
+"da": "Jeg kan foreslå en kop kaffe hos mig næste weekend.",
+"en": "I can suggest a cup of coffee at my place next weekend.",
+"p": false,
+"note": "Modal verb 'kan' + infinitive 'foreslå'. 'Hos mig' means 'at my place'.",
+"words": [
+[
+"foreslå",
+"suggest"
+]
+]
+},
+{
+"da": "Skriv, hvornår det passer dig.",
+"en": "Write when it suits you.",
+"p": false,
+"note": "'Skriv' is the imperative. After 'hvornår' the order is subject + verb ('det passer').",
+"words": [
+[
+"passe",
+"suit, be convenient"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes,",
+"p": true,
+"note": "A friendly closing. 'Hilsner' is the plural of 'hilsen', so 'mange' (many) goes before it."
+},
+{
+"da": "Kim",
+"en": "Kim",
+"p": false,
+"note": "Write your first name on its own line under the closing. In an e-mail to a friend the first name is enough."
+}
+]
+},
+"pd3-23m-w2a": {
+"lines": [
+{
+"da": "Mere sikkerhed i trafikken",
+"en": "More safety in traffic",
+"p": true,
+"note": "A short title for the text. 'Mere' (more) is used with an uncountable noun like 'sikkerhed'.",
+"words": [
+[
+"sikkerhed",
+"safety"
+]
+]
+},
+{
+"da": "Diagrammet viser dræbte og tilskadekomne i trafikken fordelt på alder.",
+"en": "The diagram shows people killed and injured in traffic by age.",
+"p": true,
+"note": "A useful opening: 'Diagrammet viser …'. 'Fordelt på' means 'divided by'.",
+"words": [
+[
+"dræbte",
+"killed (people)"
+],
+[
+"tilskadekomne",
+"injured (people)"
+],
+[
+"fordelt på",
+"divided by"
+]
+]
+},
+{
+"da": "Det sammenligner hver aldersgruppe med dens andel af befolkningen.",
+"en": "It compares each age group with its share of the population.",
+"p": false,
+"note": "'Dens' (its) is used, not 'sin', because it refers to 'aldersgruppe', the object, not the subject.",
+"words": [
+[
+"en andel",
+"a share"
+],
+[
+"befolkningen",
+"the population"
+]
+]
+},
+{
+"da": "Den største forskel ses hos de 18-24-årige.",
+"en": "The biggest difference is seen among the 18-24-year-olds.",
+"p": false,
+"note": "'Ses' is a passive form with -s. 'Største' is the superlative with -e after 'den'.",
+"words": [
+[
+"en forskel",
+"a difference"
+]
+]
+},
+{
+"da": "De udgør kun ca. 9 % af befolkningen, men ca. 17 % af ofrene.",
+"en": "They make up only approx. 9 % of the population, but approx. 17 % of the victims.",
+"p": false,
+"note": "'Udgøre' means 'make up'. 'Ofrene' is the definite plural of 'et offer' (a victim).",
+"words": [
+[
+"udgøre",
+"make up"
+],
+[
+"ofrene",
+"the victims"
+]
+]
+},
+{
+"da": "Børn under 15 år og ældre over 65 år er derimod sjældnere involveret i ulykker.",
+"en": "Children under 15 and older people over 65, on the other hand, are less often involved in accidents.",
+"p": false,
+"note": "'Derimod' (on the other hand) comes after the verb. 'Sjældnere' is the comparative of 'sjældent'.",
+"words": [
+[
+"derimod",
+"on the other hand"
+],
+[
+"sjældnere",
+"less often"
+],
+[
+"en ulykke",
+"an accident"
+]
+]
+},
+{
+"da": "Det skyldes sikkert, at mange unge lige har fået kørekort.",
+"en": "This is probably because many young people have just got their driving licence.",
+"p": true,
+"note": "'Det skyldes, at …' means 'this is because …'. 'Lige har fået' = 'have just got' (perfect tense).",
+"words": [
+[
+"skyldes",
+"be due to"
+],
+[
+"et kørekort",
+"a driving licence"
+]
+]
+},
+{
+"da": "De har ikke så meget erfaring og kører ofte for stærkt.",
+"en": "They do not have much experience and often drive too fast.",
+"p": false,
+"note": "In a main clause 'ikke' and 'ofte' come after the verb. 'For stærkt' means 'too fast'.",
+"words": [
+[
+"erfaring",
+"experience"
+]
+]
+},
+{
+"da": "Nogle unge kører også med mobilen i hånden eller efter en fest.",
+"en": "Some young people also drive with their phone in their hand or after a party.",
+"p": false,
+"note": "'Også' comes right after the verb 'kører'. 'Unge' is an adjective used as a noun: young people."
+},
+{
+"da": "Børn bliver derimod ofte kørt af deres forældre, og de kører ikke selv bil.",
+"en": "Children, on the other hand, are often driven by their parents, and they do not drive a car themselves.",
+"p": false,
+"note": "'Bliver kørt' is the passive with 'blive' + past participle. 'Køre bil' means 'drive a car'."
+},
+{
+"da": "Efter min mening kan staten og kommunerne gøre meget for at reducere tallene.",
+"en": "In my opinion the state and the municipalities can do a lot to reduce the numbers.",
+"p": true,
+"note": "Inversion after 'Efter min mening': verb ('kan') before subject. 'For at' + infinitive expresses purpose.",
+"words": [
+[
+"kommunerne",
+"the municipalities"
+],
+[
+"reducere",
+"reduce"
+]
+]
+},
+{
+"da": "For det første bør staten lave flere kampagner rettet mod unge bilister.",
+"en": "Firstly, the state should run more campaigns aimed at young drivers.",
+"p": false,
+"note": "'For det første' gives inversion ('bør staten'). 'Bør' means 'should'.",
+"words": [
+[
+"en kampagne",
+"a campaign"
+],
+[
+"rettet mod",
+"aimed at"
+],
+[
+"en bilist",
+"a driver"
+]
+]
+},
+{
+"da": "Kampagnerne kan handle om fart, alkohol og mobiltelefoner.",
+"en": "The campaigns can be about speed, alcohol and mobile phones.",
+"p": false,
+"note": "'Handle om' means 'be about'. 'Kampagnerne' is the definite plural.",
+"words": [
+[
+"fart",
+"speed"
+]
+]
+},
+{
+"da": "For det andet kan kommunerne gøre vejene mere sikre.",
+"en": "Secondly, the municipalities can make the roads safer.",
+"p": false,
+"note": "'Gøre' + object + adjective = 'make something …'. 'Sikre' takes -e because 'vejene' is plural."
+},
+{
+"da": "De kan for eksempel bygge flere cykelstier og sænke farten i byerne.",
+"en": "For example, they can build more cycle paths and lower the speed in the towns.",
+"p": false,
+"note": "Two infinitives after one modal verb: 'kan bygge … og sænke …'.",
+"words": [
+[
+"en cykelsti",
+"a cycle path"
+],
+[
+"sænke",
+"lower"
+]
+]
+},
+{
+"da": "Det skyldes, at mange ulykker sker, hvor biler og cykler mødes.",
+"en": "This is because many accidents happen where cars and bikes meet.",
+"p": false,
+"note": "Subordinate clauses after 'at' and 'hvor' have subject before verb ('ulykker sker', 'biler og cykler mødes')."
+},
+{
+"da": "Desuden kan staten sætte flere fartkameraer op.",
+"en": "In addition, the state can put up more speed cameras.",
+"p": false,
+"note": "'Desuden' first gives inversion ('kan staten'). 'Sætte … op' is a verb with a particle that goes after the object.",
+"words": [
+[
+"desuden",
+"in addition"
+],
+[
+"et fartkamera",
+"a speed camera"
+]
+]
+},
+{
+"da": "På den ene side kan det virke irriterende for bilisterne.",
+"en": "On the one hand it can seem annoying for drivers.",
+"p": false,
+"note": "'På den ene side' gives inversion ('kan det'). 'Virke' + adjective means 'seem'.",
+"words": [
+[
+"irriterende",
+"annoying"
+]
+]
+},
+{
+"da": "På den anden side redder det liv.",
+"en": "On the other hand it saves lives.",
+"p": false,
+"note": "Inversion again: verb 'redder' before subject 'det'. 'Liv' is the same in singular and plural.",
+"words": [
+[
+"redde",
+"save"
+]
+]
+},
+{
+"da": "Alt i alt tror jeg, at oplysning og sikre veje er den bedste løsning.",
+"en": "All in all, I think that information and safe roads are the best solution.",
+"p": false,
+"note": "'Alt i alt' (all in all) gives inversion ('tror jeg'). 'Den bedste' is the superlative with -e.",
+"words": [
+[
+"oplysning",
+"information"
+],
+[
+"en løsning",
+"a solution"
+]
+]
+}
+]
+},
+"pd3-23m-w2b": {
+"lines": [
+{
+"da": "Sundhed på arbejdspladsen",
+"en": "Health at the workplace",
+"p": true,
+"note": "A short title. 'Arbejdspladsen' is definite (en arbejdsplads → arbejdspladsen).",
+"words": [
+[
+"sundhed",
+"health"
+]
+]
+},
+{
+"da": "På min arbejdsplads har vi flere sundhedstilbud.",
+"en": "At my workplace we have several health offers.",
+"p": true,
+"note": "A fronted place phrase gives inversion: 'har vi', not 'vi har'.",
+"words": [
+[
+"et sundhedstilbud",
+"a health offer"
+]
+]
+},
+{
+"da": "Der står altid frugt i kantinen, som vi kan spise gratis.",
+"en": "There is always fruit in the canteen which we can eat for free.",
+"p": false,
+"note": "'Der står' is used for things placed somewhere. 'Som' starts a relative clause.",
+"words": [
+[
+"kantinen",
+"the canteen"
+]
+]
+},
+{
+"da": "Hvert år kommer en sygeplejerske og laver et sundhedstjek.",
+"en": "Every year a nurse comes and does a health check.",
+"p": false,
+"note": "'Hvert år' first gives inversion ('kommer en sygeplejerske'). 'Hvert' is used because 'år' is an et-word.",
+"words": [
+[
+"en sygeplejerske",
+"a nurse"
+]
+]
+},
+{
+"da": "Desuden giver firmaet tilskud til et fitnesscenter.",
+"en": "In addition, the company gives a subsidy for a gym.",
+"p": false,
+"note": "'Desuden' gives inversion ('giver firmaet'). 'Tilskud til' means 'subsidy for'.",
+"words": [
+[
+"et tilskud",
+"a subsidy, grant"
+]
+]
+},
+{
+"da": "Mange af mine kolleger er rigtig glade for tilbuddene.",
+"en": "Many of my colleagues are really happy with the offers.",
+"p": false,
+"note": "'Glade' has -e because the subject is plural. 'Være glad for' means 'be happy with'."
+},
+{
+"da": "Jeg synes, at pauser med gymnastik i arbejdstiden er en god idé.",
+"en": "I think that breaks with exercises during working hours are a good idea.",
+"p": true,
+"note": "'Jeg synes, at …' gives your opinion. In the 'at' clause the subject comes before the verb.",
+"words": [
+[
+"arbejdstiden",
+"working hours"
+]
+]
+},
+{
+"da": "Mange sidder stille hele dagen, og så er det sundt at bevæge sig lidt.",
+"en": "Many people sit still all day, and then it is healthy to move a little.",
+"p": false,
+"note": "After 'så' the verb comes before the subject ('er det'). 'Bevæge sig' is a reflexive verb.",
+"words": [
+[
+"bevæge sig",
+"move, exercise"
+]
+]
+},
+{
+"da": "De kan også hjælpe ansatte, der har ondt i ryggen.",
+"en": "They can also help employees who have back pain.",
+"p": false,
+"note": "'Der' is the relative pronoun when it is the subject of the clause. 'Have ondt i' = 'have a pain in'.",
+"words": [
+[
+"ansatte",
+"employees"
+]
+]
+},
+{
+"da": "Kurser i rygestop er også gode, fordi det er svært at stoppe alene.",
+"en": "Courses in quitting smoking are also good, because it is hard to stop alone.",
+"p": false,
+"note": "'Gode' takes -e because 'kurser' is plural. After 'fordi': subject + verb ('det er').",
+"words": [
+[
+"et rygestop",
+"quitting smoking"
+]
+]
+},
+{
+"da": "Der er både fordele og ulemper ved, at en arbejdsplads blander sig i medarbejdernes livsstil.",
+"en": "There are both advantages and disadvantages in a workplace getting involved in its employees' lifestyle.",
+"p": true,
+"note": "'Både … og' means 'both … and'. 'Fordele og ulemper ved' = 'pros and cons of'.",
+"words": [
+[
+"en fordel",
+"an advantage"
+],
+[
+"en ulempe",
+"a disadvantage"
+],
+[
+"blande sig i",
+"interfere in"
+]
+]
+},
+{
+"da": "På den ene side får arbejdspladsen sundere og gladere medarbejdere.",
+"en": "On the one hand the workplace gets healthier and happier employees.",
+"p": false,
+"note": "Inversion after 'På den ene side'. 'Sundere' and 'gladere' are comparatives with -ere."
+},
+{
+"da": "Det betyder færre sygedage, og det sparer firmaet penge.",
+"en": "This means fewer sick days, and it saves the company money.",
+"p": false,
+"note": "'Færre' (fewer) is used with countable nouns. 'Spare' can take two objects: 'firmaet' and 'penge'.",
+"words": [
+[
+"en sygedag",
+"a sick day"
+]
+]
+},
+{
+"da": "Desuden kan aktiviteterne skabe et godt fællesskab mellem kollegerne.",
+"en": "In addition, the activities can create a good community between colleagues.",
+"p": false,
+"note": "'Godt' has -t because 'fællesskab' is an et-word.",
+"words": [
+[
+"skabe",
+"create"
+],
+[
+"et fællesskab",
+"a community"
+]
+]
+},
+{
+"da": "For mange er det også lettere at motionere, når det sker i arbejdstiden.",
+"en": "For many people it is also easier to exercise when it happens during working hours.",
+"p": false,
+"note": "'For mange' first gives inversion ('er det'). After 'når' the subject comes first.",
+"words": [
+[
+"motionere",
+"exercise"
+]
+]
+},
+{
+"da": "På den anden side er livsstil en privat sag.",
+"en": "On the other hand lifestyle is a private matter.",
+"p": false,
+"note": "Inversion: 'er livsstil'. 'En sag' here means 'a matter'.",
+"words": [
+[
+"en sag",
+"a matter"
+]
+]
+},
+{
+"da": "Nogle medarbejdere kan føle sig presset til at deltage.",
+"en": "Some employees may feel pressured to take part.",
+"p": false,
+"note": "'Føle sig' is reflexive. 'Presset til at' + infinitive = 'pressured to'.",
+"words": [
+[
+"presset",
+"pressured"
+],
+[
+"deltage",
+"take part"
+]
+]
+},
+{
+"da": "Det er heller ikke rart, hvis chefen ved for meget om ens helbred.",
+"en": "Nor is it nice if the boss knows too much about your health.",
+"p": false,
+"note": "'Heller ikke' means 'not … either'. 'Ens' is the possessive of 'man' (one's).",
+"words": [
+[
+"helbred",
+"health"
+]
+]
+},
+{
+"da": "Derfor er det vigtigt, at alle tilbud er frivillige.",
+"en": "That is why it is important that all offers are voluntary.",
+"p": false,
+"note": "'Derfor' gives inversion ('er det'). 'Frivillige' takes -e because 'tilbud' is plural here.",
+"words": [
+[
+"frivillig",
+"voluntary"
+]
+]
+},
+{
+"da": "Alt i alt synes jeg, at sundhedstilbud er en god idé, hvis ingen bliver tvunget.",
+"en": "All in all, I think health offers are a good idea if nobody is forced.",
+"p": false,
+"note": "'Alt i alt' gives inversion ('synes jeg'). 'Bliver tvunget' is the passive with 'blive'.",
+"words": [
+[
+"tvinge",
+"force"
+]
+]
+}
+]
+},
+"pd3-23n-w1": {
+"lines": [
+{
+"da": "Kære Hanne",
+"en": "Dear Hanne",
+"p": true,
+"note": "A standard greeting: 'Kære' (dear) + the first name. It works for both friends and more formal letters."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thank you for your e-mail.",
+"p": true,
+"note": "'Tak for' + noun is the fixed way to say thank you."
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + adjective + 'at' + infinitive. 'Dejligt' has -t because it refers to 'det'.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Du spørger, hvordan vores nye køkken er blevet.",
+"en": "You ask how our new kitchen has turned out.",
+"p": true,
+"note": "Indirect question: after 'hvordan' the subject comes before the verb. 'Nye' has -e after 'vores'.",
+"words": [
+[
+"et køkken",
+"a kitchen"
+]
+]
+},
+{
+"da": "Det er blevet rigtig flot, og vi er meget glade for det.",
+"en": "It has turned out really nice, and we are very happy with it.",
+"p": false,
+"note": "'Er blevet' is the perfect tense of 'blive'. 'Glade' has -e because 'vi' is plural.",
+"words": [
+[
+"flot",
+"nice, beautiful"
+]
+]
+},
+{
+"da": "Nu laver vi meget mere mad sammen.",
+"en": "Now we cook much more together.",
+"p": false,
+"note": "'Nu' first gives inversion ('laver vi'). 'Lave mad' means 'cook'."
+},
+{
+"da": "Du spørger også, om Mathias burde betale husleje.",
+"en": "You also ask whether Mathias ought to pay rent.",
+"p": true,
+"note": "'Om' starts an indirect yes/no question. 'Burde' is the past form of 'bør' and is a soft 'ought to'.",
+"words": [
+[
+"husleje",
+"rent"
+]
+]
+},
+{
+"da": "Efter min mening er det en god idé, at han betaler et lille beløb.",
+"en": "In my opinion it is a good idea that he pays a small amount.",
+"p": false,
+"note": "Inversion after 'Efter min mening'. 'Et lille beløb': 'lille' does not change after 'et'.",
+"words": [
+[
+"et beløb",
+"an amount"
+]
+]
+},
+{
+"da": "Så lærer han at tage ansvar for sine penge.",
+"en": "Then he learns to take responsibility for his money.",
+"p": false,
+"note": "'Så' first gives inversion. 'Sine' (not 'hans') because the money belongs to the subject 'han'.",
+"words": [
+[
+"ansvar",
+"responsibility"
+]
+]
+},
+{
+"da": "Men det må ikke være for meget, fordi han stadig er under uddannelse.",
+"en": "But it must not be too much, because he is still in training.",
+"p": false,
+"note": "In the 'fordi' clause 'stadig' comes before the verb ('han stadig er'). 'Må ikke' means 'must not'.",
+"words": [
+[
+"under uddannelse",
+"in education"
+]
+]
+},
+{
+"da": "Jeg synes ikke, det er en dårlig idé, at du giver ham dit råd.",
+"en": "I don't think it is a bad idea that you give him your advice.",
+"p": true,
+"note": "In Danish we say 'Jeg synes ikke, …' (I don't think …). 'Et råd' is an et-word, so 'dit'.",
+"words": [
+[
+"et råd",
+"a piece of advice"
+]
+]
+},
+{
+"da": "Men det er vigtigt, at han selv bestemmer.",
+"en": "But it is important that he decides himself.",
+"p": false,
+"note": "In the 'at' clause the adverb 'selv' comes before the verb ('han selv bestemmer').",
+"words": [
+[
+"bestemme",
+"decide"
+]
+]
+},
+{
+"da": "Han skal jo være glad for sit arbejde.",
+"en": "After all, he has to be happy with his work.",
+"p": false,
+"note": "'Jo' (after all) is a small word after the verb. 'Sit' refers back to the subject 'han'."
+},
+{
+"da": "Jeg synes, I skal invitere hans kæreste med til Italien.",
+"en": "I think you should invite his girlfriend along to Italy.",
+"p": true,
+"note": "'Hans' (not 'sin') because the subject is 'I', not Mathias. 'Invitere … med' = 'invite along'.",
+"words": [
+[
+"en kæreste",
+"a girlfriend/boyfriend"
+]
+]
+},
+{
+"da": "Et halvt år er jo lang tid.",
+"en": "Half a year is a long time, after all.",
+"p": false,
+"note": "'Et halvt år': the adjective gets -t after 'et'. 'Lang tid' means 'a long time'."
+},
+{
+"da": "Så kan I lære hende bedre at kende.",
+"en": "Then you can get to know her better.",
+"p": false,
+"note": "'Lære … at kende' means 'get to know'. The object 'hende' goes between the two parts.",
+"words": [
+[
+"lære at kende",
+"get to know"
+]
+]
+},
+{
+"da": "Skal vi ikke mødes snart og tale om sommerferien?",
+"en": "Shouldn't we meet soon and talk about the summer holiday?",
+"p": true,
+"note": "A polite suggestion as a question: verb first ('Skal vi'), then 'ikke'. 'Skal vi ikke …?' means 'shouldn't we …?'.",
+"words": [
+[
+"mødes",
+"meet (each other)"
+]
+]
+},
+{
+"da": "Jeg kan komme forbi en dag i næste uge.",
+"en": "I can drop by one day next week.",
+"p": false,
+"note": "'Komme forbi' means 'drop by'. 'I næste uge' means 'next week'.",
+"words": [
+[
+"komme forbi",
+"drop by"
+]
+]
+},
+{
+"da": "Skriv, hvornår det passer dig.",
+"en": "Write when it suits you.",
+"p": false,
+"note": "'Skriv' is the imperative. After 'hvornår' the order is subject + verb ('det passer').",
+"words": [
+[
+"passe",
+"suit, be convenient"
+]
+]
+},
+{
+"da": "Kærlig hilsen",
+"en": "Love,",
+"p": true,
+"note": "A warm, informal closing for friends. 'Kærlig' (loving) is an adjective before the noun 'hilsen' (greeting)."
+},
+{
+"da": "Kim",
+"en": "Kim",
+"p": false,
+"note": "Write your first name on its own line under the closing. In an e-mail to a friend the first name is enough."
+}
+]
+},
+"pd3-23n-w2a": {
+"lines": [
+{
+"da": "Mænd og kvinder vælger forskelligt",
+"en": "Men and women choose differently",
+"p": true,
+"note": "A short title. 'Forskelligt' is an adverb here (differently), so it ends in -t."
+},
+{
+"da": "Diagrammet viser, hvilke erhvervsuddannelser mænd og kvinder valgte i 2021.",
+"en": "The diagram shows which vocational courses men and women chose in 2021.",
+"p": true,
+"note": "Indirect question with 'hvilke': subject + verb ('mænd og kvinder valgte'). Past tense for a past year.",
+"words": [
+[
+"en erhvervsuddannelse",
+"a vocational education"
+]
+]
+},
+{
+"da": "Der blev optaget mere end dobbelt så mange mænd som kvinder.",
+"en": "More than twice as many men as women were admitted.",
+"p": false,
+"note": "'Der blev optaget' is a passive with 'der'. 'Dobbelt så mange … som' = 'twice as many … as'.",
+"words": [
+[
+"optage",
+"admit"
+]
+]
+},
+{
+"da": "Ca. 76 % af mændene valgte teknologi, byggeri og transport.",
+"en": "Approx. 76 % of the men chose technology, construction and transport.",
+"p": false,
+"note": "'Ca.' (about) is used before numbers. 'Mændene' is the definite plural of 'mand'.",
+"words": [
+[
+"byggeri",
+"construction"
+]
+]
+},
+{
+"da": "Kun ca. 13 % af kvinderne valgte det samme område.",
+"en": "Only approx. 13 % of the women chose the same area.",
+"p": false,
+"note": "'Det samme' + noun without an ending: 'det samme område'.",
+"words": [
+[
+"et område",
+"an area, field"
+]
+]
+},
+{
+"da": "Til gengæld valgte ca. 44 % af kvinderne omsorg, sundhed og pædagogik.",
+"en": "On the other hand, approx. 44 % of the women chose care, health and pedagogy.",
+"p": false,
+"note": "'Til gengæld' (on the other hand) first gives inversion: 'valgte ca. 44 %'.",
+"words": [
+[
+"til gengæld",
+"on the other hand"
+],
+[
+"omsorg",
+"care"
+]
+]
+},
+{
+"da": "Her var der kun ca. 3 % af mændene.",
+"en": "Here there were only approx. 3 % of the men.",
+"p": false,
+"note": "'Her' first gives inversion ('var der')."
+},
+{
+"da": "Der kan være flere årsager til forskellene.",
+"en": "There can be several reasons for the differences.",
+"p": true,
+"note": "'Der kan være' = 'there can be'. 'Årsager til' = 'reasons for'.",
+"words": [
+[
+"en årsag",
+"a reason"
+]
+]
+},
+{
+"da": "For det første har mange stadig faste idéer om typiske mande- og kvindejob.",
+"en": "Firstly, many people still have fixed ideas about typical men's and women's jobs.",
+"p": false,
+"note": "Inversion after 'For det første'. 'Mande- og kvindejob': the hyphen shares '-job'.",
+"words": [
+[
+"faste",
+"fixed"
+]
+]
+},
+{
+"da": "For det andet ser unge ofte på, hvad deres forældre og venner laver.",
+"en": "Secondly, young people often look at what their parents and friends do.",
+"p": false,
+"note": "Inversion: 'ser unge'. 'Deres' (not 'sine') because 'forældre og venner' is the subject of the 'hvad' clause."
+},
+{
+"da": "Desuden er der få rollemodeller, for eksempel kvindelige elektrikere eller mandlige pædagoger.",
+"en": "In addition, there are few role models, for example female electricians or male teachers.",
+"p": false,
+"note": "'Desuden' gives inversion ('er der'). The adjectives get -e before plural nouns.",
+"words": [
+[
+"en rollemodel",
+"a role model"
+],
+[
+"kvindelig",
+"female"
+],
+[
+"mandlig",
+"male"
+]
+]
+},
+{
+"da": "Efter min mening er den skæve kønsfordeling et problem for samfundet.",
+"en": "In my opinion the uneven gender distribution is a problem for society.",
+"p": true,
+"note": "Inversion after 'Efter min mening'. 'Den skæve': the adjective gets -e after 'den'.",
+"words": [
+[
+"skæv",
+"uneven"
+],
+[
+"kønsfordeling",
+"gender distribution"
+]
+]
+},
+{
+"da": "Det skyldes, at Danmark mangler arbejdskraft på mange områder.",
+"en": "This is because Denmark lacks labour in many areas.",
+"p": false,
+"note": "'Det skyldes, at …' gives a reason. In the 'at' clause: subject + verb ('Danmark mangler').",
+"words": [
+[
+"mangle",
+"lack"
+],
+[
+"arbejdskraft",
+"labour"
+]
+]
+},
+{
+"da": "Vi mangler for eksempel både håndværkere og social- og sundhedsassistenter.",
+"en": "For example, we lack both craftsmen and social and health care assistants.",
+"p": false,
+"note": "'For eksempel' goes after the verb in a main clause. 'Både … og' = 'both … and'.",
+"words": [
+[
+"en håndværker",
+"a craftsman"
+]
+]
+},
+{
+"da": "Hvis halvdelen af befolkningen ikke søger de job, bliver manglen større.",
+"en": "If half the population does not apply for those jobs, the shortage gets bigger.",
+"p": false,
+"note": "In the 'hvis' clause 'ikke' comes before the verb. The main clause after it starts with the verb ('bliver').",
+"words": [
+[
+"halvdelen",
+"half"
+],
+[
+"manglen",
+"the shortage"
+]
+]
+},
+{
+"da": "På den ene side er det godt, at folk vælger det, de interesserer sig for.",
+"en": "On the one hand it is good that people choose what they are interested in.",
+"p": false,
+"note": "Inversion: 'er det'. 'Interessere sig for' is reflexive with a preposition at the end."
+},
+{
+"da": "Ingen skal tvinges til en bestemt uddannelse.",
+"en": "Nobody should be forced into a particular education.",
+"p": false,
+"note": "'Tvinges' is the passive -s form after the modal 'skal'.",
+"words": [
+[
+"tvinges",
+"be forced"
+],
+[
+"bestemt",
+"particular"
+]
+]
+},
+{
+"da": "På den anden side mister vi mange talenter, hvis køn styrer valget.",
+"en": "On the other hand we lose many talents if gender controls the choice.",
+"p": false,
+"note": "Inversion: 'mister vi'. 'Valget' is the definite form of 'et valg'.",
+"words": [
+[
+"miste",
+"lose"
+],
+[
+"styre",
+"control"
+]
+]
+},
+{
+"da": "Blandede arbejdspladser har desuden ofte et bedre arbejdsmiljø.",
+"en": "Mixed workplaces also often have a better working environment.",
+"p": false,
+"note": "'Blandede' has -e before a plural noun. 'Desuden' and 'ofte' go after the verb.",
+"words": [
+[
+"blandet",
+"mixed"
+],
+[
+"et arbejdsmiljø",
+"a working environment"
+]
+]
+},
+{
+"da": "Derfor bør skolerne vise unge alle muligheder, uanset om de er drenge eller piger.",
+"en": "That is why schools should show young people all the options, whether they are boys or girls.",
+"p": false,
+"note": "'Derfor' gives inversion ('bør skolerne'). 'Uanset om' means 'regardless of whether'.",
+"words": [
+[
+"en mulighed",
+"an option"
+],
+[
+"uanset om",
+"regardless of whether"
+]
+]
+},
+{
+"da": "Alt i alt mener jeg, at vi skal arbejde for en mere lige fordeling.",
+"en": "All in all, I believe we should work for a more equal distribution.",
+"p": false,
+"note": "'Alt i alt' gives inversion ('mener jeg'). 'Mere lige' = 'more equal'.",
+"words": [
+[
+"lige",
+"equal"
+]
+]
+}
+]
+},
+"pd3-23n-w2b": {
+"lines": [
+{
+"da": "Kørselsfradrag – fordele og ulemper",
+"en": "Commuting allowance – pros and cons",
+"p": true,
+"note": "A short title. 'Fordele og ulemper' is a fixed pair meaning 'pros and cons'.",
+"words": [
+[
+"et kørselsfradrag",
+"a commuting tax allowance"
+]
+]
+},
+{
+"da": "Jeg bor ca. 30 km fra mit arbejde, og jeg tager toget hver dag.",
+"en": "I live approx. 30 km from my work, and I take the train every day.",
+"p": true,
+"note": "Two main clauses joined by 'og', both with subject + verb. 'Tage toget' = 'take the train'."
+},
+{
+"da": "Tidligere kørte jeg i bil, men det var dyrt og stressende.",
+"en": "Before, I drove, but it was expensive and stressful.",
+"p": false,
+"note": "'Tidligere' first gives inversion ('kørte jeg'). Past tense for something that has stopped.",
+"words": [
+[
+"stressende",
+"stressful"
+]
+]
+},
+{
+"da": "Toget er hurtigere end bilen i myldretiden, og jeg kan læse undervejs.",
+"en": "The train is faster than the car in the rush hour, and I can read on the way.",
+"p": false,
+"note": "Comparative 'hurtigere end' = 'faster than'. 'Undervejs' means 'on the way'.",
+"words": [
+[
+"myldretiden",
+"the rush hour"
+],
+[
+"undervejs",
+"on the way"
+]
+]
+},
+{
+"da": "Nogle gange cykler jeg til stationen for at få lidt motion.",
+"en": "Sometimes I cycle to the station to get a bit of exercise.",
+"p": false,
+"note": "'Nogle gange' first gives inversion ('cykler jeg'). 'For at' + infinitive shows purpose.",
+"words": [
+[
+"motion",
+"exercise"
+]
+]
+},
+{
+"da": "For mig er det vigtigt, at transporten er hurtig.",
+"en": "For me it is important that the transport is fast.",
+"p": true,
+"note": "'For mig' first gives inversion ('er det'). 'Hurtig' has no ending because 'transporten' is an en-word."
+},
+{
+"da": "Jeg vil hellere bruge min tid sammen med min familie end i kø.",
+"en": "I would rather spend my time with my family than in a queue.",
+"p": false,
+"note": "'Hellere … end' means 'rather … than'. 'Bruge tid' = 'spend time'.",
+"words": [
+[
+"en kø",
+"a queue, traffic jam"
+]
+]
+},
+{
+"da": "Jeg synes også, at det er vigtigt, at transporten er miljøvenlig.",
+"en": "I also think it is important that the transport is environmentally friendly.",
+"p": false,
+"note": "'Også' goes after the verb 'synes' in the main clause.",
+"words": [
+[
+"miljøvenlig",
+"environmentally friendly"
+]
+]
+},
+{
+"da": "Derfor vælger jeg toget frem for bilen.",
+"en": "That is why I choose the train rather than the car.",
+"p": false,
+"note": "'Derfor' gives inversion ('vælger jeg'). 'Frem for' means 'rather than'.",
+"words": [
+[
+"frem for",
+"rather than"
+]
+]
+},
+{
+"da": "Kørselsfradraget har både fordele og ulemper for samfundet.",
+"en": "The commuting allowance has both advantages and disadvantages for society.",
+"p": true,
+"note": "'Både … og' = 'both … and'. 'Samfundet' (society) is usually used in the definite form."
+},
+{
+"da": "På den ene side gør fradraget det lettere at tage et job langt væk.",
+"en": "On the one hand the allowance makes it easier to take a job far away.",
+"p": false,
+"note": "Inversion: 'gør fradraget'. 'Gøre det lettere at' = 'make it easier to'.",
+"words": [
+[
+"et fradrag",
+"a deduction"
+]
+]
+},
+{
+"da": "Det betyder, at virksomhederne kan finde medarbejdere i et større område.",
+"en": "This means that companies can find employees in a larger area.",
+"p": false,
+"note": "'Det betyder, at …' explains a result. 'Større' is the comparative of 'stor'.",
+"words": [
+[
+"en virksomhed",
+"a company"
+]
+]
+},
+{
+"da": "Folk behøver heller ikke at flytte, hvis de får nyt arbejde.",
+"en": "People also do not need to move if they get a new job.",
+"p": false,
+"note": "'Heller ikke' = 'not … either'. 'Nyt' has -t because 'arbejde' is an et-word.",
+"words": [
+[
+"behøve",
+"need"
+]
+]
+},
+{
+"da": "Det er især vigtigt for folk, der bor på landet.",
+"en": "It is especially important for people who live in the countryside.",
+"p": false,
+"note": "'Der' is the relative pronoun when it is the subject. 'På landet' = 'in the countryside'.",
+"words": [
+[
+"især",
+"especially"
+]
+]
+},
+{
+"da": "Her er der ofte langt til arbejdspladserne og kun få busser.",
+"en": "Here it is often far to the workplaces and there are only few buses.",
+"p": false,
+"note": "'Her' first gives inversion ('er der'). 'Få' means 'few'."
+},
+{
+"da": "På den anden side koster fradraget staten mange penge.",
+"en": "On the other hand the allowance costs the state a lot of money.",
+"p": false,
+"note": "Inversion: 'koster fradraget'. 'Koste' can take two objects: 'staten' and 'mange penge'."
+},
+{
+"da": "Desuden kan det få flere til at køre i bil, og det skader miljøet.",
+"en": "In addition, it can make more people drive, and that harms the environment.",
+"p": false,
+"note": "'Få nogen til at' + infinitive = 'make someone do'. 'Desuden' gives inversion ('kan det').",
+"words": [
+[
+"skade",
+"harm"
+]
+]
+},
+{
+"da": "Det giver også mere trafik og flere køer omkring de store byer.",
+"en": "It also gives more traffic and more queues around the big cities.",
+"p": false,
+"note": "'Mere' with uncountable nouns (trafik), 'flere' with countable nouns (køer)."
+},
+{
+"da": "Alt i alt synes jeg, at fradraget er nødvendigt, især for folk på landet.",
+"en": "All in all, I think the allowance is necessary, especially for people in the countryside.",
+"p": false,
+"note": "'Alt i alt' gives inversion. 'Nødvendigt' has -t because 'fradraget' is an et-word.",
+"words": [
+[
+"nødvendig",
+"necessary"
+]
+]
+},
+{
+"da": "Men staten bør belønne dem, der vælger toget eller bussen.",
+"en": "But the state should reward those who choose the train or the bus.",
+"p": false,
+"note": "'Men' does not cause inversion. 'Dem, der …' = 'those who …'.",
+"words": [
+[
+"belønne",
+"reward"
+]
+]
+}
+]
+},
+"pd3-24m-w1": {
+"lines": [
+{
+"da": "Hej Sofie",
+"en": "Hi Sofie",
+"p": true,
+"note": "An informal greeting for a friend: 'Hej' + the first name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thank you for your e-mail.",
+"p": true,
+"note": "'Tak for' + noun is the fixed way to say thank you."
+},
+{
+"da": "Det var også hyggeligt at ses.",
+"en": "It was also nice to see each other.",
+"p": false,
+"note": "'Ses' is a reciprocal -s verb: 'see each other'. 'Også' comes after the verb.",
+"words": [
+[
+"ses",
+"see each other"
+]
+]
+},
+{
+"da": "Du spørger, hvad jeg vil gøre nu.",
+"en": "You ask what I want to do now.",
+"p": true,
+"note": "Indirect question: after 'hvad' the subject comes before the verb ('jeg vil')."
+},
+{
+"da": "Jeg vil gerne blive bedre til dansk, før jeg søger arbejde.",
+"en": "I would like to get better at Danish before I look for work.",
+"p": false,
+"note": "'Blive bedre til' = 'get better at'. After 'før' the order is subject + verb.",
+"words": [
+[
+"søge arbejde",
+"look for work"
+]
+]
+},
+{
+"da": "Derfor vil jeg tage et kursus på aftenskolen.",
+"en": "That is why I will take a course at evening school.",
+"p": false,
+"note": "'Derfor' gives inversion ('vil jeg'). 'Et kursus' is an et-word.",
+"words": [
+[
+"aftenskolen",
+"evening school"
+]
+]
+},
+{
+"da": "Jeg vil også tale mere dansk i hverdagen.",
+"en": "I also want to speak more Danish in everyday life.",
+"p": false,
+"note": "'Også' comes after the first verb 'vil'. 'I hverdagen' = 'in everyday life'.",
+"words": [
+[
+"hverdagen",
+"everyday life"
+]
+]
+},
+{
+"da": "Jeg synes, det er en god idé at invitere dine kolleger hjem.",
+"en": "I think it is a good idea to invite your colleagues home.",
+"p": true,
+"note": "'Det er en god idé at' + infinitive. 'Dine' is plural because 'kolleger' is plural."
+},
+{
+"da": "Så lærer du dem bedre at kende, og du får måske nye venner.",
+"en": "Then you get to know them better, and you may make new friends.",
+"p": false,
+"note": "'Så' gives inversion ('lærer du'). 'Lære … at kende' = 'get to know'.",
+"words": [
+[
+"lære at kende",
+"get to know"
+]
+]
+},
+{
+"da": "Du spørger også om kagen.",
+"en": "You also ask about the cake.",
+"p": true,
+"note": "'Spørge om' = 'ask about'. 'Kagen' is the definite form of 'en kage'."
+},
+{
+"da": "Efter min mening kan du godt foreslå, at I dropper kagen til møderne.",
+"en": "In my opinion you can easily suggest that you drop the cake at meetings.",
+"p": false,
+"note": "Inversion after 'Efter min mening'. 'Godt' here means 'certainly, easily'.",
+"words": [
+[
+"foreslå",
+"suggest"
+]
+]
+},
+{
+"da": "Mange kolleger vil sikkert være glade for det.",
+"en": "Many colleagues will probably be happy about it.",
+"p": false,
+"note": "'Sikkert' (probably) goes after the first verb. 'Glade' has -e because 'kolleger' is plural.",
+"words": [
+[
+"sikkert",
+"probably"
+]
+]
+},
+{
+"da": "I kan jo stadig spise kage til fødselsdage.",
+"en": "After all, you can still eat cake on birthdays.",
+"p": false,
+"note": "'Jo' and 'stadig' are adverbs placed after the verb 'kan' in a main clause."
+},
+{
+"da": "Jeg vil gerne hjælpe dig med at flytte dine ting i weekenden.",
+"en": "I would like to help you move your things at the weekend.",
+"p": true,
+"note": "'Hjælpe nogen med at' + infinitive = 'help someone do'. 'I weekenden' = 'at the weekend'."
+},
+{
+"da": "Jeg har tid både lørdag og søndag.",
+"en": "I have time both Saturday and Sunday.",
+"p": false,
+"note": "'Både … og' = 'both … and'. Days of the week are written with a small letter."
+},
+{
+"da": "Jeg kan låne min brors bil, så kan vi køre det hele på én gang.",
+"en": "I can borrow my brother's car, then we can move it all in one go.",
+"p": false,
+"note": "'Brors' is the genitive with -s. After 'så' (then) the verb comes first ('kan vi').",
+"words": [
+[
+"låne",
+"borrow"
+],
+[
+"på én gang",
+"in one go"
+]
+]
+},
+{
+"da": "Skal vi ikke ringe sammen snart og snakke videre?",
+"en": "Shouldn't we call each other soon and talk more?",
+"p": true,
+"note": "A polite suggestion as a question: 'Skal vi ikke …?'. 'Snakke videre' = 'continue talking'.",
+"words": [
+[
+"snakke videre",
+"talk more"
+]
+]
+},
+{
+"da": "Jeg ringer til dig på torsdag.",
+"en": "I will call you on Thursday.",
+"p": false,
+"note": "The present tense is often used about the future in Danish. 'Ringe til' = 'call'."
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": false,
+"note": "'Glæde sig til' is a reflexive verb meaning 'look forward to'.",
+"words": [
+[
+"glæde sig til",
+"look forward to"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes,",
+"p": true,
+"note": "A friendly closing. 'Hilsner' is the plural of 'hilsen', so 'mange' (many) goes before it."
+},
+{
+"da": "Kim",
+"en": "Kim",
+"p": false,
+"note": "Write your first name on its own line under the closing. In an e-mail to a friend the first name is enough."
+}
+]
+},
+"pd3-24m-w2a": {
+"lines": [
+{
+"da": "Frivillige kan hjælpe, men ikke erstatte",
+"en": "Volunteers can help, but not replace",
+"p": true,
+"note": "A short title. 'Frivillige' is an adjective used as a plural noun: volunteers.",
+"words": [
+[
+"erstatte",
+"replace"
+]
+]
+},
+{
+"da": "Diagrammet viser, hvor mange voksne danskere der lavede frivilligt arbejde i 2020.",
+"en": "The diagram shows how many adult Danes did voluntary work in 2020.",
+"p": true,
+"note": "In an indirect question where 'hvor mange …' is the subject, Danish adds 'der'.",
+"words": [
+[
+"frivilligt arbejde",
+"voluntary work"
+]
+]
+},
+{
+"da": "Idrætsområdet er klart det største med ca. 12 %.",
+"en": "Sport is clearly the biggest area with approx. 12 %.",
+"p": false,
+"note": "'Det største' is the superlative with -e after 'det'. 'Klart' means 'clearly'.",
+"words": [
+[
+"idræt",
+"sport"
+]
+]
+},
+{
+"da": "Derefter følger det sociale område med ca. 5 % og kulturområdet med ca. 4 %.",
+"en": "After that comes the social area with approx. 5 % and culture with approx. 4 %.",
+"p": false,
+"note": "'Derefter' first gives inversion: the verb 'følger' comes before the subject.",
+"words": [
+[
+"derefter",
+"after that"
+]
+]
+},
+{
+"da": "Sundhedsområdet har ca. 3 %, og miljøområdet har kun ca. 1 %.",
+"en": "Health has approx. 3 %, and the environment has only approx. 1 %.",
+"p": false,
+"note": "Two main clauses joined by 'og'. 'Kun' (only) comes after the verb."
+},
+{
+"da": "Der kan være flere årsager til forskellene.",
+"en": "There can be several reasons for the differences.",
+"p": true,
+"note": "'Der kan være' = 'there can be'. 'Årsager til' = 'reasons for'.",
+"words": [
+[
+"en årsag",
+"a reason"
+]
+]
+},
+{
+"da": "For det første er mange forældre trænere i deres børns sportsklub.",
+"en": "Firstly, many parents are coaches in their children's sports club.",
+"p": false,
+"note": "Inversion after 'For det første'. 'Deres' (not 'sine') because the subject is plural.",
+"words": [
+[
+"en træner",
+"a coach"
+]
+]
+},
+{
+"da": "På den måde hjælper de både deres egne børn og klubben.",
+"en": "In that way they help both their own children and the club.",
+"p": false,
+"note": "'På den måde' gives inversion ('hjælper de'). 'Egne' has -e before a plural noun."
+},
+{
+"da": "For det andet er sport sjovt og socialt for mange mennesker.",
+"en": "Secondly, sport is fun and social for many people.",
+"p": false,
+"note": "Inversion: 'er sport'. 'Sjovt' and 'socialt' end in -t because they describe the activity in general."
+},
+{
+"da": "Miljøarbejde er derimod mindre kendt, og det tiltrækker færre frivillige.",
+"en": "Environmental work, on the other hand, is less well known, and it attracts fewer volunteers.",
+"p": false,
+"note": "'Derimod' comes after the verb. 'Mindre' and 'færre' are comparatives.",
+"words": [
+[
+"tiltrække",
+"attract"
+]
+]
+},
+{
+"da": "Efter min mening kan frivillige ikke løse manglen på sygeplejersker og social- og sundhedsassistenter.",
+"en": "In my opinion volunteers cannot solve the shortage of nurses and social and health care assistants.",
+"p": true,
+"note": "Inversion after 'Efter min mening'. 'Manglen på' = 'the shortage of'.",
+"words": [
+[
+"manglen på",
+"the shortage of"
+]
+]
+},
+{
+"da": "Det skyldes, at plejen kræver en lang uddannelse og meget viden.",
+"en": "This is because care requires a long education and a lot of knowledge.",
+"p": false,
+"note": "'Det skyldes, at …' gives a reason. 'Meget' is used with uncountable nouns like 'viden'.",
+"words": [
+[
+"plejen",
+"the care"
+],
+[
+"kræve",
+"require"
+],
+[
+"viden",
+"knowledge"
+]
+]
+},
+{
+"da": "Frivillige kan for eksempel ikke give medicin eller tage ansvar for patienter.",
+"en": "Volunteers cannot, for example, give medicine or take responsibility for patients.",
+"p": false,
+"note": "In a main clause 'for eksempel' and 'ikke' come after the modal verb 'kan'.",
+"words": [
+[
+"ansvar",
+"responsibility"
+]
+]
+},
+{
+"da": "Desuden har frivillige ikke pligt til at komme hver dag.",
+"en": "In addition, volunteers have no duty to come every day.",
+"p": false,
+"note": "'Desuden' gives inversion ('har frivillige'). 'Have pligt til' = 'have a duty to'.",
+"words": [
+[
+"pligt",
+"duty"
+]
+]
+},
+{
+"da": "Alligevel kan frivillige gøre en stor forskel.",
+"en": "Still, volunteers can make a big difference.",
+"p": false,
+"note": "'Alligevel' (still) first gives inversion ('kan frivillige').",
+"words": [
+[
+"alligevel",
+"still, even so"
+]
+]
+},
+{
+"da": "De kan læse højt, gå ture eller drikke kaffe med de ældre.",
+"en": "They can read aloud, go for walks or drink coffee with the elderly.",
+"p": false,
+"note": "One modal verb 'kan' with three infinitives. 'De ældre' = 'the elderly'.",
+"words": [
+[
+"gå ture",
+"go for walks"
+]
+]
+},
+{
+"da": "Så får personalet mere tid til de faglige opgaver.",
+"en": "Then the staff get more time for the professional tasks.",
+"p": false,
+"note": "'Så' first gives inversion ('får personalet'). 'Faglige' has -e after 'de'.",
+"words": [
+[
+"personalet",
+"the staff"
+],
+[
+"faglig",
+"professional"
+]
+]
+},
+{
+"da": "Derfor er frivillige et godt supplement, men ikke en løsning.",
+"en": "That is why volunteers are a good supplement, but not a solution.",
+"p": false,
+"note": "'Derfor' gives inversion. 'Godt' has -t because 'supplement' is an et-word.",
+"words": [
+[
+"et supplement",
+"a supplement"
+]
+]
+},
+{
+"da": "Staten bør i stedet give bedre løn og arbejdsvilkår, så flere vil tage uddannelsen.",
+"en": "Instead, the state should give better pay and working conditions so more people will take the training.",
+"p": false,
+"note": "'Så' here means 'so that' and starts a subordinate clause: subject + verb ('flere vil').",
+"words": [
+[
+"i stedet",
+"instead"
+],
+[
+"arbejdsvilkår",
+"working conditions"
+]
+]
+},
+{
+"da": "Alt i alt tror jeg, at vi både har brug for frivillige og for mere personale.",
+"en": "All in all, I think we need both volunteers and more staff.",
+"p": false,
+"note": "In the 'at' clause 'både' comes before the verb ('vi både har'). 'Have brug for' = 'need'.",
+"words": [
+[
+"have brug for",
+"need"
+]
+]
+}
+]
+},
+"pd3-24m-w2b": {
+"lines": [
+{
+"da": "Små lønforskelle er en fordel",
+"en": "Small pay differences are an advantage",
+"p": true,
+"note": "A short title. 'Små' is the plural of 'lille'.",
+"words": [
+[
+"en lønforskel",
+"a pay difference"
+]
+]
+},
+{
+"da": "I Danmark er der forskel på, hvad folk tjener.",
+"en": "In Denmark there is a difference in what people earn.",
+"p": true,
+"note": "'I Danmark' first gives inversion ('er der'). After 'hvad': subject + verb ('folk tjener').",
+"words": [
+[
+"tjene",
+"earn"
+]
+]
+},
+{
+"da": "En direktør tjener for eksempel meget mere end en rengøringsassistent.",
+"en": "A director, for example, earns much more than a cleaner.",
+"p": false,
+"note": "'For eksempel' goes after the verb. 'Meget mere end' = 'much more than'.",
+"words": [
+[
+"en direktør",
+"a director"
+],
+[
+"en rengøringsassistent",
+"a cleaner"
+]
+]
+},
+{
+"da": "Læger og ingeniører tjener normalt mere end pædagoger og sosu-assistenter.",
+"en": "Doctors and engineers normally earn more than nursery teachers and care assistants.",
+"p": false,
+"note": "'Normalt' (normally) is an adverb after the verb in a main clause.",
+"words": [
+[
+"en pædagog",
+"a nursery teacher"
+]
+]
+},
+{
+"da": "Der er også stadig en lønforskel mellem mænd og kvinder.",
+"en": "There is also still a pay difference between men and women.",
+"p": false,
+"note": "'Også' and 'stadig' come after the verb 'er'."
+},
+{
+"da": "Nogle mener, at ansatte, der passer børn, syge og ældre, får for lidt i løn.",
+"en": "Some think that employees who look after children, the sick and the elderly get too little pay.",
+"p": true,
+"note": "A relative clause ('der passer …') sits inside the 'at' clause. 'For lidt' = 'too little'.",
+"words": [
+[
+"passe",
+"look after"
+]
+]
+},
+{
+"da": "Det er jeg enig i.",
+"en": "I agree with that.",
+"p": false,
+"note": "'Det' is put first for emphasis, so the verb comes before the subject ('er jeg'). The preposition 'i' stays at the end.",
+"words": [
+[
+"være enig i",
+"agree with"
+]
+]
+},
+{
+"da": "Deres arbejde er meget vigtigt og ofte hårdt, både fysisk og psykisk.",
+"en": "Their work is very important and often hard, both physically and mentally.",
+"p": false,
+"note": "'Vigtigt' and 'hårdt' get -t because 'arbejde' is an et-word.",
+"words": [
+[
+"psykisk",
+"mentally"
+]
+]
+},
+{
+"da": "Hvis lønnen er for lav, vil færre unge tage uddannelsen.",
+"en": "If the pay is too low, fewer young people will take the training.",
+"p": false,
+"note": "When the sentence starts with a 'hvis' clause, the main clause starts with the verb ('vil færre unge')."
+},
+{
+"da": "Til gengæld synes jeg ikke, at topledere får for lidt.",
+"en": "On the other hand, I don't think top managers get too little.",
+"p": false,
+"note": "'Til gengæld' gives inversion ('synes jeg'). 'Ikke' goes with 'synes'.",
+"words": [
+[
+"en topleder",
+"a top manager"
+]
+]
+},
+{
+"da": "Der er både fordele og ulemper ved, at lønforskellene i Danmark er relativt små.",
+"en": "There are both advantages and disadvantages in pay differences in Denmark being relatively small.",
+"p": true,
+"note": "'Fordele og ulemper ved, at …' = 'pros and cons of …'. 'Små' is the plural of 'lille'.",
+"words": [
+[
+"relativt",
+"relatively"
+]
+]
+},
+{
+"da": "For det første giver små lønforskelle et mere lige samfund.",
+"en": "Firstly, small pay differences give a more equal society.",
+"p": false,
+"note": "Inversion after 'For det første'. 'Lige' (equal) does not change its ending.",
+"words": [
+[
+"lige",
+"equal"
+]
+]
+},
+{
+"da": "Der er færre konflikter, og folk har mere tillid til hinanden.",
+"en": "There are fewer conflicts, and people have more trust in each other.",
+"p": false,
+"note": "'Færre' with countable nouns, 'mere' with uncountable nouns like 'tillid'.",
+"words": [
+[
+"tillid",
+"trust"
+],
+[
+"hinanden",
+"each other"
+]
+]
+},
+{
+"da": "For det andet kan de fleste leve et godt liv af deres løn.",
+"en": "Secondly, most people can live a good life on their pay.",
+"p": false,
+"note": "Inversion: 'kan de fleste'. 'Deres' (not 'sin') because the subject is plural.",
+"words": [
+[
+"de fleste",
+"most people"
+]
+]
+},
+{
+"da": "På den anden side kan små lønforskelle også give problemer.",
+"en": "On the other hand, small pay differences can also cause problems.",
+"p": false,
+"note": "Inversion after 'På den anden side'. 'Også' goes after the modal verb 'kan'."
+},
+{
+"da": "Nogle højtuddannede flytter måske til udlandet, hvor de kan tjene mere.",
+"en": "Some highly educated people may move abroad, where they can earn more.",
+"p": false,
+"note": "'Måske' comes after the verb in a main clause. 'Til udlandet' = 'abroad'.",
+"words": [
+[
+"højtuddannede",
+"highly educated people"
+],
+[
+"udlandet",
+"abroad"
+]
+]
+},
+{
+"da": "Desuden kan det være mindre attraktivt at tage en lang uddannelse.",
+"en": "In addition, it can be less attractive to take a long education.",
+"p": false,
+"note": "'Desuden' gives inversion ('kan det'). 'Mindre' + adjective = 'less …'.",
+"words": [
+[
+"attraktivt",
+"attractive"
+]
+]
+},
+{
+"da": "Det skyldes, at man ikke får så meget mere i løn bagefter.",
+"en": "This is because you do not get much more pay afterwards.",
+"p": false,
+"note": "In the 'at' clause 'ikke' comes before the verb ('man ikke får').",
+"words": [
+[
+"bagefter",
+"afterwards"
+]
+]
+},
+{
+"da": "Alt i alt mener jeg, at fordelene er større end ulemperne.",
+"en": "All in all, I believe the advantages are greater than the disadvantages.",
+"p": false,
+"note": "'Alt i alt' gives inversion ('mener jeg'). 'Større end' = 'greater than'."
+},
+{
+"da": "Små lønforskelle gør Danmark til et trygt land at bo i.",
+"en": "Small pay differences make Denmark a safe country to live in.",
+"p": false,
+"note": "'Gøre … til' = 'make … into'. 'Trygt' has -t because 'land' is an et-word.",
+"words": [
+[
+"tryg",
+"safe, secure"
+]
+]
+}
+]
+},
+"pd3-w1": {
+"lines": [
+{
+"da": "Til Byggeri og Miljø, Vestby Kommune",
+"en": "To Building and Environment, Vestby Municipality",
+"p": true,
+"note": "A formal letter starts with the receiver: 'Til' (to) + the department and the municipality.",
+"words": [
+[
+"en kommune",
+"a municipality"
+]
+]
+},
+{
+"da": "Vedrørende: Støj fra byggeriet på Søndergade",
+"en": "Re: Noise from the building site on Søndergade",
+"p": false,
+"note": "'Vedrørende' (concerning) introduces the subject line of a formal letter.",
+"words": [
+[
+"vedrørende",
+"concerning"
+],
+[
+"støj",
+"noise"
+]
+]
+},
+{
+"da": "Jeg skriver for at klage over støj fra byggeriet ved siden af min bolig.",
+"en": "I am writing to complain about noise from the building site next to my home.",
+"p": true,
+"note": "'For at' + infinitive shows purpose. 'Klage over' = 'complain about'.",
+"words": [
+[
+"klage over",
+"complain about"
+],
+[
+"en bolig",
+"a home"
+]
+]
+},
+{
+"da": "Siden den 1. marts er arbejdet startet hver morgen kl. 6.",
+"en": "Since 1 March the work has started at 6 every morning.",
+"p": false,
+"note": "'Siden' first gives inversion ('er arbejdet'). Perfect tense with 'er' for something that started in the past and continues."
+},
+{
+"da": "Maskinerne larmer også i weekenden.",
+"en": "The machines are also noisy at the weekend.",
+"p": false,
+"note": "'Også' comes right after the verb 'larmer'.",
+"words": [
+[
+"larme",
+"make noise"
+]
+]
+},
+{
+"da": "Problemet har nu stået på i seks uger.",
+"en": "The problem has now been going on for six weeks.",
+"p": false,
+"note": "'Stå på' means 'go on'. 'I seks uger' = 'for six weeks' (duration).",
+"words": [
+[
+"stå på",
+"go on, last"
+]
+]
+},
+{
+"da": "Støjen påvirker hele min familie.",
+"en": "The noise affects my whole family.",
+"p": true,
+"note": "'Hele' (whole) comes before the possessive: 'hele min familie'.",
+"words": [
+[
+"påvirke",
+"affect"
+]
+]
+},
+{
+"da": "Vi bliver vækket hver morgen, og vores to små børn sover dårligt.",
+"en": "We are woken every morning, and our two small children sleep badly.",
+"p": false,
+"note": "'Bliver vækket' is the passive with 'blive'. 'Små' is the plural of 'lille'.",
+"words": [
+[
+"vække",
+"wake"
+]
+]
+},
+{
+"da": "Jeg arbejder hjemmefra to dage om ugen, og så kan jeg ikke koncentrere mig.",
+"en": "I work from home two days a week, and then I cannot concentrate.",
+"p": false,
+"note": "After 'så' the verb comes first ('kan jeg'). 'Koncentrere sig' is reflexive.",
+"words": [
+[
+"hjemmefra",
+"from home"
+],
+[
+"koncentrere sig",
+"concentrate"
+]
+]
+},
+{
+"da": "Jeg er træt på arbejdet, og vi kan ikke slappe af i weekenden.",
+"en": "I am tired at work, and we cannot relax at the weekend.",
+"p": false,
+"note": "In a main clause 'ikke' comes after the modal verb ('kan ikke').",
+"words": [
+[
+"slappe af",
+"relax"
+]
+]
+},
+{
+"da": "Efter min mening er det ikke rimeligt at larme så tidligt.",
+"en": "In my opinion it is not reasonable to make noise so early.",
+"p": true,
+"note": "Inversion after 'Efter min mening' ('er det'). 'Rimeligt' has -t after 'det'.",
+"words": [
+[
+"rimelig",
+"reasonable"
+]
+]
+},
+{
+"da": "Jeg synes, at arbejdet bør starte tidligst kl. 7 på hverdage.",
+"en": "I think the work should start at 7 at the earliest on weekdays.",
+"p": false,
+"note": "In the 'at' clause: subject + verb ('arbejdet bør'). 'Tidligst' = 'at the earliest'.",
+"words": [
+[
+"tidligst",
+"at the earliest"
+],
+[
+"en hverdag",
+"a weekday"
+]
+]
+},
+{
+"da": "I weekenden bør der være helt ro.",
+"en": "At the weekend there should be complete quiet.",
+"p": false,
+"note": "'I weekenden' first gives inversion ('bør der').",
+"words": [
+[
+"ro",
+"quiet, peace"
+]
+]
+},
+{
+"da": "Jeg foreslår derfor, at kommunen beder firmaet om at ændre arbejdstiderne.",
+"en": "I therefore suggest that the municipality asks the company to change the working hours.",
+"p": true,
+"note": "'Bede nogen om at' + infinitive = 'ask someone to'. 'Derfor' here comes after the verb.",
+"words": [
+[
+"foreslå",
+"suggest"
+],
+[
+"ændre",
+"change"
+]
+]
+},
+{
+"da": "Det vil også hjælpe, hvis naboerne får besked om særligt støjende arbejde.",
+"en": "It would also help if the neighbours are told about especially noisy work.",
+"p": false,
+"note": "'Få besked om' = 'be informed about'. After 'hvis': subject + verb.",
+"words": [
+[
+"få besked",
+"be informed"
+],
+[
+"støjende",
+"noisy"
+]
+]
+},
+{
+"da": "Jeg håber på en hurtig løsning.",
+"en": "I hope for a quick solution.",
+"p": false,
+"note": "'Håbe på' + noun = 'hope for'. 'Hurtig' has no ending after 'en'.",
+"words": [
+[
+"en løsning",
+"a solution"
+]
+]
+},
+{
+"da": "Jeg ser frem til at høre fra jer.",
+"en": "I look forward to hearing from you.",
+"p": false,
+"note": "A fixed formal phrase. 'Se frem til at' + infinitive = 'look forward to'. 'Jer' is plural 'you'.",
+"words": [
+[
+"se frem til",
+"look forward to"
+]
+]
+},
+{
+"da": "Med venlig hilsen",
+"en": "Yours sincerely,",
+"p": true,
+"note": "The standard closing in formal letters and e-mails. 'Venlig' (kind) has no ending after 'med'."
+},
+{
+"da": "Kim Hansen",
+"en": "Kim Hansen",
+"p": false,
+"note": "In a formal letter, write your full name under the closing."
+},
+{
+"da": "Søndergade 14",
+"en": "Søndergade 14",
+"p": false,
+"note": "Add your address under your name, so the municipality can see where the problem is."
+}
+]
+},
+"pd3-w2": {
+"lines": [
+{
+"da": "Ansøgning om stillingen som kommunikationsmedarbejder",
+"en": "Application for the position of communications officer",
+"p": true,
+"note": "A typical subject line. 'Ansøgning om' = 'application for'. 'Stillingen som' = 'the position as'.",
+"words": [
+[
+"en ansøgning",
+"an application"
+],
+[
+"en stilling",
+"a position"
+]
+]
+},
+{
+"da": "Kære ansættelsesudvalg",
+"en": "Dear hiring committee",
+"p": true,
+"note": "A polite greeting when you do not know the name of the person who reads the application.",
+"words": [
+[
+"et ansættelsesudvalg",
+"a hiring committee"
+]
+]
+},
+{
+"da": "Jeg har læst jeres stillingsopslag med stor interesse.",
+"en": "I have read your job advertisement with great interest.",
+"p": true,
+"note": "Perfect tense 'har læst'. 'Med stor interesse' is a fixed polite phrase.",
+"words": [
+[
+"et stillingsopslag",
+"a job advertisement"
+]
+]
+},
+{
+"da": "Jeg søger stillingen, fordi jeg gerne vil arbejde med kommunikation.",
+"en": "I am applying for the position because I would like to work with communication.",
+"p": false,
+"note": "After 'fordi': subject + verb ('jeg gerne vil'); 'gerne' comes before the verb.",
+"words": [
+[
+"søge",
+"apply for"
+]
+]
+},
+{
+"da": "Jeg kan godt lide at skrive klare tekster, som alle kan forstå.",
+"en": "I like writing clear texts that everyone can understand.",
+"p": false,
+"note": "'Kan godt lide at' + infinitive = 'like to'. 'Klare' has -e before a plural noun.",
+"words": [
+[
+"klar",
+"clear"
+]
+]
+},
+{
+"da": "Jeg har boet i en almen bolig i mange år, så jeg kender beboernes hverdag.",
+"en": "I have lived in social housing for many years, so I know the residents' everyday life.",
+"p": false,
+"note": "'Har boet' is the perfect tense. 'Beboernes' is the definite plural genitive.",
+"words": [
+[
+"en almen bolig",
+"social housing"
+],
+[
+"en beboer",
+"a resident"
+]
+]
+},
+{
+"da": "Desuden synes jeg, at det er vigtigt, at beboerne føler sig hørt.",
+"en": "In addition, I think it is important that the residents feel heard.",
+"p": false,
+"note": "'Desuden' gives inversion ('synes jeg'). 'Føle sig' is reflexive.",
+"words": [
+[
+"føle sig hørt",
+"feel heard"
+]
+]
+},
+{
+"da": "Jeg har en bachelor i kommunikation fra Roskilde Universitet.",
+"en": "I have a bachelor's degree in communication from Roskilde University.",
+"p": true,
+"note": "'En bachelor i' = 'a bachelor's degree in'. 'Fra' shows where the degree comes from."
+},
+{
+"da": "I de sidste tre år har jeg arbejdet som kommunikationsassistent i en kommune.",
+"en": "For the last three years I have worked as a communications assistant in a municipality.",
+"p": false,
+"note": "A fronted time phrase gives inversion ('har jeg'). No article after 'som' with a job title."
+},
+{
+"da": "Her skrev jeg nyheder til hjemmesiden og et månedligt nyhedsbrev.",
+"en": "Here I wrote news for the website and a monthly newsletter.",
+"p": false,
+"note": "'Her' gives inversion ('skrev jeg'). 'Månedligt' has -t because 'nyhedsbrev' is an et-word.",
+"words": [
+[
+"månedlig",
+"monthly"
+],
+[
+"et nyhedsbrev",
+"a newsletter"
+]
+]
+},
+{
+"da": "Jeg har også svaret på spørgsmål fra borgerne på mail og telefon.",
+"en": "I have also answered questions from citizens by e-mail and phone.",
+"p": false,
+"note": "'Også' comes after the first verb 'har'. 'Svare på' = 'answer'.",
+"words": [
+[
+"en borger",
+"a citizen"
+]
+]
+},
+{
+"da": "Derfor ved jeg, hvordan man skriver kort og præcist.",
+"en": "That is why I know how to write briefly and precisely.",
+"p": false,
+"note": "'Derfor' gives inversion ('ved jeg'). 'Kort' and 'præcist' are adverbs here.",
+"words": [
+[
+"præcist",
+"precisely"
+]
+]
+},
+{
+"da": "Jeg taler både dansk, engelsk og arabisk, og det kan være en fordel.",
+"en": "I speak Danish, English and Arabic, and that can be an advantage.",
+"p": false,
+"note": "'Både … og' can list more than two things. Languages are written with a small letter.",
+"words": [
+[
+"en fordel",
+"an advantage"
+]
+]
+},
+{
+"da": "Som person er jeg venlig, åben og god til at lytte.",
+"en": "As a person I am friendly, open and good at listening.",
+"p": true,
+"note": "'Som person' first gives inversion ('er jeg'). 'God til at' + infinitive = 'good at'.",
+"words": [
+[
+"lytte",
+"listen"
+]
+]
+},
+{
+"da": "Jeg arbejder struktureret og holder altid mine deadlines.",
+"en": "I work in a structured way and always meet my deadlines.",
+"p": false,
+"note": "'Altid' comes after the verb 'holder'. 'Struktureret' is used as an adverb.",
+"words": [
+[
+"struktureret",
+"in a structured way"
+]
+]
+},
+{
+"da": "Mine kolleger siger, at jeg er rolig, også når der er travlt.",
+"en": "My colleagues say that I am calm, even when it is busy.",
+"p": false,
+"note": "'Der er travlt' = 'it is busy'. 'Også når' here means 'even when'.",
+"words": [
+[
+"rolig",
+"calm"
+],
+[
+"travlt",
+"busy"
+]
+]
+},
+{
+"da": "Jeg samarbejder godt med andre, men kan også arbejde selvstændigt.",
+"en": "I work well with others, but can also work independently.",
+"p": false,
+"note": "The subject 'jeg' is not repeated after 'men'. 'Selvstændigt' is an adverb with -t.",
+"words": [
+[
+"samarbejde",
+"cooperate"
+],
+[
+"selvstændigt",
+"independently"
+]
+]
+},
+{
+"da": "Desuden er jeg god til sociale medier.",
+"en": "In addition, I am good at social media.",
+"p": false,
+"note": "'Desuden' gives inversion ('er jeg'). 'Sociale' has -e before a plural noun."
+},
+{
+"da": "Jeg vil meget gerne til en samtale, hvor jeg kan fortælle mere om mig selv.",
+"en": "I would very much like to come for an interview where I can tell you more about myself.",
+"p": true,
+"note": "'Vil gerne til' = 'would like to go to'; the verb 'komme' is left out. 'Mig selv' = 'myself'.",
+"words": [
+[
+"en samtale",
+"an interview"
+]
+]
+},
+{
+"da": "I er velkomne til at kontakte mig på telefon eller mail.",
+"en": "You are welcome to contact me by phone or e-mail.",
+"p": false,
+"note": "'Velkomne' has -e because 'I' is plural. 'Være velkommen til at' = 'be welcome to'.",
+"words": [
+[
+"kontakte",
+"contact"
+]
+]
+},
+{
+"da": "Jeg ser frem til at høre fra jer.",
+"en": "I look forward to hearing from you.",
+"p": false,
+"note": "A fixed formal phrase. 'Se frem til at' + infinitive = 'look forward to'.",
+"words": [
+[
+"se frem til",
+"look forward to"
+]
+]
+},
+{
+"da": "Med venlig hilsen",
+"en": "Yours sincerely,",
+"p": true,
+"note": "The standard closing in formal letters and e-mails. 'Venlig' (kind) has no ending after 'med'."
+},
+{
+"da": "Kim Hansen",
+"en": "Kim Hansen",
+"p": false,
+"note": "In a formal letter, write your full name under the closing."
+}
+]
+},
+"pd3-w3": {
+"lines": [
+{
+"da": "Ja til gratis busser og tog",
+"en": "Yes to free buses and trains",
+"p": true,
+"note": "A short, clear title that shows your opinion. 'Tog' is the same in singular and plural."
+},
+{
+"da": "En politiker har foreslået, at busser og tog skal være gratis for alle.",
+"en": "A politician has suggested that buses and trains should be free for everyone.",
+"p": true,
+"note": "Perfect tense 'har foreslået'. In the 'at' clause: subject + verb ('busser og tog skal').",
+"words": [
+[
+"foreslå",
+"suggest"
+]
+]
+},
+{
+"da": "Forslaget har skabt stor debat her i byen.",
+"en": "The proposal has caused a big debate here in town.",
+"p": false,
+"note": "'Forslaget' is the definite form of 'et forslag'. 'Skabe debat' = 'cause debate'.",
+"words": [
+[
+"et forslag",
+"a proposal"
+]
+]
+},
+{
+"da": "Jeg bruger selv bussen hver dag, så emnet er vigtigt for mig.",
+"en": "I use the bus every day myself, so the topic is important to me.",
+"p": false,
+"note": "'Selv' (myself) comes after the verb. 'Så' (so) joins two main clauses without inversion.",
+"words": [
+[
+"et emne",
+"a topic"
+]
+]
+},
+{
+"da": "Efter min mening er det en god idé, og jeg vil gerne forklare hvorfor.",
+"en": "In my opinion it is a good idea, and I would like to explain why.",
+"p": false,
+"note": "Inversion after 'Efter min mening' ('er det'). 'Vil gerne' = 'would like to'.",
+"words": [
+[
+"forklare",
+"explain"
+]
+]
+},
+{
+"da": "For det første er gratis transport godt for miljøet.",
+"en": "Firstly, free transport is good for the environment.",
+"p": true,
+"note": "Inversion after 'For det første'. 'Godt' with -t: the meaning is 'a good thing'.",
+"words": [
+[
+"miljøet",
+"the environment"
+]
+]
+},
+{
+"da": "Hvis bussen er gratis, vil flere lade bilen stå hjemme.",
+"en": "If the bus is free, more people will leave the car at home.",
+"p": false,
+"note": "A 'hvis' clause first, then the main clause starts with the verb ('vil flere').",
+"words": [
+[
+"lade bilen stå",
+"leave the car"
+]
+]
+},
+{
+"da": "Det betyder mindre forurening og færre køer i byerne.",
+"en": "This means less pollution and fewer queues in the towns.",
+"p": false,
+"note": "'Mindre' with uncountable nouns (forurening), 'færre' with countable nouns (køer).",
+"words": [
+[
+"forurening",
+"pollution"
+]
+]
+},
+{
+"da": "For det andet hjælper forslaget folk med en lille økonomi.",
+"en": "Secondly, the proposal helps people with little money.",
+"p": false,
+"note": "Inversion: 'hjælper forslaget'. 'En lille økonomi' = 'a small budget'.",
+"words": [
+[
+"økonomi",
+"finances"
+]
+]
+},
+{
+"da": "Mange studerende, pensionister og familier bruger mange penge på transport hver måned.",
+"en": "Many students, pensioners and families spend a lot of money on transport every month.",
+"p": false,
+"note": "'Bruge penge på' = 'spend money on'. 'Hver måned' = 'every month'.",
+"words": [
+[
+"en pensionist",
+"a pensioner"
+]
+]
+},
+{
+"da": "Med gratis busser og tog får de flere penge til andre ting.",
+"en": "With free buses and trains they get more money for other things.",
+"p": false,
+"note": "A fronted phrase ('Med gratis busser og tog') gives inversion ('får de')."
+},
+{
+"da": "For det tredje bliver det lettere for alle at komme rundt.",
+"en": "Thirdly, it becomes easier for everyone to get around.",
+"p": false,
+"note": "Inversion: 'bliver det'. 'Lettere' is the comparative of 'let'.",
+"words": [
+[
+"komme rundt",
+"get around"
+]
+]
+},
+{
+"da": "Ældre mennesker kan for eksempel nemmere besøge familie og venner.",
+"en": "Older people can, for example, more easily visit family and friends.",
+"p": false,
+"note": "'Ældre' is the comparative of 'gammel'. Adverbs like 'nemmere' come after the modal verb.",
+"words": [
+[
+"nemmere",
+"more easily"
+]
+]
+},
+{
+"da": "De behøver ikke længere at tænke på prisen.",
+"en": "They no longer need to think about the price.",
+"p": false,
+"note": "'Ikke længere' = 'no longer'. It comes after the verb in a main clause.",
+"words": [
+[
+"behøve",
+"need"
+]
+]
+},
+{
+"da": "Nogle vil sige, at forslaget er alt for dyrt.",
+"en": "Some will say that the proposal is far too expensive.",
+"p": true,
+"note": "'Alt for' = 'far too'. 'Dyrt' has -t because 'forslaget' is an et-word."
+},
+{
+"da": "Billetterne giver jo mange penge til den offentlige transport hvert år.",
+"en": "After all, the tickets give a lot of money to public transport every year.",
+"p": false,
+"note": "'Jo' (after all) comes after the verb. 'Offentlige' has -e after 'den'.",
+"words": [
+[
+"offentlig",
+"public"
+]
+]
+},
+{
+"da": "Det er rigtigt, at det vil koste meget.",
+"en": "It is true that it will cost a lot.",
+"p": false,
+"note": "'Det er rigtigt, at …' is a polite way to accept part of a counter-argument."
+},
+{
+"da": "Men samfundet sparer også penge, når der er færre biler på vejene.",
+"en": "But society also saves money when there are fewer cars on the roads.",
+"p": false,
+"note": "'Men' does not cause inversion. After 'når': 'der er'.",
+"words": [
+[
+"spare",
+"save"
+]
+]
+},
+{
+"da": "Der bliver færre ulykker, og vi skal ikke bygge så mange nye veje.",
+"en": "There will be fewer accidents, and we will not have to build so many new roads.",
+"p": false,
+"note": "'Der bliver' = 'there will be'. 'Ikke' comes after the modal verb 'skal'.",
+"words": [
+[
+"en ulykke",
+"an accident"
+]
+]
+},
+{
+"da": "Desuden bliver folk sundere, når luften er renere.",
+"en": "In addition, people become healthier when the air is cleaner.",
+"p": false,
+"note": "'Desuden' gives inversion ('bliver folk'). 'Sundere' and 'renere' are comparatives."
+},
+{
+"da": "Alt i alt mener jeg, at gratis offentlig transport er en god investering.",
+"en": "All in all, I believe that free public transport is a good investment.",
+"p": true,
+"note": "'Alt i alt' gives inversion ('mener jeg'). 'Offentlig' has no ending because 'transport' is an en-word.",
+"words": [
+[
+"en investering",
+"an investment"
+]
+]
+},
+{
+"da": "Det er godt for miljøet, for økonomien og for fællesskabet.",
+"en": "It is good for the environment, for the economy and for the community.",
+"p": false,
+"note": "Repeating 'for' makes a list clear and strong.",
+"words": [
+[
+"fællesskabet",
+"the community"
+]
+]
+},
+{
+"da": "Derfor håber jeg, at politikerne vil stemme for forslaget.",
+"en": "That is why I hope the politicians will vote for the proposal.",
+"p": false,
+"note": "'Derfor' gives inversion ('håber jeg'). 'Stemme for' = 'vote for'.",
+"words": [
+[
+"stemme for",
+"vote for"
+]
+]
+},
+{
+"da": "Måske kan man starte med et forsøg i et par år.",
+"en": "Maybe they could start with a trial for a couple of years.",
+"p": false,
+"note": "'Måske' first gives inversion ('kan man'). 'Et par' = 'a couple of'.",
+"words": [
+[
+"et forsøg",
+"a trial"
+]
+]
+},
+{
+"da": "Så kan vi se, om flere faktisk vælger bussen.",
+"en": "Then we can see whether more people actually choose the bus.",
+"p": false,
+"note": "'Så' gives inversion ('kan vi'). 'Om' introduces an indirect yes/no question.",
+"words": [
+[
+"faktisk",
+"actually"
+]
+]
+},
+{
+"da": "Kim Hansen, Vestby",
+"en": "Kim Hansen, Vestby",
+"p": true,
+"note": "A letter to the editor ends with your name and the town where you live."
+}
+]
+},
+"pd3-w4": {
+"lines": [
+{
+"da": "Ja til mobilfri skoletid",
+"en": "Yes to phone-free school time",
+"p": true,
+"note": "A short title that shows your opinion. 'Mobilfri' = 'free of mobile phones'.",
+"words": [
+[
+"mobilfri",
+"phone-free"
+]
+]
+},
+{
+"da": "I dag har næsten alle elever en smartphone med i skole.",
+"en": "Today almost all pupils bring a smartphone to school.",
+"p": true,
+"note": "'I dag' first gives inversion ('har næsten alle elever').",
+"words": [
+[
+"en elev",
+"a pupil"
+]
+]
+},
+{
+"da": "Mange skoler har allerede regler for mobiler, men reglerne er meget forskellige.",
+"en": "Many schools already have rules for phones, but the rules are very different.",
+"p": false,
+"note": "'Allerede' comes after the verb. 'Forskellige' has -e because 'reglerne' is plural.",
+"words": [
+[
+"en regel",
+"a rule"
+]
+]
+},
+{
+"da": "Nu overvejer regeringen at forbyde mobiltelefoner i hele skoletiden.",
+"en": "Now the government is considering banning mobile phones during the whole school day.",
+"p": false,
+"note": "'Nu' gives inversion ('overvejer regeringen'). 'Overveje at' + infinitive = 'consider doing'.",
+"words": [
+[
+"overveje",
+"consider"
+],
+[
+"forbyde",
+"ban"
+]
+]
+},
+{
+"da": "Spørgsmålet er, om det er den rigtige løsning.",
+"en": "The question is whether it is the right solution.",
+"p": false,
+"note": "'Om' introduces an indirect yes/no question. 'Rigtige' has -e after 'den'.",
+"words": [
+[
+"en løsning",
+"a solution"
+]
+]
+},
+{
+"da": "Efter min mening er det en god idé.",
+"en": "In my opinion it is a good idea.",
+"p": false,
+"note": "A key phrase for giving your opinion. It gives inversion: 'er det'."
+},
+{
+"da": "For det første forstyrrer mobilen undervisningen.",
+"en": "Firstly, the phone disturbs the teaching.",
+"p": true,
+"note": "Inversion after 'For det første' ('forstyrrer mobilen').",
+"words": [
+[
+"forstyrre",
+"disturb"
+],
+[
+"undervisningen",
+"the teaching"
+]
+]
+},
+{
+"da": "Eleverne tjekker beskeder og sociale medier, mens læreren taler.",
+"en": "The pupils check messages and social media while the teacher is talking.",
+"p": false,
+"note": "After 'mens' (while) the order is subject + verb ('læreren taler').",
+"words": [
+[
+"en besked",
+"a message"
+]
+]
+},
+{
+"da": "Det er svært at lære noget, når telefonen hele tiden vibrerer.",
+"en": "It is hard to learn anything when the phone vibrates all the time.",
+"p": false,
+"note": "In the 'når' clause the adverb 'hele tiden' comes before the verb.",
+"words": [
+[
+"hele tiden",
+"all the time"
+]
+]
+},
+{
+"da": "Min nevø fortæller for eksempel, at mange i hans klasse spiller i timerne.",
+"en": "My nephew says, for example, that many in his class play games in lessons.",
+"p": false,
+"note": "'Hans' (not 'sin') because the subject of the 'at' clause is 'mange', not the nephew.",
+"words": [
+[
+"en nevø",
+"a nephew"
+]
+]
+},
+{
+"da": "For det andet bliver frikvartererne mere sociale uden mobiler.",
+"en": "Secondly, the breaks become more social without phones.",
+"p": false,
+"note": "Inversion: 'bliver frikvartererne'. 'Sociale' has -e because the subject is plural.",
+"words": [
+[
+"et frikvarter",
+"a break (at school)"
+]
+]
+},
+{
+"da": "I stedet for at kigge på en skærm leger og snakker børnene sammen.",
+"en": "Instead of looking at a screen, the children play and talk together.",
+"p": false,
+"note": "A long fronted phrase still gives inversion: both verbs come before 'børnene'.",
+"words": [
+[
+"i stedet for",
+"instead of"
+],
+[
+"en skærm",
+"a screen"
+]
+]
+},
+{
+"da": "Det er godt for venskaberne og for trivslen.",
+"en": "It is good for friendships and for well-being.",
+"p": false,
+"note": "'Trivsel' is a key word in Danish schools: feeling good.",
+"words": [
+[
+"trivsel",
+"well-being"
+]
+]
+},
+{
+"da": "Et forbud har både fordele og ulemper.",
+"en": "A ban has both advantages and disadvantages.",
+"p": true,
+"note": "'Både … og' = 'both … and'. 'Et forbud' is an et-word.",
+"words": [
+[
+"et forbud",
+"a ban"
+]
+]
+},
+{
+"da": "På den ene side giver det mere ro og bedre koncentration.",
+"en": "On the one hand it gives more peace and better concentration.",
+"p": false,
+"note": "Inversion after 'På den ene side' ('giver det').",
+"words": [
+[
+"ro",
+"peace, quiet"
+]
+]
+},
+{
+"da": "Det kan også mindske mobning på sociale medier i skoletiden.",
+"en": "It can also reduce bullying on social media during school hours.",
+"p": false,
+"note": "'Også' comes after the modal verb 'kan'.",
+"words": [
+[
+"mindske",
+"reduce"
+],
+[
+"mobning",
+"bullying"
+]
+]
+},
+{
+"da": "Desuden bliver det lettere for lærerne, fordi reglerne er de samme overalt.",
+"en": "In addition, it becomes easier for teachers because the rules are the same everywhere.",
+"p": false,
+"note": "'Desuden' gives inversion ('bliver det'). After 'fordi': subject + verb.",
+"words": [
+[
+"overalt",
+"everywhere"
+]
+]
+},
+{
+"da": "På den anden side bruger skolen også mobilen som et redskab.",
+"en": "On the other hand, the school also uses the phone as a tool.",
+"p": false,
+"note": "Inversion: 'bruger skolen'. 'Som' here means 'as'.",
+"words": [
+[
+"et redskab",
+"a tool"
+]
+]
+},
+{
+"da": "Eleverne kan for eksempel søge information eller tage billeder til projekter.",
+"en": "The pupils can, for example, search for information or take pictures for projects.",
+"p": false,
+"note": "Two infinitives after one modal verb: 'kan søge … eller tage …'."
+},
+{
+"da": "Nogle forældre vil også gerne kunne kontakte deres børn i løbet af dagen.",
+"en": "Some parents would also like to be able to contact their children during the day.",
+"p": false,
+"note": "'Vil gerne kunne' = 'would like to be able to'. 'I løbet af' = 'during'.",
+"words": [
+[
+"i løbet af",
+"during"
+]
+]
+},
+{
+"da": "Men det kan de jo gøre via skolens kontor.",
+"en": "But they can do that through the school office, after all.",
+"p": false,
+"note": "'Det' is put first for emphasis, so the verb comes before the subject ('kan de').",
+"words": [
+[
+"via",
+"through"
+]
+]
+},
+{
+"da": "Alt i alt mener jeg, at fordelene ved et forbud er størst.",
+"en": "All in all, I believe the advantages of a ban are greatest.",
+"p": true,
+"note": "'Alt i alt' gives inversion ('mener jeg'). 'Størst' is the superlative of 'stor'."
+},
+{
+"da": "Men forbuddet bør være fleksibelt.",
+"en": "But the ban should be flexible.",
+"p": false,
+"note": "'Fleksibelt' has -t because 'forbuddet' is an et-word.",
+"words": [
+[
+"fleksibel",
+"flexible"
+]
+]
+},
+{
+"da": "Mit forslag er, at eleverne afleverer mobilen om morgenen.",
+"en": "My suggestion is that the pupils hand in their phones in the morning.",
+"p": false,
+"note": "'Mit forslag er, at …' is a useful phrase for an alternative proposal.",
+"words": [
+[
+"aflevere",
+"hand in"
+]
+]
+},
+{
+"da": "Læreren kan så tage mobilerne frem, når de skal bruges i undervisningen.",
+"en": "The teacher can then take the phones out when they are needed in lessons.",
+"p": false,
+"note": "'Skal bruges' is a passive -s form after a modal verb. 'Tage … frem' = 'take out'."
+},
+{
+"da": "På den måde får vi både ro og moderne undervisning.",
+"en": "In that way we get both peace and modern teaching.",
+"p": false,
+"note": "'På den måde' gives inversion ('får vi')."
+},
+{
+"da": "Så lærer eleverne også at bruge mobilen fornuftigt.",
+"en": "Then the pupils also learn to use the phone sensibly.",
+"p": false,
+"note": "'Så' gives inversion ('lærer eleverne'). 'Fornuftigt' is an adverb with -t.",
+"words": [
+[
+"fornuftigt",
+"sensibly"
+]
+]
+},
+{
+"da": "Kim Hansen, forælder",
+"en": "Kim Hansen, parent",
+"p": true,
+"note": "An opinion piece ends with your name and sometimes your role, so readers know who you are.",
+"words": [
+[
+"en forælder",
+"a parent"
+]
+]
+}
+]
+},
+"pd3-w5": {
+"lines": [
+{
+"da": "Skolen i to lande",
+"en": "School in two countries",
+"p": true,
+"note": "A short, simple title for an article."
+},
+{
+"da": "I denne artikel vil jeg sammenligne skolen i mit hjemland med den danske skole.",
+"en": "In this article I will compare school in my home country with the Danish school.",
+"p": true,
+"note": "'I denne artikel' first gives inversion ('vil jeg'). 'Sammenligne … med' = 'compare … with'.",
+"words": [
+[
+"sammenligne",
+"compare"
+],
+[
+"et hjemland",
+"a home country"
+]
+]
+},
+{
+"da": "Jeg gik selv i skole der, og nu går min datter i skole i Danmark.",
+"en": "I went to school there myself, and now my daughter goes to school in Denmark.",
+"p": false,
+"note": "Past tense 'gik' vs. present 'går'. 'Nu' gives inversion ('går min datter')."
+},
+{
+"da": "I mit hjemland sidder eleverne på rækker, og læreren taler det meste af tiden.",
+"en": "In my home country the pupils sit in rows, and the teacher talks most of the time.",
+"p": true,
+"note": "'I mit hjemland' gives inversion ('sidder eleverne'). 'Det meste af tiden' = 'most of the time'.",
+"words": [
+[
+"en række",
+"a row"
+]
+]
+},
+{
+"da": "Man lægger stor vægt på faglig viden og udenadslære.",
+"en": "There is great focus on academic knowledge and learning by heart.",
+"p": false,
+"note": "'Lægge vægt på' = 'put emphasis on'. 'Man' is a general subject (people, you).",
+"words": [
+[
+"lægge vægt på",
+"emphasise"
+],
+[
+"udenadslære",
+"learning by heart"
+]
+]
+},
+{
+"da": "Eleverne har mange prøver og får karakterer fra første klasse.",
+"en": "The pupils have many tests and get grades from first class.",
+"p": false,
+"note": "One subject with two verbs: 'har … og får …'.",
+"words": [
+[
+"en prøve",
+"a test"
+],
+[
+"en karakter",
+"a grade"
+]
+]
+},
+{
+"da": "Disciplinen er streng, og man siger ikke læreren imod.",
+"en": "The discipline is strict, and you do not contradict the teacher.",
+"p": false,
+"note": "'Sige imod' = 'contradict'. In a main clause 'ikke' comes after the verb, and 'imod' goes last.",
+"words": [
+[
+"streng",
+"strict"
+],
+[
+"sige imod",
+"contradict"
+]
+]
+},
+{
+"da": "Mange familier betaler også for ekstra undervisning efter skoletid.",
+"en": "Many families also pay for extra lessons after school.",
+"p": false,
+"note": "'Også' comes right after the verb 'betaler'."
+},
+{
+"da": "I Danmark går alle børn i folkeskole i ti år, fra 0. til 9. klasse.",
+"en": "In Denmark all children go to state school for ten years, from year 0 to year 9.",
+"p": true,
+"note": "'I Danmark' gives inversion ('går alle børn'). 'I ti år' shows duration.",
+"words": [
+[
+"folkeskole",
+"Danish state school"
+]
+]
+},
+{
+"da": "Eleverne arbejder ofte i grupper og diskuterer meget i timerne.",
+"en": "The pupils often work in groups and discuss a lot in lessons.",
+"p": false,
+"note": "'Ofte' comes after the verb in a main clause. 'Timerne' = 'the lessons'.",
+"words": [
+[
+"diskutere",
+"discuss"
+]
+]
+},
+{
+"da": "De får først karakterer fra 8. klasse.",
+"en": "They do not get grades until year 8.",
+"p": false,
+"note": "'Først' here means 'not until'. It comes after the verb."
+},
+{
+"da": "Forholdet mellem lærere og elever er uformelt, og man siger \"du\" til læreren.",
+"en": "The relationship between teachers and pupils is informal, and you say 'du' to the teacher.",
+"p": false,
+"note": "'Uformelt' has -t because 'forholdet' is an et-word.",
+"words": [
+[
+"et forhold",
+"a relationship"
+],
+[
+"uformel",
+"informal"
+]
+]
+},
+{
+"da": "Desuden er uddannelsen gratis, og studerende kan få SU.",
+"en": "In addition, education is free, and students can get SU (a state grant).",
+"p": false,
+"note": "'Desuden' gives inversion ('er uddannelsen'). 'SU' is the Danish student grant.",
+"words": [
+[
+"studerende",
+"students"
+]
+]
+},
+{
+"da": "Begge systemer har fordele og ulemper.",
+"en": "Both systems have advantages and disadvantages.",
+"p": true,
+"note": "'Begge' (both) goes before a plural noun.",
+"words": [
+[
+"en ulempe",
+"a disadvantage"
+]
+]
+},
+{
+"da": "På den ene side lærer eleverne i mit hjemland meget faglig viden.",
+"en": "On the one hand the pupils in my home country learn a lot of academic knowledge.",
+"p": false,
+"note": "Inversion after 'På den ene side' ('lærer eleverne').",
+"words": [
+[
+"faglig",
+"academic"
+]
+]
+},
+{
+"da": "De er ofte stærke i matematik og naturfag.",
+"en": "They are often strong in maths and science.",
+"p": false,
+"note": "'Stærke' has -e because 'de' is plural.",
+"words": [
+[
+"naturfag",
+"science"
+]
+]
+},
+{
+"da": "Men de lærer ikke så meget om at samarbejde og tænke selvstændigt.",
+"en": "But they do not learn much about working together and thinking independently.",
+"p": false,
+"note": "After a preposition ('om') Danish uses 'at' + infinitive.",
+"words": [
+[
+"samarbejde",
+"cooperate"
+],
+[
+"selvstændigt",
+"independently"
+]
+]
+},
+{
+"da": "På den anden side bliver danske elever gode til at diskutere og arbejde i grupper.",
+"en": "On the other hand, Danish pupils become good at discussing and working in groups.",
+"p": false,
+"note": "Inversion: 'bliver danske elever'. 'Gode til at' + infinitive = 'good at'."
+},
+{
+"da": "Til gengæld er der nogle, der ikke lærer nok, fordi der er mindre pres.",
+"en": "On the other hand, some do not learn enough because there is less pressure.",
+"p": false,
+"note": "In the relative clause 'ikke' comes before the verb ('der ikke lærer').",
+"words": [
+[
+"pres",
+"pressure"
+]
+]
+},
+{
+"da": "Jeg tror, at de to lande kan lære meget af hinanden.",
+"en": "I think the two countries can learn a lot from each other.",
+"p": true,
+"note": "'Lære af' = 'learn from'. 'Hinanden' = 'each other'.",
+"words": [
+[
+"hinanden",
+"each other"
+]
+]
+},
+{
+"da": "Mit hjemland kan lære af Danmark, at det er vigtigt med trivsel og samarbejde.",
+"en": "My home country can learn from Denmark that well-being and cooperation are important.",
+"p": false,
+"note": "'Det er vigtigt med' + noun is a common Danish way to say that something is important.",
+"words": [
+[
+"trivsel",
+"well-being"
+]
+]
+},
+{
+"da": "Danmark kan til gengæld lære at stille højere faglige krav.",
+"en": "Denmark, in return, can learn to set higher academic standards.",
+"p": false,
+"note": "'Til gengæld' comes after the modal verb here. 'Stille krav' = 'make demands'.",
+"words": [
+[
+"et krav",
+"a demand"
+]
+]
+},
+{
+"da": "Eleverne skal både have det godt og lære meget.",
+"en": "The pupils should both feel good and learn a lot.",
+"p": false,
+"note": "'Have det godt' = 'feel good, be well'. 'Både … og' joins the two infinitives."
+},
+{
+"da": "Alt i alt er den bedste skole en blanding af de to systemer.",
+"en": "All in all, the best school is a mix of the two systems.",
+"p": false,
+"note": "'Alt i alt' gives inversion ('er den bedste skole'). 'Bedste' has -e after 'den'.",
+"words": [
+[
+"en blanding",
+"a mix"
+]
+]
+}
+]
 }
 };
+// English translations of tasks that had none yet (used by the task pop-up and the listening intro).
+PD2.TASK_EN = PD2.TASK_EN || {};
+(function (T) { Object.keys(T).forEach(k => { if (!PD2.TASK_EN[k]) PD2.TASK_EN[k] = T[k]; }); })({
+"pd3-18m-w1": {
+"s": "Situation: You have received an e-mail from your friend Sofie, who lives in a flat where the rent has gone up. She is therefore considering renting out a room so that she can afford to stay. The e-mail (the underlined parts are in «»): \"… Now all the flats in our stairwell have got nice bathrooms and new kitchens. It is lovely with a new bathroom and kitchen, but unfortunately the rent has gone up, so I am considering renting out my little study to a student – if it is not too much trouble, that is. «What was it like for you when you had a lodger?» Of course, I could also try to find a smaller flat with a cheaper rent. «Do you think that is a better idea?» I hope you are happy with your new house. It must be lovely with a garden and lots of space. «But what is it like to have a long way to work now?» Actually, I am thinking about moving out of the city myself at some point, but for now it suits me well to live here. It must also be good for the children with their own rooms, new surroundings and new friends. «How have they felt about moving?»...\" Task: Write a reply to your friend.",
+"p": [
+"Thank you for the e-mail.",
+"Respond to the underlined parts of the e-mail.",
+"Underlined: What was it like for you when you had a lodger?",
+"Underlined: Do you think that is a better idea? (to find a smaller flat with a cheaper rent)",
+"Underlined: But what is it like to have a long way to work now?",
+"Underlined: How have they felt about moving? (the children)",
+"Suggest that Sofie comes to visit you."
+]
+},
+"pd3-18m-w2a": {
+"s": "In Part 2 you must answer either task A or task B. 2A: Parents for the first time. The average age of first-time mothers and first-time fathers in the period 1988–2015. Line chart with two lines: average age of first-time mothers (blue) and average age of first-time fathers (green). The lines (read from the chart, approximate figures in years, women / fathers): 1988 26.0 / 28.6 · 1991 26.6 / 29.1 · 1994 27.1 / 29.6 · 1997 27.6 / 30.1 · 2000 28.1 / 30.6 · 2003 28.6 / 31.0 · 2006 28.9 / 31.3 · 2009 29.0 / 31.3 · 2012 29.0 / 31.4 · 2015 29.1 / 31.3. Source: Statistics Denmark. You must write at least 200 words.",
+"p": [
+"Briefly describe the main features of the chart.",
+"Explain what the reasons for the development shown in the chart might be.",
+"Assess the advantages and disadvantages of waiting to have children until you are in your late 30s because you want to build a career before you have children."
+]
+},
+"pd3-18m-w2b": {
+"s": "In Part 2 you must answer either task A or task B. 2B: Digitalisation. Society is becoming more and more digitalised, and there are different views on what consequences this has for citizens. Here are some points of view: • Digitalisation makes it easy and quick to get in contact with public authorities. • Digitalisation makes it practical and simple to transfer or receive money. • Digitalisation in state schools makes it easier for parents to follow their children's schooling. • Digitalisation in the health sector means that staff have less contact with patients. • Digitalisation and self-service in the public sector put older citizens at a disadvantage. • Digitalisation makes it easier for cybercriminals to steal and use personal information. You must write at least 200 words.",
+"p": [
+"Briefly describe your own experiences with digitalisation.",
+"Comment on one or two of the points of view from the list.",
+"Assess what significance increased digitalisation will have for citizens' well-being in the future. Give reasons for your views."
+]
+},
+"pd3-18n-w1": {
+"s": "Situation: You have received an e-mail from your friend Anne. She lives in Aarhus and finished her education as an architect three months ago, but she has not yet found a job. The e-mail (the underlined parts are in «»): \"… I know that three months may not be that long, but I am getting impatient. I really want to find a job soon! I have sent a lot of applications, but it is not easy to get a job when you are newly qualified. In fact, I have considered offering to work for free for an architecture firm for a period, so that I can get some experience. «What do you think of that idea?» Another option is to look for work in another city, but all my friends are here in Aarhus, and it is lovely to have my family close by. «What do you think it will be like to live in a city where I have no network at all?» If it takes a long time before I find something, I could perhaps look for work in a different field where I can also use my qualifications. But it is my dream to work as an architect, so I don't really know. «Do you think it is a good idea?» By the way, you have just got a new job yourself. «Why was it again that you looked for a new job?»\" Task: Write a reply to your friend.",
+"p": [
+"Thank you for the e-mail.",
+"Respond to the underlined parts of the e-mail.",
+"Underlined: What do you think of that idea? (to work for free in an architecture firm for a period to get experience)",
+"Underlined: What do you think it will be like to live in a city where I have no network at all?",
+"Underlined: Do you think it is a good idea? (to look for work in a different field)",
+"Underlined: Why was it again that you looked for a new job?",
+"Suggest that you meet."
+]
+},
+"pd3-18n-w2a": {
+"s": "In Part 2 you must answer either task A or task B. 2A: Media. Chart: News sources, Denmark. For each year (2013–2016) the chart shows three bars: TV (blue), newspapers (light grey) and social media (dark grey). The bars (read from the chart, approximate figures, TV / newspapers / social media): 2013 85% / 49% / 31% · 2014 80% / 42% / 39% · 2015 75% / 34% / 47% · 2016 73% / 29% / 56%. Source: http://www.digitalnewsreport.org/survey/2016/denmark-2016/. You must write at least 200 words.",
+"p": [
+"Briefly describe the main features of the chart.",
+"Explain what the reasons for one or more of the differences shown in the chart might be.",
+"Assess the advantages and disadvantages of news increasingly being communicated via social media. (Your answer to this point must make up about 50% of the whole answer.)"
+]
+},
+"pd3-18n-w2b": {
+"s": "In Part 2 you must answer either task A or task B. 2B: Female top managers. Although there is a high degree of equality between women and men in Denmark, there are far more male than female top managers. There are various reasons for this. Possible reasons: • Women prioritise family over career to a greater extent. • Men are better than women at making unpopular decisions. • Women do not place as much importance on a high-status job as men. • Men are more focused and goal-oriented than women. • Women are not as good at highlighting their own qualifications. • Male top managers prefer to hire other men. You must write at least 200 words.",
+"p": [
+"Briefly describe the gender balance in the management of a workplace you know.",
+"Comment on one or two of the points of view from the list.",
+"Assess whether a more equal sharing of maternity and parental leave between women and men will increase the proportion of female top managers. Give reasons for your views. (Your answer to this point must make up about 50% of the whole answer.)"
+]
+},
+"pd3-19m-w1": {
+"s": "Situation: You have received an e-mail from your friend Sofie, who works as a communications officer in a large company. She is happy with the job, but she works a lot. Among other things, she writes: The e-mail (the underlined parts are in «»): \"… Thanks for the other day, it was really nice to have you visit. And how exciting that you have signed up for the marathon in Berlin next year. «How is the training going?» As we talked about, I am very happy with my new job. But I work more than 40 hours a week, and now my boss has asked if I want to be project manager on a new project. It is a big chance for me, but it also means more overtime, so I don't know if I should say yes. «What do you think I should do?» «I would also like to hear what you think it is like to take the train to work every day?» I am so tired of sitting in queues on the motorway every day – and maybe I could do without the car. About that summer house on Bornholm that we talked about renting, maybe we could rent it for a week in July. «What do you say to that?» ...\" Task: Write a reply to your friend.",
+"p": [
+"Thank you for the e-mail.",
+"Respond to the underlined parts of the e-mail.",
+"Underlined: How is the training going? (for the marathon in Berlin)",
+"Underlined: What do you think I should do? (about becoming project manager)",
+"Underlined: I would also like to hear what you think it is like to take the train to work every day?",
+"Underlined: What do you say to that? (renting the summer house on Bornholm for a week in July)",
+"Suggest that you meet and talk more about your holiday plans."
+]
+},
+"pd3-19m-w2a": {
+"s": "In Part 2 you must answer either task A or task B. 2A: Payday loans¹. Share of the population who take out payday loans – by employment status. The bars (read from the chart, approximate figures): In work about 4.2% · Unemployed about 6.8% · Retired or on sickness benefit about 11.5%. Source: https://www.kfst.dk/media/2779/20150701-markedet-for-kviklaan-opdateret-juli-2015.pdf. ¹ Payday loans are loans you can take out quickly through private lending companies. Payday loans usually have to be paid back within a few months and have relatively high interest rates. You must write at least 200 words.",
+"p": [
+"Briefly describe the main features of the chart.",
+"Explain what the reasons for one or more of the differences shown in the chart might be.",
+"In 2017 a law was passed saying that 48 hours must pass before a citizen can have a payday loan paid out. Assess whether it is the state's responsibility to limit private lending companies' opportunities to offer consumers payday loans. Give reasons for your views. (Your answer to this point must make up about 50% of the whole answer.)"
+]
+},
+"pd3-19m-w2b": {
+"s": "In Part 2 you must answer either task A or task B. 2B: Disruption in lessons in state schools. Many people think there is too much disruption in lessons in state schools, and that it harms the children's learning. There are different views on how to create more calm in lessons. Here are some points of view: • More of the teaching should take place outside the classrooms. • The pupils should help decide the content of the teaching. • There should be more learning by heart. • Teachers should send disruptive pupils out of the room. • Teachers should be better trained in creating respect. • Disruptive pupils should be in smaller classes with other disruptive pupils. You must write at least 200 words.",
+"p": [
+"Briefly describe your own experiences with disruption in lessons when you were at school.",
+"Comment on one or two of the points of view from the list.",
+"Assess whether it is the responsibility of the parents, the teachers or the school to create more calm in lessons in state schools. Give reasons for your views. (Your answer to this point must make up about 50% of the whole answer.)"
+]
+},
+"pd3-19n-w1": {
+"s": "Situation: You have received an e-mail from your friends, who have a daughter at upper secondary school. The daughter has been offered the chance to move into a flat with a friend. Your friends are unsure whether it is a good idea. Part of the e-mail is shown below. The e-mail (the underlined parts are in «»): \"… You told us last time we were together that you were going on a long trip this summer. «Where have you decided to travel to?» We do not know yet whether we will travel this summer, because, as mentioned, Maria may be moving. And if she moves, we will be busy helping her. But we are a little worried about whether Maria is too young to move away from home. You know her really well. «What do you think?» There is also the question of money. Maria's share of the rent will be 2,300 kroner, and she can only manage the rent if she works more than she already does now. «Do you think it is possible to work more than 10 hours a week while you are also at upper secondary school?» If Maria moves away from home, we will no longer see her on weekdays. «What do you think it will be like for us – and for her?» …\" Task: Write a reply to your friend.",
+"p": [
+"Thank you for the e-mail.",
+"Respond to the underlined parts of the e-mail.",
+"Underlined: Where have you decided to travel to? (your trip this summer)",
+"Underlined: What do you think? (about whether Maria is too young to move away from home)",
+"Underlined: Do you think it is possible to work more than 10 hours a week while you are also at upper secondary school?",
+"Underlined: What do you think it will be like for us – and for her?",
+"Suggest that you meet."
+]
+},
+"pd3-19n-w2a": {
+"s": "In Part 2 you must answer either task A or task B. 2A: Air travel. Chart: People travelling from the larger public airports in Denmark (millions, stacked bars: international traffic and domestic traffic). The bars (read from the chart, approximate figures, total / of which domestic traffic): 2009 about 12.1 / 1.9 · 2010 about 13.3 / 2.4 · 2011 about 14.0 / 2.3 · 2012 about 14.2 / 1.9 · 2013 about 14.6 / 1.8 · 2014 about 15.4 / 1.9 · 2015 about 16.0 / 1.8 · 2016 about 17.3 / 1.9 · 2017 about 17.5 / 1.9 million. So international traffic rose from about 10.2 million (2009) to about 15.6 million (2017), while domestic traffic stayed at about 2 million every year. Source: Statistics Denmark, 2018. You must write at least 200 words.",
+"p": [
+"Briefly describe the main features of the chart.",
+"Explain what the reasons for the development shown in the chart might be.",
+"Assess the advantages and disadvantages of people travelling more than before. Give reasons for your views. (Your answer to this point must make up about 50% of the whole answer.)"
+]
+},
+"pd3-19n-w2b": {
+"s": "In Part 2 you must answer either task A or task B. 2B: Completion and drop-out in higher education. Every year many young people start a higher education programme. Most complete their education, but quite a few drop out. The risk of dropping out is greater for young people whose parents have little education. Here are some suggestions for how to get more young people to complete an education: • Better guidance before choosing an education. • More teaching hours on the programme. • More social events on the programme. • Higher requirements for grade point average on admission. • Tuition fees in the education system. • More individual feedback from the teachers. You must write at least 200 words.",
+"p": [
+"Briefly explain what challenges you think there may be when you start an education.",
+"Comment on one or two of the suggestions from the list.",
+"Assess why a larger share of young people with well-educated parents than young people with parents with a short education complete a higher education. Give reasons for your views. (Your answer to this point must make up about 50% of the whole answer.)"
+]
+},
+"pd3-20m-w1": {
+"s": "Situation: You have received an e-mail from your Danish friend Christina. She has a Hungarian boyfriend, Laszlo, who has just started at a language school. Among other things, Christina writes: The e-mail (the underlined parts are in «»): \"… How amazing that you will soon be finished with language school. «Do you think you will miss the school?» The Danish language is a bit difficult for Laszlo. He does not have very many hours at the language school, and we mostly speak English together at home. «Do you have any ideas about what we can do so that Laszlo learns Danish faster?» Laszlo also does not know very many Danes yet that he can speak Danish with. «What did you actually do to get some Danish friends?» And I am looking forward to seeing you next weekend. «What do you think we should do?» …\" Task: Write a reply to your friend.",
+"p": [
+"Thank you for the e-mail.",
+"Respond to the underlined parts of the e-mail.",
+"Underlined: Do you think you will miss the school?",
+"Underlined: Do you have any ideas about what we can do so that Laszlo learns Danish faster?",
+"Underlined: What did you actually do to get some Danish friends?",
+"Underlined: What do you think we should do? (next weekend)",
+"Suggest an activity you can do next weekend."
+]
+},
+"pd3-20m-w2a": {
+"s": "In Part 2 you must answer either task A or task B. 2A: Stress. Chart: The share of Danes who feel stressed in everyday life by age and gender. For each age group the chart shows two bars: women (blue) and men (grey). The bars (read from the chart, women / men): 25–34 years 28% / 18% · 35–44 years 22% / 15% · 45–54 years 20% / 14% · 55–64 years 16% / 12% · 65–74 years 8% / 5% · 75 years or more 10% / 6% · All 20% / 13%. Source: National Institute of Public Health, 2017. You must write at least 200 words.",
+"p": [
+"Briefly describe the main features of the chart.",
+"Explain what the reasons for the development shown in the chart might be. (Examiners' note: The chart does not show a development over time but differences between age groups and genders. It does not count against you if you read a development into the chart.)",
+"Discuss whether social media are a bigger cause of stress than working life. Give reasons for your views. (Your answer to this point must make up about 50% of the whole answer.)"
+]
+},
+"pd3-20m-w2b": {
+"s": "In Part 2 you must answer either task A or task B. 2B: The first job as a new graduate. Every year there are many new graduates from universities, university colleges and other educational institutions who need to get their first job as qualified graduates. There are various factors besides education that can influence new graduates' job opportunities. Here are some examples: • Voluntary work • Language skills • Age • Personal network • Student job • Stay abroad. You must write at least 200 words.",
+"p": [
+"Briefly describe how you or someone else you know got their first job as a new graduate.",
+"Comment on one or two of the examples from the list.",
+"Discuss whether personality is more important than exam results when you need to get a job as a new graduate. Give reasons for your views. (Your answer to this point must make up about 50% of the whole answer.)"
+]
+},
+"pd3-20n-w1": {
+"s": "Situation: You have received an e-mail from your Danish friend Trine. Her daughter Rikke is 19 years old, and she finished upper secondary school this summer. Part of the e-mail is shown below. The e-mail (the underlined parts are in «»): \"… How lovely that we will soon have the Christmas holidays. «Do you have any plans?» Rikke finished upper secondary school this summer, but she doesn't really know which education to choose. Right now she is working to earn money to travel. However, I am nervous that she will lose interest in studying if she doesn't get started soon. «What do you think it will mean for her motivation to study if she waits another year?» Rikke would like to move away from home and is now looking for a place to live together with two of her friends. I am not sure whether it is a good idea for her to move out before she has her future plans more under control. «What do you think?» I really need a holiday after a busy autumn at work. We are actually considering travelling at Christmas this year, but on the other hand we would also like to see family and friends at Christmas. «What do you think we should do?» …\" Task: Write a reply to your friend.",
+"p": [
+"Thank her for the e-mail.",
+"Respond to the underlined parts of the e-mail.",
+"Underlined: Do you have any plans? (for the Christmas holidays)",
+"Underlined: What do you think it will mean for her motivation to study if she waits another year?",
+"Underlined: What do you think? (about Rikke moving away from home)",
+"Underlined: What do you think we should do? (travel or see family and friends at Christmas)",
+"Suggest that you meet and talk more about Rikke's plans."
+]
+},
+"pd3-20n-w2a": {
+"s": "In Part 2 you must answer either task A or task B. 2A: Working from home. The share of Danes with different educational backgrounds who, in a survey from 2017, answered that they had worked from home within the last 4 weeks. Chart: Working from home. The bars (read from the chart, approximate figures): Primary and lower secondary school approx. 12% · Vocational education approx. 23% · Long higher education and PhD approx. 59%. Source: Statistics Denmark (2017). You must write at least 200 words.",
+"p": [
+"Briefly describe the main features of the chart.",
+"Say what reasons there may be for the differences the chart shows.",
+"Assess whether having the option to work from home increases or reduces the risk of stress. Give reasons for your views. (Your answer to this point must make up approx. 50% of the whole answer.)"
+]
+},
+"pd3-20n-w2b": {
+"s": "In Part 2 you must answer either task A or task B. 2B: Employee benefits. Many companies offer their employees benefits in order to attract them and keep them in the company. Here are some examples of employee benefits: • Social events in leisure time • Childcare at the company • Further education and courses • Gym membership • Health check at the workplace • Canteen food to take home. You must write at least 200 words.",
+"p": [
+"Briefly talk about employee benefits you have had yourself or have heard about.",
+"Comment on one or two of the examples from the list.",
+"Assess whether it is important for the working environment that a company offers its employees benefits. Give reasons for your views. (Your answer to this point must make up approx. 50% of the whole answer.)"
+]
+},
+"pd3-21m-w1": {
+"s": "Situation: You have received an e-mail from Lise, who is your good friend. Lise lives in a house in Odense with her husband. Her sister is getting divorced. The e-mail (the underlined parts are in «»): \"… Thanks for last time, it was nice to see you. I am curious to hear whether you «have bought the e-bike you talked about»? My sister Nina, whom you may remember, is getting divorced. She has found a flat that she can take over in a month. She has asked whether she can move in with us with her two children while she waits for the flat to be ready. But maybe it is better if they wait and move straight into the flat. «What do you think is best?» I have thought a lot about the fact that we have always liked my sister's husband. But now I am afraid that we will not be able to keep seeing him in the future. «What do you think?» I look forward to hearing from you and hearing about «how it is going with learning Danish». I have heard that you will soon finish language school.\" Task: Write a reply to your friend.",
+"p": [
+"Thank her for the e-mail.",
+"Respond to the underlined parts of the e-mail.",
+"Underlined: … whether you have bought the e-bike you talked about?",
+"Underlined: What do you think is best? (that Nina and the children move in with Lise, or that they wait and move straight into the flat)",
+"Underlined: What do you think? (whether Lise and her husband can keep seeing the sister's husband)",
+"Underlined: … how it is going with learning Danish.",
+"Suggest that you meet so that you can tell her how it is going with speaking Danish."
+]
+},
+"pd3-21m-w2a": {
+"s": "In Part 2 you must answer either task A or task B. 2A: Job turnover (job turnover = the number of people who start a new job coming from another job, from unemployment or as newly qualified). Chart: Job turnover in Denmark in 2018 by age (number of people). The bars (read from the chart, approximate figures): 20–34-year-olds approx. 40,600 · 35–49-year-olds approx. 23,200 · 50–64-year-olds approx. 14,100. Source: www.jobindsats.dk, 2020. You must write at least 200 words.",
+"p": [
+"Briefly describe the main features of the chart.",
+"Say what reasons there may be for the differences the chart shows.",
+"Assess the advantages and disadvantages for a company of staff turnover among its employees. (Your answer to this point must make up approx. 50% of the whole answer.)"
+]
+},
+"pd3-21m-w2b": {
+"s": "In Part 2 you must answer either task A or task B. 2B: Young people and health. Some young people have an unhealthy lifestyle where they move too little, eat and drink too unhealthily and often also smoke. Here are some suggestions for how young people can get a healthier lifestyle: • A higher age limit for buying alcohol • Meal schemes with healthy food at schools and upper secondary education • A ban on advertising for sweets and soft drinks • More teaching about health and lifestyle in primary school • More PE lessons at schools and upper secondary education • Compulsory talks with your own doctor about a healthy lifestyle. You must write at least 200 words.",
+"p": [
+"Briefly talk about how you yourself try to live healthily.",
+"Comment on one or two of the examples from the list.",
+"Assess whether friends and youth culture have a greater influence on young people's lifestyle than their parents. Give reasons for your views. (Your answer to this point must make up approx. 50% of the whole answer.)"
+]
+},
+"pd3-21n-w1": {
+"s": "Situation: You have received an e-mail from your friend Erik. He has just been offered a job at his company's head office, which is in another town in Denmark. The e-mail (the underlined parts are in «»): \"… Thanks for last time, it was nice. I am curious to hear about the concert you were going to. «So how was it?» As I told you, my boss has offered me a job at the head office. It is an exciting challenge, and I have said yes. In the new job I will be the manager of some of my current colleagues. «Do you think it will be difficult?» I will also get some longer working days. «What do you think it will mean for family life?» The head office is not here in town, so it is too far to cycle to work. The question is whether I should take the car or the train. «What would you do?»\" Task: Write a reply to your friend.",
+"p": [
+"Thank him for the e-mail.",
+"Respond to the underlined parts of the e-mail.",
+"Underlined: So how was it? (the concert)",
+"Underlined: Do you think it will be difficult? (to become the manager of his current colleagues)",
+"Underlined: What do you think it will mean for family life? (the longer working days)",
+"Underlined: What would you do? (the car or the train)",
+"Suggest that you meet and talk more about your friend's situation."
+]
+},
+"pd3-21n-w2a": {
+"s": "In Part 2 you must answer either task A or task B. 2A: Sickness absence. Chart: Average sickness absence in per cent within four types of job. The bars (read from the chart, approximate figures): Managers approx. 1.5% · University researchers approx. 2.2% · Nurses approx. 5.5% · Social and health care assistants approx. 7.2%. Source: Absence Report 2019. The National Research Centre for the Working Environment, 2019. You must write at least 200 words.",
+"p": [
+"Briefly describe the main features of the chart.",
+"Say what reasons there may be for some of the differences the chart shows.",
+"Assess whether it is the management's or the employees' own responsibility to reduce sickness absence. Give reasons for your views. (Your answer to this point must make up approx. 50% of the whole answer.)"
+]
+},
+"pd3-21n-w2b": {
+"s": "In Part 2 you must answer either task A or task B. 2B: Climate change and responsibility. There is a lot of talk that the climate change we are experiencing now, with extreme weather, floods and drought, will get even worse in the future if we do not reduce CO2 emissions. Here are some suggestions for what individuals can do themselves to reduce CO2 emissions: • Avoid travelling by plane • Sort your waste • Cycle or walk to work or school • Avoid buying plastic products • Buy second-hand clothes • Eat a plant-based diet. You must write at least 200 words.",
+"p": [
+"Briefly talk about something you have experienced or heard about that has been affected by climate change.",
+"Comment on one or two of the suggestions from the list.",
+"Assess whether it is the individual's or society's responsibility to reduce CO2 emissions. Give reasons for your views. (Your answer to this point must make up approx. 50% of the whole answer.)"
+]
+},
+"pd3-22m-w1": {
+"s": "Situation: You have received an e-mail from your Danish friend Mia. She has been posted to New York for three years for a Danish company, and now she will soon come home to Odense with her family. The e-mail (the underlined parts are in «»): \"… Thanks for the chat last week, it was nice to talk to you on Skype. I am very curious to hear about your driving test. «How did it go?» As you know, our time in New York will soon be over, and we are going home to Odense in three weeks. I will be working with some colleagues I don't know. «What do you think I should do to get a good start at work?» The children have become teenagers, and they are very sad to say goodbye to their friends here in New York. I wonder whether they can keep in touch. «Do you think it is possible?» Jens has got a new job in Denmark, which he is looking forward to starting after 3 years as a stay-at-home parent. However, the new job is 30 km from Odense, so we are considering buying an extra car, but he can also take the train. «What would you do?»\" Task: Write a reply to your friend.",
+"p": [
+"Thank her for the e-mail.",
+"Respond to the underlined parts of the e-mail.",
+"Underlined: How did it go? (your driving test)",
+"Underlined: What do you think I should do to get a good start at work?",
+"Underlined: Do you think it is possible? (that the children keep in touch with their friends in New York)",
+"Underlined: What would you do? (buy an extra car or take the train)",
+"Suggest that you meet when Mia comes home."
+]
+},
+"pd3-22m-w2a": {
+"s": "In Part 2 you must answer either task A or task B. 2A: Climate worry and age. Chart: Share of people in different age groups who are very worried about climate change. The bars (read from the chart, approximate figures): 18–34 years approx. 27% · 35–49 years approx. 24% · 50–70 years approx. 22% · All approx. 24%. The survey was carried out among a representative sample of 2,000 people aged 18–70. Source: https://ida.dk. You must write at least 200 words.",
+"p": [
+"Briefly describe the main features of the chart.",
+"Say what reasons there may be for the differences the chart shows.",
+"What advantages and disadvantages do you think there may be for society in young people worrying about climate change? Give reasons for your views. (Your answer to this point must make up approx. 50% of the whole answer.)"
+]
+},
+"pd3-22m-w2b": {
+"s": "In Part 2 you must answer either task A or task B. 2B: An attractive workplace. There are various factors that can matter for how attractive a workplace is for the employees. Here are some examples: • Good cooperation between colleagues • Flexible working hours • Influence on your own tasks • Good pay • Opportunity for further education • Employee benefits. You must write at least 200 words.",
+"p": [
+"Briefly talk about an attractive workplace you have been at or have heard about.",
+"Comment on one or two of the factors from the list.",
+"Assess whether it is the manager's personal qualities or professional qualifications that are most important for whether a workplace is attractive. (Your answer to this point must make up approx. 50% of the whole answer.)"
+]
+},
+"pd3-22n-w1": {
+"s": "Situation: You have received an e-mail from your good friend Claus, who has recently got a new job. The e-mail (the underlined parts are in «»): \"… Thanks for last time. I hope you had a good holiday. «So what was it like hiking in the mountains?» I am really happy with my new job. However, I have the problem that there is a lot of noise in the office where I work. More than 20 of us sit in the same room, and two of my colleagues in particular talk a lot together. I am considering telling them that it disturbs me. «Do you think I should do it?» Many of my new colleagues often stay an hour or two after work on Fridays and have a beer or a soft drink. I would actually rather just go home and start the weekend. «Do you think it is important that I stay anyway?» We are soon going to Steen's 30th birthday and have agreed to give a present together. «But what should we actually give him?» …\" Task: Write a reply.",
+"p": [
+"Thank him for the e-mail.",
+"Respond to the underlined parts of the e-mail.",
+"Underlined: So what was it like hiking in the mountains?",
+"Underlined: Do you think I should do it? (tell the colleagues that their talking disturbs him)",
+"Underlined: Do you think it is important that I stay anyway? (on Fridays after work)",
+"Underlined: But what should we actually give him? (Steen's birthday present)",
+"Suggest that you meet so that you can hear more about Claus's new job."
+]
+},
+"pd3-22n-w2a": {
+"s": "In Part 2 you must answer either task A or task B. 2A: Foreign labour in Denmark. Chart: Number of foreign citizens with wage income in Denmark (bars: number of people). The bars (read from the chart, approximate figures): 2012 approx. 250,000 · 2013 approx. 265,000 · 2014 approx. 285,000 · 2015 approx. 310,000 · 2016 approx. 340,000 · 2017 approx. 360,000 · 2018 approx. 385,000 · 2019 approx. 400,000 · 2020 just under 400,000 (slightly lower than 2019). Source: www.jobindsats.dk. You must write at least 200 words.",
+"p": [
+"Briefly describe what the chart shows.",
+"Say what reasons there may be for the development the chart shows.",
+"Assess what foreign labour will mean for Danish society in the future. Give reasons for your views. (Your answer to this point must make up approx. 50% of the whole answer.)"
+]
+},
+"pd3-22n-w2b": {
+"s": "In Part 2 you must answer either task A or task B. 2B: Well-being at the workplace. There are various factors that can affect well-being at a workplace either positively or negatively. Here are some examples: • Opportunity to work from home • Opportunity to make a career • Opportunity to get a bonus • Management style • Reorganisation in the company • Job security. You must write at least 200 words.",
+"p": [
+"Briefly talk about a job that you, or someone you know, has been happy with.",
+"Comment on one or two of the factors from the list.",
+"Assess whether good colleagues or challenging tasks are most important for whether you thrive at a workplace. Give reasons for your views. (Your answer to this point must make up approx. 50% of the whole answer.)"
+]
+},
+"pd3-23m-w1": {
+"s": "Situation: You have received an e-mail from your Danish friend, who is soon going to be a parent. The e-mail (the underlined parts are in «»): \"… Thanks for last time, it was nice to meet up with you. You said that you are looking for a new place to live. «How is that going?» As I said, we are looking forward to becoming parents for the first time this winter ☺. We still haven't decided whether we want to know the baby's sex before the birth. «Do you think you should know in advance whether it will be a girl or a boy?» We have talked about taking a month of parental leave together and then travelling out into the world with the little one. «Don't you think that sounds like a good idea?» You came on holiday with us last year, and it was so nice. This year we are going to my parents' summer house for a week at the end of July. «Do you want to come?» …\" Task: Write a reply.",
+"p": [
+"Thank you for the e-mail.",
+"Respond to the underlined parts of the e-mail.",
+"Underlined: How is that going?",
+"Underlined: Do you think you should know in advance whether it will be a girl or a boy?",
+"Underlined: Don't you think that sounds like a good idea?",
+"Underlined: Do you want to come?",
+"Suggest that you meet soon and talk about the summer holiday."
+]
+},
+"pd3-23m-w2a": {
+"s": "In part 2 you must answer either task A or task B. 2A: Road safety. Diagram: Share of people killed and injured in traffic, by age. For each age group the diagram shows two bars: killed and injured (blue) and share of the population (grey). The bars (read from the diagram, approximate figures, killed and injured / share of the population): 0-14 years approx. 5 % / 16 % · 15-17 years approx. 5 % / 3 % · 18-24 years approx. 17 % / 9 % · 25-34 years approx. 16 % / 13 % · 35-44 years approx. 13 % / 12 % · 45-54 years approx. 14 % / 14 % · 55-64 years approx. 14 % / 12 % · 65-74 years approx. 9 % / 11 % · 75+ years approx. 7 % / 9 %. Source: https://www.vejdirektoratet.dk/sites/default/files/2020-10/Politikredsrapport_2019.pdf. You must write at least 200 words.",
+"p": [
+"Describe the main features of the diagram.",
+"Say what reasons there may be for some of the differences the diagram shows.",
+"Assess what the state and the municipalities can do to reduce the number of people killed and injured in traffic. Give reasons for your views. (Your answer to this point must make up approx. 50 % of the whole answer.)"
+]
+},
+"pd3-23m-w2b": {
+"s": "In part 2 you must answer either task A or task B. 2B: Health offers at the workplace. Many workplaces in Denmark offer activities to make their employees live more healthily. Some offers are part of working hours, and others take place in leisure time. Here are some examples: • Breaks with exercises during working hours • Talks about a healthy lifestyle during working hours • Health checks during working hours • Running club after working hours • Subsidies for exercise activities in leisure time • Courses in quitting smoking in leisure time. You must write at least 200 words.",
+"p": [
+"Tell briefly about health offers at a workplace that you know or have heard about.",
+"Comment on one or two of the examples from the list.",
+"Assess the advantages and disadvantages of a workplace getting involved in its employees' lifestyle. Give reasons for your views. (Your answer to this point must make up approx. 50 % of the whole answer.)"
+]
+},
+"pd3-23n-w1": {
+"s": "Situation: You have received an e-mail from your friend Hanne, who has a son at a vocational school. The e-mail (the underlined parts are in «»): \"… You talked last time about getting a new kitchen. «How has it turned out?» As you know, Mathias is training to be an electrician. So he alternately gets SU (student grant) and apprentice pay while he does his training. «Do you think he ought to pay rent to live at home?» Actually, I would like to encourage him to go on and study to become an engineer. «Do you think it is a bad idea for me to interfere?» As you know, we usually go to Italy in the summer holiday. But Mathias has got a girlfriend now, whom he has been with for about half a year. «Do you think we should invite her along?» …\" Task: Write a reply.",
+"p": [
+"Thank you for the e-mail.",
+"Respond to the underlined parts of the e-mail.",
+"Underlined: How has it turned out?",
+"Underlined: Do you think he ought to pay rent to live at home?",
+"Underlined: Do you think it is a bad idea for me to interfere?",
+"Underlined: Do you think we should invite her along?",
+"Suggest that you meet soon and talk about the summer holiday."
+]
+},
+"pd3-23n-w2a": {
+"s": "In part 2 you must answer either task A or task B. 2A: Men's and women's choice of vocational education. Diagram: The share of men and women admitted to vocational education by field of education in 2021. The bars (read from the diagram, approximate figures): Men (total 9,366): Technology, construction and transport approx. 76 % · Care, health and pedagogy approx. 3 % · Office, trade and business services approx. 11 % · Food, agriculture and experiences approx. 10 %. Women (total 3,802): Technology, construction and transport approx. 13 % · Care, health and pedagogy approx. 44 % · Office, trade and business services approx. 24 % · Food, agriculture and experiences approx. 19 %. Source: The Agency for IT and Learning. You must write at least 200 words.",
+"p": [
+"Briefly describe the main features of the diagram.",
+"Say what reasons there may be for some of the differences the diagram shows.",
+"Assess whether the current gender distribution in vocational education is a problem for Danish society. Give reasons for your views. (Your answer to this point must make up approx. 50 % of the whole answer.)"
+]
+},
+"pd3-23n-w2b": {
+"s": "In part 2 you must answer either task A or task B. 2B: Choice of transport. People differ in what they consider important when they choose transport to and from work. Here are some examples: • It must be cheap • It must be fast • It must be comfortable • It must give exercise • It must be possible to work during the journey • It must be environmentally friendly. You must write at least 200 words. (Footnote: The commuting allowance is the amount that can be deducted from a person's income before tax is calculated. You can get the commuting allowance if you travel more than 24 km to and from work.)",
+"p": [
+"Tell briefly about your choice of transport.",
+"Comment on one or two of the examples from the list.",
+"Assess the advantages and disadvantages for society of people who travel more than 24 km to and from work being able to get a commuting allowance. (Your answer to this point must make up approx. 50 % of the whole answer.)"
+]
+},
+"pd3-24m-w1": {
+"s": "Situation: You have received an e-mail from your Danish friend, who has just got a new job and has moved to another town. The e-mail (the underlined parts are in «»): \"… Thanks for last time, it was nice. You said that you will soon finish your Danish course, but that you don't feel you are good enough at Danish. «Have you thought more about what you will do now?» I don't know many people here in town yet, but many of my colleagues live around here, and they are actually really nice. «Do you think it would be a good idea to invite them all to my place one evening?» And now something completely different. At my new workplace there is cake both at meetings and on birthdays, and I simply think it is too much. «Do you think I should suggest that we drop the cake at meetings?» And I have a practical question for you. I still have some of my things in the basement under my old flat. They need to be moved over here. «Can you help me with that at the weekend?» …\" Task: Write a reply.",
+"p": [
+"Thank you for the e-mail.",
+"Respond to the underlined parts of the e-mail.",
+"Underlined: Have you thought more about what you will do now?",
+"Underlined: Do you think it would be a good idea to invite them all to my place one evening?",
+"Underlined: Do you think I should suggest that we drop the cake at meetings?",
+"Underlined: Can you help me with that at the weekend?",
+"Suggest that you call each other and talk more."
+]
+},
+"pd3-24m-w2a": {
+"s": "In part 2 you must answer either task A or task B. 2A: Voluntary work. Diagram: The share of the adult Danish population who did voluntary work in 2020 in selected areas. The bars (read from the diagram, approximate figures): Culture (e.g. museums) approx. 4 % · Sport (e.g. sports clubs) approx. 12 % · The social area (e.g. visiting friends and refugee friends) approx. 5 % · Environment (e.g. nature conservation) approx. 1 % · Health and illness (e.g. blood donors and patient associations) approx. 3 %. Source: The Volunteering Survey 2020, page 27, https://www.vive.dk/media/pure/16186/5662919. You must write at least 200 words.",
+"p": [
+"Briefly describe the main features of the diagram.",
+"Say what reasons there may be for some of the differences the diagram shows.",
+"Assess whether the shortage of nurses and social and health care assistants can be solved with the help of volunteers. Give reasons for your views. (Your answer to this point must make up approx. 50 % of the whole answer.)"
+]
+},
+"pd3-24m-w2b": {
+"s": "In part 2 you must answer either task A or task B. 2B: Pay differences and pay levels. There are differences in what people in different jobs and with different educational backgrounds and experience earn. People have different views on this. Some think that one or more of the groups below get too little pay: • Employees who look after children, sick people and the elderly • Employees with physically hard work • Employees with unusual working hours, e.g. night work • Highly educated people • Top managers • Women. You must write at least 200 words.",
+"p": [
+"Tell briefly about some pay differences you know about.",
+"Comment on one or two of the views from the list.",
+"Assess the advantages and disadvantages for Danish society of there being relatively small pay differences between high earners and low earners. Give reasons for your views. (Your answer to this point must make up approx. 50 % of the whole answer.)"
+]
+},
+"pd3-w1": {
+"s": "The building site next to your home starts at 6 o'clock every morning and is also noisy at weekends. Write a complaint to the municipality's department for building and environment.",
+"p": [
+"Describe the problem precisely (what, when, for how long)",
+"Explain how it affects you and your family",
+"Refer to what you think is reasonable",
+"Make a concrete suggestion for a solution"
+]
+},
+"pd3-w2": {
+"s": "A housing organisation is looking for a communications officer who will write newsletters and communicate with the residents. Write an application.",
+"p": [
+"Explain why you are applying for the position",
+"Describe your education and relevant experience",
+"Say which personal qualities you can contribute",
+"End by saying that you would like to come for an interview"
+]
+},
+"pd3-w3": {
+"s": "A politician suggests that buses and trains should be free for everyone. Write a letter to the editor of your local newspaper in which you argue for or against the proposal.",
+"p": [
+"Present the proposal and your opinion",
+"Give at least two arguments for your opinion",
+"Include a counter-argument and answer it",
+"End with a clear conclusion"
+]
+},
+"pd3-w4": {
+"s": "The government is considering banning mobile phones during the whole school day. Write an opinion piece about what you think.",
+"p": [
+"Briefly describe the situation today",
+"Argue for your opinion with examples",
+"Discuss the advantages and disadvantages of a ban",
+"Give a conclusion or an alternative suggestion"
+]
+},
+"pd3-w5": {
+"s": "Write an article for the language school's magazine in which you compare the education system in Denmark with the education system in your home country.",
+"p": [
+"Describe school or education in your home country",
+"Describe what you know about the Danish system",
+"Compare the advantages and disadvantages of the two systems",
+"Write what the two countries can learn from each other"
+]
+}
+});
 (function () {
   const join = (L, key) => L.lines.map((l, i) => (i === 0 ? "" : l.p ? "\n\n" : " ") + (l[key] || "")).join("");
   const W = Object.values(PD2.EXAMS || {}).flatMap(E => E.WRITING || []);
