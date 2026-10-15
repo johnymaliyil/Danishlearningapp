@@ -1,6 +1,32 @@
 {
- "updated": "2026-10-15T15:03+00:00",
+ "updated": "2026-10-15T19:10+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/fire-varetaegtsfaengsles-i-norge-nato-fusk",
+   "date": "2026-10-15T17:58:42+00:00",
+   "da": {
+    "title": "Fire varetægtsfængsles i Norge for Nato-fusk",
+    "desc": ""
+   },
+   "en": {
+    "title": "Four in custody in Norway for NATO fraud",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/maduro-og-hans-kone-naegter-sig-skyldige-i-torturanklager",
+   "date": "2026-10-15T16:27:58+00:00",
+   "da": {
+    "title": "Maduro og hans kone nægter sig skyldige i torturanklager",
+    "desc": ""
+   },
+   "en": {
+    "title": "Maduro and his wife plead not guilty to torture charges",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/israel-lukker-import-af-kommercielle-varer-til-gaza",
@@ -167,32 +193,6 @@
    },
    "en": {
     "title": "North Korea tests missiles from submarine",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/storbritannien-klar-til-give-penge-til-reparationer-af-tjernobyl",
-   "date": "2026-10-15T01:00:00+00:00",
-   "da": {
-    "title": "Storbritannien klar til at give penge til reparationer af Tjernobyl",
-    "desc": ""
-   },
-   "en": {
-    "title": "UK ready to give money for Chernobyl repairs",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/trump-jeg-ville-ikke-have-sendt-militaer-ind-i-groenland",
-   "date": "2026-10-15T00:16:52+00:00",
-   "da": {
-    "title": "Trump: Jeg ville ikke have sendt militær ind i Grønland",
-    "desc": ""
-   },
-   "en": {
-    "title": "Trump: I wouldn't have sent military into Greenland",
     "desc": ""
    }
   }
