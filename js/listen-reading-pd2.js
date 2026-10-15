@@ -137126,6 +137126,10626 @@ PD2.LISTEN_R = {
 }
 ]
 },
+"pd3-24m-1": {
+"lines": [
+{
+"da": "Indhold",
+"en": "Contents",
+"p": true,
+"note": "A heading: the table of contents. \"Indhold\" is an et-word: et indhold.",
+"words": [
+[
+"Indhold",
+"contents"
+]
+]
+},
+{
+"da": "Viborg bys historie … 3",
+"en": "The history of the town of Viborg … 3",
+"p": true,
+"note": "A chapter title on page 3. \"bys\" is the genitive -s: the town's.",
+"words": [
+[
+"historie",
+"history"
+]
+]
+},
+{
+"da": "Attraktioner i og omkring i Viborg … 5",
+"en": "Attractions in and around Viborg … 5",
+"p": false,
+"note": "A chapter title on page 5. \"Attraktioner\" is the plural of \"attraktion\".",
+"words": [
+[
+"Attraktioner",
+"attractions"
+],
+[
+"omkring",
+"around"
+]
+]
+},
+{
+"da": "Viborg Domkirke … 5",
+"en": "Viborg Cathedral … 5",
+"p": false,
+"note": "A section title on page 5. \"Domkirke\" is a compound: dom plus kirke.",
+"words": [
+[
+"Domkirke",
+"cathedral"
+]
+]
+},
+{
+"da": "Skovgaard Museet … 6",
+"en": "The Skovgaard Museum … 6",
+"p": false,
+"note": "A section title on page 6, about an art museum.",
+"words": [
+[
+"Museet",
+"the museum"
+]
+]
+},
+{
+"da": "Mønsted Kalkgruber … 6",
+"en": "Mønsted Limestone Mines … 6",
+"p": false,
+"note": "A section title on page 6. \"Kalkgruber\" is a compound: kalk (lime) plus gruber (mines).",
+"words": [
+[
+"Kalkgruber",
+"limestone mines"
+]
+]
+},
+{
+"da": "Energimuseet … 7",
+"en": "The Energy Museum … 7",
+"p": false,
+"note": "A section title on page 7. The ending -et makes it definite: the museum.",
+"words": [
+[
+"Energimuseet",
+"the Energy Museum"
+]
+]
+},
+{
+"da": "Hvolris Jernalderlandsby … 8",
+"en": "Hvolris Iron Age Village … 8",
+"p": false,
+"note": "A section title on page 8. \"Jernalderlandsby\" is a long compound: jern + alder + landsby.",
+"words": [
+[
+"Jernalderlandsby",
+"Iron Age village"
+]
+]
+},
+{
+"da": "Hærvejsmarchen i Viborg … 9",
+"en": "The Army Road March in Viborg … 9",
+"p": false,
+"note": "A chapter title on page 9, about a big walking event.",
+"words": [
+[
+"Hærvejsmarchen",
+"the Army Road March"
+]
+]
+},
+{
+"da": "Hærvejsmarch og byfest … 9",
+"en": "Army Road March and town festival … 9",
+"p": false,
+"note": "A section title on page 9. \"byfest\" is a compound: by (town) plus fest (party).",
+"words": [
+[
+"Hærvejsmarch",
+"Army Road March"
+],
+[
+"byfest",
+"town festival"
+]
+]
+},
+{
+"da": "Mød to deltagere … 10",
+"en": "Meet two participants … 10",
+"p": false,
+"note": "A section title on page 10. \"Mød\" is the imperative of \"møde\", to meet.",
+"words": [
+[
+"deltagere",
+"participants"
+]
+]
+},
+{
+"da": "Tre borgere i Viborg fortæller om byen … 12",
+"en": "Three citizens of Viborg talk about the town … 12",
+"p": false,
+"note": "A chapter title on page 12. \"fortæller om\" means \"tell about\".",
+"words": [
+[
+"borgere",
+"citizens"
+],
+[
+"fortæller",
+"tell"
+]
+]
+},
+{
+"da": "VIBORG BYS HISTORIE",
+"en": "THE HISTORY OF THE TOWN OF VIBORG",
+"p": true,
+"note": "The title of the first chapter: the history of Viborg.",
+"words": [
+[
+"HISTORIE",
+"history"
+]
+]
+},
+{
+"da": "Forhistorisk tid og middelalder",
+"en": "Prehistoric times and the Middle Ages",
+"p": true,
+"note": "A heading for the oldest period of the town.",
+"words": [
+[
+"Forhistorisk",
+"prehistoric"
+],
+[
+"middelalder",
+"Middle Ages"
+]
+]
+},
+{
+"da": "Viborg har gennem historien været en af Danmarks betydeligste byer.",
+"en": "Throughout history, Viborg has been one of Denmark's most important towns.",
+"p": false,
+"note": "Viborg has always been an important town. \"har været\" is the perfect tense, and \"betydeligste\" is a superlative.",
+"words": [
+[
+"gennem",
+"through"
+],
+[
+"historien",
+"history"
+],
+[
+"betydeligste",
+"most important"
+]
+]
+},
+{
+"da": "Byen hed ikke oprindeligt Viborg men Vibjerg, der betyder ’det hellige sted på bakken’.",
+"en": "The town was not originally called Viborg but Vibjerg, which means 'the holy place on the hill'.",
+"p": false,
+"note": "This explains the old name of the town. \"hed\" is the past tense of \"hedde\", to be called.",
+"words": [
+[
+"oprindeligt",
+"originally"
+],
+[
+"betyder",
+"means"
+],
+[
+"hellige",
+"holy"
+],
+[
+"bakken",
+"the hill"
+]
+]
+},
+{
+"da": "Men da der i begyndelsen af 1300-tallet blev bygget en borg ved byen, blev byen herefter kaldt Viborg.",
+"en": "But when a castle was built near the town in the early 1300s, the town was afterwards called Viborg.",
+"p": false,
+"note": "A castle gave the town its new name. \"blev bygget\" is the passive with \"blive\"; after the da-clause the verb \"blev\" comes first.",
+"words": [
+[
+"begyndelsen",
+"the beginning"
+],
+[
+"1300-tallet",
+"the 1300s"
+],
+[
+"bygget",
+"built"
+],
+[
+"herefter",
+"after this"
+]
+]
+},
+{
+"da": "Viborg blev i middelalderen domkirkeby, men var allerede tilbage i vikingetiden et religiøst mødested for hele Jylland.",
+"en": "In the Middle Ages Viborg became a cathedral town, but already in the Viking Age it was a religious meeting place for all of Jutland.",
+"p": true,
+"note": "Viborg was a religious centre very early. \"et religiøst mødested\" shows the -t ending on the adjective with an et-word.",
+"words": [
+[
+"middelalderen",
+"the Middle Ages"
+],
+[
+"domkirkeby",
+"cathedral town"
+],
+[
+"vikingetiden",
+"the Viking Age"
+],
+[
+"mødested",
+"meeting place"
+]
+]
+},
+{
+"da": "Byen var tillige centrum for handel.",
+"en": "The town was also a centre of trade.",
+"p": false,
+"note": "Viborg was also a trading town. \"tillige\" is a formal word for \"also\".",
+"words": [
+[
+"tillige",
+"also, as well"
+],
+[
+"centrum",
+"centre"
+]
+]
+},
+{
+"da": "Som et vigtigt kirkeligt centrum opstod der et stort antal kirkelige institutioner i byen.",
+"en": "As an important church centre, a large number of church institutions arose in the town.",
+"p": false,
+"note": "Many church institutions came to the town. After the fronted phrase, the verb \"opstod\" comes before \"der\".",
+"words": [
+[
+"kirkeligt",
+"church, religious"
+],
+[
+"opstod",
+"arose"
+],
+[
+"institutioner",
+"institutions"
+]
+]
+},
+{
+"da": "Byen blev også hjemsted for landstinget for Nørrejylland.",
+"en": "The town also became home to the regional assembly for North Jutland.",
+"p": false,
+"note": "Viborg was the seat of an old court and assembly. \"blev\" here means \"became\".",
+"words": [
+[
+"hjemsted",
+"home, seat"
+],
+[
+"landstinget",
+"the regional assembly"
+]
+]
+},
+{
+"da": "Det var en slags domstol, der traf afgørelser om krig og fred, og som kunne idømme folk straffe.",
+"en": "It was a kind of court that made decisions about war and peace and could sentence people to punishments.",
+"p": false,
+"note": "This explains what the assembly did. \"traf\" is the past tense of \"træffe\"; \"træffe en afgørelse\" means to make a decision.",
+"words": [
+[
+"domstol",
+"court"
+],
+[
+"afgørelser",
+"decisions"
+],
+[
+"idømme",
+"sentence"
+],
+[
+"straffe",
+"punishments"
+]
+]
+},
+{
+"da": "Det var også en opgave for landstinget at hylde regenten ved tronskifte, og danske konger, samt Margrete 1. som eneste dronning, blev hyldet i Viborg frem til 1655.",
+"en": "It was also the assembly's task to acclaim the ruler when a new one came to the throne, and Danish kings, as well as Margrete I as the only queen, were acclaimed in Viborg until 1655.",
+"p": false,
+"note": "New kings were honoured in Viborg. \"blev hyldet\" is the passive with \"blive\" in the past tense.",
+"words": [
+[
+"hylde",
+"acclaim, honour"
+],
+[
+"regenten",
+"the ruler"
+],
+[
+"tronskifte",
+"change of monarch"
+],
+[
+"dronning",
+"queen"
+]
+]
+},
+{
+"da": "Tidlig moderne tid (ca. 1500-1800)",
+"en": "The early modern period (about 1500-1800)",
+"p": true,
+"note": "A heading for the next period of history. \"ca.\" means about.",
+"words": [
+[
+"moderne",
+"modern"
+]
+]
+},
+{
+"da": "Med reformationen i 1536 mistede Viborg mange af sine kirkelige institutioner, men byen havde stadig stor betydning, især på grund af byens landsting, og fordi byen var et handelscentrum.",
+"en": "With the Reformation in 1536 Viborg lost many of its church institutions, but the town was still important, especially because of its assembly and because it was a trading centre.",
+"p": false,
+"note": "Viborg lost church power but stayed important. \"sine\" is the reflexive possessive, referring back to Viborg.",
+"words": [
+[
+"reformationen",
+"the Reformation"
+],
+[
+"mistede",
+"lost"
+],
+[
+"betydning",
+"importance"
+],
+[
+"handelscentrum",
+"trading centre"
+]
+]
+},
+{
+"da": "Desuden havde byen god indtjening på studeeksport, men byens placering inde i landet var et permanent problem.",
+"en": "Also, the town earned well from exporting bullocks, but its location inland was a permanent problem.",
+"p": false,
+"note": "The town made money but was far from the sea. After \"Desuden\" the verb \"havde\" comes before the subject.",
+"words": [
+[
+"Desuden",
+"also, besides"
+],
+[
+"indtjening",
+"income"
+],
+[
+"studeeksport",
+"export of bullocks"
+],
+[
+"placering",
+"location"
+]
+]
+},
+{
+"da": "Varer måtte fragtes over land til Hjarbæk ved Limfjorden, der benyttedes som byens havn.",
+"en": "Goods had to be transported over land to Hjarbæk on the Limfjord, which was used as the town's harbour.",
+"p": false,
+"note": "Goods went by land to a nearby harbour. \"fragtes\" and \"benyttedes\" are passive forms with -s.",
+"words": [
+[
+"Varer",
+"goods"
+],
+[
+"fragtes",
+"be transported"
+],
+[
+"benyttedes",
+"was used"
+],
+[
+"havn",
+"harbour"
+]
+]
+},
+{
+"da": "Fra midten af 1600-tallet var Viborgs storhedstid forbi, og indbyggertallet på knap 2.500 stagnerede de næste halvandet hundrede år.",
+"en": "From the middle of the 1600s Viborg's great period was over, and the population of just under 2,500 stood still for the next hundred and fifty years.",
+"p": false,
+"note": "Viborg stopped growing. \"knap\" means \"just under\"; \"halvandet\" means one and a half.",
+"words": [
+[
+"storhedstid",
+"time of greatness"
+],
+[
+"indbyggertallet",
+"the population"
+],
+[
+"stagnerede",
+"stagnated"
+],
+[
+"halvandet",
+"one and a half"
+]
+]
+},
+{
+"da": "De mange administrative funktioner beholdt Viborg imidlertid, og bispesædet, Landstinget og de amtslige funktioner gjorde i 1700-tallet byen til en udpræget embedsmandsby.",
+"en": "However, Viborg kept its many administrative functions, and the bishop's seat, the assembly and the county offices made the town a typical town of civil servants in the 1700s.",
+"p": false,
+"note": "Viborg became a town of officials. The object comes first here, so the verb \"beholdt\" comes before \"Viborg\".",
+"words": [
+[
+"administrative",
+"administrative"
+],
+[
+"imidlertid",
+"however"
+],
+[
+"udpræget",
+"distinct, typical"
+],
+[
+"embedsmandsby",
+"town of civil servants"
+]
+]
+},
+{
+"da": "I 1805 blev Landsretten nedlagt, men tabet blev til dels opvejet af de nørrejyske stænderforsamlinger, som blev oprettet i Viborg 1831.",
+"en": "In 1805 the High Court was closed, but the loss was partly made up for by the North Jutland assemblies of the estates, which were set up in Viborg in 1831.",
+"p": false,
+"note": "The town lost a court but got a new assembly. \"blev nedlagt\" and \"blev oprettet\" are passives with \"blive\".",
+"words": [
+[
+"nedlagt",
+"closed down"
+],
+[
+"opvejet",
+"made up for"
+],
+[
+"stænderforsamlinger",
+"assemblies of the estates"
+],
+[
+"oprettet",
+"set up"
+]
+]
+},
+{
+"da": "Moderne tid (1800-tallet og frem)",
+"en": "Modern times (the 1800s and onwards)",
+"p": true,
+"note": "A heading for the modern period. \"og frem\" means \"and onwards\".",
+"words": [
+[
+"Moderne",
+"modern"
+]
+]
+},
+{
+"da": "Allerede i begyndelsen af 1800-tallet opstod de første lette industrivirksomheder i byen, men især fra midten af 1800-tallet tog Viborgs udvikling fart.",
+"en": "Already in the early 1800s the first light industries appeared in the town, but especially from the middle of the 1800s Viborg's development took off.",
+"p": false,
+"note": "Industry started and the town grew. \"tog fart\" is a phrase meaning \"took off, sped up\".",
+"words": [
+[
+"Allerede",
+"already"
+],
+[
+"industrivirksomheder",
+"industrial companies"
+],
+[
+"udvikling",
+"development"
+]
+]
+},
+{
+"da": "En række statslige institutioner kom til byen, blandt andet en garnison og et sindssygehospital.",
+"en": "A number of state institutions came to the town, among others a garrison and a mental hospital.",
+"p": false,
+"note": "The state placed institutions in Viborg. \"En række\" means \"a number of\"; \"blandt andet\" means \"among other things\".",
+"words": [
+[
+"statslige",
+"state"
+],
+[
+"institutioner",
+"institutions"
+],
+[
+"garnison",
+"garrison"
+],
+[
+"sindssygehospital",
+"mental hospital"
+]
+]
+},
+{
+"da": "Trafikforholdene blev forbedret, dels med en dæmning over søerne, dels med jernbanerne til Langå og Skive i 1863-64.",
+"en": "Transport conditions were improved, partly with a dam across the lakes, partly with the railways to Langå and Skive in 1863-64.",
+"p": false,
+"note": "Transport got better. \"dels ... dels\" means \"partly ... partly\".",
+"words": [
+[
+"Trafikforholdene",
+"traffic conditions"
+],
+[
+"forbedret",
+"improved"
+],
+[
+"dæmning",
+"dam"
+],
+[
+"jernbanerne",
+"the railways"
+]
+]
+},
+{
+"da": "I slutningen af 1800-tallet havde en anseelig mængde mindre industrivirksomheder efterhånden slået sig ned i Viborg, og befolkningstallet steg støt, uden væksten dog var eksplosiv.",
+"en": "By the end of the 1800s a considerable number of small industries had gradually settled in Viborg, and the population rose steadily, though the growth was not explosive.",
+"p": false,
+"note": "Many small firms came and the town grew steadily. \"havde slået sig ned\" is the past perfect: had settled.",
+"words": [
+[
+"anseelig",
+"considerable"
+],
+[
+"efterhånden",
+"gradually"
+],
+[
+"befolkningstallet",
+"the population"
+],
+[
+"eksplosiv",
+"explosive"
+]
+]
+},
+{
+"da": "I 1900-tallet voksede byen hastigt, og den havde en omfattende industri inden for blandt andet tekstil-, træ- og metalområderne.",
+"en": "In the 1900s the town grew fast, and it had extensive industry in, among others, the textile, wood and metal sectors.",
+"p": true,
+"note": "Viborg grew fast with lots of industry. After \"I 1900-tallet\" the verb \"voksede\" comes before \"byen\".",
+"words": [
+[
+"voksede",
+"grew"
+],
+[
+"hastigt",
+"quickly"
+],
+[
+"omfattende",
+"extensive"
+],
+[
+"metalområderne",
+"the metal sectors"
+]
+]
+},
+{
+"da": "Dameundertøjsfabrikken Asani (grundlagt 1930) blev i 1950’erne og 1960’erne byens største virksomhed, og tekstilindustrien var i den periode den største gren inden for Viborgs industri.",
+"en": "The women's underwear factory Asani (founded 1930) became the town's biggest company in the 1950s and 1960s, and the textile industry was the biggest branch of Viborg's industry in that period.",
+"p": false,
+"note": "A clothes factory was the biggest employer. \"største\" is the superlative of \"stor\".",
+"words": [
+[
+"Dameundertøjsfabrikken",
+"the women's underwear factory"
+],
+[
+"grundlagt",
+"founded"
+],
+[
+"virksomhed",
+"company"
+],
+[
+"tekstilindustrien",
+"the textile industry"
+]
+]
+},
+{
+"da": "Derudover udviklede byen sig også som handels- og administrationscentrum med mange offentlige institutioner, og allerede i 1960 arbejdede en tredjedel af Viborgs indbyggere med administration eller service.",
+"en": "In addition, the town also developed as a trade and administrative centre with many public institutions, and already in 1960 a third of Viborg's inhabitants worked in administration or service.",
+"p": false,
+"note": "Many people worked in offices and services. \"udvikle sig\" is a reflexive verb: to develop.",
+"words": [
+[
+"Derudover",
+"in addition"
+],
+[
+"offentlige",
+"public"
+],
+[
+"tredjedel",
+"third"
+],
+[
+"indbyggere",
+"inhabitants"
+]
+]
+},
+{
+"da": "I dag er industriens største branche jern- og metalindustrien, men servicesektoren er blevet endnu vigtigere.",
+"en": "Today industry's biggest sector is iron and metal, but the service sector has become even more important.",
+"p": true,
+"note": "Service jobs now matter most. \"er blevet\" is the perfect of \"blive\"; \"endnu vigtigere\" means \"even more important\".",
+"words": [
+[
+"branche",
+"sector, industry"
+],
+[
+"servicesektoren",
+"the service sector"
+],
+[
+"vigtigere",
+"more important"
+]
+]
+},
+{
+"da": "I 1919 blev Vestre Landsret oprettet, og rollen som administrationscentrum blev understreget, da den forhenværende amtshovedby for næsen af Århus blev hovedsæde for den nye Region Midtjylland i 2007.",
+"en": "In 1919 the Western High Court was set up, and the role as administrative centre was underlined when the former county town, under the nose of Aarhus, became the headquarters of the new Central Denmark Region in 2007.",
+"p": false,
+"note": "Viborg won the regional headquarters over Aarhus. \"for næsen af\" is an idiom meaning \"right in front of, beating\".",
+"words": [
+[
+"oprettet",
+"set up"
+],
+[
+"understreget",
+"underlined"
+],
+[
+"forhenværende",
+"former"
+],
+[
+"hovedsæde",
+"headquarters"
+]
+]
+},
+{
+"da": "I 2022 var 41.239 mennesker bosat i Viborg, hvilket er cirka fire gange flere end i starten af 1900-tallet.",
+"en": "In 2022, 41,239 people lived in Viborg, which is about four times more than at the start of the 1900s.",
+"p": false,
+"note": "This gives today's population. \"hvilket\" refers back to the whole clause: which.",
+"words": [
+[
+"bosat",
+"resident"
+],
+[
+"hvilket",
+"which"
+],
+[
+"flere",
+"more"
+]
+]
+},
+{
+"da": "Kilde: Bearbejdet efter http://ddb.byhistorie.dk/koebstaeder/by.aspx?koebstadID=68",
+"en": "Source: Adapted from http://ddb.byhistorie.dk/koebstaeder/by.aspx?koebstadID=68",
+"p": true,
+"note": "The source of the text. \"Bearbejdet efter\" means the text was adapted from this website.",
+"words": [
+[
+"Kilde",
+"source"
+],
+[
+"Bearbejdet",
+"adapted"
+]
+]
+},
+{
+"da": "ATTRAKTIONER I OG OMKRING VIBORG",
+"en": "ATTRACTIONS IN AND AROUND VIBORG",
+"p": true,
+"note": "The title of the second chapter: places to visit.",
+"words": [
+[
+"ATTRAKTIONER",
+"attractions"
+],
+[
+"OMKRING",
+"around"
+]
+]
+},
+{
+"da": "Viborg Domkirke",
+"en": "Viborg Cathedral",
+"p": true,
+"note": "A heading: the cathedral of Viborg.",
+"words": [
+[
+"Domkirke",
+"cathedral"
+]
+]
+},
+{
+"da": "Viborg Domkirke står både stærkt i bybilledet og i Viborg bys lange historie.",
+"en": "Viborg Cathedral stands out both in the townscape and in Viborg's long history.",
+"p": false,
+"note": "The cathedral is very important for the town. \"både ... og\" means \"both ... and\".",
+"words": [
+[
+"stærkt",
+"strongly"
+],
+[
+"bybilledet",
+"the townscape"
+],
+[
+"historie",
+"history"
+]
+]
+},
+{
+"da": "Den er desuden verdens største granitkirke, som man kan besøge, når der ikke er kirkelige handlinger.",
+"en": "It is also the world's largest granite church, which you can visit when there are no church services.",
+"p": false,
+"note": "You can visit when there is no service. \"man\" means \"you, people in general\".",
+"words": [
+[
+"desuden",
+"also"
+],
+[
+"granitkirke",
+"granite church"
+],
+[
+"besøge",
+"visit"
+],
+[
+"handlinger",
+"ceremonies"
+]
+]
+},
+{
+"da": "I 1060 fik Viborg status som domkirkeby, men det var først i 1133, kirken stod færdig med sine fire tårne, sideskibe og krypt.",
+"en": "In 1060 Viborg got the status of cathedral town, but it was not until 1133 that the church was finished with its four towers, side aisles and crypt.",
+"p": true,
+"note": "The church took many years to build. \"først i 1133\" means \"not until 1133\".",
+"words": [
+[
+"domkirkeby",
+"cathedral town"
+],
+[
+"færdig",
+"finished"
+],
+[
+"tårne",
+"towers"
+],
+[
+"sideskibe",
+"side aisles"
+]
+]
+},
+{
+"da": "Desværre har kirken været ramt af brande ad flere omgange – senest i 1726, hvor der efter branden kun var mure og krypt tilbage.",
+"en": "Unfortunately the church has been hit by fires several times – most recently in 1726, when only walls and the crypt were left after the fire.",
+"p": false,
+"note": "Fires damaged the church. \"har været ramt\" is the perfect tense; \"ad flere omgange\" means \"several times\".",
+"words": [
+[
+"Desværre",
+"unfortunately"
+],
+[
+"brande",
+"fires"
+],
+[
+"omgange",
+"rounds, times"
+],
+[
+"senest",
+"most recently"
+]
+]
+},
+{
+"da": "Derfor er krypten den eneste del af den oprindelige domkirke fra 1133, der står tilbage.",
+"en": "That is why the crypt is the only part of the original cathedral from 1133 that is still standing.",
+"p": false,
+"note": "Only the crypt is original. After \"Derfor\" the verb \"er\" comes before the subject.",
+"words": [
+[
+"Derfor",
+"therefore"
+],
+[
+"krypten",
+"the crypt"
+],
+[
+"oprindelige",
+"original"
+]
+]
+},
+{
+"da": "Efter branden i 1726 blev kirken hurtigt genopført, men arbejdet var dårligt udført, og der var fare for sammenstyrtning.",
+"en": "After the fire in 1726 the church was quickly rebuilt, but the work was badly done, and there was a risk of collapse.",
+"p": true,
+"note": "The rebuilding was poor and dangerous. \"blev genopført\" is the passive with \"blive\".",
+"words": [
+[
+"genopført",
+"rebuilt"
+],
+[
+"udført",
+"carried out"
+],
+[
+"sammenstyrtning",
+"collapse"
+]
+]
+},
+{
+"da": "Den blev derfor lukket i 1862 og i årene efter revet ned, hvorefter man begyndte på en ny genopførelse, hvor stilen og grundplanen var den oprindelige.",
+"en": "So it was closed in 1862 and torn down in the following years, after which a new rebuilding began, keeping the original style and ground plan.",
+"p": false,
+"note": "The church was torn down and rebuilt again. \"revet ned\" is the participle of \"rive ned\", to tear down.",
+"words": [
+[
+"derfor",
+"therefore"
+],
+[
+"hvorefter",
+"after which"
+],
+[
+"genopførelse",
+"rebuilding"
+],
+[
+"grundplanen",
+"the ground plan"
+]
+]
+},
+{
+"da": "Genopførelsen blev tilendebragt i 1876, og mange autentiske detaljer vidner om kirkens lange historie, for eksempel de to løver og de to ansigter i korets udvendige granit.",
+"en": "The rebuilding was completed in 1876, and many authentic details show the church's long history, for example the two lions and the two faces in the outer granite of the choir.",
+"p": false,
+"note": "Old details remain. \"vidner om\" means \"bear witness to, show\".",
+"words": [
+[
+"tilendebragt",
+"completed"
+],
+[
+"autentiske",
+"authentic"
+],
+[
+"ansigter",
+"faces"
+],
+[
+"udvendige",
+"outer"
+]
+]
+},
+{
+"da": "Brosten i plænen omkring kirken markerer endvidere, hvor den gamle kirkes tilbygninger lå.",
+"en": "Cobblestones in the lawn around the church also mark where the old church's extensions stood.",
+"p": false,
+"note": "Stones show the old building lines. After \"hvor\" the word order is normal: subject before verb.",
+"words": [
+[
+"Brosten",
+"cobblestones"
+],
+[
+"plænen",
+"the lawn"
+],
+[
+"endvidere",
+"furthermore"
+],
+[
+"tilbygninger",
+"extensions"
+]
+]
+},
+{
+"da": "Fra 1901 til 1906 malede Joakim Skovgaard og hans hjælpere kirkens berømte billedbibel.",
+"en": "From 1901 to 1906 Joakim Skovgaard and his helpers painted the church's famous picture bible.",
+"p": false,
+"note": "An artist painted the famous wall paintings. \"malede\" is the past tense of \"male\", to paint.",
+"words": [
+[
+"hjælpere",
+"helpers"
+],
+[
+"berømte",
+"famous"
+],
+[
+"billedbibel",
+"picture bible"
+]
+]
+},
+{
+"da": "I vådt puds tryllede de med deres kalkfarver, og freskerne taler et sprog, som alle kan forstå.",
+"en": "In wet plaster they worked magic with their lime paints, and the frescoes speak a language everyone can understand.",
+"p": false,
+"note": "The frescoes are easy for everyone to understand. \"vådt\" has a -t ending because \"puds\" is an et-word.",
+"words": [
+[
+"puds",
+"plaster"
+],
+[
+"tryllede",
+"worked magic"
+],
+[
+"kalkfarver",
+"lime paints"
+],
+[
+"freskerne",
+"the frescoes"
+]
+]
+},
+{
+"da": "Kilde: Bearbejdet efter https://www.visitaarhus.dk/aarhusregionen/planlaeg-din-tur/viborg-domkirke-gdk601063, hentet 1. marts 2023",
+"en": "Source: Adapted from https://www.visitaarhus.dk/aarhusregionen/planlaeg-din-tur/viborg-domkirke-gdk601063, retrieved 1 March 2023",
+"p": true,
+"note": "The source of the text and the date it was taken from the website. \"hentet\" means retrieved.",
+"words": [
+[
+"Bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Skovgaard Museet",
+"en": "The Skovgaard Museum",
+"p": true,
+"note": "A heading: an art museum named after a family of artists.",
+"words": [
+[
+"Museet",
+"the museum"
+]
+]
+},
+{
+"da": "Skovgaard Museet er Viborgs kunstmuseum med værker fra kunstnerfamilien Skovgaard.",
+"en": "The Skovgaard Museum is Viborg's art museum with works by the Skovgaard family of artists.",
+"p": false,
+"note": "This says what the museum shows. \"kunstnerfamilien\" is a compound with the definite ending -en.",
+"words": [
+[
+"kunstmuseum",
+"art museum"
+],
+[
+"værker",
+"works"
+],
+[
+"kunstnerfamilien",
+"the family of artists"
+]
+]
+},
+{
+"da": "Her kan man tage tilbage i tiden og opleve kunsten samt spændende skiftende særudstillinger.",
+"en": "Here you can go back in time and experience the art as well as exciting changing special exhibitions.",
+"p": false,
+"note": "The museum shows old art and new exhibitions. After \"Her\" the verb \"kan\" comes before \"man\".",
+"words": [
+[
+"opleve",
+"experience"
+],
+[
+"spændende",
+"exciting"
+],
+[
+"skiftende",
+"changing"
+],
+[
+"særudstillinger",
+"special exhibitions"
+]
+]
+},
+{
+"da": "Kunstneren Joakim Skovgaard har udsmykket Viborg Domkirke, og museet er oprettet for at hædre ham og hans familie, hvoraf mange var kunstnere.",
+"en": "The artist Joakim Skovgaard decorated Viborg Cathedral, and the museum was founded to honour him and his family, many of whom were artists.",
+"p": false,
+"note": "The museum honours the family. \"for at\" plus infinitive means \"in order to\".",
+"words": [
+[
+"Kunstneren",
+"the artist"
+],
+[
+"udsmykket",
+"decorated"
+],
+[
+"hædre",
+"honour"
+],
+[
+"hvoraf",
+"of whom"
+]
+]
+},
+{
+"da": "På museet findes derfor også en stor samling værker af Joakims far, landskabsmaleren P.C. Skovgaard, og af hans søskende, Niels Skovgaard og Susette Holten, født Skovgaard, og deres samtidige.",
+"en": "So the museum also has a large collection of works by Joakim's father, the landscape painter P.C. Skovgaard, and by his brother and sister, and their contemporaries.",
+"p": false,
+"note": "The museum has works by the whole family. \"findes\" is an -s verb meaning \"there is, is found\".",
+"words": [
+[
+"samling",
+"collection"
+],
+[
+"landskabsmaleren",
+"the landscape painter"
+],
+[
+"søskende",
+"siblings"
+],
+[
+"samtidige",
+"contemporaries"
+]
+]
+},
+{
+"da": "Museet har til huse i byens gamle rådhus, en bygning i barokstil fra 1728 ved siden af Viborg Domkirke.",
+"en": "The museum is housed in the town's old town hall, a Baroque building from 1728 next to Viborg Cathedral.",
+"p": false,
+"note": "This says where the museum is. \"har til huse i\" is a fixed phrase meaning \"is housed in\".",
+"words": [
+[
+"rådhus",
+"town hall"
+],
+[
+"bygning",
+"building"
+],
+[
+"barokstil",
+"Baroque style"
+]
+]
+},
+{
+"da": "Her, i de højloftede stuer, hænger motiver fra Guldalderen og tiden efter, og man kan se de første takter til dansk design.",
+"en": "Here, in the high-ceilinged rooms, hang pictures from the Golden Age and the time after, and you can see the first beginnings of Danish design.",
+"p": false,
+"note": "The museum shows old art and early design. After \"Her\" the verb \"hænger\" comes before the subject.",
+"words": [
+[
+"højloftede",
+"high-ceilinged"
+],
+[
+"motiver",
+"motifs, pictures"
+],
+[
+"Guldalderen",
+"the Golden Age"
+],
+[
+"takter",
+"beats, beginnings"
+]
+]
+},
+{
+"da": "Kilde: Bearbejdet efter https://www.visitaarhus.dk/aarhusregionen/planlaeg-din-tur/skovgaard-museet-gdk601228, hentet 1. marts 2023",
+"en": "Source: Adapted from https://www.visitaarhus.dk/aarhusregionen/planlaeg-din-tur/skovgaard-museet-gdk601228, retrieved 1 March 2023",
+"p": true,
+"note": "The source of the text and the date it was taken from the website.",
+"words": [
+[
+"Bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Mønsted Kalkgruber",
+"en": "Mønsted Limestone Mines",
+"p": true,
+"note": "A heading: old limestone mines near Viborg.",
+"words": [
+[
+"Kalkgruber",
+"limestone mines"
+]
+]
+},
+{
+"da": "20 kilometer vest for Viborg ligger Mønsted Kalkgruber, verdens største kalkgruber.",
+"en": "20 kilometres west of Viborg lie the Mønsted Limestone Mines, the world's largest limestone mines.",
+"p": false,
+"note": "This gives the location. The place phrase comes first, so the verb \"ligger\" comes before the subject.",
+"words": [
+[
+"kilometer",
+"kilometres"
+],
+[
+"største",
+"largest"
+],
+[
+"kalkgruber",
+"limestone mines"
+]
+]
+},
+{
+"da": "Her gemmer mange kilometer af minegange og underjordiske søer på historien om kalkindustrien, der har skabt fundamentet for Viborg, som byen ser ud i dag.",
+"en": "Here many kilometres of mine tunnels and underground lakes hold the history of the lime industry, which created the foundation for Viborg as the town looks today.",
+"p": false,
+"note": "The mines tell the history of the lime industry. \"gemme på\" means \"to hide, keep\".",
+"words": [
+[
+"minegange",
+"mine tunnels"
+],
+[
+"underjordiske",
+"underground"
+],
+[
+"kalkindustrien",
+"the lime industry"
+],
+[
+"fundamentet",
+"the foundation"
+]
+]
+},
+{
+"da": "Her er der en verden af oplevelser, der fortæller om geologi, flagermus og imponerende arbejde udført med håndkraft.",
+"en": "Here there is a world of experiences about geology, bats and impressive work done by hand.",
+"p": false,
+"note": "There is a lot to see and learn. \"der fortæller\" uses \"der\" as a relative pronoun: which tells.",
+"words": [
+[
+"oplevelser",
+"experiences"
+],
+[
+"flagermus",
+"bats"
+],
+[
+"imponerende",
+"impressive"
+],
+[
+"håndkraft",
+"manual power"
+]
+]
+},
+{
+"da": "Under jorden kan man gå på opdagelse mere end 50 meter nede i de oplyste minegange langs små vandløb og underjordiske søer og se, hvor flagermusene sover hele vinteren.",
+"en": "Underground you can explore more than 50 metres down in the lit tunnels along small streams and underground lakes and see where the bats sleep all winter.",
+"p": true,
+"note": "You can explore deep underground. \"gå på opdagelse\" is a phrase meaning \"to explore\".",
+"words": [
+[
+"opdagelse",
+"discovery"
+],
+[
+"oplyste",
+"lit"
+],
+[
+"vandløb",
+"streams"
+],
+[
+"flagermusene",
+"the bats"
+]
+]
+},
+{
+"da": "Der er cirka fire kilometer gange, der er åbne for gæster, og heraf er cirka to kilometer oplyst.",
+"en": "There are about four kilometres of tunnels open to guests, and of these about two kilometres are lit.",
+"p": false,
+"note": "Half the tunnels have light. \"heraf\" means \"of these\".",
+"words": [
+[
+"kilometer",
+"kilometres"
+],
+[
+"heraf",
+"of these"
+],
+[
+"oplyst",
+"lit"
+]
+]
+},
+{
+"da": "Det anbefales, at man bruger en lommelygte, hvis man vil gå på opdagelse i de mørke minegange.",
+"en": "It is recommended that you use a torch if you want to explore the dark tunnels.",
+"p": false,
+"note": "Bring a torch. \"anbefales\" is the passive with -s: is recommended.",
+"words": [
+[
+"anbefales",
+"is recommended"
+],
+[
+"lommelygte",
+"torch"
+],
+[
+"mørke",
+"dark"
+],
+[
+"minegange",
+"mine tunnels"
+]
+]
+},
+{
+"da": "Året rundt er der kun otte grader i kalkgruberne, så det anbefales, at man har varmt tøj på.",
+"en": "All year round it is only eight degrees in the mines, so it is recommended that you wear warm clothes.",
+"p": false,
+"note": "It is cold, so dress warmly. \"have tøj på\" means \"to wear clothes\".",
+"words": [
+[
+"grader",
+"degrees"
+],
+[
+"kalkgruberne",
+"the limestone mines"
+],
+[
+"anbefales",
+"is recommended"
+]
+]
+},
+{
+"da": "I kalkgruberne vises et multimedieshow ved grubernes største sø.",
+"en": "In the mines a multimedia show is shown by the mines' largest lake.",
+"p": false,
+"note": "There is a show in the mines. \"vises\" is the passive with -s: is shown.",
+"words": [
+[
+"kalkgruberne",
+"the limestone mines"
+],
+[
+"vises",
+"is shown"
+],
+[
+"multimedieshow",
+"multimedia show"
+]
+]
+},
+{
+"da": "Showet vises hver halve time og fortæller om kalkens og grubernes historie.",
+"en": "The show runs every half hour and tells the history of the lime and the mines.",
+"p": false,
+"note": "This gives the show times. \"hver halve time\" means every half hour.",
+"words": [
+[
+"vises",
+"is shown"
+],
+[
+"historie",
+"history"
+]
+]
+},
+{
+"da": "Over jorden kan man besøge det gamle kalkværk og museet i den gamle bestyrerbolig.",
+"en": "Above ground you can visit the old lime works and the museum in the old manager's house.",
+"p": true,
+"note": "There is more to see above ground. After \"Over jorden\" the verb \"kan\" comes before \"man\".",
+"words": [
+[
+"kalkværk",
+"lime works"
+],
+[
+"bestyrerbolig",
+"manager's house"
+]
+]
+},
+{
+"da": "Her kan man lære om kalkgrubernes historie, om livet som kalkminearbejder, og man kan udforske flagermusenes liv.",
+"en": "Here you can learn about the history of the mines, about life as a lime miner, and you can explore the life of bats.",
+"p": false,
+"note": "This lists what you can learn. \"lære om\" means \"learn about\".",
+"words": [
+[
+"kalkminearbejder",
+"lime miner"
+],
+[
+"udforske",
+"explore"
+],
+[
+"flagermusenes",
+"the bats'"
+]
+]
+},
+{
+"da": "Man kan også tage på en ca. 1 kilometer lang gåtur i det gamle kalkbrud.",
+"en": "You can also take an approximately 1-kilometre walk in the old quarry.",
+"p": false,
+"note": "A short walk is possible. \"tage på en gåtur\" means \"go for a walk\".",
+"words": [
+[
+"gåtur",
+"walk"
+],
+[
+"kalkbrud",
+"lime quarry"
+]
+]
+},
+{
+"da": "På turen kan man opleve den særlige natur i området og se den flotte udsigt til søen i bunden af kalkbruddet.",
+"en": "On the walk you can experience the special nature in the area and see the fine view of the lake at the bottom of the quarry.",
+"p": false,
+"note": "The walk has nice nature and views. \"udsigt til\" means \"view of\".",
+"words": [
+[
+"opleve",
+"experience"
+],
+[
+"særlige",
+"special"
+],
+[
+"udsigt",
+"view"
+],
+[
+"kalkbruddet",
+"the quarry"
+]
+]
+},
+{
+"da": "Man har også mulighed for at stille sulten og slukke tørsten i den hyggelige Café Kridthuset.",
+"en": "You also have the chance to satisfy your hunger and quench your thirst in the cosy Café Kridthuset.",
+"p": false,
+"note": "You can eat and drink at a café. \"stille sulten\" and \"slukke tørsten\" are fixed phrases.",
+"words": [
+[
+"mulighed",
+"possibility"
+],
+[
+"tørsten",
+"thirst"
+],
+[
+"hyggelige",
+"cosy"
+]
+]
+},
+{
+"da": "Ved siden af caféen ligger flagermuslegepladsen, hvor børnene kan klatre og lege på de fem flagermusarter, der overvintrer i kalkgruberne.",
+"en": "Next to the café is the bat playground, where children can climb and play on the five kinds of bats that spend the winter in the mines.",
+"p": false,
+"note": "There is a playground for children. \"overvintrer\" is a compound verb: over + vintre, to spend the winter.",
+"words": [
+[
+"flagermuslegepladsen",
+"the bat playground"
+],
+[
+"klatre",
+"climb"
+],
+[
+"flagermusarter",
+"bat species"
+],
+[
+"overvintrer",
+"spend the winter"
+]
+]
+},
+{
+"da": "Kilde: Bearbejdet efter https://www.visitaarhus.dk/aarhusregionen/planlaeg-din-tur/moensted-kalkgruber-gdk601327, hentet 1. marts 2023",
+"en": "Source: Adapted from https://www.visitaarhus.dk/aarhusregionen/planlaeg-din-tur/moensted-kalkgruber-gdk601327, retrieved 1 March 2023",
+"p": true,
+"note": "The source of the text and the date it was taken from the website.",
+"words": [
+[
+"Bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Energimuseet",
+"en": "The Energy Museum",
+"p": true,
+"note": "A heading: a museum about energy.",
+"words": [
+[
+"Energimuseet",
+"the Energy Museum"
+]
+]
+},
+{
+"da": "Energimuseet er smukt placeret ved Tange Sø og Danmarks største vandkraftværk, Tangeværket.",
+"en": "The Energy Museum is beautifully located by Tange Lake and Denmark's largest hydroelectric power station, Tangeværket.",
+"p": false,
+"note": "This gives the museum's location. \"smukt\" is an adverb made with -t: beautifully.",
+"words": [
+[
+"placeret",
+"located"
+],
+[
+"vandkraftværk",
+"hydroelectric power station"
+]
+]
+},
+{
+"da": "Her kan man se brusende vandmasser drive de gamle turbiner og føle historiens vingesus i generatorsalen, som har lavet grøn strøm til danskerne i over 100 år.",
+"en": "Here you can see rushing water drive the old turbines and feel the breath of history in the generator hall, which has made green electricity for the Danes for over 100 years.",
+"p": false,
+"note": "You can see an old power station working. \"har lavet\" is the perfect tense for something still going on.",
+"words": [
+[
+"brusende",
+"rushing"
+],
+[
+"vandmasser",
+"masses of water"
+],
+[
+"vingesus",
+"sweep of wings"
+],
+[
+"generatorsalen",
+"the generator hall"
+]
+]
+},
+{
+"da": "Energimuseet formidler energiens historie og den grønne omstilling.",
+"en": "The Energy Museum presents the history of energy and the green transition.",
+"p": false,
+"note": "This is what the museum teaches. \"formidler\" means \"communicates, presents\".",
+"words": [
+[
+"formidler",
+"communicates"
+],
+[
+"energiens",
+"of energy"
+],
+[
+"omstilling",
+"transition"
+]
+]
+},
+{
+"da": "Det gør museet med et særligt fokus på FN-verdensmål nr. 7: ”Vedvarende energi” og verdensmål nr. 12: ”Ansvarligt forbrug og produktion”.",
+"en": "The museum does this with a special focus on UN Sustainable Development Goal no. 7, \"Renewable energy\", and goal no. 12, \"Responsible consumption and production\".",
+"p": false,
+"note": "The museum focuses on two UN goals. \"Det\" comes first, so the verb \"gør\" comes before \"museet\".",
+"words": [
+[
+"særligt",
+"special"
+],
+[
+"verdensmål",
+"global goals"
+],
+[
+"Vedvarende",
+"renewable"
+],
+[
+"Ansvarligt",
+"responsible"
+]
+]
+},
+{
+"da": "Fra påsken til efterårsferien kan man i alle weekender og skoleferier opleve Energimuseets populære lynshow, møde museets dygtige guider, som formidler viden om energi og inspiration til en bæredygtig fremtid, og man kan blive klogere på energi og energiens historie.",
+"en": "From Easter to the autumn holiday, at all weekends and school holidays, you can see the museum's popular lightning show, meet its skilled guides, who share knowledge about energy and inspiration for a sustainable future, and learn more about energy and its history.",
+"p": true,
+"note": "This lists activities in the season. \"blive klogere på\" means \"learn more about\".",
+"words": [
+[
+"efterårsferien",
+"the autumn holiday"
+],
+[
+"lynshow",
+"lightning show"
+],
+[
+"dygtige",
+"skilled"
+],
+[
+"bæredygtig",
+"sustainable"
+]
+]
+},
+{
+"da": "I Energiværkstedet i hovedbygningen kan man med spændende spil, lege og forsøg teste sit eget energiforbrug, og i Power-to-X udstillingen kan man blive klogere på den nye teknologi.",
+"en": "In the Energy Workshop in the main building you can test your own energy use with exciting games and experiments, and in the Power-to-X exhibition you can learn about the new technology.",
+"p": false,
+"note": "There are hands-on activities. \"sit eget\" is reflexive and refers back to \"man\".",
+"words": [
+[
+"Energiværkstedet",
+"the Energy Workshop"
+],
+[
+"hovedbygningen",
+"the main building"
+],
+[
+"energiforbrug",
+"energy use"
+],
+[
+"udstillingen",
+"the exhibition"
+]
+]
+},
+{
+"da": "Museets udstillinger findes i syv forskellige bygninger samt i parken og skoven, der forbinder dem.",
+"en": "The museum's exhibitions are in seven different buildings and in the park and woods that connect them.",
+"p": false,
+"note": "The museum is spread out. \"findes\" means \"are found, exist\".",
+"words": [
+[
+"udstillinger",
+"exhibitions"
+],
+[
+"forskellige",
+"different"
+],
+[
+"bygninger",
+"buildings"
+],
+[
+"forbinder",
+"connect"
+]
+]
+},
+{
+"da": "Her findes også bænke og borde, hvor man kan nyde sin medbragte mad, mens man lytter til fuglene eller den brusende Gudenå.",
+"en": "There are also benches and tables where you can enjoy the food you brought while listening to the birds or the rushing Gudenå river.",
+"p": false,
+"note": "You can have a picnic. \"medbragte\" is a participle used as an adjective: brought along.",
+"words": [
+[
+"bænke",
+"benches"
+],
+[
+"medbragte",
+"brought along"
+],
+[
+"brusende",
+"rushing"
+]
+]
+},
+{
+"da": "Kilde: Bearbejdet efter https://www.visitaarhus.dk/aarhusregionen/planlaeg-din-tur/energimuseet-gdk605505, hentet 1. marts 2023",
+"en": "Source: Adapted from https://www.visitaarhus.dk/aarhusregionen/planlaeg-din-tur/energimuseet-gdk605505, retrieved 1 March 2023",
+"p": true,
+"note": "The source of the text and the date it was taken from the website.",
+"words": [
+[
+"Bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Hvolris Jernalderlandsby",
+"en": "Hvolris Iron Age Village",
+"p": true,
+"note": "A heading: a reconstructed village from the Iron Age.",
+"words": [
+[
+"Jernalderlandsby",
+"Iron Age village"
+]
+]
+},
+{
+"da": "Hvolris Jernalderlandsby er et friluftsmuseum, som er beliggende i Skals Ådal, ca. 20 km nord for Viborg.",
+"en": "Hvolris Iron Age Village is an open-air museum located in the Skals river valley, about 20 km north of Viborg.",
+"p": false,
+"note": "This says what and where the museum is. \"beliggende\" is a formal word for \"located\".",
+"words": [
+[
+"friluftsmuseum",
+"open-air museum"
+],
+[
+"beliggende",
+"located"
+],
+[
+"Ådal",
+"river valley"
+]
+]
+},
+{
+"da": "Vores forfædre har levet i området helt fra stenalderen for ca. 6000 år siden.",
+"en": "Our ancestors have lived in the area ever since the Stone Age, about 6000 years ago.",
+"p": false,
+"note": "People have lived here a very long time. \"for ... siden\" means \"ago\".",
+"words": [
+[
+"forfædre",
+"ancestors"
+],
+[
+"området",
+"the area"
+],
+[
+"stenalderen",
+"the Stone Age"
+]
+]
+},
+{
+"da": "Hvolris Jernalderlandsby har primært fokus på jernalderen i tiden omkring år 0.",
+"en": "Hvolris Iron Age Village mainly focuses on the Iron Age around the year 0.",
+"p": false,
+"note": "This says which period the museum shows. \"fokus på\" uses the preposition \"på\".",
+"words": [
+[
+"primært",
+"mainly"
+],
+[
+"jernalderen",
+"the Iron Age"
+]
+]
+},
+{
+"da": "Helt unikt for et historisk værksted findes de arkæologiske udgravninger side om side med den genskabte jernalderlandsby i bakkerne på Hvolris.",
+"en": "Quite uniquely for a historical workshop, the archaeological excavations are side by side with the reconstructed Iron Age village in the hills at Hvolris.",
+"p": false,
+"note": "Real digs and the copy village are next to each other. The fronted phrase makes the verb \"findes\" come before the subject.",
+"words": [
+[
+"unikt",
+"unique"
+],
+[
+"arkæologiske",
+"archaeological"
+],
+[
+"udgravninger",
+"excavations"
+],
+[
+"genskabte",
+"recreated"
+]
+]
+},
+{
+"da": "I Tømmerladen kan man gå på opdagelse i den arkæologiske udstilling med jernalderfund fra udgravninger på Hvolris.",
+"en": "In the Timber Barn you can explore the archaeological exhibition with Iron Age finds from the excavations at Hvolris.",
+"p": false,
+"note": "There is an exhibition of finds. \"gå på opdagelse\" means \"to explore\".",
+"words": [
+[
+"Tømmerladen",
+"the Timber Barn"
+],
+[
+"opdagelse",
+"discovery"
+],
+[
+"udstilling",
+"exhibition"
+],
+[
+"jernalderfund",
+"Iron Age finds"
+]
+]
+},
+{
+"da": "Man kan blandt andet se de originale krukker fra udgravningerne.",
+"en": "Among other things, you can see the original pots from the excavations.",
+"p": false,
+"note": "You can see real old pots. \"blandt andet\" means \"among other things\".",
+"words": [
+[
+"originale",
+"original"
+],
+[
+"krukker",
+"pots, jars"
+],
+[
+"udgravningerne",
+"the excavations"
+]
+]
+},
+{
+"da": "Mange af krukkerne har man lavet kopier af til madlavning i jernalderlandsbyen.",
+"en": "Copies have been made of many of the pots for cooking in the Iron Age village.",
+"p": false,
+"note": "Copies of the pots are used for cooking. The object comes first, so \"har\" comes before \"man\", and \"af\" ends up at the end.",
+"words": [
+[
+"krukkerne",
+"the pots"
+],
+[
+"kopier",
+"copies"
+],
+[
+"madlavning",
+"cooking"
+]
+]
+},
+{
+"da": "På udstillingen kan man blandt andet også se kopier af nogle af de dragter fra jernalderen, man har fundet i moser.",
+"en": "In the exhibition you can also see copies of some of the Iron Age costumes found in bogs.",
+"p": false,
+"note": "You can see copies of old clothes. \"man har fundet\" is a relative clause without \"som\".",
+"words": [
+[
+"udstillingen",
+"the exhibition"
+],
+[
+"dragter",
+"costumes"
+],
+[
+"jernalderen",
+"the Iron Age"
+],
+[
+"moser",
+"bogs"
+]
+]
+},
+{
+"da": "Hvolris Jernalderlandsby har åbent hele året på hverdage.",
+"en": "Hvolris Iron Age Village is open all year on weekdays.",
+"p": true,
+"note": "This gives the opening times. \"have åbent\" means \"to be open\".",
+"words": [
+[
+"Jernalderlandsby",
+"Iron Age village"
+],
+[
+"hverdage",
+"weekdays"
+]
+]
+},
+{
+"da": "I sommerferien og efterårsferien er der levendegørelse på friluftsmuseet.",
+"en": "In the summer and autumn holidays the open-air museum comes alive with people acting out the past.",
+"p": false,
+"note": "In holidays there is live history. After the time phrase the verb \"er\" comes before \"der\".",
+"words": [
+[
+"efterårsferien",
+"the autumn holiday"
+],
+[
+"levendegørelse",
+"bringing to life"
+],
+[
+"friluftsmuseet",
+"the open-air museum"
+]
+]
+},
+{
+"da": "Sæsonen igennem er der skiftende aktiviteter tilpasset årstiden, naturen og livet i landsbyen.",
+"en": "Throughout the season there are changing activities adapted to the time of year, nature and life in the village.",
+"p": false,
+"note": "Activities change with the seasons. \"tilpasset\" is a past participle: adapted.",
+"words": [
+[
+"Sæsonen",
+"the season"
+],
+[
+"skiftende",
+"changing"
+],
+[
+"aktiviteter",
+"activities"
+],
+[
+"tilpasset",
+"adapted"
+]
+]
+},
+{
+"da": "I landsbyen kan man følge jernalderfolkets daglige gøremål, hvor især madlavningen tager tid.",
+"en": "In the village you can follow the daily tasks of the Iron Age people, where cooking especially takes time.",
+"p": false,
+"note": "You can watch daily life. \"jernalderfolkets\" has the genitive -s: the Iron Age people's.",
+"words": [
+[
+"jernalderfolkets",
+"the Iron Age people's"
+],
+[
+"daglige",
+"daily"
+],
+[
+"gøremål",
+"tasks"
+],
+[
+"madlavningen",
+"the cooking"
+]
+]
+},
+{
+"da": "Kilde: Bearbejdet efter https://www.visitaarhus.dk/aarhusregionen/planlaeg-din-tur/hvolris-jernalderlandsby-gdk601048, hentet 1. marts 2023",
+"en": "Source: Adapted from https://www.visitaarhus.dk/aarhusregionen/planlaeg-din-tur/hvolris-jernalderlandsby-gdk601048, retrieved 1 March 2023",
+"p": true,
+"note": "The source of the text and the date it was taken from the website.",
+"words": [
+[
+"Bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "HÆRVEJSMARCHEN I VIBORG",
+"en": "THE ARMY ROAD MARCH IN VIBORG",
+"p": true,
+"note": "The title of the third chapter: a big walking event.",
+"words": [
+[
+"HÆRVEJSMARCHEN",
+"the Army Road March"
+]
+]
+},
+{
+"da": "Hærvejsmarch og byfest",
+"en": "Army Road March and town festival",
+"p": true,
+"note": "A heading about the march and the festival.",
+"words": [
+[
+"Hærvejsmarch",
+"Army Road March"
+],
+[
+"byfest",
+"town festival"
+]
+]
+},
+{
+"da": "March betyder ifølge ordbogen ”en organiseret vandring”.",
+"en": "According to the dictionary, march means \"an organised walk\".",
+"p": false,
+"note": "This defines the word \"march\". \"ifølge\" means \"according to\".",
+"words": [
+[
+"ifølge",
+"according to"
+],
+[
+"ordbogen",
+"the dictionary"
+],
+[
+"organiseret",
+"organised"
+],
+[
+"vandring",
+"walk"
+]
+]
+},
+{
+"da": "Det er netop hvad Hærvejsmarchen i Viborg er, og mottoet er: Vejen til sundhed.",
+"en": "That is exactly what the Army Road March in Viborg is, and the motto is: The road to health.",
+"p": false,
+"note": "This gives the motto. \"netop\" means \"exactly\".",
+"words": [
+[
+"netop",
+"exactly"
+],
+[
+"mottoet",
+"the motto"
+],
+[
+"sundhed",
+"health"
+]
+]
+},
+{
+"da": "Hærvejsmarchen afholdes altid den sidste weekend i juni på de historiske og naturskønne ruter i og omkring Viborg.",
+"en": "The Army Road March is always held on the last weekend of June on the historic and scenic routes in and around Viborg.",
+"p": false,
+"note": "This gives the time and place. \"afholdes\" is the passive with -s: is held.",
+"words": [
+[
+"afholdes",
+"is held"
+],
+[
+"historiske",
+"historic"
+],
+[
+"naturskønne",
+"scenic"
+]
+]
+},
+{
+"da": "Den har de senere år haft deltagelse af 7-9.000 vandrere, der går enten lørdag eller søndag eller begge dage.",
+"en": "In recent years it has had 7-9,000 walkers taking part, who walk either Saturday or Sunday or both days.",
+"p": false,
+"note": "Many thousands take part. \"enten ... eller\" means \"either ... or\".",
+"words": [
+[
+"deltagelse",
+"participation"
+],
+[
+"vandrere",
+"walkers"
+],
+[
+"enten",
+"either"
+]
+]
+},
+{
+"da": "Cirka halvdelen går både lørdag og søndag, hvor 2 x 45 km er vandrernes ”ekstremrute”.",
+"en": "About half walk both Saturday and Sunday, where 2 x 45 km is the walkers' \"extreme route\".",
+"p": false,
+"note": "Half the walkers do both days. \"vandrernes\" has the plural genitive: the walkers'.",
+"words": [
+[
+"halvdelen",
+"half"
+],
+[
+"vandrernes",
+"the walkers'"
+],
+[
+"ekstremrute",
+"extreme route"
+]
+]
+},
+{
+"da": "Den anden halvdel køber endagskort til ruterne.",
+"en": "The other half buy one-day tickets for the routes.",
+"p": false,
+"note": "The rest walk one day only. \"endagskort\" is a compound: en + dag + kort.",
+"words": [
+[
+"halvdel",
+"half"
+],
+[
+"endagskort",
+"one-day ticket"
+]
+]
+},
+{
+"da": "Hærvejsmarchen i Viborg og aktiviteterne omkring er en international folkelig totaloplevelse med indhold af natur, kultur, historie, sundhed, miljø, oplevelse og livsglæde.",
+"en": "The Army Road March in Viborg and the activities around it are an international popular all-round experience with nature, culture, history, health, environment, experiences and joy of life.",
+"p": true,
+"note": "The event offers many things. \"folkelig\" means \"for ordinary people\".",
+"words": [
+[
+"aktiviteterne",
+"the activities"
+],
+[
+"totaloplevelse",
+"complete experience"
+],
+[
+"livsglæde",
+"joy of life"
+]
+]
+},
+{
+"da": "En mangeårig tradition er, at der i Viborg i hærvejsugen op til og under marchen arrangeres en stor byfest på pladser og torve i den gamle, historiske by.",
+"en": "A long tradition is that a big town festival is held in the squares of the old historic town during the march week, before and during the march.",
+"p": false,
+"note": "There is a town festival during the march week. \"arrangeres\" is the passive with -s: is organised.",
+"words": [
+[
+"mangeårig",
+"long-standing"
+],
+[
+"hærvejsugen",
+"the march week"
+],
+[
+"arrangeres",
+"is organised"
+],
+[
+"torve",
+"squares"
+]
+]
+},
+{
+"da": "Her mødes tusinder af mennesker som i gamle dage, hvor man kom fra hele Jylland for at handle og feste og for måske at få afgjort nogle uenigheder på Tinge.",
+"en": "Here thousands of people meet, as in the old days, when people came from all of Jutland to trade, party and perhaps settle some disagreements at the assembly.",
+"p": false,
+"note": "People meet like in old times. \"mødes\" is an -s verb meaning \"meet each other\".",
+"words": [
+[
+"tusinder",
+"thousands"
+],
+[
+"handle",
+"trade, shop"
+],
+[
+"afgjort",
+"settled"
+],
+[
+"uenigheder",
+"disagreements"
+]
+]
+},
+{
+"da": "Det historiske marked blev kaldt Snapsting, og nu er navnet genoplivet som navnet på byfesten i Viborg i hærvejsugen.",
+"en": "The historic market was called Snapsting, and now the name has been revived as the name of the town festival in Viborg in the march week.",
+"p": false,
+"note": "An old name is used again. \"blev kaldt\" is the passive with \"blive\" in the past.",
+"words": [
+[
+"historiske",
+"historic"
+],
+[
+"genoplivet",
+"revived"
+],
+[
+"byfesten",
+"the town festival"
+]
+]
+},
+{
+"da": "Tilmelding, indkvartering og forplejning",
+"en": "Registration, accommodation and catering",
+"p": true,
+"note": "A heading about practical information.",
+"words": [
+[
+"Tilmelding",
+"registration"
+],
+[
+"indkvartering",
+"accommodation"
+],
+[
+"forplejning",
+"catering, food"
+]
+]
+},
+{
+"da": "Tilmelding til Hærvejsmarchen sker ved køb af startkort, som kan købes online.",
+"en": "You register for the Army Road March by buying a start card, which can be bought online.",
+"p": false,
+"note": "This explains how to sign up. \"kan købes\" is a modal verb plus the passive with -s.",
+"words": [
+[
+"Tilmelding",
+"registration"
+],
+[
+"startkort",
+"start card"
+],
+[
+"købes",
+"be bought"
+]
+]
+},
+{
+"da": "Startkortet er personligt og skal bæres synligt under hele marchen.",
+"en": "The start card is personal and must be worn visibly during the whole march.",
+"p": false,
+"note": "Wear your card where it can be seen. \"skal bæres\" is a modal plus the passive: must be worn.",
+"words": [
+[
+"Startkortet",
+"the start card"
+],
+[
+"personligt",
+"personal"
+],
+[
+"bæres",
+"be worn"
+],
+[
+"synligt",
+"visibly"
+]
+]
+},
+{
+"da": "Det giver adgang til rastepladser, toiletter og førstehjælp på ruterne.",
+"en": "It gives access to rest stops, toilets and first aid on the routes.",
+"p": false,
+"note": "The card gives access to services. \"adgang til\" means \"access to\".",
+"words": [
+[
+"adgang",
+"access"
+],
+[
+"rastepladser",
+"rest stops"
+],
+[
+"førstehjælp",
+"first aid"
+]
+]
+},
+{
+"da": "Ved tilmelding har man mulighed for at bestille og købe en række tilvalg i forhold til indkvartering og forplejning.",
+"en": "When registering you can order and buy a number of extras for accommodation and food.",
+"p": false,
+"note": "You can buy extras when you sign up. \"i forhold til\" means \"regarding\".",
+"words": [
+[
+"tilmelding",
+"registration"
+],
+[
+"mulighed",
+"possibility"
+],
+[
+"tilvalg",
+"extras, options"
+],
+[
+"indkvartering",
+"accommodation"
+]
+]
+},
+{
+"da": "Når man har tilmeldt sig som deltager til årets hærvejsmarch, modtager man en kvittering for sin betaling.",
+"en": "When you have registered as a participant for this year's march, you receive a receipt for your payment.",
+"p": false,
+"note": "You get a receipt. After the når-clause the verb \"modtager\" comes before \"man\".",
+"words": [
+[
+"tilmeldt",
+"registered"
+],
+[
+"deltager",
+"participant"
+],
+[
+"modtager",
+"receive"
+],
+[
+"kvittering",
+"receipt"
+]
+]
+},
+{
+"da": "Online tilmelding er åben til og med søndagen før marchen.",
+"en": "Online registration is open up to and including the Sunday before the march.",
+"p": false,
+"note": "This is the deadline. \"til og med\" means \"up to and including\".",
+"words": [
+[
+"tilmelding",
+"registration"
+],
+[
+"søndagen",
+"the Sunday"
+]
+]
+},
+{
+"da": "Om fredagen inden kl. 21 eller lørdag og søndag morgen fra kl. 05 kan man møde op i registreringshallen, Tingvej 17, Viborg og afhente sit startkort ved at vise kvitteringen for sin tilmelding.",
+"en": "On Friday before 9 pm, or Saturday and Sunday morning from 5 am, you can come to the registration hall, Tingvej 17, Viborg, and collect your start card by showing the receipt for your registration.",
+"p": true,
+"note": "This says where and when to get your card. \"møde op\" means \"turn up\".",
+"words": [
+[
+"registreringshallen",
+"the registration hall"
+],
+[
+"afhente",
+"collect"
+],
+[
+"startkort",
+"start card"
+],
+[
+"kvitteringen",
+"the receipt"
+]
+]
+},
+{
+"da": "Hvis man ikke har registreret sig og købt et startkort på forhånd, så kan man møde op i registreringshallen fredag kl. 12-21 samt lørdag og søndag kl. 05-09, hvor der er hjælp til onlineregistrering, hvorefter man straks får udleveret startkort og rutekort.",
+"en": "If you have not registered and bought a start card in advance, you can come to the registration hall on Friday 12-9 pm and Saturday and Sunday 5-9 am, where there is help with online registration, after which you immediately get a start card and route map.",
+"p": false,
+"note": "You can also sign up on the day. In the hvis-clause \"ikke\" comes before the verb \"har\".",
+"words": [
+[
+"registreret",
+"registered"
+],
+[
+"forhånd",
+"advance"
+],
+[
+"onlineregistrering",
+"online registration"
+],
+[
+"udleveret",
+"handed out"
+]
+]
+},
+{
+"da": "Der er mange muligheder for god forplejning under marchen.",
+"en": "There are many options for good food during the march.",
+"p": true,
+"note": "There is plenty of food. \"muligheder\" is the plural of \"mulighed\".",
+"words": [
+[
+"muligheder",
+"options"
+],
+[
+"forplejning",
+"food, catering"
+]
+]
+},
+{
+"da": "Man kan på forhånd bestille og købe morgen- og aftensmad til marchdagene, når man tilmelder sig online.",
+"en": "You can order and buy breakfast and dinner for the march days in advance when you register online.",
+"p": false,
+"note": "You can pre-order meals. The hyphen in \"morgen-\" means \"morgenmad og aftensmad\".",
+"words": [
+[
+"forhånd",
+"advance"
+],
+[
+"bestille",
+"order"
+],
+[
+"marchdagene",
+"the march days"
+],
+[
+"tilmelder",
+"register"
+]
+]
+},
+{
+"da": "De bestilte spisebilletter udleveres sammen med startkortet i registreringshallen.",
+"en": "The ordered meal tickets are handed out with the start card in the registration hall.",
+"p": false,
+"note": "You get meal tickets with your card. \"udleveres\" is the passive with -s.",
+"words": [
+[
+"bestilte",
+"ordered"
+],
+[
+"spisebilletter",
+"meal tickets"
+],
+[
+"udleveres",
+"are handed out"
+]
+]
+},
+{
+"da": "Forudbestilt mad udleveres i Hærvejsmarchens telt på Paradepladsen.",
+"en": "Pre-ordered food is handed out in the Army Road March tent on Paradepladsen.",
+"p": false,
+"note": "This says where to get pre-ordered food. \"udleveres\" is the passive with -s.",
+"words": [
+[
+"Forudbestilt",
+"pre-ordered"
+],
+[
+"udleveres",
+"is handed out"
+],
+[
+"telt",
+"tent"
+]
+]
+},
+{
+"da": "I det område, hvor alle ruter starter og slutter, er der derudover hele weekenden masser af muligheder for at købe mad og drikke for dem, der ikke har forudbestilt mad hjemmefra.",
+"en": "In the area where all routes start and finish, there are also lots of chances all weekend to buy food and drink for those who have not pre-ordered food from home.",
+"p": false,
+"note": "You can also buy food on the spot. \"masser af\" means \"lots of\".",
+"words": [
+[
+"område",
+"area"
+],
+[
+"derudover",
+"in addition"
+],
+[
+"muligheder",
+"options"
+],
+[
+"forudbestilt",
+"pre-ordered"
+]
+]
+},
+{
+"da": "Ude på marchruterne er der opstillet rastepladser for hver ca. 10 km., hvor der kan købes mad og drikke til rimelige priser.",
+"en": "Out on the march routes there are rest stops about every 10 km, where food and drink can be bought at reasonable prices.",
+"p": false,
+"note": "There are rest stops on the way. \"er opstillet\" is a passive with \"være\": have been set up.",
+"words": [
+[
+"marchruterne",
+"the march routes"
+],
+[
+"opstillet",
+"set up"
+],
+[
+"rastepladser",
+"rest stops"
+],
+[
+"rimelige",
+"reasonable"
+]
+]
+},
+{
+"da": "Alle, der gennemfører mindst 2 x 10 km lørdag og søndag, kan få udleveret en Hærvejsmarchen-medalje.",
+"en": "Everyone who completes at least 2 x 10 km on Saturday and Sunday can get an Army Road March medal.",
+"p": true,
+"note": "This explains how to get a medal. \"der\" is a relative pronoun here: who.",
+"words": [
+[
+"gennemfører",
+"complete"
+],
+[
+"udleveret",
+"handed out"
+],
+[
+"medalje",
+"medal"
+]
+]
+},
+{
+"da": "Hvis man har købt et startkort til én dag, giver det altså ikke ret til en medalje, men hvis man har købt et endagskort til lørdag, kan dette søndag morgen ombyttes til et todages startkort med medalje, hvor man bliver registreret til at gå to dage.",
+"en": "So a one-day card does not give the right to a medal, but a Saturday one-day card can be exchanged on Sunday morning for a two-day card with a medal, registering you to walk two days.",
+"p": false,
+"note": "One day is not enough for a medal. After the hvis-clause, the verb \"giver\" comes first.",
+"words": [
+[
+"startkort",
+"start card"
+],
+[
+"endagskort",
+"one-day card"
+],
+[
+"ombyttes",
+"be exchanged"
+],
+[
+"registreret",
+"registered"
+]
+]
+},
+{
+"da": "Kilde: Bearbejdet efter https://www.haervejsmarchen.dk/om-os/om-haervejsmarchen, hentet 1. marts 2023",
+"en": "Source: Adapted from https://www.haervejsmarchen.dk/om-os/om-haervejsmarchen, retrieved 1 March 2023",
+"p": true,
+"note": "The source of the text and the date it was taken from the website.",
+"words": [
+[
+"Bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Mød to deltagere",
+"en": "Meet two participants",
+"p": true,
+"note": "A heading. \"Mød\" is the imperative of \"møde\", to meet.",
+"words": [
+[
+"deltagere",
+"participants"
+]
+]
+},
+{
+"da": "Erik Jensen er 80 år og har deltaget på alle hærvejsmarcher siden den første i 1969.",
+"en": "Erik Jensen is 80 and has taken part in every Army Road March since the first in 1969.",
+"p": false,
+"note": "Erik has walked every march. \"har deltaget\" is the perfect tense with \"siden\".",
+"words": [
+[
+"deltaget",
+"taken part"
+],
+[
+"hærvejsmarcher",
+"Army Road Marches"
+]
+]
+},
+{
+"da": "Han fortæller:",
+"en": "He says:",
+"p": false,
+"note": "This introduces Erik's own words. \"fortæller\" is the present tense: tells.",
+"words": [
+[
+"fortæller",
+"tells"
+]
+]
+},
+{
+"da": "Det er en dejlig tradition.",
+"en": "It is a lovely tradition.",
+"p": true,
+"note": "Erik likes the march. \"en dejlig tradition\": the adjective has no ending with an en-word in the indefinite.",
+"words": [
+[
+"dejlig",
+"lovely"
+],
+[
+"tradition",
+"tradition"
+]
+]
+},
+{
+"da": "Jeg har altid godt kunnet lide at vandre i naturen.",
+"en": "I have always liked walking in nature.",
+"p": false,
+"note": "Erik loves walking. \"har kunnet lide\" is the perfect of \"kan lide\", to like.",
+"words": [
+[
+"altid",
+"always"
+],
+[
+"vandre",
+"walk, hike"
+],
+[
+"naturen",
+"nature"
+]
+]
+},
+{
+"da": "Da jeg var barn, gik jeg tit tur sammen med min bedstefar, der gik ved hjælp af sin elskede stok.",
+"en": "When I was a child, I often went for walks with my grandfather, who walked with the help of his beloved stick.",
+"p": false,
+"note": "He walked with his grandfather as a child. After the da-clause the verb \"gik\" comes before \"jeg\".",
+"words": [
+[
+"bedstefar",
+"grandfather"
+],
+[
+"hjælp",
+"help"
+],
+[
+"elskede",
+"beloved"
+],
+[
+"stok",
+"walking stick"
+]
+]
+},
+{
+"da": "Da Hærvejsmarchen så første gang blev holdt, var jeg ikke i tvivl om, at jeg skulle være med, og det har jeg så været lige siden.",
+"en": "When the march was held for the first time, I had no doubt that I would join, and I have done so ever since.",
+"p": false,
+"note": "He joined from the start. \"være i tvivl om\" means \"to be in doubt about\".",
+"words": [
+[
+"Hærvejsmarchen",
+"the Army Road March"
+],
+[
+"holdt",
+"held"
+],
+[
+"tvivl",
+"doubt"
+],
+[
+"siden",
+"since"
+]
+]
+},
+{
+"da": "Jeg har igennem mit efterhånden snart lange liv haft mange gode oplevelser i forbindelse med marcherne.",
+"en": "Through my now fairly long life I have had many good experiences connected with the marches.",
+"p": true,
+"note": "The marches gave him good memories. \"i forbindelse med\" means \"in connection with\".",
+"words": [
+[
+"efterhånden",
+"by now"
+],
+[
+"oplevelser",
+"experiences"
+],
+[
+"forbindelse",
+"connection"
+],
+[
+"marcherne",
+"the marches"
+]
+]
+},
+{
+"da": "Jeg har nydt den friske luft og den frie natur, og jeg har mødt aktive og glade mennesker fra hele Danmark og mange andre steder i verden.",
+"en": "I have enjoyed the fresh air and open nature, and I have met active and happy people from all over Denmark and many other places in the world.",
+"p": false,
+"note": "He enjoys nature and people. \"nydt\" is the participle of \"nyde\", to enjoy.",
+"words": [
+[
+"nydt",
+"enjoyed"
+],
+[
+"friske",
+"fresh"
+],
+[
+"aktive",
+"active"
+]
+]
+},
+{
+"da": "Jeg møder stadig nye mennesker og får nye oplevelser hvert år, men det vigtigste for mig er at vandre med den gruppe af venner, som jeg har vandret med gennem alle årene – vi er 3-4 stykker tilbage.",
+"en": "I still meet new people and have new experiences every year, but the most important thing for me is walking with my group of friends from all the years – there are 3-4 of us left.",
+"p": false,
+"note": "His old friends matter most. \"det vigtigste\" is a superlative used as a noun: the most important thing.",
+"words": [
+[
+"stadig",
+"still"
+],
+[
+"oplevelser",
+"experiences"
+],
+[
+"vigtigste",
+"most important"
+],
+[
+"stykker",
+"pieces, people"
+]
+]
+},
+{
+"da": "Vi havde så for nogle år siden en halvtredsårs jubilæumsfest, og det var en meget stor og helt særlig oplevelse for mig og mine venner.",
+"en": "Some years ago we had a fiftieth anniversary party, and it was a very big and special experience for me and my friends.",
+"p": false,
+"note": "They celebrated 50 years. \"for nogle år siden\" means \"some years ago\".",
+"words": [
+[
+"halvtredsårs",
+"fifty-year"
+],
+[
+"jubilæumsfest",
+"anniversary party"
+],
+[
+"særlig",
+"special"
+],
+[
+"oplevelse",
+"experience"
+]
+]
+},
+{
+"da": "Det var helt specielt at kunne fejre så mange års sammenhold og fælles minder fra de mange hærvejsmarcher.",
+"en": "It was very special to be able to celebrate so many years of friendship and shared memories from the many marches.",
+"p": false,
+"note": "The party was special. \"at kunne fejre\" is an infinitive with a modal verb: to be able to celebrate.",
+"words": [
+[
+"specielt",
+"special"
+],
+[
+"fejre",
+"celebrate"
+],
+[
+"sammenhold",
+"togetherness"
+],
+[
+"fælles",
+"shared"
+]
+]
+},
+{
+"da": "Lisbeth og Sven Larsen har mange gange vandret Hærvejsmarchen sammen.",
+"en": "Lisbeth and Sven Larsen have walked the Army Road March together many times.",
+"p": true,
+"note": "A couple who walk together. \"har vandret\" is the perfect tense.",
+"words": [
+[
+"vandret",
+"walked"
+],
+[
+"Hærvejsmarchen",
+"the Army Road March"
+]
+]
+},
+{
+"da": "Lisbeth fortæller:",
+"en": "Lisbeth says:",
+"p": false,
+"note": "This introduces Lisbeth's words.",
+"words": [
+[
+"fortæller",
+"tells"
+]
+]
+},
+{
+"da": "Traditionen med at tage til Viborg og vandre sammen med tusinder af andre mennesker vil vi slet ikke undvære.",
+"en": "We would not miss the tradition of going to Viborg and walking with thousands of other people for anything.",
+"p": true,
+"note": "The march is very important to them. The object comes first, so \"vil\" comes before \"vi\".",
+"words": [
+[
+"Traditionen",
+"the tradition"
+],
+[
+"tusinder",
+"thousands"
+],
+[
+"undvære",
+"do without"
+]
+]
+},
+{
+"da": "Vi nyder at vandre i naturen og være en del af et stort mellemfolkeligt fællesskab.",
+"en": "We enjoy walking in nature and being part of a large international community.",
+"p": false,
+"note": "They love nature and community. \"et stort fællesskab\": the adjective gets -t with an et-word.",
+"words": [
+[
+"nyder",
+"enjoy"
+],
+[
+"mellemfolkeligt",
+"international"
+],
+[
+"fællesskab",
+"community"
+]
+]
+},
+{
+"da": "Min mand og jeg har vandret sammen i over 25 år med undtagelse af nogle år, hvor det ikke var muligt, fordi vores børn var for små til at kunne gå med.",
+"en": "My husband and I have walked together for over 25 years, except for some years when it was not possible because our children were too small to come.",
+"p": false,
+"note": "They skipped some years for the children. \"med undtagelse af\" means \"except for\".",
+"words": [
+[
+"undtagelse",
+"exception"
+],
+[
+"muligt",
+"possible"
+],
+[
+"fordi",
+"because"
+]
+]
+},
+{
+"da": "Da de blev større, gik jeg med igen, og børnene har også været med flere gange.",
+"en": "When they got bigger, I joined again, and the children have also come along several times.",
+"p": false,
+"note": "The children joined later. After the da-clause, the verb \"gik\" comes before \"jeg\".",
+"words": [
+[
+"større",
+"bigger"
+],
+[
+"børnene",
+"the children"
+]
+]
+},
+{
+"da": "Sven har kun misset et enkelt år, hvor han ikke kunne vandre.",
+"en": "Sven has only missed one year, when he could not walk.",
+"p": false,
+"note": "Sven missed just one year. \"har misset\" is the perfect tense of an English loanword.",
+"words": [
+[
+"misset",
+"missed"
+],
+[
+"enkelt",
+"single"
+]
+]
+},
+{
+"da": "Det var fordi, han havde spillet en fodboldkamp en uge før marchen, og der var han så uheldig at brække anklen i en tackling.",
+"en": "That was because he had played a football match a week before the march, and he was so unlucky as to break his ankle in a tackle.",
+"p": false,
+"note": "Sven broke his ankle. \"havde spillet\" is the past perfect: had played.",
+"words": [
+[
+"fodboldkamp",
+"football match"
+],
+[
+"uheldig",
+"unlucky"
+],
+[
+"brække",
+"break"
+],
+[
+"anklen",
+"the ankle"
+]
+]
+},
+{
+"da": "Men det er også den eneste gang, Sven ikke har været med, og vi regner med at være med i mange år endnu.",
+"en": "But that is also the only time Sven has not taken part, and we expect to take part for many years yet.",
+"p": false,
+"note": "They plan to keep walking. \"regne med\" means \"expect, count on\".",
+"words": [
+[
+"eneste",
+"only"
+],
+[
+"regner",
+"count, expect"
+]
+]
+},
+{
+"da": "TRE BORGERE I VIBORG FORTÆLLER OM BYEN",
+"en": "THREE CITIZENS OF VIBORG TALK ABOUT THE TOWN",
+"p": true,
+"note": "The title of the last chapter: three people talk about Viborg.",
+"words": [
+[
+"BORGERE",
+"citizens"
+],
+[
+"FORTÆLLER",
+"tell"
+]
+]
+},
+{
+"da": "Steen Hermann om sport og sammenhold",
+"en": "Steen Hermann on sport and togetherness",
+"p": true,
+"note": "A heading: Steen talks about sport.",
+"words": [
+[
+"sammenhold",
+"togetherness"
+]
+]
+},
+{
+"da": "Jeg voksede op i den vestlige del af Viborg i efterkrigsårene.",
+"en": "I grew up in the western part of Viborg in the years after the war.",
+"p": false,
+"note": "Steen tells where he grew up. \"voksede op\" is the past tense of \"vokse op\".",
+"words": [
+[
+"voksede",
+"grew"
+],
+[
+"vestlige",
+"western"
+],
+[
+"efterkrigsårene",
+"the post-war years"
+]
+]
+},
+{
+"da": "Vi drenge spillede fodbold og havde forskellige småjobs efter skole.",
+"en": "We boys played football and had various small jobs after school.",
+"p": false,
+"note": "He describes his childhood. \"spillede\" is the past tense of \"spille\".",
+"words": [
+[
+"drenge",
+"boys"
+],
+[
+"forskellige",
+"various"
+],
+[
+"småjobs",
+"small jobs"
+]
+]
+},
+{
+"da": "Jeg var ret god og kom også på Viborg FF’s andethold.",
+"en": "I was quite good and also got onto Viborg FF's second team.",
+"p": false,
+"note": "He was a good player. \"ret\" means \"quite\" here.",
+"words": [
+[
+"andethold",
+"second team"
+]
+]
+},
+{
+"da": "Men så blev jeg tømrer, og da jeg fik mit eget firma, stoppede jeg.",
+"en": "But then I became a carpenter, and when I got my own company, I stopped.",
+"p": false,
+"note": "He stopped playing for work. \"mit eget firma\": \"eget\" has -t because \"firma\" is an et-word.",
+"words": [
+[
+"tømrer",
+"carpenter"
+],
+[
+"firma",
+"company"
+],
+[
+"stoppede",
+"stopped"
+]
+]
+},
+{
+"da": "Nu er jeg pensionist og arbejder ikke længere, men interessen for fodbold har jeg stadig.",
+"en": "Now I am retired and no longer work, but I still have my interest in football.",
+"p": false,
+"note": "He still loves football. The object comes first, so \"har\" comes before \"jeg\".",
+"words": [
+[
+"pensionist",
+"pensioner"
+],
+[
+"længere",
+"longer"
+],
+[
+"interessen",
+"the interest"
+]
+]
+},
+{
+"da": "Når Viborg spiller på hjemmebane, så er jeg altid på stadion for at støtte dem.",
+"en": "When Viborg play at home, I am always at the stadium to support them.",
+"p": false,
+"note": "He goes to every home match. \"så\" after the når-clause is followed by the verb.",
+"words": [
+[
+"hjemmebane",
+"home ground"
+],
+[
+"stadion",
+"stadium"
+],
+[
+"støtte",
+"support"
+]
+]
+},
+{
+"da": "Det kan jeg slet ikke undvære.",
+"en": "I simply could not do without it.",
+"p": false,
+"note": "Football is very important to him. \"slet ikke\" means \"not at all\".",
+"words": [
+[
+"undvære",
+"do without"
+]
+]
+},
+{
+"da": "Jeg møder stadig nogle af mine gamle fodboldkammerater fra dengang, jeg selv spillede.",
+"en": "I still meet some of my old football friends from back when I played myself.",
+"p": false,
+"note": "He still sees old teammates. \"dengang\" means \"back then\".",
+"words": [
+[
+"fodboldkammerater",
+"football mates"
+],
+[
+"dengang",
+"back then"
+]
+]
+},
+{
+"da": "Vi har stadig et rigtigt godt sammenhold.",
+"en": "We still have really good togetherness.",
+"p": false,
+"note": "They are still close. \"rigtigt\" is used as an adverb: really.",
+"words": [
+[
+"rigtigt",
+"really"
+],
+[
+"sammenhold",
+"togetherness"
+]
+]
+},
+{
+"da": "Men det er ikke kun i fodbold, Viborg klarer sig rigtigt godt som sportsby.",
+"en": "But it is not only in football that Viborg does really well as a sports town.",
+"p": true,
+"note": "Viborg is good at more sports. \"klare sig\" is reflexive: to do well, manage.",
+"words": [
+[
+"klarer",
+"manage, do"
+],
+[
+"sportsby",
+"sports town"
+]
+]
+},
+{
+"da": "Det gør byen i høj grad også i håndbold, især kvinderne har succes.",
+"en": "The town also does very well in handball, especially the women are successful.",
+"p": false,
+"note": "Women's handball is strong. \"i høj grad\" means \"to a high degree\".",
+"words": [
+[
+"håndbold",
+"handball"
+],
+[
+"kvinderne",
+"the women"
+],
+[
+"succes",
+"success"
+]
+]
+},
+{
+"da": "Jeg ser nogle gange deres kampe, dog kun på tv, så det er ikke kun fodbold, jeg følger.",
+"en": "I sometimes watch their matches, though only on TV, so it is not only football I follow.",
+"p": false,
+"note": "He watches handball on TV. \"dog\" means \"though, however\".",
+"words": [
+[
+"kampe",
+"matches"
+],
+[
+"følger",
+"follow"
+]
+]
+},
+{
+"da": "Jeg tror, der er mange borgere i Viborg, der er stolte over, at byen er så succesfuld, og det er noget, der er med til at skabe sammenhold.",
+"en": "I think many citizens of Viborg are proud that the town is so successful, and that helps create togetherness.",
+"p": false,
+"note": "Success makes people proud and united. \"stolt over\" means \"proud of\".",
+"words": [
+[
+"borgere",
+"citizens"
+],
+[
+"stolte",
+"proud"
+],
+[
+"succesfuld",
+"successful"
+],
+[
+"sammenhold",
+"togetherness"
+]
+]
+},
+{
+"da": "Jeg er imponeret over den opbakning vores sportsfolk får.",
+"en": "I am impressed by the support our athletes get.",
+"p": false,
+"note": "People support their teams. \"imponeret over\" means \"impressed by\".",
+"words": [
+[
+"imponeret",
+"impressed"
+],
+[
+"opbakning",
+"support"
+],
+[
+"sportsfolk",
+"athletes"
+]
+]
+},
+{
+"da": "Sporten er virkelig noget, vi er sammen om her i Viborg.",
+"en": "Sport is really something we share here in Viborg.",
+"p": false,
+"note": "Sport brings people together. \"være sammen om\" means \"share, do together\".",
+"words": [
+[
+"virkelig",
+"really"
+],
+[
+"sammen",
+"together"
+]
+]
+},
+{
+"da": "Nina Eriksen om byens parker",
+"en": "Nina Eriksen on the town's parks",
+"p": true,
+"note": "A heading: Nina talks about the parks.",
+"words": [
+[
+"parker",
+"parks"
+]
+]
+},
+{
+"da": "Jeg er vild med, at Viborg har så mange offentlige parker og grønne områder.",
+"en": "I love that Viborg has so many public parks and green areas.",
+"p": false,
+"note": "Nina loves the parks. \"være vild med\" means \"to love, be crazy about\".",
+"words": [
+[
+"offentlige",
+"public"
+],
+[
+"områder",
+"areas"
+]
+]
+},
+{
+"da": "Det er skønt, når man bor i lejlighed, at der er større udearealer, hvor børnene kan brænde noget energi af.",
+"en": "When you live in a flat, it is wonderful that there are bigger outdoor areas where children can burn off some energy.",
+"p": false,
+"note": "Parks are good for families in flats. \"brænde energi af\" is a separable verb: to burn off energy.",
+"words": [
+[
+"skønt",
+"wonderful"
+],
+[
+"lejlighed",
+"flat"
+],
+[
+"udearealer",
+"outdoor areas"
+],
+[
+"energi",
+"energy"
+]
+]
+},
+{
+"da": "Jeg er især vild med Borgvold.",
+"en": "I especially love Borgvold.",
+"p": false,
+"note": "Borgvold is her favourite. \"især\" means \"especially\".",
+"words": [
+[
+"især",
+"especially"
+]
+]
+},
+{
+"da": "Det er et smukt gammelt parkanlæg i romantisk stil med både kanaler, broer og små stier.",
+"en": "It is a beautiful old park in the Romantic style with canals, bridges and small paths.",
+"p": false,
+"note": "She describes the park. \"et smukt gammelt parkanlæg\": adjectives get -t with an et-word.",
+"words": [
+[
+"parkanlæg",
+"park"
+],
+[
+"romantisk",
+"Romantic"
+],
+[
+"kanaler",
+"canals"
+],
+[
+"stier",
+"paths"
+]
+]
+},
+{
+"da": "Der er også en musiktribune og nedenfor parken er der to søer, som man kan sejle på med det lille skib ”Margrete I”.",
+"en": "There is also a music stage, and below the park there are two lakes you can sail on with the small boat \"Margrete I\".",
+"p": false,
+"note": "You can take a boat trip. \"det lille skib\": after \"det\" the adjective takes the form \"lille\".",
+"words": [
+[
+"musiktribune",
+"music stage"
+],
+[
+"nedenfor",
+"below"
+],
+[
+"sejle",
+"sail"
+]
+]
+},
+{
+"da": "Det er børnene helt vilde med.",
+"en": "The children love it.",
+"p": false,
+"note": "The children love the boat. The object \"Det\" comes first, so the verb \"er\" comes before \"børnene\".",
+"words": [
+[
+"børnene",
+"the children"
+],
+[
+"vilde",
+"crazy"
+]
+]
+},
+{
+"da": "Og de er næsten lige så glade for at lege på legepladsen og skøjte på skøjtebanen, som anlægges midt i parken om vinteren.",
+"en": "And they are almost as happy to play in the playground and skate on the ice rink, which is made in the middle of the park in winter.",
+"p": false,
+"note": "Children also play and skate. \"lige så ... som\" means \"as ... as\"; \"anlægges\" is passive.",
+"words": [
+[
+"legepladsen",
+"the playground"
+],
+[
+"skøjtebanen",
+"the ice rink"
+],
+[
+"anlægges",
+"is laid out"
+]
+]
+},
+{
+"da": "Så det er ikke kun mig, der er vild med Borgvold, det er børnene også.",
+"en": "So it is not only me who loves Borgvold, the children do too.",
+"p": false,
+"note": "Everyone in her family loves the park. \"der\" works as \"who\" in this sentence.",
+"words": [
+[
+"børnene",
+"the children"
+]
+]
+},
+{
+"da": "Stinne Holm om at være frivillig på Paletten",
+"en": "Stinne Holm on being a volunteer at Paletten",
+"p": true,
+"note": "A heading: Stinne talks about volunteering.",
+"words": [
+[
+"frivillig",
+"volunteer"
+]
+]
+},
+{
+"da": "Jeg er frivillig på Paletten, som er et spillested i Viborg.",
+"en": "I am a volunteer at Paletten, which is a music venue in Viborg.",
+"p": false,
+"note": "Stinne volunteers at a venue. \"som\" is a relative pronoun: which.",
+"words": [
+[
+"frivillig",
+"volunteer"
+],
+[
+"spillested",
+"music venue"
+]
+]
+},
+{
+"da": "Der er kun enkelte faste medarbejdere, og så er vi 100-120 frivillige.",
+"en": "There are only a few permanent staff, and then there are 100-120 of us volunteers.",
+"p": false,
+"note": "Most workers are volunteers. \"faste\" has -e in the plural.",
+"words": [
+[
+"enkelte",
+"a few"
+],
+[
+"medarbejdere",
+"employees"
+],
+[
+"frivillige",
+"volunteers"
+]
+]
+},
+{
+"da": "Vi er blandt andet bartendere, garderobepersonale, scenefolk og nogle, der stiller op til koncerterne.",
+"en": "We are, among other things, bartenders, cloakroom staff, stage crew and people who set up for the concerts.",
+"p": false,
+"note": "This lists volunteer jobs. \"stille op\" means \"set up\".",
+"words": [
+[
+"bartendere",
+"bartenders"
+],
+[
+"garderobepersonale",
+"cloakroom staff"
+],
+[
+"scenefolk",
+"stage crew"
+],
+[
+"koncerterne",
+"the concerts"
+]
+]
+},
+{
+"da": "Der kommer især kunstnere inden for rytmisk musik.",
+"en": "Mostly artists within rhythmic music come.",
+"p": true,
+"note": "The venue has mostly pop and rock. \"inden for\" means \"within\".",
+"words": [
+[
+"kunstnere",
+"artists"
+],
+[
+"rytmisk",
+"rhythmic"
+]
+]
+},
+{
+"da": "Der kommer både velkendte artister og nye, mindre kendte musikere og spiller.",
+"en": "Both well-known artists and new, less known musicians come and play.",
+"p": false,
+"note": "Famous and new musicians play. \"mindre kendte\" means \"less known\".",
+"words": [
+[
+"velkendte",
+"well-known"
+],
+[
+"artister",
+"performers"
+],
+[
+"musikere",
+"musicians"
+]
+]
+},
+{
+"da": "Selvom der især spilles rytmisk musik, har vi også en gang imellem klassiske koncerter.",
+"en": "Even though mostly rhythmic music is played, we also have classical concerts now and then.",
+"p": false,
+"note": "There is also some classical music. \"spilles\" is passive; after the selvom-clause, \"har\" comes before \"vi\".",
+"words": [
+[
+"Selvom",
+"even though"
+],
+[
+"spilles",
+"is played"
+],
+[
+"imellem",
+"between"
+],
+[
+"klassiske",
+"classical"
+]
+]
+},
+{
+"da": "Det er primært torsdag, fredag og lørdag, der er koncerter.",
+"en": "Concerts are mainly on Thursday, Friday and Saturday.",
+"p": false,
+"note": "This gives concert days. \"Det er ... der\" is a cleft sentence that stresses the days.",
+"words": [
+[
+"primært",
+"mainly"
+],
+[
+"koncerter",
+"concerts"
+]
+]
+},
+{
+"da": "På de øvrige hverdage udlejes Paletten til andre aktiviteter, primært kulturelle.",
+"en": "On the other weekdays Paletten is rented out for other activities, mainly cultural ones.",
+"p": false,
+"note": "The venue is rented out other days. \"udlejes\" is the passive with -s.",
+"words": [
+[
+"øvrige",
+"other"
+],
+[
+"hverdage",
+"weekdays"
+],
+[
+"udlejes",
+"is rented out"
+],
+[
+"kulturelle",
+"cultural"
+]
+]
+},
+{
+"da": "Som frivillig møder jeg en masse mennesker, både koncertgæster og andre frivillige, og som et særligt plus har jeg også fået nye venner.",
+"en": "As a volunteer I meet lots of people, both concert guests and other volunteers, and as a special bonus I have also made new friends.",
+"p": true,
+"note": "She meets many people. After \"Som frivillig\" the verb \"møder\" comes before \"jeg\".",
+"words": [
+[
+"frivillig",
+"volunteer"
+],
+[
+"koncertgæster",
+"concert guests"
+],
+[
+"særligt",
+"special"
+]
+]
+},
+{
+"da": "Jeg har også gratis adgang til de fleste koncerter, så jeg kan kun anbefale at blive frivillig på Paletten.",
+"en": "I also get free entry to most concerts, so I can only recommend becoming a volunteer at Paletten.",
+"p": false,
+"note": "She recommends volunteering. \"de fleste\" means \"most\".",
+"words": [
+[
+"gratis",
+"free"
+],
+[
+"adgang",
+"access"
+],
+[
+"koncerter",
+"concerts"
+],
+[
+"anbefale",
+"recommend"
+]
+]
+}
+]
+},
+"pd3-24m-2": {
+"lines": [
+{
+"da": "At skifte branche",
+"en": "Changing career field",
+"p": true,
+"note": "The title: the text is about changing to a new line of work.",
+"words": [
+[
+"skifte",
+"change"
+],
+[
+"branche",
+"line of work"
+]
+]
+},
+{
+"da": "Der kan være mange grunde til, at man vælger at skifte branche, selvom man er midt i livet, fortæller Ask Nielsen, der har været karriererådgiver igennem 15 år.",
+"en": "There can be many reasons for choosing to change field even in the middle of life, says Ask Nielsen, who has been a career adviser for 15 years.",
+"p": true,
+"note": "An expert explains why people change jobs. \"selvom\" means \"even though\" and is followed by normal word order.",
+"words": [
+[
+"grunde",
+"reasons"
+],
+[
+"selvom",
+"even though"
+],
+[
+"karriererådgiver",
+"career adviser"
+],
+[
+"igennem",
+"through, for"
+]
+]
+},
+{
+"da": "En af de mange klienter, han har hjulpet videre, er Pia Lehmann.",
+"en": "One of the many clients he has helped on is Pia Lehmann.",
+"p": false,
+"note": "Pia is an example. \"har hjulpet\" is the perfect of \"hjælpe\".",
+"words": [
+[
+"klienter",
+"clients"
+],
+[
+"hjulpet",
+"helped"
+]
+]
+},
+{
+"da": "Hun er oprindelig uddannet lærer, men efter nogle år i jobbet indså hun, at det ikke rigtig var noget for hende.",
+"en": "She originally trained as a teacher, but after some years in the job she realised it was not really for her.",
+"p": false,
+"note": "Pia was not happy as a teacher. After the time phrase, \"indså\" comes before \"hun\"; in the at-clause \"ikke\" comes before the verb.",
+"words": [
+[
+"oprindelig",
+"originally"
+],
+[
+"uddannet",
+"trained"
+],
+[
+"indså",
+"realised"
+]
+]
+},
+{
+"da": "”Det var på mange måder skønt at være lærer, og jeg havde nogle dejlige elever og gode kolleger.",
+"en": "\"In many ways it was wonderful being a teacher, and I had some lovely pupils and good colleagues.",
+"p": false,
+"note": "Pia liked parts of teaching. \"på mange måder\" means \"in many ways\".",
+"words": [
+[
+"måder",
+"ways"
+],
+[
+"skønt",
+"wonderful"
+],
+[
+"dejlige",
+"lovely"
+],
+[
+"kolleger",
+"colleagues"
+]
+]
+},
+{
+"da": "Men jeg havde det svært med alle de krav om administrative opgaver, læreplaner og detaljerede årsplaner, som tog tid fra min kerneopgave som lærer.",
+"en": "But I found it hard with all the demands for admin tasks, curricula and detailed yearly plans, which took time from my core task as a teacher.",
+"p": false,
+"note": "Paperwork took her time. \"have det svært med\" means \"find something hard\".",
+"words": [
+[
+"administrative",
+"administrative"
+],
+[
+"læreplaner",
+"curricula"
+],
+[
+"detaljerede",
+"detailed"
+],
+[
+"kerneopgave",
+"core task"
+]
+]
+},
+{
+"da": "Det gjorde, at jeg ikke havde mulighed for at være så god en lærer, som jeg gerne ville.”",
+"en": "It meant that I could not be as good a teacher as I wanted to be.\"",
+"p": false,
+"note": "She could not teach as well as she wanted. \"så god en lærer, som\" means \"as good a teacher as\".",
+"words": [
+[
+"mulighed",
+"possibility"
+],
+[
+"gerne",
+"gladly"
+]
+]
+},
+{
+"da": "Pia Lehmanns historie er typisk, siger Ask Nielsen.",
+"en": "Pia Lehmann's story is typical, says Ask Nielsen.",
+"p": true,
+"note": "Her story is common. \"siger Ask Nielsen\" uses inversion after a quote: verb before subject.",
+"words": [
+[
+"historie",
+"story"
+],
+[
+"typisk",
+"typical"
+]
+]
+},
+{
+"da": "Hun oplevede en tiltagende utilfredshed med sin jobsituation, og hun fokuserede overvejende på det, hun gerne ville være fri for.",
+"en": "She felt growing dissatisfaction with her job situation, and she mainly focused on what she wanted to be free of.",
+"p": false,
+"note": "She thought most about what she disliked. \"oplevede\" is the past tense of \"opleve\".",
+"words": [
+[
+"tiltagende",
+"growing"
+],
+[
+"utilfredshed",
+"dissatisfaction"
+],
+[
+"jobsituation",
+"job situation"
+],
+[
+"overvejende",
+"mainly"
+]
+]
+},
+{
+"da": "”Det er et udmærket sted at starte, men det er ikke nok, hvis man vil have et tilfredsstillende arbejdsliv,” siger han.",
+"en": "\"That is a fine place to start, but it is not enough if you want a satisfying working life,\" he says.",
+"p": false,
+"note": "Knowing what you dislike is not enough. \"et udmærket sted\": the adjective gets -t with an et-word.",
+"words": [
+[
+"udmærket",
+"fine, excellent"
+],
+[
+"tilfredsstillende",
+"satisfying"
+],
+[
+"arbejdsliv",
+"working life"
+]
+]
+},
+{
+"da": "I det samarbejde og den proces, der fulgte, fandt de frem til, at Pia Lehmann i virkeligheden havde lyst til at udfordre sig selv på en ny måde.",
+"en": "In the cooperation and process that followed, they found out that Pia Lehmann really wanted to challenge herself in a new way.",
+"p": false,
+"note": "They discovered what Pia really wanted. \"finde frem til\" means \"find out, arrive at\".",
+"words": [
+[
+"samarbejde",
+"cooperation"
+],
+[
+"virkeligheden",
+"reality"
+],
+[
+"udfordre",
+"challenge"
+]
+]
+},
+{
+"da": "”Jeg kunne mærke, at jeg gerne ville prøve at folde nogle af mine andre talenter ud, selvom det virkede skræmmende til at starte med: Jeg ville skrive og fordybe mig.",
+"en": "\"I could feel that I wanted to try to develop some of my other talents, even though it seemed scary at first: I wanted to write and immerse myself.",
+"p": false,
+"note": "Pia wanted to write. \"folde ud\" is a separable verb: unfold, develop.",
+"words": [
+[
+"talenter",
+"talents"
+],
+[
+"skræmmende",
+"frightening"
+],
+[
+"fordybe",
+"immerse"
+]
+]
+},
+{
+"da": "Derfor blev jeg journalist, men først efter at have taget en særlig tillægsuddannelse på Journalisthøjskolen i Aarhus.”",
+"en": "So I became a journalist, but only after taking a special supplementary course at the Danish School of Journalism in Aarhus.\"",
+"p": false,
+"note": "She retrained as a journalist. \"efter at have taget\" is a perfect infinitive: after having taken.",
+"words": [
+[
+"Derfor",
+"therefore"
+],
+[
+"journalist",
+"journalist"
+],
+[
+"tillægsuddannelse",
+"supplementary education"
+]
+]
+},
+{
+"da": "Pia Lehman er glad for, at hun tog springet ud i noget nyt, og at hun fandt frem til noget, hun hellere ville.",
+"en": "Pia Lehmann is glad she took the leap into something new and found something she preferred.",
+"p": true,
+"note": "She is happy with the change. \"tage springet\" means \"take the leap\".",
+"words": [
+[
+"springet",
+"the leap"
+],
+[
+"hellere",
+"rather"
+]
+]
+},
+{
+"da": "Men der er mange, der undlader at skifte karriere, selvom de ikke føler, de får særlig meget ud af deres arbejdsliv og faktisk drømmer om noget helt andet.",
+"en": "But many people avoid changing career, even though they do not feel they get much out of their working life and actually dream of something quite different.",
+"p": false,
+"note": "Many people do not change, even when unhappy. \"få noget ud af\" means \"get something out of\".",
+"words": [
+[
+"undlader",
+"refrain from"
+],
+[
+"karriere",
+"career"
+],
+[
+"arbejdsliv",
+"working life"
+],
+[
+"drømmer",
+"dream"
+]
+]
+},
+{
+"da": "”Der er nogle, der grundlæggende er usikre på, om de virkelig kan løfte nogle helt nye opgaver, og om de er villige til at arbejde mere, end de er vant til,” siger Ask Nielsen.",
+"en": "\"Some are basically unsure whether they can really handle completely new tasks and whether they are willing to work more than they are used to,\" says Ask Nielsen.",
+"p": false,
+"note": "Some people lack confidence. \"være vant til\" means \"be used to\".",
+"words": [
+[
+"grundlæggende",
+"basically"
+],
+[
+"usikre",
+"unsure"
+],
+[
+"villige",
+"willing"
+]
+]
+},
+{
+"da": "”Som ny medarbejder i en branche bliver det ofte forventet, at man er virkelig flittig i starten.",
+"en": "\"As a new employee in a field, you are often expected to be really hard-working at the start.",
+"p": false,
+"note": "New people must work hard. \"bliver det forventet\" is a passive with \"blive\": it is expected.",
+"words": [
+[
+"medarbejder",
+"employee"
+],
+[
+"forventet",
+"expected"
+],
+[
+"flittig",
+"hard-working"
+]
+]
+},
+{
+"da": "Det kan selvfølgelig virke lidt afskrækkende.”",
+"en": "That can of course seem a bit off-putting.\"",
+"p": false,
+"note": "Hard work can scare people off. \"virke\" here means \"seem\".",
+"words": [
+[
+"selvfølgelig",
+"of course"
+],
+[
+"afskrækkende",
+"off-putting"
+]
+]
+},
+{
+"da": "Der er dog oftest noget andet på spil, der vejer tungere.",
+"en": "But usually something else is at stake that weighs more.",
+"p": false,
+"note": "There is a bigger reason. \"på spil\" means \"at stake\".",
+"words": [
+[
+"oftest",
+"most often"
+],
+[
+"tungere",
+"heavier"
+]
+]
+},
+{
+"da": "Har folk arbejdet i samme job i mange år, er man ofte fanget i det, man kalder Det gyldne bur.",
+"en": "If people have worked in the same job for many years, they are often trapped in what is called the golden cage.",
+"p": false,
+"note": "Long service can trap people. The sentence starts with the verb \"Har\", which means \"if\".",
+"words": [
+[
+"arbejdet",
+"worked"
+],
+[
+"fanget",
+"trapped"
+],
+[
+"gyldne",
+"golden"
+]
+]
+},
+{
+"da": "”I Det gyldne bur nyder man både stor anerkendelse fra sine kolleger, og man har på grund af sin anciennitet en vis position i firmaet og får også en god løn.",
+"en": "\"In the golden cage you enjoy great recognition from your colleagues, and because of your seniority you have a certain position in the company and also a good salary.",
+"p": false,
+"note": "This explains the golden cage. \"sine\" and \"sin\" are reflexive and refer back to \"man\".",
+"words": [
+[
+"anerkendelse",
+"recognition"
+],
+[
+"anciennitet",
+"seniority"
+],
+[
+"position",
+"position"
+]
+]
+},
+{
+"da": "Det er derfor tit sværere at skifte karriere med alderen,” siger Ask Nielsen.",
+"en": "That is why it is often harder to change career as you get older,\" says Ask Nielsen.",
+"p": false,
+"note": "Changing gets harder with age. \"sværere\" is the comparative of \"svær\".",
+"words": [
+[
+"derfor",
+"therefore"
+],
+[
+"sværere",
+"harder"
+],
+[
+"alderen",
+"age"
+]
+]
+},
+{
+"da": "Efter fire gode år som journalist fik Pia Lehmann et nyt job i et ministerium.",
+"en": "After four good years as a journalist, Pia Lehmann got a new job in a ministry.",
+"p": true,
+"note": "Pia changed job again. After the fronted time phrase, \"fik\" comes before the subject.",
+"words": [
+[
+"journalist",
+"journalist"
+],
+[
+"ministerium",
+"ministry"
+]
+]
+},
+{
+"da": "Det er imidlertid ikke, hvad Ask Nielsen ville kalde et egentligt brancheskifte, for hun arbejder stadig med sproglig formidling.",
+"en": "However, that is not what Ask Nielsen would call a real change of field, because she still works with communicating through language.",
+"p": false,
+"note": "This new job is in the same field. \"for\" here means \"because\".",
+"words": [
+[
+"imidlertid",
+"however"
+],
+[
+"egentligt",
+"real"
+],
+[
+"brancheskifte",
+"change of field"
+],
+[
+"formidling",
+"communication"
+]
+]
+},
+{
+"da": "”Jeg brænder stadig for at kommunikere på forskellige måder og på forskellige platforme,” siger Pia Lehmann.",
+"en": "\"I am still passionate about communicating in different ways and on different platforms,\" says Pia Lehmann.",
+"p": false,
+"note": "She loves communication. \"brænde for\" means \"be passionate about\".",
+"words": [
+[
+"kommunikere",
+"communicate"
+],
+[
+"forskellige",
+"different"
+],
+[
+"platforme",
+"platforms"
+]
+]
+},
+{
+"da": "”Men som almindelig journalist skal man ind imellem formidle historier, man ikke selv synes er særlig spændende.",
+"en": "\"But as an ordinary journalist you sometimes have to tell stories you do not find very exciting yourself.",
+"p": false,
+"note": "Journalists must write about boring things too. \"ind imellem\" means \"now and then\".",
+"words": [
+[
+"almindelig",
+"ordinary"
+],
+[
+"imellem",
+"between"
+],
+[
+"formidle",
+"communicate"
+],
+[
+"spændende",
+"exciting"
+]
+]
+},
+{
+"da": "Derfor søgte jeg et job som konsulent med ansvar for udvikling af en helt ny hjemmeside i et ministerium, og det har jeg ikke fortrudt.",
+"en": "So I applied for a job as a consultant responsible for developing a brand-new website in a ministry, and I have not regretted it.",
+"p": false,
+"note": "She is happy with the change. \"ansvar for\" means \"responsibility for\".",
+"words": [
+[
+"konsulent",
+"consultant"
+],
+[
+"udvikling",
+"development"
+],
+[
+"hjemmeside",
+"website"
+],
+[
+"fortrudt",
+"regretted"
+]
+]
+},
+{
+"da": "Her føler jeg både, at jeg gør en forskel og bruger mine evner på alle mulige måder.”",
+"en": "Here I feel both that I make a difference and that I use my abilities in all sorts of ways.\"",
+"p": false,
+"note": "She feels useful. \"gøre en forskel\" means \"make a difference\".",
+"words": [
+[
+"forskel",
+"difference"
+],
+[
+"evner",
+"abilities"
+]
+]
+},
+{
+"da": "Ifølge Ask Nielsen er journalister heldigere stillet end mange andre faggrupper.",
+"en": "According to Ask Nielsen, journalists are better placed than many other professional groups.",
+"p": true,
+"note": "Journalists have many options. \"heldigere\" is the comparative of \"heldig\".",
+"words": [
+[
+"Ifølge",
+"according to"
+],
+[
+"journalister",
+"journalists"
+],
+[
+"heldigere",
+"luckier"
+],
+[
+"faggrupper",
+"professional groups"
+]
+]
+},
+{
+"da": "”Journalister har nogle meget efterspurgte kompetencer, som kan anvendes i mange sammenhænge,” siger Ask Nielsen.",
+"en": "\"Journalists have skills that are much in demand and can be used in many contexts,\" says Ask Nielsen.",
+"p": false,
+"note": "Their skills are useful everywhere. \"kan anvendes\" is a modal plus the passive with -s.",
+"words": [
+[
+"efterspurgte",
+"in demand"
+],
+[
+"kompetencer",
+"skills"
+],
+[
+"anvendes",
+"be used"
+],
+[
+"sammenhænge",
+"contexts"
+]
+]
+},
+{
+"da": "”Det betyder også, at der er mange forskellige jobs at få inden for mange forskellige områder.”",
+"en": "\"That also means there are many different jobs to get in many different areas.\"",
+"p": false,
+"note": "There are many jobs for them. \"inden for\" means \"within\".",
+"words": [
+[
+"betyder",
+"means"
+],
+[
+"forskellige",
+"different"
+],
+[
+"områder",
+"areas"
+]
+]
+},
+{
+"da": "Derfor er det også forholdsvist sjældent, man ser journalister skifte til et helt andet arbejdsområde.",
+"en": "That is why it is relatively rare to see journalists change to a completely different field.",
+"p": true,
+"note": "Journalists rarely leave their field. After \"Derfor\" the verb \"er\" comes before \"det\".",
+"words": [
+[
+"forholdsvist",
+"relatively"
+],
+[
+"sjældent",
+"rare"
+],
+[
+"arbejdsområde",
+"field of work"
+]
+]
+},
+{
+"da": "Og det er Pia Lehmann også et godt eksempel på.",
+"en": "And Pia Lehmann is a good example of that too.",
+"p": false,
+"note": "Pia proves the point. The preposition \"på\" goes at the end because \"det\" was moved to the front.",
+"words": [
+[
+"eksempel",
+"example"
+]
+]
+}
+]
+},
+"pd3-24m-3": {
+"lines": [
+{
+"da": "En fire-dages arbejdsuge?",
+"en": "A four-day working week?",
+"p": true,
+"note": "The title asks a question: should we work four days a week?",
+"words": [
+[
+"arbejdsuge",
+"working week"
+]
+]
+},
+{
+"da": "Siden fagforeningernes opkomst i slutningen af det 19. århundrede har man diskuteret lønmodtagernes arbejdstid.",
+"en": "Since trade unions arose at the end of the 19th century, people have discussed employees' working hours.",
+"p": true,
+"note": "Working hours are an old debate. \"Siden\" plus the perfect tense \"har diskuteret\" shows something going on until now.",
+"words": [
+[
+"fagforeningernes",
+"the trade unions'"
+],
+[
+"århundrede",
+"century"
+],
+[
+"lønmodtagernes",
+"employees'"
+],
+[
+"arbejdstid",
+"working hours"
+]
+]
+},
+{
+"da": "Men siden 1990 er arbejdstiden i Danmark faktisk ikke blevet reguleret.",
+"en": "But since 1990 working hours in Denmark have actually not been changed by law.",
+"p": false,
+"note": "Hours have not changed since 1990. \"er blevet reguleret\" is the perfect passive.",
+"words": [
+[
+"arbejdstiden",
+"working hours"
+],
+[
+"faktisk",
+"actually"
+],
+[
+"reguleret",
+"regulated"
+]
+]
+},
+{
+"da": "I mere end 30 år har arbejdstiden for de fleste fuldtidsansatte været 37 timer, og de fleste har arbejdet fem dage om ugen.",
+"en": "For more than 30 years most full-time employees have worked 37 hours, and most have worked five days a week.",
+"p": false,
+"note": "This describes the normal week. \"om ugen\" means \"per week\".",
+"words": [
+[
+"fuldtidsansatte",
+"full-time employees"
+],
+[
+"arbejdet",
+"worked"
+]
+]
+},
+{
+"da": "Men måske kan man organisere arbejdslivet anderledes.",
+"en": "But perhaps working life can be organised differently.",
+"p": false,
+"note": "There may be other ways. After \"måske\" the verb \"kan\" comes before \"man\".",
+"words": [
+[
+"organisere",
+"organise"
+],
+[
+"arbejdslivet",
+"working life"
+],
+[
+"anderledes",
+"differently"
+]
+]
+},
+{
+"da": "Efterhånden er der en del virksomheder, der finder på andre måder at tilrettelægge en arbejdsuge på.",
+"en": "By now quite a few companies are finding other ways to plan a working week.",
+"p": false,
+"note": "Companies try new models. \"finde på\" means \"come up with\".",
+"words": [
+[
+"Efterhånden",
+"by now"
+],
+[
+"virksomheder",
+"companies"
+],
+[
+"tilrettelægge",
+"plan, arrange"
+],
+[
+"arbejdsuge",
+"working week"
+]
+]
+},
+{
+"da": "Fælles for dem alle er, at de gerne vil gøre arbejdsugen mere fleksibel for de ansatte.",
+"en": "What they all have in common is that they want to make the working week more flexible for employees.",
+"p": false,
+"note": "They all want flexibility. \"Fælles for\" means \"common to\".",
+"words": [
+[
+"Fælles",
+"common"
+],
+[
+"arbejdsugen",
+"the working week"
+],
+[
+"fleksibel",
+"flexible"
+],
+[
+"ansatte",
+"employees"
+]
+]
+},
+{
+"da": "Dels for lettere at kunne fastholde dem, der allerede er ansat, dels for lettere at kunne rekruttere nye, efterspurgte kræfter.",
+"en": "Partly to keep those already employed more easily, partly to recruit new, sought-after staff more easily.",
+"p": false,
+"note": "This gives two reasons. \"dels ... dels\" means \"partly ... partly\".",
+"words": [
+[
+"fastholde",
+"retain"
+],
+[
+"rekruttere",
+"recruit"
+],
+[
+"efterspurgte",
+"in demand"
+],
+[
+"kræfter",
+"staff, forces"
+]
+]
+},
+{
+"da": "Der er dog udfordringer ved individuelt tilpassede arbejdsforhold, da medarbejdere har forskellige behov.",
+"en": "However, there are challenges with individually adapted working conditions, since employees have different needs.",
+"p": true,
+"note": "Flexibility is hard because people differ. \"da\" here means \"since, because\".",
+"words": [
+[
+"udfordringer",
+"challenges"
+],
+[
+"individuelt",
+"individually"
+],
+[
+"arbejdsforhold",
+"working conditions"
+],
+[
+"behov",
+"needs"
+]
+]
+},
+{
+"da": "Nogle trives for eksempel bedst med at arbejde på kontoret, andre hjemme.",
+"en": "For example, some do best working at the office, others at home.",
+"p": false,
+"note": "People like different places. \"trives\" is an -s verb meaning \"thrive\".",
+"words": [
+[
+"trives",
+"thrive"
+],
+[
+"kontoret",
+"the office"
+]
+]
+},
+{
+"da": "Nogle foretrækker at arbejde tidligt, andre sent.",
+"en": "Some prefer to work early, others late.",
+"p": false,
+"note": "People like different times. \"foretrækker\" means \"prefer\".",
+"words": [
+[
+"foretrækker",
+"prefer"
+],
+[
+"tidligt",
+"early"
+]
+]
+},
+{
+"da": "Det er derfor en stor opgave for en virksomhed at organisere arbejdslivet mere fleksibelt, så der bliver taget hensyn til alle.",
+"en": "So it is a big task for a company to organise working life more flexibly so that everyone is taken into account.",
+"p": true,
+"note": "Flexibility is a big job. \"tage hensyn til\" means \"take into account\"; here it is passive with \"blive\".",
+"words": [
+[
+"virksomhed",
+"company"
+],
+[
+"fleksibelt",
+"flexibly"
+],
+[
+"hensyn",
+"consideration"
+]
+]
+},
+{
+"da": "Af nye måder at organisere arbejdslivet på er det særligt den fire-dages arbejdsuge, der har tiltrukket sig opmærksomhed i de senere år.",
+"en": "Of the new ways of organising working life, it is especially the four-day week that has attracted attention in recent years.",
+"p": true,
+"note": "The four-day week is popular. After the fronted \"Af ...\", the verb \"er\" comes before \"det\".",
+"words": [
+[
+"særligt",
+"especially"
+],
+[
+"tiltrukket",
+"attracted"
+],
+[
+"opmærksomhed",
+"attention"
+]
+]
+},
+{
+"da": "Med den fire-dages arbejdsuge er der tale om en nytænkning af, hvordan hverdags- og arbejdslivet kan hænge sammen.",
+"en": "The four-day week is a rethink of how everyday life and working life can fit together.",
+"p": false,
+"note": "It is a new way of thinking. \"der er tale om\" means \"it is a matter of\".",
+"words": [
+[
+"nytænkning",
+"new thinking"
+],
+[
+"hverdags-",
+"everyday"
+],
+[
+"arbejdslivet",
+"working life"
+]
+]
+},
+{
+"da": "Det er et brud med idéen om, at arbejdsugen går fra mandag til fredag.",
+"en": "It is a break with the idea that the working week goes from Monday to Friday.",
+"p": false,
+"note": "The idea breaks with tradition. \"et brud med\" means \"a break with\".",
+"words": [
+[
+"brud",
+"break"
+],
+[
+"idéen",
+"the idea"
+],
+[
+"arbejdsugen",
+"the working week"
+]
+]
+},
+{
+"da": "Der er stadig ikke så mange virksomheder, der tilbyder ordningen, men der bliver flere og flere.",
+"en": "There are still not many companies offering the scheme, but there are more and more.",
+"p": false,
+"note": "Few companies offer it, but the number grows. \"flere og flere\" means \"more and more\".",
+"words": [
+[
+"virksomheder",
+"companies"
+],
+[
+"tilbyder",
+"offer"
+],
+[
+"ordningen",
+"the scheme"
+]
+]
+},
+{
+"da": "Og det er der måske god grund til.",
+"en": "And there may be good reason for that.",
+"p": false,
+"note": "There is a reason for the trend. \"til\" is at the end because \"det\" was moved to the front.",
+"words": [
+[
+"grund",
+"reason"
+]
+]
+},
+{
+"da": "I Danmark er der nemlig hver dag 35.000 sygemeldinger som følge af stress.",
+"en": "In Denmark there are 35,000 people reporting sick every day because of stress.",
+"p": true,
+"note": "Stress is a big problem. \"som følge af\" means \"as a result of\".",
+"words": [
+[
+"nemlig",
+"you see"
+],
+[
+"sygemeldinger",
+"sick reports"
+],
+[
+"følge",
+"result"
+]
+]
+},
+{
+"da": "Dertil kommer selvfølgelig andre sygemeldinger og andet fravær på grund af almindelig nedslidning.",
+"en": "On top of that, of course, there are other sick leaves and absences due to general wear and tear.",
+"p": false,
+"note": "There are even more absences. After \"Dertil\" the verb \"kommer\" comes before the subject.",
+"words": [
+[
+"Dertil",
+"in addition"
+],
+[
+"fravær",
+"absence"
+],
+[
+"nedslidning",
+"wear and tear"
+]
+]
+},
+{
+"da": "Ifølge fagforeningen HK kan netop en fire-dages arbejdsuge være et godt værktøj til at løse nogle af disse problemer.",
+"en": "According to the union HK, a four-day week can be exactly the right tool to solve some of these problems.",
+"p": true,
+"note": "A union thinks it can help. After \"Ifølge ...\" the verb \"kan\" comes before the subject.",
+"words": [
+[
+"Ifølge",
+"according to"
+],
+[
+"fagforeningen",
+"the union"
+],
+[
+"værktøj",
+"tool"
+]
+]
+},
+{
+"da": "Når arbejdsugen og weekenden er næsten lige lange, kan man nå at komme ned i gear og få tankerne et helt andet sted hen, når man har fri.",
+"en": "When the working week and the weekend are almost the same length, you have time to slow down and think about something else entirely when you are off.",
+"p": false,
+"note": "A longer weekend helps you relax. \"komme ned i gear\" is an idiom: slow down.",
+"words": [
+[
+"arbejdsugen",
+"the working week"
+],
+[
+"weekenden",
+"the weekend"
+],
+[
+"tankerne",
+"thoughts"
+]
+]
+},
+{
+"da": "Og man har også typisk mere overskud til at arbejde koncentreret, når man er på arbejde.",
+"en": "And you typically also have more energy to work with concentration when you are at work.",
+"p": false,
+"note": "Rest gives energy for work. \"overskud\" means \"surplus energy\".",
+"words": [
+[
+"typisk",
+"typically"
+],
+[
+"overskud",
+"surplus energy"
+],
+[
+"koncentreret",
+"focused"
+]
+]
+},
+{
+"da": "Det er bare ikke helt entydigt, hvad en fire-dages arbejdsuge egentlig er.",
+"en": "It is just not entirely clear what a four-day week actually is.",
+"p": true,
+"note": "The term has different meanings. \"egentlig\" means \"actually\".",
+"words": [
+[
+"entydigt",
+"unambiguous"
+],
+[
+"egentlig",
+"actually"
+]
+]
+},
+{
+"da": "I nogle virksomheder betyder det, at man arbejder 37 timer på fire dage.",
+"en": "In some companies it means working 37 hours in four days.",
+"p": false,
+"note": "One model: same hours, fewer days. After \"I nogle virksomheder\" the verb comes before \"det\".",
+"words": [
+[
+"virksomheder",
+"companies"
+],
+[
+"betyder",
+"means"
+]
+]
+},
+{
+"da": "I andre betyder det, at man også arbejder færre timer om ugen.",
+"en": "In others it means you also work fewer hours a week.",
+"p": false,
+"note": "Another model: fewer hours. \"færre\" is the comparative of \"få\": fewer.",
+"words": [
+[
+"betyder",
+"means"
+],
+[
+"færre",
+"fewer"
+]
+]
+},
+{
+"da": "I nogle virksomheder er man lykkedes med at lære nye og mere effektive arbejdsrutiner.",
+"en": "In some companies they have succeeded in learning new and more efficient work routines.",
+"p": true,
+"note": "Some workplaces became more efficient. \"er lykkedes\" is the perfect with \"være\".",
+"words": [
+[
+"virksomheder",
+"companies"
+],
+[
+"lykkedes",
+"succeeded"
+],
+[
+"effektive",
+"efficient"
+],
+[
+"arbejdsrutiner",
+"work routines"
+]
+]
+},
+{
+"da": "Man udfører det samme arbejde på kortere tid, og lønnen er forblevet den samme.",
+"en": "They do the same work in less time, and the pay has stayed the same.",
+"p": false,
+"note": "Same work, same pay. \"er forblevet\" is the perfect of \"forblive\", to remain.",
+"words": [
+[
+"udfører",
+"carry out"
+],
+[
+"kortere",
+"shorter"
+],
+[
+"forblevet",
+"remained"
+]
+]
+},
+{
+"da": "Der er også virksomheder, der blot tilbyder deres medarbejdere en fire-dages arbejdsuge på nedsat tid og løn.",
+"en": "There are also companies that simply offer their employees a four-day week with reduced hours and pay.",
+"p": true,
+"note": "Some offer part-time. \"nedsat\" is a participle: reduced.",
+"words": [
+[
+"virksomheder",
+"companies"
+],
+[
+"medarbejdere",
+"employees"
+],
+[
+"nedsat",
+"reduced"
+]
+]
+},
+{
+"da": "Det er der nemlig også flere og flere, der ønsker.",
+"en": "You see, more and more people want that too.",
+"p": false,
+"note": "Many want shorter weeks. The object \"Det\" is fronted, so \"er\" comes before \"der\".",
+"words": [
+[
+"nemlig",
+"you see"
+],
+[
+"ønsker",
+"wish"
+]
+]
+},
+{
+"da": "De ønsker, at arbejdet fylder mindre i tilværelsen.",
+"en": "They want work to take up less space in their lives.",
+"p": false,
+"note": "They want less work in life. \"fylde\" means \"take up space\".",
+"words": [
+[
+"ønsker",
+"wish"
+],
+[
+"tilværelsen",
+"existence, life"
+]
+]
+},
+{
+"da": "Det giver dem en bedre balance mellem arbejde og fritid, hvor der er mere tid til familien og hobbyer.",
+"en": "It gives them a better balance between work and free time, with more time for family and hobbies.",
+"p": false,
+"note": "This explains the benefit. \"bedre\" is the comparative of \"god\".",
+"words": [
+[
+"balance",
+"balance"
+],
+[
+"fritid",
+"free time"
+],
+[
+"familien",
+"the family"
+]
+]
+},
+{
+"da": "Der er dog stadig en vis modstand blandt visse arbejdsgivere mod en fire-dages arbejdsuge.",
+"en": "However, there is still some resistance among certain employers to a four-day week.",
+"p": true,
+"note": "Some employers say no. \"modstand mod\" means \"resistance to\".",
+"words": [
+[
+"modstand",
+"resistance"
+],
+[
+"arbejdsgivere",
+"employers"
+]
+]
+},
+{
+"da": "Måske fordi det umiddelbart kan virke ulogisk at nedsætte arbejdstiden i en tid, hvor der er mangel på arbejdskraft.",
+"en": "Perhaps because at first sight it can seem illogical to cut working hours at a time when there is a shortage of labour.",
+"p": true,
+"note": "This gives the employers' reason. \"mangel på\" means \"shortage of\".",
+"words": [
+[
+"umiddelbart",
+"at first sight"
+],
+[
+"ulogisk",
+"illogical"
+],
+[
+"nedsætte",
+"reduce"
+],
+[
+"arbejdskraft",
+"labour"
+]
+]
+},
+{
+"da": "Men det er det ikke nødvendigvis.",
+"en": "But it is not necessarily so.",
+"p": false,
+"note": "The writer disagrees. \"nødvendigvis\" means \"necessarily\".",
+"words": [
+[
+"nødvendigvis",
+"necessarily"
+]
+]
+},
+{
+"da": "Der er konkurrence om de kvalificerede medarbejdere, og undersøgelser viser, at medarbejderne bliver mere loyale over for virksomheden, hvis de ikke skal arbejde så mange timer.",
+"en": "There is competition for qualified staff, and studies show employees become more loyal to the company if they do not have to work so many hours.",
+"p": true,
+"note": "Fewer hours make staff loyal. In the hvis-clause \"ikke\" comes before the verb \"skal\".",
+"words": [
+[
+"konkurrence",
+"competition"
+],
+[
+"kvalificerede",
+"qualified"
+],
+[
+"undersøgelser",
+"studies"
+],
+[
+"loyale",
+"loyal"
+]
+]
+},
+{
+"da": "Undersøgelser viser også, at det kan blive lettere at rekruttere nye medarbejdere.",
+"en": "Studies also show it can become easier to recruit new employees.",
+"p": false,
+"note": "It also helps hiring. \"lettere\" is the comparative of \"let\".",
+"words": [
+[
+"Undersøgelser",
+"studies"
+],
+[
+"lettere",
+"easier"
+],
+[
+"rekruttere",
+"recruit"
+]
+]
+},
+{
+"da": "En fire-dages arbejdsuge kan altså være en fordel i konkurrencen om medarbejdere.",
+"en": "So a four-day week can be an advantage in the competition for employees.",
+"p": false,
+"note": "This sums up the benefit. \"altså\" means \"so, thus\".",
+"words": [
+[
+"fordel",
+"advantage"
+],
+[
+"konkurrencen",
+"the competition"
+],
+[
+"medarbejdere",
+"employees"
+]
+]
+},
+{
+"da": "Det gælder ikke mindst inden for de områder, hvor der er mangel på arbejdskraft.",
+"en": "This applies not least in areas where there is a labour shortage.",
+"p": false,
+"note": "It matters most where workers are scarce. \"ikke mindst\" means \"not least\".",
+"words": [
+[
+"gælder",
+"applies"
+],
+[
+"områder",
+"areas"
+],
+[
+"arbejdskraft",
+"labour"
+]
+]
+},
+{
+"da": "Interessen for den fire-dages arbejdsuge tyder på, at flere virksomheder kommer til at tilbyde deres medarbejdere denne løsning.",
+"en": "The interest in the four-day week suggests that more companies will offer their employees this solution.",
+"p": true,
+"note": "More companies will likely offer it. \"komme til at\" plus infinitive expresses the future.",
+"words": [
+[
+"Interessen",
+"the interest"
+],
+[
+"tyder",
+"suggests"
+],
+[
+"virksomheder",
+"companies"
+],
+[
+"løsning",
+"solution"
+]
+]
+},
+{
+"da": "Men det er måske ikke kun virksomhedernes organisering af arbejdsugen, der kommer til at forandre sig.",
+"en": "But perhaps it is not only companies' organisation of the week that will change.",
+"p": false,
+"note": "Other things will change too. \"forandre sig\" is reflexive: to change.",
+"words": [
+[
+"virksomhedernes",
+"companies'"
+],
+[
+"organisering",
+"organisation"
+],
+[
+"forandre",
+"change"
+]
+]
+},
+{
+"da": "Når flere virksomheder indfører en fire-dages arbejdsuge, skal kunder og borgere også vænne sig til, at man ikke kan komme i kontakt med en medarbejder fem dage om ugen.",
+"en": "When more companies introduce a four-day week, customers and citizens must also get used to not being able to contact an employee five days a week.",
+"p": true,
+"note": "Customers must adapt. After the når-clause the verb \"skal\" comes first; \"vænne sig til\" means \"get used to\".",
+"words": [
+[
+"indfører",
+"introduce"
+],
+[
+"borgere",
+"citizens"
+],
+[
+"vænne",
+"accustom"
+],
+[
+"kontakt",
+"contact"
+]
+]
+},
+{
+"da": "Det er samfundet ikke klar til endnu.",
+"en": "Society is not ready for that yet.",
+"p": true,
+"note": "Society is not prepared. \"Det\" is fronted, so the verb \"er\" comes before \"samfundet\".",
+"words": [
+[
+"samfundet",
+"society"
+]
+]
+},
+{
+"da": "På mange af de virksomheder, der har fire-dages arbejdsuge, er det derfor ikke alle medarbejderne, der kan have fri om fredagen.",
+"en": "So at many of the companies with a four-day week, not all employees can have Fridays off.",
+"p": false,
+"note": "Not everyone gets Friday off. \"om fredagen\" means \"on Fridays\".",
+"words": [
+[
+"virksomheder",
+"companies"
+],
+[
+"medarbejderne",
+"the employees"
+],
+[
+"fredagen",
+"Friday"
+]
+]
+}
+]
+},
+"pd3-24m-4": {
+"lines": [
+{
+"da": "Nethandel og storcentre truer livet i bymidterne",
+"en": "Online shopping and shopping centres threaten life in town centres",
+"p": true,
+"note": "The title states the problem. \"truer\" is the present tense of \"true\", to threaten.",
+"words": [
+[
+"Nethandel",
+"online shopping"
+],
+[
+"storcentre",
+"shopping centres"
+],
+[
+"bymidterne",
+"town centres"
+]
+]
+},
+{
+"da": "Folk benytter sig i stigende grad af nethandel, og der er bygget storcentre overalt i landet.",
+"en": "People increasingly use online shopping, and shopping centres have been built all over the country.",
+"p": true,
+"note": "Shopping habits have changed. \"benytte sig af\" means \"make use of\"; \"er bygget\" is a passive.",
+"words": [
+[
+"benytter",
+"use"
+],
+[
+"stigende",
+"increasing"
+],
+[
+"nethandel",
+"online shopping"
+],
+[
+"storcentre",
+"shopping centres"
+]
+]
+},
+{
+"da": "Det kan mærkes i mange byer, hvor butikker må lukke i bymidterne.",
+"en": "This can be felt in many towns, where shops in town centres have to close.",
+"p": false,
+"note": "Shops in centres are closing. \"kan mærkes\" is a modal plus the passive with -s.",
+"words": [
+[
+"mærkes",
+"be felt"
+],
+[
+"butikker",
+"shops"
+],
+[
+"bymidterne",
+"town centres"
+]
+]
+},
+{
+"da": "Bymidterne har historisk været et sted, hvor folk mødtes på torve og markeder for at handle og blive underholdt.",
+"en": "Historically, town centres have been a place where people met in squares and markets to shop and be entertained.",
+"p": true,
+"note": "Town centres used to be meeting places. \"mødtes\" is the past of \"mødes\", to meet each other.",
+"words": [
+[
+"Bymidterne",
+"town centres"
+],
+[
+"historisk",
+"historically"
+],
+[
+"markeder",
+"markets"
+],
+[
+"underholdt",
+"entertained"
+]
+]
+},
+{
+"da": "Men i dag er bymidterne truet, da butikkerne i bymidterne har svært ved at klare sig i konkurrencen med nethandlen og storcentrene, og kunderne svigter.",
+"en": "But today town centres are threatened, since their shops struggle to compete with online shops and shopping centres, and customers stay away.",
+"p": false,
+"note": "Centre shops are in trouble. \"have svært ved\" means \"find it hard to\".",
+"words": [
+[
+"bymidterne",
+"town centres"
+],
+[
+"konkurrencen",
+"the competition"
+],
+[
+"storcentrene",
+"the shopping centres"
+],
+[
+"svigter",
+"fail, stay away"
+]
+]
+},
+{
+"da": "Man ser derfor i dag flere og flere tomme butikslokaler rundt omkring i landets byer.",
+"en": "So today you see more and more empty shop premises around the country's towns.",
+"p": false,
+"note": "There are many empty shops. \"flere og flere\" means \"more and more\".",
+"words": [
+[
+"derfor",
+"therefore"
+],
+[
+"tomme",
+"empty"
+],
+[
+"butikslokaler",
+"shop premises"
+]
+]
+},
+{
+"da": "Problemet er ikke alene konkurrencen fra nethandlen og storcentrene.",
+"en": "The problem is not only the competition from online shopping and shopping centres.",
+"p": false,
+"note": "There are other causes. \"ikke alene\" means \"not only\".",
+"words": [
+[
+"Problemet",
+"the problem"
+],
+[
+"konkurrencen",
+"the competition"
+],
+[
+"nethandlen",
+"online shopping"
+]
+]
+},
+{
+"da": "Det er også ejerne af bymidternes erhvervslokaler, der kræver høje huslejer.",
+"en": "It is also the owners of town-centre business premises who demand high rents.",
+"p": false,
+"note": "High rent is another problem. \"Det er ... der\" is a cleft sentence for emphasis.",
+"words": [
+[
+"ejerne",
+"the owners"
+],
+[
+"erhvervslokaler",
+"business premises"
+],
+[
+"huslejer",
+"rents"
+]
+]
+},
+{
+"da": "Historisk har det nemlig været attraktivt at have en butik i centrum.",
+"en": "Historically it has been attractive to have a shop in the centre.",
+"p": false,
+"note": "The centre used to be a good place. After \"Historisk\" the verb \"har\" comes before \"det\".",
+"words": [
+[
+"Historisk",
+"historically"
+],
+[
+"attraktivt",
+"attractive"
+],
+[
+"centrum",
+"centre"
+]
+]
+},
+{
+"da": "Det har været lig med mange kunder og stor indtjening.",
+"en": "It has meant many customers and big income.",
+"p": false,
+"note": "A central shop meant good business. \"lig med\" means \"equal to\".",
+"words": [
+[
+"indtjening",
+"earnings"
+]
+]
+},
+{
+"da": "Sådan er det bare ikke mere.",
+"en": "That is just not the case any more.",
+"p": false,
+"note": "Things have changed. \"ikke mere\" means \"no longer\".",
+"words": [
+[
+"Sådan",
+"like that"
+]
+]
+},
+{
+"da": "Men omkostningsniveauet er stadig højt.",
+"en": "But the level of costs is still high.",
+"p": false,
+"note": "Costs stay high. \"højt\" has -t because \"niveau\" is an et-word.",
+"words": [
+[
+"omkostningsniveauet",
+"the cost level"
+]
+]
+},
+{
+"da": "Den faldende handel i bymidterne er en tendens, der bekymrer mange, også politikerne.",
+"en": "Falling trade in town centres is a trend that worries many, including politicians.",
+"p": true,
+"note": "Many are worried. \"faldende\" is a present participle used as an adjective: falling.",
+"words": [
+[
+"faldende",
+"falling"
+],
+[
+"tendens",
+"trend"
+],
+[
+"bekymrer",
+"worries"
+],
+[
+"politikerne",
+"the politicians"
+]
+]
+},
+{
+"da": "Det kan nemlig generelt forringe livskvaliteten for borgerne, hvis butikkerne i bymidterne lukker.",
+"en": "You see, it can generally lower citizens' quality of life if town-centre shops close.",
+"p": false,
+"note": "Shop closures hurt people's lives. \"nemlig\" gives a reason: you see.",
+"words": [
+[
+"generelt",
+"generally"
+],
+[
+"forringe",
+"worsen"
+],
+[
+"livskvaliteten",
+"the quality of life"
+]
+]
+},
+{
+"da": "Butikkerne har nemlig især i de mindre byer, hvor der heller ikke er storcentre, en vigtig rolle for folks psykiske og fysiske velvære.",
+"en": "Especially in smaller towns without shopping centres, shops play an important role in people's mental and physical well-being.",
+"p": false,
+"note": "Shops matter for well-being. \"heller ikke\" means \"not either\".",
+"words": [
+[
+"psykiske",
+"mental"
+],
+[
+"fysiske",
+"physical"
+],
+[
+"velvære",
+"well-being"
+]
+]
+},
+{
+"da": "Det har de, fordi de lokale butikker typisk støtter arrangementer og events, der ud over at få folk ind til byen, også kan give folk mulighed for oplevelser og aktiviteter at mødes om.",
+"en": "They do because local shops typically support events which, besides bringing people into town, also give people experiences and activities to meet around.",
+"p": false,
+"note": "Shops support local events. After \"fordi\" the word order is normal: subject before verb.",
+"words": [
+[
+"typisk",
+"typically"
+],
+[
+"arrangementer",
+"events"
+],
+[
+"oplevelser",
+"experiences"
+],
+[
+"aktiviteter",
+"activities"
+]
+]
+},
+{
+"da": "Bekymringen har fået Indenrigs- og Boligministeriet til at udvælge ti byer i en forsøgsordning.",
+"en": "The concern has made the Ministry of the Interior and Housing choose ten towns for a trial scheme.",
+"p": true,
+"note": "The government started a test. \"få nogen til at\" means \"make someone do\".",
+"words": [
+[
+"Bekymringen",
+"the concern"
+],
+[
+"Boligministeriet",
+"the Housing Ministry"
+],
+[
+"udvælge",
+"select"
+],
+[
+"forsøgsordning",
+"trial scheme"
+]
+]
+},
+{
+"da": "De ti byer får statslig støtte til at nytænke bymidterne.",
+"en": "The ten towns get state support to rethink their town centres.",
+"p": false,
+"note": "The towns get money for new ideas. \"nytænke\" is a compound verb: to rethink.",
+"words": [
+[
+"statslig",
+"state"
+],
+[
+"støtte",
+"support"
+],
+[
+"nytænke",
+"rethink"
+],
+[
+"bymidterne",
+"town centres"
+]
+]
+},
+{
+"da": "Målet er at skabe bymidter, hvor folk kommer af andre grunde end blot for at handle.",
+"en": "The goal is to create town centres where people come for reasons other than just shopping.",
+"p": false,
+"note": "Centres should offer more than shops. \"af andre grunde\" means \"for other reasons\".",
+"words": [
+[
+"Målet",
+"the goal"
+],
+[
+"bymidter",
+"town centres"
+],
+[
+"grunde",
+"reasons"
+]
+]
+},
+{
+"da": "Formålet med bymidterne skal altså tænkes bredere end i den klassiske handelsby, hvor det primært var handlen, der fik folk ind til centrum.",
+"en": "So the purpose of town centres must be thought of more broadly than in the classic market town, where trade mainly brought people to the centre.",
+"p": false,
+"note": "Centres need a wider purpose. \"skal tænkes\" is a modal plus the passive with -s.",
+"words": [
+[
+"Formålet",
+"the purpose"
+],
+[
+"bredere",
+"broader"
+],
+[
+"klassiske",
+"classic"
+],
+[
+"handelsby",
+"market town"
+]
+]
+},
+{
+"da": "De ti udvalgte byer har for eksempel tænkt velfærdsfunktioner som biblioteker og borgerservice ind i deres planer for nyt liv i bymidterne.",
+"en": "The ten chosen towns have, for example, included welfare services such as libraries and citizen services in their plans for new life in town centres.",
+"p": false,
+"note": "Libraries can bring people in. \"tænke ind\" is a separable verb: to include in planning.",
+"words": [
+[
+"udvalgte",
+"selected"
+],
+[
+"velfærdsfunktioner",
+"welfare services"
+],
+[
+"biblioteker",
+"libraries"
+],
+[
+"borgerservice",
+"citizen services"
+]
+]
+},
+{
+"da": "De har desuden tænkt flere grønne områder og pladser ind, hvor der kan arrangeres fx events og koncerter.",
+"en": "They have also included more green areas and squares where events and concerts can be held.",
+"p": false,
+"note": "More green space is planned. \"kan arrangeres\" is a modal plus the passive.",
+"words": [
+[
+"desuden",
+"also"
+],
+[
+"områder",
+"areas"
+],
+[
+"arrangeres",
+"be organised"
+],
+[
+"koncerter",
+"concerts"
+]
+]
+},
+{
+"da": "Det er dog ikke kun politisk, der kan gøres en indsats.",
+"en": "However, it is not only politically that an effort can be made.",
+"p": true,
+"note": "Shops can help too. \"gøre en indsats\" means \"make an effort\"; here it is passive.",
+"words": [
+[
+"politisk",
+"politically"
+],
+[
+"indsats",
+"effort"
+]
+]
+},
+{
+"da": "De lokale butikker kan selv gøre noget for at blive mere attraktive.",
+"en": "Local shops can themselves do something to become more attractive.",
+"p": false,
+"note": "Shops can improve. \"for at\" plus infinitive means \"in order to\".",
+"words": [
+[
+"lokale",
+"local"
+],
+[
+"attraktive",
+"attractive"
+]
+]
+},
+{
+"da": "De kan blandt andet tilbyde den samme service som netbutikkerne.",
+"en": "Among other things, they can offer the same service as online shops.",
+"p": false,
+"note": "Shops can copy online services. \"den samme ... som\" means \"the same ... as\".",
+"words": [
+[
+"tilbyde",
+"offer"
+],
+[
+"netbutikkerne",
+"the online shops"
+]
+]
+},
+{
+"da": "Hvis de for eksempel ikke har mulighed for at have så mange varer på lager i butikken, kan de tilbyde at fremskaffe dem inden for 24 timer og levere dem til døren.",
+"en": "If, for example, they cannot keep so many goods in stock, they can offer to get them within 24 hours and deliver them to the door.",
+"p": false,
+"note": "Shops can order and deliver. After the hvis-clause, the verb \"kan\" comes before \"de\".",
+"words": [
+[
+"mulighed",
+"possibility"
+],
+[
+"lager",
+"stock"
+],
+[
+"fremskaffe",
+"obtain"
+],
+[
+"levere",
+"deliver"
+]
+]
+},
+{
+"da": "De kan også tilbyde samme pris som en netbutik, hvis den fysiske butik ikke umiddelbart matcher den pris man kan få online.",
+"en": "They can also offer the same price as an online shop if the physical shop does not immediately match the online price.",
+"p": false,
+"note": "Shops can match prices. In the hvis-clause \"ikke\" comes before the verb \"matcher\".",
+"words": [
+[
+"netbutik",
+"online shop"
+],
+[
+"fysiske",
+"physical"
+],
+[
+"umiddelbart",
+"immediately"
+]
+]
+},
+{
+"da": "Endelig har de lokale butikker også en fordel, som man ikke skal undervurdere.",
+"en": "Finally, local shops also have an advantage that should not be underestimated.",
+"p": true,
+"note": "Local shops have a special strength. After \"Endelig\" the verb \"har\" comes before the subject.",
+"words": [
+[
+"Endelig",
+"finally"
+],
+[
+"fordel",
+"advantage"
+],
+[
+"undervurdere",
+"underestimate"
+]
+]
+},
+{
+"da": "I modsætning til nettet og storcentrene rummer mange byer gamle, smukke huse og en historie, der går langt tilbage i tiden.",
+"en": "Unlike the internet and shopping centres, many towns contain old, beautiful houses and a long history.",
+"p": false,
+"note": "Old towns have charm. \"I modsætning til\" means \"unlike\".",
+"words": [
+[
+"modsætning",
+"contrast"
+],
+[
+"storcentrene",
+"the shopping centres"
+],
+[
+"rummer",
+"contain"
+],
+[
+"historie",
+"history"
+]
+]
+},
+{
+"da": "Det er en kulisse for shoppingoplevelser, som hverken nettet eller et moderne shoppingcenter kan konkurrere med.",
+"en": "It is a setting for shopping experiences that neither the internet nor a modern shopping centre can compete with.",
+"p": false,
+"note": "Old towns offer something unique. \"hverken ... eller\" means \"neither ... nor\".",
+"words": [
+[
+"kulisse",
+"backdrop"
+],
+[
+"shoppingoplevelser",
+"shopping experiences"
+],
+[
+"hverken",
+"neither"
+],
+[
+"konkurrere",
+"compete"
+]
+]
+}
+]
+},
+"pd3-m1-1": {
+"lines": [
+{
+"da": "Hver dag cykler hundredtusindvis af danskere på arbejde, og for mange er cyklen simpelthen det mest praktiske transportmiddel.",
+"en": "Every day hundreds of thousands of Danes cycle to work, and for many the bike is simply the most practical means of transport.",
+"p": true,
+"note": "Many Danes cycle to work. After \"Hver dag\" the verb \"cykler\" comes before the subject.",
+"words": [
+[
+"hundredtusindvis",
+"hundreds of thousands"
+],
+[
+"simpelthen",
+"simply"
+],
+[
+"praktiske",
+"practical"
+],
+[
+"transportmiddel",
+"means of transport"
+]
+]
+},
+{
+"da": "I København cykler omkring halvdelen af alle, der skal på arbejde eller uddannelse, og tallet er fortsat stigende.",
+"en": "In Copenhagen about half of everyone going to work or school cycles, and the number is still rising.",
+"p": false,
+"note": "Half of Copenhagen cycles. \"fortsat stigende\" means \"still rising\".",
+"words": [
+[
+"halvdelen",
+"half"
+],
+[
+"uddannelse",
+"education"
+],
+[
+"stigende",
+"rising"
+]
+]
+},
+{
+"da": "Der er flere grunde til, at så mange vælger cyklen.",
+"en": "There are several reasons why so many choose the bike.",
+"p": true,
+"note": "Reasons follow. \"grunde til\" means \"reasons for\".",
+"words": [
+[
+"grunde",
+"reasons"
+],
+[
+"vælger",
+"choose"
+]
+]
+},
+{
+"da": "For det første er det billigt, og man slipper for at lede efter en parkeringsplads.",
+"en": "First, it is cheap, and you avoid looking for a parking space.",
+"p": false,
+"note": "Reason one: cheap and easy. After \"For det første\" the verb \"er\" comes before \"det\".",
+"words": [
+[
+"billigt",
+"cheap"
+],
+[
+"slipper",
+"avoid"
+],
+[
+"parkeringsplads",
+"parking space"
+]
+]
+},
+{
+"da": "For det andet er cykling en nem måde at få motion på i en travl hverdag.",
+"en": "Second, cycling is an easy way to get exercise in a busy daily life.",
+"p": false,
+"note": "Reason two: exercise. \"en nem måde\": the adjective has no ending with an en-word in the indefinite.",
+"words": [
+[
+"cykling",
+"cycling"
+],
+[
+"motion",
+"exercise"
+],
+[
+"hverdag",
+"everyday life"
+]
+]
+},
+{
+"da": "Undersøgelser viser, at folk, der cykler til arbejde, i gennemsnit har færre sygedage end dem, der kører i bil.",
+"en": "Studies show that people who cycle to work have fewer sick days on average than those who drive.",
+"p": false,
+"note": "Cyclists are sick less. \"i gennemsnit\" means \"on average\".",
+"words": [
+[
+"Undersøgelser",
+"studies"
+],
+[
+"gennemsnit",
+"average"
+],
+[
+"færre",
+"fewer"
+],
+[
+"sygedage",
+"sick days"
+]
+]
+},
+{
+"da": "Samtidig har kommunerne gjort meget for at gøre det lettere at cykle.",
+"en": "At the same time, the municipalities have done a lot to make cycling easier.",
+"p": true,
+"note": "Towns help cyclists. After \"Samtidig\" the verb \"har\" comes before the subject.",
+"words": [
+[
+"Samtidig",
+"at the same time"
+],
+[
+"kommunerne",
+"the municipalities"
+],
+[
+"lettere",
+"easier"
+]
+]
+},
+{
+"da": "Der er bygget cykelstier, cykelbroer og såkaldte supercykelstier, hvor man kan cykle langt uden at skulle holde for rødt lys.",
+"en": "Cycle paths, cycle bridges and so-called super cycle paths have been built, where you can ride far without stopping for red lights.",
+"p": false,
+"note": "New paths make cycling fast. \"Der er bygget\" is a passive with \"være\".",
+"words": [
+[
+"cykelstier",
+"cycle paths"
+],
+[
+"cykelbroer",
+"cycle bridges"
+],
+[
+"såkaldte",
+"so-called"
+],
+[
+"supercykelstier",
+"super cycle paths"
+]
+]
+},
+{
+"da": "Det gør det muligt at pendle længere afstande, især hvis man har en elcykel.",
+"en": "That makes it possible to commute longer distances, especially with an e-bike.",
+"p": false,
+"note": "You can ride further now. \"længere\" is the comparative of \"lang\".",
+"words": [
+[
+"muligt",
+"possible"
+],
+[
+"pendle",
+"commute"
+],
+[
+"afstande",
+"distances"
+],
+[
+"elcykel",
+"e-bike"
+]
+]
+},
+{
+"da": "Men der er også udfordringer.",
+"en": "But there are also challenges.",
+"p": true,
+"note": "Now the problems. \"udfordringer\" is the plural of \"udfordring\".",
+"words": [
+[
+"udfordringer",
+"challenges"
+]
+]
+},
+{
+"da": "Om vinteren kan det være koldt og glat, og mange opgiver cyklen og tager bussen i stedet.",
+"en": "In winter it can be cold and slippery, and many give up the bike and take the bus instead.",
+"p": false,
+"note": "Winter is hard for cyclists. After \"Om vinteren\" the verb \"kan\" comes before \"det\".",
+"words": [
+[
+"vinteren",
+"winter"
+],
+[
+"opgiver",
+"give up"
+],
+[
+"stedet",
+"place"
+]
+]
+},
+{
+"da": "Desuden klager nogle cyklister over, at der er for mange cykler på stierne i myldretiden, så det kan være svært at komme frem.",
+"en": "Also, some cyclists complain that there are too many bikes on the paths in rush hour, so it can be hard to get through.",
+"p": false,
+"note": "Paths are crowded. \"klage over\" means \"complain about\".",
+"words": [
+[
+"Desuden",
+"also"
+],
+[
+"cyklister",
+"cyclists"
+],
+[
+"myldretiden",
+"rush hour"
+]
+]
+},
+{
+"da": "Alligevel er de fleste enige om, at cyklen er en vigtig del af løsningen på byernes trafikproblemer.",
+"en": "Still, most agree that the bike is an important part of the solution to the cities' traffic problems.",
+"p": true,
+"note": "Bikes help traffic. \"enig om\" means \"agree on\".",
+"words": [
+[
+"Alligevel",
+"still"
+],
+[
+"løsningen",
+"the solution"
+],
+[
+"trafikproblemer",
+"traffic problems"
+]
+]
+},
+{
+"da": "Derfor skal der bygges endnu flere cykelstier i de kommende år.",
+"en": "That is why even more cycle paths will be built in the coming years.",
+"p": false,
+"note": "More paths are planned. \"skal bygges\" is a modal plus the passive with -s.",
+"words": [
+[
+"Derfor",
+"therefore"
+],
+[
+"bygges",
+"be built"
+],
+[
+"cykelstier",
+"cycle paths"
+],
+[
+"kommende",
+"coming"
+]
+]
+}
+]
+},
+"pd3-m1-2": {
+"lines": [
+{
+"da": "Mette Holm er 42 år og ejer et lille bageri i Svendborg.",
+"en": "Mette Holm is 42 and owns a small bakery in Svendborg.",
+"p": true,
+"note": "Mette has a bakery. \"et lille bageri\": \"lille\" never changes form.",
+"words": [
+[
+"bageri",
+"bakery"
+]
+]
+},
+{
+"da": "Men sådan har det ikke altid været.",
+"en": "But it has not always been like that.",
+"p": false,
+"note": "Her life was different before. \"har været\" is the perfect tense.",
+"words": [
+[
+"altid",
+"always"
+]
+]
+},
+{
+"da": "A. Hun sad bag en computer otte timer om dagen og rådgav kunder om lån og opsparing.",
+"en": "A. She sat behind a computer eight hours a day and advised customers on loans and savings.",
+"p": false,
+"note": "She worked in a bank. \"sad\" and \"rådgav\" are past tense forms of \"sidde\" and \"rådgive\".",
+"words": [
+[
+"computer",
+"computer"
+],
+[
+"rådgav",
+"advised"
+],
+[
+"opsparing",
+"savings"
+]
+]
+},
+{
+"da": "1. Mette var glad for sine kolleger, men hun følte, at arbejdet blev mere og mere ensformigt.",
+"en": "1. Mette liked her colleagues, but she felt the work became more and more monotonous.",
+"p": true,
+"note": "The work got boring. \"glad for\" means \"fond of\".",
+"words": [
+[
+"kolleger",
+"colleagues"
+],
+[
+"arbejdet",
+"the work"
+],
+[
+"ensformigt",
+"monotonous"
+]
+]
+},
+{
+"da": "Til gengæld havde hun altid elsket at bage.",
+"en": "On the other hand, she had always loved baking.",
+"p": false,
+"note": "She loved to bake. \"Til gengæld\" means \"on the other hand\"; \"havde elsket\" is the past perfect.",
+"words": [
+[
+"gengæld",
+"return"
+],
+[
+"elsket",
+"loved"
+]
+]
+},
+{
+"da": "Hun bagte brød til hele familien i weekenden, og hendes kanelsnegle var berømte blandt venner og naboer.",
+"en": "She baked bread for the whole family at weekends, and her cinnamon swirls were famous among friends and neighbours.",
+"p": false,
+"note": "Her baking was popular. \"bagte\" is the past tense of \"bage\".",
+"words": [
+[
+"familien",
+"the family"
+],
+[
+"kanelsnegle",
+"cinnamon swirls"
+],
+[
+"berømte",
+"famous"
+]
+]
+},
+{
+"da": "2. For seks år siden besluttede hun at tage springet.",
+"en": "2. Six years ago she decided to take the leap.",
+"p": true,
+"note": "She decided to change. \"For ... siden\" means \"ago\".",
+"words": [
+[
+"besluttede",
+"decided"
+],
+[
+"springet",
+"the leap"
+]
+]
+},
+{
+"da": "Hun sagde sit job op og begyndte på en uddannelse som bager.",
+"en": "She quit her job and started training as a baker.",
+"p": false,
+"note": "She trained to be a baker. \"sige op\" is a separable verb: to quit.",
+"words": [
+[
+"begyndte",
+"began"
+],
+[
+"uddannelse",
+"training"
+]
+]
+},
+{
+"da": "Det var en stor omvæltning at blive elev igen.",
+"en": "It was a big upheaval to become a student again.",
+"p": false,
+"note": "Being a student again was hard. \"omvæltning\" means a big change.",
+"words": [
+[
+"omvæltning",
+"upheaval"
+]
+]
+},
+{
+"da": "Hun var den ældste på holdet og skulle lære at arbejde sammen med unge på 18-19 år.",
+"en": "She was the oldest in the class and had to learn to work with young people of 18-19.",
+"p": false,
+"note": "She was much older than the others. \"ældste\" is the superlative of \"gammel\".",
+"words": [
+[
+"ældste",
+"oldest"
+],
+[
+"holdet",
+"the class"
+]
+]
+},
+{
+"da": "3. Efter uddannelsen fik Mette job i et stort bageri i Odense.",
+"en": "3. After her training Mette got a job in a big bakery in Odense.",
+"p": true,
+"note": "She got her first bakery job. After \"Efter uddannelsen\" the verb \"fik\" comes before the subject.",
+"words": [
+[
+"uddannelsen",
+"the training"
+],
+[
+"bageri",
+"bakery"
+]
+]
+},
+{
+"da": "Hun mødte kl. 4 om morgenen og lærte at bage store mængder på kort tid.",
+"en": "She started at 4 in the morning and learned to bake large amounts in a short time.",
+"p": false,
+"note": "The work started early. \"møde\" here means \"start work\".",
+"words": [
+[
+"morgenen",
+"the morning"
+],
+[
+"mængder",
+"amounts"
+]
+]
+},
+{
+"da": "Arbejdstiderne var hårde, men hun lærte utrolig meget.",
+"en": "The working hours were hard, but she learned an incredible amount.",
+"p": false,
+"note": "Hard hours, but she learned a lot. \"hårde\" has -e in the plural.",
+"words": [
+[
+"Arbejdstiderne",
+"the working hours"
+],
+[
+"utrolig",
+"incredibly"
+]
+]
+},
+{
+"da": "Men hun drømte stadig om at få sit eget sted.",
+"en": "But she still dreamed of having her own place.",
+"p": false,
+"note": "She wanted her own bakery. \"sit eget\" is reflexive and refers back to \"hun\".",
+"words": [
+[
+"drømte",
+"dreamed"
+],
+[
+"stadig",
+"still"
+]
+]
+},
+{
+"da": "4. For to år siden fandt hun et ledigt butikslokale i Svendborg.",
+"en": "4. Two years ago she found an empty shop in Svendborg.",
+"p": true,
+"note": "She found a shop. \"fandt\" is the past tense of \"finde\".",
+"words": [
+[
+"ledigt",
+"vacant"
+],
+[
+"butikslokale",
+"shop premises"
+]
+]
+},
+{
+"da": "Lokalet lå perfekt midt i gågaden.",
+"en": "The premises were perfectly located in the middle of the pedestrian street.",
+"p": false,
+"note": "The shop had a great location. \"lå\" is the past tense of \"ligge\".",
+"words": [
+[
+"Lokalet",
+"the premises"
+],
+[
+"perfekt",
+"perfectly"
+],
+[
+"gågaden",
+"the pedestrian street"
+]
+]
+},
+{
+"da": "Hun lånte penge i banken – hos sine gamle kolleger – og åbnede bageriet \"Mettes Ovn\".",
+"en": "She borrowed money from the bank – from her old colleagues – and opened the bakery \"Mettes Ovn\".",
+"p": false,
+"note": "She opened her bakery. \"lånte\" is the past tense of \"låne\", to borrow.",
+"words": [
+[
+"kolleger",
+"colleagues"
+],
+[
+"åbnede",
+"opened"
+],
+[
+"bageriet",
+"the bakery"
+]
+]
+},
+{
+"da": "5. I dag har bageriet fire ansatte og mange faste kunder.",
+"en": "5. Today the bakery has four employees and many regular customers.",
+"p": true,
+"note": "The bakery is doing well. After \"I dag\" the verb \"har\" comes before the subject.",
+"words": [
+[
+"bageriet",
+"the bakery"
+],
+[
+"ansatte",
+"employees"
+],
+[
+"kunder",
+"customers"
+]
+]
+},
+{
+"da": "Mette arbejder mere end nogensinde, men hun fortryder ikke sit valg.",
+"en": "Mette works more than ever, but she does not regret her choice.",
+"p": false,
+"note": "She is happy with her choice. \"mere end nogensinde\" means \"more than ever\".",
+"words": [
+[
+"nogensinde",
+"ever"
+],
+[
+"fortryder",
+"regrets"
+]
+]
+},
+{
+"da": "For nu laver hun noget, hun virkelig brænder for.",
+"en": "Because now she does something she is really passionate about.",
+"p": false,
+"note": "She loves her work. \"For\" here means \"because\"; \"brænde for\" means \"be passionate about\".",
+"words": [
+[
+"virkelig",
+"really"
+],
+[
+"brænder",
+"burns"
+]
+]
+},
+{
+"da": "\"Jeg glæder mig til at komme på arbejde hver eneste dag,\" siger hun.",
+"en": "\"I look forward to going to work every single day,\" she says.",
+"p": false,
+"note": "She enjoys every day. \"glæde sig til\" means \"look forward to\".",
+"words": [
+[
+"glæder",
+"look forward"
+],
+[
+"eneste",
+"single"
+]
+]
+}
+]
+},
+"pd3-m1-3": {
+"lines": [
+{
+"da": "Før i tiden handlede jeg ind næsten hver dag efter arbejde.",
+"en": "In the past I went shopping almost every day after work.",
+"p": true,
+"note": "Sara used to shop daily. \"handle ind\" is a separable verb: to do the shopping.",
+"words": [
+[
+"handlede",
+"shopped"
+],
+[
+"arbejde",
+"work"
+]
+]
+},
+{
+"da": "Jeg gik bare rundt i supermarkedet og købte det, jeg havde lyst til.",
+"en": "I just walked around the supermarket and bought what I felt like.",
+"p": false,
+"note": "She bought without a plan. \"have lyst til\" means \"feel like\".",
+"words": [
+[
+"supermarkedet",
+"the supermarket"
+],
+[
+"købte",
+"bought"
+]
+]
+},
+{
+"da": "Det kostede mange penge, og vi smed alt for meget mad ud.",
+"en": "It cost a lot of money, and we threw out far too much food.",
+"p": false,
+"note": "It was expensive and wasteful. \"smed ud\" is the past of \"smide ud\", to throw out.",
+"words": [
+[
+"kostede",
+"cost"
+]
+]
+},
+{
+"da": "For et år siden begyndte jeg at lave en madplan.",
+"en": "A year ago I started making a meal plan.",
+"p": true,
+"note": "She started planning meals. \"For et år siden\" means \"a year ago\".",
+"words": [
+[
+"begyndte",
+"began"
+],
+[
+"madplan",
+"meal plan"
+]
+]
+},
+{
+"da": "Hver søndag sætter jeg mig ned med min mand, og så bestemmer vi, hvad vi skal spise i den kommende uge.",
+"en": "Every Sunday I sit down with my husband, and we decide what to eat in the coming week.",
+"p": false,
+"note": "They plan on Sundays. After \"Hver søndag\" the verb \"sætter\" comes before \"jeg\".",
+"words": [
+[
+"søndag",
+"Sunday"
+],
+[
+"bestemmer",
+"decide"
+],
+[
+"kommende",
+"coming"
+]
+]
+},
+{
+"da": "Bagefter skriver jeg en indkøbsliste, og så handler vi kun ind én gang om ugen.",
+"en": "Afterwards I write a shopping list, and then we shop only once a week.",
+"p": false,
+"note": "They shop once a week. After \"Bagefter\" the verb \"skriver\" comes before \"jeg\".",
+"words": [
+[
+"Bagefter",
+"afterwards"
+],
+[
+"indkøbsliste",
+"shopping list"
+]
+]
+},
+{
+"da": "Det har gjort en stor forskel.",
+"en": "It has made a big difference.",
+"p": true,
+"note": "The plan helped a lot. \"har gjort\" is the perfect of \"gøre\".",
+"words": [
+[
+"forskel",
+"difference"
+]
+]
+},
+{
+"da": "For det første bruger vi mindre penge på mad end før – cirka 1.000 kr. mindre om måneden.",
+"en": "First, we spend less money on food than before – about 1,000 kroner less a month.",
+"p": false,
+"note": "They save money. \"bruge penge på\" means \"spend money on\".",
+"words": [
+[
+"måneden",
+"the month"
+]
+]
+},
+{
+"da": "For det andet smider vi næsten ingen mad ud længere, fordi vi kun køber det, vi har brug for.",
+"en": "Second, we hardly throw away any food any more, because we only buy what we need.",
+"p": false,
+"note": "They waste less. After \"fordi\" the word order is normal: \"vi kun køber\".",
+"words": [
+[
+"længere",
+"any longer"
+],
+[
+"fordi",
+"because"
+]
+]
+},
+{
+"da": "Selvfølgelig er der også ulemper.",
+"en": "Of course there are also disadvantages.",
+"p": true,
+"note": "Now the downsides. After \"Selvfølgelig\" the verb \"er\" comes before \"der\".",
+"words": [
+[
+"Selvfølgelig",
+"of course"
+],
+[
+"ulemper",
+"disadvantages"
+]
+]
+},
+{
+"da": "Det kræver lidt planlægning, og nogle gange har jeg slet ikke lyst til den ret, der står på planen.",
+"en": "It takes some planning, and sometimes I do not feel like the dish on the plan at all.",
+"p": false,
+"note": "Sometimes she wants something else. \"slet ikke\" means \"not at all\".",
+"words": [
+[
+"kræver",
+"requires"
+],
+[
+"planlægning",
+"planning"
+],
+[
+"planen",
+"the plan"
+]
+]
+},
+{
+"da": "så bytter vi bare rundt på dagene.",
+"en": "then we just swap the days around.",
+"p": false,
+"note": "They change the order of days. \"bytte rundt på\" means \"swap around\".",
+"words": [
+[
+"bytter",
+"swap"
+],
+[
+"dagene",
+"the days"
+]
+]
+},
+{
+"da": "Jeg kan varmt anbefale en madplan til alle, der gerne vil spare tid og penge.",
+"en": "I can warmly recommend a meal plan to anyone who wants to save time and money.",
+"p": true,
+"note": "She recommends it. \"varmt\" is an adverb here: warmly.",
+"words": [
+[
+"anbefale",
+"recommend"
+],
+[
+"madplan",
+"meal plan"
+]
+]
+},
+{
+"da": "Det er nemmere, end man tror.",
+"en": "It is easier than you think.",
+"p": false,
+"note": "It is not hard. \"nemmere\" is the comparative of \"nem\".",
+"words": [
+[
+"nemmere",
+"easier"
+]
+]
+}
+]
+},
+"pd3-m1-4": {
+"lines": [
+{
+"da": "Seks små tekster",
+"en": "Six short texts",
+"p": true,
+"note": "A heading: six short everyday texts follow.",
+"words": [
+[
+"tekster",
+"texts"
+]
+]
+},
+{
+"da": "1. Lån og aflevering",
+"en": "1. Borrowing and returning",
+"p": true,
+"note": "A heading: library rules for loans and returns.",
+"words": [
+[
+"aflevering",
+"returning"
+]
+]
+},
+{
+"da": "Du kan låne bøger i 30 dage.",
+"en": "You can borrow books for 30 days.",
+"p": false,
+"note": "This gives the loan period. \"i 30 dage\" means \"for 30 days\".",
+"words": [
+[
+"bøger",
+"books"
+]
+]
+},
+{
+"da": "Hvis ingen har reserveret bogen, kan du forny lånet to gange via appen eller på biblioteket.",
+"en": "If nobody has reserved the book, you can renew the loan twice in the app or at the library.",
+"p": false,
+"note": "You can renew twice. After the hvis-clause, the verb \"kan\" comes before \"du\".",
+"words": [
+[
+"reserveret",
+"reserved"
+],
+[
+"forny",
+"renew"
+],
+[
+"biblioteket",
+"the library"
+]
+]
+},
+{
+"da": "Afleverer du for sent, skal du betale et gebyr på 20 kr. pr. bog efter 7 dage.",
+"en": "If you return late, you must pay a fee of 20 kroner per book after 7 days.",
+"p": false,
+"note": "Late returns cost money. The sentence starts with the verb, which means \"if\".",
+"words": [
+[
+"Afleverer",
+"return"
+],
+[
+"gebyr",
+"fee"
+]
+]
+},
+{
+"da": "Gebyret stiger efter 30 dage.",
+"en": "The fee goes up after 30 days.",
+"p": false,
+"note": "The fee increases later. \"stiger\" is the present of \"stige\", to rise.",
+"words": [
+[
+"Gebyret",
+"the fee"
+],
+[
+"stiger",
+"rises"
+]
+]
+},
+{
+"da": "2. Sms",
+"en": "2. Text message",
+"p": true,
+"note": "A heading: a text message."
+},
+{
+"da": "Hej Lars",
+"en": "Hi Lars",
+"p": true,
+"note": "The greeting of the message."
+},
+{
+"da": "Jeg står ved indgangen til biografen, men jeg kan ikke se dig.",
+"en": "I am standing at the cinema entrance, but I cannot see you.",
+"p": false,
+"note": "Maja is waiting at the cinema. \"indgangen til\" means \"the entrance to\".",
+"words": [
+[
+"indgangen",
+"the entrance"
+],
+[
+"biografen",
+"the cinema"
+]
+]
+},
+{
+"da": "Jeg har købt billetterne, så du skal bare komme direkte ind i sal 3.",
+"en": "I have bought the tickets, so just come straight into screen 3.",
+"p": false,
+"note": "She has the tickets. \"har købt\" is the perfect tense.",
+"words": [
+[
+"billetterne",
+"the tickets"
+],
+[
+"direkte",
+"directly"
+]
+]
+},
+{
+"da": "Filmen starter om ti minutter.",
+"en": "The film starts in ten minutes.",
+"p": false,
+"note": "This gives the time. \"om ti minutter\" means \"in ten minutes\".",
+"words": [
+[
+"minutter",
+"minutes"
+]
+]
+},
+{
+"da": "Hilsen Maja",
+"en": "Regards, Maja",
+"p": false,
+"note": "The signature of the message.",
+"words": [
+[
+"Hilsen",
+"regards"
+]
+]
+},
+{
+"da": "3. Medlemskab i FitNord",
+"en": "3. Membership at FitNord",
+"p": true,
+"note": "A heading: rules for a gym membership.",
+"words": [
+[
+"Medlemskab",
+"membership"
+]
+]
+},
+{
+"da": "Dit medlemskab koster 249 kr. om måneden og har ingen bindingsperiode.",
+"en": "Your membership costs 249 kroner a month and has no lock-in period.",
+"p": false,
+"note": "This gives the price. \"Dit\" is used because \"medlemskab\" is an et-word.",
+"words": [
+[
+"medlemskab",
+"membership"
+],
+[
+"måneden",
+"the month"
+],
+[
+"bindingsperiode",
+"lock-in period"
+]
+]
+},
+{
+"da": "Du kan opsige det med en måneds varsel til udgangen af en måned.",
+"en": "You can cancel it with one month's notice to the end of a month.",
+"p": false,
+"note": "This explains how to cancel. \"opsige\" means \"cancel, give notice\".",
+"words": [
+[
+"opsige",
+"cancel"
+],
+[
+"varsel",
+"notice"
+],
+[
+"udgangen",
+"the end"
+]
+]
+},
+{
+"da": "Det første besøg er gratis, og du får en introduktion til maskinerne af en af vores instruktører.",
+"en": "The first visit is free, and you get an introduction to the machines from one of our instructors.",
+"p": false,
+"note": "The first visit is free. \"første\" is an ordinal number.",
+"words": [
+[
+"besøg",
+"visit"
+],
+[
+"introduktion",
+"introduction"
+],
+[
+"maskinerne",
+"the machines"
+],
+[
+"instruktører",
+"instructors"
+]
+]
+},
+{
+"da": "4. Spar på varmen",
+"en": "4. Save on heating",
+"p": true,
+"note": "A heading with advice. \"Spar\" is the imperative of \"spare\", to save.",
+"words": [
+[
+"varmen",
+"the heat"
+]
+]
+},
+{
+"da": "Skru ned for varmen om natten, og når du ikke er hjemme.",
+"en": "Turn down the heating at night and when you are not at home.",
+"p": false,
+"note": "Advice to save energy. \"Skru ned for\" means \"turn down\".",
+"words": [
+[
+"varmen",
+"the heat"
+]
+]
+},
+{
+"da": "Hver grad, du sænker temperaturen, sparer cirka 5 % af varmeregningen.",
+"en": "Every degree you lower the temperature saves about 5% of the heating bill.",
+"p": false,
+"note": "Lower heat saves money. \"du sænker temperaturen\" is a relative clause without \"som\".",
+"words": [
+[
+"sænker",
+"lower"
+],
+[
+"temperaturen",
+"the temperature"
+],
+[
+"varmeregningen",
+"the heating bill"
+]
+]
+},
+{
+"da": "Luft ud i 5-10 minutter med åbne vinduer et par gange om dagen i stedet for at have et vindue på klem hele dagen.",
+"en": "Air the room for 5-10 minutes with open windows a couple of times a day instead of having a window ajar all day.",
+"p": false,
+"note": "Air out quickly, not all day. \"på klem\" means \"ajar, slightly open\".",
+"words": [
+[
+"minutter",
+"minutes"
+],
+[
+"vinduer",
+"windows"
+],
+[
+"vindue",
+"window"
+]
+]
+},
+{
+"da": "5. Parkering med app",
+"en": "5. Parking with an app",
+"p": true,
+"note": "A heading about paying for parking with an app.",
+"words": [
+[
+"Parkering",
+"parking"
+]
+]
+},
+{
+"da": "Når du parkerer, starter du parkeringen i appen og vælger den zone, du holder i.",
+"en": "When you park, you start the parking in the app and choose the zone you are parked in.",
+"p": false,
+"note": "This explains how to start. After the når-clause the verb \"starter\" comes before \"du\".",
+"words": [
+[
+"parkerer",
+"park"
+],
+[
+"parkeringen",
+"the parking"
+]
+]
+},
+{
+"da": "Du betaler kun for den tid, du faktisk holder parkeret.",
+"en": "You only pay for the time you are actually parked.",
+"p": false,
+"note": "You pay for real time only. \"faktisk\" means \"actually\".",
+"words": [
+[
+"faktisk",
+"actually"
+],
+[
+"parkeret",
+"parked"
+]
+]
+},
+{
+"da": "Husk at stoppe parkeringen, når du kører.",
+"en": "Remember to stop the parking when you drive off.",
+"p": false,
+"note": "Remember to stop it. \"Husk\" is the imperative of \"huske\".",
+"words": [
+[
+"parkeringen",
+"the parking"
+]
+]
+},
+{
+"da": "Glemmer du det, stopper appen automatisk efter 24 timer.",
+"en": "If you forget, the app stops automatically after 24 hours.",
+"p": false,
+"note": "The app stops by itself. The sentence starts with the verb, which means \"if\".",
+"words": [
+[
+"Glemmer",
+"forget"
+],
+[
+"automatisk",
+"automatically"
+]
+]
+},
+{
+"da": "6. Hentning af medicin",
+"en": "6. Collecting medicine",
+"p": true,
+"note": "A heading about picking up medicine at a pharmacy.",
+"words": [
+[
+"Hentning",
+"collection"
+],
+[
+"medicin",
+"medicine"
+]
+]
+},
+{
+"da": "Når din læge har sendt en recept, kan du hente medicinen på alle apoteker i Danmark.",
+"en": "When your doctor has sent a prescription, you can collect the medicine at any pharmacy in Denmark.",
+"p": false,
+"note": "Any pharmacy works. After the når-clause the verb \"kan\" comes before \"du\".",
+"words": [
+[
+"recept",
+"prescription"
+],
+[
+"medicinen",
+"the medicine"
+],
+[
+"apoteker",
+"pharmacies"
+]
+]
+},
+{
+"da": "Husk dit sundhedskort.",
+"en": "Remember your health card.",
+"p": false,
+"note": "Bring your health card. \"Husk\" is an imperative.",
+"words": [
+[
+"sundhedskort",
+"health card"
+]
+]
+},
+{
+"da": "Hvis en anden skal hente medicinen for dig, skal personen have dit sundhedskort med eller en fuldmagt fra dig.",
+"en": "If someone else collects the medicine for you, that person must bring your health card or a power of attorney from you.",
+"p": false,
+"note": "Someone else can collect it. \"have med\" means \"bring\".",
+"words": [
+[
+"medicinen",
+"the medicine"
+],
+[
+"sundhedskort",
+"health card"
+],
+[
+"fuldmagt",
+"power of attorney"
+]
+]
+}
+]
+},
+"pd3-m2-1": {
+"lines": [
+{
+"da": "Danskerne køber mere tøj end nogensinde, men en stor del af det bliver kun brugt få gange.",
+"en": "Danes buy more clothes than ever, but much of it is only worn a few times.",
+"p": true,
+"note": "People buy lots of clothes. \"bliver brugt\" is the passive with \"blive\".",
+"words": [
+[
+"Danskerne",
+"the Danes"
+],
+[
+"nogensinde",
+"ever"
+]
+]
+},
+{
+"da": "Det er et problem for miljøet, fordi produktionen af tøj bruger store mængder af vand og energi.",
+"en": "That is a problem for the environment, because making clothes uses large amounts of water and energy.",
+"p": false,
+"note": "Clothes harm the environment. After \"fordi\" the word order is normal.",
+"words": [
+[
+"miljøet",
+"the environment"
+],
+[
+"produktionen",
+"the production"
+],
+[
+"mængder",
+"amounts"
+],
+[
+"energi",
+"energy"
+]
+]
+},
+{
+"da": "Derfor er flere og flere begyndt at købe brugt tøj.",
+"en": "So more and more people have started buying second-hand clothes.",
+"p": true,
+"note": "Second-hand is popular. \"er begyndt\" is the perfect with \"være\".",
+"words": [
+[
+"Derfor",
+"therefore"
+],
+[
+"begyndt",
+"started"
+]
+]
+},
+{
+"da": "Genbrugsbutikker og apps, hvor man kan sælge sit tøj til andre, er blevet meget populære de seneste år – især blandt unge.",
+"en": "Second-hand shops and apps where you can sell your clothes have become very popular in recent years – especially among young people.",
+"p": false,
+"note": "Young people like second-hand. \"er blevet\" is the perfect of \"blive\".",
+"words": [
+[
+"Genbrugsbutikker",
+"second-hand shops"
+],
+[
+"populære",
+"popular"
+],
+[
+"seneste",
+"latest"
+]
+]
+},
+{
+"da": "Der er mange fordele ved at købe brugt.",
+"en": "There are many advantages to buying second-hand.",
+"p": true,
+"note": "Now the benefits. \"fordele ved\" means \"advantages of\".",
+"words": [
+[
+"fordele",
+"advantages"
+]
+]
+},
+{
+"da": "Det er billigere, og man kan ofte finde tøj af god kvalitet til en brøkdel af prisen.",
+"en": "It is cheaper, and you can often find good-quality clothes for a fraction of the price.",
+"p": false,
+"note": "Second-hand is cheap. \"billigere\" is the comparative of \"billig\".",
+"words": [
+[
+"billigere",
+"cheaper"
+],
+[
+"kvalitet",
+"quality"
+],
+[
+"brøkdel",
+"fraction"
+]
+]
+},
+{
+"da": "Desuden er det en måde at finde unikt tøj på, som ingen andre har.",
+"en": "Also, it is a way to find unique clothes that nobody else has.",
+"p": false,
+"note": "You get special clothes. After \"Desuden\" the verb \"er\" comes before \"det\".",
+"words": [
+[
+"Desuden",
+"also"
+],
+[
+"unikt",
+"unique"
+]
+]
+},
+{
+"da": "Men genbrug løser ikke hele problemet.",
+"en": "But reuse does not solve the whole problem.",
+"p": true,
+"note": "Reuse is not enough. \"ikke\" comes after the verb in a main clause.",
+"words": [
+[
+"genbrug",
+"reuse"
+],
+[
+"problemet",
+"the problem"
+]
+]
+},
+{
+"da": "Hvis man køber brugt tøj, mens man samtidig bliver ved med at købe meget nyt, bliver det samlede forbrug ikke mindre.",
+"en": "If you buy second-hand while still buying lots of new clothes, total consumption does not go down.",
+"p": false,
+"note": "Buying new too cancels the benefit. \"blive ved med\" means \"keep on\".",
+"words": [
+[
+"samtidig",
+"at the same time"
+],
+[
+"samlede",
+"total"
+],
+[
+"forbrug",
+"consumption"
+]
+]
+},
+{
+"da": "Eksperterne anbefaler derfor, at det vigtigste er at købe mindre tøj og bruge det længere.",
+"en": "So experts recommend that the most important thing is to buy fewer clothes and use them longer.",
+"p": false,
+"note": "Buy less, use longer. \"det vigtigste\" is a superlative used as a noun.",
+"words": [
+[
+"Eksperterne",
+"the experts"
+],
+[
+"anbefaler",
+"recommend"
+],
+[
+"vigtigste",
+"most important"
+],
+[
+"længere",
+"longer"
+]
+]
+},
+{
+"da": "En god idé er at reparere tøjet, når det går i stykker, i stedet for at smide det ud.",
+"en": "A good idea is to repair clothes when they break instead of throwing them out.",
+"p": true,
+"note": "Repair your clothes. \"gå i stykker\" means \"break, get torn\".",
+"words": [
+[
+"reparere",
+"repair"
+],
+[
+"stykker",
+"pieces"
+]
+]
+},
+{
+"da": "Endelig kan man bytte tøj med venner eller familie.",
+"en": "Finally, you can swap clothes with friends or family.",
+"p": false,
+"note": "Swap clothes too. After \"Endelig\" the verb \"kan\" comes before \"man\".",
+"words": [
+[
+"Endelig",
+"finally"
+],
+[
+"familie",
+"family"
+]
+]
+}
+]
+},
+"pd3-m2-2": {
+"lines": [
+{
+"da": "Ali Hassan er 29 år og arbejder til daglig som elektriker i Aarhus.",
+"en": "Ali Hassan is 29 and works as an electrician in Aarhus day to day.",
+"p": true,
+"note": "This introduces Ali. \"til daglig\" means \"normally, day to day\".",
+"words": [
+[
+"daglig",
+"daily"
+],
+[
+"elektriker",
+"electrician"
+]
+]
+},
+{
+"da": "A. To gange om ugen træner han et fodboldhold for drenge på 10-12 år.",
+"en": "A. Twice a week he coaches a football team for boys aged 10-12.",
+"p": false,
+"note": "Ali coaches boys. After \"To gange om ugen\" the verb \"træner\" comes before \"han\".",
+"words": [
+[
+"træner",
+"coaches"
+],
+[
+"fodboldhold",
+"football team"
+]
+]
+},
+{
+"da": "1. Ali begyndte selv at spille fodbold, da han kom til Danmark som tiårig.",
+"en": "1. Ali started playing football himself when he came to Denmark at the age of ten.",
+"p": true,
+"note": "Ali started young. \"da\" is used for a single event in the past.",
+"words": [
+[
+"begyndte",
+"began"
+],
+[
+"tiårig",
+"ten-year-old"
+]
+]
+},
+{
+"da": "Han kunne ikke tale dansk, og han havde ingen venner.",
+"en": "He could not speak Danish, and he had no friends.",
+"p": false,
+"note": "It was hard at first. \"kunne\" is the past tense of \"kan\".",
+"words": [
+[
+"venner",
+"friends"
+]
+]
+},
+{
+"da": "Men på fodboldbanen var det lige meget.",
+"en": "But on the football pitch it did not matter.",
+"p": false,
+"note": "Football made language unimportant. \"lige meget\" means \"doesn't matter\".",
+"words": [
+[
+"fodboldbanen",
+"the football pitch"
+]
+]
+},
+{
+"da": "\"Fodbold var mit første danske sprog,\" siger han og griner.",
+"en": "\"Football was my first Danish language,\" he says, laughing.",
+"p": false,
+"note": "Football helped him belong. After the quote, \"siger\" comes before \"han\".",
+"words": [
+[
+"griner",
+"laughs"
+]
+]
+},
+{
+"da": "2. For fire år siden spurgte klubben, om han ville hjælpe med at træne de yngste spillere.",
+"en": "2. Four years ago the club asked if he would help coach the youngest players.",
+"p": true,
+"note": "The club asked him to coach. \"om\" here means \"whether\".",
+"words": [
+[
+"klubben",
+"the club"
+],
+[
+"yngste",
+"youngest"
+],
+[
+"spillere",
+"players"
+]
+]
+},
+{
+"da": "Det sagde han ja til med det samme.",
+"en": "He said yes to that immediately.",
+"p": false,
+"note": "He agreed at once. \"Det\" is fronted, so \"sagde\" comes before \"han\".",
+"words": [
+[
+"samme",
+"same"
+]
+]
+},
+{
+"da": "Han ville gerne give noget tilbage til den klub, der havde hjulpet ham så meget.",
+"en": "He wanted to give something back to the club that had helped him so much.",
+"p": false,
+"note": "He wanted to give back. \"havde hjulpet\" is the past perfect.",
+"words": [
+[
+"tilbage",
+"back"
+],
+[
+"hjulpet",
+"helped"
+]
+]
+},
+{
+"da": "3. Ali bruger mange timer på klubben.",
+"en": "3. Ali spends many hours on the club.",
+"p": true,
+"note": "He gives a lot of time. \"bruge tid på\" means \"spend time on\".",
+"words": [
+[
+"klubben",
+"the club"
+]
+]
+},
+{
+"da": "Ud over træningen kører han til kampe i weekenden og planlægger træningen om aftenen.",
+"en": "Besides training, he drives to matches at weekends and plans training in the evenings.",
+"p": false,
+"note": "He does much more than training. \"Ud over\" means \"besides\".",
+"words": [
+[
+"træningen",
+"the training"
+],
+[
+"weekenden",
+"the weekend"
+],
+[
+"planlægger",
+"plans"
+]
+]
+},
+{
+"da": "Det er faktisk næsten et halvt job ved siden af hans rigtige arbejde.",
+"en": "It is actually almost a half-time job next to his real work.",
+"p": false,
+"note": "Coaching takes lots of time. \"et halvt job\": \"halvt\" has -t with an et-word.",
+"words": [
+[
+"faktisk",
+"actually"
+],
+[
+"rigtige",
+"real"
+]
+]
+},
+{
+"da": "Hans kæreste synes nogle gange, at han er for lidt hjemme.",
+"en": "His girlfriend sometimes thinks he is home too little.",
+"p": false,
+"note": "His partner misses him. \"synes\" means \"think, feel\" about opinions.",
+"words": [
+[
+"kæreste",
+"girlfriend, partner"
+]
+]
+},
+{
+"da": "4. For Ali handler fodbold om mere end at vinde.",
+"en": "4. For Ali, football is about more than winning.",
+"p": true,
+"note": "Winning is not everything. \"handle om\" means \"be about\".",
+"words": [
+[
+"handler",
+"is about"
+]
+]
+},
+{
+"da": "Det handler om fællesskab, respekt og at lære at tabe.",
+"en": "It is about community, respect and learning to lose.",
+"p": false,
+"note": "He teaches values. \"at lære at tabe\" uses two infinitives.",
+"words": [
+[
+"fællesskab",
+"community"
+],
+[
+"respekt",
+"respect"
+]
+]
+},
+{
+"da": "Han lægger stor vægt på, at alle drenge får lov at spille, også dem, der ikke er så gode.",
+"en": "He considers it very important that all boys get to play, also those who are not so good.",
+"p": false,
+"note": "Everyone plays. \"lægge vægt på\" means \"put weight on, emphasise\".",
+"words": [
+[
+"vægt",
+"weight"
+]
+]
+},
+{
+"da": "5. Næste år vil Ali tage et trænerkursus.",
+"en": "5. Next year Ali will take a coaching course.",
+"p": true,
+"note": "Ali wants to learn more. After \"Næste år\" the verb \"vil\" comes before \"Ali\".",
+"words": [
+[
+"trænerkursus",
+"coaching course"
+]
+]
+},
+{
+"da": "Så kan han blive en endnu bedre træner.",
+"en": "Then he can become an even better coach.",
+"p": false,
+"note": "The course will help him. \"endnu bedre\" means \"even better\".",
+"words": [
+[
+"bedre",
+"better"
+]
+]
+},
+{
+"da": "Men det vigtigste for ham er stadig, at drengene har det sjovt.",
+"en": "But the most important thing for him is still that the boys have fun.",
+"p": false,
+"note": "Fun matters most. \"have det sjovt\" means \"have fun\".",
+"words": [
+[
+"vigtigste",
+"most important"
+],
+[
+"drengene",
+"the boys"
+]
+]
+}
+]
+},
+"pd3-m2-3": {
+"lines": [
+{
+"da": "Siden coronatiden har jeg arbejdet hjemme to dage om ugen.",
+"en": "Since the corona period I have worked from home two days a week.",
+"p": true,
+"note": "Ahmed works from home. \"Siden\" with the perfect \"har arbejdet\" shows it still goes on.",
+"words": [
+[
+"coronatiden",
+"the corona period"
+],
+[
+"arbejdet",
+"worked"
+]
+]
+},
+{
+"da": "I starten syntes jeg, det var fantastisk.",
+"en": "At first I thought it was fantastic.",
+"p": false,
+"note": "He liked it at first. \"syntes\" is the past tense of \"synes\".",
+"words": [
+[
+"syntes",
+"thought"
+],
+[
+"fantastisk",
+"fantastic"
+]
+]
+},
+{
+"da": "Jeg sparede en time på transport hver dag, og jeg kunne arbejde i ro og fred uden afbrydelser.",
+"en": "I saved an hour on transport every day, and I could work in peace without interruptions.",
+"p": false,
+"note": "Home work saved time. \"i ro og fred\" is a fixed phrase: in peace and quiet.",
+"words": [
+[
+"sparede",
+"saved"
+],
+[
+"transport",
+"transport"
+],
+[
+"afbrydelser",
+"interruptions"
+]
+]
+},
+{
+"da": "Men efter et stykke tid begyndte jeg at savne mine kolleger.",
+"en": "But after a while I began to miss my colleagues.",
+"p": true,
+"note": "He missed people. After \"efter et stykke tid\" the verb \"begyndte\" comes before \"jeg\".",
+"words": [
+[
+"begyndte",
+"began"
+],
+[
+"savne",
+"miss"
+],
+[
+"kolleger",
+"colleagues"
+]
+]
+},
+{
+"da": "Det er hyggeligt at drikke en kop kaffe sammen og snakke om løst og fast.",
+"en": "It is nice to have a cup of coffee together and chat about this and that.",
+"p": false,
+"note": "He misses coffee chats. \"om løst og fast\" means \"about this and that\".",
+"words": [
+[
+"hyggeligt",
+"cosy, nice"
+],
+[
+"sammen",
+"together"
+]
+]
+},
+{
+"da": "Det kan man ikke gøre over en skærm på samme måde.",
+"en": "You cannot do that the same way over a screen.",
+"p": false,
+"note": "Screens are not the same. \"Det\" is fronted, so \"kan\" comes before \"man\".",
+"words": [
+[
+"skærm",
+"screen"
+]
+]
+},
+{
+"da": "Jeg har også lært, at det er vigtigt at holde fast i en rutine.",
+"en": "I have also learned that it is important to stick to a routine.",
+"p": true,
+"note": "Routine is important. \"holde fast i\" means \"stick to\".",
+"words": [
+[
+"vigtigt",
+"important"
+],
+[
+"rutine",
+"routine"
+]
+]
+},
+{
+"da": "Jeg står op på samme tid, som jeg plejer, og jeg sætter mig ved mit skrivebord kl. 8.",
+"en": "I get up at the same time as usual, and I sit down at my desk at 8.",
+"p": false,
+"note": "He keeps fixed hours. \"plejer\" means \"usually do\".",
+"words": [
+[
+"plejer",
+"usually do"
+],
+[
+"skrivebord",
+"desk"
+]
+]
+},
+{
+"da": "Når klokken er 16, slukker jeg computeren, så jeg ikke arbejder hele aftenen.",
+"en": "At 4 pm I turn off the computer so I do not work all evening.",
+"p": false,
+"note": "He stops at a fixed time. In the så-clause \"ikke\" comes before the verb \"arbejder\".",
+"words": [
+[
+"klokken",
+"the clock"
+],
+[
+"slukker",
+"turn off"
+],
+[
+"computeren",
+"the computer"
+],
+[
+"aftenen",
+"the evening"
+]
+]
+},
+{
+"da": "for mig er den bedste løsning en blanding.",
+"en": "for me the best solution is a mix.",
+"p": true,
+"note": "He prefers a mix. After \"for mig\" the verb \"er\" comes before the subject.",
+"words": [
+[
+"bedste",
+"best"
+],
+[
+"løsning",
+"solution"
+],
+[
+"blanding",
+"mix"
+]
+]
+},
+{
+"da": "To dage hjemme giver ro og koncentration, og tre dage på kontoret giver fællesskab og nye idéer.",
+"en": "Two days at home give peace and focus, and three days at the office give community and new ideas.",
+"p": false,
+"note": "Both places have benefits. \"idéer\" is the plural of \"idé\".",
+"words": [
+[
+"koncentration",
+"concentration"
+],
+[
+"kontoret",
+"the office"
+],
+[
+"fællesskab",
+"community"
+]
+]
+},
+{
+"da": "Jeg tror, at mange af mine kolleger har det på samme måde.",
+"en": "I think many of my colleagues feel the same way.",
+"p": false,
+"note": "Others agree. \"have det på samme måde\" means \"feel the same\".",
+"words": [
+[
+"kolleger",
+"colleagues"
+]
+]
+},
+{
+"da": "Hvis man selv kan vælge, synes jeg, at man skal prøve begge dele og finde ud af, hvad der passer til en selv.",
+"en": "If you can choose, I think you should try both and find out what suits you.",
+"p": true,
+"note": "Try both and decide. After the hvis-clause, the verb \"synes\" comes before \"jeg\".",
+"words": [
+[
+"begge",
+"both"
+],
+[
+"passer",
+"suits"
+]
+]
+}
+]
+},
+"pd3-m2-4": {
+"lines": [
+{
+"da": "Seks små tekster",
+"en": "Six short texts",
+"p": true,
+"note": "A heading: six short everyday texts follow.",
+"words": [
+[
+"tekster",
+"texts"
+]
+]
+},
+{
+"da": "1. Billetter til tog",
+"en": "1. Train tickets",
+"p": true,
+"note": "A heading about rules for train tickets.",
+"words": [
+[
+"Billetter",
+"tickets"
+]
+]
+},
+{
+"da": "Køber du din billet i appen, skal den være købt, før du stiger på toget.",
+"en": "If you buy your ticket in the app, it must be bought before you get on the train.",
+"p": false,
+"note": "Buy before boarding. The sentence starts with the verb, which means \"if\".",
+"words": [
+[
+"billet",
+"ticket"
+],
+[
+"stiger",
+"get on"
+]
+]
+},
+{
+"da": "Har du ikke en gyldig billet, kan du få en kontrolafgift på 750 kr.",
+"en": "If you do not have a valid ticket, you can get a penalty fare of 750 kroner.",
+"p": false,
+"note": "No ticket means a fine. The verb \"Har\" starts the sentence and means \"if\".",
+"words": [
+[
+"gyldig",
+"valid"
+],
+[
+"billet",
+"ticket"
+],
+[
+"kontrolafgift",
+"penalty fare"
+]
+]
+},
+{
+"da": "Børn under 12 år rejser gratis sammen med en voksen.",
+"en": "Children under 12 travel free with an adult.",
+"p": false,
+"note": "Children ride free. \"sammen med\" means \"together with\".",
+"words": [
+[
+"rejser",
+"travel"
+],
+[
+"gratis",
+"free"
+],
+[
+"voksen",
+"adult"
+]
+]
+},
+{
+"da": "2. Opslag i opgangen",
+"en": "2. Notice in the stairwell",
+"p": true,
+"note": "A heading: a note to the neighbours.",
+"words": [
+[
+"Opslag",
+"notice"
+],
+[
+"opgangen",
+"the stairwell"
+]
+]
+},
+{
+"da": "Kære naboer",
+"en": "Dear neighbours",
+"p": true,
+"note": "The greeting of the notice.",
+"words": [
+[
+"naboer",
+"neighbours"
+]
+]
+},
+{
+"da": "Vi holder fødselsdag for vores datter på lørdag fra kl. 14 til 18.",
+"en": "We are having a birthday party for our daughter on Saturday from 2 to 6 pm.",
+"p": false,
+"note": "There is a party. \"på lørdag\" means \"this Saturday\".",
+"words": [
+[
+"fødselsdag",
+"birthday"
+],
+[
+"datter",
+"daughter"
+],
+[
+"lørdag",
+"Saturday"
+]
+]
+},
+{
+"da": "Der kan komme lidt larm fra haven.",
+"en": "There may be some noise from the garden.",
+"p": false,
+"note": "It may be noisy. \"Der kan komme\" means \"there may come\".",
+"words": [
+[
+"larm",
+"noise"
+],
+[
+"haven",
+"the garden"
+]
+]
+},
+{
+"da": "Undskyld på forhånd!",
+"en": "Sorry in advance!",
+"p": false,
+"note": "They apologise. \"på forhånd\" means \"in advance\".",
+"words": [
+[
+"Undskyld",
+"sorry"
+],
+[
+"forhånd",
+"advance"
+]
+]
+},
+{
+"da": "Hilsen familien Jensen, nr. 7",
+"en": "Regards, the Jensen family, no. 7",
+"p": false,
+"note": "The signature of the notice.",
+"words": [
+[
+"Hilsen",
+"regards"
+],
+[
+"familien",
+"the family"
+]
+]
+},
+{
+"da": "3. Besked fra skolen",
+"en": "3. Message from the school",
+"p": true,
+"note": "A heading: a note from the school to parents.",
+"words": [
+[
+"Besked",
+"message"
+],
+[
+"skolen",
+"the school"
+]
+]
+},
+{
+"da": "Kære forældre",
+"en": "Dear parents",
+"p": true,
+"note": "The greeting of the message.",
+"words": [
+[
+"forældre",
+"parents"
+]
+]
+},
+{
+"da": "På torsdag tager klassen på udflugt til Naturcenteret.",
+"en": "On Thursday the class is going on a trip to the Nature Centre.",
+"p": false,
+"note": "There is a class trip. After \"På torsdag\" the verb \"tager\" comes before the subject.",
+"words": [
+[
+"torsdag",
+"Thursday"
+],
+[
+"klassen",
+"the class"
+],
+[
+"udflugt",
+"trip"
+]
+]
+},
+{
+"da": "Bussen kører fra skolen kl. 8.15 og er tilbage kl. 14.",
+"en": "The bus leaves the school at 8.15 and is back at 2 pm.",
+"p": false,
+"note": "This gives the times. \"kører\" here means \"leaves, goes\".",
+"words": [
+[
+"Bussen",
+"the bus"
+],
+[
+"tilbage",
+"back"
+]
+]
+},
+{
+"da": "Husk madpakke, drikkedunk og tøj efter vejret.",
+"en": "Remember a packed lunch, a water bottle and clothes for the weather.",
+"p": false,
+"note": "What to bring. \"Husk\" is an imperative.",
+"words": [
+[
+"madpakke",
+"packed lunch"
+],
+[
+"drikkedunk",
+"water bottle"
+],
+[
+"vejret",
+"the weather"
+]
+]
+},
+{
+"da": "Turen er gratis.",
+"en": "The trip is free.",
+"p": false,
+"note": "It costs nothing. \"Turen\" is definite: the trip.",
+"words": [
+[
+"gratis",
+"free"
+]
+]
+},
+{
+"da": "4. Sådan bestiller du tid",
+"en": "4. How to book an appointment",
+"p": true,
+"note": "A heading about booking a doctor's appointment.",
+"words": [
+[
+"bestiller",
+"book"
+]
+]
+},
+{
+"da": "Du kan bestille tid hos lægen via appen eller ved at ringe mellem kl. 8 og 9.",
+"en": "You can book an appointment with the doctor in the app or by phoning between 8 and 9.",
+"p": false,
+"note": "Two ways to book. \"hos lægen\" means \"at the doctor's\".",
+"words": [
+[
+"bestille",
+"book"
+],
+[
+"mellem",
+"between"
+]
+]
+},
+{
+"da": "Har du brug for akut hjælp uden for åbningstiden, skal du ringe til lægevagten.",
+"en": "If you need urgent help outside opening hours, you must call the out-of-hours doctor.",
+"p": false,
+"note": "Call the emergency doctor at night. The verb \"Har\" first means \"if\".",
+"words": [
+[
+"akut",
+"urgent"
+],
+[
+"åbningstiden",
+"opening hours"
+],
+[
+"lægevagten",
+"the out-of-hours doctor"
+]
+]
+},
+{
+"da": "5. Returret",
+"en": "5. Right of return",
+"p": true,
+"note": "A heading about returning goods to a shop.",
+"words": [
+[
+"Returret",
+"right of return"
+]
+]
+},
+{
+"da": "Du har 30 dages returret på alle varer.",
+"en": "You have a 30-day right of return on all goods.",
+"p": false,
+"note": "You can return within 30 days. \"30 dages\" uses the genitive -s.",
+"words": [
+[
+"returret",
+"right of return"
+],
+[
+"varer",
+"goods"
+]
+]
+},
+{
+"da": "Varen skal være ubrugt og i original emballage.",
+"en": "The item must be unused and in its original packaging.",
+"p": false,
+"note": "Conditions for returns. \"ubrugt\" means \"not used\".",
+"words": [
+[
+"ubrugt",
+"unused"
+],
+[
+"original",
+"original"
+],
+[
+"emballage",
+"packaging"
+]
+]
+},
+{
+"da": "Husk kvitteringen.",
+"en": "Remember the receipt.",
+"p": false,
+"note": "Bring the receipt. \"Husk\" is an imperative.",
+"words": [
+[
+"kvitteringen",
+"the receipt"
+]
+]
+},
+{
+"da": "Udsalgsvarer kan ikke returneres.",
+"en": "Sale items cannot be returned.",
+"p": false,
+"note": "No returns on sale items. \"kan returneres\" is a modal plus the passive with -s.",
+"words": [
+[
+"Udsalgsvarer",
+"sale items"
+],
+[
+"returneres",
+"be returned"
+]
+]
+},
+{
+"da": "6. Sms fra en kollega",
+"en": "6. Text message from a colleague",
+"p": true,
+"note": "A heading: a text from a colleague.",
+"words": [
+[
+"kollega",
+"colleague"
+]
+]
+},
+{
+"da": "Hej Sanne",
+"en": "Hi Sanne",
+"p": true,
+"note": "The greeting of the message."
+},
+{
+"da": "Mødet i morgen er flyttet fra kl. 10 til kl. 13, fordi chefen skal til tandlæge om formiddagen.",
+"en": "Tomorrow's meeting has been moved from 10 to 1 pm because the boss is going to the dentist in the morning.",
+"p": false,
+"note": "The meeting is moved. \"er flyttet\" is a passive with \"være\".",
+"words": [
+[
+"Mødet",
+"the meeting"
+],
+[
+"flyttet",
+"moved"
+],
+[
+"tandlæge",
+"dentist"
+],
+[
+"formiddagen",
+"the morning"
+]
+]
+},
+{
+"da": "Vi holder det stadig i mødelokale 2.",
+"en": "We are still holding it in meeting room 2.",
+"p": false,
+"note": "The room is the same. \"stadig\" means \"still\".",
+"words": [
+[
+"stadig",
+"still"
+],
+[
+"mødelokale",
+"meeting room"
+]
+]
+},
+{
+"da": "Mvh Peter",
+"en": "Best regards, Peter",
+"p": false,
+"note": "The signature. \"Mvh\" is short for \"med venlig hilsen\"."
+}
+]
+},
+"pd3-m3-1": {
+"lines": [
+{
+"da": "Omkring 40 procent af alle voksne danskere laver frivilligt arbejde.",
+"en": "About 40 percent of all adult Danes do voluntary work.",
+"p": true,
+"note": "Many Danes volunteer. \"frivilligt arbejde\": the adjective gets -t with an et-word.",
+"words": [
+[
+"procent",
+"percent"
+],
+[
+"voksne",
+"adult"
+],
+[
+"frivilligt",
+"voluntary"
+]
+]
+},
+{
+"da": "De træner børn i sportsklubber, hjælper ældre med indkøb eller arbejder i genbrugsbutikker.",
+"en": "They coach children in sports clubs, help elderly people with shopping or work in second-hand shops.",
+"p": false,
+"note": "Examples of volunteer work. \"ældre\" is used as a noun: elderly people.",
+"words": [
+[
+"sportsklubber",
+"sports clubs"
+],
+[
+"indkøb",
+"shopping"
+],
+[
+"genbrugsbutikker",
+"second-hand shops"
+]
+]
+},
+{
+"da": "Det frivillige arbejde er en vigtig del af det danske samfund, og mange foreninger ville slet ikke kunne eksistere uden de frivillige.",
+"en": "Voluntary work is an important part of Danish society, and many associations could not exist at all without volunteers.",
+"p": false,
+"note": "Volunteers are essential. \"ville kunne\" is a conditional with two modals.",
+"words": [
+[
+"frivillige",
+"voluntary"
+],
+[
+"samfund",
+"society"
+],
+[
+"foreninger",
+"associations"
+],
+[
+"eksistere",
+"exist"
+]
+]
+},
+{
+"da": "Hvorfor bruger så mange mennesker deres fritid på at arbejde gratis?",
+"en": "Why do so many people spend their free time working for free?",
+"p": true,
+"note": "A question about reasons. In questions with \"hvorfor\", the verb comes right after.",
+"words": [
+[
+"Hvorfor",
+"why"
+],
+[
+"mennesker",
+"people"
+],
+[
+"fritid",
+"free time"
+]
+]
+},
+{
+"da": "Undersøgelser viser, at de fleste gør det, fordi de gerne vil hjælpe andre.",
+"en": "Studies show that most do it because they want to help others.",
+"p": false,
+"note": "People want to help. After \"fordi\" the word order is normal.",
+"words": [
+[
+"Undersøgelser",
+"studies"
+]
+]
+},
+{
+"da": "Men mange nævner også, at det er sjovt, og at de møder nye mennesker.",
+"en": "But many also mention that it is fun and that they meet new people.",
+"p": false,
+"note": "It is fun and social. \"nævner\" means \"mention\".",
+"words": [
+[
+"nævner",
+"mention"
+],
+[
+"mennesker",
+"people"
+]
+]
+},
+{
+"da": "Desuden kan frivilligt arbejde give erfaring, som man kan bruge, når man søger job.",
+"en": "Also, voluntary work can give experience you can use when applying for jobs.",
+"p": false,
+"note": "It helps your career. After \"Desuden\" the verb \"kan\" comes before the subject.",
+"words": [
+[
+"Desuden",
+"also"
+],
+[
+"frivilligt",
+"voluntary"
+],
+[
+"erfaring",
+"experience"
+]
+]
+},
+{
+"da": "For mennesker, der er nye i Danmark, kan frivilligt arbejde være en god vej til at lære sproget og forstå den danske kultur.",
+"en": "For people who are new in Denmark, voluntary work can be a good way to learn the language and understand Danish culture.",
+"p": true,
+"note": "It helps newcomers. The fronted phrase makes \"kan\" come before the subject.",
+"words": [
+[
+"mennesker",
+"people"
+],
+[
+"frivilligt",
+"voluntary"
+],
+[
+"sproget",
+"the language"
+],
+[
+"kultur",
+"culture"
+]
+]
+},
+{
+"da": "Man taler dansk i praksis og får et netværk, som det ellers kan være svært at få.",
+"en": "You speak Danish in practice and get a network that can otherwise be hard to get.",
+"p": false,
+"note": "You practise Danish and meet people. \"ellers\" means \"otherwise\".",
+"words": [
+[
+"praksis",
+"practice"
+],
+[
+"netværk",
+"network"
+],
+[
+"ellers",
+"otherwise"
+]
+]
+},
+{
+"da": "Der er dog også udfordringer.",
+"en": "However, there are also challenges.",
+"p": true,
+"note": "Now the problems. \"dog\" means \"however\".",
+"words": [
+[
+"udfordringer",
+"challenges"
+]
+]
+},
+{
+"da": "Mange foreninger har svært ved at finde nok frivillige, fordi især unge mennesker har travlt med uddannelse og job.",
+"en": "Many associations find it hard to get enough volunteers, because young people especially are busy with education and jobs.",
+"p": false,
+"note": "Young people have little time. \"have travlt med\" means \"be busy with\".",
+"words": [
+[
+"foreninger",
+"associations"
+],
+[
+"frivillige",
+"volunteers"
+],
+[
+"uddannelse",
+"education"
+]
+]
+},
+{
+"da": "Til gengæld er det blevet mere almindeligt at være frivillig i kortere perioder, fx til en festival eller et enkelt arrangement.",
+"en": "On the other hand, it has become more common to volunteer for shorter periods, e.g. at a festival or a single event.",
+"p": false,
+"note": "Short-term volunteering is popular. \"er blevet\" is the perfect of \"blive\".",
+"words": [
+[
+"gengæld",
+"return"
+],
+[
+"almindeligt",
+"common"
+],
+[
+"perioder",
+"periods"
+],
+[
+"arrangement",
+"event"
+]
+]
+},
+{
+"da": "Uanset hvordan man gør det, er der næppe tvivl om, at frivilligt arbejde gør en stor forskel – både for dem, der hjælper, og for dem, der bliver hjulpet.",
+"en": "However you do it, there is hardly any doubt that voluntary work makes a big difference – both for helpers and for those helped.",
+"p": true,
+"note": "Volunteering helps everyone. After the uanset-clause, the verb \"er\" comes before \"der\".",
+"words": [
+[
+"Uanset",
+"no matter"
+],
+[
+"næppe",
+"hardly"
+],
+[
+"tvivl",
+"doubt"
+],
+[
+"forskel",
+"difference"
+]
+]
+}
+]
+},
+"pd3-m3-2": {
+"lines": [
+{
+"da": "Rania er 34 år og arbejder som sygeplejerske på Aalborg Universitetshospital.",
+"en": "Rania is 34 and works as a nurse at Aalborg University Hospital.",
+"p": true,
+"note": "This introduces Rania. \"arbejde som\" means \"work as\".",
+"words": [
+[
+"sygeplejerske",
+"nurse"
+],
+[
+"Universitetshospital",
+"University Hospital"
+]
+]
+},
+{
+"da": "A. Dengang kunne hun ikke et ord dansk.",
+"en": "A. Back then she did not know a word of Danish.",
+"p": false,
+"note": "She knew no Danish at first. After \"Dengang\" the verb \"kunne\" comes before \"hun\".",
+"words": [
+[
+"Dengang",
+"back then"
+]
+]
+},
+{
+"da": "1. De første år gik Rania på sprogskole fire dage om ugen.",
+"en": "1. In the first years Rania went to language school four days a week.",
+"p": true,
+"note": "She studied hard. After the time phrase, \"gik\" comes before \"Rania\".",
+"words": [
+[
+"sprogskole",
+"language school"
+]
+]
+},
+{
+"da": "Det var svært, især udtalen.",
+"en": "It was hard, especially the pronunciation.",
+"p": false,
+"note": "Pronunciation was difficult. \"især\" means \"especially\".",
+"words": [
+[
+"især",
+"especially"
+],
+[
+"udtalen",
+"the pronunciation"
+]
+]
+},
+{
+"da": "Men hun øvede sig hver eneste dag.",
+"en": "But she practised every single day.",
+"p": false,
+"note": "She practised daily. \"øve sig\" is reflexive: to practise.",
+"words": [
+[
+"øvede",
+"practised"
+],
+[
+"eneste",
+"single"
+]
+]
+},
+{
+"da": "Hun så danske tv-serier med undertekster og talte med naboerne, når hun kunne.",
+"en": "She watched Danish TV series with subtitles and talked to the neighbours when she could.",
+"p": false,
+"note": "This is how she learned. \"så\" is the past tense of \"se\".",
+"words": [
+[
+"tv-serier",
+"TV series"
+],
+[
+"undertekster",
+"subtitles"
+],
+[
+"naboerne",
+"the neighbours"
+]
+]
+},
+{
+"da": "2. I sit hjemland havde Rania arbejdet som sygeplejerske i fem år.",
+"en": "2. In her home country Rania had worked as a nurse for five years.",
+"p": true,
+"note": "She was already a nurse. \"havde arbejdet\" is the past perfect.",
+"words": [
+[
+"hjemland",
+"home country"
+],
+[
+"arbejdet",
+"worked"
+],
+[
+"sygeplejerske",
+"nurse"
+]
+]
+},
+{
+"da": "Alligevel blev hendes uddannelse ikke godkendt med det samme.",
+"en": "Even so, her education was not approved straight away.",
+"p": false,
+"note": "Her degree needed approval. \"blev godkendt\" is the passive with \"blive\".",
+"words": [
+[
+"Alligevel",
+"even so"
+],
+[
+"uddannelse",
+"education"
+],
+[
+"godkendt",
+"approved"
+]
+]
+},
+{
+"da": "Hun skulle tage flere kurser og bestå en sprogprøve, før hun måtte arbejde som sygeplejerske i Danmark.",
+"en": "She had to take more courses and pass a language test before she was allowed to work as a nurse in Denmark.",
+"p": false,
+"note": "She needed extra tests. \"måtte\" here means \"was allowed to\".",
+"words": [
+[
+"kurser",
+"courses"
+],
+[
+"bestå",
+"pass"
+],
+[
+"sprogprøve",
+"language test"
+],
+[
+"sygeplejerske",
+"nurse"
+]
+]
+},
+{
+"da": "3. Mens hun læste til prøverne, arbejdede hun som social- og sundhedshjælper på et plejehjem.",
+"en": "3. While she studied for the tests, she worked as a social and health care helper at a nursing home.",
+"p": true,
+"note": "She worked while studying. After the mens-clause, \"arbejdede\" comes before \"hun\".",
+"words": [
+[
+"prøverne",
+"the tests"
+],
+[
+"arbejdede",
+"worked"
+],
+[
+"sundhedshjælper",
+"health care helper"
+],
+[
+"plejehjem",
+"nursing home"
+]
+]
+},
+{
+"da": "Det job var en stor hjælp for hendes dansk.",
+"en": "That job was a big help for her Danish.",
+"p": false,
+"note": "The job improved her Danish. \"Det job\" uses \"det\" as a demonstrative: that job.",
+"words": [
+[
+"hjælp",
+"help"
+]
+]
+},
+{
+"da": "Hun lærte mange ord, som man ikke lærer på sprogskolen, og hun fik gode kolleger.",
+"en": "She learned many words you do not learn at language school, and she got good colleagues.",
+"p": false,
+"note": "Work taught her real Danish. In the som-clause \"ikke\" comes before the verb.",
+"words": [
+[
+"sprogskolen",
+"the language school"
+],
+[
+"kolleger",
+"colleagues"
+]
+]
+},
+{
+"da": "4. I dag arbejder Rania på en afdeling for hjertepatienter.",
+"en": "4. Today Rania works in a ward for heart patients.",
+"p": true,
+"note": "She now works with heart patients. After \"I dag\" the verb \"arbejder\" comes first.",
+"words": [
+[
+"afdeling",
+"ward, department"
+],
+[
+"hjertepatienter",
+"heart patients"
+]
+]
+},
+{
+"da": "Hun har travlt, men hun elsker sit arbejde.",
+"en": "She is busy, but she loves her work.",
+"p": false,
+"note": "She loves her job. \"sit\" is reflexive and refers to \"hun\".",
+"words": [
+[
+"travlt",
+"busy"
+],
+[
+"arbejde",
+"work"
+]
+]
+},
+{
+"da": "Nogle gange taler hun også arabisk med patienter, der ikke forstår dansk så godt.",
+"en": "Sometimes she also speaks Arabic with patients who do not understand Danish very well.",
+"p": false,
+"note": "Her Arabic helps patients. After \"Nogle gange\" the verb \"taler\" comes before \"hun\".",
+"words": [
+[
+"arabisk",
+"Arabic"
+],
+[
+"patienter",
+"patients"
+],
+[
+"forstår",
+"understand"
+]
+]
+},
+{
+"da": "5. Rania er stolt af, hvad hun har nået.",
+"en": "5. Rania is proud of what she has achieved.",
+"p": true,
+"note": "She is proud. \"stolt af\" means \"proud of\".",
+"words": [
+[
+"stolt",
+"proud"
+]
+]
+},
+{
+"da": "Og hun håber, at andre kan blive inspireret af hendes historie.",
+"en": "And she hopes others can be inspired by her story.",
+"p": false,
+"note": "She hopes to inspire. \"blive inspireret\" is a passive with \"blive\".",
+"words": [
+[
+"inspireret",
+"inspired"
+],
+[
+"historie",
+"story"
+]
+]
+},
+{
+"da": "\"Man skal bare ikke give op,\" siger hun.",
+"en": "\"You just must not give up,\" she says.",
+"p": false,
+"note": "Her advice: never give up. \"give op\" means \"give up\"."
+}
+]
+},
+"pd3-m3-3": {
+"lines": [
+{
+"da": "Sidste år flyttede jeg og min familie fra en lille lejlighed i centrum til et rækkehus i en forstad.",
+"en": "Last year my family and I moved from a small flat in the centre to a terraced house in a suburb.",
+"p": true,
+"note": "Maria moved to the suburbs. After \"Sidste år\" the verb \"flyttede\" comes first.",
+"words": [
+[
+"flyttede",
+"moved"
+],
+[
+"lejlighed",
+"flat"
+],
+[
+"rækkehus",
+"terraced house"
+],
+[
+"forstad",
+"suburb"
+]
+]
+},
+{
+"da": "Vi havde længe drømt om at få en have, og da børnene blev større, blev lejligheden for lille.",
+"en": "We had long dreamed of having a garden, and when the children got bigger, the flat became too small.",
+"p": false,
+"note": "They needed more space. \"havde drømt\" is the past perfect.",
+"words": [
+[
+"drømt",
+"dreamed"
+],
+[
+"børnene",
+"the children"
+],
+[
+"lejligheden",
+"the flat"
+]
+]
+},
+{
+"da": "Der er mange fordele ved at bo i forstaden.",
+"en": "There are many advantages to living in the suburb.",
+"p": true,
+"note": "Now the good points. \"fordele ved\" means \"advantages of\".",
+"words": [
+[
+"fordele",
+"advantages"
+],
+[
+"forstaden",
+"the suburb"
+]
+]
+},
+{
+"da": "Huset er større, og det er meget roligere end i byen.",
+"en": "The house is bigger, and it is much quieter than in the city.",
+"p": false,
+"note": "The house is better. \"roligere\" is the comparative of \"rolig\".",
+"words": [
+[
+"større",
+"bigger"
+],
+[
+"roligere",
+"quieter"
+]
+]
+},
+{
+"da": "Børnene kan lege udenfor, og der er kun fem minutter til skolen.",
+"en": "The children can play outside, and it is only five minutes to school.",
+"p": false,
+"note": "Good for the children. \"udenfor\" means \"outside\".",
+"words": [
+[
+"Børnene",
+"the children"
+],
+[
+"udenfor",
+"outside"
+]
+]
+},
+{
+"da": "men der er også ulemper.",
+"en": "but there are also disadvantages.",
+"p": true,
+"note": "Now the bad points. \"ulemper\" is the opposite of \"fordele\".",
+"words": [
+[
+"ulemper",
+"disadvantages"
+]
+]
+},
+{
+"da": "Vi har længere til arbejde, og jeg bruger næsten en time om dagen på transport.",
+"en": "We have further to work, and I spend almost an hour a day on transport.",
+"p": false,
+"note": "The commute is long. \"længere\" is the comparative of \"lang\".",
+"words": [
+[
+"længere",
+"further"
+],
+[
+"transport",
+"transport"
+]
+]
+},
+{
+"da": "Vi har også været nødt til at købe en bil mere, og det koster mange penge.",
+"en": "We have also had to buy another car, and that costs a lot of money.",
+"p": false,
+"note": "They needed a second car. \"være nødt til\" means \"have to\".",
+"words": [
+[
+"nødt",
+"forced"
+]
+]
+},
+{
+"da": "Alligevel er vi glade for at være flyttet.",
+"en": "Still, we are happy to have moved.",
+"p": true,
+"note": "They are happy overall. \"være flyttet\" is a perfect infinitive with \"være\".",
+"words": [
+[
+"Alligevel",
+"still"
+],
+[
+"flyttet",
+"moved"
+]
+]
+},
+{
+"da": "Vi har fået nye naboer, som er meget søde, og om sommeren spiser vi tit sammen i vores haver.",
+"en": "We have got new neighbours who are very nice, and in summer we often eat together in our gardens.",
+"p": false,
+"note": "They like their neighbours. After \"om sommeren\" the verb \"spiser\" comes before \"vi\".",
+"words": [
+[
+"naboer",
+"neighbours"
+],
+[
+"sommeren",
+"the summer"
+],
+[
+"sammen",
+"together"
+]
+]
+},
+{
+"da": "Det sociale fællesskab er meget større end i lejligheden, hvor vi ikke kendte nogen.",
+"en": "The sense of community is much bigger than in the flat, where we did not know anyone.",
+"p": false,
+"note": "They have more social life now. \"større\" is the comparative of \"stor\".",
+"words": [
+[
+"sociale",
+"social"
+],
+[
+"fællesskab",
+"community"
+],
+[
+"lejligheden",
+"the flat"
+]
+]
+},
+{
+"da": "Hvis jeg skulle vælge igen, ville jeg gøre præcis det samme.",
+"en": "If I had to choose again, I would do exactly the same.",
+"p": true,
+"note": "She would not change anything. \"skulle ... ville\" expresses a hypothetical condition.",
+"words": [
+[
+"præcis",
+"exactly"
+]
+]
+}
+]
+},
+"pd3-m3-4": {
+"lines": [
+{
+"da": "Seks små tekster",
+"en": "Six short texts",
+"p": true,
+"note": "A heading: six short everyday texts follow.",
+"words": [
+[
+"tekster",
+"texts"
+]
+]
+},
+{
+"da": "1. Affaldssortering",
+"en": "1. Waste sorting",
+"p": true,
+"note": "A heading about sorting rubbish.",
+"words": [
+[
+"Affaldssortering",
+"waste sorting"
+]
+]
+},
+{
+"da": "Fra 1. januar skal alle husstande sortere madaffald i den grønne spand.",
+"en": "From 1 January all households must sort food waste into the green bin.",
+"p": false,
+"note": "A new rule for food waste. After \"Fra 1. januar\" the verb \"skal\" comes first.",
+"words": [
+[
+"husstande",
+"households"
+],
+[
+"sortere",
+"sort"
+],
+[
+"madaffald",
+"food waste"
+]
+]
+},
+{
+"da": "Spanden tømmes hver anden uge.",
+"en": "The bin is emptied every other week.",
+"p": false,
+"note": "This gives the collection schedule. \"tømmes\" is the passive with -s.",
+"words": [
+[
+"Spanden",
+"the bin"
+],
+[
+"tømmes",
+"is emptied"
+]
+]
+},
+{
+"da": "Poser til madaffald kan hentes gratis i Kvickly og på genbrugspladsen.",
+"en": "Bags for food waste can be picked up free at Kvickly and at the recycling centre.",
+"p": false,
+"note": "Free bags are available. \"kan hentes\" is a modal plus the passive.",
+"words": [
+[
+"madaffald",
+"food waste"
+],
+[
+"hentes",
+"be collected"
+],
+[
+"genbrugspladsen",
+"the recycling centre"
+]
+]
+},
+{
+"da": "2. Sms",
+"en": "2. Text message",
+"p": true,
+"note": "A heading: a text message."
+},
+{
+"da": "Hej mor",
+"en": "Hi Mum",
+"p": true,
+"note": "The greeting of the message."
+},
+{
+"da": "Toget er forsinket, så jeg når ikke hjem til aftensmad.",
+"en": "The train is late, so I will not make it home for dinner.",
+"p": false,
+"note": "Emma will be late. \"nå\" means \"make it in time\".",
+"words": [
+[
+"forsinket",
+"delayed"
+],
+[
+"aftensmad",
+"dinner"
+]
+]
+},
+{
+"da": "Gem lidt mad til mig, så spiser jeg, når jeg kommer.",
+"en": "Save some food for me, and I will eat when I arrive.",
+"p": false,
+"note": "She asks for food. \"Gem\" is the imperative of \"gemme\", to save."
+},
+{
+"da": "Knus Emma",
+"en": "Hugs, Emma",
+"p": false,
+"note": "The signature. \"Knus\" means hugs."
+},
+{
+"da": "3. Svømmehallen",
+"en": "3. The swimming pool",
+"p": true,
+"note": "A heading about the indoor swimming pool.",
+"words": [
+[
+"Svømmehallen",
+"the swimming pool"
+]
+]
+},
+{
+"da": "På grund af renovering er svømmehallen lukket fra 1. til 21. august.",
+"en": "Because of renovation, the swimming pool is closed from 1 to 21 August.",
+"p": false,
+"note": "The pool is closed. \"På grund af\" means \"because of\".",
+"words": [
+[
+"renovering",
+"renovation"
+],
+[
+"svømmehallen",
+"the swimming pool"
+],
+[
+"august",
+"August"
+]
+]
+},
+{
+"da": "Udendørsbassinet er åbent som normalt.",
+"en": "The outdoor pool is open as usual.",
+"p": false,
+"note": "The outdoor pool is open. \"åbent\" has -t because \"bassin\" is an et-word.",
+"words": [
+[
+"Udendørsbassinet",
+"the outdoor pool"
+],
+[
+"normalt",
+"normal"
+]
+]
+},
+{
+"da": "Har du årskort, forlænges det automatisk med tre uger.",
+"en": "If you have an annual card, it is automatically extended by three weeks.",
+"p": false,
+"note": "Card holders get extra time. \"forlænges\" is the passive with -s; \"Har du\" means \"if you have\".",
+"words": [
+[
+"årskort",
+"annual card"
+],
+[
+"forlænges",
+"is extended"
+],
+[
+"automatisk",
+"automatically"
+]
+]
+},
+{
+"da": "4. Påmindelse fra tandlægen",
+"en": "4. Reminder from the dentist",
+"p": true,
+"note": "A heading: an appointment reminder.",
+"words": [
+[
+"Påmindelse",
+"reminder"
+],
+[
+"tandlægen",
+"the dentist"
+]
+]
+},
+{
+"da": "Husk din tid hos tandlægen tirsdag kl. 14.30.",
+"en": "Remember your appointment at the dentist on Tuesday at 2.30 pm.",
+"p": false,
+"note": "This gives the time. \"tid\" here means \"appointment\".",
+"words": [
+[
+"tandlægen",
+"the dentist"
+],
+[
+"tirsdag",
+"Tuesday"
+]
+]
+},
+{
+"da": "Hvis du er forhindret, skal du melde afbud senest 24 timer før.",
+"en": "If you cannot come, you must cancel at least 24 hours before.",
+"p": false,
+"note": "Cancel in time. \"melde afbud\" means \"cancel\".",
+"words": [
+[
+"forhindret",
+"prevented"
+],
+[
+"afbud",
+"cancellation"
+],
+[
+"senest",
+"at the latest"
+]
+]
+},
+{
+"da": "Ellers skal du betale et gebyr på 250 kr.",
+"en": "Otherwise you must pay a fee of 250 kroner.",
+"p": false,
+"note": "Late cancelling costs money. After \"Ellers\" the verb \"skal\" comes before \"du\".",
+"words": [
+[
+"Ellers",
+"otherwise"
+],
+[
+"gebyr",
+"fee"
+]
+]
+},
+{
+"da": "5. Jobannonce",
+"en": "5. Job advertisement",
+"p": true,
+"note": "A heading: a job advert.",
+"words": [
+[
+"Jobannonce",
+"job advert"
+]
+]
+},
+{
+"da": "Vi søger en lagermedarbejder 30 timer om ugen.",
+"en": "We are looking for a warehouse worker 30 hours a week.",
+"p": false,
+"note": "A job is offered. \"søger\" means \"are looking for\".",
+"words": [
+[
+"lagermedarbejder",
+"warehouse worker"
+]
+]
+},
+{
+"da": "Du skal kunne løfte tunge ting og have truckcertifikat.",
+"en": "You must be able to lift heavy things and have a forklift licence.",
+"p": false,
+"note": "These are the requirements. \"skal kunne\" means \"must be able to\".",
+"words": [
+[
+"tunge",
+"heavy"
+],
+[
+"truckcertifikat",
+"forklift licence"
+]
+]
+},
+{
+"da": "Erfaring er en fordel, men ikke et krav.",
+"en": "Experience is an advantage but not a requirement.",
+"p": false,
+"note": "Experience helps but is not needed. \"et krav\" is an et-word.",
+"words": [
+[
+"Erfaring",
+"experience"
+],
+[
+"fordel",
+"advantage"
+]
+]
+},
+{
+"da": "6. Mail fra udlejeren",
+"en": "6. Email from the landlord",
+"p": true,
+"note": "A heading: an email from the landlord.",
+"words": [
+[
+"udlejeren",
+"the landlord"
+]
+]
+},
+{
+"da": "Kære beboere",
+"en": "Dear residents",
+"p": true,
+"note": "The greeting of the email.",
+"words": [
+[
+"beboere",
+"residents"
+]
+]
+},
+{
+"da": "Mandag den 3. marts bliver der lukket for vandet mellem kl. 9 og 12 på grund af en reparation.",
+"en": "On Monday 3 March the water will be turned off between 9 and 12 because of a repair.",
+"p": false,
+"note": "No water for three hours. \"bliver der lukket\" is a passive with \"blive\".",
+"words": [
+[
+"Mandag",
+"Monday"
+],
+[
+"vandet",
+"the water"
+],
+[
+"reparation",
+"repair"
+]
+]
+},
+{
+"da": "Vi beklager ulejligheden.",
+"en": "We apologise for the inconvenience.",
+"p": false,
+"note": "A polite apology. \"beklage\" means \"regret, apologise for\".",
+"words": [
+[
+"beklager",
+"regret"
+],
+[
+"ulejligheden",
+"the inconvenience"
+]
+]
+},
+{
+"da": "Venlig hilsen Boligselskabet",
+"en": "Kind regards, the Housing Association",
+"p": false,
+"note": "The signature of the email.",
+"words": [
+[
+"Venlig",
+"kind"
+],
+[
+"Boligselskabet",
+"the housing association"
+]
+]
+}
+]
+},
+"pd3-r1": {
+"lines": [
+{
+"da": "Kunstig intelligens har på få år bevæget sig fra forskningslaboratorierne ud på de danske arbejdspladser.",
+"en": "In a few years artificial intelligence has moved from research labs out into Danish workplaces.",
+"p": true,
+"note": "AI is now used at work. \"har bevæget sig\" is the perfect of a reflexive verb.",
+"words": [
+[
+"Kunstig",
+"artificial"
+],
+[
+"intelligens",
+"intelligence"
+],
+[
+"forskningslaboratorierne",
+"the research labs"
+],
+[
+"arbejdspladser",
+"workplaces"
+]
+]
+},
+{
+"da": "Ifølge en ny rapport fra Dansk Erhverv bruger knap halvdelen af de danske virksomheder nu en eller anden form for kunstig intelligens, typisk til at skrive tekster, besvare kundehenvendelser eller analysere data.",
+"en": "According to a new report from Danish Business, just under half of Danish companies now use some form of AI, typically to write texts, answer customer enquiries or analyse data.",
+"p": false,
+"note": "Half of companies use AI. After \"Ifølge ...\" the verb \"bruger\" comes before the subject.",
+"words": [
+[
+"Ifølge",
+"according to"
+],
+[
+"virksomheder",
+"companies"
+],
+[
+"kundehenvendelser",
+"customer enquiries"
+],
+[
+"analysere",
+"analyse"
+]
+]
+},
+{
+"da": "Mange medarbejdere oplever, at teknologien fjerner kedelige rutineopgaver.",
+"en": "Many employees find that the technology removes boring routine tasks.",
+"p": true,
+"note": "AI takes away boring work. \"oplever\" means \"experience, find\".",
+"words": [
+[
+"medarbejdere",
+"employees"
+],
+[
+"teknologien",
+"the technology"
+],
+[
+"kedelige",
+"boring"
+],
+[
+"rutineopgaver",
+"routine tasks"
+]
+]
+},
+{
+"da": "\"Før brugte jeg en hel dag om måneden på at lave rapporter.",
+"en": "\"Before, I spent a whole day a month making reports.",
+"p": false,
+"note": "Line describes her old routine. After \"Før\" the verb \"brugte\" comes before \"jeg\".",
+"words": [
+[
+"måneden",
+"the month"
+],
+[
+"rapporter",
+"reports"
+]
+]
+},
+{
+"da": "Nu tager det en time, og jeg kan bruge tiden på at tale med kunderne,\" fortæller Line Mortensen, der er økonomimedarbejder i en mellemstor virksomhed i Vejle.",
+"en": "Now it takes an hour, and I can spend the time talking to customers,\" says Line Mortensen, a finance worker at a medium-sized company in Vejle.",
+"p": false,
+"note": "AI saves her time. After the quote, \"fortæller\" comes before the subject.",
+"words": [
+[
+"kunderne",
+"the customers"
+],
+[
+"økonomimedarbejder",
+"finance employee"
+],
+[
+"mellemstor",
+"medium-sized"
+],
+[
+"virksomhed",
+"company"
+]
+]
+},
+{
+"da": "Alligevel er der også bekymring.",
+"en": "Even so, there is also concern.",
+"p": true,
+"note": "Some people worry. After \"Alligevel\" the verb \"er\" comes before \"der\".",
+"words": [
+[
+"Alligevel",
+"even so"
+],
+[
+"bekymring",
+"concern"
+]
+]
+},
+{
+"da": "Fagforeningerne peger på, at især administrative stillinger kan blive overflødige, og de efterlyser, at virksomhederne investerer i efteruddannelse, så medarbejderne kan følge med udviklingen.",
+"en": "The unions point out that office jobs especially may become unnecessary, and they call for companies to invest in further training so staff can keep up.",
+"p": false,
+"note": "Unions want more training. \"pege på\" means \"point out\".",
+"words": [
+[
+"Fagforeningerne",
+"the unions"
+],
+[
+"overflødige",
+"superfluous"
+],
+[
+"efterlyser",
+"call for"
+],
+[
+"efteruddannelse",
+"further training"
+]
+]
+},
+{
+"da": "\"Det er ikke teknologien i sig selv, der er problemet.",
+"en": "\"It is not the technology in itself that is the problem.",
+"p": false,
+"note": "Technology is not the real problem. \"Det er ... der\" is a cleft sentence for emphasis.",
+"words": [
+[
+"teknologien",
+"the technology"
+],
+[
+"problemet",
+"the problem"
+]
+]
+},
+{
+"da": "Problemet opstår, hvis man ikke giver folk mulighed for at lære nye færdigheder,\" siger en talsperson for HK.",
+"en": "The problem arises if people are not given the chance to learn new skills,\" says a spokesperson for HK.",
+"p": false,
+"note": "Lack of training is the problem. In the hvis-clause \"ikke\" comes before the verb.",
+"words": [
+[
+"opstår",
+"arises"
+],
+[
+"mulighed",
+"opportunity"
+],
+[
+"færdigheder",
+"skills"
+],
+[
+"talsperson",
+"spokesperson"
+]
+]
+},
+{
+"da": "Forskere fra Aarhus Universitet understreger desuden, at kunstig intelligens begår fejl.",
+"en": "Researchers from Aarhus University also stress that AI makes mistakes.",
+"p": true,
+"note": "AI is not perfect. \"begå fejl\" means \"make mistakes\".",
+"words": [
+[
+"Forskere",
+"researchers"
+],
+[
+"understreger",
+"stress"
+],
+[
+"desuden",
+"also"
+],
+[
+"intelligens",
+"intelligence"
+]
+]
+},
+{
+"da": "Systemerne kan opfinde oplysninger, der lyder troværdige, men som er forkerte.",
+"en": "The systems can invent information that sounds believable but is wrong.",
+"p": false,
+"note": "AI can make things up. \"der\" and \"som\" are both relative pronouns here.",
+"words": [
+[
+"Systemerne",
+"the systems"
+],
+[
+"opfinde",
+"invent"
+],
+[
+"oplysninger",
+"information"
+],
+[
+"troværdige",
+"credible"
+]
+]
+},
+{
+"da": "Derfor anbefaler de, at et menneske altid kontrollerer resultatet, før det bliver sendt videre til kunder eller myndigheder.",
+"en": "So they recommend that a human always checks the result before it is sent on to customers or authorities.",
+"p": false,
+"note": "A person should always check. \"bliver sendt\" is the passive with \"blive\".",
+"words": [
+[
+"anbefaler",
+"recommend"
+],
+[
+"kontrollerer",
+"checks"
+],
+[
+"resultatet",
+"the result"
+],
+[
+"myndigheder",
+"authorities"
+]
+]
+},
+{
+"da": "Rapporten konkluderer, at de virksomheder, der får mest ud af teknologien, er dem, der inddrager medarbejderne fra starten og har klare retningslinjer for, hvad den må bruges til.",
+"en": "The report concludes that the companies getting most out of the technology are those that involve employees from the start and have clear guidelines for what it may be used for.",
+"p": true,
+"note": "Involve staff and set rules. \"må bruges\" is a modal plus the passive with -s.",
+"words": [
+[
+"konkluderer",
+"concludes"
+],
+[
+"inddrager",
+"involve"
+],
+[
+"retningslinjer",
+"guidelines"
+],
+[
+"bruges",
+"be used"
+]
+]
+}
+]
+},
+"pd3-r2": {
+"lines": [
+{
+"da": "Danskerne smider hvert år hundredtusindvis af tons spiselig mad ud.",
+"en": "Every year Danes throw out hundreds of thousands of tonnes of edible food.",
+"p": true,
+"note": "Lots of food is wasted. \"smide ud\" is a separable verb: to throw out.",
+"words": [
+[
+"Danskerne",
+"the Danes"
+],
+[
+"hundredtusindvis",
+"hundreds of thousands"
+],
+[
+"spiselig",
+"edible"
+]
+]
+},
+{
+"da": "Det er derfor et af de områder, hvor den enkelte forbruger kan gøre en stor forskel for klimaet.",
+"en": "So it is one of the areas where the individual consumer can make a big difference to the climate.",
+"p": false,
+"note": "Each person can help. \"gøre en forskel\" means \"make a difference\".",
+"words": [
+[
+"områder",
+"areas"
+],
+[
+"forbruger",
+"consumer"
+],
+[
+"forskel",
+"difference"
+],
+[
+"klimaet",
+"the climate"
+]
+]
+},
+{
+"da": "Problemet opstår ofte, fordi vi køber mere ind, end vi kan nå at spise.",
+"en": "The problem often arises because we buy more than we can manage to eat.",
+"p": true,
+"note": "We buy too much. \"nå at\" means \"manage to in time\".",
+"words": [
+[
+"Problemet",
+"the problem"
+],
+[
+"opstår",
+"arises"
+]
+]
+},
+{
+"da": "Supermarkedernes tilbud som \"tre for to\" frister os til at fylde kurven, hvorefter maden ender i skraldespanden nogle dage senere.",
+"en": "Supermarket offers like \"three for two\" tempt us to fill the basket, after which the food ends up in the bin a few days later.",
+"p": false,
+"note": "Offers make us overbuy. \"Supermarkedernes\" has the plural genitive -s.",
+"words": [
+[
+"Supermarkedernes",
+"the supermarkets'"
+],
+[
+"frister",
+"tempt"
+],
+[
+"hvorefter",
+"after which"
+],
+[
+"skraldespanden",
+"the bin"
+]
+]
+},
+{
+"da": "Flere supermarkeder har imidlertid ændret strategi.",
+"en": "However, several supermarkets have changed strategy.",
+"p": true,
+"note": "Shops are changing. \"imidlertid\" means \"however\".",
+"words": [
+[
+"supermarkeder",
+"supermarkets"
+],
+[
+"imidlertid",
+"however"
+],
+[
+"strategi",
+"strategy"
+]
+]
+},
+{
+"da": "De sælger nu varer med kort holdbarhed til nedsat pris, og nogle har helt droppet mængderabatter.",
+"en": "They now sell goods with a short shelf life at reduced prices, and some have dropped bulk discounts altogether.",
+"p": false,
+"note": "Shops cut prices on old food. \"nedsat\" is a participle: reduced.",
+"words": [
+[
+"holdbarhed",
+"shelf life"
+],
+[
+"nedsat",
+"reduced"
+],
+[
+"droppet",
+"dropped"
+],
+[
+"mængderabatter",
+"bulk discounts"
+]
+]
+},
+{
+"da": "desuden er der kommet apps, hvor man kan købe overskudsmad fra restauranter og bagerier.",
+"en": "also, apps have appeared where you can buy surplus food from restaurants and bakeries.",
+"p": false,
+"note": "Apps sell leftover food. After \"desuden\" the verb \"er\" comes before \"der\".",
+"words": [
+[
+"desuden",
+"also"
+],
+[
+"overskudsmad",
+"surplus food"
+],
+[
+"restauranter",
+"restaurants"
+],
+[
+"bagerier",
+"bakeries"
+]
+]
+},
+{
+"da": "ikke desto mindre er der stadig lang vej.",
+"en": "nevertheless, there is still a long way to go.",
+"p": true,
+"note": "There is more to do. \"ikke desto mindre\" means \"nevertheless\"."
+},
+{
+"da": "Eksperter peger på, at holdbarhedsdatoerne skaber forvirring.",
+"en": "Experts point out that the date labels cause confusion.",
+"p": false,
+"note": "Dates confuse people. \"pege på\" means \"point out\".",
+"words": [
+[
+"Eksperter",
+"experts"
+],
+[
+"holdbarhedsdatoerne",
+"the best-before dates"
+],
+[
+"forvirring",
+"confusion"
+]
+]
+},
+{
+"da": "Mange tror, at mad er farlig, så snart datoen er overskredet, selvom \"bedst før\" kun betyder, at kvaliteten kan blive lidt ringere.",
+"en": "Many think food is dangerous as soon as the date has passed, although \"best before\" only means the quality may be a little lower.",
+"p": false,
+"note": "Best-before does not mean unsafe. \"selvom\" means \"even though\".",
+"words": [
+[
+"farlig",
+"dangerous"
+],
+[
+"overskredet",
+"exceeded"
+],
+[
+"kvaliteten",
+"the quality"
+],
+[
+"ringere",
+"worse"
+]
+]
+}
+]
+},
+"pd3-r3": {
+"lines": [
+{
+"da": "1. Da Signe og Rasmus fik deres første barn, begyndte de at tvivle på livet i København.",
+"en": "1. When Signe and Rasmus had their first child, they began to doubt life in Copenhagen.",
+"p": true,
+"note": "They started to question city life. After the da-clause, the verb \"begyndte\" comes first.",
+"words": [
+[
+"begyndte",
+"began"
+],
+[
+"tvivle",
+"doubt"
+]
+]
+},
+{
+"da": "Lejligheden på 65 kvadratmeter var pludselig for lille, og huslejen steg hvert år.",
+"en": "The 65-square-metre flat was suddenly too small, and the rent went up every year.",
+"p": false,
+"note": "The flat was small and expensive. \"steg\" is the past tense of \"stige\".",
+"words": [
+[
+"Lejligheden",
+"the flat"
+],
+[
+"kvadratmeter",
+"square metres"
+],
+[
+"pludselig",
+"suddenly"
+],
+[
+"huslejen",
+"the rent"
+]
+]
+},
+{
+"da": "Samtidig drømte de om en have, hvor børnene kunne lege..",
+"en": "At the same time they dreamed of a garden where the children could play.",
+"p": false,
+"note": "They wanted a garden. After \"Samtidig\" the verb \"drømte\" comes before \"de\".",
+"words": [
+[
+"Samtidig",
+"at the same time"
+],
+[
+"drømte",
+"dreamed"
+],
+[
+"børnene",
+"the children"
+]
+]
+},
+{
+"da": "Derfor begyndte de at kigge på huse i Sydfyn.",
+"en": "So they started looking at houses in South Funen.",
+"p": false,
+"note": "They looked for a house. \"kigge på\" means \"look at\".",
+"words": [
+[
+"Derfor",
+"therefore"
+],
+[
+"begyndte",
+"began"
+]
+]
+},
+{
+"da": "2. Efter et halvt års søgning købte de et gammelt bondehus uden for en landsby med 400 indbyggere.",
+"en": "2. After half a year of searching, they bought an old farmhouse outside a village of 400 people.",
+"p": true,
+"note": "They bought a farmhouse. \"et gammelt bondehus\": -t on the adjective with an et-word.",
+"words": [
+[
+"søgning",
+"search"
+],
+[
+"bondehus",
+"farmhouse"
+],
+[
+"landsby",
+"village"
+],
+[
+"indbyggere",
+"inhabitants"
+]
+]
+},
+{
+"da": "Huset kostede mindre end en etværelseslejlighed i hovedstaden.",
+"en": "The house cost less than a one-room flat in the capital.",
+"p": false,
+"note": "It was cheap. \"mindre end\" means \"less than\".",
+"words": [
+[
+"etværelseslejlighed",
+"one-room flat"
+],
+[
+"hovedstaden",
+"the capital"
+]
+]
+},
+{
+"da": "Til gengæld krævede det mange timers arbejde..",
+"en": "On the other hand, it needed many hours of work.",
+"p": false,
+"note": "The house needed work. \"Til gengæld\" means \"on the other hand\".",
+"words": [
+[
+"gengæld",
+"return"
+],
+[
+"krævede",
+"required"
+]
+]
+},
+{
+"da": "Taget var utæt, og der var ikke blevet malet i 20 år.",
+"en": "The roof leaked, and it had not been painted for 20 years.",
+"p": false,
+"note": "The house was in bad shape. \"var blevet malet\" is the past perfect passive.",
+"words": [
+[
+"Taget",
+"the roof"
+],
+[
+"utæt",
+"leaky"
+],
+[
+"malet",
+"painted"
+]
+]
+},
+{
+"da": "3. Det største problem var dog arbejdet.",
+"en": "3. The biggest problem, however, was work.",
+"p": true,
+"note": "Jobs were the problem. \"største\" is the superlative of \"stor\".",
+"words": [
+[
+"største",
+"biggest"
+],
+[
+"arbejdet",
+"work"
+]
+]
+},
+{
+"da": "Rasmus kunne beholde sit job som programmør og arbejde hjemmefra det meste af ugen.",
+"en": "Rasmus could keep his job as a programmer and work from home most of the week.",
+"p": false,
+"note": "Rasmus kept his job. \"sit\" is reflexive and refers to Rasmus.",
+"words": [
+[
+"beholde",
+"keep"
+],
+[
+"programmør",
+"programmer"
+],
+[
+"hjemmefra",
+"from home"
+]
+]
+},
+{
+"da": "For Signe, der var sygeplejerske, var det sværere..",
+"en": "For Signe, who was a nurse, it was harder.",
+"p": false,
+"note": "It was harder for Signe. \"sværere\" is the comparative of \"svær\".",
+"words": [
+[
+"sygeplejerske",
+"nurse"
+],
+[
+"sværere",
+"harder"
+]
+]
+},
+{
+"da": "Hun måtte søge nyt job og fik efter tre måneder en stilling på et plejecenter i nabobyen.",
+"en": "She had to look for a new job and after three months got a position at a care centre in the neighbouring town.",
+"p": false,
+"note": "Signe found a new job. \"måtte\" here means \"had to\".",
+"words": [
+[
+"måneder",
+"months"
+],
+[
+"stilling",
+"position"
+],
+[
+"plejecenter",
+"care centre"
+],
+[
+"nabobyen",
+"the neighbouring town"
+]
+]
+},
+{
+"da": "4. Det første år var hårdt.",
+"en": "4. The first year was hard.",
+"p": true,
+"note": "The start was tough. \"hårdt\" has -t because \"år\" is an et-word.",
+"words": [
+[
+"hårdt",
+"hard"
+]
+]
+},
+{
+"da": "Parret kendte ingen, og om vinteren var der mørkt og stille.",
+"en": "The couple knew nobody, and in winter it was dark and quiet.",
+"p": false,
+"note": "They were lonely. After \"om vinteren\" the verb \"var\" comes before \"der\".",
+"words": [
+[
+"Parret",
+"the couple"
+],
+[
+"vinteren",
+"the winter"
+],
+[
+"mørkt",
+"dark"
+]
+]
+},
+{
+"da": "Men langsomt ændrede det sig..",
+"en": "But slowly it changed.",
+"p": false,
+"note": "Things got better. \"ændre sig\" is reflexive: to change.",
+"words": [
+[
+"langsomt",
+"slowly"
+],
+[
+"ændrede",
+"changed"
+]
+]
+},
+{
+"da": "Gennem børnehaven og den lokale gymnastikforening lærte de efterhånden mange af de andre familier at kende.",
+"en": "Through the nursery and the local gymnastics club they gradually got to know many of the other families.",
+"p": false,
+"note": "They made friends. \"lære at kende\" means \"get to know\".",
+"words": [
+[
+"børnehaven",
+"the nursery"
+],
+[
+"gymnastikforening",
+"gymnastics club"
+],
+[
+"efterhånden",
+"gradually"
+],
+[
+"familier",
+"families"
+]
+]
+},
+{
+"da": "5. I dag, fem år senere, fortryder de ikke flytningen.",
+"en": "5. Today, five years later, they do not regret the move.",
+"p": true,
+"note": "They are happy they moved. \"fortryde\" means \"regret\".",
+"words": [
+[
+"fortryder",
+"regret"
+],
+[
+"flytningen",
+"the move"
+]
+]
+},
+{
+"da": "De har fået et barn mere og er blevet en del af lokalsamfundet.",
+"en": "They have had another child and have become part of the local community.",
+"p": false,
+"note": "They belong now. \"er blevet\" is the perfect of \"blive\".",
+"words": [
+[
+"lokalsamfundet",
+"the local community"
+]
+]
+},
+{
+"da": "De savner selvfølgelig stadig cafeerne og vennerne i byen..",
+"en": "Of course they still miss the cafés and friends in the city.",
+"p": false,
+"note": "They miss some city things. \"savne\" means \"miss\".",
+"words": [
+[
+"savner",
+"miss"
+],
+[
+"selvfølgelig",
+"of course"
+],
+[
+"cafeerne",
+"the cafés"
+]
+]
+},
+{
+"da": "Men ingen af dem kunne forestille sig at flytte tilbage.",
+"en": "But neither of them could imagine moving back.",
+"p": false,
+"note": "They will stay. \"forestille sig\" is reflexive: to imagine.",
+"words": [
+[
+"forestille",
+"imagine"
+],
+[
+"tilbage",
+"back"
+]
+]
+}
+]
+},
+"pd3-r4": {
+"lines": [
+{
+"da": "A. Lærer, Birgitte: \"Karakterer giver eleverne en klar besked om, hvor de står.",
+"en": "A. Teacher, Birgitte: \"Grades give pupils a clear message about where they stand.",
+"p": true,
+"note": "A teacher supports grades. \"en klar besked\" has no adjective ending with an en-word.",
+"words": [
+[
+"Karakterer",
+"grades"
+],
+[
+"eleverne",
+"the pupils"
+],
+[
+"besked",
+"message"
+]
+]
+},
+{
+"da": "Uden karakterer bliver feedbacken for uklar, og de stærke elever mister motivationen.\"",
+"en": "Without grades the feedback becomes too unclear, and strong pupils lose motivation.\"",
+"p": false,
+"note": "She fears weaker feedback. After \"Uden karakterer\" the verb \"bliver\" comes before the subject.",
+"words": [
+[
+"karakterer",
+"grades"
+],
+[
+"feedbacken",
+"the feedback"
+],
+[
+"uklar",
+"unclear"
+],
+[
+"motivationen",
+"the motivation"
+]
+]
+},
+{
+"da": "B. Elev i 9. klasse, Yusuf: \"Jeg bliver så stresset op til prøverne, at jeg ikke kan sove.",
+"en": "B. Pupil in year 9, Yusuf: \"I get so stressed before the exams that I cannot sleep.",
+"p": true,
+"note": "A pupil finds grades stressful. \"så ... at\" means \"so ... that\".",
+"words": [
+[
+"stresset",
+"stressed"
+],
+[
+"prøverne",
+"the exams"
+]
+]
+},
+{
+"da": "Jeg ville lære meget mere, hvis vi fik skriftlig feedback i stedet for et tal.\"",
+"en": "I would learn much more if we got written feedback instead of a number.\"",
+"p": false,
+"note": "He wants written feedback. \"ville ... hvis\" with the past tense expresses a hypothetical.",
+"words": [
+[
+"skriftlig",
+"written"
+],
+[
+"feedback",
+"feedback"
+]
+]
+},
+{
+"da": "C. Forælder, Henrik: \"Som forælder har jeg brug for at vide, om mit barn klarer sig godt nok.",
+"en": "C. Parent, Henrik: \"As a parent I need to know if my child is doing well enough.",
+"p": true,
+"note": "A parent wants information. \"have brug for\" means \"need\".",
+"words": [
+[
+"Forælder",
+"parent"
+],
+[
+"klarer",
+"manages"
+]
+]
+},
+{
+"da": "Men jeg synes, karaktererne kunne vente til 8. klasse.\"",
+"en": "But I think grades could wait until year 8.\"",
+"p": false,
+"note": "He wants grades later. \"synes\" is used for opinions.",
+"words": [
+[
+"karaktererne",
+"the grades"
+]
+]
+},
+{
+"da": "D. Skoleforsker, Anne: \"Undersøgelser viser, at elever lærer mest, når feedbacken handler om, hvordan de kan forbedre sig.",
+"en": "D. School researcher, Anne: \"Studies show pupils learn most when feedback is about how they can improve.",
+"p": true,
+"note": "Research supports useful feedback. \"forbedre sig\" is reflexive: to improve.",
+"words": [
+[
+"Skoleforsker",
+"school researcher"
+],
+[
+"Undersøgelser",
+"studies"
+],
+[
+"feedbacken",
+"the feedback"
+],
+[
+"forbedre",
+"improve"
+]
+]
+},
+{
+"da": "Et tal alene fortæller ikke, hvad man skal gøre anderledes.\"",
+"en": "A number alone does not tell you what to do differently.\"",
+"p": false,
+"note": "A grade is not enough. \"anderledes\" means \"differently\".",
+"words": [
+[
+"alene",
+"alone"
+],
+[
+"anderledes",
+"differently"
+]
+]
+},
+{
+"da": "E. Gymnasielærer, Morten: \"Gymnasierne bruger karaktererne til at optage elever.",
+"en": "E. Upper-secondary teacher, Morten: \"Upper-secondary schools use grades to admit pupils.",
+"p": true,
+"note": "Grades are used for admission. \"bruge ... til at\" means \"use ... to\".",
+"words": [
+[
+"Gymnasielærer",
+"upper-secondary teacher"
+],
+[
+"Gymnasierne",
+"the upper-secondary schools"
+],
+[
+"karaktererne",
+"the grades"
+],
+[
+"optage",
+"admit"
+]
+]
+},
+{
+"da": "Hvis folkeskolen afskaffer dem, skal vi finde en ny og mere retfærdig måde at vælge elever på.\"",
+"en": "If the primary school abolishes them, we must find a new and fairer way to choose pupils.\"",
+"p": false,
+"note": "A new system would be needed. After the hvis-clause, \"skal\" comes before \"vi\".",
+"words": [
+[
+"folkeskolen",
+"the primary school"
+],
+[
+"afskaffer",
+"abolishes"
+],
+[
+"retfærdig",
+"fair"
+]
+]
+},
+{
+"da": "F. Skoleleder, Pia: \"Vi har prøvet en karakterfri 7. klasse i et år.",
+"en": "F. Head teacher, Pia: \"We have tried a grade-free year 7 for a year.",
+"p": true,
+"note": "A school tested no grades. \"har prøvet\" is the perfect tense.",
+"words": [
+[
+"Skoleleder",
+"head teacher"
+],
+[
+"karakterfri",
+"grade-free"
+]
+]
+},
+{
+"da": "Eleverne var mere trygge, men nogle forældre klagede over, at de ikke kunne følge med.\"",
+"en": "The pupils felt safer, but some parents complained that they could not keep track.\"",
+"p": false,
+"note": "Mixed results. \"klage over\" means \"complain about\".",
+"words": [
+[
+"Eleverne",
+"the pupils"
+],
+[
+"trygge",
+"secure"
+],
+[
+"forældre",
+"parents"
+],
+[
+"klagede",
+"complained"
+]
+]
+}
+]
+},
 "pd3-18n-1": {
 "lines": [
 {
