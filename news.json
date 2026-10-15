@@ -1,6 +1,110 @@
 {
- "updated": "2026-10-14T19:26+00:00",
+ "updated": "2026-10-15T09:10+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/politik/reels/ruslands-energi-er-europaeisk-energi",
+   "date": "2026-10-15T07:48:00+00:00",
+   "da": {
+    "title": "Ruslands energi er Europas! Den må Trump ikke tage",
+    "desc": ""
+   },
+   "en": {
+    "title": "Russia's energy is Europe's! Trump must not take it",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/17-elever-og-en-laerer-draebt-i-tagkollaps-i-pakistan",
+   "date": "2026-10-15T06:57:00+00:00",
+   "da": {
+    "title": "27 elever og en lærer dræbt i tagkollaps i Pakistan",
+    "desc": ""
+   },
+   "en": {
+    "title": "27 students and one teacher killed in roof collapse in Pakistan",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/indonesien-vil-bruge-toeris-til-fjerne-giftig-roeg",
+   "date": "2026-10-15T06:53:49+00:00",
+   "da": {
+    "title": "Indonesien vil bruge tøris til at fjerne giftig røg",
+    "desc": ""
+   },
+   "en": {
+    "title": "Indonesia will use dry ice to remove toxic smoke",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/nordeas-overskud-skrumper",
+   "date": "2026-10-15T05:25:25+00:00",
+   "da": {
+    "title": "Nordeas overskud skrumper",
+    "desc": ""
+   },
+   "en": {
+    "title": "Nordea's profits are shrinking",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/nordkorea-tester-missiler-fra-ubaad",
+   "date": "2026-10-15T03:31:47+00:00",
+   "da": {
+    "title": "Nordkorea tester missiler fra ubåd",
+    "desc": ""
+   },
+   "en": {
+    "title": "North Korea tests missiles from submarine",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/storbritannien-klar-til-give-penge-til-reparationer-af-tjernobyl",
+   "date": "2026-10-15T01:00:00+00:00",
+   "da": {
+    "title": "Storbritannien klar til at give penge til reparationer af Tjernobyl",
+    "desc": ""
+   },
+   "en": {
+    "title": "UK ready to give money for Chernobyl repairs",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/trump-jeg-ville-ikke-have-sendt-militaer-ind-i-groenland",
+   "date": "2026-10-15T00:16:52+00:00",
+   "da": {
+    "title": "Trump: Jeg ville ikke have sendt militær ind i Grønland",
+    "desc": ""
+   },
+   "en": {
+    "title": "Trump: I wouldn't have sent military into Greenland",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/delstater-sagsoeger-openai-vejlede-boern-i-selvskade",
+   "date": "2026-10-14T20:10:19+00:00",
+   "da": {
+    "title": "Delstater sagsøger OpenAI for at vejlede børn i selvskade",
+    "desc": ""
+   },
+   "en": {
+    "title": "States sue OpenAI for counseling children in self-harm",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/demonstranter-saetter-ild-til-albaniens-undervisningsministerium",
@@ -89,110 +193,6 @@
    },
    "en": {
     "title": "Mobile police station moved to area after assault on women",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tre-danske-film-er-blevet-shortlistet-til-stor-prisuddeling",
-   "date": "2026-10-14T10:37:47+00:00",
-   "da": {
-    "title": "Tre danske film er blevet shortlistet til stor prisuddeling",
-    "desc": ""
-   },
-   "en": {
-    "title": "Three Danish films have been shortlisted for major awards",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/65-aarig-mand-er-doed-efter-knivstikkeri-i-odense",
-   "date": "2026-10-14T09:04:06+00:00",
-   "da": {
-    "title": "65-årig mand er død efter knivstikkeri i Odense",
-    "desc": ""
-   },
-   "en": {
-    "title": "65-year-old man has died after stabbing in Odense",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/rumaener-forsoegte-faa-over-10-000-ulovlige-puff-bars-ind-i-danmark",
-   "date": "2026-10-14T08:48:07+00:00",
-   "da": {
-    "title": "Rumæner forsøgte at få over 10.000 ulovlige puff bars ind i Danmark",
-    "desc": ""
-   },
-   "en": {
-    "title": "Romanian tried to get over 10,000 illegal puff bars into Denmark",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/minister-tager-fejl-i-grundlaget-ny-kvaelstofregulering-meget-alvorligt",
-   "date": "2026-10-14T07:47:36+00:00",
-   "da": {
-    "title": "Minister tager fejl i grundlaget for ny kvælstofregulering 'meget alvorligt'",
-    "desc": ""
-   },
-   "en": {
-    "title": "Minister errs in basis for new nitrogen regulation 'very serious'",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/dansker-vinder-knap-19-millioner-kroner",
-   "date": "2026-10-14T07:03:30+00:00",
-   "da": {
-    "title": "Dansker vinder knap 19 millioner kroner",
-    "desc": ""
-   },
-   "en": {
-    "title": "Dane wins just under DKK 19 million",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/omraade-i-odense-afspaerret-efter-knivstikkeri",
-   "date": "2026-10-14T06:47:09+00:00",
-   "da": {
-    "title": "Område i Odense afspærret efter knivstikkeri",
-    "desc": ""
-   },
-   "en": {
-    "title": "Area in Odense cordoned off after stabbing",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/arkaeologer-mener-have-fundet-verdens-aeldste-skibsvrag",
-   "date": "2026-10-14T06:25:59+00:00",
-   "da": {
-    "title": "Arkæologer mener at have fundet verdens ældste skibsvrag",
-    "desc": ""
-   },
-   "en": {
-    "title": "Archaeologists believe they have found the world's oldest shipwreck",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/toldhund-finder-over-60-kilo-cannabis",
-   "date": "2026-10-14T05:13:43+00:00",
-   "da": {
-    "title": "Toldhund finder over 60 kilo cannabis",
-    "desc": ""
-   },
-   "en": {
-    "title": "Toldhund finds over 60 kilos of cannabis",
     "desc": ""
    }
   }
