@@ -144479,5 +144479,5203 @@ PD2.LISTEN_R = {
 ]
 }
 ]
+},
+"pd3-20n-1": {
+"lines": [
+{
+"da": "Indhold",
+"en": "Contents",
+"p": true,
+"note": "A heading: the table of contents of the booklet.",
+"words": [
+[
+"Indhold",
+"contents"
+]
+]
+},
+{
+"da": "Folkeoplysning … 3",
+"en": "Popular education … 3",
+"p": true,
+"note": "A chapter title in the contents, on page 3.",
+"words": [
+[
+"Folkeoplysning",
+"popular (adult) education"
+]
+]
+},
+{
+"da": "Hvad er folkeoplysning – og for hvem? … 3",
+"en": "What is popular education – and for whom? … 3",
+"p": false,
+"note": "A section title. In a question with \"hvad\", the verb comes straight after the question word.",
+"words": [
+[
+"folkeoplysning",
+"popular education"
+]
+]
+},
+{
+"da": "Folkeoplysning før og nu … 4",
+"en": "Popular education then and now … 4",
+"p": false,
+"note": "A section title. \"før og nu\" is a fixed phrase: then and now.",
+"words": [
+[
+"Folkeoplysning",
+"popular education"
+]
+]
+},
+{
+"da": "Fald i antallet af kursusdeltagere i begyndelsen af 00’erne … 5",
+"en": "Drop in the number of course participants in the early 2000s … 5",
+"p": false,
+"note": "A section title about fewer students. \"antallet\" is the definite form of \"antal\": the number.",
+"words": [
+[
+"antallet",
+"the number"
+],
+[
+"kursusdeltagere",
+"course participants"
+],
+[
+"begyndelsen",
+"the beginning"
+]
+]
+},
+{
+"da": "Informationer fra udvalgte oplysningsforbunds hjemmesider … 6",
+"en": "Information from selected education associations' websites … 6",
+"p": false,
+"note": "A chapter title. The genitive -s in \"oplysningsforbunds\" shows ownership: the associations' websites.",
+"words": [
+[
+"Informationer",
+"information"
+],
+[
+"udvalgte",
+"selected"
+],
+[
+"oplysningsforbunds",
+"education associations'"
+],
+[
+"hjemmesider",
+"websites"
+]
+]
+},
+{
+"da": "Arbejdernes Oplysnings Forbund (AOF) … 6",
+"en": "The Workers' Education Association (AOF) … 6",
+"p": false,
+"note": "A section title with the name of an organisation. \"Arbejdernes\" is a genitive plural: the workers'.",
+"words": [
+[
+"Arbejdernes",
+"the workers'"
+]
+]
+},
+{
+"da": "Folkeligt Oplysningsforbund (FOF) … 6",
+"en": "The Popular Education Association (FOF) … 6",
+"p": false,
+"note": "A section title with an organisation name. \"Folkeligt\" has -t because \"forbund\" is an et-word.",
+"words": [
+[
+"Folkeligt",
+"popular"
+],
+[
+"Oplysningsforbund",
+"education association"
+]
+]
+},
+{
+"da": "Liberalt Oplysnings Forbund (LOF) … 7",
+"en": "The Liberal Education Association (LOF) … 7",
+"p": false,
+"note": "A section title with an organisation name, on page 7.",
+"words": [
+[
+"Liberalt",
+"liberal"
+]
+]
+},
+{
+"da": "Annoncer for kurser hos udvalgte oplysningsforbund … 8",
+"en": "Ads for courses at selected education associations … 8",
+"p": false,
+"note": "A chapter title. \"hos\" means \"at\" a person or organisation.",
+"words": [
+[
+"Annoncer",
+"ads"
+],
+[
+"oplysningsforbund",
+"education associations"
+]
+]
+},
+{
+"da": "Anmeldelser af kurser … 12",
+"en": "Reviews of courses … 12",
+"p": false,
+"note": "A chapter title. \"Anmeldelser\" is the plural of \"anmeldelse\", a review.",
+"words": [
+[
+"Anmeldelser",
+"reviews"
+]
+]
+},
+{
+"da": "Bliv bedre til at fotografere hos AOF Favrskov … 12",
+"en": "Get better at taking photos at AOF Favrskov … 12",
+"p": false,
+"note": "A review title. \"bedre til at\" means better at doing something; \"Bliv\" is the imperative.",
+"words": [
+[
+"fotografere",
+"take photos"
+]
+]
+},
+{
+"da": "Yoga hos FOF Syd- og Vestsjælland … 12",
+"en": "Yoga at FOF South and West Zealand … 12",
+"p": false,
+"note": "A review title. The hyphen in \"Syd-\" saves repeating \"Sjælland\".",
+"words": [
+[
+"Vestsjælland",
+"West Zealand"
+]
+]
+},
+{
+"da": "Guitarundervisning hos FOF i Kolding … 12",
+"en": "Guitar lessons at FOF in Kolding … 12",
+"p": false,
+"note": "A review title. \"i\" is used with town names: i Kolding.",
+"words": [
+[
+"Guitarundervisning",
+"guitar lessons"
+]
+]
+},
+{
+"da": "Madlavningskursus hos LOF Syd (Padborg) … 13",
+"en": "Cooking course at LOF South (Padborg) … 13",
+"p": false,
+"note": "A review title. \"Madlavningskursus\" is a compound: madlavning (cooking) plus kursus.",
+"words": [
+[
+"Madlavningskursus",
+"cooking course"
+]
+]
+},
+{
+"da": "Informationer fra Dansk Oplysnings Forbund (DOF) … 14",
+"en": "Information from the Danish Education Association (DOF) … 14",
+"p": false,
+"note": "A chapter title, on page 14.",
+"words": [
+[
+"Informationer",
+"information"
+]
+]
+},
+{
+"da": "Om Dansk Oplysnings Forbund (DOF) … 14",
+"en": "About the Danish Education Association (DOF) … 14",
+"p": false,
+"note": "A section title. \"Om\" here means \"about\"."
+},
+{
+"da": "Om hjemmesiden DOF Underviser … 14",
+"en": "About the website DOF Underviser … 14",
+"p": false,
+"note": "A section title. \"hjemmesiden\" is the definite form: the website.",
+"words": [
+[
+"hjemmesiden",
+"the website"
+],
+[
+"Underviser",
+"teacher"
+]
+]
+},
+{
+"da": "Underviserjobs i aftenskolen … 15",
+"en": "Teaching jobs at the evening school … 15",
+"p": false,
+"note": "A section title. Danes say \"i aftenskolen\" for at evening school.",
+"words": [
+[
+"Underviserjobs",
+"teaching jobs"
+],
+[
+"aftenskolen",
+"the evening school"
+]
+]
+},
+{
+"da": "Kilder … 16",
+"en": "Sources … 16",
+"p": false,
+"note": "A heading in the contents: the list of sources, on page 16.",
+"words": [
+[
+"Kilder",
+"sources"
+]
+]
+},
+{
+"da": "FOLKEOPLYSNING",
+"en": "POPULAR EDUCATION",
+"p": true,
+"note": "The title of the first chapter: popular education.",
+"words": [
+[
+"FOLKEOPLYSNING",
+"popular education"
+]
+]
+},
+{
+"da": "Hvad er folkeoplysning – og for hvem?",
+"en": "What is popular education – and for whom?",
+"p": true,
+"note": "A heading asking a question. \"for hvem\" means \"for whom\".",
+"words": [
+[
+"folkeoplysning",
+"popular education"
+]
+]
+},
+{
+"da": "Folkeoplysning bliver i Danmark anset for at være en vigtig forudsætning for folkestyret.",
+"en": "In Denmark, popular education is seen as an important condition for democracy.",
+"p": false,
+"note": "Danes think adult education is key to democracy. \"bliver anset for\" is the passive with \"blive\": is regarded as.",
+"words": [
+[
+"anset",
+"regarded"
+],
+[
+"vigtig",
+"important"
+],
+[
+"forudsætning",
+"precondition"
+],
+[
+"folkestyret",
+"democracy"
+]
+]
+},
+{
+"da": "Folkeoplysning er defineret som almen, ikke-formel undervisnings- og oplysningsvirksomhed for unge og voksne og sker hovedsagelig i oplysningsforbund, på folkehøjskoler, på biblioteker eller gennem foreninger.",
+"en": "Popular education is defined as general, non-formal teaching and educational activity for young people and adults, and it mainly happens in education associations, at folk high schools, at libraries or through clubs.",
+"p": false,
+"note": "This defines popular education and where it happens. Note \"på folkehøjskoler\" and \"på biblioteker\": Danish uses \"på\" for many institutions.",
+"words": [
+[
+"defineret",
+"defined"
+],
+[
+"hovedsagelig",
+"mainly"
+],
+[
+"folkehøjskoler",
+"folk high schools"
+],
+[
+"foreninger",
+"clubs, associations"
+]
+]
+},
+{
+"da": "Kurser på folkehøjskoler og hos oplysningsforbund er i princippet for voksne over 18 år, men sammen med en voksen kan børn deltage i kurser, der er målrettet familier.",
+"en": "Courses at folk high schools and education associations are in principle for adults over 18, but together with an adult, children can take part in courses aimed at families.",
+"p": true,
+"note": "Courses are for adults, but children can join family courses. After the fronted \"sammen med en voksen\", the verb \"kan\" comes before the subject \"børn\".",
+"words": [
+[
+"princippet",
+"principle"
+],
+[
+"deltage",
+"take part"
+],
+[
+"målrettet",
+"aimed at"
+],
+[
+"familier",
+"families"
+]
+]
+},
+{
+"da": "Det kan være kurser som fx familiedans, voksen/barn-gymnastik eller familieyoga.",
+"en": "These can be courses such as family dance, adult/child gymnastics or family yoga.",
+"p": false,
+"note": "This gives examples of family courses. \"fx\" is short for \"for eksempel\": for example.",
+"words": [
+[
+"familiedans",
+"family dance"
+],
+[
+"gymnastik",
+"gymnastics"
+],
+[
+"familieyoga",
+"family yoga"
+]
+]
+},
+{
+"da": "Forudsætninger hos undervisere og kursusdeltagere",
+"en": "Prerequisites of teachers and participants",
+"p": true,
+"note": "A heading about what teachers and students bring. \"undervisere\" is the plural of \"underviser\".",
+"words": [
+[
+"Forudsætninger",
+"prerequisites"
+],
+[
+"undervisere",
+"teachers"
+],
+[
+"kursusdeltagere",
+"course participants"
+]
+]
+},
+{
+"da": "Folkeoplysende aktiviteter adskiller sig fra traditionel undervisning ved, at den, der underviser eller holder et foredrag, ikke nødvendigvis kun har en professionel og faglig tilgang til det emne eller fag, der er udgangspunkt for kurset eller foredraget.",
+"en": "Popular education activities differ from traditional teaching in that the person who teaches or gives a talk does not necessarily have only a professional and academic approach to the subject the course or talk is based on.",
+"p": false,
+"note": "The teacher is not just an expert. In the \"at\"-clause, \"ikke\" comes before the verb \"har\".",
+"words": [
+[
+"adskiller",
+"differ"
+],
+[
+"nødvendigvis",
+"necessarily"
+],
+[
+"tilgang",
+"approach"
+],
+[
+"udgangspunkt",
+"starting point"
+]
+]
+},
+{
+"da": "Underviseren eller foredragsholderen har ofte også et personligt forhold til aktiviteten.",
+"en": "The teacher or speaker often also has a personal relationship with the activity.",
+"p": false,
+"note": "Teachers often care personally about the subject. \"et personligt forhold\" has -t because \"forhold\" is an et-word.",
+"words": [
+[
+"Underviseren",
+"the teacher"
+],
+[
+"foredragsholderen",
+"the speaker"
+],
+[
+"personligt",
+"personal"
+],
+[
+"aktiviteten",
+"the activity"
+]
+]
+},
+{
+"da": "Formidlingen adskiller sig ved, at indholdet ikke kræver, at modtagerne har særlige forudsætninger eller evner ud over det at være nysgerrige og interesserede mennesker.",
+"en": "The teaching differs in that the content does not require the learners to have special qualifications or abilities beyond being curious and interested people.",
+"p": true,
+"note": "Students only need curiosity. \"adskiller sig\" is a reflexive verb: to differ.",
+"words": [
+[
+"Formidlingen",
+"the communication"
+],
+[
+"modtagerne",
+"the receivers"
+],
+[
+"særlige",
+"special"
+],
+[
+"nysgerrige",
+"curious"
+]
+]
+},
+{
+"da": "Endelig adskiller folkeoplysende aktiviteter sig ved, at det egentlige formål er, at alle involverede skal blive klogere på at leve deres liv engageret i forhold til medmennesket og samfundet.",
+"en": "Finally, popular education activities differ in that the real purpose is that everyone involved should become wiser about living their lives engaged with their fellow human beings and society.",
+"p": true,
+"note": "The goal is to live an engaged life. After \"Endelig\" the verb \"adskiller\" comes before the subject (inversion).",
+"words": [
+[
+"Endelig",
+"finally"
+],
+[
+"egentlige",
+"real"
+],
+[
+"involverede",
+"involved"
+],
+[
+"medmennesket",
+"fellow human being"
+]
+]
+},
+{
+"da": "Hvad lærer man på et folkeoplysende kursus?",
+"en": "What do you learn on a popular education course?",
+"p": true,
+"note": "A heading asking a question. \"man\" means \"you\" or \"one\" in general statements.",
+"words": [
+[
+"folkeoplysende",
+"popular-educational"
+]
+]
+},
+{
+"da": "De højskoler, aftenskoler og foreninger, der udbyder folkeoplysningskurser i dag, giver mulighed for fordybelse og udvikling af kompetencer, der ikke altid er plads til i det formelle uddannelsessystem, hvor fokus ofte ligger på de faglige mål og resultater.",
+"en": "The high schools, evening schools and clubs that offer popular education courses today give a chance for deep study and for developing skills that there is not always room for in the formal education system, where the focus is often on academic goals and results.",
+"p": false,
+"note": "These courses give room for skills that schools miss. \"der\" works as a relative pronoun: that offer.",
+"words": [
+[
+"udbyder",
+"offer"
+],
+[
+"fordybelse",
+"deep study"
+],
+[
+"kompetencer",
+"skills"
+],
+[
+"uddannelsessystem",
+"education system"
+]
+]
+},
+{
+"da": "Kurserne afsluttes i modsætning til i det formelle uddannelsessystem ikke med en eksamen efter endt kursus.",
+"en": "Unlike in the formal education system, the courses do not end with an exam after the course is finished.",
+"p": false,
+"note": "There is no exam. \"afsluttes\" is the passive with -s: are ended.",
+"words": [
+[
+"afsluttes",
+"are ended"
+],
+[
+"modsætning",
+"contrast"
+],
+[
+"eksamen",
+"exam"
+]
+]
+},
+{
+"da": "Dog kan man få et kursusbevis, hvis man ønsker det.",
+"en": "However, you can get a course certificate if you want one.",
+"p": false,
+"note": "You can get a certificate if you like. After \"Dog\" the verb \"kan\" comes before \"man\".",
+"words": [
+[
+"kursusbevis",
+"course certificate"
+],
+[
+"ønsker",
+"want"
+]
+]
+},
+{
+"da": "Formålet med deltagelsen i et folkeoplysende kursus er, at det skal give mulighed for at udvikle en lang række forskellige kompetencer, der ikke nødvendigvis hænger sammen med selve faget.",
+"en": "The purpose of taking a popular education course is to give a chance to develop many different skills that are not necessarily linked to the subject itself.",
+"p": true,
+"note": "The course builds many skills, not just the subject. \"hænger sammen med\" is a phrase: is connected with.",
+"words": [
+[
+"Formålet",
+"the purpose"
+],
+[
+"deltagelsen",
+"the participation"
+],
+[
+"forskellige",
+"different"
+],
+[
+"nødvendigvis",
+"necessarily"
+]
+]
+},
+{
+"da": "Flere af oplysningsforbundene fremhæver fx den personlige udvikling som lige så vigtig som den faglige.",
+"en": "Several of the associations, for example, stress personal development as just as important as academic development.",
+"p": false,
+"note": "Personal growth matters as much as knowledge. \"lige så ... som\" means \"just as ... as\".",
+"words": [
+[
+"oplysningsforbundene",
+"the education associations"
+],
+[
+"fremhæver",
+"stress"
+],
+[
+"personlige",
+"personal"
+],
+[
+"udvikling",
+"development"
+]
+]
+},
+{
+"da": "Hvis deltagere skulle vurderes ved en eksamen, ville man netop risikere at miste den del af kompetenceudviklingen, der handler om andet end det faglige udbytte.",
+"en": "If participants had to be assessed in an exam, you would risk losing the part of skill development that is about more than academic gain.",
+"p": false,
+"note": "An exam would spoil the personal side. After the \"hvis\"-clause, the main clause starts with the verb \"ville\".",
+"words": [
+[
+"deltagere",
+"participants"
+],
+[
+"vurderes",
+"be assessed"
+],
+[
+"kompetenceudviklingen",
+"the skill development"
+],
+[
+"udbytte",
+"benefit"
+]
+]
+},
+{
+"da": "Folkeoplysning før og nu",
+"en": "Popular education then and now",
+"p": true,
+"note": "A chapter heading: the history and present of popular education.",
+"words": [
+[
+"Folkeoplysning",
+"popular education"
+]
+]
+},
+{
+"da": "N.F.S. Grundtvig – idemanden bag folkeoplysningen",
+"en": "N.F.S. Grundtvig – the man with the idea behind popular education",
+"p": true,
+"note": "A heading about Grundtvig. \"idemanden\" is a compound with the definite ending -en: the idea man.",
+"words": [
+[
+"idemanden",
+"the man with the idea"
+],
+[
+"folkeoplysningen",
+"popular education"
+]
+]
+},
+{
+"da": "Det var N.F.S. Grundtvig, der var manden bag tankerne om folkeoplysning i Danmark.",
+"en": "It was N.F.S. Grundtvig who was the man behind the ideas of popular education in Denmark.",
+"p": false,
+"note": "Grundtvig had the idea. \"Det var ..., der\" is a cleft sentence that stresses who did it.",
+"words": [
+[
+"tankerne",
+"the thoughts"
+]
+]
+},
+{
+"da": "Han formulerede sine tanker i perioden omkring indførelsen af grundloven og demokratiet i 1849.",
+"en": "He formulated his ideas in the period around the introduction of the constitution and democracy in 1849.",
+"p": false,
+"note": "This dates his ideas to 1849. \"sine\" is used because the thoughts belong to the subject \"han\".",
+"words": [
+[
+"formulerede",
+"formulated"
+],
+[
+"indførelsen",
+"the introduction"
+],
+[
+"grundloven",
+"the constitution"
+],
+[
+"demokratiet",
+"democracy"
+]
+]
+},
+{
+"da": "Grundtvig så i den forbindelse et behov for, at bønder og almue blev oplyst om Danmarks historie, og hvad det vil sige at være dansk, så de kunne deltage i det nye demokrati.",
+"en": "In that connection, Grundtvig saw a need for farmers and common people¹ to be taught about Danish history and what it means to be Danish, so they could take part in the new democracy.",
+"p": false,
+"note": "Ordinary people needed knowledge to vote. \"blev oplyst\" is the passive with \"blive\" in the past: were informed.",
+"words": [
+[
+"forbindelse",
+"connection"
+],
+[
+"bønder",
+"farmers"
+],
+[
+"almue¹",
+"common people"
+],
+[
+"oplyst",
+"informed"
+]
+]
+},
+{
+"da": "Grundtvigs tanker om folkelig oplysning var radikalt forskellige fra tidens elitære pædagogik.",
+"en": "Grundtvig's ideas about popular education were radically different from the elitist teaching of the time.",
+"p": true,
+"note": "His ideas were new. \"forskellige\" ends in -e because it describes the plural \"tanker\".",
+"words": [
+[
+"radikalt",
+"radically"
+],
+[
+"forskellige",
+"different"
+],
+[
+"elitære",
+"elitist"
+],
+[
+"pædagogik",
+"teaching methods"
+]
+]
+},
+{
+"da": "Grundtvig mente, at folkeoplysningen skulle bygge på den enkeltes lyst til at lære og på den demokratiske samtale.",
+"en": "Grundtvig believed that popular education should build on the individual's wish to learn and on democratic conversation.",
+"p": false,
+"note": "Learning should come from wanting to learn. \"den enkeltes\" is a genitive: the individual's.",
+"words": [
+[
+"folkeoplysningen",
+"popular education"
+],
+[
+"enkeltes",
+"the individual's"
+],
+[
+"demokratiske",
+"democratic"
+],
+[
+"samtale",
+"conversation"
+]
+]
+},
+{
+"da": "Lærerne skulle ikke udspørge eleverne.",
+"en": "The teachers were not supposed to question the pupils.",
+"p": false,
+"note": "Teachers should not test students. \"skulle\" is the past of \"skal\": were to.",
+"words": [
+[
+"udspørge",
+"question, quiz"
+]
+]
+},
+{
+"da": "I stedet skulle eleverne være nysgerrige og stille spørgsmål til lærerne, hvis rolle det var at svare på spørgsmålene og indgå i en dialog.",
+"en": "Instead, the pupils were to be curious and ask the teachers questions, and the teachers' role was to answer and take part in a dialogue.",
+"p": false,
+"note": "Students should ask the questions. After \"I stedet\" the verb \"skulle\" comes before the subject.",
+"words": [
+[
+"nysgerrige",
+"curious"
+],
+[
+"spørgsmål",
+"questions"
+],
+[
+"spørgsmålene",
+"the questions"
+],
+[
+"dialog",
+"dialogue"
+]
+]
+},
+{
+"da": "Individualisme og fællesskab – folkeoplysning i dag",
+"en": "Individualism and community – popular education today",
+"p": true,
+"note": "A heading: popular education today.",
+"words": [
+[
+"Individualisme",
+"individualism"
+],
+[
+"fællesskab",
+"community"
+]
+]
+},
+{
+"da": "Folkeoplysning har også i dag en central rolle med sit fokus på det personlige engagement og ansvar, ikke blot for sig selv, men for fællesskabet.",
+"en": "Popular education also has a central role today with its focus on personal engagement and responsibility, not only for yourself but for the community.",
+"p": false,
+"note": "It is still important. \"ikke blot ..., men\" means \"not only ..., but\".",
+"words": [
+[
+"central",
+"central"
+],
+[
+"engagement",
+"engagement"
+],
+[
+"fællesskabet",
+"the community"
+]
+]
+},
+{
+"da": "I forhold til 1800-tallet, hvor Grundtvig levede, er samfundet i dag mere individualiseret med fokus på mål, resultater og kompetencer.",
+"en": "Compared to the 1800s, when Grundtvig lived, society today is more individualised, with a focus on goals, results and skills.",
+"p": true,
+"note": "Society now focuses on the individual. After the fronted phrase the verb \"er\" comes before \"samfundet\".",
+"words": [
+[
+"individualiseret",
+"individualised"
+],
+[
+"resultater",
+"results"
+],
+[
+"kompetencer",
+"skills"
+]
+]
+},
+{
+"da": "Måden at deltage i fællesskaber på er anderledes, hvilket ikke mindst skyldes den teknologiske udvikling, så folk nu bruger meget tid på nettet, især de sociale medier.",
+"en": "The way people take part in communities is different, which is largely due to technological development, so people now spend a lot of time online, especially on social media.",
+"p": false,
+"note": "Technology changed community life. \"skyldes\" is a verb with -s meaning \"is due to\".",
+"words": [
+[
+"anderledes",
+"different"
+],
+[
+"skyldes",
+"is due to"
+],
+[
+"teknologiske",
+"technological"
+],
+[
+"sociale",
+"social"
+]
+]
+},
+{
+"da": "Vores tid uden for arbejde er også kommet under mere pres.",
+"en": "Our time outside work has also come under more pressure.",
+"p": false,
+"note": "Free time is under pressure. \"er kommet\" is the perfect with \"være\" because \"komme\" is a verb of movement.",
+"words": [
+[
+"arbejde",
+"work"
+]
+]
+},
+{
+"da": "Vi er blevet mere ’serielt engagerede’.",
+"en": "We have become more 'serially engaged'.",
+"p": true,
+"note": "We commit to things one at a time. \"er blevet\" is the perfect of \"blive\": have become.",
+"words": [
+[
+"serielt",
+"serially"
+],
+[
+"engagerede",
+"engaged"
+]
+]
+},
+{
+"da": "Det vil sige, at vi fordyber os i kortere tid ad gangen, i skiftende aktiviteter og i midlertidige fællesskaber, der passer ind i vores liv nu og her.",
+"en": "That means we go deep for shorter periods at a time, in changing activities and in temporary communities that fit into our lives here and now.",
+"p": false,
+"note": "We join things for short periods. \"Det vil sige\" means \"that is to say\"; \"fordyber os\" is reflexive.",
+"words": [
+[
+"fordyber",
+"immerse"
+],
+[
+"skiftende",
+"changing"
+],
+[
+"midlertidige",
+"temporary"
+],
+[
+"fællesskaber",
+"communities"
+]
+]
+},
+{
+"da": "Folkehøjskolerne og folkeoplysningen har tilpasset sig de skiftende tider, og derfor tilbyder folkehøjskolerne også andre kurser i dag end for 150 år siden.",
+"en": "The folk high schools and popular education have adapted to changing times, and so the folk high schools offer different courses today than 150 years ago.",
+"p": true,
+"note": "The schools have changed with time. After \"derfor\" the verb \"tilbyder\" comes before the subject.",
+"words": [
+[
+"Folkehøjskolerne",
+"the folk high schools"
+],
+[
+"tilpasset",
+"adapted"
+],
+[
+"tilbyder",
+"offer"
+]
+]
+},
+{
+"da": "Nogle folkehøjskoler tilbyder i dag kurser målrettet unge, der ønsker at forbedre specifikke faglige kvalifikationer, fordi de ønsker at søge ind på en bestemt uddannelse.",
+"en": "Some folk high schools now offer courses for young people who want to improve specific academic qualifications because they want to apply for a particular education.",
+"p": false,
+"note": "Some courses help young people get into studies. After \"fordi\" normal word order is used: \"de ønsker\".",
+"words": [
+[
+"målrettet",
+"aimed at"
+],
+[
+"forbedre",
+"improve"
+],
+[
+"kvalifikationer",
+"qualifications"
+],
+[
+"uddannelse",
+"education"
+]
+]
+},
+{
+"da": "Andre folkehøjskoler tilbyder kurser i fritidsaktiviteter som windsurfing og dykning.",
+"en": "Other folk high schools offer courses in leisure activities such as windsurfing and diving.",
+"p": false,
+"note": "Some schools offer hobby courses. \"som\" here means \"such as\".",
+"words": [
+[
+"fritidsaktiviteter",
+"leisure activities"
+],
+[
+"dykning",
+"diving"
+]
+]
+},
+{
+"da": "Det er dog stadig et centralt element i folkeoplysningen, at den skal give kursusdeltagerne fællesskabsfølelse og udvikle kursusdeltagernes personlige egenskaber og lyst til at deltage i samfundslivet.",
+"en": "However, it is still a central element of popular education that it should give participants a sense of community and develop their personal qualities and desire to take part in society.",
+"p": false,
+"note": "Community and personal growth are still key. \"et centralt element\" has -t on the adjective after \"et\".",
+"words": [
+[
+"fællesskabsfølelse",
+"sense of community"
+],
+[
+"kursusdeltagernes",
+"the participants'"
+],
+[
+"egenskaber",
+"qualities"
+],
+[
+"samfundslivet",
+"social life"
+]
+]
+},
+{
+"da": " I gamle dage folk, som havde begrænsede økonomiske forhold, især på landet.",
+"en": "¹ In the old days, people who had limited means, especially in the countryside.",
+"p": true,
+"note": "A footnote explaining the word \"almue\". \"på landet\" means in the countryside.",
+"words": [
+[
+"begrænsede",
+"limited"
+],
+[
+"økonomiske",
+"economic"
+],
+[
+"forhold",
+"conditions"
+]
+]
+},
+{
+"da": "Det var fx husmænd og daglejere, der måtte arbejde for andre for at kunne klare sig.",
+"en": "They were, for example, smallholders and day labourers who had to work for others to get by.",
+"p": false,
+"note": "This gives examples of poor people. \"måtte\" is the past of \"må\": had to.",
+"words": [
+[
+"husmænd",
+"smallholders"
+],
+[
+"daglejere",
+"day labourers"
+],
+[
+"klare",
+"manage"
+]
+]
+},
+{
+"da": "Fald i antallet af kursusdeltagere i begyndelsen af 00’erne",
+"en": "Drop in the number of course participants in the early 2000s",
+"p": true,
+"note": "A heading about fewer students in the early 2000s.",
+"words": [
+[
+"antallet",
+"the number"
+],
+[
+"kursusdeltagere",
+"course participants"
+],
+[
+"begyndelsen",
+"the beginning"
+]
+]
+},
+{
+"da": "I 2003 trådte en ny lov i kraft, fordi politikerne valgte at spare ca. 150 millioner kroner på folkeoplysningen i Danmark, og det gik især ud over tilskuddene til oplysningsforbundene.",
+"en": "In 2003 a new law came into force because politicians chose to save about 150 million kroner on popular education, and this especially hit the grants to the associations.",
+"p": false,
+"note": "A new law cut money. \"trådte i kraft\" means \"came into force\"; \"gik ud over\" means \"hurt\".",
+"words": [
+[
+"trådte",
+"stepped"
+],
+[
+"politikerne",
+"the politicians"
+],
+[
+"tilskuddene",
+"the grants"
+],
+[
+"oplysningsforbundene",
+"the education associations"
+]
+]
+},
+{
+"da": "Det fik konsekvenser for kursusdeltagerne, da forbundene forøgede betalingen for at deltage på et kursus.",
+"en": "This had consequences for the participants, as the associations raised the price of taking a course.",
+"p": true,
+"note": "Courses became more expensive. \"da\" here means \"because/as\", and the subject comes before the verb.",
+"words": [
+[
+"konsekvenser",
+"consequences"
+],
+[
+"forbundene",
+"the associations"
+],
+[
+"forøgede",
+"increased"
+],
+[
+"betalingen",
+"the payment"
+]
+]
+},
+{
+"da": "Af den årsag forventede oplysningsforbundene et stort fald i antallet af kursusdeltagere på 30-40 %, men det viste sig ikke at blive helt så voldsomt.",
+"en": "For that reason, the associations expected a big drop of 30–40% in participants, but it turned out not to be quite so dramatic.",
+"p": false,
+"note": "The drop was smaller than feared. \"det viste sig\" means \"it turned out\"; \"forventede\" is past tense.",
+"words": [
+[
+"årsag",
+"reason"
+],
+[
+"forventede",
+"expected"
+],
+[
+"voldsomt",
+"dramatic"
+]
+]
+},
+{
+"da": "Nedgangen var kun på 10 % ved årsskiftet 2003-2004.",
+"en": "The decline was only 10% at the turn of the year 2003–2004.",
+"p": false,
+"note": "The drop was just 10%. Note \"på\" with numbers: \"på 10 %\".",
+"words": [
+[
+"Nedgangen",
+"the decline"
+],
+[
+"årsskiftet",
+"the turn of the year"
+]
+]
+},
+{
+"da": "Men det var de økonomisk dårligst stillede, der valgte at blive væk i den tid, der fulgte – typisk pensionister og enlige forsørgere.",
+"en": "But it was the people with the least money who chose to stay away in the time that followed – typically pensioners and single parents.",
+"p": false,
+"note": "Poor people stopped coming. \"dårligst\" is the superlative of \"dårlig\": worst.",
+"words": [
+[
+"økonomisk",
+"financially"
+],
+[
+"dårligst",
+"worst"
+],
+[
+"pensionister",
+"pensioners"
+],
+[
+"forsørgere",
+"providers"
+]
+]
+},
+{
+"da": "Som følge af denne krise, var oplysningsforbundene i midten af 00’erne nødt til at tænke nyt for at sikre, at økonomien hang sammen.",
+"en": "As a result of this crisis, the associations in the mid-2000s had to think in new ways to make sure the finances added up.",
+"p": true,
+"note": "They had to find new ideas. \"var nødt til\" means \"had to\".",
+"words": [
+[
+"følge",
+"result"
+],
+[
+"oplysningsforbundene",
+"the education associations"
+],
+[
+"økonomien",
+"the finances"
+]
+]
+},
+{
+"da": "Det gjorde de bl.a. ved flere offensive reklamefremstød.",
+"en": "They did this, among other things, through several aggressive advertising campaigns.",
+"p": false,
+"note": "They used advertising. \"Det\" is fronted, so the verb \"gjorde\" comes before \"de\".",
+"words": [
+[
+"offensive",
+"aggressive"
+],
+[
+"reklamefremstød",
+"advertising campaigns"
+]
+]
+},
+{
+"da": "Reklamebureauerne hjalp forbundene med markedsføringen, dels for at kunne gøre politikerne opmærksomme på, at området skulle prioriteres, dels for at tiltrække nye kursusdeltagere.",
+"en": "The advertising agencies helped the associations with marketing, partly to make politicians aware that the area should be prioritised, partly to attract new participants.",
+"p": true,
+"note": "Ads had two goals. \"dels ..., dels\" means \"partly ..., partly\"; \"prioriteres\" is passive with -s.",
+"words": [
+[
+"Reklamebureauerne",
+"the ad agencies"
+],
+[
+"markedsføringen",
+"the marketing"
+],
+[
+"opmærksomme",
+"aware"
+],
+[
+"tiltrække",
+"attract"
+]
+]
+},
+{
+"da": "Folkeoplysningsforbundene fik hjælp til at sælge sig selv med nye logoer, slogans og tv-spots, hvilket skulle strømline deres image.",
+"en": "The associations got help selling themselves with new logos, slogans and TV spots, which was meant to streamline their image.",
+"p": true,
+"note": "They got a new image. \"hvilket\" refers back to the whole clause: which.",
+"words": [
+[
+"Folkeoplysningsforbundene",
+"the popular education associations"
+],
+[
+"logoer",
+"logos"
+],
+[
+"strømline",
+"streamline"
+]
+]
+},
+{
+"da": "Kritikerne mente imidlertid, at oplysningsforbundene på den måde ikke levede op til de værdier, som de havde stået for i så mange år.",
+"en": "Critics, however, felt that in this way the associations did not live up to the values they had stood for for so many years.",
+"p": false,
+"note": "Some people disliked this. \"havde stået\" is the past perfect: had stood.",
+"words": [
+[
+"Kritikerne",
+"the critics"
+],
+[
+"imidlertid",
+"however"
+],
+[
+"levede",
+"lived"
+],
+[
+"værdier",
+"values"
+]
+]
+},
+{
+"da": "Ikke desto mindre er en offensiv markedsføring stadig en del af forbundenes virkelighed i dag, bl.a. på sociale medier.",
+"en": "Nevertheless, aggressive marketing is still part of the associations' reality today, for example on social media.",
+"p": false,
+"note": "Marketing is still used. After \"Ikke desto mindre\" the verb \"er\" comes first (inversion).",
+"words": [
+[
+"offensiv",
+"aggressive"
+],
+[
+"markedsføring",
+"marketing"
+],
+[
+"forbundenes",
+"the associations'"
+],
+[
+"virkelighed",
+"reality"
+]
+]
+},
+{
+"da": "INFORMATIONER FRA UDVALGTE OPLYSNINGSFORBUNDS HJEMMESIDER",
+"en": "INFORMATION FROM SELECTED EDUCATION ASSOCIATIONS' WEBSITES",
+"p": true,
+"note": "A chapter title: information from the associations' own websites.",
+"words": [
+[
+"INFORMATIONER",
+"information"
+],
+[
+"UDVALGTE",
+"selected"
+],
+[
+"HJEMMESIDER",
+"websites"
+]
+]
+},
+{
+"da": "Arbejdernes Oplysnings Forbund (AOF)",
+"en": "The Workers' Education Association (AOF)",
+"p": true,
+"note": "A heading with the name of the first association.",
+"words": [
+[
+"Arbejdernes",
+"the workers'"
+]
+]
+},
+{
+"da": "Arbejdernes Oplysnings Forbund (AOF) blev dannet i 1924 af Socialdemokratiet og forskellige arbejderorganisationer.",
+"en": "The Workers' Education Association (AOF) was founded in 1924 by the Social Democrats and various workers' organisations.",
+"p": false,
+"note": "AOF was started by the labour movement. \"blev dannet\" is the passive past: was formed.",
+"words": [
+[
+"dannet",
+"formed"
+],
+[
+"Socialdemokratiet",
+"the Social Democrats"
+],
+[
+"arbejderorganisationer",
+"workers' organisations"
+]
+]
+},
+{
+"da": "Oplysningsforbundet er i dag en sammenslutning af 100 afdelinger, der står for kurser og uddannelsesaktiviteter i hele landet.",
+"en": "Today the association is a union of 100 branches that run courses and educational activities across the country.",
+"p": false,
+"note": "AOF has 100 local branches. \"står for\" means \"are in charge of\".",
+"words": [
+[
+"Oplysningsforbundet",
+"the education association"
+],
+[
+"sammenslutning",
+"union"
+],
+[
+"afdelinger",
+"branches"
+],
+[
+"uddannelsesaktiviteter",
+"educational activities"
+]
+]
+},
+{
+"da": "Formålet med undervisningen er at sprede viden om og forståelse for det danske samfund og den danske kultur og gøre danskerne til aktive medborgere.",
+"en": "The aim of the teaching is to spread knowledge and understanding of Danish society and culture and make Danes active citizens.",
+"p": false,
+"note": "This is AOF's goal. Note the prepositions: \"viden om\" and \"forståelse for\".",
+"words": [
+[
+"Formålet",
+"the aim"
+],
+[
+"forståelse",
+"understanding"
+],
+[
+"samfund",
+"society"
+],
+[
+"medborgere",
+"fellow citizens"
+]
+]
+},
+{
+"da": "Desuden er det vigtigt for AOF at være med til at udbrede demokrati i Danmark, og det skal gøres med udgangspunkt i viden, udvikling og samvær.",
+"en": "Also, it is important for AOF to help spread democracy in Denmark, based on knowledge, development and togetherness.",
+"p": false,
+"note": "AOF wants to spread democracy. \"skal gøres\" is a modal verb plus passive -s: must be done.",
+"words": [
+[
+"Desuden",
+"moreover"
+],
+[
+"udbrede",
+"spread"
+],
+[
+"udgangspunkt",
+"starting point"
+],
+[
+"samvær",
+"togetherness"
+]
+]
+},
+{
+"da": "Disse mål arbejder AOF for gennem folkeoplysning, kulturelle aktiviteter, grund-, efter- og videreuddannelse.",
+"en": "AOF works for these goals through popular education, cultural activities, and basic, further and continuing education.",
+"p": false,
+"note": "This is how AOF works. The object \"Disse mål\" is fronted, so the verb comes before \"AOF\".",
+"words": [
+[
+"kulturelle",
+"cultural"
+],
+[
+"aktiviteter",
+"activities"
+],
+[
+"videreuddannelse",
+"further education"
+]
+]
+},
+{
+"da": "Desuden yder AOF hjælp til den enkelte dansker med at leve op til kravene på arbejdsmarkedet.",
+"en": "AOF also helps individual Danes meet the demands of the job market.",
+"p": false,
+"note": "AOF helps people at work. \"yde hjælp\" is a formal way to say \"give help\".",
+"words": [
+[
+"Desuden",
+"moreover"
+],
+[
+"kravene",
+"the demands"
+],
+[
+"arbejdsmarkedet",
+"the labour market"
+]
+]
+},
+{
+"da": "Målgrupper",
+"en": "Target groups",
+"p": true,
+"note": "A heading: who the courses are for.",
+"words": [
+[
+"Målgrupper",
+"target groups"
+]
+]
+},
+{
+"da": "En stor del af AOF’s uddannelsesaktiviteter er i dag målrettet både private og offentlige arbejdspladser.",
+"en": "A large part of AOF's educational activities is today aimed at both private and public workplaces.",
+"p": false,
+"note": "AOF trains staff at workplaces. \"både ... og\" means \"both ... and\".",
+"words": [
+[
+"uddannelsesaktiviteter",
+"educational activities"
+],
+[
+"målrettet",
+"aimed at"
+],
+[
+"offentlige",
+"public"
+],
+[
+"arbejdspladser",
+"workplaces"
+]
+]
+},
+{
+"da": "AOF underviser fx virksomheders medarbejdere i intern kommunikation, kompetenceudvikling, sprog og IT, så arbejdspladsen får et fagligt løft.",
+"en": "AOF teaches companies' employees, for example, internal communication, skills development, languages and IT, so the workplace gets a professional boost.",
+"p": false,
+"note": "AOF teaches employees. \"et fagligt løft\" has -t because \"løft\" is an et-word.",
+"words": [
+[
+"virksomheders",
+"companies'"
+],
+[
+"medarbejdere",
+"employees"
+],
+[
+"kommunikation",
+"communication"
+],
+[
+"kompetenceudvikling",
+"skills development"
+]
+]
+},
+{
+"da": "Og AOF sætter gang i projekter, der hjælper sundhed og trivsel på vej på arbejdspladsen.",
+"en": "And AOF starts projects that promote health and well-being at the workplace.",
+"p": false,
+"note": "AOF runs health projects. \"sætte gang i\" is a phrase: to start something.",
+"words": [
+[
+"projekter",
+"projects"
+],
+[
+"sundhed",
+"health"
+],
+[
+"trivsel",
+"well-being"
+],
+[
+"arbejdspladsen",
+"the workplace"
+]
+]
+},
+{
+"da": "AOF hjælper også unge med at komme i uddannelse eller job.",
+"en": "AOF also helps young people get into education or a job.",
+"p": false,
+"note": "AOF helps young people. \"hjælpe med at\" plus infinitive: help to do something.",
+"words": [
+[
+"uddannelse",
+"education"
+]
+]
+},
+{
+"da": "Oplysningsforbundet samarbejder desuden med mange kommuner og foreninger om den nye platform GoJoin, hvor borgerne kan dele viden og informationer om aktiviteter med hinanden.",
+"en": "The association also works with many councils and clubs on the new platform GoJoin, where citizens can share knowledge and information about activities with each other.",
+"p": true,
+"note": "This describes GoJoin. \"hvor\" introduces a relative clause about a place: where.",
+"words": [
+[
+"samarbejder",
+"cooperates"
+],
+[
+"kommuner",
+"municipalities"
+],
+[
+"borgerne",
+"the citizens"
+],
+[
+"informationer",
+"information"
+]
+]
+},
+{
+"da": "Samlet set går mange tusind mennesker til undervisning på AOF’s aftenskoler hver uge, hvor de bliver klogere på alt fra madlavning, Mellemøsten og motion til sprog og syning.",
+"en": "Altogether, many thousands of people go to classes at AOF's evening schools every week, where they learn about everything from cooking, the Middle East and exercise to languages and sewing.",
+"p": true,
+"note": "Many people take many kinds of classes. \"gå til\" means to attend a class regularly.",
+"words": [
+[
+"undervisning",
+"teaching"
+],
+[
+"aftenskoler",
+"evening schools"
+],
+[
+"madlavning",
+"cooking"
+],
+[
+"Mellemøsten",
+"the Middle East"
+]
+]
+},
+{
+"da": "Samtidig modtager mange voksne, både danskere og flygtninge/indvandrere, undervisning hos AOF, så de kan lære at læse det, som de har brug for i deres hverdag.",
+"en": "At the same time, many adults, both Danes and refugees/immigrants, get teaching at AOF so they can learn to read what they need in daily life.",
+"p": false,
+"note": "AOF also teaches reading. After \"Samtidig\" the verb \"modtager\" comes before the subject.",
+"words": [
+[
+"Samtidig",
+"at the same time"
+],
+[
+"modtager",
+"receive"
+],
+[
+"flygtninge",
+"refugees"
+],
+[
+"indvandrere",
+"immigrants"
+]
+]
+},
+{
+"da": "AOF’s målgruppe er altså meget bred.",
+"en": "So AOF's target group is very broad.",
+"p": false,
+"note": "AOF is for almost everybody. \"altså\" means \"so\" or \"in other words\".",
+"words": [
+[
+"målgruppe",
+"target group"
+]
+]
+},
+{
+"da": "Folkeligt Oplysningsforbund (FOF)",
+"en": "The Popular Education Association (FOF)",
+"p": true,
+"note": "A heading with the name of the second association.",
+"words": [
+[
+"Folkeligt",
+"popular"
+],
+[
+"Oplysningsforbund",
+"education association"
+]
+]
+},
+{
+"da": "Det Konservative Folkeparti var med til at stifte Folkeligt Oplysningsforbund (FOF) i 1947.",
+"en": "The Conservative People's Party helped found FOF in 1947.",
+"p": false,
+"note": "FOF's history. \"var med til at\" means \"took part in\" doing something.",
+"words": [
+[
+"Konservative",
+"Conservative"
+],
+[
+"Folkeparti",
+"People's Party"
+],
+[
+"stifte",
+"found"
+]
+]
+},
+{
+"da": "Oplysningsforbundet er i dag den største udbyder af folkeoplysende aftenskoleundervisning og har mere end 250.000 kursusdeltagere hvert år.",
+"en": "Today the association is the biggest provider of evening school teaching and has more than 250,000 participants every year.",
+"p": false,
+"note": "FOF is the biggest. \"største\" is the superlative of \"stor\" with -e after \"den\".",
+"words": [
+[
+"største",
+"biggest"
+],
+[
+"udbyder",
+"provider"
+],
+[
+"aftenskoleundervisning",
+"evening school teaching"
+],
+[
+"kursusdeltagere",
+"participants"
+]
+]
+},
+{
+"da": "FOF’s afdelinger fordeler sig på Danmarks fem regioner, fra Region Nordjyllands fire afdelinger til Region Syddanmark, som med 11 afdelinger er topscoreren i forhold til antallet af lokale FOF-afdelinger.",
+"en": "FOF's branches are spread over Denmark's five regions, from North Jutland's four branches to Southern Denmark, which with 11 branches has the most local FOF branches.",
+"p": false,
+"note": "This shows where FOF is. \"fordeler sig\" is a reflexive verb: are spread.",
+"words": [
+[
+"afdelinger",
+"branches"
+],
+[
+"regioner",
+"regions"
+],
+[
+"topscoreren",
+"the top scorer"
+],
+[
+"antallet",
+"the number"
+]
+]
+},
+{
+"da": "Kurserne hos FOF skal medvirke til at udvikle og gøre den enkelte dygtigere og har følgende grundelementer: Personlig udvikling, øget livskvalitet, et bedre grundlag for at være en aktiv samfundsborger og ny faglig viden.",
+"en": "FOF courses should help develop people and make them more skilled, and have these basic elements: personal development, better quality of life, a better basis for being an active citizen, and new knowledge.",
+"p": true,
+"note": "This lists FOF's goals. \"dygtigere\" is the comparative of \"dygtig\": more skilled.",
+"words": [
+[
+"dygtigere",
+"more skilled"
+],
+[
+"grundelementer",
+"basic elements"
+],
+[
+"livskvalitet",
+"quality of life"
+],
+[
+"samfundsborger",
+"citizen"
+]
+]
+},
+{
+"da": "FOF arbejder for at udvide den enkeltes indsigt.",
+"en": "FOF works to widen the individual's insight.",
+"p": false,
+"note": "FOF wants people to understand more. \"for at\" plus infinitive shows purpose: in order to.",
+"words": [
+[
+"udvide",
+"widen"
+],
+[
+"enkeltes",
+"individual's"
+],
+[
+"indsigt",
+"insight"
+]
+]
+},
+{
+"da": "Det er ikke blot vigtigt at vide, hvad der sker i samfundet, men også at forstå hvorfor.",
+"en": "It is not only important to know what happens in society, but also to understand why.",
+"p": false,
+"note": "Understanding matters, not just facts. \"hvad der sker\" uses \"der\" because \"hvad\" is the subject.",
+"words": [
+[
+"samfundet",
+"society"
+]
+]
+},
+{
+"da": "FOF tilbyder undervisning og samvær, der tilstræber at udvide den enkeltes horisont både kulturelt, socialt og fagligt.",
+"en": "FOF offers teaching and community that aim to broaden people's horizons culturally, socially and academically.",
+"p": true,
+"note": "FOF wants to broaden minds. \"kulturelt\" and \"socialt\" are adverbs with -t.",
+"words": [
+[
+"tilstræber",
+"aim"
+],
+[
+"horisont",
+"horizon"
+],
+[
+"kulturelt",
+"culturally"
+]
+]
+},
+{
+"da": "Arbejdsmetoden er ligeværdighed, hvor den enkelte lærer at tage ansvar.",
+"en": "The working method is equality, where each person learns to take responsibility.",
+"p": false,
+"note": "Everyone is equal at FOF. \"tage ansvar\" is a typical phrase: take responsibility.",
+"words": [
+[
+"Arbejdsmetoden",
+"the working method"
+],
+[
+"ligeværdighed",
+"equality"
+],
+[
+"ansvar",
+"responsibility"
+]
+]
+},
+{
+"da": "Liberalt Oplysnings Forbund (LOF)",
+"en": "The Liberal Education Association (LOF)",
+"p": true,
+"note": "A heading with the name of the third association.",
+"words": [
+[
+"Liberalt",
+"liberal"
+]
+]
+},
+{
+"da": "I 1945 blev Liberalt Oplysnings Forbund (LOF) stiftet af blandt andet partiet Venstre.",
+"en": "In 1945 LOF was founded by, among others, the Venstre party.",
+"p": false,
+"note": "LOF's history. After \"I 1945\" the verb \"blev\" comes first; \"blev stiftet\" is passive.",
+"words": [
+[
+"stiftet",
+"founded"
+],
+[
+"partiet",
+"the party"
+]
+]
+},
+{
+"da": "I dag tilbyder LOF aftenundervisning over hele landet i mange forskellige fag som IT, sprog, kreative fag og bevægelse.",
+"en": "Today LOF offers evening classes all over the country in many subjects such as IT, languages, creative subjects and movement.",
+"p": false,
+"note": "LOF's courses. After \"I dag\" the verb \"tilbyder\" comes before \"LOF\".",
+"words": [
+[
+"aftenundervisning",
+"evening classes"
+],
+[
+"forskellige",
+"different"
+],
+[
+"kreative",
+"creative"
+],
+[
+"bevægelse",
+"movement"
+]
+]
+},
+{
+"da": "Desuden tilbyder LOF debatter og foredrag om samfundsrelevante emner.",
+"en": "LOF also offers debates and talks on topics relevant to society.",
+"p": false,
+"note": "LOF also has talks. After \"Desuden\" the verb comes before the subject.",
+"words": [
+[
+"Desuden",
+"moreover"
+],
+[
+"debatter",
+"debates"
+],
+[
+"foredrag",
+"talks"
+],
+[
+"samfundsrelevante",
+"socially relevant"
+]
+]
+},
+{
+"da": "Sundhed og samarbejdspartnere",
+"en": "Health and partners",
+"p": true,
+"note": "A heading about LOF's health work.",
+"words": [
+[
+"Sundhed",
+"health"
+],
+[
+"samarbejdspartnere",
+"partners"
+]
+]
+},
+{
+"da": "LOF har et særligt fokus på folkesundhed.",
+"en": "LOF has a special focus on public health.",
+"p": false,
+"note": "LOF cares about health. Note \"fokus på\": focus on.",
+"words": [
+[
+"særligt",
+"special"
+],
+[
+"folkesundhed",
+"public health"
+]
+]
+},
+{
+"da": "Derfor tilbyder forbundet mange former for bevægelseshold så som yoga, pilates og træning i det fri.",
+"en": "So the association offers many kinds of exercise classes such as yoga, pilates and outdoor training.",
+"p": false,
+"note": "This lists exercise courses. After \"Derfor\" the verb \"tilbyder\" comes first.",
+"words": [
+[
+"forbundet",
+"the association"
+],
+[
+"bevægelseshold",
+"exercise classes"
+],
+[
+"træning",
+"training"
+]
+]
+},
+{
+"da": "Forbundet bidrager også med viden om kost, ernæring og livsstilssygdomme.",
+"en": "The association also contributes knowledge about diet, nutrition and lifestyle diseases.",
+"p": false,
+"note": "LOF teaches about food and health. \"bidrager med\" means \"contributes\".",
+"words": [
+[
+"bidrager",
+"contributes"
+],
+[
+"ernæring",
+"nutrition"
+],
+[
+"livsstilssygdomme",
+"lifestyle diseases"
+]
+]
+},
+{
+"da": "Mange af forbundets sundhedsaktiviteter finder sted i samarbejde med kommuner og patientforeninger.",
+"en": "Many of the association's health activities take place in cooperation with councils and patient organisations.",
+"p": true,
+"note": "LOF works with others. \"finder sted\" means \"take place\".",
+"words": [
+[
+"sundhedsaktiviteter",
+"health activities"
+],
+[
+"samarbejde",
+"cooperation"
+],
+[
+"patientforeninger",
+"patient associations"
+]
+]
+},
+{
+"da": "Medborgerskab og demokrati",
+"en": "Citizenship and democracy",
+"p": true,
+"note": "A heading about LOF's values.",
+"words": [
+[
+"Medborgerskab",
+"citizenship"
+],
+[
+"demokrati",
+"democracy"
+]
+]
+},
+{
+"da": "Alle LOF’s aktiviteter har det mål at give deltagerne ny viden og nye kundskaber, så de bliver bedre til at tage ansvar for deres egen tilværelse og deltage aktivt i samfundet.",
+"en": "All LOF's activities aim to give participants new knowledge and skills so they get better at taking charge of their own lives and taking an active part in society.",
+"p": false,
+"note": "LOF's goal. \"ny viden\" but \"nye kundskaber\": the adjective takes -e in the plural.",
+"words": [
+[
+"aktiviteter",
+"activities"
+],
+[
+"kundskaber",
+"skills"
+],
+[
+"tilværelse",
+"life, existence"
+],
+[
+"samfundet",
+"society"
+]
+]
+},
+{
+"da": "I LOF mødes mennesker fra alle grupper af samfundet i en dialog og debat om aktuelle emner og om hverdagen.",
+"en": "In LOF, people from all groups in society meet for dialogue and debate about current topics and everyday life.",
+"p": true,
+"note": "People meet and talk. \"mødes\" is a verb with -s meaning \"meet each other\".",
+"words": [
+[
+"mødes",
+"meet"
+],
+[
+"aktuelle",
+"current"
+],
+[
+"hverdagen",
+"everyday life"
+]
+]
+},
+{
+"da": "Formålet for LOF er at styrke grundlaget for et demokratisk samfund og at bidrage til samfundets sammenhængskraft og til den enkeltes udvikling og dannelse.",
+"en": "LOF's purpose is to strengthen the basis for a democratic society and to contribute to social cohesion and to each person's development and education.",
+"p": false,
+"note": "This is LOF's aim. \"et demokratisk samfund\": no extra -t, as adjectives in -isk do not take -t.",
+"words": [
+[
+"grundlaget",
+"the basis"
+],
+[
+"demokratisk",
+"democratic"
+],
+[
+"sammenhængskraft",
+"cohesion"
+],
+[
+"dannelse",
+"cultivation, education"
+]
+]
+},
+{
+"da": "ANNONCER FOR KURSER HOS UDVALGTE OPLYSNINGSFORBUND",
+"en": "ADS FOR COURSES AT SELECTED EDUCATION ASSOCIATIONS",
+"p": true,
+"note": "A chapter title: course ads.",
+"words": [
+[
+"ANNONCER",
+"ads"
+],
+[
+"UDVALGTE",
+"selected"
+],
+[
+"OPLYSNINGSFORBUND",
+"education associations"
+]
+]
+},
+{
+"da": "FVU dansk med ansøgninger og CV (AOF)",
+"en": "Preparatory adult education in Danish with applications and CV (AOF)",
+"p": true,
+"note": "The title of an ad for a Danish course about job applications.",
+"words": [
+[
+"ansøgninger",
+"applications"
+]
+]
+},
+{
+"da": "Forberedende voksenundervisning i dansk med fokus på ansøgninger og CV, der får dig tilbage på arbejdsmarkedet.",
+"en": "Preparatory adult teaching in Danish focusing on applications and CVs, which gets you back into the job market.",
+"p": false,
+"note": "The course helps you find work. \"der\" is a relative pronoun: which gets you back.",
+"words": [
+[
+"Forberedende",
+"preparatory"
+],
+[
+"voksenundervisning",
+"adult education"
+],
+[
+"ansøgninger",
+"applications"
+],
+[
+"arbejdsmarkedet",
+"the job market"
+]
+]
+},
+{
+"da": "Indhold og forventninger",
+"en": "Content and expectations",
+"p": true,
+"note": "A heading: what the course is and what is expected.",
+"words": [
+[
+"Indhold",
+"content"
+],
+[
+"forventninger",
+"expectations"
+]
+]
+},
+{
+"da": "• Du er ledig og jobsøgende.",
+"en": "• You are unemployed and looking for a job.",
+"p": false,
+"note": "A list point about who the course is for. \"ledig\" means unemployed.",
+"words": [
+[
+"ledig",
+"unemployed"
+],
+[
+"jobsøgende",
+"job-seeking"
+]
+]
+},
+{
+"da": "• Det er længe siden, du har lavet en skriftlig ansøgning og et CV, eller du mangler ny inspiration.",
+"en": "• It is a long time since you wrote an application and a CV, or you need new inspiration.",
+"p": false,
+"note": "Another point. \"Det er længe siden\" means \"it is a long time since\".",
+"words": [
+[
+"skriftlig",
+"written"
+],
+[
+"ansøgning",
+"application"
+],
+[
+"inspiration",
+"inspiration"
+]
+]
+},
+{
+"da": "• Du vil gerne arbejde på at blive bedre til at formulere dig på skriftligt dansk.",
+"en": "• You want to work on getting better at expressing yourself in written Danish.",
+"p": false,
+"note": "You want to write better. \"vil gerne\" is a polite way to say \"want to\".",
+"words": [
+[
+"formulere",
+"express"
+],
+[
+"skriftligt",
+"written"
+]
+]
+},
+{
+"da": "• Du vil gerne blive bedre til at læse, forstå og skrive en ansøgning.",
+"en": "• You want to get better at reading, understanding and writing an application.",
+"p": false,
+"note": "You want better skills. \"bedre til at\" means \"better at\".",
+"words": [
+[
+"ansøgning",
+"application"
+]
+]
+},
+{
+"da": "• Du vil gerne have hjælp og ideer til at lave en personlig og interessant ansøgning.",
+"en": "• You want help and ideas to make a personal and interesting application.",
+"p": false,
+"note": "You want ideas. \"en personlig ansøgning\": no -t with en-words.",
+"words": [
+[
+"personlig",
+"personal"
+],
+[
+"interessant",
+"interesting"
+],
+[
+"ansøgning",
+"application"
+]
+]
+},
+{
+"da": "• Du vil gerne have hjælp til at finde og søge job online samt til at skrive en ansøgning på computer.",
+"en": "• You want help finding and applying for jobs online and writing an application on a computer.",
+"p": false,
+"note": "You want help online. \"samt\" is a formal word for \"and also\".",
+"words": [
+[
+"ansøgning",
+"application"
+],
+[
+"computer",
+"computer"
+]
+]
+},
+{
+"da": "• Du vil gerne have hjælp til ”Joblog” og ”Min Plan”.",
+"en": "• You want help with \"Joblog\" and \"My Plan\".",
+"p": false,
+"note": "Two job centre online tools. \"hjælp til\" means \"help with\"."
+},
+{
+"da": "• Du er aktivt deltagende og jobsøgende under hele kursusforløbet.",
+"en": "• You take an active part and look for jobs throughout the course.",
+"p": false,
+"note": "You must be active. \"aktivt\" is an adverb with -t.",
+"words": [
+[
+"deltagende",
+"participating"
+],
+[
+"jobsøgende",
+"job-seeking"
+],
+[
+"kursusforløbet",
+"the course period"
+]
+]
+},
+{
+"da": "• Du opdaterer din ”Joblog” og arbejder videre på ”Min Plan”.",
+"en": "• You update your \"Joblog\" and keep working on \"My Plan\".",
+"p": false,
+"note": "You keep your online tools updated. \"arbejde videre\" means \"continue working\".",
+"words": [
+[
+"opdaterer",
+"update"
+]
+]
+},
+{
+"da": "Ved kursets afslutning samler du din egen mappe med manual(er) til ansøgninger og CV samt en handleplan for din fortsatte jobsøgning.",
+"en": "At the end of the course you put together your own folder with guides for applications and CVs and an action plan for your further job search.",
+"p": true,
+"note": "You leave with a folder and a plan. After the fronted phrase the verb \"samler\" comes before \"du\".",
+"words": [
+[
+"afslutning",
+"end"
+],
+[
+"ansøgninger",
+"applications"
+],
+[
+"handleplan",
+"action plan"
+],
+[
+"jobsøgning",
+"job search"
+]
+]
+},
+{
+"da": "Der kræves ingen forudsætninger for at deltage på kurset, men vi forventer, at du møder stabilt og er interesseret i og motiveret for at arbejde med skriftligt dansk og lave ansøgninger.",
+"en": "No prior skills are needed, but we expect you to attend regularly and be interested in and motivated to work with written Danish and applications.",
+"p": true,
+"note": "Anyone can join, but must come regularly. \"kræves\" is the passive with -s: are required.",
+"words": [
+[
+"kræves",
+"are required"
+],
+[
+"forudsætninger",
+"prerequisites"
+],
+[
+"forventer",
+"expect"
+],
+[
+"motiveret",
+"motivated"
+]
+]
+},
+{
+"da": "Jobsamtale – hvordan det kan lykkes (FOF Kolding)",
+"en": "Job interview – how it can succeed (FOF Kolding)",
+"p": true,
+"note": "The title of an ad for a course on job interviews.",
+"words": [
+[
+"Jobsamtale",
+"job interview"
+],
+[
+"lykkes",
+"succeed"
+]
+]
+},
+{
+"da": "Kurset indeholder viden om jobsøgning og den vellykkede jobsamtale.",
+"en": "The course contains knowledge about job searching and the successful job interview.",
+"p": false,
+"note": "What the course covers. \"vellykkede\" has -e after \"den\".",
+"words": [
+[
+"indeholder",
+"contains"
+],
+[
+"jobsøgning",
+"job search"
+],
+[
+"vellykkede",
+"successful"
+],
+[
+"jobsamtale",
+"job interview"
+]
+]
+},
+{
+"da": "På dette kursus kan kursusdeltagerne øge deres muligheder for at komme til netop de jobsamtaler, der kan føre til deres drømmejob.",
+"en": "On this course participants can improve their chances of getting exactly the interviews that can lead to their dream job.",
+"p": true,
+"note": "The course helps you get interviews. After \"På dette kursus\" the verb \"kan\" comes first.",
+"words": [
+[
+"kursusdeltagerne",
+"the participants"
+],
+[
+"muligheder",
+"chances"
+],
+[
+"jobsamtaler",
+"job interviews"
+],
+[
+"drømmejob",
+"dream job"
+]
+]
+},
+{
+"da": "FOF og underviseren hjælper deltagerne med at målrette deres CV til et specifikt job eller en bestemt branche, så de kan skille sig ud fra andre kandidater og imponere ansættelsesudvalget på deres kommende arbejdsplads med deres viden, evner og personlige kvaliteter.",
+"en": "FOF and the teacher help participants target their CV to a specific job or sector, so they can stand out from other candidates and impress the hiring committee at their future workplace with their knowledge, abilities and personal qualities.",
+"p": true,
+"note": "You learn to stand out. \"skille sig ud\" is a reflexive phrase: stand out.",
+"words": [
+[
+"målrette",
+"target"
+],
+[
+"kandidater",
+"candidates"
+],
+[
+"ansættelsesudvalget",
+"the hiring committee"
+],
+[
+"arbejdsplads",
+"workplace"
+]
+]
+},
+{
+"da": "Undervisningen foregår på engelsk, men underviseren kan også tale og forstå dansk.",
+"en": "The teaching is in English, but the teacher can also speak and understand Danish.",
+"p": true,
+"note": "The class is in English. Note \"på engelsk\": in English.",
+"words": [
+[
+"Undervisningen",
+"the teaching"
+],
+[
+"foregår",
+"takes place"
+],
+[
+"underviseren",
+"the teacher"
+]
+]
+},
+{
+"da": "Kom godt i gang med at sy (FOF Vendsyssel)",
+"en": "Get started with sewing (FOF Vendsyssel)",
+"p": true,
+"note": "The title of an ad for a sewing course. \"Kom godt i gang\" is a phrase: get a good start."
+},
+{
+"da": "Kan du lide at sy og være kreativ, eller vil du gerne lære det?",
+"en": "Do you like sewing and being creative, or would you like to learn?",
+"p": false,
+"note": "A question to the reader. In yes/no questions the verb comes first: \"Kan du\".",
+"words": [
+[
+"kreativ",
+"creative"
+]
+]
+},
+{
+"da": "Her er et kursus for dig, der gerne vil lære at sy tøj, der sidder godt.",
+"en": "Here is a course for you who want to learn to sew clothes that fit well.",
+"p": true,
+"note": "The course teaches sewing. \"sidder godt\" about clothes means \"fits well\".",
+"words": [
+[
+"kursus",
+"course"
+]
+]
+},
+{
+"da": "Vi kigger på forskellige sømme, syteknikker og materialer.",
+"en": "We look at different seams, sewing techniques and materials.",
+"p": true,
+"note": "What you learn. \"kigger på\" means \"look at\".",
+"words": [
+[
+"forskellige",
+"different"
+],
+[
+"sømme",
+"seams"
+],
+[
+"syteknikker",
+"sewing techniques"
+],
+[
+"materialer",
+"materials"
+]
+]
+},
+{
+"da": "Vi vil sammen arbejde med mønstre og tilrette dem, så de passer godt til dig.",
+"en": "Together we will work with patterns and adjust them so they fit you well.",
+"p": false,
+"note": "You adjust patterns. \"passer til\" means \"fit\" or \"suit\".",
+"words": [
+[
+"mønstre",
+"patterns"
+],
+[
+"tilrette",
+"adjust"
+]
+]
+},
+{
+"da": "Medbring materialer, mønstre og evt. egen symaskine.",
+"en": "Bring materials, patterns and possibly your own sewing machine.",
+"p": true,
+"note": "What to bring. \"Medbring\" is the imperative; \"evt.\" means \"possibly\".",
+"words": [
+[
+"Medbring",
+"bring"
+],
+[
+"materialer",
+"materials"
+],
+[
+"mønstre",
+"patterns"
+],
+[
+"symaskine",
+"sewing machine"
+]
+]
+},
+{
+"da": "Billedkunst olie/ akryl (AOF Bornholm)",
+"en": "Visual art oil/acrylic (AOF Bornholm)",
+"p": true,
+"note": "The title of an ad for a painting course.",
+"words": [
+[
+"Billedkunst",
+"visual art"
+],
+[
+"akryl",
+"acrylic"
+]
+]
+},
+{
+"da": "Olie/ akryl/ overmaling/ genbrug/ blandformer og kunsthistorie.",
+"en": "Oil / acrylic / overpainting / recycling / mixed forms and art history.",
+"p": false,
+"note": "A list of topics in the course.",
+"words": [
+[
+"overmaling",
+"overpainting"
+],
+[
+"genbrug",
+"recycling"
+],
+[
+"blandformer",
+"mixed forms"
+],
+[
+"kunsthistorie",
+"art history"
+]
+]
+},
+{
+"da": "Kurset omhandler både det gamle og det nye maleri.",
+"en": "The course covers both old and new painting.",
+"p": false,
+"note": "What the course is about. \"det gamle\" has -e after the definite article.",
+"words": [
+[
+"omhandler",
+"deals with"
+],
+[
+"maleri",
+"painting"
+]
+]
+},
+{
+"da": "Vi fortolker landskabet, tingene og tiden.",
+"en": "We interpret the landscape, things and time.",
+"p": false,
+"note": "What you paint. All three nouns have the definite ending.",
+"words": [
+[
+"fortolker",
+"interpret"
+],
+[
+"landskabet",
+"the landscape"
+]
+]
+},
+{
+"da": "Vi gennemgår farvelære (fra Goethe til kaos).",
+"en": "We go through colour theory (from Goethe to chaos).",
+"p": false,
+"note": "You learn colour theory. \"gennemgå\" means \"go through\".",
+"words": [
+[
+"gennemgår",
+"go through"
+],
+[
+"farvelære",
+"colour theory"
+]
+]
+},
+{
+"da": "Vi finder vores egne kulører og motiver og gennemgår materialerne og eksperimenterer.",
+"en": "We find our own colours and motifs, go through the materials and experiment.",
+"p": false,
+"note": "You find your own style. \"egne\" has -e in the plural.",
+"words": [
+[
+"kulører",
+"colours"
+],
+[
+"motiver",
+"motifs"
+],
+[
+"materialerne",
+"the materials"
+],
+[
+"eksperimenterer",
+"experiment"
+]
+]
+},
+{
+"da": "Vi arbejder på at få minimum tre værker færdige i vintersæsonen.",
+"en": "We work on getting at least three works finished in the winter season.",
+"p": false,
+"note": "The goal is three paintings. \"færdige\" has -e because it describes plural \"værker\".",
+"words": [
+[
+"minimum",
+"at least"
+],
+[
+"værker",
+"works"
+],
+[
+"færdige",
+"finished"
+],
+[
+"vintersæsonen",
+"the winter season"
+]
+]
+},
+{
+"da": "Vi spørger os selv, om vi stadig kan bruge kunsten til noget.",
+"en": "We ask ourselves whether we can still use art for anything.",
+"p": true,
+"note": "You discuss art. \"om\" here means \"whether\".",
+"words": [
+[
+"kunsten",
+"art"
+]
+]
+},
+{
+"da": "Vi snakker om, hvordan forskellige kunstnere gennem tiden har valgt at skildre landskabet og livet.",
+"en": "We talk about how different artists through time have chosen to depict landscape and life.",
+"p": false,
+"note": "You discuss artists. \"har valgt\" is the perfect tense: have chosen.",
+"words": [
+[
+"forskellige",
+"different"
+],
+[
+"kunstnere",
+"artists"
+],
+[
+"skildre",
+"depict"
+],
+[
+"landskabet",
+"the landscape"
+]
+]
+},
+{
+"da": "I begyndelsen medbringer den enkelte deltager selv sine materialer, senere kan der købes ind i fællesskab.",
+"en": "At first each participant brings their own materials; later things can be bought together.",
+"p": true,
+"note": "Bring your own materials first. \"kan der købes\" is the passive with -s.",
+"words": [
+[
+"begyndelsen",
+"the beginning"
+],
+[
+"medbringer",
+"brings"
+],
+[
+"materialer",
+"materials"
+],
+[
+"fællesskab",
+"community, together"
+]
+]
+},
+{
+"da": "Klaver hos LOF Midtjylland",
+"en": "Piano at LOF Central Jutland",
+"p": true,
+"note": "The title of an ad for piano lessons.",
+"words": [
+[
+"Klaver",
+"piano"
+],
+[
+"Midtjylland",
+"Central Jutland"
+]
+]
+},
+{
+"da": "Klaveret er et alsidigt instrument, der kan bruges i mange genrer inden for rytmisk og klassisk musik.",
+"en": "The piano is a versatile instrument that can be used in many genres within rhythmic and classical music.",
+"p": false,
+"note": "The piano is useful for many styles. \"alsidigt\" has -t after \"et\".",
+"words": [
+[
+"Klaveret",
+"the piano"
+],
+[
+"alsidigt",
+"versatile"
+],
+[
+"instrument",
+"instrument"
+],
+[
+"genrer",
+"genres"
+]
+]
+},
+{
+"da": "Der undervises individuelt, så undervisningen kan tilrettelægges efter den enkelte kursusdeltagers niveau og ønsker.",
+"en": "Teaching is one-to-one, so it can be planned around each participant's level and wishes.",
+"p": true,
+"note": "Lessons are individual. \"Der undervises\" is an impersonal passive with -s.",
+"words": [
+[
+"undervises",
+"is taught"
+],
+[
+"individuelt",
+"individually"
+],
+[
+"tilrettelægges",
+"be planned"
+],
+[
+"kursusdeltagers",
+"participant's"
+]
+]
+},
+{
+"da": "Kursusdeltageren kan bl.a. lære at spille klassisk eller rytmisk musik, grundlæggende klaverteknik, nodekundskab, becifringsspil, improvisation og meget andet.",
+"en": "The participant can, among other things, learn to play classical or rhythmic music, basic piano technique, reading music, playing from chord symbols, improvisation and much more.",
+"p": false,
+"note": "What you can learn. \"bl.a.\" is short for \"blandt andet\": among other things.",
+"words": [
+[
+"grundlæggende",
+"basic"
+],
+[
+"klaverteknik",
+"piano technique"
+],
+[
+"nodekundskab",
+"music reading"
+],
+[
+"becifringsspil",
+"chord playing"
+]
+]
+},
+{
+"da": "Kursusdeltageren skal have adgang til at øve sig på et klaver.",
+"en": "The participant must have access to a piano to practise on.",
+"p": true,
+"note": "You need a piano at home. \"øve sig\" is reflexive: to practise.",
+"words": [
+[
+"Kursusdeltageren",
+"the participant"
+],
+[
+"adgang",
+"access"
+]
+]
+},
+{
+"da": "Hver kursusdeltager modtager soloundervisning i 30 minutter ad gangen, 10 mandage i træk, dog ikke i efterårsferien.",
+"en": "Each participant gets solo lessons for 30 minutes at a time, 10 Mondays in a row, but not in the autumn holiday.",
+"p": true,
+"note": "The lesson schedule. \"i træk\" means \"in a row\"; \"ad gangen\" means \"at a time\".",
+"words": [
+[
+"kursusdeltager",
+"participant"
+],
+[
+"soloundervisning",
+"solo lessons"
+],
+[
+"efterårsferien",
+"the autumn holiday"
+]
+]
+},
+{
+"da": "Tidspunktet for undervisningen aftales med underviseren ved tilmelding.",
+"en": "The time of the lesson is agreed with the teacher when you sign up.",
+"p": true,
+"note": "You agree the time when you sign up. \"aftales\" is the passive with -s: is agreed.",
+"words": [
+[
+"Tidspunktet",
+"the time"
+],
+[
+"aftales",
+"is agreed"
+],
+[
+"underviseren",
+"the teacher"
+],
+[
+"tilmelding",
+"registration"
+]
+]
+},
+{
+"da": "ANMELDELSER AF KURSER",
+"en": "REVIEWS OF COURSES",
+"p": true,
+"note": "A chapter title: reviews written by course participants.",
+"words": [
+[
+"ANMELDELSER",
+"reviews"
+]
+]
+},
+{
+"da": "Bliv bedre til at fotografere hos AOF Favrskov",
+"en": "Get better at taking photos at AOF Favrskov",
+"p": true,
+"note": "The title of a review of a photo course.",
+"words": [
+[
+"fotografere",
+"take photos"
+]
+]
+},
+{
+"da": "På kurset lærer man sit kamera meget bedre at kende.",
+"en": "On the course you get to know your camera much better.",
+"p": false,
+"note": "You learn your camera well. \"lære at kende\" means \"get to know\"; \"sit\" refers back to \"man\".",
+"words": [
+[
+"kamera",
+"camera"
+]
+]
+},
+{
+"da": "Jeg fik et spejlreflekskamera i julegave, og jeg ville rigtig gerne lære mere om at bruge kameraet på en god måde.",
+"en": "I got a DSLR camera as a Christmas present, and I really wanted to learn more about using it well.",
+"p": false,
+"note": "Why the writer took the course. \"fik\" is the past tense of \"få\": got.",
+"words": [
+[
+"spejlreflekskamera",
+"DSLR camera"
+],
+[
+"julegave",
+"Christmas present"
+],
+[
+"kameraet",
+"the camera"
+]
+]
+},
+{
+"da": "Underviseren hos AOF Favrskov er meget erfaren, og han har både viden om spejlreflekskameraer og kameraer i smartphones.",
+"en": "The teacher at AOF Favrskov is very experienced and knows about both DSLR cameras and smartphone cameras.",
+"p": false,
+"note": "The teacher is good. \"både ... og\" means \"both ... and\".",
+"words": [
+[
+"Underviseren",
+"the teacher"
+],
+[
+"erfaren",
+"experienced"
+],
+[
+"spejlreflekskameraer",
+"DSLR cameras"
+],
+[
+"smartphones",
+"smartphones"
+]
+]
+},
+{
+"da": "Derfor er kurset perfekt for de fleste.",
+"en": "So the course is perfect for most people.",
+"p": false,
+"note": "The course suits most people. After \"Derfor\" the verb \"er\" comes before \"kurset\".",
+"words": [
+[
+"perfekt",
+"perfect"
+]
+]
+},
+{
+"da": "På kurset fik vi til opgave fra undervisningsgang til undervisningsgang at fotografere noget i naturen, og så diskuterede vi vores billeder med hinanden, hvilket virkelig var lærerigt.",
+"en": "On the course we were given the task, from lesson to lesson, of photographing something in nature, and then we discussed our pictures with each other, which was really instructive.",
+"p": true,
+"note": "They took photos as homework. \"hvilket\" refers back to the whole clause.",
+"words": [
+[
+"undervisningsgang",
+"lesson"
+],
+[
+"fotografere",
+"take photos"
+],
+[
+"diskuterede",
+"discussed"
+],
+[
+"lærerigt",
+"instructive"
+]
+]
+},
+{
+"da": "Men det bedste var alligevel de oplæg til inspiration, som underviseren lavede til os, før vi fik vores hjemmeopgaver.",
+"en": "But the best thing was the inspiring talks the teacher gave us before we got our homework.",
+"p": false,
+"note": "The writer liked the talks most. \"det bedste\" is the superlative of \"god\".",
+"words": [
+[
+"alligevel",
+"after all"
+],
+[
+"inspiration",
+"inspiration"
+],
+[
+"underviseren",
+"the teacher"
+],
+[
+"hjemmeopgaver",
+"homework tasks"
+]
+]
+},
+{
+"da": "Det eneste negative ved kurset var i mit tilfælde, at de andre kursusdeltagere ikke kendte så meget til kameraer, og derfor var underviseren nødt til at starte med at gennemgå de mest basale funktioner.",
+"en": "The only negative thing for me was that the other participants did not know much about cameras, so the teacher had to start by going through the most basic functions.",
+"p": true,
+"note": "One problem: the basics took time. \"var nødt til\" means \"had to\".",
+"words": [
+[
+"negative",
+"negative"
+],
+[
+"tilfælde",
+"case"
+],
+[
+"kursusdeltagere",
+"participants"
+],
+[
+"funktioner",
+"functions"
+]
+]
+},
+{
+"da": "Kasper Andersen",
+"en": "*Kasper Andersen*",
+"p": false,
+"note": "The name of the person who wrote the review."
+},
+{
+"da": "Yoga hos FOF Syd- og Vestsjælland",
+"en": "Yoga at FOF South and West Zealand",
+"p": true,
+"note": "The title of a review of a yoga course.",
+"words": [
+[
+"Vestsjælland",
+"West Zealand"
+]
+]
+},
+{
+"da": "Jeg har sjældent tid til at få dyrket motion, og hverdagen er indimellem lidt stressende.",
+"en": "I rarely have time to exercise, and daily life is sometimes a bit stressful.",
+"p": false,
+"note": "Why the writer took yoga. \"at få dyrket motion\" is a typical phrase: to get some exercise.",
+"words": [
+[
+"sjældent",
+"rarely"
+],
+[
+"indimellem",
+"sometimes"
+],
+[
+"hverdagen",
+"everyday life"
+],
+[
+"stressende",
+"stressful"
+]
+]
+},
+{
+"da": "Derfor meldte jeg mig til dette kursus i yoga.",
+"en": "So I signed up for this yoga course.",
+"p": false,
+"note": "The writer signed up. \"melde sig til\" is a reflexive phrase: sign up for.",
+"words": [
+[
+"meldte",
+"signed up"
+]
+]
+},
+{
+"da": "Og det var virkelig både afstressende, fyldt med nærvær, og så var det et telefonfrit rum.",
+"en": "And it was really both relaxing and full of presence, and it was also a phone-free space.",
+"p": false,
+"note": "The course was relaxing. \"telefonfrit\" has -t after \"et\".",
+"words": [
+[
+"virkelig",
+"really"
+],
+[
+"afstressende",
+"relaxing"
+],
+[
+"nærvær",
+"presence"
+],
+[
+"telefonfrit",
+"phone-free"
+]
+]
+},
+{
+"da": "På kurset øver man sig i at skabe ro og balance, og selvom det var ret svært i begyndelsen, kunne jeg mærke en bedring gang for gang.",
+"en": "On the course you practise creating calm and balance, and although it was quite hard at first, I could feel an improvement each time.",
+"p": false,
+"note": "It got easier. After the \"selvom\"-clause, the main clause starts with the verb \"kunne\".",
+"words": [
+[
+"balance",
+"balance"
+],
+[
+"selvom",
+"although"
+],
+[
+"begyndelsen",
+"the beginning"
+],
+[
+"bedring",
+"improvement"
+]
+]
+},
+{
+"da": "Faktisk er jeg nu blevet bedre til at lægge telefonen til side derhjemme i hverdagen, og det hjælper mig med at bevare den ro, jeg har opnået på kurset.",
+"en": "In fact, I have now become better at putting my phone aside at home, and that helps me keep the calm I gained on the course.",
+"p": true,
+"note": "The writer uses the phone less. \"er blevet\" is the perfect of \"blive\".",
+"words": [
+[
+"Faktisk",
+"in fact"
+],
+[
+"telefonen",
+"the phone"
+],
+[
+"derhjemme",
+"at home"
+],
+[
+"opnået",
+"achieved"
+]
+]
+},
+{
+"da": "Jeg synes også, jeg kan mærke, at roen smitter af på resten af familien.",
+"en": "I also think I can feel the calm rubbing off on the rest of the family.",
+"p": false,
+"note": "The family is calmer too. \"smitte af på\" is a phrase: rub off on.",
+"words": [
+[
+"smitter",
+"rubs"
+],
+[
+"familien",
+"the family"
+]
+]
+},
+{
+"da": "På den måde kan man vel sige, at kurset har lært mig at være i nuet.",
+"en": "In that way, you could say the course has taught me to be in the moment.",
+"p": true,
+"note": "The course taught mindfulness. \"vel\" softens the statement: I suppose.",
+"words": [
+[
+"nuet",
+"the present moment"
+]
+]
+},
+{
+"da": "Jeg vil helt sikkert anbefale kurset til alle, jeg kender, der oplever en stresset hverdag, som jeg gjorde.",
+"en": "I will definitely recommend the course to everyone I know who has a stressful daily life, as I did.",
+"p": false,
+"note": "The writer recommends it. \"gjorde\" is the past of \"gøre\" and replaces the verb: as I did.",
+"words": [
+[
+"anbefale",
+"recommend"
+],
+[
+"oplever",
+"experience"
+],
+[
+"stresset",
+"stressful"
+]
+]
+},
+{
+"da": "Mona Sørensen",
+"en": "*Mona Sørensen*",
+"p": false,
+"note": "The name of the person who wrote the review."
+},
+{
+"da": "Guitarundervisning hos FOF i Kolding",
+"en": "Guitar lessons at FOF in Kolding",
+"p": true,
+"note": "The title of a review of a guitar course.",
+"words": [
+[
+"Guitarundervisning",
+"guitar lessons"
+]
+]
+},
+{
+"da": "I efteråret gik jeg til guitarundervisning for begyndere i Kolding, hvor jeg også arbejder.",
+"en": "In the autumn I took guitar lessons for beginners in Kolding, where I also work.",
+"p": false,
+"note": "The writer took a beginners' course. After \"I efteråret\" the verb \"gik\" comes before \"jeg\".",
+"words": [
+[
+"efteråret",
+"the autumn"
+],
+[
+"guitarundervisning",
+"guitar lessons"
+],
+[
+"begyndere",
+"beginners"
+]
+]
+},
+{
+"da": "Jeg havde her mulighed for at gå til guitar lige efter endt arbejdsdag i samme bygning, som jeg i forvejen arbejder i.",
+"en": "Here I could go to guitar lessons right after work in the same building I already work in.",
+"p": false,
+"note": "The lessons were at work. \"i forvejen\" means \"already\".",
+"words": [
+[
+"mulighed",
+"chance"
+],
+[
+"arbejdsdag",
+"working day"
+],
+[
+"bygning",
+"building"
+],
+[
+"forvejen",
+"already"
+]
+]
+},
+{
+"da": "Så kl. 20 fik jeg fri, og derefter kunne jeg bare gå to etager ned i bygningen og lære at spille guitar.",
+"en": "So at 8 pm I finished work, and then I could just go two floors down in the building and learn guitar.",
+"p": false,
+"note": "It was easy to get there. \"fik fri\" means \"finished work\".",
+"words": [
+[
+"derefter",
+"after that"
+],
+[
+"etager",
+"floors"
+],
+[
+"bygningen",
+"the building"
+]
+]
+},
+{
+"da": "Der var flere praktiske ting ved det, bl.a. sparede jeg tid på transporten, da jeg jo var der i forvejen.",
+"en": "There were several practical things about it; for example, I saved time on transport since I was already there.",
+"p": true,
+"note": "It saved time. \"da\" here means \"since/because\".",
+"words": [
+[
+"praktiske",
+"practical"
+],
+[
+"sparede",
+"saved"
+],
+[
+"transporten",
+"the transport"
+],
+[
+"forvejen",
+"already"
+]
+]
+},
+{
+"da": "Og så var jeg virkelig glad for, at undervisningen lå efter mine børns sengetid, så det ikke betød, at det gik ud over mit samvær med dem.",
+"en": "And I was really happy the lessons were after my children's bedtime, so it did not take time away from them.",
+"p": false,
+"note": "The timing suited family life. In the \"så\"-clause, \"ikke\" comes before the verb \"betød\".",
+"words": [
+[
+"undervisningen",
+"the teaching"
+],
+[
+"sengetid",
+"bedtime"
+],
+[
+"betød",
+"meant"
+],
+[
+"samvær",
+"time together"
+]
+]
+},
+{
+"da": "Selve undervisningen blev jeg bestemt heller ikke skuffet over, for underviseren er meget dygtig.",
+"en": "I was certainly not disappointed by the teaching itself either, because the teacher is very skilled.",
+"p": true,
+"note": "The teacher was good. The object \"Selve undervisningen\" is fronted, so the verb \"blev\" comes before \"jeg\".",
+"words": [
+[
+"undervisningen",
+"the teaching"
+],
+[
+"bestemt",
+"certainly"
+],
+[
+"skuffet",
+"disappointed"
+],
+[
+"underviseren",
+"the teacher"
+]
+]
+},
+{
+"da": "Og der bliver taget hensyn til ens personlige musikønsker, så uanset om man er til rock, pop, fællessang eller noget mere klassisk, finder han noget, der passer.",
+"en": "And your personal music wishes are taken into account, so whether you like rock, pop, sing-alongs or something more classical, he finds something that fits.",
+"p": false,
+"note": "The teacher adapts the music. \"bliver taget hensyn til\" is a passive: is taken into account.",
+"words": [
+[
+"hensyn",
+"consideration"
+],
+[
+"musikønsker",
+"music wishes"
+],
+[
+"uanset",
+"regardless"
+],
+[
+"fællessang",
+"community singing"
+]
+]
+},
+{
+"da": "Den eneste ulempe er, at det er dyrt at gå til guitar hos FOF, også selvom man medbringer sit eget instrument.",
+"en": "The only drawback is that guitar lessons at FOF are expensive, even if you bring your own instrument.",
+"p": true,
+"note": "The course is expensive. \"selvom\" means \"even though\".",
+"words": [
+[
+"ulempe",
+"drawback"
+],
+[
+"selvom",
+"even though"
+],
+[
+"medbringer",
+"bring"
+],
+[
+"instrument",
+"instrument"
+]
+]
+},
+{
+"da": "T. Jørgensen",
+"en": "*T. Jørgensen*",
+"p": false,
+"note": "The name of the person who wrote the review."
+},
+{
+"da": "Madlavningskursus hos LOF Syd (Padborg)",
+"en": "Cooking course at LOF South (Padborg)",
+"p": true,
+"note": "The title of a review of a cooking course.",
+"words": [
+[
+"Madlavningskursus",
+"cooking course"
+]
+]
+},
+{
+"da": "I foråret 2019 deltog jeg i et madlavningskursus hos LOF Syd.",
+"en": "In spring 2019 I took part in a cooking course at LOF South.",
+"p": false,
+"note": "When the writer took the course. \"deltog\" is the past of \"deltage\": took part.",
+"words": [
+[
+"foråret",
+"the spring"
+],
+[
+"deltog",
+"took part"
+],
+[
+"madlavningskursus",
+"cooking course"
+]
+]
+},
+{
+"da": "Og det var et rigtig godt kursus.",
+"en": "And it was a really good course.",
+"p": false,
+"note": "The writer liked it. \"godt\" has -t because \"kursus\" is an et-word.",
+"words": [
+[
+"rigtig",
+"really"
+]
+]
+},
+{
+"da": "Jeg lærte i første del af kurset rigtig meget om råvarer og god køkkenhygiejne.",
+"en": "In the first part of the course I learned a lot about ingredients and good kitchen hygiene.",
+"p": false,
+"note": "What the first part covered. \"lærte\" is the past tense of \"lære\".",
+"words": [
+[
+"råvarer",
+"ingredients"
+],
+[
+"køkkenhygiejne",
+"kitchen hygiene"
+]
+]
+},
+{
+"da": "Men det bedste var alligevel, at vi lærte at tilberede et festmåltid, som jeg faktisk vil kunne lave derhjemme også.",
+"en": "But the best thing was that we learned to cook a festive meal that I can actually make at home too.",
+"p": false,
+"note": "The best part was the party meal. \"vil kunne\" means \"will be able to\".",
+"words": [
+[
+"alligevel",
+"after all"
+],
+[
+"tilberede",
+"prepare"
+],
+[
+"festmåltid",
+"festive meal"
+],
+[
+"derhjemme",
+"at home"
+]
+]
+},
+{
+"da": "Jeg har tidligere været på et madlavningskursus, hvor det nærmest var umuligt efterfølgende at gentage det, som jeg havde lært på kurset, derhjemme.",
+"en": "I have been on a cooking course before where it was almost impossible afterwards to repeat at home what I had learned.",
+"p": true,
+"note": "An earlier course was bad. \"havde lært\" is the past perfect: had learned.",
+"words": [
+[
+"tidligere",
+"before"
+],
+[
+"nærmest",
+"almost"
+],
+[
+"umuligt",
+"impossible"
+],
+[
+"efterfølgende",
+"afterwards"
+]
+]
+},
+{
+"da": "Det skyldtes, at læreren udførte de svære opgaver for os i stedet for at lade os forsøge selv.",
+"en": "That was because the teacher did the hard tasks for us instead of letting us try ourselves.",
+"p": false,
+"note": "Why it was bad. \"skyldtes\" is the past of \"skyldes\": was due to.",
+"words": [
+[
+"skyldtes",
+"was due to"
+],
+[
+"udførte",
+"carried out"
+],
+[
+"opgaver",
+"tasks"
+],
+[
+"forsøge",
+"try"
+]
+]
+},
+{
+"da": "Men på dette kursus var underviseren meget kompetent, og hun sikrede, at vi alle lærte stegeteknikkerne.",
+"en": "But on this course the teacher was very competent, and she made sure we all learned the frying techniques.",
+"p": false,
+"note": "This teacher was better. After the fronted \"på dette kursus\" the verb \"var\" comes first.",
+"words": [
+[
+"underviseren",
+"the teacher"
+],
+[
+"kompetent",
+"competent"
+],
+[
+"sikrede",
+"ensured"
+],
+[
+"stegeteknikkerne",
+"the frying techniques"
+]
+]
+},
+{
+"da": "Det gjorde hun ved at lade os prøve selv trin for trin.",
+"en": "She did this by letting us try ourselves step by step.",
+"p": false,
+"note": "How she taught. \"trin for trin\" is a phrase: step by step."
+},
+{
+"da": "I slutningen af timen gav hun os desuden et link til en video, hvor hun forklarer de nye stegeteknikker.",
+"en": "At the end of the lesson she also gave us a link to a video where she explains the new frying techniques.",
+"p": true,
+"note": "They got a video. \"gav\" is the past tense of \"give\".",
+"words": [
+[
+"slutningen",
+"the end"
+],
+[
+"desuden",
+"also"
+],
+[
+"forklarer",
+"explains"
+],
+[
+"stegeteknikker",
+"frying techniques"
+]
+]
+},
+{
+"da": "Den video sikrer, at vi altid kan få genopfrisket det, vi lærte på kurset.",
+"en": "That video makes sure we can always refresh what we learned on the course.",
+"p": false,
+"note": "The video helps you remember. \"få genopfrisket\" means \"get refreshed\".",
+"words": [
+[
+"genopfrisket",
+"refreshed"
+]
+]
+},
+{
+"da": "Vinni Holm",
+"en": "*Vinni Holm*",
+"p": false,
+"note": "The name of the person who wrote the review."
+},
+{
+"da": "INFORMATIONER FRA DANSK OPLYSNINGS FORBUND (DOF)",
+"en": "INFORMATION FROM THE DANISH EDUCATION ASSOCIATION (DOF)",
+"p": true,
+"note": "A chapter title: information from DOF.",
+"words": [
+[
+"INFORMATIONER",
+"information"
+]
+]
+},
+{
+"da": "Om Dansk Oplysnings Forbund (DOF)",
+"en": "About the Danish Education Association (DOF)",
+"p": true,
+"note": "A heading. \"Om\" here means \"about\"."
+},
+{
+"da": "Dansk Oplysnings Forbund er en landsorganisation for aftenskoler, der ønsker at udbrede folkeoplysning på et frit og neutralt grundlag – uafhængigt af partipolitik.",
+"en": "The Danish Education Association is a national organisation for evening schools that want to spread popular education on a free and neutral basis – independent of party politics.",
+"p": false,
+"note": "DOF is not linked to a party. \"et frit og neutralt grundlag\": adjectives take -t after \"et\".",
+"words": [
+[
+"landsorganisation",
+"national organisation"
+],
+[
+"aftenskoler",
+"evening schools"
+],
+[
+"uafhængigt",
+"independent"
+],
+[
+"partipolitik",
+"party politics"
+]
+]
+},
+{
+"da": "DOF’s landsorganisation omfatter omkring 250 aftenskoleforeninger samt enkelte daghøjskoler og sprogskoler fordelt over hele Danmark.",
+"en": "DOF's national organisation includes about 250 evening school associations as well as a few day high schools and language schools all over Denmark.",
+"p": true,
+"note": "DOF has many member schools. \"samt\" is a formal word for \"and also\".",
+"words": [
+[
+"omfatter",
+"includes"
+],
+[
+"aftenskoleforeninger",
+"evening school associations"
+],
+[
+"daghøjskoler",
+"day high schools"
+],
+[
+"sprogskoler",
+"language schools"
+]
+]
+},
+{
+"da": "DOF’s skoler forestår årligt undervisning for ca. 160.000 kursusdeltagere.",
+"en": "DOF's schools teach about 160,000 participants every year.",
+"p": false,
+"note": "How many students DOF has. \"forestår\" is a formal verb: are in charge of.",
+"words": [
+[
+"forestår",
+"are in charge of"
+],
+[
+"årligt",
+"yearly"
+],
+[
+"undervisning",
+"teaching"
+],
+[
+"kursusdeltagere",
+"participants"
+]
+]
+},
+{
+"da": "Landsorganisationen støtter medlemsskolerne i deres daglige virke på en lang række områder.",
+"en": "The national organisation supports the member schools in their daily work in many areas.",
+"p": true,
+"note": "DOF helps its schools. \"daglige\" has -e after \"deres\".",
+"words": [
+[
+"Landsorganisationen",
+"the national organisation"
+],
+[
+"medlemsskolerne",
+"the member schools"
+],
+[
+"daglige",
+"daily"
+],
+[
+"områder",
+"areas"
+]
+]
+},
+{
+"da": "Det sker ved på den ene side at give rådgivning, inspiration, viden, projektstøtte og netværk til medlemsskolerne og på den anden side at arbejde for bedre rammer for aftenskolerne på det politiske niveau – både lokalt og nationalt.",
+"en": "This happens by giving advice, inspiration, knowledge, project support and networks to the schools on one hand, and on the other hand working for better conditions for evening schools at the political level – both locally and nationally.",
+"p": false,
+"note": "DOF helps in two ways. \"på den ene side ... på den anden side\" means \"on one hand ... on the other hand\".",
+"words": [
+[
+"rådgivning",
+"advice"
+],
+[
+"projektstøtte",
+"project support"
+],
+[
+"rammer",
+"framework, conditions"
+],
+[
+"politiske",
+"political"
+]
+]
+},
+{
+"da": "Om hjemmesiden DOF Underviser",
+"en": "About the website DOF Underviser",
+"p": true,
+"note": "A heading about a website for teachers.",
+"words": [
+[
+"hjemmesiden",
+"the website"
+],
+[
+"Underviser",
+"teacher"
+]
+]
+},
+{
+"da": "DOF Underviser er en hjemmeside for dem, der er underviser i aftenskolen.",
+"en": "*DOF Underviser* is a website for those who teach at evening school.",
+"p": false,
+"note": "What the website is. \"dem, der\" means \"those who\".",
+"words": [
+[
+"hjemmeside",
+"website"
+],
+[
+"underviser",
+"teacher"
+],
+[
+"aftenskolen",
+"the evening school"
+]
+]
+},
+{
+"da": "Siden er først og fremmest for undervisere i en af DOF’s aftenskoler, men andre skolers undervisere er også velkomne til at kigge med.",
+"en": "The site is first and foremost for teachers at DOF's evening schools, but teachers from other schools are also welcome to look.",
+"p": false,
+"note": "Others can use it too. \"først og fremmest\" is a phrase: first and foremost.",
+"words": [
+[
+"fremmest",
+"foremost"
+],
+[
+"undervisere",
+"teachers"
+],
+[
+"skolers",
+"schools'"
+],
+[
+"velkomne",
+"welcome"
+]
+]
+},
+{
+"da": "Der er blot nogle af tilbuddene, der kun kan benyttes af undervisere tilknyttet en DOF-skole.",
+"en": "Only some of the offers can be used only by teachers linked to a DOF school.",
+"p": false,
+"note": "Some things are only for DOF teachers. \"kan benyttes\" is a modal verb plus passive -s: can be used.",
+"words": [
+[
+"tilbuddene",
+"the offers"
+],
+[
+"benyttes",
+"be used"
+],
+[
+"undervisere",
+"teachers"
+],
+[
+"tilknyttet",
+"attached to"
+]
+]
+},
+{
+"da": "Baggrunden for hjemmesiden DOF Underviser",
+"en": "The background for the website DOF Underviser",
+"p": true,
+"note": "A heading: why the website was made.",
+"words": [
+[
+"Baggrunden",
+"the background"
+],
+[
+"hjemmesiden",
+"the website"
+]
+]
+},
+{
+"da": "Jobbet som aftenskoleunderviser er lidt specielt i forhold til mange andre job.",
+"en": "The job as an evening school teacher is a bit special compared to many other jobs.",
+"p": false,
+"note": "The job is unusual. \"specielt\" has -t because \"jobbet\" is an et-word.",
+"words": [
+[
+"aftenskoleunderviser",
+"evening school teacher"
+],
+[
+"specielt",
+"special"
+]
+]
+},
+{
+"da": "Selv om man omgås en masse andre mennesker, så er det oftest sparsomt med kollegial sparring.",
+"en": "Even though you deal with lots of other people, there is usually little feedback from colleagues.",
+"p": false,
+"note": "Teachers are often alone. \"omgås\" is a verb ending in -s: to mix with.",
+"words": [
+[
+"omgås",
+"mix with"
+],
+[
+"sparsomt",
+"scarce"
+],
+[
+"kollegial",
+"collegial"
+],
+[
+"sparring",
+"feedback, sparring"
+]
+]
+},
+{
+"da": "Der er sjældent et lærerværelse, hvor man kan få en sludder – eller finde materiale om faget.",
+"en": "There is rarely a staff room where you can have a chat – or find material about your subject.",
+"p": false,
+"note": "There is no staff room. \"hvor\" begins a relative clause about a place.",
+"words": [
+[
+"sjældent",
+"rarely"
+],
+[
+"lærerværelse",
+"staff room"
+],
+[
+"sludder",
+"chat"
+],
+[
+"materiale",
+"material"
+]
+]
+},
+{
+"da": "Det er heller ikke alle aftenskoler, der holder lærermøder – for det kan blandt andet være svært at finde et tidspunkt, hvor alle skolens undervisere kan mødes.",
+"en": "Not all evening schools hold teachers' meetings either – partly because it can be hard to find a time when all the teachers can meet.",
+"p": false,
+"note": "Meetings are rare. \"heller ikke\" means \"not ... either\".",
+"words": [
+[
+"aftenskoler",
+"evening schools"
+],
+[
+"lærermøder",
+"teachers' meetings"
+],
+[
+"tidspunkt",
+"time"
+],
+[
+"mødes",
+"meet"
+]
+]
+},
+{
+"da": "Men aftenskoleundervisere kan have lige så meget brug for at udvikle sig, som alle andre.",
+"en": "But evening school teachers can need to develop just as much as everyone else.",
+"p": true,
+"note": "They also need to learn. \"have brug for\" means \"need\".",
+"words": [
+[
+"aftenskoleundervisere",
+"evening school teachers"
+],
+[
+"udvikle",
+"develop"
+]
+]
+},
+{
+"da": "Derfor har DOF lavet DOF Underviser, der kan være undervisernes sparringspartner til at udvikle sig som underviser i aftenskolen.",
+"en": "That is why DOF made *DOF Underviser*, which can be the teachers' sparring partner to develop as evening school teachers.",
+"p": false,
+"note": "Why the site exists. After \"Derfor\" the verb \"har\" comes before \"DOF\".",
+"words": [
+[
+"undervisernes",
+"the teachers'"
+],
+[
+"sparringspartner",
+"sparring partner"
+],
+[
+"aftenskolen",
+"the evening school"
+]
+]
+},
+{
+"da": "Formålet med siden kan deles op i tre overordnede områder:",
+"en": "The purpose of the site can be divided into three main areas:",
+"p": true,
+"note": "This introduces a list. \"kan deles op\" is a modal verb plus passive -s: can be divided.",
+"words": [
+[
+"Formålet",
+"the purpose"
+],
+[
+"deles",
+"be divided"
+],
+[
+"overordnede",
+"main, overall"
+],
+[
+"områder",
+"areas"
+]
+]
+},
+{
+"da": "• Inspiration",
+"en": "• Inspiration",
+"p": false,
+"note": "The first area in the list.",
+"words": [
+[
+"Inspiration",
+"inspiration"
+]
+]
+},
+{
+"da": "• Ny viden",
+"en": "• New knowledge",
+"p": false,
+"note": "The second area in the list. \"viden\" has no plural form."
+},
+{
+"da": "• Kurser og efteruddannelse",
+"en": "• Courses and further education",
+"p": false,
+"note": "The third area in the list.",
+"words": [
+[
+"efteruddannelse",
+"further education"
+]
+]
+},
+{
+"da": "Inspiration",
+"en": "Inspiration",
+"p": true,
+"note": "A heading for the first area.",
+"words": [
+[
+"Inspiration",
+"inspiration"
+]
+]
+},
+{
+"da": "Mange undervisere har helt styr på deres fag, men måske ikke den seneste forskning inden for undervisning eller voksenpædagogik.",
+"en": "Many teachers know their subject well, but perhaps not the latest research in teaching or adult education.",
+"p": false,
+"note": "Teachers may not know new research. \"have styr på\" means \"be on top of\".",
+"words": [
+[
+"undervisere",
+"teachers"
+],
+[
+"seneste",
+"latest"
+],
+[
+"forskning",
+"research"
+],
+[
+"voksenpædagogik",
+"adult pedagogy"
+]
+]
+},
+{
+"da": "Man kender måske ikke alle de forskellige muligheder for at tilrettelægge kurserne anderledes end den traditionelle med lærer og elever i et klasselokale.",
+"en": "You may not know all the different ways of planning courses other than the traditional one with a teacher and pupils in a classroom.",
+"p": true,
+"note": "There are other ways to teach. \"anderledes end\" means \"different from\".",
+"words": [
+[
+"forskellige",
+"different"
+],
+[
+"muligheder",
+"possibilities"
+],
+[
+"tilrettelægge",
+"plan"
+],
+[
+"klasselokale",
+"classroom"
+]
+]
+},
+{
+"da": "Man har måske heller ikke styr på den elektroniske udvikling og hvilke værktøjer, der måske kan gøre ens undervisning endnu bedre.",
+"en": "You may not be on top of electronic developments either, and which tools might make your teaching even better.",
+"p": true,
+"note": "Teachers can learn about digital tools. \"endnu bedre\" means \"even better\".",
+"words": [
+[
+"elektroniske",
+"electronic"
+],
+[
+"udvikling",
+"development"
+],
+[
+"værktøjer",
+"tools"
+],
+[
+"undervisning",
+"teaching"
+]
+]
+},
+{
+"da": "Endelig har man måske brug for inspiration til, hvad man skal gøre for at tilføre noget særegent folkeoplysende i sin undervisning.",
+"en": "Finally, you may need inspiration for what to do to add something special from popular education to your teaching.",
+"p": true,
+"note": "Teachers may want new ideas. After \"Endelig\" the verb \"har\" comes before \"man\".",
+"words": [
+[
+"Endelig",
+"finally"
+],
+[
+"tilføre",
+"add"
+],
+[
+"særegent",
+"distinctive"
+],
+[
+"folkeoplysende",
+"popular-educational"
+]
+]
+},
+{
+"da": "DOF vil gerne inspirere underviserne til hele tiden at udvikle sig som undervisere inden for alle de områder, der er relevante for aftenskolen.",
+"en": "DOF wants to inspire the teachers to keep developing as teachers in all areas relevant to evening school.",
+"p": true,
+"note": "DOF wants teachers to keep learning. \"hele tiden\" means \"all the time\".",
+"words": [
+[
+"inspirere",
+"inspire"
+],
+[
+"underviserne",
+"the teachers"
+],
+[
+"relevante",
+"relevant"
+],
+[
+"aftenskolen",
+"the evening school"
+]
+]
+},
+{
+"da": "Ny viden",
+"en": "New knowledge",
+"p": true,
+"note": "A heading for the second area."
+},
+{
+"da": "Aftenskolen er under konstant forandring.",
+"en": "The evening school is constantly changing.",
+"p": false,
+"note": "Things change all the time. \"under forandring\" means \"changing\".",
+"words": [
+[
+"Aftenskolen",
+"the evening school"
+],
+[
+"konstant",
+"constant"
+],
+[
+"forandring",
+"change"
+]
+]
+},
+{
+"da": "Rammerne ændrer sig løbende, og nye muligheder dukker op.",
+"en": "The conditions change all the time, and new opportunities appear.",
+"p": false,
+"note": "Rules change. \"ændrer sig\" is reflexive; \"dukker op\" means \"appear\".",
+"words": [
+[
+"Rammerne",
+"the framework"
+],
+[
+"løbende",
+"continuously"
+],
+[
+"muligheder",
+"opportunities"
+]
+]
+},
+{
+"da": "DOF vil gerne sørge for at al relevant viden kommer ud til dem, der kan have glæde af det.",
+"en": "DOF wants to make sure all relevant knowledge reaches those who can benefit from it.",
+"p": true,
+"note": "DOF shares news. \"have glæde af\" means \"benefit from\".",
+"words": [
+[
+"relevant",
+"relevant"
+]
+]
+},
+{
+"da": "Det kan være alt lige fra relevante puljer til ny lovgivning.",
+"en": "It can be anything from relevant funds to new laws.",
+"p": false,
+"note": "Examples of news. \"alt lige fra ... til\" means \"everything from ... to\".",
+"words": [
+[
+"relevante",
+"relevant"
+],
+[
+"puljer",
+"funds"
+],
+[
+"lovgivning",
+"legislation"
+]
+]
+},
+{
+"da": "Kurser og efteruddannelse",
+"en": "Courses and further education",
+"p": true,
+"note": "A heading for the third area.",
+"words": [
+[
+"efteruddannelse",
+"further education"
+]
+]
+},
+{
+"da": "DOF mener, at kurser og efteruddannelse er essentielt for at forblive en god underviser.",
+"en": "DOF believes that courses and further education are essential to remain a good teacher.",
+"p": false,
+"note": "Teachers need more training. In the \"at\"-clause the word order is normal: subject before verb.",
+"words": [
+[
+"efteruddannelse",
+"further education"
+],
+[
+"essentielt",
+"essential"
+],
+[
+"forblive",
+"remain"
+],
+[
+"underviser",
+"teacher"
+]
+]
+},
+{
+"da": "DOF formidler derfor information om kurser – både information om dem, DOF selv afholder, og information om de støttemuligheder, DOF stiller til rådighed i forhold til andres kurser.",
+"en": "So DOF passes on information about courses – both its own courses and the funding options DOF makes available for other organisers' courses.",
+"p": false,
+"note": "DOF shares course info. \"stille til rådighed\" means \"make available\".",
+"words": [
+[
+"formidler",
+"passes on"
+],
+[
+"afholder",
+"holds"
+],
+[
+"støttemuligheder",
+"funding options"
+],
+[
+"rådighed",
+"disposal"
+]
+]
+},
+{
+"da": "Underviserjobs i aftenskolen",
+"en": "Teaching jobs at evening school",
+"p": true,
+"note": "A heading about jobs for teachers.",
+"words": [
+[
+"Underviserjobs",
+"teaching jobs"
+],
+[
+"aftenskolen",
+"the evening school"
+]
+]
+},
+{
+"da": "Der er brug for mange forskellige undervisningskompetencer, da aftenskolerne udbyder kurser inden for et alsidigt udvalg af fag.",
+"en": "Many different teaching skills are needed, since evening schools offer courses in a wide range of subjects.",
+"p": false,
+"note": "Many kinds of teachers are needed. \"da\" here means \"since\"; \"alsidigt\" has -t after \"et\".",
+"words": [
+[
+"undervisningskompetencer",
+"teaching skills"
+],
+[
+"aftenskolerne",
+"the evening schools"
+],
+[
+"alsidigt",
+"varied"
+],
+[
+"udvalg",
+"selection"
+]
+]
+},
+{
+"da": "Det kan være undervisningsjob inden for musik og sang, inden for motion og bevægelse – fx forældre/barn-gymnastik eller yoga, madlavning for forskellige grupper eller madkultur fra et specifikt land/område, kreative fag eller forskellige jobrelaterede kurser.",
+"en": "It can be teaching jobs in music and singing, exercise and movement – for example parent/child gymnastics or yoga, cooking for different groups or food culture from a specific country/area, creative subjects or various job-related courses.",
+"p": false,
+"note": "Examples of jobs. \"inden for\" means \"within\" a field.",
+"words": [
+[
+"undervisningsjob",
+"teaching job"
+],
+[
+"bevægelse",
+"movement"
+],
+[
+"madkultur",
+"food culture"
+],
+[
+"jobrelaterede",
+"job-related"
+]
+]
+},
+{
+"da": "Man har også mulighed for at blive sprogunderviser, fx i polsk, kinesisk, russisk, arabisk, islandsk eller fransk.",
+"en": "You can also become a language teacher, for example in Polish, Chinese, Russian, Arabic, Icelandic or French.",
+"p": true,
+"note": "You can teach languages. Language names are written with small letters in Danish.",
+"words": [
+[
+"sprogunderviser",
+"language teacher"
+],
+[
+"kinesisk",
+"Chinese"
+],
+[
+"islandsk",
+"Icelandic"
+]
+]
+},
+{
+"da": "Har man ikke dansk som modersmål, er det dog et krav, at man har lært både at tale, læse og skrive dansk.",
+"en": "If Danish is not your mother tongue, you must still have learned to speak, read and write Danish.",
+"p": false,
+"note": "You must know Danish. The verb first (\"Har man\") works like \"hvis\": if.",
+"words": [
+[
+"modersmål",
+"mother tongue"
+],
+[
+"krav",
+"requirement"
+]
+]
+},
+{
+"da": "Kilde: Teksterne i tekstsamlingen er redigerede og/eller bearbejdede på baggrund af bl.a. da.wikipedia.org, fora.dk, danmarkshistorien.dk, politiken.dk, kristeligt-dagblad.dk, aof.dk, fof.dk, lof.dk, jobindexarkiv.dk og danskoplysning.dk, hentet 2019.",
+"en": "Source: The texts in the collection are edited and/or adapted based on, among others, these websites, retrieved 2019.",
+"p": true,
+"note": "A note about the sources. \"redigerede\" has -e because it describes the plural \"Teksterne\".",
+"words": [
+[
+"tekstsamlingen",
+"the text collection"
+],
+[
+"redigerede",
+"edited"
+],
+[
+"bearbejdede",
+"adapted"
+],
+[
+"baggrund",
+"basis"
+]
+]
+}
+]
+},
+"pd3-21m-1": {
+"lines": [
+{
+"da": "Indhold",
+"en": "Contents",
+"p": true,
+"note": "A heading: the table of contents of the booklet.",
+"words": [
+[
+"Indhold",
+"contents"
+]
+]
+},
+{
+"da": "Anmeldelser af forskellige teaterforestillinger … 3",
+"en": "Reviews of various theatre performances … 3",
+"p": true,
+"note": "A chapter title on page 3. \"forskellige\" ends in -e because the noun is plural.",
+"words": [
+[
+"Anmeldelser",
+"reviews"
+],
+[
+"forskellige",
+"various"
+],
+[
+"teaterforestillinger",
+"theatre performances"
+]
+]
+},
+{
+"da": "Cykelmyggen Egon, Østre Gasværk Teater … 3",
+"en": "Egon the Bicycle Mosquito, Østre Gasværk Theatre … 3",
+"p": false,
+"note": "A review title: the play's name and the theatre, on page 3.",
+"words": [
+[
+"Cykelmyggen",
+"the bicycle mosquito"
+]
+]
+},
+{
+"da": "Erasmus Montanus, Aarhus Teater … 4",
+"en": "Erasmus Montanus, Aarhus Theatre … 4",
+"p": false,
+"note": "A review title: the play's name and the theatre, on page 4."
+},
+{
+"da": "Midt om natten, Tivolis Koncertsal … 4",
+"en": "In the Middle of the Night, Tivoli's Concert Hall … 4",
+"p": false,
+"note": "A review title. \"Tivolis\" has a genitive -s: Tivoli's.",
+"words": [
+[
+"Koncertsal",
+"concert hall"
+]
+]
+},
+{
+"da": "Besat, Bornholms Teater i Rønne Theater … 5",
+"en": "Occupied, Bornholm's Theatre in Rønne Theatre … 5",
+"p": false,
+"note": "A review title. \"Besat\" is a past participle: occupied.",
+"words": [
+[
+"Besat",
+"occupied"
+]
+]
+},
+{
+"da": "Tre danske teatre … 7",
+"en": "Three Danish theatres … 7",
+"p": false,
+"note": "A chapter title. \"teatre\" is the plural of \"teater\".",
+"words": [
+[
+"teatre",
+"theatres"
+]
+]
+},
+{
+"da": "Det Kongelige Teater … 7",
+"en": "The Royal Theatre … 7",
+"p": false,
+"note": "A section title. \"Kongelige\" ends in -e after \"Det\": the definite form.",
+"words": [
+[
+"Kongelige",
+"royal"
+]
+]
+},
+{
+"da": "Aarhus Teater … 8",
+"en": "Aarhus Theatre … 8",
+"p": false,
+"note": "A section title, on page 8."
+},
+{
+"da": "Bornholms Teater … 9",
+"en": "Bornholm's Theatre … 9",
+"p": false,
+"note": "A section title. \"Bornholms\" has a genitive -s."
+},
+{
+"da": "Rundvisninger på tre danske teatre … 12",
+"en": "Guided tours at three Danish theatres … 12",
+"p": false,
+"note": "A chapter title. Note \"på\" with places like a theatre.",
+"words": [
+[
+"Rundvisninger",
+"guided tours"
+]
+]
+},
+{
+"da": "Det Kongelige Teater – rundvisninger i alle tre huse … 12",
+"en": "The Royal Theatre – guided tours in all three buildings … 12",
+"p": false,
+"note": "A section title. \"huse\" is the plural of \"hus\".",
+"words": [
+[
+"rundvisninger",
+"guided tours"
+]
+]
+},
+{
+"da": "Aarhus Teater – bag kulissen … 14",
+"en": "Aarhus Theatre – behind the scenes … 14",
+"p": false,
+"note": "A section title. \"bag kulissen\" is a phrase: behind the scenes.",
+"words": [
+[
+"kulissen",
+"the stage set"
+]
+]
+},
+{
+"da": "Guidet tur i Rønne Theater … 14",
+"en": "Guided tour in Rønne Theatre … 14",
+"p": false,
+"note": "A section title, on page 14.",
+"words": [
+[
+"Guidet",
+"guided"
+]
+]
+},
+{
+"da": "Danske teaterpriser … 16",
+"en": "Danish theatre prizes … 16",
+"p": false,
+"note": "A chapter title. \"teaterpriser\" is a compound: teater plus priser.",
+"words": [
+[
+"teaterpriser",
+"theatre prizes"
+]
+]
+},
+{
+"da": "Kjeld Abell-prisen … 16",
+"en": "The Kjeld Abell Prize … 16",
+"p": false,
+"note": "A section title: a prize named after a person."
+},
+{
+"da": "Teaterpokalen … 16",
+"en": "The Theatre Cup … 16",
+"p": false,
+"note": "A section title. The ending -en makes it definite: the cup.",
+"words": [
+[
+"Teaterpokalen",
+"the theatre cup"
+]
+]
+},
+{
+"da": "Danske Dramatikeres Hæderspris … 16",
+"en": "The Danish Playwrights' Prize of Honour … 16",
+"p": false,
+"note": "A section title. \"Dramatikeres\" is a plural genitive: the playwrights'.",
+"words": [
+[
+"Dramatikeres",
+"playwrights'"
+],
+[
+"Hæderspris",
+"prize of honour"
+]
+]
+},
+{
+"da": "Årets Reumert … 17",
+"en": "The Reumert of the Year … 17",
+"p": false,
+"note": "A section title. \"Årets\" means \"of the year\", a common phrase for awards.",
+"words": [
+[
+"Årets",
+"the year's"
+]
+]
+},
+{
+"da": "ANMELDELSER AF FORSKELLIGE TEATERFORESTILLINGER",
+"en": "REVIEWS OF VARIOUS THEATRE PERFORMANCES",
+"p": true,
+"note": "The title of the first chapter: theatre reviews.",
+"words": [
+[
+"ANMELDELSER",
+"reviews"
+],
+[
+"TEATERFORESTILLINGER",
+"theatre performances"
+]
+]
+},
+{
+"da": "Cykelmyggen Egon, Østre Gasværk Teater",
+"en": "Egon the Bicycle Mosquito, Østre Gasværk Theatre",
+"p": true,
+"note": "The title of the first review: the play and the theatre.",
+"words": [
+[
+"Cykelmyggen",
+"the bicycle mosquito"
+]
+]
+},
+{
+"da": "Af Signe Larsen",
+"en": "By Signe Larsen",
+"p": false,
+"note": "The name of the writer. \"Af\" means \"by\" here."
+},
+{
+"da": "Den klassiske danske børnebog om cykelmyggen Egon er blevet til et teaterstykke.",
+"en": "The classic Danish children's book about Egon the bicycle mosquito has become a play.",
+"p": true,
+"note": "A famous children's book is now a play. \"er blevet til\" is the perfect tense of \"blive til\": has become.",
+"words": [
+[
+"klassiske",
+"classic"
+],
+[
+"børnebog",
+"children's book"
+],
+[
+"teaterstykke",
+"play"
+]
+]
+},
+{
+"da": "Flemming Quist Møller, forklædt som en sommerfugl, er på scenen og læser op af sin berømte billedbog fra 1967, mens en skuespiller suser rundt på scenen og laver smarte tricks med sin artistcykel.",
+"en": "Flemming Quist Møller, dressed as a butterfly, is on stage reading from his famous picture book from 1967, while an actor zooms around the stage doing smart tricks on his stunt bike.",
+"p": false,
+"note": "The author reads while an actor does bike tricks. \"sin\" refers back to the subject: his own book.",
+"words": [
+[
+"forklædt",
+"dressed up"
+],
+[
+"sommerfugl",
+"butterfly"
+],
+[
+"skuespiller",
+"actor"
+],
+[
+"artistcykel",
+"stunt bike"
+]
+]
+},
+{
+"da": "Det er egentlig en simpel historie: Egon møder en sød dansemyg, der hedder Dagmar, han får hende ud af kæmpeedderkoppens net, og de lever lykkeligt til deres dages ende.",
+"en": "It is actually a simple story: Egon meets a sweet dancing mosquito called Dagmar, he gets her out of the giant spider's web, and they live happily ever after.",
+"p": false,
+"note": "The plot is simple and ends happily. \"til deres dages ende\" is a fixed phrase: ever after.",
+"words": [
+[
+"egentlig",
+"actually"
+],
+[
+"dansemyg",
+"dancing mosquito"
+],
+[
+"kæmpeedderkoppens",
+"the giant spider's"
+],
+[
+"lykkeligt",
+"happily"
+]
+]
+},
+{
+"da": "Det er alt det, der er at se på i forestillingen, der gør den sjov og flot.",
+"en": "It is all the things to look at in the show that make it fun and beautiful.",
+"p": true,
+"note": "The visual details make the show good. \"Det er … der\" is a cleft sentence that stresses one part.",
+"words": [
+[
+"forestillingen",
+"the performance"
+]
+]
+},
+{
+"da": "Det er eventyrlige dekorationer og farvestrålende kostumer.",
+"en": "There are fairy-tale sets and colourful costumes.",
+"p": false,
+"note": "The sets and costumes are lovely. The adjectives end in -e because the nouns are plural.",
+"words": [
+[
+"eventyrlige",
+"fairy-tale"
+],
+[
+"dekorationer",
+"sets, decorations"
+],
+[
+"farvestrålende",
+"brightly coloured"
+],
+[
+"kostumer",
+"costumes"
+]
+]
+},
+{
+"da": "Og det er forfatteren Flemming Quist Møller, der fortæller undervejs fra sin store bog og bliver et karismatisk centrum for mylderet af små fortællinger om dyrene omkring ham.",
+"en": "And it is the author Flemming Quist Møller who tells from his big book along the way and becomes a charismatic centre for the crowd of little stories about the animals around him.",
+"p": false,
+"note": "The author is the centre of the show. \"et karismatisk centrum\" has -t because \"centrum\" is an et-word.",
+"words": [
+[
+"forfatteren",
+"the author"
+],
+[
+"undervejs",
+"along the way"
+],
+[
+"karismatisk",
+"charismatic"
+],
+[
+"fortællinger",
+"stories"
+]
+]
+},
+{
+"da": "Hele menageriet af venlige og uvenlige væsener.",
+"en": "The whole menagerie of friendly and unfriendly creatures.",
+"p": false,
+"note": "A short fragment describing all the animals. The prefix \"u-\" makes the opposite: venlig, uvenlig.",
+"words": [
+[
+"menageriet",
+"the menagerie"
+],
+[
+"uvenlige",
+"unfriendly"
+],
+[
+"væsener",
+"creatures"
+]
+]
+},
+{
+"da": "Det er sjovt og flot.",
+"en": "It is fun and beautiful.",
+"p": false,
+"note": "A short verdict. The adjectives get -t because \"det\" is neuter."
+},
+{
+"da": "Noget for alle",
+"en": "Something for everyone",
+"p": true,
+"note": "A heading: the show is for everyone."
+},
+{
+"da": "Det er en rigtig familieforestilling.",
+"en": "It is a real family show.",
+"p": false,
+"note": "The show suits whole families. \"familieforestilling\" is a compound noun.",
+"words": [
+[
+"familieforestilling",
+"family show"
+]
+]
+},
+{
+"da": "Til de yngste er scenen befolket af flotte insekter taget lige ud af billedbogen.",
+"en": "For the youngest, the stage is filled with beautiful insects taken straight out of the picture book.",
+"p": false,
+"note": "Small children will love the insects. After the fronted \"Til de yngste\", the verb \"er\" comes before the subject.",
+"words": [
+[
+"befolket",
+"populated"
+],
+[
+"insekter",
+"insects"
+],
+[
+"billedbogen",
+"the picture book"
+]
+]
+},
+{
+"da": "De voksne vil more sig over de to robotdrenge, der som vagtbier kører en sand ordflom over ordet bi: ”Bilisterne bistår biblen og bisætter… – altså, Fy og Bi, gider I lige!”",
+"en": "The adults will be amused by the two robot boys who, as guard bees, do a real flood of word play on the word \"bi\": \"The drivers assist the Bible and bury… – come on, Fy and Bi, really!\"",
+"p": false,
+"note": "Adults will enjoy the word jokes. \"more sig\" is a reflexive verb: to have fun.",
+"words": [
+[
+"robotdrenge",
+"robot boys"
+],
+[
+"vagtbier",
+"guard bees"
+],
+[
+"ordflom",
+"flood of words"
+],
+[
+"Bilisterne",
+"the drivers"
+]
+]
+},
+{
+"da": "Endelig vil bedsteforældrene glæde sig ved Flemming Quist Møllers dejlige oplæsning, og alle vil grine sammen, når Møgbillen og Røvbillen slår kæmpeprutter: Prut er altid en vinder på teaterscenen.",
+"en": "Finally, the grandparents will enjoy Flemming Quist Møller's lovely reading, and everyone will laugh together when the dung beetles fart loudly: farts always win on stage.",
+"p": false,
+"note": "Grandparents and everyone get something too. After \"Endelig\", the verb \"vil\" comes before the subject (inversion).",
+"words": [
+[
+"bedsteforældrene",
+"the grandparents"
+],
+[
+"oplæsning",
+"reading aloud"
+],
+[
+"kæmpeprutter",
+"giant farts"
+],
+[
+"teaterscenen",
+"the theatre stage"
+]
+]
+},
+{
+"da": "Teateret anbefaler en minimumsalder på tre år, fordi forestillingen varer halvanden time, men der er høje lyde, så jeg vil anbefale en minimumsalder på fem år og selvfølgelig, at børn ser forestillingen sammen med deres familie.",
+"en": "The theatre recommends a minimum age of three, because the show lasts an hour and a half, but there are loud sounds, so I would recommend a minimum age of five and of course that children watch it with their family.",
+"p": false,
+"note": "The reviewer suggests age five, not three. \"halvanden time\" means one and a half hours.",
+"words": [
+[
+"anbefaler",
+"recommends"
+],
+[
+"minimumsalder",
+"minimum age"
+],
+[
+"halvanden",
+"one and a half"
+],
+[
+"selvfølgelig",
+"of course"
+]
+]
+},
+{
+"da": "Erasmus Montanus, Aarhus Teater",
+"en": "Erasmus Montanus, Aarhus Theatre",
+"p": true,
+"note": "The title of the second review."
+},
+{
+"da": "Af Pernille Hermann",
+"en": "By Pernille Hermann",
+"p": false,
+"note": "The name of the writer."
+},
+{
+"da": "Erasmus Montanus er en komedie i fem akter skrevet i 1723 af den dansk-norske forfatter Ludvig Holberg.",
+"en": "Erasmus Montanus is a comedy in five acts written in 1723 by the Danish-Norwegian author Ludvig Holberg.",
+"p": true,
+"note": "This introduces an old comedy. \"skrevet\" is the past participle of \"skrive\": written.",
+"words": [
+[
+"komedie",
+"comedy"
+],
+[
+"skrevet",
+"written"
+],
+[
+"dansk-norske",
+"Danish-Norwegian"
+],
+[
+"forfatter",
+"author"
+]
+]
+},
+{
+"da": "Det er fortællingen om bondedrengen Rasmus Berg, der har studeret i København og vender tilbage til landsbyen (og sin forlovede) som et nyt og bedrevidende menneske, der sætter spørgsmålstegn ved alt det, som landsbyboerne opfatter som sandheder.",
+"en": "It is the story of the farm boy Rasmus Berg, who has studied in Copenhagen and returns to the village (and his fiancée) as a new know-it-all person who questions everything the villagers see as truths.",
+"p": false,
+"note": "This tells the plot. \"sætte spørgsmålstegn ved\" is a phrase: to question something.",
+"words": [
+[
+"bondedrengen",
+"the farm boy"
+],
+[
+"forlovede",
+"fiancée"
+],
+[
+"bedrevidende",
+"know-it-all"
+],
+[
+"spørgsmålstegn",
+"question mark"
+]
+]
+},
+{
+"da": "Han kalder sig nu Erasmus Montanus.",
+"en": "He now calls himself Erasmus Montanus.",
+"p": false,
+"note": "He has taken a new Latin name. \"kalder sig\" is reflexive: calls himself."
+},
+{
+"da": "Han skaber uro i landsbyen, fordi han bliver ved med at påstå, at jorden er rund.",
+"en": "He causes unrest in the village because he keeps claiming that the earth is round.",
+"p": false,
+"note": "He upsets the villagers. \"blive ved med at\" means to keep doing something.",
+"words": [
+[
+"landsbyen",
+"the village"
+],
+[
+"påstå",
+"claim"
+]
+]
+},
+{
+"da": "Til sidst bliver Erasmus dog nødt til offentligt at sige, at jorden er flad som en pandekage, da det er den eneste måde at slippe for at blive soldat på og få sin elskede.",
+"en": "In the end, Erasmus has to say publicly that the earth is flat as a pancake, since it is the only way to avoid becoming a soldier and to get his beloved.",
+"p": false,
+"note": "He must give up his idea to marry. \"blive nødt til\" means to have to.",
+"words": [
+[
+"offentligt",
+"publicly"
+],
+[
+"pandekage",
+"pancake"
+],
+[
+"eneste",
+"only"
+],
+[
+"elskede",
+"beloved"
+]
+]
+},
+{
+"da": "Aktuel historie",
+"en": "A topical story",
+"p": true,
+"note": "A heading: the story is still relevant today.",
+"words": [
+[
+"Aktuel",
+"topical, current"
+]
+]
+},
+{
+"da": "Historien i Aarhus Teaters nye opsætning er stadig den samme, selvom den har fået et par twist og tilføjelser.",
+"en": "The story in Aarhus Theatre's new production is still the same, although it has got a few twists and additions.",
+"p": false,
+"note": "The new version keeps the story. \"selvom\" means although; the word order after it is normal.",
+"words": [
+[
+"opsætning",
+"production"
+],
+[
+"tilføjelser",
+"additions"
+]
+]
+},
+{
+"da": "Holbergs komedie er kendt for sin tvetydighed.",
+"en": "Holberg's comedy is known for its ambiguity.",
+"p": false,
+"note": "The play can be read in two ways. \"kendt for\" means known for.",
+"words": [
+[
+"tvetydighed",
+"ambiguity"
+]
+]
+},
+{
+"da": "Hvem griner publikum af?",
+"en": "Who is the audience laughing at?",
+"p": false,
+"note": "A question. The preposition \"af\" goes to the end in Danish questions.",
+"words": [
+[
+"publikum",
+"audience"
+]
+]
+},
+{
+"da": "Af de lærde, bønderne eller sig selv?",
+"en": "At the scholars, the farmers or themselves?",
+"p": false,
+"note": "A short follow-up question with options. \"bønderne\" is the definite plural of \"bonde\".",
+"words": [
+[
+"bønderne",
+"the farmers"
+]
+]
+},
+{
+"da": "Denne tvetydighed har Aarhus Teater i samarbejdet med Christian Lollike ført up to date i en alternativ version af Holbergs klassiker: I sin nyfortolkning erstatter Christian Lollike Holbergs hyggehumor og tanker om jordens form med en satirisk tone og et tema om danskhed.",
+"en": "Aarhus Theatre, together with Christian Lollike, has brought this ambiguity up to date in an alternative version of Holberg's classic: in his new interpretation, Lollike replaces Holberg's cosy humour and ideas about the earth's shape with a satirical tone and a theme of Danishness.",
+"p": false,
+"note": "The new version has a new theme. The object \"Denne tvetydighed\" comes first, so the verb \"har\" comes before the subject.",
+"words": [
+[
+"tvetydighed",
+"ambiguity"
+],
+[
+"samarbejdet",
+"the cooperation"
+],
+[
+"nyfortolkning",
+"new interpretation"
+],
+[
+"danskhed",
+"Danishness"
+]
+]
+},
+{
+"da": "Det er meget fint, at dette tema er med i stykket, fordi det gør stykket mere aktuelt.",
+"en": "It is very good that this theme is in the play, because it makes the play more relevant.",
+"p": false,
+"note": "The reviewer likes the new theme. After \"fordi\", the word order is subject then verb.",
+"words": [
+[
+"aktuelt",
+"relevant"
+]
+]
+}
+]
 }
 };
