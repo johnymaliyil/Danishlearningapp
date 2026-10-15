@@ -1014,3 +1014,5 @@ a.help-item:hover { border-color: var(--read); }
 .ck-out { margin-top: 12px; }
 .ck-big { font-size: 2.4rem; font-weight: 900; color: var(--accent); }
 .ck-ex, .du-ex { width: 100%; text-align: left; font: inherit; color: inherit; cursor: pointer; }
+.lline.ltask { background: var(--write-soft); margin-bottom: 4px; }
+.lline.ltask .len { display: block; }

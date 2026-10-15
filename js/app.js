@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "93"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "94"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -4229,8 +4229,17 @@
   }
   function listenItem(id) {
     const w = findItem("WRITING", id);
-    const L = PD2.LISTEN && PD2.LISTEN[id];
+    let L = PD2.LISTEN && PD2.LISTEN[id];
     if (!w || !L) { location.hash = "#/lyt"; return; }
+    // First the task (Danish, then English), then the model answer.
+    const t = (PD2.TASK_EN || {})[id] || {};
+    const pts = w.points || [];
+    const intro = [{ da: "Opgaven.", en: "The task.", p: true, task: true }]
+      .concat(w.situation ? [{ da: w.situation, en: t.s || "", task: true }] : [])
+      .concat(pts.length ? [{ da: "Du skal skrive om:", en: "You must write about:", task: true }] : [])
+      .concat(pts.map((x, i) => ({ da: x, en: (t.p || [])[i] || "", task: true })))
+      .concat([{ da: "Her er modelsvaret.", en: "Here is the model answer.", p: true, task: true }]);
+    L = { lines: intro.concat(L.lines) };
     listenPlayer(L, id, `<a class="back" href="#/lyt/${w.delprove}">← Alle modelsvar · Delprøve ${w.delprove}</a>
       <h1>🎧 ${esc(w.title)}</h1>
       <details class="info"><summary>📄 Opgaven</summary><div class="instruction" style="background:var(--write-soft)">${esc(w.situation)}</div>
@@ -4273,7 +4282,7 @@
         </div>
         <div class="small muted" id="lNow" style="text-align:center;min-height:1.4em"></div>
       </div>
-      <div class="card listen-text ${pr.en ? "show-en" : ""}" id="lText">${L.lines.map((l, i) => `${l.p && i ? '<div class="lpara"></div>' : ""}<div class="lline" data-i="${i}">
+      <div class="card listen-text ${pr.en ? "show-en" : ""}" id="lText">${L.lines.map((l, i) => `${l.p && i ? '<div class="lpara"></div>' : ""}<div class="lline ${l.task ? "ltask" : ""}" data-i="${i}">
           <div class="lda" data-keep>${esc(l.da)}</div>
           <div class="len" lang="en">${esc(l.en || "")}</div>
           ${l.note || (l.words && l.words.length) ? `<div class="lnote">${l.note ? `<span lang="en">📐 ${esc(l.note)}</span>` : ""}${(l.words || []).map(([a, b]) => `<span class="lword"><b data-keep>${esc(a)}</b> <span lang="en">= ${esc(b)}</span></span>`).join("")}</div>` : ""}
@@ -4282,7 +4291,8 @@
     const mark = i => { $$(".lline").forEach(x => x.classList.toggle("on", +x.dataset.i === i)); const el = $(`.lline[data-i="${i}"]`); if (el) el.scrollIntoView({ behavior: "smooth", block: "center" }); };
     // Each sentence: the Danish sentence slowly, then the grammar explanation and the English translation.
     const queueFor = i => {
-      const l = L.lines[i], r = +pr.speed || 0.5, q = [{ text: l.da, lang: "da", rate: r, label: "🇩🇰 Sætningen" }];
+      const l = L.lines[i], r = +pr.speed || 0.5, q = [{ text: l.da, lang: "da", rate: r, label: l.task ? "📄 Opgaven" : "🇩🇰 Sætningen" }];
+      if (l.task) { if (l.en) q.push({ pause: 400 }, { text: l.en, lang: "en", rate: 0.88, label: "🇬🇧 På engelsk" }); q.push({ pause: 900 }); return q; }
       if (pr.notes && l.note) q.push({ pause: 500 }, { text: l.note, lang: "en", rate: 0.88, label: "📐 Grammatik" });
       if (pr.trans && l.en) q.push({ pause: 400 }, { text: l.en, lang: "en", rate: 0.88, label: "🇬🇧 På engelsk" });
       q.push({ pause: 1200 });
