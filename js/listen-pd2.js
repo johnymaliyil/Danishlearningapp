@@ -1,4 +1,4 @@
-// 🎧 Lyt til modelsvar: simple PD2 model answers, sentence by sentence, with an English translation,
+// 🎧 Lyt til modelsvar: simple model answers (PD1, PD2, PD3), sentence by sentence, with an English translation,
 // a short grammar tip and hard words (spelled out by the app). Written by DanskKlar.
 // These simple texts also replace the model answers (and their English translations) in the writing tasks.
 window.PD2 = window.PD2 || {};
@@ -16536,11 +16536,687 @@ PD2.LISTEN = {
 ]
 }
 ]
+},
+"pd1-w1": {
+"lines": [
+{
+"da": "Hej Jonas",
+"en": "Hi Jonas",
+"p": true,
+"note": "A friendly greeting for a text message. Use \"Hej\" + the name."
+},
+{
+"da": "Undskyld, men jeg kan ikke komme til fodbold i aften.",
+"en": "Sorry, but I can't come to football tonight.",
+"p": true,
+"note": "\"ikke\" comes right after the verb \"kan\". The second verb \"komme\" is in the infinitive.",
+"words": [
+[
+"undskyld",
+"sorry"
+],
+[
+"i aften",
+"tonight"
+]
+]
+},
+{
+"da": "Jeg er syg, og jeg skal blive hjemme.",
+"en": "I am ill, and I have to stay at home.",
+"p": false,
+"note": "Two main clauses joined by \"og\". After \"skal\" the verb \"blive\" is in the infinitive.",
+"words": [
+[
+"syg",
+"ill"
+],
+[
+"blive hjemme",
+"stay at home"
+]
+]
+},
+{
+"da": "Kan vi spille på lørdag i stedet?",
+"en": "Can we play on Saturday instead?",
+"p": true,
+"note": "A yes/no question starts with the verb: \"Kan vi …?\" \"på lørdag\" means next Saturday.",
+"words": [
+[
+"i stedet",
+"instead"
+]
+]
+},
+{
+"da": "Skriv til mig, hvis du kan.",
+"en": "Write to me if you can.",
+"p": false,
+"note": "\"Skriv\" is the imperative (a request). \"hvis\" starts a sub-clause: \"if\".",
+"words": [
+[
+"hvis",
+"if"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A common, friendly way to end a message.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Always end with your name."
+}
+]
+},
+"pd1-w2": {
+"lines": [
+{
+"da": "Kære Karen",
+"en": "Dear Karen",
+"p": true,
+"note": "\"Kære\" + first name is the normal start of a mail to a teacher."
+},
+{
+"da": "Jeg skriver, fordi min datter er syg.",
+"en": "I am writing because my daughter is ill.",
+"p": true,
+"note": "A useful start. In the \"fordi\" clause the word order is normal: subject, then verb.",
+"words": [
+[
+"fordi",
+"because"
+],
+[
+"datter",
+"daughter"
+]
+]
+},
+{
+"da": "Hun hedder Amina og går i 2.B.",
+"en": "Her name is Amina, and she is in class 2B.",
+"p": false,
+"note": "One subject \"Hun\" with two verbs: \"hedder\" and \"går\". \"gå i 2.B\" means to be in class 2B.",
+"words": [
+[
+"hedder",
+"is called"
+]
+]
+},
+{
+"da": "Hun har feber, og hun har ondt i maven.",
+"en": "She has a fever, and she has a stomach ache.",
+"p": true,
+"note": "\"have ondt i\" + body part means it hurts. \"maven\" is the definite form of \"en mave\".",
+"words": [
+[
+"feber",
+"fever"
+],
+[
+"ondt i maven",
+"stomach ache"
+]
+]
+},
+{
+"da": "Hun skal blive hjemme i dag og i morgen.",
+"en": "She has to stay at home today and tomorrow.",
+"p": false,
+"note": "\"skal\" + infinitive \"blive\". Time words \"i dag\" and \"i morgen\" come at the end.",
+"words": [
+[
+"i morgen",
+"tomorrow"
+]
+]
+},
+{
+"da": "Jeg tror, hun kommer i skole igen på torsdag.",
+"en": "I think she will come back to school on Thursday.",
+"p": true,
+"note": "After \"Jeg tror\" you can leave out \"at\". Present tense \"kommer\" is often used about the future.",
+"words": [
+[
+"tror",
+"think"
+],
+[
+"igen",
+"again"
+]
+]
+},
+{
+"da": "Venlig hilsen",
+"en": "Kind regards",
+"p": true,
+"note": "A polite way to end a mail to a teacher or an office.",
+"words": [
+[
+"venlig",
+"kind"
+]
+]
+},
+{
+"da": "Fatima",
+"en": "Fatima",
+"p": false,
+"note": "Always end with your name."
+}
+]
+},
+"pd1-w3": {
+"lines": [
+{
+"da": "Sofa til salg",
+"en": "Sofa for sale",
+"p": true,
+"note": "An ad starts with a short heading. \"til salg\" means \"for sale\".",
+"words": [
+[
+"til salg",
+"for sale"
+]
+]
+},
+{
+"da": "Jeg sælger min sofa.",
+"en": "I am selling my sofa.",
+"p": true,
+"note": "Simple sentence: subject, verb, object. \"min\" is used because \"sofa\" is an en-word.",
+"words": [
+[
+"sælger",
+"sell"
+]
+]
+},
+{
+"da": "Den er grå og 2 meter lang.",
+"en": "It is grey and 2 metres long.",
+"p": false,
+"note": "\"Den\" means \"it\" for an en-word. \"grå\" never changes its ending.",
+"words": [
+[
+"grå",
+"grey"
+],
+[
+"lang",
+"long"
+]
+]
+},
+{
+"da": "Den er fem år gammel.",
+"en": "It is five years old.",
+"p": false,
+"note": "Age: number + \"år gammel\". \"gammel\" has no -t because \"sofa\" is an en-word.",
+"words": [
+[
+"gammel",
+"old"
+]
+]
+},
+{
+"da": "Den er i god stand.",
+"en": "It is in good condition.",
+"p": false,
+"note": "A fixed phrase for things you sell: \"i god stand\".",
+"words": [
+[
+"i god stand",
+"in good condition"
+]
+]
+},
+{
+"da": "Prisen er 500 kr.",
+"en": "The price is 500 kroner.",
+"p": true,
+"note": "\"prisen\" is the definite form of \"en pris\": the ending -en means \"the\".",
+"words": [
+[
+"prisen",
+"the price"
+]
+]
+},
+{
+"da": "Ring til mig på 22 33 44 55.",
+"en": "Call me on 22 33 44 55.",
+"p": true,
+"note": "\"Ring\" is the imperative. Say \"ring til\" + person and \"på\" + phone number.",
+"words": [
+[
+"ring til",
+"call"
+]
+]
+},
+{
+"da": "Hilsen Maria",
+"en": "Regards, Maria",
+"p": false,
+"note": "End the ad with a short greeting and your name."
+}
+]
+},
+"pd1-w4": {
+"lines": [
+{
+"da": "Min familie",
+"en": "My family",
+"p": true,
+"note": "The title of the text."
+},
+{
+"da": "Jeg vil gerne fortælle om min familie.",
+"en": "I would like to tell you about my family.",
+"p": true,
+"note": "A useful start. \"vil gerne\" + infinitive means \"would like to\".",
+"words": [
+[
+"fortælle om",
+"tell about"
+]
+]
+},
+{
+"da": "Vi er fire i min familie.",
+"en": "There are four of us in my family.",
+"p": true,
+"note": "\"Vi er fire\" means \"there are four of us\"."
+},
+{
+"da": "Det er min mand, mine to børn og mig.",
+"en": "That is my husband, my two children and me.",
+"p": false,
+"note": "\"mine\" is plural because \"børn\" is plural. After \"og\" we say \"mig\", not \"jeg\".",
+"words": [
+[
+"mand",
+"husband"
+],
+[
+"børn",
+"children"
+]
+]
+},
+{
+"da": "Min søn hedder Adam, og han er otte år.",
+"en": "My son is called Adam, and he is eight years old.",
+"p": false,
+"note": "Two main clauses joined by \"og\". You can say \"otte år\" without \"gammel\".",
+"words": [
+[
+"søn",
+"son"
+]
+]
+},
+{
+"da": "Min datter hedder Lina, og hun er fem år.",
+"en": "My daughter is called Lina, and she is five years old.",
+"p": false,
+"note": "Same pattern as the last sentence: \"hedder\" + name, \"er\" + age.",
+"words": [
+[
+"datter",
+"daughter"
+]
+]
+},
+{
+"da": "Vi bor i en lejlighed i Aalborg.",
+"en": "We live in a flat in Aalborg.",
+"p": true,
+"note": "\"en lejlighed\" is an en-word. Use \"bo i\" + place.",
+"words": [
+[
+"lejlighed",
+"flat, apartment"
+]
+]
+},
+{
+"da": "Den har tre værelser.",
+"en": "It has three rooms.",
+"p": false,
+"note": "\"Den\" refers back to \"lejligheden\", an en-word.",
+"words": [
+[
+"værelser",
+"rooms"
+]
+]
+},
+{
+"da": "I weekenden går vi en tur i parken.",
+"en": "At the weekend we go for a walk in the park.",
+"p": true,
+"note": "V2: the time word comes first, so the verb \"går\" comes before the subject \"vi\".",
+"words": [
+[
+"i weekenden",
+"at the weekend"
+],
+[
+"går en tur",
+"go for a walk"
+]
+]
+},
+{
+"da": "Vi besøger også mine forældre.",
+"en": "We also visit my parents.",
+"p": false,
+"note": "\"også\" comes right after the verb, like \"ikke\".",
+"words": [
+[
+"besøger",
+"visit"
+],
+[
+"forældre",
+"parents"
+]
+]
+},
+{
+"da": "Om aftenen spiser vi sammen.",
+"en": "In the evening we eat together.",
+"p": false,
+"note": "V2 again: \"Om aftenen\" first, then the verb \"spiser\", then \"vi\".",
+"words": [
+[
+"om aftenen",
+"in the evening"
+],
+[
+"sammen",
+"together"
+]
+]
+},
+{
+"da": "Jeg kan bedst lide, at vi griner meget sammen.",
+"en": "What I like best is that we laugh a lot together.",
+"p": true,
+"note": "\"kan bedst lide\" means \"like best\". \"at\" starts a sub-clause.",
+"words": [
+[
+"bedst",
+"best"
+],
+[
+"griner",
+"laugh"
+]
+]
+},
+{
+"da": "Jeg er glad for min familie.",
+"en": "I am happy with my family.",
+"p": false,
+"note": "\"være glad for\" means to like or be happy with something.",
+"words": [
+[
+"glad for",
+"happy with"
+]
+]
+},
+{
+"da": "Fatima",
+"en": "Fatima",
+"p": true,
+"note": "End the text with your name."
+}
+]
+},
+"pd1-w5": {
+"lines": [
+{
+"da": "Min dag",
+"en": "My day",
+"p": true,
+"note": "The title of the text."
+},
+{
+"da": "Jeg vil gerne fortælle om min dag.",
+"en": "I would like to tell you about my day.",
+"p": true,
+"note": "A useful start. \"vil gerne\" + infinitive means \"would like to\".",
+"words": [
+[
+"fortælle om",
+"tell about"
+]
+]
+},
+{
+"da": "Om morgenen står jeg op kl. 7.",
+"en": "In the morning I get up at 7.",
+"p": true,
+"note": "V2: \"Om morgenen\" comes first, so the verb \"står\" comes before \"jeg\".",
+"words": [
+[
+"står op",
+"get up"
+],
+[
+"kl.",
+"at (o'clock)"
+]
+]
+},
+{
+"da": "Jeg spiser morgenmad og drikker kaffe.",
+"en": "I eat breakfast and drink coffee.",
+"p": false,
+"note": "One subject \"Jeg\" with two verbs joined by \"og\".",
+"words": [
+[
+"morgenmad",
+"breakfast"
+]
+]
+},
+{
+"da": "Så cykler jeg på arbejde.",
+"en": "Then I cycle to work.",
+"p": false,
+"note": "\"Så\" (then) comes first, so the verb comes before \"jeg\". We say \"på arbejde\".",
+"words": [
+[
+"cykler",
+"cycle"
+],
+[
+"på arbejde",
+"to work"
+]
+]
+},
+{
+"da": "Jeg arbejder i et køkken.",
+"en": "I work in a kitchen.",
+"p": false,
+"note": "\"køkken\" is an et-word: \"et køkken\".",
+"words": [
+[
+"køkken",
+"kitchen"
+]
+]
+},
+{
+"da": "Jeg har fri kl. 15.",
+"en": "I finish work at 3 pm.",
+"p": false,
+"note": "\"have fri\" means to be off work. Time with \"kl.\" comes at the end.",
+"words": [
+[
+"har fri",
+"am off work"
+]
+]
+},
+{
+"da": "Om eftermiddagen henter jeg mine børn.",
+"en": "In the afternoon I pick up my children.",
+"p": true,
+"note": "V2: time word first, then the verb \"henter\", then \"jeg\".",
+"words": [
+[
+"eftermiddagen",
+"the afternoon"
+],
+[
+"henter",
+"pick up"
+]
+]
+},
+{
+"da": "Bagefter handler vi ind sammen.",
+"en": "Afterwards we go shopping together.",
+"p": false,
+"note": "\"handle ind\" means to shop for food. \"ind\" goes after the subject.",
+"words": [
+[
+"bagefter",
+"afterwards"
+],
+[
+"handler ind",
+"go shopping"
+]
+]
+},
+{
+"da": "Så laver jeg mad.",
+"en": "Then I make food.",
+"p": false,
+"note": "\"lave mad\" means to cook. V2: \"Så laver jeg\".",
+"words": [
+[
+"laver mad",
+"cook"
+]
+]
+},
+{
+"da": "Om aftenen spiser vi sammen.",
+"en": "In the evening we eat together.",
+"p": true,
+"note": "V2: \"Om aftenen\" first, then the verb \"spiser\", then \"vi\".",
+"words": [
+[
+"sammen",
+"together"
+]
+]
+},
+{
+"da": "Jeg ser lidt tv.",
+"en": "I watch a little TV.",
+"p": false,
+"note": "\"lidt\" means \"a little\" and comes before the noun.",
+"words": [
+[
+"lidt",
+"a little"
+]
+]
+},
+{
+"da": "Jeg laver lektier til sprogskolen.",
+"en": "I do homework for the language school.",
+"p": false,
+"note": "\"lave lektier\" means to do homework. \"sprogskolen\" is the definite form.",
+"words": [
+[
+"lektier",
+"homework"
+],
+[
+"sprogskolen",
+"the language school"
+]
+]
+},
+{
+"da": "Jeg går i seng kl. 22.",
+"en": "I go to bed at 10 pm.",
+"p": false,
+"note": "\"gå i seng\" means to go to bed. Danes often use the 24-hour clock.",
+"words": [
+[
+"går i seng",
+"go to bed"
+]
+]
+},
+{
+"da": "Jeg kan bedst lide aftenen.",
+"en": "I like the evening best.",
+"p": true,
+"note": "\"kan bedst lide\" + object means \"like best\".",
+"words": [
+[
+"bedst",
+"best"
+]
+]
+},
+{
+"da": "Det er hyggeligt, fordi vi er sammen.",
+"en": "It is cosy because we are together.",
+"p": false,
+"note": "\"fordi\" starts a sub-clause with normal word order: subject, then verb.",
+"words": [
+[
+"hyggeligt",
+"cosy, nice"
+],
+[
+"fordi",
+"because"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": true,
+"note": "End the text with your name."
+}
+]
 }
 };
 (function () {
   const join = (L, key) => L.lines.map((l, i) => (i === 0 ? "" : l.p ? "\n\n" : " ") + (l[key] || "")).join("");
-  const W = (PD2.EXAMS && PD2.EXAMS.pd2 && PD2.EXAMS.pd2.WRITING) || [];
+  const W = Object.values(PD2.EXAMS || {}).flatMap(E => E.WRITING || []);
   W.forEach(w => {
     const L = PD2.LISTEN[w.id];
     if (!L) return;
