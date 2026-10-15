@@ -151257,5 +151257,6969 @@ PD2.LISTEN_R = {
 ]
 }
 ]
+},
+"pd3-21m-1": {
+"lines": [
+{
+"da": "Indhold",
+"en": "Contents",
+"p": true,
+"note": "A heading: the table of contents of the booklet.",
+"words": [
+[
+"Indhold",
+"contents"
+]
+]
+},
+{
+"da": "Anmeldelser af forskellige teaterforestillinger … 3",
+"en": "Reviews of various theatre performances … 3",
+"p": true,
+"note": "A chapter title on page 3. \"forskellige\" ends in -e because the noun is plural.",
+"words": [
+[
+"Anmeldelser",
+"reviews"
+],
+[
+"forskellige",
+"various"
+],
+[
+"teaterforestillinger",
+"theatre performances"
+]
+]
+},
+{
+"da": "Cykelmyggen Egon, Østre Gasværk Teater … 3",
+"en": "Egon the Bicycle Mosquito, Østre Gasværk Theatre … 3",
+"p": false,
+"note": "A review title: the play's name and the theatre, on page 3.",
+"words": [
+[
+"Cykelmyggen",
+"the bicycle mosquito"
+]
+]
+},
+{
+"da": "Erasmus Montanus, Aarhus Teater … 4",
+"en": "Erasmus Montanus, Aarhus Theatre … 4",
+"p": false,
+"note": "A review title: the play's name and the theatre, on page 4."
+},
+{
+"da": "Midt om natten, Tivolis Koncertsal … 4",
+"en": "In the Middle of the Night, Tivoli's Concert Hall … 4",
+"p": false,
+"note": "A review title. \"Tivolis\" has a genitive -s: Tivoli's.",
+"words": [
+[
+"Koncertsal",
+"concert hall"
+]
+]
+},
+{
+"da": "Besat, Bornholms Teater i Rønne Theater … 5",
+"en": "Occupied, Bornholm's Theatre in Rønne Theatre … 5",
+"p": false,
+"note": "A review title. \"Besat\" is a past participle: occupied.",
+"words": [
+[
+"Besat",
+"occupied"
+]
+]
+},
+{
+"da": "Tre danske teatre … 7",
+"en": "Three Danish theatres … 7",
+"p": false,
+"note": "A chapter title. \"teatre\" is the plural of \"teater\".",
+"words": [
+[
+"teatre",
+"theatres"
+]
+]
+},
+{
+"da": "Det Kongelige Teater … 7",
+"en": "The Royal Theatre … 7",
+"p": false,
+"note": "A section title. \"Kongelige\" ends in -e after \"Det\": the definite form.",
+"words": [
+[
+"Kongelige",
+"royal"
+]
+]
+},
+{
+"da": "Aarhus Teater … 8",
+"en": "Aarhus Theatre … 8",
+"p": false,
+"note": "A section title, on page 8."
+},
+{
+"da": "Bornholms Teater … 9",
+"en": "Bornholm's Theatre … 9",
+"p": false,
+"note": "A section title. \"Bornholms\" has a genitive -s."
+},
+{
+"da": "Rundvisninger på tre danske teatre … 12",
+"en": "Guided tours at three Danish theatres … 12",
+"p": false,
+"note": "A chapter title. Note \"på\" with places like a theatre.",
+"words": [
+[
+"Rundvisninger",
+"guided tours"
+]
+]
+},
+{
+"da": "Det Kongelige Teater – rundvisninger i alle tre huse … 12",
+"en": "The Royal Theatre – guided tours in all three buildings … 12",
+"p": false,
+"note": "A section title. \"huse\" is the plural of \"hus\".",
+"words": [
+[
+"rundvisninger",
+"guided tours"
+]
+]
+},
+{
+"da": "Aarhus Teater – bag kulissen … 14",
+"en": "Aarhus Theatre – behind the scenes … 14",
+"p": false,
+"note": "A section title. \"bag kulissen\" is a phrase: behind the scenes.",
+"words": [
+[
+"kulissen",
+"the stage set"
+]
+]
+},
+{
+"da": "Guidet tur i Rønne Theater … 14",
+"en": "Guided tour in Rønne Theatre … 14",
+"p": false,
+"note": "A section title, on page 14.",
+"words": [
+[
+"Guidet",
+"guided"
+]
+]
+},
+{
+"da": "Danske teaterpriser … 16",
+"en": "Danish theatre prizes … 16",
+"p": false,
+"note": "A chapter title. \"teaterpriser\" is a compound: teater plus priser.",
+"words": [
+[
+"teaterpriser",
+"theatre prizes"
+]
+]
+},
+{
+"da": "Kjeld Abell-prisen … 16",
+"en": "The Kjeld Abell Prize … 16",
+"p": false,
+"note": "A section title: a prize named after a person."
+},
+{
+"da": "Teaterpokalen … 16",
+"en": "The Theatre Cup … 16",
+"p": false,
+"note": "A section title. The ending -en makes it definite: the cup.",
+"words": [
+[
+"Teaterpokalen",
+"the theatre cup"
+]
+]
+},
+{
+"da": "Danske Dramatikeres Hæderspris … 16",
+"en": "The Danish Playwrights' Prize of Honour … 16",
+"p": false,
+"note": "A section title. \"Dramatikeres\" is a plural genitive: the playwrights'.",
+"words": [
+[
+"Dramatikeres",
+"playwrights'"
+],
+[
+"Hæderspris",
+"prize of honour"
+]
+]
+},
+{
+"da": "Årets Reumert … 17",
+"en": "The Reumert of the Year … 17",
+"p": false,
+"note": "A section title. \"Årets\" means \"of the year\", a common phrase for awards.",
+"words": [
+[
+"Årets",
+"the year's"
+]
+]
+},
+{
+"da": "ANMELDELSER AF FORSKELLIGE TEATERFORESTILLINGER",
+"en": "REVIEWS OF VARIOUS THEATRE PERFORMANCES",
+"p": true,
+"note": "The title of the first chapter: theatre reviews.",
+"words": [
+[
+"ANMELDELSER",
+"reviews"
+],
+[
+"TEATERFORESTILLINGER",
+"theatre performances"
+]
+]
+},
+{
+"da": "Cykelmyggen Egon, Østre Gasværk Teater",
+"en": "Egon the Bicycle Mosquito, Østre Gasværk Theatre",
+"p": true,
+"note": "The title of the first review: the play and the theatre.",
+"words": [
+[
+"Cykelmyggen",
+"the bicycle mosquito"
+]
+]
+},
+{
+"da": "Af Signe Larsen",
+"en": "By Signe Larsen",
+"p": false,
+"note": "The name of the writer. \"Af\" means \"by\" here."
+},
+{
+"da": "Den klassiske danske børnebog om cykelmyggen Egon er blevet til et teaterstykke.",
+"en": "The classic Danish children's book about Egon the bicycle mosquito has become a play.",
+"p": true,
+"note": "A famous children's book is now a play. \"er blevet til\" is the perfect tense of \"blive til\": has become.",
+"words": [
+[
+"klassiske",
+"classic"
+],
+[
+"børnebog",
+"children's book"
+],
+[
+"teaterstykke",
+"play"
+]
+]
+},
+{
+"da": "Flemming Quist Møller, forklædt som en sommerfugl, er på scenen og læser op af sin berømte billedbog fra 1967, mens en skuespiller suser rundt på scenen og laver smarte tricks med sin artistcykel.",
+"en": "Flemming Quist Møller, dressed as a butterfly, is on stage reading from his famous picture book from 1967, while an actor zooms around the stage doing smart tricks on his stunt bike.",
+"p": false,
+"note": "The author reads while an actor does bike tricks. \"sin\" refers back to the subject: his own book.",
+"words": [
+[
+"forklædt",
+"dressed up"
+],
+[
+"sommerfugl",
+"butterfly"
+],
+[
+"skuespiller",
+"actor"
+],
+[
+"artistcykel",
+"stunt bike"
+]
+]
+},
+{
+"da": "Det er egentlig en simpel historie: Egon møder en sød dansemyg, der hedder Dagmar, han får hende ud af kæmpeedderkoppens net, og de lever lykkeligt til deres dages ende.",
+"en": "It is actually a simple story: Egon meets a sweet dancing mosquito called Dagmar, he gets her out of the giant spider's web, and they live happily ever after.",
+"p": false,
+"note": "The plot is simple and ends happily. \"til deres dages ende\" is a fixed phrase: ever after.",
+"words": [
+[
+"egentlig",
+"actually"
+],
+[
+"dansemyg",
+"dancing mosquito"
+],
+[
+"kæmpeedderkoppens",
+"the giant spider's"
+],
+[
+"lykkeligt",
+"happily"
+]
+]
+},
+{
+"da": "Det er alt det, der er at se på i forestillingen, der gør den sjov og flot.",
+"en": "It is all the things to look at in the show that make it fun and beautiful.",
+"p": true,
+"note": "The visual details make the show good. \"Det er … der\" is a cleft sentence that stresses one part.",
+"words": [
+[
+"forestillingen",
+"the performance"
+]
+]
+},
+{
+"da": "Det er eventyrlige dekorationer og farvestrålende kostumer.",
+"en": "There are fairy-tale sets and colourful costumes.",
+"p": false,
+"note": "The sets and costumes are lovely. The adjectives end in -e because the nouns are plural.",
+"words": [
+[
+"eventyrlige",
+"fairy-tale"
+],
+[
+"dekorationer",
+"sets, decorations"
+],
+[
+"farvestrålende",
+"brightly coloured"
+],
+[
+"kostumer",
+"costumes"
+]
+]
+},
+{
+"da": "Og det er forfatteren Flemming Quist Møller, der fortæller undervejs fra sin store bog og bliver et karismatisk centrum for mylderet af små fortællinger om dyrene omkring ham.",
+"en": "And it is the author Flemming Quist Møller who tells from his big book along the way and becomes a charismatic centre for the crowd of little stories about the animals around him.",
+"p": false,
+"note": "The author is the centre of the show. \"et karismatisk centrum\" has -t because \"centrum\" is an et-word.",
+"words": [
+[
+"forfatteren",
+"the author"
+],
+[
+"undervejs",
+"along the way"
+],
+[
+"karismatisk",
+"charismatic"
+],
+[
+"fortællinger",
+"stories"
+]
+]
+},
+{
+"da": "Hele menageriet af venlige og uvenlige væsener.",
+"en": "The whole menagerie of friendly and unfriendly creatures.",
+"p": false,
+"note": "A short fragment describing all the animals. The prefix \"u-\" makes the opposite: venlig, uvenlig.",
+"words": [
+[
+"menageriet",
+"the menagerie"
+],
+[
+"uvenlige",
+"unfriendly"
+],
+[
+"væsener",
+"creatures"
+]
+]
+},
+{
+"da": "Det er sjovt og flot.",
+"en": "It is fun and beautiful.",
+"p": false,
+"note": "A short verdict. The adjectives get -t because \"det\" is neuter."
+},
+{
+"da": "Noget for alle",
+"en": "Something for everyone",
+"p": true,
+"note": "A heading: the show is for everyone."
+},
+{
+"da": "Det er en rigtig familieforestilling.",
+"en": "It is a real family show.",
+"p": false,
+"note": "The show suits whole families. \"familieforestilling\" is a compound noun.",
+"words": [
+[
+"familieforestilling",
+"family show"
+]
+]
+},
+{
+"da": "Til de yngste er scenen befolket af flotte insekter taget lige ud af billedbogen.",
+"en": "For the youngest, the stage is filled with beautiful insects taken straight out of the picture book.",
+"p": false,
+"note": "Small children will love the insects. After the fronted \"Til de yngste\", the verb \"er\" comes before the subject.",
+"words": [
+[
+"befolket",
+"populated"
+],
+[
+"insekter",
+"insects"
+],
+[
+"billedbogen",
+"the picture book"
+]
+]
+},
+{
+"da": "De voksne vil more sig over de to robotdrenge, der som vagtbier kører en sand ordflom over ordet bi: ”Bilisterne bistår biblen og bisætter… – altså, Fy og Bi, gider I lige!”",
+"en": "The adults will be amused by the two robot boys who, as guard bees, do a real flood of word play on the word \"bi\": \"The drivers assist the Bible and bury… – come on, Fy and Bi, really!\"",
+"p": false,
+"note": "Adults will enjoy the word jokes. \"more sig\" is a reflexive verb: to have fun.",
+"words": [
+[
+"robotdrenge",
+"robot boys"
+],
+[
+"vagtbier",
+"guard bees"
+],
+[
+"ordflom",
+"flood of words"
+],
+[
+"Bilisterne",
+"the drivers"
+]
+]
+},
+{
+"da": "Endelig vil bedsteforældrene glæde sig ved Flemming Quist Møllers dejlige oplæsning, og alle vil grine sammen, når Møgbillen og Røvbillen slår kæmpeprutter: Prut er altid en vinder på teaterscenen.",
+"en": "Finally, the grandparents will enjoy Flemming Quist Møller's lovely reading, and everyone will laugh together when the dung beetles fart loudly: farts always win on stage.",
+"p": false,
+"note": "Grandparents and everyone get something too. After \"Endelig\", the verb \"vil\" comes before the subject (inversion).",
+"words": [
+[
+"bedsteforældrene",
+"the grandparents"
+],
+[
+"oplæsning",
+"reading aloud"
+],
+[
+"kæmpeprutter",
+"giant farts"
+],
+[
+"teaterscenen",
+"the theatre stage"
+]
+]
+},
+{
+"da": "Teateret anbefaler en minimumsalder på tre år, fordi forestillingen varer halvanden time, men der er høje lyde, så jeg vil anbefale en minimumsalder på fem år og selvfølgelig, at børn ser forestillingen sammen med deres familie.",
+"en": "The theatre recommends a minimum age of three, because the show lasts an hour and a half, but there are loud sounds, so I would recommend a minimum age of five and of course that children watch it with their family.",
+"p": false,
+"note": "The reviewer suggests age five, not three. \"halvanden time\" means one and a half hours.",
+"words": [
+[
+"anbefaler",
+"recommends"
+],
+[
+"minimumsalder",
+"minimum age"
+],
+[
+"halvanden",
+"one and a half"
+],
+[
+"selvfølgelig",
+"of course"
+]
+]
+},
+{
+"da": "Erasmus Montanus, Aarhus Teater",
+"en": "Erasmus Montanus, Aarhus Theatre",
+"p": true,
+"note": "The title of the second review."
+},
+{
+"da": "Af Pernille Hermann",
+"en": "By Pernille Hermann",
+"p": false,
+"note": "The name of the writer."
+},
+{
+"da": "Erasmus Montanus er en komedie i fem akter skrevet i 1723 af den dansk-norske forfatter Ludvig Holberg.",
+"en": "Erasmus Montanus is a comedy in five acts written in 1723 by the Danish-Norwegian author Ludvig Holberg.",
+"p": true,
+"note": "This introduces an old comedy. \"skrevet\" is the past participle of \"skrive\": written.",
+"words": [
+[
+"komedie",
+"comedy"
+],
+[
+"skrevet",
+"written"
+],
+[
+"dansk-norske",
+"Danish-Norwegian"
+],
+[
+"forfatter",
+"author"
+]
+]
+},
+{
+"da": "Det er fortællingen om bondedrengen Rasmus Berg, der har studeret i København og vender tilbage til landsbyen (og sin forlovede) som et nyt og bedrevidende menneske, der sætter spørgsmålstegn ved alt det, som landsbyboerne opfatter som sandheder.",
+"en": "It is the story of the farm boy Rasmus Berg, who has studied in Copenhagen and returns to the village (and his fiancée) as a new know-it-all person who questions everything the villagers see as truths.",
+"p": false,
+"note": "This tells the plot. \"sætte spørgsmålstegn ved\" is a phrase: to question something.",
+"words": [
+[
+"bondedrengen",
+"the farm boy"
+],
+[
+"forlovede",
+"fiancée"
+],
+[
+"bedrevidende",
+"know-it-all"
+],
+[
+"spørgsmålstegn",
+"question mark"
+]
+]
+},
+{
+"da": "Han kalder sig nu Erasmus Montanus.",
+"en": "He now calls himself Erasmus Montanus.",
+"p": false,
+"note": "He has taken a new Latin name. \"kalder sig\" is reflexive: calls himself."
+},
+{
+"da": "Han skaber uro i landsbyen, fordi han bliver ved med at påstå, at jorden er rund.",
+"en": "He causes unrest in the village because he keeps claiming that the earth is round.",
+"p": false,
+"note": "He upsets the villagers. \"blive ved med at\" means to keep doing something.",
+"words": [
+[
+"landsbyen",
+"the village"
+],
+[
+"påstå",
+"claim"
+]
+]
+},
+{
+"da": "Til sidst bliver Erasmus dog nødt til offentligt at sige, at jorden er flad som en pandekage, da det er den eneste måde at slippe for at blive soldat på og få sin elskede.",
+"en": "In the end, Erasmus has to say publicly that the earth is flat as a pancake, since it is the only way to avoid becoming a soldier and to get his beloved.",
+"p": false,
+"note": "He must give up his idea to marry. \"blive nødt til\" means to have to.",
+"words": [
+[
+"offentligt",
+"publicly"
+],
+[
+"pandekage",
+"pancake"
+],
+[
+"eneste",
+"only"
+],
+[
+"elskede",
+"beloved"
+]
+]
+},
+{
+"da": "Aktuel historie",
+"en": "A topical story",
+"p": true,
+"note": "A heading: the story is still relevant today.",
+"words": [
+[
+"Aktuel",
+"topical, current"
+]
+]
+},
+{
+"da": "Historien i Aarhus Teaters nye opsætning er stadig den samme, selvom den har fået et par twist og tilføjelser.",
+"en": "The story in Aarhus Theatre's new production is still the same, although it has got a few twists and additions.",
+"p": false,
+"note": "The new version keeps the story. \"selvom\" means although; the word order after it is normal.",
+"words": [
+[
+"opsætning",
+"production"
+],
+[
+"tilføjelser",
+"additions"
+]
+]
+},
+{
+"da": "Holbergs komedie er kendt for sin tvetydighed.",
+"en": "Holberg's comedy is known for its ambiguity.",
+"p": false,
+"note": "The play can be read in two ways. \"kendt for\" means known for.",
+"words": [
+[
+"tvetydighed",
+"ambiguity"
+]
+]
+},
+{
+"da": "Hvem griner publikum af?",
+"en": "Who is the audience laughing at?",
+"p": false,
+"note": "A question. The preposition \"af\" goes to the end in Danish questions.",
+"words": [
+[
+"publikum",
+"audience"
+]
+]
+},
+{
+"da": "Af de lærde, bønderne eller sig selv?",
+"en": "At the scholars, the farmers or themselves?",
+"p": false,
+"note": "A short follow-up question with options. \"bønderne\" is the definite plural of \"bonde\".",
+"words": [
+[
+"bønderne",
+"the farmers"
+]
+]
+},
+{
+"da": "Denne tvetydighed har Aarhus Teater i samarbejdet med Christian Lollike ført up to date i en alternativ version af Holbergs klassiker: I sin nyfortolkning erstatter Christian Lollike Holbergs hyggehumor og tanker om jordens form med en satirisk tone og et tema om danskhed.",
+"en": "Aarhus Theatre, together with Christian Lollike, has brought this ambiguity up to date in an alternative version of Holberg's classic: in his new interpretation, Lollike replaces Holberg's cosy humour and ideas about the earth's shape with a satirical tone and a theme of Danishness.",
+"p": false,
+"note": "The new version has a new theme. The object \"Denne tvetydighed\" comes first, so the verb \"har\" comes before the subject.",
+"words": [
+[
+"tvetydighed",
+"ambiguity"
+],
+[
+"samarbejdet",
+"the cooperation"
+],
+[
+"nyfortolkning",
+"new interpretation"
+],
+[
+"danskhed",
+"Danishness"
+]
+]
+},
+{
+"da": "Det er meget fint, at dette tema er med i stykket, fordi det gør stykket mere aktuelt.",
+"en": "It is very good that this theme is in the play, because it makes the play more relevant.",
+"p": false,
+"note": "The reviewer likes the new theme. After \"fordi\", the word order is subject then verb.",
+"words": [
+[
+"aktuelt",
+"relevant"
+]
+]
+},
+{
+"da": "Midt om natten, Tivolis koncertsal",
+"en": "In the Middle of the Night, Tivoli's concert hall",
+"p": true,
+"note": "The title of the third review: a musical in Tivoli.",
+"words": [
+[
+"koncertsal",
+"concert hall"
+]
+]
+},
+{
+"da": "Af Stina Hansen",
+"en": "By Stina Hansen",
+"p": false,
+"note": "The name of the writer."
+},
+{
+"da": "Musicalen Midt om natten er baseret på filmen af samme navn fra 1984.",
+"en": "The musical In the Middle of the Night is based on the film of the same name from 1984.",
+"p": true,
+"note": "The musical comes from a film. \"baseret på\" means based on.",
+"words": [
+[
+"Musicalen",
+"the musical"
+],
+[
+"baseret",
+"based"
+]
+]
+},
+{
+"da": "Filmen er en af de mest sete danske biograffilm, og Kim Larsens album med sangene er et af de bedst sælgende danske album nogensinde.",
+"en": "The film is one of the most watched Danish cinema films, and Kim Larsen's album with the songs is one of the best-selling Danish albums ever.",
+"p": false,
+"note": "Both film and album were very popular. \"de mest sete\" is a superlative: the most watched.",
+"words": [
+[
+"biograffilm",
+"cinema film"
+],
+[
+"sælgende",
+"selling"
+],
+[
+"nogensinde",
+"ever"
+]
+]
+},
+{
+"da": "Det er altså et kulturklenodie af de helt store, der her er lavet som musical.",
+"en": "So it is a really great cultural treasure that has been made into a musical here.",
+"p": false,
+"note": "The story is a national treasure. \"altså\" means \"so\" or \"in other words\".",
+"words": [
+[
+"kulturklenodie",
+"cultural treasure"
+]
+]
+},
+{
+"da": "Det lykkes heldigvis godt.",
+"en": "Luckily, it works well.",
+"p": false,
+"note": "The reviewer says it is a success. \"lykkes\" is a verb ending in -s with active meaning: to succeed.",
+"words": [
+[
+"lykkes",
+"succeeds"
+],
+[
+"heldigvis",
+"luckily"
+]
+]
+},
+{
+"da": "Musicalen indeholder nogle af Kim Larsens og Gasolins største hits og giver publikum et gensyn med karakterer som Arnold, der i filmen spilles af Erik Clausen, og Benny, som i filmen portrætteres af Kim Larsen.",
+"en": "The musical contains some of Kim Larsen's and Gasolin's biggest hits and lets the audience meet characters again like Arnold, who is played by Erik Clausen in the film, and Benny, who is portrayed by Kim Larsen.",
+"p": false,
+"note": "It has famous songs and characters. \"spilles\" and \"portrætteres\" are passives with -s: is played, is portrayed.",
+"words": [
+[
+"indeholder",
+"contains"
+],
+[
+"gensyn",
+"reunion"
+],
+[
+"karakterer",
+"characters"
+],
+[
+"portrætteres",
+"is portrayed"
+]
+]
+},
+{
+"da": "Gode skuespillere i forvirrende historie",
+"en": "Good actors in a confusing story",
+"p": true,
+"note": "A heading: good actors, but a confusing story.",
+"words": [
+[
+"skuespillere",
+"actors"
+],
+[
+"forvirrende",
+"confusing"
+]
+]
+},
+{
+"da": "Historien i musicalen er en lille smule forvirrende, fordi der er en ung mand, der i nutiden ser tilbage på, hvad der skete engang, og handlingen kommer til at hoppe for meget frem og tilbage i tiden.",
+"en": "The story in the musical is a little confusing, because a young man in the present looks back on what happened once, and the plot jumps too much back and forth in time.",
+"p": false,
+"note": "The story jumps in time too much. \"komme til at\" means to end up doing something.",
+"words": [
+[
+"forvirrende",
+"confusing"
+],
+[
+"nutiden",
+"the present"
+],
+[
+"handlingen",
+"the plot"
+]
+]
+},
+{
+"da": "Det er tydeligt, at skuespillerne ikke altid kan spille ligesom personerne fra filmen, men når det er en musical, så synes jeg, at det vigtigste er, hvordan skuespillerne synger.",
+"en": "It is clear that the actors cannot always act like the people in the film, but when it is a musical, I think the most important thing is how the actors sing.",
+"p": false,
+"note": "Singing matters most. In the \"at\"-clause, \"ikke\" comes before the verb \"kan\".",
+"words": [
+[
+"tydeligt",
+"clear"
+],
+[
+"skuespillerne",
+"the actors"
+],
+[
+"vigtigste",
+"most important"
+]
+]
+},
+{
+"da": "Og de synger godt, så derfor synes jeg, at det er gode skuespillere, der er valgt til rollerne.",
+"en": "And they sing well, so I think good actors have been chosen for the roles.",
+"p": false,
+"note": "The reviewer praises the cast. After \"derfor\", the verb \"synes\" comes before \"jeg\".",
+"words": [
+[
+"derfor",
+"therefore"
+],
+[
+"rollerne",
+"the roles"
+]
+]
+},
+{
+"da": "Det er jo sangene, der bærer forestillingen, hvilket man også kan mærke, når publikum rejser sig og synger med.",
+"en": "It is the songs that carry the show, which you can also feel when the audience stands up and sings along.",
+"p": false,
+"note": "The songs make the show. \"hvilket\" refers to the whole idea before it: which.",
+"words": [
+[
+"forestillingen",
+"the performance"
+],
+[
+"hvilket",
+"which"
+]
+]
+},
+{
+"da": "Besat, Bornholms Teater i Rønne Theater",
+"en": "Occupied, Bornholm's Theatre in Rønne Theatre",
+"p": true,
+"note": "The title of the fourth review.",
+"words": [
+[
+"Besat",
+"occupied"
+]
+]
+},
+{
+"da": "Af Cecilie Olsen",
+"en": "By Cecilie Olsen",
+"p": false,
+"note": "The name of the writer."
+},
+{
+"da": "Historisk teaterstykke",
+"en": "A historical play",
+"p": true,
+"note": "A heading: the play is about history.",
+"words": [
+[
+"Historisk",
+"historical"
+],
+[
+"teaterstykke",
+"play"
+]
+]
+},
+{
+"da": "I maj 1945 jublede de fleste danskere over freden efter Anden Verdenskrig, men mange glemte Bornholm.",
+"en": "In May 1945, most Danes cheered the peace after the Second World War, but many forgot Bornholm.",
+"p": false,
+"note": "Bornholm was forgotten at the end of the war. After \"I maj 1945\", the verb comes before the subject.",
+"words": [
+[
+"jublede",
+"cheered"
+],
+[
+"Verdenskrig",
+"world war"
+]
+]
+},
+{
+"da": "Tyskerne var stadig på øen, og de ville kun overgive sig til englænderne, der dog ikke var til stede.",
+"en": "The Germans were still on the island, and they would only surrender to the English, who were not there, however.",
+"p": false,
+"note": "The Germans would not surrender to the Russians. Note \"på øen\": Danish uses \"på\" with islands.",
+"words": [
+[
+"Tyskerne",
+"the Germans"
+],
+[
+"overgive",
+"surrender"
+],
+[
+"englænderne",
+"the English"
+]
+]
+},
+{
+"da": "For at tvinge tyskerne til at overgive sig, bombede russerne Rønne og Nexø.",
+"en": "To force the Germans to surrender, the Russians bombed Rønne and Nexø.",
+"p": false,
+"note": "The Russians bombed two towns. \"For at\" plus infinitive means \"in order to\".",
+"words": [
+[
+"tvinge",
+"force"
+],
+[
+"overgive",
+"surrender"
+],
+[
+"russerne",
+"the Russians"
+]
+]
+},
+{
+"da": "90 procent af de to byer blev ødelagt, og ti danskere omkom.",
+"en": "90 percent of the two towns were destroyed, and ten Danes died.",
+"p": false,
+"note": "The damage was great. \"blev ødelagt\" is the passive with \"blive\" in the past: were destroyed.",
+"words": [
+[
+"ødelagt",
+"destroyed"
+],
+[
+"omkom",
+"died"
+]
+]
+},
+{
+"da": "Russerne besatte Bornholm og forlod først øen i april 1946.",
+"en": "The Russians occupied Bornholm and did not leave the island until April 1946.",
+"p": false,
+"note": "The occupation lasted a year. \"først\" with a time means \"not until\".",
+"words": [
+[
+"besatte",
+"occupied"
+],
+[
+"forlod",
+"left"
+]
+]
+},
+{
+"da": "Det er disse barske, historiske kendsgerninger, som Bornholms Teater har lavet et teaterstykke om, blandt andet fordi teatret ønsker at fortælle specielt yngre generationer om den komplicerede fortid.",
+"en": "It is these harsh historical facts that Bornholm's Theatre has made a play about, partly because the theatre wants to tell especially younger generations about the complicated past.",
+"p": false,
+"note": "The play teaches young people history. The preposition \"om\" stands at the end of the relative clause.",
+"words": [
+[
+"kendsgerninger",
+"facts"
+],
+[
+"generationer",
+"generations"
+],
+[
+"komplicerede",
+"complicated"
+]
+]
+},
+{
+"da": "Der er spændinger i luften",
+"en": "There is tension in the air",
+"p": true,
+"note": "A heading: the mood in the play is tense.",
+"words": [
+[
+"spændinger",
+"tensions"
+]
+]
+},
+{
+"da": "Her er beskrevet et fiktivt møde mellem fire personer: en moden, dansk kvinde, hendes voksne datter og heroverfor en moden, tysk militærmand og en ung, russisk soldat.",
+"en": "Here a fictional meeting between four people is described: a mature Danish woman, her adult daughter and, opposite them, a mature German military man and a young Russian soldier.",
+"p": false,
+"note": "This lists the four characters. \"et fiktivt møde\" has -t because \"møde\" is an et-word.",
+"words": [
+[
+"beskrevet",
+"described"
+],
+[
+"fiktivt",
+"fictional"
+],
+[
+"heroverfor",
+"opposite this"
+],
+[
+"militærmand",
+"military man"
+]
+]
+},
+{
+"da": "Der er spændinger i luften fra første sekund – allerede inden soldaterne ankommer.",
+"en": "There is tension in the air from the first second – even before the soldiers arrive.",
+"p": false,
+"note": "The tension starts at once. \"inden\" means before and starts a subordinate clause.",
+"words": [
+[
+"spændinger",
+"tensions"
+],
+[
+"soldaterne",
+"the soldiers"
+],
+[
+"ankommer",
+"arrive"
+]
+]
+},
+{
+"da": "Datteren er utilfreds med moderen.",
+"en": "The daughter is unhappy with the mother.",
+"p": false,
+"note": "The daughter is angry with her mother. \"utilfreds med\" means dissatisfied with.",
+"words": [
+[
+"Datteren",
+"the daughter"
+],
+[
+"utilfreds",
+"dissatisfied"
+]
+]
+},
+{
+"da": "Hvorfor var hun så venlig over for tyskerne igennem alle fem år?",
+"en": "Why was she so friendly towards the Germans through all five years?",
+"p": false,
+"note": "The daughter's question. In a question with \"hvorfor\", the verb comes right after it.",
+"words": [
+[
+"Hvorfor",
+"why"
+],
+[
+"igennem",
+"through"
+]
+]
+},
+{
+"da": "Og bølgerne kommer til at gå højt, da tyskeren og efterfølgende russeren søger tilflugt i det sommerhus, hvor de to kvinder har gemt sig.",
+"en": "And feelings run high when the German and then the Russian seek shelter in the summer house where the two women are hiding.",
+"p": false,
+"note": "The men come to the women's hiding place. \"bølgerne går højt\" is an idiom: feelings run high.",
+"words": [
+[
+"efterfølgende",
+"afterwards"
+],
+[
+"tilflugt",
+"refuge"
+],
+[
+"sommerhus",
+"summer house"
+]
+]
+},
+{
+"da": "Der er noget at tænke over, noget at diskutere efter forestillingen og først som sidst nogle overvejelser at tage med hjem.",
+"en": "There is something to think about, something to discuss after the show and, above all, some thoughts to take home.",
+"p": true,
+"note": "The play makes you think. \"noget at tænke over\" uses \"at\" plus infinitive after a noun.",
+"words": [
+[
+"diskutere",
+"discuss"
+],
+[
+"overvejelser",
+"reflections"
+]
+]
+},
+{
+"da": "Besat er den ideelle forestilling for et egnsteater: Et lokalt emne poleres og løftes op til underholdning med indhold og holdninger.",
+"en": "Besat is the ideal show for a regional theatre: a local topic is polished and lifted up into entertainment with content and opinions.",
+"p": false,
+"note": "It suits a local theatre well. \"poleres\" and \"løftes\" are passives with -s.",
+"words": [
+[
+"ideelle",
+"ideal"
+],
+[
+"egnsteater",
+"regional theatre"
+],
+[
+"underholdning",
+"entertainment"
+],
+[
+"holdninger",
+"opinions"
+]
+]
+},
+{
+"da": "Men Besat er faktisk en del af hele den danske historie, og stykket formidler historien godt.",
+"en": "But Besat is actually part of the whole Danish history, and the play communicates the history well.",
+"p": false,
+"note": "The topic is national, not only local. \"faktisk\" means actually.",
+"words": [
+[
+"faktisk",
+"actually"
+],
+[
+"formidler",
+"communicates"
+]
+]
+},
+{
+"da": "TRE DANSKE TEATRE",
+"en": "THREE DANISH THEATRES",
+"p": true,
+"note": "The title of the second chapter.",
+"words": [
+[
+"TEATRE",
+"theatres"
+]
+]
+},
+{
+"da": "Det Kongelige Teater",
+"en": "The Royal Theatre",
+"p": true,
+"note": "A heading: the first theatre.",
+"words": [
+[
+"Kongelige",
+"royal"
+]
+]
+},
+{
+"da": "Huse og scener",
+"en": "Buildings and stages",
+"p": true,
+"note": "A heading. \"scener\" is the plural of \"scene\"."
+},
+{
+"da": "Nationalscenen på Kongens Nytorv var ved sin begyndelse i 1748 lig med Skuespillet, hvor Ludvig Holberg med sine komedier udgjorde kernen i et nyt dansksproget teaterrepertoire.",
+"en": "At its beginning in 1748, the national stage at Kongens Nytorv was the same as the Drama, where Ludvig Holberg with his comedies formed the core of a new Danish-language repertoire.",
+"p": false,
+"note": "At first the theatre was only drama. \"udgjorde\" is the past of \"udgøre\": made up.",
+"words": [
+[
+"Nationalscenen",
+"the national stage"
+],
+[
+"begyndelse",
+"beginning"
+],
+[
+"udgjorde",
+"formed"
+],
+[
+"dansksproget",
+"Danish-language"
+]
+]
+},
+{
+"da": "Hurtigt kom også balletten, operaen og kapellet til, og de udgør tilsammen Det Kongelige Teater.",
+"en": "Soon the ballet, the opera and the orchestra were added, and together they make up the Royal Theatre.",
+"p": false,
+"note": "Other art forms joined. After \"Hurtigt\", the verb \"kom\" comes before the subject.",
+"words": [
+[
+"balletten",
+"the ballet"
+],
+[
+"kapellet",
+"the orchestra"
+],
+[
+"tilsammen",
+"together"
+]
+]
+},
+{
+"da": "I dag består Det Kongelige Teater af tre huse: Hovedbygningen på Kongens Nytorv, Operaen på Holmen samt Skuespilhuset.",
+"en": "Today the Royal Theatre consists of three buildings: the main building at Kongens Nytorv, the Opera on Holmen and the Playhouse.",
+"p": false,
+"note": "This names the three buildings. \"bestå af\" means to consist of.",
+"words": [
+[
+"består",
+"consists"
+],
+[
+"Hovedbygningen",
+"the main building"
+],
+[
+"Skuespilhuset",
+"the Playhouse"
+]
+]
+},
+{
+"da": "Der er i alt seks scener.",
+"en": "There are six stages in total.",
+"p": false,
+"note": "A short fact. \"i alt\" means in total."
+},
+{
+"da": "Skuespilhusets tre scener",
+"en": "The Playhouse's three stages",
+"p": true,
+"note": "A heading. The genitive -s shows ownership.",
+"words": [
+[
+"Skuespilhusets",
+"the Playhouse's"
+]
+]
+},
+{
+"da": "Teater og skuespil har hjemme i Skuespilhuset, der ligger ved havnen for enden af Sankt Annæ Plads og råder over én stor og to mindre scener – Store Scene med plads til 640 tilskuere, Mellemgulvet med plads til 200 tilskuere og Lille Scene med plads til godt 100 tilskuere.",
+"en": "Theatre and drama live in the Playhouse, which is by the harbour at the end of Sankt Annæ Plads and has one big and two smaller stages – the Big Stage with room for 640, the Mezzanine with room for 200 and the Small Stage with room for just over 100.",
+"p": false,
+"note": "This describes the stages and their size. \"godt 100\" means a little more than 100.",
+"words": [
+[
+"Skuespilhuset",
+"the Playhouse"
+],
+[
+"tilskuere",
+"spectators"
+],
+[
+"Mellemgulvet",
+"the mezzanine"
+]
+]
+},
+{
+"da": "Den kunstneriske ambition på Store Scene er at skabe forestillinger, der henvender sig bredt med nye fortolkninger af klassikere som Shakespeare og Holberg, nye familieforestillinger og nye musikforestillinger.",
+"en": "The artistic aim on the Big Stage is to create shows with broad appeal, with new interpretations of classics like Shakespeare and Holberg, new family shows and new music shows.",
+"p": false,
+"note": "The Big Stage is for a wide audience. \"henvender sig\" is reflexive: to be aimed at.",
+"words": [
+[
+"kunstneriske",
+"artistic"
+],
+[
+"forestillinger",
+"performances"
+],
+[
+"fortolkninger",
+"interpretations"
+],
+[
+"klassikere",
+"classics"
+]
+]
+},
+{
+"da": "De mindre scener er dedikeret til udvikling af danske og udenlandske fortællinger, og det er også her, man kan opleve workshops og visninger af stykker under udvikling.",
+"en": "The smaller stages are dedicated to developing Danish and foreign stories, and here you can also see workshops and showings of plays in development.",
+"p": false,
+"note": "Small stages are for new work. \"man\" is used for people in general: you, one.",
+"words": [
+[
+"dedikeret",
+"dedicated"
+],
+[
+"udvikling",
+"development"
+],
+[
+"udenlandske",
+"foreign"
+],
+[
+"visninger",
+"showings"
+]
+]
+},
+{
+"da": "Særlige behov",
+"en": "Special needs",
+"p": true,
+"note": "A heading: information for people with special needs.",
+"words": [
+[
+"Særlige",
+"special"
+]
+]
+},
+{
+"da": "Nedenfor finder du information om adgangsforhold og handicapfaciliteter på Det Kongelige Teaters scener.",
+"en": "Below you will find information about access and disability facilities at the Royal Theatre's stages.",
+"p": false,
+"note": "This introduces access information. After \"Nedenfor\", the verb \"finder\" comes before \"du\".",
+"words": [
+[
+"Nedenfor",
+"below"
+],
+[
+"adgangsforhold",
+"access conditions"
+],
+[
+"handicapfaciliteter",
+"disability facilities"
+]
+]
+},
+{
+"da": "På alle scener kan du låne barnesæder, så mindre børn kan få et godt udsyn til scenen.",
+"en": "At all stages you can borrow child seats so that small children can see the stage well.",
+"p": false,
+"note": "Children can get booster seats. \"så\" here means \"so that\".",
+"words": [
+[
+"barnesæder",
+"child seats"
+],
+[
+"udsyn",
+"view"
+]
+]
+},
+{
+"da": "Spørg blot vores kontrollører, så hjælper de med at finde et barnesæde.",
+"en": "Just ask our ushers, and they will help you find a child seat.",
+"p": false,
+"note": "Ask the staff for a seat. \"Spørg\" is the imperative form.",
+"words": [
+[
+"blot",
+"just"
+],
+[
+"kontrollører",
+"ushers"
+],
+[
+"barnesæde",
+"child seat"
+]
+]
+},
+{
+"da": "Skuespilhusets Store Scene",
+"en": "The Playhouse's Big Stage",
+"p": true,
+"note": "A heading for the access facts for one stage.",
+"words": [
+[
+"Skuespilhusets",
+"the Playhouse's"
+]
+]
+},
+{
+"da": "Adgangsforhold: Der er niveaufri adgang via Skuespilhusets foyer til parterre.",
+"en": "Access: There is step-free access through the Playhouse foyer to the stalls.",
+"p": false,
+"note": "You can enter without steps. \"niveaufri\" means step-free, with no level change.",
+"words": [
+[
+"Adgangsforhold",
+"access"
+],
+[
+"niveaufri",
+"step-free"
+],
+[
+"Skuespilhusets",
+"the Playhouse's"
+]
+]
+},
+{
+"da": "Elevator: Elevatoren ved garderoben midt i foyeren kører til 1. balkon.",
+"en": "Lift: The lift by the cloakroom in the middle of the foyer goes to the 1st balcony.",
+"p": false,
+"note": "Where the lift goes. \"Elevatoren\" is the definite form with -en.",
+"words": [
+[
+"Elevatoren",
+"the lift"
+],
+[
+"garderoben",
+"the cloakroom"
+]
+]
+},
+{
+"da": "Bemærk, at der ikke er adgang med elevator til 2. balkon.",
+"en": "Note that there is no lift access to the 2nd balcony.",
+"p": false,
+"note": "A warning. \"Bemærk\" is an imperative: note.",
+"words": [
+[
+"Bemærk",
+"note"
+]
+]
+},
+{
+"da": "Handicapparkering: Der er to handicappladser for enden af Sankt Annæ Plads, tæt ved Skuespilhuset.",
+"en": "Disabled parking: There are two disabled spaces at the end of Sankt Annæ Plads, close to the Playhouse.",
+"p": false,
+"note": "Where to park. \"for enden af\" means at the end of.",
+"words": [
+[
+"Handicapparkering",
+"disabled parking"
+],
+[
+"handicappladser",
+"disabled spaces"
+]
+]
+},
+{
+"da": "Kørestolspladser: På Skuespilhusets Store Scene er der reserveret to faste kørestolspladser, som kan bestilles senest en uge før forestillingen gennem Det Kongelige Teaters Kundeservice på tlf. 33 69 69 69.",
+"en": "Wheelchair spaces: On the Playhouse's Big Stage two wheelchair spaces are reserved, which can be booked at the latest a week before the show through customer service on 33 69 69 69.",
+"p": false,
+"note": "Book wheelchair places a week before. \"kan bestilles\" is the passive with -s after a modal verb.",
+"words": [
+[
+"Kørestolspladser",
+"wheelchair spaces"
+],
+[
+"reserveret",
+"reserved"
+],
+[
+"bestilles",
+"be booked"
+],
+[
+"senest",
+"at the latest"
+]
+]
+},
+{
+"da": "Operaens Store Scene",
+"en": "The Opera's Big Stage",
+"p": true,
+"note": "A heading for the Opera's access facts.",
+"words": [
+[
+"Operaens",
+"the Opera's"
+]
+]
+},
+{
+"da": "Adgangsforhold: Der er niveaufri adgang via alle indgange.",
+"en": "Access: There is step-free access through all entrances.",
+"p": false,
+"note": "All entrances are without steps. \"indgange\" is plural.",
+"words": [
+[
+"Adgangsforhold",
+"access"
+],
+[
+"niveaufri",
+"step-free"
+],
+[
+"indgange",
+"entrances"
+]
+]
+},
+{
+"da": "Elevator: Der er elevatorer, som kører til alle etager, i begge sider.",
+"en": "Lift: There are lifts on both sides that go to all floors.",
+"p": false,
+"note": "Lifts reach every floor. \"som\" starts a relative clause: which.",
+"words": [
+[
+"elevatorer",
+"lifts"
+],
+[
+"etager",
+"floors"
+]
+]
+},
+{
+"da": "Kørestolspladser: På Operaens Store Scene er der reserveret fire faste kørestolspladser, som kan bestilles senest en uge før forestillingen gennem Det Kongelige Teaters Kundeservice på tlf. 33 69 69 69.",
+"en": "Wheelchair spaces: On the Opera's Big Stage four wheelchair spaces are reserved, which can be booked at the latest a week before the show through customer service on 33 69 69 69.",
+"p": false,
+"note": "Four wheelchair places here. After \"På Operaens Store Scene\", the verb \"er\" comes before \"der\".",
+"words": [
+[
+"Kørestolspladser",
+"wheelchair spaces"
+],
+[
+"reserveret",
+"reserved"
+],
+[
+"bestilles",
+"be booked"
+],
+[
+"Kundeservice",
+"customer service"
+]
+]
+},
+{
+"da": "Gamle Scene",
+"en": "The Old Stage",
+"p": true,
+"note": "A heading for the Old Stage's access facts."
+},
+{
+"da": "Adgangsforhold: Adgang fra Kongens Nytorv kan ske via kørestolsrampe på venstre side af indgangsdørene.",
+"en": "Access: Access from Kongens Nytorv is via a wheelchair ramp on the left side of the entrance doors.",
+"p": false,
+"note": "There is a ramp. \"kan ske\" means can happen, here: is possible.",
+"words": [
+[
+"Adgangsforhold",
+"access"
+],
+[
+"kørestolsrampe",
+"wheelchair ramp"
+],
+[
+"indgangsdørene",
+"the entrance doors"
+]
+]
+},
+{
+"da": "Både den ydre og den indre indgangsdør helt til venstre åbnes automatisk ved tryk på knap.",
+"en": "Both the outer and the inner entrance door on the far left open automatically when you press a button.",
+"p": false,
+"note": "The doors open with a button. \"åbnes\" is the passive with -s.",
+"words": [
+[
+"indgangsdør",
+"entrance door"
+],
+[
+"åbnes",
+"are opened"
+],
+[
+"automatisk",
+"automatically"
+]
+]
+},
+{
+"da": "Elevator: Der er elevator i venstre side (kongesiden), som kører til Parket, Balkon, 1. etage tv., og 2. etage, men ikke til galleriet og 1. etage th. (på 1. etage er der ikke niveaufri adgang til modsatte side).",
+"en": "Lift: There is a lift on the left side (the king's side) going to the stalls, balcony, 1st floor left and 2nd floor, but not to the gallery and 1st floor right (on the 1st floor there is no step-free access to the other side).",
+"p": false,
+"note": "Where the lift goes and does not go. \"tv.\" and \"th.\" are short for til venstre and til højre.",
+"words": [
+[
+"kongesiden",
+"the king's side"
+],
+[
+"galleriet",
+"the gallery"
+],
+[
+"niveaufri",
+"step-free"
+],
+[
+"modsatte",
+"opposite"
+]
+]
+},
+{
+"da": "Kørestolspladser: Kørestolspladserne på Gamle Scene er placeret på Parket i venstre side, række 16 og 17.",
+"en": "Wheelchair spaces: The wheelchair spaces on the Old Stage are in the stalls on the left, rows 16 and 17.",
+"p": false,
+"note": "Where wheelchair places are. \"er placeret\" means are placed.",
+"words": [
+[
+"Kørestolspladserne",
+"the wheelchair spaces"
+],
+[
+"placeret",
+"placed"
+],
+[
+"række",
+"row"
+]
+]
+},
+{
+"da": "Der er reserveret to faste kørestolspladser, som kan bestilles senest en uge før forestillingen gennem Det Kongelige Teaters Kundeservice på tlf. 33 69 69 69.",
+"en": "Two wheelchair spaces are reserved, which can be booked at the latest a week before the show through customer service on 33 69 69 69.",
+"p": false,
+"note": "Two places, book a week ahead. \"senest\" means at the latest.",
+"words": [
+[
+"reserveret",
+"reserved"
+],
+[
+"kørestolspladser",
+"wheelchair spaces"
+],
+[
+"bestilles",
+"be booked"
+],
+[
+"senest",
+"at the latest"
+]
+]
+},
+{
+"da": "Indehavere af et officielt ledsagerkort, udstedt af Danske Handicaporganisationer, Dansk Blindesamfund eller tilsvarende organisation fra et EU land, tilbydes en gratis (+ serviceomkostninger) ledsagerbillet til Det Kongelige Teaters egne forestillinger.",
+"en": "Holders of an official companion card, issued by Disabled People's Organisations Denmark, the Danish Association of the Blind or a similar EU organisation, are offered a free (+ service fees) companion ticket to the Royal Theatre's own shows.",
+"p": true,
+"note": "Companions can get a free ticket. \"tilbydes\" is the passive with -s: are offered.",
+"words": [
+[
+"Indehavere",
+"holders"
+],
+[
+"ledsagerkort",
+"companion card"
+],
+[
+"tilsvarende",
+"similar"
+],
+[
+"tilbydes",
+"are offered"
+]
+]
+},
+{
+"da": "Ønsker du at bestille en gratis ledsagerbillet i forbindelse med køb af kørestolsplads, skal du kontakte Det Kongelige Teaters Kundecenter på tlf. 33 69 69 69.",
+"en": "If you want to book a free companion ticket when buying a wheelchair space, you must contact the customer centre on 33 69 69 69.",
+"p": false,
+"note": "How to book a companion ticket. The sentence starts with the verb \"Ønsker\": this means \"if\" without the word \"hvis\".",
+"words": [
+[
+"ledsagerbillet",
+"companion ticket"
+],
+[
+"forbindelse",
+"connection"
+],
+[
+"kørestolsplads",
+"wheelchair space"
+],
+[
+"Kundecenter",
+"customer centre"
+]
+]
+},
+{
+"da": "Bearbejdet efter https://kglteater.dk/om-os/kunstarter/det-kongelige-skuespil/?section=27663, hentet 24.04.20",
+"en": "Adapted from https://kglteater.dk/om-os/kunstarter/det-kongelige-skuespil/?section=27663, retrieved 24.04.20",
+"p": true,
+"note": "A source note: where the text comes from. \"hentet\" means retrieved.",
+"words": [
+[
+"Bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Bearbejdet efter https://kglteater.dk/brug-teatret/i-teatret/sarlige-behov/, hentet 24.04.20",
+"en": "Adapted from https://kglteater.dk/brug-teatret/i-teatret/sarlige-behov/, retrieved 24.04.20",
+"p": false,
+"note": "Another source note with a web address.",
+"words": [
+[
+"Bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Aarhus Teater",
+"en": "Aarhus Theatre",
+"p": true,
+"note": "A heading: the second theatre."
+},
+{
+"da": "Huset og scenerne",
+"en": "The building and the stages",
+"p": true,
+"note": "A heading. Both nouns are in the definite form.",
+"words": [
+[
+"scenerne",
+"the stages"
+]
+]
+},
+{
+"da": "Aarhus Teater er Danmarks største landsdelsscene og opført i slutningen af 1890’erne på initiativ af en kreds af teaterinteresserede borgere i Aarhus.",
+"en": "Aarhus Theatre is Denmark's largest regional stage and was built at the end of the 1890s on the initiative of a group of theatre-loving citizens in Aarhus.",
+"p": false,
+"note": "The theatre was built by local citizens' initiative. \"opført\" here means built.",
+"words": [
+[
+"landsdelsscene",
+"regional stage"
+],
+[
+"slutningen",
+"the end"
+],
+[
+"initiativ",
+"initiative"
+],
+[
+"teaterinteresserede",
+"theatre-loving"
+]
+]
+},
+{
+"da": "Bygningen, som er en arkitektonisk perle i jugendstil, blev indviet 15. september 1900 og har været fredet siden 1981.",
+"en": "The building, an architectural gem in Art Nouveau style, was opened on 15 September 1900 and has been listed since 1981.",
+"p": false,
+"note": "The building is old and protected. \"blev indviet\" is the passive past with \"blive\": was opened.",
+"words": [
+[
+"Bygningen",
+"the building"
+],
+[
+"arkitektonisk",
+"architectural"
+],
+[
+"indviet",
+"inaugurated"
+],
+[
+"fredet",
+"listed, protected"
+]
+]
+},
+{
+"da": "Teatret er bevaret i sin oprindelige pragt som kulturelt kraftcenter midt i Danmarks næststørste by.",
+"en": "The theatre is preserved in its original splendour as a cultural powerhouse in the middle of Denmark's second-largest city.",
+"p": false,
+"note": "It still looks as it did. \"næststørste\" means second largest.",
+"words": [
+[
+"bevaret",
+"preserved"
+],
+[
+"oprindelige",
+"original"
+],
+[
+"kraftcenter",
+"powerhouse"
+],
+[
+"næststørste",
+"second-largest"
+]
+]
+},
+{
+"da": "Aarhus Teater er tegnet af arkitekten Hack Kampmann, manden bag flere af sin tids mest markante offentlige bygninger i Aarhus.",
+"en": "Aarhus Theatre was designed by the architect Hack Kampmann, the man behind several of the most striking public buildings of his time in Aarhus.",
+"p": true,
+"note": "This names the architect. \"er tegnet af\" means was designed by.",
+"words": [
+[
+"arkitekten",
+"the architect"
+],
+[
+"markante",
+"striking"
+],
+[
+"offentlige",
+"public"
+],
+[
+"bygninger",
+"buildings"
+]
+]
+},
+{
+"da": "Der er sket tilbygninger på teatret gennem tiden, og i dag er der 4 scener: Store scene og de mindre scener Scala, Stiklingen og Studio.",
+"en": "Extensions have been added to the theatre over time, and today there are 4 stages: the Big Stage and the smaller stages Scala, Stiklingen and Studio.",
+"p": false,
+"note": "The theatre has grown to four stages. After \"i dag\", the verb \"er\" comes before \"der\".",
+"words": [
+[
+"tilbygninger",
+"extensions"
+],
+[
+"gennem",
+"through"
+]
+]
+},
+{
+"da": "Store Scene, store drømme",
+"en": "Big Stage, big dreams",
+"p": true,
+"note": "A heading with word play on \"store\".",
+"words": [
+[
+"drømme",
+"dreams"
+]
+]
+},
+{
+"da": "I tilskuerrummet til Store Scene møder man Aarhus Teaters stolthed, som har givet det tilnavnet ’Det gyldne hus’.",
+"en": "In the auditorium of the Big Stage you meet Aarhus Theatre's pride, which has given it the nickname 'The Golden House'.",
+"p": false,
+"note": "The hall is very golden. After \"I tilskuerrummet …\", the verb \"møder\" comes before \"man\".",
+"words": [
+[
+"tilskuerrummet",
+"the auditorium"
+],
+[
+"stolthed",
+"pride"
+],
+[
+"tilnavnet",
+"the nickname"
+],
+[
+"gyldne",
+"golden"
+]
+]
+},
+{
+"da": "Her er forgyldte motiver fra naturens verden: planter, blomster, fugle og alfer.",
+"en": "Here are gilded motifs from the world of nature: plants, flowers, birds and elves.",
+"p": false,
+"note": "This describes the decorations. \"naturens\" has a genitive -s: nature's.",
+"words": [
+[
+"forgyldte",
+"gilded"
+],
+[
+"motiver",
+"motifs"
+],
+[
+"blomster",
+"flowers"
+]
+]
+},
+{
+"da": "Rummet er bygget op over farverne hvid, guld og grøn, med loftets blå som samlende farve.",
+"en": "The room is built on the colours white, gold and green, with the blue of the ceiling as the uniting colour.",
+"p": false,
+"note": "This names the colours of the room. \"loftets\" is a genitive: the ceiling's.",
+"words": [
+[
+"Rummet",
+"the room"
+],
+[
+"farverne",
+"the colours"
+],
+[
+"loftets",
+"the ceiling's"
+],
+[
+"samlende",
+"uniting"
+]
+]
+},
+{
+"da": "I teatret",
+"en": "In the theatre",
+"p": true,
+"note": "A heading about practical information.",
+"words": [
+[
+"teatret",
+"the theatre"
+]
+]
+},
+{
+"da": "Der er indgang til alle scener fra Teatergaden.",
+"en": "There is an entrance to all stages from Teatergaden.",
+"p": false,
+"note": "You enter from one street. \"Der er\" means there is.",
+"words": [
+[
+"indgang",
+"entrance"
+]
+]
+},
+{
+"da": "Dresscode",
+"en": "Dress code",
+"p": true,
+"note": "A heading: what to wear."
+},
+{
+"da": "Du behøver ikke finde de lange silkehandsker og butterflyen frem for at komme ind på Store Scene.",
+"en": "You don't need to get out your long silk gloves and bow tie to go into the Big Stage.",
+"p": false,
+"note": "You don't need to dress up. After \"behøver ikke\", the verb has no \"at\".",
+"words": [
+[
+"behøver",
+"need"
+],
+[
+"silkehandsker",
+"silk gloves"
+],
+[
+"butterflyen",
+"the bow tie"
+]
+]
+},
+{
+"da": "Der er ingen krav til påklædning på Aarhus Teater.",
+"en": "There are no dress requirements at Aarhus Theatre.",
+"p": false,
+"note": "There is no dress code. \"krav til\" means requirements for.",
+"words": [
+[
+"påklædning",
+"clothing"
+]
+]
+},
+{
+"da": "Når dørene åbner",
+"en": "When the doors open",
+"p": true,
+"note": "A heading. \"Når\" is used for things that happen each time.",
+"words": [
+[
+"dørene",
+"the doors"
+]
+]
+},
+{
+"da": "Når dørene åbner, er det de ydre døre ud til Teatergaden.",
+"en": "When the doors open, it is the outer doors to Teatergaden.",
+"p": false,
+"note": "Which doors open first. After a \"når\"-clause, the main verb \"er\" comes first.",
+"words": [
+[
+"dørene",
+"the doors"
+]
+]
+},
+{
+"da": "Kom i god tid, så du kan nyde vores smukke bygning indefra en halv time før forestillingens start.",
+"en": "Come in good time so you can enjoy our beautiful building from inside half an hour before the show starts.",
+"p": false,
+"note": "Arrive early to see the building. \"Kom\" is the imperative.",
+"words": [
+[
+"bygning",
+"building"
+],
+[
+"indefra",
+"from inside"
+],
+[
+"forestillingens",
+"the show's"
+]
+]
+},
+{
+"da": "Her er der mulighed for at hænge overtøj og store tasker i vores garderober, bestille pausedrinks og få programmer til dagens forestilling.",
+"en": "Here you can hang coats and big bags in our cloakrooms, order interval drinks and get programmes for today's show.",
+"p": false,
+"note": "What you can do before the show. \"mulighed for at\" means the chance to.",
+"words": [
+[
+"mulighed",
+"possibility"
+],
+[
+"overtøj",
+"outerwear"
+],
+[
+"garderober",
+"cloakrooms"
+],
+[
+"pausedrinks",
+"interval drinks"
+]
+]
+},
+{
+"da": "Til Store Scene skal man benytte dørene ved hovedtrappen.",
+"en": "For the Big Stage you must use the doors by the main staircase.",
+"p": true,
+"note": "Which door to use. After \"Til Store Scene\", the verb \"skal\" comes before \"man\".",
+"words": [
+[
+"benytte",
+"use"
+],
+[
+"hovedtrappen",
+"the main staircase"
+]
+]
+},
+{
+"da": "Til de mindre scener Scala, Stiklingen og Studio er det indgangen til højre for hovedindgangen til Store Scene, man skal gå ind ad, og man skal forbi vores billetservice for at få adgang til foyeren og disse scener.",
+"en": "For the smaller stages Scala, Stiklingen and Studio, you go in by the entrance to the right of the main entrance to the Big Stage, and you must pass our ticket service to get into the foyer and these stages.",
+"p": false,
+"note": "Directions to the small stages. \"gå ind ad\" puts the preposition \"ad\" at the end.",
+"words": [
+[
+"indgangen",
+"the entrance"
+],
+[
+"hovedindgangen",
+"the main entrance"
+],
+[
+"billetservice",
+"ticket service"
+]
+]
+},
+{
+"da": "For disse scener gælder det endvidere, at dørene ind til selve teatersalen først åbner 10 minutter inden forestillingen starter.",
+"en": "For these stages, the doors to the hall itself only open 10 minutes before the show starts.",
+"p": false,
+"note": "Small stage doors open late. \"først\" with a time means not until.",
+"words": [
+[
+"endvidere",
+"furthermore"
+],
+[
+"teatersalen",
+"the auditorium"
+],
+[
+"forestillingen",
+"the performance"
+]
+]
+},
+{
+"da": "Hvornår lukker dørene?",
+"en": "When do the doors close?",
+"p": true,
+"note": "A heading as a question. The verb comes right after \"Hvornår\".",
+"words": [
+[
+"Hvornår",
+"when"
+]
+]
+},
+{
+"da": "Vores forestillinger starter præcist, og dørene lukker derfor også ved forestillingens start.",
+"en": "Our shows start on time, so the doors also close when the show starts.",
+"p": false,
+"note": "Do not be late. \"derfor\" (therefore) comes after the verb here, because the clause starts with the subject.",
+"words": [
+[
+"forestillinger",
+"performances"
+],
+[
+"præcist",
+"on time"
+],
+[
+"derfor",
+"therefore"
+]
+]
+},
+{
+"da": "En klokke varsler, hvornår det er ved at være tid til at gå ind i salen.",
+"en": "A bell signals when it is almost time to go into the hall.",
+"p": false,
+"note": "A bell tells you to go in. \"ved at være\" means almost being.",
+"words": [
+[
+"varsler",
+"announces"
+]
+]
+},
+{
+"da": "Bearbejdet efter https://www.aarhusteater.dk/om-teatret/om-huset/, hentet 24.04.20",
+"en": "Adapted from https://www.aarhusteater.dk/om-teatret/om-huset/, retrieved 24.04.20",
+"p": true,
+"note": "A source note with a web address.",
+"words": [
+[
+"Bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Bearbejdet efter https://www.aarhusteater.dk/praktisk-info/find-vej-faq/, hentet 24.04.20",
+"en": "Adapted from https://www.aarhusteater.dk/praktisk-info/find-vej-faq/, retrieved 24.04.20",
+"p": false,
+"note": "Another source note.",
+"words": [
+[
+"Bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Bornholms Teater",
+"en": "Bornholm's Theatre",
+"p": true,
+"note": "A heading: the third theatre."
+},
+{
+"da": "Samarbejdspartnere",
+"en": "Partners",
+"p": true,
+"note": "A heading: who the theatre works with.",
+"words": [
+[
+"Samarbejdspartnere",
+"partners"
+]
+]
+},
+{
+"da": "Bornholms Teater er bosat på det historiske Rønne Theater fra 1823.",
+"en": "Bornholm's Theatre is based in the historic Rønne Theatre from 1823.",
+"p": false,
+"note": "Where the theatre lives. \"historiske\" ends in -e after \"det\": the definite form.",
+"words": [
+[
+"historiske",
+"historic"
+]
+]
+},
+{
+"da": "Bornholms Teater er Bornholms egnsteater.",
+"en": "Bornholm's Theatre is Bornholm's regional theatre.",
+"p": false,
+"note": "A short fact. \"egnsteater\" means a local, regional theatre.",
+"words": [
+[
+"egnsteater",
+"regional theatre"
+]
+]
+},
+{
+"da": "Bornholms Teaters ambition er at tilbyde det bornholmske publikum teaterkunst af højeste kvalitet.",
+"en": "Bornholm's Theatre's aim is to offer the Bornholm audience theatre art of the highest quality.",
+"p": false,
+"note": "The theatre wants top quality. \"tilbyde\" takes two objects: the audience and the art.",
+"words": [
+[
+"ambition",
+"aim"
+],
+[
+"tilbyde",
+"offer"
+],
+[
+"bornholmske",
+"Bornholm (adj.)"
+],
+[
+"teaterkunst",
+"theatre art"
+]
+]
+},
+{
+"da": "Denne ambition forfølger vi gennem produktioner af teaterforestillinger, der sætter bornholmske temaer i centrum, og gennem samarbejder med lokale foreninger, institutioner og kunstnere på Bornholm.",
+"en": "We pursue this aim through productions with Bornholm themes at the centre, and through cooperation with local clubs, institutions and artists on Bornholm.",
+"p": false,
+"note": "How they reach their aim. The object comes first, so the verb \"forfølger\" comes before \"vi\".",
+"words": [
+[
+"forfølger",
+"pursue"
+],
+[
+"produktioner",
+"productions"
+],
+[
+"samarbejder",
+"collaborations"
+],
+[
+"institutioner",
+"institutions"
+]
+]
+},
+{
+"da": "Bornholms Teater er bornholmernes teater, men vi har også ambitioner, der rækker udover Bornholm.",
+"en": "Bornholm's Theatre is the people of Bornholm's theatre, but we also have ambitions that reach beyond Bornholm.",
+"p": true,
+"note": "They also want to reach outside the island. \"der\" starts a relative clause: that.",
+"words": [
+[
+"bornholmernes",
+"the Bornholmers'"
+],
+[
+"ambitioner",
+"ambitions"
+],
+[
+"udover",
+"beyond"
+]
+]
+},
+{
+"da": "Med hensyn til turneforestillinger til andre dele af landet samarbejder Bornholms Teater med andre professionelle teatre i Danmark, ligesom nogle af vores forestillinger også vises i udlandet – og vi er på den måde med til at gøre reklame for Bornholm.",
+"en": "For touring shows to other parts of the country, the theatre works with other professional theatres, and some shows are also shown abroad – in this way we help to advertise Bornholm.",
+"p": false,
+"note": "The theatre tours and promotes the island. \"vises\" is the passive with -s: are shown.",
+"words": [
+[
+"turneforestillinger",
+"touring shows"
+],
+[
+"samarbejder",
+"cooperates"
+],
+[
+"professionelle",
+"professional"
+],
+[
+"udlandet",
+"abroad"
+]
+]
+},
+{
+"da": "Revy og teater om Bornholm",
+"en": "Revue and theatre about Bornholm",
+"p": true,
+"note": "A heading about the theatre's programme."
+},
+{
+"da": "Bornholms Teater producerede i mange år den populære Bornholmerrevy, men fra sommeren 2015 til og med 2017 blev revyen erstattet af en række Holberg-forestillinger.",
+"en": "For many years Bornholm's Theatre produced the popular Bornholm Revue, but from summer 2015 to 2017 the revue was replaced by a series of Holberg plays.",
+"p": false,
+"note": "The revue stopped for some years. \"blev erstattet\" is the passive past: was replaced.",
+"words": [
+[
+"producerede",
+"produced"
+],
+[
+"populære",
+"popular"
+],
+[
+"Bornholmerrevy",
+"Bornholm revue"
+],
+[
+"erstattet",
+"replaced"
+]
+]
+},
+{
+"da": "Nu står der igen et nyt repertoire med forestillinger om Bornholm på plakaten i form af bl.a. Bornholmerkrøniken, der er nyskrevet dansk dramatik med et bornholmsk fokus og afsæt.",
+"en": "Now there is again a new repertoire of shows about Bornholm on the bill, for example the Bornholm Chronicle, which is newly written Danish drama with a Bornholm focus and starting point.",
+"p": false,
+"note": "New local plays are on now. \"stå på plakaten\" is an idiom: to be on the programme.",
+"words": [
+[
+"repertoire",
+"repertoire"
+],
+[
+"Bornholmerkrøniken",
+"the Bornholm Chronicle"
+],
+[
+"nyskrevet",
+"newly written"
+],
+[
+"dramatik",
+"drama"
+]
+]
+},
+{
+"da": "Rønne Theaters scener og pladser",
+"en": "Rønne Theatre's stages and seats",
+"p": true,
+"note": "A heading about stages and seats."
+},
+{
+"da": "Rønne Theater er kendt for den fine gamle scene og sal, hvor der kan sidde op til 306 personer.",
+"en": "Rønne Theatre is known for its fine old stage and hall, where up to 306 people can sit.",
+"p": false,
+"note": "The old hall is famous. \"hvor\" starts a relative clause about a place.",
+"words": [
+[
+"personer",
+"people"
+]
+]
+},
+{
+"da": "Men teatret råder over hele fire andre scener, der kan bruges til forskellige typer arrangementer og forestillinger.",
+"en": "But the theatre has as many as four other stages that can be used for different kinds of events and shows.",
+"p": false,
+"note": "There are more stages. \"kan bruges\" is the passive with -s after a modal verb.",
+"words": [
+[
+"forskellige",
+"different"
+],
+[
+"arrangementer",
+"events"
+],
+[
+"forestillinger",
+"performances"
+]
+]
+},
+{
+"da": "Scenerne er følgende:",
+"en": "The stages are the following:",
+"p": false,
+"note": "This introduces a list.",
+"words": [
+[
+"Scenerne",
+"the stages"
+],
+[
+"følgende",
+"following"
+]
+]
+},
+{
+"da": "Gamle scene – den største sal på Rønne Theater med plads til 306 personer.",
+"en": "Old Stage – the biggest hall in Rønne Theatre with room for 306 people.",
+"p": true,
+"note": "The first stage in the list. \"største\" is the superlative of \"stor\".",
+"words": [
+[
+"største",
+"biggest"
+],
+[
+"personer",
+"people"
+]
+]
+},
+{
+"da": "Ofte spilles der dog med udvidet scenegulv, hvor orkesterpladserne bliver sløjfet, og så mindskes kapaciteten til ca. 260 personer.",
+"en": "However, they often play with an extended stage floor, where the orchestra seats are removed, so the capacity falls to about 260.",
+"p": false,
+"note": "Fewer seats with a bigger stage. \"spilles der\" is a passive with \"der\": there is played.",
+"words": [
+[
+"udvidet",
+"extended"
+],
+[
+"scenegulv",
+"stage floor"
+],
+[
+"orkesterpladserne",
+"the orchestra seats"
+],
+[
+"kapaciteten",
+"the capacity"
+]
+]
+},
+{
+"da": "Ny scene – en blackbox i sidebygningen fra 2010 med kapacitet til ca. 45 personer.",
+"en": "New Stage – a black box in the side building from 2010 with room for about 45 people.",
+"p": false,
+"note": "The second stage. \"ca.\" is short for \"cirka\": about.",
+"words": [
+[
+"sidebygningen",
+"the side building"
+],
+[
+"kapacitet",
+"capacity"
+]
+]
+},
+{
+"da": "Kan mørklægges.",
+"en": "Can be blacked out.",
+"p": false,
+"note": "A short fragment. \"mørklægges\" is the passive with -s.",
+"words": [
+[
+"mørklægges",
+"be blacked out"
+]
+]
+},
+{
+"da": "Loftscenen – et lokale ovenpå cafeen med kapacitet til ca. 50 personer.",
+"en": "The Loft Stage – a room above the café with room for about 50 people.",
+"p": false,
+"note": "The third stage. \"ovenpå\" means upstairs, above.",
+"words": [
+[
+"Loftscenen",
+"the loft stage"
+],
+[
+"ovenpå",
+"above"
+],
+[
+"kapacitet",
+"capacity"
+]
+]
+},
+{
+"da": "Kan mørklægges.",
+"en": "Can be blacked out.",
+"p": false,
+"note": "A short fragment: the room can be made dark.",
+"words": [
+[
+"mørklægges",
+"be blacked out"
+]
+]
+},
+{
+"da": "Caféscenen – som navnet antyder, kan vi omdanne caféen til en intimscene med plads til ca. 50 personer.",
+"en": "The Café Stage – as the name suggests, we can turn the café into an intimate stage with room for about 50 people.",
+"p": false,
+"note": "The café can be a stage. After the \"som\"-clause, the verb \"kan\" comes before \"vi\".",
+"words": [
+[
+"Caféscenen",
+"the café stage"
+],
+[
+"antyder",
+"suggests"
+],
+[
+"omdanne",
+"transform"
+],
+[
+"intimscene",
+"intimate stage"
+]
+]
+},
+{
+"da": "Havescenen – takket være en skydedør i tilbygningen kan Ny scene også fungere som en friluftsscene, hvor publikum er placeret i haven.",
+"en": "The Garden Stage – thanks to a sliding door in the extension, the New Stage can also work as an open-air stage, with the audience in the garden.",
+"p": false,
+"note": "An outdoor stage. \"takket være\" means thanks to.",
+"words": [
+[
+"Havescenen",
+"the garden stage"
+],
+[
+"skydedør",
+"sliding door"
+],
+[
+"tilbygningen",
+"the extension"
+],
+[
+"friluftsscene",
+"open-air stage"
+]
+]
+},
+{
+"da": "Kapacitet til ca. 80 personer.",
+"en": "Room for about 80 people.",
+"p": false,
+"note": "A short fragment giving the size.",
+"words": [
+[
+"Kapacitet",
+"capacity"
+]
+]
+},
+{
+"da": "Pladserne i den gamle sal er nummererede, mens de i de øvrige sale typisk vil være unummererede.",
+"en": "The seats in the old hall are numbered, while in the other halls they will usually be unnumbered.",
+"p": true,
+"note": "Only the old hall has seat numbers. \"mens\" here means while, showing contrast.",
+"words": [
+[
+"Pladserne",
+"the seats"
+],
+[
+"nummererede",
+"numbered"
+],
+[
+"øvrige",
+"other"
+],
+[
+"unummererede",
+"unnumbered"
+]
+]
+},
+{
+"da": "I Rønne Theaters gamle sal er de fleste pladser kategori A, som angiver pladser med godt udsyn.",
+"en": "In Rønne Theatre's old hall most seats are category A, meaning seats with a good view.",
+"p": false,
+"note": "Most seats are good. After the fronted place phrase, the verb \"er\" comes before the subject.",
+"words": [
+[
+"kategori",
+"category"
+],
+[
+"angiver",
+"indicates"
+],
+[
+"udsyn",
+"view"
+]
+]
+},
+{
+"da": "Kategori B og C er pladser som f.eks. parterre, ’søjlepladser’ og 2. række på sidebalkonerne, hvor udsynet ikke altid er optimalt.",
+"en": "Categories B and C are seats like the pit, 'pillar seats' and the 2nd row on the side balconies, where the view is not always ideal.",
+"p": false,
+"note": "Cheaper seats have a worse view. \"f.eks.\" is short for \"for eksempel\".",
+"words": [
+[
+"søjlepladser",
+"pillar seats"
+],
+[
+"sidebalkonerne",
+"the side balconies"
+],
+[
+"udsynet",
+"the view"
+],
+[
+"optimalt",
+"optimal"
+]
+]
+},
+{
+"da": "Bearbejdet efter https://bornholmsteater.dk/da/om-os, hentet 24.04.20",
+"en": "Adapted from https://bornholmsteater.dk/da/om-os, retrieved 24.04.20",
+"p": true,
+"note": "A source note with a web address.",
+"words": [
+[
+"Bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Bearbejdet efter https://bornholmsteater.dk/da/praktisk-info, hentet 24.04.20",
+"en": "Adapted from https://bornholmsteater.dk/da/praktisk-info, retrieved 24.04.20",
+"p": false,
+"note": "Another source note.",
+"words": [
+[
+"Bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "RUNDVISNINGER PÅ TRE DANSKE TEATRE",
+"en": "GUIDED TOURS AT THREE DANISH THEATRES",
+"p": true,
+"note": "The title of the third chapter.",
+"words": [
+[
+"RUNDVISNINGER",
+"guided tours"
+]
+]
+},
+{
+"da": "Det Kongelige Teater – rundvisninger i alle tre huse",
+"en": "The Royal Theatre – guided tours in all three buildings",
+"p": true,
+"note": "A heading for the Royal Theatre's tours.",
+"words": [
+[
+"rundvisninger",
+"guided tours"
+]
+]
+},
+{
+"da": "Vi har rundvisninger i alle tre huse.",
+"en": "We have guided tours in all three buildings.",
+"p": false,
+"note": "A simple fact. \"huse\" is the plural of \"hus\".",
+"words": [
+[
+"rundvisninger",
+"guided tours"
+]
+]
+},
+{
+"da": "Oplevelserne er meget forskellige.",
+"en": "The experiences are very different.",
+"p": false,
+"note": "Each tour is different. \"Oplevelserne\" is definite plural.",
+"words": [
+[
+"Oplevelserne",
+"the experiences"
+],
+[
+"forskellige",
+"different"
+]
+]
+},
+{
+"da": "På Gamle Scene er der lagt vægt på det historiske tilbageblik og værkstederne, og i Operaen og Skuespilhuset er der fokus på de arkitektoniske rammer og husenes imponerende tekniske faciliteter.",
+"en": "At the Old Stage the focus is on looking back at history and the workshops, and at the Opera and Playhouse the focus is on the architecture and the buildings' impressive technical facilities.",
+"p": false,
+"note": "Each tour has a theme. \"lægge vægt på\" means to emphasise.",
+"words": [
+[
+"tilbageblik",
+"look back"
+],
+[
+"værkstederne",
+"the workshops"
+],
+[
+"arkitektoniske",
+"architectural"
+],
+[
+"imponerende",
+"impressive"
+]
+]
+},
+{
+"da": "Rundvisninger for grupper kan arrangeres alle ugens dage, afhængigt af prøveaktivitet på scenen.",
+"en": "Tours for groups can be arranged every day of the week, depending on rehearsals on stage.",
+"p": false,
+"note": "Groups can book any day. \"kan arrangeres\" is the passive with -s.",
+"words": [
+[
+"Rundvisninger",
+"guided tours"
+],
+[
+"arrangeres",
+"be arranged"
+],
+[
+"afhængigt",
+"depending"
+],
+[
+"prøveaktivitet",
+"rehearsal activity"
+]
+]
+},
+{
+"da": "Formiddagsrundvisninger starter kl. 09:30 eller kl. 10:00.",
+"en": "Morning tours start at 9:30 or 10:00.",
+"p": false,
+"note": "Morning tour times. \"kl.\" is short for \"klokken\": o'clock.",
+"words": [
+[
+"Formiddagsrundvisninger",
+"morning tours"
+]
+]
+},
+{
+"da": "Eftermiddagsrundvisninger kl. 16:30 eller kl. 17:00.",
+"en": "Afternoon tours at 16:30 or 17:00.",
+"p": false,
+"note": "A fragment with afternoon tour times; the verb is left out.",
+"words": [
+[
+"Eftermiddagsrundvisninger",
+"afternoon tours"
+]
+]
+},
+{
+"da": "Læs mere om de forskellige typer rundvisninger herunder, eller kontakt os på rundvisning@kglteater.dk eller tlf. 33 69 69 78 (hver dag fra kl. 10-14).",
+"en": "Read more about the different types of tours below, or contact us at rundvisning@kglteater.dk or phone 33 69 69 78 (every day from 10 to 14).",
+"p": true,
+"note": "How to get more information. \"Læs\" and \"kontakt\" are imperatives.",
+"words": [
+[
+"forskellige",
+"different"
+],
+[
+"rundvisninger",
+"guided tours"
+],
+[
+"herunder",
+"below"
+]
+]
+},
+{
+"da": "Rundvisningerne tager 75 minutter og gennemføres på kunstens præmisser.",
+"en": "The tours take 75 minutes and are held on the art's terms.",
+"p": false,
+"note": "The art comes first. \"gennemføres\" is the passive with -s: are carried out.",
+"words": [
+[
+"Rundvisningerne",
+"the guided tours"
+],
+[
+"gennemføres",
+"are carried out"
+],
+[
+"præmisser",
+"terms"
+]
+]
+},
+{
+"da": "Prøver, der trækker ud, eller sceneteknik, der kræver akut justering, kan bevirke, at vi ikke kan gå den vante rute.",
+"en": "Rehearsals that run late, or stage equipment that needs urgent adjustment, can mean that we cannot take the usual route.",
+"p": false,
+"note": "The route may change. In the \"at\"-clause, \"ikke\" comes before the verb \"kan\".",
+"words": [
+[
+"sceneteknik",
+"stage technology"
+],
+[
+"justering",
+"adjustment"
+],
+[
+"bevirke",
+"cause"
+],
+[
+"vante",
+"usual"
+]
+]
+},
+{
+"da": "Rundvisningerne foregår på dansk.",
+"en": "The tours are in Danish.",
+"p": false,
+"note": "Language of the tours. Note \"på dansk\": in Danish.",
+"words": [
+[
+"Rundvisningerne",
+"the guided tours"
+],
+[
+"foregår",
+"take place"
+]
+]
+},
+{
+"da": "Rundvisning i Operaen",
+"en": "Tour of the Opera",
+"p": true,
+"note": "A heading for the Opera tour.",
+"words": [
+[
+"Rundvisning",
+"guided tour"
+]
+]
+},
+{
+"da": "Oplev Operaens smukke foyer, der med sine rene linjer, Olafur Eliassons lysskulpturer og udsigt over Københavns Havn omfavner den blanke ahornskal omkring Store Scene.",
+"en": "Experience the Opera's beautiful foyer, which with its clean lines, Olafur Eliasson's light sculptures and view of Copenhagen Harbour embraces the shiny maple shell around the Big Stage.",
+"p": false,
+"note": "The foyer is beautiful. \"Oplev\" is the imperative of \"opleve\".",
+"words": [
+[
+"lysskulpturer",
+"light sculptures"
+],
+[
+"udsigt",
+"view"
+],
+[
+"omfavner",
+"embraces"
+],
+[
+"ahornskal",
+"maple shell"
+]
+]
+},
+{
+"da": "Se Per Kirkebys bronzerelieffer og Per Arnoldis Opera-bomærke støbt ind i foyergulvet.",
+"en": "See Per Kirkeby's bronze reliefs and Per Arnoldi's Opera logo cast into the foyer floor.",
+"p": false,
+"note": "Art to see on the tour. \"støbt\" is a past participle: cast.",
+"words": [
+[
+"bronzerelieffer",
+"bronze reliefs"
+],
+[
+"bomærke",
+"logo"
+],
+[
+"støbt",
+"cast"
+],
+[
+"foyergulvet",
+"the foyer floor"
+]
+]
+},
+{
+"da": "Kom med ind i salen og om bag scenen, hvor de enorme, flytbare scenefelter gør det muligt at opføre flere forskellige forestillinger samme dag.",
+"en": "Come into the hall and backstage, where the huge movable stage sections make it possible to perform several different shows on the same day.",
+"p": true,
+"note": "You go backstage. \"gøre det muligt at\" means to make it possible to.",
+"words": [
+[
+"enorme",
+"huge"
+],
+[
+"flytbare",
+"movable"
+],
+[
+"scenefelter",
+"stage sections"
+],
+[
+"forestillinger",
+"performances"
+]
+]
+},
+{
+"da": "Se kontrasten fra Store Scene til Takkelloftet, hvor scenens fleksibilitet er i centrum, og hvor Tal Rs moderne abstraktion pryder foyeren.",
+"en": "See the contrast from the Big Stage to Takkelloftet, where the stage's flexibility is central and where Tal R's modern abstract art decorates the foyer.",
+"p": false,
+"note": "Compare two stages. \"scenens\" is a genitive: the stage's.",
+"words": [
+[
+"kontrasten",
+"the contrast"
+],
+[
+"Takkelloftet",
+"the rigging loft (a stage)"
+],
+[
+"fleksibilitet",
+"flexibility"
+],
+[
+"abstraktion",
+"abstraction"
+]
+]
+},
+{
+"da": "Rundvisning i Skuespilhuset",
+"en": "Tour of the Playhouse",
+"p": true,
+"note": "A heading for the Playhouse tour.",
+"words": [
+[
+"Rundvisning",
+"guided tour"
+],
+[
+"Skuespilhuset",
+"the Playhouse"
+]
+]
+},
+{
+"da": "Oplev Skuespilhuset, Store Scenes intime grottestemning inspireret af den italienske renæssancescene og få indblik i tankerne bag bygningens arkitektur og belysning.",
+"en": "Experience the Playhouse, the Big Stage's intimate cave-like mood inspired by the Italian Renaissance stage, and get insight into the ideas behind the building's architecture and lighting.",
+"p": false,
+"note": "What you see in the Playhouse. \"få indblik i\" means get insight into.",
+"words": [
+[
+"grottestemning",
+"cave-like mood"
+],
+[
+"inspireret",
+"inspired"
+],
+[
+"renæssancescene",
+"Renaissance stage"
+],
+[
+"belysning",
+"lighting"
+]
+]
+},
+{
+"da": "Kom med bag scenen, hvor kulisserne skiftes ud og bygges op, mens belysningen til aftenens forestilling justeres.",
+"en": "Come backstage, where the sets are changed and built while the lighting for the evening show is adjusted.",
+"p": false,
+"note": "You see the stage crew at work. \"skiftes\", \"bygges\" and \"justeres\" are passives with -s.",
+"words": [
+[
+"kulisserne",
+"the sets"
+],
+[
+"belysningen",
+"the lighting"
+],
+[
+"aftenens",
+"the evening's"
+],
+[
+"justeres",
+"is adjusted"
+]
+]
+},
+{
+"da": "Se Det Røde Rum og Lille Scenes sorte rum, hvor hverken scene eller tilskuerpladser er permanente.",
+"en": "See the Red Room and the Small Stage's black room, where neither the stage nor the seats are permanent.",
+"p": false,
+"note": "Rooms that can change. \"hverken … eller\" means neither … nor.",
+"words": [
+[
+"hverken",
+"neither"
+],
+[
+"tilskuerpladser",
+"audience seats"
+],
+[
+"permanente",
+"permanent"
+]
+]
+},
+{
+"da": "Rundvisning på Gamle scene",
+"en": "Tour of the Old Stage",
+"p": true,
+"note": "A heading for the Old Stage tour.",
+"words": [
+[
+"Rundvisning",
+"guided tour"
+]
+]
+},
+{
+"da": "Kom med på opdagelse på Det Kongelige Teaters Gamle Scene.",
+"en": "Come and explore the Royal Theatre's Old Stage.",
+"p": false,
+"note": "An invitation. \"på opdagelse\" means exploring.",
+"words": [
+[
+"opdagelse",
+"discovery"
+]
+]
+},
+{
+"da": "Oplev den helt særlige stemning, de historiske loftsmalerier, svungne engle og den traditionelle store prismelysekrone i teatersalen.",
+"en": "Experience the very special atmosphere, the historic ceiling paintings, curved angels and the big traditional crystal chandelier in the hall.",
+"p": false,
+"note": "What you see in the old hall. The adjectives end in -e after \"den\" and \"de\".",
+"words": [
+[
+"stemning",
+"atmosphere"
+],
+[
+"loftsmalerier",
+"ceiling paintings"
+],
+[
+"traditionelle",
+"traditional"
+],
+[
+"prismelysekrone",
+"crystal chandelier"
+]
+]
+},
+{
+"da": "Kom med bag scenen, hvor sceneteknikken arbejder, og besøg skræddersalen, hvor de eventyrlige kostumer til teaterets forestillinger bliver lavet, og hvor kun fantasien sætter grænser.",
+"en": "Come backstage, where the stage crew works, and visit the tailors' room, where the fairy-tale costumes are made and only imagination sets the limits.",
+"p": false,
+"note": "You see the costume workshop. \"bliver lavet\" is the passive with \"blive\": are made.",
+"words": [
+[
+"sceneteknikken",
+"the stage crew"
+],
+[
+"skræddersalen",
+"the tailors' room"
+],
+[
+"eventyrlige",
+"fairy-tale"
+],
+[
+"fantasien",
+"the imagination"
+]
+]
+},
+{
+"da": "På Gamle scene får I også et kig ind i H.M. Dronning Margrethe 2.’s private salon og loge.",
+"en": "At the Old Stage you also get a look into Queen Margrethe II's private salon and box.",
+"p": false,
+"note": "You can see the queen's room. \"I\" with a capital letter is the plural \"you\".",
+"words": [
+[
+"Dronning",
+"queen"
+],
+[
+"private",
+"private"
+]
+]
+},
+{
+"da": "Bearbejdet efter https://kglteater.dk/shows/?f-type=rundvisning, hentet 24.04.20",
+"en": "Adapted from https://kglteater.dk/shows/?f-type=rundvisning, retrieved 24.04.20",
+"p": true,
+"note": "A source note with a web address.",
+"words": [
+[
+"Bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Aarhus Teater – bag kulissen",
+"en": "Aarhus Theatre – behind the scenes",
+"p": true,
+"note": "A heading for the Aarhus tours.",
+"words": [
+[
+"kulissen",
+"the stage set"
+]
+]
+},
+{
+"da": "Se scener og værksteder",
+"en": "See stages and workshops",
+"p": true,
+"note": "A heading. \"Se\" is the imperative of \"se\".",
+"words": [
+[
+"værksteder",
+"workshops"
+]
+]
+},
+{
+"da": "Sæsonen igennem er der på udvalgte dage offentlige rundvisninger.",
+"en": "Throughout the season there are public tours on selected days.",
+"p": false,
+"note": "Tours happen on some days. After \"Sæsonen igennem\", the verb \"er\" comes before \"der\".",
+"words": [
+[
+"Sæsonen",
+"the season"
+],
+[
+"udvalgte",
+"selected"
+],
+[
+"offentlige",
+"public"
+],
+[
+"rundvisninger",
+"guided tours"
+]
+]
+},
+{
+"da": "En rundviser fortæller om husets historie, om arkitekturen og udsmykningen.",
+"en": "A guide talks about the building's history, the architecture and the decoration.",
+"p": false,
+"note": "What the guide talks about. \"husets\" is a genitive: the building's.",
+"words": [
+[
+"rundviser",
+"tour guide"
+],
+[
+"arkitekturen",
+"the architecture"
+],
+[
+"udsmykningen",
+"the decoration"
+]
+]
+},
+{
+"da": "Turen går normalt rundt i hele huset – til de forskellige scener og værksteder.",
+"en": "The tour normally goes around the whole building – to the different stages and workshops.",
+"p": false,
+"note": "Where the tour goes. \"går rundt i\" means goes around.",
+"words": [
+[
+"normalt",
+"normally"
+],
+[
+"forskellige",
+"different"
+],
+[
+"værksteder",
+"workshops"
+]
+]
+},
+{
+"da": "Rundvisninger på teatret sker under hensyntagen til kunsten.",
+"en": "Tours at the theatre take the art into account.",
+"p": false,
+"note": "The art comes first. \"under hensyntagen til\" is a formal phrase: with regard to.",
+"words": [
+[
+"Rundvisninger",
+"guided tours"
+],
+[
+"hensyntagen",
+"consideration"
+]
+]
+},
+{
+"da": "Der kan være prøver på scener, der medfører, at vi ikke kan garantere, at turen går forbi alle scener.",
+"en": "There may be rehearsals on stages, which means we cannot guarantee that the tour passes all stages.",
+"p": false,
+"note": "You may not see every stage. In the \"at\"-clause, \"ikke\" comes before \"kan\".",
+"words": [
+[
+"medfører",
+"results in"
+],
+[
+"garantere",
+"guarantee"
+]
+]
+},
+{
+"da": "Rundvisningen starter ved teatrets hovedtrappe i Teatergaden og varer ca. 75 min.",
+"en": "The tour starts at the theatre's main staircase in Teatergaden and lasts about 75 minutes.",
+"p": true,
+"note": "Where the tour starts and how long it is. \"teatrets\" is a genitive: the theatre's.",
+"words": [
+[
+"Rundvisningen",
+"the guided tour"
+],
+[
+"hovedtrappe",
+"main staircase"
+]
+]
+},
+{
+"da": "Entreen er 65 kr. (50 kr. for skoleelever og studerende).",
+"en": "Admission is 65 kr. (50 kr. for school pupils and students).",
+"p": false,
+"note": "The price. \"kr.\" is short for \"kroner\".",
+"words": [
+[
+"Entreen",
+"the admission fee"
+],
+[
+"skoleelever",
+"school pupils"
+],
+[
+"studerende",
+"students"
+]
+]
+},
+{
+"da": "OBS! Vi gør opmærksom på, at rundvisningen ikke er egnet til gangbesværede, da turen går ad trapper.",
+"en": "Note! Please be aware that the tour is not suitable for people with walking difficulties, as it goes up and down stairs.",
+"p": true,
+"note": "A warning about stairs. \"gøre opmærksom på\" means to point out.",
+"words": [
+[
+"opmærksom",
+"aware"
+],
+[
+"rundvisningen",
+"the guided tour"
+],
+[
+"egnet",
+"suitable"
+],
+[
+"gangbesværede",
+"people with walking difficulties"
+]
+]
+},
+{
+"da": "Skræddersyede rundvisninger",
+"en": "Tailor-made tours",
+"p": true,
+"note": "A heading for special group tours.",
+"words": [
+[
+"Skræddersyede",
+"tailor-made"
+],
+[
+"rundvisninger",
+"guided tours"
+]
+]
+},
+{
+"da": "Større grupper kan træffe aftale om rundvisning på teatret på udvalgte dage.",
+"en": "Larger groups can arrange a tour at the theatre on selected days.",
+"p": false,
+"note": "Groups can book their own tour. \"træffe aftale\" means to make an arrangement.",
+"words": [
+[
+"Større",
+"larger"
+],
+[
+"rundvisning",
+"guided tour"
+],
+[
+"udvalgte",
+"selected"
+]
+]
+},
+{
+"da": "Det koster 60 kr. pr. deltager i grupperundvisninger eller et minimumsbeløb på 1500 kr.",
+"en": "It costs 60 kr. per participant on group tours or a minimum amount of 1500 kr.",
+"p": false,
+"note": "The price for groups. \"pr.\" means per.",
+"words": [
+[
+"deltager",
+"participant"
+],
+[
+"grupperundvisninger",
+"group tours"
+],
+[
+"minimumsbeløb",
+"minimum amount"
+]
+]
+},
+{
+"da": "For skoleelever og studerende 50 kr. pr. deltager eller et minimumsbeløb på 1000 kr.",
+"en": "For school pupils and students, 50 kr. per participant or a minimum amount of 1000 kr.",
+"p": false,
+"note": "A fragment with student prices; the verb is left out.",
+"words": [
+[
+"skoleelever",
+"school pupils"
+],
+[
+"studerende",
+"students"
+],
+[
+"minimumsbeløb",
+"minimum amount"
+]
+]
+},
+{
+"da": "Du kan træffe aftale om grupperundvisninger på arrangement@aarhusteater.dk",
+"en": "You can arrange group tours at arrangement@aarhusteater.dk",
+"p": true,
+"note": "How to book a group tour. \"kan\" is followed by the infinitive without \"at\".",
+"words": [
+[
+"grupperundvisninger",
+"group tours"
+]
+]
+},
+{
+"da": "Vi tilbyder desuden grupperundvisninger i forbindelse med forestillinger og/eller middag på teatret.",
+"en": "We also offer group tours combined with shows and/or dinner at the theatre.",
+"p": true,
+"note": "You can combine a tour with a show or dinner. \"desuden\" means also, in addition.",
+"words": [
+[
+"tilbyder",
+"offer"
+],
+[
+"desuden",
+"also"
+],
+[
+"grupperundvisninger",
+"group tours"
+],
+[
+"forbindelse",
+"connection"
+]
+]
+},
+{
+"da": "Bearbejdet efter https://www.aarhusteater.dk/det-sker/rundvisninger, hentet 24.04.20",
+"en": "Adapted from https://www.aarhusteater.dk/det-sker/rundvisninger, retrieved 24.04.20",
+"p": true,
+"note": "A source note with a web address.",
+"words": [
+[
+"Bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Guidet tur i Rønne Theater",
+"en": "Guided tour in Rønne Theatre",
+"p": true,
+"note": "A heading for the Rønne tours.",
+"words": [
+[
+"Guidet",
+"guided"
+]
+]
+},
+{
+"da": "Rønne Theater er et arbejdende teater, og lokalerne er derfor ofte optaget af forskellige aktiviteter.",
+"en": "Rønne Theatre is a working theatre, so the rooms are often busy with different activities.",
+"p": false,
+"note": "The rooms are often in use. \"derfor\" comes after the verb when the clause starts with the subject.",
+"words": [
+[
+"arbejdende",
+"working"
+],
+[
+"lokalerne",
+"the rooms"
+],
+[
+"optaget",
+"occupied"
+],
+[
+"aktiviteter",
+"activities"
+]
+]
+},
+{
+"da": "Samtidig ved vi, at der er en stor interesse for at besøge og høre historien om det gamle teater, hvorfor teatret tilbyder guidede rundvisninger, når det er muligt.",
+"en": "At the same time, we know there is great interest in visiting and hearing the history of the old theatre, which is why the theatre offers guided tours when possible.",
+"p": false,
+"note": "Tours are offered when possible. After \"Samtidig\", the verb \"ved\" comes before \"vi\".",
+"words": [
+[
+"Samtidig",
+"at the same time"
+],
+[
+"interesse",
+"interest"
+],
+[
+"hvorfor",
+"which is why"
+],
+[
+"rundvisninger",
+"guided tours"
+]
+]
+},
+{
+"da": "Rundvisninger – grupper og individuelle",
+"en": "Tours – groups and individuals",
+"p": true,
+"note": "A heading about two kinds of tours.",
+"words": [
+[
+"Rundvisninger",
+"guided tours"
+],
+[
+"individuelle",
+"individual"
+]
+]
+},
+{
+"da": "Rundvisningerne er primært målrettet grupper, og disse rundvisninger kan bestilles og aftales hos administrator Helle Lindblad på Bornholms Teater på tlf. 569500732.",
+"en": "The tours are mainly aimed at groups, and they can be booked and arranged with the administrator Helle Lindblad at Bornholm's Theatre on phone 569500732.",
+"p": false,
+"note": "How groups book. \"kan bestilles og aftales\" are passives with -s.",
+"words": [
+[
+"primært",
+"mainly"
+],
+[
+"målrettet",
+"aimed at"
+],
+[
+"bestilles",
+"be booked"
+],
+[
+"administrator",
+"administrator"
+]
+]
+},
+{
+"da": "Rundvisningerne koster 25 kr. per person (max. ca. 25 personer).",
+"en": "The tours cost 25 kr. per person (max. about 25 people).",
+"p": true,
+"note": "The price and group size. \"max.\" is short for maximum.",
+"words": [
+[
+"Rundvisningerne",
+"the guided tours"
+]
+]
+},
+{
+"da": "Man skal mindst være 10 personer for at få en grupperundvisning.",
+"en": "You must be at least 10 people to get a group tour.",
+"p": false,
+"note": "The minimum group size. \"for at\" plus infinitive means in order to.",
+"words": [
+[
+"mindst",
+"at least"
+],
+[
+"grupperundvisning",
+"group tour"
+]
+]
+},
+{
+"da": "Varighed: ca. 60-90 min. – afhænger af gruppens spørgelyst.",
+"en": "Duration: about 60–90 min. – depends on how many questions the group asks.",
+"p": false,
+"note": "A fragment about the length. \"gruppens\" is a genitive: the group's.",
+"words": [
+[
+"Varighed",
+"duration"
+],
+[
+"afhænger",
+"depends"
+],
+[
+"spørgelyst",
+"eagerness to ask"
+]
+]
+},
+{
+"da": "I sommerhalvåret gennemføres gratis individuelle rundvisninger mandage kl. 14.00, hvor bestilling ikke er nødvendig.",
+"en": "In the summer half of the year, free individual tours are held on Mondays at 14.00, with no booking needed.",
+"p": true,
+"note": "Free Monday tours in summer. \"gennemføres\" is the passive with -s, and it comes before the subject.",
+"words": [
+[
+"sommerhalvåret",
+"the summer half-year"
+],
+[
+"gennemføres",
+"are held"
+],
+[
+"individuelle",
+"individual"
+],
+[
+"nødvendig",
+"necessary"
+]
+]
+},
+{
+"da": "Perioden er fra 1. juli til og med 14. oktober.",
+"en": "The period is from 1 July up to and including 14 October.",
+"p": false,
+"note": "The dates. \"til og med\" means up to and including.",
+"words": [
+[
+"Perioden",
+"the period"
+]
+]
+},
+{
+"da": "Disse rundvisninger er kortere end grupperundvisningerne og kan være begrænset af andre aktiviteter i teatret som fx prøver på scenen.",
+"en": "These tours are shorter than the group tours and can be limited by other activities in the theatre, such as rehearsals on stage.",
+"p": true,
+"note": "Free tours are shorter. \"kortere end\" is a comparative: shorter than.",
+"words": [
+[
+"grupperundvisningerne",
+"the group tours"
+],
+[
+"begrænset",
+"limited"
+],
+[
+"aktiviteter",
+"activities"
+]
+]
+},
+{
+"da": "Varighed ca. 45 min.",
+"en": "Duration about 45 min.",
+"p": false,
+"note": "A fragment giving the length.",
+"words": [
+[
+"Varighed",
+"duration"
+]
+]
+},
+{
+"da": "Bearbejdet efter https://bornholmsteater.dk/da/roenne-theater/guidede-ture/, hentet 24.04.20",
+"en": "Adapted from https://bornholmsteater.dk/da/roenne-theater/guidede-ture/, retrieved 24.04.20",
+"p": true,
+"note": "A source note with a web address.",
+"words": [
+[
+"Bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "DANSKE TEATERPRISER",
+"en": "DANISH THEATRE PRIZES",
+"p": true,
+"note": "The title of the last chapter.",
+"words": [
+[
+"TEATERPRISER",
+"theatre prizes"
+]
+]
+},
+{
+"da": "Kjeld Abell-prisen",
+"en": "The Kjeld Abell Prize",
+"p": true,
+"note": "A heading: the first prize."
+},
+{
+"da": "Prisen er opkaldt efter den danske dramatiker og teatermaler Kjeld Abell (1901-1961), der blandt andet er kendt som fornyer af dansk dramatik og revy i 1930’erne.",
+"en": "The prize is named after the Danish playwright and theatre painter Kjeld Abell (1901–1961), who is known, among other things, for renewing Danish drama and revue in the 1930s.",
+"p": false,
+"note": "Who the prize is named after. \"opkaldt efter\" means named after.",
+"words": [
+[
+"opkaldt",
+"named"
+],
+[
+"dramatiker",
+"playwright"
+],
+[
+"teatermaler",
+"theatre painter"
+],
+[
+"fornyer",
+"renewer"
+]
+]
+},
+{
+"da": "Første gang, han fik et stykke opført på Det kongelige teater, var i 1934 med balletten Enken i spejlet, men han er især berømt for skuespillene Melodien der blev væk fra 1935 og Anna Sophie Hedvig fra 1938, hvoraf sidstnævnte er optaget i Kulturkanonen fra 2006.",
+"en": "The first time he had a piece performed at the Royal Theatre was in 1934 with the ballet The Widow in the Mirror, but he is best known for the plays The Melody That Got Lost (1935) and Anna Sophie Hedvig (1938), the latter of which is in the 2006 Culture Canon.",
+"p": true,
+"note": "His famous works. \"sidstnævnte\" means the last mentioned.",
+"words": [
+[
+"opført",
+"performed"
+],
+[
+"skuespillene",
+"the plays"
+],
+[
+"sidstnævnte",
+"the latter"
+],
+[
+"Kulturkanonen",
+"the Culture Canon"
+]
+]
+},
+{
+"da": "Kjeld Abell-prisen bliver uddelt af Det Danske Akademi, der bestyrer Kjeld Abells Mindefond, som blev oprettet efter Abells død i 1961.",
+"en": "The Kjeld Abell Prize is awarded by the Danish Academy, which manages Kjeld Abell's Memorial Fund, set up after Abell's death in 1961.",
+"p": true,
+"note": "Who gives the prize. \"bliver uddelt\" is the passive with \"blive\": is awarded.",
+"words": [
+[
+"uddelt",
+"awarded"
+],
+[
+"bestyrer",
+"manages"
+],
+[
+"Mindefond",
+"memorial fund"
+],
+[
+"oprettet",
+"established"
+]
+]
+},
+{
+"da": "Den bliver uddelt hvert andet eller tredje år i forbindelse med Det danske Akademis årsfest.",
+"en": "It is awarded every second or third year at the Danish Academy's annual celebration.",
+"p": false,
+"note": "How often it is given. \"hvert andet år\" means every other year.",
+"words": [
+[
+"uddelt",
+"awarded"
+],
+[
+"forbindelse",
+"connection"
+],
+[
+"årsfest",
+"annual celebration"
+]
+]
+},
+{
+"da": "Kjeld Abell-prisen bliver først og fremmest uddelt som belønning til en person, der har gjort en indsats inden for teater- og filmkunst.",
+"en": "The Kjeld Abell Prize is mainly given as a reward to a person who has made an effort in theatre and film art.",
+"p": false,
+"note": "Who gets the prize. \"først og fremmest\" means first and foremost.",
+"words": [
+[
+"fremmest",
+"foremost"
+],
+[
+"belønning",
+"reward"
+],
+[
+"indsats",
+"effort"
+],
+[
+"filmkunst",
+"film art"
+]
+]
+},
+{
+"da": "Prisen er i dag på 50.000 kr. og blev første gang uddelt i 1976.",
+"en": "The prize is now 50,000 kr. and was first given in 1976.",
+"p": false,
+"note": "The amount and the first year. \"på\" is used with amounts: a prize of 50,000.",
+"words": [
+[
+"uddelt",
+"awarded"
+]
+]
+},
+{
+"da": "Midlerne stammer fra en indsamling, som blev foretaget efter Kjeld Abells død 5. marts 1961.",
+"en": "The money comes from a collection made after Kjeld Abell's death on 5 March 1961.",
+"p": false,
+"note": "Where the money comes from. \"stamme fra\" means to come from.",
+"words": [
+[
+"Midlerne",
+"the funds"
+],
+[
+"stammer",
+"comes"
+],
+[
+"indsamling",
+"collection"
+],
+[
+"foretaget",
+"carried out"
+]
+]
+},
+{
+"da": "Bearbejdet efter Kristensen, Sven Møller, hentet 10. juli 2020 fra https://biografiskleksikon.lex.dk/Kjeld_Abell og Ingemann, Sine, hentet 10. juli 2020 fra https://teaterleksikon.lex.dk/Kjeld_Abell-prisen",
+"en": "Adapted from Kristensen, Sven Møller, retrieved 10 July 2020 from https://biografiskleksikon.lex.dk/Kjeld_Abell and Ingemann, Sine, retrieved 10 July 2020 from https://teaterleksikon.lex.dk/Kjeld_Abell-prisen",
+"p": true,
+"note": "A source note with two sources.",
+"words": [
+[
+"Bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Teaterpokalen",
+"en": "The Theatre Cup",
+"p": true,
+"note": "A heading: the second prize.",
+"words": [
+[
+"Teaterpokalen",
+"the theatre cup"
+]
+]
+},
+{
+"da": "Danmarks ældste teaterpris hedder Teaterpokalen.",
+"en": "Denmark's oldest theatre prize is called the Theatre Cup.",
+"p": false,
+"note": "The oldest prize. \"ældste\" is the superlative of \"gammel\".",
+"words": [
+[
+"ældste",
+"oldest"
+],
+[
+"teaterpris",
+"theatre prize"
+],
+[
+"Teaterpokalen",
+"the theatre cup"
+]
+]
+},
+{
+"da": "Den er siden 1933 blevet uddelt årligt i december måned.",
+"en": "Since 1933 it has been awarded every year in December.",
+"p": false,
+"note": "How often it is given. \"er blevet uddelt\" is the passive in the perfect: has been awarded.",
+"words": [
+[
+"uddelt",
+"awarded"
+],
+[
+"årligt",
+"yearly"
+]
+]
+},
+{
+"da": "Vinderen vælges af Foreningen af Danske Teaterjournalister, som uddeler i alt tre priser: Teaterpokalen (50.000 kr.), Teaterkatten (25.000 kr.) og Initiativprisen (15.000 kr.).",
+"en": "The winner is chosen by the Association of Danish Theatre Journalists, which gives three prizes in total: the Theatre Cup (50,000 kr.), the Theatre Cat (25,000 kr.) and the Initiative Prize (15,000 kr.).",
+"p": false,
+"note": "Who chooses and the three prizes. \"vælges\" is the passive with -s: is chosen.",
+"words": [
+[
+"Vinderen",
+"the winner"
+],
+[
+"vælges",
+"is chosen"
+],
+[
+"Teaterjournalister",
+"theatre journalists"
+],
+[
+"Initiativprisen",
+"the initiative prize"
+]
+]
+},
+{
+"da": "Teaterpokalen gives hvert år til en scenekunstner, der i årets løb har ydet en særlig præstation samt igennem en årrække har bidraget positivt til scenekunsten.",
+"en": "The Theatre Cup is given every year to a stage artist who has made a special achievement during the year and has contributed positively to the performing arts over many years.",
+"p": true,
+"note": "Who wins the cup. \"gives\" is the passive with -s: is given.",
+"words": [
+[
+"scenekunstner",
+"stage artist"
+],
+[
+"præstation",
+"achievement"
+],
+[
+"årrække",
+"number of years"
+],
+[
+"bidraget",
+"contributed"
+]
+]
+},
+{
+"da": "Den er udformet som en sølvskål designet af Manuel Sjødahl, der overrækkes sammen med det kontante beløb på 50.000 kroner.",
+"en": "It is shaped as a silver bowl designed by Manuel Sjødahl, which is presented together with the cash amount of 50,000 kroner.",
+"p": false,
+"note": "What the prize looks like. \"overrækkes\" is the passive with -s: is handed over.",
+"words": [
+[
+"udformet",
+"shaped"
+],
+[
+"sølvskål",
+"silver bowl"
+],
+[
+"overrækkes",
+"is presented"
+],
+[
+"kontante",
+"cash"
+]
+]
+},
+{
+"da": "Foreningen overrækker desuden instruktørprisen Teaterkatten, som er udformet som en sølvkniv, designet af Manuel Sjødahl, og et kontantbeløb på 25.000 kroner, samt Initiativprisen bestående af et kontantbeløb på 15.000 kroner, der gives for en scenisk nyskabelse eller et særligt initiativ i dansk scenekunst.",
+"en": "The association also gives the directors' prize the Theatre Cat, a silver knife designed by Manuel Sjødahl, with 25,000 kroner, and the Initiative Prize of 15,000 kroner, given for a new stage creation or a special initiative in Danish performing arts.",
+"p": false,
+"note": "The two other prizes. \"samt\" is a formal word for \"and also\".",
+"words": [
+[
+"instruktørprisen",
+"the directors' prize"
+],
+[
+"sølvkniv",
+"silver knife"
+],
+[
+"kontantbeløb",
+"cash amount"
+],
+[
+"nyskabelse",
+"innovation"
+]
+]
+},
+{
+"da": "Bearbejdet efter Ingemann, Sine, hentet 10. juli 2020 fra https://teaterleksikon.lex.dk/Teaterpokalen",
+"en": "Adapted from Ingemann, Sine, retrieved 10 July 2020 from https://teaterleksikon.lex.dk/Teaterpokalen",
+"p": true,
+"note": "A source note.",
+"words": [
+[
+"Bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Danske Dramatikeres Hæderspris",
+"en": "The Danish Playwrights' Prize of Honour",
+"p": true,
+"note": "A heading: the third prize.",
+"words": [
+[
+"Dramatikeres",
+"playwrights'"
+],
+[
+"Hæderspris",
+"prize of honour"
+]
+]
+},
+{
+"da": "Hædersprisen blev oprettet i anledning af Danske Dramatikeres Forbunds 50-års jubilæum i 1956 og tildeles uregelmæssigt et aktivt medlem af Danske Dramatikeres Forbund, der har ydet et dramatisk forfatterskab af værdi.",
+"en": "The prize was set up for the Danish Playwrights' Association's 50th anniversary in 1956 and is given irregularly to an active member who has written valuable drama.",
+"p": false,
+"note": "When the prize began and who gets it. \"tildeles\" is the passive with -s: is awarded.",
+"words": [
+[
+"Hædersprisen",
+"the prize of honour"
+],
+[
+"anledning",
+"occasion"
+],
+[
+"uregelmæssigt",
+"irregularly"
+],
+[
+"forfatterskab",
+"body of writing"
+]
+]
+},
+{
+"da": "I særlige tilfælde kan prisen dog tildeles en fortrinsvis yngre dramatiker, der endnu ikke har kunnet opnå medlemskab.",
+"en": "In special cases, however, the prize can be given to a preferably younger playwright who has not yet been able to become a member.",
+"p": false,
+"note": "An exception for young writers. After \"I særlige tilfælde\", the verb \"kan\" comes before the subject.",
+"words": [
+[
+"tilfælde",
+"cases"
+],
+[
+"fortrinsvis",
+"preferably"
+],
+[
+"dramatiker",
+"playwright"
+],
+[
+"medlemskab",
+"membership"
+]
+]
+},
+{
+"da": "Bearbejdet efter Ingemann, Sine, hentet 10. juli 2020 fra https://teaterleksikon.lex.dk/Danske_Dramatikeres_Hæderspris",
+"en": "Adapted from Ingemann, Sine, retrieved 10 July 2020 from https://teaterleksikon.lex.dk/Danske_Dramatikeres_Hæderspris",
+"p": true,
+"note": "A source note.",
+"words": [
+[
+"Bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Årets Reumert",
+"en": "The Reumert of the Year",
+"p": true,
+"note": "A heading: the fourth prize.",
+"words": [
+[
+"Årets",
+"the year's"
+]
+]
+},
+{
+"da": "Årets Reumert er opkaldt efter Poul Reumert (1883-1968).",
+"en": "The Reumert of the Year is named after Poul Reumert (1883–1968).",
+"p": false,
+"note": "Who the prize is named after. \"opkaldt efter\" means named after.",
+"words": [
+[
+"opkaldt",
+"named"
+]
+]
+},
+{
+"da": "Han var en af de betydeligste skuespillere i 1900-tallets danske teater.",
+"en": "He was one of the most important actors in 20th-century Danish theatre.",
+"p": false,
+"note": "Who Reumert was. \"1900-tallets\" means of the 1900s.",
+"words": [
+[
+"betydeligste",
+"most important"
+],
+[
+"skuespillere",
+"actors"
+],
+[
+"1900-tallets",
+"the 20th century's"
+]
+]
+},
+{
+"da": "I store dele af sin karriere var han ansat ved Det Kongelige Teater.",
+"en": "For much of his career he worked at the Royal Theatre.",
+"p": false,
+"note": "Where he worked. After \"I store dele af sin karriere\", the verb \"var\" comes before \"han\".",
+"words": [
+[
+"karriere",
+"career"
+],
+[
+"ansat",
+"employed"
+]
+]
+},
+{
+"da": "Årets Reumert uddeles i 16 kategorier – blandt andre Årets hæderspris, Årets forestilling og Årets kvindelige og mandlige hovedrolle.",
+"en": "The Reumert is awarded in 16 categories – among others the honorary prize, the show of the year and the best female and male lead.",
+"p": true,
+"note": "Some of the categories. \"uddeles\" is the passive with -s: is awarded.",
+"words": [
+[
+"uddeles",
+"is awarded"
+],
+[
+"kategorier",
+"categories"
+],
+[
+"kvindelige",
+"female"
+],
+[
+"hovedrolle",
+"leading role"
+]
+]
+},
+{
+"da": "Prisuddelingen dækker hele scenekunsten i Danmark.",
+"en": "The award covers all performing arts in Denmark.",
+"p": false,
+"note": "The prize is for all stage art. \"dækker\" means covers.",
+"words": [
+[
+"Prisuddelingen",
+"the award ceremony"
+],
+[
+"scenekunsten",
+"the performing arts"
+]
+]
+},
+{
+"da": "Den blev indstiftet i 1998.",
+"en": "It was founded in 1998.",
+"p": false,
+"note": "When it started. \"blev indstiftet\" is the passive past with \"blive\".",
+"words": [
+[
+"indstiftet",
+"founded"
+]
+]
+},
+{
+"da": "Juryen består af anmeldere og teaterfagfolk.",
+"en": "The jury consists of critics and theatre professionals.",
+"p": false,
+"note": "Who is on the jury. \"bestå af\" means consist of.",
+"words": [
+[
+"Juryen",
+"the jury"
+],
+[
+"anmeldere",
+"critics"
+],
+[
+"teaterfagfolk",
+"theatre professionals"
+]
+]
+},
+{
+"da": "Prismodtagerne modtager en statuette samt penge.",
+"en": "The winners receive a statuette and money.",
+"p": false,
+"note": "What winners get. \"samt\" means \"and also\".",
+"words": [
+[
+"Prismodtagerne",
+"the prize winners"
+],
+[
+"modtager",
+"receive"
+],
+[
+"statuette",
+"statuette"
+]
+]
+},
+{
+"da": "Årets hæderspris på 200.000 kr. har en særlig betydning ved uddelingen.",
+"en": "The honorary prize of 200,000 kr. has a special meaning at the ceremony.",
+"p": false,
+"note": "One prize is the most important. \"på\" is used with amounts.",
+"words": [
+[
+"hæderspris",
+"prize of honour"
+],
+[
+"betydning",
+"meaning"
+],
+[
+"uddelingen",
+"the award ceremony"
+]
+]
+},
+{
+"da": "Den går nemlig til en scenekunstner, der ”på enestående vis har bidraget til udvikling af teaterkunsten i Danmark”.",
+"en": "That is because it goes to a stage artist who \"has contributed in a unique way to the development of theatre art in Denmark\".",
+"p": false,
+"note": "Who gets the honorary prize. \"nemlig\" explains a reason: you see, because.",
+"words": [
+[
+"scenekunstner",
+"stage artist"
+],
+[
+"enestående",
+"unique"
+],
+[
+"bidraget",
+"contributed"
+],
+[
+"teaterkunsten",
+"theatre art"
+]
+]
+},
+{
+"da": "Pr. 2016 er pengebeløbene følgende: Hædersprismodtagerne modtager 200.000 kr., talentprismodtagerne modtager 35.000 kr. og øvrige prismodtagere i øvrige kategorier modtager 40.000 kr.",
+"en": "As of 2016 the amounts are: honorary winners get 200,000 kr., talent winners get 35,000 kr. and other winners in other categories get 40,000 kr.",
+"p": false,
+"note": "The prize amounts. After \"Pr. 2016\", the verb \"er\" comes before the subject.",
+"words": [
+[
+"pengebeløbene",
+"the amounts of money"
+],
+[
+"Hædersprismodtagerne",
+"the honorary prize winners"
+],
+[
+"talentprismodtagerne",
+"the talent prize winners"
+],
+[
+"øvrige",
+"other"
+]
+]
+},
+{
+"da": "Formålet med Årets Reumert-priser er at sætte fokus på den levende scenekunst – både for at hædre nogle af Danmarks største scenekunstnere og for at stimulere interessen for det levende teater i Danmark.",
+"en": "The aim of the Reumert prizes is to focus on live performing arts – both to honour some of Denmark's greatest stage artists and to stimulate interest in live theatre in Denmark.",
+"p": false,
+"note": "The purpose of the prizes. \"både … og\" means both … and.",
+"words": [
+[
+"Formålet",
+"the purpose"
+],
+[
+"scenekunstnere",
+"stage artists"
+],
+[
+"stimulere",
+"stimulate"
+],
+[
+"interessen",
+"the interest"
+]
+]
+},
+{
+"da": "Bearbejdet efter Kistrup, Jens, hentet 10. juli 2020 fra https://denstoredanske.lex.dk/Poul_Reumert og Lyding, Henrik, hentet 10. juli 2020 fra https://denstoredanske.lex.dk/Reumert",
+"en": "Adapted from Kistrup, Jens, retrieved 10 July 2020 from https://denstoredanske.lex.dk/Poul_Reumert and Lyding, Henrik, retrieved 10 July 2020 from https://denstoredanske.lex.dk/Reumert",
+"p": true,
+"note": "A source note with two sources.",
+"words": [
+[
+"Bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+}
+]
+},
+"pd3-21m-2": {
+"lines": [
+{
+"da": "Tekst 1: Klimavenlig hverdag",
+"en": "Text 1: A climate-friendly everyday life",
+"p": true,
+"note": "The title of the first text.",
+"words": [
+[
+"Klimavenlig",
+"climate-friendly"
+],
+[
+"hverdag",
+"everyday life"
+]
+]
+},
+{
+"da": "Flere og flere familier vælger at tage mere hensyn til miljøet, end de har gjort før.",
+"en": "More and more families choose to care more about the environment than they did before.",
+"p": true,
+"note": "Families are changing their habits. \"tage hensyn til\" means to show consideration for.",
+"words": [
+[
+"familier",
+"families"
+],
+[
+"hensyn",
+"consideration"
+],
+[
+"miljøet",
+"the environment"
+]
+]
+},
+{
+"da": "Nogle træffer små beslutninger, mens andre lægger hele deres livsstil om.",
+"en": "Some make small decisions, while others change their whole lifestyle.",
+"p": false,
+"note": "Change can be small or big. \"lægge om\" is a particle verb: to change, reorganise.",
+"words": [
+[
+"beslutninger",
+"decisions"
+],
+[
+"livsstil",
+"lifestyle"
+]
+]
+},
+{
+"da": "Marianne Andresen står i køkkenet sammen med sin yngste søn og snitter grøntsager.",
+"en": "Marianne Andresen is standing in the kitchen with her youngest son, chopping vegetables.",
+"p": true,
+"note": "A scene in a family kitchen. \"sin\" refers back to the subject: her own son.",
+"words": [
+[
+"køkkenet",
+"the kitchen"
+],
+[
+"yngste",
+"youngest"
+],
+[
+"grøntsager",
+"vegetables"
+]
+]
+},
+{
+"da": "De skal have en pastaret, men den bliver uden kød, og grøntsagerne er lokale.",
+"en": "They are having a pasta dish, but it will be without meat, and the vegetables are local.",
+"p": false,
+"note": "The meal is green. \"skal have\" is often used for future plans, e.g. what you will eat.",
+"words": [
+[
+"pastaret",
+"pasta dish"
+],
+[
+"grøntsagerne",
+"the vegetables"
+]
+]
+},
+{
+"da": "For fire år siden besluttede Marianne og hendes mand, Torben Bruun, at lægge deres livsstil helt om.",
+"en": "Four years ago, Marianne and her husband, Torben Bruun, decided to change their lifestyle completely.",
+"p": false,
+"note": "When they changed. After \"For fire år siden\", the verb comes before the subject.",
+"words": [
+[
+"besluttede",
+"decided"
+],
+[
+"livsstil",
+"lifestyle"
+]
+]
+},
+{
+"da": "Aften efter aften kunne de i fjernsynet se på og høre om konsekvenserne af den store CO2-udledning, som specielt vestlige lande har haft i de sidste hundrede år.",
+"en": "Night after night on TV, they could see and hear about the effects of the large CO2 emissions that especially Western countries have had in the last hundred years.",
+"p": false,
+"note": "TV news made them think. \"Aften efter aften\" means night after night, and inversion follows.",
+"words": [
+[
+"fjernsynet",
+"the television"
+],
+[
+"konsekvenserne",
+"the consequences"
+],
+[
+"CO2-udledning",
+"CO2 emission"
+],
+[
+"specielt",
+"especially"
+]
+]
+},
+{
+"da": "Men mens mange måske venter på en politisk løsning på klimaproblemerne, så valgte Marianne og Torben at tage et personligt ansvar.",
+"en": "But while many may wait for a political solution to the climate problems, Marianne and Torben chose to take personal responsibility.",
+"p": false,
+"note": "They did not wait for politicians. \"mens\" means while.",
+"words": [
+[
+"løsning",
+"solution"
+],
+[
+"klimaproblemerne",
+"the climate problems"
+],
+[
+"personligt",
+"personal"
+],
+[
+"ansvar",
+"responsibility"
+]
+]
+},
+{
+"da": "De har byttet bilen ud med pendlerkort og cykler, har skåret ned på kødet og har købt færre flybilletter end før.",
+"en": "They have swapped the car for commuter cards and bikes, cut down on meat and bought fewer plane tickets than before.",
+"p": false,
+"note": "What they changed. The verbs are in the perfect tense: har byttet, har skåret, har købt.",
+"words": [
+[
+"byttet",
+"swapped"
+],
+[
+"pendlerkort",
+"commuter pass"
+],
+[
+"skåret",
+"cut"
+],
+[
+"flybilletter",
+"plane tickets"
+]
+]
+},
+{
+"da": "”Selvom der er ambitiøse, politiske mål for en løsning af klimaproblemerne, mener både min mand og jeg, at vi også må tage et personligt ansvar.",
+"en": "\"Although there are ambitious political goals for solving the climate problems, both my husband and I think we also have to take personal responsibility.",
+"p": true,
+"note": "They feel personally responsible. After the \"selvom\"-clause, the verb \"mener\" comes before the subject.",
+"words": [
+[
+"ambitiøse",
+"ambitious"
+],
+[
+"politiske",
+"political"
+],
+[
+"klimaproblemerne",
+"the climate problems"
+],
+[
+"personligt",
+"personal"
+]
+]
+},
+{
+"da": "Om ti år er det måske for sent!",
+"en": "In ten years it may be too late!",
+"p": false,
+"note": "A warning. \"Om ti år\" means in ten years' time; then inversion: \"er det\"."
+},
+{
+"da": "Vi ønsker også at være gode rollemodeller for vores børn ved selv at gøre noget.",
+"en": "We also want to be good role models for our children by doing something ourselves.",
+"p": false,
+"note": "They want to set an example. \"ved at\" plus infinitive means \"by doing\".",
+"words": [
+[
+"ønsker",
+"wish"
+],
+[
+"rollemodeller",
+"role models"
+]
+]
+},
+{
+"da": "Vi synes, det er vigtigt, at børn lærer, at man skal gøre noget, når situationen er så alvorlig, som den er nu,” siger parret.",
+"en": "\"We think it is important that children learn that you must act when the situation is as serious as it is now,\" says the couple.",
+"p": false,
+"note": "They want to teach their children. \"så … som\" compares: as serious as.",
+"words": [
+[
+"vigtigt",
+"important"
+],
+[
+"situationen",
+"the situation"
+],
+[
+"alvorlig",
+"serious"
+],
+[
+"parret",
+"the couple"
+]
+]
+},
+{
+"da": "Ny livsstil, nye vaner",
+"en": "New lifestyle, new habits",
+"p": true,
+"note": "A heading about changing habits.",
+"words": [
+[
+"livsstil",
+"lifestyle"
+]
+]
+},
+{
+"da": "Men én ting er at få en god idé, en anden ting er at føre den ud i livet.",
+"en": "But it is one thing to have a good idea and another thing to put it into practice.",
+"p": false,
+"note": "Ideas are easier than action. \"føre ud i livet\" means to put into practice."
+},
+{
+"da": "”Vi vidste godt, at det ville blive svært, og at noget ville blive sværere end andet.",
+"en": "\"We knew it would be hard, and that some things would be harder than others.",
+"p": false,
+"note": "They expected difficulties. \"ville blive\" is a future in the past: would be.",
+"words": [
+[
+"sværere",
+"harder"
+]
+]
+},
+{
+"da": "Men vi blev overraskede over, hvad der egentlig var svært i praksis.",
+"en": "But we were surprised by what was actually difficult in practice.",
+"p": false,
+"note": "Reality surprised them. \"overrasket over\" means surprised by.",
+"words": [
+[
+"overraskede",
+"surprised"
+],
+[
+"egentlig",
+"actually"
+],
+[
+"praksis",
+"practice"
+]
+]
+},
+{
+"da": "Selv har jeg altid taget bilen til og fra arbejde, og jeg troede ikke, jeg kunne vænne mig til toget.",
+"en": "I myself have always taken the car to and from work, and I did not think I could get used to the train.",
+"p": false,
+"note": "Torben feared the train. \"vænne sig til\" is reflexive: to get used to.",
+"words": [
+[
+"arbejde",
+"work"
+],
+[
+"vænne",
+"get used"
+]
+]
+},
+{
+"da": "Men det kunne jeg, og det gik endda hurtigt.",
+"en": "But I could, and it even happened quickly.",
+"p": false,
+"note": "It was easier than he thought. \"det\" comes first, so the verb \"kunne\" comes before \"jeg\".",
+"words": [
+[
+"endda",
+"even"
+],
+[
+"hurtigt",
+"quickly"
+]
+]
+},
+{
+"da": "Det har været sværere for mig at undvære kød på middagsbordet, men jeg er efterhånden ved at vænne mig til det.",
+"en": "It has been harder for me to do without meat at dinner, but I am gradually getting used to it.",
+"p": false,
+"note": "Meat was harder. \"være ved at\" means to be in the process of.",
+"words": [
+[
+"sværere",
+"harder"
+],
+[
+"undvære",
+"do without"
+],
+[
+"middagsbordet",
+"the dinner table"
+],
+[
+"efterhånden",
+"gradually"
+]
+]
+},
+{
+"da": "Derimod har jeg stadig svært ved, at vi må begrænse, hvilke lande vi holder ferie i.",
+"en": "On the other hand, I still find it hard that we have to limit which countries we go on holiday in.",
+"p": false,
+"note": "Holidays are the hardest. After \"Derimod\", the verb \"har\" comes before \"jeg\".",
+"words": [
+[
+"Derimod",
+"on the other hand"
+],
+[
+"begrænse",
+"limit"
+]
+]
+},
+{
+"da": "Vi flyver nemlig ikke længere, når vi skal på ferie, så vi rejser kun i Europa og ikke til eksotiske lande langt væk, og det savner jeg,” siger Torben Bruun.",
+"en": "\"You see, we no longer fly on holiday, so we only travel in Europe and not to exotic countries far away, and I miss that,\" says Torben Bruun.",
+"p": false,
+"note": "He misses long trips. In \"det savner jeg\", the object comes first, so the verb comes before \"jeg\".",
+"words": [
+[
+"nemlig",
+"you see"
+],
+[
+"længere",
+"any longer"
+],
+[
+"eksotiske",
+"exotic"
+],
+[
+"savner",
+"miss"
+]
+]
+},
+{
+"da": "Her adskiller han sig nok fra flertallet.",
+"en": "Here he is probably different from most people.",
+"p": true,
+"note": "He is unusual. \"adskille sig fra\" is reflexive: to differ from.",
+"words": [
+[
+"adskiller",
+"differs"
+],
+[
+"flertallet",
+"the majority"
+]
+]
+},
+{
+"da": "For de fleste familier vil det sikkert være madvanerne, der er sværest at lave om på, ligesom det kan være svært at vænne sig til offentlig transport, hvis man har været vant til at køre selv.",
+"en": "For most families, food habits will probably be the hardest to change, just as it can be hard to get used to public transport if you are used to driving yourself.",
+"p": false,
+"note": "Food and transport are hard for most. \"være vant til\" means to be used to.",
+"words": [
+[
+"familier",
+"families"
+],
+[
+"madvanerne",
+"the eating habits"
+],
+[
+"offentlig",
+"public"
+],
+[
+"transport",
+"transport"
+]
+]
+},
+{
+"da": "Til gengæld er det måske ikke så vigtigt, om sommerferien går til Berlin eller Bangkok.",
+"en": "On the other hand, it may not matter much whether the summer holiday is in Berlin or Bangkok.",
+"p": false,
+"note": "Destination matters less. \"Til gengæld\" means on the other hand; inversion follows.",
+"words": [
+[
+"gengæld",
+"on the other hand"
+],
+[
+"vigtigt",
+"important"
+],
+[
+"sommerferien",
+"the summer holiday"
+]
+]
+},
+{
+"da": "Det vigtigste er som regel, at man rejser sammen.",
+"en": "The most important thing is usually that you travel together.",
+"p": false,
+"note": "Being together matters most. \"som regel\" means usually.",
+"words": [
+[
+"vigtigste",
+"most important"
+]
+]
+},
+{
+"da": "Gode råd til andre familier",
+"en": "Good advice for other families",
+"p": true,
+"note": "A heading: tips for families.",
+"words": [
+[
+"familier",
+"families"
+]
+]
+},
+{
+"da": "Det er de færreste familier, der omlægger deres vaner så radikalt, og det er måske ikke så underligt.",
+"en": "Very few families change their habits so radically, and that is perhaps not so strange.",
+"p": false,
+"note": "Few families change so much. \"de færreste\" means very few.",
+"words": [
+[
+"færreste",
+"fewest"
+],
+[
+"familier",
+"families"
+],
+[
+"omlægger",
+"change"
+],
+[
+"radikalt",
+"radically"
+]
+]
+},
+{
+"da": "En grønnere livsstil handler ikke bare om at forbruge mindre og forbruge på en anden måde.",
+"en": "A greener lifestyle is not just about consuming less and consuming differently.",
+"p": false,
+"note": "Green living is more than buying less. \"handle om\" means to be about.",
+"words": [
+[
+"grønnere",
+"greener"
+],
+[
+"livsstil",
+"lifestyle"
+],
+[
+"forbruge",
+"consume"
+]
+]
+},
+{
+"da": "Det handler i høj grad også om identitet og følelser.",
+"en": "It is very much also about identity and feelings.",
+"p": false,
+"note": "It is emotional too. \"i høj grad\" means to a high degree.",
+"words": [
+[
+"identitet",
+"identity"
+],
+[
+"følelser",
+"feelings"
+]
+]
+},
+{
+"da": "Mange familietraditioner, fx søndagsmiddag eller juleaften, involverer store mængder af kød og har gjort det i generationer.",
+"en": "Many family traditions, e.g. Sunday dinner or Christmas Eve, involve large amounts of meat and have done so for generations.",
+"p": false,
+"note": "Traditions include meat. \"har gjort det\" is the perfect: have done so.",
+"words": [
+[
+"familietraditioner",
+"family traditions"
+],
+[
+"søndagsmiddag",
+"Sunday dinner"
+],
+[
+"involverer",
+"involve"
+],
+[
+"generationer",
+"generations"
+]
+]
+},
+{
+"da": "”Før man gør noget som helst andet, bør man sikre sig, at familien bakker op om projektet og har mod på at udfordre de gamle vaner.",
+"en": "\"Before you do anything else, you should make sure the family supports the project and is willing to challenge old habits.",
+"p": true,
+"note": "First get the family on board. After the \"før\"-clause, the verb \"bør\" comes before \"man\".",
+"words": [
+[
+"sikre",
+"make sure"
+],
+[
+"projektet",
+"the project"
+],
+[
+"udfordre",
+"challenge"
+]
+]
+},
+{
+"da": "Ellers risikerer man både, at projektet mislykkes, og at nogle bliver sure,” siger Marianne.",
+"en": "\"Otherwise you risk both that the project fails and that some people get angry,\" says Marianne.",
+"p": false,
+"note": "Without support it can go wrong. After \"Ellers\", the verb \"risikerer\" comes before \"man\".",
+"words": [
+[
+"risikerer",
+"risk"
+],
+[
+"projektet",
+"the project"
+],
+[
+"mislykkes",
+"fails"
+]
+]
+},
+{
+"da": "Det er Torben enig i: ”Uden opbakning går det selvfølgelig ikke.",
+"en": "Torben agrees: \"Without support it of course won't work.",
+"p": true,
+"note": "Torben agrees. The object \"Det\" comes first, and \"i\" goes to the end.",
+"words": [
+[
+"opbakning",
+"support"
+],
+[
+"selvfølgelig",
+"of course"
+]
+]
+},
+{
+"da": "Desuden er det en god idé at undersøge grundigt, hvor det kan betale sig at skære ned på forbruget.",
+"en": "Also, it is a good idea to check carefully where it pays to cut down on consumption.",
+"p": false,
+"note": "Find where cuts help most. \"kan betale sig\" means it pays off.",
+"words": [
+[
+"Desuden",
+"besides"
+],
+[
+"undersøge",
+"investigate"
+],
+[
+"grundigt",
+"thoroughly"
+],
+[
+"forbruget",
+"consumption"
+]
+]
+},
+{
+"da": "Der findes masser af gratis CO2-beregnere på nettet, som kan hjælpe en til at finde ud af, hvor man får mest ud af at begrænse sin CO2-udledning.",
+"en": "There are lots of free CO2 calculators online that can help you find out where you get the most out of cutting your CO2 emissions.",
+"p": false,
+"note": "Online tools can help. \"Der findes\" means there are, there exist.",
+"words": [
+[
+"CO2-beregnere",
+"CO2 calculators"
+],
+[
+"begrænse",
+"limit"
+],
+[
+"CO2-udledning",
+"CO2 emission"
+]
+]
+},
+{
+"da": "Måske behøver man ikke undvære juleanden og de traditionsrige måltider med familien, hvis man fx sælger bilen og køber et pendlerkort i stedet.”",
+"en": "Maybe you don't need to give up the Christmas duck and traditional family meals if you, for example, sell the car and buy a commuter pass instead.\"",
+"p": false,
+"note": "You can keep traditions by changing other things. After \"Måske\", the verb comes before \"man\".",
+"words": [
+[
+"undvære",
+"do without"
+],
+[
+"juleanden",
+"the Christmas duck"
+],
+[
+"traditionsrige",
+"traditional"
+],
+[
+"pendlerkort",
+"commuter pass"
+]
+]
+},
+{
+"da": "Tekst 2: Klima og ansvar",
+"en": "Text 2: Climate and responsibility",
+"p": true,
+"note": "The title of the second text.",
+"words": [
+[
+"ansvar",
+"responsibility"
+]
+]
+},
+{
+"da": "Der er efterhånden bred enighed om, at klimaproblemerne er menneskeskabte og vil forværres, hvis der ikke gøres noget.",
+"en": "There is now broad agreement that the climate problems are man-made and will get worse if nothing is done.",
+"p": true,
+"note": "People agree humans cause climate change. \"gøres\" is the passive with -s: is done.",
+"words": [
+[
+"efterhånden",
+"by now"
+],
+[
+"enighed",
+"agreement"
+],
+[
+"menneskeskabte",
+"man-made"
+],
+[
+"forværres",
+"get worse"
+]
+]
+},
+{
+"da": "Men hvad kan forbrugerne og politikerne gøre for at vende udviklingen?",
+"en": "But what can consumers and politicians do to reverse the trend?",
+"p": false,
+"note": "The key question of the text. The verb \"kan\" comes right after \"hvad\".",
+"words": [
+[
+"forbrugerne",
+"the consumers"
+],
+[
+"politikerne",
+"the politicians"
+],
+[
+"udviklingen",
+"the development"
+]
+]
+},
+{
+"da": "Den globale opvarmning skyldes drivhusgasser.",
+"en": "Global warming is caused by greenhouse gases.",
+"p": true,
+"note": "The cause of warming. \"skyldes\" means is due to.",
+"words": [
+[
+"opvarmning",
+"warming"
+],
+[
+"skyldes",
+"is caused by"
+],
+[
+"drivhusgasser",
+"greenhouse gases"
+]
+]
+},
+{
+"da": "Men drivhusgasserne har ikke udelukkende en negativ indvirkning på klimaet.",
+"en": "But greenhouse gases do not only have a negative effect on the climate.",
+"p": false,
+"note": "They are not only bad. \"indvirkning på\" means effect on.",
+"words": [
+[
+"drivhusgasserne",
+"the greenhouse gases"
+],
+[
+"udelukkende",
+"exclusively"
+],
+[
+"negativ",
+"negative"
+],
+[
+"indvirkning",
+"effect"
+]
+]
+},
+{
+"da": "Drivhusgasser findes faktisk naturligt i Jordens atmosfære.",
+"en": "Greenhouse gases actually exist naturally in the Earth's atmosphere.",
+"p": false,
+"note": "They are natural. \"findes\" is a verb ending in -s with active meaning: exist.",
+"words": [
+[
+"Drivhusgasser",
+"greenhouse gases"
+],
+[
+"naturligt",
+"naturally"
+],
+[
+"atmosfære",
+"atmosphere"
+]
+]
+},
+{
+"da": "Fx er vanddamp og CO2 drivhusgasser.",
+"en": "For example, water vapour and CO2 are greenhouse gases.",
+"p": false,
+"note": "Two examples. After \"Fx\", the verb \"er\" comes before the subject.",
+"words": [
+[
+"vanddamp",
+"water vapour"
+],
+[
+"drivhusgasser",
+"greenhouse gases"
+]
+]
+},
+{
+"da": "Var det ikke for drivhusgasserne, ville gennemsnits-temperaturen på Jorden være omkring minus 18 grader, og livet på Jorden ville være helt forskelligt fra det liv, vi kender.",
+"en": "If it weren't for the greenhouse gases, the average temperature on Earth would be about minus 18 degrees, and life would be completely different.",
+"p": false,
+"note": "Without them Earth would be cold. Starting with the verb \"Var\" makes an \"if\" condition without \"hvis\".",
+"words": [
+[
+"drivhusgasserne",
+"the greenhouse gases"
+],
+[
+"gennemsnits-temperaturen",
+"the average temperature"
+],
+[
+"forskelligt",
+"different"
+]
+]
+},
+{
+"da": "Mennesker har altid udledt drivhusgasser.",
+"en": "Humans have always emitted greenhouse gases.",
+"p": true,
+"note": "A general fact. \"har udledt\" is the perfect tense.",
+"words": [
+[
+"Mennesker",
+"humans"
+],
+[
+"udledt",
+"emitted"
+],
+[
+"drivhusgasser",
+"greenhouse gases"
+]
+]
+},
+{
+"da": "Problemet er, at vi udleder mere end tidligere, blandt andet CO2.",
+"en": "The problem is that we emit more than before, including CO2.",
+"p": false,
+"note": "The problem is the amount. \"mere end\" is a comparison: more than.",
+"words": [
+[
+"Problemet",
+"the problem"
+],
+[
+"udleder",
+"emit"
+],
+[
+"tidligere",
+"before"
+]
+]
+},
+{
+"da": "Siden den industrielle revolution i midten af 1800-tallet, har vi brændt store mængder kul og olie af.",
+"en": "Since the Industrial Revolution in the mid-1800s, we have burned large amounts of coal and oil.",
+"p": false,
+"note": "We burn a lot of fossil fuel. \"brænde af\" is a particle verb split by the object.",
+"words": [
+[
+"industrielle",
+"industrial"
+],
+[
+"revolution",
+"revolution"
+],
+[
+"mængder",
+"amounts"
+]
+]
+},
+{
+"da": "Det har betydet højere velstand for mange mennesker.",
+"en": "It has meant greater prosperity for many people.",
+"p": false,
+"note": "The good side. \"højere\" is the comparative of \"høj\".",
+"words": [
+[
+"betydet",
+"meant"
+],
+[
+"velstand",
+"prosperity"
+],
+[
+"mennesker",
+"people"
+]
+]
+},
+{
+"da": "Men det har også betydet mere udledning af CO2 i atmosfæren.",
+"en": "But it has also meant more CO2 emissions into the atmosphere.",
+"p": false,
+"note": "The bad side. \"udledning\" is the noun from \"udlede\".",
+"words": [
+[
+"betydet",
+"meant"
+],
+[
+"udledning",
+"emission"
+],
+[
+"atmosfæren",
+"the atmosphere"
+]
+]
+},
+{
+"da": "I dag er gennemsnitstemperaturen cirka 15 grader, men hvis den bliver bare et par grader højere, får det alvorlige konsekvenser.",
+"en": "Today the average temperature is about 15 degrees, but if it gets just a couple of degrees higher, it will have serious consequences.",
+"p": true,
+"note": "A small rise is dangerous. After the \"hvis\"-clause, the verb \"får\" comes first.",
+"words": [
+[
+"gennemsnitstemperaturen",
+"the average temperature"
+],
+[
+"alvorlige",
+"serious"
+],
+[
+"konsekvenser",
+"consequences"
+]
+]
+},
+{
+"da": "Vi vil fx opleve flere oversvømmelser, skovbrande og perioder med tørke.",
+"en": "We will, for example, see more floods, forest fires and periods of drought.",
+"p": false,
+"note": "Examples of effects. \"vil\" plus infinitive expresses the future.",
+"words": [
+[
+"oversvømmelser",
+"floods"
+],
+[
+"skovbrande",
+"forest fires"
+],
+[
+"perioder",
+"periods"
+]
+]
+},
+{
+"da": "Vandstanden i havene vil også stige og gøre mange områder ubeboelige.",
+"en": "Sea levels will also rise and make many areas uninhabitable.",
+"p": false,
+"note": "Rising seas. The prefix \"u-\" makes the opposite: beboelig, ubeboelig.",
+"words": [
+[
+"Vandstanden",
+"the water level"
+],
+[
+"områder",
+"areas"
+],
+[
+"ubeboelige",
+"uninhabitable"
+]
+]
+},
+{
+"da": "Der er derfor stor politisk og folkelig interesse for at nedbringe udledningen af CO2 i atmosfæren.",
+"en": "There is therefore great political and public interest in reducing CO2 emissions.",
+"p": false,
+"note": "Many want lower emissions. \"interesse for at\" plus infinitive means interest in doing.",
+"words": [
+[
+"politisk",
+"political"
+],
+[
+"folkelig",
+"popular"
+],
+[
+"nedbringe",
+"reduce"
+],
+[
+"udledningen",
+"the emission"
+]
+]
+},
+{
+"da": "Kødproduktion",
+"en": "Meat production",
+"p": true,
+"note": "A heading about meat.",
+"words": [
+[
+"Kødproduktion",
+"meat production"
+]
+]
+},
+{
+"da": "Et meget omdiskuteret emne i klimadebatten er kødforbrug.",
+"en": "A much-discussed topic in the climate debate is meat consumption.",
+"p": false,
+"note": "Meat is a hot topic. \"omdiskuteret\" means discussed a lot.",
+"words": [
+[
+"omdiskuteret",
+"much-discussed"
+],
+[
+"klimadebatten",
+"the climate debate"
+],
+[
+"kødforbrug",
+"meat consumption"
+]
+]
+},
+{
+"da": "Det skyldes, at der udledes meget store mængder CO2 i kødproduktionen.",
+"en": "That is because very large amounts of CO2 are emitted in meat production.",
+"p": false,
+"note": "Why meat matters. \"udledes\" is the passive with -s.",
+"words": [
+[
+"skyldes",
+"is due to"
+],
+[
+"udledes",
+"is emitted"
+],
+[
+"mængder",
+"amounts"
+],
+[
+"kødproduktionen",
+"the meat production"
+]
+]
+},
+{
+"da": "Der udledes mere end i hele transportsektoren.",
+"en": "More is emitted than in the whole transport sector.",
+"p": false,
+"note": "Meat emits more than transport. The passive with -s after \"Der\".",
+"words": [
+[
+"udledes",
+"is emitted"
+],
+[
+"transportsektoren",
+"the transport sector"
+]
+]
+},
+{
+"da": "Samtidig belaster produktionen af kød jorden og vandressourcerne.",
+"en": "At the same time, meat production puts a strain on the soil and water resources.",
+"p": false,
+"note": "Another problem with meat. After \"Samtidig\", the verb comes before the subject.",
+"words": [
+[
+"Samtidig",
+"at the same time"
+],
+[
+"belaster",
+"strains"
+],
+[
+"produktionen",
+"the production"
+],
+[
+"vandressourcerne",
+"the water resources"
+]
+]
+},
+{
+"da": "Det vil altså give god mening at begrænse folks forbrug af kød.",
+"en": "So it makes good sense to limit people's meat consumption.",
+"p": false,
+"note": "Eating less meat makes sense. \"give mening\" means to make sense.",
+"words": [
+[
+"begrænse",
+"limit"
+],
+[
+"forbrug",
+"consumption"
+]
+]
+},
+{
+"da": "Men er det rimeligt, at staten gennem kampagner og fx afgifter på kød er med til at bestemme, hvad folk spiser?",
+"en": "But is it fair that the state, through campaigns and e.g. taxes on meat, helps decide what people eat?",
+"p": false,
+"note": "Should the state decide? In a yes/no question the verb comes first.",
+"words": [
+[
+"rimeligt",
+"reasonable"
+],
+[
+"kampagner",
+"campaigns"
+],
+[
+"afgifter",
+"taxes, duties"
+],
+[
+"bestemme",
+"decide"
+]
+]
+},
+{
+"da": "Det mener Morten Ebbe Juul Nielsen ikke.",
+"en": "Morten Ebbe Juul Nielsen does not think so.",
+"p": true,
+"note": "An expert disagrees. The object \"Det\" comes first, so the verb \"mener\" comes before the subject."
+},
+{
+"da": "Han er lektor ved Institut for Medier, Erkendelse og Formidling ved Københavns Universitet.",
+"en": "He is an associate professor at the Department of Media, Cognition and Communication at the University of Copenhagen.",
+"p": false,
+"note": "Who the expert is. Job titles have no article: \"Han er lektor\".",
+"words": [
+[
+"lektor",
+"associate professor"
+],
+[
+"Institut",
+"department"
+],
+[
+"Erkendelse",
+"cognition"
+],
+[
+"Formidling",
+"communication"
+]
+]
+},
+{
+"da": "”De fleste vil nok erklære sig enige i, at staten ikke skal detailregulere vores fødevareforbrug.",
+"en": "\"Most people will probably agree that the state should not regulate our food consumption in detail.",
+"p": false,
+"note": "Most people don't want the state to control food. \"erklære sig enig i\" means to declare agreement with.",
+"words": [
+[
+"erklære",
+"declare"
+],
+[
+"detailregulere",
+"regulate in detail"
+],
+[
+"fødevareforbrug",
+"food consumption"
+]
+]
+},
+{
+"da": "Det, vi spiser, og måden vi spiser på, er dybt personlig og ofte forbundet med stærke personlige, sociale og kulturelle forestillinger.”",
+"en": "What we eat, and the way we eat, is deeply personal and often linked to strong personal, social and cultural ideas.\"¹",
+"p": false,
+"note": "Food is personal and cultural. \"forbundet med\" means connected with.",
+"words": [
+[
+"personlig",
+"personal"
+],
+[
+"forbundet",
+"connected"
+],
+[
+"kulturelle",
+"cultural"
+],
+[
+"forestillinger",
+"ideas, notions"
+]
+]
+},
+{
+"da": "Han mener derfor, at mange mennesker vil opleve det som et for stort indgreb, hvis staten blander sig i, hvad de spiser.",
+"en": "He therefore thinks many people would see it as too big an intervention if the state interferes in what they eat.",
+"p": true,
+"note": "People would feel controlled. \"blande sig i\" is reflexive: to interfere in.",
+"words": [
+[
+"derfor",
+"therefore"
+],
+[
+"mennesker",
+"people"
+],
+[
+"indgreb",
+"intervention"
+],
+[
+"blander",
+"interferes"
+]
+]
+},
+{
+"da": "Og han er ikke umiddelbart tilhænger af, at staten regulerer, om folk fx spiser kød eller ej.",
+"en": "And he is not immediately in favour of the state regulating whether people eat meat or not.",
+"p": false,
+"note": "He is against regulation. \"tilhænger af\" means supporter of.",
+"words": [
+[
+"umiddelbart",
+"immediately"
+],
+[
+"tilhænger",
+"supporter"
+],
+[
+"regulerer",
+"regulates"
+]
+]
+},
+{
+"da": "”I første omgang må vi lade det være op til markedet og forbrugeren, og hvis det ikke er nok, så må politikere og lobbyister arbejde for at få globale regler sat op,” siger han.",
+"en": "\"For now we must leave it to the market and the consumer, and if that is not enough, politicians and lobbyists must work to get global rules set up,\" he says.²",
+"p": false,
+"note": "Market first, then global rules. \"I første omgang\" means at first; inversion follows: \"må vi\".",
+"words": [
+[
+"markedet",
+"the market"
+],
+[
+"forbrugeren",
+"the consumer"
+],
+[
+"politikere",
+"politicians"
+],
+[
+"lobbyister",
+"lobbyists"
+]
+]
+},
+{
+"da": "Det svære valg",
+"en": "The difficult choice",
+"p": true,
+"note": "A heading.",
+"words": [
+[
+"svære",
+"difficult"
+]
+]
+},
+{
+"da": "Det er dog ikke alle, der er enige i, at forbrugerne og markedet selv kan løfte opgaven med at løse klimaproblemerne.",
+"en": "However, not everyone agrees that consumers and the market can solve the climate problems by themselves.",
+"p": false,
+"note": "Some disagree. \"Det er … der\" is a cleft sentence stressing \"ikke alle\".",
+"words": [
+[
+"forbrugerne",
+"the consumers"
+],
+[
+"markedet",
+"the market"
+],
+[
+"opgaven",
+"the task"
+],
+[
+"klimaproblemerne",
+"the climate problems"
+]
+]
+},
+{
+"da": "”Ser man på de mange befolkningsundersøgelser, der er lavet, så er det klart, at stort set alle borgere i dag har hørt om klimaforandringer eller global opvarmning,” fortæller Jesper Ryberg, der er professor i etik og retsfilosofi på Roskilde Universitet.",
+"en": "\"If you look at the many population surveys that have been done, it is clear that almost all citizens today have heard of climate change or global warming,\" says Jesper Ryberg, a professor of ethics and legal philosophy at Roskilde University.",
+"p": false,
+"note": "Almost everyone has heard of climate change. Starting with the verb \"Ser\" makes an \"if\" condition.",
+"words": [
+[
+"befolkningsundersøgelser",
+"population surveys"
+],
+[
+"klimaforandringer",
+"climate change"
+],
+[
+"opvarmning",
+"warming"
+],
+[
+"retsfilosofi",
+"legal philosophy"
+]
+]
+},
+{
+"da": "”Men det er også klart, at dette ikke er det samme som, at man har viden om det.”",
+"en": "\"But it is also clear that this is not the same as having knowledge about it.\"³",
+"p": false,
+"note": "Hearing is not knowing. In the \"at\"-clause, \"ikke\" comes before the verb \"er\".",
+"words": [
+[
+"viden",
+"knowledge"
+]
+]
+},
+{
+"da": "Mange mennesker har altså kendskab til klimaproblemerne, men de ved ikke, hvordan de kan være med til at løse dem.",
+"en": "So many people know about the climate problems, but they don't know how they can help solve them.",
+"p": true,
+"note": "People know but don't know what to do. \"kendskab til\" means knowledge of.",
+"words": [
+[
+"mennesker",
+"people"
+],
+[
+"kendskab",
+"knowledge"
+],
+[
+"klimaproblemerne",
+"the climate problems"
+]
+]
+},
+{
+"da": "I et stort studie fra to amerikanske byer (Portland og Houston) tilkendegav folk, at de ikke havde ændret adfærd som følge af klimaproblemerne.",
+"en": "In a big study from two American cities (Portland and Houston), people said they had not changed their behaviour because of the climate problems.",
+"p": false,
+"note": "A study showed little change. \"havde ændret\" is the past perfect: had changed.",
+"words": [
+[
+"amerikanske",
+"American"
+],
+[
+"tilkendegav",
+"indicated"
+],
+[
+"adfærd",
+"behaviour"
+],
+[
+"klimaproblemerne",
+"the climate problems"
+]
+]
+},
+{
+"da": "De vidste ganske enkelt ikke, hvad de skulle gøre.",
+"en": "They simply did not know what to do.",
+"p": false,
+"note": "The reason: no knowledge. \"ganske enkelt\" means simply.",
+"words": [
+[
+"vidste",
+"knew"
+],
+[
+"enkelt",
+"simply"
+]
+]
+},
+{
+"da": "En anden grund til, at folk ikke gør noget, er, at det ikke er klart, hvem der egentlig har ansvaret for klimaforandringerne.",
+"en": "Another reason people do nothing is that it is not clear who is actually responsible for climate change.",
+"p": true,
+"note": "Unclear responsibility is a reason. In \"hvem der har\", \"der\" is needed because \"hvem\" is the subject.",
+"words": [
+[
+"egentlig",
+"actually"
+],
+[
+"ansvaret",
+"the responsibility"
+],
+[
+"klimaforandringerne",
+"the climate changes"
+]
+]
+},
+{
+"da": "Det er selvfølgelig ikke den enkelte forbruger alene.",
+"en": "Of course it is not the individual consumer alone.",
+"p": false,
+"note": "One person is not to blame. \"den enkelte\" means the individual.",
+"words": [
+[
+"selvfølgelig",
+"of course"
+],
+[
+"forbruger",
+"consumer"
+]
+]
+},
+{
+"da": "Den enkelte forbruger har kun en meget lille andel i de katastrofer, man kan følge i nyhederne.",
+"en": "The individual consumer has only a very small share in the disasters you can follow in the news.",
+"p": false,
+"note": "One person's part is small. \"andel i\" means share in.",
+"words": [
+[
+"forbruger",
+"consumer"
+],
+[
+"katastrofer",
+"disasters"
+],
+[
+"nyhederne",
+"the news"
+]
+]
+},
+{
+"da": "Og når man ikke føler, at man er direkte ansvarlig for noget, så føler man sig ikke så forpligtet til at gøre noget ved det.",
+"en": "And when you don't feel directly responsible for something, you don't feel so obliged to do anything about it.",
+"p": false,
+"note": "No responsibility, no action. After the \"når\"-clause, \"så\" and then the verb come before \"man\".",
+"words": [
+[
+"direkte",
+"directly"
+],
+[
+"ansvarlig",
+"responsible"
+],
+[
+"forpligtet",
+"obliged"
+]
+]
+},
+{
+"da": "Fremtidsblindhed",
+"en": "Future blindness",
+"p": true,
+"note": "A heading: not seeing the future.",
+"words": [
+[
+"Fremtidsblindhed",
+"future blindness"
+]
+]
+},
+{
+"da": "Endnu en grund er det, Jesper Ryberg kalder ”fremtidsblindhed”.",
+"en": "Yet another reason is what Jesper Ryberg calls \"future blindness\".",
+"p": false,
+"note": "A third reason. \"Endnu en\" means yet another.",
+"words": [
+[
+"fremtidsblindhed",
+"future blindness"
+]
+]
+},
+{
+"da": "For mange mennesker, specielt i den vestlige verden, er klimaproblemet stadig et noget abstrakt problem.",
+"en": "For many people, especially in the Western world, the climate problem is still a somewhat abstract problem.",
+"p": false,
+"note": "It feels unreal to many. After the fronted phrase, the verb \"er\" comes before the subject.",
+"words": [
+[
+"specielt",
+"especially"
+],
+[
+"vestlige",
+"Western"
+],
+[
+"klimaproblemet",
+"the climate problem"
+],
+[
+"abstrakt",
+"abstract"
+]
+]
+},
+{
+"da": "Det er et problem, vi har kendskab til, men det er måske ikke et problem, vi rigtigt kan forholde os til.",
+"en": "It is a problem we know about, but perhaps not one we can really relate to.",
+"p": false,
+"note": "We know but don't feel it. \"forholde sig til\" is reflexive: to relate to.",
+"words": [
+[
+"kendskab",
+"knowledge"
+],
+[
+"forholde",
+"relate"
+]
+]
+},
+{
+"da": "”Vi har meget svært ved at reagere på klimaproblemet, fordi vi oplever, det ligger ude i fremtiden, og fordi vi ikke har klare billeder på nethinden.",
+"en": "\"We find it very hard to react to the climate problem because we feel it lies in the future and because we don't have clear images in our minds.",
+"p": false,
+"note": "It seems far away. After \"fordi\", \"ikke\" comes before the verb \"har\".",
+"words": [
+[
+"reagere",
+"react"
+],
+[
+"klimaproblemet",
+"the climate problem"
+],
+[
+"fremtiden",
+"the future"
+],
+[
+"nethinden",
+"the retina"
+]
+]
+},
+{
+"da": "Klimaproblemet trigger først vores hjerner, når kælderen flyder med vand, og det er meget sent at reagere, hvis det drejer sig om at reducere drivhusgasser.”⁴",
+"en": "The climate problem only triggers our brains when the basement floods, and that is very late to react if it is about reducing greenhouse gases.\"⁴",
+"p": false,
+"note": "We react too late. \"først\" here means not until.",
+"words": [
+[
+"Klimaproblemet",
+"the climate problem"
+],
+[
+"kælderen",
+"the basement"
+],
+[
+"reducere",
+"reduce"
+],
+[
+"drivhusgasser",
+"greenhouse gases"
+]
+]
+},
+{
+"da": "Klimaproblemet opleves altså ikke som et akut problem, men som et abstrakt problem i en fjern fremtid.",
+"en": "So the climate problem is not felt as an urgent problem, but as an abstract problem in a distant future.",
+"p": true,
+"note": "It does not feel urgent. \"opleves\" is the passive with -s: is experienced.",
+"words": [
+[
+"Klimaproblemet",
+"the climate problem"
+],
+[
+"opleves",
+"is experienced"
+],
+[
+"abstrakt",
+"abstract"
+],
+[
+"fremtid",
+"future"
+]
+]
+},
+{
+"da": "Men det opleves også som et problem, der geografisk set er fjernt for mange mennesker i Vesten.",
+"en": "But it is also felt as a problem that is geographically far away for many people in the West.",
+"p": false,
+"note": "It also feels far away in place. \"geografisk set\" means geographically speaking.",
+"words": [
+[
+"opleves",
+"is experienced"
+],
+[
+"geografisk",
+"geographically"
+],
+[
+"fjernt",
+"distant"
+]
+]
+},
+{
+"da": "I Vesten oplever man klimaforandringerne som noget, der først og fremmest rammer langt væk.",
+"en": "In the West, people experience climate change as something that mainly hits far away.",
+"p": false,
+"note": "Others are hit first. After \"I Vesten\", the verb \"oplever\" comes before \"man\".",
+"words": [
+[
+"klimaforandringerne",
+"the climate changes"
+],
+[
+"fremmest",
+"foremost"
+],
+[
+"rammer",
+"hits"
+]
+]
+},
+{
+"da": "Forandringer, der er på tidslig og geografisk afstand af os selv, berører os ikke følelsesmæssigt på samme måde som forandringer, der sker helt tæt på os: ”En forudsætning for handling er, at vi påvirkes følelsesmæssigt af problemet.",
+"en": "Changes that are far from us in time and place do not touch us emotionally like changes close to us: \"A condition for action is that we are emotionally affected by the problem.",
+"p": false,
+"note": "Distance stops feelings. \"påvirkes\" is the passive with -s: are affected.",
+"words": [
+[
+"Forandringer",
+"changes"
+],
+[
+"følelsesmæssigt",
+"emotionally"
+],
+[
+"forudsætning",
+"precondition"
+],
+[
+"påvirkes",
+"are affected"
+]
+]
+},
+{
+"da": "Det er i den følelsesmæssige reaktion, at drivkraften for handlen ligger,” siger Jesper Ryberg.⁵",
+"en": "It is in the emotional reaction that the driving force for action lies,\" says Jesper Ryberg.⁵",
+"p": false,
+"note": "Feelings drive action. \"Det er … at\" is a cleft sentence that stresses the place.",
+"words": [
+[
+"følelsesmæssige",
+"emotional"
+],
+[
+"reaktion",
+"reaction"
+],
+[
+"drivkraften",
+"the driving force"
+],
+[
+"handlen",
+"the action"
+]
+]
+},
+{
+"da": "Så hvad kan forbrugerne og politikerne gøre for at løse klimaproblemerne?",
+"en": "So what can consumers and politicians do to solve the climate problems?",
+"p": true,
+"note": "The main question again. The verb \"kan\" comes right after \"hvad\".",
+"words": [
+[
+"forbrugerne",
+"the consumers"
+],
+[
+"politikerne",
+"the politicians"
+],
+[
+"klimaproblemerne",
+"the climate problems"
+]
+]
+},
+{
+"da": "Er der en løsning, der ikke involverer, at staten skal regulere, hvad vi spiser, og som heller ikke lægger hele ansvaret over på forbrugeren?",
+"en": "Is there a solution that does not involve the state regulating what we eat and that does not put all the responsibility on the consumer?",
+"p": false,
+"note": "Is there a middle way? A yes/no question starts with the verb \"Er\".",
+"words": [
+[
+"løsning",
+"solution"
+],
+[
+"involverer",
+"involves"
+],
+[
+"regulere",
+"regulate"
+],
+[
+"forbrugeren",
+"the consumer"
+]
+]
+},
+{
+"da": "Måske.",
+"en": "Maybe.",
+"p": false,
+"note": "A one-word answer: perhaps."
+},
+{
+"da": "Jesper Ryberg håber på en kollektiv bevægelse: ”For at der opstår en bevægelse blandt folk, må man sætte lokale initiativer i gang.",
+"en": "Jesper Ryberg hopes for a collective movement: \"For a movement to start among people, you have to start local initiatives.",
+"p": false,
+"note": "He wants local action. \"sætte i gang\" means to start something.",
+"words": [
+[
+"kollektiv",
+"collective"
+],
+[
+"bevægelse",
+"movement"
+],
+[
+"opstår",
+"arises"
+],
+[
+"initiativer",
+"initiatives"
+]
+]
+},
+{
+"da": "Vi skal føle os som en del af et større projekt, hvor vi oplever, at vi gør noget sammen.”⁶",
+"en": "We must feel part of a bigger project where we feel we are doing something together.\"⁶",
+"p": false,
+"note": "Togetherness motivates. \"føle sig\" is reflexive: to feel.",
+"words": [
+[
+"større",
+"bigger"
+],
+[
+"projekt",
+"project"
+],
+[
+"oplever",
+"experience"
+]
+]
+},
+{
+"da": " Det svære valg. Udfordringer for den etiske forbruger, side 146. Udgivet af Det Etiske Råd 2015.",
+"en": "¹ The Difficult Choice. Challenges for the Ethical Consumer, page 146. Published by the Danish Council on Ethics 2015.",
+"p": true,
+"note": "A footnote naming a source. \"Udgivet af\" means published by.",
+"words": [
+[
+"Udfordringer",
+"challenges"
+],
+[
+"forbruger",
+"consumer"
+],
+[
+"Udgivet",
+"published"
+]
+]
+},
+{
+"da": " https://foodculture.dk/miljoe-og-klima/klima/2014/er-klimaet-forbrugerens-ansvar, hentet den 13. februar 2019.",
+"en": "² https://foodculture.dk/miljoe-og-klima/klima/2014/er-klimaet-forbrugerens-ansvar, retrieved 13 February 2019.",
+"p": false,
+"note": "A footnote with a web source. \"hentet\" means retrieved.",
+"words": [
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": " Det svære valg. Udfordringer for den etiske forbruger, side 84. Udgivet af Det Etiske Råd 2015.",
+"en": "³ The Difficult Choice. Challenges for the Ethical Consumer, page 84. Published by the Danish Council on Ethics 2015.",
+"p": false,
+"note": "A footnote naming the same book, another page.",
+"words": [
+[
+"Udfordringer",
+"challenges"
+],
+[
+"Udgivet",
+"published"
+]
+]
+},
+{
+"da": "⁴ Se fodnote 2.",
+"en": "⁴ See footnote 2.",
+"p": false,
+"note": "A footnote pointing to another footnote. \"Se\" is the imperative.",
+"words": [
+[
+"fodnote",
+"footnote"
+]
+]
+},
+{
+"da": "⁵ Det svære valg. Udfordringer for den etiske forbruger, side 86. Udgivet af Det Etiske Råd 2015.",
+"en": "⁵ The Difficult Choice. Challenges for the Ethical Consumer, page 86. Published by the Danish Council on Ethics 2015.",
+"p": false,
+"note": "A footnote naming the same book again.",
+"words": [
+[
+"Udfordringer",
+"challenges"
+],
+[
+"Udgivet",
+"published"
+]
+]
+},
+{
+"da": "⁶ Se fodnote 2.",
+"en": "⁶ See footnote 2.",
+"p": false,
+"note": "A footnote pointing back to footnote 2.",
+"words": [
+[
+"fodnote",
+"footnote"
+]
+]
+}
+]
+},
+"pd3-21m-3": {
+"lines": [
+{
+"da": "Arbejdsløshed blandt nyuddannede akademikere",
+"en": "Unemployment among newly graduated academics",
+"p": true,
+"note": "The title of the text.",
+"words": [
+[
+"Arbejdsløshed",
+"unemployment"
+],
+[
+"nyuddannede",
+"newly graduated"
+],
+[
+"akademikere",
+"university graduates"
+]
+]
+},
+{
+"da": "Det går godt for samfundsøkonomien, og der er færre arbejdsløse.",
+"en": "The economy is doing well, and there are fewer unemployed.",
+"p": true,
+"note": "The economy is good. \"Det går godt for\" means things are going well for.",
+"words": [
+[
+"samfundsøkonomien",
+"the national economy"
+],
+[
+"arbejdsløse",
+"unemployed"
+]
+]
+},
+{
+"da": "Dermed er der blandt nyuddannede akademikere nogle, der går arbejdsløse længe.",
+"en": "Yet among new graduates there are some who stay unemployed for a long time.",
+"p": false,
+"note": "Some graduates still have no job. After \"Dermed\", the verb \"er\" comes before \"der\".",
+"words": [
+[
+"Dermed",
+"thus"
+],
+[
+"nyuddannede",
+"newly graduated"
+],
+[
+"akademikere",
+"university graduates"
+],
+[
+"arbejdsløse",
+"unemployed"
+]
+]
+},
+{
+"da": "Thea Holm er kandidat i kunsthistorie.",
+"en": "Thea Holm has a master's degree in art history.",
+"p": true,
+"note": "Who Thea is. Note \"kandidat i\": a graduate in a subject.",
+"words": [
+[
+"kandidat",
+"master's graduate"
+],
+[
+"kunsthistorie",
+"art history"
+]
+]
+},
+{
+"da": "Hun blev færdig med sin uddannelse for halvandet år siden.",
+"en": "She finished her education a year and a half ago.",
+"p": false,
+"note": "When she finished. \"for … siden\" means ago.",
+"words": [
+[
+"uddannelse",
+"education"
+],
+[
+"halvandet",
+"one and a half"
+]
+]
+},
+{
+"da": "Som andre nyuddannede akademikere med sprog, historie eller kultur på eksamensbeviset har hun svært ved at finde et job inden for sit fagområde.",
+"en": "Like other new graduates with languages, history or culture on their diploma, she finds it hard to get a job in her field.",
+"p": false,
+"note": "Humanities graduates struggle. After the long fronted phrase, the verb \"har\" comes before \"hun\".",
+"words": [
+[
+"nyuddannede",
+"newly graduated"
+],
+[
+"eksamensbeviset",
+"the diploma"
+],
+[
+"fagområde",
+"field"
+]
+]
+},
+{
+"da": "Hun har været til mange samtaler i jobcenteret og på kurser i jobsøgning, og hun har været i praktik på et museum.",
+"en": "She has been to many meetings at the job centre and on job-search courses, and she has done an internship at a museum.",
+"p": true,
+"note": "What she has tried. \"har været\" is the perfect tense.",
+"words": [
+[
+"samtaler",
+"interviews, meetings"
+],
+[
+"jobcenteret",
+"the job centre"
+],
+[
+"jobsøgning",
+"job hunting"
+],
+[
+"praktik",
+"internship"
+]
+]
+},
+{
+"da": "Et job er det imidlertid endnu ikke blevet til, og hendes dagpenge, som hun har fået, siden hun blev færdig som kandidat, stopper snart: ”Det er meget frustrerende at bruge så lang tid på at skrive ansøgninger og søge efter jobs på nettet.",
+"en": "However, it has not yet become a job, and her unemployment benefit, which she has had since graduating, stops soon: \"It is very frustrating to spend so much time writing applications and searching for jobs online.",
+"p": false,
+"note": "No job yet, and benefits end soon. \"imidlertid\" is a formal word for however.",
+"words": [
+[
+"imidlertid",
+"however"
+],
+[
+"dagpenge",
+"unemployment benefit"
+],
+[
+"frustrerende",
+"frustrating"
+],
+[
+"ansøgninger",
+"applications"
+]
+]
+},
+{
+"da": "Til sommer stopper mine dagpenge, og så skal jeg finde et job,” siger hun.",
+"en": "\"This summer my benefits stop, and then I must find a job,\" she says.",
+"p": false,
+"note": "Her deadline is summer. \"Til sommer\" means next summer; inversion follows.",
+"words": [
+[
+"dagpenge",
+"unemployment benefit"
+]
+]
+},
+{
+"da": "I Danmark kan man få dagpenge som nyuddannet, hvis man er arbejdsløs og er medlem af en A-kasse.",
+"en": "In Denmark, new graduates can get unemployment benefit if they are unemployed and members of an unemployment fund.",
+"p": true,
+"note": "The rules for benefits. After \"I Danmark\", the verb \"kan\" comes before \"man\".",
+"words": [
+[
+"dagpenge",
+"unemployment benefit"
+],
+[
+"nyuddannet",
+"newly graduated"
+],
+[
+"arbejdsløs",
+"unemployed"
+],
+[
+"A-kasse",
+"unemployment fund"
+]
+]
+},
+{
+"da": "Man kan få dagpenge i to år i træk, og man har derfor relativt god tid til at finde et job.",
+"en": "You can get benefits for two years in a row, so you have relatively plenty of time to find a job.",
+"p": false,
+"note": "Two years is a long time. \"i træk\" means in a row.",
+"words": [
+[
+"dagpenge",
+"unemployment benefit"
+],
+[
+"relativt",
+"relatively"
+]
+]
+},
+{
+"da": "Der er nogle, der mener, at den mulighed kan være en årsag til, at der går lang tid, inden nogle nyuddannede får det første job.",
+"en": "Some think this option may be a reason why it takes a long time before some graduates get their first job.",
+"p": false,
+"note": "Benefits may slow job finding. \"inden\" means before.",
+"words": [
+[
+"mulighed",
+"possibility"
+],
+[
+"årsag",
+"cause"
+],
+[
+"nyuddannede",
+"new graduates"
+]
+]
+},
+{
+"da": "Thea afviser da heller ikke, at dagpengeperiodens længde har haft betydning for, at hun endnu ikke har fundet et job.",
+"en": "Thea does not deny that the length of the benefit period has mattered for her not yet having found a job.",
+"p": true,
+"note": "Thea agrees partly. \"heller ikke\" means not either.",
+"words": [
+[
+"afviser",
+"rejects"
+],
+[
+"dagpengeperiodens",
+"the benefit period's"
+],
+[
+"betydning",
+"importance"
+]
+]
+},
+{
+"da": "Uden den lange dagpengeperiode mener hun, at hun hurtigere ville være gået i gang med at søge job uden for sit fagområde: ”Man ved jo, at man får dagpenge de første to år, og det betyder noget for, hvor bredt man søger lige efter, man er blevet færdig med sin uddannelse.",
+"en": "Without the long benefit period, she thinks she would have started looking outside her field sooner: \"You know you get benefits for the first two years, and it affects how widely you apply right after you finish.",
+"p": false,
+"note": "She would have searched wider. \"ville være gået\" is a conditional perfect: would have started.",
+"words": [
+[
+"dagpengeperiode",
+"benefit period"
+],
+[
+"hurtigere",
+"faster"
+],
+[
+"fagområde",
+"field"
+],
+[
+"uddannelse",
+"education"
+]
+]
+},
+{
+"da": "Hvis man skal have folk hurtigere ud på arbejdsmarkedet, er det måske nødvendigt at ændre reglerne,” mener hun.",
+"en": "\"If you want people into the labour market faster, it may be necessary to change the rules,\" she thinks.",
+"p": false,
+"note": "She suggests new rules. After the \"hvis\"-clause, the verb \"er\" comes first.",
+"words": [
+[
+"hurtigere",
+"faster"
+],
+[
+"arbejdsmarkedet",
+"the labour market"
+],
+[
+"nødvendigt",
+"necessary"
+],
+[
+"reglerne",
+"the rules"
+]
+]
+},
+{
+"da": "Da Theas dagpengeperiode som nævnt er tæt på at udløbe, er hun begyndt at se efter jobs udenfor sit fagområde, blandt andet som lærervikar i folkeskolen.",
+"en": "Since Thea's benefit period, as mentioned, is about to end, she has started looking for jobs outside her field, for example as a supply teacher in a state school.",
+"p": true,
+"note": "She now looks more widely. \"Da\" here means since, because.",
+"words": [
+[
+"dagpengeperiode",
+"benefit period"
+],
+[
+"udløbe",
+"expire"
+],
+[
+"lærervikar",
+"supply teacher"
+],
+[
+"folkeskolen",
+"the state school"
+]
+]
+},
+{
+"da": "Der er forskellige holdninger til, at nyuddannede som Thea går ledige i lang tid.",
+"en": "There are different opinions about new graduates like Thea being unemployed for a long time.",
+"p": true,
+"note": "People disagree. \"holdning til\" means opinion about.",
+"words": [
+[
+"forskellige",
+"different"
+],
+[
+"holdninger",
+"opinions"
+],
+[
+"nyuddannede",
+"new graduates"
+],
+[
+"ledige",
+"unemployed"
+]
+]
+},
+{
+"da": "Mange af disse er negative, fordi mange mener, at nyuddannede bør tage et midlertidigt ufaglært job i stedet for at gå arbejdsløse.",
+"en": "Many are negative, because many think graduates should take a temporary unskilled job instead of being unemployed.",
+"p": false,
+"note": "Many want graduates to take any job. \"bør\" means should.",
+"words": [
+[
+"midlertidigt",
+"temporary"
+],
+[
+"ufaglært",
+"unskilled"
+],
+[
+"arbejdsløse",
+"unemployed"
+]
+]
+},
+{
+"da": "Også fra politisk side er der flere, der mener, at de ledige skal ud og finde sig et arbejde så hurtigt som muligt: ”Indtil man finder drømmejobbet, må man tage de job, der er.",
+"en": "Politicians too say the unemployed must find work as fast as possible: \"Until you find your dream job, you must take the jobs there are.",
+"p": false,
+"note": "A politician's view. \"så hurtigt som muligt\" means as fast as possible.",
+"words": [
+[
+"politisk",
+"political"
+],
+[
+"drømmejobbet",
+"the dream job"
+]
+]
+},
+{
+"da": "Bare fordi man har taget en længere uddannelse, skal man ikke være for fin til at tage det første og det bedste job, der byder sig,” siger Hans Andersen, der er beskæftigelsesordfører for partiet Venstre.",
+"en": "\"Just because you have a long education, you should not be too good to take the first job that comes along,\" says Hans Andersen, employment spokesperson for the Venstre party.¹",
+"p": false,
+"note": "Don't be too proud. After the \"fordi\"-clause, the verb \"skal\" comes before \"man\".",
+"words": [
+[
+"længere",
+"longer"
+],
+[
+"uddannelse",
+"education"
+],
+[
+"beskæftigelsesordfører",
+"employment spokesperson"
+]
+]
+},
+{
+"da": "Formand for Dansk Magisterforening, Camilla Gregersen, mener derimod, at de højtuddannede primært skal søge job, der passer til deres uddannelse: ”Det er jo spild af skattekroner, at samfundet bruger en masse ressourcer på at uddanne folk, hvis de så ikke bruger deres uddannelse,” siger hun.",
+"en": "The chair of the Danish Association of Masters and PhDs, Camilla Gregersen, on the other hand, thinks graduates should mainly look for jobs that fit their education: \"It is a waste of tax money for society to spend lots on educating people if they then don't use it,\" she says.²",
+"p": true,
+"note": "An opposite view. \"derimod\" means on the other hand.",
+"words": [
+[
+"Magisterforening",
+"association of master's graduates"
+],
+[
+"højtuddannede",
+"highly educated"
+],
+[
+"skattekroner",
+"tax money"
+],
+[
+"ressourcer",
+"resources"
+]
+]
+},
+{
+"da": "Hun hører desuden, at arbejdsgiverne igen og igen siger nej tak til overkvalificerede ansøgere, der søger et lavtlønnet job, fx i Netto.",
+"en": "She also hears that employers again and again say no to overqualified applicants for low-paid jobs, e.g. at Netto.",
+"p": true,
+"note": "Employers reject overqualified people. \"desuden\" means in addition.",
+"words": [
+[
+"arbejdsgiverne",
+"the employers"
+],
+[
+"overkvalificerede",
+"overqualified"
+],
+[
+"ansøgere",
+"applicants"
+],
+[
+"lavtlønnet",
+"low-paid"
+]
+]
+},
+{
+"da": "Dermed virker det ikke, som om der overhovedet er ønske om at ansætte de højtuddannede i de lavtlønnede brancher, mener Camilla Gregersen.",
+"en": "So it does not seem that there is any wish at all to hire highly educated people in low-paid sectors, Camilla Gregersen thinks.",
+"p": false,
+"note": "Low-paid jobs don't want graduates. After \"Dermed\", the verb \"virker\" comes before \"det\".",
+"words": [
+[
+"overhovedet",
+"at all"
+],
+[
+"ansætte",
+"hire"
+],
+[
+"højtuddannede",
+"highly educated"
+],
+[
+"brancher",
+"sectors"
+]
+]
+},
+{
+"da": " https://www.a4nu.dk/artikel/minister-til-ledige-akademikere-tag-job-i-netto",
+"en": "¹ https://www.a4nu.dk/artikel/minister-til-ledige-akademikere-tag-job-i-netto",
+"p": true,
+"note": "A footnote with a web source."
+},
+{
+"da": " Avisen.dk 6.10.2018: Chefer til ledige akademikere: Et ufaglært job pynter på CV’et.",
+"en": "² Avisen.dk 6.10.2018: Bosses to unemployed academics: An unskilled job looks good on your CV.",
+"p": false,
+"note": "A footnote with a newspaper headline. \"pynte på\" means to make something look better.",
+"words": [
+[
+"Chefer",
+"bosses"
+],
+[
+"akademikere",
+"university graduates"
+],
+[
+"ufaglært",
+"unskilled"
+]
+]
+}
+]
 }
 };
