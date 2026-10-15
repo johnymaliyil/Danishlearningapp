@@ -53614,6 +53614,2222 @@ PD2.LISTEN_R = {
 }
 ]
 },
+"p18-1": {
+"lines": [
+{
+"da": "Naturlegepladser på Fyn",
+"en": "Nature playgrounds on Funen",
+"p": true,
+"note": "The main heading: a list of nature playgrounds. \"Naturlegepladser\" is a compound: nature + play + places.",
+"words": [
+[
+"Naturlegepladser",
+"nature playgrounds"
+]
+]
+},
+{
+"da": "Bolbro Anlæg",
+"en": "Bolbro Park",
+"p": true,
+"note": "The name of the first playground.",
+"words": [
+[
+"Anlæg",
+"park"
+]
+]
+},
+{
+"da": "Roesskovsvej 113, 5200 Odense V",
+"en": "Roesskovsvej 113, 5200 Odense V",
+"p": false,
+"note": "The address. \"V\" means \"Vest\" (west)."
+},
+{
+"da": "Skøn oase af en legeplads, som ligger i et hyggeligt grønt område lige ved siden af en sø og stier.",
+"en": "A lovely oasis of a playground, located in a cosy green area right next to a lake and paths.",
+"p": true,
+"note": "A description with no main verb. \"område\" is an et-word, so \"hyggeligt grønt\" get -t.",
+"words": [
+[
+"legeplads",
+"playground"
+],
+[
+"hyggeligt",
+"cosy"
+],
+[
+"område",
+"area"
+]
+]
+},
+{
+"da": "På legepladsen er der gynger, vippedyr, klatrevægge, klatreborg, lille rutsjebane til de helt små samt en stor rutsjebane og et stort gyngestativ til de lidt større.",
+"en": "At the playground there are swings, spring riders, climbing walls, a climbing castle, a small slide for the very youngest as well as a big slide and a big swing set for the slightly older ones.",
+"p": false,
+"note": "What is there. The place phrase comes first, so the verb comes before the subject: \"er der\". \"de små\" means \"the little ones\".",
+"words": [
+[
+"legepladsen",
+"the playground"
+],
+[
+"klatrevægge",
+"climbing walls"
+],
+[
+"rutsjebane",
+"slide"
+],
+[
+"gyngestativ",
+"swing set"
+]
+]
+},
+{
+"da": "Et kæmpe plus ved legepladsen er, at der er flere bænkearrangementer, hvor man kan sidde og spise sin madpakke.",
+"en": "A huge plus of the playground is that there are several bench areas where you can sit and eat your packed lunch.",
+"p": false,
+"note": "A big advantage. \"kæmpe\" means \"huge\" and does not change. \"sin\" refers back to \"man\".",
+"words": [
+[
+"legepladsen",
+"the playground"
+],
+[
+"bænkearrangementer",
+"bench sets"
+],
+[
+"madpakke",
+"packed lunch"
+]
+]
+},
+{
+"da": "Sansehaven i Nyborg",
+"en": "The Sensory Garden in Nyborg",
+"p": true,
+"note": "The name of the next playground. \"sanser\" means senses.",
+"words": [
+[
+"Sansehaven",
+"the sensory garden"
+]
+]
+},
+{
+"da": "Strandvænget 1, 5800 Nyborg · åbent alle dage, fri entré",
+"en": "Strandvænget 1, 5800 Nyborg · open every day, free entry",
+"p": false,
+"note": "Address and practical information. \"fri entré\" means \"free admission\".",
+"words": [
+[
+"entré",
+"admission"
+]
+]
+},
+{
+"da": "Kæmpestor og dejlig legeplads med utraditionelle legeredskaber, der stimulerer sanserne og udfordrer motorikken.",
+"en": "Huge and lovely playground with untraditional play equipment that stimulates the senses and challenges motor skills.",
+"p": true,
+"note": "What is special. \"der\" (that) starts a relative clause. \"kæmpe-\" in front of an adjective means \"very\".",
+"words": [
+[
+"Kæmpestor",
+"huge"
+],
+[
+"utraditionelle",
+"untraditional"
+],
+[
+"legeredskaber",
+"play equipment"
+],
+[
+"motorikken",
+"motor skills"
+]
+]
+},
+{
+"da": "Børnene kan boltre sig på balancebomme og forskellige klatreredskaber.",
+"en": "The children can romp about on balance beams and various climbing frames.",
+"p": false,
+"note": "Activities. \"boltre sig\" is a reflexive verb meaning \"play wildly\".",
+"words": [
+[
+"Børnene",
+"the children"
+],
+[
+"boltre",
+"romp"
+],
+[
+"balancebomme",
+"balance beams"
+],
+[
+"klatreredskaber",
+"climbing equipment"
+]
+]
+},
+{
+"da": "Der er mulighed for at se og opleve forskellige dyr som f.eks. kaniner, geder, ænder og høns.",
+"en": "There is a chance to see and experience various animals, such as rabbits, goats, ducks and hens.",
+"p": false,
+"note": "Animals. \"mulighed for at\" means \"the chance to\". \"som f.eks.\" means \"such as\".",
+"words": [
+[
+"mulighed",
+"chance"
+],
+[
+"opleve",
+"experience"
+],
+[
+"forskellige",
+"various"
+],
+[
+"kaniner",
+"rabbits"
+]
+]
+},
+{
+"da": "Parken giver rig mulighed for at spise sin medbragte mad, og som et særligt plus grænser den op til en dejlig og børnevenlig strand på den ene side og en skøn skov på den anden.",
+"en": "The park gives plenty of opportunity to eat food you have brought, and as a special plus it borders a lovely, child-friendly beach on one side and a beautiful forest on the other.",
+"p": false,
+"note": "More benefits. \"grænse op til\" means \"border on\". The phrase \"som et særligt plus\" comes first, so \"grænser den\".",
+"words": [
+[
+"medbragte",
+"brought along"
+],
+[
+"særligt",
+"special"
+],
+[
+"grænser",
+"borders"
+],
+[
+"børnevenlig",
+"child-friendly"
+]
+]
+},
+{
+"da": "Børnebyen",
+"en": "Børnebyen (the Children's Town)",
+"p": true,
+"note": "The name of the next playground.",
+"words": [
+[
+"Børnebyen",
+"the children's town"
+]
+]
+},
+{
+"da": "Kildegårdsvej 50, 5240 Odense NØ",
+"en": "Kildegårdsvej 50, 5240 Odense NØ",
+"p": false,
+"note": "The address. \"NØ\" means \"nordøst\" (north-east)."
+},
+{
+"da": "Legepladsen er inddelt i etaper for de forskellige aldersgrupper og byder på udfordringer til børn i alle aldre f.eks. svingtov, svævebane og en spændende 'fangeborg'.",
+"en": "The playground is divided into sections for the different age groups and offers challenges for children of all ages, e.g. a rope swing, a zip line and an exciting 'prison castle'.",
+"p": true,
+"note": "How it is laid out. \"er inddelt\" is a passive form: \"is divided\". \"byde på\" means \"offer\".",
+"words": [
+[
+"inddelt",
+"divided"
+],
+[
+"aldersgrupper",
+"age groups"
+],
+[
+"udfordringer",
+"challenges"
+],
+[
+"svævebane",
+"zip line"
+]
+]
+},
+{
+"da": "Her er også får og geder, der gerne vil snakkes og kæles med, gerne med en godbid.",
+"en": "Here there are also sheep and goats that like to be talked to and cuddled, preferably with a treat.",
+"p": false,
+"note": "The animals. \"snakkes\" and \"kæles\" are passive with -s: \"be talked to\", \"be petted\".",
+"words": [
+[
+"kæles",
+"be petted"
+],
+[
+"godbid",
+"treat"
+]
+]
+},
+{
+"da": "Og her er mange hyggelige steder, hvor I kan spise jeres madpakke (også hvis det regner).",
+"en": "And here there are many cosy places where you can eat your packed lunch (also if it rains).",
+"p": false,
+"note": "Places to eat. \"I\" and \"jeres\" are \"you\" and \"your\" in the plural.",
+"words": [
+[
+"hyggelige",
+"cosy"
+],
+[
+"madpakke",
+"packed lunch"
+],
+[
+"regner",
+"rains"
+]
+]
+},
+{
+"da": "Bybusserne nr. 12, 31, 32 og 71 kører lige til døren.",
+"en": "City buses no. 12, 31, 32 and 71 go right to the door.",
+"p": true,
+"note": "How to get there. \"lige til døren\" means \"right to the door\".",
+"words": [
+[
+"Bybusserne",
+"the city buses"
+],
+[
+"døren",
+"the door"
+]
+]
+},
+{
+"da": "Stå af ved kirken på Vollsmose Allé.",
+"en": "Get off at the church on Vollsmose Allé.",
+"p": false,
+"note": "An instruction. \"Stå af\" is the imperative of \"stå af\" (get off).",
+"words": [
+[
+"kirken",
+"the church"
+]
+]
+},
+{
+"da": "Det er gratis at lege i børnebyen, og der er altid åbent.",
+"en": "It is free to play in the Children's Town, and it is always open.",
+"p": false,
+"note": "Practical information. \"Det er gratis at\" + infinitive means \"it is free to\".",
+"words": [
+[
+"gratis",
+"free"
+],
+[
+"børnebyen",
+"the children's town"
+]
+]
+},
+{
+"da": "Stige Ø",
+"en": "Stige Island",
+"p": true,
+"note": "The name of the next place. \"ø\" means island."
+},
+{
+"da": "På Stige Ø er der en masse muligheder for sjov og leg.",
+"en": "On Stige Island there are lots of opportunities for fun and play.",
+"p": true,
+"note": "An overview. The place phrase comes first, so \"er der\" has the verb before the subject.",
+"words": [
+[
+"muligheder",
+"opportunities"
+]
+]
+},
+{
+"da": "Rødhusene er velkomstområdet med isbod, toiletter og grillhytte.",
+"en": "The Red Houses are the welcome area with an ice cream stall, toilets and a barbecue hut.",
+"p": false,
+"note": "The entrance area. Both nouns are definite: \"-ne\" (the houses), \"-et\" (the area).",
+"words": [
+[
+"Rødhusene",
+"the Red Houses"
+],
+[
+"velkomstområdet",
+"the welcome area"
+],
+[
+"toiletter",
+"toilets"
+],
+[
+"grillhytte",
+"barbecue hut"
+]
+]
+},
+{
+"da": "Vi vil meget gerne have flere aktiviteter og flere røde huse på området.",
+"en": "We would very much like to have more activities and more red houses in the area.",
+"p": true,
+"note": "Their wish. \"vil gerne\" means \"would like\". \"flere\" is the plural comparative: \"more\".",
+"words": [
+[
+"aktiviteter",
+"activities"
+],
+[
+"området",
+"the area"
+]
+]
+},
+{
+"da": "Arealet er opdelt i grunde, som kan lejes af private firmaer, klubber, foreninger eller andre, der gerne vil være aktive på Stige Ø.",
+"en": "The area is divided into plots that can be rented by private companies, clubs, associations or others who would like to be active on Stige Island.",
+"p": false,
+"note": "Renting plots. \"kan lejes\" is the passive with -s: \"can be rented\".",
+"words": [
+[
+"Arealet",
+"the area"
+],
+[
+"opdelt",
+"divided"
+],
+[
+"lejes",
+"be rented"
+],
+[
+"foreninger",
+"associations"
+]
+]
+},
+{
+"da": "Man kan sejle i kano eller kajak, køre på mountainbike eller skateboard og gå på opdagelse i naturen.",
+"en": "You can paddle a canoe or kayak, ride a mountain bike or skateboard and go exploring in nature.",
+"p": false,
+"note": "Activities. \"gå på opdagelse\" is a fixed phrase meaning \"go exploring\".",
+"words": [
+[
+"mountainbike",
+"mountain bike"
+],
+[
+"opdagelse",
+"discovery"
+],
+[
+"naturen",
+"nature"
+]
+]
+},
+{
+"da": "Øen har både bålpladser, grillhytte, toiletter og sheltere til overnatning.",
+"en": "The island has campfire sites, a barbecue hut, toilets and shelters for overnight stays.",
+"p": true,
+"note": "Facilities. \"Øen\" means \"the island\": \"ø\" + \"-en\".",
+"words": [
+[
+"bålpladser",
+"campfire sites"
+],
+[
+"toiletter",
+"toilets"
+],
+[
+"overnatning",
+"overnight stay"
+]
+]
+},
+{
+"da": "Dronningemaen Naturlegeplads",
+"en": "Dronningemaen Nature Playground",
+"p": true,
+"note": "The name of the next playground.",
+"words": [
+[
+"Naturlegeplads",
+"nature playground"
+]
+]
+},
+{
+"da": "Møllergade/Dronningemaen, Svendborg",
+"en": "Møllergade/Dronningemaen, Svendborg",
+"p": false,
+"note": "The address."
+},
+{
+"da": "Dejlig naturlegeplads med gyngestativ, svævebane, klatrenet, vandløb med broer, boldbane, flotte udskårne dyr, rindende vandløb, bakker og krat.",
+"en": "Lovely nature playground with a swing set, zip line, climbing net, stream with bridges, ball court, beautiful carved animals, running streams, hills and thickets.",
+"p": true,
+"note": "A list of features. \"udskårne\" (carved) and \"rindende\" (running) describe nouns, like adjectives.",
+"words": [
+[
+"naturlegeplads",
+"nature playground"
+],
+[
+"gyngestativ",
+"swing set"
+],
+[
+"udskårne",
+"carved"
+],
+[
+"rindende",
+"running"
+]
+]
+},
+{
+"da": "Om vinteren ved hård frost er der skøjtebane.",
+"en": "In winter, when there is hard frost, there is a skating rink.",
+"p": false,
+"note": "Winter fun. The time phrase comes first, so the verb comes before the subject: \"er der\".",
+"words": [
+[
+"vinteren",
+"the winter"
+],
+[
+"skøjtebane",
+"skating rink"
+]
+]
+},
+{
+"da": "Skønnet aldersgruppe: 1-12 år.",
+"en": "Estimated age group: 1-12 years.",
+"p": false,
+"note": "Who it is for. \"Skønnet\" means \"estimated\".",
+"words": [
+[
+"Skønnet",
+"estimated"
+],
+[
+"aldersgruppe",
+"age group"
+]
+]
+},
+{
+"da": "Legepladsen ligger på hjørnet af Møllergade og Dronningemaen i Svendborg, og der er toiletter i nærheden samt mulighed for at spise ved borde og bænke på pladsen.",
+"en": "The playground is on the corner of Møllergade and Dronningemaen in Svendborg, and there are toilets nearby as well as a chance to eat at tables and benches on the site.",
+"p": false,
+"note": "Location and facilities. \"på hjørnet af\" means \"on the corner of\". \"i nærheden\" means \"nearby\".",
+"words": [
+[
+"Legepladsen",
+"the playground"
+],
+[
+"hjørnet",
+"the corner"
+],
+[
+"nærheden",
+"the vicinity"
+],
+[
+"bænke",
+"benches"
+]
+]
+},
+{
+"da": "Vejstrup Ådal",
+"en": "Vejstrup River Valley",
+"p": true,
+"note": "The name of the next place. \"ådal\" means river valley.",
+"words": [
+[
+"Ådal",
+"river valley"
+]
+]
+},
+{
+"da": "Ådalen er sandsynligvis dannet under den sidste istid, hvor et geologisk begreb, der kaldes Store Bælts-gletsjeren, har gjort, at smeltevandet er løbet mod vest og har skuret det landskab frem, som vi ser i dag.",
+"en": "The river valley was probably formed during the last ice age, when a geological feature called the Great Belt Glacier caused the meltwater to run west and carve out the landscape we see today.",
+"p": true,
+"note": "How the valley was made. \"er dannet\" is a passive: \"was formed\". \"kaldes\" is the passive with -s: \"is called\".",
+"words": [
+[
+"sandsynligvis",
+"probably"
+],
+[
+"istid",
+"ice age"
+],
+[
+"smeltevandet",
+"the meltwater"
+],
+[
+"landskab",
+"landscape"
+]
+]
+},
+{
+"da": "Der er markerede vandrestier, så man kan færdes uden at ødelægge naturen.",
+"en": "There are marked hiking trails so you can move around without damaging nature.",
+"p": false,
+"note": "The trails. \"uden at\" + infinitive means \"without -ing\".",
+"words": [
+[
+"markerede",
+"marked"
+],
+[
+"vandrestier",
+"hiking trails"
+],
+[
+"færdes",
+"move about"
+],
+[
+"ødelægge",
+"destroy"
+]
+]
+},
+{
+"da": "Det er nemmest at finde Ådalen ved at gå fra Vejstrup by mod syd til Vejstrup Å.",
+"en": "The easiest way to find the valley is to walk south from Vejstrup town to Vejstrup River.",
+"p": true,
+"note": "Directions. \"nemmest\" is the superlative of \"nem\" (easy). \"ved at\" + infinitive means \"by -ing\".",
+"words": [
+[
+"nemmest",
+"easiest"
+],
+[
+"Ådalen",
+"the river valley"
+]
+]
+},
+{
+"da": "Hundrede meter efter at have krydset åen kan I gå til venstre og følge den nye natursti.",
+"en": "A hundred metres after crossing the river you can turn left and follow the new nature trail.",
+"p": false,
+"note": "More directions. The time phrase comes first, so the verb comes before the subject: \"kan I\". \"efter at have krydset\" means \"after crossing\".",
+"words": [
+[
+"Hundrede",
+"hundred"
+],
+[
+"krydset",
+"crossed"
+],
+[
+"venstre",
+"left"
+],
+[
+"natursti",
+"nature trail"
+]
+]
+},
+{
+"da": "Der er tove at svinge sig i, men ellers er det de bratte skråninger og træer, der skaber en ægte, naturlig legeplads.",
+"en": "There are ropes to swing on, but otherwise it is the steep slopes and trees that make a real, natural playground.",
+"p": false,
+"note": "What makes it fun. \"det er ... der\" is a cleft sentence that stresses the slopes and trees. \"svinge sig\" is reflexive.",
+"words": [
+[
+"svinge",
+"swing"
+],
+[
+"skråninger",
+"slopes"
+],
+[
+"naturlig",
+"natural"
+],
+[
+"legeplads",
+"playground"
+]
+]
+},
+{
+"da": "Gåsebjergsand",
+"en": "Gåsebjergsand",
+"p": true,
+"note": "The name of the next playground."
+},
+{
+"da": "Svanninge Bakker",
+"en": "Svanninge Hills",
+"p": false,
+"note": "The area where it is.",
+"words": [
+[
+"Bakker",
+"hills"
+]
+]
+},
+{
+"da": "Naturlegepladsen på Gåsebjergsand i Svanninge Bakker er lavet i en gammel grusgrav, og den er placeret i de 'lommer', som arealet er inddelt i.",
+"en": "The nature playground at Gåsebjergsand in Svanninge Hills is made in an old gravel pit, and it is placed in the 'pockets' that the area is divided into.",
+"p": true,
+"note": "Where it is built. \"er lavet\" and \"er placeret\" are passive forms. \"i\" is left at the end of the \"som\" clause.",
+"words": [
+[
+"Naturlegepladsen",
+"the nature playground"
+],
+[
+"grusgrav",
+"gravel pit"
+],
+[
+"placeret",
+"placed"
+],
+[
+"inddelt",
+"divided"
+]
+]
+},
+{
+"da": "Den største legeplads for de 7-12 årige har ca. 25 legeredskaber, der er placeret langs kanten, så man kan lege 'jorden er giftig' hele vejen rundt.",
+"en": "The biggest playground, for 7-12-year-olds, has about 25 pieces of play equipment placed along the edge, so you can play 'the floor is lava' all the way round.",
+"p": false,
+"note": "For older children. \"største\" is the superlative of \"stor\". \"jorden er giftig\" is a game: the ground is poisonous.",
+"words": [
+[
+"største",
+"biggest"
+],
+[
+"legeredskaber",
+"play equipment"
+],
+[
+"kanten",
+"the edge"
+],
+[
+"giftig",
+"poisonous"
+]
+]
+},
+{
+"da": "Troldeland er for de 3-6 årige og har ca. 10 legeredskaber.",
+"en": "Troll Land is for 3-6-year-olds and has about 10 pieces of play equipment.",
+"p": false,
+"note": "For younger children. \"de 3-6 årige\" means \"the 3-6-year-olds\".",
+"words": [
+[
+"Troldeland",
+"Troll Land"
+],
+[
+"legeredskaber",
+"play equipment"
+]
+]
+},
+{
+"da": "Der er også et område, hvor man kan bygge huler og et græsareal med bålsteder.",
+"en": "There is also an area where you can build dens and a grass area with campfire places.",
+"p": false,
+"note": "More features. \"hvor\" (where) starts a relative clause.",
+"words": [
+[
+"område",
+"area"
+],
+[
+"huler",
+"dens, caves"
+],
+[
+"græsareal",
+"grass area"
+],
+[
+"bålsteder",
+"campfire sites"
+]
+]
+},
+{
+"da": "Derudover er der et regnvejrsly, hvor man kan sidde i tørvejr og overvåge legepladsen.",
+"en": "In addition there is a rain shelter where you can sit in the dry and keep an eye on the playground.",
+"p": false,
+"note": "A shelter. After \"Derudover\" the verb comes before the subject: \"er der\".",
+"words": [
+[
+"Derudover",
+"in addition"
+],
+[
+"regnvejrsly",
+"rain shelter"
+],
+[
+"tørvejr",
+"dry weather"
+],
+[
+"overvåge",
+"watch over"
+]
+]
+},
+{
+"da": "Julemarkeder i Vejle – oplev ægte julestemning på de mange spændende julemarkeder i Vejle",
+"en": "Christmas markets in Vejle – experience real Christmas atmosphere at the many exciting Christmas markets in Vejle",
+"p": true,
+"note": "A new heading: a list of Christmas markets. \"oplev\" is the imperative of \"opleve\" (experience).",
+"words": [
+[
+"Julemarkeder",
+"Christmas markets"
+],
+[
+"julestemning",
+"Christmas atmosphere"
+],
+[
+"spændende",
+"exciting"
+]
+]
+},
+{
+"da": "Julemarked i Thyregod Hallen",
+"en": "Christmas market in Thyregod Hall",
+"p": true,
+"note": "The name of the first market.",
+"words": [
+[
+"Julemarked",
+"Christmas market"
+]
+]
+},
+{
+"da": "26. november · kl. 10-16 · Søndergade 27E, 7323 Give",
+"en": "26 November · 10 am to 4 pm · Søndergade 27E, 7323 Give",
+"p": false,
+"note": "Date, time and address.",
+"words": [
+[
+"november",
+"November"
+]
+]
+},
+{
+"da": "Thyregod Fritidscenter, Thyregod Spejderne og Thyregod skole/FJUK præsenterer Thyregod Julemarked 2016.",
+"en": "Thyregod Leisure Centre, the Thyregod Scouts and Thyregod School/FJUK present Thyregod Christmas Market 2016.",
+"p": true,
+"note": "Who organises it. The long subject comes first, then the verb \"præsenterer\".",
+"words": [
+[
+"Fritidscenter",
+"leisure centre"
+],
+[
+"Spejderne",
+"the scouts"
+],
+[
+"præsenterer",
+"present"
+]
+]
+},
+{
+"da": "I mere end 70 boder udstiller og sælger en lang række lokale foreninger, firmaer og private alt, hvad julehjertet kan begære.",
+"en": "In more than 70 stalls a long line of local associations, companies and private people show and sell everything a Christmas heart could want.",
+"p": false,
+"note": "What is sold. The place phrase comes first, so the verbs come before the subject. \"alt, hvad\" means \"everything that\".",
+"words": [
+[
+"boder",
+"stalls"
+],
+[
+"udstiller",
+"exhibit"
+],
+[
+"foreninger",
+"associations"
+],
+[
+"julehjertet",
+"the Christmas heart"
+]
+]
+},
+{
+"da": "Og dagen byder også på masser af underholdning og oplevelser.",
+"en": "And the day also offers lots of entertainment and experiences.",
+"p": false,
+"note": "Extra fun. \"byde på\" means \"offer\".",
+"words": [
+[
+"dagen",
+"the day"
+],
+[
+"underholdning",
+"entertainment"
+],
+[
+"oplevelser",
+"experiences"
+]
+]
+},
+{
+"da": "Gratis entré.",
+"en": "Free admission.",
+"p": true,
+"note": "A short practical note.",
+"words": [
+[
+"Gratis",
+"free"
+],
+[
+"entré",
+"admission"
+]
+]
+},
+{
+"da": "Upcomers Designmarked i Spinderihallerne",
+"en": "Upcomers Design Market in the Spinning Mill Halls",
+"p": true,
+"note": "The name of the next market.",
+"words": [
+[
+"Designmarked",
+"design market"
+],
+[
+"Spinderihallerne",
+"the Spinning Mill Halls"
+]
+]
+},
+{
+"da": "26.-27. november · lørdag kl. 10-17 og søndag kl. 10-16 · Spinderigade 11, 7100 Vejle",
+"en": "26-27 November · Saturday 10 am to 5 pm and Sunday 10 am to 4 pm · Spinderigade 11, 7100 Vejle",
+"p": false,
+"note": "Dates, times and address.",
+"words": [
+[
+"november",
+"November"
+],
+[
+"lørdag",
+"Saturday"
+]
+]
+},
+{
+"da": "#japandanmark",
+"en": "#japandanmark",
+"p": false,
+"note": "A hashtag for the market."
+},
+{
+"da": "Spinderihallerne i Vejle danner rammen om dette julemarked, hvor temaet 'Japan Danmark' er inspiration for standholderne.",
+"en": "The Spinning Mill Halls in Vejle are the setting for this Christmas market, where the theme 'Japan Denmark' inspires the stallholders.",
+"p": true,
+"note": "The setting. \"danne rammen om\" is a phrase meaning \"be the setting for\". \"dette\" means \"this\" for et-words.",
+"words": [
+[
+"Spinderihallerne",
+"the Spinning Mill Halls"
+],
+[
+"rammen",
+"the frame"
+],
+[
+"inspiration",
+"inspiration"
+],
+[
+"standholderne",
+"the stallholders"
+]
+]
+},
+{
+"da": "Oplev dette lidt anderledes og spændende jule- og designmarked, hvor du får mulighed for at blive inspireret og opleve de nye trends.",
+"en": "Experience this somewhat different and exciting Christmas and design market, where you get the chance to be inspired and see the new trends.",
+"p": false,
+"note": "An invitation. \"Oplev\" is the imperative. After \"dette\", adjectives end in -e: \"spændende\".",
+"words": [
+[
+"anderledes",
+"different"
+],
+[
+"spændende",
+"exciting"
+],
+[
+"designmarked",
+"design market"
+],
+[
+"inspireret",
+"inspired"
+]
+]
+},
+{
+"da": "Entré: kr. 20 + gebyr i forsalg/kr. 30 ved døren.",
+"en": "Admission: 20 kroner + fee in advance / 30 kroner at the door.",
+"p": true,
+"note": "Prices. \"i forsalg\" means \"bought in advance\".",
+"words": [
+[
+"Entré",
+"admission"
+],
+[
+"gebyr",
+"fee"
+],
+[
+"forsalg",
+"advance sale"
+]
+]
+},
+{
+"da": "Julemarked i Metodistkirken i Vejle",
+"en": "Christmas market in the Methodist Church in Vejle",
+"p": true,
+"note": "The name of the next market.",
+"words": [
+[
+"Julemarked",
+"Christmas market"
+],
+[
+"Metodistkirken",
+"the Methodist Church"
+]
+]
+},
+{
+"da": "26. november · lørdag kl. 10-15 · Vissingsgade 15, 7100 Vejle",
+"en": "26 November · Saturday 10 am to 3 pm · Vissingsgade 15, 7100 Vejle",
+"p": false,
+"note": "Date, time and address.",
+"words": [
+[
+"november",
+"November"
+]
+]
+},
+{
+"da": "Metodistkirken og julemarkedsudvalget byder velkommen indenfor til det årlige julemarked.",
+"en": "The Methodist Church and the Christmas market committee welcome you inside to the annual Christmas market.",
+"p": true,
+"note": "An invitation. \"byde velkommen\" means \"welcome\". \"det årlige\": after \"det\" the adjective ends in -e.",
+"words": [
+[
+"julemarkedsudvalget",
+"the Christmas market committee"
+],
+[
+"indenfor",
+"inside"
+],
+[
+"årlige",
+"annual"
+]
+]
+},
+{
+"da": "I salgsboden sælges hjemmestrikkede sokker og børnebluser, håndarbejder og forskellig julepynt.",
+"en": "In the sales stall, hand-knitted socks and children's jumpers, handicrafts and various Christmas decorations are sold.",
+"p": false,
+"note": "What is sold. \"sælges\" is the passive with -s: \"are sold\".",
+"words": [
+[
+"salgsboden",
+"the sales stall"
+],
+[
+"hjemmestrikkede",
+"hand-knitted"
+],
+[
+"håndarbejder",
+"handicrafts"
+],
+[
+"julepynt",
+"Christmas decorations"
+]
+]
+},
+{
+"da": "Fra dekorationsværkstedet sælges bl.a. adventskranse og juledekorationer.",
+"en": "From the decoration workshop, Advent wreaths and Christmas decorations are sold, among other things.",
+"p": false,
+"note": "More products. The place phrase comes first, then the passive verb \"sælges\".",
+"words": [
+[
+"dekorationsværkstedet",
+"the decoration workshop"
+],
+[
+"adventskranse",
+"Advent wreaths"
+],
+[
+"juledekorationer",
+"Christmas decorations"
+]
+]
+},
+{
+"da": "Lune retter, flutes, desserter m.m. kan købes i caféen, mens der udenfor i teltet sælges varm kakao m.m.",
+"en": "Hot dishes, baguettes, desserts etc. can be bought in the café, while hot cocoa etc. is sold outside in the tent.",
+"p": false,
+"note": "Food and drink. \"kan købes\" and \"sælges\" are both passive with -s.",
+"words": [
+[
+"retter",
+"dishes"
+],
+[
+"desserter",
+"desserts"
+],
+[
+"teltet",
+"the tent"
+],
+[
+"kakao",
+"cocoa"
+]
+]
+},
+{
+"da": "Lykken kan prøves i tombolaen, hvor der er mange fine gevinster.",
+"en": "You can try your luck in the tombola, where there are many fine prizes.",
+"p": false,
+"note": "A game. \"prøve lykken\" means \"try your luck\"; here it is passive: \"kan prøves\".",
+"words": [
+[
+"Lykken",
+"luck"
+],
+[
+"tombolaen",
+"the tombola"
+],
+[
+"gevinster",
+"prizes"
+]
+]
+},
+{
+"da": "For børnene er der lavet en fiskedam.",
+"en": "A fishing pond game has been set up for the children.",
+"p": false,
+"note": "For children. \"er der lavet\" is a passive with a dummy \"der\": \"has been made\".",
+"words": [
+[
+"børnene",
+"the children"
+],
+[
+"fiskedam",
+"fishing pond game"
+]
+]
+},
+{
+"da": "Fri entré.",
+"en": "Free admission.",
+"p": true,
+"note": "A short practical note.",
+"words": [
+[
+"entré",
+"admission"
+]
+]
+},
+{
+"da": "Julestue i Nørremarkskirkens Ungdomscenter",
+"en": "Christmas fair in Nørremark Church's Youth Centre",
+"p": true,
+"note": "The name of the next event. \"julestue\" is a small Christmas fair.",
+"words": [
+[
+"Julestue",
+"Christmas fair"
+],
+[
+"Ungdomscenter",
+"youth centre"
+]
+]
+},
+{
+"da": "27. november · kl. 11.30-14 · Moldevej 1 B, 7100 Vejle",
+"en": "27 November · 11.30 am to 2 pm · Moldevej 1 B, 7100 Vejle",
+"p": false,
+"note": "Date, time and address.",
+"words": [
+[
+"november",
+"November"
+]
+]
+},
+{
+"da": "Første søndag i advent holder De grønne Pigespejdere julestue i Nørremarkskirkens Ungdomscenter.",
+"en": "On the first Sunday of Advent the Green Girl Guides hold a Christmas fair in Nørremark Church's Youth Centre.",
+"p": true,
+"note": "Who holds it. The time phrase comes first, so the verb \"holder\" comes before the subject.",
+"words": [
+[
+"søndag",
+"Sunday"
+],
+[
+"advent",
+"Advent"
+],
+[
+"Pigespejdere",
+"Girl Guides"
+],
+[
+"julestue",
+"Christmas fair"
+]
+]
+},
+{
+"da": "Nyd en let frokost i en hyggelig atmosfære og foretag en god handel i boderne med småkager, juledekorationer, kranse, amerikansk lotteri m.m.",
+"en": "Enjoy a light lunch in a cosy atmosphere and make a good buy at the stalls with biscuits, Christmas decorations, wreaths, a raffle etc.",
+"p": false,
+"note": "An invitation. \"Nyd\" and \"foretag\" are imperatives. \"gøre/foretage en god handel\" means \"get a good deal\".",
+"words": [
+[
+"frokost",
+"lunch"
+],
+[
+"atmosfære",
+"atmosphere"
+],
+[
+"småkager",
+"biscuits"
+],
+[
+"lotteri",
+"raffle"
+]
+]
+},
+{
+"da": "Haughus Gods Julemarked",
+"en": "Haughus Manor Christmas Market",
+"p": true,
+"note": "The name of the next market. \"gods\" means manor or estate.",
+"words": [
+[
+"Julemarked",
+"Christmas market"
+]
+]
+},
+{
+"da": "26.-27. november · kl. 10-16 · Vejlevej 50, 7300 Jelling",
+"en": "26-27 November · 10 am to 4 pm · Vejlevej 50, 7300 Jelling",
+"p": false,
+"note": "Dates, time and address.",
+"words": [
+[
+"november",
+"November"
+]
+]
+},
+{
+"da": "Det historiske Haughus Gods afholder igen i år julemarked med mange hyggelige stande, der sælger juletræer, julepynt, patchwork, pileflet, smykker, brugskunst, antikviteter, specialiteter og meget andet.",
+"en": "The historic Haughus Manor is holding a Christmas market again this year with many cosy stalls selling Christmas trees, decorations, patchwork, willow work, jewellery, applied art, antiques, specialities and much more.",
+"p": true,
+"note": "What is sold. \"Det historiske\": after \"det\" the adjective ends in -e. \"afholde\" means \"hold (an event)\".",
+"words": [
+[
+"historiske",
+"historic"
+],
+[
+"afholder",
+"holds"
+],
+[
+"juletræer",
+"Christmas trees"
+],
+[
+"antikviteter",
+"antiques"
+]
+]
+},
+{
+"da": "Julemanden kommer forbi med nissehuer til børnene 2 gange om dagen.",
+"en": "Father Christmas comes by with elf hats for the children twice a day.",
+"p": true,
+"note": "A visit. \"komme forbi\" means \"drop by\". \"om dagen\" means \"a day\".",
+"words": [
+[
+"Julemanden",
+"Father Christmas"
+],
+[
+"nissehuer",
+"elf hats"
+],
+[
+"børnene",
+"the children"
+]
+]
+},
+{
+"da": "På gårdspladsen kan du købe lækre hjemmelavede æbleskiver, og i caféen i hovedbygningen kan du nyde smørrebrød, croissanter, sandwich og kaffe/kage.",
+"en": "In the courtyard you can buy delicious homemade æbleskiver, and in the café in the main building you can enjoy open sandwiches, croissants, sandwiches and coffee/cake.",
+"p": false,
+"note": "Food. Both clauses start with a place phrase, so the verb comes before the subject: \"kan du\".",
+"words": [
+[
+"gårdspladsen",
+"the courtyard"
+],
+[
+"hjemmelavede",
+"homemade"
+],
+[
+"æbleskiver",
+"Danish pancake balls"
+],
+[
+"hovedbygningen",
+"the main building"
+]
+]
+},
+{
+"da": "Entré: kr. 20, børn under 17 år gratis.",
+"en": "Admission: 20 kroner, children under 17 free.",
+"p": true,
+"note": "Prices.",
+"words": [
+[
+"Entré",
+"admission"
+],
+[
+"gratis",
+"free"
+]
+]
+},
+{
+"da": "Julemarked i Egtved Forsamlingshus",
+"en": "Christmas market in Egtved Village Hall",
+"p": true,
+"note": "The name of the next market.",
+"words": [
+[
+"Julemarked",
+"Christmas market"
+],
+[
+"Forsamlingshus",
+"village hall"
+]
+]
+},
+{
+"da": "27. november · kl. 10-15 og kl. 19 · Kirkevej 2, 6040 Egtved",
+"en": "27 November · 10 am to 3 pm and 7 pm · Kirkevej 2, 6040 Egtved",
+"p": false,
+"note": "Date, times and address.",
+"words": [
+[
+"november",
+"November"
+]
+]
+},
+{
+"da": "Egtved Borgerforening afholder julemarked i Egtved Forsamlingshus, hvor husflidsfolket sælger et væld af spændende ting.",
+"en": "Egtved Residents' Association holds a Christmas market in Egtved Village Hall, where the craftspeople sell a wealth of exciting things.",
+"p": true,
+"note": "Who holds it. \"et væld af\" means \"a wealth of\". \"hvor\" starts a relative clause.",
+"words": [
+[
+"Borgerforening",
+"residents' association"
+],
+[
+"afholder",
+"holds"
+],
+[
+"husflidsfolket",
+"the handicraft people"
+],
+[
+"spændende",
+"exciting"
+]
+]
+},
+{
+"da": "Kom og gå en tur igennem rækkerne af salgsboder eller sid ned og nyd en kop kaffe.",
+"en": "Come and take a walk through the rows of stalls or sit down and enjoy a cup of coffee.",
+"p": true,
+"note": "An invitation. \"Kom\", \"sid\" and \"nyd\" are imperatives.",
+"words": [
+[
+"igennem",
+"through"
+],
+[
+"rækkerne",
+"the rows"
+],
+[
+"salgsboder",
+"sales stalls"
+]
+]
+},
+{
+"da": "Prøv også tombolaen med mange flotte gevinster.",
+"en": "Also try the tombola with many fine prizes.",
+"p": false,
+"note": "A tip. \"Prøv\" is the imperative of \"prøve\" (try).",
+"words": [
+[
+"tombolaen",
+"the tombola"
+],
+[
+"gevinster",
+"prizes"
+]
+]
+},
+{
+"da": "Fra kl. 11.30 sælges klar suppe, tarteletter og risalamande.",
+"en": "From 11.30 am clear soup, tartlets and rice pudding with almonds are sold.",
+"p": false,
+"note": "Food. \"sælges\" is the passive with -s: \"are sold\".",
+"words": [
+[
+"sælges",
+"are sold"
+],
+[
+"tarteletter",
+"tartlets"
+],
+[
+"risalamande",
+"Danish rice pudding"
+]
+]
+},
+{
+"da": "Musikskolen og harmonikaorkestret Fandango spiller hhv. kl. 11.30 og 12.30.",
+"en": "The music school and the accordion orchestra Fandango play at 11.30 and 12.30 respectively.",
+"p": false,
+"note": "Music. \"hhv.\" is short for \"henholdsvis\" (respectively).",
+"words": [
+[
+"Musikskolen",
+"the music school"
+],
+[
+"harmonikaorkestret",
+"the accordion orchestra"
+],
+[
+"hhv.",
+"respectively"
+]
+]
+},
+{
+"da": "Der er reklamebanko kl. 19, hvor der også kan købes kaffe og kage.",
+"en": "There is sponsor bingo at 7 pm, where you can also buy coffee and cake.",
+"p": false,
+"note": "Evening event. \"kan købes\" is passive: \"can be bought\".",
+"words": [
+[
+"reklamebanko",
+"sponsor bingo"
+]
+]
+},
+{
+"da": "Julemarked i Elkjær Hal/Multihus",
+"en": "Christmas market in Elkjær Hall/Multi-house",
+"p": true,
+"note": "The name of the next market.",
+"words": [
+[
+"Julemarked",
+"Christmas market"
+],
+[
+"Multihus",
+"multi-purpose house"
+]
+]
+},
+{
+"da": "27. november · kl. 10-15 · Gammelbyvej 43, Grønbjerg, Give",
+"en": "27 November · 10 am to 3 pm · Gammelbyvej 43, Grønbjerg, Give",
+"p": false,
+"note": "Date, time and address.",
+"words": [
+[
+"november",
+"November"
+]
+]
+},
+{
+"da": "Grønbjerg Langelund og Omegns Borgerforening glæder sig til at byde velkommen til årets julemarked.",
+"en": "The Grønbjerg Langelund and Surroundings Residents' Association looks forward to welcoming you to this year's Christmas market.",
+"p": true,
+"note": "An invitation. \"glæde sig til\" means \"look forward to\". \"årets\" means \"this year's\".",
+"words": [
+[
+"Omegns",
+"surrounding area's"
+],
+[
+"Borgerforening",
+"residents' association"
+],
+[
+"glæder",
+"looks forward"
+],
+[
+"julemarked",
+"Christmas market"
+]
+]
+},
+{
+"da": "Ud over de mange boder, som sælger hobby- og juleting, har borgerforeningen sørget for masser af aktiviteter for børnene.",
+"en": "Besides the many stalls selling hobby and Christmas items, the association has arranged lots of activities for the children.",
+"p": false,
+"note": "Activities. The long phrase comes first, so the verb comes before the subject: \"har borgerforeningen\". \"sørge for\" means \"arrange\".",
+"words": [
+[
+"borgerforeningen",
+"the residents' association"
+],
+[
+"sørget",
+"arranged"
+],
+[
+"aktiviteter",
+"activities"
+],
+[
+"børnene",
+"the children"
+]
+]
+},
+{
+"da": "Der er gratis entré.",
+"en": "Admission is free.",
+"p": false,
+"note": "A practical note.",
+"words": [
+[
+"gratis",
+"free"
+],
+[
+"entré",
+"admission"
+]
+]
+},
+{
+"da": "Julemarked på torvet i Børkop",
+"en": "Christmas market in the square in Børkop",
+"p": true,
+"note": "The name of the next market. Danish uses \"på\" with a square: \"på torvet\".",
+"words": [
+[
+"Julemarked",
+"Christmas market"
+],
+[
+"torvet",
+"the square"
+]
+]
+},
+{
+"da": "10. december · kl. 9.30-14.30 · torvet i Børkop, 7080 Børkop",
+"en": "10 December · 9.30 am to 2.30 pm · the square in Børkop, 7080 Børkop",
+"p": false,
+"note": "Date, time and address.",
+"words": [
+[
+"december",
+"December"
+],
+[
+"torvet",
+"the square"
+]
+]
+},
+{
+"da": "Torvet i Børkop forvandles til et hyggeligt julelandskab, når julemarkedet i Børkop løber af stablen.",
+"en": "The square in Børkop is transformed into a cosy Christmas landscape when the Christmas market in Børkop takes place.",
+"p": true,
+"note": "The setting. \"forvandles\" is the passive with -s: \"is transformed\". \"løbe af stablen\" is an idiom meaning \"take place\".",
+"words": [
+[
+"Torvet",
+"the square"
+],
+[
+"forvandles",
+"is transformed"
+],
+[
+"julelandskab",
+"Christmas landscape"
+],
+[
+"julemarkedet",
+"the Christmas market"
+]
+]
+},
+{
+"da": "Med næsten 120 stande bliver der noget at kigge på for alle.",
+"en": "With almost 120 stalls there will be something to look at for everyone.",
+"p": false,
+"note": "Many stalls. The phrase comes first, so the verb comes before \"der\". \"bliver der\" means \"there will be\".",
+"words": [
+[
+"næsten",
+"almost"
+],
+[
+"stande",
+"stalls"
+]
+]
+},
+{
+"da": "Ud over de mange stande vil der være salg af juletræer og brændte mandler.",
+"en": "Besides the many stalls there will be sales of Christmas trees and roasted almonds.",
+"p": false,
+"note": "More to buy. \"vil der være\" means \"there will be\".",
+"words": [
+[
+"juletræer",
+"Christmas trees"
+],
+[
+"brændte",
+"roasted"
+],
+[
+"mandler",
+"almonds"
+]
+]
+},
+{
+"da": "Julemanden ankommer sammen med brandvæsnet kl. 12 og har godter med til børnene.",
+"en": "Father Christmas arrives together with the fire brigade at 12 and brings treats for the children.",
+"p": false,
+"note": "A special visit. \"have ... med\" means \"bring along\".",
+"words": [
+[
+"Julemanden",
+"Father Christmas"
+],
+[
+"ankommer",
+"arrives"
+],
+[
+"brandvæsnet",
+"the fire brigade"
+],
+[
+"godter",
+"treats"
+]
+]
+},
+{
+"da": "Julemarked på Søndertorv i Vejle",
+"en": "Christmas market on Søndertorv in Vejle",
+"p": true,
+"note": "The name of the next market.",
+"words": [
+[
+"Julemarked",
+"Christmas market"
+]
+]
+},
+{
+"da": "1.-3. december · Søndertorv, 7100 Vejle",
+"en": "1-3 December · Søndertorv, 7100 Vejle",
+"p": false,
+"note": "Dates and address.",
+"words": [
+[
+"december",
+"December"
+]
+]
+},
+{
+"da": "Elever fra EUX Business og HG på Campus Vejle laver igen i år julemarked på Søndertorv foran Bryggen i samarbejde med en lang række lokale butikker.",
+"en": "Students from EUX Business and HG at Campus Vejle are again this year running a Christmas market on Søndertorv in front of Bryggen in cooperation with a long list of local shops.",
+"p": true,
+"note": "Who runs it. \"i samarbejde med\" means \"in cooperation with\". \"igen i år\" means \"again this year\".",
+"words": [
+[
+"Elever",
+"students"
+],
+[
+"julemarked",
+"Christmas market"
+],
+[
+"samarbejde",
+"cooperation"
+],
+[
+"butikker",
+"shops"
+]
+]
+},
+{
+"da": "Eleverne åbner et stort udvalg af boder, hvor de sælger varer fra Vejles butikker, samtidig med at de julehygger om dem, der lægger vejen forbi Søndertorv.",
+"en": "The students open a large range of stalls, where they sell goods from Vejle's shops, while making it cosy and Christmassy for those who pass by Søndertorv.",
+"p": false,
+"note": "What they do. \"samtidig med at\" means \"at the same time as\". \"lægge vejen forbi\" means \"drop by\".",
+"words": [
+[
+"Eleverne",
+"the students"
+],
+[
+"udvalg",
+"selection"
+],
+[
+"samtidig",
+"at the same time"
+],
+[
+"julehygger",
+"create Christmas cosiness"
+]
+]
+},
+{
+"da": "På julemarkedet vil der være forskellige aktiviteter og juleoplevelser.",
+"en": "At the Christmas market there will be various activities and Christmas experiences.",
+"p": true,
+"note": "Activities. The place phrase comes first, so \"vil der være\" has the verb before \"der\".",
+"words": [
+[
+"julemarkedet",
+"the Christmas market"
+],
+[
+"forskellige",
+"various"
+],
+[
+"aktiviteter",
+"activities"
+],
+[
+"juleoplevelser",
+"Christmas experiences"
+]
+]
+},
+{
+"da": "Men frem for alt vil der være mulighed for at gøre en god handel, hvad enten man er til specialøl, vin eller tøj, eller man bare er ude og samle inspiration til årets julegaveindkøb.",
+"en": "But above all there will be a chance to get a good deal, whether you are into special beer, wine or clothes, or are just out gathering ideas for this year's Christmas shopping.",
+"p": false,
+"note": "Shopping. \"frem for alt\" means \"above all\". \"hvad enten ... eller\" means \"whether ... or\".",
+"words": [
+[
+"mulighed",
+"chance"
+],
+[
+"specialøl",
+"special beer"
+],
+[
+"inspiration",
+"inspiration"
+],
+[
+"julegaveindkøb",
+"Christmas present shopping"
+]
+]
+},
+{
+"da": "Julemarked på Bøgedal Bryghus",
+"en": "Christmas market at Bøgedal Brewery",
+"p": true,
+"note": "The name of the next market.",
+"words": [
+[
+"Julemarked",
+"Christmas market"
+],
+[
+"Bryghus",
+"brewery"
+]
+]
+},
+{
+"da": "10. december · kl. 11-16 · Høllundvej 9, 7100 Vejle",
+"en": "10 December · 11 am to 4 pm · Høllundvej 9, 7100 Vejle",
+"p": false,
+"note": "Date, time and address.",
+"words": [
+[
+"december",
+"December"
+]
+]
+},
+{
+"da": "Bøgedal Bryghus inviterer traditionen tro på julestemning og forkælelse af smagsløgene med blandt andet juleøl og andre interessante øl, som kan bruges til gaver, til at drikke juleaften eller til julefrokosterne.",
+"en": "As is tradition, Bøgedal Brewery invites you to Christmas atmosphere and a treat for the taste buds with, among other things, Christmas beer and other interesting beers that can be used as gifts, to drink on Christmas Eve or at Christmas lunches.",
+"p": true,
+"note": "What they offer. \"traditionen tro\" means \"as is tradition\". \"kan bruges\" is passive: \"can be used\".",
+"words": [
+[
+"traditionen",
+"the tradition"
+],
+[
+"forkælelse",
+"pampering"
+],
+[
+"smagsløgene",
+"the taste buds"
+],
+[
+"julefrokosterne",
+"the Christmas lunches"
+]
+]
+},
+{
+"da": "Og selvfølgelig kommer Osteriet også på besøg.",
+"en": "And of course the cheese shop Osteriet also comes to visit.",
+"p": false,
+"note": "A guest. After \"selvfølgelig\" the verb comes before the subject: \"kommer Osteriet\". \"komme på besøg\" means \"come to visit\".",
+"words": [
+[
+"selvfølgelig",
+"of course"
+],
+[
+"Osteriet",
+"the cheese shop"
+]
+]
+},
+{
+"da": "Julemarked på Egtved Museum",
+"en": "Christmas market at Egtved Museum",
+"p": true,
+"note": "The name of the next market.",
+"words": [
+[
+"Julemarked",
+"Christmas market"
+]
+]
+},
+{
+"da": "3.-4. december · kl. 13-16 · Aftensang 1, 6040 Egtved",
+"en": "3-4 December · 1 to 4 pm · Aftensang 1, 6040 Egtved",
+"p": false,
+"note": "Dates, time and address.",
+"words": [
+[
+"december",
+"December"
+]
+]
+},
+{
+"da": "Traditionen tro afholder Egtved Museumsforening julemarked på Egtved Museum.",
+"en": "As is tradition, the Egtved Museum Society holds a Christmas market at Egtved Museum.",
+"p": true,
+"note": "Who holds it. \"Traditionen tro\" comes first, so the verb comes before the subject: \"afholder Egtved Museumsforening\".",
+"words": [
+[
+"Traditionen",
+"the tradition"
+],
+[
+"afholder",
+"holds"
+],
+[
+"Museumsforening",
+"museum society"
+]
+]
+},
+{
+"da": "Der er julehygge for hele familien med salgsboder, hvor du kan købe julepynt, julegrønt, juletræer, julegaver i form af patchwork, pileflet, smykker m.m.",
+"en": "There is Christmas cosiness for the whole family with stalls where you can buy Christmas decorations, Christmas greenery, Christmas trees, and Christmas gifts like patchwork, willow work, jewellery etc.",
+"p": false,
+"note": "What you can buy. \"i form af\" means \"in the form of\".",
+"words": [
+[
+"julehygge",
+"Christmas cosiness"
+],
+[
+"familien",
+"the family"
+],
+[
+"salgsboder",
+"sales stalls"
+],
+[
+"julepynt",
+"Christmas decorations"
+]
+]
+},
+{
+"da": "Carl Erik snitter fløjter og hjemmelavet legetøj i træ.",
+"en": "Carl Erik carves whistles and homemade wooden toys.",
+"p": false,
+"note": "A craftsman. \"legetøj\" is an et-word, so \"hjemmelavet\" has no -e and needs no extra -t.",
+"words": [
+[
+"snitter",
+"carves"
+],
+[
+"fløjter",
+"whistles"
+],
+[
+"hjemmelavet",
+"homemade"
+],
+[
+"legetøj",
+"toys"
+]
+]
+},
+{
+"da": "Der kan købes kaffe og gløgg med hjemmelavede æbleskiver og vafler.",
+"en": "Coffee and mulled wine with homemade æbleskiver and waffles can be bought.",
+"p": true,
+"note": "Food and drink. \"Der kan købes\" is a passive with a dummy \"der\": \"can be bought\".",
+"words": [
+[
+"gløgg",
+"mulled wine"
+],
+[
+"hjemmelavede",
+"homemade"
+],
+[
+"æbleskiver",
+"Danish pancake balls"
+]
+]
+},
+{
+"da": "Du kan også prøve tombolaen, hvor der er mange fine gevinster.",
+"en": "You can also try the tombola, where there are many fine prizes.",
+"p": false,
+"note": "A game. \"hvor\" starts a relative clause.",
+"words": [
+[
+"tombolaen",
+"the tombola"
+],
+[
+"gevinster",
+"prizes"
+]
+]
+},
+{
+"da": "Museet er åbent, her kan du bl.a. se et juletræ, pyntet som dengang bedstefar var barn, og du kan se smeden arbejde i smedjen.",
+"en": "The museum is open; here you can see, among other things, a Christmas tree decorated as in Grandad's childhood, and you can watch the blacksmith work in the forge.",
+"p": false,
+"note": "At the museum. \"museum\" is an et-word, so \"åben\" becomes \"åbent\". \"se nogen arbejde\" means \"watch someone work\".",
+"words": [
+[
+"Museet",
+"the museum"
+],
+[
+"pyntet",
+"decorated"
+],
+[
+"dengang",
+"back then"
+],
+[
+"smedjen",
+"the forge"
+]
+]
+},
+{
+"da": "Julemarked på Tirsbæk Slot",
+"en": "Christmas market at Tirsbæk Castle",
+"p": true,
+"note": "The name of the last market.",
+"words": [
+[
+"Julemarked",
+"Christmas market"
+]
+]
+},
+{
+"da": "10.-11. december · kl. 11-17 · Tirsbækvej 135, 7120 Vejle Øst",
+"en": "10-11 December · 11 am to 5 pm · Tirsbækvej 135, 7120 Vejle Øst",
+"p": false,
+"note": "Dates, time and address.",
+"words": [
+[
+"december",
+"December"
+]
+]
+},
+{
+"da": "På det traditionsrige julemarked kan du bl.a. købe julepynt, pyntegrønt og strikvarer.",
+"en": "At the traditional Christmas market you can buy, among other things, Christmas decorations, decorative greenery and knitwear.",
+"p": true,
+"note": "What you can buy. The place phrase comes first, so \"kan du\" has the verb before the subject.",
+"words": [
+[
+"traditionsrige",
+"traditional"
+],
+[
+"julemarked",
+"Christmas market"
+],
+[
+"pyntegrønt",
+"decorative greenery"
+],
+[
+"strikvarer",
+"knitwear"
+]
+]
+},
+{
+"da": "For børnene er der trækketure på rolige islænderheste, og for de store legebørn er der off road-ture i skoven med landrover.",
+"en": "For the children there are pony rides on calm Icelandic horses, and for the big kids at heart there are off-road trips in the woods by Land Rover.",
+"p": false,
+"note": "Activities. Both clauses start with \"For ...\", so the verb comes before the subject: \"er der\".",
+"words": [
+[
+"børnene",
+"the children"
+],
+[
+"trækketure",
+"pony rides"
+],
+[
+"islænderheste",
+"Icelandic horses"
+],
+[
+"legebørn",
+"playful people"
+]
+]
+},
+{
+"da": "Fæld årets juletræ eller udvælg et på gårdspladsen.",
+"en": "Cut down this year's Christmas tree or choose one in the courtyard.",
+"p": true,
+"note": "An invitation. \"Fæld\" and \"udvælg\" are imperatives. \"et\" stands for \"et juletræ\".",
+"words": [
+[
+"Fæld",
+"cut down"
+],
+[
+"juletræ",
+"Christmas tree"
+],
+[
+"udvælg",
+"choose"
+],
+[
+"gårdspladsen",
+"the courtyard"
+]
+]
+},
+{
+"da": "I den gamle herskabsstald serveres gløgg, klejner, æbleskiver og saftevand.",
+"en": "In the old manor stable, mulled wine, Christmas crullers, æbleskiver and squash are served.",
+"p": false,
+"note": "Food. \"serveres\" is the passive with -s: \"are served\".",
+"words": [
+[
+"herskabsstald",
+"manor stable"
+],
+[
+"serveres",
+"are served"
+],
+[
+"æbleskiver",
+"Danish pancake balls"
+],
+[
+"saftevand",
+"squash, cordial"
+]
+]
+},
+{
+"da": "Køb også årets julegave i Tirsbæk Slots butik.",
+"en": "Also buy this year's Christmas present in Tirsbæk Castle's shop.",
+"p": false,
+"note": "A tip. \"Køb\" is the imperative of \"købe\" (buy). \"årets\" means \"this year's\".",
+"words": [
+[
+"julegave",
+"Christmas present"
+],
+[
+"butik",
+"shop"
+]
+]
+}
+]
+},
 "p18-3": {
 "lines": [
 {
@@ -60795,6 +63011,2774 @@ PD2.LISTEN_R = {
 [
 "rart",
 "nice"
+]
+]
+}
+]
+},
+"p20-1": {
+"lines": [
+{
+"da": "AK aftenskole – Motionshold",
+"en": "AK evening school – Exercise classes",
+"p": true,
+"note": "A heading: a list of exercise classes at an evening school.",
+"words": [
+[
+"aftenskole",
+"evening school"
+],
+[
+"Motionshold",
+"exercise classes"
+]
+]
+},
+{
+"da": "Mave – baller – lår",
+"en": "Stomach – bottom – thighs",
+"p": true,
+"note": "The name of the first class."
+},
+{
+"da": "På dette hold har vi primært fokus på mave, baller og lår, men du får styrket og strammet muskulaturen i hele kroppen.",
+"en": "In this class we mainly focus on the stomach, bottom and thighs, but you get the muscles of your whole body strengthened and toned.",
+"p": false,
+"note": "What the class does. After \"På dette hold\" the verb comes first: \"har vi\". \"få\" + past participle means \"get something done\": \"får styrket\".",
+"words": [
+[
+"primært",
+"mainly"
+],
+[
+"styrket",
+"strengthened"
+],
+[
+"muskulaturen",
+"the muscles"
+],
+[
+"kroppen",
+"the body"
+]
+]
+},
+{
+"da": "Vi varmer op med konditionstræning, herefter går vi over til forskellige typer af øvelser som squats og mavebøjninger samt øvelser med elastikker og bolde.",
+"en": "We warm up with cardio training, then we move on to different kinds of exercises such as squats and sit-ups as well as exercises with elastic bands and balls.",
+"p": false,
+"note": "The programme. \"varme op\" means \"warm up\". After \"herefter\" (after that) the verb comes first: \"går vi\".",
+"words": [
+[
+"konditionstræning",
+"cardio training"
+],
+[
+"forskellige",
+"different"
+],
+[
+"mavebøjninger",
+"sit-ups"
+],
+[
+"elastikker",
+"elastic bands"
+]
+]
+},
+{
+"da": "Træningen er målrettet kvinder, men mænd er også velkomne!",
+"en": "The training is aimed at women, but men are also welcome!",
+"p": false,
+"note": "Who it is for. \"målrettet\" means \"aimed at\". \"velkomne\" has -e because \"mænd\" is plural.",
+"words": [
+[
+"Træningen",
+"the training"
+],
+[
+"målrettet",
+"aimed at"
+],
+[
+"velkomne",
+"welcome"
+]
+]
+},
+{
+"da": "Sund – Rask – Glad",
+"en": "Healthy – Fit – Happy",
+"p": true,
+"note": "The name of the next class."
+},
+{
+"da": "Dette er det helt rigtige hold for alle kvinder og mænd, der vil vedligeholde kroppen, forebygge skader, genoptræne en svag ryg eller øge kropsbevidstheden.",
+"en": "This is exactly the right class for all women and men who want to keep their body fit, prevent injuries, rehabilitate a weak back or increase body awareness.",
+"p": false,
+"note": "Who it is for. \"det helt rigtige hold\" has -e after \"det\". \"der\" means \"who\".",
+"words": [
+[
+"vedligeholde",
+"maintain"
+],
+[
+"forebygge",
+"prevent"
+],
+[
+"genoptræne",
+"rehabilitate"
+],
+[
+"kropsbevidstheden",
+"body awareness"
+]
+]
+},
+{
+"da": "Få hele kroppen varmet op og arbejdet igennem i et tempo, som du både kan følge med i og finde udfordringer i.",
+"en": "Get your whole body warmed up and worked through at a pace that you can both keep up with and find challenging.",
+"p": false,
+"note": "\"Få\" is an imperative with past participles: \"get ... warmed up\". The prepositions \"i\" go at the end of the relative clause.",
+"words": [
+[
+"kroppen",
+"the body"
+],
+[
+"igennem",
+"through"
+],
+[
+"udfordringer",
+"challenges"
+]
+]
+},
+{
+"da": "Zumba",
+"en": "Zumba",
+"p": true,
+"note": "The name of the next class."
+},
+{
+"da": "Alle – både kvinder og mænd – der elsker at danse og bevæge sig til musik, er velkomne på dette hold.",
+"en": "Everyone – both women and men – who loves dancing and moving to music is welcome in this class.",
+"p": false,
+"note": "Who it is for. \"bevæge sig\" is reflexive: \"move\". \"både ... og\" means \"both ... and\".",
+"words": [
+[
+"kvinder",
+"women"
+],
+[
+"bevæge",
+"move"
+],
+[
+"velkomne",
+"welcome"
+]
+]
+},
+{
+"da": "Zumba er dansemotion baseret på latinamerikanske dansetrin, herunder salsa og samba.",
+"en": "Zumba is dance exercise based on Latin American dance steps, including salsa and samba.",
+"p": false,
+"note": "\"baseret på\" means \"based on\". \"herunder\" means \"including\".",
+"words": [
+[
+"dansemotion",
+"dance exercise"
+],
+[
+"baseret",
+"based"
+],
+[
+"latinamerikanske",
+"Latin American"
+],
+[
+"dansetrin",
+"dance steps"
+]
+]
+},
+{
+"da": "Trinene er lette at lære, så du er hurtigt med.",
+"en": "The steps are easy to learn, so you quickly keep up.",
+"p": false,
+"note": "\"lette at lære\" means \"easy to learn\"; \"lette\" has -e because \"trinene\" is plural.",
+"words": [
+[
+"Trinene",
+"the steps"
+],
+[
+"lette",
+"easy"
+],
+[
+"hurtigt",
+"quickly"
+]
+]
+},
+{
+"da": "Ved at danse zumba får du styrket konditionen, koordinationen samt kroppens forskellige muskler.",
+"en": "By dancing zumba you strengthen your fitness, coordination and the body's various muscles.",
+"p": false,
+"note": "\"Ved at\" + infinitive means \"by doing\". After this fronted phrase the verb comes first: \"får du\".",
+"words": [
+[
+"konditionen",
+"the fitness"
+],
+[
+"koordinationen",
+"the coordination"
+],
+[
+"forskellige",
+"various"
+],
+[
+"muskler",
+"muscles"
+]
+]
+},
+{
+"da": "Yoga og afspænding",
+"en": "Yoga and relaxation",
+"p": true,
+"note": "The name of the next class.",
+"words": [
+[
+"afspænding",
+"relaxation"
+]
+]
+},
+{
+"da": "Holdet er for alle, der ønsker at forbedre deres smidighed, styrke, balance og kropsbevidsthed.",
+"en": "The class is for everyone who wants to improve their flexibility, strength, balance and body awareness.",
+"p": false,
+"note": "\"ønske at\" means \"wish to\". \"deres\" is used because \"alle\" is plural.",
+"words": [
+[
+"ønsker",
+"wish"
+],
+[
+"forbedre",
+"improve"
+],
+[
+"smidighed",
+"flexibility"
+],
+[
+"kropsbevidsthed",
+"body awareness"
+]
+]
+},
+{
+"da": "Gennem grundlæggende yogastillinger og dybdeafspænding lærer du din krops signaler bedre at kende, så der skabes en øget balance mellem krop og sind.",
+"en": "Through basic yoga poses and deep relaxation you get to know your body's signals better, so that a greater balance between body and mind is created.",
+"p": false,
+"note": "\"lære ... at kende\" means \"get to know\". \"skabes\" is the passive with -s: \"is created\".",
+"words": [
+[
+"grundlæggende",
+"basic"
+],
+[
+"yogastillinger",
+"yoga poses"
+],
+[
+"signaler",
+"signals"
+],
+[
+"skabes",
+"is created"
+]
+]
+},
+{
+"da": "Målet er at styrke kroppen, løsne spændinger, forebygge stress og skabe en indre ro.",
+"en": "The goal is to strengthen the body, release tension, prevent stress and create inner calm.",
+"p": false,
+"note": "\"Målet er at\" + infinitive means \"the goal is to\". Each verb after it is an infinitive.",
+"words": [
+[
+"Målet",
+"the goal"
+],
+[
+"løsne",
+"loosen"
+],
+[
+"spændinger",
+"tensions"
+],
+[
+"forebygge",
+"prevent"
+]
+]
+},
+{
+"da": "Mand og motion",
+"en": "Men and exercise",
+"p": true,
+"note": "The name of the next class.",
+"words": [
+[
+"motion",
+"exercise"
+]
+]
+},
+{
+"da": "På dette hold arbejder vi med at opbygge kroppens muskler med ekstra fokus på musklerne i ryg, mave, nakke og skuldre.",
+"en": "In this class we work on building the body's muscles with extra focus on the muscles in the back, stomach, neck and shoulders.",
+"p": false,
+"note": "After \"På dette hold\" the verb comes first: \"arbejder vi\". \"arbejde med at\" means \"work on\".",
+"words": [
+[
+"opbygge",
+"build up"
+],
+[
+"musklerne",
+"the muscles"
+],
+[
+"skuldre",
+"shoulders"
+]
+]
+},
+{
+"da": "Kroppen arbejdes igennem i et roligt tempo med små præcise bevægelser tilrettet den enkelte.",
+"en": "The body is worked through at a calm pace with small precise movements adapted to the individual.",
+"p": false,
+"note": "\"arbejdes\" is the passive with -s: \"is worked\". \"et roligt tempo\": -t with an et-word.",
+"words": [
+[
+"arbejdes",
+"is worked"
+],
+[
+"præcise",
+"precise"
+],
+[
+"bevægelser",
+"movements"
+],
+[
+"tilrettet",
+"adapted"
+]
+]
+},
+{
+"da": "Vi laver også kredsløbstræning og afslutter altid med udstræk.",
+"en": "We also do circuit training and always finish with stretching.",
+"p": false,
+"note": "\"altid\" comes after the verb in a main clause. \"afslutte med\" means \"end with\".",
+"words": [
+[
+"kredsløbstræning",
+"circulation training"
+],
+[
+"afslutter",
+"finish"
+],
+[
+"udstræk",
+"stretching"
+]
+]
+},
+{
+"da": "Holdet er kun for mænd.",
+"en": "The class is only for men.",
+"p": false,
+"note": "\"mænd\" is the irregular plural of \"mand\".",
+"words": [
+[
+"Holdet",
+"the class"
+]
+]
+},
+{
+"da": "Aerobic",
+"en": "Aerobics",
+"p": true,
+"note": "The name of the next class."
+},
+{
+"da": "Aerobic er intens træning og glad motion.",
+"en": "Aerobics is intense training and happy exercise.",
+"p": false,
+"note": "A short definition. Adjectives without endings go with en-words: \"intens træning\".",
+"words": [
+[
+"intens",
+"intense"
+],
+[
+"træning",
+"training"
+]
+]
+},
+{
+"da": "Vores nyeste aerobichold er et kvindehold, hvor du får pulsen op og brænder kalorier af, mens du har det sjovt.",
+"en": "Our newest aerobics class is a women's class, where you get your pulse up and burn calories while having fun.",
+"p": false,
+"note": "\"nyeste\" is the superlative of \"ny\". \"have det sjovt\" means \"have fun\". \"brænde af\" is split around the object.",
+"words": [
+[
+"nyeste",
+"newest"
+],
+[
+"aerobichold",
+"aerobics class"
+],
+[
+"kvindehold",
+"women's class"
+],
+[
+"kalorier",
+"calories"
+]
+]
+},
+{
+"da": "Undervisningen starter med let danseaerobic som opvarmning, inden vi går i gang med styrke- og balanceøvelser og sjov muskel- og konditionstræning.",
+"en": "The class starts with light dance aerobics as a warm-up, before we get going with strength and balance exercises and fun muscle and cardio training.",
+"p": false,
+"note": "\"inden\" means \"before\". \"gå i gang med\" means \"get started with\".",
+"words": [
+[
+"Undervisningen",
+"the teaching"
+],
+[
+"opvarmning",
+"warm-up"
+],
+[
+"balanceøvelser",
+"balance exercises"
+],
+[
+"konditionstræning",
+"cardio training"
+]
+]
+},
+{
+"da": "Timen slutter altid med udstrækning.",
+"en": "The class always ends with stretching.",
+"p": false,
+"note": "\"Timen\" means \"the lesson\". \"altid\" follows the verb.",
+"words": [
+[
+"udstrækning",
+"stretching"
+]
+]
+},
+{
+"da": "Motionsgymnastik",
+"en": "Exercise gymnastics",
+"p": true,
+"note": "The name of the next class.",
+"words": [
+[
+"Motionsgymnastik",
+"exercise gymnastics"
+]
+]
+},
+{
+"da": "Til motionsgymnastik får du trænet hele kroppen, så den bliver stærk og smidig.",
+"en": "In exercise gymnastics you get your whole body trained, so it becomes strong and supple.",
+"p": false,
+"note": "After \"Til motionsgymnastik\" the verb comes first: \"får du\". \"så\" here means \"so that\".",
+"words": [
+[
+"motionsgymnastik",
+"exercise gymnastics"
+],
+[
+"trænet",
+"trained"
+],
+[
+"stærk",
+"strong"
+],
+[
+"smidig",
+"supple"
+]
+]
+},
+{
+"da": "Vores grundige opvarmning sætter gang i kredsløbet og gennemarbejder alle muskler og led.",
+"en": "Our thorough warm-up gets the circulation going and works through all muscles and joints.",
+"p": false,
+"note": "\"sætte gang i\" means \"get something going\". \"grundige\" has -e after \"vores\".",
+"words": [
+[
+"grundige",
+"thorough"
+],
+[
+"opvarmning",
+"warm-up"
+],
+[
+"kredsløbet",
+"the circulation"
+],
+[
+"gennemarbejder",
+"works through"
+]
+]
+},
+{
+"da": "Vi arbejder hele kroppen igennem til god musik, så der både kommer sved på panden og smil på læben.",
+"en": "We work through the whole body to good music, so you both sweat and smile.",
+"p": false,
+"note": "\"sved på panden og smil på læben\" is a fixed phrase: \"sweat on the forehead and a smile on the lips\".",
+"words": [
+[
+"igennem",
+"through"
+],
+[
+"sved",
+"sweat"
+],
+[
+"panden",
+"the forehead"
+],
+[
+"læben",
+"the lip"
+]
+]
+},
+{
+"da": "Undervisningen afsluttes med grundig udstrækning.",
+"en": "The class ends with thorough stretching.",
+"p": false,
+"note": "\"afsluttes\" is the passive with -s: \"is finished\".",
+"words": [
+[
+"Undervisningen",
+"the teaching"
+],
+[
+"afsluttes",
+"is ended"
+],
+[
+"udstrækning",
+"stretching"
+]
+]
+},
+{
+"da": "Alle kan deltage – rabat for pensionister.",
+"en": "Everyone can take part – discount for pensioners.",
+"p": false,
+"note": "\"deltage\" means \"take part\". \"rabat for\" means \"discount for\".",
+"words": [
+[
+"deltage",
+"take part"
+],
+[
+"rabat",
+"discount"
+],
+[
+"pensionister",
+"pensioners"
+]
+]
+},
+{
+"da": "Styrke og bevægelighed",
+"en": "Strength and mobility",
+"p": true,
+"note": "The name of the next class.",
+"words": [
+[
+"bevægelighed",
+"mobility"
+]
+]
+},
+{
+"da": "Vi starter timen med stræk og rulninger, der giver varme i hele kroppen.",
+"en": "We start the class with stretches and rolls that warm up the whole body.",
+"p": false,
+"note": "\"der\" means \"that\" in a relative clause. \"hele kroppen\" means \"the whole body\".",
+"words": [
+[
+"rulninger",
+"rolls"
+],
+[
+"varme",
+"warmth"
+]
+]
+},
+{
+"da": "Bagefter arbejder vi med kroppens forskellige muskelgrupper, så bevægeligheden øges.",
+"en": "Afterwards we work with the body's different muscle groups, so that mobility is increased.",
+"p": false,
+"note": "After \"Bagefter\" the verb comes first: \"arbejder vi\". \"øges\" is the passive with -s.",
+"words": [
+[
+"Bagefter",
+"afterwards"
+],
+[
+"muskelgrupper",
+"muscle groups"
+],
+[
+"bevægeligheden",
+"the mobility"
+],
+[
+"øges",
+"is increased"
+]
+]
+},
+{
+"da": "Du kan selv bestemme, hvor udfordrende det skal være, alt afhængig af din egen kondition, styrke og brug af redskaber som elastikker og håndvægte.",
+"en": "You can decide yourself how challenging it should be, depending on your own fitness, strength and use of equipment such as elastic bands and hand weights.",
+"p": false,
+"note": "\"hvor udfordrende\" means \"how challenging\". \"afhængig af\" means \"depending on\".",
+"words": [
+[
+"bestemme",
+"decide"
+],
+[
+"udfordrende",
+"challenging"
+],
+[
+"afhængig",
+"dependent"
+],
+[
+"håndvægte",
+"hand weights"
+]
+]
+},
+{
+"da": "Alle kan deltage, og træningen ledes af en fysioterapeut, som tilpasser øvelserne til den enkeltes niveau.",
+"en": "Everyone can take part, and the training is led by a physiotherapist who adapts the exercises to each person's level.",
+"p": false,
+"note": "\"ledes af\" is the passive with -s: \"is led by\". \"den enkeltes\" is a genitive: \"the individual's\".",
+"words": [
+[
+"deltage",
+"take part"
+],
+[
+"fysioterapeut",
+"physiotherapist"
+],
+[
+"tilpasser",
+"adapts"
+],
+[
+"niveau",
+"level"
+]
+]
+},
+{
+"da": "Boliger til salg i Køge",
+"en": "Homes for sale in Køge",
+"p": true,
+"note": "A heading: a list of houses for sale.",
+"words": [
+[
+"Boliger",
+"homes"
+]
+]
+},
+{
+"da": "Klemmenstrupvej 86",
+"en": "Klemmenstrupvej 86",
+"p": true,
+"note": "The address of the first house."
+},
+{
+"da": "Denne flotte og velholdte villa byder på fire gode værelser, to dejlige badeværelser, et køkken-alrum samt to stuer en suite, en hævet træterrasse og en fliseterrasse.",
+"en": "This fine, well-kept house offers four good rooms, two lovely bathrooms, a kitchen-diner and two connected living rooms, a raised wooden terrace and a tiled terrace.",
+"p": false,
+"note": "\"byde på\" means \"offer\". After \"Denne\" the adjective takes -e: \"denne flotte\".",
+"words": [
+[
+"velholdte",
+"well-kept"
+],
+[
+"badeværelser",
+"bathrooms"
+],
+[
+"køkken-alrum",
+"kitchen-diner"
+],
+[
+"træterrasse",
+"wooden terrace"
+]
+]
+},
+{
+"da": "Ejendommen ligger på en stor grund med en solrig have.",
+"en": "The property is on a large plot with a sunny garden.",
+"p": false,
+"note": "\"ligger på en grund\" uses \"på\" for a plot of land.",
+"words": [
+[
+"Ejendommen",
+"the property"
+],
+[
+"grund",
+"plot"
+],
+[
+"solrig",
+"sunny"
+]
+]
+},
+{
+"da": "Beliggenheden kan ikke blive meget bedre med alle faciliteter i nabolaget, bl.a. skole, gode busforbindelser og fine indkøbsmuligheder.",
+"en": "The location could hardly be better, with all facilities in the neighbourhood, including a school, good bus connections and fine shopping.",
+"p": false,
+"note": "\"bedre\" is the comparative of \"god\". \"ikke\" comes after the modal verb \"kan\".",
+"words": [
+[
+"Beliggenheden",
+"the location"
+],
+[
+"nabolaget",
+"the neighbourhood"
+],
+[
+"busforbindelser",
+"bus connections"
+],
+[
+"indkøbsmuligheder",
+"shopping facilities"
+]
+]
+},
+{
+"da": "Kontant: 3.295.000 · Bolig m²: 168 · Grund m²: 1202",
+"en": "Cash price: 3,295,000 · Living area m²: 168 · Plot m²: 1202",
+"p": false,
+"note": "The price and sizes.",
+"words": [
+[
+"Kontant",
+"cash price"
+]
+]
+},
+{
+"da": "Hasselvej 79",
+"en": "Hasselvej 79",
+"p": true,
+"note": "The address of the next house."
+},
+{
+"da": "Ønsker I at komme væk fra storbyens larm, er denne skønne villa i et fredeligt, børnevenligt kvarter noget for jer.",
+"en": "If you want to get away from the noise of the big city, this lovely house in a peaceful, child-friendly area is for you.",
+"p": false,
+"note": "The sentence starts with the verb \"Ønsker I\", which works like \"if\". \"I/jer\" is plural \"you\".",
+"words": [
+[
+"storbyens",
+"the big city's"
+],
+[
+"larm",
+"noise"
+],
+[
+"fredeligt",
+"peaceful"
+],
+[
+"børnevenligt",
+"child-friendly"
+]
+]
+},
+{
+"da": "Her kan hverdagslivet udfolde sig i stueplanets åbne opholdsafdeling med stor stue og dejligt køkken-alrum.",
+"en": "Here everyday life can unfold in the open living area on the ground floor with a large living room and lovely kitchen-diner.",
+"p": false,
+"note": "After \"Her\" the verb comes first: \"kan hverdagslivet\". \"udfolde sig\" is reflexive.",
+"words": [
+[
+"hverdagslivet",
+"everyday life"
+],
+[
+"stueplanets",
+"the ground floor's"
+],
+[
+"opholdsafdeling",
+"living area"
+]
+]
+},
+{
+"da": "Villaen rummer også en førstesal med tre gode værelser.",
+"en": "The house also has a first floor with three good rooms.",
+"p": false,
+"note": "\"rumme\" means \"contain\".",
+"words": [
+[
+"Villaen",
+"the house"
+],
+[
+"rummer",
+"contains"
+],
+[
+"førstesal",
+"first floor"
+],
+[
+"værelser",
+"rooms"
+]
+]
+},
+{
+"da": "Ude får I en solrig have med en stor flisebelagt terrasse med skøn udsigt.",
+"en": "Outside you get a sunny garden with a large tiled terrace with a lovely view.",
+"p": false,
+"note": "After \"Ude\" the verb comes first: \"får I\".",
+"words": [
+[
+"solrig",
+"sunny"
+],
+[
+"flisebelagt",
+"tiled"
+],
+[
+"terrasse",
+"terrace"
+],
+[
+"udsigt",
+"view"
+]
+]
+},
+{
+"da": "Kontant: 1.885.000 · Bolig m²: 112 · Grund m²: 995",
+"en": "Cash price: 1,885,000 · Living area m²: 112 · Plot m²: 995",
+"p": false,
+"note": "The price and sizes.",
+"words": [
+[
+"Kontant",
+"cash price"
+]
+]
+},
+{
+"da": "Kildevej 59",
+"en": "Kildevej 59",
+"p": true,
+"note": "The address of the next house."
+},
+{
+"da": "Denne etplansvilla på fire værelser er en oplagt mulighed for førstegangskøbere.",
+"en": "This four-room single-storey house is an obvious opportunity for first-time buyers.",
+"p": false,
+"note": "\"på fire værelser\" uses \"på\" to give size.",
+"words": [
+[
+"etplansvilla",
+"single-storey house"
+],
+[
+"oplagt",
+"obvious"
+],
+[
+"mulighed",
+"opportunity"
+],
+[
+"førstegangskøbere",
+"first-time buyers"
+]
+]
+},
+{
+"da": "I kommer til at bo i et trygt og børnevenligt kvarter med institutioner, skoler og indkøbsmuligheder i gåafstand, og togstationen er kun 5 minutters gang væk.",
+"en": "You will live in a safe, child-friendly area with nurseries, schools and shops within walking distance, and the train station is only 5 minutes' walk away.",
+"p": false,
+"note": "\"komme til at\" + infinitive talks about the future: \"will\". \"trygt\" has -t with the et-word \"kvarter\".",
+"words": [
+[
+"trygt",
+"safe"
+],
+[
+"institutioner",
+"day-care institutions"
+],
+[
+"gåafstand",
+"walking distance"
+],
+[
+"togstationen",
+"the train station"
+]
+]
+},
+{
+"da": "Boligen indeholder et badeværelse med gulvvarme og indbyggede skabe.",
+"en": "The home has a bathroom with underfloor heating and built-in cupboards.",
+"p": false,
+"note": "\"indbyggede\" has -e because \"skabe\" is plural.",
+"words": [
+[
+"indeholder",
+"contains"
+],
+[
+"badeværelse",
+"bathroom"
+],
+[
+"gulvvarme",
+"underfloor heating"
+],
+[
+"indbyggede",
+"built-in"
+]
+]
+},
+{
+"da": "Køkkenet er lyst og ligger i forbindelse med den store vinkelstue.",
+"en": "The kitchen is bright and is connected to the large L-shaped living room.",
+"p": false,
+"note": "\"lyst\" has -t because \"køkkenet\" is an et-word. \"i forbindelse med\" means \"connected to\".",
+"words": [
+[
+"Køkkenet",
+"the kitchen"
+],
+[
+"forbindelse",
+"connection"
+],
+[
+"vinkelstue",
+"L-shaped living room"
+]
+]
+},
+{
+"da": "Udestuen har en fin udsigt over haven med en sydvendt terrasse.",
+"en": "The conservatory has a nice view over the garden with a south-facing terrace.",
+"p": false,
+"note": "\"udsigt over\" means \"view over\". \"haven\" is the definite form.",
+"words": [
+[
+"Udestuen",
+"the conservatory"
+],
+[
+"udsigt",
+"view"
+],
+[
+"sydvendt",
+"south-facing"
+]
+]
+},
+{
+"da": "Kontant: 1.595.000 · Bolig m²: 108 · Grund m²: 870",
+"en": "Cash price: 1,595,000 · Living area m²: 108 · Plot m²: 870",
+"p": false,
+"note": "The price and sizes.",
+"words": [
+[
+"Kontant",
+"cash price"
+]
+]
+},
+{
+"da": "Ølbyvej 166",
+"en": "Ølbyvej 166",
+"p": true,
+"note": "The address of the next house."
+},
+{
+"da": "På en attraktiv vej i Ølby ligger denne dejlige villa.",
+"en": "On an attractive road in Ølby lies this lovely house.",
+"p": false,
+"note": "The place phrase is first, so the verb comes before the subject: \"ligger denne dejlige villa\".",
+"words": [
+[
+"attraktiv",
+"attractive"
+],
+[
+"dejlige",
+"lovely"
+]
+]
+},
+{
+"da": "I stueplan finder I ud over to værelser et landligt inspireret køkken med kogehalvø.",
+"en": "On the ground floor, in addition to two rooms, you will find a country-style kitchen with a cooking peninsula.",
+"p": false,
+"note": "After \"I stueplan\" the verb comes first: \"finder I\". \"ud over\" means \"besides\".",
+"words": [
+[
+"stueplan",
+"ground floor"
+],
+[
+"landligt",
+"rurally"
+],
+[
+"inspireret",
+"inspired"
+],
+[
+"kogehalvø",
+"kitchen peninsula"
+]
+]
+},
+{
+"da": "Stuen ligger i forbindelse med køkkenet og har masser af plads til både spisning og sofahygge.",
+"en": "The living room is connected to the kitchen and has lots of room for both eating and relaxing on the sofa.",
+"p": false,
+"note": "\"masser af\" means \"lots of\". \"både ... og\" means \"both ... and\".",
+"words": [
+[
+"forbindelse",
+"connection"
+],
+[
+"køkkenet",
+"the kitchen"
+],
+[
+"spisning",
+"dining"
+],
+[
+"sofahygge",
+"sofa cosiness"
+]
+]
+},
+{
+"da": "I får desuden en fantastisk udestue, hvor solen kan nydes hele dagen.",
+"en": "You also get a fantastic conservatory where the sun can be enjoyed all day.",
+"p": false,
+"note": "\"kan nydes\" is a modal verb plus the passive with -s: \"can be enjoyed\".",
+"words": [
+[
+"desuden",
+"in addition"
+],
+[
+"fantastisk",
+"fantastic"
+],
+[
+"udestue",
+"conservatory"
+],
+[
+"nydes",
+"be enjoyed"
+]
+]
+},
+{
+"da": "På førstesalen er der tre gode værelser og et lyst badeværelse.",
+"en": "On the first floor there are three good rooms and a bright bathroom.",
+"p": false,
+"note": "After \"På førstesalen\" the verb comes first: \"er der\". \"et lyst badeværelse\": -t with an et-word.",
+"words": [
+[
+"førstesalen",
+"the first floor"
+],
+[
+"værelser",
+"rooms"
+],
+[
+"badeværelse",
+"bathroom"
+]
+]
+},
+{
+"da": "Hertil kommer en stor og solrig grund med to terrasser.",
+"en": "In addition there is a large, sunny plot with two terraces.",
+"p": false,
+"note": "\"Hertil kommer\" is a fixed phrase meaning \"on top of this there is\".",
+"words": [
+[
+"Hertil",
+"in addition"
+],
+[
+"solrig",
+"sunny"
+],
+[
+"terrasser",
+"terraces"
+]
+]
+},
+{
+"da": "Kontant: 2.495.000 · Bolig m²: 176 · Grund m²: 933",
+"en": "Cash price: 2,495,000 · Living area m²: 176 · Plot m²: 933",
+"p": false,
+"note": "The price and sizes.",
+"words": [
+[
+"Kontant",
+"cash price"
+]
+]
+},
+{
+"da": "Langesvej 63",
+"en": "Langesvej 63",
+"p": true,
+"note": "The address of the next house."
+},
+{
+"da": "I et af Køges bedste områder udbydes denne dejlige villa, der byder velkommen i en lys entré med trappe til første sal.",
+"en": "In one of Køge's best areas this lovely house is offered for sale; it welcomes you in a bright hall with stairs to the first floor.",
+"p": false,
+"note": "\"udbydes\" is the passive with -s: \"is offered\". It comes before the subject because the sentence starts with a place phrase.",
+"words": [
+[
+"områder",
+"areas"
+],
+[
+"udbydes",
+"is offered"
+],
+[
+"velkommen",
+"welcome"
+],
+[
+"entré",
+"entrance hall"
+]
+]
+},
+{
+"da": "Der er et skønt gæstebadeværelse med bruser og gulvvarme.",
+"en": "There is a lovely guest bathroom with a shower and underfloor heating.",
+"p": false,
+"note": "\"et skønt\": the adjective gets -t with an et-word.",
+"words": [
+[
+"gæstebadeværelse",
+"guest bathroom"
+],
+[
+"bruser",
+"shower"
+],
+[
+"gulvvarme",
+"underfloor heating"
+]
+]
+},
+{
+"da": "Den flotte stue har udgang til en høj terrasse samt åbent til nyt køkken.",
+"en": "The fine living room has access to a high terrace and is open to a new kitchen.",
+"p": false,
+"note": "\"udgang til\" means \"exit to\". \"samt\" means \"as well as\".",
+"words": [
+[
+"udgang",
+"exit"
+],
+[
+"terrasse",
+"terrace"
+],
+[
+"køkken",
+"kitchen"
+]
+]
+},
+{
+"da": "Første sal består af to store værelser samt endnu et flot badeværelse.",
+"en": "The first floor consists of two large rooms and another fine bathroom.",
+"p": false,
+"note": "\"bestå af\" means \"consist of\". \"endnu et\" means \"another one\".",
+"words": [
+[
+"består",
+"consists"
+],
+[
+"værelser",
+"rooms"
+],
+[
+"badeværelse",
+"bathroom"
+]
+]
+},
+{
+"da": "Der er desuden en god kælder med vaskerum og festlokale.",
+"en": "There is also a good basement with a laundry room and party room.",
+"p": false,
+"note": "\"desuden\" means \"in addition\" and comes after the verb.",
+"words": [
+[
+"desuden",
+"in addition"
+],
+[
+"kælder",
+"basement"
+],
+[
+"festlokale",
+"party room"
+]
+]
+},
+{
+"da": "Der er gåafstand til Køges hyggelige torv og handelsby, havnen samt Køge Ås.",
+"en": "There is walking distance to Køge's cosy square and shopping town, the harbour and Køge Ås.",
+"p": false,
+"note": "\"Køges\" is the genitive. After a genitive the adjective has -e: \"Køges hyggelige torv\".",
+"words": [
+[
+"gåafstand",
+"walking distance"
+],
+[
+"hyggelige",
+"cosy"
+],
+[
+"handelsby",
+"shopping town"
+]
+]
+},
+{
+"da": "Kontant: 4.245.000 · Bolig m²: 128 · Grund m²: 798",
+"en": "Cash price: 4,245,000 · Living area m²: 128 · Plot m²: 798",
+"p": false,
+"note": "The price and sizes.",
+"words": [
+[
+"Kontant",
+"cash price"
+]
+]
+},
+{
+"da": "Vordingborgvej 264",
+"en": "Vordingborgvej 264",
+"p": true,
+"note": "The address of the next house."
+},
+{
+"da": "Elegant villa med masser af stil og charme i eftertragtet kvarter.",
+"en": "Elegant house with lots of style and charm in a sought-after area.",
+"p": false,
+"note": "A fragment without a verb, typical of house adverts.",
+"words": [
+[
+"Elegant",
+"elegant"
+],
+[
+"charme",
+"charm"
+],
+[
+"eftertragtet",
+"sought-after"
+],
+[
+"kvarter",
+"area"
+]
+]
+},
+{
+"da": "Stueetagen byder på et charmerende køkken-alrum samt en stor vinkelstue, hvor lyset strømmer ind gennem de store vinduespartier.",
+"en": "The ground floor offers a charming kitchen-diner and a large L-shaped living room, where light streams in through the large windows.",
+"p": false,
+"note": "\"strømme ind\" means \"stream in\". \"de store\" has -e after \"de\".",
+"words": [
+[
+"Stueetagen",
+"the ground floor"
+],
+[
+"charmerende",
+"charming"
+],
+[
+"vinkelstue",
+"L-shaped living room"
+],
+[
+"vinduespartier",
+"window sections"
+]
+]
+},
+{
+"da": "På førstesalen er der tre gode værelser, et dejligt badeværelse samt gæstetoilet.",
+"en": "On the first floor there are three good rooms, a lovely bathroom and a guest toilet.",
+"p": false,
+"note": "After \"På førstesalen\" the verb comes first: \"er der\".",
+"words": [
+[
+"førstesalen",
+"the first floor"
+],
+[
+"badeværelse",
+"bathroom"
+],
+[
+"gæstetoilet",
+"guest toilet"
+]
+]
+},
+{
+"da": "Fra det første værelse kan I fortsætte ud på en fantastisk tagterrasse, hvor aftenkaffen kan nydes, mens I betragter den smukke have.",
+"en": "From the first room you can continue out onto a fantastic roof terrace, where evening coffee can be enjoyed while you look at the beautiful garden.",
+"p": false,
+"note": "\"kan nydes\" is a passive: \"can be enjoyed\". \"mens\" means \"while\".",
+"words": [
+[
+"fortsætte",
+"continue"
+],
+[
+"tagterrasse",
+"roof terrace"
+],
+[
+"aftenkaffen",
+"the evening coffee"
+],
+[
+"betragter",
+"look at"
+]
+]
+},
+{
+"da": "Kontant: 3.665.000 · Bolig m²: 198 · Grund m²: 1.310",
+"en": "Cash price: 3,665,000 · Living area m²: 198 · Plot m²: 1,310",
+"p": false,
+"note": "The price and sizes.",
+"words": [
+[
+"Kontant",
+"cash price"
+]
+]
+},
+{
+"da": "Ulstrup Bygade 41",
+"en": "Ulstrup Bygade 41",
+"p": true,
+"note": "The address of the next house."
+},
+{
+"da": "Velholdt villa med store lyse rum, nyt tag, nye vinduer og nymalede ydervægge.",
+"en": "Well-kept house with large bright rooms, a new roof, new windows and newly painted outer walls.",
+"p": false,
+"note": "\"nyt tag\" has -t (et-word), \"nye vinduer\" has -e (plural).",
+"words": [
+[
+"Velholdt",
+"well-kept"
+],
+[
+"vinduer",
+"windows"
+],
+[
+"nymalede",
+"newly painted"
+],
+[
+"ydervægge",
+"outer walls"
+]
+]
+},
+{
+"da": "Fra entreen ledes du ned ad gangen, hvorfra du har adgang til tre gode værelser og pænt badeværelse.",
+"en": "From the hall you are led down the corridor, from where you have access to three good rooms and a nice bathroom.",
+"p": false,
+"note": "\"ledes\" is the passive with -s: \"are led\". \"ned ad\" means \"down along\".",
+"words": [
+[
+"entreen",
+"the hall"
+],
+[
+"gangen",
+"the corridor"
+],
+[
+"hvorfra",
+"from where"
+],
+[
+"adgang",
+"access"
+]
+]
+},
+{
+"da": "I den anden ende af huset har du bryggers, flot køkken, spisestue og en stor stue.",
+"en": "At the other end of the house you have a utility room, a fine kitchen, a dining room and a large living room.",
+"p": false,
+"note": "After the place phrase the verb comes first: \"har du\".",
+"words": [
+[
+"bryggers",
+"utility room"
+],
+[
+"køkken",
+"kitchen"
+],
+[
+"spisestue",
+"dining room"
+]
+]
+},
+{
+"da": "En sydvendt terrasse og en dejlig græsplæne sørger for optimale rammer om udelivet.",
+"en": "A south-facing terrace and a lovely lawn provide ideal settings for outdoor life.",
+"p": false,
+"note": "\"sørge for\" means \"provide, make sure of\".",
+"words": [
+[
+"sydvendt",
+"south-facing"
+],
+[
+"græsplæne",
+"lawn"
+],
+[
+"optimale",
+"optimal"
+],
+[
+"udelivet",
+"outdoor life"
+]
+]
+},
+{
+"da": "Kun 35 minutters kørsel til København.",
+"en": "Only 35 minutes' drive to Copenhagen.",
+"p": false,
+"note": "\"35 minutters kørsel\" uses the -s genitive: \"35 minutes' drive\".",
+"words": [
+[
+"minutters",
+"minutes'"
+],
+[
+"kørsel",
+"drive"
+],
+[
+"København",
+"Copenhagen"
+]
+]
+},
+{
+"da": "Kontant: 2.455.000 · Bolig m²: 158 · Grund m²: 1.045",
+"en": "Cash price: 2,455,000 · Living area m²: 158 · Plot m²: 1,045",
+"p": false,
+"note": "The price and sizes.",
+"words": [
+[
+"Kontant",
+"cash price"
+]
+]
+},
+{
+"da": "Egevej 159",
+"en": "Egevej 159",
+"p": true,
+"note": "The address of the next house."
+},
+{
+"da": "Indflytningsklar etplansvilla opført i 1971 fremstår velholdt med helt nye vinduer.",
+"en": "This ready-to-move-into single-storey house built in 1971 looks well kept with brand-new windows.",
+"p": false,
+"note": "\"opført\" is a past participle: \"built\". \"fremstå\" means \"appear\".",
+"words": [
+[
+"Indflytningsklar",
+"ready to move into"
+],
+[
+"etplansvilla",
+"single-storey house"
+],
+[
+"opført",
+"built"
+],
+[
+"fremstår",
+"appears"
+]
+]
+},
+{
+"da": "I kan se frem til et lækkert køkken, en lys stue, fire dejlige værelser, et stort badeværelse med badekar samt kælder med tre disponible rum.",
+"en": "You can look forward to a lovely kitchen, a bright living room, four lovely rooms, a large bathroom with a bath and a basement with three spare rooms.",
+"p": false,
+"note": "\"se frem til\" means \"look forward to\". Notice the -t on adjectives with et-words: \"et lækkert køkken\".",
+"words": [
+[
+"lækkert",
+"lovely"
+],
+[
+"badeværelse",
+"bathroom"
+],
+[
+"badekar",
+"bathtub"
+],
+[
+"disponible",
+"available"
+]
+]
+},
+{
+"da": "Til haven hører et delvist overdækket terrassemiljø med udekøkken.",
+"en": "The garden includes a partly covered terrace area with an outdoor kitchen.",
+"p": false,
+"note": "\"høre til\" means \"belong to\"; here \"Til haven\" is first, so the verb comes next: \"hører\".",
+"words": [
+[
+"delvist",
+"partly"
+],
+[
+"overdækket",
+"covered"
+],
+[
+"terrassemiljø",
+"terrace area"
+],
+[
+"udekøkken",
+"outdoor kitchen"
+]
+]
+},
+{
+"da": "I bosætter jer centralt med gåafstand til skole, børnehave og SFO.",
+"en": "You settle centrally within walking distance of a school, nursery and after-school club.",
+"p": false,
+"note": "\"bosætte sig\" is reflexive; with \"I\" the pronoun is \"jer\".",
+"words": [
+[
+"bosætter",
+"settle"
+],
+[
+"centralt",
+"centrally"
+],
+[
+"gåafstand",
+"walking distance"
+],
+[
+"børnehave",
+"kindergarten"
+]
+]
+},
+{
+"da": "Der er heller ikke langt til motorvejen mod København.",
+"en": "It is not far to the motorway to Copenhagen either.",
+"p": false,
+"note": "\"heller ikke\" means \"not ... either\".",
+"words": [
+[
+"heller",
+"either"
+],
+[
+"motorvejen",
+"the motorway"
+]
+]
+},
+{
+"da": "Kontant: 2.395.000 · Bolig m²: 146 · Grund m²: 826",
+"en": "Cash price: 2,395,000 · Living area m²: 146 · Plot m²: 826",
+"p": false,
+"note": "The price and sizes.",
+"words": [
+[
+"Kontant",
+"cash price"
+]
+]
+},
+{
+"da": "Stormøllevej 85",
+"en": "Stormøllevej 85",
+"p": true,
+"note": "The address of the next house."
+},
+{
+"da": "Velkommen til denne velholdte villa i to plan med hele tre stuer en suite, tre soveværelser samt gæstetoilet og stort badeværelse med badekar og bruseniche.",
+"en": "Welcome to this well-kept two-storey house with no fewer than three connected living rooms, three bedrooms, a guest toilet and a large bathroom with a bath and shower cubicle.",
+"p": false,
+"note": "\"hele tre\" means \"as many as three\". After \"denne\" the adjective takes -e: \"denne velholdte\".",
+"words": [
+[
+"velholdte",
+"well-kept"
+],
+[
+"soveværelser",
+"bedrooms"
+],
+[
+"gæstetoilet",
+"guest toilet"
+],
+[
+"bruseniche",
+"shower cubicle"
+]
+]
+},
+{
+"da": "Dertil kommer en god kælder med fitnessrum og tre disponible rum.",
+"en": "In addition there is a good basement with a fitness room and three spare rooms.",
+"p": false,
+"note": "\"Dertil kommer\" means \"in addition there is\"; the verb comes before the subject.",
+"words": [
+[
+"Dertil",
+"in addition"
+],
+[
+"kælder",
+"basement"
+],
+[
+"fitnessrum",
+"fitness room"
+],
+[
+"disponible",
+"available"
+]
+]
+},
+{
+"da": "I kommer til at bo tæt på naturen med skov og åbne marker i fredelige omgivelser og tæt på byens tilbud.",
+"en": "You will live close to nature, with forest and open fields in peaceful surroundings, and close to the town's facilities.",
+"p": false,
+"note": "\"komme til at\" + infinitive talks about the future. \"tæt på\" means \"close to\".",
+"words": [
+[
+"naturen",
+"nature"
+],
+[
+"marker",
+"fields"
+],
+[
+"fredelige",
+"peaceful"
+],
+[
+"omgivelser",
+"surroundings"
+]
+]
+},
+{
+"da": "Der er godt fem minutter på cykel til skole, børnehave og idrætshal.",
+"en": "It is just over five minutes by bike to the school, nursery and sports hall.",
+"p": false,
+"note": "\"godt fem minutter\" means \"a good five minutes\". \"på cykel\" means \"by bike\".",
+"words": [
+[
+"minutter",
+"minutes"
+],
+[
+"børnehave",
+"kindergarten"
+],
+[
+"idrætshal",
+"sports hall"
+]
+]
+},
+{
+"da": "Kontant: 3.195.000 · Bolig m²: 244 · Grund m²: 958",
+"en": "Cash price: 3,195,000 · Living area m²: 244 · Plot m²: 958",
+"p": false,
+"note": "The price and sizes.",
+"words": [
+[
+"Kontant",
+"cash price"
+]
+]
+},
+{
+"da": "Smedevej 76",
+"en": "Smedevej 76",
+"p": true,
+"note": "The address of the next house."
+},
+{
+"da": "I skønne rolige omgivelser udbydes denne dejlige rummelige villa med flot have.",
+"en": "In lovely quiet surroundings, this lovely spacious house with a fine garden is for sale.",
+"p": false,
+"note": "\"udbydes\" is the passive with -s and comes before the subject because of the fronted place phrase.",
+"words": [
+[
+"omgivelser",
+"surroundings"
+],
+[
+"udbydes",
+"is offered"
+],
+[
+"rummelige",
+"spacious"
+]
+]
+},
+{
+"da": "I får bl.a. tre stuer, tre værelser foruden et helt nyt badeværelse med lyse klinker og muret bruseniche, et stort baderum med vaskesøjle og et gæstetoilet.",
+"en": "You get, among other things, three living rooms, three rooms plus a brand-new bathroom with light tiles and a built-in shower, a large bathroom with a washer-dryer stack and a guest toilet.",
+"p": false,
+"note": "\"foruden\" means \"besides\". \"et helt nyt\" has -t with an et-word.",
+"words": [
+[
+"foruden",
+"besides"
+],
+[
+"klinker",
+"tiles"
+],
+[
+"bruseniche",
+"shower cubicle"
+],
+[
+"vaskesøjle",
+"washer-dryer column"
+]
+]
+},
+{
+"da": "Med i købet får I et stort udhus og en carport.",
+"en": "Included in the purchase you get a large shed and a carport.",
+"p": false,
+"note": "\"med i købet\" means \"included in the deal\". After it, the verb comes first: \"får I\".",
+"words": [
+[
+"købet",
+"the purchase"
+],
+[
+"udhus",
+"outbuilding"
+]
+]
+},
+{
+"da": "Når vejret tillader det, kan I trække ud på den store træterrasse i husets solrige have med en legevenlig græsplæne.",
+"en": "When the weather allows it, you can go out onto the large wooden terrace in the house's sunny garden with a lawn that is good for play.",
+"p": false,
+"note": "The \"når\" clause is first, so the main clause starts with the verb: \"kan I\". \"husets\" is a genitive.",
+"words": [
+[
+"tillader",
+"allows"
+],
+[
+"træterrasse",
+"wooden terrace"
+],
+[
+"legevenlig",
+"play-friendly"
+],
+[
+"græsplæne",
+"lawn"
+]
+]
+},
+{
+"da": "Kontant: 2.550.000 · Bolig m²: 187 · Grund m²: 905",
+"en": "Cash price: 2,550,000 · Living area m²: 187 · Plot m²: 905",
+"p": false,
+"note": "The price and sizes.",
+"words": [
+[
+"Kontant",
+"cash price"
+]
+]
+},
+{
+"da": "Køgevej 112",
+"en": "Køgevej 112",
+"p": true,
+"note": "The address of the next house."
+},
+{
+"da": "Dejlig villa beliggende tæt på åbne marker og en skøn badestrand.",
+"en": "Lovely house located close to open fields and a beautiful beach.",
+"p": false,
+"note": "\"beliggende\" means \"located\". \"åbne\" has -e because \"marker\" is plural.",
+"words": [
+[
+"beliggende",
+"located"
+],
+[
+"marker",
+"fields"
+],
+[
+"badestrand",
+"bathing beach"
+]
+]
+},
+{
+"da": "Villaen indeholder stort bryggers med mange skabe og god plads til vaskemaskine m.m., køkken med spiseplads og stor opholdsstue, som oprindelig har været to stuer, på i alt ca. 60 m².",
+"en": "The house has a large utility room with many cupboards and good space for a washing machine etc., a kitchen with dining area and a large living room, which was originally two rooms, of about 60 m² in total.",
+"p": false,
+"note": "A long list. \"har været\" is the perfect tense. \"som\" starts a relative clause about the living room.",
+"words": [
+[
+"bryggers",
+"utility room"
+],
+[
+"vaskemaskine",
+"washing machine"
+],
+[
+"opholdsstue",
+"living room"
+],
+[
+"oprindelig",
+"originally"
+]
+]
+},
+{
+"da": "Fra stuen er der adgang til værelse med egen udgang til terrasse samt et stort forældresoveværelse med eget badeværelse.",
+"en": "From the living room there is access to a room with its own exit to the terrace and a large master bedroom with its own bathroom.",
+"p": false,
+"note": "\"egen udgang\" (en-word) but \"eget badeværelse\" (et-word).",
+"words": [
+[
+"adgang",
+"access"
+],
+[
+"udgang",
+"exit"
+],
+[
+"forældresoveværelse",
+"parents' bedroom"
+],
+[
+"eget",
+"own"
+]
+]
+},
+{
+"da": "Desuden er der en børneafdeling med to børneværelser samt lyst badeværelse med badekar.",
+"en": "In addition there is a children's section with two children's rooms and a bright bathroom with a bath.",
+"p": false,
+"note": "After \"Desuden\" the verb comes first: \"er der\".",
+"words": [
+[
+"Desuden",
+"in addition"
+],
+[
+"børneafdeling",
+"children's section"
+],
+[
+"børneværelser",
+"children's rooms"
+],
+[
+"badekar",
+"bathtub"
+]
+]
+},
+{
+"da": "Kontant: 2.950.000 · Bolig m²: 164 · Grund m²: 815",
+"en": "Cash price: 2,950,000 · Living area m²: 164 · Plot m²: 815",
+"p": false,
+"note": "The price and sizes.",
+"words": [
+[
+"Kontant",
+"cash price"
+]
+]
+},
+{
+"da": "Lidemarksvej 23",
+"en": "Lidemarksvej 23",
+"p": true,
+"note": "The address of the last house."
+},
+{
+"da": "Villa beliggende i rolige omgivelser i landsbyen Lidemark, tæt på Valløskovene, og med plads til den store familie.",
+"en": "House located in quiet surroundings in the village of Lidemark, close to the Vallø woods, and with room for a big family.",
+"p": false,
+"note": "A fragment. \"plads til\" means \"room for\".",
+"words": [
+[
+"beliggende",
+"located"
+],
+[
+"omgivelser",
+"surroundings"
+],
+[
+"landsbyen",
+"the village"
+],
+[
+"Valløskovene",
+"the Vallø woods"
+]
+]
+},
+{
+"da": "Stueplan rummer stue og køkken i åben forbindelse med direkte udgang til en god udestue.",
+"en": "The ground floor has a living room and kitchen in an open plan with direct access to a good conservatory.",
+"p": false,
+"note": "\"rumme\" means \"contain\". \"i åben forbindelse\" means \"open-plan\".",
+"words": [
+[
+"Stueplan",
+"ground floor"
+],
+[
+"rummer",
+"contains"
+],
+[
+"forbindelse",
+"connection"
+],
+[
+"udestue",
+"conservatory"
+]
+]
+},
+{
+"da": "Desuden er der tre værelser, to fine badeværelser, et bryggers og en stor entré.",
+"en": "In addition there are three rooms, two nice bathrooms, a utility room and a large hall.",
+"p": false,
+"note": "After \"Desuden\" the verb comes first: \"er der\".",
+"words": [
+[
+"Desuden",
+"in addition"
+],
+[
+"badeværelser",
+"bathrooms"
+],
+[
+"bryggers",
+"utility room"
+],
+[
+"entré",
+"entrance hall"
+]
+]
+},
+{
+"da": "På førstesalen er der yderligere tre værelser, et badeværelse og en altan samt et stort loftsrum med loft til kip og mange muligheder for indretning.",
+"en": "On the first floor there are three more rooms, a bathroom and a balcony, as well as a large loft room with a ceiling up to the roof ridge and many possibilities for furnishing.",
+"p": false,
+"note": "\"yderligere\" means \"further, more\". \"muligheder for\" means \"possibilities for\".",
+"words": [
+[
+"førstesalen",
+"the first floor"
+],
+[
+"yderligere",
+"additional"
+],
+[
+"loftsrum",
+"loft room"
+],
+[
+"indretning",
+"furnishing"
+]
+]
+},
+{
+"da": "Kontant: 2.695.000 · Bolig m²: 180 · Grund m²: 1.075",
+"en": "Cash price: 2,695,000 · Living area m²: 180 · Plot m²: 1,075",
+"p": false,
+"note": "The price and sizes.",
+"words": [
+[
+"Kontant",
+"cash price"
+]
+]
+},
+{
+"da": "Bagerier i Aarhus",
+"en": "Bakeries in Aarhus",
+"p": true,
+"note": "A heading: a list of bakeries in Aarhus.",
+"words": [
+[
+"Bagerier",
+"bakeries"
+]
+]
+},
+{
+"da": "Nr. 24",
+"en": "No. 24",
+"p": true,
+"note": "The name of the first bakery."
+},
+{
+"da": "Graven 24, 8000 Aarhus C",
+"en": "Graven 24, 8000 Aarhus C",
+"p": false,
+"note": "The address."
+},
+{
+"da": "Ægteparret Karen Husted og Christian Funder står bag disken i bageriet Nr. 24, der er opkaldt efter adressen på Graven i Latinerkvarteret.",
+"en": "The married couple Karen Husted and Christian Funder stand behind the counter in the bakery No. 24, which is named after its address on Graven in the Latin Quarter.",
+"p": false,
+"note": "Who runs it. \"er opkaldt efter\" means \"is named after\". \"der\" means \"which\".",
+"words": [
+[
+"Ægteparret",
+"the married couple"
+],
+[
+"disken",
+"the counter"
+],
+[
+"opkaldt",
+"named"
+],
+[
+"Latinerkvarteret",
+"the Latin Quarter"
+]
+]
+},
+{
+"da": "Udvalget er ikke stort, men den lille butik er hyggelig, og smagen og konsistensen af brødet er fantastisk.",
+"en": "The selection is not big, but the little shop is cosy, and the taste and texture of the bread are fantastic.",
+"p": false,
+"note": "\"stort\" has -t because \"udvalget\" is an et-word. \"den lille butik\": \"lille\" never changes form.",
+"words": [
+[
+"Udvalget",
+"the selection"
+],
+[
+"hyggelig",
+"cosy"
+],
+[
+"konsistensen",
+"the texture"
+],
+[
+"fantastisk",
+"fantastic"
+]
+]
+},
+{
+"da": "Prøv for eksempel bollerne af spelt eller ølandshvede, brombærsnitterne eller ægteparrets version af klassiske snegle, de såkaldte kanelting.",
+"en": "Try, for example, the rolls made of spelt or Øland wheat, the blackberry slices or the couple's version of classic cinnamon swirls, the so-called 'kanelting'.",
+"p": false,
+"note": "\"Prøv\" is an imperative. \"bollerne af spelt\" uses \"af\" for what something is made of.",
+"words": [
+[
+"bollerne",
+"the rolls"
+],
+[
+"ølandshvede",
+"Øland wheat"
+],
+[
+"brombærsnitterne",
+"the blackberry slices"
+],
+[
+"såkaldte",
+"so-called"
+]
+]
+},
+{
+"da": "Nøglen til den høje kvalitet er ifølge indehaverne, at alt brød er lavet på surdej og hæver i 24 timer eller mere.",
+"en": "According to the owners, the key to the high quality is that all bread is made with sourdough and rises for 24 hours or more.",
+"p": false,
+"note": "\"ifølge\" means \"according to\". \"er lavet på\" is a passive: \"is made with\".",
+"words": [
+[
+"Nøglen",
+"the key"
+],
+[
+"kvalitet",
+"quality"
+],
+[
+"indehaverne",
+"the owners"
+],
+[
+"surdej",
+"sourdough"
+]
+]
+},
+{
+"da": "Udover brød og kager har butikken et lille udvalg af ost, marmelade og forskellige meltyper, hvis du vil gøre parret kunsten efter derhjemme.",
+"en": "Besides bread and cakes, the shop has a small selection of cheese, jam and different kinds of flour, if you want to copy the couple's craft at home.",
+"p": false,
+"note": "After \"Udover brød og kager\" the verb comes first: \"har butikken\". \"gøre en kunsten efter\" means \"copy someone's skill\".",
+"words": [
+[
+"Udover",
+"besides"
+],
+[
+"marmelade",
+"jam"
+],
+[
+"meltyper",
+"types of flour"
+],
+[
+"derhjemme",
+"at home"
+]
+]
+},
+{
+"da": "Småkagehuset",
+"en": "The Biscuit House",
+"p": true,
+"note": "The name of the next bakery.",
+"words": [
+[
+"Småkagehuset",
+"the biscuit house"
+]
+]
+},
+{
+"da": "Frederiks Allé 102, 8000 Aarhus C",
+"en": "Frederiks Allé 102, 8000 Aarhus C",
+"p": false,
+"note": "The address."
+},
+{
+"da": "Hos Småkagehuset på Frederiks Allé er det selvfølgelig først og fremmest småkager, det handler om, og de er fortræffelige.",
+"en": "At Småkagehuset on Frederiks Allé it is of course first and foremost about biscuits, and they are excellent.",
+"p": false,
+"note": "\"det er ... det handler om\" is a cleft sentence that stresses \"småkager\". \"først og fremmest\" means \"first and foremost\".",
+"words": [
+[
+"selvfølgelig",
+"of course"
+],
+[
+"fremmest",
+"foremost"
+],
+[
+"småkager",
+"biscuits"
+],
+[
+"fortræffelige",
+"excellent"
+]
+]
+},
+{
+"da": "Men den lille bager på Frederiksbjerg har mere end små, knasende kager at byde på.",
+"en": "But the little baker in Frederiksbjerg has more to offer than small, crunchy biscuits.",
+"p": false,
+"note": "\"knasende\" is a present participle used as an adjective: \"crunchy\". \"have ... at byde på\" means \"have to offer\".",
+"words": [
+[
+"knasende",
+"crunchy"
+]
+]
+},
+{
+"da": "Vi nævner i flæng stenovnsbagte brød og boller, skærekager, scones, tærter, franske vafler, tunesiske kaffebrød, muffins og marengskager.",
+"en": "To name a few at random: stone-oven-baked bread and rolls, sponge cakes, scones, tarts, French waffles, Tunisian pastries, muffins and meringue cakes.",
+"p": false,
+"note": "\"i flæng\" means \"at random\". The adjectives end in -e because the nouns are plural.",
+"words": [
+[
+"stenovnsbagte",
+"stone-oven baked"
+],
+[
+"skærekager",
+"sheet cakes"
+],
+[
+"tunesiske",
+"Tunisian"
+],
+[
+"marengskager",
+"meringue cakes"
+]
+]
+},
+{
+"da": "For slet ikke at tale om kransekage, studenterbrød og kokossnitter.",
+"en": "Not to mention marzipan ring cake, student bread and coconut slices.",
+"p": false,
+"note": "\"for slet ikke at tale om\" is a fixed phrase meaning \"not to mention\".",
+"words": [
+[
+"kransekage",
+"marzipan ring cake"
+],
+[
+"studenterbrød",
+"student bread (a pastry)"
+],
+[
+"kokossnitter",
+"coconut slices"
+]
+]
+},
+{
+"da": "Vi anbefaler, at du som minimum prøver chokoladeskærekagen og butikkens scones med æble-kanel, ligesom gulerodskagen er værd at gå efter.",
+"en": "We recommend that you at least try the chocolate cake and the shop's apple-cinnamon scones, and the carrot cake is also worth going for.",
+"p": false,
+"note": "In the \"at\" clause the adverb comes before the verb: \"at du som minimum prøver\". \"værd at\" means \"worth\".",
+"words": [
+[
+"anbefaler",
+"recommend"
+],
+[
+"chokoladeskærekagen",
+"the chocolate sheet cake"
+],
+[
+"ligesom",
+"just as"
+],
+[
+"gulerodskagen",
+"the carrot cake"
+]
+]
+},
+{
+"da": "På småkagefronten er der ingen vej uden om butikkens bland-selv-koncept med små minikager, som du blander nøjagtigt som bland-selv-slik på tanken.",
+"en": "On the biscuit front there is no way around the shop's pick-and-mix concept with small mini biscuits, which you mix exactly like pick-and-mix sweets at the petrol station.",
+"p": false,
+"note": "\"ingen vej uden om\" means \"no way around it\". \"bland-selv\" means \"pick-and-mix\".",
+"words": [
+[
+"småkagefronten",
+"the biscuit front"
+],
+[
+"bland-selv-koncept",
+"pick-and-mix concept"
+],
+[
+"nøjagtigt",
+"exactly"
+],
+[
+"tanken",
+"the petrol station"
+]
+]
+},
+{
+"da": "Så kan du jo altid løbe en tur bagefter.",
+"en": "Then you can always go for a run afterwards.",
+"p": false,
+"note": "A joke. After \"Så\" the verb comes first: \"kan du\". \"jo\" makes it sound obvious.",
+"words": [
+[
+"altid",
+"always"
+],
+[
+"bagefter",
+"afterwards"
+]
+]
+},
+{
+"da": "Briancon",
+"en": "Briancon",
+"p": true,
+"note": "The name of the next bakery."
+},
+{
+"da": "Åboulevarden 53, 8000 Aarhus C",
+"en": "Åboulevarden 53, 8000 Aarhus C",
+"p": false,
+"note": "The address."
+},
+{
+"da": "Det mørke specialbrød med navnet \"fransk ristet\", de bløde müsliboller og de afhængighedsskabende kanelsnegle er sikre hits hos midtbybageren Briancon, der også tidligere havde en filial på Åbyhøj Torv.",
+"en": "The dark speciality bread called \"French toasted\", the soft muesli rolls and the addictive cinnamon swirls are sure hits at the city-centre baker Briancon, which also used to have a branch on Åbyhøj Square.",
+"p": false,
+"note": "The best products. After \"det\" and \"de\" the adjectives take -e: \"det mørke\", \"de bløde\".",
+"words": [
+[
+"specialbrød",
+"speciality bread"
+],
+[
+"afhængighedsskabende",
+"addictive"
+],
+[
+"kanelsnegle",
+"cinnamon swirls"
+],
+[
+"filial",
+"branch"
+]
+]
+},
+{
+"da": "Vi anbefaler at smage det italienske durumbrød, der både fås som baguettes og i stor familiestørrelse.",
+"en": "We recommend tasting the Italian durum bread, which is available both as baguettes and in a large family size.",
+"p": false,
+"note": "\"fås\" is the passive of \"få\": \"is available\". \"både ... og\" means \"both ... and\".",
+"words": [
+[
+"anbefaler",
+"recommend"
+],
+[
+"italienske",
+"Italian"
+],
+[
+"durumbrød",
+"durum bread"
+],
+[
+"familiestørrelse",
+"family size"
+]
+]
+},
+{
+"da": "Briancon har et stort udvalg af champagner og holder jævnligt arrangementer, hvor du kan få en indføring i boblernes verden og smage på de våde varer.",
+"en": "Briancon has a large selection of champagnes and regularly holds events where you can get an introduction to the world of bubbles and taste the drinks.",
+"p": false,
+"note": "\"jævnligt\" means \"regularly\" and comes after the verb. \"boblernes\" is the genitive plural: \"the bubbles'\".",
+"words": [
+[
+"champagner",
+"champagnes"
+],
+[
+"jævnligt",
+"regularly"
+],
+[
+"arrangementer",
+"events"
+],
+[
+"indføring",
+"introduction"
+]
+]
+},
+{
+"da": "SchweizerBageriet",
+"en": "The Swiss Bakery",
+"p": true,
+"note": "The name of the next bakery.",
+"words": [
+[
+"SchweizerBageriet",
+"the Swiss Bakery"
+]
+]
+},
+{
+"da": "M.P. Bruuns Gade 56, 8000 Aarhus C",
+"en": "M.P. Bruuns Gade 56, 8000 Aarhus C",
+"p": false,
+"note": "The address."
+},
+{
+"da": "Adressen M. P. Bruuns Gade 56 rimer på brød og kager.",
+"en": "The address M. P. Bruuns Gade 56 is synonymous with bread and cakes.",
+"p": false,
+"note": "\"rime på\" literally means \"rhyme with\"; here it means \"go together with\".",
+"words": [
+[
+"Adressen",
+"the address"
+]
+]
+},
+{
+"da": "Lokalerne i den hvide bygning har siden 1950'erne huset SchweizerBageriet, og de seneste 14 år har den læreruddannede Tine Lajer Petersen stået i spidsen for den lækkert indrettede butik.",
+"en": "The premises in the white building have housed the Swiss Bakery since the 1950s, and for the last 14 years the teacher-trained Tine Lajer Petersen has run the beautifully decorated shop.",
+"p": false,
+"note": "\"har huset\" and \"har stået\" are perfect tenses for something still going on. \"stå i spidsen for\" means \"lead\".",
+"words": [
+[
+"Lokalerne",
+"the premises"
+],
+[
+"seneste",
+"latest, last"
+],
+[
+"læreruddannede",
+"teacher-trained"
+],
+[
+"indrettede",
+"furnished"
+]
+]
+},
+{
+"da": "Den lange historie betyder dog ikke, at det traditionsrige bageri hænger fast i fortiden.",
+"en": "The long history does not mean, however, that the traditional bakery is stuck in the past.",
+"p": false,
+"note": "\"dog\" means \"however\" and comes after the verb. \"hænge fast i\" means \"be stuck in\".",
+"words": [
+[
+"historie",
+"history"
+],
+[
+"traditionsrige",
+"traditional"
+],
+[
+"bageri",
+"bakery"
+],
+[
+"fortiden",
+"the past"
+]
+]
+},
+{
+"da": "Tine og co. finder hele tiden på nye produkter og har i tidernes løb vundet priser for blandt andet årets bedste brød og Danmarks bedste rugbrød.",
+"en": "Tine and co. are always coming up with new products and over time have won prizes for, among other things, the year's best bread and Denmark's best rye bread.",
+"p": false,
+"note": "\"finde på\" means \"come up with\". \"har vundet\" is the perfect of \"vinde\" (win).",
+"words": [
+[
+"produkter",
+"products"
+],
+[
+"vundet",
+"won"
+],
+[
+"priser",
+"prizes"
+],
+[
+"rugbrød",
+"rye bread"
+]
+]
+},
+{
+"da": "Et af de seneste skud på stammen er butikkens såkaldte schweizerdeli, hvor du kan bestille frisklavede sandwiches med alt fra håndpillede rejer til spansk sortfodsskinke til en hurtig frokost.",
+"en": "One of the latest additions is the shop's so-called Swiss deli, where you can order freshly made sandwiches with everything from hand-peeled prawns to Spanish black-foot ham for a quick lunch.",
+"p": false,
+"note": "\"et nyt skud på stammen\" is an idiom: \"a new shoot on the trunk\", meaning \"a new addition\". \"alt fra ... til\" means \"everything from ... to\".",
+"words": [
+[
+"seneste",
+"latest"
+],
+[
+"frisklavede",
+"freshly made"
+],
+[
+"håndpillede",
+"hand-peeled"
+],
+[
+"sortfodsskinke",
+"black-foot ham"
+]
+]
+},
+{
+"da": "Hvis du har problemer med gluten, kan du købe friskbagte, glutenfrie brød og boller hver onsdag i bageriet.",
+"en": "If you have problems with gluten, you can buy freshly baked, gluten-free bread and rolls every Wednesday at the bakery.",
+"p": false,
+"note": "The \"hvis\" clause is first, so the main clause starts with the verb: \"kan du\".",
+"words": [
+[
+"problemer",
+"problems"
+],
+[
+"friskbagte",
+"freshly baked"
+],
+[
+"glutenfrie",
+"gluten-free"
+],
+[
+"onsdag",
+"Wednesday"
+]
+]
+},
+{
+"da": "Mor Anna",
+"en": "Mother Anna",
+"p": true,
+"note": "The name of the last bakery."
+},
+{
+"da": "Mejlgade 5, 8000 Aarhus C",
+"en": "Mejlgade 5, 8000 Aarhus C",
+"p": false,
+"note": "The address."
+},
+{
+"da": "Den kombinerede bager og deli Mor Anna slog dørene op i Mejlgade i 2015 og har siden taget kampen op mod byens øvrige gourmetbagere.",
+"en": "The combined bakery and deli Mor Anna opened its doors in Mejlgade in 2015 and has since taken on the town's other gourmet bakers.",
+"p": false,
+"note": "\"slog dørene op\" means \"opened its doors\" (past tense). \"tage kampen op mod\" means \"compete with\".",
+"words": [
+[
+"kombinerede",
+"combined"
+],
+[
+"dørene",
+"the doors"
+],
+[
+"øvrige",
+"other"
+],
+[
+"gourmetbagere",
+"gourmet bakers"
+]
+]
+},
+{
+"da": "Arsenalet består af et velvalgt sortiment af fortrinligt brød og søde sager som tebirkes og hindbærsnitter, og butikken skyder også med skarpt med en stribe gode sandwiches, der er lige til at tage med.",
+"en": "The range consists of a well-chosen selection of excellent bread and sweet things such as poppy-seed pastries and raspberry slices, and the shop also hits the mark with a series of good sandwiches that are ready to take away.",
+"p": false,
+"note": "\"skyde med skarpt\" means \"fire live ammunition\", here \"really deliver\". \"lige til at\" means \"ready to\".",
+"words": [
+[
+"Arsenalet",
+"the arsenal"
+],
+[
+"sortiment",
+"range"
+],
+[
+"fortrinligt",
+"excellent"
+],
+[
+"hindbærsnitter",
+"raspberry slices"
+]
+]
+},
+{
+"da": "Prøv for eksempel varianten med sprængt oksebryst med tomat, røget comté-ost, forårsløg og chilimayo.",
+"en": "Try, for example, the version with salted beef brisket with tomato, smoked comté cheese, spring onions and chilli mayo.",
+"p": false,
+"note": "\"Prøv\" is an imperative. \"røget\" is a past participle used as an adjective: \"smoked\".",
+"words": [
+[
+"varianten",
+"the variant"
+],
+[
+"oksebryst",
+"beef brisket"
+],
+[
+"forårsløg",
+"spring onions"
 ]
 ]
 }
