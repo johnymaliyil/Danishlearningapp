@@ -1,6 +1,110 @@
 {
- "updated": "2026-10-15T09:10+00:00",
+ "updated": "2026-10-15T15:03+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/israel-lukker-import-af-kommercielle-varer-til-gaza",
+   "date": "2026-10-15T14:24:51+00:00",
+   "da": {
+    "title": "Israel lukker for import af kommercielle varer til Gaza",
+    "desc": ""
+   },
+   "en": {
+    "title": "Israel closes import of commercial goods to Gaza",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/togproblemer-i-hamborg-efterlader-danskere-paa-perronen",
+   "date": "2026-10-15T11:29:11+00:00",
+   "da": {
+    "title": "Togproblemer i Hamborg efterlader danskere på perronen",
+    "desc": ""
+   },
+   "en": {
+    "title": "Train problems in Hamburg leave Danes on the platform",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tidligere-nordirsk-partileder-idoemt-15-aars-faengsel-overgreb-paa-boern",
+   "date": "2026-10-15T11:16:09+00:00",
+   "da": {
+    "title": "Tidligere nordirsk partileder idømt 15 års fængsel for overgreb på børn",
+    "desc": ""
+   },
+   "en": {
+    "title": "Former Northern Irish party leader sentenced to 15 years in prison for child abuse",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tidligere-nordsjaellandsk-byraadspolitiker-doemt-hvidvask-af-millioner",
+   "date": "2026-10-15T11:10:16+00:00",
+   "da": {
+    "title": "Tidligere nordsjællandsk byrådspolitiker dømt for hvidvask af millioner",
+    "desc": ""
+   },
+   "en": {
+    "title": "Former North Zealand City Council politician convicted of money laundering of millions",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/riksdagen-stemmer-nej-til-andersson-som-statsminister",
+   "date": "2026-10-15T10:56:40+00:00",
+   "da": {
+    "title": "Riksdagen stemmer nej til Andersson som statsminister",
+    "desc": ""
+   },
+   "en": {
+    "title": "Riksdag votes no to Andersson as prime minister",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/too-good-go-udvider-sortiment",
+   "date": "2026-10-15T09:31:00+00:00",
+   "da": {
+    "title": "Too Good To Go udvider sortiment",
+    "desc": ""
+   },
+   "en": {
+    "title": "Too Good To Go expands assortment",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/otte-besaetningsmedlemmer-savnet-efter-brand-paa-skib-ved-rumaenien",
+   "date": "2026-10-15T09:28:39+00:00",
+   "da": {
+    "title": "Flere besætningsmedlemmer savnet efter brand på skib ved Rumænien",
+    "desc": ""
+   },
+   "en": {
+    "title": "Several crew members missing after fire on ship off Romania",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/hollywood-skuespillere-medvirker-i-ny-dansk-film",
+   "date": "2026-10-15T09:18:12+00:00",
+   "da": {
+    "title": "Hollywood-skuespillere medvirker i ny dansk film",
+    "desc": ""
+   },
+   "en": {
+    "title": "Hollywood actors star in new Danish film",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/politik/reels/ruslands-energi-er-europaeisk-energi",
@@ -89,110 +193,6 @@
    },
    "en": {
     "title": "Trump: I wouldn't have sent military into Greenland",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/delstater-sagsoeger-openai-vejlede-boern-i-selvskade",
-   "date": "2026-10-14T20:10:19+00:00",
-   "da": {
-    "title": "Delstater sagsøger OpenAI for at vejlede børn i selvskade",
-    "desc": ""
-   },
-   "en": {
-    "title": "States sue OpenAI for counseling children in self-harm",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/demonstranter-saetter-ild-til-albaniens-undervisningsministerium",
-   "date": "2026-10-14T15:33:36+00:00",
-   "da": {
-    "title": "Demonstranter sætter ild til Albaniens undervisningsministerium",
-    "desc": ""
-   },
-   "en": {
-    "title": "Protesters set fire to Albania's Ministry of Education",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/61-aarig-sigtet-facebook-trusler-mod-thistedborgmester",
-   "date": "2026-10-14T15:32:47+00:00",
-   "da": {
-    "title": "61-årig sigtet for Facebook-trusler mod Thistedborgmester",
-    "desc": ""
-   },
-   "en": {
-    "title": "61-year-old charged with Facebook threats against Thisted Mayor",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/midlertidig-graensekontrol-mod-tyskland-forlaenges-med-et-halvt-aar",
-   "date": "2026-10-14T14:55:28+00:00",
-   "da": {
-    "title": "Midlertidig grænsekontrol mod Tyskland forlænges med et halvt år",
-    "desc": ""
-   },
-   "en": {
-    "title": "Temporary border controls with Germany extended by half a year",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/netflix-presset-af-konkurrenter-fyrer-1-000-ansatte",
-   "date": "2026-10-14T14:41:42+00:00",
-   "da": {
-    "title": "Netflix presset af konkurrenter - fyrer 1.000 ansatte",
-    "desc": ""
-   },
-   "en": {
-    "title": "Netflix pressured by competitors - Fires 1,000 employees",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/fuld-togtrafik-over-vestfyn-genoptages-foerst-mandag",
-   "date": "2026-10-14T13:36:53+00:00",
-   "da": {
-    "title": "Fuld togtrafik over Vestfyn genoptages først mandag",
-    "desc": ""
-   },
-   "en": {
-    "title": "Full train traffic over West Funen will not resume until Monday",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/byraadsveteran-forlader-venstre-konservative",
-   "date": "2026-10-14T13:31:29+00:00",
-   "da": {
-    "title": "Byrådsveteran forlader Venstre for Konservative",
-    "desc": ""
-   },
-   "en": {
-    "title": "City Council veteran leaves Left for Conservative",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/mobil-politistation-rykkes-til-omraade-efter-overfald-paa-kvinder",
-   "date": "2026-10-14T11:49:35+00:00",
-   "da": {
-    "title": "Mobil politistation rykkes til område efter overfald på kvinder",
-    "desc": ""
-   },
-   "en": {
-    "title": "Mobile police station moved to area after assault on women",
     "desc": ""
    }
   }
