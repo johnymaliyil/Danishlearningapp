@@ -165361,5 +165361,6865 @@ PD2.LISTEN_R = {
 ]
 }
 ]
+},
+"pd3-22m-1": {
+"lines": [
+{
+"da": "Indhold",
+"en": "Contents",
+"p": true,
+"note": "A heading: the table of contents of the booklet.",
+"words": [
+[
+"Indhold",
+"contents"
+]
+]
+},
+{
+"da": "Sammenslutningen af Danske Småøer … 3",
+"en": "The Association of Danish Small Islands … 3",
+"p": true,
+"note": "A chapter title and its page number. \"Småøer\" is a compound of \"små\" (small) and \"øer\" (islands).",
+"words": [
+[
+"Sammenslutningen",
+"the association"
+],
+[
+"Småøer",
+"small islands"
+]
+]
+},
+{
+"da": "Turisme på tre danske småøer … 5",
+"en": "Tourism on three Danish small islands … 5",
+"p": false,
+"note": "A chapter title. Danes say \"på\" an island, not \"i\".",
+"words": [
+[
+"Turisme",
+"tourism"
+],
+[
+"småøer",
+"small islands"
+]
+]
+},
+{
+"da": "Anholt … 5",
+"en": "Anholt … 5",
+"p": false,
+"note": "A section title: the island Anholt, on page 5."
+},
+{
+"da": "Mandø … 6",
+"en": "Mandø … 6",
+"p": false,
+"note": "A section title: the island Mandø, on page 6."
+},
+{
+"da": "Femø … 8",
+"en": "Femø … 8",
+"p": false,
+"note": "A section title: the island Femø, on page 8."
+},
+{
+"da": "Erhverv og projekter på danske småøer … 10",
+"en": "Business and projects on Danish small islands … 10",
+"p": false,
+"note": "A chapter title. \"Erhverv\" means trade or business; it is an et-word.",
+"words": [
+[
+"Erhverv",
+"business, trades"
+],
+[
+"projekter",
+"projects"
+]
+]
+},
+{
+"da": "Erhvervsaktivitet på småøerne … 10",
+"en": "Business activity on the small islands … 10",
+"p": false,
+"note": "A section title. \"småøerne\" has the definite plural ending -ne: the small islands.",
+"words": [
+[
+"Erhvervsaktivitet",
+"business activity"
+],
+[
+"småøerne",
+"the small islands"
+]
+]
+},
+{
+"da": "Ø-pas … 10",
+"en": "Island passport … 10",
+"p": false,
+"note": "A section title: the island passport, on page 10.",
+"words": [
+[
+"Ø-pas",
+"island passport"
+]
+]
+},
+{
+"da": "Ø-specialiteter … 11",
+"en": "Island specialities … 11",
+"p": false,
+"note": "A section title: food specialities from the islands.",
+"words": [
+[
+"Ø-specialiteter",
+"island specialities"
+]
+]
+},
+{
+"da": "Grøn Boligaftale … 11",
+"en": "Green Housing Agreement … 11",
+"p": false,
+"note": "A section title. \"Boligaftale\" is a compound: bolig (housing) plus aftale (agreement).",
+"words": [
+[
+"Boligaftale",
+"housing agreement"
+]
+]
+},
+{
+"da": "Tre øboere fortæller … 12",
+"en": "Three islanders tell their stories … 12",
+"p": false,
+"note": "A chapter title. \"øboere\" is the plural of \"øbo\", a person who lives on an island.",
+"words": [
+[
+"øboere",
+"islanders"
+],
+[
+"fortæller",
+"tell"
+]
+]
+},
+{
+"da": "SAMMENSLUTNINGEN AF DANSKE SMÅØER",
+"en": "THE ASSOCIATION OF DANISH SMALL ISLANDS",
+"p": true,
+"note": "The title of the first chapter. \"-en\" on \"sammenslutningen\" makes it definite: the association.",
+"words": [
+[
+"SAMMENSLUTNINGEN",
+"the association"
+],
+[
+"SMÅØER",
+"small islands"
+]
+]
+},
+{
+"da": "Øerne i sammenslutningen",
+"en": "The islands in the association",
+"p": true,
+"note": "A heading. \"Øerne\" is the definite plural of \"ø\": the islands.",
+"words": [
+[
+"Øerne",
+"the islands"
+],
+[
+"sammenslutningen",
+"the association"
+]
+]
+},
+{
+"da": "Sammenslutningen af Danske Småøer holdt stiftende generalforsamling i 1974 på Strynø.",
+"en": "The Association of Danish Small Islands held its founding general meeting in 1974 on Strynø.",
+"p": false,
+"note": "The association was founded in 1974. \"holdt\" is the past tense of \"holde\", to hold.",
+"words": [
+[
+"holdt",
+"held"
+],
+[
+"stiftende",
+"founding"
+],
+[
+"generalforsamling",
+"general meeting"
+]
+]
+},
+{
+"da": "Sammenslutningen er 27 danske småøers interesseorganisation og er styret af øboere.",
+"en": "The association is the interest organisation of 27 Danish small islands and is run by islanders.",
+"p": false,
+"note": "It speaks for 27 islands. \"er styret af\" is a passive with \"være\" plus participle: is run by.",
+"words": [
+[
+"interesseorganisation",
+"interest organisation"
+],
+[
+"styret",
+"run, governed"
+],
+[
+"øboere",
+"islanders"
+]
+]
+},
+{
+"da": "Målet er at bevare og udvikle de små helårssamfund på øerne.",
+"en": "The goal is to preserve and develop the small year-round communities on the islands.",
+"p": false,
+"note": "This gives the main aim. After \"at\", the verbs stay in the infinitive: at bevare og udvikle.",
+"words": [
+[
+"Målet",
+"the goal"
+],
+[
+"bevare",
+"preserve"
+],
+[
+"udvikle",
+"develop"
+],
+[
+"helårssamfund",
+"year-round communities"
+]
+]
+},
+{
+"da": "Den øverste myndighed i organisationen er generalforsamlingen, som består af en valgt øbo fra hver af de 27 øers beboerforeninger.",
+"en": "The highest authority in the organisation is the general meeting, which consists of one elected islander from each of the 27 islands' residents' associations.",
+"p": false,
+"note": "This says who decides. \"øverste\" is a superlative with -e after \"den\": the highest.",
+"words": [
+[
+"øverste",
+"highest"
+],
+[
+"myndighed",
+"authority"
+],
+[
+"består",
+"consists"
+],
+[
+"beboerforeninger",
+"residents' associations"
+]
+]
+},
+{
+"da": "Fælles for øerne er, at de ikke er brofaste, ikke er selvstændige kommuner, og at de er helårssamfund, hvor der maksimalt må være 1.200 beboere.",
+"en": "What the islands have in common is that they have no bridge, are not independent municipalities, and are year-round communities with at most 1,200 residents.",
+"p": false,
+"note": "This lists what all member islands share. In an \"at\" clause, \"ikke\" comes before the verb: at de ikke er.",
+"words": [
+[
+"brofaste",
+"connected by bridge"
+],
+[
+"selvstændige",
+"independent"
+],
+[
+"kommuner",
+"municipalities"
+],
+[
+"maksimalt",
+"at most"
+]
+]
+},
+{
+"da": "De mindste øer i sammenslutningen er Hjortø og Birkholm syd for Fyn med henholdsvis 8 og 10 beboere, mens den største ø er Orø i Holbæk Fjord med 968 beboere (år 2021).",
+"en": "The smallest islands in the association are Hjortø and Birkholm south of Funen with 8 and 10 residents respectively, while the largest island is Orø in Holbæk Fjord with 968 residents (2021).",
+"p": false,
+"note": "This compares the smallest and largest islands. \"mindste\" and \"største\" are superlatives of \"lille\" and \"stor\".",
+"words": [
+[
+"mindste",
+"smallest"
+],
+[
+"henholdsvis",
+"respectively"
+],
+[
+"største",
+"largest"
+],
+[
+"beboere",
+"residents"
+]
+]
+},
+{
+"da": "Anledningen til stiftelsen var bl.a. en kommunalreform, hvor de sidste sogneråd blev nedlagt, og øerne mistede deres ’selvstændighed’.",
+"en": "One reason for the founding was a municipal reform, in which the last parish councils were closed down and the islands lost their \"independence\".",
+"p": true,
+"note": "This explains why it was started. \"blev nedlagt\" is the passive with \"blive\" in the past: were closed down.",
+"words": [
+[
+"Anledningen",
+"the reason, occasion"
+],
+[
+"kommunalreform",
+"municipal reform"
+],
+[
+"nedlagt",
+"closed down"
+],
+[
+"selvstændighed",
+"independence"
+]
+]
+},
+{
+"da": "Man ønskede at etablere et talerør for øerne.",
+"en": "People wanted to establish a voice for the islands.",
+"p": false,
+"note": "They wanted someone to speak for the islands. \"Man\" means people in general, like \"one\".",
+"words": [
+[
+"ønskede",
+"wanted"
+],
+[
+"etablere",
+"establish"
+],
+[
+"talerør",
+"mouthpiece, voice"
+]
+]
+},
+{
+"da": "Affolkningen af øerne var begyndt at tage fart i 1960’erne, og i midten af 70’erne forudså en gruppe embedsmænd i en rapport, at ø-samfund på under 500 beboere indenfor en overskuelig fremtid ville blive affolket.",
+"en": "The depopulation of the islands had begun to speed up in the 1960s, and in the mid-70s a group of officials predicted in a report that island communities of under 500 people would be emptied in the near future.",
+"p": true,
+"note": "People were leaving the islands. \"var begyndt\" is the past perfect: had begun. After \"i midten af 70'erne\" the verb comes before the subject.",
+"words": [
+[
+"Affolkningen",
+"the depopulation"
+],
+[
+"forudså",
+"predicted"
+],
+[
+"embedsmænd",
+"civil servants"
+],
+[
+"overskuelig",
+"foreseeable"
+]
+]
+},
+{
+"da": "Så det var disse udfordringer, man fra øernes side ville arbejde for at løse.",
+"en": "So these were the challenges that the islands wanted to work to solve.",
+"p": false,
+"note": "The islands wanted to fight this problem. \"det var ... man ville\" is a cleft sentence that stresses \"disse udfordringer\".",
+"words": [
+[
+"udfordringer",
+"challenges"
+],
+[
+"arbejde",
+"work"
+],
+[
+"løse",
+"solve"
+]
+]
+},
+{
+"da": "Fakta om Danmarks øer",
+"en": "Facts about Denmark's islands",
+"p": true,
+"note": "A heading. \"Danmarks\" has the genitive -s: Denmark's.",
+"words": [
+[
+"Danmarks",
+"Denmark's"
+]
+]
+},
+{
+"da": "Danmark har 1419 øer, hvoraf 443 er navngivne, og 78 er beboede.",
+"en": "Denmark has 1419 islands, of which 443 have names and 78 are inhabited.",
+"p": false,
+"note": "Most islands have no people. \"hvoraf\" means \"of which\" and joins the two parts.",
+"words": [
+[
+"hvoraf",
+"of which"
+],
+[
+"navngivne",
+"named"
+],
+[
+"beboede",
+"inhabited"
+]
+]
+},
+{
+"da": "27 af disse er medlemmer af Sammenslutningen af Danske Småøer, stiftet 1974, hvor man samarbejder om fælles ø-problemer som færgefart, vandforsyning, nødberedskab, skolebetjening m.m.",
+"en": "27 of these are members of the Association of Danish Small Islands, founded 1974, where they work together on shared island problems like ferries, water supply, emergency services, schools, etc.",
+"p": false,
+"note": "This says what the members cooperate on. \"samarbejder om\" means work together on; \"m.m.\" means and so on.",
+"words": [
+[
+"samarbejder",
+"cooperate"
+],
+[
+"færgefart",
+"ferry service"
+],
+[
+"vandforsyning",
+"water supply"
+],
+[
+"nødberedskab",
+"emergency services"
+]
+]
+},
+{
+"da": "Kilde: https://denstoredanske.lex.dk/ø, hentet 1. marts 2021",
+"en": "Source: https://denstoredanske.lex.dk/ø, retrieved 1 March 2021",
+"p": true,
+"note": "The source of the text and the date it was found online.",
+"words": [
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Befolkningsudviklingen",
+"en": "The population trend",
+"p": true,
+"note": "A heading. It is a compound: befolkning (population) plus udvikling (development).",
+"words": [
+[
+"Befolkningsudviklingen",
+"the population trend"
+]
+]
+},
+{
+"da": "Den samlede ø-befolkning ser ud til at være stabiliseret de sidste 10-15 år.",
+"en": "The total island population seems to have been stable for the last 10-15 years.",
+"p": false,
+"note": "The number of islanders has stopped falling. \"ser ud til at\" means \"seems to\".",
+"words": [
+[
+"samlede",
+"total"
+],
+[
+"ø-befolkning",
+"island population"
+],
+[
+"stabiliseret",
+"stabilised"
+]
+]
+},
+{
+"da": "Men der er store forskelle øerne imellem.",
+"en": "But there are big differences between the islands.",
+"p": false,
+"note": "The islands are not all the same. \"imellem\" can come after the noun: øerne imellem, between the islands.",
+"words": [
+[
+"forskelle",
+"differences"
+],
+[
+"imellem",
+"between"
+]
+]
+},
+{
+"da": "De øer, der har sværest ved at fastholde en helårsbefolkning, er øer med en kombination af lang sejltid, fravær af skole og ringe adgang til basal offentlig service.",
+"en": "The islands that find it hardest to keep a year-round population are islands with a long sailing time, no school and poor access to basic public services.",
+"p": false,
+"note": "This names what makes people leave. \"har svært ved\" means find it hard; \"sværest\" is the superlative.",
+"words": [
+[
+"sværest",
+"hardest"
+],
+[
+"fastholde",
+"keep, hold on to"
+],
+[
+"helårsbefolkning",
+"year-round population"
+],
+[
+"fravær",
+"absence"
+]
+]
+},
+{
+"da": "Derfor arbejder Sammenslutningen af Danske Småøer for, at de små ø-skoler bevares, ligesom der arbejdes for at få etableret passende lægedækning, så utryghed ikke tvinger folk til at flytte fra øerne.",
+"en": "So the association works to keep the small island schools, and it also works for good access to doctors, so that insecurity does not force people to move away.",
+"p": false,
+"note": "This says what the association does. After \"Derfor\" the verb comes before the subject; \"bevares\" and \"arbejdes\" are passives with -s.",
+"words": [
+[
+"bevares",
+"are kept"
+],
+[
+"lægedækning",
+"access to doctors"
+],
+[
+"utryghed",
+"insecurity"
+],
+[
+"tvinger",
+"forces"
+]
+]
+},
+{
+"da": "I perioden fra 2017-2019 har de små øer samlet set oplevet en fremgang i befolkningstallet.",
+"en": "In the period 2017-2019 the small islands as a whole saw a rise in the population.",
+"p": false,
+"note": "More people now live on the islands. \"har oplevet\" is the perfect tense; the verb comes before the subject after \"I perioden\".",
+"words": [
+[
+"perioden",
+"the period"
+],
+[
+"oplevet",
+"experienced"
+],
+[
+"fremgang",
+"increase"
+],
+[
+"befolkningstallet",
+"the population figure"
+]
+]
+},
+{
+"da": "En helt ny udvikling, som ikke er set siden 1960’erne.",
+"en": "A completely new development, not seen since the 1960s.",
+"p": false,
+"note": "A short fragment adding that this is new. \"er set\" is a passive with \"være\": has been seen.",
+"words": [
+[
+"udvikling",
+"development"
+],
+[
+"siden",
+"since"
+]
+]
+},
+{
+"da": "Befolkningssammensætningen",
+"en": "The population make-up",
+"p": true,
+"note": "A heading about the mix of ages on the islands. It is a long compound noun.",
+"words": [
+[
+"Befolkningssammensætningen",
+"the population make-up"
+]
+]
+},
+{
+"da": "Befolkningssammensætningen er forskellig fra ø til ø.",
+"en": "The make-up of the population differs from island to island.",
+"p": false,
+"note": "Each island is different. \"fra ø til ø\" is a fixed pattern without articles.",
+"words": [
+[
+"Befolkningssammensætningen",
+"the population make-up"
+],
+[
+"forskellig",
+"different"
+]
+]
+},
+{
+"da": "På nogle øer udgør aldersgruppen 50+ mere end 70 % af befolkningen, mens andre øer synes attraktive for familier med småbørn, og børnenes andel af befolkningen her ligger over landsgennemsnittet.",
+"en": "On some islands people over 50 make up more than 70% of the population, while other islands seem attractive to families with small children, and the share of children there is above the national average.",
+"p": false,
+"note": "Some islands are old, some young. After \"På nogle øer\" the verb \"udgør\" comes before the subject.",
+"words": [
+[
+"udgør",
+"make up"
+],
+[
+"aldersgruppen",
+"the age group"
+],
+[
+"attraktive",
+"attractive"
+],
+[
+"landsgennemsnittet",
+"the national average"
+]
+]
+},
+{
+"da": "For alle de små øer gælder det, at gruppen af 18-34-årige er meget svagt repræsenteret.",
+"en": "For all the small islands it is true that there are very few people aged 18-34.",
+"p": false,
+"note": "Young adults are missing. \"gælder det, at\" means \"it is true that\"; inversion after the fronted phrase.",
+"words": [
+[
+"gælder",
+"applies"
+],
+[
+"svagt",
+"weakly"
+],
+[
+"repræsenteret",
+"represented"
+]
+]
+},
+{
+"da": "Måske ikke overraskende, da det jo for denne aldersgruppe gælder om at uddanne sig og opleve verden.",
+"en": "Perhaps not surprising, since for this age group it is about getting an education and seeing the world.",
+"p": false,
+"note": "This gives the reason young people leave. \"da\" means \"since\" here, and \"jo\" means \"as we know\".",
+"words": [
+[
+"overraskende",
+"surprising"
+],
+[
+"aldersgruppe",
+"age group"
+],
+[
+"uddanne",
+"educate"
+]
+]
+},
+{
+"da": "Kilde: Bearbejdet efter https://danske-smaaoer.dk/om-os/fakta-og-historie/, hentet 1. marts 2021",
+"en": "Source: Adapted from https://danske-smaaoer.dk/om-os/fakta-og-historie/, retrieved 1 March 2021",
+"p": true,
+"note": "The source of the text. \"Bearbejdet efter\" means adapted from.",
+"words": [
+[
+"Bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Konkurrencen om Årets Ø",
+"en": "The Island of the Year competition",
+"p": true,
+"note": "A heading. \"Årets\" has the genitive -s: the year's.",
+"words": [
+[
+"Konkurrencen",
+"the competition"
+],
+[
+"Årets",
+"the year's"
+]
+]
+},
+{
+"da": "Årets Ø blev første gang kåret i 2020.",
+"en": "Island of the Year was chosen for the first time in 2020.",
+"p": false,
+"note": "The prize is new. \"blev kåret\" is the passive with \"blive\" in the past: was chosen.",
+"words": [
+[
+"kåret",
+"chosen, named"
+]
+]
+},
+{
+"da": "Alle danske øer uden fast broforbindelse kan ansøge og deltage i konkurrencen.",
+"en": "All Danish islands without a fixed bridge can apply and take part in the competition.",
+"p": false,
+"note": "This says who can join. After the modal \"kan\", both verbs are in the infinitive.",
+"words": [
+[
+"broforbindelse",
+"bridge connection"
+],
+[
+"ansøge",
+"apply"
+],
+[
+"deltage",
+"take part"
+],
+[
+"konkurrencen",
+"the competition"
+]
+]
+},
+{
+"da": "Partnerskabet om kåringen af Årets Ø er indgået mellem Sammenslutningen af Danske Småøer, Forenet Kredit og Landdistrikternes Fællesråd.",
+"en": "The partnership behind choosing Island of the Year was made between three organisations.",
+"p": false,
+"note": "This names the partners. \"er indgået\" is a passive with \"være\": has been entered into.",
+"words": [
+[
+"Partnerskabet",
+"the partnership"
+],
+[
+"kåringen",
+"the choosing"
+],
+[
+"indgået",
+"entered into"
+]
+]
+},
+{
+"da": "Det fælles ønske for partnerne er, at alle ønsker at gøre en aktiv indsats for at styrke sammenhængskraften i hele Danmark – også på de danske øer.",
+"en": "The shared wish of the partners is that they all want to make an active effort to strengthen unity in all of Denmark – also on the islands.",
+"p": false,
+"note": "This explains the purpose. \"for at\" means \"in order to\".",
+"words": [
+[
+"ønske",
+"wish"
+],
+[
+"indsats",
+"effort"
+],
+[
+"styrke",
+"strengthen"
+],
+[
+"sammenhængskraften",
+"social cohesion"
+]
+]
+},
+{
+"da": "Initiativtagerne til kåringen af Årets Ø definerer hvert år et tema, og det er et krav til dette tema, at det er aktuelt.",
+"en": "The organisers of Island of the Year choose a theme each year, and the theme must be current.",
+"p": true,
+"note": "Each year has a topic. \"et krav\" means a requirement; \"dette tema\" uses \"dette\" for an et-word.",
+"words": [
+[
+"Initiativtagerne",
+"the initiators"
+],
+[
+"definerer",
+"define"
+],
+[
+"krav",
+"requirement"
+],
+[
+"aktuelt",
+"current"
+]
+]
+},
+{
+"da": "For at blive kåret til Årets Ø skal man have fokus på dette tema i ansøgningen.",
+"en": "To be chosen as Island of the Year, you must focus on this theme in the application.",
+"p": false,
+"note": "The application must follow the theme. After \"For at blive kåret\" the verb \"skal\" comes before \"man\".",
+"words": [
+[
+"kåret",
+"chosen"
+],
+[
+"fokus",
+"focus"
+],
+[
+"ansøgningen",
+"the application"
+]
+]
+},
+{
+"da": "Komitéen for Årets Ø nominerer tre øer, der hver aflægges et besøg.",
+"en": "The committee nominates three islands, which each get a visit.",
+"p": false,
+"note": "Three islands are visited. \"aflægges\" is the passive with -s: are paid (a visit).",
+"words": [
+[
+"Komitéen",
+"the committee"
+],
+[
+"nominerer",
+"nominates"
+],
+[
+"aflægges",
+"are paid"
+],
+[
+"besøg",
+"visit"
+]
+]
+},
+{
+"da": "Vinderen af Årets Ø modtager 50.000 kr. til relevante projekter samt 20.000 kr. som et bidrag til en kåringsfest.",
+"en": "The winner receives 50,000 kroner for relevant projects plus 20,000 kroner towards a celebration party.",
+"p": false,
+"note": "This gives the prize money. \"samt\" is a formal word for \"and also\".",
+"words": [
+[
+"Vinderen",
+"the winner"
+],
+[
+"modtager",
+"receives"
+],
+[
+"relevante",
+"relevant"
+],
+[
+"kåringsfest",
+"award party"
+]
+]
+},
+{
+"da": "De to øvrige nominerede øer modtager hver en pris på 25.000 kr., som de kan bruge til udvikling af lokalsamfundet.",
+"en": "The two other nominated islands each receive a prize of 25,000 kroner to use for developing the local community.",
+"p": false,
+"note": "The runners-up also get money. \"en pris på\" means a prize of; adjectives get -e after \"de\".",
+"words": [
+[
+"øvrige",
+"other"
+],
+[
+"nominerede",
+"nominated"
+],
+[
+"udvikling",
+"development"
+],
+[
+"lokalsamfundet",
+"the local community"
+]
+]
+},
+{
+"da": "Årets Ø bliver kåret hvert år i begyndelsen af juni.",
+"en": "Island of the Year is chosen every year at the beginning of June.",
+"p": false,
+"note": "This gives the time of the award. \"bliver kåret\" is the passive with \"blive\" in the present.",
+"words": [
+[
+"kåret",
+"chosen"
+],
+[
+"begyndelsen",
+"the beginning"
+]
+]
+},
+{
+"da": "Kilde: Lettere bearbejdet efter https://danske-smaaoer.dk/wp-content/uploads/2019/12/Ø-Posten-178-skaerm.pdf, hentet 1. marts 2021",
+"en": "Source: Slightly adapted from https://danske-smaaoer.dk/wp-content/uploads/2019/12/Ø-Posten-178-skaerm.pdf, retrieved 1 March 2021",
+"p": true,
+"note": "The source of the text. \"Lettere\" here means slightly.",
+"words": [
+[
+"Lettere",
+"slightly"
+],
+[
+"bearbejdet",
+"adapted"
+]
+]
+},
+{
+"da": "TURISME PÅ 3 DANSKE SMÅØER",
+"en": "TOURISM ON 3 DANISH SMALL ISLANDS",
+"p": true,
+"note": "The title of the second chapter. Note \"på\" with islands.",
+"words": [
+[
+"TURISME",
+"tourism"
+],
+[
+"SMÅØER",
+"small islands"
+]
+]
+},
+{
+"da": "Anholt",
+"en": "Anholt",
+"p": true,
+"note": "A heading: the island Anholt."
+},
+{
+"da": "Øen",
+"en": "The island",
+"p": true,
+"note": "A heading. \"Øen\" is \"ø\" with the definite ending -en: the island."
+},
+{
+"da": "Anholt, ø midt i Kattegat, ca. 50 km nordøst for Djursland; 22 km, 136 indbyggere (2021).",
+"en": "Anholt, an island in the middle of the Kattegat, about 50 km northeast of Djursland; 22 km², 136 inhabitants (2021).",
+"p": false,
+"note": "A short encyclopedia-style fact line with no main verb. \"midt i\" means in the middle of.",
+"words": [
+[
+"nordøst",
+"northeast"
+],
+[
+"indbyggere",
+"inhabitants"
+]
+]
+},
+{
+"da": "Anholt hører til Norddjurs Kommune.",
+"en": "Anholt belongs to Norddjurs Municipality.",
+"p": false,
+"note": "This says which municipality the island is in. \"høre til\" means belong to.",
+"words": [
+[
+"hører",
+"belongs"
+],
+[
+"Kommune",
+"municipality"
+]
+]
+},
+{
+"da": "Øen består af et morænebakkeland og et marint forland, Ørkenen.",
+"en": "The island consists of hilly moraine land and a flat coastal area made by the sea, called the Desert.",
+"p": false,
+"note": "This describes the landscape. \"bestå af\" means consist of.",
+"words": [
+[
+"består",
+"consists"
+],
+[
+"morænebakkeland",
+"moraine hill land"
+],
+[
+"marint",
+"marine"
+],
+[
+"forland",
+"foreland, coastal flat"
+]
+]
+},
+{
+"da": "En stor del af øen, deriblandt hele Ørkenen, er fredet.",
+"en": "A large part of the island, including all of the Desert, is protected.",
+"p": false,
+"note": "Much of the nature is protected. \"er fredet\" is a passive with \"være\": is protected.",
+"words": [
+[
+"deriblandt",
+"including"
+],
+[
+"fredet",
+"protected"
+]
+]
+},
+{
+"da": "Turisme er øens vigtigste erhverv.",
+"en": "Tourism is the island's most important industry.",
+"p": true,
+"note": "Tourism is the main work. \"vigtigste\" is the superlative with -e after the genitive \"øens\".",
+"words": [
+[
+"Turisme",
+"tourism"
+],
+[
+"vigtigste",
+"most important"
+],
+[
+"erhverv",
+"industry"
+]
+]
+},
+{
+"da": "Ca. 50.000 turister besøger årligt Anholt, og de bor på campingpladser eller i sommerhusene uden for Anholt by.",
+"en": "About 50,000 tourists visit Anholt every year, and they stay at campsites or in the summer houses outside Anholt town.",
+"p": false,
+"note": "This says how many tourists come. The adverb \"årligt\" comes right after the verb in a main clause.",
+"words": [
+[
+"turister",
+"tourists"
+],
+[
+"årligt",
+"yearly"
+],
+[
+"campingpladser",
+"campsites"
+],
+[
+"sommerhusene",
+"the summer houses"
+]
+]
+},
+{
+"da": "Fiskeri er øens eneste primærerhverv, og fangsten sendes til Grenaa.",
+"en": "Fishing is the island's only primary industry, and the catch is sent to Grenaa.",
+"p": false,
+"note": "Fishing is the only other industry. \"sendes\" is the passive with -s: is sent.",
+"words": [
+[
+"Fiskeri",
+"fishing"
+],
+[
+"primærerhverv",
+"primary industry"
+],
+[
+"fangsten",
+"the catch"
+],
+[
+"sendes",
+"is sent"
+]
+]
+},
+{
+"da": "Kilde: https://denstoredanske.lex.dk/Anholt, hentet 26. februar 2021",
+"en": "Source: https://denstoredanske.lex.dk/Anholt, retrieved 26 February 2021",
+"p": true,
+"note": "The source of the text and the date.",
+"words": [
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Anholtfærgen",
+"en": "The Anholt ferry",
+"p": true,
+"note": "A heading. It is a compound with the definite ending: the Anholt ferry.",
+"words": [
+[
+"Anholtfærgen",
+"the Anholt ferry"
+]
+]
+},
+{
+"da": "Færgen er en aktiv medspiller i øens største erhverv – turismen.",
+"en": "The ferry plays an active part in the island's biggest industry – tourism.",
+"p": false,
+"note": "The ferry is important for tourism. \"medspiller\" means a partner or player on the same team.",
+"words": [
+[
+"Færgen",
+"the ferry"
+],
+[
+"medspiller",
+"partner, player"
+],
+[
+"turismen",
+"tourism"
+]
+]
+},
+{
+"da": "Når turistsæsonen er på sit højeste, er der travlhed på færgen ’Anholt’, der i juli måned alene transporterer 40 procent af årets totale antal passagerer.",
+"en": "When the tourist season is at its peak, the ferry \"Anholt\" is busy; in July alone it carries 40 percent of the year's passengers.",
+"p": false,
+"note": "July is the busiest month. After the \"Når\" clause, the main clause starts with the verb: er der.",
+"words": [
+[
+"turistsæsonen",
+"the tourist season"
+],
+[
+"travlhed",
+"busyness"
+],
+[
+"transporterer",
+"carries"
+],
+[
+"passagerer",
+"passengers"
+]
+]
+},
+{
+"da": "Små tre timers sejltid skal man indstille sig på, hvis man skal fra fastlandet til øen Anholt i Kattegat.",
+"en": "You must expect almost three hours of sailing if you go from the mainland to Anholt.",
+"p": false,
+"note": "The trip is long. The object comes first, so the verb \"skal\" comes before \"man\"; \"små\" here means almost.",
+"words": [
+[
+"timers",
+"hours'"
+],
+[
+"sejltid",
+"sailing time"
+],
+[
+"indstille",
+"prepare"
+],
+[
+"fastlandet",
+"the mainland"
+]
+]
+},
+{
+"da": "Færgen er hjemmehørende på Anholt, hvorfra der som hovedregel er afgang om morgenen mod Grenaa med retursejlads om eftermiddagen.",
+"en": "The ferry is based on Anholt, and as a rule it leaves in the morning for Grenaa and sails back in the afternoon.",
+"p": false,
+"note": "This gives the normal timetable. \"hvorfra\" means \"from where\"; \"om morgenen\" means in the morning, usually.",
+"words": [
+[
+"hjemmehørende",
+"based"
+],
+[
+"hovedregel",
+"general rule"
+],
+[
+"afgang",
+"departure"
+],
+[
+"retursejlads",
+"return sailing"
+]
+]
+},
+{
+"da": "I forbindelse med helligdage og i turisthøjsæsonen er der dage med dobbeltture, og tidspunkterne varierer, da sejlplanen er tilpasset flere hensyn.",
+"en": "On holidays and in high season there are days with two trips, and the times vary because the timetable is adapted to several needs.",
+"p": false,
+"note": "The timetable changes in busy times. \"da\" means \"because\" here and gives a reason.",
+"words": [
+[
+"helligdage",
+"public holidays"
+],
+[
+"turisthøjsæsonen",
+"the high tourist season"
+],
+[
+"dobbeltture",
+"double trips"
+],
+[
+"tilpasset",
+"adapted"
+]
+]
+},
+{
+"da": "Om søndagen afgår færgen fx først fra Anholt ved middagstid, så turister kan have formiddagen på øen.",
+"en": "On Sundays, for example, the ferry does not leave Anholt until noon, so tourists can have the morning on the island.",
+"p": false,
+"note": "This is an example of the special timetable. \"først\" here means \"not until\"; inversion after \"Om søndagen\".",
+"words": [
+[
+"søndagen",
+"Sunday"
+],
+[
+"afgår",
+"departs"
+],
+[
+"middagstid",
+"noon"
+],
+[
+"formiddagen",
+"the morning"
+]
+]
+},
+{
+"da": "I ydersæsonerne og om vinteren er der som hovedregel slet ingen færgeafgange om onsdagen, lørdagen og søndagen.",
+"en": "In the off-seasons and in winter there are usually no ferry departures at all on Wednesdays, Saturdays and Sundays.",
+"p": false,
+"note": "Some days have no ferry. \"slet ingen\" means none at all.",
+"words": [
+[
+"ydersæsonerne",
+"the off-seasons"
+],
+[
+"hovedregel",
+"general rule"
+],
+[
+"færgeafgange",
+"ferry departures"
+]
+]
+},
+{
+"da": "Og i april, når færgen dokkes, er øen uden færgeforbindelse en uge.",
+"en": "And in April, when the ferry is in dock for repairs, the island has no ferry for a week.",
+"p": false,
+"note": "There is a week with no ferry. \"dokkes\" is the passive with -s: is docked.",
+"words": [
+[
+"dokkes",
+"is docked"
+],
+[
+"færgeforbindelse",
+"ferry connection"
+]
+]
+},
+{
+"da": "Kilde: Lettere bearbejdet efter http://www.co-sea.dk/anholt.69233.aspx, hentet 1. marts 2021",
+"en": "Source: Slightly adapted from http://www.co-sea.dk/anholt.69233.aspx, retrieved 1 March 2021",
+"p": true,
+"note": "The source of the text and the date.",
+"words": [
+[
+"bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Naturen",
+"en": "The nature",
+"p": true,
+"note": "A heading. \"Naturen\" is the definite form, used where English just says \"nature\".",
+"words": [
+[
+"Naturen",
+"nature"
+]
+]
+},
+{
+"da": "Ørkenen dækker 4/5 af øens areal og består af aflejringer fra istiden, hævet havbund og morænebakker.",
+"en": "The Desert covers four fifths of the island and consists of deposits from the Ice Age, raised sea bed and moraine hills.",
+"p": false,
+"note": "This describes the Desert. \"dækker\" and \"består\" are present tense verbs ending in -r.",
+"words": [
+[
+"dækker",
+"covers"
+],
+[
+"aflejringer",
+"deposits"
+],
+[
+"istiden",
+"the Ice Age"
+],
+[
+"morænebakker",
+"moraine hills"
+]
+]
+},
+{
+"da": "Ørkenen har altid været meget omtalt, da en række interessante arter af fx fugle, insekter og planter har deres foretrukne levested i den særegne natur.",
+"en": "The Desert has always been much talked about, because many interesting birds, insects and plants prefer to live in this special nature.",
+"p": false,
+"note": "The Desert is famous for wildlife. \"har været\" is the perfect tense of \"være\".",
+"words": [
+[
+"omtalt",
+"talked about"
+],
+[
+"interessante",
+"interesting"
+],
+[
+"foretrukne",
+"preferred"
+],
+[
+"særegne",
+"distinctive"
+]
+]
+},
+{
+"da": "Ørkenen blev fredet allerede i 1939 og er et enestående naturområde i Danmark.",
+"en": "The Desert was protected as early as 1939 and is a unique nature area in Denmark.",
+"p": false,
+"note": "It has been protected for a long time. \"blev fredet\" is the passive in the past; \"allerede\" means already.",
+"words": [
+[
+"fredet",
+"protected"
+],
+[
+"allerede",
+"already"
+],
+[
+"enestående",
+"unique"
+],
+[
+"naturområde",
+"nature area"
+]
+]
+},
+{
+"da": "Yderst på Anholts østspids ligger Totten.",
+"en": "At the far end of Anholt's eastern tip lies Totten.",
+"p": false,
+"note": "This places Totten. The place phrase comes first, so the verb \"ligger\" comes before the subject.",
+"words": [
+[
+"Yderst",
+"furthest out"
+],
+[
+"østspids",
+"eastern tip"
+],
+[
+"ligger",
+"lies"
+]
+]
+},
+{
+"da": "Området er fredet og må ikke betrædes af mennesker.",
+"en": "The area is protected and people may not walk on it.",
+"p": false,
+"note": "People cannot go there. \"betrædes\" is the passive with -s after the modal \"må\".",
+"words": [
+[
+"Området",
+"the area"
+],
+[
+"fredet",
+"protected"
+],
+[
+"betrædes",
+"be walked on"
+],
+[
+"mennesker",
+"people"
+]
+]
+},
+{
+"da": "Det er nemlig et sælreservat, hvor Danmarks største sælkoloni med ca. 1.200 spættede sæler og enkelte gråsæler lever.",
+"en": "That is because it is a seal reserve, where Denmark's biggest seal colony lives, with about 1,200 harbour seals and a few grey seals.",
+"p": false,
+"note": "This explains the protection. \"nemlig\" gives a reason, like \"you see\".",
+"words": [
+[
+"sælreservat",
+"seal reserve"
+],
+[
+"sælkoloni",
+"seal colony"
+],
+[
+"spættede",
+"spotted"
+],
+[
+"gråsæler",
+"grey seals"
+]
+]
+},
+{
+"da": "Man kan kigge på sælerne i kikkerten fra observationshuset, som ligger lige ved Anholt Fyr.",
+"en": "You can watch the seals through the binoculars in the observation house right by Anholt Lighthouse.",
+"p": false,
+"note": "This tells you how to see the seals. \"kigge på\" means look at.",
+"words": [
+[
+"sælerne",
+"the seals"
+],
+[
+"kikkerten",
+"the binoculars"
+],
+[
+"observationshuset",
+"the observation house"
+]
+]
+},
+{
+"da": "Kilde: Lettere bearbejdet efter http://visitanholt.dk/naturen, hentet 1. marts 2021",
+"en": "Source: Slightly adapted from http://visitanholt.dk/naturen, retrieved 1 March 2021",
+"p": true,
+"note": "The source of the text and the date.",
+"words": [
+[
+"bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Mandø",
+"en": "Mandø",
+"p": true,
+"note": "A heading: the island Mandø."
+},
+{
+"da": "Øen",
+"en": "The island",
+"p": true,
+"note": "A heading: facts about the island."
+},
+{
+"da": "Mandø, ø i Vadehavet ud for Vester Vedsted sydvest for Ribe; ca. 8 km; 33 indbyggere (2021).",
+"en": "Mandø, an island in the Wadden Sea off Vester Vedsted, southwest of Ribe; about 8 km²; 33 inhabitants (2021).",
+"p": false,
+"note": "A short fact line without a verb. \"ud for\" means off the coast of.",
+"words": [
+[
+"sydvest",
+"southwest"
+],
+[
+"indbyggere",
+"inhabitants"
+]
+]
+},
+{
+"da": "Mandø er omgivet af store vader og højsander, der er begrænset af Knudedyb mod nord og Juvre Dyb mod syd.",
+"en": "Mandø is surrounded by large mud flats and high sandbanks, bordered by Knudedyb to the north and Juvre Dyb to the south.",
+"p": false,
+"note": "This describes the land around the island. \"er omgivet af\" is a passive with \"være\": is surrounded by.",
+"words": [
+[
+"omgivet",
+"surrounded"
+],
+[
+"vader",
+"mud flats"
+],
+[
+"højsander",
+"high sandbanks"
+],
+[
+"begrænset",
+"bordered"
+]
+]
+},
+{
+"da": "Mandø By på den vestlige del af øen har kirke, kro, mølle og campingplads.",
+"en": "Mandø Town in the western part of the island has a church, an inn, a mill and a campsite.",
+"p": false,
+"note": "This lists what is in the town. In lists like this Danish often leaves out \"en/et\".",
+"words": [
+[
+"vestlige",
+"western"
+],
+[
+"mølle",
+"mill"
+],
+[
+"campingplads",
+"campsite"
+]
+]
+},
+{
+"da": "Mandø Museum, Mandøhuset, er indrettet i et hus fra 1831 og viser et skipperhjem fra den tid.",
+"en": "Mandø Museum, the Mandø House, is set up in a house from 1831 and shows a sea captain's home from that time.",
+"p": false,
+"note": "This describes the museum. \"er indrettet\" is a passive with \"være\": is furnished, set up.",
+"words": [
+[
+"Mandøhuset",
+"the Mandø House"
+],
+[
+"indrettet",
+"set up"
+],
+[
+"skipperhjem",
+"captain's home"
+]
+]
+},
+{
+"da": "Kilde: http://denstoredanske.lex.dk/Mandø, hentet 12. december 2020",
+"en": "Source: http://denstoredanske.lex.dk/Mandø, retrieved 12 December 2020",
+"p": true,
+"note": "The source of the text and the date.",
+"words": [
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": " Et Vadehav er et område, der er dækket af vand ved højvande, mens der er tørt ved lavvande.",
+"en": "¹ A Wadden Sea is an area that is covered by water at high tide and dry at low tide.",
+"p": true,
+"note": "A footnote explaining the word. \"der\" is a relative pronoun here: an area that is covered.",
+"words": [
+[
+"Vadehav",
+"Wadden Sea"
+],
+[
+"område",
+"area"
+],
+[
+"dækket",
+"covered"
+],
+[
+"højvande",
+"high tide"
+]
+]
+},
+{
+"da": "De tørlagte områder kaldes vader.",
+"en": "The areas that are dry are called \"vader\" (mud flats).",
+"p": false,
+"note": "This gives the name of the dry areas. \"kaldes\" is the passive with -s: are called.",
+"words": [
+[
+"tørlagte",
+"drained, dry"
+],
+[
+"områder",
+"areas"
+],
+[
+"kaldes",
+"are called"
+]
+]
+},
+{
+"da": "Traktorbusser på Mandø",
+"en": "Tractor buses on Mandø",
+"p": true,
+"note": "A heading about the special buses to Mandø.",
+"words": [
+[
+"Traktorbusser",
+"tractor buses"
+]
+]
+},
+{
+"da": "I sommerhalvåret krydser to traktorbusser dagligt vaden til og fra Mandø.",
+"en": "In the summer half of the year two tractor buses cross the mud flats to and from Mandø every day.",
+"p": false,
+"note": "This explains how you get there. The time phrase comes first, so the verb \"krydser\" comes before the subject.",
+"words": [
+[
+"sommerhalvåret",
+"the summer half-year"
+],
+[
+"krydser",
+"cross"
+],
+[
+"traktorbusser",
+"tractor buses"
+],
+[
+"dagligt",
+"daily"
+]
+]
+},
+{
+"da": "Det kan anbefales at køre til Mandø med traktorbusserne.",
+"en": "Taking the tractor buses to Mandø is recommended.",
+"p": false,
+"note": "This is a tip. \"kan anbefales\" is a modal plus the passive with -s: can be recommended.",
+"words": [
+[
+"anbefales",
+"be recommended"
+],
+[
+"traktorbusserne",
+"the tractor buses"
+]
+]
+},
+{
+"da": "Det er i sig selv en stor oplevelse, og så kommer man til og fra Mandø i god behold.",
+"en": "It is a great experience in itself, and you get to and from Mandø safely.",
+"p": false,
+"note": "The trip is fun and safe. \"i god behold\" is a fixed phrase meaning safe and sound.",
+"words": [
+[
+"oplevelse",
+"experience"
+],
+[
+"behold",
+"safety"
+]
+]
+},
+{
+"da": "De to selskaber er stort set identiske, men deres afgangstider varierer.",
+"en": "The two companies are almost the same, but their departure times vary.",
+"p": false,
+"note": "There are two companies. \"stort set\" means more or less.",
+"words": [
+[
+"selskaber",
+"companies"
+],
+[
+"identiske",
+"identical"
+],
+[
+"afgangstider",
+"departure times"
+],
+[
+"varierer",
+"vary"
+]
+]
+},
+{
+"da": "Mandø Kro og Traktorbusser tager dig med til Mandø, en naturperle midt i Nationalpark Vadehavet.",
+"en": "Mandø Inn and Tractor Buses take you to Mandø, a natural gem in the middle of the Wadden Sea National Park.",
+"p": true,
+"note": "This is an advert for one company. \"tage med\" means take along.",
+"words": [
+[
+"naturperle",
+"natural gem"
+],
+[
+"Nationalpark",
+"national park"
+]
+]
+},
+{
+"da": "Turen til og fra øen er gennem vadehavet.",
+"en": "The trip to and from the island goes through the Wadden Sea.",
+"p": false,
+"note": "The bus drives across the sea floor. \"Turen\" is definite: the trip.",
+"words": [
+[
+"vadehavet",
+"the Wadden Sea"
+]
+]
+},
+{
+"da": "Der er afgang fra Mandøvej 31, 6760 Ribe.",
+"en": "Departure is from Mandøvej 31, 6760 Ribe.",
+"p": false,
+"note": "This gives the address. \"Der er afgang fra\" is a typical phrase for where a trip starts.",
+"words": [
+[
+"afgang",
+"departure"
+]
+]
+},
+{
+"da": "Mandø Kro og Traktorbusser tilbyder også guidede gåture i Mandø by.",
+"en": "Mandø Inn and Tractor Buses also offer guided walks in Mandø town.",
+"p": false,
+"note": "They also offer walks. \"også\" comes right after the verb in a main clause.",
+"words": [
+[
+"tilbyder",
+"offer"
+],
+[
+"guidede",
+"guided"
+],
+[
+"gåture",
+"walks"
+]
+]
+},
+{
+"da": "På rundturen bliver der fortalt historier og anekdoter om Mandø og om livet på øen i gamle dage.",
+"en": "On the tour, stories and anecdotes are told about Mandø and life on the island in the old days.",
+"p": false,
+"note": "The guide tells old stories. \"bliver der fortalt\" is a passive with \"blive\": stories are told.",
+"words": [
+[
+"rundturen",
+"the tour"
+],
+[
+"fortalt",
+"told"
+],
+[
+"anekdoter",
+"anecdotes"
+]
+]
+},
+{
+"da": "Turen varer ca. 1½ time.",
+"en": "The trip lasts about 1½ hours.",
+"p": false,
+"note": "This gives the length. \"vare\" means to last, not to be goods.",
+"words": [
+[
+"varer",
+"lasts"
+]
+]
+},
+{
+"da": "Mandøbussen har i mere end 30 år kørt gæster til og fra Mandø.",
+"en": "The Mandø bus has driven guests to and from Mandø for more than 30 years.",
+"p": true,
+"note": "The second company is old. \"har kørt\" is the perfect tense, used for something still going on.",
+"words": [
+[
+"Mandøbussen",
+"the Mandø bus"
+],
+[
+"kørt",
+"driven"
+]
+]
+},
+{
+"da": "Turen går gennem Nationalpark Vadehavet og er en helt unik oplevelse.",
+"en": "The trip goes through the Wadden Sea National Park and is a truly unique experience.",
+"p": false,
+"note": "This praises the trip. \"helt\" here means completely.",
+"words": [
+[
+"Nationalpark",
+"national park"
+],
+[
+"oplevelse",
+"experience"
+]
+]
+},
+{
+"da": "Mandøbussen er en specialbygget traktorbus, som transporterer turister og fastboende til og fra vadehavsøen Mandø.",
+"en": "The Mandø bus is a specially built tractor bus that carries tourists and residents to and from the Wadden Sea island Mandø.",
+"p": false,
+"note": "This describes the bus. \"som\" is a relative pronoun: a bus that carries.",
+"words": [
+[
+"specialbygget",
+"specially built"
+],
+[
+"transporterer",
+"carries"
+],
+[
+"fastboende",
+"permanent residents"
+],
+[
+"vadehavsøen",
+"the Wadden Sea island"
+]
+]
+},
+{
+"da": "Bussens afgangstider er afhængige af tidevandet (ved normalt højvande er der 1,75 meter vand over Ebbevejen), men i sommerhalvåret kører den 1-2 gange om dagen (om vinteren efter aftale).",
+"en": "The bus times depend on the tide, but in summer it runs 1-2 times a day (in winter by arrangement).",
+"p": false,
+"note": "The tide decides the times. \"afhængige af\" means dependent on; the adjective gets -e because the subject is plural.",
+"words": [
+[
+"afgangstider",
+"departure times"
+],
+[
+"afhængige",
+"dependent"
+],
+[
+"tidevandet",
+"the tide"
+],
+[
+"sommerhalvåret",
+"the summer half-year"
+]
+]
+},
+{
+"da": "Der er afgang fra parkeringspladsen vest for Vester Vedsted, ved Vadehavscentret.",
+"en": "Departure is from the car park west of Vester Vedsted, by the Wadden Sea Centre.",
+"p": false,
+"note": "This gives the starting point. \"vest for\" means west of.",
+"words": [
+[
+"afgang",
+"departure"
+],
+[
+"parkeringspladsen",
+"the car park"
+],
+[
+"Vadehavscentret",
+"the Wadden Sea Centre"
+]
+]
+},
+{
+"da": "Turen varer ca. 40 minutter.",
+"en": "The trip lasts about 40 minutes.",
+"p": false,
+"note": "This gives the length. \"ca.\" means about.",
+"words": [
+[
+"minutter",
+"minutes"
+]
+]
+},
+{
+"da": "Mandøbussen arrangerer også køreture rundt på Mandø.",
+"en": "The Mandø bus also arranges drives around Mandø.",
+"p": true,
+"note": "The company also offers tours. \"rundt på\" means around on.",
+"words": [
+[
+"arrangerer",
+"arranges"
+],
+[
+"køreture",
+"drives"
+]
+]
+},
+{
+"da": "Turen foregår i traktorbussen, så ældre og dårligt gående ligeledes kan se øen.",
+"en": "The tour is in the tractor bus, so older people and people who walk badly can also see the island.",
+"p": false,
+"note": "The tour is good for people who cannot walk far. \"så\" means \"so that\" here.",
+"words": [
+[
+"foregår",
+"takes place"
+],
+[
+"traktorbussen",
+"the tractor bus"
+],
+[
+"ligeledes",
+"also, likewise"
+]
+]
+},
+{
+"da": "Under turen bliver der fortalt om Mandøs historie, ø-liv, tidevandet, storme og meget mere.",
+"en": "During the tour you hear about Mandø's history, island life, the tide, storms and much more.",
+"p": false,
+"note": "This lists the topics. \"bliver der fortalt\" is a passive: there is talk about.",
+"words": [
+[
+"historie",
+"history"
+],
+[
+"tidevandet",
+"the tide"
+],
+[
+"storme",
+"storms"
+]
+]
+},
+{
+"da": "Turen varer ca. 35 min.",
+"en": "The trip lasts about 35 minutes.",
+"p": false,
+"note": "This gives the length. \"min.\" is short for minutter."
+},
+{
+"da": "Kilde: Lettere bearbejdet efter https://www.visitribeesbjerg.dk/ribe-esbjerg/oplev-vadehavet/transport-til-mando, hentet 1. marts 2021",
+"en": "Source: Slightly adapted from https://www.visitribeesbjerg.dk/ribe-esbjerg/oplev-vadehavet/transport-til-mando, retrieved 1 March 2021",
+"p": true,
+"note": "The source of the text and the date.",
+"words": [
+[
+"bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Østerstur i Vadehavet",
+"en": "Oyster trip in the Wadden Sea",
+"p": true,
+"note": "A heading. \"Østerstur\" is a compound: østers (oysters) plus tur (trip).",
+"words": [
+[
+"Østerstur",
+"oyster trip"
+],
+[
+"Vadehavet",
+"the Wadden Sea"
+]
+]
+},
+{
+"da": "Man kan tage med en naturvejleder på østerstur og samle stillehavsøsters i Vadehavet.",
+"en": "You can go with a nature guide on an oyster trip and collect Pacific oysters in the Wadden Sea.",
+"p": false,
+"note": "This describes the trip. After \"kan\" both verbs stay in the infinitive: tage, samle.",
+"words": [
+[
+"naturvejleder",
+"nature guide"
+],
+[
+"østerstur",
+"oyster trip"
+],
+[
+"stillehavsøsters",
+"Pacific oysters"
+]
+]
+},
+{
+"da": "Det anbefales kun at samle østers på den kølige tid af året, dvs. at sæsonen starter midt i oktober, når vandtemperaturen er faldet, og går frem til foråret – til udgangen af april.",
+"en": "It is recommended to collect oysters only in the cool part of the year, from mid-October until the end of April.",
+"p": false,
+"note": "This gives the safe season. \"anbefales\" is the passive with -s; \"er faldet\" is the perfect with \"være\".",
+"words": [
+[
+"anbefales",
+"is recommended"
+],
+[
+"kølige",
+"cool"
+],
+[
+"vandtemperaturen",
+"the water temperature"
+],
+[
+"udgangen",
+"the end"
+]
+]
+},
+{
+"da": "Ved at fravælge de varmeste måneder minimerer man risikoen for at østersene indeholder giftige alger.",
+"en": "By avoiding the warmest months you reduce the risk that the oysters contain poisonous algae.",
+"p": false,
+"note": "This explains why. \"Ved at\" plus infinitive means \"by doing\"; then the verb comes before \"man\".",
+"words": [
+[
+"fravælge",
+"opt out of"
+],
+[
+"minimerer",
+"minimise"
+],
+[
+"risikoen",
+"the risk"
+],
+[
+"giftige",
+"poisonous"
+]
+]
+},
+{
+"da": "At spise østers indsamlet i Vadehavet foregår på eget ansvar, uanset om man er på tur med en naturvejleder eller er ude på egen hånd.",
+"en": "Eating oysters collected in the Wadden Sea is at your own risk, whether you go with a guide or on your own.",
+"p": false,
+"note": "You are responsible yourself. \"på eget ansvar\" means at your own risk; \"uanset om\" means no matter whether.",
+"words": [
+[
+"indsamlet",
+"collected"
+],
+[
+"ansvar",
+"responsibility"
+],
+[
+"uanset",
+"regardless"
+],
+[
+"naturvejleder",
+"nature guide"
+]
+]
+},
+{
+"da": "Kilder: Lettere bearbejdet efter https://www.visitribeesbjerg.dk/ribe-esbjerg/planlaeg-ferien/oesterssafari-i-vadehavet-gdk1111751, hentet 1. marts 2021",
+"en": "Sources: Slightly adapted from https://www.visitribeesbjerg.dk/ribe-esbjerg/planlaeg-ferien/oesterssafari-i-vadehavet-gdk1111751, retrieved 1 March 2021",
+"p": true,
+"note": "The source of the text and the date.",
+"words": [
+[
+"bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Femø",
+"en": "Femø",
+"p": true,
+"note": "A heading: the island Femø."
+},
+{
+"da": "Øen",
+"en": "The island",
+"p": true,
+"note": "A heading: facts about the island."
+},
+{
+"da": "Femø, ø i Smålandsfarvandet; ca. 11 km; 112 indbyggere (2021).",
+"en": "Femø, an island in the Småland waters; about 11 km²; 112 inhabitants (2021).",
+"p": false,
+"note": "A short fact line with no verb, like in an encyclopedia.",
+"words": [
+[
+"Smålandsfarvandet",
+"the Småland waters"
+],
+[
+"indbyggere",
+"inhabitants"
+]
+]
+},
+{
+"da": "Moræneøen ligger i Lolland Kommune og har færgeforbindelse til Kragenæs på Lolland.",
+"en": "The moraine island lies in Lolland Municipality and has a ferry to Kragenæs on Lolland.",
+"p": false,
+"note": "This places the island. \"har færgeforbindelse til\" means has a ferry connection to.",
+"words": [
+[
+"Moræneøen",
+"the moraine island"
+],
+[
+"Kommune",
+"municipality"
+],
+[
+"færgeforbindelse",
+"ferry connection"
+]
+]
+},
+{
+"da": "Øen er tvedelt af en smal øst-vestgående dal og når i Issemose Bjerg på den sydlige del op på 22 meter over havets overflade.",
+"en": "The island is split in two by a narrow east-west valley, and in the south it reaches 22 metres above sea level at Issemose Bjerg.",
+"p": false,
+"note": "This describes the landscape. \"er tvedelt\" is a passive with \"være\": is divided in two.",
+"words": [
+[
+"tvedelt",
+"divided in two"
+],
+[
+"øst-vestgående",
+"east-west"
+],
+[
+"sydlige",
+"southern"
+],
+[
+"overflade",
+"surface"
+]
+]
+},
+{
+"da": "Jorden er frugtbar.",
+"en": "The soil is fertile.",
+"p": false,
+"note": "A short fact about the soil. \"Jorden\" here means the soil, not the planet.",
+"words": [
+[
+"frugtbar",
+"fertile"
+]
+]
+},
+{
+"da": "Hovedparten af bebyggelsen på øen er samlet i landsbyerne Nørreby og Sønderby på øens midte, begge med et stjerneformet udskiftningsmønster.",
+"en": "Most of the buildings are in the villages Nørreby and Sønderby in the middle of the island, both with a star-shaped field pattern.",
+"p": false,
+"note": "This says where people live. \"Hovedparten af\" means most of.",
+"words": [
+[
+"Hovedparten",
+"the main part"
+],
+[
+"bebyggelsen",
+"the buildings"
+],
+[
+"landsbyerne",
+"the villages"
+],
+[
+"stjerneformet",
+"star-shaped"
+]
+]
+},
+{
+"da": "Et lille sommerhusområde ligger på øens østlige del.",
+"en": "A small summer house area lies in the eastern part of the island.",
+"p": false,
+"note": "This places the holiday homes. \"lille\" does not change after \"et\".",
+"words": [
+[
+"sommerhusområde",
+"summer house area"
+],
+[
+"østlige",
+"eastern"
+]
+]
+},
+{
+"da": "Kilde: http://denstoredanske.lex.dk/Femø, hentet 13. december 2020",
+"en": "Source: http://denstoredanske.lex.dk/Femø, retrieved 13 December 2020",
+"p": true,
+"note": "The source of the text and the date.",
+"words": [
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Femø Kvindelejr",
+"en": "Femø Women's Camp",
+"p": true,
+"note": "A heading. \"Kvindelejr\" is a compound: kvinde (woman) plus lejr (camp).",
+"words": [
+[
+"Kvindelejr",
+"women's camp"
+]
+]
+},
+{
+"da": "Femø Kvindelejr blev første gang afholdt 1971.",
+"en": "Femø Women's Camp was held for the first time in 1971.",
+"p": false,
+"note": "This gives the start year. \"blev afholdt\" is the passive with \"blive\" in the past: was held.",
+"words": [
+[
+"afholdt",
+"held"
+]
+]
+},
+{
+"da": "Ø-lejren var åben for kvinder og børn, dog måtte drenge over 12 år ikke deltage.",
+"en": "The island camp was open to women and children, but boys over 12 could not take part.",
+"p": false,
+"note": "This says who could come. \"dog\" means however; \"måtte ikke\" means were not allowed to.",
+"words": [
+[
+"Ø-lejren",
+"the island camp"
+],
+[
+"kvinder",
+"women"
+],
+[
+"deltage",
+"take part"
+]
+]
+},
+{
+"da": "Formålet med lejren var at være et forum for politiske drøftelser og et frirum for alle kvinder.",
+"en": "The purpose of the camp was to be a forum for political discussions and a free space for all women.",
+"p": false,
+"note": "This gives the aim of the camp. \"Formålet med\" means the purpose of.",
+"words": [
+[
+"Formålet",
+"the purpose"
+],
+[
+"politiske",
+"political"
+],
+[
+"drøftelser",
+"discussions"
+],
+[
+"frirum",
+"free space"
+]
+]
+},
+{
+"da": "Lejren er siden blevet afholdt hvert år og varer 8 uger.",
+"en": "The camp has been held every year since then and lasts 8 weeks.",
+"p": false,
+"note": "It still happens every year. \"er blevet afholdt\" is the passive in the perfect tense.",
+"words": [
+[
+"afholdt",
+"held"
+],
+[
+"varer",
+"lasts"
+]
+]
+},
+{
+"da": "Femølejrene blev arrangeret og planlagt af Femøgruppen, der var en gruppe i rødstrømpebevægelsen.",
+"en": "The Femø camps were organised and planned by the Femø group, a group in the Redstocking movement.",
+"p": false,
+"note": "This says who ran the camps. \"blev arrangeret og planlagt\" is a passive in the past.",
+"words": [
+[
+"Femølejrene",
+"the Femø camps"
+],
+[
+"arrangeret",
+"organised"
+],
+[
+"planlagt",
+"planned"
+],
+[
+"rødstrømpebevægelsen",
+"the Redstocking movement"
+]
+]
+},
+{
+"da": "På lejren var der dog ingen formel ledelse.",
+"en": "At the camp, however, there was no formal leadership.",
+"p": false,
+"note": "There were no leaders. After \"På lejren\" the verb \"var\" comes before \"der\".",
+"words": [
+[
+"formel",
+"formal"
+],
+[
+"ledelse",
+"leadership"
+]
+]
+},
+{
+"da": "Større beslutninger blev taget i fællesskab på stormøder i lejren.",
+"en": "Bigger decisions were made together at large meetings in the camp.",
+"p": false,
+"note": "Everyone decided together. \"blev taget\" is a passive in the past: were made.",
+"words": [
+[
+"beslutninger",
+"decisions"
+],
+[
+"fællesskab",
+"community, together"
+],
+[
+"stormøder",
+"large meetings"
+]
+]
+},
+{
+"da": "Udover fælles madlavning og afslapning bestod aktiviteterne af kurser og workshops, der spændte fra selvundersøgelse til akademiske oplæg om kvindelitteratur og ligeløn.",
+"en": "Besides cooking together and relaxing, the activities were courses and workshops, from self-examination to academic talks on women's literature and equal pay.",
+"p": false,
+"note": "This lists the activities. After the fronted \"Udover...\", the verb \"bestod\" comes before the subject.",
+"words": [
+[
+"madlavning",
+"cooking"
+],
+[
+"afslapning",
+"relaxation"
+],
+[
+"selvundersøgelse",
+"self-examination"
+],
+[
+"ligeløn",
+"equal pay"
+]
+]
+},
+{
+"da": "I starten af 1980’erne var der mange diskussioner om lejrens fremtid.",
+"en": "In the early 1980s there were many discussions about the camp's future.",
+"p": true,
+"note": "The camp began to change. Inversion: the time phrase comes first, then \"var der\".",
+"words": [
+[
+"starten",
+"the start"
+],
+[
+"diskussioner",
+"discussions"
+],
+[
+"fremtid",
+"future"
+]
+]
+},
+{
+"da": "De drejede sig især om, hvorvidt lejren skulle blive ved med at være så politisk præget, og om hvor fælles lejrlivet skulle foregå.",
+"en": "They were mainly about whether the camp should stay so political, and how communal camp life should be.",
+"p": false,
+"note": "This gives the topics of debate. \"dreje sig om\" means be about; \"hvorvidt\" is a formal word for whether.",
+"words": [
+[
+"drejede",
+"turned"
+],
+[
+"hvorvidt",
+"whether"
+],
+[
+"præget",
+"marked, shaped"
+],
+[
+"lejrlivet",
+"camp life"
+]
+]
+},
+{
+"da": "Det endte med, at det politiske indhold blev mindre og mindre, at der kom et øget fokus på personlig udvikling, og at Femøgruppen i 1984 løsrev sig fra rødstrømpebevægelsen og blev en selvstændig institution.",
+"en": "In the end the politics became smaller, there was more focus on personal development, and in 1984 the Femø group broke away and became independent.",
+"p": false,
+"note": "This tells how it ended. \"mindre og mindre\" means less and less; three \"at\" clauses follow \"endte med\".",
+"words": [
+[
+"indhold",
+"content"
+],
+[
+"personlig",
+"personal"
+],
+[
+"løsrev",
+"broke away"
+],
+[
+"selvstændig",
+"independent"
+]
+]
+},
+{
+"da": "Kilde: Lettere bearbejdet efter https://danmarkshistorien.dk/leksikon-og-kilder/vis/materiale/femoe-kvindelejr-1971/, hentet 1. marts 2021",
+"en": "Source: Slightly adapted from https://danmarkshistorien.dk/leksikon-og-kilder/vis/materiale/femoe-kvindelejr-1971/, retrieved 1 March 2021",
+"p": true,
+"note": "The source of the text and the date.",
+"words": [
+[
+"bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Femø jazzfestival",
+"en": "Femø jazz festival",
+"p": true,
+"note": "A heading about the music festival on Femø.",
+"words": [
+[
+"jazzfestival",
+"jazz festival"
+]
+]
+},
+{
+"da": "I 2019 fejrede festivalen 50-års jubilæum, og dermed er Femø Jazz Festival en af landets ældste festivaler med overnatning.",
+"en": "In 2019 the festival celebrated its 50th anniversary, so it is one of the country's oldest festivals where people stay overnight.",
+"p": false,
+"note": "The festival is very old. After \"I 2019\" and \"dermed\", the verb comes before the subject.",
+"words": [
+[
+"fejrede",
+"celebrated"
+],
+[
+"jubilæum",
+"anniversary"
+],
+[
+"ældste",
+"oldest"
+],
+[
+"overnatning",
+"overnight stay"
+]
+]
+},
+{
+"da": "Festivalen voksede støt i 1970’erne, og Femø Kros lokaler blev for trange.",
+"en": "The festival grew steadily in the 1970s, and the rooms at Femø Inn became too small.",
+"p": false,
+"note": "It needed more space. \"voksede\" is the past tense of \"vokse\", to grow.",
+"words": [
+[
+"Festivalen",
+"the festival"
+],
+[
+"voksede",
+"grew"
+],
+[
+"lokaler",
+"premises"
+],
+[
+"trange",
+"cramped"
+]
+]
+},
+{
+"da": "Festivalen flyttede derfor til en naturskøn strandeng, hvor den også ligger i dag.",
+"en": "So the festival moved to a beautiful seaside meadow, where it still is today.",
+"p": false,
+"note": "This explains the move. \"derfor\" comes after the verb in a main clause: flyttede derfor.",
+"words": [
+[
+"flyttede",
+"moved"
+],
+[
+"naturskøn",
+"scenic"
+],
+[
+"strandeng",
+"seaside meadow"
+]
+]
+},
+{
+"da": "Her kan gæsterne slå telte op eller parkere med campingvogne.",
+"en": "Here guests can put up tents or park with caravans.",
+"p": false,
+"note": "Guests sleep at the site. \"slå op\" is a particle verb: put up.",
+"words": [
+[
+"gæsterne",
+"the guests"
+],
+[
+"telte",
+"tents"
+],
+[
+"parkere",
+"park"
+],
+[
+"campingvogne",
+"caravans"
+]
+]
+},
+{
+"da": "De seneste år har festivalen haft ca. 1.000 gæster, inklusive frivillige og musikere.",
+"en": "In recent years the festival has had about 1,000 guests, including volunteers and musicians.",
+"p": true,
+"note": "This gives the size. \"har haft\" is the perfect tense of \"have\".",
+"words": [
+[
+"seneste",
+"latest, recent"
+],
+[
+"inklusive",
+"including"
+],
+[
+"frivillige",
+"volunteers"
+],
+[
+"musikere",
+"musicians"
+]
+]
+},
+{
+"da": "Gæster og jazzmusikere fra ind- og udland besøger øen, og de fragtes alle til festivalen med færge.",
+"en": "Guests and jazz musicians from Denmark and abroad visit the island, and they are all carried there by ferry.",
+"p": false,
+"note": "Everyone comes by ferry. \"fragtes\" is the passive with -s: are transported.",
+"words": [
+[
+"jazzmusikere",
+"jazz musicians"
+],
+[
+"udland",
+"abroad"
+],
+[
+"fragtes",
+"are transported"
+]
+]
+},
+{
+"da": "Femø Jazz Festival har rødder i den traditionelle jazz, og derfor er det hvert år musikere fra New Orleans, der udgør ét af hovednavnene og underviser de unge talenter på Femø Masterclass.",
+"en": "The festival has roots in traditional jazz, so every year musicians from New Orleans are one of the main acts and teach young talents.",
+"p": false,
+"note": "This explains the link to New Orleans. After \"derfor\" the verb \"er\" comes before \"det\".",
+"words": [
+[
+"rødder",
+"roots"
+],
+[
+"traditionelle",
+"traditional"
+],
+[
+"hovednavnene",
+"the headliners"
+],
+[
+"underviser",
+"teach"
+]
+]
+},
+{
+"da": "De senere år er paletten blevet bredere inden for jazz-genren, når man kigger musikprogrammet igennem, dog uden at give slip på forkærligheden for den traditionelle jazz.",
+"en": "In recent years the range of jazz styles has become wider, but without letting go of the love for traditional jazz.",
+"p": false,
+"note": "The music has become more varied. \"er blevet bredere\" is the perfect with a comparative adjective.",
+"words": [
+[
+"paletten",
+"the range"
+],
+[
+"bredere",
+"wider"
+],
+[
+"musikprogrammet",
+"the music programme"
+],
+[
+"forkærligheden",
+"the fondness"
+]
+]
+},
+{
+"da": "Kilde: Lettere bearbejdet efter https://femoejazz.dk/om-festivalen/, hentet 1. marts 2021",
+"en": "Source: Slightly adapted from https://femoejazz.dk/om-festivalen/, retrieved 1 March 2021",
+"p": true,
+"note": "The source of the text and the date.",
+"words": [
+[
+"bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "ERHVERV OG PROJEKTER PÅ DANSKE SMÅØER",
+"en": "BUSINESS AND PROJECTS ON DANISH SMALL ISLANDS",
+"p": true,
+"note": "The title of the third chapter.",
+"words": [
+[
+"ERHVERV",
+"business"
+],
+[
+"PROJEKTER",
+"projects"
+]
+]
+},
+{
+"da": "Erhvervsaktivitet på småøerne",
+"en": "Business activity on the small islands",
+"p": true,
+"note": "A heading about work on the islands.",
+"words": [
+[
+"Erhvervsaktivitet",
+"business activity"
+],
+[
+"småøerne",
+"the small islands"
+]
+]
+},
+{
+"da": "Det siger sig selv, at de små øer ikke har de store virksomheder, der kan tilbyde en bred vifte af jobmuligheder.",
+"en": "It goes without saying that the small islands do not have big companies that can offer a wide range of jobs.",
+"p": false,
+"note": "There are few big employers. \"Det siger sig selv\" means it goes without saying; \"ikke\" comes before the verb in the \"at\" clause.",
+"words": [
+[
+"virksomheder",
+"companies"
+],
+[
+"tilbyde",
+"offer"
+],
+[
+"vifte",
+"range"
+],
+[
+"jobmuligheder",
+"job opportunities"
+]
+]
+},
+{
+"da": "Den erhvervsaktive øbo arbejder typisk med egen virksomhed eller i offentlige jobs som ansat på færgen, skolen, i kirken eller hjemmeplejen.",
+"en": "A working islander typically has their own business or a public job on the ferry, at the school, in the church or in home care.",
+"p": false,
+"note": "This says where islanders work. Note \"på færgen\" but \"i kirken\": prepositions vary.",
+"words": [
+[
+"erhvervsaktive",
+"working"
+],
+[
+"virksomhed",
+"business"
+],
+[
+"offentlige",
+"public"
+],
+[
+"hjemmeplejen",
+"home care"
+]
+]
+},
+{
+"da": "Undtagelsen er dog øen Fur i Limfjorden, der har flere større virksomheder.",
+"en": "The exception, however, is the island Fur in the Limfjord, which has several larger companies.",
+"p": false,
+"note": "Fur is different. \"større\" is the comparative of \"stor\" and here means fairly big.",
+"words": [
+[
+"Undtagelsen",
+"the exception"
+],
+[
+"større",
+"larger"
+],
+[
+"virksomheder",
+"companies"
+]
+]
+},
+{
+"da": "Traditionelle erhverv som landbrug, håndværk, handel og fiskeri spiller stadig en vis rolle på de små øer, ligesom der er jobs inden for turismeerhvervet.",
+"en": "Traditional trades like farming, crafts, trade and fishing still play some role on the small islands, and there are also jobs in tourism.",
+"p": true,
+"note": "Old jobs still exist. \"spiller en rolle\" means plays a part; \"ligesom\" means just as.",
+"words": [
+[
+"Traditionelle",
+"traditional"
+],
+[
+"landbrug",
+"farming"
+],
+[
+"håndværk",
+"crafts"
+],
+[
+"turismeerhvervet",
+"the tourism industry"
+]
+]
+},
+{
+"da": "Men stadig flere arbejder også som fx freelancejournalister, oversættere eller konsulenter.",
+"en": "But more and more people also work as, for example, freelance journalists, translators or consultants.",
+"p": false,
+"note": "New kinds of jobs are growing. \"stadig flere\" means more and more.",
+"words": [
+[
+"freelancejournalister",
+"freelance journalists"
+],
+[
+"oversættere",
+"translators"
+],
+[
+"konsulenter",
+"consultants"
+]
+]
+},
+{
+"da": "Der er i de seneste år kommet hurtigt internet på de fleste øer, og netop dette har været afgørende for, at flere nu arbejder som selvstændige fra en lille ø.",
+"en": "In recent years fast internet has come to most islands, and this has been decisive in letting more people work for themselves from a small island.",
+"p": false,
+"note": "Fast internet helps. \"er kommet\" is the perfect with \"være\" because \"komme\" is a verb of movement.",
+"words": [
+[
+"seneste",
+"latest"
+],
+[
+"internet",
+"internet"
+],
+[
+"afgørende",
+"decisive"
+],
+[
+"selvstændige",
+"self-employed"
+]
+]
+},
+{
+"da": "Der er dog også mange øboere, der pendler – nogle med en aftale om delvis hjemmearbejdsplads.",
+"en": "However, many islanders also commute – some with an agreement to work partly from home.",
+"p": false,
+"note": "Many travel to work. \"der pendler\" is a relative clause: who commute.",
+"words": [
+[
+"øboere",
+"islanders"
+],
+[
+"pendler",
+"commute"
+],
+[
+"delvis",
+"partial"
+],
+[
+"hjemmearbejdsplads",
+"home workplace"
+]
+]
+},
+{
+"da": "Hvis man skal sammenligne med pendlere andre steder, så bruger sjællændere ofte mere end en time på at sidde i bilkø for at komme til arbejde.",
+"en": "If you compare with commuters elsewhere, people on Zealand often spend more than an hour in traffic jams to get to work.",
+"p": false,
+"note": "This compares commuting. After a \"hvis\" clause, \"så\" often starts the main clause, followed by the verb.",
+"words": [
+[
+"sammenligne",
+"compare"
+],
+[
+"pendlere",
+"commuters"
+],
+[
+"sjællændere",
+"people from Zealand"
+],
+[
+"bilkø",
+"traffic jam"
+]
+]
+},
+{
+"da": "Øboere pendler langt hyggeligere med færgen.",
+"en": "Islanders commute much more pleasantly by ferry.",
+"p": false,
+"note": "The ferry is nicer than a car queue. \"langt\" before a comparative means much: langt hyggeligere.",
+"words": [
+[
+"Øboere",
+"islanders"
+],
+[
+"hyggeligere",
+"more pleasantly"
+]
+]
+},
+{
+"da": "Kilde: Lettere bearbejdet efter https://danske-smaaoer.dk/bliv-oebo/erhvervsaktiv-paa-oeerne/, hentet 1. marts 2021",
+"en": "Source: Slightly adapted from https://danske-smaaoer.dk/bliv-oebo/erhvervsaktiv-paa-oeerne/, retrieved 1 March 2021",
+"p": true,
+"note": "The source of the text and the date.",
+"words": [
+[
+"bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Ø-pas",
+"en": "Island passport",
+"p": true,
+"note": "A heading: the island passport.",
+"words": [
+[
+"Ø-pas",
+"island passport"
+]
+]
+},
+{
+"da": "Ø-passet er et turismeprojekt hos Sammenslutningen af Danske Småøer, der ligner et pas og præsenterer 38 danske øer med færgeadgang.",
+"en": "The island passport is a tourism project from the association; it looks like a passport and presents 38 Danish islands with ferry access.",
+"p": false,
+"note": "This explains what the passport is. \"ligner\" means looks like and takes a direct object.",
+"words": [
+[
+"turismeprojekt",
+"tourism project"
+],
+[
+"ligner",
+"looks like"
+],
+[
+"præsenterer",
+"presents"
+],
+[
+"færgeadgang",
+"ferry access"
+]
+]
+},
+{
+"da": "I en hvid cirkel på den enkelte øs opslag i passet kan turisten fra en plade på havnen eller færgen gnide en silhuet af øen over i passet med en særlig pen og på den måde samle på ø-mærker.",
+"en": "On each island's page there is a white circle, where tourists rub an outline of the island from a plate at the harbour or on the ferry, and so collect island stamps.",
+"p": true,
+"note": "This tells how the passport works. The long place phrase comes first, so \"kan\" comes before \"turisten\".",
+"words": [
+[
+"cirkel",
+"circle"
+],
+[
+"opslag",
+"page, spread"
+],
+[
+"silhuet",
+"silhouette"
+],
+[
+"ø-mærker",
+"island marks"
+]
+]
+},
+{
+"da": "Denne gimmick er turisterne glade for og konkurrerer gerne med familie og venner om, hvem der har besøgt flest øer.",
+"en": "Tourists like this gimmick and like to compete with family and friends about who has visited the most islands.",
+"p": false,
+"note": "Tourists enjoy it. The object comes first; \"gerne\" with a verb means like to.",
+"words": [
+[
+"turisterne",
+"the tourists"
+],
+[
+"konkurrerer",
+"compete"
+],
+[
+"besøgt",
+"visited"
+]
+]
+},
+{
+"da": "I ø-passet vises hver ø med et kort, et foto, faktaoplysninger, lidt om hvad der kan ses og opleves på øen, samt en QR-kode, der viser hen til øens egen hjemmeside.",
+"en": "In the passport each island is shown with a map, a photo, facts, a little about what to see and do, and a QR code to the island's website.",
+"p": false,
+"note": "This lists the content. \"vises\", \"ses\" and \"opleves\" are passives with -s.",
+"words": [
+[
+"vises",
+"is shown"
+],
+[
+"faktaoplysninger",
+"facts"
+],
+[
+"opleves",
+"be experienced"
+],
+[
+"hjemmeside",
+"website"
+]
+]
+},
+{
+"da": "Man kan hente det på ø-færger eller turistkontorer på øerne, så længe lager haves.",
+"en": "You can pick it up on island ferries or at tourist offices on the islands while stocks last.",
+"p": false,
+"note": "This says where to get it. \"så længe lager haves\" is a fixed phrase: while stocks last.",
+"words": [
+[
+"ø-færger",
+"island ferries"
+],
+[
+"turistkontorer",
+"tourist offices"
+],
+[
+"lager",
+"stock"
+]
+]
+},
+{
+"da": "Her er det gratis.",
+"en": "Here it is free.",
+"p": false,
+"note": "It costs nothing there. After \"Her\" the verb \"er\" comes before \"det\".",
+"words": [
+[
+"gratis",
+"free"
+]
+]
+},
+{
+"da": "Man kan også bestille Ø-passet og få det tilsendt mod et gebyr via hjemmesiden oepas.dk.",
+"en": "You can also order the passport and have it sent for a fee via the website oepas.dk.",
+"p": false,
+"note": "You can order it online. \"få det tilsendt\" means have it sent to you.",
+"words": [
+[
+"bestille",
+"order"
+],
+[
+"tilsendt",
+"sent"
+],
+[
+"gebyr",
+"fee"
+],
+[
+"hjemmesiden",
+"the website"
+]
+]
+},
+{
+"da": "Kilde: Lettere bearbejdet efter https://danske-smaaoer.dk/turist/oe-pas/, hentet 1. marts 2021",
+"en": "Source: Slightly adapted from https://danske-smaaoer.dk/turist/oe-pas/, retrieved 1 March 2021",
+"p": true,
+"note": "The source of the text and the date.",
+"words": [
+[
+"bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Ø-specialiteter",
+"en": "Island specialities",
+"p": true,
+"note": "A heading: special food products from the islands.",
+"words": [
+[
+"Ø-specialiteter",
+"island specialities"
+]
+]
+},
+{
+"da": "En lang række fødevareproducenter på de danske småøer har dannet Småøernes Fødevarenetværk, som arbejder for at udvikle og markedsføre kvalitetsfødevarer fra øerne.",
+"en": "Many food producers on the small islands have formed a food network that works to develop and market quality food from the islands.",
+"p": false,
+"note": "Producers work together. \"har dannet\" is the perfect tense: have formed.",
+"words": [
+[
+"fødevareproducenter",
+"food producers"
+],
+[
+"dannet",
+"formed"
+],
+[
+"markedsføre",
+"market"
+],
+[
+"kvalitetsfødevarer",
+"quality foods"
+]
+]
+},
+{
+"da": "Ø-specialiteter er et varemærke udviklet af Småøernes Fødevarenetværk.",
+"en": "Island Specialities is a brand developed by the small islands' food network.",
+"p": false,
+"note": "This explains the brand. \"udviklet af\" is a past participle: developed by.",
+"words": [
+[
+"varemærke",
+"brand, trademark"
+],
+[
+"udviklet",
+"developed"
+]
+]
+},
+{
+"da": "Det er forbeholdt fødevarer af en særegen kvalitet og historik, udviklet og produceret af producenter på én af de 27 småøer spredt ud over Danmark.",
+"en": "It is only for food of special quality and history, made by producers on one of the 27 small islands around Denmark.",
+"p": false,
+"note": "Only special local food gets the brand. \"er forbeholdt\" means is reserved for.",
+"words": [
+[
+"forbeholdt",
+"reserved"
+],
+[
+"særegen",
+"distinctive"
+],
+[
+"produceret",
+"produced"
+],
+[
+"producenter",
+"producers"
+]
+]
+},
+{
+"da": "Produkterne er i vid udstrækning produceret og forædlet på øerne med det formål at skabe lokal identitet og jobmuligheder på øerne.",
+"en": "The products are largely made and processed on the islands, to create local identity and jobs.",
+"p": false,
+"note": "This gives the purpose. \"i vid udstrækning\" means to a large extent; \"er produceret\" is a passive.",
+"words": [
+[
+"Produkterne",
+"the products"
+],
+[
+"udstrækning",
+"extent"
+],
+[
+"forædlet",
+"processed"
+],
+[
+"identitet",
+"identity"
+]
+]
+},
+{
+"da": "Man kan finde spændende produkter som øl, most, cider, syltetøj, lam og kvæg fra friland, saft, grøntsager og meget mere.",
+"en": "You can find exciting products like beer, apple juice, cider, jam, free-range lamb and beef, cordial, vegetables and much more.",
+"p": false,
+"note": "This lists products. \"spændende\" is a present participle used as an adjective and never changes.",
+"words": [
+[
+"spændende",
+"exciting"
+],
+[
+"syltetøj",
+"jam"
+],
+[
+"friland",
+"free range"
+],
+[
+"grøntsager",
+"vegetables"
+]
+]
+},
+{
+"da": "Kilde: Lettere bearbejdet efter https://danske-smaaoer.dk/turist/oe-specialiteter/, hentet 1. marts 2021",
+"en": "Source: Slightly adapted from https://danske-smaaoer.dk/turist/oe-specialiteter/, retrieved 1 March 2021",
+"p": true,
+"note": "The source of the text and the date.",
+"words": [
+[
+"bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "Grøn boligaftale",
+"en": "Green housing agreement",
+"p": true,
+"note": "A heading about a government housing deal.",
+"words": [
+[
+"boligaftale",
+"housing agreement"
+]
+]
+},
+{
+"da": "I projektet Nye naboer – mere ø-liv havde Sammenslutningen af Danske Småøer sammen med LAG Småøerne, der er småøernes lokale aktionsgruppe, fokus på boligsituationen på småøerne.",
+"en": "In the project \"New neighbours – more island life\", the association and the local action group focused on housing on the small islands.",
+"p": false,
+"note": "This introduces the housing project. After \"I projektet...\" the verb \"havde\" comes before the subject.",
+"words": [
+[
+"projektet",
+"the project"
+],
+[
+"naboer",
+"neighbours"
+],
+[
+"aktionsgruppe",
+"action group"
+],
+[
+"boligsituationen",
+"the housing situation"
+]
+]
+},
+{
+"da": "Udgangspunkt var, at det ikke nytter med bosætningskampagner, branding m.m., hvis der ikke er ledige, anvendelige boliger på øerne.",
+"en": "The starting point was that campaigns to attract new residents are no use if there are no free, usable homes.",
+"p": false,
+"note": "Homes come first. \"det nytter ikke\" means it is no use; here \"ikke\" comes before the verb in the \"at\" clause.",
+"words": [
+[
+"Udgangspunkt",
+"starting point"
+],
+[
+"bosætningskampagner",
+"settlement campaigns"
+],
+[
+"ledige",
+"vacant"
+],
+[
+"anvendelige",
+"usable"
+]
+]
+},
+{
+"da": "Projektet viste bl.a. et behov for flere lejeboliger, som kan være attraktive for potentielle tilflyttere, der ikke er parate til at købe en bolig.",
+"en": "The project showed, among other things, a need for more rental homes for possible newcomers who are not ready to buy.",
+"p": false,
+"note": "More rentals are needed. \"bl.a.\" means among other things; \"attraktive\" has plural -e.",
+"words": [
+[
+"behov",
+"need"
+],
+[
+"lejeboliger",
+"rental homes"
+],
+[
+"potentielle",
+"potential"
+],
+[
+"tilflyttere",
+"newcomers"
+]
+]
+},
+{
+"da": "I 2020 indgik regeringen en grøn boligaftale med en række partier i folketinget.",
+"en": "In 2020 the government made a green housing agreement with several parties in parliament.",
+"p": true,
+"note": "This introduces the deal. \"indgik\" is the past tense of \"indgå\"; inversion after \"I 2020\".",
+"words": [
+[
+"indgik",
+"entered into"
+],
+[
+"regeringen",
+"the government"
+],
+[
+"boligaftale",
+"housing agreement"
+],
+[
+"folketinget",
+"parliament"
+]
+]
+},
+{
+"da": "En del af aftalen retter sig mod ”småøerne og fire ø-kommuner”.",
+"en": "Part of the agreement is aimed at \"the small islands and four island municipalities\".",
+"p": false,
+"note": "Part of the deal is for the islands. \"rette sig mod\" means be aimed at.",
+"words": [
+[
+"aftalen",
+"the agreement"
+],
+[
+"småøerne",
+"the small islands"
+],
+[
+"ø-kommuner",
+"island municipalities"
+]
+]
+},
+{
+"da": "Denne ø-boligpakke indeholder tre elementer, som skal fremme de almene boliger på småøerne: 1) tilskud til nye boliger, 2) tilskud til huslejenedsættelse og 3) mere fleksible regler for finansiering af almene boliger.",
+"en": "This island housing package has three parts to support social housing: grants for new homes, grants to lower rent, and more flexible rules for financing.",
+"p": false,
+"note": "This lists the three parts. \"almene boliger\" means non-profit social housing; \"fleksible\" has plural -e.",
+"words": [
+[
+"ø-boligpakke",
+"island housing package"
+],
+[
+"tilskud",
+"grant"
+],
+[
+"huslejenedsættelse",
+"rent reduction"
+],
+[
+"finansiering",
+"financing"
+]
+]
+},
+{
+"da": "Kilde: Lettere bearbejdet efter http://lag-smaaoerne.blogspot.com/2020/11/boligtilskud.html, hentet 1. marts 2021",
+"en": "Source: Slightly adapted from http://lag-smaaoerne.blogspot.com/2020/11/boligtilskud.html, retrieved 1 March 2021",
+"p": true,
+"note": "The source of the text and the date.",
+"words": [
+[
+"bearbejdet",
+"adapted"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+},
+{
+"da": "TRE ØBOERE FORTÆLLER",
+"en": "THREE ISLANDERS TELL THEIR STORIES",
+"p": true,
+"note": "The title of the last chapter: three people who live on islands.",
+"words": [
+[
+"ØBOERE",
+"islanders"
+],
+[
+"FORTÆLLER",
+"tell"
+]
+]
+},
+{
+"da": "Danielle Aubert, Fejø",
+"en": "Danielle Aubert, Fejø",
+"p": true,
+"note": "A heading with a name and the island where she lives."
+},
+{
+"da": "Vi kommer fra Toulouse i Sydfrankrig.",
+"en": "We come from Toulouse in the south of France.",
+"p": false,
+"note": "She says where her family is from. \"Sydfrankrig\" is a compound: syd (south) plus Frankrig.",
+"words": [
+[
+"Sydfrankrig",
+"southern France"
+]
+]
+},
+{
+"da": "Vi ville flytte til København, fordi min mand fik arbejde der, men vi kunne ikke finde en bolig.",
+"en": "We wanted to move to Copenhagen because my husband got a job there, but we could not find a home.",
+"p": false,
+"note": "This gives the first plan. After \"fordi\" the word order is normal: min mand fik.",
+"words": [
+[
+"flytte",
+"move"
+],
+[
+"arbejde",
+"work"
+],
+[
+"bolig",
+"home, housing"
+]
+]
+},
+{
+"da": "Vi endte med at flytte til Maribo, men der faldt vi aldrig rigtig til.",
+"en": "We ended up moving to Maribo, but we never really settled in there.",
+"p": false,
+"note": "They were not happy in Maribo. \"falde til\" means settle in; after \"der\" the verb comes first.",
+"words": [
+[
+"endte",
+"ended"
+],
+[
+"faldt",
+"settled"
+]
+]
+},
+{
+"da": "En dag mødte jeg en anden fransk kvinde, og hun boede på Fejø.",
+"en": "One day I met another French woman, and she lived on Fejø.",
+"p": false,
+"note": "She met a new friend. After \"En dag\" the verb \"mødte\" comes before \"jeg\".",
+"words": [
+[
+"mødte",
+"met"
+],
+[
+"kvinde",
+"woman"
+]
+]
+},
+{
+"da": "Hun inviterede os til at komme over på øen.",
+"en": "She invited us to come over to the island.",
+"p": false,
+"note": "They were invited. \"inviterede\" is the past tense with -ede.",
+"words": [
+[
+"inviterede",
+"invited"
+]
+]
+},
+{
+"da": "Først var jeg lidt bekymret og tænkte: ”Wow, hvor langt væk er det?",
+"en": "At first I was a little worried and thought: \"Wow, how far away is it?",
+"p": false,
+"note": "She was worried at first. After \"Først\" the verb \"var\" comes before \"jeg\".",
+"words": [
+[
+"bekymret",
+"worried"
+],
+[
+"tænkte",
+"thought"
+]
+]
+},
+{
+"da": "Man skal jo med færge”.",
+"en": "You have to take a ferry, after all.\"",
+"p": false,
+"note": "She worried about the ferry. \"skal med\" means must go by; \"jo\" means as we know.",
+"words": [
+[
+"færge",
+"ferry"
+]
+]
+},
+{
+"da": "Men vi blev positivt overraskede, da vi besøgte Fejø.",
+"en": "But we were pleasantly surprised when we visited Fejø.",
+"p": false,
+"note": "The visit went well. \"da\" is used for one event in the past: when.",
+"words": [
+[
+"positivt",
+"positively"
+],
+[
+"overraskede",
+"surprised"
+],
+[
+"besøgte",
+"visited"
+]
+]
+},
+{
+"da": "Vi besøgte også skolen, og jeg tænkte, at Fejø var et helt vidunderligt sted.",
+"en": "We also visited the school, and I thought Fejø was a truly wonderful place.",
+"p": false,
+"note": "She loved the island. \"vidunderligt\" has a -t ending because \"sted\" is an et-word.",
+"words": [
+[
+"besøgte",
+"visited"
+],
+[
+"vidunderligt",
+"wonderful"
+]
+]
+},
+{
+"da": "At lære det danske sprog",
+"en": "Learning the Danish language",
+"p": true,
+"note": "A heading. \"At lære\" is an infinitive used like a noun: learning."
+},
+{
+"da": "Vores søn Michel havde udfordringer i børnehaven i Maribo, da han havde svært ved dansk, og han nærmede sig skolealderen.",
+"en": "Our son Michel had problems in kindergarten in Maribo, because he found Danish hard and was nearly school age.",
+"p": false,
+"note": "Her son needed help with Danish. \"havde svært ved\" means found it hard.",
+"words": [
+[
+"udfordringer",
+"challenges"
+],
+[
+"børnehaven",
+"the kindergarten"
+],
+[
+"nærmede",
+"approached"
+],
+[
+"skolealderen",
+"school age"
+]
+]
+},
+{
+"da": "Det ville være perfekt for Michel at starte i Fejø Skole, da klasserne er små, så læreren bedre kunne holde fokus på at lære ham dansk.",
+"en": "It would be perfect for Michel to start at Fejø School, because classes are small, so the teacher could focus better on teaching him Danish.",
+"p": false,
+"note": "Small classes help. \"lære ham dansk\" means teach him Danish; \"lære\" can mean both learn and teach.",
+"words": [
+[
+"perfekt",
+"perfect"
+],
+[
+"klasserne",
+"the classes"
+],
+[
+"læreren",
+"the teacher"
+]
+]
+},
+{
+"da": "Så vi besluttede at prøve at flytte til Fejø, og vi fandt hurtigt et hus at leje og har været fejøboere siden.",
+"en": "So we decided to try moving to Fejø, quickly found a house to rent, and have lived on Fejø since then.",
+"p": false,
+"note": "They moved. \"har været\" is the perfect for something still true now.",
+"words": [
+[
+"besluttede",
+"decided"
+],
+[
+"hurtigt",
+"quickly"
+],
+[
+"fejøboere",
+"people living on Fejø"
+]
+]
+},
+{
+"da": "Michel går nu i 1. klasse på skolen på øen, mens lillesøster Sophie går i børnehave.",
+"en": "Michel is now in first grade at the island school, while his little sister Sophie goes to kindergarten.",
+"p": false,
+"note": "This tells about the children now. \"gå i\" is used for school and kindergarten.",
+"words": [
+[
+"klasse",
+"grade, class"
+],
+[
+"lillesøster",
+"little sister"
+],
+[
+"børnehave",
+"kindergarten"
+]
+]
+},
+{
+"da": "Begge børn er ved at være gode til dansk.",
+"en": "Both children are getting good at Danish.",
+"p": false,
+"note": "The children are learning fast. \"er ved at\" means are in the process of; \"gode til\" means good at.",
+"words": [
+[
+"Begge",
+"both"
+]
+]
+},
+{
+"da": "Jeg går på sprogskole og fik startet et sproghold på Fejø i foråret.",
+"en": "I go to language school, and in the spring I got a language class started on Fejø.",
+"p": false,
+"note": "She learns Danish too. \"fik startet\" means managed to start; \"i foråret\" means last spring.",
+"words": [
+[
+"sprogskole",
+"language school"
+],
+[
+"startet",
+"started"
+],
+[
+"sproghold",
+"language class"
+],
+[
+"foråret",
+"the spring"
+]
+]
+},
+{
+"da": "Der er faktisk mere end 15 forskellige nationaliteter her på øen.",
+"en": "There are actually more than 15 different nationalities here on the island.",
+"p": false,
+"note": "The island is international. \"faktisk\" means actually.",
+"words": [
+[
+"faktisk",
+"actually"
+],
+[
+"forskellige",
+"different"
+],
+[
+"nationaliteter",
+"nationalities"
+]
+]
+},
+{
+"da": "Og så går jeg også til dans på øen, for man lærer bedst et nyt sprog ved at komme ud blandt lokale.",
+"en": "And I also go to dance classes on the island, because you learn a new language best by meeting local people.",
+"p": false,
+"note": "She meets locals. \"for\" here means because; \"ved at\" plus infinitive means by doing.",
+"words": [
+[
+"dans",
+"dance"
+],
+[
+"bedst",
+"best"
+],
+[
+"blandt",
+"among"
+],
+[
+"lokale",
+"locals"
+]
+]
+},
+{
+"da": "Jeg er uddannet fysioterapeut og venter på, at min franske uddannelse bliver godkendt i Danmark.",
+"en": "I am a trained physiotherapist and am waiting for my French education to be approved in Denmark.",
+"p": false,
+"note": "She waits for approval. \"bliver godkendt\" is the passive with \"blive\": is approved.",
+"words": [
+[
+"uddannet",
+"trained"
+],
+[
+"fysioterapeut",
+"physiotherapist"
+],
+[
+"uddannelse",
+"education"
+],
+[
+"godkendt",
+"approved"
+]
+]
+},
+{
+"da": "Når det sker, vil jeg starte op som selvstændig – og gerne her på Fejø.",
+"en": "When that happens, I will start my own business – preferably here on Fejø.",
+"p": false,
+"note": "She has plans. After the \"Når\" clause, the main clause starts with the verb: vil jeg.",
+"words": [
+[
+"selvstændig",
+"self-employed"
+]
+]
+},
+{
+"da": "Lisbeth Hansen, Strynø",
+"en": "Lisbeth Hansen, Strynø",
+"p": true,
+"note": "A heading with a name and the island where she lives."
+},
+{
+"da": "Vi bor tre generationer her på Strynø.",
+"en": "Three generations of us live here on Strynø.",
+"p": false,
+"note": "The whole family lives there. \"generationer\" is the plural of \"generation\".",
+"words": [
+[
+"generationer",
+"generations"
+]
+]
+},
+{
+"da": "Min mand, Thor, og jeg bor i en tidligere landejendom, og vores søn og svigerdatter, Lars og Louise, bor kun tre minutters gang herfra med vores barnebarn, Niklas.",
+"en": "My husband and I live in a former farm, and our son and daughter-in-law live only three minutes' walk away with our grandchild.",
+"p": false,
+"note": "This describes the family. \"tidligere\" means former; \"minutters gang\" means minutes' walk.",
+"words": [
+[
+"tidligere",
+"former"
+],
+[
+"landejendom",
+"farm property"
+],
+[
+"svigerdatter",
+"daughter-in-law"
+],
+[
+"barnebarn",
+"grandchild"
+]
+]
+},
+{
+"da": "Det var meget spontant, at vi alle besluttede at flytte herover.",
+"en": "It was very spontaneous that we all decided to move over here.",
+"p": false,
+"note": "The move was quick. \"spontant\" has -t because it describes \"det\".",
+"words": [
+[
+"spontant",
+"spontaneous"
+],
+[
+"besluttede",
+"decided"
+],
+[
+"herover",
+"over here"
+]
+]
+},
+{
+"da": "Vi havde længe snakket om, at der skulle ske noget nyt i vores liv, og da vi for nogle år siden var på sejltur med et stop på Strynø, satte det for alvor gang i drømmen om ø-liv, og heldigvis var vores søn og hans familie med på ideen.",
+"en": "We had long talked about a change, and when we stopped on Strynø on a sailing trip some years ago, the dream of island life really started, and luckily our son's family liked the idea.",
+"p": false,
+"note": "This tells how the dream began. \"havde snakket\" is the past perfect: had talked.",
+"words": [
+[
+"snakket",
+"talked"
+],
+[
+"sejltur",
+"sailing trip"
+],
+[
+"drømmen",
+"the dream"
+],
+[
+"heldigvis",
+"luckily"
+]
+]
+},
+{
+"da": "Udfordringer ved flytningen",
+"en": "Challenges with the move",
+"p": true,
+"note": "A heading. \"flytningen\" is the definite form of \"flytning\", a move.",
+"words": [
+[
+"Udfordringer",
+"challenges"
+],
+[
+"flytningen",
+"the move"
+]
+]
+},
+{
+"da": "Ikke alt var dog lige let ved at flytte.",
+"en": "However, not everything about moving was easy.",
+"p": false,
+"note": "There were some problems. \"lige let\" means quite easy; \"dog\" means however."
+},
+{
+"da": "Heldigvis hjalp Strynøs bosætningsgruppe os fra starten.",
+"en": "Luckily, Strynø's settlement group helped us from the start.",
+"p": false,
+"note": "They got help. After \"Heldigvis\" the verb \"hjalp\" comes before the subject.",
+"words": [
+[
+"Heldigvis",
+"luckily"
+],
+[
+"hjalp",
+"helped"
+],
+[
+"bosætningsgruppe",
+"settlement group"
+]
+]
+},
+{
+"da": "De svarede på vores spørgsmål, og det var også dem, der bakkede os op, da vi fik problemer med at optage boliglån.",
+"en": "They answered our questions, and they also supported us when we had problems getting a mortgage.",
+"p": false,
+"note": "The group helped with the loan. \"bakke op\" is a particle verb: support.",
+"words": [
+[
+"spørgsmål",
+"questions"
+],
+[
+"bakkede",
+"backed"
+],
+[
+"problemer",
+"problems"
+],
+[
+"boliglån",
+"mortgage"
+]
+]
+},
+{
+"da": "Bosætningsgruppen på Strynø kunne nemlig anbefale et realkreditinstitut, som ville låne os penge, og så kunne vi købe det hus, vi ville.",
+"en": "The group could recommend a mortgage bank that would lend us money, so we could buy the house we wanted.",
+"p": false,
+"note": "This explains how they bought the house. \"nemlig\" explains the reason, like \"you see\".",
+"words": [
+[
+"Bosætningsgruppen",
+"the settlement group"
+],
+[
+"anbefale",
+"recommend"
+],
+[
+"realkreditinstitut",
+"mortgage bank"
+],
+[
+"låne",
+"lend"
+]
+]
+},
+{
+"da": "Dorte Sørensen, Omø",
+"en": "Dorte Sørensen, Omø",
+"p": true,
+"note": "A heading with a name and the island where she lives."
+},
+{
+"da": "Jeg er vokset op på Omø, men jeg flyttede derfra som 16-årig for at uddanne mig.",
+"en": "I grew up on Omø, but I moved away at 16 to get an education.",
+"p": false,
+"note": "She left as a teenager. \"er vokset op\" is the perfect with \"være\"; \"uddanne mig\" is reflexive.",
+"words": [
+[
+"vokset",
+"grown"
+],
+[
+"flyttede",
+"moved"
+],
+[
+"derfra",
+"from there"
+],
+[
+"uddanne",
+"educate"
+]
+]
+},
+{
+"da": "I 2016 flyttede jeg sammen med min mand og vores datter fra Vesterbro i København til lærerboligen på Omø Skole, hvor jeg fik et vikariat som lærer.",
+"en": "In 2016 I moved with my husband and daughter from Copenhagen to the teacher's house at Omø School, where I got a temporary job as a teacher.",
+"p": false,
+"note": "She came back for a job. After \"I 2016\" the verb \"flyttede\" comes before \"jeg\".",
+"words": [
+[
+"flyttede",
+"moved"
+],
+[
+"lærerboligen",
+"the teacher's house"
+],
+[
+"vikariat",
+"temporary post"
+]
+]
+},
+{
+"da": "Det skulle bare være midlertidigt, og så skulle vi tilbage til storbyen.",
+"en": "It was only meant to be temporary, and then we would go back to the city.",
+"p": false,
+"note": "It was not planned to last. \"skulle\" here means was supposed to.",
+"words": [
+[
+"midlertidigt",
+"temporary"
+],
+[
+"tilbage",
+"back"
+],
+[
+"storbyen",
+"the big city"
+]
+]
+},
+{
+"da": "Sådan gik det imidlertid ikke.",
+"en": "However, that is not how it went.",
+"p": false,
+"note": "Their plan changed. \"imidlertid\" is a formal word for however.",
+"words": [
+[
+"imidlertid",
+"however"
+]
+]
+},
+{
+"da": "I dag er vi som 36-årige nemlig flyttet i et lille hus på øen.",
+"en": "Today, at 36, we have moved into a small house on the island.",
+"p": false,
+"note": "They stayed. \"er flyttet\" is the perfect with \"være\" for a move.",
+"words": [
+[
+"flyttet",
+"moved"
+]
+]
+},
+{
+"da": "Vi har købt grunden ved siden af, hvor vi er i gang med at etablere en have.",
+"en": "We have bought the plot next door, where we are making a garden.",
+"p": false,
+"note": "They are building their home. \"er i gang med at\" means are busy doing.",
+"words": [
+[
+"grunden",
+"the plot"
+],
+[
+"etablere",
+"establish"
+]
+]
+},
+{
+"da": "Vi har fået en lille søn, og min mand har startet eget firma på øen.",
+"en": "We have had a little son, and my husband has started his own company on the island.",
+"p": false,
+"note": "Life is busy. \"eget\" is the et-form of \"egen\" because \"firma\" is an et-word.",
+"words": [
+[
+"startet",
+"started"
+],
+[
+"firma",
+"company"
+]
+]
+},
+{
+"da": "Der er gang i den.",
+"en": "Things are really happening.",
+"p": false,
+"note": "A typical phrase: there is a lot going on."
+},
+{
+"da": "Tilbage til Omø",
+"en": "Back to Omø",
+"p": true,
+"note": "A heading: returning to Omø.",
+"words": [
+[
+"Tilbage",
+"back"
+]
+]
+},
+{
+"da": "Måske lå det alligevel i kortene, at Omø skulle blive mit hjem som voksen.",
+"en": "Maybe it was in the cards all along that Omø would become my home as an adult.",
+"p": false,
+"note": "Perhaps it was meant to be. \"lå i kortene\" is a fixed phrase: was in the cards.",
+"words": [
+[
+"alligevel",
+"after all"
+],
+[
+"kortene",
+"the cards"
+],
+[
+"voksen",
+"adult"
+]
+]
+},
+{
+"da": "For min mor vendte også hjem til Omø efter en periode væk fra øen:",
+"en": "Because my mother also returned to Omø after a time away from the island:",
+"p": false,
+"note": "Her mother did the same. \"vende hjem\" means return home.",
+"words": [
+[
+"vendte",
+"returned"
+],
+[
+"periode",
+"period"
+]
+]
+},
+{
+"da": "Min mormor flyttede til Omø med min mor i starten af 1970’erne.",
+"en": "My grandmother moved to Omø with my mother in the early 1970s.",
+"p": true,
+"note": "The family story starts. \"mormor\" means mother's mother.",
+"words": [
+[
+"mormor",
+"grandmother (mother's mother)"
+],
+[
+"flyttede",
+"moved"
+],
+[
+"starten",
+"the start"
+]
+]
+},
+{
+"da": "De boede på den lokale restaurant, som min mormor drev.",
+"en": "They lived at the local restaurant that my grandmother ran.",
+"p": false,
+"note": "This tells where they lived. \"drev\" is the past tense of \"drive\", to run a business.",
+"words": [
+[
+"restaurant",
+"restaurant"
+],
+[
+"drev",
+"ran"
+]
+]
+},
+{
+"da": "Min mor flyttede siden til Norge, hvor hun blev gift og fik min søster og mig.",
+"en": "My mother later moved to Norway, where she got married and had my sister and me.",
+"p": false,
+"note": "Her mother moved away. \"blev gift\" means got married.",
+"words": [
+[
+"flyttede",
+"moved"
+],
+[
+"søster",
+"sister"
+]
+]
+},
+{
+"da": "Mine forældre blev dog skilt, og jeg flyttede derfor fra Oslo til Omø sammen med min mor og søster i 1984, da jeg var to år.",
+"en": "But my parents divorced, so in 1984, when I was two, I moved from Oslo to Omø with my mother and sister.",
+"p": false,
+"note": "This explains her first move to Omø. \"blev skilt\" means got divorced.",
+"words": [
+[
+"forældre",
+"parents"
+],
+[
+"skilt",
+"divorced"
+],
+[
+"derfor",
+"therefore"
+]
+]
+},
+{
+"da": "På det tidspunkt boede vi fire generationer herovre.",
+"en": "At that time four generations of us lived over here.",
+"p": false,
+"note": "Many family members lived there. After \"På det tidspunkt\" the verb \"boede\" comes first.",
+"words": [
+[
+"tidspunkt",
+"point in time"
+],
+[
+"generationer",
+"generations"
+],
+[
+"herovre",
+"over here"
+]
+]
+},
+{
+"da": "Min søster og jeg, vores mor, mormor og hendes forældre, mine oldeforældre, der også havde valgt at slå sig ned her.",
+"en": "My sister and I, our mother, grandmother and her parents, my great-grandparents, who had also chosen to settle here.",
+"p": false,
+"note": "A fragment listing the family. \"havde valgt\" is the past perfect; \"slå sig ned\" means settle.",
+"words": [
+[
+"forældre",
+"parents"
+],
+[
+"oldeforældre",
+"great-grandparents"
+],
+[
+"valgt",
+"chosen"
+]
+]
+},
+{
+"da": "Så vi er en familie af tilflyttere.",
+"en": "So we are a family of newcomers.",
+"p": false,
+"note": "They all came from elsewhere. \"tilflyttere\" means people who moved in.",
+"words": [
+[
+"familie",
+"family"
+],
+[
+"tilflyttere",
+"newcomers"
+]
+]
+},
+{
+"da": "Jeg flyttede fra øen som teenager for at starte på gymnasiet i Slagelse i 1998, og senere studerede jeg i København.",
+"en": "I left the island as a teenager to start upper secondary school in Slagelse in 1998, and later I studied in Copenhagen.",
+"p": false,
+"note": "She left for school. After \"senere\" the verb \"studerede\" comes before \"jeg\".",
+"words": [
+[
+"teenager",
+"teenager"
+],
+[
+"gymnasiet",
+"upper secondary school"
+],
+[
+"studerede",
+"studied"
+]
+]
+},
+{
+"da": "Men nu er jeg altså tilbage på min barndoms ø.",
+"en": "But now I am back on the island of my childhood.",
+"p": false,
+"note": "She has come home. \"barndoms\" has the genitive -s: childhood's.",
+"words": [
+[
+"tilbage",
+"back"
+],
+[
+"barndoms",
+"childhood's"
+]
+]
+},
+{
+"da": "Teksterne er inspireret af teksterne på https://danske-smaaoer.dk/bliv-oebo/moed-en-oebo/, hentet 1. marts 2021",
+"en": "The texts are inspired by the texts on https://danske-smaaoer.dk/bliv-oebo/moed-en-oebo/, retrieved 1 March 2021",
+"p": true,
+"note": "The source of the stories. \"er inspireret af\" is a passive with \"være\": are inspired by.",
+"words": [
+[
+"Teksterne",
+"the texts"
+],
+[
+"inspireret",
+"inspired"
+],
+[
+"hentet",
+"retrieved"
+]
+]
+}
+]
+},
+"pd3-22m-2": {
+"lines": [
+{
+"da": "Tekst 1: Veje til det første job",
+"en": "Text 1: Paths to the first job",
+"p": true,
+"note": "The title of the first text. \"Veje\" is the plural of \"vej\", a way or road."
+},
+{
+"da": "Mange nyuddannede går arbejdsløse længe, inden de får deres første rigtige fuldtidsarbejde.",
+"en": "Many new graduates are unemployed for a long time before they get their first real full-time job.",
+"p": true,
+"note": "This states the problem. \"går arbejdsløse\" means are unemployed; \"inden\" means before.",
+"words": [
+[
+"nyuddannede",
+"new graduates"
+],
+[
+"arbejdsløse",
+"unemployed"
+],
+[
+"fuldtidsarbejde",
+"full-time job"
+]
+]
+},
+{
+"da": "Det er der flere grunde til.",
+"en": "There are several reasons for this.",
+"p": false,
+"note": "This introduces the reasons. \"Det\" is fronted, so the preposition \"til\" ends the sentence.",
+"words": [
+[
+"grunde",
+"reasons"
+]
+]
+},
+{
+"da": "Nogle gange er det, fordi der ganske enkelt ikke er så mange jobs i netop deres branche.",
+"en": "Sometimes it is because there are simply not many jobs in their field.",
+"p": false,
+"note": "One reason is few jobs. After \"fordi\", \"ikke\" comes before the verb.",
+"words": [
+[
+"ganske",
+"quite"
+],
+[
+"enkelt",
+"simply"
+],
+[
+"branche",
+"industry, field"
+]
+]
+},
+{
+"da": "Andre gange er det, fordi arbejdsgiverne prioriterer ansøgere, der både har uddannelse og erfaring.",
+"en": "Other times it is because employers prefer applicants with both education and experience.",
+"p": false,
+"note": "Another reason is lack of experience. \"både ... og\" means both ... and.",
+"words": [
+[
+"arbejdsgiverne",
+"the employers"
+],
+[
+"prioriterer",
+"prioritise"
+],
+[
+"ansøgere",
+"applicants"
+],
+[
+"erfaring",
+"experience"
+]
+]
+},
+{
+"da": "Som nyuddannet har man typisk ikke erfaring med sit fag endnu.",
+"en": "As a new graduate you typically have no experience in your field yet.",
+"p": false,
+"note": "New graduates lack experience. After \"Som nyuddannet\" the verb \"har\" comes before \"man\".",
+"words": [
+[
+"nyuddannet",
+"new graduate"
+],
+[
+"typisk",
+"typically"
+],
+[
+"erfaring",
+"experience"
+]
+]
+},
+{
+"da": "Det ved Kamilla og René alt om.",
+"en": "Kamilla and René know all about that.",
+"p": true,
+"note": "This introduces two people. The object \"Det\" comes first, so the verb comes before the subject."
+},
+{
+"da": "De havde begge svært ved at få deres første rigtige fuldtidsarbejde.",
+"en": "They both found it hard to get their first real full-time job.",
+"p": false,
+"note": "Both struggled. \"have svært ved at\" means find it hard to.",
+"words": [
+[
+"fuldtidsarbejde",
+"full-time job"
+]
+]
+},
+{
+"da": "Kamilla er uddannet antropolog fra Syddansk Universitet.",
+"en": "Kamilla is a trained anthropologist from the University of Southern Denmark.",
+"p": true,
+"note": "This gives her education. \"er uddannet\" means is trained as; no article before the job.",
+"words": [
+[
+"uddannet",
+"trained"
+],
+[
+"antropolog",
+"anthropologist"
+],
+[
+"Universitet",
+"university"
+]
+]
+},
+{
+"da": "”Egentlig ville jeg have læst medicin, for så er man nærmest sikker på at få et job bagefter,” fortæller hun.",
+"en": "\"Actually I wanted to study medicine, because then you are almost sure to get a job afterwards,\" she says.",
+"p": false,
+"note": "She first thought of medicine. \"ville have læst\" means would have studied; after \"Egentlig\" comes inversion.",
+"words": [
+[
+"Egentlig",
+"actually"
+],
+[
+"medicin",
+"medicine"
+],
+[
+"nærmest",
+"almost"
+],
+[
+"bagefter",
+"afterwards"
+]
+]
+},
+{
+"da": "”Men jeg brændte simpelthen mere for antropologi.",
+"en": "\"But I was simply more passionate about anthropology.",
+"p": false,
+"note": "She loved anthropology more. \"brænde for\" means be passionate about.",
+"words": [
+[
+"brændte",
+"burned"
+],
+[
+"simpelthen",
+"simply"
+],
+[
+"antropologi",
+"anthropology"
+]
+]
+},
+{
+"da": "Derfor valgte jeg at læse antropologi, selvom jeg godt vidste, det ville blive svært at få et arbejde.”",
+"en": "So I chose to study anthropology, even though I knew it would be hard to get a job.\"",
+"p": false,
+"note": "She chose with open eyes. After \"Derfor\" the verb \"valgte\" comes before \"jeg\"; \"selvom\" means even though.",
+"words": [
+[
+"valgte",
+"chose"
+],
+[
+"antropologi",
+"anthropology"
+],
+[
+"selvom",
+"even though"
+],
+[
+"vidste",
+"knew"
+]
+]
+},
+{
+"da": "Kamilla har ikke fortrudt sit valg, men hun understreger, at det faktisk var svært at finde et job.",
+"en": "Kamilla does not regret her choice, but she stresses that it really was hard to find a job.",
+"p": true,
+"note": "She has no regrets. \"har ikke fortrudt\" is the perfect tense of \"fortryde\", to regret.",
+"words": [
+[
+"fortrudt",
+"regretted"
+],
+[
+"understreger",
+"stresses"
+],
+[
+"faktisk",
+"actually"
+]
+]
+},
+{
+"da": "Det lykkedes hende først efter et års jobsøgning.",
+"en": "She only succeeded after a year of job hunting.",
+"p": false,
+"note": "It took a year. \"Det lykkedes hende\" means she succeeded; \"først\" here means not until.",
+"words": [
+[
+"lykkedes",
+"succeeded"
+],
+[
+"jobsøgning",
+"job search"
+]
+]
+},
+{
+"da": "Men det blev ikke et job som antropolog.",
+"en": "But it was not a job as an anthropologist.",
+"p": false,
+"note": "The job was in another field. \"blev\" is the past tense of \"blive\": became.",
+"words": [
+[
+"antropolog",
+"anthropologist"
+]
+]
+},
+{
+"da": "Hun fik i stedet et job som SoMe-redaktør på et stort forlag i København.",
+"en": "Instead she got a job as a social media editor at a big publisher in Copenhagen.",
+"p": false,
+"note": "This names her job. \"stort\" has -t because \"forlag\" is an et-word.",
+"words": [
+[
+"SoMe-redaktør",
+"social media editor"
+],
+[
+"forlag",
+"publishing house"
+]
+]
+},
+{
+"da": "Hun fik jobbet efter at være blevet kontaktet af en gammel skolekammerat på LinkedIn, der gjorde hende opmærksom på jobbet.",
+"en": "She got the job after an old school friend contacted her on LinkedIn and told her about it.",
+"p": true,
+"note": "Her network helped. \"efter at være blevet kontaktet\" is a passive infinitive: after being contacted.",
+"words": [
+[
+"kontaktet",
+"contacted"
+],
+[
+"skolekammerat",
+"school friend"
+],
+[
+"opmærksom",
+"aware"
+]
+]
+},
+{
+"da": "”Det var ikke inden for mit fagområde, men jeg tænkte, at jobbet jo egentlig lød spændende og ikke krævede særlige specialistkompetencer, så det kunne jeg godt,” siger Kamilla og fortsætter:",
+"en": "\"It was not in my field, but I thought the job sounded exciting and needed no special skills, so I could do it,\" says Kamilla and goes on:",
+"p": false,
+"note": "She explains why she applied. In the \"at\" clause, \"ikke\" comes before the verb \"krævede\".",
+"words": [
+[
+"fagområde",
+"field"
+],
+[
+"spændende",
+"exciting"
+],
+[
+"specialistkompetencer",
+"specialist skills"
+],
+[
+"fortsætter",
+"continues"
+]
+]
+},
+{
+"da": "”Jeg var virkelig glad for, at det endelig lykkedes at få et job, og selvom jeg ikke har fået arbejde som antropolog, kan jeg bruge meget af det, jeg har lært på studiet.",
+"en": "\"I was really happy that I finally got a job, and even though I am not working as an anthropologist, I can use a lot of what I learned at university.",
+"p": false,
+"note": "She uses her studies. After the \"selvom\" clause, the main clause starts with the verb \"kan\".",
+"words": [
+[
+"virkelig",
+"really"
+],
+[
+"endelig",
+"finally"
+],
+[
+"antropolog",
+"anthropologist"
+],
+[
+"studiet",
+"the studies"
+]
+]
+},
+{
+"da": "Og så er mit arbejde udfordrende, og jeg lærer noget nyt hver dag.”",
+"en": "And my work is challenging, and I learn something new every day.\"",
+"p": false,
+"note": "She likes her job. \"udfordrende\" is a present participle used as an adjective.",
+"words": [
+[
+"udfordrende",
+"challenging"
+]
+]
+},
+{
+"da": "Inden Kamilla fik jobbet, havde hun ligesom de fleste andre nyuddannede brugt meget tid på at lære at skrive ansøgninger og CV og syntes også selv, hendes ansøgninger var gode.",
+"en": "Before she got the job, Kamilla, like most new graduates, had spent a lot of time learning to write applications and a CV, and she thought her applications were good.",
+"p": true,
+"note": "She had prepared well. \"havde brugt\" is the past perfect: had spent.",
+"words": [
+[
+"nyuddannede",
+"new graduates"
+],
+[
+"ansøgninger",
+"applications"
+],
+[
+"syntes",
+"thought"
+]
+]
+},
+{
+"da": "Da hun også i løbet af sit studie havde fået mange høje karakterer, mente hun selv, at hun var kvalificeret og hurtigt ville få et job.",
+"en": "Since she had also got many high grades during her studies, she believed she was qualified and would quickly get a job.",
+"p": false,
+"note": "She expected a job fast. After the \"Da\" clause, the main clause starts with the verb \"mente\".",
+"words": [
+[
+"karakterer",
+"grades"
+],
+[
+"mente",
+"believed"
+],
+[
+"kvalificeret",
+"qualified"
+],
+[
+"hurtigt",
+"quickly"
+]
+]
+},
+{
+"da": "Selvom hun måtte revidere sine forventninger undervejs, tænker hun ikke længere så meget på, at året med jobsøgning var frustrerende.",
+"en": "Although she had to change her expectations along the way, she no longer thinks much about how frustrating the year of job hunting was.",
+"p": true,
+"note": "She has moved on. After the \"Selvom\" clause, the verb \"tænker\" comes before \"hun\".",
+"words": [
+[
+"revidere",
+"revise"
+],
+[
+"forventninger",
+"expectations"
+],
+[
+"undervejs",
+"along the way"
+],
+[
+"frustrerende",
+"frustrating"
+]
+]
+},
+{
+"da": "Hun er blot glad for, at det via aktivt brug af sit netværk på de sociale medier endelig lykkedes hende at få et job.",
+"en": "She is just happy that by actively using her network on social media she finally got a job.",
+"p": false,
+"note": "Social media helped her. \"glad for, at\" means happy that.",
+"words": [
+[
+"aktivt",
+"actively"
+],
+[
+"netværk",
+"network"
+],
+[
+"sociale",
+"social"
+],
+[
+"lykkedes",
+"succeeded"
+]
+]
+},
+{
+"da": "René er uddannet mediegrafiker fra Syddansk Erhvervsskole.",
+"en": "René is a trained media graphic designer from a vocational college.",
+"p": true,
+"note": "This gives his education. No article before a job after \"er uddannet\".",
+"words": [
+[
+"uddannet",
+"trained"
+],
+[
+"mediegrafiker",
+"media graphic designer"
+],
+[
+"Erhvervsskole",
+"vocational school"
+]
+]
+},
+{
+"da": "”Jeg har altid gerne villet være mediegrafiker,” fortæller han.",
+"en": "\"I have always wanted to be a media graphic designer,\" he says.",
+"p": false,
+"note": "It was his dream. \"har villet\" is the perfect of the modal \"ville\".",
+"words": [
+[
+"mediegrafiker",
+"media graphic designer"
+],
+[
+"fortæller",
+"says, tells"
+]
+]
+},
+{
+"da": "”Og jeg havde også et studiejob på en lokalavis, mens jeg studerede, og det har jeg kunnet bruge i mine jobansøgninger.”",
+"en": "\"And I also had a student job at a local paper while I studied, and I have been able to use that in my applications.\"",
+"p": false,
+"note": "His student job helped. The object \"det\" comes first, so \"har\" comes before \"jeg\".",
+"words": [
+[
+"studiejob",
+"student job"
+],
+[
+"lokalavis",
+"local newspaper"
+],
+[
+"studerede",
+"studied"
+],
+[
+"jobansøgninger",
+"job applications"
+]
+]
+},
+{
+"da": "Men det var alligevel ikke let for René at finde sit nuværende drømmejob i et reklamefirma.",
+"en": "But it was still not easy for René to find his current dream job in an advertising company.",
+"p": false,
+"note": "He also struggled. \"sit\" refers back to René, the subject of the infinitive.",
+"words": [
+[
+"alligevel",
+"still"
+],
+[
+"nuværende",
+"current"
+],
+[
+"drømmejob",
+"dream job"
+],
+[
+"reklamefirma",
+"advertising company"
+]
+]
+},
+{
+"da": "Han gik faktisk arbejdsløs i næsten et halvt år, før han fik jobbet, og som en del af firmaets rekrutteringsproces måtte han også tage en personlighedstest.",
+"en": "He was actually unemployed for almost half a year before he got the job, and as part of hiring he also had to take a personality test.",
+"p": false,
+"note": "This tells about his wait and the test. \"måtte\" here means had to.",
+"words": [
+[
+"arbejdsløs",
+"unemployed"
+],
+[
+"rekrutteringsproces",
+"recruitment process"
+],
+[
+"personlighedstest",
+"personality test"
+]
+]
+},
+{
+"da": "Den viste, at René både er kreativ og struktureret, hvilket netop var egenskaber, firmaet efterspurgte.",
+"en": "It showed that René is both creative and organised, which were exactly the qualities the company wanted.",
+"p": false,
+"note": "The test suited him. \"hvilket\" refers back to the whole idea before it.",
+"words": [
+[
+"kreativ",
+"creative"
+],
+[
+"struktureret",
+"structured"
+],
+[
+"egenskaber",
+"qualities"
+],
+[
+"efterspurgte",
+"asked for"
+]
+]
+},
+{
+"da": "Inden René fik sit job, var han til andre jobsamtaler uden succes.",
+"en": "Before René got his job, he went to other interviews without success.",
+"p": true,
+"note": "He had failed interviews. After the \"Inden\" clause, the verb \"var\" comes before \"han\".",
+"words": [
+[
+"jobsamtaler",
+"job interviews"
+],
+[
+"succes",
+"success"
+]
+]
+},
+{
+"da": "Han tror, at han kunne have fået et job før, hvis han havde været mindre kritisk i forhold til, hvilke job han søgte.",
+"en": "He thinks he could have got a job earlier if he had been less picky about which jobs he applied for.",
+"p": false,
+"note": "He was too choosy. \"kunne have fået\" means could have got; \"hvis han havde været\" is a past condition.",
+"words": [
+[
+"kritisk",
+"critical"
+],
+[
+"forhold",
+"relation"
+],
+[
+"søgte",
+"applied for"
+]
+]
+},
+{
+"da": "”Jeg søgte kun de mest attraktive job inden for mit område, så der var stor konkurrence.",
+"en": "\"I only applied for the most attractive jobs in my field, so there was a lot of competition.",
+"p": false,
+"note": "He aimed high. \"de mest attraktive\" uses \"mest\" to make a superlative.",
+"words": [
+[
+"attraktive",
+"attractive"
+],
+[
+"område",
+"area, field"
+],
+[
+"konkurrence",
+"competition"
+]
+]
+},
+{
+"da": "Men jeg sørgede i det mindste for at forbedre mine chancer for at komme til jobsamtale.",
+"en": "But at least I made sure to improve my chances of getting an interview.",
+"p": false,
+"note": "He worked on his chances. \"sørge for at\" means make sure to.",
+"words": [
+[
+"sørgede",
+"made sure"
+],
+[
+"forbedre",
+"improve"
+],
+[
+"chancer",
+"chances"
+],
+[
+"jobsamtale",
+"job interview"
+]
+]
+},
+{
+"da": "I det halve år, jeg var arbejdsløs, tog jeg forskellige kurser i A-kassen.",
+"en": "In the half year I was unemployed, I took different courses at the unemployment fund.",
+"p": false,
+"note": "He took courses. After the long time phrase, the verb \"tog\" comes before \"jeg\".",
+"words": [
+[
+"arbejdsløs",
+"unemployed"
+],
+[
+"forskellige",
+"different"
+],
+[
+"kurser",
+"courses"
+],
+[
+"A-kassen",
+"the unemployment fund"
+]
+]
+},
+{
+"da": "Jeg tog blandt andet kurser i at skrive ansøgninger – og jeg blev til sidst rigtig god til at beskrive alt det, jeg kan,” siger han med et smil.",
+"en": "Among other things I took courses in writing applications – and in the end I got really good at describing everything I can do,\" he says with a smile.",
+"p": false,
+"note": "The courses helped. \"god til at\" means good at; \"til sidst\" means in the end.",
+"words": [
+[
+"blandt",
+"among"
+],
+[
+"ansøgninger",
+"applications"
+],
+[
+"beskrive",
+"describe"
+]
+]
+},
+{
+"da": "Typisk lærer man ikke noget om at søge job, når man går på en uddannelse.",
+"en": "Typically you learn nothing about looking for jobs during your education.",
+"p": true,
+"note": "This is the problem they see. After \"Typisk\" the verb \"lærer\" comes before \"man\".",
+"words": [
+[
+"Typisk",
+"typically"
+],
+[
+"uddannelse",
+"education"
+]
+]
+},
+{
+"da": "Det mener både Kamilla og René er en fejl.",
+"en": "Both Kamilla and René think that is a mistake.",
+"p": false,
+"note": "They agree. \"Det\" is fronted, so \"mener\" comes before the subject.",
+"words": [
+[
+"fejl",
+"mistake"
+]
+]
+},
+{
+"da": "De har begge to selv måttet lære, hvordan man finder et godt job, når man er færdig med sin uddannelse.",
+"en": "They both had to learn by themselves how to find a good job after finishing their education.",
+"p": false,
+"note": "They learned alone. \"har måttet\" is the perfect of the modal \"måtte\".",
+"words": [
+[
+"måttet",
+"had to"
+],
+[
+"hvordan",
+"how"
+],
+[
+"færdig",
+"finished"
+],
+[
+"uddannelse",
+"education"
+]
+]
+},
+{
+"da": "Derfor har de flere gode råd til unge jobsøgende, der lige er blevet færdige med deres uddannelse.",
+"en": "So they have several good tips for young job seekers who have just finished their education.",
+"p": false,
+"note": "They give advice. After \"Derfor\" the verb \"har\" comes before \"de\".",
+"words": [
+[
+"råd",
+"advice"
+],
+[
+"jobsøgende",
+"job seekers"
+],
+[
+"færdige",
+"finished"
+],
+[
+"uddannelse",
+"education"
+]
+]
+},
+{
+"da": "”Brug de sociale medier.",
+"en": "\"Use social media.",
+"p": false,
+"note": "A piece of advice in the imperative: \"brug\" is the verb stem, use.",
+"words": [
+[
+"sociale",
+"social"
+]
+]
+},
+{
+"da": "Det er vigtigt at gøre opmærksom på, at man er jobsøgende på alle platforme,” siger Kamilla og giver endnu et godt råd:",
+"en": "It is important to show on all platforms that you are looking for a job,\" says Kamilla, and gives another tip:",
+"p": false,
+"note": "Be visible online. \"gøre opmærksom på\" means draw attention to.",
+"words": [
+[
+"vigtigt",
+"important"
+],
+[
+"opmærksom",
+"aware"
+],
+[
+"jobsøgende",
+"job-seeking"
+],
+[
+"platforme",
+"platforms"
+]
+]
+},
+{
+"da": "”Et gennemarbejdet, overskueligt og velordnet CV er også vigtigt.”",
+"en": "\"A well-prepared, clear and tidy CV is also important.\"",
+"p": false,
+"note": "A good CV matters. The adjectives have -t because \"CV\" is an et-word.",
+"words": [
+[
+"gennemarbejdet",
+"well worked out"
+],
+[
+"overskueligt",
+"clear"
+],
+[
+"velordnet",
+"well organised"
+],
+[
+"vigtigt",
+"important"
+]
+]
+},
+{
+"da": "René nikker og tilføjer: ”Det er nemlig ofte det første, en arbejdsgiver kigger på.”",
+"en": "René nods and adds: \"That is often the first thing an employer looks at.\"",
+"p": false,
+"note": "He agrees. \"nemlig\" gives a reason, like \"you see\".",
+"words": [
+[
+"nikker",
+"nods"
+],
+[
+"tilføjer",
+"adds"
+],
+[
+"arbejdsgiver",
+"employer"
+]
+]
+},
+{
+"da": "Han anbefaler desuden, at man søger hjælp hos sin A-kasse så hurtigt som muligt: ”De kan hjælpe en med at få lavet en god jobplan,” siger han og fortsætter:",
+"en": "He also recommends getting help from your unemployment fund as soon as possible: \"They can help you make a good job plan,\" he says, and goes on:",
+"p": false,
+"note": "Get help early. \"så hurtigt som muligt\" means as fast as possible.",
+"words": [
+[
+"anbefaler",
+"recommends"
+],
+[
+"desuden",
+"also"
+],
+[
+"hurtigt",
+"quickly"
+],
+[
+"jobplan",
+"job plan"
+]
+]
+},
+{
+"da": "”Med en god jobplan bliver jobsøgningen mere overskuelig og mere målrettet.”",
+"en": "\"With a good job plan, the job search becomes clearer and more focused.\"",
+"p": false,
+"note": "A plan helps. After \"Med en god jobplan\" the verb \"bliver\" comes before the subject.",
+"words": [
+[
+"jobsøgningen",
+"the job search"
+],
+[
+"overskuelig",
+"manageable"
+],
+[
+"målrettet",
+"targeted"
+]
+]
+},
+{
+"da": "Uanset hvad man gør som nyuddannet jobsøgende, så er Kamilla og René enige om, at det for mange kræver hårdt arbejde at få sit første job.",
+"en": "Whatever you do as a newly graduated job seeker, Kamilla and René agree that for many it takes hard work to get the first job.",
+"p": true,
+"note": "Their conclusion. \"Uanset hvad\" means whatever; \"enige om\" means agree on.",
+"words": [
+[
+"Uanset",
+"regardless"
+],
+[
+"nyuddannet",
+"newly graduated"
+],
+[
+"jobsøgende",
+"job seeker"
+],
+[
+"kræver",
+"requires"
+]
+]
+},
+{
+"da": "Tekst 2: Personlighedstest",
+"en": "Text 2: Personality tests",
+"p": true,
+"note": "The title of the second text. \"Personlighedstest\" is a compound: personlighed (personality) plus test.",
+"words": [
+[
+"Personlighedstest",
+"personality test"
+]
+]
+},
+{
+"da": "I Danmark anslås det, at op mod 70 % af private og offentlige virksomheder anvender personlighedstest, når de skal rekruttere nye medarbejdere.",
+"en": "In Denmark it is estimated that up to 70% of private and public companies use personality tests when they hire new staff.",
+"p": true,
+"note": "Tests are common. \"anslås\" is the passive with -s: is estimated.",
+"words": [
+[
+"anslås",
+"is estimated"
+],
+[
+"offentlige",
+"public"
+],
+[
+"virksomheder",
+"companies"
+],
+[
+"rekruttere",
+"recruit"
+]
+]
+},
+{
+"da": "Men bidrager den slags test egentlig med noget?",
+"en": "But do such tests actually add anything?",
+"p": false,
+"note": "A question about value. In a yes/no question the verb comes first.",
+"words": [
+[
+"bidrager",
+"contribute"
+],
+[
+"egentlig",
+"actually"
+]
+]
+},
+{
+"da": "Er du først og fremmest udadvendt og impulsiv?",
+"en": "Are you first and foremost outgoing and impulsive?",
+"p": true,
+"note": "A question to the reader. \"først og fremmest\" means first and foremost.",
+"words": [
+[
+"udadvendt",
+"outgoing"
+],
+[
+"impulsiv",
+"impulsive"
+]
+]
+},
+{
+"da": "Eller er du mere indadvendt og omhyggelig?",
+"en": "Or are you more introverted and careful?",
+"p": false,
+"note": "The opposite type. \"mere\" plus adjective makes a comparative.",
+"words": [
+[
+"indadvendt",
+"introverted"
+],
+[
+"omhyggelig",
+"careful"
+]
+]
+},
+{
+"da": "Det kan en personlighedstest vise, i hvert fald hvis man spørger Anne Lund fra AL Rekruttering:",
+"en": "A personality test can show that, at least if you ask Anne Lund from AL Recruitment:",
+"p": false,
+"note": "She believes in tests. \"Det\" is fronted, so \"kan\" comes before the subject.",
+"words": [
+[
+"personlighedstest",
+"personality test"
+],
+[
+"spørger",
+"ask"
+],
+[
+"Rekruttering",
+"recruitment"
+]
+]
+},
+{
+"da": "”Der er ingen tvivl om, at en personlighedstest er et rigtig godt udgangspunkt for en jobsamtale.",
+"en": "\"There is no doubt that a personality test is a really good starting point for a job interview.",
+"p": true,
+"note": "She praises tests. \"ingen tvivl om, at\" means no doubt that.",
+"words": [
+[
+"tvivl",
+"doubt"
+],
+[
+"personlighedstest",
+"personality test"
+],
+[
+"udgangspunkt",
+"starting point"
+],
+[
+"jobsamtale",
+"job interview"
+]
+]
+},
+{
+"da": "Den siger noget om, hvordan din personlighed er skruet sammen: Hvad er det, der er særligt ved dig og din måde at arbejde på?",
+"en": "It says something about how your personality is put together: What is special about you and the way you work?",
+"p": false,
+"note": "The test describes you. \"er skruet sammen\" means is put together; \"særligt\" has -t after \"det\".",
+"words": [
+[
+"personlighed",
+"personality"
+],
+[
+"skruet",
+"screwed"
+],
+[
+"særligt",
+"special"
+]
+]
+},
+{
+"da": "Hvorfor skal en virksomhed ansætte dig og ikke den næste kandidat?”",
+"en": "Why should a company hire you and not the next candidate?\"",
+"p": false,
+"note": "Another question the test answers. After \"Hvorfor\" the verb \"skal\" comes before the subject.",
+"words": [
+[
+"Hvorfor",
+"why"
+],
+[
+"virksomhed",
+"company"
+],
+[
+"ansætte",
+"hire"
+],
+[
+"kandidat",
+"candidate"
+]
+]
+},
+{
+"da": "Det er derfor, mener hun, at op mod 70 % af alle virksomheder anvender personlighedstest, når de skal rekruttere.",
+"en": "That is why, she believes, up to 70% of all companies use personality tests when hiring.",
+"p": true,
+"note": "This gives her explanation. \"mener hun\" is inserted with inversion, like \"she thinks\".",
+"words": [
+[
+"virksomheder",
+"companies"
+],
+[
+"anvender",
+"use"
+],
+[
+"personlighedstest",
+"personality test"
+],
+[
+"rekruttere",
+"recruit"
+]
+]
+},
+{
+"da": "Og det gør de, selvom det er dyrt at få dem lavet.",
+"en": "And they do it even though it is expensive to have them made.",
+"p": false,
+"note": "Tests cost money. \"få dem lavet\" means have them done.",
+"words": [
+[
+"selvom",
+"even though"
+],
+[
+"lavet",
+"made"
+]
+]
+},
+{
+"da": "”De nye forbedrede personlighedstest kan koste mange tusinde kroner,” fortæller hun.",
+"en": "\"The new improved personality tests can cost many thousands of kroner,\" she says.",
+"p": false,
+"note": "They are expensive. \"forbedrede\" is a past participle used as an adjective, with -e.",
+"words": [
+[
+"forbedrede",
+"improved"
+],
+[
+"personlighedstest",
+"personality tests"
+],
+[
+"tusinde",
+"thousand"
+]
+]
+},
+{
+"da": "”Så hvis der er mange kandidater til det samme job, så bliver det nogle dyre rekrutteringsprocesser.”",
+"en": "\"So if there are many candidates for the same job, the hiring becomes expensive.\"",
+"p": false,
+"note": "Many candidates mean high costs. After a \"hvis\" clause, \"så\" plus the verb starts the main clause.",
+"words": [
+[
+"kandidater",
+"candidates"
+],
+[
+"rekrutteringsprocesser",
+"recruitment processes"
+]
+]
+},
+{
+"da": "Men måske er de penge givet godt ud.",
+"en": "But maybe the money is well spent.",
+"p": true,
+"note": "The cost may be worth it. \"give penge ud\" means spend money; here a passive with \"være\".",
+"words": [
+[
+"givet",
+"given"
+]
+]
+},
+{
+"da": "Det mener Anne Lund i hvert fald.",
+"en": "Anne Lund thinks so, at least.",
+"p": false,
+"note": "This is her opinion. \"i hvert fald\" means at least."
+},
+{
+"da": "Hun mener nemlig, at man spilder mange ressourcer på at ansætte en medarbejder, der alligevel ikke passer til jobbet.",
+"en": "She thinks a lot of resources are wasted hiring an employee who does not suit the job anyway.",
+"p": false,
+"note": "Bad hires are costly. \"passe til\" means fit or suit.",
+"words": [
+[
+"spilder",
+"waste"
+],
+[
+"ressourcer",
+"resources"
+],
+[
+"medarbejder",
+"employee"
+],
+[
+"alligevel",
+"anyway"
+]
+]
+},
+{
+"da": "Hvis man lykkes med at ansætte den rigtige medarbejder første gang, så er mange penge sparet.",
+"en": "If you manage to hire the right person the first time, a lot of money is saved.",
+"p": false,
+"note": "Good hiring saves money. \"er sparet\" is a passive with \"være\": is saved.",
+"words": [
+[
+"lykkes",
+"succeed"
+],
+[
+"ansætte",
+"hire"
+],
+[
+"medarbejder",
+"employee"
+],
+[
+"sparet",
+"saved"
+]
+]
+},
+{
+"da": "Virker personlighedstest?",
+"en": "Do personality tests work?",
+"p": true,
+"note": "A heading in the form of a question. The verb comes first in a yes/no question.",
+"words": [
+[
+"Virker",
+"work"
+],
+[
+"personlighedstest",
+"personality tests"
+]
+]
+},
+{
+"da": "Anne Lund medgiver, at selve ordet ’personlighedstest’ er uheldigt.",
+"en": "Anne Lund admits that the word \"personality test\" itself is unfortunate.",
+"p": false,
+"note": "She dislikes the word. \"selve ordet\" means the word itself.",
+"words": [
+[
+"medgiver",
+"admits"
+],
+[
+"personlighedstest",
+"personality test"
+],
+[
+"uheldigt",
+"unfortunate"
+]
+]
+},
+{
+"da": "”Man burde kalde det en personlighedsprofil i stedet.",
+"en": "\"You should call it a personality profile instead.",
+"p": false,
+"note": "She suggests a better name. \"burde\" is the past form of \"bør\" and means should.",
+"words": [
+[
+"burde",
+"should"
+],
+[
+"personlighedsprofil",
+"personality profile"
+]
+]
+},
+{
+"da": "Det er nemlig ikke en eksamen, og der er hverken rigtige eller forkerte svar,” siger hun.",
+"en": "It is not an exam, and there are neither right nor wrong answers,\" she says.",
+"p": false,
+"note": "There are no wrong answers. \"hverken ... eller\" means neither ... nor.",
+"words": [
+[
+"eksamen",
+"exam"
+],
+[
+"hverken",
+"neither"
+],
+[
+"forkerte",
+"wrong"
+]
+]
+},
+{
+"da": "”Det er altså et uheldigt ordvalg, fordi en personlighedstest egentlig ikke er en test.",
+"en": "\"So it is an unfortunate choice of words, because a personality test is not really a test.",
+"p": false,
+"note": "She explains again. After \"fordi\", \"ikke\" comes before the verb \"er\".",
+"words": [
+[
+"uheldigt",
+"unfortunate"
+],
+[
+"ordvalg",
+"choice of words"
+],
+[
+"personlighedstest",
+"personality test"
+],
+[
+"egentlig",
+"really"
+]
+]
+},
+{
+"da": "Det er en grundig beskrivelse af en personlighed.”",
+"en": "It is a thorough description of a personality.\"",
+"p": false,
+"note": "This says what it really is. \"grundig\" means thorough.",
+"words": [
+[
+"grundig",
+"thorough"
+],
+[
+"beskrivelse",
+"description"
+],
+[
+"personlighed",
+"personality"
+]
+]
+},
+{
+"da": "For Martin Holm, ph.d. i psykologi, er det langt fra det eneste problem ved personlighedstest.",
+"en": "For Martin Holm, PhD in psychology, this is far from the only problem with personality tests.",
+"p": true,
+"note": "A critic is introduced. After \"For Martin Holm...\" the verb \"er\" comes before \"det\".",
+"words": [
+[
+"psykologi",
+"psychology"
+],
+[
+"problem",
+"problem"
+],
+[
+"personlighedstest",
+"personality tests"
+]
+]
+},
+{
+"da": "Han har kritiseret dem for flere ting: ”Fx er det et problem, at vi mennesker næsten altid forstår spørgsmål på forskellige måder,” begynder han.",
+"en": "He has criticised them for several things: \"For example, it is a problem that we humans almost always understand questions in different ways,\" he begins.",
+"p": false,
+"note": "His first point. \"har kritiseret\" is the perfect; after \"Fx\" the verb comes before \"det\".",
+"words": [
+[
+"kritiseret",
+"criticised"
+],
+[
+"mennesker",
+"humans"
+],
+[
+"spørgsmål",
+"questions"
+],
+[
+"forskellige",
+"different"
+]
+]
+},
+{
+"da": "”Hvis to kandidater forstår det samme spørgsmål forskelligt, så kan man ikke sammenligne svarene og have tillid til testresultaterne.",
+"en": "\"If two candidates understand the same question differently, you cannot compare the answers and trust the results.",
+"p": false,
+"note": "Answers cannot be compared. \"have tillid til\" means trust.",
+"words": [
+[
+"kandidater",
+"candidates"
+],
+[
+"forskelligt",
+"differently"
+],
+[
+"sammenligne",
+"compare"
+],
+[
+"testresultaterne",
+"the test results"
+]
+]
+},
+{
+"da": "Og det er jo ellers det, der er meningen.”",
+"en": "And that is actually the whole point.\"",
+"p": false,
+"note": "This ends his point. \"meningen\" here means the purpose.",
+"words": [
+[
+"meningen",
+"the point"
+]
+]
+},
+{
+"da": "Det er Anne Lund delvist enig i, og hun understreger, at det netop er derfor, en personlighedstest ikke kan stå alene: ”Sammen med et CV og en ansøgning danner personlighedstesten et godt udgangspunkt for en grundig jobsamtale.",
+"en": "Anne Lund partly agrees, and stresses that this is exactly why a personality test cannot stand alone: \"Together with a CV and an application, the test is a good basis for a thorough interview.",
+"p": true,
+"note": "She partly agrees. \"Det\" is fronted, so \"er\" comes before \"Anne Lund\"; \"enig i\" means agree with.",
+"words": [
+[
+"delvist",
+"partly"
+],
+[
+"understreger",
+"stresses"
+],
+[
+"ansøgning",
+"application"
+],
+[
+"udgangspunkt",
+"starting point"
+]
+]
+},
+{
+"da": "Det er ikke meningen, at man kun skal lave en personlighedstest.”",
+"en": "The idea is not that you should only do a personality test.\"",
+"p": false,
+"note": "The test is one part. \"Det er ikke meningen, at\" means the idea is not that.",
+"words": [
+[
+"meningen",
+"the idea"
+],
+[
+"personlighedstest",
+"personality test"
+]
+]
+},
+{
+"da": "Alligevel mener Martin Holm ikke, at personlighedstesten er særlig brugbar: ”Vi mennesker forandrer os alt efter den sammenhæng, vi indgår i og også fra dag til dag.",
+"en": "Still, Martin Holm does not think the test is very useful: \"We humans change depending on the situation we are in, and also from day to day.",
+"p": true,
+"note": "He disagrees. After \"Alligevel\" the verb \"mener\" comes before the subject; \"alt efter\" means depending on.",
+"words": [
+[
+"Alligevel",
+"still"
+],
+[
+"brugbar",
+"useful"
+],
+[
+"forandrer",
+"change"
+],
+[
+"sammenhæng",
+"context"
+]
+]
+},
+{
+"da": "Vi kan være udadvendte i én sammenhæng og indadvendte i en anden.",
+"en": "We can be outgoing in one situation and introverted in another.",
+"p": false,
+"note": "People change. The adjectives have plural -e because \"vi\" is plural.",
+"words": [
+[
+"udadvendte",
+"outgoing"
+],
+[
+"sammenhæng",
+"context"
+],
+[
+"indadvendte",
+"introverted"
+]
+]
+},
+{
+"da": "Og vi kan være udadvendte den ene dag og indadvendte den næste,” fortæller han.",
+"en": "And we can be outgoing one day and introverted the next,\" he says.",
+"p": false,
+"note": "People change from day to day. \"den ene ... den næste\" means one ... the next.",
+"words": [
+[
+"udadvendte",
+"outgoing"
+],
+[
+"indadvendte",
+"introverted"
+],
+[
+"fortæller",
+"says"
+]
+]
+},
+{
+"da": "Anne Lund fastholder dog, at det ofte lykkes for rekrutteringsfirmaerne at finde gode kandidater ved hjælp af personlighedstest: ”I AL Rekruttering har vi hjulpet mange virksomheder med at finde den rigtige medarbejder, og personlighedstest har været en stor hjælp undervejs.”",
+"en": "Anne Lund still insists that recruiters often find good candidates with personality tests: \"At AL Recruitment we have helped many companies find the right employee, and the tests have been a big help.\"",
+"p": true,
+"note": "She defends the tests. \"har hjulpet\" is the perfect of \"hjælpe\".",
+"words": [
+[
+"fastholder",
+"maintains"
+],
+[
+"rekrutteringsfirmaerne",
+"the recruitment firms"
+],
+[
+"hjulpet",
+"helped"
+],
+[
+"undervejs",
+"along the way"
+]
+]
+},
+{
+"da": "Martin Holm medgiver, at rekrutteringsvirksomhederne ofte har succes med at finde den helt rigtige kandidat: ”Men det er ikke, fordi personlighedstest virker,” mener han.",
+"en": "Martin Holm admits that recruiters often succeed in finding the right candidate: \"But that is not because personality tests work,\" he says.",
+"p": true,
+"note": "He gives another reason. \"medgiver\" means admits; after \"fordi\" the order is subject then verb.",
+"words": [
+[
+"medgiver",
+"admits"
+],
+[
+"rekrutteringsvirksomhederne",
+"the recruitment companies"
+],
+[
+"kandidat",
+"candidate"
+],
+[
+"personlighedstest",
+"personality tests"
+]
+]
+},
+{
+"da": "”At de ser ud til at virke, skyldes simpelthen, at vi mennesker har en evne til at tilpasse os i en ny kontekst og fx løse nye opgaver i et nyt job og tilpasse os nye rutiner og en anden tone medarbejderne imellem.",
+"en": "\"That they seem to work is simply because we humans can adapt to a new context, for example new tasks, new routines and a new tone among colleagues.",
+"p": false,
+"note": "People adapt. \"skyldes\" means is due to; here an \"At\" clause is the subject.",
+"words": [
+[
+"skyldes",
+"is due to"
+],
+[
+"simpelthen",
+"simply"
+],
+[
+"tilpasse",
+"adapt"
+],
+[
+"rutiner",
+"routines"
+]
+]
+},
+{
+"da": "Det er noget, de fleste kvalificerede og egnede nye medarbejdere lærer hurtigt.”",
+"en": "That is something most qualified and suitable new employees learn quickly.\"",
+"p": false,
+"note": "Good people adapt fast. Adjectives get -e after \"de fleste\".",
+"words": [
+[
+"kvalificerede",
+"qualified"
+],
+[
+"egnede",
+"suitable"
+],
+[
+"medarbejdere",
+"employees"
+],
+[
+"hurtigt",
+"quickly"
+]
+]
+},
+{
+"da": "Alternative test",
+"en": "Alternative tests",
+"p": true,
+"note": "A heading about other kinds of tests.",
+"words": [
+[
+"Alternative",
+"alternative"
+]
+]
+},
+{
+"da": "Anne Lund mener, det ville være svært at undvære personlighedstest: ”Med en god personlighedstest i hånden kan vi stille bedre spørgsmål til jobsamtalen,” siger hun og understreger: ”Personlighedstest er et helt centralt redskab i den proces, det er at ansætte en ny medarbejder.”",
+"en": "Anne Lund thinks it would be hard to do without tests: \"With a good test in hand we can ask better questions,\" she says, and stresses: \"Tests are a key tool in hiring a new employee.\"",
+"p": false,
+"note": "She sees tests as essential. \"undvære\" means do without; \"stille spørgsmål\" means ask questions.",
+"words": [
+[
+"undvære",
+"do without"
+],
+[
+"jobsamtalen",
+"the job interview"
+],
+[
+"centralt",
+"central"
+],
+[
+"redskab",
+"tool"
+]
+]
+},
+{
+"da": "Men måske er der andre test, som er mere pålidelige.",
+"en": "But maybe there are other tests that are more reliable.",
+"p": true,
+"note": "Another option. After \"måske\" the verb \"er\" comes before \"der\".",
+"words": [
+[
+"pålidelige",
+"reliable"
+]
+]
+},
+{
+"da": "Det mener i hvert fald Martin Holm: ”Hvis man vil teste kandidaternes evner, så er det bedre at lade dem løse konkrete opgaver.",
+"en": "Martin Holm thinks so, at least: \"If you want to test candidates' skills, it is better to let them solve real tasks.",
+"p": false,
+"note": "He suggests practical tasks. \"lade dem løse\" means let them solve.",
+"words": [
+[
+"kandidaternes",
+"the candidates'"
+],
+[
+"evner",
+"abilities"
+],
+[
+"konkrete",
+"concrete"
+],
+[
+"opgaver",
+"tasks"
+]
+]
+},
+{
+"da": "De kan eventuelt løse nogle rigtige arbejdsopgaver sammen med nogle, der allerede er ansat i virksomheden.",
+"en": "They could perhaps solve real work tasks together with people already employed in the company.",
+"p": false,
+"note": "An example. \"eventuelt\" means possibly, not eventually.",
+"words": [
+[
+"eventuelt",
+"possibly"
+],
+[
+"arbejdsopgaver",
+"work tasks"
+],
+[
+"allerede",
+"already"
+],
+[
+"virksomheden",
+"the company"
+]
+]
+},
+{
+"da": "Så kan man se, hvordan de præsterer i praksis,” siger han og fortsætter: ”Den model vil også vise noget om kandidaternes evne til at samarbejde.",
+"en": "Then you can see how they perform in practice,\" he says, and goes on: \"That model will also show something about the candidates' ability to cooperate.",
+"p": false,
+"note": "Tasks show real skills. After \"Så\" the verb \"kan\" comes before \"man\".",
+"words": [
+[
+"præsterer",
+"perform"
+],
+[
+"praksis",
+"practice"
+],
+[
+"kandidaternes",
+"the candidates'"
+],
+[
+"samarbejde",
+"cooperate"
+]
+]
+},
+{
+"da": "De skal endda samarbejde i en presset situation.”",
+"en": "They even have to cooperate under pressure.\"",
+"p": false,
+"note": "An extra benefit. \"endda\" means even.",
+"words": [
+[
+"endda",
+"even"
+],
+[
+"samarbejde",
+"cooperate"
+],
+[
+"presset",
+"pressured"
+],
+[
+"situation",
+"situation"
+]
+]
+},
+{
+"da": "Men det vigtigste for Martin Holm er dog, at man ændrer synet på rekruttering.",
+"en": "But the most important thing for Martin Holm is to change how we see hiring.",
+"p": true,
+"note": "His main point. \"det vigtigste\" is a superlative used as a noun: the most important thing.",
+"words": [
+[
+"vigtigste",
+"most important"
+],
+[
+"ændrer",
+"change"
+],
+[
+"synet",
+"the view"
+],
+[
+"rekruttering",
+"recruitment"
+]
+]
+},
+{
+"da": "Han mener nemlig ikke, at den perfekte medarbejder findes: ”Den helt rigtige person til et job kan man ikke finde alene ved at udsætte ansøgere for en test.",
+"en": "He does not believe the perfect employee exists: \"You cannot find the right person for a job just by giving applicants a test.",
+"p": false,
+"note": "There is no perfect employee. \"findes\" means exists; the object is fronted, so \"kan\" comes before \"man\".",
+"words": [
+[
+"perfekte",
+"perfect"
+],
+[
+"medarbejder",
+"employee"
+],
+[
+"udsætte",
+"subject to"
+],
+[
+"ansøgere",
+"applicants"
+]
+]
+},
+{
+"da": "Den gode medarbejder er én, man udvikler i virksomheden,” siger han og tilføjer: ”Og det tager selvfølgelig lang tid.",
+"en": "A good employee is one you develop in the company,\" he says, and adds: \"And of course that takes a long time.",
+"p": false,
+"note": "Good staff are developed. \"selvfølgelig\" means of course.",
+"words": [
+[
+"medarbejder",
+"employee"
+],
+[
+"udvikler",
+"develop"
+],
+[
+"tilføjer",
+"adds"
+],
+[
+"selvfølgelig",
+"of course"
+]
+]
+},
+{
+"da": "Meget længere tid end det tager at lave en personlighedstest.”",
+"en": "Much longer than it takes to do a personality test.\"",
+"p": false,
+"note": "A fragment comparing time. \"længere\" is the comparative of \"lang\"; \"end\" means than.",
+"words": [
+[
+"længere",
+"longer"
+],
+[
+"personlighedstest",
+"personality test"
+]
+]
+}
+]
+},
+"pd3-22m-3": {
+"lines": [
+{
+"da": "Flere arbejder hjemme",
+"en": "More people work from home",
+"p": true,
+"note": "The title. \"Flere\" means more people; \"hjemme\" means at home (no movement).",
+"words": [
+[
+"arbejder",
+"work"
+]
+]
+},
+{
+"da": "At arbejde hjemme kan være både fleksibelt og effektivt.",
+"en": "Working from home can be both flexible and efficient.",
+"p": true,
+"note": "This gives the good side. The adjectives get -t because the subject is an \"at\" infinitive.",
+"words": [
+[
+"fleksibelt",
+"flexible"
+],
+[
+"effektivt",
+"efficient"
+]
+]
+},
+{
+"da": "Men erstatter hjemmearbejdspladsen kontoret i stort omfang, kan det ydermere gå ud over det fysiske og psykiske arbejdsmiljø.",
+"en": "But if the home workplace replaces the office to a large extent, it can also harm the physical and mental working environment.",
+"p": false,
+"note": "This gives the risk. The sentence starts with the verb \"erstatter\" to mean \"if\", without the word \"hvis\".",
+"words": [
+[
+"erstatter",
+"replaces"
+],
+[
+"hjemmearbejdspladsen",
+"the home workplace"
+],
+[
+"ydermere",
+"furthermore"
+],
+[
+"arbejdsmiljø",
+"working environment"
+]
+]
+},
+{
+"da": "Hjemmearbejde er i dag en naturlig del af arbejdslivet i de job, hvor det kan lade sig gøre, og det kan der være flere fordele ved.",
+"en": "Working from home is now a natural part of working life in jobs where it is possible, and it can have several advantages.",
+"p": true,
+"note": "Home work is normal now. \"kan lade sig gøre\" means is possible.",
+"words": [
+[
+"Hjemmearbejde",
+"working from home"
+],
+[
+"naturlig",
+"natural"
+],
+[
+"arbejdslivet",
+"working life"
+],
+[
+"fordele",
+"advantages"
+]
+]
+},
+{
+"da": "Arbejdsdagen kan eksempelvis blive mere fokuseret og effektiv.",
+"en": "The working day can, for example, become more focused and efficient.",
+"p": false,
+"note": "One advantage. \"eksempelvis\" means for example; \"mere\" makes the comparative.",
+"words": [
+[
+"Arbejdsdagen",
+"the working day"
+],
+[
+"eksempelvis",
+"for example"
+],
+[
+"fokuseret",
+"focused"
+],
+[
+"effektiv",
+"efficient"
+]
+]
+},
+{
+"da": "Det gælder særligt for dem, der ofte oplever at blive forstyrret på kontoret.",
+"en": "This is especially true for people who are often disturbed at the office.",
+"p": false,
+"note": "Some people gain the most. \"at blive forstyrret\" is a passive infinitive: to be disturbed.",
+"words": [
+[
+"særligt",
+"especially"
+],
+[
+"oplever",
+"experience"
+],
+[
+"forstyrret",
+"disturbed"
+],
+[
+"kontoret",
+"the office"
+]
+]
+},
+{
+"da": "Derhjemme er der tit mere ro til arbejdsopgaverne.",
+"en": "At home there is often more peace for work tasks.",
+"p": false,
+"note": "Home is quieter. After \"Derhjemme\" the verb \"er\" comes before \"der\".",
+"words": [
+[
+"Derhjemme",
+"at home"
+],
+[
+"arbejdsopgaverne",
+"the work tasks"
+]
+]
+},
+{
+"da": "Herudover kan der spares både tid og penge på turen til og fra arbejde.",
+"en": "In addition, both time and money can be saved on the trip to and from work.",
+"p": false,
+"note": "You save on travel. \"kan spares\" is a modal plus the passive with -s: can be saved.",
+"words": [
+[
+"Herudover",
+"in addition"
+],
+[
+"spares",
+"be saved"
+]
+]
+},
+{
+"da": "Udskifter man ofte kontoret med en hjemmearbejdsplads, skal man dog være opmærksom på, at det kræver det rigtige udstyr i hjemmet.",
+"en": "If you often swap the office for a home workplace, you must be aware that it needs the right equipment at home.",
+"p": true,
+"note": "You need good equipment. Again the sentence starts with a verb to mean \"if\".",
+"words": [
+[
+"Udskifter",
+"replace"
+],
+[
+"hjemmearbejdsplads",
+"home workplace"
+],
+[
+"opmærksom",
+"aware"
+],
+[
+"udstyr",
+"equipment"
+]
+]
+},
+{
+"da": "Det er det ikke alle, der har, selvom arbejdsgiverne har ansvar for at sikre et godt fysisk arbejdsmiljø derhjemme.",
+"en": "Not everyone has that, even though employers are responsible for ensuring a good physical working environment at home.",
+"p": false,
+"note": "Many lack the right gear. \"selvom\" means even though.",
+"words": [
+[
+"arbejdsgiverne",
+"the employers"
+],
+[
+"ansvar",
+"responsibility"
+],
+[
+"sikre",
+"ensure"
+],
+[
+"arbejdsmiljø",
+"working environment"
+]
+]
+},
+{
+"da": "Et godt arbejdsmiljø er nemlig en rettighed, man har som ansat, uanset hvor man har sin arbejdsplads.",
+"en": "A good working environment is a right you have as an employee, no matter where you work.",
+"p": false,
+"note": "This explains the employer's duty. \"uanset hvor\" means no matter where.",
+"words": [
+[
+"arbejdsmiljø",
+"working environment"
+],
+[
+"rettighed",
+"right"
+],
+[
+"uanset",
+"regardless"
+],
+[
+"arbejdsplads",
+"workplace"
+]
+]
+},
+{
+"da": "Morten Skov Christiansen fra Fagbevægelsens Hovedorganisation mener, at det er bekymrende, at mange arbejder mere hjemme uden det rigtige udstyr.",
+"en": "Morten Skov Christiansen from the Danish Trade Union Confederation finds it worrying that many work more at home without the right equipment.",
+"p": false,
+"note": "An expert is worried. \"bekymrende\" is a present participle used as an adjective.",
+"words": [
+[
+"Fagbevægelsens",
+"the trade union movement's"
+],
+[
+"Hovedorganisation",
+"main organisation"
+],
+[
+"bekymrende",
+"worrying"
+],
+[
+"udstyr",
+"equipment"
+]
+]
+},
+{
+"da": "Det kan arbejdsgiveren dog let rette op på.",
+"en": "However, the employer can easily fix that.",
+"p": false,
+"note": "It is easy to fix. \"Det\" is fronted, so \"kan\" comes before the subject; \"rette op på\" means put right.",
+"words": [
+[
+"arbejdsgiveren",
+"the employer"
+],
+[
+"rette",
+"correct"
+]
+]
+},
+{
+"da": "Det er ofte ikke så meget, der skal til, for at en arbejdsgiver overholder loven om arbejdsmiljø:",
+"en": "Often it does not take much for an employer to follow the working environment law:",
+"p": false,
+"note": "Little is needed. \"der skal til\" means is needed; \"for at\" means so that.",
+"words": [
+[
+"arbejdsgiver",
+"employer"
+],
+[
+"overholder",
+"comply with"
+],
+[
+"arbejdsmiljø",
+"working environment"
+]
+]
+},
+{
+"da": "”For eksempel er det vigtigt, at alle os, der arbejder foran en computer, får adskilt skærm og tastatur, og at vi har et bord og en stol, der passer i højden.",
+"en": "\"For example, it is important that all of us who work at a computer get a separate screen and keyboard, and a table and chair at the right height.",
+"p": true,
+"note": "He gives concrete advice. After \"For eksempel\" the verb \"er\" comes before \"det\".",
+"words": [
+[
+"vigtigt",
+"important"
+],
+[
+"adskilt",
+"separated"
+],
+[
+"tastatur",
+"keyboard"
+],
+[
+"højden",
+"the height"
+]
+]
+},
+{
+"da": "(…) Så undgår vi alle de museskader og spændingshovedpiner, vi ser så mange af,” siger han.",
+"en": "(…) Then we avoid all the mouse injuries and tension headaches we see so many of,\"¹ he says.",
+"p": false,
+"note": "Good equipment prevents pain. After \"Så\" the verb \"undgår\" comes before \"vi\".",
+"words": [
+[
+"undgår",
+"avoid"
+],
+[
+"museskader",
+"mouse injuries"
+],
+[
+"spændingshovedpiner",
+"tension headaches"
+]
+]
+},
+{
+"da": "Man skal også huske det psykiske arbejdsmiljø derhjemme.",
+"en": "You must also remember the mental working environment at home.",
+"p": true,
+"note": "The mental side matters too. \"psykiske\" has -e after \"det\".",
+"words": [
+[
+"huske",
+"remember"
+],
+[
+"psykiske",
+"mental"
+],
+[
+"arbejdsmiljø",
+"working environment"
+],
+[
+"derhjemme",
+"at home"
+]
+]
+},
+{
+"da": "Det kan ske, at grænsen mellem arbejde og fritid forsvinder, når hjem og arbejdsplads ikke er fysisk adskilt.",
+"en": "Work and free time can blur together when home and workplace are not physically separate.",
+"p": false,
+"note": "The line between work and home can disappear. In the \"når\" clause \"ikke\" comes before the verb.",
+"words": [
+[
+"grænsen",
+"the boundary"
+],
+[
+"forsvinder",
+"disappears"
+],
+[
+"arbejdsplads",
+"workplace"
+],
+[
+"adskilt",
+"separated"
+]
+]
+},
+{
+"da": "Dermed kan man komme til at mangle struktur i sin hverdag.",
+"en": "So you may end up lacking structure in your daily life.",
+"p": false,
+"note": "This is the result. \"komme til at\" means end up; after \"Dermed\" comes inversion.",
+"words": [
+[
+"Dermed",
+"thereby"
+],
+[
+"mangle",
+"lack"
+],
+[
+"struktur",
+"structure"
+],
+[
+"hverdag",
+"everyday life"
+]
+]
+},
+{
+"da": "Mange savner også fællesskabet med kollegerne, hvis meget af deres arbejde foregår derhjemme.",
+"en": "Many also miss the community with colleagues if much of their work happens at home.",
+"p": true,
+"note": "People feel alone. \"savner\" means miss.",
+"words": [
+[
+"savner",
+"miss"
+],
+[
+"fællesskabet",
+"the community"
+],
+[
+"kollegerne",
+"the colleagues"
+],
+[
+"derhjemme",
+"at home"
+]
+]
+},
+{
+"da": "Det sociale samvær på arbejdspladsen betyder ofte meget, og ensomhed og stress kan derfor være en konsekvens af meget hjemmearbejde.",
+"en": "Social contact at work often means a lot, so loneliness and stress can result from a lot of home working.",
+"p": false,
+"note": "This gives the danger. \"derfor\" comes after the verb in the middle of the clause.",
+"words": [
+[
+"samvær",
+"being together"
+],
+[
+"arbejdspladsen",
+"the workplace"
+],
+[
+"ensomhed",
+"loneliness"
+],
+[
+"konsekvens",
+"consequence"
+]
+]
+},
+{
+"da": "Det mener Henrik Holdt Larsen fra Copenhagen Business School (CBS).",
+"en": "That is the view of Henrik Holdt Larsen from Copenhagen Business School (CBS).",
+"p": false,
+"note": "An expert's opinion. \"Det\" is fronted, so the verb \"mener\" comes before the subject."
+},
+{
+"da": "Han mener derfor, at hjemmearbejde kræver en ledelse, der er ekstra opmærksom.",
+"en": "So he thinks home working needs management that pays extra attention.",
+"p": false,
+"note": "Managers must be careful. \"der\" is a relative pronoun here: management that is.",
+"words": [
+[
+"hjemmearbejde",
+"working from home"
+],
+[
+"kræver",
+"requires"
+],
+[
+"ledelse",
+"management"
+],
+[
+"opmærksom",
+"attentive"
+]
+]
+},
+{
+"da": "Hvis dette er tilfældet, vil han ikke afvise, at hjemmearbejde netop kan være godt for medarbejderne:",
+"en": "If that is the case, he will not rule out that home working can be good for employees:",
+"p": false,
+"note": "With good leaders it can work. After the \"Hvis\" clause, the main clause starts with the verb \"vil\".",
+"words": [
+[
+"tilfældet",
+"the case"
+],
+[
+"afvise",
+"rule out"
+],
+[
+"hjemmearbejde",
+"working from home"
+],
+[
+"medarbejderne",
+"the employees"
+]
+]
+},
+{
+"da": "”Hvis vi udnytter mulighederne, kan hjemmearbejde give større autonomi, spare transporttid, og det kan i visse situationer give en bedre balance mellem arbejdsliv og familielivet,” siger han.",
+"en": "\"If we use the possibilities, home working can give more independence, save travel time, and in some situations give a better balance between work and family life,\"² he says.",
+"p": true,
+"note": "He lists the benefits. \"større\" and \"bedre\" are comparatives of \"stor\" and \"god\".",
+"words": [
+[
+"udnytter",
+"make use of"
+],
+[
+"mulighederne",
+"the possibilities"
+],
+[
+"autonomi",
+"autonomy"
+],
+[
+"transporttid",
+"travel time"
+]
+]
+},
+{
+"da": " Politiken, 29/9/20: EU: Vi er mestre i hjemmearbejde, men vi glemmer arbejdsmiljøet (hentet 29/12/20)",
+"en": "¹ Politiken, 29/9/20: EU: We are masters of working from home, but we forget the working environment (retrieved 29/12/20)",
+"p": true,
+"note": "A footnote giving the newspaper source for the first quote.",
+"words": [
+[
+"mestre",
+"masters"
+],
+[
+"hjemmearbejde",
+"working from home"
+],
+[
+"arbejdsmiljøet",
+"the working environment"
+]
+]
+},
+{
+"da": " Politiken 13/4/20: Ny undersøgelse: Hver femte chef vil have ansatte til at arbejde mere efter Coronakrisen (hentet 9/8/20)",
+"en": "² Politiken 13/4/20: New survey: One in five bosses wants staff to work more after the corona crisis (retrieved 9/8/20)",
+"p": false,
+"note": "A footnote giving the source for the second quote. \"Hver femte\" means one in five.",
+"words": [
+[
+"undersøgelse",
+"survey"
+],
+[
+"ansatte",
+"employees"
+],
+[
+"Coronakrisen",
+"the corona crisis"
+]
+]
+}
+]
 }
 };
