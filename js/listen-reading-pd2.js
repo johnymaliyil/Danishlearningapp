@@ -148954,725 +148954,2305 @@ PD2.LISTEN_R = {
 }
 ]
 },
-"pd3-21m-1": {
+"pd3-20n-2": {
 "lines": [
 {
-"da": "Indhold",
-"en": "Contents",
+"da": "Tekst 1",
+"en": "Text 1",
 "p": true,
-"note": "A heading: the table of contents of the booklet.",
-"words": [
-[
-"Indhold",
-"contents"
-]
-]
+"note": "A label: this is the first text."
 },
 {
-"da": "Anmeldelser af forskellige teaterforestillinger … 3",
-"en": "Reviews of various theatre performances … 3",
+"da": "Internt jobskifte opfyldte karrieredrøm",
+"en": "Internal job change fulfilled a career dream",
 "p": true,
-"note": "A chapter title on page 3. \"forskellige\" ends in -e because the noun is plural.",
+"note": "The headline of a newspaper article. \"opfyldte\" is the past tense of \"opfylde\": fulfilled.",
 "words": [
 [
-"Anmeldelser",
-"reviews"
+"Internt",
+"internal"
 ],
 [
-"forskellige",
-"various"
+"jobskifte",
+"job change"
 ],
 [
-"teaterforestillinger",
-"theatre performances"
-]
-]
-},
-{
-"da": "Cykelmyggen Egon, Østre Gasværk Teater … 3",
-"en": "Egon the Bicycle Mosquito, Østre Gasværk Theatre … 3",
-"p": false,
-"note": "A review title: the play's name and the theatre, on page 3.",
-"words": [
-[
-"Cykelmyggen",
-"the bicycle mosquito"
-]
-]
-},
-{
-"da": "Erasmus Montanus, Aarhus Teater … 4",
-"en": "Erasmus Montanus, Aarhus Theatre … 4",
-"p": false,
-"note": "A review title: the play's name and the theatre, on page 4."
-},
-{
-"da": "Midt om natten, Tivolis Koncertsal … 4",
-"en": "In the Middle of the Night, Tivoli's Concert Hall … 4",
-"p": false,
-"note": "A review title. \"Tivolis\" has a genitive -s: Tivoli's.",
-"words": [
-[
-"Koncertsal",
-"concert hall"
-]
-]
-},
-{
-"da": "Besat, Bornholms Teater i Rønne Theater … 5",
-"en": "Occupied, Bornholm's Theatre in Rønne Theatre … 5",
-"p": false,
-"note": "A review title. \"Besat\" is a past participle: occupied.",
-"words": [
-[
-"Besat",
-"occupied"
-]
-]
-},
-{
-"da": "Tre danske teatre … 7",
-"en": "Three Danish theatres … 7",
-"p": false,
-"note": "A chapter title. \"teatre\" is the plural of \"teater\".",
-"words": [
-[
-"teatre",
-"theatres"
-]
-]
-},
-{
-"da": "Det Kongelige Teater … 7",
-"en": "The Royal Theatre … 7",
-"p": false,
-"note": "A section title. \"Kongelige\" ends in -e after \"Det\": the definite form.",
-"words": [
-[
-"Kongelige",
-"royal"
-]
-]
-},
-{
-"da": "Aarhus Teater … 8",
-"en": "Aarhus Theatre … 8",
-"p": false,
-"note": "A section title, on page 8."
-},
-{
-"da": "Bornholms Teater … 9",
-"en": "Bornholm's Theatre … 9",
-"p": false,
-"note": "A section title. \"Bornholms\" has a genitive -s."
-},
-{
-"da": "Rundvisninger på tre danske teatre … 12",
-"en": "Guided tours at three Danish theatres … 12",
-"p": false,
-"note": "A chapter title. Note \"på\" with places like a theatre.",
-"words": [
-[
-"Rundvisninger",
-"guided tours"
-]
-]
-},
-{
-"da": "Det Kongelige Teater – rundvisninger i alle tre huse … 12",
-"en": "The Royal Theatre – guided tours in all three buildings … 12",
-"p": false,
-"note": "A section title. \"huse\" is the plural of \"hus\".",
-"words": [
-[
-"rundvisninger",
-"guided tours"
-]
-]
-},
-{
-"da": "Aarhus Teater – bag kulissen … 14",
-"en": "Aarhus Theatre – behind the scenes … 14",
-"p": false,
-"note": "A section title. \"bag kulissen\" is a phrase: behind the scenes.",
-"words": [
-[
-"kulissen",
-"the stage set"
-]
-]
-},
-{
-"da": "Guidet tur i Rønne Theater … 14",
-"en": "Guided tour in Rønne Theatre … 14",
-"p": false,
-"note": "A section title, on page 14.",
-"words": [
-[
-"Guidet",
-"guided"
-]
-]
-},
-{
-"da": "Danske teaterpriser … 16",
-"en": "Danish theatre prizes … 16",
-"p": false,
-"note": "A chapter title. \"teaterpriser\" is a compound: teater plus priser.",
-"words": [
-[
-"teaterpriser",
-"theatre prizes"
-]
-]
-},
-{
-"da": "Kjeld Abell-prisen … 16",
-"en": "The Kjeld Abell Prize … 16",
-"p": false,
-"note": "A section title: a prize named after a person."
-},
-{
-"da": "Teaterpokalen … 16",
-"en": "The Theatre Cup … 16",
-"p": false,
-"note": "A section title. The ending -en makes it definite: the cup.",
-"words": [
-[
-"Teaterpokalen",
-"the theatre cup"
-]
-]
-},
-{
-"da": "Danske Dramatikeres Hæderspris … 16",
-"en": "The Danish Playwrights' Prize of Honour … 16",
-"p": false,
-"note": "A section title. \"Dramatikeres\" is a plural genitive: the playwrights'.",
-"words": [
-[
-"Dramatikeres",
-"playwrights'"
+"opfyldte",
+"fulfilled"
 ],
 [
-"Hæderspris",
-"prize of honour"
+"karrieredrøm",
+"career dream"
 ]
 ]
 },
 {
-"da": "Årets Reumert … 17",
-"en": "The Reumert of the Year … 17",
-"p": false,
-"note": "A section title. \"Årets\" means \"of the year\", a common phrase for awards.",
-"words": [
-[
-"Årets",
-"the year's"
-]
-]
-},
-{
-"da": "ANMELDELSER AF FORSKELLIGE TEATERFORESTILLINGER",
-"en": "REVIEWS OF VARIOUS THEATRE PERFORMANCES",
+"da": "”Var det blevet et nej, ville jeg nok have søgt andre veje,” fortæller Trine Sundsvald Christensen, som pressede på, indtil hun til sidst fik mulighed for at skifte specialistrollen ud med et job som projektleder.",
+"en": "\"If it had been a no, I would probably have looked elsewhere,\" says Trine Sundsvald Christensen, who kept pushing until she finally got the chance to swap her specialist role for a job as project manager.",
 "p": true,
-"note": "The title of the first chapter: theatre reviews.",
+"note": "She pushed until she got the new job. \"Var det blevet\" with the verb first means \"if it had been\".",
 "words": [
 [
-"ANMELDELSER",
-"reviews"
+"pressede",
+"pushed"
 ],
 [
-"TEATERFORESTILLINGER",
-"theatre performances"
+"mulighed",
+"chance"
+],
+[
+"specialistrollen",
+"the specialist role"
+],
+[
+"projektleder",
+"project manager"
 ]
 ]
 },
 {
-"da": "Cykelmyggen Egon, Østre Gasværk Teater",
-"en": "Egon the Bicycle Mosquito, Østre Gasværk Theatre",
+"da": "Civilingeniør Trine Sundsvald havde hverken skrevet en ansøgning eller været til en egentlig jobsamtale, da hun begyndte som projektleder i Niras’ Jernbaneafdeling 1. december sidste år.",
+"en": "Engineer Trine Sundsvald had neither written an application nor been to a real job interview when she started as project manager in Niras'¹ railway department on 1 December last year.",
 "p": true,
-"note": "The title of the first review: the play and the theatre.",
+"note": "She got the job without applying. \"hverken ... eller\" means \"neither ... nor\"; \"havde skrevet\" is the past perfect.",
 "words": [
 [
-"Cykelmyggen",
-"the bicycle mosquito"
+"Civilingeniør",
+"graduate engineer"
+],
+[
+"ansøgning",
+"application"
+],
+[
+"jobsamtale",
+"job interview"
+],
+[
+"Jernbaneafdeling",
+"railway department"
 ]
 ]
 },
 {
-"da": "Af Signe Larsen",
-"en": "By Signe Larsen",
+"da": "Med ti års anciennitet i virksomheden kendte hun faktisk også sin nye afdeling ganske godt og rykkede blot 50 meter længere ned ad gangen.",
+"en": "With ten years' seniority in the company, she actually knew her new department quite well and just moved 50 metres further down the corridor.",
 "p": false,
-"note": "The name of the writer. \"Af\" means \"by\" here."
+"note": "She already knew the department. After the fronted phrase the verb \"kendte\" comes before \"hun\".",
+"words": [
+[
+"anciennitet",
+"seniority"
+],
+[
+"virksomheden",
+"the company"
+],
+[
+"afdeling",
+"department"
+],
+[
+"rykkede",
+"moved"
+]
+]
 },
 {
-"da": "Den klassiske danske børnebog om cykelmyggen Egon er blevet til et teaterstykke.",
-"en": "The classic Danish children's book about Egon the bicycle mosquito has become a play.",
+"da": "Alligevel repræsenterer skiftet et væsentligt vendepunkt i hendes karriere, fordi det har ført hende ind på et spor, som hun målrettet er gået efter.",
+"en": "Still, the change is an important turning point in her career, because it has put her on a track she has aimed for.",
+"p": false,
+"note": "The move matters for her career. After \"Alligevel\" the verb \"repræsenterer\" comes before the subject.",
+"words": [
+[
+"repræsenterer",
+"represents"
+],
+[
+"væsentligt",
+"significant"
+],
+[
+"vendepunkt",
+"turning point"
+],
+[
+"målrettet",
+"purposefully"
+]
+]
+},
+{
+"da": "Før skiftet til projektleder arbejdede hun som geotekniker i et specialistteam, hvor opgaverne bestod i at lave jordbundsundersøgelser, fundamentberegninger og lignende.",
+"en": "Before the change, she worked as a geotechnical engineer in a specialist team, where the tasks were soil surveys, foundation calculations and similar.",
+"p": false,
+"note": "Her old job. \"bestod i\" means \"consisted of\"; it is the past of \"bestå\".",
+"words": [
+[
+"geotekniker",
+"geotechnical engineer"
+],
+[
+"specialistteam",
+"specialist team"
+],
+[
+"jordbundsundersøgelser",
+"soil surveys"
+],
+[
+"fundamentberegninger",
+"foundation calculations"
+]
+]
+},
+{
+"da": "Det var nærmest et tilfælde, der fik hende sporet ind på projektledelse.",
+"en": "It was almost by chance that she got into project management.",
 "p": true,
-"note": "A famous children's book is now a play. \"er blevet til\" is the perfect tense of \"blive til\": has become.",
+"note": "Chance started it. \"Det var ..., der\" is a cleft sentence that stresses \"et tilfælde\".",
 "words": [
 [
-"klassiske",
-"classic"
+"nærmest",
+"almost"
 ],
 [
-"børnebog",
-"children's book"
+"tilfælde",
+"chance"
 ],
 [
-"teaterstykke",
-"play"
+"projektledelse",
+"project management"
 ]
 ]
 },
 {
-"da": "Flemming Quist Møller, forklædt som en sommerfugl, er på scenen og læser op af sin berømte billedbog fra 1967, mens en skuespiller suser rundt på scenen og laver smarte tricks med sin artistcykel.",
-"en": "Flemming Quist Møller, dressed as a butterfly, is on stage reading from his famous picture book from 1967, while an actor zooms around the stage doing smart tricks on his stunt bike.",
+"da": "Den daværende fagprojektleder på et større projekt, som Trine Sundsvald Christensen var en del af, fik nyt job, og så overtog hun tjansen efter hende: ”Det var lidt underhåndsagtigt.",
+"en": "The then project manager on a larger project Trine was part of got a new job, and then she took over the task: \"It was a bit informal².",
 "p": false,
-"note": "The author reads while an actor does bike tricks. \"sin\" refers back to the subject: his own book.",
+"note": "She took over a colleague's role. \"overtog\" is the past tense of \"overtage\": took over.",
 "words": [
 [
-"forklædt",
-"dressed up"
+"daværende",
+"then"
 ],
 [
-"sommerfugl",
-"butterfly"
+"fagprojektleder",
+"project lead"
 ],
 [
-"skuespiller",
-"actor"
+"overtog",
+"took over"
 ],
 [
-"artistcykel",
-"stunt bike"
+"underhåndsagtigt²",
+"informal"
 ]
 ]
 },
 {
-"da": "Det er egentlig en simpel historie: Egon møder en sød dansemyg, der hedder Dagmar, han får hende ud af kæmpeedderkoppens net, og de lever lykkeligt til deres dages ende.",
-"en": "It is actually a simple story: Egon meets a sweet dancing mosquito called Dagmar, he gets her out of the giant spider's web, and they live happily ever after.",
+"da": "Jeg faldt nærmest over opgaven og fandt ud af, at jeg var rigtig god til koordineringsopgaverne.",
+"en": "I almost stumbled on the task and found out I was really good at the coordination tasks.",
 "p": false,
-"note": "The plot is simple and ends happily. \"til deres dages ende\" is a fixed phrase: ever after.",
+"note": "She discovered a talent. \"fandt ud af\" is the past of \"finde ud af\": found out.",
 "words": [
 [
-"egentlig",
-"actually"
+"nærmest",
+"almost"
 ],
 [
-"dansemyg",
-"dancing mosquito"
+"opgaven",
+"the task"
 ],
 [
-"kæmpeedderkoppens",
-"the giant spider's"
-],
-[
-"lykkeligt",
-"happily"
+"koordineringsopgaverne",
+"the coordination tasks"
 ]
 ]
 },
 {
-"da": "Det er alt det, der er at se på i forestillingen, der gør den sjov og flot.",
-"en": "It is all the things to look at in the show that make it fun and beautiful.",
+"da": "Det var på den måde, at drømmen om at gå helt over i projektledelse opstod.”",
+"en": "That is how the dream of moving fully into project management began.\"",
+"p": false,
+"note": "This is how the dream started. \"opstod\" is the past of \"opstå\": arose.",
+"words": [
+[
+"drømmen",
+"the dream"
+],
+[
+"projektledelse",
+"project management"
+],
+[
+"opstod",
+"arose"
+]
+]
+},
+{
+"da": "Trine Sundsvald ville gerne blive på sin arbejdsplads, og hun så derfor en mulighed i at skifte til et projektlederteam i en anden afdeling.",
+"en": "Trine wanted to stay at her workplace, so she saw a chance in moving to a project manager team in another department.",
 "p": true,
-"note": "The visual details make the show good. \"Det er … der\" is a cleft sentence that stresses one part.",
+"note": "She wanted to stay in the company. \"sin\" is used because the workplace belongs to the subject.",
 "words": [
 [
-"forestillingen",
-"the performance"
+"arbejdsplads",
+"workplace"
+],
+[
+"mulighed",
+"possibility"
+],
+[
+"projektlederteam",
+"project manager team"
+],
+[
+"afdeling",
+"department"
 ]
 ]
 },
 {
-"da": "Det er eventyrlige dekorationer og farvestrålende kostumer.",
-"en": "There are fairy-tale sets and colourful costumes.",
+"da": "I stedet for at gå alene med sin drøm tog hun emnet op til samtlige medarbejderudviklingssamtaler med sin teamleder – til at begynde med uden held: ”Vi har en ret flad struktur, som gør det nemt at gå til en chef uden at bukke og neje.",
+"en": "Instead of keeping her dream to herself, she raised it at every staff development talk with her team leader – at first without luck: \"We have a fairly flat structure, which makes it easy to go to a boss without bowing and scraping.",
 "p": false,
-"note": "The sets and costumes are lovely. The adjectives end in -e because the nouns are plural.",
+"note": "She kept asking. \"tage op\" means \"raise a topic\"; after the fronted phrase the verb \"tog\" comes first.",
 "words": [
 [
-"eventyrlige",
-"fairy-tale"
+"samtlige",
+"all"
 ],
 [
-"dekorationer",
-"sets, decorations"
+"medarbejderudviklingssamtaler",
+"staff development talks"
 ],
 [
-"farvestrålende",
-"brightly coloured"
+"teamleder",
+"team leader"
 ],
 [
-"kostumer",
-"costumes"
+"struktur",
+"structure"
 ]
 ]
 },
 {
-"da": "Og det er forfatteren Flemming Quist Møller, der fortæller undervejs fra sin store bog og bliver et karismatisk centrum for mylderet af små fortællinger om dyrene omkring ham.",
-"en": "And it is the author Flemming Quist Møller who tells from his big book along the way and becomes a charismatic centre for the crowd of little stories about the animals around him.",
+"da": "Bliver der sagt, at der ikke er plads, skal man tro på sit eget værd og insistere på, at det er det, man gerne vil,” siger hun.",
+"en": "If you are told there is no room, you must believe in your own worth and insist that this is what you want,\" she says.",
 "p": false,
-"note": "The author is the centre of the show. \"et karismatisk centrum\" has -t because \"centrum\" is an et-word.",
+"note": "Do not give up. The verb first, \"Bliver der sagt\", means \"if it is said\".",
 "words": [
 [
-"forfatteren",
-"the author"
+"plads",
+"room"
 ],
 [
-"undervejs",
-"along the way"
+"insistere",
+"insist"
+]
+]
+},
+{
+"da": "Ny titel var ikke nok",
+"en": "A new title was not enough",
+"p": true,
+"note": "A subheading in the article.",
+"words": [
+[
+"titel",
+"title"
+]
+]
+},
+{
+"da": "Trine Sundsvald tvivlede ikke et øjeblik: Projektledervejen var den rigtige.",
+"en": "Trine did not doubt for a moment: the project manager path was the right one.",
+"p": false,
+"note": "She was sure. \"tvivlede\" is the past tense of \"tvivle\": doubted.",
+"words": [
+[
+"tvivlede",
+"doubted"
 ],
 [
-"karismatisk",
-"charismatic"
+"øjeblik",
+"moment"
 ],
 [
-"fortællinger",
+"Projektledervejen",
+"the project manager path"
+]
+]
+},
+{
+"da": "På et tidspunkt fik hun også titel af projektleder i sit specialistteam: ”Min teamleder har virkelig prøvet at give mig noget ved at give mig en titel, men der var ikke nok projektlederopgaver i specialistteamet.”",
+"en": "At one point she also got the title of project manager in her specialist team: \"My team leader really tried to give me something by giving me a title, but there were not enough project manager tasks in the team.\"",
+"p": false,
+"note": "A title was not enough. \"har prøvet\" is the perfect tense: has tried.",
+"words": [
+[
+"tidspunkt",
+"point in time"
+],
+[
+"specialistteam",
+"specialist team"
+],
+[
+"projektlederopgaver",
+"project manager tasks"
+],
+[
+"specialistteamet",
+"the specialist team"
+]
+]
+},
+{
+"da": "For et halvt år siden tog hun en snak med sin daværende afdelingsleder og teamchef, hvor hun gjorde opmærksom på, at det nu var ved at være tid: ”De kunne godt mærke, at det var alvor for mig og ville ikke slippe en medarbejder, der er så meget inde i organisationen.",
+"en": "Six months ago she talked with her then department head and team boss and pointed out that it was now about time: \"They could tell I was serious and did not want to lose an employee who knows the organisation so well.",
+"p": true,
+"note": "She told her bosses she was serious. \"gøre opmærksom på\" means \"point out\".",
+"words": [
+[
+"daværende",
+"then"
+],
+[
+"afdelingsleder",
+"department head"
+],
+[
+"opmærksom",
+"attentive"
+],
+[
+"organisationen",
+"the organisation"
+]
+]
+},
+{
+"da": "Var det blevet et nej, ville jeg nok have søgt andre veje,” fortæller hun.",
+"en": "If it had been a no, I would probably have looked elsewhere,\" she says.",
+"p": false,
+"note": "She would have left otherwise. \"ville have søgt\" means \"would have sought\".",
+"words": [
+[
+"fortæller",
+"says"
+]
+]
+},
+{
+"da": "For Trine Sundsvald var det interne jobskifte den bedst mulige løsning: ”Min motivation var at få andre arbejdsopgaver, ikke at skifte arbejdsplads, for jeg kan rigtig godt lide at være her.",
+"en": "For Trine, the internal job change was the best possible solution: \"My motivation was to get different tasks, not to change workplace, because I really like being here.",
+"p": true,
+"note": "She wanted new tasks, not a new company. \"bedst mulige\" uses the superlative \"bedst\".",
+"words": [
+[
+"interne",
+"internal"
+],
+[
+"jobskifte",
+"job change"
+],
+[
+"motivation",
+"motivation"
+],
+[
+"arbejdsopgaver",
+"work tasks"
+]
+]
+},
+{
+"da": "Det er også derfor, jeg ikke har flyttet mig i ti år,” ler hun.",
+"en": "That is also why I have not moved in ten years,\" she laughs.",
+"p": false,
+"note": "She has stayed for ten years. In the clause after \"derfor\", \"ikke\" comes before \"har\".",
+"words": [
+[
+"flyttet",
+"moved"
+]
+]
+},
+{
+"da": "Det sociale skift var sværest",
+"en": "The social change was the hardest",
+"p": true,
+"note": "A subheading. \"sværest\" is the superlative of \"svær\": hardest.",
+"words": [
+[
+"sociale",
+"social"
+],
+[
+"sværest",
+"hardest"
+]
+]
+},
+{
+"da": "Skiftet fra det ene job til det andet har været en glidende overgang.",
+"en": "The change from one job to the other has been a smooth transition.",
+"p": false,
+"note": "The change was gradual. \"har været\" is the perfect of \"være\".",
+"words": [
+[
+"glidende",
+"gradual"
+],
+[
+"overgang",
+"transition"
+]
+]
+},
+{
+"da": "Trine Sundsvald tog blot sine projekter med sig, og efterhånden som de bliver løst, overtager hun nye.",
+"en": "Trine just took her projects with her, and as they are finished, she takes on new ones.",
+"p": false,
+"note": "She moved with her projects. \"bliver løst\" is a passive with \"blive\": are solved.",
+"words": [
+[
+"projekter",
+"projects"
+],
+[
+"efterhånden",
+"gradually"
+],
+[
+"overtager",
+"takes over"
+]
+]
+},
+{
+"da": "Kollegerne i den nye afdeling kendte hun godt i forvejen, fordi hun som geotekniker har haft en del samarbejde med jernbaneafdelingen på bl.a. Ringsted-Femern-banen.",
+"en": "She already knew her new colleagues, because as a geotechnical engineer she had worked a lot with the railway department, for example on the Ringsted–Femern line.",
+"p": true,
+"note": "She knew the new team. The object \"Kollegerne\" is fronted, so the verb \"kendte\" comes before \"hun\".",
+"words": [
+[
+"Kollegerne",
+"the colleagues"
+],
+[
+"forvejen",
+"already"
+],
+[
+"samarbejde",
+"cooperation"
+],
+[
+"jernbaneafdelingen",
+"the railway department"
+]
+]
+},
+{
+"da": "Fremover kommer hun sandsynligvis til at arbejde på jernbaneprojekter i Norge.",
+"en": "In future she will probably work on railway projects in Norway.",
+"p": false,
+"note": "Her future work. \"kommer til at\" expresses the future: will.",
+"words": [
+[
+"Fremover",
+"in future"
+],
+[
+"sandsynligvis",
+"probably"
+],
+[
+"jernbaneprojekter",
+"railway projects"
+]
+]
+},
+{
+"da": "Efter ti år i det samme team har det da også været lidt vemodigt at sige farvel til sine gamle kolleger: ”Det sværeste har helt klart været det sociale, fordi jeg har været rigtig glad for at være i mit team.”",
+"en": "After ten years in the same team it has been a bit sad to say goodbye to her old colleagues: \"The hardest part has clearly been the social side, because I have been really happy in my team.\"",
+"p": false,
+"note": "Leaving colleagues was sad. \"det sværeste\" is the superlative used as a noun: the hardest thing.",
+"words": [
+[
+"vemodigt",
+"wistful, sad"
+],
+[
+"kolleger",
+"colleagues"
+],
+[
+"sværeste",
+"hardest"
+],
+[
+"sociale",
+"social"
+]
+]
+},
+{
+"da": "Det betyder dog ikke, at hun har fortrudt et øjeblik – tværtimod: ”Det var det helt rigtige.",
+"en": "But that does not mean she has regretted it for a moment – quite the opposite: \"It was exactly right.",
+"p": true,
+"note": "She has no regrets. \"fortrudt\" is the participle of \"fortryde\": regretted.",
+"words": [
+[
+"fortrudt",
+"regretted"
+],
+[
+"øjeblik",
+"moment"
+],
+[
+"tværtimod",
+"on the contrary"
+]
+]
+},
+{
+"da": "Før havde jeg et fagligt fællesskab inden for geoteknik.",
+"en": "Before, I had a professional community in geotechnics.",
+"p": false,
+"note": "Her old team. After \"Før\" the verb \"havde\" comes before \"jeg\".",
+"words": [
+[
+"fagligt",
+"professional"
+],
+[
+"fællesskab",
+"community"
+],
+[
+"geoteknik",
+"geotechnics"
+]
+]
+},
+{
+"da": "I dag sidder jeg i et team, hvor jeg kan få faglig sparring inden for projektledelse.",
+"en": "Today I am in a team where I can get professional feedback on project management.",
+"p": false,
+"note": "Her new team helps her. \"faglig sparring\" means feedback from colleagues.",
+"words": [
+[
+"sparring",
+"feedback"
+],
+[
+"projektledelse",
+"project management"
+]
+]
+},
+{
+"da": "Det kunne jeg ikke før.”",
+"en": "I couldn't do that before.\"",
+"p": false,
+"note": "A short contrast with the past. \"Det\" is fronted, so the verb \"kunne\" comes before \"jeg\"."
+},
+{
+"da": "Ingeniøren den 16.04.2018: ’Internt jobskifte opfyldte karrieredrøm’.",
+"en": "*Ingeniøren, 16.04.2018: 'Internal job change fulfilled a career dream'.*",
+"p": true,
+"note": "The source of the article: a newspaper and a date.",
+"words": [
+[
+"Ingeniøren",
+"The Engineer (newspaper)"
+],
+[
+"Internt",
+"internal"
+],
+[
+"karrieredrøm",
+"career dream"
+]
+]
+},
+{
+"da": " Niras er en rådgivende ingeniørvirksomhed.",
+"en": "¹ Niras is a consulting engineering company.",
+"p": true,
+"note": "A footnote explaining Niras. \"rådgivende\" is a present participle used as an adjective: advising.",
+"words": [
+[
+"rådgivende",
+"consulting"
+],
+[
+"ingeniørvirksomhed",
+"engineering company"
+]
+]
+},
+{
+"da": " Noget, der sker uofficielt, og uden at det på forhånd er planlagt.",
+"en": "² Something that happens unofficially and without being planned in advance.",
+"p": false,
+"note": "A footnote explaining \"underhåndsagtigt\". \"på forhånd\" means \"in advance\".",
+"words": [
+[
+"uofficielt",
+"unofficially"
+],
+[
+"forhånd",
+"advance"
+],
+[
+"planlagt",
+"planned"
+]
+]
+},
+{
+"da": "Tekst 2",
+"en": "Text 2",
+"p": true,
+"note": "A label: this is the second text."
+},
+{
+"da": "Folk skifter job som aldrig før",
+"en": "People change jobs like never before",
+"p": true,
+"note": "The headline. \"som aldrig før\" is a phrase: like never before.",
+"words": [
+[
+"skifter",
+"change"
+]
+]
+},
+{
+"da": "I Danmark skifter folk oftere job, end man gør i mange andre lande.",
+"en": "In Denmark people change jobs more often than in many other countries.",
+"p": true,
+"note": "Danes change jobs a lot. After \"I Danmark\" the verb \"skifter\" comes before \"folk\".",
+"words": [
+[
+"oftere",
+"more often"
+]
+]
+},
+{
+"da": "Det er der både fordele og ulemper ved.",
+"en": "There are both advantages and disadvantages to this.",
+"p": false,
+"note": "It has pros and cons. \"Det\" is fronted and the preposition \"ved\" goes to the end.",
+"words": [
+[
+"fordele",
+"advantages"
+],
+[
+"ulemper",
+"disadvantages"
+]
+]
+},
+{
+"da": "Både for arbejdsgiverne og arbejdstagerne.",
+"en": "Both for employers and employees.",
+"p": false,
+"note": "A short fragment saying who is affected.",
+"words": [
+[
+"arbejdsgiverne",
+"the employers"
+],
+[
+"arbejdstagerne",
+"the employees"
+]
+]
+},
+{
+"da": "I Danmark er jobomsætningen, der er et mål for, hvor mange der starter i et nyt job, en af de største i Europa.",
+"en": "In Denmark the job turnover, which measures how many people start a new job, is one of the highest in Europe.",
+"p": true,
+"note": "Turnover is high in Denmark. \"de største\" is the superlative of \"stor\" in the plural.",
+"words": [
+[
+"jobomsætningen",
+"the job turnover"
+],
+[
+"største",
+"biggest"
+]
+]
+},
+{
+"da": "Den store jobomsætning kan blandt andet forklares med den danske arbejdsmarkedsmodel.",
+"en": "The high job turnover can partly be explained by the Danish labour market model.",
+"p": false,
+"note": "The model explains it. \"kan forklares\" is a modal verb plus passive -s: can be explained.",
+"words": [
+[
+"jobomsætning",
+"job turnover"
+],
+[
+"forklares",
+"be explained"
+],
+[
+"arbejdsmarkedsmodel",
+"labour market model"
+]
+]
+},
+{
+"da": "Det er en model, der er kendetegnet ved to nøgleord: fleksibilitet og sikkerhed.",
+"en": "It is a model marked by two key words: flexibility and security.",
+"p": false,
+"note": "The model in two words. \"kendetegnet ved\" means \"characterised by\".",
+"words": [
+[
+"kendetegnet",
+"characterised"
+],
+[
+"nøgleord",
+"key words"
+],
+[
+"fleksibilitet",
+"flexibility"
+],
+[
+"sikkerhed",
+"security"
+]
+]
+},
+{
+"da": "På det danske arbejdsmarked er der en relativt høj grad af fleksibilitet for arbejdsgiverne.",
+"en": "On the Danish labour market there is a relatively high degree of flexibility for employers.",
+"p": true,
+"note": "Employers have freedom. After \"På det danske arbejdsmarked\" the verb \"er\" comes first.",
+"words": [
+[
+"arbejdsmarked",
+"labour market"
+],
+[
+"relativt",
+"relatively"
+],
+[
+"fleksibilitet",
+"flexibility"
+],
+[
+"arbejdsgiverne",
+"the employers"
+]
+]
+},
+{
+"da": "De kan blandt andet relativt nemt ansætte og fyre medarbejdere i modsætning til i mange andre lande, hvor der er strengere regler.",
+"en": "Among other things, they can hire and fire staff fairly easily, unlike in many other countries with stricter rules.",
+"p": false,
+"note": "It is easy to hire and fire. \"strengere\" is the comparative of \"streng\": stricter.",
+"words": [
+[
+"ansætte",
+"hire"
+],
+[
+"medarbejdere",
+"employees"
+],
+[
+"modsætning",
+"contrast"
+],
+[
+"strengere",
+"stricter"
+]
+]
+},
+{
+"da": "Der er fx ikke lange opsigelsesvarsler.",
+"en": "For example, there are no long notice periods.",
+"p": false,
+"note": "An example of flexibility. \"fx\" means \"for example\".",
+"words": [
+[
+"opsigelsesvarsler",
+"notice periods"
+]
+]
+},
+{
+"da": "Fleksibiliteten betyder, at arbejdsgiverne godt tør ansætte nye medarbejdere, hvis der kommer en stigning i efterspørgslen.",
+"en": "Flexibility means employers dare to hire new staff if demand rises.",
+"p": false,
+"note": "Employers hire more easily. \"tør\" means \"dare\"; in the \"at\"-clause the subject comes first.",
+"words": [
+[
+"Fleksibiliteten",
+"the flexibility"
+],
+[
+"arbejdsgiverne",
+"the employers"
+],
+[
+"stigning",
+"rise"
+],
+[
+"efterspørgslen",
+"the demand"
+]
+]
+},
+{
+"da": "Hvis efterspørgslen falder, kan de nemlig forholdsvis nemt komme af med medarbejderne igen.",
+"en": "If demand falls, they can fairly easily get rid of the staff again.",
+"p": false,
+"note": "They can cut staff later. After the \"hvis\"-clause, the main clause starts with the verb \"kan\".",
+"words": [
+[
+"efterspørgslen",
+"the demand"
+],
+[
+"forholdsvis",
+"relatively"
+],
+[
+"medarbejderne",
+"the employees"
+]
+]
+},
+{
+"da": "Det danske arbejdsmarked er også kendetegnet ved en relativt høj grad af økonomisk sikkerhed for medarbejderne.",
+"en": "The Danish labour market is also marked by a relatively high degree of financial security for employees.",
+"p": true,
+"note": "Workers are protected. \"relativt\" is an adverb with -t.",
+"words": [
+[
+"arbejdsmarked",
+"labour market"
+],
+[
+"kendetegnet",
+"characterised"
+],
+[
+"økonomisk",
+"financial"
+],
+[
+"sikkerhed",
+"security"
+]
+]
+},
+{
+"da": "Bliver man fyret, går man ned i indkomst, men dog ikke så meget som i mange andre lande.",
+"en": "If you are fired, your income drops, but not as much as in many other countries.",
+"p": false,
+"note": "Losing a job is not a disaster. The verb first, \"Bliver man fyret\", means \"if you are fired\".",
+"words": [
+[
+"fyret",
+"fired"
+],
+[
+"indkomst",
+"income"
+]
+]
+},
+{
+"da": "Man er nemlig sikret relativt god økonomisk støtte som arbejdsløs.",
+"en": "You are guaranteed fairly good financial support when unemployed.",
+"p": false,
+"note": "Unemployed people get money. \"nemlig\" explains a reason: you see.",
+"words": [
+[
+"sikret",
+"guaranteed"
+],
+[
+"økonomisk",
+"financial"
+],
+[
+"arbejdsløs",
+"unemployed"
+]
+]
+},
+{
+"da": "Altså har den danske model indflydelse på jobomsætningen.",
+"en": "So the Danish model affects the job turnover.",
+"p": true,
+"note": "A conclusion. After \"Altså\" the verb \"har\" comes before the subject.",
+"words": [
+[
+"indflydelse",
+"influence"
+],
+[
+"jobomsætningen",
+"the job turnover"
+]
+]
+},
+{
+"da": "Modellen har dog også indflydelse på, hvordan det generelt opfattes at blive fyret.",
+"en": "But the model also affects how being fired is generally seen.",
+"p": false,
+"note": "It changes how people see firing. \"opfattes\" is the passive with -s: is perceived.",
+"words": [
+[
+"indflydelse",
+"influence"
+],
+[
+"generelt",
+"generally"
+],
+[
+"opfattes",
+"is perceived"
+]
+]
+},
+{
+"da": "Da det er mere almindeligt at blive fyret i Danmark, og da det generelt ikke medfører meget alvorlige økonomiske konsekvenser, er det oftest ikke forbundet med samme grad af skam eller fiasko som i mange andre lande.",
+"en": "Since being fired is more common in Denmark and generally has no very serious financial consequences, it is usually not linked with the same shame or failure as in many other countries.",
+"p": false,
+"note": "Being fired is not shameful. After the \"da\"-clauses, the main clause starts with the verb \"er\".",
+"words": [
+[
+"almindeligt",
+"common"
+],
+[
+"medfører",
+"leads to"
+],
+[
+"konsekvenser",
+"consequences"
+],
+[
+"forbundet",
+"connected"
+]
+]
+},
+{
+"da": "Fordele og ulemper ved en høj jobomsætning",
+"en": "Advantages and disadvantages of high job turnover",
+"p": true,
+"note": "A subheading.",
+"words": [
+[
+"Fordele",
+"advantages"
+],
+[
+"ulemper",
+"disadvantages"
+],
+[
+"jobomsætning",
+"job turnover"
+]
+]
+},
+{
+"da": "Inden for de fleste brancher er det en fordel for arbejdsgiverne, at man hurtigt kan tilpasse sig efterspørgslen og udskifte arbejdskraften efter behov.",
+"en": "In most sectors it is an advantage for employers to adapt quickly to demand and change staff as needed.",
+"p": false,
+"note": "Flexibility helps employers. After the fronted phrase the verb \"er\" comes before \"det\".",
+"words": [
+[
+"brancher",
+"sectors"
+],
+[
+"tilpasse",
+"adapt"
+],
+[
+"efterspørgslen",
+"the demand"
+],
+[
+"arbejdskraften",
+"the workforce"
+]
+]
+},
+{
+"da": "Dog kan der også være ulemper.",
+"en": "However, there can also be disadvantages.",
+"p": false,
+"note": "Now the problems. After \"Dog\" the verb \"kan\" comes first.",
+"words": [
+[
+"ulemper",
+"disadvantages"
+]
+]
+},
+{
+"da": "Hvis en virksomhed mister erfarne medarbejdere, fordi de rykker videre til et andet job, kan det nemlig være forbundet med tab af viden.",
+"en": "If a company loses experienced staff because they move on to another job, it can mean a loss of knowledge.",
+"p": false,
+"note": "Knowledge leaves with people. \"erfarne\" has -e in the plural.",
+"words": [
+[
+"virksomhed",
+"company"
+],
+[
+"erfarne",
+"experienced"
+],
+[
+"medarbejdere",
+"employees"
+],
+[
+"forbundet",
+"connected"
+]
+]
+},
+{
+"da": "Det betyder også ekstra udgifter og ekstra arbejdstimer ved oplæring af nye medarbejdere.",
+"en": "It also means extra costs and extra working hours to train new staff.",
+"p": false,
+"note": "Training costs money. \"oplæring\" means training on the job.",
+"words": [
+[
+"udgifter",
+"expenses"
+],
+[
+"arbejdstimer",
+"working hours"
+],
+[
+"oplæring",
+"training"
+],
+[
+"medarbejdere",
+"employees"
+]
+]
+},
+{
+"da": "Det er især i brancher med mangel på højt specialiseret arbejdskraft, at den høje jobomsætning kan være et problem.",
+"en": "Especially in sectors short of highly specialised workers, the high turnover can be a problem.",
+"p": true,
+"note": "Some sectors suffer more. \"Det er ..., at\" is a cleft sentence stressing where.",
+"words": [
+[
+"brancher",
+"sectors"
+],
+[
+"specialiseret",
+"specialised"
+],
+[
+"arbejdskraft",
+"workforce"
+],
+[
+"jobomsætning",
+"job turnover"
+]
+]
+},
+{
+"da": "Det gælder fx for it-branchen og bygge- og anlægsbranchen.",
+"en": "This applies, for example, to the IT sector and the construction sector.",
+"p": false,
+"note": "Two examples. \"gælder for\" means \"applies to\".",
+"words": [
+[
+"it-branchen",
+"the IT sector"
+],
+[
+"anlægsbranchen",
+"the construction sector"
+]
+]
+},
+{
+"da": "Hvis en it-virksomhed mister en erfaren medarbejder, kan det være svært at finde en ny specialist med de rigtige kvalifikationer.",
+"en": "If an IT company loses an experienced employee, it can be hard to find a new specialist with the right qualifications.",
+"p": false,
+"note": "Specialists are hard to replace. \"erfaren\" has no -e after \"en\".",
+"words": [
+[
+"it-virksomhed",
+"IT company"
+],
+[
+"erfaren",
+"experienced"
+],
+[
+"specialist",
+"specialist"
+],
+[
+"kvalifikationer",
+"qualifications"
+]
+]
+},
+{
+"da": "En ny medarbejder vil typisk have brug for oplæring, og det kræver tid, og det har de tilbageværende specialister netop ikke meget af.",
+"en": "A new employee will usually need training, which takes time, and the remaining specialists have little time.",
+"p": false,
+"note": "Training takes time nobody has. \"tilbageværende\" means \"remaining\".",
+"words": [
+[
+"medarbejder",
+"employee"
+],
+[
+"oplæring",
+"training"
+],
+[
+"tilbageværende",
+"remaining"
+],
+[
+"specialister",
+"specialists"
+]
+]
+},
+{
+"da": "For en arbejdsgiver er det vigtigste hele tiden at have de bedste og mest kompetente medarbejdere til lige netop de opgaver, som skal løses.",
+"en": "For an employer, the most important thing is always to have the best and most skilled staff for exactly the tasks that need doing.",
+"p": true,
+"note": "Employers want the best people. \"mest kompetente\" is the superlative with \"mest\".",
+"words": [
+[
+"arbejdsgiver",
+"employer"
+],
+[
+"vigtigste",
+"most important"
+],
+[
+"kompetente",
+"competent"
+],
+[
+"opgaver",
+"tasks"
+]
+]
+},
+{
+"da": "Især unge skifter job",
+"en": "Young people especially change jobs",
+"p": true,
+"note": "A subheading.",
+"words": [
+[
+"Især",
+"especially"
+]
+]
+},
+{
+"da": "Der er som nævnt flere brancher, hvor virksomhederne har svært ved at få de medarbejdere, de har brug for.",
+"en": "As mentioned, there are several sectors where companies find it hard to get the staff they need.",
+"p": false,
+"note": "Some sectors lack workers. \"har svært ved at\" means \"find it hard to\".",
+"words": [
+[
+"nævnt",
+"mentioned"
+],
+[
+"brancher",
+"sectors"
+],
+[
+"virksomhederne",
+"the companies"
+],
+[
+"medarbejdere",
+"employees"
+]
+]
+},
+{
+"da": "Det gælder fx i it-branchen og i bygge- og anlægsbranchen.",
+"en": "This applies, for example, to the IT sector and the construction sector.",
+"p": false,
+"note": "Two examples again. \"fx\" means \"for example\".",
+"words": [
+[
+"it-branchen",
+"the IT sector"
+],
+[
+"anlægsbranchen",
+"the construction sector"
+]
+]
+},
+{
+"da": "Konsekvensen er, at det ikke blot er arbejdsgiverne, der vælger efter behov.",
+"en": "The consequence is that it is not only employers who choose as needed.",
+"p": false,
+"note": "Workers choose too. \"ikke blot\" means \"not only\".",
+"words": [
+[
+"Konsekvensen",
+"the consequence"
+],
+[
+"arbejdsgiverne",
+"the employers"
+]
+]
+},
+{
+"da": "Der har også i de senere år været en stigende tendens til, at medarbejderne vælger arbejdsgiverne til og fra.",
+"en": "In recent years there has also been a growing trend for employees to choose employers.",
+"p": false,
+"note": "Workers pick employers. \"har været\" is the perfect of \"være\".",
+"words": [
+[
+"stigende",
+"increasing"
+],
+[
+"tendens",
+"trend"
+],
+[
+"medarbejderne",
+"the employees"
+],
+[
+"arbejdsgiverne",
+"the employers"
+]
+]
+},
+{
+"da": "Det er nemlig ikke noget problem at sige sit job op, hvis man nemt kan finde et andet job.",
+"en": "It is no problem to quit your job if you can easily find another one.",
+"p": false,
+"note": "Quitting is easy. \"sige op\" means \"quit\" or \"resign\".",
+"words": [
+[
+"problem",
+"problem"
+]
+]
+},
+{
+"da": "Det kommer selvfølgelig an på de muligheder, der er i den branche, hvor man arbejder.",
+"en": "Of course it depends on the opportunities in the sector where you work.",
+"p": false,
+"note": "It depends on the sector. \"komme an på\" means \"depend on\".",
+"words": [
+[
+"selvfølgelig",
+"of course"
+],
+[
+"muligheder",
+"opportunities"
+],
+[
+"branche",
+"sector"
+]
+]
+},
+{
+"da": "Men det kommer også an på alder.",
+"en": "But it also depends on age.",
+"p": false,
+"note": "Age matters too. \"komme an på\" means \"depend on\"."
+},
+{
+"da": "Det er særligt blandt de yngre medarbejdere, at der er en høj jobomsætning.",
+"en": "It is especially among younger employees that job turnover is high.",
+"p": false,
+"note": "Young people change jobs most. \"yngre\" is the comparative of \"ung\".",
+"words": [
+[
+"særligt",
+"especially"
+],
+[
+"medarbejdere",
+"employees"
+],
+[
+"jobomsætning",
+"job turnover"
+]
+]
+},
+{
+"da": "For unge er det nemlig generelt mindre risikofyldt at skifte job og arbejde i korte midlertidige ansættelser.",
+"en": "For young people it is generally less risky to change jobs and work in short temporary positions.",
+"p": true,
+"note": "It is safer for the young. After \"For unge\" the verb \"er\" comes before \"det\".",
+"words": [
+[
+"generelt",
+"generally"
+],
+[
+"risikofyldt",
+"risky"
+],
+[
+"midlertidige",
+"temporary"
+],
+[
+"ansættelser",
+"positions"
+]
+]
+},
+{
+"da": "De har endnu ikke fået forpligtelser i forhold til familie og bolig og har derfor ikke samme behov for økonomisk stabilitet som ældre medarbejdere.",
+"en": "They do not yet have family and housing commitments, so they do not need financial stability as much as older employees.",
+"p": false,
+"note": "Young people have fewer duties. \"har ... fået\" is the perfect tense.",
+"words": [
+[
+"forpligtelser",
+"commitments"
+],
+[
+"økonomisk",
+"financial"
+],
+[
+"stabilitet",
+"stability"
+],
+[
+"medarbejdere",
+"employees"
+]
+]
+},
+{
+"da": "Det er generelt også mere positivt for unge at skifte job, fordi de har brug for at opbygge et netværk og få en bredere erfaring.",
+"en": "It is also generally more positive for young people to change jobs, because they need to build a network and get broader experience.",
+"p": false,
+"note": "Job changes help young people. \"bredere\" is the comparative of \"bred\": broader.",
+"words": [
+[
+"generelt",
+"generally"
+],
+[
+"opbygge",
+"build"
+],
+[
+"netværk",
+"network"
+],
+[
+"bredere",
+"broader"
+]
+]
+},
+{
+"da": "Jobskift kan være et skridt på vejen mod det drømmejob og den karriere, de gerne vil have.",
+"en": "A job change can be a step towards the dream job and career they want.",
+"p": false,
+"note": "Changes can lead to a dream job. \"på vejen mod\" means \"on the way to\".",
+"words": [
+[
+"Jobskift",
+"job change"
+],
+[
+"skridt",
+"step"
+],
+[
+"drømmejob",
+"dream job"
+],
+[
+"karriere",
+"career"
+]
+]
+},
+{
+"da": "Selvom flere unge ser korte midlertidige ansættelser som led i deres karriere, ønsker de fleste unge dog en længerevarende fastansættelse ligesom deres ældre kolleger.",
+"en": "Although more young people see short temporary jobs as part of their career, most still want a long-term permanent job like their older colleagues.",
+"p": true,
+"note": "Most young people want a fixed job. After the \"selvom\"-clause, the main clause starts with the verb \"ønsker\".",
+"words": [
+[
+"midlertidige",
+"temporary"
+],
+[
+"ansættelser",
+"positions"
+],
+[
+"længerevarende",
+"long-term"
+],
+[
+"fastansættelse",
+"permanent job"
+]
+]
+},
+{
+"da": "Det er blot sværere at finde et fast job som ung og nyuddannet, fordi flere virksomheder end tidligere kun tilbyder korte midlertidige ansættelser.",
+"en": "It is just harder to find a permanent job when young and newly qualified, because more companies than before only offer short temporary jobs.",
+"p": false,
+"note": "Fixed jobs are hard to get. \"sværere\" is the comparative of \"svær\".",
+"words": [
+[
+"sværere",
+"harder"
+],
+[
+"nyuddannet",
+"newly qualified"
+],
+[
+"virksomheder",
+"companies"
+],
+[
+"tidligere",
+"before"
+]
+]
+},
+{
+"da": "De unge, der skal have deres første job, er derfor ofte nødt til at tage de korte midlertidige ansættelser.",
+"en": "So young people looking for their first job often have to take short temporary positions.",
+"p": false,
+"note": "They have no choice. \"er nødt til at\" means \"have to\".",
+"words": [
+[
+"derfor",
+"therefore"
+],
+[
+"midlertidige",
+"temporary"
+],
+[
+"ansættelser",
+"positions"
+]
+]
+},
+{
+"da": "Usikkerhed i ansættelsen",
+"en": "Insecurity in employment",
+"p": true,
+"note": "A subheading about risks of temporary jobs.",
+"words": [
+[
+"Usikkerhed",
+"insecurity"
+],
+[
+"ansættelsen",
+"the employment"
+]
+]
+},
+{
+"da": "Når ansatte i korte midlertidige ansættelser generelt foretrækker en længerevarende fastansættelse, skyldes det ønsket om mere tryghed i deres arbejdsliv.",
+"en": "When people in short temporary jobs generally prefer a long-term permanent job, it is because they want more security in their working life.",
+"p": false,
+"note": "They want security. After the \"når\"-clause, the main clause starts with the verb \"skyldes\".",
+"words": [
+[
+"foretrækker",
+"prefer"
+],
+[
+"fastansættelse",
+"permanent job"
+],
+[
+"tryghed",
+"security"
+],
+[
+"arbejdsliv",
+"working life"
+]
+]
+},
+{
+"da": "En løs tilknytning til arbejdsmarkedet former sig nemlig ikke kun som et spændende liv med mange karriere- og udviklingsmuligheder.",
+"en": "A loose connection to the labour market is not only an exciting life with many career and development opportunities.",
+"p": false,
+"note": "Temporary work is not only exciting. \"former sig\" is reflexive: takes shape.",
+"words": [
+[
+"tilknytning",
+"connection"
+],
+[
+"arbejdsmarkedet",
+"the labour market"
+],
+[
+"spændende",
+"exciting"
+],
+[
+"udviklingsmuligheder",
+"development opportunities"
+]
+]
+},
+{
+"da": "Ens arbejdsliv vil ofte være uforudsigeligt med perioder med lav eller ingen lønindkomst.",
+"en": "Your working life will often be unpredictable, with periods of low or no income.",
+"p": false,
+"note": "Income can stop. \"uforudsigeligt\" has -t because \"arbejdsliv\" is an et-word.",
+"words": [
+[
+"arbejdsliv",
+"working life"
+],
+[
+"uforudsigeligt",
+"unpredictable"
+],
+[
+"perioder",
+"periods"
+],
+[
+"lønindkomst",
+"wage income"
+]
+]
+},
+{
+"da": "I modsætning til en mere fast tilknytning til arbejdsmarkedet, betyder en løs tilknytning ikke blot en ustabil indkomst, men også, at man har sværere ved at optjene dagpenge og få sygesikring, betalt ferie og pensionsopsparing.",
+"en": "Unlike a more permanent connection, a loose connection means not only unstable income but also that it is harder to earn unemployment benefits and get health insurance, paid holiday and pension savings.",
+"p": false,
+"note": "Temporary jobs give fewer benefits. \"ikke blot ..., men også\" means \"not only ..., but also\".",
+"words": [
+[
+"optjene",
+"earn"
+],
+[
+"dagpenge",
+"unemployment benefit"
+],
+[
+"sygesikring",
+"health insurance"
+],
+[
+"pensionsopsparing",
+"pension savings"
+]
+]
+},
+{
+"da": "De fleste sociale og økonomiske sikkerhedsforanstaltninger er nemlig bygget op omkring arbejdsmarkedets faste stillinger.",
+"en": "Most social and financial safety measures are built around permanent jobs.",
+"p": false,
+"note": "Benefits come with fixed jobs. \"er bygget op\" is a passive with \"være\": are built.",
+"words": [
+[
+"økonomiske",
+"financial"
+],
+[
+"sikkerhedsforanstaltninger",
+"safety measures"
+],
+[
+"arbejdsmarkedets",
+"the labour market's"
+],
+[
+"stillinger",
+"positions"
+]
+]
+},
+{
+"da": "Det vil sige, at man fx normalt er sikret overenskomstbestemte løn- og arbejdsvilkår, hvis man er ansat i en fast stilling.",
+"en": "That means you are normally guaranteed agreed pay and working conditions if you have a permanent job.",
+"p": false,
+"note": "Fixed jobs give agreed pay. \"Det vil sige\" means \"that is to say\".",
+"words": [
+[
+"normalt",
+"normally"
+],
+[
+"overenskomstbestemte",
+"set by collective agreement"
+],
+[
+"arbejdsvilkår",
+"working conditions"
+],
+[
+"stilling",
+"position"
+]
+]
+},
+{
+"da": "Man har fx en opsigelsesperiode ved fyring, og man kan få udbetalt løn i opsigelsesperioden.",
+"en": "For example, you have a notice period if fired, and you can get paid during the notice period.",
+"p": false,
+"note": "Notice periods protect you. \"få udbetalt\" means \"get paid out\".",
+"words": [
+[
+"opsigelsesperiode",
+"notice period"
+],
+[
+"fyring",
+"dismissal"
+],
+[
+"udbetalt",
+"paid out"
+],
+[
+"opsigelsesperioden",
+"the notice period"
+]
+]
+},
+{
+"da": "Med en kort midlertidig ansættelse er man ikke sikret alle disse fordele.",
+"en": "With a short temporary job, you are not guaranteed all these benefits.",
+"p": false,
+"note": "Temporary workers lose out. After the fronted phrase the verb \"er\" comes before \"man\".",
+"words": [
+[
+"midlertidig",
+"temporary"
+],
+[
+"ansættelse",
+"employment"
+],
+[
+"fordele",
+"benefits"
+]
+]
+},
+{
+"da": "Hertil kommer, at man i perioder risikerer at være helt uden indkomst, hvis man i sine midlertidige ansættelser heller ikke har optjent nogen dagpenge.",
+"en": "In addition, you risk periods with no income at all if you have not earned any unemployment benefits in your temporary jobs.",
+"p": false,
+"note": "You may get no money at all. \"Hertil kommer\" means \"in addition\".",
+"words": [
+[
+"risikerer",
+"risk"
+],
+[
+"indkomst",
+"income"
+],
+[
+"midlertidige",
+"temporary"
+],
+[
+"optjent",
+"earned"
+]
+]
+}
+]
+},
+"pd3-20n-3": {
+"lines": [
+{
+"da": "Danske firmaer tager samfundsmæssigt ansvar",
+"en": "Danish companies take social responsibility",
+"p": true,
+"note": "The headline. \"samfundsmæssigt\" has -t because \"ansvar\" is an et-word.",
+"words": [
+[
+"firmaer",
+"companies"
+],
+[
+"samfundsmæssigt",
+"social"
+],
+[
+"ansvar",
+"responsibility"
+]
+]
+},
+{
+"da": "Corporate Social Responsibility (CSR), eller på dansk ’virksomhedens samfundsmæssige ansvar’, opstod i 1800-tallet i USA.",
+"en": "Corporate Social Responsibility (CSR), or in Danish 'the company's social responsibility', began in the 1800s in the USA.",
+"p": true,
+"note": "CSR started in America. \"opstod\" is the past tense of \"opstå\": arose.",
+"words": [
+[
+"virksomhedens",
+"the company's"
+],
+[
+"samfundsmæssige",
+"social"
+],
+[
+"opstod",
+"arose"
+]
+]
+},
+{
+"da": "Her donerede rige forretningsfolk penge til fx skoler og hospitaler i fattige bydele.",
+"en": "Here rich businesspeople donated money to, for example, schools and hospitals in poor neighbourhoods.",
+"p": false,
+"note": "How CSR began. After \"Her\" the verb \"donerede\" comes before the subject.",
+"words": [
+[
+"donerede",
+"donated"
+],
+[
+"forretningsfolk",
+"businesspeople"
+],
+[
+"hospitaler",
+"hospitals"
+],
+[
+"bydele",
+"districts"
+]
+]
+},
+{
+"da": "Imidlertid er CSR i dag andet og mere end blot donationer.",
+"en": "However, CSR today is more than just donations.",
+"p": false,
+"note": "CSR has changed. After \"Imidlertid\" the verb \"er\" comes before \"CSR\".",
+"words": [
+[
+"Imidlertid",
+"however"
+],
+[
+"donationer",
+"donations"
+]
+]
+},
+{
+"da": "CSR betegner i dag virksomheders arbejde med at integrere sociale og miljømæssige hensyn i deres forretningsaktiviteter i samspil med deres kunder.",
+"en": "Today CSR means companies' work to include social and environmental concerns in their business together with their customers.",
+"p": false,
+"note": "This defines CSR today. \"virksomheders\" is a genitive plural: companies'.",
+"words": [
+[
+"betegner",
+"denotes"
+],
+[
+"integrere",
+"integrate"
+],
+[
+"miljømæssige",
+"environmental"
+],
+[
+"forretningsaktiviteter",
+"business activities"
+]
+]
+},
+{
+"da": "CSR har bredt sig i dansk erhvervsliv i de senere år, blandt andet på hoteller, der har haft stor succes med at tænke CSR ind i deres aktiviteter.",
+"en": "CSR has spread in Danish business in recent years, for example at hotels, which have had great success building CSR into their activities.",
+"p": true,
+"note": "Hotels use CSR. \"har bredt sig\" is the perfect of the reflexive verb \"brede sig\": spread.",
+"words": [
+[
+"bredt",
+"spread"
+],
+[
+"erhvervsliv",
+"business life"
+],
+[
+"hoteller",
+"hotels"
+],
+[
+"aktiviteter",
+"activities"
+]
+]
+},
+{
+"da": "Mange hoteller arbejder eksempelvis med bæredygtighed og miljø.",
+"en": "Many hotels, for example, work with sustainability and the environment.",
+"p": false,
+"note": "An example of CSR. \"eksempelvis\" means \"for example\".",
+"words": [
+[
+"hoteller",
+"hotels"
+],
+[
+"eksempelvis",
+"for example"
+],
+[
+"bæredygtighed",
+"sustainability"
+]
+]
+},
+{
+"da": "Et af deres mål er at fjerne engangsplastik som fx sugerør og cocktailpinde fra hotellerne.",
+"en": "One of their goals is to remove single-use plastic such as straws and cocktail sticks from the hotels.",
+"p": false,
+"note": "Hotels cut plastic. \"Et af\" is used because \"mål\" is an et-word.",
+"words": [
+[
+"engangsplastik",
+"single-use plastic"
+],
+[
+"sugerør",
+"straws"
+],
+[
+"cocktailpinde",
+"cocktail sticks"
+],
+[
+"hotellerne",
+"the hotels"
+]
+]
+},
+{
+"da": "Et andet mål er at spare på vaskemidler ved at opfordre gæsterne til at bruge håndklæderne på værelserne flere gange.",
+"en": "Another goal is to save detergent by asking guests to use the towels in the rooms several times.",
+"p": false,
+"note": "Hotels save on washing. \"opfordre til\" means \"encourage to\".",
+"words": [
+[
+"vaskemidler",
+"detergents"
+],
+[
+"opfordre",
+"encourage"
+],
+[
+"håndklæderne",
+"the towels"
+],
+[
+"værelserne",
+"the rooms"
+]
+]
+},
+{
+"da": "Der er flere årsager til, at CSR har bredt sig i dansk erhvervsliv i de senere år.",
+"en": "There are several reasons why CSR has spread in Danish business in recent years.",
+"p": true,
+"note": "This introduces the reasons. \"årsager til\" means \"reasons for\".",
+"words": [
+[
+"årsager",
+"reasons"
+],
+[
+"bredt",
+"spread"
+],
+[
+"erhvervsliv",
+"business life"
+]
+]
+},
+{
+"da": "For det første er CSR en gevinst for de danske virksomheder.",
+"en": "First, CSR is a gain for Danish companies.",
+"p": false,
+"note": "The first reason. After \"For det første\" the verb \"er\" comes before \"CSR\".",
+"words": [
+[
+"gevinst",
+"gain"
+],
+[
+"virksomheder",
+"companies"
+]
+]
+},
+{
+"da": "Det viser studier i sammenhængen mellem CSR og virksomheders succes.",
+"en": "Studies of the link between CSR and companies' success show this.",
+"p": false,
+"note": "Research supports it. The object \"Det\" is fronted, so the verb \"viser\" comes before \"studier\".",
+"words": [
+[
+"studier",
+"studies"
+],
+[
+"sammenhængen",
+"the connection"
+],
+[
+"virksomheders",
+"companies'"
+]
+]
+},
+{
+"da": "Virksomheder, der tænker arbejdet med CSR ind i deres aktiviteter, klarer sig nemlig ofte godt økonomisk.",
+"en": "Companies that build CSR into their activities often do well financially.",
+"p": false,
+"note": "CSR pays. \"klarer sig\" is a reflexive verb: manage, do well.",
+"words": [
+[
+"Virksomheder",
+"companies"
+],
+[
+"aktiviteter",
+"activities"
+],
+[
+"økonomisk",
+"financially"
+]
+]
+},
+{
+"da": "At CSR har bredt sig hænger også sammen med, at der generelt er kommet mere fokus på emner som miljø og inklusion i samfundet, og det påvirker også det danske erhvervsliv.",
+"en": "That CSR has spread is also linked to more focus in general on topics like the environment and inclusion, and this also affects Danish business.",
+"p": true,
+"note": "A second reason. An \"at\"-clause can be the subject at the start of a sentence.",
+"words": [
+[
+"generelt",
+"generally"
+],
+[
+"inklusion",
+"inclusion"
+],
+[
+"påvirker",
+"affects"
+],
+[
+"erhvervsliv",
+"business life"
+]
+]
+},
+{
+"da": "Endelig kan en forklaring på det øgede fokus på CSR være, at de sociale medier er mere udbredte i dag.",
+"en": "Finally, one explanation for the increased focus on CSR may be that social media are more widespread today.",
+"p": true,
+"note": "A third reason: social media. After \"Endelig\" the verb \"kan\" comes before the subject.",
+"words": [
+[
+"Endelig",
+"finally"
+],
+[
+"forklaring",
+"explanation"
+],
+[
+"øgede",
+"increased"
+],
+[
+"udbredte",
+"widespread"
+]
+]
+},
+{
+"da": "Med de sociale medier er samfundet som helhed blevet mere åbent, fordi alle har nem adgang til både gode og dårlige nyheder og historier.",
+"en": "With social media, society as a whole has become more open, because everyone has easy access to good and bad news and stories.",
+"p": false,
+"note": "Society is more open. \"er blevet\" is the perfect of \"blive\"; \"åbent\" has -t for \"samfundet\".",
+"words": [
+[
+"samfundet",
+"society"
+],
+[
+"helhed",
+"whole"
+],
+[
+"adgang",
+"access"
+],
+[
+"historier",
 "stories"
 ]
 ]
 },
 {
-"da": "Hele menageriet af venlige og uvenlige væsener.",
-"en": "The whole menagerie of friendly and unfriendly creatures.",
+"da": "Det er derfor vigtigt for en virksomhed at tage hensyn til miljøet og behandle de ansatte godt, så virksomheden kan få en god omtale.",
+"en": "So it is important for a company to consider the environment and treat staff well, so it gets a good reputation.",
 "p": false,
-"note": "A short fragment describing all the animals. The prefix \"u-\" makes the opposite: venlig, uvenlig.",
+"note": "Companies must behave well. \"tage hensyn til\" means \"take into account\".",
 "words": [
 [
-"menageriet",
-"the menagerie"
+"virksomhed",
+"company"
 ],
 [
-"uvenlige",
-"unfriendly"
+"hensyn",
+"consideration"
 ],
 [
-"væsener",
-"creatures"
+"behandle",
+"treat"
+],
+[
+"omtale",
+"mention, reputation"
 ]
 ]
 },
 {
-"da": "Det er sjovt og flot.",
-"en": "It is fun and beautiful.",
-"p": false,
-"note": "A short verdict. The adjectives get -t because \"det\" is neuter."
-},
-{
-"da": "Noget for alle",
-"en": "Something for everyone",
+"da": "En klar CSR-profil er god reklame for en virksomhed, og dermed kan det blive lettere at finde nye medarbejdere i brancher, hvor der ikke er arbejdskraft nok.",
+"en": "A clear CSR profile is good advertising for a company, so it can be easier to find new staff in sectors without enough workers.",
 "p": true,
-"note": "A heading: the show is for everyone."
-},
-{
-"da": "Det er en rigtig familieforestilling.",
-"en": "It is a real family show.",
-"p": false,
-"note": "The show suits whole families. \"familieforestilling\" is a compound noun.",
+"note": "CSR helps hiring. \"lettere\" is the comparative of \"let\": easier.",
 "words": [
 [
-"familieforestilling",
-"family show"
+"reklame",
+"advertising"
+],
+[
+"lettere",
+"easier"
+],
+[
+"medarbejdere",
+"employees"
+],
+[
+"arbejdskraft",
+"workforce"
 ]
 ]
 },
 {
-"da": "Til de yngste er scenen befolket af flotte insekter taget lige ud af billedbogen.",
-"en": "For the youngest, the stage is filled with beautiful insects taken straight out of the picture book.",
+"da": "Det gælder særligt i forhold til de unge.",
+"en": "This is especially true for young people.",
 "p": false,
-"note": "Small children will love the insects. After the fronted \"Til de yngste\", the verb \"er\" comes before the subject.",
+"note": "Young people care about CSR. \"i forhold til\" means \"in relation to\".",
 "words": [
 [
-"befolket",
-"populated"
-],
-[
-"insekter",
-"insects"
-],
-[
-"billedbogen",
-"the picture book"
+"særligt",
+"especially"
 ]
 ]
 },
 {
-"da": "De voksne vil more sig over de to robotdrenge, der som vagtbier kører en sand ordflom over ordet bi: ”Bilisterne bistår biblen og bisætter… – altså, Fy og Bi, gider I lige!”",
-"en": "The adults will be amused by the two robot boys who, as guard bees, do a real flood of word play on the word \"bi\": \"The drivers assist the Bible and bury… – come on, Fy and Bi, really!\"",
+"da": "En undersøgelse fra 2018 viser nemlig, at 75 % af lønmodtagerne mellem 24 og 34 år mener, at en arbejdsplads skal påvirke samfund og miljø positivt.",
+"en": "A 2018 survey shows that 75% of employees aged 24 to 34 think a workplace should have a positive effect on society and the environment.",
 "p": false,
-"note": "Adults will enjoy the word jokes. \"more sig\" is a reflexive verb: to have fun.",
+"note": "Most young workers want good employers. In the \"at\"-clause the subject comes before the verb.",
 "words": [
 [
-"robotdrenge",
-"robot boys"
+"undersøgelse",
+"survey"
 ],
 [
-"vagtbier",
-"guard bees"
+"lønmodtagerne",
+"the wage earners"
 ],
 [
-"ordflom",
-"flood of words"
+"arbejdsplads",
+"workplace"
 ],
 [
-"Bilisterne",
-"the drivers"
+"påvirke",
+"affect"
 ]
 ]
 },
 {
-"da": "Endelig vil bedsteforældrene glæde sig ved Flemming Quist Møllers dejlige oplæsning, og alle vil grine sammen, når Møgbillen og Røvbillen slår kæmpeprutter: Prut er altid en vinder på teaterscenen.",
-"en": "Finally, the grandparents will enjoy Flemming Quist Møller's lovely reading, and everyone will laugh together when the dung beetles fart loudly: farts always win on stage.",
+"da": "Undersøgelsen viser også, at netop de unge skifter job ofte.",
+"en": "The survey also shows that young people in particular change jobs often.",
 "p": false,
-"note": "Grandparents and everyone get something too. After \"Endelig\", the verb \"vil\" comes before the subject (inversion).",
+"note": "Young people move jobs. \"netop\" stresses a word: precisely.",
 "words": [
 [
-"bedsteforældrene",
-"the grandparents"
-],
-[
-"oplæsning",
-"reading aloud"
-],
-[
-"kæmpeprutter",
-"giant farts"
-],
-[
-"teaterscenen",
-"the theatre stage"
+"Undersøgelsen",
+"the survey"
 ]
 ]
 },
 {
-"da": "Teateret anbefaler en minimumsalder på tre år, fordi forestillingen varer halvanden time, men der er høje lyde, så jeg vil anbefale en minimumsalder på fem år og selvfølgelig, at børn ser forestillingen sammen med deres familie.",
-"en": "The theatre recommends a minimum age of three, because the show lasts an hour and a half, but there are loud sounds, so I would recommend a minimum age of five and of course that children watch it with their family.",
+"da": "I en tid med mangel på arbejdskraft er det derfor vigtigt med CSR-initiativer.",
+"en": "In a time of labour shortage, CSR initiatives are therefore important.",
 "p": false,
-"note": "The reviewer suggests age five, not three. \"halvanden time\" means one and a half hours.",
+"note": "CSR attracts workers. After the fronted phrase the verb \"er\" comes before \"det\".",
 "words": [
 [
-"anbefaler",
-"recommends"
+"mangel",
+"shortage"
 ],
 [
-"minimumsalder",
-"minimum age"
+"arbejdskraft",
+"workforce"
 ],
 [
-"halvanden",
-"one and a half"
-],
-[
-"selvfølgelig",
-"of course"
+"CSR-initiativer",
+"CSR initiatives"
 ]
 ]
 },
 {
-"da": "Erasmus Montanus, Aarhus Teater",
-"en": "Erasmus Montanus, Aarhus Theatre",
+"da": "Der er bred enighed i samfundet om, at det er positivt at arbejde for social inklusion, miljøbevidsthed og samfundsmæssigt ansvar.",
+"en": "There is broad agreement in society that it is good to work for social inclusion, environmental awareness and social responsibility.",
 "p": true,
-"note": "The title of the second review."
-},
-{
-"da": "Af Pernille Hermann",
-"en": "By Pernille Hermann",
-"p": false,
-"note": "The name of the writer."
-},
-{
-"da": "Erasmus Montanus er en komedie i fem akter skrevet i 1723 af den dansk-norske forfatter Ludvig Holberg.",
-"en": "Erasmus Montanus is a comedy in five acts written in 1723 by the Danish-Norwegian author Ludvig Holberg.",
-"p": true,
-"note": "This introduces an old comedy. \"skrevet\" is the past participle of \"skrive\": written.",
+"note": "Most people support these goals. \"enighed om\" means \"agreement about\".",
 "words": [
 [
-"komedie",
-"comedy"
+"enighed",
+"agreement"
 ],
 [
-"skrevet",
-"written"
+"positivt",
+"positive"
 ],
 [
-"dansk-norske",
-"Danish-Norwegian"
+"inklusion",
+"inclusion"
 ],
 [
-"forfatter",
-"author"
+"miljøbevidsthed",
+"environmental awareness"
 ]
 ]
 },
 {
-"da": "Det er fortællingen om bondedrengen Rasmus Berg, der har studeret i København og vender tilbage til landsbyen (og sin forlovede) som et nyt og bedrevidende menneske, der sætter spørgsmålstegn ved alt det, som landsbyboerne opfatter som sandheder.",
-"en": "It is the story of the farm boy Rasmus Berg, who has studied in Copenhagen and returns to the village (and his fiancée) as a new know-it-all person who questions everything the villagers see as truths.",
+"da": "Alligevel er der uenighed om CSR’s plads i dansk erhvervsliv.",
+"en": "Still, people disagree about CSR's place in Danish business.",
 "p": false,
-"note": "This tells the plot. \"sætte spørgsmålstegn ved\" is a phrase: to question something.",
+"note": "Not everyone agrees. After \"Alligevel\" the verb \"er\" comes before \"der\".",
 "words": [
 [
-"bondedrengen",
-"the farm boy"
+"Alligevel",
+"still"
 ],
 [
-"forlovede",
-"fiancée"
+"uenighed",
+"disagreement"
 ],
 [
-"bedrevidende",
-"know-it-all"
-],
-[
-"spørgsmålstegn",
-"question mark"
+"erhvervsliv",
+"business life"
 ]
 ]
 },
 {
-"da": "Han kalder sig nu Erasmus Montanus.",
-"en": "He now calls himself Erasmus Montanus.",
+"da": "Samtidig med at der er mange, der mener, at det er positivt, er der nemlig også kritikere, der mener, at virksomhederne netop kun bidrager, så længe de oplever, at det kan betale sig for dem.",
+"en": "While many think it is positive, there are also critics who think companies only contribute as long as they feel it pays off for them.",
 "p": false,
-"note": "He has taken a new Latin name. \"kalder sig\" is reflexive: calls himself."
-},
-{
-"da": "Han skaber uro i landsbyen, fordi han bliver ved med at påstå, at jorden er rund.",
-"en": "He causes unrest in the village because he keeps claiming that the earth is round.",
-"p": false,
-"note": "He upsets the villagers. \"blive ved med at\" means to keep doing something.",
+"note": "Critics doubt the motives. \"kan betale sig\" means \"pays off\" or \"is worth it\".",
 "words": [
 [
-"landsbyen",
-"the village"
+"Samtidig",
+"at the same time"
 ],
 [
-"påstå",
-"claim"
-]
-]
-},
-{
-"da": "Til sidst bliver Erasmus dog nødt til offentligt at sige, at jorden er flad som en pandekage, da det er den eneste måde at slippe for at blive soldat på og få sin elskede.",
-"en": "In the end, Erasmus has to say publicly that the earth is flat as a pancake, since it is the only way to avoid becoming a soldier and to get his beloved.",
-"p": false,
-"note": "He must give up his idea to marry. \"blive nødt til\" means to have to.",
-"words": [
-[
-"offentligt",
-"publicly"
+"kritikere",
+"critics"
 ],
 [
-"pandekage",
-"pancake"
+"virksomhederne",
+"the companies"
 ],
 [
-"eneste",
-"only"
-],
-[
-"elskede",
-"beloved"
-]
-]
-},
-{
-"da": "Aktuel historie",
-"en": "A topical story",
-"p": true,
-"note": "A heading: the story is still relevant today.",
-"words": [
-[
-"Aktuel",
-"topical, current"
-]
-]
-},
-{
-"da": "Historien i Aarhus Teaters nye opsætning er stadig den samme, selvom den har fået et par twist og tilføjelser.",
-"en": "The story in Aarhus Theatre's new production is still the same, although it has got a few twists and additions.",
-"p": false,
-"note": "The new version keeps the story. \"selvom\" means although; the word order after it is normal.",
-"words": [
-[
-"opsætning",
-"production"
-],
-[
-"tilføjelser",
-"additions"
-]
-]
-},
-{
-"da": "Holbergs komedie er kendt for sin tvetydighed.",
-"en": "Holberg's comedy is known for its ambiguity.",
-"p": false,
-"note": "The play can be read in two ways. \"kendt for\" means known for.",
-"words": [
-[
-"tvetydighed",
-"ambiguity"
-]
-]
-},
-{
-"da": "Hvem griner publikum af?",
-"en": "Who is the audience laughing at?",
-"p": false,
-"note": "A question. The preposition \"af\" goes to the end in Danish questions.",
-"words": [
-[
-"publikum",
-"audience"
-]
-]
-},
-{
-"da": "Af de lærde, bønderne eller sig selv?",
-"en": "At the scholars, the farmers or themselves?",
-"p": false,
-"note": "A short follow-up question with options. \"bønderne\" is the definite plural of \"bonde\".",
-"words": [
-[
-"bønderne",
-"the farmers"
-]
-]
-},
-{
-"da": "Denne tvetydighed har Aarhus Teater i samarbejdet med Christian Lollike ført up to date i en alternativ version af Holbergs klassiker: I sin nyfortolkning erstatter Christian Lollike Holbergs hyggehumor og tanker om jordens form med en satirisk tone og et tema om danskhed.",
-"en": "Aarhus Theatre, together with Christian Lollike, has brought this ambiguity up to date in an alternative version of Holberg's classic: in his new interpretation, Lollike replaces Holberg's cosy humour and ideas about the earth's shape with a satirical tone and a theme of Danishness.",
-"p": false,
-"note": "The new version has a new theme. The object \"Denne tvetydighed\" comes first, so the verb \"har\" comes before the subject.",
-"words": [
-[
-"tvetydighed",
-"ambiguity"
-],
-[
-"samarbejdet",
-"the cooperation"
-],
-[
-"nyfortolkning",
-"new interpretation"
-],
-[
-"danskhed",
-"Danishness"
-]
-]
-},
-{
-"da": "Det er meget fint, at dette tema er med i stykket, fordi det gør stykket mere aktuelt.",
-"en": "It is very good that this theme is in the play, because it makes the play more relevant.",
-"p": false,
-"note": "The reviewer likes the new theme. After \"fordi\", the word order is subject then verb.",
-"words": [
-[
-"aktuelt",
-"relevant"
+"bidrager",
+"contribute"
 ]
 ]
 }
