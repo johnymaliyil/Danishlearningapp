@@ -13,7 +13,7 @@
   PD2.translate = w => lookup(w);
 
   const LETTER = /[A-Za-zÆØÅæøåÄÖÜäöüÉé-]/;
-  const SKIP = "textarea, input, select, option, [lang='en'], .no-tr, #tr-tip, .set-menu, .set-page, .pop-overlay";
+  const SKIP = "textarea, input, select, option, [lang='en'], .no-tr, #tr-tip, .set-menu, .set-page, .pop-overlay, .nb-fab";
   const PREF = "pd2-hover-translate";
 
   let enabled = true;

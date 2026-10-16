@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "115"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "116"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -209,6 +209,7 @@
       <button role="menuitem" class="set-item" data-lang-pick><span class="set-ico">🌐</span><span>Sprog / Language <span class="small muted">· ${esc((UI_LANGS.find(l => l[0] === (window.DK_LANG ? DK_LANG.lang : "da")) || UI_LANGS[0])[2])}</span></span></button>
       <button role="menuitem" class="set-item" data-text-pick><span class="set-ico">🔠</span><span>Tekststørrelse og skrift</span></button>
       <a role="menuitem" class="set-item" href="#/progress"><span class="set-ico">📊</span><span>Min fremgang</span></a>
+      <a role="menuitem" class="set-item" href="#/mineord"><span class="set-ico">📒</span><span>Mine ord – dine gemte ord</span></a>
       <a role="menuitem" class="set-item" href="#/news"><span class="set-ico">📰</span><span>Dagens nyheder</span></a>
       <button role="menuitem" class="set-item" data-reminder><span class="set-ico">⏰</span><span>Daglig påmindelse i kalenderen</span></button>
       <div class="set-sec">Hjælp</div>
@@ -388,6 +389,7 @@
     [/^\/review$/, reviewPage],
     [/^\/help$/, helpPage],
     [/^\/settings$/, settingsPage],
+    [/^\/mineord(?:\/(quiz))?$/, q => (q && nb().length ? nbQuiz() : notebookPage())],
     [/^\/progress$/, progressPage],
     [/^\/lyt(?:\/(\d))?$/, listenList],
     [/^\/lyt\/w\/([\w-]+)$/, listenItem],
@@ -567,6 +569,8 @@
         <span class="pb-ico">🔁</span><span class="pb-meta"><b>Dagens repetition</b>
         <span class="small muted">${due ? `${due} kort klar: dine fejl, svære ord og nye ord` : "Lær nye ord fra listen over de 3000 hyppigste"}</span></span>
         <span class="pill">${due ? due : "Start"}</span></a>`; })()}
+      <a class="card plan-banner" href="#/mineord"><span class="pb-ico">📒</span><span class="pb-meta"><b>Mine ord</b>
+        <span class="small muted">${nb().length ? `${nb().length} gemte ord – se dem, og øv dem` : "Gem nye ord og betydningen med 📝 Nyt ord, mens du øver"}</span></span><span class="pill">${nb().length || "Ny"}</span></a>
       <a class="card plan-banner news-banner" href="#/news" id="newsBanner" hidden></a>
       <a class="card plan-banner" href="#/tal"><span class="pb-ico">🔢</span><span class="pb-meta"><b>Tal og klokken</b>
         <span class="small muted">Hør tallene 1-100, klokken og hvor lang tid på dansk</span></span><span class="pill">Ny</span></a>
@@ -2507,6 +2511,7 @@
       <h1>📚 Ordlister <span class="tag">for alle prøver</span></h1>
       <p class="muted">De vigtigste ord at kunne: 500 verber med alle former, 250 adjektiver med bøjning og de 3000 ord, der bruges mest på dansk. Søg, lyt med 🔊, og øv dig med quizzen.</p>
       <a class="card plan-banner" href="#/tal"><span class="pb-ico">🔢</span><span class="pb-meta"><b>Tal og klokken</b><span class="small muted">Hør tallene 1-100, klokken (halv to, kvart i tre) og hvor lang tid (halvanden time)</span></span><span class="pill">Ny</span></a>
+      <a class="card plan-banner" href="#/mineord"><span class="pb-ico">📒</span><span class="pb-meta"><b>Mine ord</b><span class="small muted">Dine egne gemte ord og deres betydning</span></span><span class="pill">${nb().length}</span></a>
       <div class="chips wl-tabs" role="tablist">${Object.entries(WL).map(([k, w]) => `<a class="chip ${k === kind ? "on" : ""}" role="tab" aria-selected="${k === kind}" href="#/ordlister/${k}">${w.ico} ${esc(w.name)}</a>`).join("")}</div>
       <div class="card" style="margin-top:12px">
         <div class="row" style="gap:10px;flex-wrap:wrap">
@@ -5078,6 +5083,139 @@
         </div>
         <p class="small muted">DanskKlar er et uofficielt øveprogram og har ingen forbindelse til de myndigheder, der afholder prøverne. Læs mere under <a href="#/legal">⚖️ Privatliv, vilkår og ophavsret</a>.</p>
       </div>`;
+  }
+
+  // ---------- 📒 Mine ord: the learner's own word notebook ----------
+  // A "📝 Nyt ord" button on every page opens a small form: the Danish word (pre-filled with the text the
+  // user marked) and its meaning (suggested from the dictionary, can be changed). Words are kept in
+  // S.notebook, so they are part of the backup file, and can be looked up, practised and exported on #/mineord.
+  const nb = () => (S.notebook = S.notebook || []);
+  let nbSel = "", nbSelAt = 0;
+  document.addEventListener("selectionchange", () => {
+    const sel = getSelection(), t = sel ? sel.toString().trim() : "";
+    if (t && t.length <= 60 && !(sel.anchorNode && sel.anchorNode.parentElement && sel.anchorNode.parentElement.closest(".pop-overlay"))) { nbSel = t; nbSelAt = Date.now(); }
+  });
+  const nbClean = t => t.replace(/^[^A-Za-zÆØÅæøåÄÖÜäöüÉé0-9]+|[^A-Za-zÆØÅæøåÄÖÜäöüÉé0-9]+$/g, "");
+  function nbForm(pre = "", editIdx = -1) {
+    const cur = editIdx >= 0 ? nb()[editIdx] : null;
+    const da0 = cur ? cur.da : pre, en0 = cur ? cur.en : (pre ? enOf(pre) : "");
+    openEnPop(cur ? "✏️ Ret ordet" : "📝 Gem et nyt ord", `
+      <label class="nb-lbl">Dansk ord eller udtryk<input id="nbDa" class="nb-in" autocomplete="off" autocapitalize="none" spellcheck="false" value="${esc(da0)}"></label>
+      <label class="nb-lbl">Betydning <span class="small muted">· på engelsk eller dit eget sprog</span><input id="nbEn" class="nb-in" autocomplete="off" value="${esc(en0)}"></label>
+      <label class="nb-lbl">Eksempel eller note <span class="small muted">· kan udelades</span><input id="nbEx" class="nb-in" autocomplete="off" value="${esc(cur ? cur.ex || "" : "")}"></label>
+      <div class="row" style="margin-top:6px"><button class="btn write" id="nbSave">💾 Gem ordet</button>${cur ? "" : `<a class="btn ghost sm" href="#/mineord">📒 Mine ord (${nb().length})</a>`}</div>`, true);
+    const da = $("#nbDa"), en = $("#nbEn");
+    let auto = !cur && !!en0;
+    en.oninput = () => { auto = false; };
+    da.oninput = () => { if (!en.value || auto) { const s = enOf(da.value.trim()); en.value = s; auto = !!s; } };
+    const doSave = () => {
+      const w = da.value.trim();
+      if (!w) { da.focus(); toast("Skriv det danske ord først."); return; }
+      const entry = { da: w, en: en.value.trim(), ex: $("#nbEx").value.trim() };
+      const L = nb(), dup = L.findIndex((x, i) => i !== editIdx && x.da.toLowerCase() === w.toLowerCase());
+      if (cur) Object.assign(cur, entry);
+      else if (dup >= 0) Object.assign(L[dup], entry);
+      else {
+        const h = location.hash.replace(/^#\/?/, ""), title = ((app.querySelector("h1") || {}).textContent || "").trim();
+        L.unshift(Object.assign(entry, { d: today(), src: h === "mineord" ? "" : h, title: title.slice(0, 70) }));
+      }
+      save(); closeTaskEn();
+      toast(cur ? "✏️ Ordet er rettet." : `📝 Gemt i Mine ord: ${w}`);
+      if (location.hash === "#/mineord") notebookPage();
+    };
+    $("#nbSave").onclick = doSave;
+    [da, en, $("#nbEx")].forEach(i => i.addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); doSave(); } }));
+    setTimeout(() => (da.value ? en : da).focus(), 50);
+  }
+  // The floating button (hidden on the start screen).
+  const nbFab = document.createElement("button");
+  nbFab.type = "button"; nbFab.id = "nbFab"; nbFab.className = "nb-fab";
+  nbFab.title = "Gem et nyt ord og betydningen i Mine ord";
+  nbFab.innerHTML = `📝<span class="nb-fab-txt"> Nyt ord</span>`;
+  nbFab.onclick = () => nbForm(Date.now() - nbSelAt < 20000 ? nbClean(nbSel) : "");
+  document.body.appendChild(nbFab);
+  document.addEventListener("click", e => { if (e.target.closest("[data-nb-new]")) { e.preventDefault(); nbForm(); } });
+
+  function notebookPage() {
+    const L = nb();
+    app.innerHTML = `<a class="back" href="#/">← Forside</a>
+      <h1>📒 Mine ord <span class="tag">${L.length}</span></h1>
+      <p class="muted">Dine egne nye ord og deres betydning. Tryk på <b>📝 Nyt ord</b> nederst på skærmen, når du møder et nyt ord i en opgave – så kan du se ordene her og øve dem senere. Markér ordet i teksten først, så bliver det skrevet ind for dig.</p>
+      <div class="row" style="gap:8px;flex-wrap:wrap">
+        <button class="btn write" data-nb-new>➕ Tilføj et ord</button>
+        ${L.length ? `<button class="btn read" id="nbQuiz">🃏 Øv mine ord</button>
+        <button class="btn ghost sm" id="nbCopy">📋 Kopiér listen</button>
+        <button class="btn ghost sm" id="nbCsv">⬇️ Download (Excel/CSV)</button>` : ""}
+      </div>
+      ${L.length ? `<input id="nbQ" class="nb-in" type="search" placeholder="🔎 Søg i mine ord" style="margin:14px 0 0">
+      <div class="card nb-list">${L.map((w, i) => `<div class="nb-row" data-nb-k="${esc((w.da + " " + w.en + " " + (w.ex || "")).toLowerCase())}">
+          <button class="say" data-nb-say="${i}" aria-label="Lyt til ordet" title="Lyt">🔊</button>
+          <div class="nb-txt" data-keep><b>${esc(w.da)}</b> <span class="nb-en">= ${esc(w.en || "…")}</span>
+            ${w.ex ? `<div class="small">${esc(w.ex)}</div>` : ""}
+            <div class="small muted">${esc(w.d || "")}${w.src ? ` · <a href="#/${esc(w.src)}">${esc(w.title || "Opgaven")}</a>` : ""}</div></div>
+          <button class="nb-act" data-nb-edit="${i}" aria-label="Ret" title="Ret">✏️</button>
+          <button class="nb-act" data-nb-del="${i}" aria-label="Slet" title="Slet">🗑️</button></div>`).join("")}
+        <p class="muted nb-none" hidden>Ingen ord passer til søgningen.</p></div>
+      <p class="small muted" style="margin-top:10px">Ordene gemmes i denne browser og kommer med, når du gemmer en fil under <a href="#/backup">💾 Gem / hent fremskridt</a>.</p>`
+      : `<div class="card" style="margin-top:14px"><p style="margin:0">Du har ikke gemt nogen ord endnu. Prøv at åbne en læseopgave og tryk på <b>📝 Nyt ord</b>.</p></div>`}`;
+    if (!L.length) return;
+    $("#nbQ").oninput = e => {
+      const q = e.target.value.trim().toLowerCase(); let n = 0;
+      $$(".nb-row").forEach(r => { const on = !q || r.dataset.nbK.includes(q); r.hidden = !on; n += on; });
+      $(".nb-none").hidden = n > 0;
+    };
+    $$("[data-nb-say]").forEach(b => b.onclick = () => { if (!speak(L[+b.dataset.nbSay].da, null, 0.8)) toast("Din browser kan ikke læse op."); });
+    $$("[data-nb-edit]").forEach(b => b.onclick = () => nbForm("", +b.dataset.nbEdit));
+    $$("[data-nb-del]").forEach(b => b.onclick = () => {
+      const w = L[+b.dataset.nbDel];
+      if (confirm(`Slet "${w.da}" fra Mine ord?`)) { L.splice(+b.dataset.nbDel, 1); save(); notebookPage(); }
+    });
+    const asText = () => L.map(w => `${w.da} = ${w.en}${w.ex ? ` (${w.ex})` : ""}`).join("\n");
+    $("#nbCopy").onclick = () => {
+      const t = asText();
+      (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject()).then(() => toast("📋 Listen er kopieret."), () => openEnPop("📋 Mine ord", `<textarea class="nb-in" rows="12" readonly>${esc(t)}</textarea>`, true));
+    };
+    $("#nbCsv").onclick = () => {
+      const q = s => `"${String(s || "").replace(/"/g, '""')}"`;
+      const csv = "﻿" + [["Dansk", "Betydning", "Eksempel", "Dato"], ...L.map(w => [w.da, w.en, w.ex, w.d])].map(r => r.map(q).join(";")).join("\r\n");
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" })); a.download = "mine-ord-danskklar.csv";
+      document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
+    };
+    $("#nbQuiz").onclick = () => { location.hash = "#/mineord/quiz"; };
+  }
+
+  // 🃏 Flashcards: see the Danish word, think of the meaning, then turn the card.
+  function nbQuiz() {
+    const L = nb();
+    let cards = shuffle(L.map((w, i) => i)), n = 0, known = 0;
+    const again = [];
+    const head = `<a class="back" href="#/mineord">← Mine ord</a><h1>🃏 Øv mine ord</h1>`;
+    function show() {
+      if (n >= cards.length && again.length) cards = cards.concat(again.splice(0));
+      if (n >= cards.length) {
+        app.innerHTML = `${head}<div class="card stage"><div class="word-big">🎉</div><p>Du kunne <b>${known}</b> af ${L.length} ord første gang.</p>
+          <div class="row" style="justify-content:center"><button class="btn read" id="nbAgain">🔁 Øv igen</button><a class="btn ghost" href="#/mineord">📒 Mine ord</a></div></div>`;
+        $("#nbAgain").onclick = nbQuiz;
+        if (known) { addXP(Math.min(20, known), "Mine ord"); renderStats(); save(); };
+        return;
+      }
+      const w = L[cards[n]];
+      app.innerHTML = `${head}<div class="row" style="justify-content:space-between;margin-bottom:8px"><span class="pill">${n + 1}/${cards.length}</span><span class="pill">✅ ${known}</span></div>
+        <div class="card stage nb-card"><div class="word-big" data-keep>${esc(w.da)}</div>
+          <button class="btn ghost sm" id="nbSay">🔊 Lyt</button>
+          <p class="muted" id="nbAsk">Hvad betyder ordet?</p>
+          <div id="nbAns" data-keep hidden><p class="nb-ans">${esc(w.en || "…")}</p>${w.ex ? `<p class="small muted">${esc(w.ex)}</p>` : ""}</div>
+          <div class="row" style="justify-content:center" id="nbBtns"><button class="btn write" id="nbShow">👀 Vis betydningen</button></div></div>`;
+      $("#nbSay").onclick = () => speak(w.da, null, 0.8);
+      $("#nbShow").onclick = () => {
+        $("#nbAns").hidden = false; $("#nbAsk").hidden = true;
+        $("#nbBtns").innerHTML = `<button class="btn read" id="nbYes">✅ Det kunne jeg</button><button class="btn ghost" id="nbNo">🔁 Øv igen</button>`;
+        $("#nbYes").onclick = () => { if (n < L.length) known++; n++; show(); };
+        $("#nbNo").onclick = () => { again.push(cards[n]); n++; show(); };
+      };
+    }
+    show();
   }
 
   // ---------- Boot ----------
