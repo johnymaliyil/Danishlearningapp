@@ -880,6 +880,11 @@ a.help-item:hover { border-color: var(--read); }
 .set-ico { width: 26px; text-align: center; font-size: 1.15rem; }
 @media (max-width: 560px) { .settings-pill .set-txt { display: none; } }
 @media (max-width: 1580px) { .set-menu { top: 56px; } }
+/* ⚙️ Settings page (#/settings) */
+.set-page { max-width: 560px; padding: 8px; }
+.set-page .set-item { padding: 14px 10px; font-size: 1.05rem; }
+/* iPhone/iPad home-screen app: keep the top bar clear of the status bar so its buttons can be tapped. */
+.ios-app .topbar { padding-top: max(30px, calc(env(safe-area-inset-top, 0px) + 8px)) !important; }
 
 /* "Buy me a coffee" bubble on Ko-fi links (mouse hover / keyboard focus) */
 [data-tip] { position: relative; }

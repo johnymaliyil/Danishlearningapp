@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "113"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "114"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -200,14 +200,10 @@
       ${KOFI ? `<a class="pill kofi-pill coffee-tip" data-tip="☕ Buy me a coffee!" href="https://ko-fi.com/${encodeURIComponent(KOFI)}" target="_blank" rel="noopener" title="Buy me a coffee on Ko-fi" aria-label="Støt DanskKlar på Ko-fi"><span class="cup" aria-hidden="true"><i></i><i></i><i></i>☕</span><span class="kofi-txt"> Støt</span></a>` : ""}
       <button class="pill settings-pill" id="setBtn" data-settings aria-haspopup="menu" aria-expanded="false" title="Indstillinger · tema, hjælp">⚙️<span class="set-txt"> Indstillinger</span></button>`;
   }
-  // ⚙️ Settings menu (top right): theme, help and the other app links.
-  function settingsMenu() {
-    const old = $("#setMenu");
-    if (old) { closeSettings(); return; }
-    const m = document.createElement("div");
-    m.id = "setMenu"; m.className = "set-menu"; m.setAttribute("role", "menu");
+  // The settings entries, used by the ⚙️ menu and by the #/settings page.
+  function settingsItems() {
     const item = (href, ico, label, extra = "") => `<a role="menuitem" class="set-item" href="${href}" ${extra}><span class="set-ico">${ico}</span><span>${label}</span></a>`;
-    m.innerHTML = `
+    return `
       <div class="set-sec">Udseende</div>
       <button role="menuitem" class="set-item" data-theme-pick><span class="set-ico">🎨</span><span>Tema <span class="small muted">· ${esc((THEMES.find(t => t[0] === curTheme()) || THEMES[0])[1])}</span></span></button>
       <button role="menuitem" class="set-item" data-lang-pick><span class="set-ico">🌐</span><span>Sprog / Language <span class="small muted">· ${esc((UI_LANGS.find(l => l[0] === (window.DK_LANG ? DK_LANG.lang : "da")) || UI_LANGS[0])[2])}</span></span></button>
@@ -223,6 +219,21 @@
       ${item("#/backup", "💾", "Gem / hent fremskridt")}
       ${item("#/about", "ℹ️", `Om ${esc(META().name)}-prøven`)}
       ${item("#/legal", "⚖️", "Privatliv og vilkår")}`;
+  }
+  // ⚙️ Settings as a normal page. Works everywhere, also in the iPad/iPhone home-screen app,
+  // where the status bar can cover the ⚙️ button in the top bar.
+  function settingsPage() {
+    app.innerHTML = `<a class="back" href="#/">← Forside</a>
+      <h1>⚙️ Indstillinger</h1>
+      <div class="card set-page">${settingsItems()}</div>`;
+  }
+  // ⚙️ Settings menu (top right): theme, help and the other app links.
+  function settingsMenu() {
+    const old = $("#setMenu");
+    if (old) { closeSettings(); return; }
+    const m = document.createElement("div");
+    m.id = "setMenu"; m.className = "set-menu"; m.setAttribute("role", "menu");
+    m.innerHTML = settingsItems();
     document.body.appendChild(m);
     const b = $("#setBtn");
     if (b) {
@@ -240,7 +251,12 @@
     const b = $("#setBtn"); if (b) b.setAttribute("aria-expanded", "false");
   }
   document.addEventListener("click", e => {
-    if (e.target.closest("[data-settings]")) { e.preventDefault(); settingsMenu(); return; }
+    if (e.target.closest("[data-settings]")) {
+      e.preventDefault();
+      // In the iPad/iPhone home-screen app a full page is easier to use than the small pop-up menu.
+      if (document.documentElement.classList.contains("ios-app")) { closeSettings(); location.hash = "#/settings"; } else settingsMenu();
+      return;
+    }
     if ($("#setMenu") && !e.target.closest("#setMenu")) closeSettings();
   });
   document.addEventListener("keydown", e => { if (e.key === "Escape") closeSettings(); });
@@ -371,6 +387,7 @@
     [/^\/legal$/, legalPage],
     [/^\/review$/, reviewPage],
     [/^\/help$/, helpPage],
+    [/^\/settings$/, settingsPage],
     [/^\/progress$/, progressPage],
     [/^\/lyt(?:\/(\d))?$/, listenList],
     [/^\/lyt\/w\/([\w-]+)$/, listenItem],
@@ -407,6 +424,8 @@
   let installPrompt = null;
   const isStandalone = () => matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
   const isIOS = () => /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  // Home-screen app on iPhone/iPad: the status bar sits on top of the page, so the top bar needs more room.
+  if (isIOS() && isStandalone()) document.documentElement.classList.add("ios-app");
   addEventListener("beforeinstallprompt", e => {
     e.preventDefault();
     installPrompt = e;
@@ -4751,6 +4770,7 @@
     $$("[data-theme-set]").forEach(b => b.onclick = () => {
       applyTheme(b.dataset.themeSet, true);
       $$("[data-theme-set]").forEach(x => x.classList.toggle("on", x === b));
+      if (location.hash === "#/settings") settingsPage();
     });
   }
   document.addEventListener("click", e => { if (e.target.closest("[data-theme-pick]")) { e.preventDefault(); themePicker(); } });
