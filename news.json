@@ -1,6 +1,32 @@
 {
- "updated": "2026-10-16T14:52+00:00",
+ "updated": "2026-10-16T18:49+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/bosaettere-angriber-palaestinensere-paa-vestbredden",
+   "date": "2026-10-16T16:49:25+00:00",
+   "da": {
+    "title": "Bosættere angriber palæstinensere på Vestbredden",
+    "desc": ""
+   },
+   "en": {
+    "title": "Settlers attack Palestinians in the West Bank",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/ny-demonstration-i-albanien",
+   "date": "2026-10-16T15:24:20+00:00",
+   "da": {
+    "title": "Ny demonstration i Albanien",
+    "desc": ""
+   },
+   "en": {
+    "title": "New demonstration in Albania",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/maend-faengslet-grov-vold-og-roeverier-i-supermarkeder",
@@ -168,32 +194,6 @@
    "en": {
     "title": "Three children and a teacher killed in Oregon school shooting",
     "desc": "A local person intervened before police arrived at the scene."
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/soenderthon-2-0-saetter-danmarksrekord",
-   "date": "2026-10-15T21:08:19+00:00",
-   "da": {
-    "title": "Sønderthon 2.0 sætter danmarksrekord",
-    "desc": ""
-   },
-   "en": {
-    "title": "Sønderthon 2.0 sets Denmark record",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/bus-og-godstog-kolliderer-i-frankrig-naer-kanaltunnelen",
-   "date": "2026-10-15T19:44:22+00:00",
-   "da": {
-    "title": "Bus og godstog kolliderer i Frankrig nær kanaltunnelen",
-    "desc": ""
-   },
-   "en": {
-    "title": "Bus and freight trains collide in France near the Channel Tunnel",
-    "desc": ""
    }
   }
  ]
