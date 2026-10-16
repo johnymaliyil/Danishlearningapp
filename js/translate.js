@@ -13,7 +13,7 @@
   PD2.translate = w => lookup(w);
 
   const LETTER = /[A-Za-zÆØÅæøåÄÖÜäöüÉé-]/;
-  const SKIP = "textarea, input, select, option, [lang='en'], .no-tr, #tr-tip";
+  const SKIP = "textarea, input, select, option, [lang='en'], .no-tr, #tr-tip, .set-menu, .set-page, .pop-overlay";
   const PREF = "pd2-hover-translate";
 
   let enabled = true;
@@ -114,8 +114,11 @@
 
   // Mouse: follow the pointer, one lookup per animation frame.
   let pending = null, pinned = null;
-  document.addEventListener("mousemove", ev => {
-    if (!enabled) return;
+  // Only a real mouse/trackpad: on iPhone/iPad a tap also sends a mouse move, and if the tooltip
+  // appears then, Safari treats the tap as a "hover" and swallows the click on buttons and links.
+  const MOVE = window.PointerEvent ? "pointermove" : "mousemove";
+  document.addEventListener(MOVE, ev => {
+    if (!enabled || (ev.pointerType && ev.pointerType !== "mouse")) return;
     if (!pending) requestAnimationFrame(() => {
       const p = pending; pending = null;
       const hit = wordAt(p.x, p.y);
