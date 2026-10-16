@@ -1,6 +1,110 @@
 {
- "updated": "2026-10-15T19:10+00:00",
+ "updated": "2026-10-16T09:03+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/doemt-mand-er-stukket-af-fra-institutionspersonale-i-indkoebscenter",
+   "date": "2026-10-16T08:04:17+00:00",
+   "da": {
+    "title": "Dømt mand er stukket af fra institutionspersonale i indkøbscenter",
+    "desc": ""
+   },
+   "en": {
+    "title": "Convicted man has run away from institutional staff in shopping centre",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/forsinkede-og-aflyste-fly-i-italien-efter-tekniske-problemer",
+   "date": "2026-10-16T08:02:15+00:00",
+   "da": {
+    "title": "Forsinkede og aflyste fly i Italien efter tekniske problemer",
+    "desc": ""
+   },
+   "en": {
+    "title": "Delayed and cancelled flights in Italy after technical problems",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/ny-stor-flaatart-opdaget-i-norge-loeber-efter-sit-bytte",
+   "date": "2026-10-16T07:31:40+00:00",
+   "da": {
+    "title": "Ny stor flåtart opdaget i Norge - løber efter sit bytte",
+    "desc": ""
+   },
+   "en": {
+    "title": "New large tick species discovered in Norway - running after its prey",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/hver-anden-nye-varebil-koerer-paa-el",
+   "date": "2026-10-16T05:35:21+00:00",
+   "da": {
+    "title": "Hver anden nye varebil kører på el",
+    "desc": ""
+   },
+   "en": {
+    "title": "Every second new van runs on electricity",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mand-anholdt-med-pistollignende-genstand-i-aarhus",
+   "date": "2026-10-16T04:23:15+00:00",
+   "da": {
+    "title": "Mand anholdt med pistollignende genstand i Aarhus",
+    "desc": ""
+   },
+   "en": {
+    "title": "Man arrested with gun-like object in Aarhus",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tre-boern-og-en-voksen-draebt-i-skoleskyderi-i-oregon",
+   "date": "2026-10-16T00:55:11+00:00",
+   "da": {
+    "title": "Tre børn og en lærer dræbt i skoleskyderi i Oregon",
+    "desc": "En lokal person greb ind før politiet nåede frem til stedet."
+   },
+   "en": {
+    "title": "Three children and a teacher killed in Oregon school shooting",
+    "desc": "A local person intervened before police arrived at the scene."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/soenderthon-2-0-saetter-danmarksrekord",
+   "date": "2026-10-15T21:08:19+00:00",
+   "da": {
+    "title": "Sønderthon 2.0 sætter danmarksrekord",
+    "desc": ""
+   },
+   "en": {
+    "title": "Sønderthon 2.0 sets Denmark record",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/bus-og-godstog-kolliderer-i-frankrig-naer-kanaltunnelen",
+   "date": "2026-10-15T19:44:22+00:00",
+   "da": {
+    "title": "Bus og godstog kolliderer i Frankrig nær kanaltunnelen",
+    "desc": ""
+   },
+   "en": {
+    "title": "Bus and freight trains collide in France near the Channel Tunnel",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/fire-varetaegtsfaengsles-i-norge-nato-fusk",
@@ -89,110 +193,6 @@
    },
    "en": {
     "title": "Riksdag votes no to Andersson as prime minister",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/too-good-go-udvider-sortiment",
-   "date": "2026-10-15T09:31:00+00:00",
-   "da": {
-    "title": "Too Good To Go udvider sortiment",
-    "desc": ""
-   },
-   "en": {
-    "title": "Too Good To Go expands assortment",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/otte-besaetningsmedlemmer-savnet-efter-brand-paa-skib-ved-rumaenien",
-   "date": "2026-10-15T09:28:39+00:00",
-   "da": {
-    "title": "Flere besætningsmedlemmer savnet efter brand på skib ved Rumænien",
-    "desc": ""
-   },
-   "en": {
-    "title": "Several crew members missing after fire on ship off Romania",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/hollywood-skuespillere-medvirker-i-ny-dansk-film",
-   "date": "2026-10-15T09:18:12+00:00",
-   "da": {
-    "title": "Hollywood-skuespillere medvirker i ny dansk film",
-    "desc": ""
-   },
-   "en": {
-    "title": "Hollywood actors star in new Danish film",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/politik/reels/ruslands-energi-er-europaeisk-energi",
-   "date": "2026-10-15T07:48:00+00:00",
-   "da": {
-    "title": "Ruslands energi er Europas! Den må Trump ikke tage",
-    "desc": ""
-   },
-   "en": {
-    "title": "Russia's energy is Europe's! Trump must not take it",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/17-elever-og-en-laerer-draebt-i-tagkollaps-i-pakistan",
-   "date": "2026-10-15T06:57:00+00:00",
-   "da": {
-    "title": "27 elever og en lærer dræbt i tagkollaps i Pakistan",
-    "desc": ""
-   },
-   "en": {
-    "title": "27 students and one teacher killed in roof collapse in Pakistan",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/indonesien-vil-bruge-toeris-til-fjerne-giftig-roeg",
-   "date": "2026-10-15T06:53:49+00:00",
-   "da": {
-    "title": "Indonesien vil bruge tøris til at fjerne giftig røg",
-    "desc": ""
-   },
-   "en": {
-    "title": "Indonesia will use dry ice to remove toxic smoke",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/nordeas-overskud-skrumper",
-   "date": "2026-10-15T05:25:25+00:00",
-   "da": {
-    "title": "Nordeas overskud skrumper",
-    "desc": ""
-   },
-   "en": {
-    "title": "Nordea's profits are shrinking",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/nordkorea-tester-missiler-fra-ubaad",
-   "date": "2026-10-15T03:31:47+00:00",
-   "da": {
-    "title": "Nordkorea tester missiler fra ubåd",
-    "desc": ""
-   },
-   "en": {
-    "title": "North Korea tests missiles from submarine",
     "desc": ""
    }
   }
