@@ -1079,5 +1079,10 @@ PD2.I18N.es = {
 "Mine ord": "Mis palabras",
 "{n} gemte ord – se dem, og øv dem": "{n} palabras guardadas – míralas y practícalas",
 "Gem nye ord og betydningen med 📝 Nyt ord, mens du øver": "Guarda palabras nuevas y su significado con 📝 Palabra nueva mientras practicas",
-"Dine egne gemte ord og deres betydning": "Tus propias palabras guardadas y su significado"
+"Dine egne gemte ord og deres betydning": "Tus propias palabras guardadas y su significado",
+"Gem i Mine ord": "Guardar en Mis palabras",
+"Gem et andet ord fra sætningen": "Guardar otra palabra de la frase",
+"📝 Gem et ord": "📝 Guardar una palabra",
+"Tryk på ➕ ved et ord for at gemme ordet og betydningen i": "Toca ➕ junto a una palabra para guardarla con su significado en",
+"Med 📝 Gem et ord kan du gemme et andet ord fra sætningen.": "Con 📝 Guardar una palabra puedes guardar otra palabra de la frase."
 };

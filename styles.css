@@ -1041,3 +1041,11 @@ body.starting .nb-fab { display: none; }
 .nb-en { color: var(--muted); font-weight: 600; }
 .nb-ans { font-size: 1.4rem; font-weight: 800; margin: 6px 0; }
 main { padding-bottom: 70px; }
+
+/* 🎧 Listening: tap a hard word to save it in Mine ord */
+button.lword { font: inherit; color: inherit; background: var(--surface); border: 1px dashed var(--border); border-radius: 999px; padding: 2px 10px; margin: 4px 6px 0 0; cursor: pointer; text-align: left; }
+button.lword:hover { border-color: var(--accent); }
+button.lword.saved { border-style: solid; border-color: var(--ok, #15803d); }
+button.lword.saved .lw-ico { color: var(--ok, #15803d); font-weight: 900; }
+.lsave { display: none; font: inherit; font-size: .85rem; font-weight: 700; margin-top: 6px; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: inherit; cursor: pointer; }
+.lline.on .lsave, .lline:hover .lsave { display: inline-block; }

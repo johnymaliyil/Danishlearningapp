@@ -1079,5 +1079,10 @@ PD2.I18N.pl = {
 "Mine ord": "Moje słowa",
 "{n} gemte ord – se dem, og øv dem": "{n} zapisanych słów – zobacz i ćwicz",
 "Gem nye ord og betydningen med 📝 Nyt ord, mens du øver": "Zapisuj nowe słowa i ich znaczenie przyciskiem 📝 Nowe słowo podczas nauki",
-"Dine egne gemte ord og deres betydning": "Twoje własne zapisane słowa i ich znaczenie"
+"Dine egne gemte ord og deres betydning": "Twoje własne zapisane słowa i ich znaczenie",
+"Gem i Mine ord": "Zapisz w Moich słowach",
+"Gem et andet ord fra sætningen": "Zapisz inne słowo ze zdania",
+"📝 Gem et ord": "📝 Zapisz słowo",
+"Tryk på ➕ ved et ord for at gemme ordet og betydningen i": "Naciśnij ➕ przy słowie, aby zapisać słowo i jego znaczenie w",
+"Med 📝 Gem et ord kan du gemme et andet ord fra sætningen.": "Przyciskiem 📝 Zapisz słowo zapiszesz inne słowo ze zdania."
 };

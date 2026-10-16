@@ -1080,5 +1080,10 @@ PD2.I18N.en = {
 "Mine ord": "My words",
 "{n} gemte ord – se dem, og øv dem": "{n} saved words – see and practise them",
 "Gem nye ord og betydningen med 📝 Nyt ord, mens du øver": "Save new words and their meaning with 📝 New word while you practise",
-"Dine egne gemte ord og deres betydning": "Your own saved words and their meaning"
+"Dine egne gemte ord og deres betydning": "Your own saved words and their meaning",
+"Gem i Mine ord": "Save in My words",
+"Gem et andet ord fra sætningen": "Save another word from the sentence",
+"📝 Gem et ord": "📝 Save a word",
+"Tryk på ➕ ved et ord for at gemme ordet og betydningen i": "Tap ➕ next to a word to save the word and its meaning in",
+"Med 📝 Gem et ord kan du gemme et andet ord fra sætningen.": "With 📝 Save a word you can save another word from the sentence."
 };

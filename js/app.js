@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "116"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "117"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -4306,10 +4306,12 @@
         </div>
         <div class="small muted" id="lNow" style="text-align:center;min-height:1.4em"></div>
       </div>
+      <p class="small muted lhint">Tryk på ➕ ved et ord for at gemme ordet og betydningen i <a href="#/mineord">📒 Mine ord</a>. Med 📝 Gem et ord kan du gemme et andet ord fra sætningen.</p>
       <div class="card listen-text ${pr.en ? "show-en" : ""}" id="lText">${L.lines.map((l, i) => `${l.p && i ? '<div class="lpara"></div>' : ""}<div class="lline ${l.task ? "ltask" : ""}" data-i="${i}">
           <div class="lda" data-keep>${esc(l.da)}</div>
           <div class="len" lang="en">${esc(l.en || "")}</div>
-          ${l.note || (l.words && l.words.length) ? `<div class="lnote">${l.note ? `<span lang="en">📐 ${esc(l.note)}</span>` : ""}${(l.words || []).map(([a, b]) => `<span class="lword"><b data-keep>${esc(a)}</b> <span lang="en">= ${esc(b)}</span></span>`).join("")}</div>` : ""}
+          ${l.note || (l.words && l.words.length) ? `<div class="lnote">${l.note ? `<span lang="en">📐 ${esc(l.note)}</span>` : ""}${(l.words || []).map(([a, b], j) => `<button type="button" class="lword ${nbHas(a) ? "saved" : ""}" data-nb-add="${i}:${j}" title="Gem i Mine ord"><span class="lw-ico" aria-hidden="true">${nbHas(a) ? "✓" : "➕"}</span> <b data-keep>${esc(a)}</b> <span lang="en">= ${esc(b)}</span></button>`).join("")}</div>` : ""}
+          <button type="button" class="lsave" data-nb-line="${i}" title="Gem et andet ord fra sætningen">📝 Gem et ord</button>
         </div>`).join("")}</div>
       <p class="small muted">${esc(footNote)} Oplæsningen bruger din browsers stemmer – i Chrome og Edge er der som regel en dansk og en engelsk stemme.</p>`;
     const mark = i => { $$(".lline").forEach(x => x.classList.toggle("on", +x.dataset.i === i)); const el = $(`.lline[data-i="${i}"]`); if (el) el.scrollIntoView({ behavior: "smooth", block: "center" }); };
@@ -4335,7 +4337,21 @@
     $("#lPlay").onclick = () => playing ? halt() : playFrom(cur);
     $("#lPrev").onclick = () => playFrom(cur - 1);
     $("#lNext").onclick = () => playFrom(cur + 1);
-    $$(".lline").forEach(x => x.onclick = () => playFrom(+x.dataset.i));
+    $$(".lline").forEach(x => x.onclick = e => { if (e.target.closest(".lword,.lsave") || String(getSelection() || "").trim()) return; playFrom(+x.dataset.i); });
+    // 📒 Save the hard words (one tap) or any other word from the sentence in Mine ord.
+    $$("[data-nb-add]").forEach(b => b.onclick = e => {
+      e.stopPropagation();
+      const [i, j] = b.dataset.nbAdd.split(":").map(Number), l = L.lines[i], [da, en] = l.words[j];
+      if (nbHas(da)) { toast(`✓ "${da}" er allerede i Mine ord.`); return; }
+      nbAdd({ da, en, ex: l.da });
+      b.classList.add("saved"); $(".lw-ico", b).textContent = "✓";
+      toast(`📝 Gemt i Mine ord: ${da}`);
+    });
+    $$("[data-nb-line]").forEach(b => b.onclick = e => {
+      e.stopPropagation();
+      const l = L.lines[+b.dataset.nbLine], sel = String(getSelection() || "").trim();
+      nbForm(sel && l.da.includes(sel) ? nbClean(sel) : "", -1, l.da);
+    });
     $("#lSpeed").onchange = e => { pr.speed = +e.target.value; saveListenPrefs(pr); };
     $$("[data-opt]").forEach(c => c.onchange = () => { pr[c.dataset.opt] = c.checked; saveListenPrefs(pr); $("#lText").classList.toggle("show-en", pr.en); });
     mark(0);
@@ -5096,13 +5112,19 @@
     if (t && t.length <= 60 && !(sel.anchorNode && sel.anchorNode.parentElement && sel.anchorNode.parentElement.closest(".pop-overlay"))) { nbSel = t; nbSelAt = Date.now(); }
   });
   const nbClean = t => t.replace(/^[^A-Za-zÆØÅæøåÄÖÜäöüÉé0-9]+|[^A-Za-zÆØÅæøåÄÖÜäöüÉé0-9]+$/g, "");
-  function nbForm(pre = "", editIdx = -1) {
+  const nbHas = w => nb().some(x => x.da.toLowerCase() === String(w).toLowerCase());
+  function nbAdd(entry) {
+    const h = location.hash.replace(/^#\/?/, ""), title = ((app.querySelector("h1") || {}).textContent || "").trim();
+    nb().unshift(Object.assign(entry, { d: today(), src: h.startsWith("mineord") ? "" : h, title: title.slice(0, 70) }));
+    save();
+  }
+  function nbForm(pre = "", editIdx = -1, ex0 = "") {
     const cur = editIdx >= 0 ? nb()[editIdx] : null;
     const da0 = cur ? cur.da : pre, en0 = cur ? cur.en : (pre ? enOf(pre) : "");
     openEnPop(cur ? "✏️ Ret ordet" : "📝 Gem et nyt ord", `
       <label class="nb-lbl">Dansk ord eller udtryk<input id="nbDa" class="nb-in" autocomplete="off" autocapitalize="none" spellcheck="false" value="${esc(da0)}"></label>
       <label class="nb-lbl">Betydning <span class="small muted">· på engelsk eller dit eget sprog</span><input id="nbEn" class="nb-in" autocomplete="off" value="${esc(en0)}"></label>
-      <label class="nb-lbl">Eksempel eller note <span class="small muted">· kan udelades</span><input id="nbEx" class="nb-in" autocomplete="off" value="${esc(cur ? cur.ex || "" : "")}"></label>
+      <label class="nb-lbl">Eksempel eller note <span class="small muted">· kan udelades</span><input id="nbEx" class="nb-in" autocomplete="off" value="${esc(cur ? cur.ex || "" : ex0)}"></label>
       <div class="row" style="margin-top:6px"><button class="btn write" id="nbSave">💾 Gem ordet</button>${cur ? "" : `<a class="btn ghost sm" href="#/mineord">📒 Mine ord (${nb().length})</a>`}</div>`, true);
     const da = $("#nbDa"), en = $("#nbEn");
     let auto = !cur && !!en0;
@@ -5115,10 +5137,7 @@
       const L = nb(), dup = L.findIndex((x, i) => i !== editIdx && x.da.toLowerCase() === w.toLowerCase());
       if (cur) Object.assign(cur, entry);
       else if (dup >= 0) Object.assign(L[dup], entry);
-      else {
-        const h = location.hash.replace(/^#\/?/, ""), title = ((app.querySelector("h1") || {}).textContent || "").trim();
-        L.unshift(Object.assign(entry, { d: today(), src: h === "mineord" ? "" : h, title: title.slice(0, 70) }));
-      }
+      else nbAdd(entry);
       save(); closeTaskEn();
       toast(cur ? "✏️ Ordet er rettet." : `📝 Gemt i Mine ord: ${w}`);
       if (location.hash === "#/mineord") notebookPage();

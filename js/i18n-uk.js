@@ -1079,5 +1079,10 @@ PD2.I18N.uk = {
 "Mine ord": "Мої слова",
 "{n} gemte ord – se dem, og øv dem": "{n} збережених слів – перегляньте й повторіть",
 "Gem nye ord og betydningen med 📝 Nyt ord, mens du øver": "Зберігайте нові слова та їхні значення кнопкою 📝 Нове слово під час навчання",
-"Dine egne gemte ord og deres betydning": "Ваші власні збережені слова та їхні значення"
+"Dine egne gemte ord og deres betydning": "Ваші власні збережені слова та їхні значення",
+"Gem i Mine ord": "Зберегти в «Мої слова»",
+"Gem et andet ord fra sætningen": "Зберегти інше слово з речення",
+"📝 Gem et ord": "📝 Зберегти слово",
+"Tryk på ➕ ved et ord for at gemme ordet og betydningen i": "Натисніть ➕ біля слова, щоб зберегти слово і значення в",
+"Med 📝 Gem et ord kan du gemme et andet ord fra sætningen.": "Кнопкою 📝 Зберегти слово можна зберегти інше слово з речення."
 };

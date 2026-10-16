@@ -1079,5 +1079,10 @@ PD2.I18N.ro = {
 "Mine ord": "Cuvintele mele",
 "{n} gemte ord – se dem, og øv dem": "{n} cuvinte salvate – vezi-le și exersează-le",
 "Gem nye ord og betydningen med 📝 Nyt ord, mens du øver": "Salvează cuvinte noi și înțelesul lor cu 📝 Cuvânt nou în timp ce exersezi",
-"Dine egne gemte ord og deres betydning": "Cuvintele tale salvate și înțelesul lor"
+"Dine egne gemte ord og deres betydning": "Cuvintele tale salvate și înțelesul lor",
+"Gem i Mine ord": "Salvează în Cuvintele mele",
+"Gem et andet ord fra sætningen": "Salvează alt cuvânt din propoziție",
+"📝 Gem et ord": "📝 Salvează un cuvânt",
+"Tryk på ➕ ved et ord for at gemme ordet og betydningen i": "Apasă ➕ lângă un cuvânt ca să salvezi cuvântul și înțelesul în",
+"Med 📝 Gem et ord kan du gemme et andet ord fra sætningen.": "Cu 📝 Salvează un cuvânt poți salva alt cuvânt din propoziție."
 };

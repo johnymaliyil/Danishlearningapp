@@ -1079,5 +1079,10 @@ PD2.I18N.tr = {
 "Mine ord": "Kelimelerim",
 "{n} gemte ord – se dem, og øv dem": "{n} kayıtlı kelime – gör ve çalış",
 "Gem nye ord og betydningen med 📝 Nyt ord, mens du øver": "Çalışırken yeni kelimeleri ve anlamlarını 📝 Yeni kelime ile kaydet",
-"Dine egne gemte ord og deres betydning": "Kaydettiğin kelimeler ve anlamları"
+"Dine egne gemte ord og deres betydning": "Kaydettiğin kelimeler ve anlamları",
+"Gem i Mine ord": "Kelimelerim'e kaydet",
+"Gem et andet ord fra sætningen": "Cümleden başka bir kelime kaydet",
+"📝 Gem et ord": "📝 Kelime kaydet",
+"Tryk på ➕ ved et ord for at gemme ordet og betydningen i": "Kelimeyi ve anlamını kaydetmek için yanındaki ➕ işaretine dokun:",
+"Med 📝 Gem et ord kan du gemme et andet ord fra sætningen.": "📝 Kelime kaydet ile cümleden başka bir kelimeyi kaydedebilirsin."
 };
