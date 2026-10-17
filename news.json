@@ -1,6 +1,19 @@
 {
- "updated": "2026-10-17T13:44+00:00",
+ "updated": "2026-10-17T17:52+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/rumaenien-nedskyder-droner-i-deres-luftrum",
+   "date": "2026-10-17T17:22:40+00:00",
+   "da": {
+    "title": "Rumænien nedskyder to droner i deres luftrum",
+    "desc": ""
+   },
+   "en": {
+    "title": "Romania shoots down two drones in their airspace",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/gigantisk-pumpe-sluse-kan-faa-premiere-i-nat",
@@ -180,19 +193,6 @@
    },
    "en": {
     "title": "Settlers attack Palestinians in the West Bank",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/ny-demonstration-i-albanien",
-   "date": "2026-10-16T15:24:20+00:00",
-   "da": {
-    "title": "Ny demonstration i Albanien",
-    "desc": ""
-   },
-   "en": {
-    "title": "New demonstration in Albania",
     "desc": ""
    }
   }
