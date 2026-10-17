@@ -1,6 +1,86 @@
 {
- "updated": "2026-10-16T18:49+00:00",
+ "updated": "2026-10-17T08:34+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/77-aarig-sigtet-vanvidskoersel-vendte-om-paa-storebaeltsbroen",
+   "date": "2026-10-17T08:22:30+00:00",
+   "da": {
+    "title": "77-årig sigtet for vanvidskørsel: Vendte om på Storebæltsbroen",
+    "desc": ""
+   },
+   "en": null
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/afskovning-i-amazonas-er-faldet-til-det-hidtil-laveste-niveau",
+   "date": "2026-10-17T08:15:46+00:00",
+   "da": {
+    "title": "Afskovning i Amazonas er faldet til det hidtil laveste niveau",
+    "desc": ""
+   },
+   "en": null
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/frivillige-foreningen-roskilde-festival-skal-fremover-betale-kontingent",
+   "date": "2026-10-17T08:13:55+00:00",
+   "da": {
+    "title": "Frivillige for Foreningen Roskilde Festival skal fremover betale kontingent",
+    "desc": ""
+   },
+   "en": null
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/selskab-bag-partybus-sigtet-ulovlig-rutekoersel",
+   "date": "2026-10-17T07:34:04+00:00",
+   "da": {
+    "title": "Selskab bag partybus sigtet for ulovlig rutekørsel",
+    "desc": ""
+   },
+   "en": null
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mand-smadrede-biler-med-golfkoelle",
+   "date": "2026-10-17T07:26:29+00:00",
+   "da": {
+    "title": "Mand smadrede biler med golfkølle",
+    "desc": ""
+   },
+   "en": null
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/aeldre-kvinde-draebt-af-knivstik-paa-plejehjem-i-tyskland",
+   "date": "2026-10-17T05:36:14+00:00",
+   "da": {
+    "title": "Ældre kvinde dræbt af knivstik på plejehjem i Tyskland",
+    "desc": ""
+   },
+   "en": null
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/forbruget-af-el-stiger-imens-falder-forbrug-af-olie-og-gas",
+   "date": "2026-10-17T05:21:12+00:00",
+   "da": {
+    "title": "Forbruget af el stiger - imens falder forbrug af olie og gas",
+    "desc": ""
+   },
+   "en": null
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/moldova-fordoemmer-rusland-efter-droners-indtraengen-i-luftrum",
+   "date": "2026-10-17T04:56:17+00:00",
+   "da": {
+    "title": "Moldova fordømmer Rusland efter droners indtrængen i luftrum",
+    "desc": ""
+   },
+   "en": null
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/bosaettere-angriber-palaestinensere-paa-vestbredden",
@@ -90,110 +170,6 @@
    "en": {
     "title": "Person is dead after collision of train in Hellerup - train stops",
     "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/19-aarig-nordmand-faar-20-aars-faengsel-drabsplaner-i-storbritannien",
-   "date": "2026-10-16T11:38:29+00:00",
-   "da": {
-    "title": "19-årig nordmand får 20 års fængsel for drabsplaner i Storbritannien",
-    "desc": ""
-   },
-   "en": {
-    "title": "19-year-old Norwegian gets 20 years in prison for murder plans in the UK",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/doede-efter-faerdselsuheld-i-broerup",
-   "date": "2026-10-16T09:54:03+00:00",
-   "da": {
-    "title": "To døde efter færdselsulykke i Brørup",
-    "desc": ""
-   },
-   "en": {
-    "title": "Two dead after traffic accident in Brørup",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/doemt-mand-er-stukket-af-fra-institutionspersonale-i-indkoebscenter",
-   "date": "2026-10-16T08:04:17+00:00",
-   "da": {
-    "title": "Dømt mand er stukket af fra institutionspersonale i indkøbscenter",
-    "desc": ""
-   },
-   "en": {
-    "title": "Convicted man has run away from institutional staff in shopping centre",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/forsinkede-og-aflyste-fly-i-italien-efter-tekniske-problemer",
-   "date": "2026-10-16T08:02:15+00:00",
-   "da": {
-    "title": "Forsinkede og aflyste fly i Italien efter tekniske problemer",
-    "desc": ""
-   },
-   "en": {
-    "title": "Delayed and cancelled flights in Italy after technical problems",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/ny-stor-flaatart-opdaget-i-norge-loeber-efter-sit-bytte",
-   "date": "2026-10-16T07:31:40+00:00",
-   "da": {
-    "title": "Ny stor flåtart opdaget i Norge - løber efter sit bytte",
-    "desc": ""
-   },
-   "en": {
-    "title": "New large tick species discovered in Norway - running after its prey",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/hver-anden-nye-varebil-koerer-paa-el",
-   "date": "2026-10-16T05:35:21+00:00",
-   "da": {
-    "title": "Hver anden nye varebil kører på el",
-    "desc": ""
-   },
-   "en": {
-    "title": "Every second new van runs on electricity",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/mand-anholdt-med-pistollignende-genstand-i-aarhus",
-   "date": "2026-10-16T04:23:15+00:00",
-   "da": {
-    "title": "Mand anholdt med pistollignende genstand i Aarhus",
-    "desc": ""
-   },
-   "en": {
-    "title": "Man arrested with gun-like object in Aarhus",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tre-boern-og-en-voksen-draebt-i-skoleskyderi-i-oregon",
-   "date": "2026-10-16T00:55:11+00:00",
-   "da": {
-    "title": "Tre børn og en lærer dræbt i skoleskyderi i Oregon",
-    "desc": "En lokal person greb ind før politiet nåede frem til stedet."
-   },
-   "en": {
-    "title": "Three children and a teacher killed in Oregon school shooting",
-    "desc": "A local person intervened before police arrived at the scene."
    }
   }
  ]
