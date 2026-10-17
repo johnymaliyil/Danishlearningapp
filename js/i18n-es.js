@@ -1084,5 +1084,16 @@ PD2.I18N.es = {
 "Gem et andet ord fra sætningen": "Guardar otra palabra de la frase",
 "📝 Gem et ord": "📝 Guardar una palabra",
 "Tryk på ➕ ved et ord for at gemme ordet og betydningen i": "Toca ➕ junto a una palabra para guardarla con su significado en",
-"Med 📝 Gem et ord kan du gemme et andet ord fra sætningen.": "Con 📝 Guardar una palabra puedes guardar otra palabra de la frase."
+"Med 📝 Gem et ord kan du gemme et andet ord fra sætningen.": "Con 📝 Guardar una palabra puedes guardar otra palabra de la frase.",
+"✓ Gemt:": "✓ Guardada:",
+"er allerede i Mine ord": "ya está en Mis palabras",
+"➕ Gem": "➕ Guardar",
+"↩️ Fortryd": "↩️ Deshacer",
+"Ingen betydning fundet – tryk ✏️ og skriv den.": "No se encontró el significado: toca ✏️ y escríbelo.",
+"↩️ Ordet er fjernet igen.": "↩️ La palabra se ha quitado.",
+"Gem automatisk, når jeg markerer et ord": "Guardar automáticamente al marcar una palabra",
+"Dobbeltklik på et ord (computer), eller tryk og hold på ordet (iPad/telefon) – så gemmes ordet, betydningen og sætningen med det samme. Slået fra: du får en knap ➕ Gem i stedet.": "Haz doble clic en una palabra (ordenador) o mantén pulsada la palabra (iPad/móvil): la palabra, su significado y la frase se guardan al instante. Desactivado: aparece un botón ➕ Guardar.",
+"nederst på skærmen, når du møder et nyt ord i en opgave – så kan du se ordene her og øve dem senere. Eller endnu nemmere:": "abajo en la pantalla cuando encuentres una palabra nueva en un ejercicio; así puedes verlas aquí y practicarlas después. O aún más fácil:",
+"dobbeltklik eller tryk og hold på et ord": "haz doble clic o mantén pulsada una palabra",
+"i teksten – så gemmes det med det samme.": "en el texto y se guarda al instante."
 };

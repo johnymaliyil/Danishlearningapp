@@ -1084,5 +1084,16 @@ PD2.I18N.uk = {
 "Gem et andet ord fra sætningen": "Зберегти інше слово з речення",
 "📝 Gem et ord": "📝 Зберегти слово",
 "Tryk på ➕ ved et ord for at gemme ordet og betydningen i": "Натисніть ➕ біля слова, щоб зберегти слово і значення в",
-"Med 📝 Gem et ord kan du gemme et andet ord fra sætningen.": "Кнопкою 📝 Зберегти слово можна зберегти інше слово з речення."
+"Med 📝 Gem et ord kan du gemme et andet ord fra sætningen.": "Кнопкою 📝 Зберегти слово можна зберегти інше слово з речення.",
+"✓ Gemt:": "✓ Збережено:",
+"er allerede i Mine ord": "вже є в «Мої слова»",
+"➕ Gem": "➕ Зберегти",
+"↩️ Fortryd": "↩️ Скасувати",
+"Ingen betydning fundet – tryk ✏️ og skriv den.": "Значення не знайдено – натисніть ✏️ і напишіть його.",
+"↩️ Ordet er fjernet igen.": "↩️ Слово видалено.",
+"Gem automatisk, når jeg markerer et ord": "Зберігати автоматично, коли я виділяю слово",
+"Dobbeltklik på et ord (computer), eller tryk og hold på ordet (iPad/telefon) – så gemmes ordet, betydningen og sætningen med det samme. Slået fra: du får en knap ➕ Gem i stedet.": "Двічі клацніть слово (комп’ютер) або натисніть і утримуйте його (iPad/телефон) – слово, значення і речення збережуться одразу. Якщо вимкнено, з’явиться кнопка ➕ Зберегти.",
+"nederst på skærmen, når du møder et nyt ord i en opgave – så kan du se ordene her og øve dem senere. Eller endnu nemmere:": "внизу екрана, коли зустрінете нове слово в завданні, – тоді ви побачите слова тут і зможете повторити їх пізніше. Або ще простіше:",
+"dobbeltklik eller tryk og hold på et ord": "двічі клацніть або натисніть і утримуйте слово",
+"i teksten – så gemmes det med det samme.": "у тексті – і воно збережеться одразу."
 };

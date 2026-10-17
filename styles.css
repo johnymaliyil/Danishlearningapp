@@ -1049,3 +1049,11 @@ button.lword.saved { border-style: solid; border-color: var(--ok, #15803d); }
 button.lword.saved .lw-ico { color: var(--ok, #15803d); font-weight: 900; }
 .lsave { display: none; font: inherit; font-size: .85rem; font-weight: 700; margin-top: 6px; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: inherit; cursor: pointer; }
 .lline.on .lsave, .lline:hover .lsave { display: inline-block; }
+
+/* ✨ Bubble after marking a word (saved in Mine ord) */
+.nb-bubble { position: fixed; z-index: 1200; max-width: min(420px, calc(100vw - 16px)); display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px;
+  padding: 8px 10px 8px 14px; border-radius: 14px; background: var(--surface); color: var(--text); border: 2px solid var(--accent); box-shadow: 0 10px 30px rgba(0,0,0,.2); font-size: .95rem; }
+.nb-bubble[hidden] { display: none; }
+.nb-b-txt span { color: var(--muted); }
+.nb-b-btn { font: inherit; font-weight: 800; font-size: .88rem; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface-2); color: inherit; cursor: pointer; }
+.nb-b-hint { flex-basis: 100%; font-size: .8rem; color: var(--muted); }

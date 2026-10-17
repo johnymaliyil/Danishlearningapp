@@ -1084,5 +1084,16 @@ PD2.I18N.ro = {
 "Gem et andet ord fra sætningen": "Salvează alt cuvânt din propoziție",
 "📝 Gem et ord": "📝 Salvează un cuvânt",
 "Tryk på ➕ ved et ord for at gemme ordet og betydningen i": "Apasă ➕ lângă un cuvânt ca să salvezi cuvântul și înțelesul în",
-"Med 📝 Gem et ord kan du gemme et andet ord fra sætningen.": "Cu 📝 Salvează un cuvânt poți salva alt cuvânt din propoziție."
+"Med 📝 Gem et ord kan du gemme et andet ord fra sætningen.": "Cu 📝 Salvează un cuvânt poți salva alt cuvânt din propoziție.",
+"✓ Gemt:": "✓ Salvat:",
+"er allerede i Mine ord": "este deja în Cuvintele mele",
+"➕ Gem": "➕ Salvează",
+"↩️ Fortryd": "↩️ Anulează",
+"Ingen betydning fundet – tryk ✏️ og skriv den.": "Nu s-a găsit înțelesul – apasă ✏️ și scrie-l.",
+"↩️ Ordet er fjernet igen.": "↩️ Cuvântul a fost scos.",
+"Gem automatisk, når jeg markerer et ord": "Salvează automat când marchez un cuvânt",
+"Dobbeltklik på et ord (computer), eller tryk og hold på ordet (iPad/telefon) – så gemmes ordet, betydningen og sætningen med det samme. Slået fra: du får en knap ➕ Gem i stedet.": "Fă dublu clic pe un cuvânt (calculator) sau ține apăsat pe cuvânt (iPad/telefon) – cuvântul, înțelesul și propoziția se salvează imediat. Oprit: primești un buton ➕ Salvează.",
+"nederst på skærmen, når du møder et nyt ord i en opgave – så kan du se ordene her og øve dem senere. Eller endnu nemmere:": "în partea de jos a ecranului când întâlnești un cuvânt nou într-un exercițiu – apoi le vezi aici și le exersezi mai târziu. Sau și mai simplu:",
+"dobbeltklik eller tryk og hold på et ord": "fă dublu clic sau ține apăsat pe un cuvânt",
+"i teksten – så gemmes det med det samme.": "din text – se salvează imediat."
 };

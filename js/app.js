@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "117"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "118"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -5155,17 +5155,99 @@
   document.body.appendChild(nbFab);
   document.addEventListener("click", e => { if (e.target.closest("[data-nb-new]")) { e.preventDefault(); nbForm(); } });
 
+  // ✨ Mark a word = save it. Double-click (computer) or select (press and hold on phone/iPad) a Danish
+  // word in an exercise: it is saved in Mine ord at once with its meaning and the sentence, and a small
+  // bubble says so with "Fortryd" (undo) and ✏️. Can be switched to "ask first" on the Mine ord page.
+  const NB_AUTO = "dk-nb-auto";
+  const nbAutoOn = () => pref(NB_AUTO, "1") === "1";
+  // Meaning of a word or a bent form of it (danskerne → dansker, arbejdede → arbejde …).
+  function nbMeaning(w) {
+    const lw = w.toLowerCase();
+    let m = enOf(w) || enOf(lw);
+    if (m || /\s/.test(lw)) return m;
+    const ends = ["erne", "ene", "ende", "ede", "en", "et", "er", "te", "es", "e", "r", "s", "t", "n"];
+    for (const e of ends) {
+      if (lw.length - e.length < 3 || !lw.endsWith(e)) continue;
+      const stem = lw.slice(0, -e.length);
+      for (const c of [stem, stem + "e", stem.replace(/(.)\1$/, "$1"), stem.replace(/(.)\1$/, "$1") + "e"]) { m = enOf(c); if (m) return m; }
+    }
+    return "";
+  }
+  const NB_ZONE_SKIP = "input, textarea, select, button, a, .nav, .topbar, .pop-overlay, .set-page, .nb-list, .nb-card, .nb-bubble, .site-foot, [lang='en'], .len, .lnote";
+  const nbBub = document.createElement("div");
+  nbBub.className = "nb-bubble"; nbBub.hidden = true; nbBub.setAttribute("role", "status");
+  document.body.appendChild(nbBub);
+  let nbLast = null, nbTimer = null, nbDown = false, nbHideT = null;
+  const nbHide = () => { nbBub.hidden = true; };
+  document.addEventListener("pointerdown", e => { nbDown = true; if (!e.target.closest(".nb-bubble")) nbHide(); }, true);
+  document.addEventListener("pointerup", () => { nbDown = false; nbQueue(); }, true);
+  document.addEventListener("selectionchange", nbQueue);
+  addEventListener("hashchange", () => { nbHide(); nbLast = null; });
+  function nbQueue() { clearTimeout(nbTimer); nbTimer = setTimeout(nbPicked, 650); }
+  function nbPicked() {
+    if (nbDown) return;
+    const sel = getSelection();
+    if (!sel || sel.isCollapsed || !sel.rangeCount) return;
+    const raw = sel.toString().replace(/\s+/g, " ").trim(), w = nbClean(raw);
+    if (!w || w.length > 40 || w.split(" ").length > 3 || !/[A-Za-zÆØÅæøå]/.test(w) || /\d/.test(w)) return;
+    const node = sel.anchorNode, el = node && (node.nodeType === 3 ? node.parentElement : node);
+    if (!el || !el.closest("#app") || el.closest(NB_ZONE_SKIP)) return;
+    const h = location.hash.replace(/^#\/?/, "");
+    if (/^(mineord|settings|backup|legal|feedback|help)/.test(h)) return;
+    // The sentence around the word, as the example.
+    const block = el.closest("p, li, .lda, .text, .qtext, td, h1, h2, h3, h4, div") || el;
+    const full = (block.textContent || "").replace(/\s+/g, " ").trim();
+    const sent = (full.length <= 220 ? full : full.split(/(?<=[.!?])\s+(?=[A-ZÆØÅ"“”])/).find(x => x.includes(w)) || "").trim().slice(0, 220);
+    const en = nbMeaning(w), rect = sel.getRangeAt(0).getBoundingClientRect();
+    if (nbAutoOn()) {
+      const L = nb();
+      // Still adjusting the same selection (iPad handles): update the word just saved instead of adding one more.
+      if (nbLast && Date.now() - nbLast.t < 5000 && nbLast.block === block && L.includes(nbLast.e) && (w.includes(nbLast.e.da) || nbLast.e.da.includes(w))) {
+        Object.assign(nbLast.e, { da: w, en, ex: sent }); nbLast.t = Date.now(); save();
+      } else if (nbHas(w)) {
+        nbShow(rect, `✓ <b>${esc(w)}</b> er allerede i Mine ord`, null); return;
+      } else {
+        nbAdd({ da: w, en, ex: sent });
+        nbLast = { e: nb()[0], t: Date.now(), block };
+      }
+      nbShow(rect, `✓ Gemt: <b data-keep>${esc(w)}</b>${en ? ` <span>= ${esc(en)}</span>` : ""}`, nbLast.e);
+    } else {
+      if (nbHas(w)) { nbShow(rect, `✓ <b>${esc(w)}</b> er allerede i Mine ord`, null); return; }
+      nbShow(rect, `<b data-keep>${esc(w)}</b>${en ? ` <span>= ${esc(en)}</span>` : ""}`, null, () => { nbAdd({ da: w, en, ex: sent }); nbLast = { e: nb()[0], t: Date.now(), block }; toast(`📝 Gemt i Mine ord: ${w}`); if (!en) nbForm("", 0); });
+    }
+  }
+  function nbShow(rect, html, entry, onSave) {
+    nbBub.innerHTML = `<span class="nb-b-txt">${html}</span>
+      ${onSave ? `<button type="button" class="nb-b-btn" data-b="save">➕ Gem</button>` : ""}
+      ${entry ? `<button type="button" class="nb-b-btn" data-b="edit" title="Ret">✏️</button><button type="button" class="nb-b-btn" data-b="undo">↩️ Fortryd</button>` : ""}
+      ${entry && !entry.en ? `<span class="nb-b-hint">Ingen betydning fundet – tryk ✏️ og skriv den.</span>` : ""}`;
+    nbBub.hidden = false;
+    const bw = nbBub.offsetWidth, bh = nbBub.offsetHeight;
+    let top = rect.bottom + 12; if (top + bh > innerHeight - 90) top = Math.max(8, rect.top - bh - 54);
+    nbBub.style.left = Math.max(8, Math.min(rect.left + rect.width / 2 - bw / 2, innerWidth - bw - 8)) + "px";
+    nbBub.style.top = top + "px";
+    nbBub.onclick = e => {
+      const b = e.target.closest("[data-b]"); if (!b) return;
+      if (b.dataset.b === "save" && onSave) onSave();
+      if (b.dataset.b === "edit" && entry) { const i = nb().indexOf(entry); if (i >= 0) nbForm("", i); }
+      if (b.dataset.b === "undo" && entry) { const i = nb().indexOf(entry); if (i >= 0) { nb().splice(i, 1); save(); toast("↩️ Ordet er fjernet igen."); } nbLast = null; }
+      nbHide();
+    };
+    clearTimeout(nbHideT); nbHideT = setTimeout(nbHide, 7000);
+  }
+
   function notebookPage() {
     const L = nb();
     app.innerHTML = `<a class="back" href="#/">← Forside</a>
       <h1>📒 Mine ord <span class="tag">${L.length}</span></h1>
-      <p class="muted">Dine egne nye ord og deres betydning. Tryk på <b>📝 Nyt ord</b> nederst på skærmen, når du møder et nyt ord i en opgave – så kan du se ordene her og øve dem senere. Markér ordet i teksten først, så bliver det skrevet ind for dig.</p>
+      <p class="muted">Dine egne nye ord og deres betydning. Tryk på <b>📝 Nyt ord</b> nederst på skærmen, når du møder et nyt ord i en opgave – så kan du se ordene her og øve dem senere. Eller endnu nemmere: <b>dobbeltklik eller tryk og hold på et ord</b> i teksten – så gemmes det med det samme.</p>
       <div class="row" style="gap:8px;flex-wrap:wrap">
         <button class="btn write" data-nb-new>➕ Tilføj et ord</button>
         ${L.length ? `<button class="btn read" id="nbQuiz">🃏 Øv mine ord</button>
         <button class="btn ghost sm" id="nbCopy">📋 Kopiér listen</button>
         <button class="btn ghost sm" id="nbCsv">⬇️ Download (Excel/CSV)</button>` : ""}
       </div>
+      <label class="tick" style="margin-top:12px"><input type="checkbox" id="nbAuto" ${nbAutoOn() ? "checked" : ""}> <span><b>Gem automatisk, når jeg markerer et ord</b><br><span class="small muted">Dobbeltklik på et ord (computer), eller tryk og hold på ordet (iPad/telefon) – så gemmes ordet, betydningen og sætningen med det samme. Slået fra: du får en knap ➕ Gem i stedet.</span></span></label>
       ${L.length ? `<input id="nbQ" class="nb-in" type="search" placeholder="🔎 Søg i mine ord" style="margin:14px 0 0">
       <div class="card nb-list">${L.map((w, i) => `<div class="nb-row" data-nb-k="${esc((w.da + " " + w.en + " " + (w.ex || "")).toLowerCase())}">
           <button class="say" data-nb-say="${i}" aria-label="Lyt til ordet" title="Lyt">🔊</button>
@@ -5177,6 +5259,7 @@
         <p class="muted nb-none" hidden>Ingen ord passer til søgningen.</p></div>
       <p class="small muted" style="margin-top:10px">Ordene gemmes i denne browser og kommer med, når du gemmer en fil under <a href="#/backup">💾 Gem / hent fremskridt</a>.</p>`
       : `<div class="card" style="margin-top:14px"><p style="margin:0">Du har ikke gemt nogen ord endnu. Prøv at åbne en læseopgave og tryk på <b>📝 Nyt ord</b>.</p></div>`}`;
+    $("#nbAuto").onchange = e => setPref(NB_AUTO, e.target.checked ? "1" : "0");
     if (!L.length) return;
     $("#nbQ").oninput = e => {
       const q = e.target.value.trim().toLowerCase(); let n = 0;

@@ -1084,5 +1084,16 @@ PD2.I18N.tr = {
 "Gem et andet ord fra sætningen": "Cümleden başka bir kelime kaydet",
 "📝 Gem et ord": "📝 Kelime kaydet",
 "Tryk på ➕ ved et ord for at gemme ordet og betydningen i": "Kelimeyi ve anlamını kaydetmek için yanındaki ➕ işaretine dokun:",
-"Med 📝 Gem et ord kan du gemme et andet ord fra sætningen.": "📝 Kelime kaydet ile cümleden başka bir kelimeyi kaydedebilirsin."
+"Med 📝 Gem et ord kan du gemme et andet ord fra sætningen.": "📝 Kelime kaydet ile cümleden başka bir kelimeyi kaydedebilirsin.",
+"✓ Gemt:": "✓ Kaydedildi:",
+"er allerede i Mine ord": "zaten Kelimelerim'de",
+"➕ Gem": "➕ Kaydet",
+"↩️ Fortryd": "↩️ Geri al",
+"Ingen betydning fundet – tryk ✏️ og skriv den.": "Anlam bulunamadı – ✏️ işaretine dokun ve yaz.",
+"↩️ Ordet er fjernet igen.": "↩️ Kelime kaldırıldı.",
+"Gem automatisk, når jeg markerer et ord": "Bir kelimeyi işaretlediğimde otomatik kaydet",
+"Dobbeltklik på et ord (computer), eller tryk og hold på ordet (iPad/telefon) – så gemmes ordet, betydningen og sætningen med det samme. Slået fra: du får en knap ➕ Gem i stedet.": "Bir kelimeye çift tıkla (bilgisayar) veya kelimeye basılı tut (iPad/telefon) – kelime, anlamı ve cümle hemen kaydedilir. Kapalıysa bunun yerine ➕ Kaydet düğmesi çıkar.",
+"nederst på skærmen, når du møder et nyt ord i en opgave – så kan du se ordene her og øve dem senere. Eller endnu nemmere:": "düğmesine dokun – kelimeleri burada görür ve sonra çalışırsın. Ya da daha kolayı:",
+"dobbeltklik eller tryk og hold på et ord": "metindeki bir kelimeye çift tıkla veya basılı tut",
+"i teksten – så gemmes det med det samme.": "– hemen kaydedilir."
 };

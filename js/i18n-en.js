@@ -1085,5 +1085,16 @@ PD2.I18N.en = {
 "Gem et andet ord fra sætningen": "Save another word from the sentence",
 "📝 Gem et ord": "📝 Save a word",
 "Tryk på ➕ ved et ord for at gemme ordet og betydningen i": "Tap ➕ next to a word to save the word and its meaning in",
-"Med 📝 Gem et ord kan du gemme et andet ord fra sætningen.": "With 📝 Save a word you can save another word from the sentence."
+"Med 📝 Gem et ord kan du gemme et andet ord fra sætningen.": "With 📝 Save a word you can save another word from the sentence.",
+"✓ Gemt:": "✓ Saved:",
+"er allerede i Mine ord": "is already in My words",
+"➕ Gem": "➕ Save",
+"↩️ Fortryd": "↩️ Undo",
+"Ingen betydning fundet – tryk ✏️ og skriv den.": "No meaning found – tap ✏️ and write it.",
+"↩️ Ordet er fjernet igen.": "↩️ The word has been removed again.",
+"Gem automatisk, når jeg markerer et ord": "Save automatically when I mark a word",
+"Dobbeltklik på et ord (computer), eller tryk og hold på ordet (iPad/telefon) – så gemmes ordet, betydningen og sætningen med det samme. Slået fra: du får en knap ➕ Gem i stedet.": "Double-click a word (computer), or press and hold the word (iPad/phone) – the word, its meaning and the sentence are saved straight away. Switched off: you get a ➕ Save button instead.",
+"nederst på skærmen, når du møder et nyt ord i en opgave – så kan du se ordene her og øve dem senere. Eller endnu nemmere:": "at the bottom of the screen when you meet a new word in a task – then you can see the words here and practise them later. Or even easier:",
+"dobbeltklik eller tryk og hold på et ord": "double-click or press and hold a word",
+"i teksten – så gemmes det med det samme.": "in the text – it is saved straight away."
 };
