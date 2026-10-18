@@ -1,6 +1,84 @@
 {
- "updated": "2026-10-17T17:52+00:00",
+ "updated": "2026-10-18T08:52+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tysk-politi-undersoeger-hul-i-hegn-ved-leipzig-lufthavn",
+   "date": "2026-10-18T06:16:02+00:00",
+   "da": {
+    "title": "Tysk politi undersøger hul i hegn ved Leipzig lufthavn",
+    "desc": ""
+   },
+   "en": {
+    "title": "German Police Investigate Fence Hole at Leipzig Airport",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/litauen-udsendte-kortvarigt-roed-luftalarm-borgere-i-dele-af-landet",
+   "date": "2026-10-18T05:26:32+00:00",
+   "da": {
+    "title": "Litauen udsendte kortvarigt rød luftalarm for borgere i dele af landet",
+    "desc": ""
+   },
+   "en": {
+    "title": "Lithuania briefly issued red air alarms for citizens of parts of the country",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/usa-s-udenrigsminister-bosaetteroverfald-mod-fotograf-er-foruroligende",
+   "date": "2026-10-18T04:47:17+00:00",
+   "da": {
+    "title": "USA's udenrigsminister: Bosætteroverfald mod fotograf er foruroligende",
+    "desc": ""
+   },
+   "en": {
+    "title": "US Secretary of State: Settler assault on photographer is disturbing",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/dmi-s-varsel-om-forhoejet-vandstand-ophoerer",
+   "date": "2026-10-18T04:31:02+00:00",
+   "da": {
+    "title": "DMI's varsel om forhøjet vandstand ophører",
+    "desc": ""
+   },
+   "en": {
+    "title": "DMI's notice of elevated water level ceases",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/bil-koerer-ind-paa-bane-under-fodboldkamp-i-kansas-er-draebt",
+   "date": "2026-10-17T23:46:20+00:00",
+   "da": {
+    "title": "Bil kører ind på bane under fodboldkamp i Kansas: To er dræbt og 11 kvæstede",
+    "desc": ""
+   },
+   "en": {
+    "title": "Car drives into pitch during football game in Kansas: Two killed and 11 injured",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/ung-kvinde-doed-efter-skyderi-i-sportshal-i-stockholm",
+   "date": "2026-10-17T23:38:31+00:00",
+   "da": {
+    "title": "Ung kvinde død efter skyderi i sportshal i Stockholm",
+    "desc": ""
+   },
+   "en": {
+    "title": "Young woman dead after shooting in sports hall in Stockholm",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/rumaenien-nedskyder-droner-i-deres-luftrum",
@@ -115,84 +193,6 @@
    },
    "en": {
     "title": "Volunteers for the Association Roskilde Festival must pay dues in the future",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/selskab-bag-partybus-sigtet-ulovlig-rutekoersel",
-   "date": "2026-10-17T07:34:04+00:00",
-   "da": {
-    "title": "Selskab bag partybus sigtet for ulovlig rutekørsel",
-    "desc": ""
-   },
-   "en": {
-    "title": "Company behind partybus charged with illegal regular traffic",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/mand-smadrede-biler-med-golfkoelle",
-   "date": "2026-10-17T07:26:29+00:00",
-   "da": {
-    "title": "Mand smadrede biler med golfkølle",
-    "desc": ""
-   },
-   "en": {
-    "title": "Man smashed cars with golf club",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/aeldre-kvinde-draebt-af-knivstik-paa-plejehjem-i-tyskland",
-   "date": "2026-10-17T05:36:14+00:00",
-   "da": {
-    "title": "Ældre kvinde dræbt af knivstik på plejehjem i Tyskland",
-    "desc": ""
-   },
-   "en": {
-    "title": "Elderly woman killed by knife stabbing in nursing home in Germany",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/forbruget-af-el-stiger-imens-falder-forbrug-af-olie-og-gas",
-   "date": "2026-10-17T05:21:12+00:00",
-   "da": {
-    "title": "Forbruget af el stiger - imens falder forbrug af olie og gas",
-    "desc": ""
-   },
-   "en": {
-    "title": "The consumption of electricity increases - while the consumption of oil and gas decreases",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/moldova-fordoemmer-rusland-efter-droners-indtraengen-i-luftrum",
-   "date": "2026-10-17T04:56:17+00:00",
-   "da": {
-    "title": "Moldova fordømmer Rusland efter droners indtrængen i luftrum",
-    "desc": ""
-   },
-   "en": {
-    "title": "Moldova condemns Russia after drone intrusion into airspace",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/bosaettere-angriber-palaestinensere-paa-vestbredden",
-   "date": "2026-10-16T16:49:25+00:00",
-   "da": {
-    "title": "Bosættere angriber palæstinensere på Vestbredden",
-    "desc": ""
-   },
-   "en": {
-    "title": "Settlers attack Palestinians in the West Bank",
     "desc": ""
    }
   }
