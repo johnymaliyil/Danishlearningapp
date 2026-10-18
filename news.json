@@ -1,6 +1,19 @@
 {
- "updated": "2026-10-18T08:52+00:00",
+ "updated": "2026-10-18T14:02+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/irans-parlament-godkender-en-ny-forsvarsminister",
+   "date": "2026-10-18T08:56:18+00:00",
+   "da": {
+    "title": "Irans parlament godkender en ny forsvarsminister",
+    "desc": ""
+   },
+   "en": {
+    "title": "Iran's parliament approves new defence minister",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/tysk-politi-undersoeger-hul-i-hegn-ved-leipzig-lufthavn",
@@ -180,19 +193,6 @@
    },
    "en": {
     "title": "Deforestation in the Amazon has fallen to its lowest level to date",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/frivillige-foreningen-roskilde-festival-skal-fremover-betale-kontingent",
-   "date": "2026-10-17T08:13:55+00:00",
-   "da": {
-    "title": "Frivillige for Foreningen Roskilde Festival skal fremover betale kontingent",
-    "desc": ""
-   },
-   "en": {
-    "title": "Volunteers for the Association Roskilde Festival must pay dues in the future",
     "desc": ""
    }
   }
