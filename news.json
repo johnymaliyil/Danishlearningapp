@@ -1,6 +1,32 @@
 {
- "updated": "2026-10-18T14:02+00:00",
+ "updated": "2026-10-18T18:07+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/lars-fruergaard-scorer-nyt-job",
+   "date": "2026-10-18T16:32:34+00:00",
+   "da": {
+    "title": "Lars Fruergaard scorer nyt job",
+    "desc": "Den danske erhvervsprofil bliver bestyrelsesformand i Lundbeck."
+   },
+   "en": {
+    "title": "Lars Fruergaard scores new job",
+    "desc": "The Danish business profile will be Chairman of the Board of Lundbeck."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/luftalarm-i-nordfyns-kommune-er-en-fejl",
+   "date": "2026-10-18T14:05:55+00:00",
+   "da": {
+    "title": "Høj lyd på Fyn var alarm fra større virksomhed",
+    "desc": ""
+   },
+   "en": {
+    "title": "Loud sound on Funen was alarm from larger company",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/irans-parlament-godkender-en-ny-forsvarsminister",
@@ -167,32 +193,6 @@
    },
    "en": {
     "title": "Three men arrested with cocaine and gun in the car",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/77-aarig-sigtet-vanvidskoersel-vendte-om-paa-storebaeltsbroen",
-   "date": "2026-10-17T08:22:30+00:00",
-   "da": {
-    "title": "77-årig sigtet for vanvidskørsel: Vendte om på Storebæltsbroen",
-    "desc": "Ifølge politiet mistænker man, at manden blev forvirret på broen."
-   },
-   "en": {
-    "title": "77-year-old charged with insanity driving: Turned around on the Great Belt Bridge",
-    "desc": "According to police, it is suspected that the man was confused on the bridge."
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/afskovning-i-amazonas-er-faldet-til-det-hidtil-laveste-niveau",
-   "date": "2026-10-17T08:15:46+00:00",
-   "da": {
-    "title": "Afskovning i Amazonas er faldet til det hidtil laveste niveau",
-    "desc": ""
-   },
-   "en": {
-    "title": "Deforestation in the Amazon has fallen to its lowest level to date",
     "desc": ""
    }
   }
