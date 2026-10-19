@@ -1,6 +1,58 @@
 {
- "updated": "2026-10-19T09:56+00:00",
+ "updated": "2026-10-19T16:59+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/meloni-har-holdt-sikkerhedsmoede-om-uroligheder-i-italien",
+   "date": "2026-10-19T16:15:24+00:00",
+   "da": {
+    "title": "Meloni har holdt sikkerhedsmøde om uroligheder i Italien",
+    "desc": ""
+   },
+   "en": {
+    "title": "Meloni has held a security meeting on unrest in Italy",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/blodpropper-saetter-stopper-nfl-stjernes-saeson",
+   "date": "2026-10-19T15:55:12+00:00",
+   "da": {
+    "title": "Blodpropper sætter stopper for NFL-stjernes sæson",
+    "desc": ""
+   },
+   "en": {
+    "title": "Blood clots put an end to NFL star season",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/ni-sigtet-efter-demonstrationer-i-loerdags",
+   "date": "2026-10-19T15:46:29+00:00",
+   "da": {
+    "title": "Ni sigtet efter demonstrationer i lørdags",
+    "desc": ""
+   },
+   "en": {
+    "title": "Nine charged after demonstrations on Saturday",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/koebenhavns-politi-beder-dup-om-undersoege-slag-mod-fotografer",
+   "date": "2026-10-19T11:34:57+00:00",
+   "da": {
+    "title": "Københavns Politi beder DUP om at undersøge slag mod fotografer",
+    "desc": ""
+   },
+   "en": {
+    "title": "Copenhagen Police ask DUP to investigate shootings of photographers",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/sas-fly-maatte-vende-om-paa-grund-af-teknisk-indikation",
@@ -141,58 +193,6 @@
    },
    "en": {
     "title": "Lithuania briefly issued red air alarms for citizens of parts of the country",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/usa-s-udenrigsminister-bosaetteroverfald-mod-fotograf-er-foruroligende",
-   "date": "2026-10-18T04:47:17+00:00",
-   "da": {
-    "title": "USA's udenrigsminister: Bosætteroverfald mod fotograf er foruroligende",
-    "desc": ""
-   },
-   "en": {
-    "title": "US Secretary of State: Settler assault on photographer is disturbing",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/dmi-s-varsel-om-forhoejet-vandstand-ophoerer",
-   "date": "2026-10-18T04:31:02+00:00",
-   "da": {
-    "title": "DMI's varsel om forhøjet vandstand ophører",
-    "desc": ""
-   },
-   "en": {
-    "title": "DMI's notice of elevated water level ceases",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/bil-koerer-ind-paa-bane-under-fodboldkamp-i-kansas-er-draebt",
-   "date": "2026-10-17T23:46:20+00:00",
-   "da": {
-    "title": "Bil kører ind på bane under fodboldkamp i Kansas: To er dræbt og 11 kvæstede",
-    "desc": ""
-   },
-   "en": {
-    "title": "Car drives into pitch during football game in Kansas: Two killed and 11 injured",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/ung-kvinde-doed-efter-skyderi-i-sportshal-i-stockholm",
-   "date": "2026-10-17T23:38:31+00:00",
-   "da": {
-    "title": "Ung kvinde død efter skyderi i sportshal i Stockholm",
-    "desc": ""
-   },
-   "en": {
-    "title": "Young woman dead after shooting in sports hall in Stockholm",
     "desc": ""
    }
   }
