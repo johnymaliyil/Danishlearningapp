@@ -1,6 +1,84 @@
 {
- "updated": "2026-10-18T18:07+00:00",
+ "updated": "2026-10-19T09:56+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/sas-fly-maatte-vende-om-paa-grund-af-teknisk-indikation",
+   "date": "2026-10-19T09:32:30+00:00",
+   "da": {
+    "title": "SAS-fly måtte vende om på grund af 'teknisk indikation'",
+    "desc": ""
+   },
+   "en": {
+    "title": "SAS aircraft had to turn back due to 'technical indication'",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/australsk-politiker-alvorligt-saaret-i-angreb-taet-paa-sit-kontor",
+   "date": "2026-10-19T09:06:55+00:00",
+   "da": {
+    "title": "Australsk politiker alvorligt såret i angreb tæt på sit kontor",
+    "desc": ""
+   },
+   "en": {
+    "title": "Australian politician seriously injured in attack near his office",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/ingen-regionaltog-mellem-odense-og-fredericia-frem-til-klokken-14",
+   "date": "2026-10-19T08:09:02+00:00",
+   "da": {
+    "title": "Ingen regionaltog mellem Odense og Fredericia frem til klokken 14",
+    "desc": ""
+   },
+   "en": {
+    "title": "No regional trains between Odense and Fredericia until 14:00",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/koebenhavnerne-skal-nu-sortere-bleer",
+   "date": "2026-10-19T07:17:54+00:00",
+   "da": {
+    "title": "Københavnerne skal nu sortere bleer",
+    "desc": ""
+   },
+   "en": {
+    "title": "Copenhageners now have to sort diapers",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/fly-fra-tel-aviv-sikkerhedslander-efter-mulig-bombetrussel",
+   "date": "2026-10-19T03:42:34+00:00",
+   "da": {
+    "title": "Fly fra Tel Aviv sikkerhedslander efter mulig bombetrussel",
+    "desc": ""
+   },
+   "en": {
+    "title": "Flights from Tel Aviv security lander after possible bomb threat",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/fire-doede-og-39-saarede-i-gaarsdagens-brand-paa-canadisk-militaerbase",
+   "date": "2026-10-18T21:58:00+00:00",
+   "da": {
+    "title": "Fire døde og 39 sårede i gårsdagens brand på canadisk militærbase",
+    "desc": ""
+   },
+   "en": {
+    "title": "Four dead and 39 wounded in yesterday's fire at Canadian military base",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/lars-fruergaard-scorer-nyt-job",
@@ -115,84 +193,6 @@
    },
    "en": {
     "title": "Young woman dead after shooting in sports hall in Stockholm",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/rumaenien-nedskyder-droner-i-deres-luftrum",
-   "date": "2026-10-17T17:22:40+00:00",
-   "da": {
-    "title": "Rumænien nedskyder to droner i deres luftrum",
-    "desc": ""
-   },
-   "en": {
-    "title": "Romania shoots down two drones in their airspace",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/gigantisk-pumpe-sluse-kan-faa-premiere-i-nat",
-   "date": "2026-10-17T11:44:34+00:00",
-   "da": {
-    "title": "Gigantisk pumpe-sluse kan få premiere i nat",
-    "desc": ""
-   },
-   "en": {
-    "title": "Giant Pump Sluice Could Premiere Tonight",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/egyptens-praesident-fratraeder-posten-i-2030",
-   "date": "2026-10-17T11:17:54+00:00",
-   "da": {
-    "title": "Egyptens præsident fratræder posten i 2030",
-    "desc": ""
-   },
-   "en": {
-    "title": "President of Egypt to step down in 2030",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/demonstrationer-kan-paavirke-trafikken-i-koebenhavn",
-   "date": "2026-10-17T11:04:21+00:00",
-   "da": {
-    "title": "Demonstrationer kan påvirke trafikken i København",
-    "desc": ""
-   },
-   "en": {
-    "title": "Demonstrations can affect traffic in Copenhagen",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/paven-udskrives-efter-behandling-af-kraeftknude-i-lungen",
-   "date": "2026-10-17T10:44:45+00:00",
-   "da": {
-    "title": "Paven udskrives efter behandling af kræftknude i lungen",
-    "desc": ""
-   },
-   "en": {
-    "title": "The pope is discharged after treatment of cancerous nodule of the lung",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tre-maend-anholdt-med-kokain-og-pistol-i-bilen",
-   "date": "2026-10-17T09:52:19+00:00",
-   "da": {
-    "title": "Tre mænd anholdt med kokain og pistol i bilen",
-    "desc": ""
-   },
-   "en": {
-    "title": "Three men arrested with cocaine and gun in the car",
     "desc": ""
    }
   }
