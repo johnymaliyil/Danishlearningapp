@@ -1,6 +1,97 @@
 {
- "updated": "2026-10-19T16:59+00:00",
+ "updated": "2026-10-20T09:26+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/planer-om-datacentre-sat-paa-hold",
+   "date": "2026-10-20T07:59:40+00:00",
+   "da": {
+    "title": "Planer om datacentre sat på hold",
+    "desc": ""
+   },
+   "en": {
+    "title": "Data center on hold plans",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/staten-koeber-jord-vil-udvide-tre-naturnationalparker",
+   "date": "2026-10-20T06:23:06+00:00",
+   "da": {
+    "title": "Staten køber jord: Vil udvide tre naturnationalparker",
+    "desc": ""
+   },
+   "en": {
+    "title": "State Buying Land: Will Expand Three Natural National Parks",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/problemer-har-igen-ramt-togdriften-over-fyn-togbusser-indsat",
+   "date": "2026-10-20T05:37:14+00:00",
+   "da": {
+    "title": "Problemer har igen ramt togdriften over Fyn - togbusser indsat",
+    "desc": ""
+   },
+   "en": {
+    "title": "Problems have again hit the train operation over Funen - train buses deployed",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/japan-sender-rumsonde-mod-mars-undersoege-planetens-maane",
+   "date": "2026-10-20T05:34:52+00:00",
+   "da": {
+    "title": "Japan sender rumsonde mod Mars for at undersøge planetens måne",
+    "desc": ""
+   },
+   "en": {
+    "title": "Japan sends spacecraft to Mars to probe the planet's moon",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/donald-trumps-opbakning-fra-vaelgere-er-lavere-end-nogensinde-foer",
+   "date": "2026-10-19T21:09:52+00:00",
+   "da": {
+    "title": "Donald Trumps opbakning fra vælgere er lavere end nogensinde før",
+    "desc": ""
+   },
+   "en": {
+    "title": "Donald Trump's voter support is lower than ever before",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/trump-er-aaben-moedes-med-xi-og-putin",
+   "date": "2026-10-19T20:00:21+00:00",
+   "da": {
+    "title": "Trump er åben for at mødes med Xi og Putin",
+    "desc": ""
+   },
+   "en": {
+    "title": "Trump is open to meeting with Xi and Putin",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/norsk-vm-tromme-er-solgt-920-000-kroner-paa-auktion",
+   "date": "2026-10-19T19:10:58+00:00",
+   "da": {
+    "title": "Norsk VM-tromme er solgt for 920.000 kroner på auktion",
+    "desc": ""
+   },
+   "en": {
+    "title": "Norwegian World Cup drum sold for DKK 920,000 at auction",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/meloni-har-holdt-sikkerhedsmoede-om-uroligheder-i-italien",
@@ -102,97 +193,6 @@
    },
    "en": {
     "title": "Copenhageners now have to sort diapers",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/fly-fra-tel-aviv-sikkerhedslander-efter-mulig-bombetrussel",
-   "date": "2026-10-19T03:42:34+00:00",
-   "da": {
-    "title": "Fly fra Tel Aviv sikkerhedslander efter mulig bombetrussel",
-    "desc": ""
-   },
-   "en": {
-    "title": "Flights from Tel Aviv security lander after possible bomb threat",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/fire-doede-og-39-saarede-i-gaarsdagens-brand-paa-canadisk-militaerbase",
-   "date": "2026-10-18T21:58:00+00:00",
-   "da": {
-    "title": "Fire døde og 39 sårede i gårsdagens brand på canadisk militærbase",
-    "desc": ""
-   },
-   "en": {
-    "title": "Four dead and 39 wounded in yesterday's fire at Canadian military base",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/lars-fruergaard-scorer-nyt-job",
-   "date": "2026-10-18T16:32:34+00:00",
-   "da": {
-    "title": "Lars Fruergaard scorer nyt job",
-    "desc": "Den danske erhvervsprofil bliver bestyrelsesformand i Lundbeck."
-   },
-   "en": {
-    "title": "Lars Fruergaard scores new job",
-    "desc": "The Danish business profile will be Chairman of the Board of Lundbeck."
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/luftalarm-i-nordfyns-kommune-er-en-fejl",
-   "date": "2026-10-18T14:05:55+00:00",
-   "da": {
-    "title": "Høj lyd på Fyn var alarm fra større virksomhed",
-    "desc": ""
-   },
-   "en": {
-    "title": "Loud sound on Funen was alarm from larger company",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/irans-parlament-godkender-en-ny-forsvarsminister",
-   "date": "2026-10-18T08:56:18+00:00",
-   "da": {
-    "title": "Irans parlament godkender en ny forsvarsminister",
-    "desc": ""
-   },
-   "en": {
-    "title": "Iran's parliament approves new defence minister",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tysk-politi-undersoeger-hul-i-hegn-ved-leipzig-lufthavn",
-   "date": "2026-10-18T06:16:02+00:00",
-   "da": {
-    "title": "Tysk politi undersøger hul i hegn ved Leipzig lufthavn",
-    "desc": ""
-   },
-   "en": {
-    "title": "German Police Investigate Fence Hole at Leipzig Airport",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/litauen-udsendte-kortvarigt-roed-luftalarm-borgere-i-dele-af-landet",
-   "date": "2026-10-18T05:26:32+00:00",
-   "da": {
-    "title": "Litauen udsendte kortvarigt rød luftalarm for borgere i dele af landet",
-    "desc": ""
-   },
-   "en": {
-    "title": "Lithuania briefly issued red air alarms for citizens of parts of the country",
     "desc": ""
    }
   }
