@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "120"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "121"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -17,20 +17,27 @@
   const KEY = "pd2-trainer-v1";
   const today = () => new Date().toISOString().slice(0, 10);
   const blank = () => ({ exam: "pd2", xp: 0, xpDay: { date: today(), xp: 0 }, streak: 0, lastDay: null, badges: [], reading: {}, writing: {}, speaking: { sessions: 0, seconds: 0, done: {} }, words: { best: 0 }, games: { best: {}, played: {} }, vocab: { b: {}, h: {}, dir: "da", say: false }, grammar: {}, mistakes: { reading: {}, grammar: {} }, exams: [], plan: { date: "" }, today: { date: "" } });
+  // Fills in what older saves (or a file / the cloud) may be missing.
+  function fixState(x) {
+    const s = Object.assign(blank(), x);
+    if (!PD2.EXAMS[s.exam]) s.exam = "pd2";
+    s.games = Object.assign({ best: {}, played: {} }, s.games); // older saves
+    s.vocab = Object.assign({ b: {}, h: {}, dir: "da", say: false }, s.vocab);
+    s.grammar = s.grammar || {};
+    s.mistakes = Object.assign({ reading: {}, grammar: {} }, s.mistakes);
+    s.exams = s.exams || [];
+    s.plan = Object.assign({ date: "" }, s.plan);
+    s.today = s.today || { date: "" };
+    s.words = s.words || { best: 0 };
+    if (s.words.best !== undefined && s.words.pd2 === undefined) s.words.pd2 = s.words.best; // older saves
+    return s;
+  }
   let S = blank();
   try {
     const raw = localStorage.getItem(KEY);
-    if (raw) S = Object.assign(blank(), JSON.parse(raw));
+    if (raw) S = JSON.parse(raw);
   } catch (e) { /* storage blocked: progress lives in memory only */ }
-  if (!PD2.EXAMS[S.exam]) S.exam = "pd2";
-  S.games = Object.assign({ best: {}, played: {} }, S.games); // older saves
-  S.vocab = Object.assign({ b: {}, h: {}, dir: "da", say: false }, S.vocab);
-  S.grammar = S.grammar || {};
-  S.mistakes = Object.assign({ reading: {}, grammar: {} }, S.mistakes);
-  S.exams = S.exams || [];
-  S.plan = Object.assign({ date: "" }, S.plan);
-  S.today = S.today || { date: "" };
-  if (S.words && S.words.best !== undefined && S.words.pd2 === undefined) S.words.pd2 = S.words.best; // older saves
+  S = fixState(S);
   const EX = () => PD2.EXAMS[S.exam];
   // Find an item by id in the current exam, or switch to the exam that has it (e.g. a shared link).
   function findItem(list, id) {
@@ -44,7 +51,72 @@
   }
   const META = () => PD2.EXAM_META[S.exam];
   const wordBest = () => (S.words[S.exam] || 0);
-  const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { /* ignore */ } };
+  const save = () => {
+    try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { /* ignore */ }
+    try { cloudChanged(); } catch (e) { /* cloud sync not ready yet */ }
+  };
+
+  // ---------- Merge two saves (two devices: the cloud or a backup file) ----------
+  // Nothing is lost: scores and counters keep the highest value, lists are joined, saved words are
+  // joined by word (the newest edit wins, deleted words stay deleted), dates keep the latest.
+  // a = this device, b = the other one.
+  const isDay = v => typeof v === "string" && /^\d{4}-\d\d-\d\d/.test(v);
+  const clone = v => (v == null || typeof v !== "object" ? v : JSON.parse(JSON.stringify(v)));
+  function mergeVal(x, y) {
+    if (x === undefined || x === null) return clone(y);
+    if (y === undefined || y === null) return clone(x);
+    if (Array.isArray(x) && Array.isArray(y)) {
+      const seen = new Set(), out = [];
+      for (const v of x.concat(y)) { const k = typeof v === "object" ? JSON.stringify(v) : String(v); if (!seen.has(k)) { seen.add(k); out.push(clone(v)); } }
+      return out;
+    }
+    if (typeof x === "object" && typeof y === "object" && !Array.isArray(x) && !Array.isArray(y)) {
+      const o = {};
+      for (const k of new Set(Object.keys(x).concat(Object.keys(y)))) o[k] = mergeVal(x[k], y[k]);
+      return o;
+    }
+    if (typeof x === "number" && typeof y === "number") return Math.max(x, y);
+    if (typeof x === "boolean" && typeof y === "boolean") return x || y;
+    if (typeof x === "string" && typeof y === "string") return isDay(x) && isDay(y) ? (x > y ? x : y) : (y.length > x.length ? y : x);
+    return clone(x);
+  }
+  function mergeWords(A, B, tombs) {
+    const map = new Map(), stamp = w => w.u || w.t || Date.parse(w.d || "") || 0;
+    for (const w of (A || []).concat(B || [])) {
+      if (!w || !w.da) continue;
+      const k = w.da.toLowerCase(), o = map.get(k);
+      if (!o) { map.set(k, clone(w)); continue; }
+      const [nw, old] = stamp(w) > stamp(o) ? [clone(w), o] : [o, w];
+      for (const f of Object.keys(old)) if (nw[f] === undefined || nw[f] === "") nw[f] = old[f];
+      nw.ok = Math.max(o.ok || 0, w.ok || 0) || undefined; nw.bad = Math.max(o.bad || 0, w.bad || 0) || undefined;
+      nw.t = Math.min(o.t || Infinity, w.t || Infinity); if (nw.t === Infinity) delete nw.t;
+      map.set(k, nw);
+    }
+    return [...map.entries()].filter(([k, w]) => !(tombs[k] && tombs[k] >= (w.u || w.t || 0)))
+      .map(([, w]) => w).sort((a, b) => (b.t || Date.parse(b.d || "") || 0) - (a.t || Date.parse(a.d || "") || 0));
+  }
+  function mergeState(a, b) {
+    a = fixState(a); b = fixState(b);
+    const m = mergeVal(a, b);
+    m.exam = a.exam;
+    m.plan = a.plan && a.plan.date ? clone(a.plan) : clone(b.plan);
+    m.vocab.dir = a.vocab.dir; m.vocab.say = a.vocab.say;
+    const da = a.lastDay || "", db = b.lastDay || "";
+    m.lastDay = (da > db ? da : db) || null;
+    m.streak = da === db ? Math.max(a.streak || 0, b.streak || 0) : (da > db ? a.streak : b.streak) || 0;
+    const xa = a.xpDay || {}, xb = b.xpDay || {};
+    m.xpDay = xa.date === xb.date ? { date: xa.date, xp: Math.max(xa.xp || 0, xb.xp || 0) } : clone((xa.date || "") > (xb.date || "") ? xa : xb);
+    // Games where a lower score is better (fewest moves / tries).
+    for (const k of Object.keys(m.games.best)) {
+      const g = typeof gameInfo === "function" && gameInfo(k.split(":")[0]), va = a.games.best[k], vb = b.games.best[k];
+      if (g && g.lower && va !== undefined && vb !== undefined) m.games.best[k] = Math.min(va, vb);
+    }
+    const tombs = {}, cut = Date.now() - 180 * 864e5;
+    [a.nbDel, b.nbDel].forEach(t => Object.entries(t || {}).forEach(([k, v]) => { if (v > cut) tombs[k] = Math.max(tombs[k] || 0, v); }));
+    m.nbDel = tombs;
+    m.notebook = mergeWords(a.notebook, b.notebook, tombs);
+    return m;
+  }
 
   // ---------- Helpers ----------
   const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -210,6 +282,7 @@
       <button role="menuitem" class="set-item" data-text-pick><span class="set-ico">🔠</span><span>Tekststørrelse og skrift</span></button>
       <a role="menuitem" class="set-item" href="#/progress"><span class="set-ico">📊</span><span>Min fremgang</span></a>
       <a role="menuitem" class="set-item" href="#/mineord"><span class="set-ico">📒</span><span>Mine ord – dine gemte ord</span></a>
+      ${FB ? `<a role="menuitem" class="set-item" href="#/konto"><span class="set-ico">☁️</span><span>${cloud.user ? "Synkroniseret · din konto" : "Log ind og synkroniser"}</span></a>` : ""}
       <a role="menuitem" class="set-item" href="#/news"><span class="set-ico">📰</span><span>Dagens nyheder</span></a>
       <button role="menuitem" class="set-item" data-reminder><span class="set-ico">⏰</span><span>Daglig påmindelse i kalenderen</span></button>
       <div class="set-sec">Hjælp</div>
@@ -389,6 +462,7 @@
     [/^\/review$/, reviewPage],
     [/^\/help$/, helpPage],
     [/^\/settings$/, settingsPage],
+    [/^\/konto$/, kontoPage],
     [/^\/mineord(?:\/(quiz))?$/, q => (q && nb().length ? nbQuiz() : notebookPage())],
     [/^\/progress$/, progressPage],
     [/^\/lyt(?:\/(\d))?$/, listenList],
@@ -403,6 +477,7 @@
   ];
   let lastPath = "/";
   function route() {
+    try { cloudBeforeRoute(); } catch (e) { /* cloud not set up */ }
     cleanups.forEach(fn => { try { fn(); } catch (e) { /* ignore */ } });
     cleanups = [];
     SPOKEN = "";
@@ -4745,14 +4820,24 @@
   // ---------- Gem og hent fremskridt (backup) ----------
   function backupPage() {
     app.innerHTML = `<a class="back" href="#/">← Forside</a><h1>💾 Gem og hent dit fremskridt</h1>
-      <p class="muted">Dit fremskridt gemmes kun i denne browser. Gem det som en fil, så kan du hente det igen på en ny telefon eller computer – uden login.</p>
-      <div class="card"><h2>1. Gem en fil</h2><p>Filen indeholder dine point, svar, kladder, fejl, ord og indstillinger.</p>
-        <button class="btn write" id="bdl">💾 Download min fil</button></div>
-      <div class="card" style="margin-top:14px"><h2>2. Hent en fil</h2><p>Vælg en fil, du har gemt før. <b>Det erstatter dit nuværende fremskridt i denne browser.</b></p>
+      <p class="muted">Dit fremskridt gemmes i denne browser. Gem det som en fil, så kan du hente det på en anden telefon eller computer – uden login.</p>
+      ${FB ? `<a class="card plan-banner" href="#/konto"><span class="pb-ico">☁️</span><span class="pb-meta"><b>Nemmere: log ind og synkroniser</b><span class="small muted">${cloud.user ? "Du er logget ind – dit fremskridt synkroniseres automatisk." : "Valgfrit. Så følger dit fremskridt og Mine ord med på alle dine enheder."}</span></span></a>` : ""}
+      <div class="card"><h2>1. Gem en fil</h2><p>Filen indeholder dine point, svar, kladder, fejl, Mine ord og indstillinger.</p>
+        <div class="row"><button class="btn write" id="bdl">💾 Download min fil</button>${navigator.canShare ? `<button class="btn ghost" id="bshare">📤 Del filen</button>` : ""}</div>
+        <p class="small muted" style="margin:8px 0 0">Send filen til dig selv (e-mail, WhatsApp, iCloud Drive, Google Drive …), og hent den på den anden enhed.</p></div>
+      <div class="card" style="margin-top:14px"><h2>2. Hent en fil</h2><p>Vælg en fil, du har gemt før. Du kan <b>flette</b> den med det, der allerede er her (intet går tabt), eller <b>erstatte</b> alt.</p>
         <input type="file" id="bfile" accept="application/json,.json">
         <p class="small" id="bmsg" role="status"></p></div>`;
+    const backupBlob = () => new Blob([JSON.stringify({ app: "DanskKlar", version: APP_VERSION, saved: new Date().toISOString(), data: S }, null, 1)], { type: "application/json" });
+    if ($("#bshare")) $("#bshare").onclick = async () => {
+      const f = new File([backupBlob()], `danskklar-fremskridt-${today()}.json`, { type: "application/json" });
+      try {
+        if (navigator.canShare({ files: [f] })) await navigator.share({ files: [f], title: "DanskKlar – mit fremskridt" });
+        else $("#bdl").click();
+      } catch (e) { if (e && e.name !== "AbortError") $("#bdl").click(); }
+    };
     $("#bdl").onclick = () => {
-      const blob = new Blob([JSON.stringify({ app: "DanskKlar", version: APP_VERSION, saved: new Date().toISOString(), data: S }, null, 1)], { type: "application/json" });
+      const blob = backupBlob();
       const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = `danskklar-fremskridt-${today()}.json`;
       document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
       toast("💾 Filen er gemt");
@@ -4763,8 +4848,10 @@
       try {
         const j = JSON.parse(await f.text()), d = j && j.app === "DanskKlar" ? j.data : null;
         if (!d || typeof d !== "object" || typeof d.xp !== "number" || !d.reading) throw new Error("bad");
-        msg.innerHTML = `Filen er fra ${esc((j.saved || "").slice(0, 10))} med ${d.xp} XP. <button class="btn write sm" id="bok">Hent fremskridtet</button>`;
-        $("#bok").onclick = () => { S = Object.assign(blank(), d); save(); location.hash = "#/"; location.reload(); };
+        msg.innerHTML = `Filen er fra ${esc((j.saved || "").slice(0, 10))} med ${d.xp} XP og ${(d.notebook || []).length} ord i Mine ord.
+          <span class="row" style="margin-top:8px"><button class="btn write sm" id="bmerge">🔀 Flet med det, der er her (anbefalet)</button><button class="btn ghost sm" id="bok">Erstat alt</button></span>`;
+        $("#bmerge").onclick = () => { S = fixState(mergeState(S, d)); save(); location.hash = "#/"; location.reload(); };
+        $("#bok").onclick = () => { if (!confirm("Erstat alt dit fremskridt i denne browser med filen?")) return; S = fixState(d); save(); location.hash = "#/"; location.reload(); };
       } catch (err) { msg.textContent = "Filen kunne ikke læses. Vælg en fil, du har gemt fra DanskKlar."; }
     };
   }
@@ -5064,6 +5151,8 @@
           <p>Hvis du sender feedback eller en bedømmelse, sendes det, du skriver (stjerner, emne, besked og – hvis du vil – navn og e-mail), sammen med valgt prøve, den side du kom fra og appens version, til os som en e-mail. Det sker gennem tjenesten <b>FormSubmit</b> (formsubmit.co), som videresender beskeden; den kan blive behandlet på servere uden for EU. Vi bruger kun oplysningerne til at forbedre appen og til at svare dig, hvis du har skrevet din e-mail. Grundlaget er dit samtykke, når du trykker <i>Send</i> (GDPR art. 6, stk. 1, litra a). Vi sletter beskederne, når de ikke længere er relevante, og senest efter 2 år. Skriv ikke følsomme personoplysninger i beskeden.</p>
           <h3>Tale og mikrofon</h3>
           <p>Når du optager dig selv i taleøvelserne, bliver lydoptagelsen kun i din browser og bliver ikke gemt eller sendt til os. <b>Live-tekst</b> (tale til tekst) bruger browserens indbyggede talegenkendelse; i fx Chrome og Edge kan lyden blive sendt til browserproducentens (Google/Microsoft) server for at blive lavet om til tekst. Oplæsning af tekst bruger browserens egne stemmer. Mikrofonen bruges kun, når du selv trykker på optag.</p>
+          ${FB ? `<h3>Valgfrit login og synkronisering</h3>
+          <p>Du kan bruge hele appen uden login. Vælger du at logge ind (med Google eller et login-link på e-mail), gemmer vi din <b>e-mailadresse</b> (og dit navn, hvis du bruger Google) og en kopi af dit <b>fremskridt i appen</b> (point, svar, kladder, fejl, Mine ord og indstillinger), så det kan synkroniseres mellem dine enheder. Det sker hos <b>Google Firebase</b> (Google Ireland Ltd.), og data opbevares i EU. Grundlaget er dit samtykke, når du logger ind (GDPR art. 6, stk. 1, litra a). Du kan til enhver tid logge ud og <b>slette din konto og alle dine data</b> under ☁️ Log ind og synkroniser. Inaktive konti slettes senest efter 3 år.</p>` : ""}
           <h3>Oversættelse af sætninger i Mine ord</h3>
           <p>Når du gemmer et ord i <b>📒 Mine ord</b>, bliver sætningen oversat til engelsk. De fleste sætninger fra opgaverne har appen selv en oversættelse af. Ellers – fx når du selv skriver en sætning – sendes kun selve sætningen til den gratis oversættelsestjeneste <b>MyMemory</b> (mymemory.translated.net). Der sendes ingen navne, e-mail eller andre oplysninger om dig. Skriv ikke personlige oplysninger i sætningen.</p>
           <h3>Links til andre sider</h3>
@@ -5074,6 +5163,7 @@
             <li><b>Google (Gmail)</b> – e-mailkontoen, som feedback modtages i.</li>
             <li><b>GitHub Pages</b> (GitHub Inc.) – hosting af appens filer.</li>
             <li><b>Cloudflare</b> – domæne (DNS) og beskyttelse af siden.</li>
+            ${FB ? `<li><b>Google Firebase</b> (Google Ireland Ltd., EU) – valgfrit login og synkronisering af dit fremskridt.</li>` : ""}
             <li><b>MyMemory</b> (Translated srl, Italien) – oversætter sætninger i Mine ord, som appen ikke selv har en oversættelse af.</li>
           </ul>
           <p>Nogle af dem er placeret i USA. Overførsel sker på grundlag af EU-Kommissionens standardkontraktbestemmelser og/eller EU-U.S. Data Privacy Framework, som tjenesterne selv angiver. Vi sælger eller deler aldrig oplysninger med andre.</p>
@@ -5215,6 +5305,8 @@
   });
   const nbClean = t => t.replace(/^[^A-Za-zÆØÅæøåÄÖÜäöüÉé0-9]+|[^A-Za-zÆØÅæøåÄÖÜäöüÉé0-9]+$/g, "");
   const nbHas = w => nb().some(x => x.da.toLowerCase() === String(w).toLowerCase());
+  // Remember deleted words, so a sync with another device does not bring them back.
+  const nbDelMark = w => { S.nbDel = S.nbDel || {}; S.nbDel[w.da.toLowerCase()] = Date.now(); };
   // English for the saved sentence: first from the app's own sentence translations (the listening
   // lessons cover the reading texts and model answers), else a free machine translation (MyMemory).
   let NB_SENT = null;
@@ -5258,7 +5350,9 @@
   }
   function nbAdd(entry) {
     const h = location.hash.replace(/^#\/?/, ""), title = ((app.querySelector("h1") || {}).textContent || "").trim();
-    nb().unshift(Object.assign(entry, { d: today(), src: h.startsWith("mineord") ? "" : h, title: title.slice(0, 70) }));
+    const now = Date.now();
+    nb().unshift(Object.assign(entry, { d: today(), t: now, u: now, src: h.startsWith("mineord") ? "" : h, title: title.slice(0, 70) }));
+    if (S.nbDel) delete S.nbDel[entry.da.toLowerCase()];
     save();
     nbFillEn(entry);
   }
@@ -5282,6 +5376,7 @@
       // A changed sentence with the old translation left in: translate the new sentence instead.
       if (cur && entry.ex !== (cur.ex || "") && entry.exEn === (cur.exEn || "")) entry.exEn = "";
       const L = nb(), dup = L.findIndex((x, i) => i !== editIdx && x.da.toLowerCase() === w.toLowerCase());
+      entry.u = Date.now();
       if (cur) Object.assign(cur, entry);
       else if (dup >= 0) Object.assign(L[dup], entry);
       else nbAdd(entry);
@@ -5378,7 +5473,7 @@
       const b = e.target.closest("[data-b]"); if (!b) return;
       if (b.dataset.b === "save" && onSave) onSave();
       if (b.dataset.b === "edit" && entry) { const i = nb().indexOf(entry); if (i >= 0) nbForm("", i); }
-      if (b.dataset.b === "undo" && entry) { const i = nb().indexOf(entry); if (i >= 0) { nb().splice(i, 1); save(); toast("↩️ Ordet er fjernet igen."); } nbLast = null; }
+      if (b.dataset.b === "undo" && entry) { const i = nb().indexOf(entry); if (i >= 0) { nbDelMark(entry); nb().splice(i, 1); save(); toast("↩️ Ordet er fjernet igen."); } nbLast = null; }
       nbHide();
     };
     clearTimeout(nbHideT); nbHideT = setTimeout(nbHide, 7000);
@@ -5454,7 +5549,7 @@
     $$("[data-nb-edit]").forEach(b => b.onclick = () => nbForm("", +b.dataset.nbEdit));
     $$("[data-nb-del]").forEach(b => b.onclick = () => {
       const w = L[+b.dataset.nbDel];
-      if (confirm(`Slet "${w.da}" fra Mine ord?`)) { L.splice(+b.dataset.nbDel, 1); save(); notebookPage(); }
+      if (confirm(`Slet "${w.da}" fra Mine ord?`)) { nbDelMark(w); L.splice(+b.dataset.nbDel, 1); save(); notebookPage(); }
     });
     const asText = () => L.map(w => `${w.da} = ${w.en}${w.ex ? `\n   ${w.ex}` : ""}${w.exEn ? `\n   ${w.exEn}` : ""}`).join("\n");
     $("#nbCopy").onclick = () => {
@@ -5509,6 +5604,182 @@
     show();
   }
 
+  // ---------- ☁️ Valgfrit login og synkronisering (Firebase) ----------
+  // Optional: the app works fully without it. A user who logs in (Google, or a login link by e-mail)
+  // gets the progress and Mine ord kept in sync on all devices. The whole save is one Firestore document
+  // users/{uid}; every write is read-merge-write in a transaction, so two devices never overwrite each
+  // other. Turned on by filling in PD2.FIREBASE in js/cloud-config.js – until then nothing is loaded.
+  const FB = PD2.FIREBASE && PD2.FIREBASE.apiKey ? PD2.FIREBASE : null;
+  const FB_VER = "10.12.2";
+  const cloud = { user: null, ready: false, loading: null, auth: null, db: null, pushT: null, lastPull: 0, pending: null, status: "", busy: false };
+  const loadScript = src => new Promise((res, rej) => { const s = document.createElement("script"); s.src = src; s.onload = res; s.onerror = () => rej(new Error("net")); document.head.appendChild(s); });
+  function cloudLoad() {
+    if (!FB) return Promise.reject(new Error("off"));
+    return cloud.loading || (cloud.loading = (async () => {
+      const base = `https://www.gstatic.com/firebasejs/${FB_VER}/`;
+      if (!window.firebase) await loadScript(base + "firebase-app-compat.js");
+      await Promise.all([loadScript(base + "firebase-auth-compat.js"), loadScript(base + "firebase-firestore-compat.js")]);
+      if (!firebase.apps.length) firebase.initializeApp(FB);
+      cloud.auth = firebase.auth(); cloud.db = firebase.firestore();
+      try { cloud.auth.languageCode = "da"; } catch (e) { /* ignore */ }
+      if (cloud.auth.isSignInWithEmailLink(location.href)) await cloudFinishLink(location.href, true);
+      try { await cloud.auth.getRedirectResult(); } catch (e) { cloudErr(e); }
+      await new Promise(res => cloud.auth.onAuthStateChanged(u => {
+        const was = cloud.user && cloud.user.uid;
+        cloud.user = u;
+        if (u) { setPref("dk-cloud", "1"); if (was !== u.uid) cloudPull(true); }
+        cloudPaint(); res();
+      }));
+    })().catch(e => { cloud.loading = null; throw e; }));
+  }
+  const cloudRef = () => cloud.db.collection("users").doc(cloud.user.uid);
+  const clock = () => new Date().toLocaleTimeString("da-DK", { hour: "2-digit", minute: "2-digit" });
+  function cloudStatus(t) { cloud.status = t; const el = $("#cloudStatus"); if (el) el.textContent = t; }
+  function cloudErr(e) {
+    const c = (e && e.code) || "", msg = {
+      "auth/popup-closed-by-user": "Login blev afbrudt.", "auth/cancelled-popup-request": "Login blev afbrudt.",
+      "auth/invalid-email": "E-mailadressen ser forkert ud.", "auth/invalid-action-code": "Linket er brugt eller for gammelt. Bed om et nyt.",
+      "auth/expired-action-code": "Linket er for gammelt. Bed om et nyt.", "auth/network-request-failed": "Ingen internetforbindelse.",
+      "auth/too-many-requests": "For mange forsøg. Vent lidt, og prøv igen.", "auth/requires-recent-login": "Log ud og ind igen, og prøv så igen.",
+      "auth/unauthorized-domain": "Login er ikke sat op til denne adresse endnu.", "unavailable": "Ingen forbindelse til serveren – prøver igen senere."
+    }[c] || "Noget gik galt. Prøv igen om lidt.";
+    cloudStatus("⚠️ " + msg);
+    if (!/closed-by-user|cancelled-popup/.test(c)) toast("⚠️ " + msg);
+  }
+  // Merge the cloud copy into this device and write the result back – in one transaction.
+  async function cloudSync() {
+    if (!cloud.user || cloud.busy) return;
+    cloud.busy = true; clearTimeout(cloud.pushT);
+    try {
+      const mine = JSON.parse(JSON.stringify(S));
+      const merged = await cloud.db.runTransaction(async tx => {
+        const snap = await tx.get(cloudRef()), d = snap.exists ? snap.data() : null;
+        const remote = d && d.data ? JSON.parse(d.data) : null;
+        const m = remote ? mergeState(mine, remote) : fixState(mine), txt = JSON.stringify(m);
+        if (txt.length > 950000) throw Object.assign(new Error("big"), { code: "big" });
+        if (!d || d.data !== txt) tx.set(cloudRef(), { data: txt, updated: Date.now(), app: APP_VERSION });
+        return m;
+      });
+      cloud.ready = true;
+      // Changes from the other device: use them now, or – in the middle of an exercise – on the next page.
+      if (JSON.stringify(merged) !== JSON.stringify(mine)) { cloud.pending = merged; cloudApply(); }
+      cloudStatus(`✅ Synkroniseret kl. ${clock()}`);
+    } catch (e) {
+      if (e && e.code === "big") cloudStatus("⚠️ Dit fremskridt er for stort til at blive gemt i skyen. Gem en fil i stedet.");
+      else cloudErr(e);
+    } finally { cloud.busy = false; cloud.lastPull = Date.now(); }
+  }
+  const cloudPull = () => { cloudStatus("⏳ Synkroniserer …"); return cloudSync(); };
+  const QUIET_PAGES = /^#?\/?(|start|reading|writing|speaking|games|grammar|ordlister|progress|mineord|konto|backup|settings|help|about|legal|news|review|plan|mistakes|lyt|lyt-r|tal|fvu|pd3guide)$/;
+  function cloudApply(force) {
+    if (!cloud.pending) return;
+    const h = location.hash.replace(/^#\/?/, "");
+    if (!force && !QUIET_PAGES.test(h)) return; // wait until the user leaves the exercise
+    const m = cloud.pending; cloud.pending = null;
+    S = fixState(mergeState(S, m));
+    try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { /* ignore */ }
+    renderStats();
+    if (!force) route();
+  }
+  // Called by route() before a page is drawn.
+  function cloudBeforeRoute() { if (cloud.pending) cloudApply(true); }
+  function cloudChanged() {
+    if (!cloud.user || !cloud.ready) return;
+    clearTimeout(cloud.pushT);
+    cloud.pushT = setTimeout(cloudSync, 15000);
+  }
+  document.addEventListener("visibilitychange", () => {
+    if (!cloud.user) return;
+    if (document.hidden) { if (cloud.pushT) cloudSync(); }
+    else if (Date.now() - cloud.lastPull > 30000) cloudSync();
+  });
+  async function cloudGoogle() {
+    try {
+      await cloudLoad();
+      const p = new firebase.auth.GoogleAuthProvider();
+      try { await cloud.auth.signInWithPopup(p); }
+      catch (e) { if (/popup-blocked|operation-not-supported/.test(e.code || "")) await cloud.auth.signInWithRedirect(p); else throw e; }
+    } catch (e) { cloudErr(e); }
+  }
+  async function cloudSendLink(email) {
+    try {
+      await cloudLoad();
+      await cloud.auth.sendSignInLinkToEmail(email, { url: location.origin + location.pathname + "?login=1", handleCodeInApp: true });
+      setPref("dk-cloud-email", email);
+      cloudStatus(`📧 Vi har sendt et login-link til ${email}. Åbn mailen, og tryk på linket.`);
+      toast("📧 Login-linket er sendt");
+    } catch (e) { cloudErr(e); }
+  }
+  async function cloudFinishLink(link, landing) {
+    try {
+      if (!cloud.auth.isSignInWithEmailLink(link)) { toast("Det ligner ikke et login-link fra DanskKlar."); return; }
+      let email = pref("dk-cloud-email");
+      if (!email) email = (prompt("Skriv den e-mailadresse, du fik linket til:") || "").trim();
+      if (!email) return;
+      await cloud.auth.signInWithEmailLink(email, link);
+      setPref("dk-cloud-email", "");
+      toast("✅ Du er logget ind");
+    } catch (e) { cloudErr(e); }
+    finally { if (landing) history.replaceState(null, "", location.pathname + "#/konto"); }
+  }
+  async function cloudLogout() {
+    if (!cloud.auth) return;
+    if (cloud.pushT) await cloudSync();
+    await cloud.auth.signOut(); setPref("dk-cloud", ""); cloud.ready = false;
+    toast("Du er logget ud. Dit fremskridt er stadig på denne enhed.");
+    cloudPaint();
+  }
+  async function cloudDelete() {
+    if (!cloud.user || !confirm("Slet din konto og alle dine data i skyen?\n\nDit fremskridt på denne enhed bliver ikke slettet.")) return;
+    try {
+      await cloudRef().delete();
+      await cloud.user.delete();
+      setPref("dk-cloud", ""); cloud.ready = false;
+      toast("🗑️ Din konto og dine data i skyen er slettet.");
+    } catch (e) {
+      if (e && e.code === "auth/requires-recent-login") { toast("Dine data i skyen er slettet. Log ind igen for at slette selve kontoen."); await cloud.auth.signOut(); setPref("dk-cloud", ""); }
+      else cloudErr(e);
+    }
+    cloudPaint();
+  }
+  function cloudPaint() { if (location.hash === "#/konto") kontoPage(); }
+  function kontoPage() {
+    if (!FB) { app.innerHTML = `<a class="back" href="#/">← Forside</a><h1>☁️ Log ind</h1><div class="card"><p>Login er ikke slået til endnu. Du kan flytte dit fremskridt med en fil under <a href="#/backup">💾 Gem / hent fremskridt</a>.</p></div>`; return; }
+    const u = cloud.user;
+    app.innerHTML = `<a class="back" href="#/">← Forside</a>
+      <h1>☁️ ${u ? "Din konto" : "Log ind og synkroniser"}</h1>
+      ${u ? `<div class="card">
+          <p style="margin-top:0">Du er logget ind som <b>${esc(u.email || u.displayName || "dig")}</b>.</p>
+          <p class="small muted">Dit fremskridt, dine prøveresultater og 📒 Mine ord synkroniseres automatisk mellem alle de enheder, hvor du er logget ind. Log ind med den samme konto på din telefon og din computer.</p>
+          <p id="cloudStatus" role="status" style="font-weight:700">${esc(cloud.status || "")}</p>
+          <div class="row"><button class="btn write" id="cSync">🔄 Synkroniser nu</button><button class="btn ghost" id="cOut">Log ud</button></div>
+        </div>
+        <div class="card" style="margin-top:14px"><h2>Slet konto</h2>
+          <p class="small">Sletter din konto og alle dine data i skyen. Fremskridtet på denne enhed bliver ikke slettet.</p>
+          <button class="btn ghost sm" id="cDel">🗑️ Slet min konto og mine data</button></div>`
+      : `<p class="muted">Helt valgfrit – appen virker også uden login. Logger du ind, følger dit fremskridt, dine prøveresultater og 📒 Mine ord med på <b>alle dine enheder</b> (fx telefon og computer). Det du allerede har øvet, bliver flettet sammen – intet går tabt.</p>
+        <div class="card">
+          <button class="btn write" id="cGoogle" style="width:100%">Fortsæt med Google</button>
+          <p class="small muted" style="text-align:center;margin:12px 0">eller få et login-link på e-mail (ingen adgangskode)</p>
+          <div class="row"><input id="cEmail" class="nb-in" type="email" autocomplete="email" placeholder="din@email.dk" style="flex:1;min-width:200px"><button class="btn read" id="cSend">📧 Send login-link</button></div>
+          <p id="cloudStatus" role="status" class="small" style="font-weight:700">${esc(cloud.status || "")}</p>
+          <details class="small"><summary>Bruger du appen fra hjemmeskærmen på iPhone/iPad?</summary>
+            <p>Linket i mailen åbner Safari, ikke appen. Tryk og hold på linket i mailen, vælg <b>Kopiér</b>, og sæt det ind her:</p>
+            <div class="row"><input id="cLink" class="nb-in" placeholder="Sæt login-linket ind her" style="flex:1;min-width:200px"><button class="btn ghost sm" id="cUse">Log ind</button></div></details>
+        </div>
+        <p class="small muted" style="margin-top:12px">Vi gemmer kun din e-mailadresse og dit fremskridt i appen – i Googles Firebase-tjeneste i EU. Du kan til enhver tid logge ud eller slette din konto og dine data. Læs mere under <a href="#/legal">⚖️ Privatliv</a>.</p>`}`;
+    if (u) {
+      $("#cSync").onclick = cloudPull; $("#cOut").onclick = cloudLogout; $("#cDel").onclick = cloudDelete;
+      return;
+    }
+    $("#cGoogle").onclick = cloudGoogle;
+    const send = () => { const e = $("#cEmail").value.trim(); if (!/^\S+@\S+\.\S+$/.test(e)) { toast("Skriv din e-mailadresse."); $("#cEmail").focus(); return; } cloudSendLink(e); };
+    $("#cSend").onclick = send;
+    $("#cEmail").addEventListener("keydown", e => { if (e.key === "Enter") send(); });
+    $("#cUse").onclick = async () => { const l = $("#cLink").value.trim(); if (!l) return; await cloudLoad().catch(cloudErr); if (cloud.auth) cloudFinishLink(l); };
+    if (!cloud.auth) { cloudStatus("⏳ Indlæser …"); cloudLoad().then(() => { if (!cloud.user) cloudStatus(""); }).catch(() => cloudStatus("⚠️ Ingen internetforbindelse – login kræver internet.")); }
+  }
+
   // ---------- Boot ----------
   $("#footYear").textContent = new Date().getFullYear();
   // Footer shortcuts to a section of the legal page.
@@ -5523,6 +5794,7 @@
   else markChosen();
   route();
   luckSplash();
+  if (FB && (pref("dk-cloud") === "1" || /[?&](oobCode|login)=/.test(location.search))) cloudLoad().then(() => { if (/[?&]oobCode=/.test(location.search) || location.hash === "#/konto") cloudPaint(); }).catch(() => { /* offline: try again next time */ });
 
   // 🍀 A short animated "Held og lykke!" greeting, once per visit (browser tab session).
   // It never blocks clicks, fades out by itself and can be tapped away.
