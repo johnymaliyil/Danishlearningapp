@@ -1,6 +1,32 @@
 {
- "updated": "2026-10-20T09:26+00:00",
+ "updated": "2026-10-20T15:07+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/eccos-topchef-stopper",
+   "date": "2026-10-20T13:34:46+00:00",
+   "da": {
+    "title": "Eccos topchef stopper",
+    "desc": ""
+   },
+   "en": {
+    "title": "Ecco's chief executive stops",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/storbritannien-sender-kampfly-til-saudi-arabien",
+   "date": "2026-10-20T12:15:42+00:00",
+   "da": {
+    "title": "Storbritannien sender kampfly til Saudi-Arabien",
+    "desc": ""
+   },
+   "en": {
+    "title": "UK sends fighter jets to Saudi Arabia",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/planer-om-datacentre-sat-paa-hold",
@@ -167,32 +193,6 @@
    },
    "en": {
     "title": "Australian politician seriously injured in attack near his office",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/ingen-regionaltog-mellem-odense-og-fredericia-frem-til-klokken-14",
-   "date": "2026-10-19T08:09:02+00:00",
-   "da": {
-    "title": "Ingen regionaltog mellem Odense og Fredericia frem til klokken 14",
-    "desc": ""
-   },
-   "en": {
-    "title": "No regional trains between Odense and Fredericia until 14:00",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/koebenhavnerne-skal-nu-sortere-bleer",
-   "date": "2026-10-19T07:17:54+00:00",
-   "da": {
-    "title": "Københavnerne skal nu sortere bleer",
-    "desc": ""
-   },
-   "en": {
-    "title": "Copenhageners now have to sort diapers",
     "desc": ""
    }
   }
