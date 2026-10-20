@@ -1065,3 +1065,13 @@ button.lword.saved .lw-ico { color: var(--ok, #15803d); font-weight: 900; }
 .mw-sent mark { background: var(--accent-soft); color: inherit; padding: 0 2px; border-radius: 4px; }
 .mw-missed { text-align: left; max-width: 420px; margin: 10px auto; padding: 10px 14px; border-radius: 12px; background: var(--surface-2); }
 .set-ver { padding: 10px 10px 4px; text-align: center; }
+
+/* 📅 Plan dag for dag */
+.plan-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.plan-days { padding: 6px 14px; }
+.plan-day { display: grid; grid-template-columns: 82px 1fr; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--border); font-size: .93rem; }
+.plan-day:last-child { border-bottom: 0; }
+.plan-day b { white-space: nowrap; }
+.plan-day.mock span { font-weight: 700; }
+.plan-day.exam { color: var(--accent); font-weight: 800; }
+.plan-days details summary { cursor: pointer; font-weight: 800; padding: 10px 0; }

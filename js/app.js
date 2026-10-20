@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "123"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "124"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -2157,8 +2157,94 @@
     items.forEach(it => { it.done = todayCount(it.kind) > 0; });
     return items;
   }
+  // ----- 📅 Plan dag for dag: everything still to practise, spread over the days until the exam -----
+  // Units: reading sets (max 5 tasks), writing tasks, speaking tasks, grammar lessons. Undone units are spread
+  // evenly over the practice days; the last two weeks get mock exams, the day before the exam is a light review
+  // day. Today's list is fixed once it is shown (so finishing it does not pull in tomorrow's tasks); anything
+  // not done moves to the following days by itself.
+  // A realistic day: one of each (about 1–1½ hours).
+  const PLAN_CAP = { reading: 1, writing: 1, speaking: 1, grammar: 1 };
+  const addDay = (d, n) => { const x = new Date(d + "T12:00:00"); x.setDate(x.getDate() + n); return x.toISOString().slice(0, 10); };
+  const DOW = ["søn", "man", "tir", "ons", "tor", "fre", "lør"];
+  const dayLabel = d => { const x = new Date(d + "T12:00:00"); return `${DOW[x.getDay()]}. ${x.getDate()}/${x.getMonth() + 1}`; };
+  function planUnits() {
+    const E = EX(), units = [], groups = new Map();
+    E.READING.forEach(r => { const g = r.group || "Ekstra læseopgaver"; if (!groups.has(g)) groups.set(g, []); groups.get(g).push(r); });
+    for (const [g, rs] of groups) for (let i = 0; i < rs.length; i += 5) {
+      const part = rs.slice(i, i + 5), tasks = part.map(r => ({ href: `#/reading/${r.id}`, done: !!S.reading[r.id], label: r.title }));
+      units.push({ key: "r:" + part[0].id, cat: "reading", ico: "📖", title: g.replace(/^Rigtig prøve\s*/, "") + (rs.length > 5 ? ` (del ${i / 5 + 1})` : ""), tasks, href: (tasks.find(t => !t.done) || tasks[0]).href, done: tasks.every(t => t.done) });
+    }
+    E.WRITING.forEach(w => { const s = S.writing[w.id]; units.push({ key: "w:" + w.id, cat: "writing", ico: "✍️", title: w.title, href: `#/writing/${w.id}`, done: !!(s && (s.best || countWords(s.draft || "") > 30)) }); });
+    [["SPEAKING_MONO", "mono"], ["SPEAKING_PICTURE", "picture"], ["SPEAKING_DIALOG", "dialog"], ["SPEAKING_TOPIC", "topic"]].forEach(([list, r]) =>
+      (E[list] || []).forEach(x => units.push({ key: "s:" + x.id, cat: "speaking", ico: "🗣️", title: x.title || x.topic || "Mundtlig opgave", href: `#/speaking/${r}/${x.id}`, done: !!S.speaking.done[x.id] })));
+    PD2.GRAMMAR.forEach(g => { const b = gramBest(g.id); units.push({ key: "g:" + g.id, cat: "grammar", ico: g.ico || "📐", title: g.title, href: `#/grammar/${g.id}`, done: !!(b && b.score === b.total) }); });
+    return units;
+  }
+  function planSchedule() {
+    const left = daysUntil(S.plan.date);
+    if (left === null || left < 1) return null;
+    const per = S.plan.perWeek || 7, t0 = today();
+    const isRest = d => { const w = new Date(d + "T12:00:00").getDay(); return per === 6 ? w === 0 : per === 5 ? w === 0 || w === 6 : false; };
+    const days = [];
+    for (let i = 0; i < left; i++) { const date = addDay(t0, i); days.push({ date, i, type: i === left - 1 && left > 1 ? "review" : isRest(date) ? "rest" : "study", units: [] }); }
+    const study = days.filter(d => d.type === "study");
+    // Mock exams: in the last 14 days, every third practice day counted back from the end (max 4).
+    const late = study.filter(d => d.i >= left - 15), nMock = Math.min(4, Math.max(1, mockSets().length), Math.floor(late.length / 3));
+    for (let k = 0; k < nMock; k++) { const d = late[late.length - 1 - k * 3]; if (d) d.mock = true; }
+    const all = planUnits(), byKey = new Map(all.map(u => [u.key, u]));
+    // Today's list stays as it was first shown today.
+    const fr = S.plan.day && S.plan.day.date === t0 && S.plan.day.exam === S.exam ? S.plan.day.keys : null;
+    let pool = all.filter(u => !u.done && !(fr && fr.includes(u.key)));
+    const dropped = {};
+    for (const cat of Object.keys(PLAN_CAP)) {
+      const L = pool.filter(u => u.cat === cat);
+      // Reading and writing are part of the mock exam, so mock days get none of those.
+      const slots = study.filter(d => !(fr && d.i === 0) && !(d.mock && (cat === "reading" || cat === "writing")));
+      if (!slots.length) { dropped[cat] = L.length; continue; }
+      const fit = Math.min(L.length, slots.length * PLAN_CAP[cat]);
+      L.slice(0, fit).forEach((u, j) => slots[Math.min(slots.length - 1, Math.floor(j * slots.length / fit))].units.push(u));
+      dropped[cat] = L.length - fit;
+    }
+    if (fr) days[0].units = fr.map(k => byKey.get(k)).filter(Boolean);
+    else if (days[0].type === "study") { S.plan.day = { date: t0, exam: S.exam, keys: days[0].units.map(u => u.key) }; save(); }
+    const left2 = cat => all.filter(u => u.cat === cat && !u.done).length;
+    return { days, study: study.length, mocks: nMock, dropped: Object.values(dropped).reduce((a, b) => a + b, 0),
+      remain: { reading: left2("reading"), writing: left2("writing"), speaking: left2("speaking"), grammar: left2("grammar") } };
+  }
+  function planOverview(sch) {
+    const r = sch.remain, n = (v, one, many) => `${v} ${v === 1 ? one : many}`;
+    return `<div class="card plan-over">
+      <h2 style="margin-top:0">Din plan frem til prøven</h2>
+      <p style="margin:0 0 6px">Du har <b>${n(sch.study, "øvedag", "øvedage")}</b>${sch.mocks ? ` med <b>${n(sch.mocks, "prøvesimulering", "prøvesimuleringer")}</b> til sidst` : ""}. Tilbage at øve:</p>
+      <div class="plan-chips"><span class="pill">📖 ${n(r.reading, "læsesæt", "læsesæt")}</span><span class="pill">✍️ ${n(r.writing, "skriveopgave", "skriveopgaver")}</span><span class="pill">🗣️ ${n(r.speaking, "taleopgave", "taleopgaver")}</span><span class="pill">📐 ${n(r.grammar, "grammatiklektion", "grammatiklektioner")}</span></div>
+      <p class="small muted" style="margin:8px 0 0">Hver øvedag: ét læsesæt, én skriveopgave, én taleopgave og lidt grammatik – ca. 1–1½ time. De rigtige prøvesæt kommer først.${sch.dropped ? ` <b>${sch.dropped}</b> opgaver er der ikke plads til – dem kan du tage som ekstra, hvis du har mere tid.` : " Du når det hele før prøven."}</p>
+    </div>`;
+  }
+  function planDaysHtml(sch) {
+    const line = d => d.type === "rest" ? `<span class="muted">😴 Fridag</span>` : d.type === "review" ? `<span>🧘 Let dag: gennemgå dine fejl og Mine ord – og sov godt</span>`
+      : [d.mock ? "📝 Prøvesimulering" : ""].concat(d.units.map(u => `${u.ico} ${esc(u.title)}`)).filter(Boolean).join(" · ") || `<span class="muted">🔁 Repetition og det, du mangler</span>`;
+    const row = d => `<div class="plan-day ${d.type} ${d.mock ? "mock" : ""}"><b>${dayLabel(d.date)}</b><span>${line(d)}</span></div>`;
+    const rest = sch.days.slice(1), first = rest.slice(0, 6), more = rest.slice(6);
+    return `<h2 style="margin-top:22px">De næste dage</h2>
+      <div class="card plan-days">${first.map(row).join("")}
+        ${more.length ? `<details><summary>Se hele planen (${more.length} dage mere)</summary>${more.map(row).join("")}</details>` : ""}
+        <div class="plan-day exam"><b>${dayLabel(S.plan.date)}</b><span>🍀 Prøvedag – held og lykke!</span></div></div>`;
+  }
+  // Today's items (also used for the banner on the home page).
+  function planTodayItems(sch) {
+    const d = sch.days[0], items = [];
+    if (d.type === "rest") return [{ ico: "😴", text: "Fridag – lav gerne Dagens repetition", kind: "vocab", href: "#/review", done: todayCount("vocab") > 0 }];
+    if (d.type === "review") return [
+      { ico: "❌", text: "Gennemgå dine fejl", href: "#/mistakes", done: todayCount("mistakes") > 0 },
+      { ico: "📒", text: "Øv Mine ord", href: "#/games/mineord", done: !!S.games.played.mineord && todayCount("vocab") > 0 },
+      { ico: "🔁", text: "Dagens repetition", href: "#/review", done: todayCount("vocab") > 0 }];
+    if (d.mock) items.push({ ico: "📝", text: "Prøvesimulering: hele den skriftlige prøve", href: "#/exam", done: todayCount("exam") > 0 });
+    d.units.forEach(u => items.push({ ico: u.ico, text: u.cat === "reading" ? `Læs: ${u.title}` : u.cat === "writing" ? `Skriv og bedøm: ${u.title}` : u.cat === "speaking" ? `Tal: ${u.title}` : `Grammatik: ${u.title}`, href: u.href, done: u.done, tasks: u.tasks }));
+    items.push({ ico: "🔁", text: "Dagens repetition (10 min)", href: "#/review", done: todayCount("vocab") > 0 });
+    return items;
+  }
   function planStatus() {
-    const items = planItems(), done = items.filter(i => i.done).length;
+    const sch = planSchedule(), items = sch ? planTodayItems(sch) : planItems(), done = items.filter(i => i.done).length;
     if (done === items.length && items.length) {
       S.plan.log = S.plan.log || {};
       if (!S.plan.log[today()]) { S.plan.log[today()] = true; save(); addXP(30, "dagens plan"); }
@@ -2182,6 +2268,7 @@
       : d > 7 ? "Øv alle tre dele hver uge, og skriv mindst to tekster om ugen."
       : d >= 1 ? "Sidste uge: lav prøvesimuleringer, gennemgå dine fejl, og sov godt."
       : "";
+    const sch = planSchedule();
     const log = S.plan.log || {};
     const week = Array.from({ length: 7 }, (_, i) => { const t = new Date(Date.now() - (6 - i) * 864e5).toISOString().slice(0, 10); return { t, ok: !!log[t] }; });
     app.innerHTML = `
@@ -2191,18 +2278,23 @@
         <div class="word-big" style="font-size:clamp(1.6rem,6vw,2.4rem)">${esc(countdownText())}</div>
         <label class="row" style="justify-content:center;gap:8px">Min prøvedato:
           <input type="date" id="planDate" value="${esc(S.plan.date)}" class="short" style="width:auto;padding:6px 10px"></label>
+        <label class="row" style="justify-content:center;gap:8px;margin-top:8px">Jeg øver:
+          <select id="planPer" class="short" style="width:auto;padding:6px 10px">${[[7, "alle 7 dage om ugen"], [6, "6 dage (fri om søndagen)"], [5, "5 dage (fri i weekenden)"]].map(([v, t]) => `<option value="${v}" ${(S.plan.perWeek || 7) === v ? "selected" : ""}>${t}</option>`).join("")}</select></label>
         ${tip ? `<p class="muted" style="margin-bottom:0">💡 ${esc(tip)}</p>` : ""}
       </div>
+      ${sch ? planOverview(sch) : ""}
       <h2 style="margin-top:22px">I dag <span class="muted small">${done}/${items.length} klaret</span></h2>
       <div class="bar" style="margin-bottom:12px"><i style="width:${items.length ? done / items.length * 100 : 0}%"></i></div>
       <div class="stack">${items.map(it => `<a class="list-item plan-item ${it.done ? "done" : ""}" href="${it.href}">
-          <span class="ico">${it.ico}</span><span class="meta"><b>${esc(it.text)}</b></span>
+          <span class="ico">${it.ico}</span><span class="meta"><b>${esc(it.text)}</b>${it.tasks ? `<span class="small muted">${it.tasks.filter(t => t.done).length}/${it.tasks.length} opgaver løst</span>` : ""}</span>
           <span class="score-badge ${it.done ? "full" : ""}">${it.done ? "✓" : "Start"}</span></a>`).join("")}</div>
       ${done === items.length && items.length ? `<p class="card" style="margin-top:12px;font-weight:800">🎉 Dagens plan er klaret! Kom igen i morgen.</p>` : ""}
+      ${sch ? planDaysHtml(sch) : ""}
       <h2 style="margin-top:22px">De sidste 7 dage</h2>
       <div class="week">${week.map(w => `<span class="${w.ok ? "ok" : ""}" title="${w.t}">${["S", "M", "T", "O", "T", "F", "L"][new Date(w.t + "T00:00:00").getDay()]}</span>`).join("")}</div>
-      <p class="small muted">Planen ændrer sig hver dag og vælger opgaver, du ikke har lavet endnu. Opgaverne bliver krydset af automatisk, når du laver dem.</p>`;
-    $("#planDate").onchange = e => { S.plan.date = e.target.value; save(); planPage(); };
+      <p class="small muted">${sch ? "Alle prøvesæt og opgaver, du ikke har lavet endnu, er fordelt på dagene frem til prøven. Opgaverne bliver krydset af automatisk, når du laver dem. Når du springer en dag over, flytter opgaverne automatisk til de næste dage." : "Planen ændrer sig hver dag og vælger opgaver, du ikke har lavet endnu. Opgaverne bliver krydset af automatisk, når du laver dem."}</p>`;
+    $("#planDate").onchange = e => { S.plan.date = e.target.value; S.plan.day = null; save(); planPage(); };
+    $("#planPer").onchange = e => { S.plan.perWeek = +e.target.value; S.plan.day = null; save(); planPage(); };
   }
 
   // ----- Mine fejl -----
