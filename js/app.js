@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "119"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "120"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -3105,6 +3105,7 @@
   const ORDLE = () => lines(GD().ORDLE).map(l => l.split("="));
   // perExam: the content (and so the record) depends on the chosen exam. lower: fewer is better.
   const GAMES = [
+    { id: "mineord", ico: "📒", name: "Mine ord-quiz", desc: "Øv de ord, du selv har gemt i Mine ord: vælg den rigtige betydning. Ord, du tager fejl af, kommer igen.", unit: "rigtige" },
     { id: "vocab", ico: "📚", name: "Ordtræner", desc: "Lær over 5.000 danske ord: vælg den rigtige engelske betydning. Ord, du har svært ved, kommer igen, indtil du kan dem.", unit: "ord lært" },
     { id: "words", href: "#/words", ico: "⚡", name: "Ordjagt", desc: "60 sekunder. Hvor mange ord kan du nå?", perExam: true, unit: "point" },
     { id: "memory", ico: "🃏", name: "Vendespil", desc: "Vend kortene og find parrene: det danske ord og den engelske betydning.", perExam: true, lower: true, unit: "træk" },
@@ -3169,7 +3170,7 @@
   }
 
   function gameRoute(id) {
-    const fn = { vocab: () => vocabGame().home(), memory: memoryGame, ordle: ordleGame, gender: genderGame, order: orderGame, dictation: dictationGame, verbs: verbsGame, verbrace: verbRaceGame, verbmatch: verbMatchGame, listen: listenGame, repeat: repeatGame, idioms: idiomsGame }[id];
+    const fn = { vocab: () => vocabGame().home(), memory: memoryGame, ordle: ordleGame, gender: genderGame, order: orderGame, dictation: dictationGame, verbs: verbsGame, verbrace: verbRaceGame, verbmatch: verbMatchGame, listen: listenGame, repeat: repeatGame, idioms: idiomsGame, mineord: myWordsGame }[id];
     (fn || gamesHub)();
   }
 
@@ -3970,6 +3971,104 @@
       show();
     }
     start();
+  }
+
+  // 📒 Mine ord-quiz: the learner's own saved words. Show the word (or its meaning, or only the sound)
+  // and pick the right answer from four. Wrong words come back at the end of the round, and each word
+  // keeps a small score (ok/bad) so the hard ones are asked more often.
+  function myWordsGame() {
+    const g = gameInfo("mineord");
+    const words = () => nb().filter(w => w.da && w.en);
+    const mode = () => pref("dk-mw-mode", "da");
+    function home() {
+      const W = words(), all = nb().length;
+      if (W.length < 1) {
+        app.innerHTML = `${gameHead(g)}<div class="card stage"><div class="word-big">📒</div>
+          <p>${all ? "Du har ingen gemte ord med en betydning endnu." : "Du har ikke gemt nogen ord endnu."}</p>
+          <p class="muted">Gem ord, mens du øver: <b>dobbeltklik eller tryk og hold på et ord</b> i en tekst, eller tryk på <b>📝 Nyt ord</b>. Så kan du spille med dem her.</p>
+          <div class="row" style="justify-content:center"><a class="btn read" href="#/reading">📖 Til læseopgaverne</a><a class="btn ghost" href="#/mineord">📒 Mine ord</a></div></div>`;
+        return;
+      }
+      const hard = W.filter(w => (w.bad || 0) > (w.ok || 0)).length;
+      app.innerHTML = `${gameHead(g)}
+        <p class="muted"><span>Du har ${W.length} ord at øve.</span> ${hard ? `<span>${hard} af dem tager du ofte fejl af.</span> ` : ""}<span>Ord, du har svært ved, kommer oftere.</span>
+          ${all > W.length ? `<br><span class="small"><span>${all - W.length} ord mangler en betydning – skriv den under</span> <a href="#/mineord">📒 Mine ord</a></span>` : ""}</p>
+        <div class="card stage">
+          <p style="font-weight:800;margin-top:0">Hvordan vil du øve?</p>
+          <div class="answers mw-modes">
+            <button class="choice ${mode() === "da" ? "ok" : ""}" data-mw="da">🇩🇰 → 🇬🇧 Se det danske ord – vælg betydningen</button>
+            <button class="choice ${mode() === "en" ? "ok" : ""}" data-mw="en">🇬🇧 → 🇩🇰 Se betydningen – vælg det danske ord</button>
+            <button class="choice ${mode() === "ear" ? "ok" : ""}" data-mw="ear">👂 Hør ordet – vælg betydningen</button>
+          </div>
+          <button class="btn words" id="mwGo" style="margin-top:12px">▶ Start (${Math.min(10, Math.max(5, W.length))} ord)</button>
+        </div>`;
+      $$("[data-mw]").forEach(b => b.onclick = () => { setPref("dk-mw-mode", b.dataset.mw); $$("[data-mw]").forEach(x => x.classList.toggle("ok", x === b)); });
+      $("#mwGo").onclick = play;
+    }
+    function play() {
+      const W = words(), M = mode(), ROUNDS = Math.min(10, Math.max(5, W.length));
+      // Weakest words first (more wrong than right, or never asked), a little shuffled.
+      const weight = w => (w.ok || 0) - 2 * (w.bad || 0) + Math.random() * 1.5;
+      let picks = W.slice().sort((a, b) => weight(a) - weight(b)).slice(0, ROUNDS);
+      while (picks.length < ROUNDS) picks = picks.concat(shuffle(W).slice(0, ROUNDS - picks.length));
+      picks = shuffle(picks);
+      const F = (PD2.FREQ || []).filter(f => f[1] && !/\s/.test(f[0]));
+      const others = (w, key) => {
+        const pool = shuffle(W.filter(x => x !== w).map(x => x[key])), out = [];
+        const right = w[key].toLowerCase();
+        for (const o of pool.concat(shuffle(F.slice(0, 1500)).slice(0, 40).map(f => key === "en" ? f[1] : f[0])))
+          if (out.length < 3 && o && o.toLowerCase() !== right && !out.some(x => x.toLowerCase() === o.toLowerCase())) out.push(o);
+        return out;
+      };
+      let n = 0, score = 0, first = true;
+      const missed = [], again = [];
+      const hl = (sent, w) => esc(sent).replace(new RegExp(`(${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})`, "i"), "<mark>$1</mark>");
+      function show() {
+        if (n >= picks.length && again.length) { picks = picks.concat(again.splice(0)); first = false; }
+        if (n >= picks.length) return done();
+        const w = picks[n], ask = M === "en" ? "da" : "en", opts = shuffle([w[ask]].concat(others(w, ask)));
+        const repeat = n >= ROUNDS;
+        app.innerHTML = `${gameHead(g)}
+          <div class="card stage">
+            <div class="row" style="justify-content:space-between"><span class="pill">${repeat ? "🔁 Igen" : `${n + 1}/${ROUNDS}`}</span><span class="pill">✅ ${score}</span></div>
+            ${M === "en" ? `<p class="mw-q" lang="en">${esc(w.en)}</p><p class="muted">Hvad hedder det på dansk?</p>`
+              : M === "ear" ? `<button class="btn read" id="mwSay" style="margin:18px auto">🔊 Hør ordet igen</button><p class="muted">Hvad betyder ordet?</p>`
+              : `<div class="word-big" data-keep>${esc(w.da)}</div><button class="btn ghost sm" id="mwSay">🔊 Lyt</button><p class="muted">Hvad betyder ordet?</p>`}
+            <div class="answers no-tr" ${ask === "en" ? 'lang="en"' : "data-keep"}>${opts.map(o => `<button class="choice" data-o="${esc(o)}">${esc(o)}</button>`).join("")}</div>
+            <div id="after" class="quiz-after"></div>
+          </div>`;
+        const say = () => speak(w.da, null, 0.8);
+        if ($("#mwSay")) $("#mwSay").onclick = say;
+        if (M === "ear") say();
+        let locked = false;
+        $$(".answers .choice").forEach(b => b.onclick = () => {
+          if (locked) return; locked = true;
+          const ok = b.dataset.o === w[ask];
+          b.classList.add(ok ? "ok" : "bad");
+          if (!ok) $$(".answers .choice").find(x => x.dataset.o === w[ask]).classList.add("ok");
+          if (!repeat) { if (ok) { score++; w.ok = (w.ok || 0) + 1; } else { w.bad = (w.bad || 0) + 1; missed.push(w); } save(); }
+          if (!ok && !repeat) again.push(w);
+          $("#after").innerHTML = `<p>${ok ? "✅ Rigtigt!" : "❌ Ikke helt."} <b data-keep>${esc(w.da)}</b> = <span lang="en">${esc(w.en)}</span></p>
+            ${w.ex ? `<p class="small mw-sent" data-keep>${hl(w.ex, w.da)}</p>${w.exEn ? `<p class="small muted" lang="en">🇬🇧 ${esc(w.exEn)}</p>` : ""}` : ""}
+            ${!ok && !repeat ? `<p class="small muted">Ordet kommer igen til sidst.</p>` : ""}
+            <button class="btn words" id="nx">Næste →</button>`;
+          if (M !== "ear") say();
+          $("#nx").focus();
+          $("#nx").onclick = () => { n++; show(); };
+        });
+      }
+      function done() {
+        const rec = recordGame("mineord", score);
+        addXP(score * 3, "Mine ord-quiz");
+        if (rec || score === ROUNDS) confetti();
+        const uniq = [...new Set(missed)];
+        gameOver(g, `${score}/${ROUNDS}`, score === ROUNDS ? "🎉 Alle rigtige!" : recordLine(rec, "mineord"), play,
+          `${uniq.length ? `<div class="mw-missed"><p class="small" style="font-weight:800">Øv disse ord igen:</p>${uniq.map(w => `<div class="small"><b data-keep>${esc(w.da)}</b> = <span lang="en">${esc(w.en)}</span></div>`).join("")}</div>` : ""}
+           <p class="small"><a href="#/mineord">📒 Mine ord</a> · <a href="#/games/mineord">Skift måde at øve på</a></p>`);
+      }
+      show();
+    }
+    home();
   }
 
   // 💬 Talemåder
@@ -5323,7 +5422,8 @@
       <p class="muted">Dine egne nye ord og deres betydning. Tryk på <b>📝 Nyt ord</b> nederst på skærmen, når du møder et nyt ord i en opgave – så kan du se ordene her og øve dem senere. Eller endnu nemmere: <b>dobbeltklik eller tryk og hold på et ord</b> i teksten – så gemmes det med det samme.</p>
       <div class="row" style="gap:8px;flex-wrap:wrap">
         <button class="btn write" data-nb-new>➕ Tilføj et ord</button>
-        ${L.length ? `<button class="btn read" id="nbQuiz">🃏 Øv mine ord</button>
+        ${L.length ? `<a class="btn words" href="#/games/mineord">🎮 Mine ord-quiz</a>
+        <button class="btn read" id="nbQuiz">🃏 Øv mine ord</button>
         <button class="btn ghost sm" id="nbCopy">📋 Kopiér listen</button>
         <button class="btn ghost sm" id="nbCsv">⬇️ Download til Excel</button>` : ""}
       </div>

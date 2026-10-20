@@ -1058,3 +1058,9 @@ button.lword.saved .lw-ico { color: var(--ok, #15803d); font-weight: 900; }
 .nb-b-btn { font: inherit; font-weight: 800; font-size: .88rem; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface-2); color: inherit; cursor: pointer; }
 .nb-b-hint { flex-basis: 100%; font-size: .8rem; color: var(--muted); }
 .nb-exen { color: var(--muted); font-style: italic; }
+
+/* 📒 Mine ord-quiz */
+.mw-modes .choice { text-align: left; }
+.mw-q { font-size: clamp(1.4rem, 5vw, 2rem); font-weight: 900; margin: 18px 0 6px; }
+.mw-sent mark { background: var(--accent-soft); color: inherit; padding: 0 2px; border-radius: 4px; }
+.mw-missed { text-align: left; max-width: 420px; margin: 10px auto; padding: 10px 14px; border-radius: 12px; background: var(--surface-2); }
