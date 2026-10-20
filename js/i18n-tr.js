@@ -1172,5 +1172,10 @@ PD2.I18N.tr = {
 "erstatte": "değiştirebilirsin",
 "alt.": ".",
 "🔀 Flet med det, der er her (anbefalet)": "🔀 Buradakilerle birleştir (önerilen)",
-"Erstat alt": "Hepsini değiştir"
+"Erstat alt": "Hepsini değiştir",
+"Konto": "Hesap",
+"Synkroniseret": "Senkronize",
+"· valgfrit": "· isteğe bağlı",
+"Valgfrit: brug appen på både telefon og computer – dit fremskridt og Mine ord følger med": "İsteğe bağlı: uygulamayı telefonda ve bilgisayarda kullan – ilerlemen ve Kelimelerim seninle",
+"– dit fremskridt og Mine ord følger med på alle dine enheder": "– ilerlemen ve Kelimelerim tüm cihazlarında"
 };

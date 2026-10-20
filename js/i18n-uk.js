@@ -1172,5 +1172,10 @@ PD2.I18N.uk = {
 "erstatte": "замінити",
 "alt.": "все.",
 "🔀 Flet med det, der er her (anbefalet)": "🔀 Об’єднати з тим, що є тут (рекомендовано)",
-"Erstat alt": "Замінити все"
+"Erstat alt": "Замінити все",
+"Konto": "Акаунт",
+"Synkroniseret": "Синхронізовано",
+"· valgfrit": "· необов’язково",
+"Valgfrit: brug appen på både telefon og computer – dit fremskridt og Mine ord følger med": "Необов’язково: користуйтеся застосунком на телефоні й комп’ютері – прогрес і Мої слова будуть з вами",
+"– dit fremskridt og Mine ord følger med på alle dine enheder": "– прогрес і Мої слова на всіх ваших пристроях"
 };

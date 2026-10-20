@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "122"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "123"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -276,13 +276,15 @@
   function settingsItems() {
     const item = (href, ico, label, extra = "") => `<a role="menuitem" class="set-item" href="${href}" ${extra}><span class="set-ico">${ico}</span><span>${label}</span></a>`;
     return `
+      ${FB ? `<div class="set-sec">Konto</div>
+      <a role="menuitem" class="set-item" href="#/konto"><span class="set-ico">☁️</span><span>${cloud.user ? `Synkroniseret <span class="small muted">· ${esc(cloud.user.email || "din konto")}</span>` : "Log ind og synkroniser <span class=\"small muted\">· valgfrit</span>"}</span></a>` : ""}
       <div class="set-sec">Udseende</div>
       <button role="menuitem" class="set-item" data-theme-pick><span class="set-ico">🎨</span><span>Tema <span class="small muted">· ${esc((THEMES.find(t => t[0] === curTheme()) || THEMES[0])[1])}</span></span></button>
       <button role="menuitem" class="set-item" data-lang-pick><span class="set-ico">🌐</span><span>Sprog / Language <span class="small muted">· ${esc((UI_LANGS.find(l => l[0] === (window.DK_LANG ? DK_LANG.lang : "da")) || UI_LANGS[0])[2])}</span></span></button>
       <button role="menuitem" class="set-item" data-text-pick><span class="set-ico">🔠</span><span>Tekststørrelse og skrift</span></button>
       <a role="menuitem" class="set-item" href="#/progress"><span class="set-ico">📊</span><span>Min fremgang</span></a>
       <a role="menuitem" class="set-item" href="#/mineord"><span class="set-ico">📒</span><span>Mine ord – dine gemte ord</span></a>
-      ${FB ? `<a role="menuitem" class="set-item" href="#/konto"><span class="set-ico">☁️</span><span>${cloud.user ? "Synkroniseret · din konto" : "Log ind og synkroniser"}</span></a>` : ""}
+
       <a role="menuitem" class="set-item" href="#/news"><span class="set-ico">📰</span><span>Dagens nyheder</span></a>
       <button role="menuitem" class="set-item" data-reminder><span class="set-ico">⏰</span><span>Daglig påmindelse i kalenderen</span></button>
       <div class="set-sec">Hjælp</div>
@@ -292,7 +294,8 @@
       <button role="menuitem" class="set-item" data-share><span class="set-ico">📤</span><span>Del DanskKlar</span></button>
       ${item("#/backup", "💾", "Gem / hent fremskridt")}
       ${item("#/about", "ℹ️", `Om ${esc(META().name)}-prøven`)}
-      ${item("#/legal", "⚖️", "Privatliv og vilkår")}`;
+      ${item("#/legal", "⚖️", "Privatliv og vilkår")}
+      <div class="set-ver small muted">DanskKlar · version ${APP_VERSION}</div>`;
   }
   // ⚙️ Settings as a normal page. Works everywhere, also in the iPad/iPhone home-screen app,
   // where the status bar can cover the ⚙️ button in the top bar.
@@ -644,6 +647,8 @@
         <span class="pb-ico">🔁</span><span class="pb-meta"><b>Dagens repetition</b>
         <span class="small muted">${due ? `${due} kort klar: dine fejl, svære ord og nye ord` : "Lær nye ord fra listen over de 3000 hyppigste"}</span></span>
         <span class="pill">${due ? due : "Start"}</span></a>`; })()}
+      ${FB ? `<a class="card plan-banner" href="#/konto"><span class="pb-ico">☁️</span><span class="pb-meta"><b>${cloud.user ? "Synkroniseret" : "Log ind og synkroniser"}</b>
+        <span class="small muted">${cloud.user ? esc(cloud.user.email || "") + " – dit fremskridt og Mine ord følger med på alle dine enheder" : "Valgfrit: brug appen på både telefon og computer – dit fremskridt og Mine ord følger med"}</span></span><span class="pill">${cloud.user ? "✓" : "Ny"}</span></a>` : ""}
       <a class="card plan-banner" href="#/mineord"><span class="pb-ico">📒</span><span class="pb-meta"><b>Mine ord</b>
         <span class="small muted">${nb().length ? `${nb().length} gemte ord – se dem, og øv dem` : "Gem nye ord og betydningen med 📝 Nyt ord, mens du øver"}</span></span><span class="pill">${nb().length || "Ny"}</span></a>
       <a class="card plan-banner news-banner" href="#/news" id="newsBanner" hidden></a>
@@ -5742,7 +5747,7 @@
     }
     cloudPaint();
   }
-  function cloudPaint() { if (location.hash === "#/konto") kontoPage(); }
+  function cloudPaint() { const h = location.hash; if (h === "#/konto") kontoPage(); else if (h === "" || h === "#/" || h === "#/settings") route(); }
   function kontoPage() {
     if (!FB) { app.innerHTML = `<a class="back" href="#/">← Forside</a><h1>☁️ Log ind</h1><div class="card"><p>Login er ikke slået til endnu. Du kan flytte dit fremskridt med en fil under <a href="#/backup">💾 Gem / hent fremskridt</a>.</p></div>`; return; }
     const u = cloud.user;

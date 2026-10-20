@@ -1172,5 +1172,10 @@ PD2.I18N.ro = {
 "erstatte": "înlocuiești",
 "alt.": "tot.",
 "🔀 Flet med det, der er her (anbefalet)": "🔀 Îmbină cu ce este aici (recomandat)",
-"Erstat alt": "Înlocuiește tot"
+"Erstat alt": "Înlocuiește tot",
+"Konto": "Cont",
+"Synkroniseret": "Sincronizat",
+"· valgfrit": "· opțional",
+"Valgfrit: brug appen på både telefon og computer – dit fremskridt og Mine ord følger med": "Opțional: folosește aplicația pe telefon și pe calculator – progresul și Cuvintele mele te urmează",
+"– dit fremskridt og Mine ord følger med på alle dine enheder": "– progresul și Cuvintele mele pe toate dispozitivele tale"
 };

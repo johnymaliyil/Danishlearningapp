@@ -1172,5 +1172,10 @@ PD2.I18N.es = {
 "erstatte": "reemplazar",
 "alt.": "todo.",
 "🔀 Flet med det, der er her (anbefalet)": "🔀 Combinar con lo que hay aquí (recomendado)",
-"Erstat alt": "Reemplazar todo"
+"Erstat alt": "Reemplazar todo",
+"Konto": "Cuenta",
+"Synkroniseret": "Sincronizado",
+"· valgfrit": "· opcional",
+"Valgfrit: brug appen på både telefon og computer – dit fremskridt og Mine ord følger med": "Opcional: usa la app en el móvil y en el ordenador – tu progreso y Mis palabras te siguen",
+"– dit fremskridt og Mine ord følger med på alle dine enheder": "– tu progreso y Mis palabras te siguen en todos tus dispositivos"
 };
