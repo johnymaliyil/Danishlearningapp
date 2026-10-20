@@ -1096,5 +1096,10 @@ PD2.I18N.en = {
 "Dobbeltklik på et ord (computer), eller tryk og hold på ordet (iPad/telefon) – så gemmes ordet, betydningen og sætningen med det samme. Slået fra: du får en knap ➕ Gem i stedet.": "Double-click a word (computer), or press and hold the word (iPad/phone) – the word, its meaning and the sentence are saved straight away. Switched off: you get a ➕ Save button instead.",
 "nederst på skærmen, når du møder et nyt ord i en opgave – så kan du se ordene her og øve dem senere. Eller endnu nemmere:": "at the bottom of the screen when you meet a new word in a task – then you can see the words here and practise them later. Or even easier:",
 "dobbeltklik eller tryk og hold på et ord": "double-click or press and hold a word",
-"i teksten – så gemmes det med det samme.": "in the text – it is saved straight away."
+"i teksten – så gemmes det med det samme.": "in the text – it is saved straight away.",
+"Sætning eller note": "Sentence or note",
+"Sætningen på engelsk": "The sentence in English",
+"· udfyldes automatisk, hvis du lader feltet stå tomt": "· filled in automatically if you leave it empty",
+"⬇️ Download til Excel": "⬇️ Download to Excel",
+"⏳ Oversætter sætningerne …": "⏳ Translating the sentences …"
 };

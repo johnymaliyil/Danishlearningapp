@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "118"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "119"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -4343,14 +4343,14 @@
       e.stopPropagation();
       const [i, j] = b.dataset.nbAdd.split(":").map(Number), l = L.lines[i], [da, en] = l.words[j];
       if (nbHas(da)) { toast(`✓ "${da}" er allerede i Mine ord.`); return; }
-      nbAdd({ da, en, ex: l.da });
+      nbAdd({ da, en, ex: l.da, exEn: l.en || "" });
       b.classList.add("saved"); $(".lw-ico", b).textContent = "✓";
       toast(`📝 Gemt i Mine ord: ${da}`);
     });
     $$("[data-nb-line]").forEach(b => b.onclick = e => {
       e.stopPropagation();
       const l = L.lines[+b.dataset.nbLine], sel = String(getSelection() || "").trim();
-      nbForm(sel && l.da.includes(sel) ? nbClean(sel) : "", -1, l.da);
+      nbForm(sel && l.da.includes(sel) ? nbClean(sel) : "", -1, l.da, l.en || "");
     });
     $("#lSpeed").onchange = e => { pr.speed = +e.target.value; saveListenPrefs(pr); };
     $$("[data-opt]").forEach(c => c.onchange = () => { pr[c.dataset.opt] = c.checked; saveListenPrefs(pr); $("#lText").classList.toggle("show-en", pr.en); });
@@ -4965,6 +4965,8 @@
           <p>Hvis du sender feedback eller en bedømmelse, sendes det, du skriver (stjerner, emne, besked og – hvis du vil – navn og e-mail), sammen med valgt prøve, den side du kom fra og appens version, til os som en e-mail. Det sker gennem tjenesten <b>FormSubmit</b> (formsubmit.co), som videresender beskeden; den kan blive behandlet på servere uden for EU. Vi bruger kun oplysningerne til at forbedre appen og til at svare dig, hvis du har skrevet din e-mail. Grundlaget er dit samtykke, når du trykker <i>Send</i> (GDPR art. 6, stk. 1, litra a). Vi sletter beskederne, når de ikke længere er relevante, og senest efter 2 år. Skriv ikke følsomme personoplysninger i beskeden.</p>
           <h3>Tale og mikrofon</h3>
           <p>Når du optager dig selv i taleøvelserne, bliver lydoptagelsen kun i din browser og bliver ikke gemt eller sendt til os. <b>Live-tekst</b> (tale til tekst) bruger browserens indbyggede talegenkendelse; i fx Chrome og Edge kan lyden blive sendt til browserproducentens (Google/Microsoft) server for at blive lavet om til tekst. Oplæsning af tekst bruger browserens egne stemmer. Mikrofonen bruges kun, når du selv trykker på optag.</p>
+          <h3>Oversættelse af sætninger i Mine ord</h3>
+          <p>Når du gemmer et ord i <b>📒 Mine ord</b>, bliver sætningen oversat til engelsk. De fleste sætninger fra opgaverne har appen selv en oversættelse af. Ellers – fx når du selv skriver en sætning – sendes kun selve sætningen til den gratis oversættelsestjeneste <b>MyMemory</b> (mymemory.translated.net). Der sendes ingen navne, e-mail eller andre oplysninger om dig. Skriv ikke personlige oplysninger i sætningen.</p>
           <h3>Links til andre sider</h3>
           <p>Knappen <b>☕ Støt DanskKlar</b> åbner Ko-fi (ko-fi.com) i et nyt vindue. Først når du klikker, gælder Ko-fis egne vilkår og privatlivspolitik. Betalinger håndteres af Ko-fi og deres betalingsudbydere – vi ser ikke dine betalingsoplysninger. Siden hostes på GitHub Pages, og domænet går gennem Cloudflare; som alle webservere kan de registrere tekniske oplysninger som IP-adresse i deres logfiler for at levere og beskytte siden.</p>
           <h3>Modtagere og databehandlere</h3>
@@ -4973,6 +4975,7 @@
             <li><b>Google (Gmail)</b> – e-mailkontoen, som feedback modtages i.</li>
             <li><b>GitHub Pages</b> (GitHub Inc.) – hosting af appens filer.</li>
             <li><b>Cloudflare</b> – domæne (DNS) og beskyttelse af siden.</li>
+            <li><b>MyMemory</b> (Translated srl, Italien) – oversætter sætninger i Mine ord, som appen ikke selv har en oversættelse af.</li>
           </ul>
           <p>Nogle af dem er placeret i USA. Overførsel sker på grundlag af EU-Kommissionens standardkontraktbestemmelser og/eller EU-U.S. Data Privacy Framework, som tjenesterne selv angiver. Vi sælger eller deler aldrig oplysninger med andre.</p>
           <h3>Børn</h3>
@@ -4981,7 +4984,7 @@
           <p>Siden bruger kun krypteret forbindelse (HTTPS). Da dit fremskridt kun ligger i din browser, er det beskyttet af din egen enhed – brug ikke DanskKlar på en delt computer, hvis du ikke vil have, at andre ser dine svar.</p>
           <h3>Dine rettigheder</h3>
           <p>Du har ret til at få indsigt i, rette og slette de oplysninger, du har sendt til os, til at få dem udleveret (dataportabilitet), til at gøre indsigelse og til at trække dit samtykke tilbage. Vi svarer senest inden for 1 måned. Skriv til os (se Kontakt). Du kan også klage til <a href="https://www.datatilsynet.dk" target="_blank" rel="noopener">Datatilsynet</a>.</p>
-          ${en("Data controller: " + (LEGAL_OWNER || "the private person behind DanskKlar") + (FEEDBACK_TO ? " (" + FEEDBACK_TO + ")" : "") + ". Recipients/processors: FormSubmit, Google (Gmail), GitHub Pages, Cloudflare – some in the USA, under EU standard contractual clauses / the EU-US Data Privacy Framework; we never sell or share data. Under-15s should ask a parent before entering their name or e-mail. HTTPS only. You may also request a copy of your data and object; we reply within 1 month.")}
+          ${en("Data controller: " + (LEGAL_OWNER || "the private person behind DanskKlar") + (FEEDBACK_TO ? " (" + FEEDBACK_TO + ")" : "") + ". Recipients/processors: FormSubmit, Google (Gmail), GitHub Pages, Cloudflare, MyMemory (translates sentences saved in My words that the app has no translation for – only the sentence is sent) – some in the USA, under EU standard contractual clauses / the EU-US Data Privacy Framework; we never sell or share data. Under-15s should ask a parent before entering their name or e-mail. HTTPS only. You may also request a copy of your data and object; we reply within 1 month.")}
           ${en("Your progress is stored only in your own browser (localStorage) and never sent to us. We use no analytics, tracking or ads, and the font is self-hosted. Feedback/ratings you choose to send (and your name/e-mail if you add them) are e-mailed to us via FormSubmit, possibly processed outside the EU, based on your consent; we use them only to improve the app or reply, and delete them within 2 years. Voice recordings stay in your browser; live captions use the browser's speech recognition, which in Chrome/Edge may send audio to Google/Microsoft. The Ko-fi button opens ko-fi.com, which has its own terms; we never see payment details. Hosting is GitHub Pages behind Cloudflare, which may log technical data such as IP addresses. You may request access, correction or deletion and complain to Datatilsynet.")}</div>
 
         <div class="card" id="lg-cookies"><h2>Cookies</h2>
@@ -5113,18 +5116,61 @@
   });
   const nbClean = t => t.replace(/^[^A-Za-zÆØÅæøåÄÖÜäöüÉé0-9]+|[^A-Za-zÆØÅæøåÄÖÜäöüÉé0-9]+$/g, "");
   const nbHas = w => nb().some(x => x.da.toLowerCase() === String(w).toLowerCase());
+  // English for the saved sentence: first from the app's own sentence translations (the listening
+  // lessons cover the reading texts and model answers), else a free machine translation (MyMemory).
+  let NB_SENT = null;
+  const nbKey = t => String(t || "").toLowerCase().replace(/[^a-zæøåäöüé0-9]+/g, " ").trim();
+  function nbSentEnLocal(ex) {
+    if (!ex) return "";
+    if (!NB_SENT) {
+      NB_SENT = new Map();
+      [PD2.LISTEN, PD2.LISTEN_R].forEach(src => Object.values(src || {}).forEach(L => (L.lines || []).forEach(l => { if (l.da && l.en && !l.task) NB_SENT.set(nbKey(l.da), l.en); })));
+    }
+    const k = nbKey(ex);
+    if (NB_SENT.has(k)) return NB_SENT.get(k);
+    // The saved sentence can be a bit longer or shorter than a lesson line: join the lines it is made of.
+    if (k.length < 8) return "";
+    const parts = [];
+    for (const [d, e] of NB_SENT) if (d.length > 5 && k.includes(d)) parts.push([k.indexOf(d), d.length, e]);
+    parts.sort((a, b) => a[0] - b[0] || b[1] - a[1]);
+    let end = 0, cover = 0; const out = [];
+    for (const [i, len, e] of parts) if (i >= end) { out.push(e); end = i + len; cover += len; }
+    return cover >= k.length * 0.7 ? out.join(" ") : "";
+  }
+  async function nbSentEnOnline(ex) {
+    try {
+      const r = await fetch("https://api.mymemory.translated.net/get?" + new URLSearchParams({ q: ex.slice(0, 450), langpair: "da|en" }));
+      const j = await r.json(), t = ((j && j.responseData && j.responseData.translatedText) || "").trim();
+      return !t || /^(MYMEMORY WARNING|QUERY LENGTH LIMIT|INVALID)/i.test(t) || t.toLowerCase() === ex.toLowerCase() ? "" : t;
+    } catch (e) { return ""; }
+  }
+  // Fills in exEn for one entry (if missing). Returns true when something changed.
+  const nbBusy = new WeakSet();
+  async function nbFillEn(entry, online = true) {
+    if (!entry || !entry.ex || entry.exEn || nbBusy.has(entry)) return false;
+    nbBusy.add(entry);
+    try { return await nbFillEn2(entry, online); } finally { nbBusy.delete(entry); }
+  }
+  async function nbFillEn2(entry, online) {
+    let t = nbSentEnLocal(entry.ex);
+    if (!t && online && navigator.onLine !== false) t = await nbSentEnOnline(entry.ex);
+    if (!t) return false;
+    entry.exEn = t; save(); return true;
+  }
   function nbAdd(entry) {
     const h = location.hash.replace(/^#\/?/, ""), title = ((app.querySelector("h1") || {}).textContent || "").trim();
     nb().unshift(Object.assign(entry, { d: today(), src: h.startsWith("mineord") ? "" : h, title: title.slice(0, 70) }));
     save();
+    nbFillEn(entry);
   }
-  function nbForm(pre = "", editIdx = -1, ex0 = "") {
+  function nbForm(pre = "", editIdx = -1, ex0 = "", exEn0 = "") {
     const cur = editIdx >= 0 ? nb()[editIdx] : null;
     const da0 = cur ? cur.da : pre, en0 = cur ? cur.en : (pre ? enOf(pre) : "");
     openEnPop(cur ? "✏️ Ret ordet" : "📝 Gem et nyt ord", `
       <label class="nb-lbl">Dansk ord eller udtryk<input id="nbDa" class="nb-in" autocomplete="off" autocapitalize="none" spellcheck="false" value="${esc(da0)}"></label>
       <label class="nb-lbl">Betydning <span class="small muted">· på engelsk eller dit eget sprog</span><input id="nbEn" class="nb-in" autocomplete="off" value="${esc(en0)}"></label>
-      <label class="nb-lbl">Eksempel eller note <span class="small muted">· kan udelades</span><input id="nbEx" class="nb-in" autocomplete="off" value="${esc(cur ? cur.ex || "" : ex0)}"></label>
+      <label class="nb-lbl">Sætning eller note <span class="small muted">· kan udelades</span><input id="nbEx" class="nb-in" autocomplete="off" value="${esc(cur ? cur.ex || "" : ex0)}"></label>
+      <label class="nb-lbl">Sætningen på engelsk <span class="small muted">· udfyldes automatisk, hvis du lader feltet stå tomt</span><input id="nbExEn" class="nb-in" autocomplete="off" lang="en" value="${esc(cur ? cur.exEn || "" : exEn0 || nbSentEnLocal(ex0))}"></label>
       <div class="row" style="margin-top:6px"><button class="btn write" id="nbSave">💾 Gem ordet</button>${cur ? "" : `<a class="btn ghost sm" href="#/mineord">📒 Mine ord (${nb().length})</a>`}</div>`, true);
     const da = $("#nbDa"), en = $("#nbEn");
     let auto = !cur && !!en0;
@@ -5133,17 +5179,20 @@
     const doSave = () => {
       const w = da.value.trim();
       if (!w) { da.focus(); toast("Skriv det danske ord først."); return; }
-      const entry = { da: w, en: en.value.trim(), ex: $("#nbEx").value.trim() };
+      const entry = { da: w, en: en.value.trim(), ex: $("#nbEx").value.trim(), exEn: $("#nbExEn").value.trim() };
+      // A changed sentence with the old translation left in: translate the new sentence instead.
+      if (cur && entry.ex !== (cur.ex || "") && entry.exEn === (cur.exEn || "")) entry.exEn = "";
       const L = nb(), dup = L.findIndex((x, i) => i !== editIdx && x.da.toLowerCase() === w.toLowerCase());
       if (cur) Object.assign(cur, entry);
       else if (dup >= 0) Object.assign(L[dup], entry);
       else nbAdd(entry);
+      nbFillEn(cur || (dup >= 0 ? L[dup] : entry)).then(ch => { if (ch && location.hash === "#/mineord") notebookPage(); });
       save(); closeTaskEn();
       toast(cur ? "✏️ Ordet er rettet." : `📝 Gemt i Mine ord: ${w}`);
       if (location.hash === "#/mineord") notebookPage();
     };
     $("#nbSave").onclick = doSave;
-    [da, en, $("#nbEx")].forEach(i => i.addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); doSave(); } }));
+    [da, en, $("#nbEx"), $("#nbExEn")].forEach(i => i.addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); doSave(); } }));
     setTimeout(() => (da.value ? en : da).focus(), 50);
   }
   // The floating button (hidden on the start screen).
@@ -5236,6 +5285,37 @@
     clearTimeout(nbHideT); nbHideT = setTimeout(nbHide, 7000);
   }
 
+  // A small .xlsx writer (one sheet, text cells, bold header) – a real Excel file, so ø/æ/å and the
+  // columns come out right in every Excel language. Files are stored uncompressed in the zip.
+  function xlsxBlob(rows, sheet) {
+    const x = v => String(v == null ? "" : v).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])).replace(/[\u0000-\u0008\u000b\u000c\u000e-\u001f]/g, "");
+    const col = i => String.fromCharCode(65 + i);
+    const widths = rows[0].map((_, i) => Math.min(70, Math.max(10, ...rows.map(r => String(r[i] || "").length + 2))));
+    const sheetXml = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><sheetViews><sheetView workbookViewId="0"><pane ySplit="1" topLeftCell="A2" activePane="bottomLeft" state="frozen"/></sheetView></sheetViews><cols>${widths.map((w, i) => `<col min="${i + 1}" max="${i + 1}" width="${w}" customWidth="1"/>`).join("")}</cols><sheetData>${rows.map((r, ri) => `<row r="${ri + 1}">${r.map((v, ci) => `<c r="${col(ci)}${ri + 1}" t="inlineStr"${ri ? ' s="2"' : ' s="1"'}><is><t xml:space="preserve">${x(v)}</t></is></c>`).join("")}</row>`).join("")}</sheetData></worksheet>`;
+    const files = {
+      "[Content_Types].xml": `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/><Override PartName="/xl/worksheets/sheet1.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/><Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/></Types>`,
+      "_rels/.rels": `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/></Relationships>`,
+      "xl/workbook.xml": `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><sheets><sheet name="${x(sheet)}" sheetId="1" r:id="rId1"/></sheets></workbook>`,
+      "xl/_rels/workbook.xml.rels": `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet1.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/></Relationships>`,
+      "xl/styles.xml": `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><fonts count="2"><font><sz val="11"/><name val="Calibri"/></font><font><b/><sz val="11"/><name val="Calibri"/></font></fonts><fills count="2"><fill><patternFill patternType="none"/></fill><fill><patternFill patternType="gray125"/></fill></fills><borders count="1"><border><left/><right/><top/><bottom/><diagonal/></border></borders><cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs><cellXfs count="3"><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/><xf numFmtId="0" fontId="1" fillId="0" borderId="0" xfId="0" applyFont="1"/><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0" applyAlignment="1"><alignment wrapText="1" vertical="top"/></xf></cellXfs><cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles></styleSheet>`,
+      "xl/worksheets/sheet1.xml": sheetXml
+    };
+    const enc = new TextEncoder(), crcT = xlsxBlob.t || (xlsxBlob.t = [...Array(256)].map((_, n) => { let c = n; for (let k = 0; k < 8; k++) c = c & 1 ? 0xedb88320 ^ (c >>> 1) : c >>> 1; return c >>> 0; }));
+    const crc = d => { let c = 0xffffffff; for (const b of d) c = crcT[(c ^ b) & 255] ^ (c >>> 8); return (c ^ 0xffffffff) >>> 0; };
+    const parts = [], central = []; let off = 0;
+    const u16 = (v, n) => { v.push(n & 255, (n >>> 8) & 255); }, u32 = (v, n) => { v.push(n & 255, (n >>> 8) & 255, (n >>> 16) & 255, (n >>> 24) & 255); };
+    for (const [name, text] of Object.entries(files)) {
+      const nm = enc.encode(name), data = enc.encode(text), c = crc(data), h = [];
+      u32(h, 0x04034b50); u16(h, 20); u16(h, 0x0800); u16(h, 0); u16(h, 0); u16(h, 0x21); u32(h, c); u32(h, data.length); u32(h, data.length); u16(h, nm.length); u16(h, 0);
+      parts.push(new Uint8Array(h), nm, data);
+      const ce = []; u32(ce, 0x02014b50); u16(ce, 20); u16(ce, 20); u16(ce, 0x0800); u16(ce, 0); u16(ce, 0); u16(ce, 0x21); u32(ce, c); u32(ce, data.length); u32(ce, data.length); u16(ce, nm.length); u16(ce, 0); u16(ce, 0); u16(ce, 0); u16(ce, 0); u32(ce, 0); u32(ce, off);
+      central.push(new Uint8Array(ce), nm);
+      off += h.length + nm.length + data.length;
+    }
+    const csize = central.reduce((a, b) => a + b.length, 0), e = [], n = Object.keys(files).length;
+    u32(e, 0x06054b50); u16(e, 0); u16(e, 0); u16(e, n); u16(e, n); u32(e, csize); u32(e, off); u16(e, 0);
+    return new Blob([...parts, ...central, new Uint8Array(e)], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" });
+  }
   function notebookPage() {
     const L = nb();
     app.innerHTML = `<a class="back" href="#/">← Forside</a>
@@ -5245,14 +5325,15 @@
         <button class="btn write" data-nb-new>➕ Tilføj et ord</button>
         ${L.length ? `<button class="btn read" id="nbQuiz">🃏 Øv mine ord</button>
         <button class="btn ghost sm" id="nbCopy">📋 Kopiér listen</button>
-        <button class="btn ghost sm" id="nbCsv">⬇️ Download (Excel/CSV)</button>` : ""}
+        <button class="btn ghost sm" id="nbCsv">⬇️ Download til Excel</button>` : ""}
       </div>
       <label class="tick" style="margin-top:12px"><input type="checkbox" id="nbAuto" ${nbAutoOn() ? "checked" : ""}> <span><b>Gem automatisk, når jeg markerer et ord</b><br><span class="small muted">Dobbeltklik på et ord (computer), eller tryk og hold på ordet (iPad/telefon) – så gemmes ordet, betydningen og sætningen med det samme. Slået fra: du får en knap ➕ Gem i stedet.</span></span></label>
       ${L.length ? `<input id="nbQ" class="nb-in" type="search" placeholder="🔎 Søg i mine ord" style="margin:14px 0 0">
-      <div class="card nb-list">${L.map((w, i) => `<div class="nb-row" data-nb-k="${esc((w.da + " " + w.en + " " + (w.ex || "")).toLowerCase())}">
+      <div class="card nb-list">${L.map((w, i) => `<div class="nb-row" data-nb-k="${esc((w.da + " " + w.en + " " + (w.ex || "") + " " + (w.exEn || "")).toLowerCase())}">
           <button class="say" data-nb-say="${i}" aria-label="Lyt til ordet" title="Lyt">🔊</button>
           <div class="nb-txt" data-keep><b>${esc(w.da)}</b> <span class="nb-en">= ${esc(w.en || "…")}</span>
             ${w.ex ? `<div class="small">${esc(w.ex)}</div>` : ""}
+            ${w.exEn ? `<div class="small nb-exen" lang="en">🇬🇧 ${esc(w.exEn)}</div>` : ""}
             <div class="small muted">${esc(w.d || "")}${w.src ? ` · <a href="#/${esc(w.src)}">${esc(w.title || "Opgaven")}</a>` : ""}</div></div>
           <button class="nb-act" data-nb-edit="${i}" aria-label="Ret" title="Ret">✏️</button>
           <button class="nb-act" data-nb-del="${i}" aria-label="Slet" title="Slet">🗑️</button></div>`).join("")}
@@ -5260,6 +5341,9 @@
       <p class="small muted" style="margin-top:10px">Ordene gemmes i denne browser og kommer med, når du gemmer en fil under <a href="#/backup">💾 Gem / hent fremskridt</a>.</p>`
       : `<div class="card" style="margin-top:14px"><p style="margin:0">Du har ikke gemt nogen ord endnu. Prøv at åbne en læseopgave og tryk på <b>📝 Nyt ord</b>.</p></div>`}`;
     $("#nbAuto").onchange = e => setPref(NB_AUTO, e.target.checked ? "1" : "0");
+    // Older words without the sentence in English: fill them in quietly.
+    const missing = L.filter(w => w.ex && !w.exEn);
+    if (missing.length) (async () => { let ch = false; for (const w of missing.slice(0, 15)) ch = (await nbFillEn(w)) || ch; if (ch && location.hash === "#/mineord") notebookPage(); })();
     if (!L.length) return;
     $("#nbQ").oninput = e => {
       const q = e.target.value.trim().toLowerCase(); let n = 0;
@@ -5272,17 +5356,22 @@
       const w = L[+b.dataset.nbDel];
       if (confirm(`Slet "${w.da}" fra Mine ord?`)) { L.splice(+b.dataset.nbDel, 1); save(); notebookPage(); }
     });
-    const asText = () => L.map(w => `${w.da} = ${w.en}${w.ex ? ` (${w.ex})` : ""}`).join("\n");
+    const asText = () => L.map(w => `${w.da} = ${w.en}${w.ex ? `\n   ${w.ex}` : ""}${w.exEn ? `\n   ${w.exEn}` : ""}`).join("\n");
     $("#nbCopy").onclick = () => {
       const t = asText();
       (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject()).then(() => toast("📋 Listen er kopieret."), () => openEnPop("📋 Mine ord", `<textarea class="nb-in" rows="12" readonly>${esc(t)}</textarea>`, true));
     };
-    $("#nbCsv").onclick = () => {
-      const q = s => `"${String(s || "").replace(/"/g, '""')}"`;
-      const csv = "﻿" + [["Dansk", "Betydning", "Eksempel", "Dato"], ...L.map(w => [w.da, w.en, w.ex, w.d])].map(r => r.map(q).join(";")).join("\r\n");
+    $("#nbCsv").onclick = async () => {
+      const b = $("#nbCsv"), old = b.textContent;
+      b.disabled = true; b.textContent = "⏳ Oversætter sætningerne …";
+      // Translate the sentences that are still missing (at most 60 per download).
+      for (const w of L.filter(x => x.ex && !x.exEn).slice(0, 60)) await nbFillEn(w);
+      const rows = [["Dansk", "Betydning", "Sætning", "Sætningen på engelsk", "Dato", "Opgave"], ...L.map(w => [w.da, w.en, w.ex, w.exEn, w.d, w.title])];
       const a = document.createElement("a");
-      a.href = URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" })); a.download = "mine-ord-danskklar.csv";
-      document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
+      a.href = URL.createObjectURL(xlsxBlob(rows, "Mine ord")); a.download = "mine-ord-danskklar.xlsx";
+      document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+      b.disabled = false; b.textContent = old;
+      if (location.hash === "#/mineord") notebookPage();
     };
     $("#nbQuiz").onclick = () => { location.hash = "#/mineord/quiz"; };
   }

@@ -1095,5 +1095,10 @@ PD2.I18N.tr = {
 "Dobbeltklik på et ord (computer), eller tryk og hold på ordet (iPad/telefon) – så gemmes ordet, betydningen og sætningen med det samme. Slået fra: du får en knap ➕ Gem i stedet.": "Bir kelimeye çift tıkla (bilgisayar) veya kelimeye basılı tut (iPad/telefon) – kelime, anlamı ve cümle hemen kaydedilir. Kapalıysa bunun yerine ➕ Kaydet düğmesi çıkar.",
 "nederst på skærmen, når du møder et nyt ord i en opgave – så kan du se ordene her og øve dem senere. Eller endnu nemmere:": "düğmesine dokun – kelimeleri burada görür ve sonra çalışırsın. Ya da daha kolayı:",
 "dobbeltklik eller tryk og hold på et ord": "metindeki bir kelimeye çift tıkla veya basılı tut",
-"i teksten – så gemmes det med det samme.": "– hemen kaydedilir."
+"i teksten – så gemmes det med det samme.": "– hemen kaydedilir.",
+"Sætning eller note": "Cümle veya not",
+"Sætningen på engelsk": "Cümlenin İngilizcesi",
+"· udfyldes automatisk, hvis du lader feltet stå tomt": "· boş bırakırsan otomatik doldurulur",
+"⬇️ Download til Excel": "⬇️ Excel'e indir",
+"⏳ Oversætter sætningerne …": "⏳ Cümleler çevriliyor …"
 };

@@ -1057,3 +1057,4 @@ button.lword.saved .lw-ico { color: var(--ok, #15803d); font-weight: 900; }
 .nb-b-txt span { color: var(--muted); }
 .nb-b-btn { font: inherit; font-weight: 800; font-size: .88rem; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface-2); color: inherit; cursor: pointer; }
 .nb-b-hint { flex-basis: 100%; font-size: .8rem; color: var(--muted); }
+.nb-exen { color: var(--muted); font-style: italic; }

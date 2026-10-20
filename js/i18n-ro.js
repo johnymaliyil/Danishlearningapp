@@ -1095,5 +1095,10 @@ PD2.I18N.ro = {
 "Dobbeltklik på et ord (computer), eller tryk og hold på ordet (iPad/telefon) – så gemmes ordet, betydningen og sætningen med det samme. Slået fra: du får en knap ➕ Gem i stedet.": "Fă dublu clic pe un cuvânt (calculator) sau ține apăsat pe cuvânt (iPad/telefon) – cuvântul, înțelesul și propoziția se salvează imediat. Oprit: primești un buton ➕ Salvează.",
 "nederst på skærmen, når du møder et nyt ord i en opgave – så kan du se ordene her og øve dem senere. Eller endnu nemmere:": "în partea de jos a ecranului când întâlnești un cuvânt nou într-un exercițiu – apoi le vezi aici și le exersezi mai târziu. Sau și mai simplu:",
 "dobbeltklik eller tryk og hold på et ord": "fă dublu clic sau ține apăsat pe un cuvânt",
-"i teksten – så gemmes det med det samme.": "din text – se salvează imediat."
+"i teksten – så gemmes det med det samme.": "din text – se salvează imediat.",
+"Sætning eller note": "Propoziție sau notă",
+"Sætningen på engelsk": "Propoziția în engleză",
+"· udfyldes automatisk, hvis du lader feltet stå tomt": "· se completează automat dacă lași gol",
+"⬇️ Download til Excel": "⬇️ Descarcă în Excel",
+"⏳ Oversætter sætningerne …": "⏳ Traduc propozițiile …"
 };

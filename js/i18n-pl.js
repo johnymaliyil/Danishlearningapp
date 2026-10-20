@@ -1095,5 +1095,10 @@ PD2.I18N.pl = {
 "Dobbeltklik på et ord (computer), eller tryk og hold på ordet (iPad/telefon) – så gemmes ordet, betydningen og sætningen med det samme. Slået fra: du får en knap ➕ Gem i stedet.": "Kliknij dwukrotnie słowo (komputer) albo naciśnij i przytrzymaj słowo (iPad/telefon) – słowo, znaczenie i zdanie zapiszą się od razu. Wyłączone: pojawi się przycisk ➕ Zapisz.",
 "nederst på skærmen, når du møder et nyt ord i en opgave – så kan du se ordene her og øve dem senere. Eller endnu nemmere:": "na dole ekranu, gdy spotkasz nowe słowo w zadaniu – wtedy zobaczysz słowa tutaj i poćwiczysz je później. Albo jeszcze prościej:",
 "dobbeltklik eller tryk og hold på et ord": "kliknij dwukrotnie lub naciśnij i przytrzymaj słowo",
-"i teksten – så gemmes det med det samme.": "w tekście – zapisze się od razu."
+"i teksten – så gemmes det med det samme.": "w tekście – zapisze się od razu.",
+"Sætning eller note": "Zdanie lub notatka",
+"Sætningen på engelsk": "Zdanie po angielsku",
+"· udfyldes automatisk, hvis du lader feltet stå tomt": "· uzupełnia się samo, jeśli zostawisz puste",
+"⬇️ Download til Excel": "⬇️ Pobierz do Excela",
+"⏳ Oversætter sætningerne …": "⏳ Tłumaczę zdania …"
 };
