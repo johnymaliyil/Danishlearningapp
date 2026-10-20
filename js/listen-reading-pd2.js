@@ -107954,6 +107954,3304 @@ PD2.LISTEN_R = {
 }
 ]
 },
+"p17m-1": {
+"lines": [
+{
+"da": "Svar på spørgsmålene (1-6).",
+"en": "Answer the questions (1-6).",
+"p": true,
+"note": "An instruction: answer six questions. \"Svar\" is the imperative, the verb with no ending, used for orders.",
+"words": [
+[
+"spørgsmålene",
+"the questions"
+]
+]
+},
+{
+"da": "Find oplysningerne i teksterne.",
+"en": "Find the information in the texts.",
+"p": false,
+"note": "Tells you where to look. Plural with \"the\": oplysning becomes \"oplysningerne\", tekst becomes \"teksterne\".",
+"words": [
+[
+"oplysningerne",
+"the information"
+],
+[
+"teksterne",
+"the texts"
+]
+]
+},
+{
+"da": "Svar kort og præcist.",
+"en": "Answer briefly and precisely.",
+"p": false,
+"note": "Give short answers. Adjectives like \"kort\" and \"præcist\" work as adverbs here; \"præcis\" gets -t.",
+"words": [
+[
+"præcist",
+"precisely"
+]
+]
+},
+{
+"da": "Se eksemplet: \"Hvilket hotel har udsigt over Vesterø Havn?\" – Carlsens Hotel.",
+"en": "See the example: \"Which hotel has a view over Vesterø Harbour?\" – Carlsens Hotel.",
+"p": false,
+"note": "An example question and answer. \"Hvilket\" is used with an et-word (et hotel); with an en-word it is \"hvilken\".",
+"words": [
+[
+"eksemplet",
+"the example"
+],
+[
+"Hvilket",
+"which"
+],
+[
+"udsigt",
+"view"
+]
+]
+},
+{
+"da": "Overnatning på Læsø",
+"en": "Accommodation on Læsø",
+"p": true,
+"note": "A heading: places to stay on the island Læsø. Danish uses \"på\" with islands: på Læsø, på Fyn.",
+"words": [
+[
+"Overnatning",
+"overnight stay, accommodation"
+]
+]
+},
+{
+"da": "Østerby Hotel",
+"en": "Østerby Hotel",
+"p": true,
+"note": "The name of the first hotel."
+},
+{
+"da": "Badehotel som i gamle dage!",
+"en": "A seaside hotel like in the old days!",
+"p": true,
+"note": "A slogan: the hotel feels old-fashioned. \"i gamle dage\" is a fixed phrase meaning \"in the old days\".",
+"words": [
+[
+"Badehotel",
+"seaside hotel"
+]
+]
+},
+{
+"da": "Hyggeligt lille hotel direkte på Østerby Havn.",
+"en": "A cosy little hotel right on Østerby Harbour.",
+"p": false,
+"note": "Describes the hotel. \"Hyggeligt\" has -t because it goes with an et-word: et hotel.",
+"words": [
+[
+"Hyggeligt",
+"cosy"
+],
+[
+"direkte",
+"directly, right"
+]
+]
+},
+{
+"da": "Fem dobbeltværelser med fantastisk udsigt.",
+"en": "Five double rooms with a fantastic view.",
+"p": false,
+"note": "Tells how many rooms. \"Fantastisk\" ends in -sk, so it gets no -t, even with an en/et word.",
+"words": [
+[
+"dobbeltværelser",
+"double rooms"
+],
+[
+"fantastisk",
+"fantastic"
+]
+]
+},
+{
+"da": "Tæt på badestrand.",
+"en": "Close to a beach.",
+"p": false,
+"note": "A short fragment with no verb. \"Tæt på\" means \"close to\".",
+"words": [
+[
+"badestrand",
+"bathing beach"
+]
+]
+},
+{
+"da": "Morgenmads-/opholdsstue og krostue.",
+"en": "Breakfast/lounge room and inn room.",
+"p": false,
+"note": "Lists the rooms. The hyphen in \"Morgenmads-\" means the word \"stue\" is shared: morgenmadsstue and opholdsstue.",
+"words": [
+[
+"Morgenmads-",
+"breakfast (room)"
+],
+[
+"opholdsstue",
+"lounge, sitting room"
+],
+[
+"krostue",
+"inn room, pub room"
+]
+]
+},
+{
+"da": "Åbent hele året.",
+"en": "Open all year.",
+"p": false,
+"note": "Opening time. \"hele året\" means \"all year\"; \"hele\" comes before a noun with the -et ending.",
+"words": [
+[
+"Åbent",
+"open"
+]
+]
+},
+{
+"da": "info@osterbyhotel.dk · +45 51 37 31 37",
+"en": "info@osterbyhotel.dk · +45 51 37 31 37",
+"p": true,
+"note": "Contact details: e-mail address and phone number."
+},
+{
+"da": "Lyngfeldts Hotel",
+"en": "Lyngfeldts Hotel",
+"p": true,
+"note": "The name of the next hotel."
+},
+{
+"da": "Velkommen til Lyngfeldts Hotel og Restaurant.",
+"en": "Welcome to Lyngfeldts Hotel and Restaurant.",
+"p": true,
+"note": "A greeting. \"Velkommen til\" is the fixed phrase for \"welcome to\".",
+"words": [
+[
+"Velkommen",
+"welcome"
+],
+[
+"Restaurant",
+"restaurant"
+]
+]
+},
+{
+"da": "Charmerende og hyggeligt sommer- og badehotel, beliggende direkte til Østerby Havn og tæt på en af øens bedste badestrande.",
+"en": "A charming and cosy summer and seaside hotel, located right on Østerby Harbour and close to one of the island's best beaches.",
+"p": false,
+"note": "Describes the hotel's location. \"en af\" + plural: \"en af øens bedste badestrande\" = one of the island's best beaches.",
+"words": [
+[
+"Charmerende",
+"charming"
+],
+[
+"beliggende",
+"located"
+],
+[
+"badestrande",
+"beaches"
+],
+[
+"øens",
+"the island's"
+]
+]
+},
+{
+"da": "Her er en afslappende atmosfære med fantastisk udsigt til hav og himmel i smukke omgivelser.",
+"en": "Here there is a relaxing atmosphere with a fantastic view of sea and sky in beautiful surroundings.",
+"p": false,
+"note": "Describes the feeling at the hotel. Inversion: after \"Her\" first, the verb \"er\" comes before the subject.",
+"words": [
+[
+"afslappende",
+"relaxing"
+],
+[
+"atmosfære",
+"atmosphere"
+],
+[
+"omgivelser",
+"surroundings"
+]
+]
+},
+{
+"da": "I vores hyggelige restaurant serveres dejlig mad med vægt på råvarer fra Læsø, herunder jomfruhummer.",
+"en": "In our cosy restaurant, lovely food is served with a focus on produce from Læsø, including langoustines.",
+"p": false,
+"note": "About the food. \"serveres\" is the passive with -s: the food is served.",
+"words": [
+[
+"serveres",
+"is served"
+],
+[
+"råvarer",
+"produce, raw ingredients"
+],
+[
+"herunder",
+"including"
+],
+[
+"jomfruhummer",
+"langoustine, Norway lobster"
+]
+]
+},
+{
+"da": "Vi ser frem til at byde jer velkommen til en god oplevelse hos Lyngfeldts.",
+"en": "We look forward to welcoming you to a good experience at Lyngfeldts.",
+"p": false,
+"note": "A friendly ending. \"se frem til at\" + infinitive means \"look forward to doing\".",
+"words": [
+[
+"velkommen",
+"welcome"
+],
+[
+"oplevelse",
+"experience"
+]
+]
+},
+{
+"da": "info@lyngfeldts.dk · +45 61 66 10 10",
+"en": "info@lyngfeldts.dk · +45 61 66 10 10",
+"p": true,
+"note": "Contact details: e-mail address and phone number."
+},
+{
+"da": "Læsø Seaside Golf- & Badehotel",
+"en": "Læsø Seaside Golf & Seaside Hotel",
+"p": true,
+"note": "The name of a golf hotel. \"Golf-\" with a hyphen shares the ending \"hotel\" with Badehotel.",
+"words": [
+[
+"Badehotel",
+"seaside hotel"
+]
+]
+},
+{
+"da": "Feriehytter og greenfee.",
+"en": "Holiday cabins and green fees.",
+"p": true,
+"note": "What they offer. \"Feriehytter\" is a compound: ferie + hytter (holiday + cabins).",
+"words": [
+[
+"Feriehytter",
+"holiday cabins"
+],
+[
+"greenfee",
+"green fee (golf)"
+]
+]
+},
+{
+"da": "Beliggende i stille, fredfyldte og afstressende omgivelser.",
+"en": "Located in quiet, peaceful and stress-free surroundings.",
+"p": false,
+"note": "Describes the place. The adjectives get -e because \"omgivelser\" is plural.",
+"words": [
+[
+"Beliggende",
+"located"
+],
+[
+"fredfyldte",
+"peaceful"
+],
+[
+"afstressende",
+"relaxing, stress-reducing"
+],
+[
+"omgivelser",
+"surroundings"
+]
+]
+},
+{
+"da": "Golfrestaurant med panoramaudsigt over Kattegat og golfbanen.",
+"en": "Golf restaurant with a panoramic view over the Kattegat and the golf course.",
+"p": false,
+"note": "About the restaurant. \"udsigt over\" = view over; \"golfbanen\" has the end article -en (the golf course).",
+"words": [
+[
+"Golfrestaurant",
+"golf restaurant"
+],
+[
+"panoramaudsigt",
+"panoramic view"
+],
+[
+"golfbanen",
+"the golf course"
+]
+]
+},
+{
+"da": "En af Danmarks smukkeste golfbaner.",
+"en": "One of Denmark's most beautiful golf courses.",
+"p": false,
+"note": "A claim. Superlative: smuk, smukkere, smukkest; after a genitive like \"Danmarks\" it takes -e: smukkeste.",
+"words": [
+[
+"smukkeste",
+"most beautiful"
+],
+[
+"golfbaner",
+"golf courses"
+]
+]
+},
+{
+"da": "golfhotel@laesoe-golfhotel.dk · +45 98 49 88 90",
+"en": "golfhotel@laesoe-golfhotel.dk · +45 98 49 88 90",
+"p": true,
+"note": "Contact details: e-mail address and phone number."
+},
+{
+"da": "Østergård B&B",
+"en": "Østergård B&B",
+"p": true,
+"note": "The name of a bed and breakfast."
+},
+{
+"da": "Østergård – gæstfri overnatning midt på øen.",
+"en": "Østergård – hospitable accommodation in the middle of the island.",
+"p": true,
+"note": "A slogan. \"midt på øen\" means \"in the middle of the island\"; \"på\" is used with islands.",
+"words": [
+[
+"gæstfri",
+"hospitable"
+],
+[
+"overnatning",
+"accommodation"
+]
+]
+},
+{
+"da": "Bed & Breakfast i en klasse for sig.",
+"en": "Bed & Breakfast in a class of its own.",
+"p": false,
+"note": "A slogan. \"i en klasse for sig\" is a fixed phrase meaning \"in a class of its own\"."
+},
+{
+"da": "Dobbeltværelser med eget bad/toilet, lejligheder til 2, 4 eller 6 personer.",
+"en": "Double rooms with private bath/toilet, flats for 2, 4 or 6 people.",
+"p": false,
+"note": "Lists the rooms. \"eget\" is the et-form of \"egen\" (own), because \"bad\" is an et-word.",
+"words": [
+[
+"Dobbeltværelser",
+"double rooms"
+],
+[
+"lejligheder",
+"flats, apartments"
+],
+[
+"personer",
+"people"
+]
+]
+},
+{
+"da": "Hjemmelavet morgenmad i orangeriet, serveret med smil.",
+"en": "Homemade breakfast in the orangery, served with a smile.",
+"p": false,
+"note": "About breakfast. \"serveret\" is a past participle used like an adjective: served.",
+"words": [
+[
+"Hjemmelavet",
+"homemade"
+],
+[
+"morgenmad",
+"breakfast"
+],
+[
+"orangeriet",
+"the orangery"
+],
+[
+"serveret",
+"served"
+]
+]
+},
+{
+"da": "Fred og ro i grønne omgivelser.",
+"en": "Peace and quiet in green surroundings.",
+"p": false,
+"note": "A fragment. \"Fred og ro\" is a fixed pair meaning \"peace and quiet\".",
+"words": [
+[
+"omgivelser",
+"surroundings"
+]
+]
+},
+{
+"da": "oestergaard@oeg.dk · +45 98 49 11 72",
+"en": "oestergaard@oeg.dk · +45 98 49 11 72",
+"p": true,
+"note": "Contact details: e-mail address and phone number."
+},
+{
+"da": "Carlsens Hotel",
+"en": "Carlsens Hotel",
+"p": true,
+"note": "The name of the next hotel."
+},
+{
+"da": "Hyggelig stemning på Læsøs bedste placering.",
+"en": "A cosy atmosphere in Læsø's best location.",
+"p": true,
+"note": "A slogan. Genitive -s: \"Læsøs\" = Læsø's. After a genitive, the adjective takes -e: bedste.",
+"words": [
+[
+"stemning",
+"atmosphere, mood"
+],
+[
+"placering",
+"location"
+]
+]
+},
+{
+"da": "Lige ved færgelejet ligger Carlsens Hotel med dejlig udsigt over Vesterø Havn, hyggelig, lokal stemning.",
+"en": "Right by the ferry dock lies Carlsens Hotel with a lovely view over Vesterø Harbour, a cosy, local atmosphere.",
+"p": false,
+"note": "Where the hotel is. Inversion: the place comes first, so the verb \"ligger\" comes before the subject.",
+"words": [
+[
+"færgelejet",
+"the ferry dock"
+],
+[
+"udsigt",
+"view"
+],
+[
+"stemning",
+"atmosphere"
+]
+]
+},
+{
+"da": "Krostue og restauration, der holder åbent hver dag.",
+"en": "An inn room and restaurant that is open every day.",
+"p": false,
+"note": "About opening times. \"der\" starts a relative clause and is the subject: \"der holder åbent\" = which is open.",
+"words": [
+[
+"Krostue",
+"inn room"
+],
+[
+"restauration",
+"restaurant"
+]
+]
+},
+{
+"da": "carlsens-hotel@carlsens-hotel.dk · +45 98 49 92 11",
+"en": "carlsens-hotel@carlsens-hotel.dk · +45 98 49 92 11",
+"p": true,
+"note": "Contact details: e-mail address and phone number."
+},
+{
+"da": "Hotel Havnebakken",
+"en": "Hotel Havnebakken",
+"p": true,
+"note": "The name of the next hotel."
+},
+{
+"da": "Udsigt over hav og havn.",
+"en": "View over sea and harbour.",
+"p": true,
+"note": "A slogan. \"udsigt over\" means \"view over\".",
+"words": [
+[
+"Udsigt",
+"view"
+]
+]
+},
+{
+"da": "Åbent fra 1. marts.",
+"en": "Open from 1 March.",
+"p": false,
+"note": "Opening date. In Danish, dates are written with a full stop: \"1. marts\", and months have small letters.",
+"words": [
+[
+"marts",
+"March"
+]
+]
+},
+{
+"da": "Hotel og Restaurant Havnebakken ligger mindre end 50 meter fra Kattegat i en afslappet og venlig atmosfære med øens flotteste udsigt over hav og havn.",
+"en": "Hotel and Restaurant Havnebakken is less than 50 metres from the Kattegat, in a relaxed and friendly atmosphere with the island's finest view over sea and harbour.",
+"p": false,
+"note": "Where it is. \"mindre end\" means \"less than\". \"flotteste\" is the superlative of \"flot\" with -e after \"øens\".",
+"words": [
+[
+"Restaurant",
+"restaurant"
+],
+[
+"afslappet",
+"relaxed"
+],
+[
+"atmosfære",
+"atmosphere"
+],
+[
+"flotteste",
+"finest, most beautiful"
+]
+]
+},
+{
+"da": "Få minutters gang fra færgen og til den fineste badestrand.",
+"en": "A few minutes' walk from the ferry and to the finest beach.",
+"p": false,
+"note": "A fragment about distance. \"Få minutters gang\" = a few minutes' walk; \"minutters\" has genitive -s.",
+"words": [
+[
+"minutters",
+"minutes'"
+],
+[
+"færgen",
+"the ferry"
+],
+[
+"badestrand",
+"beach"
+]
+]
+},
+{
+"da": "post@havnebakken.dk · +45 98 49 90 09",
+"en": "post@havnebakken.dk · +45 98 49 90 09",
+"p": true,
+"note": "Contact details: e-mail address and phone number."
+},
+{
+"da": "Lærkely Hotel & restaurant",
+"en": "Lærkely Hotel & restaurant",
+"p": true,
+"note": "The name of the next hotel."
+},
+{
+"da": "Idyl, harmoni & ny energi.",
+"en": "Idyll, harmony & new energy.",
+"p": true,
+"note": "A slogan with three nouns.",
+"words": [
+[
+"harmoni",
+"harmony"
+]
+]
+},
+{
+"da": "Idyllisk, gammel Læsøgård.",
+"en": "An idyllic old Læsø farm.",
+"p": false,
+"note": "A fragment describing the building. Two adjectives before an en-word: idyllisk, gammel gård.",
+"words": [
+[
+"Idyllisk",
+"idyllic"
+],
+[
+"Læsøgård",
+"Læsø farm"
+]
+]
+},
+{
+"da": "Ideelt beliggende midt på øen, i dejlig natur og skøn stor have med masser af rekreative miljøer.",
+"en": "Ideally located in the middle of the island, in lovely nature and a wonderful big garden with lots of recreational spaces.",
+"p": false,
+"note": "Describes the place. \"masser af\" means \"lots of\". \"rekreative\" has -e because \"miljøer\" is plural.",
+"words": [
+[
+"Ideelt",
+"ideally"
+],
+[
+"beliggende",
+"located"
+],
+[
+"rekreative",
+"recreational"
+],
+[
+"miljøer",
+"spaces, environments"
+]
+]
+},
+{
+"da": "Vi tilbyder miniferier med velsmagende madoplevelser fra Læsøs spisekammer.",
+"en": "We offer mini-holidays with tasty food experiences from Læsø's pantry.",
+"p": false,
+"note": "An offer. \"tilbyder\" is present tense: verb + -r.",
+"words": [
+[
+"tilbyder",
+"offer"
+],
+[
+"miniferier",
+"short holidays"
+],
+[
+"velsmagende",
+"tasty"
+],
+[
+"spisekammer",
+"pantry, larder"
+]
+]
+},
+{
+"da": "info@laerkely.dk · +45 98 49 83 44",
+"en": "info@laerkely.dk · +45 98 49 83 44",
+"p": true,
+"note": "Contact details: e-mail address and phone number."
+},
+{
+"da": "Hotel Nygaard",
+"en": "Hotel Nygaard",
+"p": true,
+"note": "The name of the next hotel."
+},
+{
+"da": "Nyt, hyggeligt hotel på Læsø.",
+"en": "A new, cosy hotel on Læsø.",
+"p": true,
+"note": "A slogan. \"Nyt\" and \"hyggeligt\" get -t because \"hotel\" is an et-word.",
+"words": [
+[
+"hyggeligt",
+"cosy"
+]
+]
+},
+{
+"da": "Flot, nyrestaureret hotel beliggende midt på øen.",
+"en": "A fine, newly restored hotel located in the middle of the island.",
+"p": false,
+"note": "Describes the hotel. \"nyrestaureret\" is a past participle used as an adjective.",
+"words": [
+[
+"nyrestaureret",
+"newly restored"
+],
+[
+"beliggende",
+"located"
+]
+]
+},
+{
+"da": "Gå-afstand til Byrum by.",
+"en": "Walking distance to Byrum town.",
+"p": false,
+"note": "A fragment about distance. \"Gå-afstand\" is a compound: gå (walk) + afstand (distance).",
+"words": [
+[
+"Gå-afstand",
+"walking distance"
+]
+]
+},
+{
+"da": "Tæt på busholdeplads og cykelsti.",
+"en": "Close to a bus stop and cycle path.",
+"p": false,
+"note": "Answers question 1. \"Tæt på\" means \"close to\".",
+"words": [
+[
+"busholdeplads",
+"bus stop"
+],
+[
+"cykelsti",
+"cycle path"
+]
+]
+},
+{
+"da": "18 lyse og hyggelige værelser/lejligheder, heraf ti med mulighed for ekstra opredning.",
+"en": "18 bright and cosy rooms/flats, ten of them with the option of an extra bed.",
+"p": false,
+"note": "About the rooms. \"heraf\" means \"of these\". \"mulighed for\" = possibility of.",
+"words": [
+[
+"lejligheder",
+"flats"
+],
+[
+"heraf",
+"of which"
+],
+[
+"mulighed",
+"possibility, option"
+],
+[
+"opredning",
+"extra bed"
+]
+]
+},
+{
+"da": "post@hotelnygaard.dk · +45 98 49 16 66",
+"en": "post@hotelnygaard.dk · +45 98 49 16 66",
+"p": true,
+"note": "Contact details: e-mail address and phone number."
+},
+{
+"da": "Krogbækgaard Kursus- og Feriecenter",
+"en": "Krogbækgaard Course and Holiday Centre",
+"p": true,
+"note": "The name of a centre. The hyphen in \"Kursus-\" shares the ending: kursuscenter and feriecenter.",
+"words": [
+[
+"Kursus-",
+"course (centre)"
+],
+[
+"Feriecenter",
+"holiday centre"
+]
+]
+},
+{
+"da": "Rideferie, weekend, ridekurser, b&b og hestevogn.",
+"en": "Riding holidays, weekends, riding courses, B&B and horse carriage.",
+"p": true,
+"note": "A list of what they offer. \"ridekurser\" is the plural of \"et ridekursus\".",
+"words": [
+[
+"Rideferie",
+"riding holiday"
+],
+[
+"ridekurser",
+"riding courses"
+],
+[
+"hestevogn",
+"horse carriage"
+]
+]
+},
+{
+"da": "Vi bor direkte ud til de naturskønne arealer Rønnerne.",
+"en": "We live right next to the scenic area Rønnerne.",
+"p": false,
+"note": "Where they live. \"bo ud til\" means to live facing or bordering something.",
+"words": [
+[
+"direkte",
+"directly"
+],
+[
+"naturskønne",
+"scenic"
+],
+[
+"arealer",
+"areas"
+]
+]
+},
+{
+"da": "Vores mange års erfaring er grundlaget for, at de islandske heste er udvalgt til netop det brug, som gør dem velegnede til, at både nybegyndere og viderekomne kan få en god og sikker ferieoplevelse ud af et længere ophold eller en ridetur.",
+"en": "Our many years of experience are the basis for the Icelandic horses being chosen for exactly this use, which makes them suitable for both beginners and experienced riders to get a good, safe holiday experience out of a longer stay or a ride.",
+"p": false,
+"note": "Why the horses are good. \"er udvalgt\" is the passive: they have been chosen. \"både ... og\" means \"both ... and\".",
+"words": [
+[
+"erfaring",
+"experience"
+],
+[
+"grundlaget",
+"the basis"
+],
+[
+"nybegyndere",
+"beginners"
+],
+[
+"viderekomne",
+"experienced (riders)"
+]
+]
+},
+{
+"da": "Ønsker du ophold med forplejning se: www.rideferie.dk",
+"en": "If you want a stay with meals, see: www.rideferie.dk",
+"p": false,
+"note": "A tip. Starting with the verb \"Ønsker du\" makes an if-clause without \"hvis\".",
+"words": [
+[
+"Ønsker",
+"want, wish"
+],
+[
+"forplejning",
+"meals, board"
+]
+]
+},
+{
+"da": "info@rideferie.dk · +45 98 49 15 05",
+"en": "info@rideferie.dk · +45 98 49 15 05",
+"p": true,
+"note": "Contact details: e-mail address and phone number."
+},
+{
+"da": "Strandgaarden Badehotel",
+"en": "Strandgaarden Seaside Hotel",
+"p": true,
+"note": "The name of the last hotel.",
+"words": [
+[
+"Badehotel",
+"seaside hotel"
+]
+]
+},
+{
+"da": "Ro, forkælelse & aktivitet.",
+"en": "Rest, pampering & activity.",
+"p": true,
+"note": "A slogan with three nouns.",
+"words": [
+[
+"forkælelse",
+"pampering"
+],
+[
+"aktivitet",
+"activity"
+]
+]
+},
+{
+"da": "Vi har 15 dobbeltværelser med bad, derudover syv værelser i den gamle del.",
+"en": "We have 15 double rooms with bath, and in addition seven rooms in the old part.",
+"p": false,
+"note": "About the rooms. \"den gamle del\": after \"den\" the adjective takes -e.",
+"words": [
+[
+"dobbeltværelser",
+"double rooms"
+],
+[
+"derudover",
+"in addition"
+],
+[
+"værelser",
+"rooms"
+]
+]
+},
+{
+"da": "I restauranten serverer vi skønne menuer tilberedt af et team af dygtige kokke.",
+"en": "In the restaurant we serve wonderful menus prepared by a team of skilled chefs.",
+"p": false,
+"note": "About the food. Inversion: \"I restauranten\" comes first, so the verb \"serverer\" comes before \"vi\".",
+"words": [
+[
+"restauranten",
+"the restaurant"
+],
+[
+"serverer",
+"serve"
+],
+[
+"tilberedt",
+"prepared"
+],
+[
+"dygtige",
+"skilled"
+]
+]
+},
+{
+"da": "info@hotel-strandgaarden.dk · +45 98 49 90 35",
+"en": "info@hotel-strandgaarden.dk · +45 98 49 90 35",
+"p": true,
+"note": "Contact details: e-mail address and phone number."
+},
+{
+"da": "Kilde: www.visitdenmark.dk, 6. juli 2015",
+"en": "Source: www.visitdenmark.dk, 6 July 2015",
+"p": true,
+"note": "The source of the hotel texts. Dates use a full stop: \"6. juli\"."
+},
+{
+"da": "Højskoler 2015",
+"en": "Folk high schools 2015",
+"p": true,
+"note": "A heading: a list of Danish folk high schools (boarding schools for adults).",
+"words": [
+[
+"Højskoler",
+"folk high schools"
+]
+]
+},
+{
+"da": "Askov Højskole",
+"en": "Askov Folk High School",
+"p": true,
+"note": "The name of a school. \"Højskole\" is an en-word: en højskole.",
+"words": [
+[
+"Højskole",
+"folk high school"
+]
+]
+},
+{
+"da": "Journalistik og medier.",
+"en": "Journalism and media.",
+"p": true,
+"note": "The school's main subjects. \"medier\" is the plural of \"et medie\".",
+"words": [
+[
+"Journalistik",
+"journalism"
+]
+]
+},
+{
+"da": "Det prøveforberedende forløb (journalistik og medier), film og TV, kunst og design.",
+"en": "The exam-preparation course (journalism and media), film and TV, art and design.",
+"p": false,
+"note": "Lists the courses. \"Det\" + adjective with -e + noun: det prøveforberedende forløb.",
+"words": [
+[
+"prøveforberedende",
+"exam-preparing"
+],
+[
+"forløb",
+"course, programme"
+],
+[
+"journalistik",
+"journalism"
+]
+]
+},
+{
+"da": "www.askov-hojskole.dk · Tlf.: 76 96 18 00 (smskode ASK)",
+"en": "www.askov-hojskole.dk · Phone: 76 96 18 00 (*SMS code ASK)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Bornholms Højskole",
+"en": "Bornholm Folk High School",
+"p": true,
+"note": "The name of a school on the island of Bornholm."
+},
+{
+"da": "Vælg et linjefag fra hver gruppe: 1) Billedkunst, keramik, musik.",
+"en": "Choose one main subject from each group: 1) Visual art, ceramics, music.",
+"p": true,
+"note": "An instruction. \"Vælg\" is the imperative. \"et linjefag\" is an et-word, so \"et\".",
+"words": [
+[
+"linjefag",
+"main subject"
+],
+[
+"Billedkunst",
+"visual art"
+],
+[
+"keramik",
+"ceramics"
+]
+]
+},
+{
+"da": "2) Mediefag, kokkens køkken, smykker/metal, glas.",
+"en": "2) Media studies, the chef's kitchen, jewellery/metal, glass.",
+"p": false,
+"note": "The second group of subjects. \"kokkens\" is \"the chef's\": end article -en plus genitive -s.",
+"words": [
+[
+"Mediefag",
+"media studies"
+],
+[
+"kokkens",
+"the chef's"
+],
+[
+"smykker",
+"jewellery"
+]
+]
+},
+{
+"da": "www.bhhs.dk · Tlf.: 56 97 40 77 (smskode BOR)",
+"en": "www.bhhs.dk · Phone: 56 97 40 77 (*SMS code BOR)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Borups Højskole København",
+"en": "Borups Folk High School Copenhagen",
+"p": true,
+"note": "The name of a school in Copenhagen."
+},
+{
+"da": "Storbyhøjskole i hjertet af København.",
+"en": "A big-city folk high school in the heart of Copenhagen.",
+"p": true,
+"note": "Where the school is. \"i hjertet af\" means \"in the heart of\".",
+"words": [
+[
+"Storbyhøjskole",
+"big-city folk high school"
+],
+[
+"hjertet",
+"the heart"
+]
+]
+},
+{
+"da": "Elever fra alle de nordiske lande.",
+"en": "Students from all the Nordic countries.",
+"p": false,
+"note": "Who the students are. \"de nordiske lande\": after \"de\" the adjective takes -e.",
+"words": [
+[
+"nordiske",
+"Nordic"
+]
+]
+},
+{
+"da": "Stort udbud af kreative fag.",
+"en": "A large selection of creative subjects.",
+"p": false,
+"note": "A fragment. \"Stort\" has -t because \"udbud\" is an et-word.",
+"words": [
+[
+"udbud",
+"selection, range"
+],
+[
+"kreative",
+"creative"
+]
+]
+},
+{
+"da": "www.borups.dk · Tlf.: 33 12 34 45 (smskode BHC)",
+"en": "www.borups.dk · Phone: 33 12 34 45 (*SMS code BHC)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Brandbjerg Højskole",
+"en": "Brandbjerg Folk High School",
+"p": true,
+"note": "The name of a school."
+},
+{
+"da": "Projektledelse, musik, outdoor, selvudvikling.",
+"en": "Project management, music, outdoor, personal development.",
+"p": true,
+"note": "A list of subjects. Compound nouns: projekt + ledelse, selv + udvikling.",
+"words": [
+[
+"Projektledelse",
+"project management"
+],
+[
+"selvudvikling",
+"personal development"
+]
+]
+},
+{
+"da": "Rejser og oplevelser, valgfag og projekter.",
+"en": "Travel and experiences, electives and projects.",
+"p": false,
+"note": "A list of activities. \"valgfag\" is the same in singular and plural.",
+"words": [
+[
+"oplevelser",
+"experiences"
+],
+[
+"valgfag",
+"elective subjects"
+],
+[
+"projekter",
+"projects"
+]
+]
+},
+{
+"da": "Netværk for livet.",
+"en": "A network for life.",
+"p": false,
+"note": "A slogan. \"for livet\" uses the end article: \"for life\".",
+"words": [
+[
+"Netværk",
+"network"
+]
+]
+},
+{
+"da": "www.brandbjerg.dk · Tlf.: 75 87 15 00 (smskode BRA)",
+"en": "www.brandbjerg.dk · Phone: 75 87 15 00 (*SMS code BRA)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Brande Højskole",
+"en": "Brande Folk High School",
+"p": true,
+"note": "The name of a school."
+},
+{
+"da": "Er du ordblind, skoletræt eller ny i Danmark?",
+"en": "Are you dyslexic, tired of school or new in Denmark?",
+"p": true,
+"note": "A question to the reader. In yes/no questions the verb comes first: \"Er du...?\"",
+"words": [
+[
+"ordblind",
+"dyslexic"
+],
+[
+"skoletræt",
+"tired of school"
+]
+]
+},
+{
+"da": "BHS giver aldrig op!",
+"en": "BHS never gives up!",
+"p": false,
+"note": "A promise. \"giver op\" means \"gives up\"; \"aldrig\" comes after the verb in a main clause."
+},
+{
+"da": "Vi er din nye start på livet.",
+"en": "We are your new start in life.",
+"p": false,
+"note": "A slogan. \"din nye start\": after \"din\" the adjective takes -e."
+},
+{
+"da": "www.brandehs.dk · Tlf.: 97 18 45 45 (smskode BHS)",
+"en": "www.brandehs.dk · Phone: 97 18 45 45 (*SMS code BHS)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Brenderup Højskole",
+"en": "Brenderup Folk High School",
+"p": true,
+"note": "The name of a school."
+},
+{
+"da": "Det internationale kulturmøde, global musik, kunst, friluftsliv, dansk sprog og kultur, up-design, Nepal-rejselinje.",
+"en": "The international cultural meeting, global music, art, outdoor life, Danish language and culture, up-design, Nepal travel line.",
+"p": true,
+"note": "A list of subjects. \"Det internationale kulturmøde\": after \"det\" the adjective takes -e.",
+"words": [
+[
+"internationale",
+"international"
+],
+[
+"kulturmøde",
+"cultural meeting"
+],
+[
+"friluftsliv",
+"outdoor life"
+],
+[
+"Nepal-rejselinje",
+"Nepal travel course"
+]
+]
+},
+{
+"da": "www.brenderuphojskole.dk · Tlf.: 64 44 24 14 (smskode BRE)",
+"en": "www.brenderuphojskole.dk · Phone: 64 44 24 14 (*SMS code BRE)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Børkop Højskole",
+"en": "Børkop Folk High School",
+"p": true,
+"note": "The name of a school."
+},
+{
+"da": "Bibelfag, temadage, valgfag.",
+"en": "Bible studies, theme days, electives.",
+"p": true,
+"note": "A list of subjects. \"temadage\" is the plural of \"en temadag\".",
+"words": [
+[
+"Bibelfag",
+"Bible studies"
+],
+[
+"temadage",
+"theme days"
+],
+[
+"valgfag",
+"electives"
+]
+]
+},
+{
+"da": "4 linjer: musik, adventure, discipel, krea.",
+"en": "4 lines: music, adventure, disciple, creative.",
+"p": false,
+"note": "The four main courses. \"linjer\" is the plural of \"en linje\".",
+"words": [
+[
+"linjer",
+"lines, main courses"
+],
+[
+"adventure",
+"adventure"
+],
+[
+"discipel",
+"disciple"
+]
+]
+},
+{
+"da": "Udlandsture til Israel eller Etiopien.",
+"en": "Trips abroad to Israel or Ethiopia.",
+"p": false,
+"note": "Answers question 3. \"Udlandsture\" is a compound: udland (abroad) + ture (trips).",
+"words": [
+[
+"Udlandsture",
+"trips abroad"
+],
+[
+"Etiopien",
+"Ethiopia"
+]
+]
+},
+{
+"da": "www.imb.dk · Tlf.: 75 86 60 22 (smskode IMB)",
+"en": "www.imb.dk · Phone: 75 86 60 22 (*SMS code IMB)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Den Internationale Højskole",
+"en": "The International Folk High School",
+"p": true,
+"note": "The name of a school. Adjective after \"Den\" takes -e: internationale.",
+"words": [
+[
+"Internationale",
+"international"
+]
+]
+},
+{
+"da": "Sammensæt selv dit skema!",
+"en": "Put together your own timetable!",
+"p": true,
+"note": "An invitation. \"Sammensæt\" is the imperative of \"sammensætte\".",
+"words": [
+[
+"Sammensæt",
+"put together"
+],
+[
+"skema",
+"timetable"
+]
+]
+},
+{
+"da": "Kultur og samfund, internationale forhold, iværksætteri, engelsk, rejser og oplevelser.",
+"en": "Culture and society, international relations, entrepreneurship, English, travel and experiences.",
+"p": false,
+"note": "A list of subjects. Languages have small letters in Danish: engelsk.",
+"words": [
+[
+"internationale",
+"international"
+],
+[
+"iværksætteri",
+"entrepreneurship"
+],
+[
+"oplevelser",
+"experiences"
+]
+]
+},
+{
+"da": "www.ipc.dk · Tlf.: 49 21 33 61 (smskode IPC)",
+"en": "www.ipc.dk · Phone: 49 21 33 61 (*SMS code IPC)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Den Rytmiske Højskole",
+"en": "The Rhythmic Folk High School",
+"p": true,
+"note": "The name of a music school.",
+"words": [
+[
+"Rytmiske",
+"rhythmic"
+]
+]
+},
+{
+"da": "Musik med instrumentlinjer.",
+"en": "Music with instrument lines.",
+"p": true,
+"note": "The main subject. \"med\" means \"with\".",
+"words": [
+[
+"instrumentlinjer",
+"instrument courses"
+]
+]
+},
+{
+"da": "Lydtekniklinje, lydstudie- og PA.",
+"en": "Sound technology line, sound studio and PA.",
+"p": false,
+"note": "A list of courses. The hyphen in \"lydstudie-\" shares a word ending with the next word.",
+"words": [
+[
+"Lydtekniklinje",
+"sound technology course"
+],
+[
+"lydstudie-",
+"sound studio"
+]
+]
+},
+{
+"da": "Sangskriver- og producerlinje.",
+"en": "Songwriter and producer line.",
+"p": false,
+"note": "A course name. \"Sangskriver-\" shares \"linje\": sangskriverlinje and producerlinje.",
+"words": [
+[
+"Sangskriver-",
+"songwriter"
+],
+[
+"producerlinje",
+"producer course"
+]
+]
+},
+{
+"da": "www.drh.dk · Tlf.: 59 36 06 00 (smskode DRH)",
+"en": "www.drh.dk · Phone: 59 36 06 00 (*SMS code DRH)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Djurslands Folkehøjskole",
+"en": "Djursland Folk High School",
+"p": true,
+"note": "The name of a school.",
+"words": [
+[
+"Folkehøjskole",
+"folk high school"
+]
+]
+},
+{
+"da": "Sundhed, livsstil, friluftsliv, idræt for sjov.",
+"en": "Health, lifestyle, outdoor life, sport for fun.",
+"p": true,
+"note": "A list of subjects. \"for sjov\" is a fixed phrase: \"for fun\".",
+"words": [
+[
+"Sundhed",
+"health"
+],
+[
+"livsstil",
+"lifestyle"
+],
+[
+"friluftsliv",
+"outdoor life"
+],
+[
+"idræt",
+"sport"
+]
+]
+},
+{
+"da": "Teater, musik, kunsthåndværk.",
+"en": "Theatre, music, arts and crafts.",
+"p": false,
+"note": "A list of subjects.",
+"words": [
+[
+"kunsthåndværk",
+"arts and crafts"
+]
+]
+},
+{
+"da": "IT og medier for alle.",
+"en": "IT and media for everyone.",
+"p": false,
+"note": "A fragment. \"alle\" means \"everyone\"."
+},
+{
+"da": "www.djfh.dk · Tlf.: 87 52 91 20 (smskode DJU)",
+"en": "www.djfh.dk · Phone: 87 52 91 20 (*SMS code DJU)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Egå Ungdoms-Højskole",
+"en": "Egå Youth Folk High School",
+"p": true,
+"note": "The name of a school for young people.",
+"words": [
+[
+"Ungdoms-Højskole",
+"youth folk high school"
+]
+]
+},
+{
+"da": "Foto, film, billedkunst, musik, design, idræt, teater, filosofi, politik og psykologi.",
+"en": "Photo, film, visual art, music, design, sport, theatre, philosophy, politics and psychology.",
+"p": true,
+"note": "A list of subjects. School subjects are used without an article: \"politik og psykologi\".",
+"words": [
+[
+"billedkunst",
+"visual art"
+],
+[
+"filosofi",
+"philosophy"
+],
+[
+"psykologi",
+"psychology"
+]
+]
+},
+{
+"da": "Studierejser.",
+"en": "Study trips.",
+"p": false,
+"note": "One word: a compound of studie + rejser.",
+"words": [
+[
+"Studierejser",
+"study trips"
+]
+]
+},
+{
+"da": "www.euh.dk · Tlf.: 86 22 01 26 (smskode EUH)",
+"en": "www.euh.dk · Phone: 86 22 01 26 (*SMS code EUH)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Grundtvigs Højskole",
+"en": "Grundtvigs Folk High School",
+"p": true,
+"note": "The name of a school, named after N.F.S. Grundtvig."
+},
+{
+"da": "Sammensæt selv dit skema – bl.a. foto, journalistik, politik, film, filosofi, litteratur, musik, kunst, teater & bevægelse.",
+"en": "Put together your own timetable – including photo, journalism, politics, film, philosophy, literature, music, art, theatre & movement.",
+"p": true,
+"note": "An invitation. \"bl.a.\" is short for \"blandt andet\" = among other things.",
+"words": [
+[
+"Sammensæt",
+"put together"
+],
+[
+"journalistik",
+"journalism"
+],
+[
+"litteratur",
+"literature"
+],
+[
+"bevægelse",
+"movement"
+]
+]
+},
+{
+"da": "www.grundtvigs.dk · Tlf.: 48 26 87 00 (smskode GRU)",
+"en": "www.grundtvigs.dk · Phone: 48 26 87 00 (*SMS code GRU)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Gymnastik og Idrætshøjskolen ved Viborg",
+"en": "Gymnastics and Sports Folk High School near Viborg",
+"p": true,
+"note": "The name of a school. \"ved\" + a town means \"near\" or \"by\".",
+"words": [
+[
+"Gymnastik",
+"gymnastics"
+],
+[
+"Idrætshøjskolen",
+"the sports folk high school"
+]
+]
+},
+{
+"da": "Gymnastik/dans/spring, fitness, outdoor, vandsport, boldspil, forberedelse til politi/jægerkorps, unikke rejseoplevelser.",
+"en": "Gymnastics/dance/jumping, fitness, outdoor, water sports, ball games, preparation for police/ranger corps, unique travel experiences.",
+"p": true,
+"note": "A list of subjects. \"forberedelse til\" means \"preparation for\".",
+"words": [
+[
+"vandsport",
+"water sports"
+],
+[
+"forberedelse",
+"preparation"
+],
+[
+"jægerkorps",
+"ranger corps (army)"
+],
+[
+"rejseoplevelser",
+"travel experiences"
+]
+]
+},
+{
+"da": "www.giv.dk · Tlf.: 86 67 20 11 (smskode GIV)",
+"en": "www.giv.dk · Phone: 86 67 20 11 (*SMS code GIV)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Højskolen på Kalø",
+"en": "The Folk High School at Kalø",
+"p": true,
+"note": "The name of a school. \"Højskolen\" has the end article -en."
+},
+{
+"da": "Lær dansk sprog og kultur i historiske omgivelser midt i Nationalpark Mols Bjerge og i selskab med elever fra hele verden.",
+"en": "Learn Danish language and culture in historic surroundings in the middle of Mols Bjerge National Park, together with students from all over the world.",
+"p": true,
+"note": "An invitation. \"Lær\" is the imperative. \"i selskab med\" means \"together with\".",
+"words": [
+[
+"historiske",
+"historic"
+],
+[
+"omgivelser",
+"surroundings"
+],
+[
+"Nationalpark",
+"national park"
+],
+[
+"selskab",
+"company"
+]
+]
+},
+{
+"da": "www.kalohojskole.dk · Tlf.: 86 37 12 86 (smskode KAL)",
+"en": "www.kalohojskole.dk · Phone: 86 37 12 86 (*SMS code KAL)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Højskolen Skærgården",
+"en": "The Folk High School Skærgården",
+"p": true,
+"note": "The name of a school."
+},
+{
+"da": "Højskole for voksne med fokus på trivsel, sundhed, livsstilsændring og afklaring.",
+"en": "A folk high school for adults with a focus on well-being, health, lifestyle change and clarification.",
+"p": true,
+"note": "Who the school is for. \"med fokus på\" means \"with a focus on\".",
+"words": [
+[
+"voksne",
+"adults"
+],
+[
+"trivsel",
+"well-being"
+],
+[
+"livsstilsændring",
+"lifestyle change"
+],
+[
+"afklaring",
+"clarification"
+]
+]
+},
+{
+"da": "Psykologi, bevægelse, kost, kreative fag.",
+"en": "Psychology, movement, diet, creative subjects.",
+"p": false,
+"note": "A list of subjects. \"kreative\" has -e because \"fag\" is plural here.",
+"words": [
+[
+"Psykologi",
+"psychology"
+],
+[
+"bevægelse",
+"movement"
+],
+[
+"kreative",
+"creative"
+]
+]
+},
+{
+"da": "www.skærgården.dk · Tlf.: 97 12 43 90 (smskode SKÆ)",
+"en": "www.skærgården.dk · Phone: 97 12 43 90 (*SMS code SKÆ)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Højskolen Snoghøj",
+"en": "Snoghøj Folk High School",
+"p": true,
+"note": "The name of a school."
+},
+{
+"da": "Musical.",
+"en": "Musical.",
+"p": true,
+"note": "One subject: musical theatre."
+},
+{
+"da": "Skuespil.",
+"en": "Acting.",
+"p": false,
+"note": "One subject. \"Skuespil\" is a compound: skue (show) + spil (play).",
+"words": [
+[
+"Skuespil",
+"acting, drama"
+]
+]
+},
+{
+"da": "Global: kursus for udlændinge.",
+"en": "Global: a course for foreigners.",
+"p": false,
+"note": "A course name and what it is. \"udlændinge\" is the plural of \"en udlænding\".",
+"words": [
+[
+"kursus",
+"course"
+],
+[
+"udlændinge",
+"foreigners"
+]
+]
+},
+{
+"da": "Forberedelse til ungdomsuddannelse.",
+"en": "Preparation for youth education.",
+"p": false,
+"note": "A course. \"forberedelse til\" means \"preparation for\".",
+"words": [
+[
+"Forberedelse",
+"preparation"
+],
+[
+"ungdomsuddannelse",
+"upper-secondary education"
+]
+]
+},
+{
+"da": "Lyd: lyddesign og komposition.",
+"en": "Sound: sound design and composition.",
+"p": false,
+"note": "A course name and its content.",
+"words": [
+[
+"lyddesign",
+"sound design"
+],
+[
+"komposition",
+"composition"
+]
+]
+},
+{
+"da": "www.snoghoj.dk · Tlf.: 76 24 15 30 (smskode SNO)",
+"en": "www.snoghoj.dk · Phone: 76 24 15 30 (*SMS code SNO)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Idrætshøjskolen Bosei",
+"en": "Bosei Sports Folk High School",
+"p": true,
+"note": "The name of a school.",
+"words": [
+[
+"Idrætshøjskolen",
+"the sports folk high school"
+]
+]
+},
+{
+"da": "Japansk, manga, koreansk, meditation, karate, judo, taekwondo, yoga, volley, health/fitness, outdoor og svømning.",
+"en": "Japanese, manga, Korean, meditation, karate, judo, taekwondo, yoga, volleyball, health/fitness, outdoor and swimming.",
+"p": true,
+"note": "A list of subjects. Languages have small letters: japansk, koreansk.",
+"words": [
+[
+"koreansk",
+"Korean"
+],
+[
+"meditation",
+"meditation"
+],
+[
+"svømning",
+"swimming"
+]
+]
+},
+{
+"da": "www.bosei.dk · Tlf.: 55 90 90 90 (smskode BOS)",
+"en": "www.bosei.dk · Phone: 55 90 90 90 (*SMS code BOS)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Jyderup Højskole",
+"en": "Jyderup Folk High School",
+"p": true,
+"note": "The name of a school."
+},
+{
+"da": "Musik: electronic, folk'it og sangskrivning.",
+"en": "Music: electronic, folk'it and songwriting.",
+"p": true,
+"note": "A list of music courses.",
+"words": [
+[
+"electronic",
+"electronic"
+],
+[
+"sangskrivning",
+"songwriting"
+]
+]
+},
+{
+"da": "Tag del – værktøjskassen til at skabe og deltage.",
+"en": "Take part – the toolbox to create and take part.",
+"p": false,
+"note": "A slogan. \"Tag del\" is the imperative: take part. \"til at\" + infinitive = for doing.",
+"words": [
+[
+"værktøjskassen",
+"the toolbox"
+],
+[
+"deltage",
+"take part"
+]
+]
+},
+{
+"da": "Billedkunst og glaspustning.",
+"en": "Visual art and glassblowing.",
+"p": false,
+"note": "Two subjects.",
+"words": [
+[
+"Billedkunst",
+"visual art"
+],
+[
+"glaspustning",
+"glassblowing"
+]
+]
+},
+{
+"da": "www.jyderuphojskole.dk · Tlf.: 59 22 44 80 (smskode JYD)",
+"en": "www.jyderuphojskole.dk · Phone: 59 22 44 80 (*SMS code JYD)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Luthersk Missions Højskole",
+"en": "Lutheran Mission Folk High School",
+"p": true,
+"note": "The name of a Christian school.",
+"words": [
+[
+"Luthersk",
+"Lutheran"
+],
+[
+"Missions",
+"mission's"
+]
+]
+},
+{
+"da": "Bibelfag, sport, musik, natur.",
+"en": "Bible studies, sport, music, nature.",
+"p": true,
+"note": "A list of subjects.",
+"words": [
+[
+"Bibelfag",
+"Bible studies"
+]
+]
+},
+{
+"da": "Oplæring i den kristne tro.",
+"en": "Training in the Christian faith.",
+"p": false,
+"note": "A course. \"den kristne tro\": after \"den\" the adjective takes -e.",
+"words": [
+[
+"Oplæring",
+"training, teaching"
+],
+[
+"kristne",
+"Christian"
+]
+]
+},
+{
+"da": "Studietur til Tyrkiet/Israel.",
+"en": "Study trip to Turkey/Israel.",
+"p": false,
+"note": "A travel offer. Country names: Tyrkiet = Turkey.",
+"words": [
+[
+"Studietur",
+"study trip"
+],
+[
+"Tyrkiet",
+"Turkey"
+]
+]
+},
+{
+"da": "www.lmh.dk · Tlf.: 48 26 07 66 (smskode LMH)",
+"en": "www.lmh.dk · Phone: 48 26 07 66 (*SMS code LMH)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Nordjyllands Idrætshøjskole",
+"en": "North Jutland Sports Folk High School",
+"p": true,
+"note": "The name of a school.",
+"words": [
+[
+"Nordjyllands",
+"North Jutland's"
+],
+[
+"Idrætshøjskole",
+"sports folk high school"
+]
+]
+},
+{
+"da": "Idræt og sundhed.",
+"en": "Sport and health.",
+"p": true,
+"note": "The school's main focus.",
+"words": [
+[
+"Idræt",
+"sport"
+],
+[
+"sundhed",
+"health"
+]
+]
+},
+{
+"da": "Fitness, bold og sport, outdoor/adventure, maraton/løbeskole.",
+"en": "Fitness, ball and sport, outdoor/adventure, marathon/running school.",
+"p": false,
+"note": "Answers question 2: \"løbeskole\" means a running school.",
+"words": [
+[
+"adventure",
+"adventure"
+],
+[
+"maraton",
+"marathon"
+],
+[
+"løbeskole",
+"running school"
+]
+]
+},
+{
+"da": "Instruktøruddannelser.",
+"en": "Instructor training courses.",
+"p": false,
+"note": "A compound word: instruktør + uddannelser (educations).",
+"words": [
+[
+"Instruktøruddannelser",
+"instructor training courses"
+]
+]
+},
+{
+"da": "Oplevelser og rejser.",
+"en": "Experiences and travel.",
+"p": false,
+"note": "Two nouns in the plural.",
+"words": [
+[
+"Oplevelser",
+"experiences"
+]
+]
+},
+{
+"da": "www.nih.dk · Tlf.: 98 82 53 00 (smskode NIH)",
+"en": "www.nih.dk · Phone: 98 82 53 00 (*SMS code NIH)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Odder Højskole",
+"en": "Odder Folk High School",
+"p": true,
+"note": "The name of a school."
+},
+{
+"da": "Film, journalistik, musik & dans, sport, fitness, psykologi & kropsbevidsthed, kunst & design.",
+"en": "Film, journalism, music & dance, sport, fitness, psychology & body awareness, art & design.",
+"p": true,
+"note": "A list of subjects.",
+"words": [
+[
+"journalistik",
+"journalism"
+],
+[
+"psykologi",
+"psychology"
+],
+[
+"kropsbevidsthed",
+"body awareness"
+]
+]
+},
+{
+"da": "Kombiner, som du vil.",
+"en": "Combine as you like.",
+"p": false,
+"note": "An invitation. \"Kombiner\" is the imperative of \"kombinere\".",
+"words": [
+[
+"Kombiner",
+"combine"
+]
+]
+},
+{
+"da": "www.odderhojskole.dk · Tlf.: 86 54 07 44 (smskode ODD)",
+"en": "www.odderhojskole.dk · Phone: 86 54 07 44 (*SMS code ODD)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Ry Højskole",
+"en": "Ry Folk High School",
+"p": true,
+"note": "The name of a school."
+},
+{
+"da": "Linjefag: journalistik, friluftsliv, teater, musik, keramik, tegning og maleri, 25 valgfag.",
+"en": "Main subjects: journalism, outdoor life, theatre, music, ceramics, drawing and painting, 25 electives.",
+"p": true,
+"note": "A list of subjects. \"tegning\" and \"maleri\" are nouns from the verbs tegne and male.",
+"words": [
+[
+"Linjefag",
+"main subjects"
+],
+[
+"friluftsliv",
+"outdoor life"
+],
+[
+"keramik",
+"ceramics"
+],
+[
+"valgfag",
+"electives"
+]
+]
+},
+{
+"da": "Fordybelse og nærvær.",
+"en": "Immersion and presence.",
+"p": false,
+"note": "A slogan with two nouns.",
+"words": [
+[
+"Fordybelse",
+"immersion, deep study"
+],
+[
+"nærvær",
+"presence"
+]
+]
+},
+{
+"da": "www.ryhojskole.dk · Tlf.: 86 89 18 88 (smskode RY)",
+"en": "www.ryhojskole.dk · Phone: 86 89 18 88 (*SMS code RY)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Rødding Højskole",
+"en": "Rødding Folk High School",
+"p": true,
+"note": "The name of a school."
+},
+{
+"da": "Hovedfag: design, politik, musik, journalistik, teater og litteratur.",
+"en": "Main subjects: design, politics, music, journalism, theatre and literature.",
+"p": true,
+"note": "A list of main subjects.",
+"words": [
+[
+"Hovedfag",
+"main subjects"
+],
+[
+"journalistik",
+"journalism"
+],
+[
+"litteratur",
+"literature"
+]
+]
+},
+{
+"da": "25 sidefag.",
+"en": "25 minor subjects.",
+"p": false,
+"note": "A number and a noun. \"sidefag\" is the same in singular and plural.",
+"words": [
+[
+"sidefag",
+"minor subjects"
+]
+]
+},
+{
+"da": "Fælles studietur samt hovedfagsstudietur.",
+"en": "A joint study trip as well as a main-subject study trip.",
+"p": false,
+"note": "Travel offers. \"samt\" is a formal word for \"and\" or \"as well as\".",
+"words": [
+[
+"studietur",
+"study trip"
+],
+[
+"hovedfagsstudietur",
+"main-subject study trip"
+]
+]
+},
+{
+"da": "www.rhskole.dk · Tlf.: 74 84 22 84 (smskode RØD)",
+"en": "www.rhskole.dk · Phone: 74 84 22 84 (*SMS code RØD)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Testrup Højskole",
+"en": "Testrup Folk High School",
+"p": true,
+"note": "The name of a school."
+},
+{
+"da": "Musik – teater – kunst – filosofi – skrivelinje + mere end 20 andre fag.",
+"en": "Music – theatre – art – philosophy – writing line + more than 20 other subjects.",
+"p": true,
+"note": "A list of subjects. \"mere end\" means \"more than\".",
+"words": [
+[
+"filosofi",
+"philosophy"
+],
+[
+"skrivelinje",
+"writing course"
+]
+]
+},
+{
+"da": "Over 100 elever og 18 dybt engagerede lærere.",
+"en": "Over 100 students and 18 deeply committed teachers.",
+"p": false,
+"note": "Numbers of people. \"engagerede\" has -e because \"lærere\" is plural.",
+"words": [
+[
+"engagerede",
+"committed"
+],
+[
+"lærere",
+"teachers"
+]
+]
+},
+{
+"da": "www.testrup.dk · Tlf.: 86 29 03 55 (smskode TES)",
+"en": "www.testrup.dk · Phone: 86 29 03 55 (*SMS code TES)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Uldum Højskole",
+"en": "Uldum Folk High School",
+"p": true,
+"note": "The name of a school."
+},
+{
+"da": "Du sammensætter dit eget skema og vælger mellem 60 fag inden for musik, kunst, idræt, psykologi og samfundsfag.",
+"en": "You put together your own timetable and choose between 60 subjects within music, art, sport, psychology and social studies.",
+"p": true,
+"note": "Answers question 4. \"eget\" is the et-form of \"egen\" because \"skema\" is an et-word.",
+"words": [
+[
+"sammensætter",
+"put together"
+],
+[
+"psykologi",
+"psychology"
+],
+[
+"samfundsfag",
+"social studies"
+]
+]
+},
+{
+"da": "www.uldum-hojskole.dk · Tlf.: 75 67 82 11 (smskode ULD)",
+"en": "www.uldum-hojskole.dk · Phone: 75 67 82 11 (*SMS code ULD)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Vallekilde Højskole",
+"en": "Vallekilde Folk High School",
+"p": true,
+"note": "The name of a school."
+},
+{
+"da": "Journalist, spiludvikler, tilrettelægger, forfatter, designer, eventchef, kreativ håndværker eller udlandsprojektleder.",
+"en": "Journalist, game developer, programme producer, writer, designer, event manager, creative craftsman or overseas project manager.",
+"p": true,
+"note": "A list of course jobs. Many are compounds, like spil + udvikler and udland + projekt + leder.",
+"words": [
+[
+"spiludvikler",
+"game developer"
+],
+[
+"tilrettelægger",
+"programme producer"
+],
+[
+"håndværker",
+"craftsman"
+],
+[
+"udlandsprojektleder",
+"overseas project manager"
+]
+]
+},
+{
+"da": "www.vallekilde.dk · Tlf.: 59 65 60 45 (smskode VAL)",
+"en": "www.vallekilde.dk · Phone: 59 65 60 45 (*SMS code VAL)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Vejle Idrætshøjskole",
+"en": "Vejle Sports Folk High School",
+"p": true,
+"note": "The name of a school."
+},
+{
+"da": "Fitness, boldspil, outdoor, endurance, politiforberedelse, rejser, valgfag, instruktøruddannelser.",
+"en": "Fitness, ball games, outdoor, endurance, police preparation, travel, electives, instructor training courses.",
+"p": true,
+"note": "A list of subjects. \"politiforberedelse\" is a compound: politi + forberedelse.",
+"words": [
+[
+"politiforberedelse",
+"police preparation"
+],
+[
+"instruktøruddannelser",
+"instructor training courses"
+]
+]
+},
+{
+"da": "www.vih.dk · Tlf.: 75 82 08 11 (smskode VIH)",
+"en": "www.vih.dk · Phone: 75 82 08 11 (*SMS code VIH)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Vestjyllands Højskole",
+"en": "West Jutland Folk High School",
+"p": true,
+"note": "The name of a school.",
+"words": [
+[
+"Vestjyllands",
+"West Jutland's"
+]
+]
+},
+{
+"da": "Almen-kreativ højskole med 8 hovedfag: Dans, musik, sanger, teater, forfatter, kunst (keramik/maleri), kokkeri, økologi.",
+"en": "A general-creative folk high school with 8 main subjects: dance, music, singer, theatre, writer, art (ceramics/painting), cooking, ecology.",
+"p": true,
+"note": "A list of main subjects. After a colon, a list often starts with a capital letter in ads.",
+"words": [
+[
+"Almen-kreativ",
+"general and creative"
+],
+[
+"hovedfag",
+"main subjects"
+],
+[
+"kokkeri",
+"cooking"
+],
+[
+"økologi",
+"ecology"
+]
+]
+},
+{
+"da": "www.vestjyllandshojskole.dk · Tlf.: 96 75 37 77 (smskode VES)",
+"en": "www.vestjyllandshojskole.dk · Phone: 96 75 37 77 (*SMS code VES)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Vrå Højskole",
+"en": "Vrå Folk High School",
+"p": true,
+"note": "The name of a school."
+},
+{
+"da": "Kunst, musik, volunteer, fotografi, medie, forfatter, fashion & design, dansk som 2. sprog.",
+"en": "Art, music, volunteer, photography, media, writer, fashion & design, Danish as a second language.",
+"p": true,
+"note": "A list of subjects. \"2. sprog\" is said \"andet sprog\": the full stop marks an ordinal number.",
+"words": [
+[
+"fotografi",
+"photography"
+],
+[
+"forfatter",
+"writer"
+]
+]
+},
+{
+"da": "www.vraahojskole.dk · Tlf.: 98 98 10 10 (smskode VRÅ)",
+"en": "www.vraahojskole.dk · Phone: 98 98 10 10 (*SMS code VRÅ)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": "Aalborg Sportshøjskole",
+"en": "Aalborg Sports Folk High School",
+"p": true,
+"note": "The name of a school.",
+"words": [
+[
+"Sportshøjskole",
+"sports folk high school"
+]
+]
+},
+{
+"da": "Vælg badminton, cross, fitness, håndbold, outdoor, politi, ridning eller styrke på Sportsakademiet og Trænerakademiet.",
+"en": "Choose badminton, cross, fitness, handball, outdoor, police, riding or strength at the Sports Academy and the Coaches' Academy.",
+"p": true,
+"note": "An invitation. \"Vælg\" is the imperative of \"vælge\".",
+"words": [
+[
+"håndbold",
+"handball"
+],
+[
+"Sportsakademiet",
+"the Sports Academy"
+],
+[
+"Trænerakademiet",
+"the Coaches' Academy"
+]
+]
+},
+{
+"da": "www.sportshojskolen.dk · Tlf.: 98 13 13 11 (smskode SPH)",
+"en": "www.sportshojskolen.dk · Phone: 98 13 13 11 (*SMS code SPH)",
+"p": true,
+"note": "Contact details: website, phone number and SMS code."
+},
+{
+"da": ") Få skolens kursusmateriale tilsendt gratis: sms \"HS smskode +navn/adr.\" til 1272 (alm. takst).",
+"en": "*) Get the school's course material sent free: text \"HS smskode +name/address\" to 1272 (normal rate).",
+"p": true,
+"note": "How to order brochures. \"Få ... tilsendt\" means \"have ... sent to you\". \"alm.\" is short for \"almindelig\".",
+"words": [
+[
+"kursusmateriale",
+"course material"
+],
+[
+"tilsendt",
+"sent (to you)"
+],
+[
+"takst",
+"rate, charge"
+]
+]
+},
+{
+"da": "Kilde: www.hojskolerne.dk, 2015",
+"en": "Source: www.hojskolerne.dk, 2015",
+"p": false,
+"note": "The source of the school list."
+},
+{
+"da": "Kunstmuseer og udstillinger",
+"en": "Art museums and exhibitions",
+"p": true,
+"note": "A heading for the third text. \"udstillinger\" is the plural of \"en udstilling\".",
+"words": [
+[
+"Kunstmuseer",
+"art museums"
+],
+[
+"udstillinger",
+"exhibitions"
+]
+]
+},
+{
+"da": "Frederikshavn Kunstmuseum og Exlibrissamling",
+"en": "Frederikshavn Art Museum and Ex Libris Collection",
+"p": true,
+"note": "The name of a museum. \"Exlibrissamling\" is a compound: exlibris + samling.",
+"words": [
+[
+"Kunstmuseum",
+"art museum"
+],
+[
+"Exlibrissamling",
+"ex libris (bookplate) collection"
+]
+]
+},
+{
+"da": "Danmarks største samling af Karl Bovin – frederikshavneren som inspirerede Asger Jorn, og som beskrev C.V. Globs Bahrainekspeditioner gennem malerier.",
+"en": "Denmark's largest collection of Karl Bovin – the man from Frederikshavn who inspired Asger Jorn and who described C.V. Glob's Bahrain expeditions through paintings.",
+"p": true,
+"note": "About the collection. \"som\" starts a relative clause; \"inspirerede\" and \"beskrev\" are past tense.",
+"words": [
+[
+"samling",
+"collection"
+],
+[
+"frederikshavneren",
+"the man from Frederikshavn"
+],
+[
+"inspirerede",
+"inspired"
+],
+[
+"Bahrainekspeditioner",
+"Bahrain expeditions"
+]
+]
+},
+{
+"da": "Verdens største samling af exlibris (bogejermærker) – ca. 500.000 – bl.a. til de nordiske kongehuse.",
+"en": "The world's largest collection of ex libris (bookplates) – about 500,000 – including for the Nordic royal houses.",
+"p": false,
+"note": "Another collection. \"Verdens største\": after a genitive, the superlative takes -e.",
+"words": [
+[
+"største",
+"largest"
+],
+[
+"bogejermærker",
+"bookplates"
+],
+[
+"kongehuse",
+"royal houses"
+]
+]
+},
+{
+"da": "Årligt 6-8 skiftende udstillinger af danske og udenlandske nutidskunstnere.",
+"en": "Every year 6-8 changing exhibitions of Danish and foreign contemporary artists.",
+"p": false,
+"note": "About exhibitions. \"skiftende\" is a present participle (-ende) used as an adjective.",
+"words": [
+[
+"skiftende",
+"changing"
+],
+[
+"udstillinger",
+"exhibitions"
+],
+[
+"udenlandske",
+"foreign"
+],
+[
+"nutidskunstnere",
+"contemporary artists"
+]
+]
+},
+{
+"da": "Parallelvej 14, 9900 Frederikshavn · Tlf. 98 45 90 80 · kunstmuseum@frederikshavn.dk · www.frederikshavnkunstmuseum.dk",
+"en": "Parallelvej 14, 9900 Frederikshavn · Phone 98 45 90 80 · kunstmuseum@frederikshavn.dk · www.frederikshavnkunstmuseum.dk",
+"p": true,
+"note": "The museum's address, phone number, e-mail and website."
+},
+{
+"da": "Åbent: ti.-lø. kl. 10-16.",
+"en": "Open: Tue.-Sat. 10 am-4 pm.",
+"p": false,
+"note": "Opening hours. \"ti.-lø.\" are short forms of tirsdag-lørdag; \"kl.\" is short for klokken.",
+"words": [
+[
+"Åbent",
+"open"
+]
+]
+},
+{
+"da": "Vendsyssel Kunstmuseum",
+"en": "Vendsyssel Art Museum",
+"p": true,
+"note": "The name of a museum.",
+"words": [
+[
+"Kunstmuseum",
+"art museum"
+]
+]
+},
+{
+"da": "På Vendsyssel Kunstmuseum kan man opleve en nær forbindelse mellem kunsten indenfor og det karakterfulde landskab udenfor.",
+"en": "At Vendsyssel Art Museum you can experience a close connection between the art inside and the characterful landscape outside.",
+"p": true,
+"note": "What visitors feel. \"man\" means \"you, people\". Inversion: \"På ...\" comes first, so \"kan\" comes before \"man\".",
+"words": [
+[
+"forbindelse",
+"connection"
+],
+[
+"indenfor",
+"inside"
+],
+[
+"karakterfulde",
+"characterful"
+],
+[
+"landskab",
+"landscape"
+]
+]
+},
+{
+"da": "I moderne museumsarkitektur vises kunst inspireret af det omgivende nordjyske landskab foruden samlinger af skulptur og kunsthåndværk samt et Niels Larsen Stevns Videnscenter.",
+"en": "In modern museum architecture, art inspired by the surrounding North Jutland landscape is shown, as well as collections of sculpture and crafts and a Niels Larsen Stevns Knowledge Centre.",
+"p": false,
+"note": "What is shown. \"vises\" is the passive with -s: is shown. \"foruden\" means \"besides\".",
+"words": [
+[
+"museumsarkitektur",
+"museum architecture"
+],
+[
+"inspireret",
+"inspired"
+],
+[
+"omgivende",
+"surrounding"
+],
+[
+"kunsthåndværk",
+"arts and crafts"
+]
+]
+},
+{
+"da": "P. Nørkjærs Plads 15, 9800 Hjørring · Tlf. 98 92 41 33 · info@vkm.dk · www.vkm.dk",
+"en": "P. Nørkjærs Plads 15, 9800 Hjørring · Phone 98 92 41 33 · info@vkm.dk · www.vkm.dk",
+"p": true,
+"note": "The museum's address, phone number, e-mail and website."
+},
+{
+"da": "Åbent alle dage: kl. 11-16.",
+"en": "Open every day: 11 am-4 pm.",
+"p": false,
+"note": "Opening hours. \"alle dage\" means \"every day\".",
+"words": [
+[
+"Åbent",
+"open"
+]
+]
+},
+{
+"da": "Mandage lukket.",
+"en": "Closed on Mondays.",
+"p": false,
+"note": "A short fragment. \"Mandage\" is plural: on Mondays. Weekdays have small letters except at the start.",
+"words": [
+[
+"Mandage",
+"Mondays"
+],
+[
+"lukket",
+"closed"
+]
+]
+},
+{
+"da": "Dog åbent mandage: uge 8, uge 42 og 2. påske- og pinsedag.",
+"en": "However, open on Mondays: week 8, week 42 and Easter Monday and Whit Monday.",
+"p": false,
+"note": "Exceptions. \"Dog\" means \"however\". \"2. påske- og pinsedag\" = the second day of Easter and of Whitsun.",
+"words": [
+[
+"påske-",
+"Easter"
+],
+[
+"pinsedag",
+"Whit (Pentecost) day"
+]
+]
+},
+{
+"da": "Derudover åbent 1. torsdag i måneden til kl. 20.",
+"en": "In addition, open on the first Thursday of the month until 8 pm.",
+"p": false,
+"note": "Answers question 6. \"Derudover\" means \"in addition\". \"1. torsdag\" is said \"første torsdag\".",
+"words": [
+[
+"Derudover",
+"in addition"
+],
+[
+"torsdag",
+"Thursday"
+],
+[
+"måneden",
+"the month"
+]
+]
+},
+{
+"da": "Skagens Museum",
+"en": "Skagens Museum",
+"p": true,
+"note": "The name of a museum. \"Skagens\" has genitive -s: Skagen's museum."
+},
+{
+"da": "Besøg Skagens Museums nye tilbygning, og oplev udstillingen Samling & Samtid med en lang perlerække af skagensmalernes mest kendte værker, suppleret med et udvalg af Skandinaviens bedste samtidskunstnere i dag.",
+"en": "Visit Skagens Museum's new extension and experience the exhibition Collection & Present with a long string of the Skagen painters' best-known works, supplemented with a selection of Scandinavia's best contemporary artists today.",
+"p": true,
+"note": "An invitation. \"Besøg\" and \"oplev\" are imperatives. \"mest kendte\" is the superlative of kendt.",
+"words": [
+[
+"tilbygning",
+"extension"
+],
+[
+"perlerække",
+"string of pearls, long series"
+],
+[
+"skagensmalernes",
+"the Skagen painters'"
+],
+[
+"samtidskunstnere",
+"contemporary artists"
+]
+]
+},
+{
+"da": "Malerskole for børn i skolernes ferier samt billedjagt.",
+"en": "Painting school for children in the school holidays, as well as a picture hunt.",
+"p": false,
+"note": "Answers question 5. \"skolernes ferier\" = the schools' holidays; \"samt\" means \"as well as\".",
+"words": [
+[
+"Malerskole",
+"painting school"
+],
+[
+"skolernes",
+"the schools'"
+],
+[
+"billedjagt",
+"picture hunt"
+]
+]
+},
+{
+"da": "Yderligere info på www.skagensmuseum.dk.",
+"en": "More info at www.skagensmuseum.dk.",
+"p": false,
+"note": "Where to read more. \"Yderligere\" means \"further\" or \"more\".",
+"words": [
+[
+"Yderligere",
+"further, more"
+]
+]
+},
+{
+"da": "Brøndumsvej 4, 9990 Skagen · Tlf. 98 44 64 44 · museum@skagensmuseum.dk · www.skagensmuseum.dk",
+"en": "Brøndumsvej 4, 9990 Skagen · Phone 98 44 64 44 · museum@skagensmuseum.dk · www.skagensmuseum.dk",
+"p": true,
+"note": "The museum's address, phone number, e-mail and website."
+},
+{
+"da": "Åbent maj: dagligt kl. 10-17.",
+"en": "Open May: daily 10 am-5 pm.",
+"p": false,
+"note": "Opening hours. Months have small letters in Danish: maj.",
+"words": [
+[
+"dagligt",
+"daily"
+]
+]
+},
+{
+"da": "1/6-31/8: dagligt kl. 10-17, dog on. til kl. 21.",
+"en": "1 June-31 August: daily 10 am-5 pm, but Wed. until 9 pm.",
+"p": false,
+"note": "Summer hours. \"dog\" means \"but\" or \"however\". \"on.\" is short for onsdag.",
+"words": [
+[
+"dagligt",
+"daily"
+]
+]
+},
+{
+"da": "1/9-31/10: ti.-sø. kl. 10-17, dog dagligt i uge 42.",
+"en": "1 September-31 October: Tue.-Sun. 10 am-5 pm, but daily in week 42.",
+"p": false,
+"note": "Autumn hours. Dates like \"1/9\" are day/month. \"i uge 42\" = in week 42.",
+"words": [
+[
+"dagligt",
+"daily"
+]
+]
+},
+{
+"da": "Kunstbygningen i Vrå, Engelund-samlingen",
+"en": "The Art Building in Vrå, the Engelund Collection",
+"p": true,
+"note": "The name of a museum. \"Kunstbygningen\" has the end article -en.",
+"words": [
+[
+"Kunstbygningen",
+"the art building"
+],
+[
+"Engelund-samlingen",
+"the Engelund collection"
+]
+]
+},
+{
+"da": "I Kunstbygningen i Vrå kan man opleve maleren Svend Engelunds landskaber, figurbilleder, portrætter og opstillinger – værker fra 1929 til 1993.",
+"en": "In the Art Building in Vrå you can experience the painter Svend Engelund's landscapes, figure pictures, portraits and still lifes – works from 1929 to 1993.",
+"p": true,
+"note": "What you can see. Inversion: the place comes first, so \"kan\" comes before \"man\".",
+"words": [
+[
+"landskaber",
+"landscapes"
+],
+[
+"figurbilleder",
+"figure pictures"
+],
+[
+"portrætter",
+"portraits"
+],
+[
+"opstillinger",
+"still lifes, arrangements"
+]
+]
+},
+{
+"da": "Samlingen rummer tillige malerier, skulpturer, kunsthåndværk og grafik af de kunstnere, som siden 1942 har været medlemmer af Vråudstillingen.",
+"en": "The collection also contains paintings, sculptures, crafts and graphic art by the artists who since 1942 have been members of the Vrå Exhibition.",
+"p": false,
+"note": "More about the collection. \"har været\" is the perfect tense of \"være\".",
+"words": [
+[
+"tillige",
+"also"
+],
+[
+"skulpturer",
+"sculptures"
+],
+[
+"medlemmer",
+"members"
+],
+[
+"Vråudstillingen",
+"the Vrå Exhibition"
+]
+]
+},
+{
+"da": "Der vises 4-5 særudstillinger om året, blandt andet Vrå-udstillingen i august med ca. 35 forskellige kunstnere.",
+"en": "4-5 special exhibitions are shown each year, including the Vrå Exhibition in August with about 35 different artists.",
+"p": false,
+"note": "About exhibitions. \"Der vises\" is the passive with -s; \"blandt andet\" means \"including\".",
+"words": [
+[
+"særudstillinger",
+"special exhibitions"
+],
+[
+"Vrå-udstillingen",
+"the Vrå Exhibition"
+],
+[
+"forskellige",
+"different"
+],
+[
+"kunstnere",
+"artists"
+]
+]
+},
+{
+"da": "Højskolevej 3a, 9760 Vrå · Tlf. 98 98 04 10 · info@kunstbygningenvraa.dk · www.kunstbygningenvraa.dk",
+"en": "Højskolevej 3a, 9760 Vrå · Phone 98 98 04 10 · info@kunstbygningenvraa.dk · www.kunstbygningenvraa.dk",
+"p": true,
+"note": "The museum's address, phone number, e-mail and website."
+},
+{
+"da": "Åbent: 10/1-1/2 & 22/11-13/12: lø.-sø. kl. 13-16.",
+"en": "Open: 10 Jan-1 Feb & 22 Nov-13 Dec: Sat.-Sun. 1-4 pm.",
+"p": false,
+"note": "Opening hours in winter. \"lø.-sø.\" is short for lørdag-søndag.",
+"words": [
+[
+"Åbent",
+"open"
+]
+]
+},
+{
+"da": "7/2-26/7 & 6/9-15/11: ti.-sø. kl. 13-16.",
+"en": "7 Feb-26 July & 6 Sept-15 Nov: Tue.-Sun. 1-4 pm.",
+"p": false,
+"note": "More opening hours. Dates are day/month: 7/2 is 7 February."
+},
+{
+"da": "2/8-30/8: ma.-sø. kl. 11-17.",
+"en": "2 Aug-30 Aug: Mon.-Sun. 11 am-5 pm.",
+"p": false,
+"note": "Summer opening hours. \"ma.-sø.\" is short for mandag-søndag."
+},
+{
+"da": "Victor Petersens Willumsen-samling",
+"en": "Victor Petersen's Willumsen Collection",
+"p": true,
+"note": "The name of a museum. \"Petersens\" has genitive -s.",
+"words": [
+[
+"Willumsen-samling",
+"Willumsen collection"
+]
+]
+},
+{
+"da": "På herregården Odden vises over 800 skitser og værker af J.F. Willumsen.",
+"en": "At the manor house Odden, over 800 sketches and works by J.F. Willumsen are shown.",
+"p": true,
+"note": "What is shown. \"vises\" is the passive with -s, and the verb comes second after \"På herregården Odden\".",
+"words": [
+[
+"herregården",
+"the manor house"
+],
+[
+"skitser",
+"sketches"
+],
+[
+"værker",
+"works"
+]
+]
+},
+{
+"da": "I 70 år virkede han som maler, billedhugger, grafiker, keramiker og arkitekt og var med til at udforme den moderne danske kunst.",
+"en": "For 70 years he worked as a painter, sculptor, graphic artist, ceramicist and architect and helped shape modern Danish art.",
+"p": false,
+"note": "About the artist's life. \"I 70 år\" = for 70 years. \"var med til at\" = helped to.",
+"words": [
+[
+"virkede",
+"worked"
+],
+[
+"billedhugger",
+"sculptor"
+],
+[
+"keramiker",
+"ceramicist"
+],
+[
+"udforme",
+"shape, design"
+]
+]
+},
+{
+"da": "Samlingens skaber, Victor Petersen, introducerer i en film hans liv og kunst.",
+"en": "The collection's creator, Victor Petersen, introduces his life and art in a film.",
+"p": false,
+"note": "About a film. \"Samlingens\": end article -en plus genitive -s = the collection's.",
+"words": [
+[
+"Samlingens",
+"the collection's"
+],
+[
+"introducerer",
+"introduces"
+]
+]
+},
+{
+"da": "Den gamle hestestald rummer en udstilling om Oddens historie.",
+"en": "The old horse stable houses an exhibition about the history of Odden.",
+"p": false,
+"note": "About an exhibition. \"Den gamle hestestald\": after \"den\" the adjective takes -e.",
+"words": [
+[
+"hestestald",
+"horse stable"
+],
+[
+"udstilling",
+"exhibition"
+],
+[
+"historie",
+"history"
+]
+]
+},
+{
+"da": "I herregårdens køkken serveres kaffe, te og bagværk.",
+"en": "In the manor house's kitchen, coffee, tea and baked goods are served.",
+"p": false,
+"note": "About the café. \"serveres\" is the passive with -s: are served.",
+"words": [
+[
+"herregårdens",
+"the manor house's"
+],
+[
+"serveres",
+"are served"
+],
+[
+"bagværk",
+"baked goods"
+]
+]
+},
+{
+"da": "Oddenvej 31, Mygdal, 9800 Hjørring · Tlf. 98 97 52 02 · museum@jfwillumsenodden.dk · www.jfwillumsenodden.dk",
+"en": "Oddenvej 31, Mygdal, 9800 Hjørring · Phone 98 97 52 02 · museum@jfwillumsenodden.dk · www.jfwillumsenodden.dk",
+"p": true,
+"note": "The museum's address, phone number, e-mail and website."
+},
+{
+"da": "Åbent: 1/3-31/10: ma.-sø. kl. 10-17.",
+"en": "Open: 1 March-31 October: Mon.-Sun. 10 am-5 pm.",
+"p": false,
+"note": "Opening hours. \"ma.-sø.\" means Monday to Sunday.",
+"words": [
+[
+"Åbent",
+"open"
+]
+]
+},
+{
+"da": "Børglum Kloster – Kunst på Klosteret",
+"en": "Børglum Abbey – Art at the Abbey",
+"p": true,
+"note": "The name of a place and its art event.",
+"words": [
+[
+"Klosteret",
+"the abbey"
+]
+]
+},
+{
+"da": "En af mange kunstudstillinger på Børglum Kloster 2015: I hestestalden udstiller Esben Hanefelt Kristensen de nye, fantastiske værker, specielt lavet til denne udstilling.",
+"en": "One of many art exhibitions at Børglum Abbey 2015: in the horse stable Esben Hanefelt Kristensen exhibits the new, fantastic works, made especially for this exhibition.",
+"p": true,
+"note": "About an exhibition. Inversion: \"I hestestalden\" comes first, so the verb \"udstiller\" comes before the subject.",
+"words": [
+[
+"kunstudstillinger",
+"art exhibitions"
+],
+[
+"hestestalden",
+"the horse stable"
+],
+[
+"fantastiske",
+"fantastic"
+],
+[
+"specielt",
+"especially"
+]
+]
+},
+{
+"da": "Værkerne af Esben Hanefelt Kristensen udstilles sammen med Kirsten Tofte Jensens smukke skulpturer.",
+"en": "The works by Esben Hanefelt Kristensen are exhibited together with Kirsten Tofte Jensen's beautiful sculptures.",
+"p": false,
+"note": "More about the exhibition. \"udstilles\" is the passive with -s: are exhibited.",
+"words": [
+[
+"Værkerne",
+"the works"
+],
+[
+"udstilles",
+"are exhibited"
+],
+[
+"skulpturer",
+"sculptures"
+]
+]
+},
+{
+"da": "Børglum Klostervej 255, 9760 Vrå · Tlf. 98 99 40 11 · info@boerglumkloster.dk · www.boerglumkloster.dk",
+"en": "Børglum Klostervej 255, 9760 Vrå · Phone 98 99 40 11 · info@boerglumkloster.dk · www.boerglumkloster.dk",
+"p": true,
+"note": "The museum's address, phone number, e-mail and website."
+},
+{
+"da": "Åbent: 7/2-22/2, 28/3-6/4 & 1/5-18/10: alle dage kl. 10-17.",
+"en": "Open: 7/2-22/2, 28/3-6/4 & 1/5-18/10: every day 10 am-5 pm.",
+"p": false,
+"note": "Opening periods. \"alle dage\" means every day.",
+"words": [
+[
+"Åbent",
+"open"
+]
+]
+},
+{
+"da": "Kilde: Toppen af Danmark, 2015",
+"en": "Source: Toppen af Danmark, 2015",
+"p": true,
+"note": "The source of the museum texts."
+},
+{
+"da": "1. Overnatning på Læsø: Hvilket hotel ligger tæt på en busholdeplads?",
+"en": "1. Accommodation on Læsø: Which hotel is close to a bus stop?",
+"p": true,
+"note": "Question 1. \"Hvilket\" is used because \"hotel\" is an et-word.",
+"words": [
+[
+"Overnatning",
+"accommodation"
+],
+[
+"Hvilket",
+"which"
+],
+[
+"busholdeplads",
+"bus stop"
+]
+]
+},
+{
+"da": "2. Højskoler 2015: På hvilken højskole er der en løbeskole?",
+"en": "2. Folk high schools 2015: At which folk high school is there a running school?",
+"p": true,
+"note": "Question 2. \"På hvilken højskole\": the preposition comes first, and \"hvilken\" goes with en-words.",
+"words": [
+[
+"Højskoler",
+"folk high schools"
+],
+[
+"hvilken",
+"which"
+],
+[
+"løbeskole",
+"running school"
+]
+]
+},
+{
+"da": "3. Højskoler 2015: På hvilken højskole kan man komme på en rejse til Etiopien?",
+"en": "3. Folk high schools 2015: At which folk high school can you go on a trip to Ethiopia?",
+"p": true,
+"note": "Question 3. \"man\" means \"you\" in general. After the question phrase, the verb \"kan\" comes before \"man\".",
+"words": [
+[
+"højskole",
+"folk high school"
+],
+[
+"Etiopien",
+"Ethiopia"
+]
+]
+},
+{
+"da": "4. Højskoler 2015: På hvilken højskole kan man vælge mellem 60 forskellige fag?",
+"en": "4. Folk high schools 2015: At which folk high school can you choose between 60 different subjects?",
+"p": true,
+"note": "Question 4. \"vælge mellem\" means \"choose between\".",
+"words": [
+[
+"forskellige",
+"different"
+]
+]
+},
+{
+"da": "5. Kunstmuseer og udstillinger: På hvilket museum er der somme tider malerskole for børn?",
+"en": "5. Art museums and exhibitions: At which museum is there sometimes a painting school for children?",
+"p": true,
+"note": "Question 5. \"somme tider\" means \"sometimes\". \"hvilket\" goes with et-words: et museum.",
+"words": [
+[
+"Kunstmuseer",
+"art museums"
+],
+[
+"udstillinger",
+"exhibitions"
+],
+[
+"malerskole",
+"painting school"
+]
+]
+},
+{
+"da": "6. Kunstmuseer og udstillinger: Hvilket museum har åbent om aftenen én gang om måneden?",
+"en": "6. Art museums and exhibitions: Which museum is open in the evening once a month?",
+"p": true,
+"note": "Question 6. \"om aftenen\" = in the evening; \"om måneden\" = per month. \"én\" with an accent means \"one\".",
+"words": [
+[
+"Kunstmuseer",
+"art museums"
+],
+[
+"aftenen",
+"the evening"
+],
+[
+"måneden",
+"the month"
+]
+]
+}
+]
+},
 "pd3-18m-1": {
 "lines": [
 {
