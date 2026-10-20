@@ -1,6 +1,32 @@
 {
- "updated": "2026-10-20T15:07+00:00",
+ "updated": "2026-10-20T19:18+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/maend-er-igen-anholdt-i-sag-om-haendelse-ved-britisk-base",
+   "date": "2026-10-20T18:33:12+00:00",
+   "da": {
+    "title": "To mænd er igen anholdt i sag om hændelse ved britisk base",
+    "desc": ""
+   },
+   "en": {
+    "title": "Two men arrested again in incident case at UK base",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/spor-paa-koebenhavns-hovedbanegaard-er-spaerret-efter-roeg-fra-togbremser",
+   "date": "2026-10-20T16:42:35+00:00",
+   "da": {
+    "title": "Spor 1 på Københavns Hovedbanegård er spærret efter røg fra togbremser",
+    "desc": ""
+   },
+   "en": {
+    "title": "Track 1 at Copenhagen Central Station is blocked by smoke from train brakes",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/eccos-topchef-stopper",
@@ -167,32 +193,6 @@
    },
    "en": {
     "title": "Copenhagen Police ask DUP to investigate shootings of photographers",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/sas-fly-maatte-vende-om-paa-grund-af-teknisk-indikation",
-   "date": "2026-10-19T09:32:30+00:00",
-   "da": {
-    "title": "SAS-fly måtte vende om på grund af 'teknisk indikation'",
-    "desc": ""
-   },
-   "en": {
-    "title": "SAS aircraft had to turn back due to 'technical indication'",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/australsk-politiker-alvorligt-saaret-i-angreb-taet-paa-sit-kontor",
-   "date": "2026-10-19T09:06:55+00:00",
-   "da": {
-    "title": "Australsk politiker alvorligt såret i angreb tæt på sit kontor",
-    "desc": ""
-   },
-   "en": {
-    "title": "Australian politician seriously injured in attack near his office",
     "desc": ""
    }
   }
