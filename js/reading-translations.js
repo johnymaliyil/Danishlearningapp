@@ -7043,5 +7043,230 @@ PD2.READING_EN = {
     ]
    }
   ]
- }
+ },
+ "p17m-1": {
+ "title": "Task 1 – Find the information",
+ "instruction": "Answer the questions (1-6). Find the information in the texts. Answer briefly and precisely. See the example: \"Which hotel has a view of Vesterø Harbour?\" – Carlsens Hotel.",
+ "sections": [
+  {
+   "heading": "Places to stay on Læsø",
+   "cards": [
+    {
+     "title": "Østerby Hotel",
+     "body": "A seaside hotel like in the old days! Cosy little hotel right on Østerby Harbour. Five double rooms with a fantastic view. Close to the beach. Breakfast/sitting room and inn. Open all year."
+    },
+    {
+     "title": "Lyngfeldts Hotel",
+     "body": "Charming, cosy summer and seaside hotel right by Østerby Harbour, close to one of the island's best beaches. Relaxed atmosphere with a fantastic view of sea and sky. The restaurant serves good food with an emphasis on produce from Læsø, including Norway lobster."
+    },
+    {
+     "title": "Læsø Seaside Golf- & Badehotel",
+     "body": "Holiday cabins and green fees. Quiet, peaceful, stress-free surroundings. Golf restaurant with a panoramic view over the Kattegat and the golf course – one of Denmark's most beautiful."
+    },
+    {
+     "title": "Østergård B&B",
+     "body": "Hospitable accommodation in the middle of the island. Double rooms with private bath/toilet, flats for 2, 4 or 6 people. Homemade breakfast in the orangery. Peace and quiet in green surroundings."
+    },
+    {
+     "title": "Carlsens Hotel",
+     "body": "Cosy atmosphere in Læsø's best location. Right by the ferry terminal, with a lovely view over Vesterø Harbour and a local atmosphere. Inn and restaurant open every day."
+    },
+    {
+     "title": "Hotel Havnebakken",
+     "body": "View of sea and harbour. Open from 1 March. Less than 50 metres from the Kattegat, with the island's finest view. A few minutes' walk from the ferry and the best beach."
+    },
+    {
+     "title": "Lærkely Hotel & restaurant",
+     "body": "Idyll, harmony & new energy. An old Læsø farm in the middle of the island, with beautiful nature and a big garden. Short breaks with tasty food from Læsø's larder."
+    },
+    {
+     "title": "Hotel Nygaard",
+     "body": "New, cosy hotel on Læsø. Newly restored, in the middle of the island. Walking distance to Byrum. Close to a bus stop and cycle path. 18 bright rooms/flats, ten with room for an extra bed."
+    },
+    {
+     "title": "Krogbækgaard Kursus- og Feriecenter",
+     "body": "Riding holidays, weekends, riding courses, B&B and horse carriage. Right next to the Rønnerne nature area. Icelandic horses suited to both beginners and experienced riders."
+    },
+    {
+     "title": "Strandgaarden Badehotel",
+     "body": "Peace, pampering & activity. 15 double rooms with bath, plus seven rooms in the old part. The restaurant serves lovely menus by a team of skilled chefs."
+    }
+   ]
+  },
+  {
+   "heading": "Folk high schools 2015",
+   "cards": [
+    {
+     "title": "Askov Højskole",
+     "body": "Journalism and media; exam-preparation course, film and TV, art and design."
+    },
+    {
+     "title": "Bornholms Højskole",
+     "body": "Choose one main subject from each group: 1) art, ceramics, music; 2) media, cooking, jewellery/metal, glass."
+    },
+    {
+     "title": "Borups Højskole København",
+     "body": "City folk high school in the heart of Copenhagen. Students from all Nordic countries. Many creative subjects."
+    },
+    {
+     "title": "Brandbjerg Højskole",
+     "body": "Project management, music, outdoor, personal development. Travel, electives and projects."
+    },
+    {
+     "title": "Brande Højskole",
+     "body": "Dyslexic, tired of school or new in Denmark? BHS never gives up – a new start in life."
+    },
+    {
+     "title": "Brenderup Højskole",
+     "body": "International cultural meeting, global music, art, outdoor life, Danish language and culture, upcycling design, Nepal travel line."
+    },
+    {
+     "title": "Børkop Højskole",
+     "body": "Bible studies, theme days, electives. 4 lines: music, adventure, disciple, crafts. Trips abroad to Israel or Ethiopia."
+    },
+    {
+     "title": "Den Internationale Højskole",
+     "body": "Make your own timetable: culture and society, international affairs, entrepreneurship, English, travel."
+    },
+    {
+     "title": "Den Rytmiske Højskole",
+     "body": "Music with instrument lines; sound engineering, studio and PA; songwriter and producer line."
+    },
+    {
+     "title": "Djurslands Folkehøjskole",
+     "body": "Health, lifestyle, outdoor life, sport for fun. Theatre, music, crafts. IT and media."
+    },
+    {
+     "title": "Egå Ungdoms-Højskole",
+     "body": "Photo, film, art, music, design, sport, theatre, philosophy, politics and psychology. Study trips."
+    },
+    {
+     "title": "Grundtvigs Højskole",
+     "body": "Make your own timetable – e.g. photo, journalism, politics, film, philosophy, literature, music, art, theatre & movement."
+    },
+    {
+     "title": "Gymnastik og Idrætshøjskolen ved Viborg",
+     "body": "Gymnastics/dance, fitness, outdoor, water sports, ball games, preparation for police/special forces, travel."
+    },
+    {
+     "title": "Højskolen på Kalø",
+     "body": "Learn Danish language and culture in historic surroundings in Mols Bjerge National Park with students from all over the world."
+    },
+    {
+     "title": "Højskolen Skærgården",
+     "body": "For adults: well-being, health, lifestyle change. Psychology, movement, diet, creative subjects."
+    },
+    {
+     "title": "Højskolen Snoghøj",
+     "body": "Musical, acting, a course for foreigners, preparation for youth education, sound design."
+    },
+    {
+     "title": "Idrætshøjskolen Bosei",
+     "body": "Japanese, manga, Korean, meditation, karate, judo, taekwondo, yoga, volleyball, fitness, outdoor and swimming."
+    },
+    {
+     "title": "Jyderup Højskole",
+     "body": "Music: electronic, folk and songwriting. Art and glass-blowing."
+    },
+    {
+     "title": "Luthersk Missions Højskole",
+     "body": "Bible studies, sport, music, nature. Teaching in the Christian faith. Study trip to Turkey/Israel."
+    },
+    {
+     "title": "Nordjyllands Idrætshøjskole",
+     "body": "Sport and health: fitness, ball sports, outdoor/adventure, marathon/running school. Instructor training, travel."
+    },
+    {
+     "title": "Odder Højskole",
+     "body": "Film, journalism, music & dance, sport, fitness, psychology, art & design – combine as you like."
+    },
+    {
+     "title": "Ry Højskole",
+     "body": "Main subjects: journalism, outdoor life, theatre, music, ceramics, drawing and painting; 25 electives."
+    },
+    {
+     "title": "Rødding Højskole",
+     "body": "Main subjects: design, politics, music, journalism, theatre and literature. 25 side subjects. Study trips."
+    },
+    {
+     "title": "Testrup Højskole",
+     "body": "Music, theatre, art, philosophy, writing + more than 20 other subjects. Over 100 students and 18 teachers."
+    },
+    {
+     "title": "Uldum Højskole",
+     "body": "You make your own timetable and choose between 60 subjects in music, art, sport, psychology and social studies."
+    },
+    {
+     "title": "Vallekilde Højskole",
+     "body": "Journalist, game developer, producer, writer, designer, event manager, craftsperson or project leader abroad."
+    },
+    {
+     "title": "Vejle Idrætshøjskole",
+     "body": "Fitness, ball games, outdoor, endurance, police preparation, travel, electives, instructor training."
+    },
+    {
+     "title": "Vestjyllands Højskole",
+     "body": "General creative school with 8 main subjects: dance, music, singing, theatre, writing, art, cooking, organic farming."
+    },
+    {
+     "title": "Vrå Højskole",
+     "body": "Art, music, volunteering, photography, media, writing, fashion & design, Danish as a second language."
+    },
+    {
+     "title": "Aalborg Sportshøjskole",
+     "body": "Choose badminton, cross, fitness, handball, outdoor, police, riding or strength at the Sports and Coaching Academy."
+    }
+   ]
+  },
+  {
+   "heading": "Art museums and exhibitions",
+   "cards": [
+    {
+     "title": "Frederikshavn Kunstmuseum og Exlibrissamling",
+     "body": "Denmark's largest Karl Bovin collection and the world's largest collection of bookplates (about 500,000). 6–8 changing exhibitions a year. Open Tue–Sat 10–16."
+    },
+    {
+     "title": "Vendsyssel Kunstmuseum",
+     "body": "Art inspired by the North Jutland landscape, sculpture and crafts. Open every day 11–16, closed Mondays (with exceptions). Also open the 1st Thursday of the month until 20:00."
+    },
+    {
+     "title": "Skagens Museum",
+     "body": "The Skagen painters' best-known works plus Scandinavian contemporary art. Painting school for children in the school holidays, and a picture hunt. Summer: open daily 10–17, Wednesdays until 21."
+    },
+    {
+     "title": "Kunstbygningen i Vrå, Engelund-samlingen",
+     "body": "Landscapes and portraits by Svend Engelund (1929–1993) and works by the Vrå exhibition artists. 4–5 special exhibitions a year."
+    },
+    {
+     "title": "Victor Petersens Willumsen-samling",
+     "body": "Over 800 sketches and works by J.F. Willumsen at Odden manor, a film about his life, an exhibition on Odden's history and a café. Open 1/3–31/10 daily 10–17."
+    },
+    {
+     "title": "Børglum Kloster – Kunst på Klosteret",
+     "body": "Art exhibition 2015: new works by Esben Hanefelt Kristensen together with sculptures by Kirsten Tofte Jensen."
+    }
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "q": "Places to stay on Læsø: Which hotel is close to a bus stop?"
+  },
+  {
+   "q": "Folk high schools 2015: Which folk high school has a running school?"
+  },
+  {
+   "q": "Folk high schools 2015: At which folk high school can you go on a trip to Ethiopia?"
+  },
+  {
+   "q": "Folk high schools 2015: At which folk high school can you choose between 60 different subjects?"
+  },
+  {
+   "q": "Art museums: Which museum sometimes has a painting school for children?"
+  },
+  {
+   "q": "Art museums: Which museum is open in the evening once a month?"
+  }
+ ]
+}
 };

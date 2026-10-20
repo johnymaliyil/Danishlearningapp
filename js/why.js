@@ -3313,5 +3313,31 @@ PD2.WHY = {
 "da": "Afsnit H handler om fremtiden: «Jeg kunne godt tænke mig at blive instruktør» og starte på et kursus «næste år». G handler om selvkørende busser, ikke hans egne planer.",
 "en": "H is about his future: «I'd like to become an instructor» and start a course «next year». G is about self-driving buses, not his plans."
 }
+},
+"p17m-1": {
+"q0": {
+"da": "Under «Overnatning på Læsø» står der om Hotel Nygaard: «Tæt på busholdeplads og cykelsti».",
+"en": "Under «Overnatning på Læsø», Hotel Nygaard says: «Tæt på busholdeplads og cykelsti» (close to a bus stop and cycle path)."
+},
+"q1": {
+"da": "Nordjyllands Idrætshøjskole tilbyder «maraton/løbeskole». En løbeskole er et kursus, hvor man lærer at løbe.",
+"en": "Nordjyllands Idrætshøjskole offers «maraton/løbeskole» (marathon/running school)."
+},
+"q2": {
+"da": "Børkop Højskole skriver: «Udlandsture til Israel eller Etiopien». Pas på: Luthersk Missions Højskole har en studietur til Tyrkiet/Israel – ikke Etiopien.",
+"en": "Børkop Højskole: «Udlandsture til Israel eller Etiopien». Careful: Luthersk Missions Højskole goes to Turkey/Israel – not Ethiopia."
+},
+"q3": {
+"da": "Uldum Højskole: «Du sammensætter dit eget skema og vælger mellem 60 fag». Andre skoler nævner 20 eller 25 fag.",
+"en": "Uldum Højskole: «… vælger mellem 60 fag» (choose between 60 subjects). Other schools mention 20 or 25 subjects."
+},
+"q4": {
+"da": "Skagens Museum: «Malerskole for børn i skolernes ferier». «Somme tider» = kun i ferierne.",
+"en": "Skagens Museum: «Malerskole for børn i skolernes ferier» (painting school for children in the school holidays) – i.e. only sometimes."
+},
+"q5": {
+"da": "Vendsyssel Kunstmuseum: «Derudover åbent 1. torsdag i måneden til kl. 20» – altså om aftenen én gang om måneden. Skagens Museum har også åbent til kl. 21, men det er hver onsdag om sommeren.",
+"en": "Vendsyssel Kunstmuseum: «åbent 1. torsdag i måneden til kl. 20» – one evening a month. Skagens Museum is open until 21, but every Wednesday in summer."
+}
 }
 };
