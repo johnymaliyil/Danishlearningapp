@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "124"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "125"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -288,6 +288,8 @@
       <a role="menuitem" class="set-item" href="#/news"><span class="set-ico">📰</span><span>Dagens nyheder</span></a>
       <button role="menuitem" class="set-item" data-reminder><span class="set-ico">⏰</span><span>Daglig påmindelse i kalenderen</span></button>
       <div class="set-sec">Hjælp</div>
+      ${item("#/tips", "💡", "Tips og tricks til prøven")}
+      ${item("#/klar", "🎯", "Er jeg klar?")}
       ${item("#/help", "❓", '<span lang="en">Help – all features (English)</span>')}
       ${item("#/feedback", "⭐", "Bedøm / giv feedback")}
       <div class="set-sec">Appen</div>
@@ -459,6 +461,8 @@
     [/^\/tal(?:\/(\w+))?$/, numbersPage],
     [/^\/exam$/, examPage],
     [/^\/plan$/, planPage],
+    [/^\/klar$/, klarPage],
+    [/^\/tips$/, tipsPage],
     [/^\/mistakes$/, mistakesPage],
     [/^\/about$/, about],
     [/^\/legal$/, legalPage],
@@ -660,6 +664,10 @@
         <span class="pb-ico">📅</span><span class="pb-meta"><b>${esc(countdownText())}</b>
         <span class="small muted">${S.plan.date ? `Dagens plan: ${st.done}/${st.items.length} klaret` : "Lav en prøveplan med opgaver til hver dag"}</span></span>
         <span class="bar pb-bar"><i style="width:${st.items.length ? st.done / st.items.length * 100 : 0}%"></i></span></a>`; })()}
+      ${(() => { const p = readiness(), w = p.slice().sort((a, b) => a.level - b.level)[0]; return `<a class="card plan-banner" href="#/klar"><span class="pb-ico">🎯</span><span class="pb-meta"><b>Er jeg klar?</b>
+        <span class="small muted">${p.some(x => x.level >= 0) ? `${p.map(x => LVL[x.level][0]).join(" ")} · øv mest: ${esc(w.name)}` : "Se, hvor du står i læsning, skrivning og tale"}</span></span><span class="pill">Ny</span></a>`; })()}
+      <a class="card plan-banner" href="#/tips"><span class="pb-ico">💡</span><span class="pb-meta"><b>Tips og tricks til prøven</b>
+        <span class="small muted">Sådan klarer du læsning, skrivning og den mundtlige prøve – og prøvedagen</span></span><span class="pill">Ny</span></a>
 
       <div class="grid grid-3" style="margin-top:20px">
         ${taskCard("read", "#/reading", "📖", "Læsning", META().readingIntro.split(". ")[0].replace(/\.$/, "") + ".", rd, rt, "opgaver løst")}
@@ -1150,6 +1158,112 @@
     return (html + esc(text.slice(pos))).replace(/\n/g, "<br>");
   }
 
+  // ---------- 🔤 Stavekontrol (offline) ----------
+  // Every Danish word form the app knows: exam texts, model answers, the listening lessons, the word lists
+  // and all forms of the 500 verbs and 250 adjectives (~23,000 forms) + common endings and compounds.
+  // Words not found are shown as "check the spelling", with the closest known word as a suggestion.
+  let LEX = null;
+  function lexicon() {
+    if (LEX) return LEX;
+    const set = new Set(), add = t => (String(t || "").toLowerCase().match(/[a-zæøåéü]+/g) || []).forEach(w => set.add(w));
+    Object.values(PD2.EXAMS).forEach(E => ["READING", "WRITING", "SPEAKING_MONO", "SPEAKING_DIALOG", "SPEAKING_PICTURE", "SPEAKING_TOPIC"].forEach(k => add(JSON.stringify(E[k] || []))));
+    [PD2.LISTEN, PD2.LISTEN_R].forEach(src => Object.values(src || {}).forEach(L => (L.lines || []).forEach(l => add(l.da))));
+    (PD2.FREQ || []).forEach(f => add(f[0]));
+    (PD2.GLOSSARY_RAW || "").split("\n").forEach(l => add(l.split("=")[0]));
+    (PD2.VERBS || []).forEach(v => v.slice(0, 6).forEach(add));
+    (PD2.ADJS || []).forEach(v => v.slice(0, 5).forEach(add));
+    Object.values(PD2.TEMPLATES || {}).forEach(t => add(JSON.stringify(t)));
+    return (LEX = set);
+  }
+  // Wrong past tense of irregular verbs: skrivede → skrev, gåede → gik, spisede → spiste.
+  let WRONG_PAST = null;
+  function wrongPast() {
+    if (WRONG_PAST) return WRONG_PAST;
+    const m = new Map(), L = lexicon();
+    (PD2.VERBS || []).forEach(v => {
+      const inf = v[0], past = String(v[2] || "").split(/[\/,]/)[0].trim(), stem = v[5] && v[5] !== "-" ? v[5] : inf.replace(/e$/, "");
+      if (!past || /\s/.test(inf)) return;
+      [stem + "ede", stem + "te", stem + "ed", inf + "de", inf + "dede", inf + "ede"].forEach(f => {
+        if (f !== past && !String(v[2]).includes(f) && f.length > 3 && !m.has(f)) m.set(f, past);
+      });
+    });
+    // Forms that are also real words (e.g. a noun) are left alone.
+    // Forms found in the app's correct texts (or allowed double forms) are left alone.
+    ["lærede", "turde", "kunne", "skulle", "ville", "måtte", "burde"].forEach(f => m.delete(f));
+    for (const [f] of m) if (L.has(f)) m.delete(f);
+    return (WRONG_PAST = m);
+  }
+  const SP_OK = "dk-spell-ok";
+  const spellOk = () => new Set(pref(SP_OK).split(",").filter(Boolean));
+  const SP_ENDS = ["erne", "ende", "ede", "este", "ene", "ere", "est", "en", "et", "ne", "er", "te", "de", "e", "s", "t", "r", "n"];
+  function knownWord(w, deep) {
+    const L = lexicon();
+    if (L.has(w)) return true;
+    for (const e of SP_ENDS) if (w.length - e.length >= 3 && w.endsWith(e) && L.has(w.slice(0, -e.length))) return true;
+    // Compounds: sundhed + s + plejerske, arbejds + plads …
+    if (!deep && w.length >= 7) for (let i = 3; i <= w.length - 3; i++) {
+      if (!L.has(w.slice(0, i))) continue;
+      const b = w.slice(i);
+      if (knownWord(b, true) || (/^[se]/.test(b) && b.length > 3 && knownWord(b.slice(1), true))) return true;
+    }
+    return false;
+  }
+  function lev(a, b, max) {
+    if (Math.abs(a.length - b.length) > max) return max + 1;
+    let prev = Array.from({ length: b.length + 1 }, (_, i) => i);
+    for (let i = 1; i <= a.length; i++) {
+      const cur = [i]; let low = i;
+      for (let j = 1; j <= b.length; j++) { cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1)); low = Math.min(low, cur[j]); }
+      if (low > max) return max + 1;
+      prev = cur;
+    }
+    return prev[b.length];
+  }
+  const spCache = new Map();
+  function spellSuggest(w) {
+    if (spCache.has(w)) return spCache.get(w);
+    const fm = freqMap(); let best = null, bd = 3;
+    for (const c of lexicon()) {
+      if (c[0] !== w[0] || Math.abs(c.length - w.length) > 2) continue;
+      const d = lev(w, c, 2);
+      if (d < bd || (d === bd && best && fm.has(c) && !fm.has(best))) { bd = d; best = c; }
+    }
+    const r = bd <= 2 ? best : null;
+    spCache.set(w, r);
+    return r;
+  }
+  // Unknown words in a text: [{ w, fix }]. Names (capital letter inside a sentence) and the word being typed are skipped.
+  function spellIssues(text) {
+    const ok = spellOk(), mine = new Set(nb().map(x => x.da.toLowerCase())), out = [], seen = new Set();
+    const re = /[A-Za-zÆØÅæøåéü]+/g; let m;
+    const typing = /[A-Za-zÆØÅæøå]$/.test(text);
+    while ((m = re.exec(text))) {
+      const raw = m[0], w = raw.toLowerCase();
+      if (typing && m.index + raw.length === text.length) continue;
+      if (w.length < 3 || seen.has(w) || ok.has(w) || mine.has(w)) continue;
+      const before = text.slice(0, m.index).trimEnd();
+      if (/^[A-ZÆØÅ]/.test(raw) && before && !/[.!?:\n]$/.test(before)) continue; // a name
+      seen.add(w);
+      const wp = wrongPast().get(w);
+      if (wp) out.push({ w, raw, fix: wp, why: "datid" });
+      else if (!knownWord(w)) out.push({ w, raw, fix: spellSuggest(w) });
+      if (out.length >= 12) break;
+    }
+    return out;
+  }
+
+  // 📝 Has each point of the task been written about? Looks for the important words of the point in the text.
+  const PT_STOP = new Set("hvad hvor hvordan hvorfor hvilke hvilken hvornår hvem dine dit din jeres deres eller også gerne kunne skal skriv skrive fortæl fortælle beskriv beskrive giver eksempel eksempler eventuelt mindst nogle noget andre anden andet være have dette denne disse både mellem efter inden under over med uden mener synes tror hvis fordi derfor".split(" "));
+  const pointKeys = p => (p.toLowerCase().match(/[a-zæøå]+/g) || []).filter(t => t.length >= 4 && !PT_STOP.has(t));
+  function missingPoints(text, w, ticks) {
+    const low = text.toLowerCase();
+    return w.points.map((p, i) => ({ p, i })).filter(({ p, i }) => {
+      if ((ticks || []).includes(i)) return false;
+      const k = pointKeys(p);
+      return k.length && !k.some(x => low.includes(x.slice(0, Math.max(4, x.length - 2))));
+    });
+  }
+
   function analyse(text, w) {
     const words = countWords(text);
     const sentences = text.split(/[.!?]+(?:\s|$)/).map(s => s.trim()).filter(s => countWords(s) > 0);
@@ -1253,6 +1367,11 @@
             <div id="gram"></div>
           </div>
           <div class="card">
+            <h3>🔤 Stavning</h3>
+            <p class="small muted" style="margin-top:-4px">Ord, appen ikke kender. Tryk på et forslag for at rette ordet.</p>
+            <div id="spell"></div>
+          </div>
+          <div class="card">
             <h3>🔗 Bindeord du har brugt</h3>
             <div class="chips" id="conns"></div>
           </div>
@@ -1269,12 +1388,27 @@
     const maxScale = w.maxWords * 1.25;
     zone.style.left = (w.minWords / maxScale * 100) + "%";
     zone.style.width = ((w.maxWords - w.minWords) / maxScale * 100) + "%";
-    let saveT;
+    let saveT, spellT;
     function update() {
       const a = analyse(ed.value, w);
       $("#wc").textContent = `${a.words} ord`;
       fill.style.width = Math.min(100, a.words / maxScale * 100) + "%";
+      if (a.words >= 50) missingPoints(ed.value, w, st.ticks).forEach(({ p }) => a.checks.push(["warn", `Har du husket dette punkt? «${p}»`]));
       $("#checks").innerHTML = a.checks.map(([k, t]) => `<li><span class="i">${k === "ok" ? "✅" : "💡"}</span><span>${esc(t)}</span></li>`).join("");
+      clearTimeout(spellT);
+      spellT = setTimeout(() => {
+        const box = $("#spell"); if (!box) return;
+        const sp = countWords(ed.value) ? spellIssues(ed.value) : [];
+        box.innerHTML = !countWords(ed.value) ? `<p class="small muted" style="margin:0">Begynd at skrive …</p>`
+          : sp.length ? `<div class="spell-list">${sp.map(x => `<div class="spell-row no-tr"><b>${esc(x.raw)}</b>${x.fix ? ` → <button class="chip" data-sp-fix="${esc(x.fix)}" data-sp-w="${esc(x.raw)}">${esc(x.fix)}?</button>${x.why ? ` <span class="small muted">– uregelmæssig datid</span>` : ""}` : ` <span class="small muted">– tjek stavningen</span>`}
+              <button class="spell-ok small" data-sp-ok="${esc(x.w)}" title="Ordet er rigtigt – spørg ikke igen">✓ rigtigt</button></div>`).join("")}</div>`
+          : `<p class="small" style="margin:0">✅ Appen kender alle dine ord.</p>`;
+        $$("[data-sp-fix]", box).forEach(b => b.onclick = () => {
+          const from = b.dataset.spW, to = /^[A-ZÆØÅ]/.test(from) ? b.dataset.spFix[0].toUpperCase() + b.dataset.spFix.slice(1) : b.dataset.spFix;
+          ed.value = ed.value.replace(new RegExp(`(^|[^A-Za-zÆØÅæøå])${reEsc(from)}(?![A-Za-zÆØÅæøå])`), `$1${to}`); update();
+        });
+        $$("[data-sp-ok]", box).forEach(b => b.onclick = () => { const o = spellOk(); o.add(b.dataset.spOk); setPref(SP_OK, [...o].slice(-300).join(",")); update(); });
+      }, 600);
       const gi = grammarIssues(ed.value);
       $("#gram").innerHTML = !countWords(ed.value) ? `<p class="small muted" style="margin:0">Begynd at skrive …</p>`
         : gi.length ? `<ol class="gram-issues">${gi.slice(0, 12).map(g => `<li><b class="no-tr">«${esc(g.text.trim())}»</b> → <b class="good no-tr">${esc(g.fix)}</b><div class="small">${esc(g.da)}</div><div class="small muted" lang="en">${esc(g.en)}</div></li>`).join("")}</ol>
@@ -2295,6 +2429,130 @@
       <p class="small muted">${sch ? "Alle prøvesæt og opgaver, du ikke har lavet endnu, er fordelt på dagene frem til prøven. Opgaverne bliver krydset af automatisk, når du laver dem. Når du springer en dag over, flytter opgaverne automatisk til de næste dage." : "Planen ændrer sig hver dag og vælger opgaver, du ikke har lavet endnu. Opgaverne bliver krydset af automatisk, når du laver dem."}</p>`;
     $("#planDate").onchange = e => { S.plan.date = e.target.value; S.plan.day = null; save(); planPage(); };
     $("#planPer").onchange = e => { S.plan.perWeek = +e.target.value; S.plan.day = null; save(); planPage(); };
+  }
+
+  // ---------- 🎯 Er jeg klar? ----------
+  // A rough readiness check per part of the exam, from what the learner has done in the app, with the
+  // weakest spot and a direct link to practise it. Only an estimate – the real exam decides.
+  const G7 = [12, 10, 7, 4, 2, 0, -3];
+  const g7num = g => (g === "02" ? 2 : g === "00" ? 0 : +g);
+  const g7str = n => { const g = G7.reduce((a, b) => (Math.abs(b - n) < Math.abs(a - n) ? b : a)); return g === 2 ? "02" : g === 0 ? "00" : String(g); };
+  function readiness() {
+    const E = EX(), pct = (a, b) => (b ? Math.round(a / b * 100) : 0);
+    // Reading
+    const rd = E.READING.filter(r => S.reading[r.id]), rs = rd.reduce((a, r) => a + S.reading[r.id].best, 0), rt = rd.reduce((a, r) => a + S.reading[r.id].total, 0);
+    const types = {};
+    rd.forEach(r => { const k = (r.kind || "Læsning").replace(/^Delprøve \d · /, ""), t = types[k] = types[k] || { s: 0, t: 0, worst: null }; const x = S.reading[r.id]; t.s += x.best; t.t += x.total; if (!t.worst || x.best / x.total < S.reading[t.worst.id].best / S.reading[t.worst.id].total) t.worst = r; });
+    const weakType = Object.entries(types).map(([k, v]) => ({ k, p: pct(v.s, v.t), r: v.worst })).sort((a, b) => a.p - b.p)[0];
+    const mocks = S.exams.filter(e => (e.exam || "pd2") === S.exam).slice(0, 3), mockPct = mocks.length ? Math.round(mocks.reduce((a, e) => a + e.score / e.total, 0) / mocks.length * 100) : null;
+    const rPct = mockPct !== null && rd.length < 5 ? mockPct : pct(rs, rt), nextR = E.READING.find(r => !S.reading[r.id]);
+    const reading = { ico: "📖", name: "Læsning", have: rd.length >= 3 || mocks.length,
+      level: rd.length >= 3 || mocks.length ? (rPct >= 75 ? 2 : rPct >= 55 ? 1 : 0) : -1,
+      lines: [`${rd.length} af ${E.READING.length} læseopgaver løst · ${pct(rs, rt)} % rigtige`].concat(mocks.length ? [`Prøvesimuleringer: ${mockPct} % i gennemsnit (${mocks.length})`] : []),
+      grade: rd.length >= 3 ? estGrade(rPct / 100) : null,
+      todo: weakType && weakType.p < 80 ? { text: `Svagest: ${weakType.k} (${weakType.p} %). Lav opgaven igen, og læs forklaringerne.`, href: `#/reading/${weakType.r.id}` }
+        : nextR ? { text: "Løs flere læseopgaver – helst et helt prøvesæt med tid.", href: `#/reading/${nextR.id}` } : null };
+    // Writing
+    const wg = E.WRITING.filter(w => S.writing[w.id] && S.writing[w.id].best), avgW = wg.length ? wg.reduce((a, w) => a + g7num(S.writing[w.id].best), 0) / wg.length : null;
+    const wDrafts = E.WRITING.filter(w => S.writing[w.id] && countWords(S.writing[w.id].draft || "") > 30).length, nextW = E.WRITING.find(w => !(S.writing[w.id] && S.writing[w.id].best));
+    const writing = { ico: "✍️", name: "Skrivning", have: wg.length > 0,
+      level: wg.length ? (avgW >= 7 && wg.length >= 4 ? 2 : avgW >= 4 ? 1 : 0) : -1,
+      lines: [`${wDrafts} tekster skrevet · ${wg.length} bedømt`].concat(wg.length ? [`Dit skøn i gennemsnit: ${g7str(avgW)}`] : []),
+      grade: wg.length ? g7str(avgW) : null,
+      todo: wg.length < 4 && nextW ? { text: "Skriv flere tekster, og bedøm dem bagefter – mindst 2 om ugen.", href: `#/writing/${nextW.id}` }
+        : avgW !== null && avgW < 7 ? { text: "Brug skabelonerne – de faste vendinger giver struktur og points.", href: "#/writing/skabeloner" } : nextW ? { text: "Skriv en tekst mere med tid på.", href: `#/writing/${nextW.id}` } : null };
+    // Speaking
+    const sp = ["SPEAKING_MONO", "SPEAKING_PICTURE", "SPEAKING_DIALOG", "SPEAKING_TOPIC"].flatMap(k => E[k] || []), spDone = sp.filter(x => S.speaking.done[x.id]).length, mins = Math.round(S.speaking.seconds / 60);
+    const nextS = sp.find(x => !S.speaking.done[x.id]);
+    const speaking = { ico: "🗣️", name: "Tale", have: spDone > 0,
+      level: spDone ? (spDone >= 10 && mins >= 45 ? 2 : spDone >= 4 ? 1 : 0) : -1,
+      lines: [`${spDone} af ${sp.length} emner øvet · ${mins} minutters tale`],
+      todo: spDone < 10 ? { text: "Øv et emne mere: tal højt med timer, og optag dig selv.", href: "#/speaking" } : { text: "Prøv den mundtlige simulering – som til prøven.", href: "#/speaking/sim" } };
+    // Words and grammar
+    const gl = PD2.GRAMMAR.map(g => ({ g, b: gramBest(g.id) })), full = gl.filter(x => x.b && x.b.score === x.b.total).length;
+    const weakG = gl.filter(x => x.b).sort((a, b) => a.b.score / a.b.total - b.b.score / b.b.total)[0], nextG = gl.find(x => !x.b);
+    const vl = vLearnedCount(), mw = nb().length;
+    const grammar = { ico: "📐", name: "Grammatik og ord", have: gl.some(x => x.b) || vl > 0,
+      level: gl.some(x => x.b) || vl ? (full >= gl.length * 0.8 && vl >= 300 ? 2 : full >= 3 || vl >= 100 ? 1 : 0) : -1,
+      lines: [`${full} af ${gl.length} grammatiklektioner klaret · ${vl} ord lært${mw ? ` · ${mw} i Mine ord` : ""}`],
+      todo: weakG && weakG.b.score < weakG.b.total ? { text: `Øv igen: ${weakG.g.title}.`, href: `#/grammar/${weakG.g.id}` }
+        : nextG ? { text: `Næste lektion: ${nextG.g.title}.`, href: `#/grammar/${nextG.g.id}` } : { text: "Lær nye ord i Ordtræneren hver dag.", href: "#/games/vocab" } };
+    return [reading, writing, speaking, grammar];
+  }
+  const LVL = { "-1": ["⚪", "Ikke startet"], 0: ["🔴", "Øv mere"], 1: ["🟡", "På vej"], 2: ["🟢", "Klar"] };
+  function klarPage() {
+    const parts = readiness(), started = parts.filter(p => p.level >= 0), d = daysUntil(S.plan.date);
+    const worst = parts.slice().sort((a, b) => a.level - b.level)[0];
+    const all2 = started.length === parts.length && parts.every(p => p.level === 2);
+    app.innerHTML = `<a class="back" href="#/">← Forside</a>
+      <h1>🎯 Er jeg klar? <span class="tag">${META().name}</span></h1>
+      <p class="muted">Et skøn ud fra det, du har øvet i appen${d !== null && d >= 0 ? ` · ${esc(countdownText())}` : ""}. Jo mere du øver, jo bedre bliver skønnet.</p>
+      <div class="card stage klar-top">
+        <div class="word-big" style="font-size:clamp(1.5rem,6vw,2.2rem)">${all2 ? "🟢 Du er godt på vej til prøven!" : !started.length ? "⚪ Begynd at øve, så kan vi se, hvor du står" : `${LVL[worst.level][0]} Øv mest: ${esc(worst.name)}`}</div>
+        ${worst.todo && !all2 ? `<a class="btn write" href="${worst.todo.href}">▶ ${esc(worst.todo.text)}</a>` : ""}
+      </div>
+      <div class="grid grid-2" style="margin-top:14px">${parts.map(p => `<div class="card klar-part lvl${p.level}">
+          <div class="row" style="justify-content:space-between"><h2 style="margin:0">${p.ico} ${esc(p.name)}</h2><span class="pill">${LVL[p.level][0]} ${LVL[p.level][1]}</span></div>
+          ${p.grade ? `<p style="margin:8px 0 4px">Skønnet karakter: <b class="klar-grade">${esc(p.grade)}</b></p>` : ""}
+          ${p.lines.map(l => `<p class="small muted" style="margin:4px 0">${esc(l)}</p>`).join("")}
+          ${p.todo ? `<a class="btn ghost sm" href="${p.todo.href}" style="margin-top:8px">${esc(p.todo.text)}</a>` : ""}
+        </div>`).join("")}</div>
+      <div class="row" style="margin-top:16px"><a class="btn read" href="#/exam">📝 Tag en prøvesimulering</a><a class="btn ghost" href="#/plan">📅 Min prøveplan</a><a class="btn ghost" href="#/tips">💡 Tips til prøven</a></div>
+      <p class="small muted" style="margin-top:12px">Skønnet er kun vejledende. Karaktererne for skrivning er dine egne skøn fra "Bedøm min tekst". Den rigtige prøve bedømmes af censorer.</p>`;
+  }
+
+  // ---------- 💡 Tips og tricks til prøven ----------
+  const EXAM_TIPS = [
+    ["📅", "Ugerne før prøven", [
+      ["Lær formatet at kende: lav mindst 2–3 prøvesimuleringer med tid, så du ved, hvor lang tid hver del tager.", "Get to know the format: do at least 2–3 timed mock exams so you know how long each part takes."],
+      ["Lær skabelonerne til skrivning udenad – især start og slutning. Så bruger du ikke tid på dem til prøven.", "Learn the writing templates by heart – especially the opening and closing – so you don't spend time on them in the exam."],
+      ["Øv lidt hver dag i stedet for meget én dag. 30–60 minutter dagligt giver mest.", "Practise a little every day instead of a lot on one day. 30–60 minutes a day works best."],
+      ["Skriv nye ord ned (📒 Mine ord), og gentag dem. Ordforråd hjælper i alle dele af prøven.", "Save new words (📒 My words) and repeat them. Vocabulary helps in every part of the exam."],
+      ["Gennemgå dine fejl (❌ Mine fejl). Man lærer mest af det, man svarede forkert på.", "Go through your mistakes (❌ My mistakes). You learn most from what you got wrong."]]],
+    ["📖", "Læsning", [
+      ["Læs spørgsmålet først – så ved du, hvad du skal lede efter i teksten.", "Read the question first – then you know what to look for in the text."],
+      ["Du behøver ikke forstå alle ord. Led efter nøgleord, tal, navne og datoer.", "You don't need to understand every word. Look for key words, numbers, names and dates."],
+      ["Pas på fælder: det samme ord i spørgsmålet og i teksten betyder ikke altid, at det er svaret. Tjek, at hele svaret passer.", "Watch out for traps: the same word in the question and the text doesn't always mean it's the answer. Check that the whole answer fits."],
+      ["Ved huller: læs sætningen før og efter hullet. Passer ordet både i betydning og grammatik (en/et, flertal, tid)?", "For gaps: read the sentence before and after the gap. Does the word fit both the meaning and the grammar (en/et, plural, tense)?"],
+      ["Ved \"hvem siger hvad\" og overskrifter: den første sætning i hvert afsnit fortæller ofte mest.", "For \"who says what\" and headings: the first sentence of each paragraph often tells you most."],
+      ["Brug ikke for lang tid på ét spørgsmål. Spring over, og kom tilbage til sidst.", "Don't spend too long on one question. Skip it and come back at the end."],
+      ["Svar på alle spørgsmål – et tomt felt giver aldrig point.", "Answer every question – an empty answer never gets points."],
+      ["Ved korte svar: skriv kort og præcist, og stav ordene fra teksten rigtigt.", "For short answers: write briefly and precisely, and spell the words from the text correctly."]]],
+    ["✍️", "Skrivning", [
+      ["Læs opgaven to gange, og skriv om ALLE punkterne. Hvis du glemmer et punkt, kan det koste meget.", "Read the task twice and write about ALL the points. Forgetting a point can cost a lot."],
+      ["Brug 5 minutter på at planlægge: ét afsnit til hvert punkt.", "Spend 5 minutes planning: one paragraph for each point."],
+      ["Passer tonen til modtageren? Ven = uformel (Hej …, Kærlig hilsen). Firma eller kommune = formel (Kære …, Med venlig hilsen).", "Does the tone fit the reader? Friend = informal (Hej …, Kærlig hilsen). Company or council = formal (Kære …, Med venlig hilsen)."],
+      ["Korte, korrekte sætninger er bedre end lange med fejl.", "Short, correct sentences are better than long ones with mistakes."],
+      ["Brug bindeord: fordi, derfor, men, selvom, desuden, til sidst.", "Use linking words: fordi, derfor, men, selvom, desuden, til sidst."],
+      ["Husk inversion: \"I weekenden spiser jeg …\" – verbet står på plads 2.", "Remember inversion: \"I weekenden spiser jeg …\" – the verb is in position 2."],
+      ["Hold dig inden for ordantallet.", "Stay within the word count."],
+      ["Brug de sidste 10 minutter på at læse korrektur: verber, en/et, stort bogstav efter punktum.", "Use the last 10 minutes to proofread: verbs, en/et, capital letters after full stops."]]],
+    ["🗣️", "Mundtlig prøve", [
+      ["Forbered dine emner: lav en lille liste med 3–4 punkter og et eksempel fra dit eget liv til hvert emne.", "Prepare your topics: make a short list of 3–4 points and an example from your own life for each topic."],
+      ["Sig hvorfor: \"Jeg synes, at …, fordi …\". Eksempler og grunde giver de bedste svar.", "Say why: \"Jeg synes, at …, fordi …\". Examples and reasons make the best answers."],
+      ["Forstår du ikke spørgsmålet? Spørg: \"Undskyld, kan du sige det igen?\" – det er helt i orden.", "Don't understand the question? Ask: \"Undskyld, kan du sige det igen?\" – that's completely fine."],
+      ["Brug tid-købende vendinger: \"Det er et godt spørgsmål …\", \"Lad mig tænke …\".", "Use phrases that buy time: \"Det er et godt spørgsmål …\", \"Lad mig tænke …\"."],
+      ["Ved billeder: beskriv først, hvad du ser (\"På billedet kan man se …\"), og fortæl så, hvad du selv mener.", "With pictures: first describe what you see (\"På billedet kan man se …\"), then say what you think."],
+      ["I samtalen: stil også spørgsmål tilbage, og svar på det, den anden siger.", "In the conversation: ask questions back, and respond to what the other person says."],
+      ["Det er okay at rette dig selv. Tal roligt, og hold øjenkontakt.", "It's okay to correct yourself. Speak calmly and keep eye contact."]]],
+    ["🍀", "På prøvedagen", [
+      ["Tjek din indkaldelse: tid, sted og hvad du skal have med – fx billed-ID.", "Check your exam letter: time, place and what to bring – e.g. photo ID."],
+      ["Kom i god tid, gerne 30 minutter før.", "Arrive early, ideally 30 minutes before."],
+      ["Sov godt, spis morgenmad, og tag vand med.", "Sleep well, eat breakfast and bring water."],
+      ["Se på uret undervejs, så du når alle opgaverne.", "Keep an eye on the clock so you get through all the tasks."],
+      ["Er du nervøs? Træk vejret dybt tre gange. Du har øvet dig – du kan det!", "Nervous? Take three deep breaths. You have practised – you can do it!"]]]
+  ];
+  function tipsPage() {
+    const c = MOCK_CFG[S.exam];
+    app.innerHTML = `<a class="back" href="#/">← Forside</a>
+      <h1>💡 Tips og tricks til prøven <span class="tag">${META().name}</span></h1>
+      <p class="muted">Gode råd til at bestå ${esc(PD2.EXAM_META[S.exam].full)}. Tryk på en overskrift for at se tipsene.</p>
+      ${c ? `<div class="card"><h2 style="margin-top:0">Sådan ser den skriftlige prøve ud</h2>
+        <table class="simple"><tr><th>Del</th><th>Indhold</th><th>Tid</th></tr>${c.rows.map(r => `<tr>${r.map(x => `<td>${esc(x)}</td>`).join("")}</tr>`).join("")}</table>
+        <p class="small muted" style="margin:8px 0 0">Tiderne er vejledende – tjek altid din indkaldelse og dit sprogcenter.</p></div>` : ""}
+      <div class="stack tips" style="margin-top:14px">${EXAM_TIPS.map(([ico, title, list], i) => `<details class="card" ${i === 0 ? "open" : ""}><summary><h2 style="display:inline;margin:0">${ico} ${esc(title)}</h2></summary>
+        <ol class="tip-list">${list.map(([da, en]) => `<li><span>${esc(da)}</span><span class="small muted" lang="en">${esc(en)}</span></li>`).join("")}</ol></details>`).join("")}</div>
+      <div class="row" style="margin-top:16px"><a class="btn write" href="#/klar">🎯 Er jeg klar?</a><a class="btn read" href="#/exam">📝 Prøvesimulering</a>${S.exam === "pd3" && PD2.PD3_GUIDE ? `<a class="btn ghost" href="#/pd3guide">🧭 PD3-guide</a>` : ""}<a class="btn ghost" href="#/writing/skabeloner">📋 Skabeloner</a></div>`;
   }
 
   // ----- Mine fejl -----

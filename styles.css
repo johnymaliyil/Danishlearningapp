@@ -1075,3 +1075,22 @@ button.lword.saved .lw-ico { color: var(--ok, #15803d); font-weight: 900; }
 .plan-day.mock span { font-weight: 700; }
 .plan-day.exam { color: var(--accent); font-weight: 800; }
 .plan-days details summary { cursor: pointer; font-weight: 800; padding: 10px 0; }
+
+/* 🔤 Stavning */
+.spell-list { display: grid; gap: 6px; }
+.spell-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.spell-row b { color: var(--bad, #b91c1c); text-decoration: underline wavy; text-underline-offset: 3px; }
+.spell-ok { border: 0; background: none; color: var(--muted); cursor: pointer; text-decoration: underline; padding: 0 2px; }
+
+/* 🎯 Er jeg klar? */
+.klar-top .btn { margin-top: 6px; white-space: normal; }
+.klar-part { border-left: 5px solid var(--border); }
+.klar-part.lvl0 { border-left-color: #dc2626; } .klar-part.lvl1 { border-left-color: #eab308; } .klar-part.lvl2 { border-left-color: #16a34a; }
+.klar-grade { font-size: 1.3rem; }
+.klar-part .btn { white-space: normal; text-align: left; }
+
+/* 💡 Tips */
+.tips summary { cursor: pointer; list-style-position: outside; }
+.tip-list { margin: 12px 0 0; padding-left: 22px; display: grid; gap: 10px; }
+.tip-list li span { display: block; }
+.tip-list li span:first-child { font-weight: 600; }
