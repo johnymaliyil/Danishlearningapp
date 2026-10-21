@@ -1,6 +1,58 @@
 {
- "updated": "2026-10-21T15:17+00:00",
+ "updated": "2026-10-21T19:19+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/meta-faar-milliardboede-af-new-mexico",
+   "date": "2026-10-21T18:05:57+00:00",
+   "da": {
+    "title": "Meta får milliardbøde af New Mexico",
+    "desc": ""
+   },
+   "en": {
+    "title": "Meta fined billions by New Mexico",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/fire-saaret-i-eksplosion-i-athen",
+   "date": "2026-10-21T17:38:40+00:00",
+   "da": {
+    "title": "Fire såret i eksplosion i Athen",
+    "desc": ""
+   },
+   "en": {
+    "title": "Four wounded in explosion in Athens",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/cirkusdirektrice-hanne-berdino-er-doed",
+   "date": "2026-10-21T17:09:18+00:00",
+   "da": {
+    "title": "Cirkusdirektrice Hanne Berdino er død",
+    "desc": ""
+   },
+   "en": {
+    "title": "Circus director Hanne Berdino has died",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/pia-kjaersgaard-politianmelder-hoejskolen-deltager-afrah-al-jabouri",
+   "date": "2026-10-21T16:08:23+00:00",
+   "da": {
+    "title": "Pia Kjærsgaard politianmelder Højskolen-deltager Afrah al-Jabouri",
+    "desc": ""
+   },
+   "en": {
+    "title": "Pia Kjærsgaard police reporter Højskolen participant Afrah al-Jabouri",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/dmi-s-hjemmeside-er-ude-af-drift",
@@ -141,58 +193,6 @@
    },
    "en": {
     "title": "Sex & Society Opens New Counseling Offering on Women's Health",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/burkina-faso-genindfoerer-doedsstraf",
-   "date": "2026-10-21T04:01:41+00:00",
-   "da": {
-    "title": "Burkina Faso genindfører dødsstraf",
-    "desc": ""
-   },
-   "en": {
-    "title": "Burkina Faso reinstates the death penalty",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/hegseth-usa-har-ikke-begraenset-satellitsystem-ukraine",
-   "date": "2026-10-20T22:19:41+00:00",
-   "da": {
-    "title": "Hegseth: USA har ikke begrænset satellitsystem for Ukraine",
-    "desc": ""
-   },
-   "en": {
-    "title": "Hegseth: US does not have restricted satellite system for Ukraine",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/maend-er-igen-anholdt-i-sag-om-haendelse-ved-britisk-base",
-   "date": "2026-10-20T18:33:12+00:00",
-   "da": {
-    "title": "To mænd er igen anholdt i sag om hændelse ved britisk base",
-    "desc": ""
-   },
-   "en": {
-    "title": "Two men arrested again in incident case at UK base",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/spor-paa-koebenhavns-hovedbanegaard-er-spaerret-efter-roeg-fra-togbremser",
-   "date": "2026-10-20T16:42:35+00:00",
-   "da": {
-    "title": "Spor 1 på Københavns Hovedbanegård er spærret efter røg fra togbremser",
-    "desc": ""
-   },
-   "en": {
-    "title": "Track 1 at Copenhagen Central Station is blocked by smoke from train brakes",
     "desc": ""
    }
   }
