@@ -1,6 +1,71 @@
 {
- "updated": "2026-10-21T09:23+00:00",
+ "updated": "2026-10-21T15:17+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/dmi-s-hjemmeside-er-ude-af-drift",
+   "date": "2026-10-21T14:11:38+00:00",
+   "da": {
+    "title": "DMI's hjemmeside er ude af drift",
+    "desc": ""
+   },
+   "en": {
+    "title": "DMI's website is out of order",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/dronning-mary-deltager-i-fn-s-klimatopmoede-i-tyrkiet",
+   "date": "2026-10-21T14:01:32+00:00",
+   "da": {
+    "title": "Dronning Mary deltager i FN's klimatopmøde i Tyrkiet",
+    "desc": ""
+   },
+   "en": {
+    "title": "Queen Mary attends UN climate summit in Turkey",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mere-end-150-personer-draebt-i-droneangreb-i-sydsudan",
+   "date": "2026-10-21T13:40:52+00:00",
+   "da": {
+    "title": "Mere end 150 personer dræbt i droneangreb i Sydsudan",
+    "desc": ""
+   },
+   "en": {
+    "title": "More than 150 people killed in drone strikes in South Sudan",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tidligere-ungarsk-centralbankchef-anholdt",
+   "date": "2026-10-21T13:34:04+00:00",
+   "da": {
+    "title": "Tidligere ungarsk centralbankchef anholdt",
+    "desc": ""
+   },
+   "en": {
+    "title": "Former Hungarian Central Bank Governor Arrested",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/stephen-hubbard-er-blevet-loesladt-efter-fire-aar-i-rusland",
+   "date": "2026-10-21T10:00:59+00:00",
+   "da": {
+    "title": "Stephen Hubbard er blevet løsladt efter fire år i Rusland",
+    "desc": ""
+   },
+   "en": {
+    "title": "Stephen Hubbard has been released after four years in Russia",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/eu-oeger-presset-paa-internationale-partnere-bidrag-til-ukraine",
@@ -128,71 +193,6 @@
    },
    "en": {
     "title": "Track 1 at Copenhagen Central Station is blocked by smoke from train brakes",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/eccos-topchef-stopper",
-   "date": "2026-10-20T13:34:46+00:00",
-   "da": {
-    "title": "Eccos topchef stopper",
-    "desc": ""
-   },
-   "en": {
-    "title": "Ecco's chief executive stops",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/storbritannien-sender-kampfly-til-saudi-arabien",
-   "date": "2026-10-20T12:15:42+00:00",
-   "da": {
-    "title": "Storbritannien sender kampfly til Saudi-Arabien",
-    "desc": ""
-   },
-   "en": {
-    "title": "UK sends fighter jets to Saudi Arabia",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/planer-om-datacentre-sat-paa-hold",
-   "date": "2026-10-20T07:59:40+00:00",
-   "da": {
-    "title": "Planer om datacentre sat på hold",
-    "desc": ""
-   },
-   "en": {
-    "title": "Data center on hold plans",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/staten-koeber-jord-vil-udvide-tre-naturnationalparker",
-   "date": "2026-10-20T06:23:06+00:00",
-   "da": {
-    "title": "Staten køber jord: Vil udvide tre naturnationalparker",
-    "desc": ""
-   },
-   "en": {
-    "title": "State Buying Land: Will Expand Three Natural National Parks",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/problemer-har-igen-ramt-togdriften-over-fyn-togbusser-indsat",
-   "date": "2026-10-20T05:37:14+00:00",
-   "da": {
-    "title": "Problemer har igen ramt togdriften over Fyn - togbusser indsat",
-    "desc": ""
-   },
-   "en": {
-    "title": "Problems have again hit the train operation over Funen - train buses deployed",
     "desc": ""
    }
   }
