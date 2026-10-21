@@ -1,6 +1,110 @@
 {
- "updated": "2026-10-20T19:18+00:00",
+ "updated": "2026-10-21T09:23+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/eu-oeger-presset-paa-internationale-partnere-bidrag-til-ukraine",
+   "date": "2026-10-21T08:25:25+00:00",
+   "da": {
+    "title": "EU øger presset på internationale partnere for bidrag til Ukraine",
+    "desc": ""
+   },
+   "en": {
+    "title": "EU increases pressure on international partners for contributions to Ukraine",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/nyt-millionprojekt-skal-styrke-kvaliteten-paa-erhvervsuddannelserne",
+   "date": "2026-10-21T07:41:39+00:00",
+   "da": {
+    "title": "Nyt millionprojekt skal styrke kvaliteten på erhvervsuddannelserne",
+    "desc": "Over en seksårig periode skal der udvikles redskaber til blandt andet bedre kvalitet på uddannelserne."
+   },
+   "en": {
+    "title": "New multi-million project to strengthen the quality of vocational education and training",
+    "desc": "Over a six-year period, tools will be developed to, among other things, improve the quality of the programmes."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/storbritannien-godkender-gasfelt-i-nordsoeen",
+   "date": "2026-10-21T07:15:50+00:00",
+   "da": {
+    "title": "Storbritannien godkender gasfelt i Nordsøen",
+    "desc": ""
+   },
+   "en": {
+    "title": "UK approves North Sea gas field",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/guldmoenter-og-guldbarrer-beslaglagt-ved-graensen",
+   "date": "2026-10-21T07:12:26+00:00",
+   "da": {
+    "title": "Guldmønter og guldbarrer beslaglagt ved grænsen",
+    "desc": "Politiet mistænker hvidvask og mener, at guldet er stjålet."
+   },
+   "en": {
+    "title": "Gold coins and gold bars seized at the border",
+    "desc": "Police suspect money laundering and believe that the gold has been stolen."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/polen-vedtager-lovforslag-der-vil-lempe-landets-strenge-abortlovgivning",
+   "date": "2026-10-21T06:34:45+00:00",
+   "da": {
+    "title": "Polen vedtager lovforslag, der vil lempe landets strenge abortlovgivning",
+    "desc": ""
+   },
+   "en": {
+    "title": "Poland passes bill that will ease the country's strict abortion laws",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/sex-samfund-aabner-nyt-raadgivningstilbud-om-kvindesundhed",
+   "date": "2026-10-21T04:20:34+00:00",
+   "da": {
+    "title": "Sex & Samfund åbner nyt rådgivningstilbud om kvindesundhed",
+    "desc": ""
+   },
+   "en": {
+    "title": "Sex & Society Opens New Counseling Offering on Women's Health",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/burkina-faso-genindfoerer-doedsstraf",
+   "date": "2026-10-21T04:01:41+00:00",
+   "da": {
+    "title": "Burkina Faso genindfører dødsstraf",
+    "desc": ""
+   },
+   "en": {
+    "title": "Burkina Faso reinstates the death penalty",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/hegseth-usa-har-ikke-begraenset-satellitsystem-ukraine",
+   "date": "2026-10-20T22:19:41+00:00",
+   "da": {
+    "title": "Hegseth: USA har ikke begrænset satellitsystem for Ukraine",
+    "desc": ""
+   },
+   "en": {
+    "title": "Hegseth: US does not have restricted satellite system for Ukraine",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/maend-er-igen-anholdt-i-sag-om-haendelse-ved-britisk-base",
@@ -89,110 +193,6 @@
    },
    "en": {
     "title": "Problems have again hit the train operation over Funen - train buses deployed",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/japan-sender-rumsonde-mod-mars-undersoege-planetens-maane",
-   "date": "2026-10-20T05:34:52+00:00",
-   "da": {
-    "title": "Japan sender rumsonde mod Mars for at undersøge planetens måne",
-    "desc": ""
-   },
-   "en": {
-    "title": "Japan sends spacecraft to Mars to probe the planet's moon",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/donald-trumps-opbakning-fra-vaelgere-er-lavere-end-nogensinde-foer",
-   "date": "2026-10-19T21:09:52+00:00",
-   "da": {
-    "title": "Donald Trumps opbakning fra vælgere er lavere end nogensinde før",
-    "desc": ""
-   },
-   "en": {
-    "title": "Donald Trump's voter support is lower than ever before",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/trump-er-aaben-moedes-med-xi-og-putin",
-   "date": "2026-10-19T20:00:21+00:00",
-   "da": {
-    "title": "Trump er åben for at mødes med Xi og Putin",
-    "desc": ""
-   },
-   "en": {
-    "title": "Trump is open to meeting with Xi and Putin",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/norsk-vm-tromme-er-solgt-920-000-kroner-paa-auktion",
-   "date": "2026-10-19T19:10:58+00:00",
-   "da": {
-    "title": "Norsk VM-tromme er solgt for 920.000 kroner på auktion",
-    "desc": ""
-   },
-   "en": {
-    "title": "Norwegian World Cup drum sold for DKK 920,000 at auction",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/meloni-har-holdt-sikkerhedsmoede-om-uroligheder-i-italien",
-   "date": "2026-10-19T16:15:24+00:00",
-   "da": {
-    "title": "Meloni har holdt sikkerhedsmøde om uroligheder i Italien",
-    "desc": ""
-   },
-   "en": {
-    "title": "Meloni has held a security meeting on unrest in Italy",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/blodpropper-saetter-stopper-nfl-stjernes-saeson",
-   "date": "2026-10-19T15:55:12+00:00",
-   "da": {
-    "title": "Blodpropper sætter stopper for NFL-stjernes sæson",
-    "desc": ""
-   },
-   "en": {
-    "title": "Blood clots put an end to NFL star season",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/ni-sigtet-efter-demonstrationer-i-loerdags",
-   "date": "2026-10-19T15:46:29+00:00",
-   "da": {
-    "title": "Ni sigtet efter demonstrationer i lørdags",
-    "desc": ""
-   },
-   "en": {
-    "title": "Nine charged after demonstrations on Saturday",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/koebenhavns-politi-beder-dup-om-undersoege-slag-mod-fotografer",
-   "date": "2026-10-19T11:34:57+00:00",
-   "da": {
-    "title": "Københavns Politi beder DUP om at undersøge slag mod fotografer",
-    "desc": ""
-   },
-   "en": {
-    "title": "Copenhagen Police ask DUP to investigate shootings of photographers",
     "desc": ""
    }
   }
