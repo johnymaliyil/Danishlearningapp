@@ -1,6 +1,149 @@
 {
- "updated": "2026-10-22T09:26+00:00",
+ "updated": "2026-10-22T15:18+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/96-procent-af-verdens-koralrev-er-kritisk-truede-vurderer-forskere",
+   "date": "2026-10-22T14:47:40+00:00",
+   "da": {
+    "title": "96 procent af verdens koralrev er kritisk truede, vurderer forskere",
+    "desc": ""
+   },
+   "en": {
+    "title": "96 percent of the world's coral reefs are critically endangered, scientists estimate",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/who-frygter-ikke-udbredt-smitte-med-shamonda-virus",
+   "date": "2026-10-22T14:14:57+00:00",
+   "da": {
+    "title": "WHO frygter ikke udbredt smitte med Shamonda-virus",
+    "desc": ""
+   },
+   "en": {
+    "title": "Who does not fear widespread infection with Shamonda virus",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/salling-offentliggoer-liste-over-varer-til-krise-noedlagre",
+   "date": "2026-10-22T13:58:55+00:00",
+   "da": {
+    "title": "Salling offentliggør liste over varer til krise-nødlagre",
+    "desc": ""
+   },
+   "en": {
+    "title": "Salling publishes list of products for emergency crisis warehouses",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/spanien-frigiver-millioner-af-toender-olie-fra-noedlagre",
+   "date": "2026-10-22T13:25:44+00:00",
+   "da": {
+    "title": "Spanien frigiver millioner af tønder olie fra nødlagre",
+    "desc": ""
+   },
+   "en": {
+    "title": "Spain releases millions of barrels of oil from emergency stocks",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tuktuk-konfiskeret-efter-vanvidspromille",
+   "date": "2026-10-22T11:57:09+00:00",
+   "da": {
+    "title": "Tuktuk konfiskeret efter vanvidspromille",
+    "desc": ""
+   },
+   "en": {
+    "title": "Tuktuk confiscated after frenzy promille",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/daarligt-syn-forhindrer-judi-dench-i-spille-skuespil",
+   "date": "2026-10-22T11:56:39+00:00",
+   "da": {
+    "title": "Dårligt syn forhindrer Judi Dench i at spille skuespil",
+    "desc": ""
+   },
+   "en": {
+    "title": "Poor vision prevents Judi Dench from acting",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mistaenkt-russisk-spion-anholdt-i-tyskland",
+   "date": "2026-10-22T11:48:22+00:00",
+   "da": {
+    "title": "Mistænkt russisk spion anholdt i Tyskland",
+    "desc": ""
+   },
+   "en": {
+    "title": "Suspected Russian spy arrested in Germany",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/danske-bank-nedlaegger-106-stillinger",
+   "date": "2026-10-22T10:43:25+00:00",
+   "da": {
+    "title": "Danske Bank nedlægger 106 stillinger",
+    "desc": ""
+   },
+   "en": {
+    "title": "Danske Bank closes 106 positions",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/europa-parlamentet-tildeler-icc-aerespris",
+   "date": "2026-10-22T10:24:47+00:00",
+   "da": {
+    "title": "Europa-Parlamentet tildeler ICC ærespris",
+    "desc": ""
+   },
+   "en": {
+    "title": "European Parliament awards ICC honorary prize",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mand-idoemt-13-aars-faengsel-skuddrab-og-usoemmelig-omgang-med-lig",
+   "date": "2026-10-22T10:13:11+00:00",
+   "da": {
+    "title": "Mand idømt 13 års fængsel for skuddrab og usømmelig omgang med lig",
+    "desc": ""
+   },
+   "en": {
+    "title": "Man sentenced to 13 years in prison for shooting and indecent handling of bodies",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/borgerforslaget-nej-tak-til-fritgaaende-ulve-runder-50-000-underskrifter",
+   "date": "2026-10-22T09:24:53+00:00",
+   "da": {
+    "title": "Borgerforslaget 'Nej tak til fritgående ulve' runder 50.000 underskrifter",
+    "desc": ""
+   },
+   "en": {
+    "title": "Citizen proposal 'No thanks to free-range wolves' rounds 50,000 signatures",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/frankrig-konstaterer-foerste-shamonda-tilfaelde-blandt-mennesker",
@@ -50,149 +193,6 @@
    },
    "en": {
     "title": "Three teenagers arrested for gratuitous, aggravated assault in Ringsted",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/brand-i-industribygning-nord-haderslev-giftig-roeg-breder-sig",
-   "date": "2026-10-22T07:24:30+00:00",
-   "da": {
-    "title": "Brand i industribygning nord for Haderslev - giftig røg breder sig",
-    "desc": ""
-   },
-   "en": {
-    "title": "Fire in industrial building north of Haderslev - toxic smoke spreads",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/politi-og-presse-skal-tale-retningslinjer-efter-fotografer-fik-knippelslag",
-   "date": "2026-10-22T07:13:20+00:00",
-   "da": {
-    "title": "Politi og presse skal tale retningslinjer, efter fotografer fik knippelslag",
-    "desc": ""
-   },
-   "en": {
-    "title": "Police and press must speak guidelines after photographers were beaten",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/forbrugertilliden-falder-paa-alle-parametre",
-   "date": "2026-10-22T06:25:27+00:00",
-   "da": {
-    "title": "Forbrugertilliden falder på alle parametre",
-    "desc": ""
-   },
-   "en": {
-    "title": "Consumer confidence falls on all parameters",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/irans-revolutionsgarde-melder-om-angreb-paa-fire-skibe",
-   "date": "2026-10-22T05:08:36+00:00",
-   "da": {
-    "title": "Irans revolutionsgarde melder om angreb på fire skibe",
-    "desc": ""
-   },
-   "en": {
-    "title": "Iran's Revolutionary Guards report attack on four ships",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/store-skader-i-opgang-i-vejle-efter-eksplosion",
-   "date": "2026-10-22T04:47:19+00:00",
-   "da": {
-    "title": "Store skader i opgang i Vejle efter eksplosion",
-    "desc": ""
-   },
-   "en": {
-    "title": "Major damage in the rise in Vejle after explosion",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/maend-anholdt-efter-overfald-paa-buschauffoer",
-   "date": "2026-10-22T03:23:22+00:00",
-   "da": {
-    "title": "To mænd anholdt efter overfald på buschauffør",
-    "desc": ""
-   },
-   "en": {
-    "title": "Two men arrested after assaulting bus driver",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/paven-skal-ikke-have-yderligere-kraeftbehandling-efter-operation",
-   "date": "2026-10-22T02:24:48+00:00",
-   "da": {
-    "title": "Paven skal ikke have yderligere kræftbehandling efter operation",
-    "desc": ""
-   },
-   "en": {
-    "title": "The Pope should not have further cancer treatment after surgery",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/kyiv-ramt-af-missilangreb-efter-nye-meldinger-om-fredsforhandlinger",
-   "date": "2026-10-22T01:55:21+00:00",
-   "da": {
-    "title": "Kyiv ramt af missilangreb efter nye meldinger om fredsforhandlinger",
-    "desc": ""
-   },
-   "en": {
-    "title": "Kyiv hit by missile attack after new reports of peace talks",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/meta-faar-milliardboede-af-new-mexico",
-   "date": "2026-10-21T18:05:57+00:00",
-   "da": {
-    "title": "Meta får milliardbøde af New Mexico",
-    "desc": ""
-   },
-   "en": {
-    "title": "Meta fined billions by New Mexico",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/fire-saaret-i-eksplosion-i-athen",
-   "date": "2026-10-21T17:38:40+00:00",
-   "da": {
-    "title": "Fire såret i eksplosion i Athen",
-    "desc": ""
-   },
-   "en": {
-    "title": "Four wounded in explosion in Athens",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/cirkusdirektrice-hanne-berdino-er-doed",
-   "date": "2026-10-21T17:09:18+00:00",
-   "da": {
-    "title": "Cirkusdirektrice Hanne Berdino er død",
-    "desc": ""
-   },
-   "en": {
-    "title": "Circus director Hanne Berdino has died",
     "desc": ""
    }
   }
