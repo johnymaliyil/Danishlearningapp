@@ -1235,5 +1235,21 @@ PD2.I18N.pl = {
 "På prøvedagen": "W dniu egzaminu",
 "📋 Skabeloner": "📋 Szablony",
 "⚪ Begynd at øve, så kan vi se, hvor du står": "⚪ Zacznij ćwiczyć, żeby zobaczyć swój poziom",
-"🟢 Du er godt på vej til prøven!": "🟢 Jesteś na dobrej drodze do egzaminu!"
+"🟢 Du er godt på vej til prøven!": "🟢 Jesteś na dobrej drodze do egzaminu!",
+"Små ord: til, af, på …": "Małe słowa: til, af, på …",
+"De små ord, alle blander sammen: til, af, på, i, om, for, med, hos. Vælg det rigtige ord, og lær reglen.": "Małe słowa, które wszyscy mylą: til, af, på, i, om, for, med, hos. Wybierz właściwe i poznaj regułę.",
+"Hvad vil du øve?": "Co chcesz ćwiczyć?",
+"🎲 Alle": "🎲 Wszystkie",
+"📍 Sted": "📍 Miejsce",
+"🕒 Tid": "🕒 Czas",
+"🏃 Verbum + småord": "🏃 Czasownik + małe słowo",
+"😊 Adjektiv + småord": "😊 Przymiotnik + małe słowo",
+"🧩 Faste udtryk": "🧩 Stałe wyrażenia",
+"▶ Start (10 sætninger)": "▶ Start (10 zdań)",
+"📘 Reglerne – alle mønstre": "📘 Reguły – wszystkie wzorce",
+"Sætningen kommer igen til sidst.": "Zdanie wróci na końcu.",
+"📒 Gem i Mine ord": "📒 Zapisz w Moich słowach",
+"✓ Gemt": "✓ Zapisano",
+"Øv disse igen:": "Poćwicz jeszcze:",
+"Vælg et andet emne": "Wybierz inny temat"
 };

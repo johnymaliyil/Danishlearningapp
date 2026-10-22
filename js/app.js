@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "127"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "128"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -3535,6 +3535,7 @@
   const ORDLE = () => lines(GD().ORDLE).map(l => l.split("="));
   // perExam: the content (and so the record) depends on the chosen exam. lower: fewer is better.
   const GAMES = [
+    { id: "smaaord", ico: "🧲", name: "Små ord: til, af, på …", desc: "De små ord, alle blander sammen: til, af, på, i, om, for, med, hos. Vælg det rigtige ord, og lær reglen.", unit: "rigtige" },
     { id: "mineord", ico: "📒", name: "Mine ord-quiz", desc: "Øv de ord, du selv har gemt i Mine ord: vælg den rigtige betydning. Ord, du tager fejl af, kommer igen.", unit: "rigtige" },
     { id: "vocab", ico: "📚", name: "Ordtræner", desc: "Lær over 5.000 danske ord: vælg den rigtige engelske betydning. Ord, du har svært ved, kommer igen, indtil du kan dem.", unit: "ord lært" },
     { id: "words", href: "#/words", ico: "⚡", name: "Ordjagt", desc: "60 sekunder. Hvor mange ord kan du nå?", perExam: true, unit: "point" },
@@ -3600,7 +3601,7 @@
   }
 
   function gameRoute(id) {
-    const fn = { vocab: () => vocabGame().home(), memory: memoryGame, ordle: ordleGame, gender: genderGame, order: orderGame, dictation: dictationGame, verbs: verbsGame, verbrace: verbRaceGame, verbmatch: verbMatchGame, listen: listenGame, repeat: repeatGame, idioms: idiomsGame, mineord: myWordsGame }[id];
+    const fn = { vocab: () => vocabGame().home(), memory: memoryGame, ordle: ordleGame, gender: genderGame, order: orderGame, dictation: dictationGame, verbs: verbsGame, verbrace: verbRaceGame, verbmatch: verbMatchGame, listen: listenGame, repeat: repeatGame, idioms: idiomsGame, mineord: myWordsGame, smaaord: smaaGame }[id];
     (fn || gamesHub)();
   }
 
@@ -4494,7 +4495,85 @@
         const uniq = [...new Set(missed)];
         gameOver(g, `${score}/${ROUNDS}`, score === ROUNDS ? "🎉 Alle rigtige!" : recordLine(rec, "mineord"), play,
           `${uniq.length ? `<div class="mw-missed"><p class="small" style="font-weight:800">Øv disse ord igen:</p>${uniq.map(w => `<div class="small"><b data-keep>${esc(w.da)}</b> = <span lang="en">${esc(w.en)}</span></div>`).join("")}</div>` : ""}
-           <p class="small"><a href="#/mineord">📒 Mine ord</a> · <a href="#/games/mineord">Skift måde at øve på</a></p>`);
+           <p class="small"><a href="#/mineord">📒 Mine ord</a> · <a href="#/games/mineord" id="mwHome">Skift måde at øve på</a></p>`);
+        $("#mwHome").onclick = e => { e.preventDefault(); home(); };
+      }
+      show();
+    }
+    home();
+  }
+
+  // 🧲 Små ord: choose the right little word (til, af, på, i, om, for …) in a sentence, then see the rule.
+  // Wrong sentences come back at the end; sentences you often get wrong are asked more often.
+  function smaaGame() {
+    const g = gameInfo("smaaord"), L = PD2.SMAAORD || [], CATS = PD2.SMAAORD_CATS || {};
+    S.games.smaa = S.games.smaa || {};
+    const cat = () => pref("dk-smaa-cat", "alle");
+    function home() {
+      app.innerHTML = `${gameHead(g)}
+        <p class="muted">Små ord som <b>til, af, på, i, om, for, med</b> og <b>hos</b> er svære, fordi de ikke altid svarer til engelsk eller dit eget sprog. Vælg det rigtige ord i sætningen – og lær reglen bagefter.</p>
+        <div class="card stage">
+          <p style="font-weight:800;margin-top:0">Hvad vil du øve?</p>
+          <div class="chips" style="justify-content:center">${[["alle", "🎲 Alle"]].concat(Object.entries(CATS)).map(([k, t]) => `<button class="chip ${cat() === k ? "on" : ""}" data-sc="${k}">${esc(t)}</button>`).join("")}</div>
+          <button class="btn words" id="smGo" style="margin-top:14px">▶ Start (10 sætninger)</button>
+        </div>
+        <details class="card" style="margin-top:14px"><summary><b>📘 Reglerne – alle mønstre</b></summary>
+          ${Object.entries(CATS).map(([k, t]) => `<h3>${esc(t)}</h3><div class="smaa-rules">${[...new Map(L.filter(x => x[0] === k).map(x => [x[4], x])).values()].map(x => `<div><b data-keep>${esc(x[4])}</b> <span class="small muted" lang="en">= ${esc(x[5])}</span><div class="small">${esc(x[7])}</div></div>`).join("")}</div>`).join("")}
+        </details>`;
+      $$("[data-sc]").forEach(b => b.onclick = () => { setPref("dk-smaa-cat", b.dataset.sc); $$("[data-sc]").forEach(x => x.classList.toggle("on", x === b)); });
+      $("#smGo").onclick = play;
+    }
+    function play() {
+      const c = cat(), ROUNDS = 10, st = S.games.smaa;
+      const pool = L.map((x, i) => i).filter(i => c === "alle" || L[i][0] === c);
+      const w = i => { const r = st[i] || {}; return (r.ok || 0) - 2 * (r.bad || 0) + Math.random() * 2; };
+      let picks = shuffle(pool.sort((a, b) => w(a) - w(b)).slice(0, ROUNDS));
+      let n = 0, score = 0;
+      const again = [], missed = [];
+      function show() {
+        if (n >= picks.length && again.length) picks = picks.concat(again.splice(0));
+        if (n >= picks.length) return done();
+        const i = picks[n], x = L[i], repeat = n >= ROUNDS, opts = shuffle([x[2]].concat(x[3]));
+        app.innerHTML = `${gameHead(g)}
+          <div class="card stage">
+            <div class="row" style="justify-content:space-between"><span class="pill">${repeat ? "🔁 Igen" : `${n + 1}/${ROUNDS}`}</span><span class="pill">${esc(CATS[x[0]] || "")}</span><span class="pill">✅ ${score}</span></div>
+            <p class="smaa-q" data-keep>${esc(x[1]).replace("___", '<span class="smaa-gap">____</span>')}</p>
+            <div class="answers smaa-opts no-tr" data-keep>${opts.map(o => `<button class="choice" data-o="${esc(o)}">${esc(o)}</button>`).join("")}</div>
+            <div id="after" class="quiz-after"></div>
+          </div>`;
+        let locked = false;
+        $$(".smaa-opts .choice").forEach(b => b.onclick = () => {
+          if (locked) return; locked = true;
+          const ok = b.dataset.o === x[2], r = st[i] = st[i] || {};
+          b.classList.add(ok ? "ok" : "bad");
+          if (!ok) $$(".smaa-opts .choice").find(y => y.dataset.o === x[2]).classList.add("ok");
+          if (!repeat) { if (ok) { score++; r.ok = (r.ok || 0) + 1; } else { r.bad = (r.bad || 0) + 1; again.push(i); missed.push(i); } save(); }
+          const full = x[1].replace("___", x[2]);
+          $(".smaa-q").innerHTML = esc(x[1]).replace("___", `<b class="smaa-ans ${ok ? "ok" : "bad"}">${esc(x[2])}</b>`);
+          $("#after").innerHTML = `<p>${ok ? "✅ Rigtigt!" : "❌ Ikke helt."} <b data-keep>${esc(x[4])}</b> <span lang="en">= ${esc(x[5])}</span></p>
+            <p class="small">💡 ${esc(x[7])}</p>
+            <p class="small muted" lang="en">🇬🇧 ${esc(x[6])}</p>
+            ${!ok && !repeat ? `<p class="small muted">Sætningen kommer igen til sidst.</p>` : ""}
+            <div class="row" style="justify-content:center"><button class="btn ghost sm" id="smSay">🔊 Lyt</button><button class="btn ghost sm" id="smSave">📒 Gem i Mine ord</button><button class="btn words" id="nx">Næste →</button></div>`;
+          $("#smSay").onclick = () => speak(full, null, 0.85);
+          $("#smSave").onclick = e => {
+            if (!nbHas(x[4])) nbAdd({ da: x[4], en: x[5], ex: full, exEn: x[6] });
+            e.currentTarget.textContent = "✓ Gemt"; e.currentTarget.disabled = true;
+          };
+          speak(full, null, 0.85);
+          $("#nx").focus();
+          $("#nx").onclick = () => { n++; show(); };
+        });
+      }
+      function done() {
+        const rec = recordGame("smaaord", score);
+        addXP(score * 3, "små ord");
+        if (rec || score === ROUNDS) confetti();
+        const uniq = [...new Set(missed)];
+        gameOver(g, `${score}/${ROUNDS}`, score === ROUNDS ? "🎉 Alle rigtige!" : recordLine(rec, "smaaord"), play,
+          `${uniq.length ? `<div class="mw-missed"><p class="small" style="font-weight:800">Øv disse igen:</p>${uniq.map(i => `<div class="small"><b data-keep>${esc(L[i][4])}</b> = <span lang="en">${esc(L[i][5])}</span></div>`).join("")}</div>` : ""}
+           <p class="small"><a href="#/games/smaaord" id="smHome">Vælg et andet emne</a></p>`);
+        $("#smHome").onclick = e => { e.preventDefault(); home(); };
       }
       show();
     }

@@ -57285,8 +57285,8 @@ PD2.LISTEN_R = {
 "p17m-5": {
 "lines": [
 {
-"da": "Interview med David – fotograf",
-"en": "Interview with David – photographer",
+"da": "Interview med Lars – fotograf",
+"en": "Interview with Lars – photographer",
 "p": true,
 "note": "The title: an interview with a photographer. Danish job titles have no \"a/en\" here.",
 "words": [

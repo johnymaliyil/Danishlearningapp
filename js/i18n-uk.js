@@ -1235,5 +1235,21 @@ PD2.I18N.uk = {
 "På prøvedagen": "У день іспиту",
 "📋 Skabeloner": "📋 Шаблони",
 "⚪ Begynd at øve, så kan vi se, hvor du står": "⚪ Почніть тренуватися, щоб побачити свій рівень",
-"🟢 Du er godt på vej til prøven!": "🟢 Ви добре готові до іспиту!"
+"🟢 Du er godt på vej til prøven!": "🟢 Ви добре готові до іспиту!",
+"Små ord: til, af, på …": "Маленькі слова: til, af, på …",
+"De små ord, alle blander sammen: til, af, på, i, om, for, med, hos. Vælg det rigtige ord, og lær reglen.": "Маленькі слова, які всі плутають: til, af, på, i, om, for, med, hos. Виберіть правильне й вивчіть правило.",
+"Hvad vil du øve?": "Що ви хочете тренувати?",
+"🎲 Alle": "🎲 Усі",
+"📍 Sted": "📍 Місце",
+"🕒 Tid": "🕒 Час",
+"🏃 Verbum + småord": "🏃 Дієслово + маленьке слово",
+"😊 Adjektiv + småord": "😊 Прикметник + маленьке слово",
+"🧩 Faste udtryk": "🧩 Сталі вирази",
+"▶ Start (10 sætninger)": "▶ Почати (10 речень)",
+"📘 Reglerne – alle mønstre": "📘 Правила – усі шаблони",
+"Sætningen kommer igen til sidst.": "Речення повернеться в кінці.",
+"📒 Gem i Mine ord": "📒 Зберегти в «Мої слова»",
+"✓ Gemt": "✓ Збережено",
+"Øv disse igen:": "Повторіть ще раз:",
+"Vælg et andet emne": "Вибрати іншу тему"
 };

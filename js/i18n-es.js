@@ -1235,5 +1235,21 @@ PD2.I18N.es = {
 "På prøvedagen": "El día del examen",
 "📋 Skabeloner": "📋 Plantillas",
 "⚪ Begynd at øve, så kan vi se, hvor du står": "⚪ Empieza a practicar para ver cómo vas",
-"🟢 Du er godt på vej til prøven!": "🟢 ¡Vas muy bien para el examen!"
+"🟢 Du er godt på vej til prøven!": "🟢 ¡Vas muy bien para el examen!",
+"Små ord: til, af, på …": "Palabras pequeñas: til, af, på …",
+"De små ord, alle blander sammen: til, af, på, i, om, for, med, hos. Vælg det rigtige ord, og lær reglen.": "Las palabras pequeñas que todos confunden: til, af, på, i, om, for, med, hos. Elige la correcta y aprende la regla.",
+"Hvad vil du øve?": "¿Qué quieres practicar?",
+"🎲 Alle": "🎲 Todas",
+"📍 Sted": "📍 Lugar",
+"🕒 Tid": "🕒 Tiempo",
+"🏃 Verbum + småord": "🏃 Verbo + palabra pequeña",
+"😊 Adjektiv + småord": "😊 Adjetivo + palabra pequeña",
+"🧩 Faste udtryk": "🧩 Expresiones fijas",
+"▶ Start (10 sætninger)": "▶ Empezar (10 frases)",
+"📘 Reglerne – alle mønstre": "📘 Las reglas – todos los patrones",
+"Sætningen kommer igen til sidst.": "La frase vuelve al final.",
+"📒 Gem i Mine ord": "📒 Guardar en Mis palabras",
+"✓ Gemt": "✓ Guardado",
+"Øv disse igen:": "Practica otra vez:",
+"Vælg et andet emne": "Elige otro tema"
 };

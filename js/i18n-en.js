@@ -1236,5 +1236,21 @@ PD2.I18N.en = {
 "På prøvedagen": "On exam day",
 "📋 Skabeloner": "📋 Templates",
 "⚪ Begynd at øve, så kan vi se, hvor du står": "⚪ Start practising so we can see where you stand",
-"🟢 Du er godt på vej til prøven!": "🟢 You are well on your way to the exam!"
+"🟢 Du er godt på vej til prøven!": "🟢 You are well on your way to the exam!",
+"Små ord: til, af, på …": "Small words: til, af, på …",
+"De små ord, alle blander sammen: til, af, på, i, om, for, med, hos. Vælg det rigtige ord, og lær reglen.": "The small words everyone mixes up: til, af, på, i, om, for, med, hos. Choose the right word and learn the rule.",
+"Hvad vil du øve?": "What do you want to practise?",
+"🎲 Alle": "🎲 All",
+"📍 Sted": "📍 Place",
+"🕒 Tid": "🕒 Time",
+"🏃 Verbum + småord": "🏃 Verb + small word",
+"😊 Adjektiv + småord": "😊 Adjective + small word",
+"🧩 Faste udtryk": "🧩 Fixed phrases",
+"▶ Start (10 sætninger)": "▶ Start (10 sentences)",
+"📘 Reglerne – alle mønstre": "📘 The rules – all patterns",
+"Sætningen kommer igen til sidst.": "The sentence comes back at the end.",
+"📒 Gem i Mine ord": "📒 Save in My words",
+"✓ Gemt": "✓ Saved",
+"Øv disse igen:": "Practise these again:",
+"Vælg et andet emne": "Choose another topic"
 };

@@ -1235,5 +1235,21 @@ PD2.I18N.ro = {
 "På prøvedagen": "În ziua examenului",
 "📋 Skabeloner": "📋 Șabloane",
 "⚪ Begynd at øve, så kan vi se, hvor du står": "⚪ Începe să exersezi ca să vezi unde ești",
-"🟢 Du er godt på vej til prøven!": "🟢 Ești pe drumul cel bun spre examen!"
+"🟢 Du er godt på vej til prøven!": "🟢 Ești pe drumul cel bun spre examen!",
+"Små ord: til, af, på …": "Cuvinte mici: til, af, på …",
+"De små ord, alle blander sammen: til, af, på, i, om, for, med, hos. Vælg det rigtige ord, og lær reglen.": "Cuvintele mici pe care toți le confundă: til, af, på, i, om, for, med, hos. Alege cuvântul corect și învață regula.",
+"Hvad vil du øve?": "Ce vrei să exersezi?",
+"🎲 Alle": "🎲 Toate",
+"📍 Sted": "📍 Loc",
+"🕒 Tid": "🕒 Timp",
+"🏃 Verbum + småord": "🏃 Verb + cuvânt mic",
+"😊 Adjektiv + småord": "😊 Adjectiv + cuvânt mic",
+"🧩 Faste udtryk": "🧩 Expresii fixe",
+"▶ Start (10 sætninger)": "▶ Start (10 propoziții)",
+"📘 Reglerne – alle mønstre": "📘 Regulile – toate tiparele",
+"Sætningen kommer igen til sidst.": "Propoziția revine la final.",
+"📒 Gem i Mine ord": "📒 Salvează în Cuvintele mele",
+"✓ Gemt": "✓ Salvat",
+"Øv disse igen:": "Exersează din nou:",
+"Vælg et andet emne": "Alege alt subiect"
 };

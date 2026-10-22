@@ -1235,5 +1235,21 @@ PD2.I18N.tr = {
 "På prøvedagen": "Sınav günü",
 "📋 Skabeloner": "📋 Şablonlar",
 "⚪ Begynd at øve, så kan vi se, hvor du står": "⚪ Nerede olduğunu görmek için çalışmaya başla",
-"🟢 Du er godt på vej til prøven!": "🟢 Sınava doğru iyi gidiyorsun!"
+"🟢 Du er godt på vej til prøven!": "🟢 Sınava doğru iyi gidiyorsun!",
+"Små ord: til, af, på …": "Küçük kelimeler: til, af, på …",
+"De små ord, alle blander sammen: til, af, på, i, om, for, med, hos. Vælg det rigtige ord, og lær reglen.": "Herkesin karıştırdığı küçük kelimeler: til, af, på, i, om, for, med, hos. Doğru kelimeyi seç ve kuralı öğren.",
+"Hvad vil du øve?": "Ne çalışmak istersin?",
+"🎲 Alle": "🎲 Hepsi",
+"📍 Sted": "📍 Yer",
+"🕒 Tid": "🕒 Zaman",
+"🏃 Verbum + småord": "🏃 Fiil + küçük kelime",
+"😊 Adjektiv + småord": "😊 Sıfat + küçük kelime",
+"🧩 Faste udtryk": "🧩 Kalıp ifadeler",
+"▶ Start (10 sætninger)": "▶ Başla (10 cümle)",
+"📘 Reglerne – alle mønstre": "📘 Kurallar – tüm kalıplar",
+"Sætningen kommer igen til sidst.": "Cümle sonda tekrar gelecek.",
+"📒 Gem i Mine ord": "📒 Kelimelerim'e kaydet",
+"✓ Gemt": "✓ Kaydedildi",
+"Øv disse igen:": "Bunları tekrar çalış:",
+"Vælg et andet emne": "Başka bir konu seç"
 };

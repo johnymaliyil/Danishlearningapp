@@ -189,13 +189,13 @@ Marianne går rundt om huset og ser, at et lille vindue til restauranten er [[18
 
   const opg5 = {
     id: "p17m-5", group: G, real: true,
-    title: "Opgave 5 – Interview med David",
+    title: "Opgave 5 – Interview med Lars",
     kind: "Delprøve 2 · match spørgsmål og svar",
     level: 3, minutes: 20,
     instruction: "Læs interviewet. Find det afsnit (A-H), der passer til hvert af de fem spørgsmål (26-30). Der er to afsnit, du ikke skal bruge. Se eksemplet (0).",
     sections: [
       {
-        heading: "Interview med David – fotograf",
+        heading: "Interview med Lars – fotograf",
         cards: [
           { title: "A", body: "Jeg tager en hel del billeder til reklamer, især for de lokale butikker her i byen. Og så tager jeg selvfølgelig også en masse billeder af mennesker. F.eks. er jeg tit ude til bryllupper og tage billeder af både brudeparret og bryllupsgæsterne." },
           { title: "B", body: "Nej, for der går tit mere tid, end man tror, når man er ude og fotografere. Og bagefter skal billederne jo vælges ud og gøres klar til kunderne. Jeg er heldigvis en populær fotograf, og i nogle perioder har jeg faktisk rigtig travlt. Jeg er sikker på, at det i de perioder ofte er mere end fuld tid." },
