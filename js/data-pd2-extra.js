@@ -657,3 +657,30 @@ Amal`
     }
   );
 })();
+
+// Single real exam tasks whose exam session is not known (shown under "Enkeltopgaver fra tidligere prøver").
+(function () {
+  const G = "Enkeltopgaver fra tidligere prøver";
+  PD2.READING.push({
+    id: "pd2-x1", group: G, real: true,
+    title: "Opgave 3 – Eva køber ind til aftensmaden på internettet",
+    kind: "Delprøve 2 · udfyld hullerne",
+    level: 2, minutes: 20,
+    instruction: "Læs teksten. Skriv de ord (13-20), der mangler. Ordene findes i rammen. Du skal kun bruge hvert ord én gang. Der er fem ord, du ikke skal bruge. Se eksemplet (0).",
+    text: `Mange mennesker bruger internettet, når de skal købe ting som f.eks. tøj og sko, og flere og flere køber [[0]] deres mad på nettet.
+
+Hjemme hos familien Thomsen har de meget travlt i hverdagen. Eva og Daniel har begge to fuldtidsjob, og de har tit nogle lange arbejdsdage. Det er næsten altid Eva, der [[13]] deres søn, Emil, i børnehaven, fordi hun har lidt tidligere fri end Daniel. Hun skynder sig altid, fordi hun er ked af, at Emil har så [[14]] dage i børnehaven. Tit bliver klokken alligevel næsten fem, inden hun er ved børnehaven, og [[15]] Emil er træt, skal Eva først købe ind, inden de kører hjem. I supermarkedet er der ofte en lang kø ved kassen, når de skal betale, og Eva bliver [[16]], fordi Emil græder og vil hjem.
+
+Eva har nogle veninder, der køber mad på nettet. De siger, at det er nemt, [[17]] man får sine varer leveret lige til døren. Og man kan sidde stille og roligt hjemme i sin egen sofa søndag aften og købe de madvarer, man har brug for til hele ugen. Eva synes, det lyder godt, så det vil hun prøve. Hun finder en butik på nettet og bestiller de varer, hun skal bruge. Det er lidt [[18]] end i en 'rigtig' butik, men Eva synes, det er helt okay at betale lidt ekstra, for hun får jo også sine varer bragt hjem.
+
+Næste dag, da hun kommer hjem fra arbejde, står varerne uden for døren. Eva bliver [[19]]. Nu kan hun komme lidt [[20]] hjem hver dag og bruge eftermiddagene på at hygge sig med Emil i stedet for at bruge tid på at gå i supermarkedet.`,
+    questions: [
+      {
+        type: "gaps",
+        bank: ["også", "glad", "dejlige", "billigere", "ikke", "selvom", "tidligere", "henter", "dyrere", "afleverer", "fordi", "stresset", "senere", "lange"].map(w => ({ key: w, text: w })),
+        example: { 0: "også" },
+        answers: { 13: "henter", 14: "lange", 15: "selvom", 16: "stresset", 17: "fordi", 18: "dyrere", 19: "glad", 20: "tidligere" }
+      }
+    ]
+  });
+})();

@@ -7268,5 +7268,15 @@ PD2.READING_EN = {
    "q": "Art museums: Which museum is open in the evening once a month?"
   }
  ]
+},
+ "pd2-x1": {
+ "title": "Task 3 – Eva buys dinner groceries online",
+ "instruction": "Read the text. Write the words (13-20) that are missing. The words are in the box. Use each word only once. There are five words you will not use. See the example (0).",
+ "text": "Many people use the internet when they buy things such as clothes and shoes, and more and more people [[0]] buy their food online.\n\nAt the Thomsen family's home they are very busy on weekdays. Eva and Daniel both have full-time jobs, and they often have long working days. It is almost always Eva who [[13]] their son, Emil, at kindergarten, because she finishes a little earlier than Daniel. She always hurries, because she is sad that Emil has such [[14]] days at kindergarten. Often it is still nearly five o'clock before she gets to the kindergarten, and [[15]] Emil is tired, Eva first has to do the shopping before they drive home. In the supermarket there is often a long queue at the checkout, and Eva gets [[16]] because Emil cries and wants to go home.\n\nEva has some friends who buy food online. They say it is easy [[17]] you get your goods delivered right to the door. And you can sit quietly at home on your own sofa on Sunday evening and buy the groceries you need for the whole week. Eva thinks it sounds good, so she wants to try it. She finds a shop online and orders the goods she needs. It is a little [[18]] than in a 'real' shop, but Eva thinks it's fine to pay a bit extra, because she also gets her goods brought home.\n\nThe next day, when she comes home from work, the groceries are outside the door. Eva is [[19]]. Now she can come home a little [[20]] every day and spend the afternoons having a cosy time with Emil instead of spending time going to the supermarket.",
+ "questions": [
+  {
+   "q": "Fill in the missing words (13-20) from the box: også (also), glad (happy), dejlige (lovely), billigere (cheaper), ikke (not), selvom (even though), tidligere (earlier), henter (picks up), dyrere (more expensive), afleverer (drops off), fordi (because), stresset (stressed), senere (later), lange (long)."
+  }
+ ]
 }
 };

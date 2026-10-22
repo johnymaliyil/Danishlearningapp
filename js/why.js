@@ -3339,5 +3339,39 @@ PD2.WHY = {
 "da": "Vendsyssel Kunstmuseum: «Derudover åbent 1. torsdag i måneden til kl. 20» – altså om aftenen én gang om måneden. Skagens Museum har også åbent til kl. 21, men det er hver onsdag om sommeren.",
 "en": "Vendsyssel Kunstmuseum: «åbent 1. torsdag i måneden til kl. 20» – one evening a month. Skagens Museum is open until 21, but every Wednesday in summer."
 }
+},
+"pd2-x1": {
+"g13": {
+"da": "«der henter deres søn i børnehaven» – man henter børn i børnehaven om eftermiddagen. «Afleverer» er om morgenen og passer ikke, fordi hun har tidligere fri.",
+"en": "«henter» = picks up (in the afternoon). «afleverer» (drops off) is in the morning, so it doesn't fit."
+},
+"g14": {
+"da": "«så lange dage» – Emil er længe i børnehaven, fordi forældrene har lange arbejdsdage. Efter «så» + flertal: lange.",
+"en": "«så lange dage» = such long days. Plural adjective: lange."
+},
+"g15": {
+"da": "«selvom Emil er træt, skal Eva først købe ind» – selvom viser en modsætning: han er træt, men de skal alligevel handle.",
+"en": "«selvom» = even though: he is tired, but they still have to shop."
+},
+"g16": {
+"da": "«Eva bliver stresset, fordi Emil græder» – lang kø og et grædende barn gør hende stresset.",
+"en": "«stresset» = stressed: long queue + crying child."
+},
+"g17": {
+"da": "«det er nemt, fordi man får sine varer leveret» – fordi giver grunden til, at det er nemt.",
+"en": "«fordi» = because – the reason it is easy."
+},
+"g18": {
+"da": "«lidt dyrere end i en 'rigtig' butik» – bagefter står der, at hun betaler lidt ekstra. Altså dyrere, ikke billigere.",
+"en": "«dyrere» = more expensive – she pays «lidt ekstra». Not «billigere» (cheaper)."
+},
+"g19": {
+"da": "«Eva bliver glad» – varerne står klar uden for døren, så hun er glad.",
+"en": "«glad» = happy – the groceries are waiting at the door."
+},
+"g20": {
+"da": "«komme lidt tidligere hjem» – hun skal ikke i supermarkedet, så hun kommer tidligere hjem. «Senere» giver ikke mening.",
+"en": "«tidligere» = earlier – no supermarket trip. «senere» (later) makes no sense."
+}
 }
 };

@@ -111252,6 +111252,256 @@ PD2.LISTEN_R = {
 }
 ]
 },
+"pd2-x1": {
+"lines": [
+{
+"da": "Opgave 3 – Eva køber ind til aftensmaden på internettet",
+"en": "Task 3 – Eva buys dinner groceries online",
+"p": true,
+"note": "The title. «købe ind» means to do the shopping; «ind» is part of the verb.",
+"words": [
+[
+"købe ind",
+"do the shopping"
+],
+[
+"aftensmaden",
+"the dinner"
+]
+]
+},
+{
+"da": "Mange mennesker bruger internettet, når de skal købe ting som f.eks. tøj og sko, og flere og flere køber også deres mad på nettet.",
+"en": "Many people use the internet when they buy things such as clothes and shoes, and more and more people also buy their food online.",
+"p": true,
+"note": "«når» starts a time clause. «flere og flere» means more and more.",
+"words": [
+[
+"flere og flere",
+"more and more"
+],
+[
+"på nettet",
+"online"
+]
+]
+},
+{
+"da": "Hjemme hos familien Thomsen har de meget travlt i hverdagen.",
+"en": "At the Thomsen family's home they are very busy on weekdays.",
+"p": true,
+"note": "The place comes first, so the verb comes before the subject: «har de» (inversion).",
+"words": [
+[
+"have travlt",
+"be busy"
+],
+[
+"i hverdagen",
+"on weekdays"
+]
+]
+},
+{
+"da": "Eva og Daniel har begge to fuldtidsjob, og de har tit nogle lange arbejdsdage.",
+"en": "Eva and Daniel both have full-time jobs, and they often have long working days.",
+"p": false,
+"note": "«begge to» means both of them. «lange» is the plural form of «lang».",
+"words": [
+[
+"fuldtidsjob",
+"full-time job"
+],
+[
+"arbejdsdage",
+"working days"
+]
+]
+},
+{
+"da": "Det er næsten altid Eva, der … deres søn, Emil, i børnehaven, fordi hun har lidt tidligere fri end Daniel.",
+"en": "It is almost always Eva who … their son, Emil, at kindergarten, because she finishes a little earlier than Daniel.",
+"p": false,
+"note": "«Det er … der» puts focus on Eva. The missing verb is «henter» (picks up).",
+"words": [
+[
+"børnehaven",
+"the kindergarten"
+],
+[
+"have fri",
+"finish work"
+]
+]
+},
+{
+"da": "Hun skynder sig altid, fordi hun er ked af, at Emil har så … dage i børnehaven.",
+"en": "She always hurries, because she is sad that Emil has such … days at kindergarten.",
+"p": false,
+"note": "«skynde sig» is a reflexive verb. The missing word is «lange» (long).",
+"words": [
+[
+"skynde sig",
+"hurry"
+],
+[
+"ked af",
+"sad about"
+]
+]
+},
+{
+"da": "Tit bliver klokken alligevel næsten fem, inden hun er ved børnehaven, og … Emil er træt, skal Eva først købe ind, inden de kører hjem.",
+"en": "Often it is still nearly five before she reaches the kindergarten, and … Emil is tired, Eva first has to shop before they drive home.",
+"p": false,
+"note": "«Tit» comes first, so the verb comes next: «bliver klokken». The missing word is «selvom» (even though).",
+"words": [
+[
+"alligevel",
+"still / anyway"
+],
+[
+"inden",
+"before"
+]
+]
+},
+{
+"da": "I supermarkedet er der ofte en lang kø ved kassen, når de skal betale, og Eva bliver …, fordi Emil græder og vil hjem.",
+"en": "In the supermarket there is often a long queue at the checkout, and Eva gets … because Emil cries and wants to go home.",
+"p": false,
+"note": "«vil hjem» means wants to go home; «gå» is left out after «vil». The missing word is «stresset».",
+"words": [
+[
+"kø",
+"queue"
+],
+[
+"kassen",
+"the checkout"
+]
+]
+},
+{
+"da": "Eva har nogle veninder, der køber mad på nettet.",
+"en": "Eva has some friends who buy food online.",
+"p": true,
+"note": "«der» starts a relative clause: friends who buy food.",
+"words": [
+[
+"veninder",
+"(female) friends"
+]
+]
+},
+{
+"da": "De siger, at det er nemt, … man får sine varer leveret lige til døren.",
+"en": "They say it is easy … you get your goods delivered right to the door.",
+"p": false,
+"note": "«få noget leveret» means to have something delivered. The missing word is «fordi».",
+"words": [
+[
+"varer",
+"goods"
+],
+[
+"leveret",
+"delivered"
+]
+]
+},
+{
+"da": "Og man kan sidde stille og roligt hjemme i sin egen sofa søndag aften og købe de madvarer, man har brug for til hele ugen.",
+"en": "And you can sit quietly at home on your own sofa on Sunday evening and buy the groceries you need for the whole week.",
+"p": false,
+"note": "«sin» refers back to «man». «have brug for» means to need.",
+"words": [
+[
+"stille og roligt",
+"calmly, quietly"
+],
+[
+"madvarer",
+"groceries"
+]
+]
+},
+{
+"da": "Eva synes, det lyder godt, så det vil hun prøve.",
+"en": "Eva thinks it sounds good, so she wants to try it.",
+"p": false,
+"note": "«det» comes first, so «vil hun» is inverted.",
+"words": [
+[
+"lyder",
+"sounds"
+]
+]
+},
+{
+"da": "Hun finder en butik på nettet og bestiller de varer, hun skal bruge.",
+"en": "She finds a shop online and orders the goods she needs.",
+"p": false,
+"note": "«de varer, hun skal bruge» – the word «som» is left out.",
+"words": [
+[
+"bestiller",
+"orders"
+]
+]
+},
+{
+"da": "Det er lidt … end i en 'rigtig' butik, men Eva synes, det er helt okay at betale lidt ekstra, for hun får jo også sine varer bragt hjem.",
+"en": "It is a little … than in a 'real' shop, but Eva thinks it's fine to pay a bit extra, because she also gets her goods brought home.",
+"p": false,
+"note": "«end» shows a comparison. The missing word is «dyrere» (more expensive).",
+"words": [
+[
+"betale",
+"pay"
+],
+[
+"bragt hjem",
+"brought home"
+]
+]
+},
+{
+"da": "Næste dag, da hun kommer hjem fra arbejde, står varerne uden for døren.",
+"en": "The next day, when she comes home from work, the groceries are outside the door.",
+"p": true,
+"note": "«da» is used for one time in the past.",
+"words": [
+[
+"uden for døren",
+"outside the door"
+]
+]
+},
+{
+"da": "Eva bliver ….",
+"en": "Eva is … .",
+"p": false,
+"note": "«blive» + adjective = to become. The missing word is «glad» (happy)."
+},
+{
+"da": "Nu kan hun komme lidt … hjem hver dag og bruge eftermiddagene på at hygge sig med Emil i stedet for at bruge tid på at gå i supermarkedet.",
+"en": "Now she can come home a little … every day and spend the afternoons with Emil instead of going to the supermarket.",
+"p": false,
+"note": "«i stedet for at» means instead of. The missing word is «tidligere» (earlier).",
+"words": [
+[
+"hygge sig",
+"have a cosy time"
+],
+[
+"i stedet for",
+"instead of"
+]
+]
+}
+]
+},
 "pd3-18m-1": {
 "lines": [
 {
