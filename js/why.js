@@ -3373,5 +3373,27 @@ PD2.WHY = {
 "da": "«komme lidt tidligere hjem» – hun skal ikke i supermarkedet, så hun kommer tidligere hjem. «Senere» giver ikke mening.",
 "en": "«tidligere» = earlier – no supermarket trip. «senere» (later) makes no sense."
 }
+},
+"pd2-x2": {
+"g21": {
+"da": "Afsnittet nævner alt det, der er på campingpladsen. Derfor passer G: «Så der er meget at ordne». Bagefter: «Henrik bruger … næsten al sin tid ude på campingpladsen».",
+"en": "The paragraph lists all the facilities, so G fits: «so there is a lot to do», followed by Henrik spending almost all his time out on the site."
+},
+"g22": {
+"da": "«Nogle af gæsterne er trætte …» – «Men de fleste er i godt humør» (H). «Men» viser modsætningen, og bagefter forklarer «For de har ferie» det gode humør.",
+"en": "«Some guests are tired» – «but most are in a good mood» (H). «For de har ferie» explains the good mood."
+},
+"g23": {
+"da": "Det er «lidt hårdt, når campingpladsen er åben» – «For så har de aldrig helt fri» (B). Bagefter: gæsterne vil snakke hele tiden og ringer på efter lukketid.",
+"en": "It is hard while the site is open – «because then they are never completely off» (B): guests talk to them all the time and ring after closing time."
+},
+"g24": {
+"da": "De har lavet mange forbedringer – «Og de har flere planer» (D). Næste sætning: «Deres næste projekt er …».",
+"en": "They have made many improvements – «and they have more plans» (D), followed by «Their next project is …»."
+},
+"g25": {
+"da": "«Mange tror, at … de holder ferie resten af året» – «Men det gør de nu ikke» (E). Bagefter forklarer «For …», at de arbejder på pladsen om vinteren.",
+"en": "«Many think they are on holiday the rest of the year» – «but they actually aren't» (E); the next sentence explains they work on the site in winter."
+}
 }
 };

@@ -683,4 +683,32 @@ Næste dag, da hun kommer hjem fra arbejde, står varerne uden for døren. Eva b
       }
     ]
   });
+  PD2.READING.push({
+    id: "pd2-x2", group: G, real: true,
+    title: "Opgave 4 – Campingpladsen er deres fælles projekt",
+    kind: "Delprøve 2 · sæt sætninger ind",
+    level: 3, minutes: 20,
+    instruction: "Læs teksten. Der er seks afsnit. I hvert afsnit er der et hul, hvor der mangler en sætning. Sætningerne, der mangler, står på listen (A-H). Find den sætning, der passer i hvert afsnit (21-25). Der er to sætninger, du ikke skal bruge. Se eksemplet (0).",
+    text: `Lise og Henrik har købt en campingplads på Fyn. Nu bor og arbejder de sammen på campingpladsen, som er blevet deres fælles projekt.
+
+0. Lise og Henrik er gift. Lise er 37 år og har arbejdet i en bank. Henrik er 35 år og har haft sit eget elektrikerfirma. De har boet i København i mange år. Men nu har de købt en campingplads på Fyn, og det er de rigtig glade for. [[0]]. Og selvom de arbejder mange timer hver dag, er de nu fælles om det, de laver.
+
+21. Lise og Henriks arbejdsdage er lange, for campingpladsen er temmelig stor, og der er mange aktiviteter for børn og voksne. Der er swimmingpool, tre tennisbaner, en stor legeplads og et hus, hvor man kan spille spil, se tv og hygge sig, når det regner. Der er selvfølgelig også køkken, toiletbygninger, baderum og et vaskeri. [[21]]. Og Henrik bruger da også næsten al sin tid ude på campingpladsen. For det er hans job at rydde op og gøre rent og at tjekke, at alt er i orden.
+
+22. Lise passer receptionen. Hun taler i telefon med de gæster, der gerne vil komme, og hun hjælper også de gæster, der allerede bor på campingpladsen. Gæsterne har mange spørgsmål. De spørger f.eks. om, hvad man kan lave, og hvad man kan se på Fyn, og hvor man kan købe forskellige ting. Nogle af gæsterne er trætte, når de ankommer, fordi de har kørt langt. [[22]]. For de har ferie, og derfor er der næsten altid en dejlig stemning.
+
+23. Lise og Henrik bor i en lejlighed på campingpladsen. Lejligheden ligger på 1. sal over receptionen. Så de skal ikke bruge tid på at komme på arbejde, og det er dejligt, men det er også lidt hårdt, når campingpladsen er åben. [[23]]. Lise og Henrik møder nemlig hele tiden gæster, der gerne vil snakke eller spørge om noget. Det sker også, at gæsterne ringer på døren til receptionen efter lukketid, fordi de har et problem eller et spørgsmål.
+
+24. Lise og Henrik har gjort mange ting for at forbedre campingpladsen i den tid, de har haft den. Der er gratis internet på hele området nu, og de har købt nye møbler til TV-stuen. De har også lavet en ny legeplads med både en stor og en lille rutsjebane, seks gynger og en stor sandkasse. Den er børnene på campingpladsen rigtig glade for. [[24]]. Deres næste projekt er at indrette et lokale, hvor man kan spille bordtennis. Det vil mange af gæsterne nemlig gerne.
+
+25. Campingpladsen er åben fra april til oktober. I de måneder har Lise og Henrik meget travlt. Mange tror, at Lise og Henrik så holder ferie resten af året. [[25]]. For når campingpladsen er lukket, har de mulighed for at lave små og store ændringer på pladsen og gøre den klar til næste sommer. F.eks. kan de kun renovere toiletbygningerne i vinterhalvåret, når pladsen ikke er fuld af gæster.`,
+    questions: [
+      {
+        type: "gaps",
+        bank: [["A", "For nu ses de i løbet af dagen."], ["B", "For så har de aldrig helt fri."], ["C", "Og det gør de også altid."], ["D", "Og de har flere planer."], ["E", "Men det gør de nu ikke."], ["F", "For så er de altid alene."], ["G", "Så der er meget at ordne."], ["H", "Men de fleste er i godt humør."]].map(([key, text]) => ({ key, text })),
+        example: { 0: "A" },
+        answers: { 21: "G", 22: "H", 23: "B", 24: "D", 25: "E" }
+      }
+    ]
+  });
 })();

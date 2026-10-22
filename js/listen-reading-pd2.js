@@ -111502,6 +111502,452 @@ PD2.LISTEN_R = {
 }
 ]
 },
+"pd2-x2": {
+"lines": [
+{
+"da": "Campingpladsen er deres fælles projekt",
+"en": "The campsite is their joint project",
+"p": true,
+"note": "The title. «fælles» means shared or joint; it does not change its form.",
+"words": [
+[
+"fælles",
+"joint, shared"
+]
+]
+},
+{
+"da": "Lise og Henrik har købt en campingplads på Fyn.",
+"en": "Lise and Henrik have bought a campsite on Funen.",
+"p": true,
+"note": "Present perfect: «har købt». Islands take «på»: på Fyn.",
+"words": [
+[
+"campingplads",
+"campsite"
+]
+]
+},
+{
+"da": "Nu bor og arbejder de sammen på campingpladsen, som er blevet deres fælles projekt.",
+"en": "Now they live and work together on the campsite, which has become their joint project.",
+"p": false,
+"note": "«Nu» comes first, so the verbs come before «de». «som» starts a relative clause.",
+"words": [
+[
+"sammen",
+"together"
+]
+]
+},
+{
+"da": "Lise og Henrik er gift.",
+"en": "Lise and Henrik are married.",
+"p": true,
+"note": "«gift» is an adjective here: to be married.",
+"words": [
+[
+"gift",
+"married"
+]
+]
+},
+{
+"da": "Lise er 37 år og har arbejdet i en bank.",
+"en": "Lise is 37 and has worked in a bank.",
+"p": false,
+"note": "Age in Danish: «er 37 år» – no word for «old»."
+},
+{
+"da": "Henrik er 35 år og har haft sit eget elektrikerfirma.",
+"en": "Henrik is 35 and has had his own electrician business.",
+"p": false,
+"note": "«sit eget» refers back to Henrik and agrees with «et firma».",
+"words": [
+[
+"elektrikerfirma",
+"electrician business"
+]
+]
+},
+{
+"da": "De har boet i København i mange år.",
+"en": "They have lived in Copenhagen for many years.",
+"p": false,
+"note": "«i mange år» tells how long."
+},
+{
+"da": "Men nu har de købt en campingplads på Fyn, og det er de rigtig glade for.",
+"en": "But now they have bought a campsite on Funen, and they are really happy about it.",
+"p": false,
+"note": "«glad for» = happy about. «det» comes first, so «er de» is inverted.",
+"words": [
+[
+"glade for",
+"happy about"
+]
+]
+},
+{
+"da": "For nu ses de i løbet af dagen.",
+"en": "Because now they see each other during the day.",
+"p": false,
+"note": "This is the example sentence A. «ses» is a passive-looking verb meaning to see each other.",
+"words": [
+[
+"i løbet af",
+"during"
+]
+]
+},
+{
+"da": "Og selvom de arbejder mange timer hver dag, er de nu fælles om det, de laver.",
+"en": "And although they work many hours every day, they now share what they do.",
+"p": false,
+"note": "«selvom» starts the sentence, so the main clause begins with the verb: «er de».",
+"words": [
+[
+"selvom",
+"although"
+]
+]
+},
+{
+"da": "Lise og Henriks arbejdsdage er lange, for campingpladsen er temmelig stor, og der er mange aktiviteter for børn og voksne.",
+"en": "Lise and Henrik's working days are long, because the campsite is quite big and there are many activities for children and adults.",
+"p": true,
+"note": "«for» here means because. Plural adjective: «lange».",
+"words": [
+[
+"temmelig",
+"quite"
+],
+[
+"aktiviteter",
+"activities"
+]
+]
+},
+{
+"da": "Der er swimmingpool, tre tennisbaner, en stor legeplads og et hus, hvor man kan spille spil, se tv og hygge sig, når det regner.",
+"en": "There is a swimming pool, three tennis courts, a big playground and a house where you can play games, watch TV and relax when it rains.",
+"p": false,
+"note": "«hvor» introduces a place clause. «hygge sig» is reflexive.",
+"words": [
+[
+"legeplads",
+"playground"
+],
+[
+"hygge sig",
+"have a cosy time"
+]
+]
+},
+{
+"da": "Der er selvfølgelig også køkken, toiletbygninger, baderum og et vaskeri.",
+"en": "There are of course also kitchens, toilet blocks, bathrooms and a laundry.",
+"p": false,
+"note": "«der er» = there is / there are.",
+"words": [
+[
+"vaskeri",
+"laundry"
+]
+]
+},
+{
+"da": "… Og Henrik bruger da også næsten al sin tid ude på campingpladsen.",
+"en": "… And Henrik spends almost all his time out on the campsite.",
+"p": false,
+"note": "The gap is sentence G: «Så der er meget at ordne». «da også» adds emphasis.",
+"words": [
+[
+"bruger tid",
+"spends time"
+]
+]
+},
+{
+"da": "For det er hans job at rydde op og gøre rent og at tjekke, at alt er i orden.",
+"en": "Because his job is to tidy up, clean and check that everything is in order.",
+"p": false,
+"note": "«hans» (not «sin») because it is not the subject of the sentence.",
+"words": [
+[
+"rydde op",
+"tidy up"
+],
+[
+"gøre rent",
+"clean"
+]
+]
+},
+{
+"da": "Lise passer receptionen.",
+"en": "Lise runs the reception.",
+"p": true,
+"note": "«passe» here means to look after / run.",
+"words": [
+[
+"receptionen",
+"the reception"
+]
+]
+},
+{
+"da": "Hun taler i telefon med de gæster, der gerne vil komme, og hun hjælper også de gæster, der allerede bor på campingpladsen.",
+"en": "She talks on the phone with guests who want to come, and also helps guests who are already staying.",
+"p": false,
+"note": "«der» starts a relative clause about «gæster».",
+"words": [
+[
+"gæster",
+"guests"
+],
+[
+"allerede",
+"already"
+]
+]
+},
+{
+"da": "Gæsterne har mange spørgsmål.",
+"en": "The guests have many questions.",
+"p": false,
+"note": "«spørgsmål» is the same in singular and plural."
+},
+{
+"da": "De spørger f.eks. om, hvad man kan lave, og hvad man kan se på Fyn, og hvor man kan købe forskellige ting.",
+"en": "They ask, for example, what you can do and see on Funen and where you can buy different things.",
+"p": false,
+"note": "Indirect questions: «hvad man kan lave» – subject before verb.",
+"words": [
+[
+"forskellige",
+"different"
+]
+]
+},
+{
+"da": "Nogle af gæsterne er trætte, når de ankommer, fordi de har kørt langt.",
+"en": "Some of the guests are tired when they arrive because they have driven far.",
+"p": false,
+"note": "«når» for a repeated situation, «fordi» for the reason.",
+"words": [
+[
+"ankommer",
+"arrive"
+]
+]
+},
+{
+"da": "… For de har ferie, og derfor er der næsten altid en dejlig stemning.",
+"en": "… Because they are on holiday, and so there is almost always a lovely atmosphere.",
+"p": false,
+"note": "The gap is H: «Men de fleste er i godt humør». After «derfor» the verb comes first: «er der».",
+"words": [
+[
+"stemning",
+"atmosphere"
+]
+]
+},
+{
+"da": "Lise og Henrik bor i en lejlighed på campingpladsen.",
+"en": "Lise and Henrik live in a flat on the campsite.",
+"p": true,
+"note": "«en lejlighed» = a flat.",
+"words": [
+[
+"lejlighed",
+"flat"
+]
+]
+},
+{
+"da": "Lejligheden ligger på 1. sal over receptionen.",
+"en": "The flat is on the first floor above the reception.",
+"p": false,
+"note": "Floors take «på»: på 1. sal."
+},
+{
+"da": "Så de skal ikke bruge tid på at komme på arbejde, og det er dejligt, men det er også lidt hårdt, når campingpladsen er åben.",
+"en": "So they don't spend time getting to work, which is nice, but it is also a bit hard when the campsite is open.",
+"p": false,
+"note": "«ikke» comes after the first verb «skal».",
+"words": [
+[
+"hårdt",
+"hard"
+]
+]
+},
+{
+"da": "… Lise og Henrik møder nemlig hele tiden gæster, der gerne vil snakke eller spørge om noget.",
+"en": "… Lise and Henrik constantly meet guests who want to chat or ask about something.",
+"p": false,
+"note": "The gap is B: «For så har de aldrig helt fri». «nemlig» explains the reason.",
+"words": [
+[
+"nemlig",
+"you see / because"
+],
+[
+"hele tiden",
+"all the time"
+]
+]
+},
+{
+"da": "Det sker også, at gæsterne ringer på døren til receptionen efter lukketid, fordi de har et problem eller et spørgsmål.",
+"en": "It also happens that guests ring the reception doorbell after closing time because they have a problem or a question.",
+"p": false,
+"note": "«Det sker, at …» = it happens that …",
+"words": [
+[
+"lukketid",
+"closing time"
+]
+]
+},
+{
+"da": "Lise og Henrik har gjort mange ting for at forbedre campingpladsen i den tid, de har haft den.",
+"en": "Lise and Henrik have done many things to improve the campsite since they took it over.",
+"p": true,
+"note": "«for at» + infinitive = in order to.",
+"words": [
+[
+"forbedre",
+"improve"
+]
+]
+},
+{
+"da": "Der er gratis internet på hele området nu, og de har købt nye møbler til TV-stuen.",
+"en": "There is now free internet on the whole site, and they have bought new furniture for the TV room.",
+"p": false,
+"note": "«møbler» is plural: furniture.",
+"words": [
+[
+"gratis",
+"free"
+],
+[
+"møbler",
+"furniture"
+]
+]
+},
+{
+"da": "De har også lavet en ny legeplads med både en stor og en lille rutsjebane, seks gynger og en stor sandkasse.",
+"en": "They have also built a new playground with a big and a small slide, six swings and a big sandpit.",
+"p": false,
+"note": "«både … og» = both … and.",
+"words": [
+[
+"rutsjebane",
+"slide"
+],
+[
+"gynger",
+"swings"
+]
+]
+},
+{
+"da": "Den er børnene på campingpladsen rigtig glade for.",
+"en": "The children on the campsite love it.",
+"p": false,
+"note": "«Den» (the playground) comes first for emphasis, then the verb: «er børnene»."
+},
+{
+"da": "… Deres næste projekt er at indrette et lokale, hvor man kan spille bordtennis.",
+"en": "… Their next project is to set up a room where you can play table tennis.",
+"p": false,
+"note": "The gap is D: «Og de har flere planer».",
+"words": [
+[
+"indrette",
+"fit out / set up"
+],
+[
+"lokale",
+"room"
+]
+]
+},
+{
+"da": "Det vil mange af gæsterne nemlig gerne.",
+"en": "Many of the guests would like that.",
+"p": false,
+"note": "«vil gerne» = would like to. «Det» first, so «vil mange» is inverted."
+},
+{
+"da": "Campingpladsen er åben fra april til oktober.",
+"en": "The campsite is open from April to October.",
+"p": true,
+"note": "«fra … til» = from … to."
+},
+{
+"da": "I de måneder har Lise og Henrik meget travlt.",
+"en": "In those months Lise and Henrik are very busy.",
+"p": false,
+"note": "«have travlt» = be busy. Time first, so «har Lise og Henrik».",
+"words": [
+[
+"have travlt",
+"be busy"
+]
+]
+},
+{
+"da": "Mange tror, at Lise og Henrik så holder ferie resten af året.",
+"en": "Many think Lise and Henrik are on holiday for the rest of the year.",
+"p": false,
+"note": "«at» starts a subordinate clause.",
+"words": [
+[
+"resten af året",
+"the rest of the year"
+]
+]
+},
+{
+"da": "… For når campingpladsen er lukket, har de mulighed for at lave små og store ændringer på pladsen og gøre den klar til næste sommer.",
+"en": "… Because when the campsite is closed, they can make small and big changes and get it ready for next summer.",
+"p": false,
+"note": "The gap is E: «Men det gør de nu ikke». The «når» clause comes first, so «har de» follows.",
+"words": [
+[
+"ændringer",
+"changes"
+],
+[
+"klar",
+"ready"
+]
+]
+},
+{
+"da": "F.eks. kan de kun renovere toiletbygningerne i vinterhalvåret, når pladsen ikke er fuld af gæster.",
+"en": "For example, they can only renovate the toilet blocks in the winter half of the year, when the site is not full of guests.",
+"p": false,
+"note": "«F.eks.» first, so the verb comes next: «kan de».",
+"words": [
+[
+"renovere",
+"renovate"
+],
+[
+"vinterhalvåret",
+"the winter half-year"
+]
+]
+}
+]
+},
 "pd3-18m-1": {
 "lines": [
 {
