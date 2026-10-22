@@ -1252,5 +1252,9 @@ PD2.I18N.en = {
 "📒 Gem i Mine ord": "📒 Save in My words",
 "✓ Gemt": "✓ Saved",
 "Øv disse igen:": "Practise these again:",
-"Vælg et andet emne": "Choose another topic"
+"Vælg et andet emne": "Choose another topic",
+"📋 Emneliste – vælg selv emne": "📋 Topic list – choose your own topic",
+"Til prøven vælger du ét emne fra listen og fortæller om dit eget liv. Udfyld de tomme pladser med dit eget job, kursus eller land.": "In the exam you choose one topic from the list and talk about your own life. Fill in the blanks with your own job, course or country.",
+"📋 Fra emnelisten:": "📋 From the topic list:",
+"– udfyld selv.": "– fill in yourself."
 };

@@ -1251,5 +1251,9 @@ PD2.I18N.pl = {
 "📒 Gem i Mine ord": "📒 Zapisz w Moich słowach",
 "✓ Gemt": "✓ Zapisano",
 "Øv disse igen:": "Poćwicz jeszcze:",
-"Vælg et andet emne": "Wybierz inny temat"
+"Vælg et andet emne": "Wybierz inny temat",
+"📋 Emneliste – vælg selv emne": "📋 Lista tematów – wybierz swój temat",
+"Til prøven vælger du ét emne fra listen og fortæller om dit eget liv. Udfyld de tomme pladser med dit eget job, kursus eller land.": "Na egzaminie wybierasz jeden temat z listy i mówisz o swoim życiu. Uzupełnij luki swoją pracą, kursem lub krajem.",
+"📋 Fra emnelisten:": "📋 Z listy tematów:",
+"– udfyld selv.": "– uzupełnij sam."
 };

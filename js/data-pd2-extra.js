@@ -91,6 +91,74 @@ PD2.SPEAKING_MONO = [
   }
 ];
 
+// Emnelisten til den mundtlige prøve, delprøve 1 (præsentation): the learner picks one topic and fills in
+// the blanks with their own job, course etc. Each topic has guiding points and the four kinds of
+// follow-up questions the examiner asks.
+const FQ4 = (o, u, b, g) => [{ t: "opklarende", q: o }, { t: "uddybende", q: u }, { t: "begrundelse", q: b }, { t: "generalisering", q: g }];
+PD2.SPEAKING_MONO.push(
+  { id: "e1", list: true, title: "Min første tid i Danmark",
+    points: ["Hvornår og hvorfor kom du til Danmark?", "Hvordan var de første uger og måneder?", "Hvad var svært, og hvad var nemt?", "Hvem hjalp dig?"],
+    followUp: FQ4("Du sagde, at noget var svært i starten. Hvad mener du præcist?", "Kan du fortælle lidt mere om en dag, du husker særligt godt?", "Hvorfor tror du, at det var sådan?", "Hvad er generelt det sværeste for nye i Danmark, synes du?") },
+  { id: "e2", list: true, title: "Mit arbejde i Danmark", fill: "Mit arbejde som ________ på ________ i Danmark",
+    points: ["Hvad arbejder du som, og hvor?", "Hvad laver du på en almindelig arbejdsdag?", "Hvad kan du lide ved dit arbejde – og hvad er svært?", "Hvordan fik du jobbet?"],
+    followUp: FQ4("Vil du forklare lidt nærmere, hvad dine opgaver er?", "Kan du fortælle mere om dine arbejdstider?", "Hvorfor valgte du netop det job?", "Hvad synes du generelt er vigtigt for at trives på en arbejdsplads?") },
+  { id: "e3", list: true, title: "Arbejdsmiljøet på min arbejdsplads",
+    points: ["Hvordan er stemningen på din arbejdsplads?", "Hvordan er det fysiske arbejdsmiljø (lyd, lys, løft, pauser)?", "Hvad gør jeres arbejdsplads for medarbejderne?", "Hvad kunne blive bedre?"],
+    followUp: FQ4("Hvad mener du med et godt arbejdsmiljø?", "Kan du give et eksempel på noget, der er blevet bedre?", "Hvorfor er arbejdsmiljøet vigtigt for dig?", "Hvad synes du generelt om arbejdsmiljøet i Danmark sammenlignet med dit hjemland?") },
+  { id: "e4", list: true, title: "Hvordan jeg klarer mig på dansk i mit arbejde", fill: "Hvordan jeg klarer mig på dansk i mit arbejde som ________",
+    points: ["Hvornår taler, læser og skriver du dansk på arbejdet?", "Hvad er nemt, og hvad er svært?", "Hvad gør du, når du ikke forstår noget?", "Hvordan forbedrer du dit dansk?"],
+    followUp: FQ4("Kan du forklare, hvilke ord eller situationer der er sværest?", "Kan du fortælle om en gang, hvor der var en misforståelse?", "Hvorfor er det vigtigt at kunne dansk i dit job?", "Synes du, at man generelt skal kunne godt dansk for at få arbejde i Danmark?") },
+  { id: "e5", list: true, title: "Samarbejdet med mine kolleger på min arbejdsplads",
+    points: ["Hvem arbejder du sammen med?", "Hvordan samarbejder I i hverdagen?", "Hvad gør I sammen uden for arbejdet (fx frokost, fester)?", "Hvordan løser I problemer og uenigheder?"],
+    followUp: FQ4("Hvad mener du med et godt samarbejde?", "Kan du give et eksempel på en opgave, I løste sammen?", "Hvorfor tror du, at samarbejdet fungerer godt – eller ikke så godt?", "Hvad synes du generelt kendetegner danske kolleger?") },
+  { id: "e6", list: true, title: "Mit kursus", fill: "Mit kursus i ________ (f.eks. jobsøgning, fødevarehygiejne)",
+    points: ["Hvilket kursus har du taget, og hvor?", "Hvad lærte du?", "Hvordan foregik undervisningen?", "Hvad kan du bruge kurset til?"],
+    followUp: FQ4("Vil du forklare lidt nærmere, hvad kurset handlede om?", "Kan du fortælle mere om de andre deltagere?", "Hvorfor valgte du det kursus?", "Synes du generelt, at det er vigtigt at tage kurser, når man er voksen?") },
+  { id: "e7", list: true, title: "Mit arbejde i mit hjemland", fill: "Mit arbejde som ________ i mit hjemland",
+    points: ["Hvad arbejdede du som i dit hjemland?", "Hvordan var en almindelig arbejdsdag?", "Hvad var godt ved arbejdet – og hvad var svært?", "Hvad er forskellen på at arbejde i dit hjemland og i Danmark?"],
+    followUp: FQ4("Kan du forklare lidt mere om dine opgaver?", "Kan du fortælle om dine kolleger dengang?", "Hvorfor valgte du det arbejde?", "Hvad synes du generelt er den største forskel på arbejdslivet i de to lande?") },
+  { id: "e8", list: true, title: "Min ferie", fill: "Min ferie på/i ________",
+    points: ["Hvor og hvornår holdt du ferie?", "Hvem var du sammen med?", "Hvad lavede I?", "Hvad var den bedste oplevelse?"],
+    followUp: FQ4("Hvad mener du med, at det var en god ferie?", "Kan du fortælle mere om stedet, hvor I boede?", "Hvorfor valgte I netop det sted?", "Hvordan holder danskere generelt ferie, synes du?") },
+  { id: "e9", list: true, title: "Min praktik", fill: "Min praktik som ________ i/på ________",
+    points: ["Hvor var du i praktik, og hvor længe?", "Hvad var dine opgaver?", "Hvad lærte du?", "Hvad kan du bruge praktikken til i fremtiden?"],
+    followUp: FQ4("Kan du forklare lidt nærmere, hvad du lavede en almindelig dag?", "Kan du fortælle om din kontaktperson eller dine kolleger?", "Hvorfor valgte du netop den praktikplads?", "Synes du generelt, at praktik er en god måde at komme i arbejde på?") },
+  { id: "e10", list: true, title: "Min uddannelse i Danmark", fill: "Min uddannelse som ________ i Danmark",
+    points: ["Hvilken uddannelse tager du (eller har du taget)?", "Hvordan er undervisningen?", "Hvad er godt, og hvad er svært?", "Hvad vil du bruge uddannelsen til?"],
+    followUp: FQ4("Kan du forklare lidt mere om fagene?", "Kan du fortælle om dine medstuderende?", "Hvorfor valgte du den uddannelse?", "Hvad synes du generelt om det danske uddannelsessystem?") },
+  { id: "e11", list: true, title: "Min uddannelse i mit hjemland", fill: "Min uddannelse som ________ i mit hjemland",
+    points: ["Hvilken uddannelse tog du i dit hjemland?", "Hvor længe varede den, og hvad lærte du?", "Hvordan var undervisningen og lærerne?", "Kan du bruge uddannelsen i Danmark?"],
+    followUp: FQ4("Vil du forklare lidt nærmere, hvad uddannelsen gik ud på?", "Kan du fortælle om en lærer eller et fag, du husker?", "Hvorfor valgte du den uddannelse?", "Hvad er generelt forskellen på at studere i dit hjemland og i Danmark?") },
+  { id: "e12", list: true, title: "Min interesse", fill: "Min interesse for ________",
+    points: ["Hvad er du interesseret i?", "Hvordan begyndte din interesse?", "Hvor meget tid bruger du på den?", "Hvad betyder den for dig?"],
+    followUp: FQ4("Kan du forklare lidt nærmere, hvad det går ud på?", "Kan du fortælle om en oplevelse, du har haft med din interesse?", "Hvorfor er du så interesseret i netop det?", "Synes du generelt, at det er vigtigt at have interesser ved siden af arbejdet?") },
+  { id: "e13", list: true, title: "Min hobby", fill: "Min hobby ________",
+    points: ["Hvad er din hobby?", "Hvor, hvornår og med hvem dyrker du den?", "Hvad koster den i tid og penge?", "Hvorfor kan du lide den?"],
+    followUp: FQ4("Vil du forklare lidt mere om, hvordan man gør?", "Kan du fortælle om første gang, du prøvede det?", "Hvorfor valgte du netop den hobby?", "Hvilke hobbyer er generelt populære i Danmark, synes du?") },
+  { id: "e14", list: true, title: "Mine erfaringer med mit barns institution", fill: "(vuggestue/børnehave/skolefritidsordning/skole)",
+    points: ["Hvilken institution går dit barn i?", "Hvordan er en almindelig dag for dit barn?", "Hvordan er kontakten med pædagogerne eller lærerne?", "Hvad er godt, og hvad kunne være bedre?"],
+    followUp: FQ4("Kan du forklare lidt nærmere, hvordan I får besked fra institutionen?", "Kan du fortælle om en dag eller et arrangement, du husker?", "Hvorfor valgte I netop den institution?", "Hvad synes du generelt om danske daginstitutioner og skoler?") },
+  { id: "e15", list: true, title: "Mine erfaringer med mine danske naboer",
+    points: ["Hvor bor du, og hvem er dine naboer?", "Hvor meget taler I sammen?", "Hjælper I hinanden?", "Har du haft gode eller dårlige oplevelser med naboer?"],
+    followUp: FQ4("Hvad mener du med et godt naboskab?", "Kan du fortælle om en bestemt oplevelse med en nabo?", "Hvorfor tror du, at det er sådan?", "Synes du generelt, at danskere er gode naboer?") },
+  { id: "e16", list: true, title: "Mine erfaringer og oplevelser med mine danske venner",
+    points: ["Hvordan mødte du dine danske venner?", "Hvad laver I sammen?", "Hvad har du lært af dem?", "Er det svært at få danske venner?"],
+    followUp: FQ4("Kan du forklare lidt mere om, hvordan I lærte hinanden at kende?", "Kan du fortælle om en god oplevelse med dine venner?", "Hvorfor tror du, at det kan være svært at få danske venner?", "Hvad er generelt den bedste måde at få nye venner i Danmark?") },
+  { id: "e17", list: true, title: "Min fremtid i Danmark",
+    points: ["Hvad er dine planer for de næste år?", "Arbejde, uddannelse eller familie – hvad er vigtigst for dig?", "Hvad skal der til, for at dine planer lykkes?", "Hvor ser du dig selv om ti år?"],
+    followUp: FQ4("Vil du forklare lidt nærmere, hvad du drømmer om?", "Kan du fortælle mere om, hvad du gør nu for at nå dit mål?", "Hvorfor er det mål vigtigt for dig?", "Hvad synes du generelt, man skal gøre for at få et godt liv i Danmark?") },
+  { id: "e18", list: true, title: "Min sunde livsstil", fill: "(f.eks. mad, drikke, søvn, motion, transport)",
+    points: ["Hvad spiser og drikker du til hverdag?", "Hvor meget motion får du, og hvordan transporterer du dig?", "Hvor meget sover du?", "Hvad vil du gerne gøre bedre?"],
+    followUp: FQ4("Hvad mener du med en sund livsstil?", "Kan du fortælle om en almindelig dag med mad og motion?", "Hvorfor er det vigtigt for dig at leve sundt?", "Synes du generelt, at danskere lever sundt?") },
+  { id: "e19", list: true, title: "Mine erfaringer med forældremøder i mit barns børnehave",
+    points: ["Hvor ofte er der forældremøder, og hvem kommer?", "Hvad taler man om på møderne?", "Hvordan var dit første forældremøde?", "Hvad er godt ved forældremøder – og hvad er svært?"],
+    followUp: FQ4("Kan du forklare lidt nærmere, hvordan et møde foregår?", "Kan du fortælle om et emne, I har diskuteret?", "Hvorfor tror du, at forældremøder er vigtige?", "Synes du generelt, at forældre i Danmark skal deltage meget i institutionens liv?") },
+  { id: "e20", list: true, title: "Mine erfaringer som selvstændig",
+    points: ["Hvad slags firma har du, og hvornår startede du?", "Hvordan er en almindelig arbejdsdag?", "Hvad er godt ved at være selvstændig – og hvad er svært?", "Hvilke planer har du for dit firma?"],
+    followUp: FQ4("Vil du forklare lidt nærmere, hvad dit firma laver?", "Kan du fortælle om dine kunder?", "Hvorfor valgte du at blive selvstændig?", "Hvad synes du generelt om at starte en virksomhed i Danmark?") }
+);
+
+
 // ---------- Mundtlig delprøve 2: billede + interview (ca. 3 min) og samtale (ca. 4 min) ----------
 // In the exam each candidate gets a picture. p1-p3 use the real 2020 pictures; the
 // DanskKlar-written topics (p4 onwards) use an illustrated scene card instead.

@@ -1251,5 +1251,9 @@ PD2.I18N.ro = {
 "📒 Gem i Mine ord": "📒 Salvează în Cuvintele mele",
 "✓ Gemt": "✓ Salvat",
 "Øv disse igen:": "Exersează din nou:",
-"Vælg et andet emne": "Alege alt subiect"
+"Vælg et andet emne": "Alege alt subiect",
+"📋 Emneliste – vælg selv emne": "📋 Lista de subiecte – alege-ți subiectul",
+"Til prøven vælger du ét emne fra listen og fortæller om dit eget liv. Udfyld de tomme pladser med dit eget job, kursus eller land.": "La examen alegi un subiect din listă și vorbești despre viața ta. Completează spațiile cu jobul, cursul sau țara ta.",
+"📋 Fra emnelisten:": "📋 Din lista de subiecte:",
+"– udfyld selv.": "– completează singur."
 };

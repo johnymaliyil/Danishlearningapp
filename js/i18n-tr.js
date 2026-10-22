@@ -1251,5 +1251,9 @@ PD2.I18N.tr = {
 "📒 Gem i Mine ord": "📒 Kelimelerim'e kaydet",
 "✓ Gemt": "✓ Kaydedildi",
 "Øv disse igen:": "Bunları tekrar çalış:",
-"Vælg et andet emne": "Başka bir konu seç"
+"Vælg et andet emne": "Başka bir konu seç",
+"📋 Emneliste – vælg selv emne": "📋 Konu listesi – kendi konunu seç",
+"Til prøven vælger du ét emne fra listen og fortæller om dit eget liv. Udfyld de tomme pladser med dit eget job, kursus eller land.": "Sınavda listeden bir konu seçer ve kendi hayatını anlatırsın. Boşlukları kendi işin, kursun veya ülkenle doldur.",
+"📋 Fra emnelisten:": "📋 Konu listesinden:",
+"– udfyld selv.": "– kendin doldur."
 };

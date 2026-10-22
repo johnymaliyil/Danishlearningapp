@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "128"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "129"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -1542,8 +1542,13 @@
     const mono = EX().SPEAKING_MONO, dia = EX().SPEAKING_DIALOG, pics = EX().SPEAKING_PICTURE || [];
     const done = id => S.speaking.done[id] ? '<span class="score-badge full">✓</span>' : "";
     const realTag = p => p.real ? ` <span class="tag real">Emne fra prøven${p.set ? ` · Sæt ${p.set}` : ""}</span>` : "";
-    const monoList = mono.map(m => `<a class="list-item" href="#/speaking/mono/${m.id}">
-        <span class="ico">🎤</span><span class="meta"><b>${esc(m.title)}</b><span class="small muted">${m.points.length} stikord · ${m.followUp.length} spørgsmål</span></span>${done(m.id)}</a>`).join("");
+    const monoItem = m => `<a class="list-item" href="#/speaking/mono/${m.id}">
+        <span class="ico">🎤</span><span class="meta"><b>${esc(m.title)}</b>${m.fill ? `<span class="small">${esc(m.fill)}</span>` : ""}<span class="small muted">${m.points.length} stikord · ${m.followUp.length} spørgsmål</span></span>${done(m.id)}</a>`;
+    const listTopics = mono.filter(m => m.list);
+    const monoList = mono.filter(m => !m.list).map(monoItem).join("") + (listTopics.length ? `
+        <h3 style="margin:18px 0 6px">📋 Emneliste – vælg selv emne</h3>
+        <p class="small muted" style="margin:0 0 8px">Til prøven vælger du ét emne fra listen og fortæller om dit eget liv. Udfyld de tomme pladser med dit eget job, kursus eller land.</p>
+        ${listTopics.map(monoItem).join("")}` : "");
     const picList = pics.map(p => `<a class="list-item" href="#/speaking/picture/${p.id}">
         <span class="ico">🖼️</span><span class="meta"><b>${esc(p.title)}</b>${realTag(p)}<span class="small muted">Billede · ${p.interview.length} spørgsmål · samtale</span></span>${done(p.id)}</a>`).join("");
     const diaList = dia.map(d => `<a class="list-item" href="#/speaking/dialog/${d.id}">
@@ -1721,6 +1726,7 @@
       shell(`
         <span class="phase">Klar, parat …</span>
         <h2 style="margin-top:12px">Du skal tale om: ${esc(m.title)}</h2>
+        ${m.fill ? `<p class="small" style="margin-top:-4px">📋 Fra emnelisten: <b>${esc(m.fill)}</b> – udfyld selv.</p>` : ""}
         <ul class="points-list">${m.points.map(p => `<li>${esc(p)}</li>`).join("")}</ul>
         <div class="row" style="justify-content:center;margin:18px 0;gap:24px">
           <span>Forberedelse: <span class="stepper"><button data-a="prep" data-d="-1" aria-label="Mindre">−</button><b id="prep">${prepMin}</b> min<button data-a="prep" data-d="1" aria-label="Mere">+</button></span></span>

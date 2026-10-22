@@ -1251,5 +1251,9 @@ PD2.I18N.es = {
 "📒 Gem i Mine ord": "📒 Guardar en Mis palabras",
 "✓ Gemt": "✓ Guardado",
 "Øv disse igen:": "Practica otra vez:",
-"Vælg et andet emne": "Elige otro tema"
+"Vælg et andet emne": "Elige otro tema",
+"📋 Emneliste – vælg selv emne": "📋 Lista de temas – elige tu tema",
+"Til prøven vælger du ét emne fra listen og fortæller om dit eget liv. Udfyld de tomme pladser med dit eget job, kursus eller land.": "En el examen eliges un tema de la lista y hablas de tu propia vida. Rellena los huecos con tu trabajo, curso o país.",
+"📋 Fra emnelisten:": "📋 De la lista de temas:",
+"– udfyld selv.": "– rellénalo tú."
 };

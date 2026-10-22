@@ -1251,5 +1251,9 @@ PD2.I18N.uk = {
 "📒 Gem i Mine ord": "📒 Зберегти в «Мої слова»",
 "✓ Gemt": "✓ Збережено",
 "Øv disse igen:": "Повторіть ще раз:",
-"Vælg et andet emne": "Вибрати іншу тему"
+"Vælg et andet emne": "Вибрати іншу тему",
+"📋 Emneliste – vælg selv emne": "📋 Список тем – оберіть свою тему",
+"Til prøven vælger du ét emne fra listen og fortæller om dit eget liv. Udfyld de tomme pladser med dit eget job, kursus eller land.": "На іспиті ви обираєте одну тему зі списку й розповідаєте про своє життя. Заповніть пропуски своєю роботою, курсом чи країною.",
+"📋 Fra emnelisten:": "📋 Зі списку тем:",
+"– udfyld selv.": "– заповніть самі."
 };
