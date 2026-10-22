@@ -1,6 +1,19 @@
 {
- "updated": "2026-10-22T15:18+00:00",
+ "updated": "2026-10-22T19:15+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/maend-idoemt-faengsel-viderefoere-bandidos",
+   "date": "2026-10-22T15:25:45+00:00",
+   "da": {
+    "title": "To mænd idømt fængsel for at videreføre Bandidos",
+    "desc": ""
+   },
+   "en": {
+    "title": "Two men sentenced to prison for continuing Bandidos",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/96-procent-af-verdens-koralrev-er-kritisk-truede-vurderer-forskere",
@@ -180,19 +193,6 @@
    },
    "en": {
     "title": "Judgment in violence case from Islands Brygge is not appealed, state prosecutor informs",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tre-teenagere-anholdt-umotiveret-groft-overfald-i-ringsted",
-   "date": "2026-10-22T07:54:04+00:00",
-   "da": {
-    "title": "Tre teenagere anholdt for umotiveret, groft overfald i Ringsted",
-    "desc": ""
-   },
-   "en": {
-    "title": "Three teenagers arrested for gratuitous, aggravated assault in Ringsted",
     "desc": ""
    }
   }
