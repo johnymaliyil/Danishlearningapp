@@ -1,6 +1,71 @@
 {
- "updated": "2026-10-23T15:06+00:00",
+ "updated": "2026-10-23T19:15+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/macron-kalder-skyderi-i-frankrig-racistisk-terrorangreb",
+   "date": "2026-10-23T18:40:30+00:00",
+   "da": {
+    "title": "Macron kalder skyderi i Frankrig for racistisk terrorangreb",
+    "desc": ""
+   },
+   "en": {
+    "title": "Macron calls shooting in France a racist terrorist attack",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/flere-myndigheders-hjemmesider-er-midlertidigt-utilgaengelige",
+   "date": "2026-10-23T16:39:33+00:00",
+   "da": {
+    "title": "Flere myndigheders hjemmesider er midlertidigt utilgængelige",
+    "desc": ""
+   },
+   "en": {
+    "title": "Multiple government websites are temporarily unavailable",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/vandvaerk-ude-med-opfordring-kog-jeres-vand",
+   "date": "2026-10-23T16:05:56+00:00",
+   "da": {
+    "title": "Vandværk ude med opfordring: Kog jeres vand",
+    "desc": ""
+   },
+   "en": {
+    "title": "Swimming pool outside with invitation: Boil your water",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/40-000-kalkuner-aflives-efter-fund-af-fugleinfluenza-i-slagelse-kommune",
+   "date": "2026-10-23T15:30:51+00:00",
+   "da": {
+    "title": "40.000 kalkuner aflives efter fund af fugleinfluenza i Slagelse Kommune",
+    "desc": ""
+   },
+   "en": {
+    "title": "40,000 turkeys killed after finding of bird flu in Slagelse Municipality",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/blaesevejr-soendag-aflyser-flere-faergeafgange-til-og-fra-bornholm",
+   "date": "2026-10-23T15:06:40+00:00",
+   "da": {
+    "title": "Blæsevejr søndag aflyser flere færgeafgange til og fra Bornholm",
+    "desc": ""
+   },
+   "en": {
+    "title": "Windy Sunday cancels several ferry departures to and from Bornholm",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/mads-mikkelsen-modtager-fransk-orden-sit-kunstneriske-virke",
@@ -128,71 +193,6 @@
    },
    "en": {
     "title": "Israel's military has killed two people in the West Bank",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/volvo-nedlaegger-2-500-stillinger-paa-verdensplan",
-   "date": "2026-10-23T06:06:57+00:00",
-   "da": {
-    "title": "Volvo nedlægger 2.500 stillinger på verdensplan",
-    "desc": ""
-   },
-   "en": {
-    "title": "Volvo to cut 2,500 jobs worldwide",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/taiwan-lukker-ned-og-aflyser-over-900-fly-forud-tyfon",
-   "date": "2026-10-23T03:56:59+00:00",
-   "da": {
-    "title": "Taiwan lukker ned og aflyser over 900 fly forud for tyfon",
-    "desc": ""
-   },
-   "en": {
-    "title": "Taiwan shuts down and cancels over 900 flights ahead of typhoon",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/new-york-vedtager-forbud-mod-hestevognskoersel-i-central-park",
-   "date": "2026-10-23T01:45:10+00:00",
-   "da": {
-    "title": "New York vedtager forbud mod hestevognskørsel i Central Park",
-    "desc": ""
-   },
-   "en": {
-    "title": "New York adopts ban on horse-drawn carriage driving in Central Park",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/politiet-efterforsker-skud-mod-lejlighed-i-viby-j",
-   "date": "2026-10-22T23:23:02+00:00",
-   "da": {
-    "title": "Politiet efterforsker skud mod lejlighed i Viby J",
-    "desc": ""
-   },
-   "en": {
-    "title": "Police investigate shooting at apartment in Viby J",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/16-doede-efter-kraftigt-jordskaelv-i-tibet",
-   "date": "2026-10-22T21:30:00+00:00",
-   "da": {
-    "title": "16 døde efter kraftigt jordskælv i Tibet",
-    "desc": ""
-   },
-   "en": {
-    "title": "16 dead after powerful earthquake in Tibet",
     "desc": ""
    }
   }
