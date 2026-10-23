@@ -1,6 +1,97 @@
 {
- "updated": "2026-10-22T19:15+00:00",
+ "updated": "2026-10-23T09:22+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/oestrig-udviser-fire-russiske-diplomater",
+   "date": "2026-10-23T07:40:33+00:00",
+   "da": {
+    "title": "Østrig udviser fire russiske diplomater",
+    "desc": ""
+   },
+   "en": {
+    "title": "Austria expels four Russian diplomats",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/israels-militaer-melder-om-draebte-paa-vestbredden",
+   "date": "2026-10-23T06:34:57+00:00",
+   "da": {
+    "title": "Israels militær har dræbt to personer på Vestbredden",
+    "desc": ""
+   },
+   "en": {
+    "title": "Israel's military has killed two people in the West Bank",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/volvo-nedlaegger-2-500-stillinger-paa-verdensplan",
+   "date": "2026-10-23T06:06:57+00:00",
+   "da": {
+    "title": "Volvo nedlægger 2.500 stillinger på verdensplan",
+    "desc": ""
+   },
+   "en": {
+    "title": "Volvo to cut 2,500 jobs worldwide",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/taiwan-lukker-ned-og-aflyser-over-900-fly-forud-tyfon",
+   "date": "2026-10-23T03:56:59+00:00",
+   "da": {
+    "title": "Taiwan lukker ned og aflyser over 900 fly forud for tyfon",
+    "desc": ""
+   },
+   "en": {
+    "title": "Taiwan shuts down and cancels over 900 flights ahead of typhoon",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/new-york-vedtager-forbud-mod-hestevognskoersel-i-central-park",
+   "date": "2026-10-23T01:45:10+00:00",
+   "da": {
+    "title": "New York vedtager forbud mod hestevognskørsel i Central Park",
+    "desc": ""
+   },
+   "en": {
+    "title": "New York adopts ban on horse-drawn carriage driving in Central Park",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/politiet-efterforsker-skud-mod-lejlighed-i-viby-j",
+   "date": "2026-10-22T23:23:02+00:00",
+   "da": {
+    "title": "Politiet efterforsker skud mod lejlighed i Viby J",
+    "desc": ""
+   },
+   "en": {
+    "title": "Police investigate shooting at apartment in Viby J",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/16-doede-efter-kraftigt-jordskaelv-i-tibet",
+   "date": "2026-10-22T21:30:00+00:00",
+   "da": {
+    "title": "16 døde efter kraftigt jordskælv i Tibet",
+    "desc": ""
+   },
+   "en": {
+    "title": "16 dead after powerful earthquake in Tibet",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/maend-idoemt-faengsel-viderefoere-bandidos",
@@ -102,97 +193,6 @@
    },
    "en": {
     "title": "Suspected Russian spy arrested in Germany",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/danske-bank-nedlaegger-106-stillinger",
-   "date": "2026-10-22T10:43:25+00:00",
-   "da": {
-    "title": "Danske Bank nedlægger 106 stillinger",
-    "desc": ""
-   },
-   "en": {
-    "title": "Danske Bank closes 106 positions",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/europa-parlamentet-tildeler-icc-aerespris",
-   "date": "2026-10-22T10:24:47+00:00",
-   "da": {
-    "title": "Europa-Parlamentet tildeler ICC ærespris",
-    "desc": ""
-   },
-   "en": {
-    "title": "European Parliament awards ICC honorary prize",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/mand-idoemt-13-aars-faengsel-skuddrab-og-usoemmelig-omgang-med-lig",
-   "date": "2026-10-22T10:13:11+00:00",
-   "da": {
-    "title": "Mand idømt 13 års fængsel for skuddrab og usømmelig omgang med lig",
-    "desc": ""
-   },
-   "en": {
-    "title": "Man sentenced to 13 years in prison for shooting and indecent handling of bodies",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/borgerforslaget-nej-tak-til-fritgaaende-ulve-runder-50-000-underskrifter",
-   "date": "2026-10-22T09:24:53+00:00",
-   "da": {
-    "title": "Borgerforslaget 'Nej tak til fritgående ulve' runder 50.000 underskrifter",
-    "desc": ""
-   },
-   "en": {
-    "title": "Citizen proposal 'No thanks to free-range wolves' rounds 50,000 signatures",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/frankrig-konstaterer-foerste-shamonda-tilfaelde-blandt-mennesker",
-   "date": "2026-10-22T08:38:53+00:00",
-   "da": {
-    "title": "Frankrig konstaterer første Shamonda-tilfælde blandt mennesker",
-    "desc": ""
-   },
-   "en": {
-    "title": "France finds first Shamonda case among humans",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/aarhus-universitet-udsat-hackerangreb",
-   "date": "2026-10-22T08:18:17+00:00",
-   "da": {
-    "title": "Aarhus Universitet udsat for hackerangreb",
-    "desc": ""
-   },
-   "en": {
-    "title": "Aarhus University exposed to hacker attacks",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/dom-i-voldssag-fra-islands-brygge-ankes-ikke-oplyser-statsadvokat",
-   "date": "2026-10-22T08:17:32+00:00",
-   "da": {
-    "title": "Dom i voldssag fra Islands Brygge ankes ikke, oplyser statsadvokat",
-    "desc": ""
-   },
-   "en": {
-    "title": "Judgment in violence case from Islands Brygge is not appealed, state prosecutor informs",
     "desc": ""
    }
   }
