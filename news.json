@@ -1,6 +1,58 @@
 {
- "updated": "2026-10-23T19:15+00:00",
+ "updated": "2026-10-24T08:53+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/koebenhavns-lufthavn-forventer-perioder-med-koe-i-weekenden",
+   "date": "2026-10-24T07:01:55+00:00",
+   "da": {
+    "title": "Københavns Lufthavn forventer perioder med kø i weekenden",
+    "desc": ""
+   },
+   "en": {
+    "title": "Copenhagen Airport expects periods of queuing over the weekend",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/usa-fjerner-nogle-canadiske-toldsatser-forud-midtvejsvalget",
+   "date": "2026-10-24T02:43:18+00:00",
+   "da": {
+    "title": "USA fjerner nogle canadiske toldsatser forud for midtvejsvalget",
+    "desc": ""
+   },
+   "en": {
+    "title": "US removes some Canadian tariffs ahead of midterm elections",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/syv-personer-meldt-savnet-efter-bygningskollaps-i-kenya",
+   "date": "2026-10-23T21:28:41+00:00",
+   "da": {
+    "title": "Syv personer meldt savnet efter bygningskollaps i Kenya",
+    "desc": ""
+   },
+   "en": {
+    "title": "Seven people reported missing after building collapse in Kenya",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/flere-baade-og-bygninger-braender-paa-havn-i-aaroesund",
+   "date": "2026-10-23T20:24:04+00:00",
+   "da": {
+    "title": "Flere både og bygninger brænder på havn i Aarøsund",
+    "desc": ""
+   },
+   "en": {
+    "title": "Several boats and buildings are burning in port in Aarøsund",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/macron-kalder-skyderi-i-frankrig-racistisk-terrorangreb",
@@ -141,58 +193,6 @@
    },
    "en": {
     "title": "Marathon World Champion Suspended After Positive Doping Test",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/en-doed-og-fire-saarede-efter-skudepisode-i-vest-paris",
-   "date": "2026-10-23T10:30:36+00:00",
-   "da": {
-    "title": "En død og fire sårede efter skudepisode i by vest for Paris",
-    "desc": ""
-   },
-   "en": {
-    "title": "One dead and four wounded after shooting in city west of Paris",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/redningsaktion-i-gang-i-sortehavet-efter-fragtskib-udsendte-noedsignal",
-   "date": "2026-10-23T09:39:55+00:00",
-   "da": {
-    "title": "Redningsaktion i gang i Sortehavet, efter fragtskib udsendte nødsignal",
-    "desc": ""
-   },
-   "en": {
-    "title": "Rescue operation in progress in the Black Sea, after cargo ship sent out distress signal",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/oestrig-udviser-fire-russiske-diplomater",
-   "date": "2026-10-23T07:40:33+00:00",
-   "da": {
-    "title": "Østrig udviser fire russiske diplomater",
-    "desc": ""
-   },
-   "en": {
-    "title": "Austria expels four Russian diplomats",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/israels-militaer-melder-om-draebte-paa-vestbredden",
-   "date": "2026-10-23T06:34:57+00:00",
-   "da": {
-    "title": "Israels militær har dræbt to personer på Vestbredden",
-    "desc": ""
-   },
-   "en": {
-    "title": "Israel's military has killed two people in the West Bank",
     "desc": ""
    }
   }
