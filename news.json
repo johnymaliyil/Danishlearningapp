@@ -1,6 +1,32 @@
 {
- "updated": "2026-10-24T08:53+00:00",
+ "updated": "2026-10-24T14:01+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/efter-30-aar-vender-dm-i-ploejning-tilbage-til-sydhavsoeerne",
+   "date": "2026-10-24T12:00:01+00:00",
+   "da": {
+    "title": "Efter 30 år vender DM i pløjning tilbage til Sydhavsøerne",
+    "desc": ""
+   },
+   "en": {
+    "title": "After 30 years, DM in ploughing returns to the South Sea Islands",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/vintertid-i-morgen-paavirker-togene-der-vil-vaere-forfriskninger",
+   "date": "2026-10-24T10:22:46+00:00",
+   "da": {
+    "title": "Uret skal sættes tilbage i nat - der vil være forfriskninger på ændrede togafgange",
+    "desc": ""
+   },
+   "en": {
+    "title": "The clock must be set back tonight - there will be refreshments on changed train departures",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/koebenhavns-lufthavn-forventer-perioder-med-koe-i-weekenden",
@@ -167,32 +193,6 @@
    },
    "en": {
     "title": "Ukraine and Russia exchange 270 POWs",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/trafikstyrelsen-oeget-sikkerhed-i-koebenhavns-lufthavn-har-ingen-kobling-til-sikkerhedssituationen",
-   "date": "2026-10-23T12:32:43+00:00",
-   "da": {
-    "title": "Trafikstyrelsen: Øget sikkerhed i Københavns Lufthavn har ingen kobling til sikkerhedssituationen",
-    "desc": ""
-   },
-   "en": {
-    "title": "Danish Transport Agency: Increased security at Copenhagen Airport has no connection to the security situation",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/seneste-sport/verdensmester-i-maraton-suspenderet-efter-positiv-dopingproeve",
-   "date": "2026-10-23T11:51:43+00:00",
-   "da": {
-    "title": "Verdensmester i maraton suspenderet efter positiv dopingprøve",
-    "desc": ""
-   },
-   "en": {
-    "title": "Marathon World Champion Suspended After Positive Doping Test",
     "desc": ""
    }
   }
