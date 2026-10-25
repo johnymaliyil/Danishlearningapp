@@ -1,6 +1,45 @@
 {
- "updated": "2026-10-25T14:23+00:00",
+ "updated": "2026-10-25T18:24+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tivoli-haedrer-dronning-margrethe-25-aars-indsats",
+   "date": "2026-10-25T17:34:52+00:00",
+   "da": {
+    "title": "Tivoli hædrer dronning Margrethe for 25 års indsats",
+    "desc": ""
+   },
+   "en": {
+    "title": "Tivoli honours Queen Margrethe for 25 years of work",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/virksomheder-boer-undersoege-systemer-efter-datalaek",
+   "date": "2026-10-25T17:05:09+00:00",
+   "da": {
+    "title": "Virksomheder bør undersøge systemer efter datalæk",
+    "desc": ""
+   },
+   "en": {
+    "title": "Companies should investigate systems for data leaks",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/venezuelansk-oppositionsleder-er-tilbage-i-sit-hjemland",
+   "date": "2026-10-25T16:44:12+00:00",
+   "da": {
+    "title": "Venezuelansk oppositionsleder er tilbage i sit hjemland",
+    "desc": ""
+   },
+   "en": {
+    "title": "Venezuelan opposition leader is back in his home country",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/27-000-kalkuner-skal-aflives-paa-lolland",
@@ -154,45 +193,6 @@
    },
    "en": {
     "title": "Several boats and buildings are burning in port in Aarøsund",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/macron-kalder-skyderi-i-frankrig-racistisk-terrorangreb",
-   "date": "2026-10-23T18:40:30+00:00",
-   "da": {
-    "title": "Macron kalder skyderi i Frankrig for racistisk terrorangreb",
-    "desc": ""
-   },
-   "en": {
-    "title": "Macron calls shooting in France a racist terrorist attack",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/flere-myndigheders-hjemmesider-er-midlertidigt-utilgaengelige",
-   "date": "2026-10-23T16:39:33+00:00",
-   "da": {
-    "title": "Flere myndigheders hjemmesider er midlertidigt utilgængelige",
-    "desc": ""
-   },
-   "en": {
-    "title": "Multiple government websites are temporarily unavailable",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/vandvaerk-ude-med-opfordring-kog-jeres-vand",
-   "date": "2026-10-23T16:05:56+00:00",
-   "da": {
-    "title": "Vandværk ude med opfordring: Kog jeres vand",
-    "desc": ""
-   },
-   "en": {
-    "title": "Swimming pool outside with invitation: Boil your water",
     "desc": ""
    }
   }
