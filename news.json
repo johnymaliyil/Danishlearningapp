@@ -1,6 +1,32 @@
 {
- "updated": "2026-10-24T18:10+00:00",
+ "updated": "2026-10-25T09:10+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/italiener-vinder-kvalifikation-til-soendagens-formel-1-grandprix-i-austin",
+   "date": "2026-10-24T22:32:52+00:00",
+   "da": {
+    "title": "Italiener vinder kvalifikation til søndagens Formel 1-grandprix i Austin",
+    "desc": ""
+   },
+   "en": {
+    "title": "Italian Wins Qualification for Sunday's Formula 1 Grand Prix in Austin",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/houthibevaegelsen-angriber-igen-saudiske-lufthavne",
+   "date": "2026-10-24T19:41:51+00:00",
+   "da": {
+    "title": "Houthibevægelsen angriber igen saudiske lufthavne",
+    "desc": ""
+   },
+   "en": {
+    "title": "Houthi movement again attacks Saudi airports",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/efter-30-aar-vender-dm-i-ploejning-tilbage-til-sydhavsoeerne",
@@ -167,32 +193,6 @@
    },
    "en": {
     "title": "Six people have died and 28 are wounded after a shooting at a church in Jordan",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tankanlaeg-til-helikopter-oeger-lighed-i-sundhed-paa-bornholm",
-   "date": "2026-10-23T14:09:22+00:00",
-   "da": {
-    "title": "Tankanlæg til helikopter øger lighed i sundhed på Bornholm",
-    "desc": ""
-   },
-   "en": {
-    "title": "Helicopter tankers increase health equity on Bornholm",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/ukraine-og-rusland-udveksler-270-krigsfanger",
-   "date": "2026-10-23T13:30:06+00:00",
-   "da": {
-    "title": "Ukraine og Rusland udveksler 270 krigsfanger",
-    "desc": ""
-   },
-   "en": {
-    "title": "Ukraine and Russia exchange 270 POWs",
     "desc": ""
    }
   }
