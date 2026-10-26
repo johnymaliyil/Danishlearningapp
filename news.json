@@ -1,6 +1,110 @@
 {
- "updated": "2026-10-26T10:09+00:00",
+ "updated": "2026-10-26T16:48+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/efter-operation-forventes-paven-besoege-sydamerika",
+   "date": "2026-10-26T16:23:08+00:00",
+   "da": {
+    "title": "Efter operation forventes paven at besøge Sydamerika",
+    "desc": ""
+   },
+   "en": {
+    "title": "After surgery, the Pope is expected to visit South America",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/33-aarig-anholdt-i-aktion-mod-ulovlig-medicin",
+   "date": "2026-10-26T15:52:57+00:00",
+   "da": {
+    "title": "33-årig anholdt i aktion mod ulovlig medicin",
+    "desc": ""
+   },
+   "en": {
+    "title": "33-Year-Old Arrested in Action Against Illegal Medic",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/slovakiet-vil-udvikle-paa-samarbejdet-med-rusland",
+   "date": "2026-10-26T15:34:43+00:00",
+   "da": {
+    "title": "Slovakiet vil udvikle på samarbejdet med Rusland",
+    "desc": ""
+   },
+   "en": {
+    "title": "Slovakia will develop on cooperation with Russia",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/roeget-oerred-solgt-i-lidl-tilbagekaldt",
+   "date": "2026-10-26T14:55:16+00:00",
+   "da": {
+    "title": "Røget ørred solgt i Lidl tilbagekaldt",
+    "desc": ""
+   },
+   "en": {
+    "title": "Smoked trout sold in Lidl recalled",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/endnu-et-aarhus-kryds-faar-kameraer-op",
+   "date": "2026-10-26T14:45:15+00:00",
+   "da": {
+    "title": "Endnu et Aarhus-kryds får kameraer op",
+    "desc": ""
+   },
+   "en": {
+    "title": "Another Aarhus junction gets cameras up",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/styrelse-udgiver-guide-til-saerligt-udsatte-efter-cpr-laek",
+   "date": "2026-10-26T14:21:31+00:00",
+   "da": {
+    "title": "Styrelse udgiver guide til særligt udsatte efter CPR-læk",
+    "desc": ""
+   },
+   "en": {
+    "title": "Board publishes guide to particularly vulnerable after CPR leak",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/kran-i-risiko-kollapse-i-det-centrale-oslo-flere-bygninger-er-evakueret",
+   "date": "2026-10-26T13:15:12+00:00",
+   "da": {
+    "title": "Kran i risiko for at kollapse i det centrale Oslo: Flere bygninger er evakueret",
+    "desc": ""
+   },
+   "en": {
+    "title": "Crane at risk of collapse in central Oslo: Several buildings have been evacuated",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tuborg-penge-skal-faa-unge-engageret-i-demokratiet",
+   "date": "2026-10-26T11:20:50+00:00",
+   "da": {
+    "title": "Tuborg-penge skal få unge engageret i demokratiet",
+    "desc": ""
+   },
+   "en": {
+    "title": "Tuborg money should get young people engaged in democracy",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/hoens-i-baghaven-skal-beskyttes-mod-vilde-fugles-smitte",
@@ -89,110 +193,6 @@
    },
    "en": {
     "title": "Tivoli honours Queen Margrethe for 25 years of work",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/virksomheder-boer-undersoege-systemer-efter-datalaek",
-   "date": "2026-10-25T17:05:09+00:00",
-   "da": {
-    "title": "Virksomheder bør undersøge systemer efter datalæk",
-    "desc": ""
-   },
-   "en": {
-    "title": "Companies should investigate systems for data leaks",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/venezuelansk-oppositionsleder-er-tilbage-i-sit-hjemland",
-   "date": "2026-10-25T16:44:12+00:00",
-   "da": {
-    "title": "Venezuelansk oppositionsleder er tilbage i sit hjemland",
-    "desc": ""
-   },
-   "en": {
-    "title": "Venezuelan opposition leader is back in his home country",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/27-000-kalkuner-skal-aflives-paa-lolland",
-   "date": "2026-10-25T13:49:28+00:00",
-   "da": {
-    "title": "27.000 kalkuner skal aflives på Lolland",
-    "desc": ""
-   },
-   "en": {
-    "title": "27,000 turkeys to be killed on Lolland",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/12-aarig-alvorlig-skadet-ved-fyrvaerkeriulykke",
-   "date": "2026-10-25T12:51:13+00:00",
-   "da": {
-    "title": "12-årig alvorlig skadet ved fyrværkeriulykke",
-    "desc": ""
-   },
-   "en": {
-    "title": "12-Year-Old Seriously Injured in Fireworks Accident",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/jordskaelv-med-styrke-paa-5-9-rammer-tibet-faa-dage-efter-kraftigt-jordskaelv",
-   "date": "2026-10-25T12:39:04+00:00",
-   "da": {
-    "title": "Jordskælv med styrke på 5,9 rammer Tibet få dage efter kraftigt jordskælv",
-    "desc": ""
-   },
-   "en": {
-    "title": "5.9 magnitude earthquake hits Tibet a few days after strong earthquake",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/speciallaeger-rykker-ud-paa-oestsjaelland-og-oeerne",
-   "date": "2026-10-25T12:18:58+00:00",
-   "da": {
-    "title": "Speciallæger rykker ud på Østsjælland og Øerne",
-    "desc": ""
-   },
-   "en": {
-    "title": "Specialists move to East Zealand and the Islands",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/italiener-vinder-kvalifikation-til-soendagens-formel-1-grandprix-i-austin",
-   "date": "2026-10-24T22:32:52+00:00",
-   "da": {
-    "title": "Italiener vinder kvalifikation til søndagens Formel 1-grandprix i Austin",
-    "desc": ""
-   },
-   "en": {
-    "title": "Italian Wins Qualification for Sunday's Formula 1 Grand Prix in Austin",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/houthibevaegelsen-angriber-igen-saudiske-lufthavne",
-   "date": "2026-10-24T19:41:51+00:00",
-   "da": {
-    "title": "Houthibevægelsen angriber igen saudiske lufthavne",
-    "desc": ""
-   },
-   "en": {
-    "title": "Houthi movement again attacks Saudi airports",
     "desc": ""
    }
   }
