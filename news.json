@@ -1,6 +1,84 @@
 {
- "updated": "2026-10-27T09:50+00:00",
+ "updated": "2026-10-27T15:54+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/ledningssaet-med-stikdaaser-tilbagekaldes-risiko-elektrisk-stoed",
+   "date": "2026-10-27T15:18:25+00:00",
+   "da": {
+    "title": "Ledningssæt med stikdåser tilbagekaldes - risiko for elektrisk stød",
+    "desc": ""
+   },
+   "en": {
+    "title": "Wiring harness with sockets recalled - risk of electric shock",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/43-aarig-doemt-ni-aar-gammel-voldtaegt-efter-dna-match",
+   "date": "2026-10-27T15:11:37+00:00",
+   "da": {
+    "title": "43-årig dømt for ni år gammel voldtægt efter DNA-match",
+    "desc": ""
+   },
+   "en": {
+    "title": "43-year-old convicted of 9-year-old rape after DNA Match",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/landsret-stadfaester-dom-sende-doetre-paa-genopdragelsesrejse",
+   "date": "2026-10-27T14:50:17+00:00",
+   "da": {
+    "title": "Landsret stadfæster dom for at sende døtre på genopdragelsesrejse",
+    "desc": ""
+   },
+   "en": {
+    "title": "High Court upholds verdict for sending daughters on re-education journey",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mand-fra-holbaek-doemt-indsmugling-af-et-halvt-ton-hash",
+   "date": "2026-10-27T13:00:07+00:00",
+   "da": {
+    "title": "Mand fra Holbæk dømt for indsmugling af et halvt ton hash",
+    "desc": "Oplysninger fra en krypteret beskedtjeneste afslørede en mands hashsmugling, der fandt sted i 2020 og 2021."
+   },
+   "en": {
+    "title": "Man from Holbæk convicted of smuggling half a ton of hashish",
+    "desc": "Information from an encrypted messaging service revealed a man's hash smuggling that took place in 2020 and 2021."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/ramboell-fyrer-400-paa-ledelsesgangene",
+   "date": "2026-10-27T12:12:21+00:00",
+   "da": {
+    "title": "Rambøll fyrer 400 på ledelsesgangene",
+    "desc": ""
+   },
+   "en": {
+    "title": "Ramboll fires 400 in the management corridors",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/maend-tiltales-i-sag-om-haendelse-ved-britisk-militaerbase",
+   "date": "2026-10-27T09:50:17+00:00",
+   "da": {
+    "title": "To mænd tiltales i sag om hændelse ved britisk militærbase",
+    "desc": ""
+   },
+   "en": {
+    "title": "Two men charged in incident case at British military base",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/meghan-markle-skal-vaere-gaestevaert-paa-australsk-masterchef",
@@ -115,84 +193,6 @@
    },
    "en": {
     "title": "University of Copenhagen exposed to new hacker attack",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/efter-operation-forventes-paven-besoege-sydamerika",
-   "date": "2026-10-26T16:23:08+00:00",
-   "da": {
-    "title": "Efter operation forventes paven at besøge Sydamerika",
-    "desc": ""
-   },
-   "en": {
-    "title": "After surgery, the Pope is expected to visit South America",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/33-aarig-anholdt-i-aktion-mod-ulovlig-medicin",
-   "date": "2026-10-26T15:52:57+00:00",
-   "da": {
-    "title": "33-årig anholdt i aktion mod ulovlig medicin",
-    "desc": ""
-   },
-   "en": {
-    "title": "33-Year-Old Arrested in Action Against Illegal Medic",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/slovakiet-vil-udvikle-paa-samarbejdet-med-rusland",
-   "date": "2026-10-26T15:34:43+00:00",
-   "da": {
-    "title": "Slovakiet vil udvikle på samarbejdet med Rusland",
-    "desc": ""
-   },
-   "en": {
-    "title": "Slovakia will develop on cooperation with Russia",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/roeget-oerred-solgt-i-lidl-tilbagekaldt",
-   "date": "2026-10-26T14:55:16+00:00",
-   "da": {
-    "title": "Røget ørred solgt i Lidl tilbagekaldt",
-    "desc": ""
-   },
-   "en": {
-    "title": "Smoked trout sold in Lidl recalled",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/endnu-et-aarhus-kryds-faar-kameraer-op",
-   "date": "2026-10-26T14:45:15+00:00",
-   "da": {
-    "title": "Endnu et Aarhus-kryds får kameraer op",
-    "desc": ""
-   },
-   "en": {
-    "title": "Another Aarhus junction gets cameras up",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/styrelse-udgiver-guide-til-saerligt-udsatte-efter-cpr-laek",
-   "date": "2026-10-26T14:21:31+00:00",
-   "da": {
-    "title": "Styrelse udgiver guide til særligt udsatte efter CPR-læk",
-    "desc": ""
-   },
-   "en": {
-    "title": "Board publishes guide to particularly vulnerable after CPR leak",
     "desc": ""
    }
   }
