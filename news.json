@@ -1,6 +1,123 @@
 {
- "updated": "2026-10-26T16:48+00:00",
+ "updated": "2026-10-27T09:50+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/meghan-markle-skal-vaere-gaestevaert-paa-australsk-masterchef",
+   "date": "2026-10-27T08:54:13+00:00",
+   "da": {
+    "title": "Meghan Markle skal være gæstevært på australsk Masterchef",
+    "desc": ""
+   },
+   "en": {
+    "title": "Meghan Markle will be a guest host on Australian Masterchef",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/dr-congo-har-over-10-000-bekraeftede-ebola-ramte",
+   "date": "2026-10-27T08:49:25+00:00",
+   "da": {
+    "title": "DR Congo har over 10.000 bekræftede ebola-ramte",
+    "desc": ""
+   },
+   "en": {
+    "title": "DR Congo has over 10,000 confirmed Ebola victims",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/danskernes-opsparinger-falder-maaneder-i-traek",
+   "date": "2026-10-27T08:10:36+00:00",
+   "da": {
+    "title": "Danskernes opsparinger falder to måneder i træk",
+    "desc": ""
+   },
+   "en": {
+    "title": "Danes' savings fall two months in a row",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/nordiske-lande-vil-staa-sammen-mod-techgiganterne-med-nyt-manifest",
+   "date": "2026-10-27T07:47:03+00:00",
+   "da": {
+    "title": "Nordiske lande vil 'stå sammen mod techgiganterne' med nyt manifest",
+    "desc": ""
+   },
+   "en": {
+    "title": "Nordic countries will 'stand together against the tech giants' with new manifesto",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/snart-aabner-naeste-aars-forskudsopgoerelse",
+   "date": "2026-10-27T07:13:10+00:00",
+   "da": {
+    "title": "Snart åbner næste års forskudsopgørelse",
+    "desc": ""
+   },
+   "en": {
+    "title": "Soon next year's preliminary statement will open",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/jay-z-vaelger-sig-selv-som-hovednavn-til-super-bowl-show",
+   "date": "2026-10-27T03:29:06+00:00",
+   "da": {
+    "title": "Jay-Z vælger sig selv som hovednavn til Super Bowl-show",
+    "desc": ""
+   },
+   "en": {
+    "title": "Jay-Z chooses himself as headliner for Super Bowl show",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/lederen-af-bolsonaros-parti-anerkender-brasiliansk-valgnederlag",
+   "date": "2026-10-26T23:16:55+00:00",
+   "da": {
+    "title": "Lederen af Bolsonaros parti anerkender brasiliansk valgnederlag",
+    "desc": ""
+   },
+   "en": {
+    "title": "The leader of Bolsonaro's party recognizes Brazilian electoral defeat",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/fn-alvorlig-bekymring-etnisk-udrensning-paa-vestbredden",
+   "date": "2026-10-26T19:25:55+00:00",
+   "da": {
+    "title": "FN: Alvorlig bekymring for etnisk udrensning på Vestbredden",
+    "desc": ""
+   },
+   "en": {
+    "title": "UN: Serious concern about ethnic cleansing in the West Bank",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/koebenhavns-universitet-udsat-nyt-hackerangreb",
+   "date": "2026-10-26T17:23:10+00:00",
+   "da": {
+    "title": "Københavns Universitet udsat for nyt hackerangreb",
+    "desc": ""
+   },
+   "en": {
+    "title": "University of Copenhagen exposed to new hacker attack",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/efter-operation-forventes-paven-besoege-sydamerika",
@@ -76,123 +193,6 @@
    },
    "en": {
     "title": "Board publishes guide to particularly vulnerable after CPR leak",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/kran-i-risiko-kollapse-i-det-centrale-oslo-flere-bygninger-er-evakueret",
-   "date": "2026-10-26T13:15:12+00:00",
-   "da": {
-    "title": "Kran i risiko for at kollapse i det centrale Oslo: Flere bygninger er evakueret",
-    "desc": ""
-   },
-   "en": {
-    "title": "Crane at risk of collapse in central Oslo: Several buildings have been evacuated",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tuborg-penge-skal-faa-unge-engageret-i-demokratiet",
-   "date": "2026-10-26T11:20:50+00:00",
-   "da": {
-    "title": "Tuborg-penge skal få unge engageret i demokratiet",
-    "desc": ""
-   },
-   "en": {
-    "title": "Tuborg money should get young people engaged in democracy",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/hoens-i-baghaven-skal-beskyttes-mod-vilde-fugles-smitte",
-   "date": "2026-10-26T09:14:56+00:00",
-   "da": {
-    "title": "Høns i baghaven skal beskyttes mod vilde fugles smitte",
-    "desc": ""
-   },
-   "en": {
-    "title": "Chickens in the backyard must be protected against infection by wild birds",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/amerikansk-marinesoldat-er-tiltalt-drab-paa-japansk-kvinde",
-   "date": "2026-10-26T07:40:47+00:00",
-   "da": {
-    "title": "Amerikansk marinesoldat er tiltalt for drab på japansk kvinde",
-    "desc": ""
-   },
-   "en": {
-    "title": "US Marine charged with killing Japanese woman",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/praesident-lula-slaar-bolsonaro-og-vinder-valget-i-brasilien",
-   "date": "2026-10-26T00:21:15+00:00",
-   "da": {
-    "title": "Præsident Lula slår Bolsonaro og vinder valget i Brasilien",
-    "desc": "Lula har vendt skuden, siger DR's sydamerika-korrespondent, Kristian Almblad."
-   },
-   "en": {
-    "title": "President Lula beats Bolsonaro and wins the election in Brazil",
-    "desc": "Lula has turned the gun, says DR's South America correspondent, Kristian Almblad."
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/seneste-sport/antonelli-er-snublende-naer-vm-titel-efter-magtdemonstration",
-   "date": "2026-10-25T21:47:29+00:00",
-   "da": {
-    "title": "Antonelli er snublende nær VM-titel efter magtdemonstration",
-    "desc": ""
-   },
-   "en": {
-    "title": "Antonelli Is Stumbling Near World Cup Title After Power Demonstration",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/udvidet-aabningstider-paa-valgsteder-i-brasilien",
-   "date": "2026-10-25T20:16:50+00:00",
-   "da": {
-    "title": "Udvidede åbningstider på valgsteder i Brasilien",
-    "desc": ""
-   },
-   "en": {
-    "title": "Extended hours at polling stations in Brazil",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/serbien-naar-hoejeste-valgdeltagelse-i-34-aar",
-   "date": "2026-10-25T19:13:34+00:00",
-   "da": {
-    "title": "Serbien når højeste valgdeltagelse i 34 år",
-    "desc": ""
-   },
-   "en": {
-    "title": "Serbia reaches highest turnout in 34 years",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tivoli-haedrer-dronning-margrethe-25-aars-indsats",
-   "date": "2026-10-25T17:34:52+00:00",
-   "da": {
-    "title": "Tivoli hædrer dronning Margrethe for 25 års indsats",
-    "desc": ""
-   },
-   "en": {
-    "title": "Tivoli honours Queen Margrethe for 25 years of work",
     "desc": ""
    }
   }
