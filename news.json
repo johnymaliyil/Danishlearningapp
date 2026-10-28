@@ -1,6 +1,162 @@
 {
- "updated": "2026-10-27T15:54+00:00",
+ "updated": "2026-10-28T10:36+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/flytrafik-over-koebenhavns-lufthavn-var-standset-i-en-halv-time",
+   "date": "2026-10-28T09:42:32+00:00",
+   "da": {
+    "title": "Flytrafik over Københavns Lufthavn var standset i en halv time",
+    "desc": ""
+   },
+   "en": {
+    "title": "Air traffic over Copenhagen Airport was stopped for half an hour",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tog-er-kollideret-i-spanien-togtrafik-indstillet",
+   "date": "2026-10-28T09:03:47+00:00",
+   "da": {
+    "title": "To tog er kollideret i Spanien - meldinger om mindst 46 dræbte",
+    "desc": "Premierminister Pedro Sánchez er rystet over alvorlig ulykke i Spanien."
+   },
+   "en": {
+    "title": "Two trains collided in Spain - reports of at least 46 killed",
+    "desc": "Prime Minister Pedro Sánchez is shocked by a serious accident in Spain."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/nsk-kyniske-kriminelle-gaar-maalrettet-efter-aeldre-i-sorg",
+   "date": "2026-10-28T08:57:56+00:00",
+   "da": {
+    "title": "NSK: 'Kyniske kriminelle' går målrettet efter ældre i sorg",
+    "desc": ""
+   },
+   "en": {
+    "title": "NSK: 'Cynical criminals' target elderly in mourning",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/personlige-freud-breve-kommer-paa-auktion",
+   "date": "2026-10-28T08:38:58+00:00",
+   "da": {
+    "title": "Personlige Freud-breve kommer på auktion",
+    "desc": ""
+   },
+   "en": {
+    "title": "Personalized Freud letters go up for auction",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/serbien-haever-terrortruslen-efter-knivangreb-ved-ambassade",
+   "date": "2026-10-28T07:24:31+00:00",
+   "da": {
+    "title": "Serbien hæver terrortruslen efter knivangreb ved ambassade",
+    "desc": ""
+   },
+   "en": {
+    "title": "Serbia raises terrorist threat after knife attack at embassy",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/egyptisk-domstol-beordrer-uafhaengigt-medie-lukket",
+   "date": "2026-10-28T06:30:49+00:00",
+   "da": {
+    "title": "Egyptisk domstol beordrer uafhængigt medie lukket",
+    "desc": ""
+   },
+   "en": {
+    "title": "Egyptian court orders closure of independent media",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/nu-kan-der-soeges-om-tilskud-til-statuer-af-vigtige-kvinder",
+   "date": "2026-10-28T06:08:21+00:00",
+   "da": {
+    "title": "Nu kan der søges om tilskud til statuer af vigtige kvinder",
+    "desc": ""
+   },
+   "en": {
+    "title": "Now you can apply for grants for statues of important women",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mand-anholdt-lyve-sig-til-erstatning-efter-bondi-skyderi",
+   "date": "2026-10-28T05:14:43+00:00",
+   "da": {
+    "title": "Mand anholdt for at lyve sig til erstatning efter Bondi-skyderi",
+    "desc": ""
+   },
+   "en": {
+    "title": "Man Arrested for Lying to Compensation After Bondi Shooting",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/i-kina-forsoerges-flere-aeldre-nu-end-boern",
+   "date": "2026-10-28T04:51:51+00:00",
+   "da": {
+    "title": "I Kina forsørges flere ældre nu end børn",
+    "desc": ""
+   },
+   "en": {
+    "title": "In China, more elderly people are supported now than children",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/hollandsk-dyrepasser-doed-efter-leoparder-gik-til-angreb",
+   "date": "2026-10-27T21:09:17+00:00",
+   "da": {
+    "title": "Hollandsk dyrepasser død, efter at leoparder gik til angreb",
+    "desc": ""
+   },
+   "en": {
+    "title": "Dutch zookeeper dead after leopards attacked",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/restauranter-paa-sardinien-forbyder-familier-have-skaerme-med-til-bords",
+   "date": "2026-10-27T21:00:03+00:00",
+   "da": {
+    "title": "Restauranter på Sardinien forbyder familier at have skærme med til bords",
+    "desc": ""
+   },
+   "en": {
+    "title": "Restaurants in Sardinia prohibit families from bringing screens to the table",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/slovenien-har-sagt-farvel-til-gletscher-paa-landets-hoejeste-bjerg-efter-varm-sommer",
+   "date": "2026-10-27T18:26:04+00:00",
+   "da": {
+    "title": "Slovenien har sagt farvel til gletscher på landets højeste bjerg efter varm sommer",
+    "desc": ""
+   },
+   "en": {
+    "title": "Slovenia has said goodbye to glaciers on the country's highest mountain after hot summer",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/ledningssaet-med-stikdaaser-tilbagekaldes-risiko-elektrisk-stoed",
@@ -37,162 +193,6 @@
    },
    "en": {
     "title": "High Court upholds verdict for sending daughters on re-education journey",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/mand-fra-holbaek-doemt-indsmugling-af-et-halvt-ton-hash",
-   "date": "2026-10-27T13:00:07+00:00",
-   "da": {
-    "title": "Mand fra Holbæk dømt for indsmugling af et halvt ton hash",
-    "desc": "Oplysninger fra en krypteret beskedtjeneste afslørede en mands hashsmugling, der fandt sted i 2020 og 2021."
-   },
-   "en": {
-    "title": "Man from Holbæk convicted of smuggling half a ton of hashish",
-    "desc": "Information from an encrypted messaging service revealed a man's hash smuggling that took place in 2020 and 2021."
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/ramboell-fyrer-400-paa-ledelsesgangene",
-   "date": "2026-10-27T12:12:21+00:00",
-   "da": {
-    "title": "Rambøll fyrer 400 på ledelsesgangene",
-    "desc": ""
-   },
-   "en": {
-    "title": "Ramboll fires 400 in the management corridors",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/maend-tiltales-i-sag-om-haendelse-ved-britisk-militaerbase",
-   "date": "2026-10-27T09:50:17+00:00",
-   "da": {
-    "title": "To mænd tiltales i sag om hændelse ved britisk militærbase",
-    "desc": ""
-   },
-   "en": {
-    "title": "Two men charged in incident case at British military base",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/meghan-markle-skal-vaere-gaestevaert-paa-australsk-masterchef",
-   "date": "2026-10-27T08:54:13+00:00",
-   "da": {
-    "title": "Meghan Markle skal være gæstevært på australsk Masterchef",
-    "desc": ""
-   },
-   "en": {
-    "title": "Meghan Markle will be a guest host on Australian Masterchef",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/dr-congo-har-over-10-000-bekraeftede-ebola-ramte",
-   "date": "2026-10-27T08:49:25+00:00",
-   "da": {
-    "title": "DR Congo har over 10.000 bekræftede ebola-ramte",
-    "desc": ""
-   },
-   "en": {
-    "title": "DR Congo has over 10,000 confirmed Ebola victims",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/danskernes-opsparinger-falder-maaneder-i-traek",
-   "date": "2026-10-27T08:10:36+00:00",
-   "da": {
-    "title": "Danskernes opsparinger falder to måneder i træk",
-    "desc": ""
-   },
-   "en": {
-    "title": "Danes' savings fall two months in a row",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/nordiske-lande-vil-staa-sammen-mod-techgiganterne-med-nyt-manifest",
-   "date": "2026-10-27T07:47:03+00:00",
-   "da": {
-    "title": "Nordiske lande vil 'stå sammen mod techgiganterne' med nyt manifest",
-    "desc": ""
-   },
-   "en": {
-    "title": "Nordic countries will 'stand together against the tech giants' with new manifesto",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/snart-aabner-naeste-aars-forskudsopgoerelse",
-   "date": "2026-10-27T07:13:10+00:00",
-   "da": {
-    "title": "Snart åbner næste års forskudsopgørelse",
-    "desc": ""
-   },
-   "en": {
-    "title": "Soon next year's preliminary statement will open",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/jay-z-vaelger-sig-selv-som-hovednavn-til-super-bowl-show",
-   "date": "2026-10-27T03:29:06+00:00",
-   "da": {
-    "title": "Jay-Z vælger sig selv som hovednavn til Super Bowl-show",
-    "desc": ""
-   },
-   "en": {
-    "title": "Jay-Z chooses himself as headliner for Super Bowl show",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/lederen-af-bolsonaros-parti-anerkender-brasiliansk-valgnederlag",
-   "date": "2026-10-26T23:16:55+00:00",
-   "da": {
-    "title": "Lederen af Bolsonaros parti anerkender brasiliansk valgnederlag",
-    "desc": ""
-   },
-   "en": {
-    "title": "The leader of Bolsonaro's party recognizes Brazilian electoral defeat",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/fn-alvorlig-bekymring-etnisk-udrensning-paa-vestbredden",
-   "date": "2026-10-26T19:25:55+00:00",
-   "da": {
-    "title": "FN: Alvorlig bekymring for etnisk udrensning på Vestbredden",
-    "desc": ""
-   },
-   "en": {
-    "title": "UN: Serious concern about ethnic cleansing in the West Bank",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/koebenhavns-universitet-udsat-nyt-hackerangreb",
-   "date": "2026-10-26T17:23:10+00:00",
-   "da": {
-    "title": "Københavns Universitet udsat for nyt hackerangreb",
-    "desc": ""
-   },
-   "en": {
-    "title": "University of Copenhagen exposed to new hacker attack",
     "desc": ""
    }
   }
