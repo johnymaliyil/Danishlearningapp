@@ -1,6 +1,84 @@
 {
- "updated": "2026-10-28T20:16+00:00",
+ "updated": "2026-10-29T10:54+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/hongkongs-leder-undskylder-sidste-aars-doedelige-brand",
+   "date": "2026-10-29T07:32:12+00:00",
+   "da": {
+    "title": "Hongkongs leder undskylder for sidste års dødelige brand",
+    "desc": ""
+   },
+   "en": {
+    "title": "Hong Kong leader apologizes for last year's deadly fire",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/nabolande-nordkorea-har-affyret-10-langtraekkende-missiler",
+   "date": "2026-10-29T06:00:06+00:00",
+   "da": {
+    "title": "Nabolande: Nordkorea har affyret 10 langtrækkende missiler",
+    "desc": ""
+   },
+   "en": {
+    "title": "Neighbouring countries: North Korea has fired 10 long-range missiles",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/international-lufthavn-i-groenland-faar-groent-lys-foerste-fly-lander-senere-i-dag",
+   "date": "2026-10-29T05:04:01+00:00",
+   "da": {
+    "title": "International lufthavn i Grønland får grønt lys - første fly lander senere i dag",
+    "desc": "Klokken 11.40 lokal tid lander det første fly fra København i Ilulissat."
+   },
+   "en": {
+    "title": "Greenland International Airport gets green light - first flight lands later today",
+    "desc": "At 11:40 am local time, the first flight from Copenhagen lands in Ilulissat."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/politiet-leder-efter-drenge-efter-knivoverfald-i-lyngby",
+   "date": "2026-10-29T00:21:41+00:00",
+   "da": {
+    "title": "Politiet leder efter to drenge efter knivoverfald i Lyngby",
+    "desc": ""
+   },
+   "en": {
+    "title": "Police are looking for two boys after knife attack in Lyngby",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/brasiliansk-valgmyndighed-efter-praesidentvalg-alle-regler-blev-opfyldt",
+   "date": "2026-10-28T22:48:16+00:00",
+   "da": {
+    "title": "Brasiliansk valgmyndighed efter præsidentvalg: Alle regler blev overholdt",
+    "desc": ""
+   },
+   "en": {
+    "title": "Brazilian Electoral Authority After Presidential Election: All Rules Complied",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/bolsonaro-jeg-er-den-valgte-praesident",
+   "date": "2026-10-28T20:55:14+00:00",
+   "da": {
+    "title": "Bolsonaro udtaler sig på X efter valgnederlag",
+    "desc": ""
+   },
+   "en": {
+    "title": "Bolsonaro speaks on X after election defeat",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/storbritanniens-finansminister-vil-give-oekonomisk-hjaelp-efter-stigende-energipriser",
@@ -115,84 +193,6 @@
    },
    "en": {
     "title": "NSK: 'Cynical criminals' target elderly in mourning",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/personlige-freud-breve-kommer-paa-auktion",
-   "date": "2026-10-28T08:38:58+00:00",
-   "da": {
-    "title": "Personlige Freud-breve kommer på auktion",
-    "desc": ""
-   },
-   "en": {
-    "title": "Personalized Freud letters go up for auction",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/serbien-haever-terrortruslen-efter-knivangreb-ved-ambassade",
-   "date": "2026-10-28T07:24:31+00:00",
-   "da": {
-    "title": "Serbien hæver terrortruslen efter knivangreb ved ambassade",
-    "desc": ""
-   },
-   "en": {
-    "title": "Serbia raises terrorist threat after knife attack at embassy",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/egyptisk-domstol-beordrer-uafhaengigt-medie-lukket",
-   "date": "2026-10-28T06:30:49+00:00",
-   "da": {
-    "title": "Egyptisk domstol beordrer uafhængigt medie lukket",
-    "desc": ""
-   },
-   "en": {
-    "title": "Egyptian court orders closure of independent media",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/nu-kan-der-soeges-om-tilskud-til-statuer-af-vigtige-kvinder",
-   "date": "2026-10-28T06:08:21+00:00",
-   "da": {
-    "title": "Nu kan der søges om tilskud til statuer af vigtige kvinder",
-    "desc": ""
-   },
-   "en": {
-    "title": "Now you can apply for grants for statues of important women",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/mand-anholdt-lyve-sig-til-erstatning-efter-bondi-skyderi",
-   "date": "2026-10-28T05:14:43+00:00",
-   "da": {
-    "title": "Mand anholdt for at lyve sig til erstatning efter Bondi-skyderi",
-    "desc": ""
-   },
-   "en": {
-    "title": "Man Arrested for Lying to Compensation After Bondi Shooting",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/i-kina-forsoerges-flere-aeldre-nu-end-boern",
-   "date": "2026-10-28T04:51:51+00:00",
-   "da": {
-    "title": "I Kina forsørges flere ældre nu end børn",
-    "desc": ""
-   },
-   "en": {
-    "title": "In China, more elderly people are supported now than children",
     "desc": ""
    }
   }
