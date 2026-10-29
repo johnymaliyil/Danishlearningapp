@@ -1,6 +1,162 @@
 {
- "updated": "2026-10-29T10:54+00:00",
+ "updated": "2026-10-29T20:20+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/efterforskning-i-sag-fra-2023-mod-energihandlere-skal-genoptages",
+   "date": "2026-10-29T16:34:03+00:00",
+   "da": {
+    "title": "Efterforskning i sag fra 2023 mod energihandlere skal genoptages",
+    "desc": ""
+   },
+   "en": {
+    "title": "Investigation in 2023 case against energy traders to be resumed",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/motorvej-genaabner-efter-ulykke-med-braendende-grisetransport",
+   "date": "2026-10-29T15:44:41+00:00",
+   "da": {
+    "title": "Motorvej genåbner efter ulykke med brændende grisetransport",
+    "desc": ""
+   },
+   "en": {
+    "title": "Motorway reopens after accident with burning pig transport",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/landbrug-foedevarer-fyrer-og-omrokerer-i-ledelsen",
+   "date": "2026-10-29T15:41:54+00:00",
+   "da": {
+    "title": "Landbrug & Fødevarer fyrer og omrokerer i ledelsen",
+    "desc": ""
+   },
+   "en": {
+    "title": "Agriculture & Food fires and rearranges management",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tidligere-topadvokat-anker-faengselsstraf",
+   "date": "2026-10-29T15:41:11+00:00",
+   "da": {
+    "title": "Tidligere topadvokat anker fængselsstraf",
+    "desc": ""
+   },
+   "en": {
+    "title": "Former top lawyer appeals prison sentence",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/danmark-overtager-formandskab-i-nordisk-raad",
+   "date": "2026-10-29T14:34:11+00:00",
+   "da": {
+    "title": "Danmark overtager formandskab i Nordisk Råd",
+    "desc": ""
+   },
+   "en": {
+    "title": "Denmark takes over the Presidency of the Nordic Council",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/89-aarig-doed-efter-paakoersel-paa-parkeringsplads",
+   "date": "2026-10-29T14:27:52+00:00",
+   "da": {
+    "title": "89-årig død efter påkørsel på parkeringsplads",
+    "desc": ""
+   },
+   "en": {
+    "title": "89-year-old dead after collision in parking lot",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/europaeisk-centralbank-fastholder-renten",
+   "date": "2026-10-29T14:27:07+00:00",
+   "da": {
+    "title": "Europæisk centralbank fastholder renten",
+    "desc": ""
+   },
+   "en": {
+    "title": "European Central Bank maintains interest rate",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12734097#liveblog-embed",
+   "date": "2026-10-29T14:25:08+00:00",
+   "da": {
+    "title": "F.C. København let videre i pokalen",
+    "desc": ""
+   },
+   "en": {
+    "title": "F.C. Copenhagen easily advances in the trophy",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/ulovligt-fyrvaerkeri-er-fundet-en-person-er-anholdt",
+   "date": "2026-10-29T13:19:38+00:00",
+   "da": {
+    "title": "Ulovligt fyrværkeri er fundet – én person er anholdt",
+    "desc": "Et større parti ulovligt opbevaret fyrværkeri er fundet ved Varde"
+   },
+   "en": {
+    "title": "Illegal fireworks have been found – one person has been arrested",
+    "desc": "A large batch of illegally stored fireworks has been found at Varde"
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/ny-aftale-almen-praksis-er-paa-plads-tager-hensyn-til-tidskraevende-patienter",
+   "date": "2026-10-29T11:31:29+00:00",
+   "da": {
+    "title": "Ny aftale for almen praksis er på plads - tager hensyn til tidskrævende patienter",
+    "desc": ""
+   },
+   "en": {
+    "title": "New agreement for general practice is in place - takes into account time-consuming patients",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/vintersport/curlinglandsholdet-vinder-i-tredje-forsoeg-ved-em",
+   "date": "2026-10-29T11:21:55+00:00",
+   "da": {
+    "title": "Curlinglandsholdet vinder i tredje forsøg ved EM",
+    "desc": ""
+   },
+   "en": {
+    "title": "The national curling team wins in the third attempt at the European Championships",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/pet-kommer-med-advarsel-til-ukrainere-i-danmark",
+   "date": "2026-10-29T11:03:48+00:00",
+   "da": {
+    "title": "PET kommer med advarsel til ukrainere i Danmark",
+    "desc": "Advarslen er tidligere adresseret den danske befolkning. Nu udgives den også på ukrainsk."
+   },
+   "en": {
+    "title": "Pet issues warning to Ukrainians in Denmark",
+    "desc": "The warning has previously been addressed to the Danish population. Now it is also published in Ukrainian."
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/hongkongs-leder-undskylder-sidste-aars-doedelige-brand",
@@ -38,162 +194,6 @@
    "en": {
     "title": "Greenland International Airport gets green light - first flight lands later today",
     "desc": "At 11:40 am local time, the first flight from Copenhagen lands in Ilulissat."
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/politiet-leder-efter-drenge-efter-knivoverfald-i-lyngby",
-   "date": "2026-10-29T00:21:41+00:00",
-   "da": {
-    "title": "Politiet leder efter to drenge efter knivoverfald i Lyngby",
-    "desc": ""
-   },
-   "en": {
-    "title": "Police are looking for two boys after knife attack in Lyngby",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/brasiliansk-valgmyndighed-efter-praesidentvalg-alle-regler-blev-opfyldt",
-   "date": "2026-10-28T22:48:16+00:00",
-   "da": {
-    "title": "Brasiliansk valgmyndighed efter præsidentvalg: Alle regler blev overholdt",
-    "desc": ""
-   },
-   "en": {
-    "title": "Brazilian Electoral Authority After Presidential Election: All Rules Complied",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/bolsonaro-jeg-er-den-valgte-praesident",
-   "date": "2026-10-28T20:55:14+00:00",
-   "da": {
-    "title": "Bolsonaro udtaler sig på X efter valgnederlag",
-    "desc": ""
-   },
-   "en": {
-    "title": "Bolsonaro speaks on X after election defeat",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/storbritanniens-finansminister-vil-give-oekonomisk-hjaelp-efter-stigende-energipriser",
-   "date": "2026-10-28T19:29:50+00:00",
-   "da": {
-    "title": "Storbritanniens finansminister vil give økonomisk hjælp efter stigende energipriser",
-    "desc": ""
-   },
-   "en": {
-    "title": "UK Chancellor of the Exchequer will provide financial assistance following rising energy prices",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/65-aarig-mand-varetaegtsfaengslet-i-sag-om-overgreb-mod-sin-datter",
-   "date": "2026-10-28T15:15:31+00:00",
-   "da": {
-    "title": "65-årig mand varetægtsfængslet i sag om overgreb mod sin datter",
-    "desc": ""
-   },
-   "en": {
-    "title": "65-year-old man remanded in custody in case of abuse of his daughter",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/dansk-oscar-modtager-skal-filmatisere-tine-bryld-boeger",
-   "date": "2026-10-28T13:57:49+00:00",
-   "da": {
-    "title": "Dansk Oscar-modtager skal filmatisere Tine Bryld-bøger",
-    "desc": ""
-   },
-   "en": {
-    "title": "Danish Oscar recipient to film Tine Bryld books",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/hakket-chili-tilbagekaldes-paa-grund-af-hoejt-indhold-af-tungmetal",
-   "date": "2026-10-28T13:56:52+00:00",
-   "da": {
-    "title": "Hakket chili tilbagekaldes på grund af for højt indhold af tungmetal",
-    "desc": ""
-   },
-   "en": {
-    "title": "Chopped chilli is recalled due to excessive heavy metal content",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/forud-lang-koeer-koebenhavns-lufthavn-fik-paabud-om-sikkerhed",
-   "date": "2026-10-28T13:05:57+00:00",
-   "da": {
-    "title": "Københavns Lufthavn fik påbud om sikkerhed to dage før lange køer",
-    "desc": ""
-   },
-   "en": {
-    "title": "Copenhagen Airport was ordered to security two days before long queues",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tidligere-fodboldtraener-boern-doemmes-filme-i-omklaedningsrummet",
-   "date": "2026-10-28T11:21:16+00:00",
-   "da": {
-    "title": "Tidligere fodboldtræner for børn dømmes for at filme i omklædningsrummet",
-    "desc": ""
-   },
-   "en": {
-    "title": "Former children's football coach convicted of filming in locker room",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/flytrafik-over-koebenhavns-lufthavn-var-standset-i-en-halv-time",
-   "date": "2026-10-28T09:42:32+00:00",
-   "da": {
-    "title": "Flytrafik over Københavns Lufthavn var standset i en halv time",
-    "desc": ""
-   },
-   "en": {
-    "title": "Air traffic over Copenhagen Airport was stopped for half an hour",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tog-er-kollideret-i-spanien-togtrafik-indstillet",
-   "date": "2026-10-28T09:03:47+00:00",
-   "da": {
-    "title": "Sammenstød mellem tog i Spanien sker ni måneder efter anden stor togulykke",
-    "desc": "Premierminister Pedro Sánchez er rystet over alvorlig ulykke i Spanien."
-   },
-   "en": {
-    "title": "Train collisions in Spain occur nine months after another major train accident",
-    "desc": "Prime Minister Pedro Sánchez is shocked by a serious accident in Spain."
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/nsk-kyniske-kriminelle-gaar-maalrettet-efter-aeldre-i-sorg",
-   "date": "2026-10-28T08:57:56+00:00",
-   "da": {
-    "title": "NSK: 'Kyniske kriminelle' går målrettet efter ældre i sorg",
-    "desc": ""
-   },
-   "en": {
-    "title": "NSK: 'Cynical criminals' target elderly in mourning",
-    "desc": ""
    }
   }
  ]
