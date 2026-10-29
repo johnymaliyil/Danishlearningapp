@@ -712,3 +712,85 @@ Næste dag, da hun kommer hjem fra arbejde, står varerne uden for døren. Eva b
     ]
   });
 })();
+
+// Skriftlig fremstilling, PD2 maj 2026 – reconstructed from what a test taker remembered (not the printed
+// exam), so the wording can differ a little from the real tasks. Shown first in each list.
+(function () {
+  const memo = "maj 2026";
+  PD2.WRITING.unshift(
+    {
+      id: "w26ma", delprove: 1, recalled: memo, year: 2026,
+      title: "A: En jobannonce – frisør søges (maj 2026)",
+      kind: "Prøveopgave · jobannonce",
+      minWords: 80, maxWords: 150,
+      situation: "Du ejer en frisørsalon, og du mangler en ny frisør. Du vil skrive en jobannonce. Skriv jobannoncen. (Til prøven vælger du opgave A eller B.)",
+      points: ["Hvilke arbejdsopgaver frisøren skal have", "Hvad arbejdstiden er", "Hvilken erfaring frisøren skal have", "Hvor salonen ligger, og hvor stor den er", "Hvordan man kan kontakte dig"],
+      phrases: ["Frisør søges!", "Vi søger en …", "Dine opgaver bliver at …", "Arbejdstiden er …", "Vi forventer, at du …", "Salonen ligger …", "Hvis du er interesseret, så …"],
+      model: `Frisør søges!
+
+Vi søger en dygtig frisør til Salon Lykke, som ligger på Strøget 12 i Vejle.
+
+Om os: Vi er en lille, hyggelig salon med fire stole og tre glade frisører. Vi klipper både kvinder, mænd og børn.
+
+Dine opgaver bliver at klippe, farve og vaske hår. Du skal også tage telefonen, booke tider og holde salonen ren.
+
+Vi forventer, at du er uddannet frisør og har mindst to års erfaring. Du skal være smilende og god til at tale med kunderne.
+
+Arbejdstiden er 37 timer om ugen, tirsdag til lørdag. Vi har åbent fra kl. 9 til 17.30.
+
+Hvis du er interesseret, så send en ansøgning til salonlykke@mail.dk senest den 1. juni. Du kan også kontakte mig på telefon 75 12 34 56.
+
+Vi glæder os til at høre fra dig!
+
+Med venlig hilsen
+Maria Jensen, ejer`
+    },
+    {
+      id: "w26mb", delprove: 1, recalled: memo, year: 2026,
+      title: "B: En anmeldelse af et pizzeria (maj 2026)",
+      kind: "Prøveopgave · anmeldelse",
+      minWords: 80, maxWords: 150,
+      situation: "Du har spist på et pizzeria, og du havde en dårlig oplevelse. Du vil skrive en anmeldelse af pizzeriaet på en hjemmeside. Skriv anmeldelsen. (Til prøven vælger du opgave A eller B.)",
+      points: ["Hvad du spiste", "Hvornår du var på pizzeriaet", "Hvad der skete", "Hvorfor du ikke kan anbefale pizzeriaet"],
+      phrases: ["Ikke en god oplevelse", "I fredags var jeg …", "Jeg bestilte …", "Desværre …", "Jeg blev meget skuffet, fordi …", "Jeg kan ikke anbefale …"],
+      model: `Pizzeria Napoli – ikke en god oplevelse
+
+I fredags var jeg på Pizzeria Napoli i Odense sammen med min familie. Vi kom klokken seks, og der var mange gæster.
+
+Vi bestilte to store pizzaer med skinke og champignon og en salat, men det, vi spiste, var ikke godt. Først skete der det, at vi ventede over en time på maden. Ingen fortalte os, hvorfor det tog så lang tid.
+
+Da pizzaerne endelig kom, var de kolde, og den ene var brændt i bunden. Salaten var ikke frisk. Vi sagde det til tjeneren, men han var meget uvenlig og ville ikke give os nye pizzaer. Vi skulle betale fuld pris.
+
+Jeg blev meget skuffet, fordi pizzeriaet har mange gode anmeldelser på nettet. Men jeg kan ikke anbefale Pizzeria Napoli, fordi både maden og servicen var dårlig. Der er bedre pizzeriaer i byen.
+
+Ahmed`
+    }
+  );
+  // Delprøve 2: put it first among the delprøve 2 tasks.
+  const at = PD2.WRITING.findIndex(w => w.delprove === 2);
+  PD2.WRITING.splice(at < 0 ? PD2.WRITING.length : at, 0, {
+    id: "w26mc", delprove: 2, recalled: memo, year: 2026,
+    title: "En e-mail om at leve sundt (maj 2026)",
+    kind: "Prøveopgave · e-mail til en ven · mindst 100 ord",
+    minWords: 100, maxWords: 180,
+    situation: "Du har fået en e-mail fra din ven. I e-mailen skriver han bl.a.: \"… Du skriver, at du er begyndt at leve sundt, men at det også er meget svært. Hvordan lever du sundt, og hvorfor synes du, at det er svært?\" Skriv et svar til din ven, og fortæl, hvordan du lever sundt, og hvorfor det er svært. Du skal skrive minimum 100 ord.",
+    points: ["Fortæl, hvordan du lever sundt (mad, motion, søvn …)", "Forklar, hvorfor det er svært", "Fortæl, hvad du gør, når det er svært", "Fortæl, hvordan du har det nu"],
+    phrases: ["Hej …", "Tak for din mail.", "Jeg er begyndt at …", "Det er svært, fordi …", "Når jeg har lyst til …, så …", "Nu har jeg det …"],
+    model: `Hej Jonas
+
+Tak for din mail. Det var dejligt at høre fra dig. Jeg håber, at du har det godt. Jeg har det fint.
+
+Du spørger om, hvordan jeg lever sundt, og det vil jeg gerne fortælle dig lidt om.
+
+For det første spiser jeg mere frugt og grønt, og jeg drikker vand i stedet for sodavand. Jeg laver madpakke til arbejdet, så jeg ikke køber fastfood. Jeg går også en tur på 30 minutter hver dag, og to gange om ugen løber jeg med en kollega.
+
+Derudover er det svært, fordi jeg har travlt. Når jeg kommer træt hjem fra arbejde, har jeg ikke lyst til at lave mad eller løbe. Mine børn vil også gerne have slik og pizza i weekenden.
+
+Til sidst vil jeg sige, at jeg allerede har det bedre. Jeg sover bedre og har mere energi. Måske skal vi løbe en tur sammen næste gang, du er i byen?
+
+Jeg glæder mig til at høre fra dig. Vi ses snart!
+
+Mange hilsner
+Sara`
+  });
+})();

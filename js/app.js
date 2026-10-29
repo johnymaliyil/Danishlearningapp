@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "131"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "132"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -1074,13 +1074,14 @@
   window.addEventListener("hashchange", closeTaskEn);
 
   function writingList() {
-    const by = d => EX().WRITING.filter(w => w.delprove === d);
+    // Tasks from the newest exam (recalled by learners) first, then the numbered sets.
+    const by = d => EX().WRITING.filter(w => w.delprove === d).sort((a, b) => (b.recalled ? 1 : 0) - (a.recalled ? 1 : 0));
     const item = w => {
       const res = S.writing[w.id];
       const sc = res && res.best ? `<span class="score-badge full">${res.best}</span>` : res && res.draft ? `<span class="score-badge">Kladde</span>` : `<span class="score-badge">Ny</span>`;
       return `<a class="list-item" href="#/writing/${w.id}">
         <span class="ico">${w.real ? "🏛️" : w.delprove === 1 ? "✉️" : "📝"}</span>
-        <span class="meta"><b>${esc(w.title)}</b>${w.real ? ' <span class="tag real">Rigtig prøve</span>' : ""}<span class="small muted">${esc(w.kind)} · ${w.minWords}-${w.maxWords} ord</span></span>${sc}</a>`;
+        <span class="meta"><b>${esc(w.title)}</b>${w.real ? ' <span class="tag real">Rigtig prøve</span>' : w.recalled ? ` <span class="tag real">Fra prøven ${esc(w.recalled)}</span>` : ""}<span class="small muted">${esc(w.kind)} · ${w.minWords}-${w.maxWords} ord</span></span>${sc}</a>`;
     };
     app.innerHTML = `
       <h1>✍️ Skrivning <span class="tag">${META().name} · ${META().cefr}</span></h1>
@@ -1326,12 +1327,13 @@
     app.innerHTML = `
       <a class="back" href="#/writing">← Alle skriveopgaver</a>
       <h1>${esc(w.title)}</h1>
-      <p class="muted">${w.real ? `<span class="tag real">Rigtig prøveopgave${w.set ? ` · Sæt ${w.set}` : ""}</span> ` : ""}<span class="tag">Delprøve ${w.delprove}</span> ${esc(w.kind)} · mål: ${w.minWords}-${w.maxWords} ord</p>
+      <p class="muted">${w.real ? `<span class="tag real">Rigtig prøveopgave${w.set ? ` · Sæt ${w.set}` : ""}</span> ` : w.recalled ? `<span class="tag real">Fra prøven ${esc(w.recalled)}</span> ` : ""}<span class="tag">Delprøve ${w.delprove}</span> ${esc(w.kind)} · mål: ${w.minWords}-${w.maxWords} ord</p>
       <div class="writer">
         <div class="stack">
           <div class="card">
             <div class="instruction" style="background:var(--write-soft)">${esc(w.situation)}</div>
             ${w.image ? `<figure class="photo task-chart"><img src="${esc(w.image)}" alt="${esc(w.imageAlt || "Diagram til opgaven")}" loading="lazy"></figure>` : ""}
+            ${w.recalled ? `<p class="small muted src-credit">Opgaven er fra den skriftlige prøve ${esc(w.recalled)}, genskabt efter hukommelsen af en kursist – ordlyden kan være lidt anderledes end på prøven. Modelsvaret er skrevet af DanskKlar.</p>` : ""}
             ${w.real ? `<p class="small muted src-credit">Opgaven er fra ${esc(PD2.EXAM_META[S.exam].full)}${w.set ? `, sæt ${w.set}` : ""} – offentliggjort af myndighederne som øvemateriale. Modelsvaret er skrevet af DanskKlar.</p>` : ""}
             <h3 style="margin-top:14px">Du skal skrive om:</h3>
             ${w.points.map((p, i) => `<label class="tick"><input type="checkbox" data-tick="${i}" ${st.ticks.includes(i) ? "checked" : ""}> <span>${esc(p)}</span></label>`).join("")}

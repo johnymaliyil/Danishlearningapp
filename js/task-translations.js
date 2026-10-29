@@ -182,3 +182,35 @@ PD2.TASK_EN = {
   w11: { s: "Many families feel that living has become more expensive. Write a text for your local newspaper about how you can save money in everyday life.",
     p: ["Tell how you yourself save money", "Give at least two good pieces of advice", "Write about the advantages and disadvantages of buying second-hand things", "Write what you think is most important"] }
 };
+
+// PD2 maj 2026 (recalled tasks)
+Object.assign(PD2.TASK_EN, {
+ "w26ma": {
+  "s": "You own a hairdressing salon and need a new hairdresser. You want to write a job advertisement. Write the job advertisement. (In the exam you choose task A or B.)",
+  "p": [
+   "What tasks the hairdresser will have",
+   "What the working hours are",
+   "What experience the hairdresser must have",
+   "Where the salon is and how big it is",
+   "How people can contact you"
+  ]
+ },
+ "w26mb": {
+  "s": "You have eaten at a pizzeria and had a bad experience. You want to write a review of the pizzeria on a website. Write the review. (In the exam you choose task A or B.)",
+  "p": [
+   "What you ate",
+   "When you were at the pizzeria",
+   "What happened",
+   "Why you can't recommend the pizzeria"
+  ]
+ },
+ "w26mc": {
+  "s": "You have received an e-mail from your friend. In the e-mail he writes, among other things: \"… You write that you have started living healthily, but that it is also very difficult. How do you live healthily, and why do you think it is difficult?\" Write a reply to your friend telling how you live healthily and why it is difficult. Write at least 100 words.",
+  "p": [
+   "Tell how you live healthily (food, exercise, sleep …)",
+   "Explain why it is difficult",
+   "Tell what you do when it is difficult",
+   "Tell how you feel now"
+  ]
+ }
+});
