@@ -1,6 +1,84 @@
 {
- "updated": "2026-10-29T20:20+00:00",
+ "updated": "2026-10-30T10:52+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/marius-borg-hoeiby-anmoder-om-loesladelse",
+   "date": "2026-10-30T10:20:58+00:00",
+   "da": {
+    "title": "Marius Borg Høiby anmoder om løsladelse",
+    "desc": ""
+   },
+   "en": {
+    "title": "Marius Borg Høiby requests release",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/1-500-bolig-og-virksomhedsejere-har-henvendt-sig-i-ny-vurderingsenhed",
+   "date": "2026-10-30T09:03:08+00:00",
+   "da": {
+    "title": "1.500 bolig- og virksomhedsejere har henvendt sig i ny vurderingsenhed",
+    "desc": ""
+   },
+   "en": {
+    "title": "1,500 home and business owners have approached in a new appraisal unit",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/eu-indfoerer-gebyr-paa-pakker",
+   "date": "2026-10-30T06:26:50+00:00",
+   "da": {
+    "title": "EU indfører gebyr på pakker",
+    "desc": ""
+   },
+   "en": {
+    "title": "EU introduces tax on parcels",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/verdens-stoerste-kryptoboers-ramt-af-muligt-hackerangreb",
+   "date": "2026-10-30T05:15:07+00:00",
+   "da": {
+    "title": "Verdens største kryptobørs ramt af muligt hackerangreb",
+    "desc": ""
+   },
+   "en": {
+    "title": "The world's largest crypto exchange hit by possible hacker attack",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/haandbold/liveblog-med-seneste-nyt-om-dansk-og-international-haandbold?focusId=12737222#liveblog-embed",
+   "date": "2026-10-29T21:27:28+00:00",
+   "da": {
+    "title": "Skanderborg AGF tæt på sensation mod Barcelona, men er ude af Champions League",
+    "desc": ""
+   },
+   "en": {
+    "title": "Skanderborg AGF close to sensation against Barcelona but out of Champions League",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12736899#liveblog-embed",
+   "date": "2026-10-29T20:23:26+00:00",
+   "da": {
+    "title": "FC Midtjylland tager imod OB-gave og er videre i pokalen",
+    "desc": ""
+   },
+   "en": {
+    "title": "FC Midtjylland accepts OB gift and is further in the trophy",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/efterforskning-i-sag-fra-2023-mod-energihandlere-skal-genoptages",
@@ -116,84 +194,6 @@
    "en": {
     "title": "Illegal fireworks have been found – one person has been arrested",
     "desc": "A large batch of illegally stored fireworks has been found at Varde"
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/ny-aftale-almen-praksis-er-paa-plads-tager-hensyn-til-tidskraevende-patienter",
-   "date": "2026-10-29T11:31:29+00:00",
-   "da": {
-    "title": "Ny aftale for almen praksis er på plads - tager hensyn til tidskrævende patienter",
-    "desc": ""
-   },
-   "en": {
-    "title": "New agreement for general practice is in place - takes into account time-consuming patients",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/vintersport/curlinglandsholdet-vinder-i-tredje-forsoeg-ved-em",
-   "date": "2026-10-29T11:21:55+00:00",
-   "da": {
-    "title": "Curlinglandsholdet vinder i tredje forsøg ved EM",
-    "desc": ""
-   },
-   "en": {
-    "title": "The national curling team wins in the third attempt at the European Championships",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/pet-kommer-med-advarsel-til-ukrainere-i-danmark",
-   "date": "2026-10-29T11:03:48+00:00",
-   "da": {
-    "title": "PET kommer med advarsel til ukrainere i Danmark",
-    "desc": "Advarslen er tidligere adresseret den danske befolkning. Nu udgives den også på ukrainsk."
-   },
-   "en": {
-    "title": "Pet issues warning to Ukrainians in Denmark",
-    "desc": "The warning has previously been addressed to the Danish population. Now it is also published in Ukrainian."
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/hongkongs-leder-undskylder-sidste-aars-doedelige-brand",
-   "date": "2026-10-29T07:32:12+00:00",
-   "da": {
-    "title": "Hongkongs leder undskylder for sidste års dødelige brand",
-    "desc": ""
-   },
-   "en": {
-    "title": "Hong Kong leader apologizes for last year's deadly fire",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/nabolande-nordkorea-har-affyret-10-langtraekkende-missiler",
-   "date": "2026-10-29T06:00:06+00:00",
-   "da": {
-    "title": "Nabolande: Nordkorea har affyret 10 langtrækkende missiler",
-    "desc": ""
-   },
-   "en": {
-    "title": "Neighbouring countries: North Korea has fired 10 long-range missiles",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/international-lufthavn-i-groenland-faar-groent-lys-foerste-fly-lander-senere-i-dag",
-   "date": "2026-10-29T05:04:01+00:00",
-   "da": {
-    "title": "International lufthavn i Grønland får grønt lys - første fly lander senere i dag",
-    "desc": "Klokken 11.40 lokal tid lander det første fly fra København i Ilulissat."
-   },
-   "en": {
-    "title": "Greenland International Airport gets green light - first flight lands later today",
-    "desc": "At 11:40 am local time, the first flight from Copenhagen lands in Ilulissat."
    }
   }
  ]
