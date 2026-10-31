@@ -1,6 +1,32 @@
 {
- "updated": "2026-10-30T19:56+00:00",
+ "updated": "2026-10-31T10:24+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12744558#liveblog-embed",
+   "date": "2026-10-31T07:25:00+00:00",
+   "da": {
+    "title": "Aston Villa vil sagsøge Carragher for udtalelse i podcast",
+    "desc": ""
+   },
+   "en": {
+    "title": "Aston Villa will sue Carragher for opinion in podcast",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/24-aarig-mand-omkommet-i-alvorligt-sammenstoed-nord-aarhus",
+   "date": "2026-10-31T00:42:06+00:00",
+   "da": {
+    "title": "24-årig mand omkommet i alvorligt sammenstød nord for Aarhus",
+    "desc": ""
+   },
+   "en": {
+    "title": "24-year-old man killed in serious collision north of Aarhus",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/eu-og-canada-vil-definere-taettere-samarbejde-inden-topmoede-naeste-aar",
@@ -167,32 +193,6 @@
    },
    "en": {
     "title": "Skanderborg AGF close to sensation against Barcelona but out of Champions League",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12736899#liveblog-embed",
-   "date": "2026-10-29T20:23:26+00:00",
-   "da": {
-    "title": "FC Midtjylland tager imod OB-gave og er videre i pokalen",
-    "desc": ""
-   },
-   "en": {
-    "title": "FC Midtjylland accepts OB gift and is further in the trophy",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/efterforskning-i-sag-fra-2023-mod-energihandlere-skal-genoptages",
-   "date": "2026-10-29T16:34:03+00:00",
-   "da": {
-    "title": "Efterforskning i sag fra 2023 mod energihandlere skal genoptages",
-    "desc": ""
-   },
-   "en": {
-    "title": "Investigation in 2023 case against energy traders to be resumed",
     "desc": ""
    }
   }
