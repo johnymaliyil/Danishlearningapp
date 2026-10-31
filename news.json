@@ -1,6 +1,71 @@
 {
- "updated": "2026-10-31T10:24+00:00",
+ "updated": "2026-10-31T19:19+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/kryptoboers-erstatter-90-procent-af-stjaalne-aktiver-efter-milliardtyveri",
+   "date": "2026-10-31T16:54:43+00:00",
+   "da": {
+    "title": "Kryptobørs erstatter 90 procent af stjålne aktiver efter milliardtyveri",
+    "desc": ""
+   },
+   "en": {
+    "title": "Crypto exchange replaces 90 percent of stolen assets after billion dollar theft",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12746289#liveblog-embed",
+   "date": "2026-10-31T14:05:39+00:00",
+   "da": {
+    "title": "FCK vinder højst overraskende over FC Nordsjælland",
+    "desc": ""
+   },
+   "en": {
+    "title": "FCK wins most surprisingly over FC Nordsjælland",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/antallet-af-anmeldte-indbrud-i-private-hjem-er-steget-med",
+   "date": "2026-10-31T12:56:58+00:00",
+   "da": {
+    "title": "Antallet af anmeldte indbrud i private hjem er steget markant",
+    "desc": ""
+   },
+   "en": {
+    "title": "The number of reported burglaries in private homes has increased significantly",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/britisk-premierminister-klar-til-undskylde-slaveri-men-afviser-erstatning",
+   "date": "2026-10-31T12:30:48+00:00",
+   "da": {
+    "title": "Britisk premierminister klar til at undskylde for slaveri - men afviser erstatning",
+    "desc": ""
+   },
+   "en": {
+    "title": "UK Prime Minister ready to apologise for slavery - but rejects compensation",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/cykling/norsk-hold-droemmer-om-jonas-vingegaard-og-mads-pedersen?focusId=12745292#liveblog-embed",
+   "date": "2026-10-31T12:04:47+00:00",
+   "da": {
+    "title": "Pogacar opdagede flere brud på ryggen: 'Jeg er glad for at være i live'",
+    "desc": ""
+   },
+   "en": {
+    "title": "Pogacar discovered several fractures in his back: 'I'm glad to be alive'",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12744558#liveblog-embed",
@@ -128,71 +193,6 @@
    },
    "en": {
     "title": "Rigshospitalet gets a week for new answers in case of layoffs",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/marius-borg-hoeiby-anmoder-om-loesladelse",
-   "date": "2026-10-30T10:20:58+00:00",
-   "da": {
-    "title": "Marius Borg Høiby anmoder om løsladelse",
-    "desc": ""
-   },
-   "en": {
-    "title": "Marius Borg Høiby requests release",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/1-500-bolig-og-virksomhedsejere-har-henvendt-sig-i-ny-vurderingsenhed",
-   "date": "2026-10-30T09:03:08+00:00",
-   "da": {
-    "title": "1.500 bolig- og virksomhedsejere har henvendt sig i ny vurderingsenhed",
-    "desc": ""
-   },
-   "en": {
-    "title": "1,500 home and business owners have approached in a new appraisal unit",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/eu-indfoerer-gebyr-paa-pakker",
-   "date": "2026-10-30T06:26:50+00:00",
-   "da": {
-    "title": "EU indfører gebyr på pakker",
-    "desc": ""
-   },
-   "en": {
-    "title": "EU introduces tax on parcels",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/verdens-stoerste-kryptoboers-ramt-af-muligt-hackerangreb",
-   "date": "2026-10-30T05:15:07+00:00",
-   "da": {
-    "title": "Verdens største kryptobørs ramt af muligt hackerangreb",
-    "desc": ""
-   },
-   "en": {
-    "title": "The world's largest crypto exchange hit by possible hacker attack",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/haandbold/liveblog-med-seneste-nyt-om-dansk-og-international-haandbold?focusId=12737222#liveblog-embed",
-   "date": "2026-10-29T21:27:28+00:00",
-   "da": {
-    "title": "Skanderborg AGF tæt på sensation mod Barcelona, men er ude af Champions League",
-    "desc": ""
-   },
-   "en": {
-    "title": "Skanderborg AGF close to sensation against Barcelona but out of Champions League",
     "desc": ""
    }
   }
