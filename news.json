@@ -1,6 +1,97 @@
 {
- "updated": "2026-11-01T11:16+00:00",
+ "updated": "2026-11-01T19:42+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/nu-gaar-saerligt-politi-med-rifler-i-sydneys-gader",
+   "date": "2026-11-01T19:27:35+00:00",
+   "da": {
+    "title": "Nu går særligt politi med rifler i Sydneys gader",
+    "desc": ""
+   },
+   "en": {
+    "title": "Special police are now carrying rifles on the streets of Sydney",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12756619#liveblog-embed",
+   "date": "2026-11-01T18:54:19+00:00",
+   "da": {
+    "title": "Brøndby får revanche mod ufarlige AGF",
+    "desc": ""
+   },
+   "en": {
+    "title": "Brøndby gets revenge against harmless AGF",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12756381#liveblog-embed",
+   "date": "2026-11-01T18:28:19+00:00",
+   "da": {
+    "title": "Arsenal slår Liverpool og går alene i spids",
+    "desc": ""
+   },
+   "en": {
+    "title": "Arsenal beat Liverpool and lead alone",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/seneste-sport/svensk-loebefaenomen-vinder-maratondebut",
+   "date": "2026-11-01T16:15:04+00:00",
+   "da": {
+    "title": "Svensk løbefænomen vinder i maratondebut",
+    "desc": ""
+   },
+   "en": {
+    "title": "Swedish running phenomenon wins marathon debut",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/verdens-bedste-er-samlet-i-odense?focusId=12754142#liveblog-embed",
+   "date": "2026-11-01T15:21:36+00:00",
+   "da": {
+    "title": "Dansk duo taber tæt finale til verdensmestrene",
+    "desc": ""
+   },
+   "en": {
+    "title": "Danish duo loses close final to world champions",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/skyderi-under-amerikansk-fodboldkamp-draeber-en-og-saarer-otte",
+   "date": "2026-11-01T14:32:36+00:00",
+   "da": {
+    "title": "Skyderi under amerikansk fodboldkamp dræber én og sårer otte",
+    "desc": ""
+   },
+   "en": {
+    "title": "Shooting during American football game kills one and injures eight",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tidligere-em-guldvinder-er-doed-i-en-alder-af-34-aar",
+   "date": "2026-11-01T11:23:18+00:00",
+   "da": {
+    "title": "Tidligere EM-guldvinder er død i en alder af 34 år",
+    "desc": ""
+   },
+   "en": {
+    "title": "Former European Championship gold medalist has died at the age of 34",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/nyt-basketball-hold-vinder-rekordhurtigt-mesterskab-i-usa",
@@ -102,97 +193,6 @@
    },
    "en": {
     "title": "Pogacar discovered several fractures in his back: 'I'm glad to be alive'",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12744558#liveblog-embed",
-   "date": "2026-10-31T07:25:00+00:00",
-   "da": {
-    "title": "Aston Villa vil sagsøge Carragher for udtalelse i podcast",
-    "desc": ""
-   },
-   "en": {
-    "title": "Aston Villa will sue Carragher for opinion in podcast",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/24-aarig-mand-omkommet-i-alvorligt-sammenstoed-nord-aarhus",
-   "date": "2026-10-31T00:42:06+00:00",
-   "da": {
-    "title": "24-årig mand omkommet i alvorligt sammenstød nord for Aarhus",
-    "desc": ""
-   },
-   "en": {
-    "title": "24-year-old man killed in serious collision north of Aarhus",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/eu-og-canada-vil-definere-taettere-samarbejde-inden-topmoede-naeste-aar",
-   "date": "2026-10-30T17:14:28+00:00",
-   "da": {
-    "title": "EU og Canada vil definere tættere samarbejde inden topmøde næste år",
-    "desc": ""
-   },
-   "en": {
-    "title": "The EU and Canada will define closer cooperation by the summit next year",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/seneste-sport/sverige-vil-have-strammet-visumregler-russiske-sportsudoevere",
-   "date": "2026-10-30T16:39:44+00:00",
-   "da": {
-    "title": "Sverige vil have strammet visumregler for russiske sportsudøvere",
-    "desc": ""
-   },
-   "en": {
-    "title": "Sweden wants stricter visa rules for Russian athletes",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/hardball-vaaben-udloeste-stor-alarm-paa-togstationer",
-   "date": "2026-10-30T16:18:56+00:00",
-   "da": {
-    "title": "Hardball-våben udløste stor alarm på togstationer",
-    "desc": ""
-   },
-   "en": {
-    "title": "Hardball Weapons Triggered Great Alarm at Train Stations",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/pave-leo-har-brevstemt-ved-det-amerikanske-midtvejsvalg",
-   "date": "2026-10-30T14:37:42+00:00",
-   "da": {
-    "title": "Pave Leo har brevstemt ved det amerikanske midtvejsvalg",
-    "desc": ""
-   },
-   "en": {
-    "title": "Pope Leo has cast his ballot in the US midterm elections",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/norsk-universitet-udsat-cyberangreb",
-   "date": "2026-10-30T14:35:55+00:00",
-   "da": {
-    "title": "Norsk universitet udsat for cyberangreb",
-    "desc": ""
-   },
-   "en": {
-    "title": "Norwegian University exposed to cyberattacks",
     "desc": ""
    }
   }
