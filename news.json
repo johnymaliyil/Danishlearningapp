@@ -1,6 +1,45 @@
 {
- "updated": "2026-10-31T19:19+00:00",
+ "updated": "2026-11-01T11:16+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/nyt-basketball-hold-vinder-rekordhurtigt-mesterskab-i-usa",
+   "date": "2026-11-01T08:04:38+00:00",
+   "da": {
+    "title": "Nyt basketball-hold vinder rekordhurtigt mesterskab i USA",
+    "desc": ""
+   },
+   "en": {
+    "title": "New basketball team wins record-breaking championship in US",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/alvorlig-trafikulykke-spaerrer-vej-ved-herning",
+   "date": "2026-11-01T07:05:41+00:00",
+   "da": {
+    "title": "Alvorlig trafikulykke ved Herning",
+    "desc": ""
+   },
+   "en": {
+    "title": "Serious traffic accident at Herning",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/fbi-nordkorea-stod-bag-kryptotyveri-i-milliardklassen",
+   "date": "2026-10-31T22:05:00+00:00",
+   "da": {
+    "title": "FBI: Nordkorea stod bag kryptotyveri i milliardklassen",
+    "desc": ""
+   },
+   "en": {
+    "title": "FBI: North Korea was behind billion-dollar crypto theft",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/kryptoboers-erstatter-90-procent-af-stjaalne-aktiver-efter-milliardtyveri",
@@ -154,45 +193,6 @@
    },
    "en": {
     "title": "Norwegian University exposed to cyberattacks",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/epsteins-ophold-paa-skotsk-slot-efterforskes",
-   "date": "2026-10-30T12:01:02+00:00",
-   "da": {
-    "title": "Epsteins ophold på skotsk slot efterforskes",
-    "desc": ""
-   },
-   "en": {
-    "title": "Epstein's stay in Scottish castle under investigation",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/mand-anholdt-paa-foerste-flyvning-til-ny-groenlandsk-lufthavn",
-   "date": "2026-10-30T11:46:00+00:00",
-   "da": {
-    "title": "Mand anholdt på første flyvning til ny grønlandsk lufthavn",
-    "desc": ""
-   },
-   "en": {
-    "title": "Man arrested on first flight to new Greenlandic airport",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/rigshospitalet-faar-en-uge-til-nye-svar-i-sag-om-fyringer",
-   "date": "2026-10-30T10:53:44+00:00",
-   "da": {
-    "title": "Rigshospitalet får en uge til nye svar i sag om fyringer",
-    "desc": ""
-   },
-   "en": {
-    "title": "Rigshospitalet gets a week for new answers in case of layoffs",
     "desc": ""
    }
   }
