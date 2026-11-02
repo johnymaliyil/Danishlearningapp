@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "133"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "134"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -288,6 +288,7 @@
       <a role="menuitem" class="set-item" href="#/news"><span class="set-ico">📰</span><span>Dagens nyheder</span></a>
       <button role="menuitem" class="set-item" data-reminder><span class="set-ico">⏰</span><span>Daglig påmindelse i kalenderen</span></button>
       <div class="set-sec">Hjælp</div>
+      ${item("#/format", "🗂️", "Prøvens opbygning")}
       ${item("#/tips", "💡", "Tips og tricks til prøven")}
       ${item("#/klar", "🎯", "Er jeg klar?")}
       ${item("#/help", "❓", '<span lang="en">Help – all features (English)</span>')}
@@ -463,6 +464,7 @@
     [/^\/plan$/, planPage],
     [/^\/klar$/, klarPage],
     [/^\/tips$/, tipsPage],
+    [/^\/format(?:\/(pd[123]))?$/, formatPage],
     [/^\/mistakes$/, mistakesPage],
     [/^\/about$/, about],
     [/^\/legal$/, legalPage],
@@ -666,6 +668,8 @@
         <span class="bar pb-bar"><i style="width:${st.items.length ? st.done / st.items.length * 100 : 0}%"></i></span></a>`; })()}
       ${(() => { const p = readiness(), w = p.slice().sort((a, b) => a.level - b.level)[0]; return `<a class="card plan-banner" href="#/klar"><span class="pb-ico">🎯</span><span class="pb-meta"><b>Er jeg klar?</b>
         <span class="small muted">${p.some(x => x.level >= 0) ? `${p.map(x => LVL[x.level][0]).join(" ")} · øv mest: ${esc(w.name)}` : "Se, hvor du står i læsning, skrivning og tale"}</span></span><span class="pill">Ny</span></a>`; })()}
+      <a class="card plan-banner" href="#/format"><span class="pb-ico">🗂️</span><span class="pb-meta"><b>Prøvens opbygning</b>
+        <span class="small muted">Alle dele af prøven – læsning, skrivning og tale – med et eksempel på hver</span></span><span class="pill">Ny</span></a>
       <a class="card plan-banner" href="#/tips"><span class="pb-ico">💡</span><span class="pb-meta"><b>Tips og tricks til prøven</b>
         <span class="small muted">Sådan klarer du læsning, skrivning og den mundtlige prøve – og prøvedagen</span></span><span class="pill">Ny</span></a>
 
@@ -2510,6 +2514,84 @@
       <p class="small muted" style="margin-top:12px">Skønnet er kun vejledende. Karaktererne for skrivning er dine egne skøn fra "Bedøm min tekst". Den rigtige prøve bedømmes af censorer.</p>`;
   }
 
+  // ---------- 🗂️ Prøvens opbygning: the exam format as an outline, with an example of every part ----------
+  // Built from the real exam sets in the app, so every task type links to a real example.
+  const FMT = {
+    pd1: { read: [["📖 Læsning", "ca. 40 min", null]], write: ["✍️ Skriftlig fremstilling", "ca. 1 time"],
+      oral: [["Delprøve 1 · Præsentation", "Du fortæller kort om dig selv eller et emne fra hverdagen. Bagefter stiller eksaminator et par spørgsmål.", "SPEAKING_MONO", "mono"],
+             ["Delprøve 2 · Samtale", "En kort samtale med eksaminator om en hverdagssituation, fx at købe ind eller lave en aftale.", "SPEAKING_DIALOG", "dialog"]] },
+    pd2: { read: [["📖 Læseforståelse 1 · opgave 1–2", "30 min", /^Opgave [12]\b/], ["📖 Læseforståelse 2 · opgave 3–5", "60 min", /^Opgave [345]\b/]], write: ["✍️ Skriftlig fremstilling", "1½ time"],
+      oral: [["Delprøve 1 · Præsentation af et emne", "Du vælger et emne fra emnelisten og fortæller om dit eget liv (ca. 1½ minut). Bagefter stiller eksaminator opklarende, uddybende og generelle spørgsmål.", "SPEAKING_MONO", "mono"],
+             ["Delprøve 2 · Samtale ud fra billeder", "Du får to billeder om et emne. Du beskriver dem, sammenligner og fortæller, hvad du selv mener – i en samtale med eksaminator.", "SPEAKING_PICTURE", "picture"]] },
+    pd3: { read: [["📖 Læseforståelse 1 · delprøve 1", "ca. 25 min", /^Delprøve 1\b/], ["📖 Læseforståelse 2 · delprøve 2–3", "ca. 65 min", /^Delprøve [23]/]], write: ["✍️ Skriftlig fremstilling", "ca. 2 timer"],
+      oral: [["Mundtlig prøve · Emne med billeder", "Du får et emne med billeder. Du svarer på de obligatoriske spørgsmål (A og B), giver din mening og diskuterer emnet med eksaminator.", "SPEAKING_TOPIC", "topic"],
+             ["Øvelse · Monolog og dialog", "Øv at tale sammenhængende om et emne og at deltage i en samtale.", "SPEAKING_MONO", "mono"]] }
+  };
+  function formatPage(k) {
+    k = PD2.EXAMS[k] ? k : S.exam;
+    const E = PD2.EXAMS[k], F = FMT[k], M = PD2.EXAM_META[k];
+    // A complete real set as the reference; every task type links to it, plus a count of other examples.
+    const real = E.READING.filter(r => r.real), sets = {};
+    real.forEach(r => (sets[r.group] = sets[r.group] || []).push(r));
+    const ref = Object.values(sets).sort((a, b) => b.length - a.length || (a[0].set || 99) - (b[0].set || 99))[0] || E.READING;
+    const head = t => (t.match(/^(Opgave \d+|Delprøve \d[A-Z]?)/) || [t])[0];
+    const nQ = r => r.questions.reduce((a, q) => a + (q.type === "gaps" ? Object.keys(q.answers).length : q.type === "match" ? q.items.filter(i => !i.example).length : 1), 0);
+    // A label that says what the text is about: the title, or the section headings when the title is generic.
+    const bare = x => x.title.replace(/^(Opgave \d+|Delprøve \d[A-Z]?)\s*[–-]\s*/, "");
+    const possLabel = (x, all) => {
+      const b = bare(x);
+      if (all.filter(y => bare(y) === b).length < 3) return b;
+      const hs = (x.sections || []).map(sc => sc.heading).filter(h => h && all.filter(y => (y.sections || []).some(sc => sc.heading === h)).length < 3);
+      if (hs.length) return hs.join(" · ");
+      const cards = (x.sections || []).flatMap(sc => sc.cards || []).map(c => c.title.replace(/^[A-Z]\s*[–-]?\s*/, "")).filter(t => t.length > 2);
+      return cards.length ? cards.slice(0, 4).join(" · ") + (cards.length > 4 ? " …" : "") : b;
+    };
+    const task = r => {
+      const all = (real.length ? real : E.READING).filter(x => head(x.title) === head(r.title));
+      return `<li><b>${esc(head(r.title) !== r.title ? head(r.title) : r.title)}</b> – ${esc((r.kind || "").replace(/^(Delprøve \d · |Læseforståelse \d · )/, ""))} <span class="small muted">· ${nQ(r)} spørgsmål${r.minutes ? ` · ca. ${r.minutes} min` : ""}</span>
+        <div class="small">Eksempel: <a href="#/reading/${r.id}">${esc(r.title)}</a></div>
+        ${all.length > 1 ? `<div class="small muted fmt-line">🎲 Muligheder, fx: ${[...new Set(all.map(x => possLabel(x, all).split(" · ")[0]))].slice(0, 4).map(esc).join(", ")}${all.length > 4 ? ` (+${all.length - 4} flere)` : ""}</div>` : ""}</li>`;
+    };
+    const readHtml = F.read.map(([t, min, re]) => `<details class="fmt"><summary><b>${esc(t)}</b> <span class="pill">${esc(min)}</span></summary>
+      <ul class="fmt-list">${ref.filter(r => !re || re.test(r.title)).map(task).join("")}</ul></details>`).join("");
+    // Writing: the task types seen in the exams, each linked to an example, and the fixed phrases (templates).
+    const W = E.WRITING, part = d => {
+      const ws = W.filter(w => w.delprove === d), byKind = new Map(), cnt = {};
+      const kindOf = w => (w.kind || "").replace(/^Prøveopgave · /, "").replace(/ · .*$/, "");
+      ws.forEach(w => { const kd = kindOf(w); if (!kd) return; cnt[kd] = (cnt[kd] || 0) + 1; if (!byKind.has(kd)) byKind.set(kd, w); });
+      const exam = ws.filter(w => w.real || w.recalled);
+      const words = ws.length ? `${Math.min(...ws.map(w => w.minWords))}–${Math.max(...ws.map(w => w.maxWords))} ord` : "";
+      const tpls = [...new Set(ws.map(w => w.tpl).filter(Boolean))].map(id => PD2.TEMPLATES[id]).filter(Boolean);
+      return `<details class="fmt"><summary><b>${esc(M.writingParts[d] || "Delprøve " + d)}</b> <span class="pill">${esc(words)}</span>${k === "pd2" && d === 1 ? ` <span class="pill">vælg A eller B</span>` : ""}</summary>
+        <p class="small" style="margin:6px 0">🎲 Muligheder – tryk for et eksempel:</p>
+        <div class="chips">${[...byKind.entries()].sort((a, b) => cnt[b[0]] - cnt[a[0]]).map(([kd, w]) => `<a class="chip" href="#/writing/${w.id}">${esc(kd)}</a>`).join("")}</div>
+
+        ${tpls.length ? `<details class="fmt fmt-sub"><summary><b>📋 Faste sætninger</b> <span class="small muted">(skabeloner – lær dem udenad)</span></summary>
+          ${tpls.map(t => `<div class="fmt-tpl"><b>${t.ico || ""} ${esc(t.name)}</b> <span class="small muted">${esc(t.use || "")}</span>
+            <div class="chips">${(t.marks || []).map(m => `<span class="chip no-tr" data-keep>${esc(m)}</span>`).join("")}</div></div>`).join("")}
+          <a class="small" href="#/writing/skabeloner">Se alle skabeloner →</a></details>` : ""}
+      </details>`;
+    };
+    const oralHtml = F.oral.map(([t, d, list, route]) => { const xs = E[list] || []; return xs.length ? `<details class="fmt"><summary><b>${esc(t)}</b></summary>
+      <p class="small" style="margin:6px 0">${esc(d)}</p>
+      <div class="small">Eksempel: <a href="#/speaking/${route}/${xs[0].id}">${esc(xs[0].title || xs[0].topic || "Øv nu")}</a></div>
+      <div class="small muted fmt-line">🎲 Muligheder, fx: ${[...new Set(xs.map(x => x.title || x.topic || ""))].slice(0, 5).map(esc).join(", ")}${xs.length > 5 ? ` (+${xs.length - 5} flere)` : ""}</div></details>` : ""; }).join("");
+    app.innerHTML = `<a class="back" href="#/">← Forside</a>
+      <h1>🗂️ Prøvens opbygning</h1>
+      <p class="muted">Sådan er prøven bygget op – med et eksempel på hver del. Tryk på en overskrift for at åbne eller lukke den.</p>
+      <div class="chips" role="tablist" style="margin-bottom:12px">${["pd1", "pd2", "pd3"].map(x => `<a class="chip ${x === k ? "on" : ""}" href="#/format/${x}" role="tab" aria-selected="${x === k}">${esc(PD2.EXAM_META[x].name)}</a>`).join("")}</div>
+      <div class="card fmt-tree">
+        <h2 style="margin-top:0">${esc(M.full || M.name)}</h2>
+        <details class="fmt" open><summary><b>📝 Skriftlig prøve</b></summary>
+          ${readHtml}
+          <details class="fmt" open><summary><b>${esc(F.write[0])}</b> <span class="pill">${esc(F.write[1])}</span></summary>${[1, 2].map(part).join("")}</details>
+        </details>
+        <details class="fmt" open><summary><b>🗣️ Mundtlig prøve</b></summary>${oralHtml}</details>
+      </div>
+      <p class="small muted" style="margin-top:10px">Tiderne er vejledende, og formatet kan ændre sig lidt fra prøve til prøve. Tjek altid din indkaldelse og dit sprogcenter.</p>
+      <div class="row" style="margin-top:12px"><a class="btn read" href="#/exam">📝 Prøvesimulering</a><a class="btn ghost" href="#/tips">💡 Tips til prøven</a><a class="btn ghost" href="#/plan">📅 Min prøveplan</a></div>`;
+  }
+
   // ---------- 💡 Tips og tricks til prøven ----------
   const EXAM_TIPS = [
     ["📅", "Ugerne før prøven", [
@@ -2561,7 +2643,7 @@
         <p class="small muted" style="margin:8px 0 0">Tiderne er vejledende – tjek altid din indkaldelse og dit sprogcenter.</p></div>` : ""}
       <div class="stack tips" style="margin-top:14px">${EXAM_TIPS.map(([ico, title, list], i) => `<details class="card" ${i === 0 ? "open" : ""}><summary><h2 style="display:inline;margin:0">${ico} ${esc(title)}</h2></summary>
         <ol class="tip-list">${list.map(([da, en]) => `<li><span>${esc(da)}</span><span class="small muted" lang="en">${esc(en)}</span></li>`).join("")}</ol></details>`).join("")}</div>
-      <div class="row" style="margin-top:16px"><a class="btn write" href="#/klar">🎯 Er jeg klar?</a><a class="btn read" href="#/exam">📝 Prøvesimulering</a>${S.exam === "pd3" && PD2.PD3_GUIDE ? `<a class="btn ghost" href="#/pd3guide">🧭 PD3-guide</a>` : ""}<a class="btn ghost" href="#/writing/skabeloner">📋 Skabeloner</a></div>`;
+      <div class="row" style="margin-top:16px"><a class="btn read" href="#/format">🗂️ Prøvens opbygning</a><a class="btn write" href="#/klar">🎯 Er jeg klar?</a><a class="btn read" href="#/exam">📝 Prøvesimulering</a>${S.exam === "pd3" && PD2.PD3_GUIDE ? `<a class="btn ghost" href="#/pd3guide">🧭 PD3-guide</a>` : ""}<a class="btn ghost" href="#/writing/skabeloner">📋 Skabeloner</a></div>`;
   }
 
   // ----- Mine fejl -----

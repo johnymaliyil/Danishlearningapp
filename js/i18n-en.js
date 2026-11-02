@@ -1261,5 +1261,18 @@ PD2.I18N.en = {
 "Her kan du se, hvad du svarede forkert, det rigtige svar – og hvorfor.": "Here you can see what you got wrong, the right answer – and why.",
 "Lav opgaven igen": "Do the task again",
 "🎉 Ingen fejl i læsningen – flot!": "🎉 No mistakes in reading – well done!",
-"✗ Intet svar": "✗ No answer"
+"✗ Intet svar": "✗ No answer",
+"🗂️ Prøvens opbygning": "🗂️ Exam layout",
+"Prøvens opbygning": "Exam layout",
+"Alle dele af prøven – læsning, skrivning og tale – med et eksempel på hver": "All parts of the exam – reading, writing and speaking – with an example of each",
+"Sådan er prøven bygget op – med et eksempel på hver del. Tryk på en overskrift for at åbne eller lukke den.": "How the exam is built up – with an example of each part. Tap a heading to open or close it.",
+"📝 Skriftlig prøve": "📝 Written exam",
+"Eksempel:": "Example:",
+"🎲 Muligheder, fx:": "🎲 Possibilities, e.g.:",
+"🎲 Muligheder – tryk for et eksempel:": "🎲 Possibilities – tap for an example:",
+"📋 Faste sætninger": "📋 Fixed phrases",
+"(skabeloner – lær dem udenad)": "(templates – learn them by heart)",
+"Se alle skabeloner →": "See all templates →",
+"Tiderne er vejledende, og formatet kan ændre sig lidt fra prøve til prøve. Tjek altid din indkaldelse og dit sprogcenter.": "Times are a guide, and the format can change a little from exam to exam. Always check your exam letter and your language school.",
+"vælg A eller B": "choose A or B"
 };

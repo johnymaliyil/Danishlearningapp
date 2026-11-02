@@ -1260,5 +1260,18 @@ PD2.I18N.tr = {
 "Her kan du se, hvad du svarede forkert, det rigtige svar – og hvorfor.": "Burada neyi yanlış yaptığını, doğru cevabı ve nedenini görebilirsin.",
 "Lav opgaven igen": "Görevi tekrar yap",
 "🎉 Ingen fejl i læsningen – flot!": "🎉 Okumada hiç hata yok – harika!",
-"✗ Intet svar": "✗ Cevap yok"
+"✗ Intet svar": "✗ Cevap yok",
+"🗂️ Prøvens opbygning": "🗂️ Sınavın yapısı",
+"Prøvens opbygning": "Sınavın yapısı",
+"Alle dele af prøven – læsning, skrivning og tale – med et eksempel på hver": "Sınavın tüm bölümleri – okuma, yazma ve konuşma – her birinden bir örnekle",
+"Sådan er prøven bygget op – med et eksempel på hver del. Tryk på en overskrift for at åbne eller lukke den.": "Sınav böyle kurulur – her bölümden bir örnekle. Açmak veya kapatmak için bir başlığa dokun.",
+"📝 Skriftlig prøve": "📝 Yazılı sınav",
+"Eksempel:": "Örnek:",
+"🎲 Muligheder, fx:": "🎲 Olasılıklar, ör.:",
+"🎲 Muligheder – tryk for et eksempel:": "🎲 Olasılıklar – örnek için dokun:",
+"📋 Faste sætninger": "📋 Kalıp cümleler",
+"(skabeloner – lær dem udenad)": "(şablonlar – ezberle)",
+"Se alle skabeloner →": "Tüm şablonları gör →",
+"Tiderne er vejledende, og formatet kan ændre sig lidt fra prøve til prøve. Tjek altid din indkaldelse og dit sprogcenter.": "Süreler yol göstericidir ve format biraz değişebilir. Her zaman davet mektubunu ve dil okulunu kontrol et.",
+"vælg A eller B": "A veya B'yi seç"
 };

@@ -1260,5 +1260,18 @@ PD2.I18N.uk = {
 "Her kan du se, hvad du svarede forkert, det rigtige svar – og hvorfor.": "Тут видно, що ви відповіли неправильно, правильну відповідь – і чому.",
 "Lav opgaven igen": "Зробити завдання ще раз",
 "🎉 Ingen fejl i læsningen – flot!": "🎉 Жодної помилки в читанні – чудово!",
-"✗ Intet svar": "✗ Немає відповіді"
+"✗ Intet svar": "✗ Немає відповіді",
+"🗂️ Prøvens opbygning": "🗂️ Структура іспиту",
+"Prøvens opbygning": "Структура іспиту",
+"Alle dele af prøven – læsning, skrivning og tale – med et eksempel på hver": "Усі частини іспиту – читання, письмо й мовлення – з прикладом кожної",
+"Sådan er prøven bygget op – med et eksempel på hver del. Tryk på en overskrift for at åbne eller lukke den.": "Як побудований іспит – з прикладом кожної частини. Натисніть заголовок, щоб відкрити або закрити.",
+"📝 Skriftlig prøve": "📝 Письмовий іспит",
+"Eksempel:": "Приклад:",
+"🎲 Muligheder, fx:": "🎲 Можливості, напр.:",
+"🎲 Muligheder – tryk for et eksempel:": "🎲 Можливості – натисніть для прикладу:",
+"📋 Faste sætninger": "📋 Сталі фрази",
+"(skabeloner – lær dem udenad)": "(шаблони – вивчіть напам’ять)",
+"Se alle skabeloner →": "Усі шаблони →",
+"Tiderne er vejledende, og formatet kan ændre sig lidt fra prøve til prøve. Tjek altid din indkaldelse og dit sprogcenter.": "Час орієнтовний, формат може трохи змінюватися. Завжди перевіряйте запрошення й мовний центр.",
+"vælg A eller B": "оберіть A або B"
 };

@@ -1260,5 +1260,18 @@ PD2.I18N.es = {
 "Her kan du se, hvad du svarede forkert, det rigtige svar – og hvorfor.": "Aquí ves lo que respondiste mal, la respuesta correcta y por qué.",
 "Lav opgaven igen": "Hacer la tarea otra vez",
 "🎉 Ingen fejl i læsningen – flot!": "🎉 Ningún error en la lectura – ¡muy bien!",
-"✗ Intet svar": "✗ Sin respuesta"
+"✗ Intet svar": "✗ Sin respuesta",
+"🗂️ Prøvens opbygning": "🗂️ Estructura del examen",
+"Prøvens opbygning": "Estructura del examen",
+"Alle dele af prøven – læsning, skrivning og tale – med et eksempel på hver": "Todas las partes del examen – lectura, escritura y oral – con un ejemplo de cada una",
+"Sådan er prøven bygget op – med et eksempel på hver del. Tryk på en overskrift for at åbne eller lukke den.": "Así está organizado el examen, con un ejemplo de cada parte. Toca un título para abrirlo o cerrarlo.",
+"📝 Skriftlig prøve": "📝 Examen escrito",
+"Eksempel:": "Ejemplo:",
+"🎲 Muligheder, fx:": "🎲 Posibilidades, p. ej.:",
+"🎲 Muligheder – tryk for et eksempel:": "🎲 Posibilidades – toca para ver un ejemplo:",
+"📋 Faste sætninger": "📋 Frases fijas",
+"(skabeloner – lær dem udenad)": "(plantillas – apréndelas de memoria)",
+"Se alle skabeloner →": "Ver todas las plantillas →",
+"Tiderne er vejledende, og formatet kan ændre sig lidt fra prøve til prøve. Tjek altid din indkaldelse og dit sprogcenter.": "Los tiempos son orientativos y el formato puede cambiar un poco. Revisa siempre tu citación y tu escuela.",
+"vælg A eller B": "elige A o B"
 };

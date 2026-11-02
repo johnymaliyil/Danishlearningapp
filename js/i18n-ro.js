@@ -1260,5 +1260,18 @@ PD2.I18N.ro = {
 "Her kan du se, hvad du svarede forkert, det rigtige svar – og hvorfor.": "Aici vezi ce ai greșit, răspunsul corect – și de ce.",
 "Lav opgaven igen": "Fă din nou sarcina",
 "🎉 Ingen fejl i læsningen – flot!": "🎉 Nicio greșeală la citire – bravo!",
-"✗ Intet svar": "✗ Niciun răspuns"
+"✗ Intet svar": "✗ Niciun răspuns",
+"🗂️ Prøvens opbygning": "🗂️ Structura examenului",
+"Prøvens opbygning": "Structura examenului",
+"Alle dele af prøven – læsning, skrivning og tale – med et eksempel på hver": "Toate părțile examenului – citire, scriere și vorbire – cu un exemplu pentru fiecare",
+"Sådan er prøven bygget op – med et eksempel på hver del. Tryk på en overskrift for at åbne eller lukke den.": "Așa e construit examenul, cu un exemplu pentru fiecare parte. Apasă un titlu ca să-l deschizi sau închizi.",
+"📝 Skriftlig prøve": "📝 Examen scris",
+"Eksempel:": "Exemplu:",
+"🎲 Muligheder, fx:": "🎲 Posibilități, de ex.:",
+"🎲 Muligheder – tryk for et eksempel:": "🎲 Posibilități – apasă pentru un exemplu:",
+"📋 Faste sætninger": "📋 Fraze fixe",
+"(skabeloner – lær dem udenad)": "(șabloane – învață-le pe de rost)",
+"Se alle skabeloner →": "Vezi toate șabloanele →",
+"Tiderne er vejledende, og formatet kan ændre sig lidt fra prøve til prøve. Tjek altid din indkaldelse og dit sprogcenter.": "Timpii sunt orientativi, iar formatul se poate schimba puțin. Verifică mereu convocarea și școala.",
+"vælg A eller B": "alege A sau B"
 };

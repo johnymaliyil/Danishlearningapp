@@ -1111,3 +1111,17 @@ button.lword.saved .lw-ico { color: var(--ok, #15803d); font-weight: 900; }
 .wrong-row .why { margin-top: 4px; }
 .wrong-task { margin-top: 10px; }
 .wrong-task summary { cursor: pointer; }
+
+/* 🗂️ Prøvens opbygning – outline */
+.fmt-tree details.fmt { margin: 6px 0 6px 4px; padding-left: 14px; border-left: 2px solid var(--border); }
+.fmt-tree details.fmt > summary { cursor: pointer; padding: 6px 0; list-style-position: outside; }
+.fmt-tree details.fmt > summary .pill { margin-left: 6px; font-size: .78rem; }
+.fmt-list { margin: 4px 0 8px; padding-left: 20px; display: grid; gap: 8px; }
+.fmt-tpl { margin: 8px 0; }
+.fmt-tpl .chips { margin-top: 4px; }
+
+.fmt-poss { margin: 4px 0 2px; }
+.fmt-poss summary { cursor: pointer; color: var(--accent); font-weight: 700; }
+.fmt-poss ul { margin: 6px 0; padding-left: 20px; }
+.fmt-cols { columns: 2 220px; }
+.fmt-line { margin-top: 2px; }
