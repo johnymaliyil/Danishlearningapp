@@ -1255,5 +1255,10 @@ PD2.I18N.ro = {
 "📋 Emneliste – vælg selv emne": "📋 Lista de subiecte – alege-ți subiectul",
 "Til prøven vælger du ét emne fra listen og fortæller om dit eget liv. Udfyld de tomme pladser med dit eget job, kursus eller land.": "La examen alegi un subiect din listă și vorbești despre viața ta. Completează spațiile cu jobul, cursul sau țara ta.",
 "📋 Fra emnelisten:": "📋 Din lista de subiecte:",
-"– udfyld selv.": "– completează singur."
+"– udfyld selv.": "– completează singur.",
+"❌ Gennemgå dine fejl": "❌ Verifică-ți greșelile",
+"Her kan du se, hvad du svarede forkert, det rigtige svar – og hvorfor.": "Aici vezi ce ai greșit, răspunsul corect – și de ce.",
+"Lav opgaven igen": "Fă din nou sarcina",
+"🎉 Ingen fejl i læsningen – flot!": "🎉 Nicio greșeală la citire – bravo!",
+"✗ Intet svar": "✗ Niciun răspuns"
 };

@@ -1255,5 +1255,10 @@ PD2.I18N.pl = {
 "📋 Emneliste – vælg selv emne": "📋 Lista tematów – wybierz swój temat",
 "Til prøven vælger du ét emne fra listen og fortæller om dit eget liv. Udfyld de tomme pladser med dit eget job, kursus eller land.": "Na egzaminie wybierasz jeden temat z listy i mówisz o swoim życiu. Uzupełnij luki swoją pracą, kursem lub krajem.",
 "📋 Fra emnelisten:": "📋 Z listy tematów:",
-"– udfyld selv.": "– uzupełnij sam."
+"– udfyld selv.": "– uzupełnij sam.",
+"❌ Gennemgå dine fejl": "❌ Przejrzyj swoje błędy",
+"Her kan du se, hvad du svarede forkert, det rigtige svar – og hvorfor.": "Tu widzisz, co było źle, poprawną odpowiedź – i dlaczego.",
+"Lav opgaven igen": "Zrób zadanie jeszcze raz",
+"🎉 Ingen fejl i læsningen – flot!": "🎉 Żadnych błędów w czytaniu – brawo!",
+"✗ Intet svar": "✗ Brak odpowiedzi"
 };

@@ -1103,3 +1103,11 @@ button.lword.saved .lw-ico { color: var(--ok, #15803d); font-weight: 900; }
 .smaa-opts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .smaa-rules { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 10px; }
 .smaa-rules > div { padding: 8px 10px; border-radius: 10px; background: var(--surface-2); }
+
+/* ❌ Wrong answers with the reason */
+.wrong-list { margin: 8px 0 10px; padding-left: 20px; display: grid; gap: 10px; }
+.wrong-row .wr-mine { color: var(--bad, #b91c1c); font-weight: 700; }
+.wrong-row .wr-ok { color: var(--ok, #15803d); font-weight: 700; }
+.wrong-row .why { margin-top: 4px; }
+.wrong-task { margin-top: 10px; }
+.wrong-task summary { cursor: pointer; }

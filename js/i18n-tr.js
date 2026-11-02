@@ -1255,5 +1255,10 @@ PD2.I18N.tr = {
 "📋 Emneliste – vælg selv emne": "📋 Konu listesi – kendi konunu seç",
 "Til prøven vælger du ét emne fra listen og fortæller om dit eget liv. Udfyld de tomme pladser med dit eget job, kursus eller land.": "Sınavda listeden bir konu seçer ve kendi hayatını anlatırsın. Boşlukları kendi işin, kursun veya ülkenle doldur.",
 "📋 Fra emnelisten:": "📋 Konu listesinden:",
-"– udfyld selv.": "– kendin doldur."
+"– udfyld selv.": "– kendin doldur.",
+"❌ Gennemgå dine fejl": "❌ Hatalarını gözden geçir",
+"Her kan du se, hvad du svarede forkert, det rigtige svar – og hvorfor.": "Burada neyi yanlış yaptığını, doğru cevabı ve nedenini görebilirsin.",
+"Lav opgaven igen": "Görevi tekrar yap",
+"🎉 Ingen fejl i læsningen – flot!": "🎉 Okumada hiç hata yok – harika!",
+"✗ Intet svar": "✗ Cevap yok"
 };

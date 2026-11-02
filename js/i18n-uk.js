@@ -1255,5 +1255,10 @@ PD2.I18N.uk = {
 "📋 Emneliste – vælg selv emne": "📋 Список тем – оберіть свою тему",
 "Til prøven vælger du ét emne fra listen og fortæller om dit eget liv. Udfyld de tomme pladser med dit eget job, kursus eller land.": "На іспиті ви обираєте одну тему зі списку й розповідаєте про своє життя. Заповніть пропуски своєю роботою, курсом чи країною.",
 "📋 Fra emnelisten:": "📋 Зі списку тем:",
-"– udfyld selv.": "– заповніть самі."
+"– udfyld selv.": "– заповніть самі.",
+"❌ Gennemgå dine fejl": "❌ Перегляньте свої помилки",
+"Her kan du se, hvad du svarede forkert, det rigtige svar – og hvorfor.": "Тут видно, що ви відповіли неправильно, правильну відповідь – і чому.",
+"Lav opgaven igen": "Зробити завдання ще раз",
+"🎉 Ingen fejl i læsningen – flot!": "🎉 Жодної помилки в читанні – чудово!",
+"✗ Intet svar": "✗ Немає відповіді"
 };

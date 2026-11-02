@@ -1256,5 +1256,10 @@ PD2.I18N.en = {
 "📋 Emneliste – vælg selv emne": "📋 Topic list – choose your own topic",
 "Til prøven vælger du ét emne fra listen og fortæller om dit eget liv. Udfyld de tomme pladser med dit eget job, kursus eller land.": "In the exam you choose one topic from the list and talk about your own life. Fill in the blanks with your own job, course or country.",
 "📋 Fra emnelisten:": "📋 From the topic list:",
-"– udfyld selv.": "– fill in yourself."
+"– udfyld selv.": "– fill in yourself.",
+"❌ Gennemgå dine fejl": "❌ Go through your mistakes",
+"Her kan du se, hvad du svarede forkert, det rigtige svar – og hvorfor.": "Here you can see what you got wrong, the right answer – and why.",
+"Lav opgaven igen": "Do the task again",
+"🎉 Ingen fejl i læsningen – flot!": "🎉 No mistakes in reading – well done!",
+"✗ Intet svar": "✗ No answer"
 };

@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "132"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "133"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -935,7 +935,7 @@
             const sel = $(`[data-key="g${n}"]`);
             const ok = q.open ? [].concat(a).some(x => norm(x) === norm(sel.value)) : [].concat(a).includes(sel.value); // an array = several accepted answers
             sel.classList.add(ok ? "ok" : "bad"); sel.disabled = true;
-            if (!ok) { wrong.push(`(${n}) ${[].concat(a)[0]}`); wrongItems.push({ q: `Hul ${n}`, a: [].concat(a)[0] }); }
+            if (!ok) { wrong.push(`(${n}) ${[].concat(a)[0]}`); wrongItems.push({ q: `Hul ${n}`, a: [].concat(a)[0], mine: sel.value, w: "g" + n }); }
             tally(ok);
           });
           const fb = $("#fb-gaps");
@@ -953,7 +953,7 @@
             const ok = sel.value === it.answer;
             sel.classList.add(ok ? "ok" : "bad"); sel.disabled = true;
             const fb = $(`#fb-m${qi}-${ii}`);
-            if (!ok) { fb.className = "fb bad"; fb.textContent = `Rigtigt svar: ${it.answer}`; wrongItems.push({ q: (it.n !== undefined ? it.n + ". " : "") + it.text, a: it.answer }); }
+            if (!ok) { fb.className = "fb bad"; fb.textContent = `Rigtigt svar: ${it.answer}`; wrongItems.push({ q: (it.n !== undefined ? it.n + ". " : "") + it.text, a: it.answer, mine: sel.value, w: `m${qi}-${ii}` }); }
             fb.insertAdjacentHTML("beforeend", why(`m${qi}-${ii}`));
             tally(ok);
           });
@@ -972,7 +972,8 @@
           fb.className = "fb " + (ok ? "ok" : "bad");
           fb.textContent = ok ? "✓ Rigtigt" : `✗ Rigtigt svar: ${correctText}`;
           fb.insertAdjacentHTML("beforeend", why("q" + qi));
-          if (!ok) wrongItems.push({ q: (q.n !== undefined ? q.n + ". " : "") + q.q, a: correctText });
+          const mine = v === undefined || v === "" ? "" : q.type === "mc" ? q.options[+v] : q.type === "tf" ? { R: "Rigtigt", F: "Forkert", S: "Står ikke i teksten" }[v] : String(v);
+          if (!ok) wrongItems.push({ q: (q.n !== undefined ? q.n + ". " : "") + q.q, a: correctText, mine, w: "q" + qi });
           tally(ok, q.extra);
         }
       });
@@ -980,7 +981,7 @@
       if (wrongItems.length) S.mistakes.reading[r.id] = { date: today(), items: wrongItems.slice(0, 15) };
       else delete S.mistakes.reading[r.id];
       bump("reading");
-      if (exam) { save(); exam.done(mainScore, mainTotal); return; }
+      if (exam) { save(); exam.done(mainScore, mainTotal, wrongItems); return; }
       const prev = S.reading[r.id];
       const isNewBest = !prev || score > prev.best;
       S.reading[r.id] = { best: Math.max(score, prev ? prev.best : 0), total };
@@ -2569,7 +2570,7 @@
     const rd = Object.entries(S.mistakes.reading).map(([id, m]) => ({ r: findAny("READING", id), m })).filter(x => x.r);
     const gr = Object.entries(S.mistakes.grammar).map(([id, m]) => ({ g: PD2.GRAMMAR.find(x => x.id === id), m })).filter(x => x.g);
     const hard = Object.keys(S.vocab.h).length;
-    const list = items => `<ul class="mistakes">${items.map(it => `<li><span>${esc(it.q)}</span> <b>→ ${esc(it.a)}</b></li>`).join("")}</ul>`;
+    const list = (items, id) => id ? `<ol class="wrong-list">${items.map(it => wrongRow(id, it)).join("")}</ol>` : `<ul class="mistakes">${items.map(it => `<li><span>${esc(it.q)}</span> <b>→ ${esc(it.a)}</b></li>`).join("")}</ul>`;
     app.innerHTML = `
       <a class="back" href="#/">← Forside</a>
       <h1>❌ Mine fejl</h1>
@@ -2578,7 +2579,7 @@
       ${rd.length ? `<h2>📖 Læsning <span class="muted small">${rd.length} opgaver</span></h2>
         <div class="stack">${rd.map(({ r, m }) => `<div class="card">
           <div class="row"><b>${esc(r.title)}</b>${r.group ? `<span class="tag">${esc(r.group)}</span>` : ""}<span class="spacer"></span>
-          <a class="btn read sm" href="#/reading/${r.id}">Prøv igen</a></div>${list(m.items)}</div>`).join("")}</div>` : ""}
+          <a class="btn read sm" href="#/reading/${r.id}">Prøv igen</a></div>${list(m.items, r.id)}</div>`).join("")}</div>` : ""}
       ${gr.length ? `<h2 style="margin-top:20px">📐 Grammatik <span class="muted small">${gr.length} lektioner</span></h2>
         <div class="stack">${gr.map(({ g, m }) => `<div class="card">
           <div class="row"><b>${g.ico} ${esc(g.title)}</b><span class="spacer"></span><a class="btn write sm" href="#/grammar/${g.id}">Prøv igen</a></div>${list(m.items)}</div>`).join("")}</div>` : ""}
@@ -2658,8 +2659,8 @@
     if (st.type === "reading") {
       readingItem(st.id, {
         header: mockHeader,
-        done: (score, total) => {
-          MOCK.results.push({ id: st.id, part: st.part, score, total });
+        done: (score, total, wrong) => {
+          MOCK.results.push({ id: st.id, part: st.part, score, total, wrong: wrong || [] });
           if (!MOCK.steps[MOCK.step + 1] || MOCK.steps[MOCK.step + 1].part !== st.part) MOCK.end[st.part] = Date.now();
           MOCK.step++; mockStep(); window.scrollTo(0, 0);
         }
@@ -2701,6 +2702,13 @@
     $$("[data-choose]").forEach(b => b.onclick = () => { count(); MOCK.texts.choice = b.dataset.choose; mockWriting(); });
     $("#mwDone").onclick = () => { count(); MOCK.end.w = Date.now(); MOCK.step++; mockStep(); window.scrollTo(0, 0); };
   }
+  // One wrong answer: the question, what you answered, the right answer and the explanation (💡 Derfor).
+  function wrongRow(id, it) {
+    const W = (PD2.WHY && PD2.WHY[id]) || {}, x = it.w && W[it.w];
+    return `<li class="wrong-row"><div><b>${esc(it.q)}</b></div>
+      <div class="small">${it.mine ? `<span class="wr-mine">✗ Dit svar: ${esc(it.mine)}</span> · ` : `<span class="wr-mine">✗ Intet svar</span> · `}<span class="wr-ok">✓ Rigtigt: ${esc(it.a)}</span></div>
+      ${x ? `<div class="why">💡 <b>Derfor:</b> ${esc(x.da)}${x.en ? `<span class="why-en" lang="en">${esc(x.en)}</span>` : ""}</div>` : ""}</li>`;
+  }
   function mockResult() {
     const res = MOCK.results, score = res.reduce((a, r) => a + r.score, 0), total = res.reduce((a, r) => a + r.total, 0);
     const pct = total ? score / total : 0, grade = estGrade(pct);
@@ -2728,6 +2736,13 @@
         </table>
         <p class="small muted" style="margin-bottom:0">Tid brugt: ${["d1", "d2"].map(p => used(p) !== null ? `${mockCfg().names[p]} ${used(p)} af ${mockCfg().min[p]} min` : "").filter(Boolean).join(" · ")}</p>
       </div>
+      ${res.some(r => r.wrong && r.wrong.length) ? `<div class="card" style="margin-top:16px">
+        <h2 style="margin-top:0">❌ Gennemgå dine fejl</h2>
+        <p class="small muted">Her kan du se, hvad du svarede forkert, det rigtige svar – og hvorfor.</p>
+        ${res.filter(r => r.wrong && r.wrong.length).map(r => `<details class="wrong-task" open><summary><b>${esc(findAny("READING", r.id).title)}</b> <span class="small muted">· ${r.wrong.length} forkert${r.wrong.length > 1 ? "e" : ""}</span></summary>
+          <ol class="wrong-list">${r.wrong.map(it => wrongRow(r.id, it)).join("")}</ol>
+          <a class="btn ghost sm" href="#/reading/${r.id}">Lav opgaven igen</a></details>`).join("")}
+      </div>` : res.length ? `<p class="card" style="margin-top:16px;font-weight:800">🎉 Ingen fejl i læsningen – flot!</p>` : ""}
       ${written.map(({ w, text }) => {
         const a = analyse(text, w);
         return `<div class="card" style="margin-top:16px">

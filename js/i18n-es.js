@@ -1255,5 +1255,10 @@ PD2.I18N.es = {
 "📋 Emneliste – vælg selv emne": "📋 Lista de temas – elige tu tema",
 "Til prøven vælger du ét emne fra listen og fortæller om dit eget liv. Udfyld de tomme pladser med dit eget job, kursus eller land.": "En el examen eliges un tema de la lista y hablas de tu propia vida. Rellena los huecos con tu trabajo, curso o país.",
 "📋 Fra emnelisten:": "📋 De la lista de temas:",
-"– udfyld selv.": "– rellénalo tú."
+"– udfyld selv.": "– rellénalo tú.",
+"❌ Gennemgå dine fejl": "❌ Repasa tus errores",
+"Her kan du se, hvad du svarede forkert, det rigtige svar – og hvorfor.": "Aquí ves lo que respondiste mal, la respuesta correcta y por qué.",
+"Lav opgaven igen": "Hacer la tarea otra vez",
+"🎉 Ingen fejl i læsningen – flot!": "🎉 Ningún error en la lectura – ¡muy bien!",
+"✗ Intet svar": "✗ Sin respuesta"
 };
