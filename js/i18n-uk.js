@@ -1273,5 +1273,16 @@ PD2.I18N.uk = {
 "(skabeloner – lær dem udenad)": "(шаблони – вивчіть напам’ять)",
 "Se alle skabeloner →": "Усі шаблони →",
 "Tiderne er vejledende, og formatet kan ændre sig lidt fra prøve til prøve. Tjek altid din indkaldelse og dit sprogcenter.": "Час орієнтовний, формат може трохи змінюватися. Завжди перевіряйте запрошення й мовний центр.",
-"vælg A eller B": "оберіть A або B"
+"vælg A eller B": "оберіть A або B",
+"Vis efter:": "Показати за:",
+"🗂️ Opgavetype": "🗂️ Тип завдання",
+"📚 Sæt": "📚 Набір",
+"📰 Ekstra øvelser": "📰 Додаткові вправи",
+"Andre læseopgaver": "Інші завдання з читання",
+"{n} tekster": "{n} текстів",
+"{n} tekst": "{n} текст",
+"{n} opgave": "{n} завдання",
+"✓ {n} løst": "✓ {n} зроблено",
+"✓ {n} bedømt": "✓ {n} оцінено",
+"✉️ Øvelse": "✉️ Вправа"
 };

@@ -1273,5 +1273,16 @@ PD2.I18N.pl = {
 "(skabeloner – lær dem udenad)": "(szablony – naucz się ich na pamięć)",
 "Se alle skabeloner →": "Zobacz wszystkie szablony →",
 "Tiderne er vejledende, og formatet kan ændre sig lidt fra prøve til prøve. Tjek altid din indkaldelse og dit sprogcenter.": "Czasy są orientacyjne, a format może się trochę zmieniać. Zawsze sprawdź wezwanie i szkołę.",
-"vælg A eller B": "wybierz A lub B"
+"vælg A eller B": "wybierz A lub B",
+"Vis efter:": "Pokaż według:",
+"🗂️ Opgavetype": "🗂️ Typ zadania",
+"📚 Sæt": "📚 Zestaw",
+"📰 Ekstra øvelser": "📰 Dodatkowe ćwiczenia",
+"Andre læseopgaver": "Inne zadania z czytania",
+"{n} tekster": "{n} tekstów",
+"{n} tekst": "{n} tekst",
+"{n} opgave": "{n} zadanie",
+"✓ {n} løst": "✓ {n} zrobione",
+"✓ {n} bedømt": "✓ {n} ocenione",
+"✉️ Øvelse": "✉️ Ćwiczenie"
 };

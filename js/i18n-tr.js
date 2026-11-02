@@ -1273,5 +1273,16 @@ PD2.I18N.tr = {
 "(skabeloner – lær dem udenad)": "(şablonlar – ezberle)",
 "Se alle skabeloner →": "Tüm şablonları gör →",
 "Tiderne er vejledende, og formatet kan ændre sig lidt fra prøve til prøve. Tjek altid din indkaldelse og dit sprogcenter.": "Süreler yol göstericidir ve format biraz değişebilir. Her zaman davet mektubunu ve dil okulunu kontrol et.",
-"vælg A eller B": "A veya B'yi seç"
+"vælg A eller B": "A veya B'yi seç",
+"Vis efter:": "Göster:",
+"🗂️ Opgavetype": "🗂️ Görev türü",
+"📚 Sæt": "📚 Set",
+"📰 Ekstra øvelser": "📰 Ekstra alıştırmalar",
+"Andre læseopgaver": "Diğer okuma görevleri",
+"{n} tekster": "{n} metin",
+"{n} tekst": "{n} metin",
+"{n} opgave": "{n} görev",
+"✓ {n} løst": "✓ {n} yapıldı",
+"✓ {n} bedømt": "✓ {n} değerlendirildi",
+"✉️ Øvelse": "✉️ Alıştırma"
 };

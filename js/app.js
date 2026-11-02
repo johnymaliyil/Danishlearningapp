@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "135"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "136"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -764,30 +764,85 @@
   }
 
   // ---------- Reading ----------
+  // Shared by the lists and "Prøvens opbygning": the task number ("Opgave 3", "Delprøve 2A") and
+  // the writing task type ("Klage", "Opslag / efterlysning" …).
+  const taskHead = t => (t.match(/^(Opgave \d+|Delprøve \d[A-Z]?)/) || [""])[0];
+  const W_CATS = [[/diagram/i, "2A · diagram og vurdering"], [/(holdninger|forslag|faktorer|eksempler) og (vurdering|diskussion)/i, "2B · holdninger og forslag"], [/klage/i, "Klage"], [/ansøgning/i, "Ansøgning"], [/jobannonce/i, "Jobannonce"], [/invitation/i, "Invitation"], [/anmeldelse|anbefaling/i, "Anmeldelse / anbefaling"], [/takkebrev/i, "Takkebrev"], [/opslag|efterlysning|værelse|lejlighed/i, "Opslag / efterlysning"], [/læserbrev|indlæg|debat|argument/i, "Læserbrev / debatindlæg"], [/sammenlign/i, "Sammenligning"], [/sms/i, "Sms"], [/e-?mail|mail/i, "E-mail"], [/annonce/i, "Annonce"], [/tekst|artikel/i, "Kort tekst"]];
+  const wCat = w => { const t = (w.kind || "") + " " + w.title; const c = W_CATS.find(([re]) => re.test(t)); return c ? c[1] : (w.kind || "").replace(/^Prøveopgave · /, "").replace(/ · .*$/, "") || "Andre opgaver"; };
+  const bareTitle = x => x.title.replace(/^(Opgave \d+|Delprøve \d[A-Z]?)\s*[–-]\s*/, "");
+  function topicLabel(x, all) {
+    const b = bareTitle(x);
+    if (all.filter(y => bareTitle(y) === b).length < 3) return b;
+    const hs = (x.sections || []).map(sc => sc.heading).filter(h => h && all.filter(y => (y.sections || []).some(sc => sc.heading === h)).length < 3);
+    if (hs.length) return hs.slice(0, 2).join(" · ");
+    const cards = (x.sections || []).flatMap(sc => sc.cards || []).map(c => c.title.replace(/^[A-Z]\s*[–-]?\s*/, "")).filter(t => t.length > 2);
+    return cards.length ? cards.slice(0, 3).join(" · ") + (cards.length > 3 ? " …" : "") : b;
+  }
+  // A compact row in the "by task type" lists: set badge, what the text is about, stars, score.
+  const miniRow = (href, badge, label, extra, score) => `<a class="mini-row" href="${href}"><span class="mr-badge">${badge}</span><span class="mr-text"><span class="mr-label">${label}</span>${extra ? `<span class="mr-extra">${extra}</span>` : ""}</span>${score}</a>`;
+  const LIST_VIEW = "dk-list-view";
+  const viewSwitch = (route, v) => `<div class="chips view-switch" role="tablist"><span class="small muted">Vis efter:</span>
+    <a class="chip ${v === "type" ? "on" : ""}" href="#/${route}" data-view="type" role="tab" aria-selected="${v === "type"}">🗂️ Opgavetype</a>
+    <a class="chip ${v === "set" ? "on" : ""}" href="#/${route}" data-view="set" role="tab" aria-selected="${v === "set"}">📚 Sæt</a></div>`;
+  document.addEventListener("click", e => {
+    const b = e.target.closest("[data-view]"); if (!b) return;
+    e.preventDefault(); setPref(LIST_VIEW, b.dataset.view); route();
+  });
+
   function readingList() {
     const groups = {};
     const practice = S.exam === "pd2" ? "Ekstra øvelser" : `Øvelser på ${META().name}-niveau`;
     EX().READING.forEach(r => { const g = r.group || practice; (groups[g] = groups[g] || []).push(r); });
     const rank = items => items[0].real ? 0 : items[0].group ? 1 : 2;
     const ordered = Object.entries(groups).sort((a, b) => rank(a[1]) - rank(b[1]));
+    const view = pref(LIST_VIEW, "type");
+    const itemHtml = (r, typeView) => {
+      const res = S.reading[r.id];
+      const sc = res ? `<span class="score-badge ${res.best === res.total ? "full" : ""}">${res.best}/${res.total}</span>` : `<span class="score-badge">Ny</span>`;
+      const title = typeView && taskHead(r.title) ? r.title.replace(/^(Opgave \d+|Delprøve \d[A-Z]?)\s*[–-]\s*/, "") : r.title;
+      return `<a class="list-item" href="#/reading/${r.id}">
+        <span class="ico">${r.real ? "🏛️" : r.group ? "📝" : "📰"}</span>
+        <span class="meta"><b>${esc(title)}</b>${typeView && r.group ? `<span class="small">${r.real ? `<span class="tag real">${esc(r.set ? "Sæt " + r.set : "Rigtig prøve")}</span>` : esc(r.group)}</span>` : ""}<span class="small muted">${esc(r.kind)}${r.minutes ? ` · ca. ${r.minutes} min` : ""} · <span class="stars">${"★".repeat(r.level || 1)}${"☆".repeat(3 - (r.level || 1))}</span></span></span>
+        ${sc}
+      </a>`;
+    };
+    // 🗂️ By task type: the parts of the exam → each task type → all texts of that type.
+    const typeView = () => {
+      const F = (typeof FMT !== "undefined" && FMT[S.exam]) || { read: [["Læsning", "", null]] };
+      const used = new Set();
+      const row = (r, items) => {
+        const res = S.reading[r.id];
+        const sc = res ? `<span class="score-badge ${res.best === res.total ? "full" : ""}">${res.best}/${res.total}</span>` : `<span class="score-badge">Ny</span>`;
+        const badge = r.real ? (r.set ? `🏛️ Sæt ${r.set}` : "🏛️ Prøve") : r.group ? `📝 ${esc(r.group.replace(/ – .*$/, ""))}` : "📰";
+        return miniRow(`#/reading/${r.id}`, badge, esc(topicLabel(r, items)), `<span class="stars">${"★".repeat(r.level || 1)}${"☆".repeat(3 - (r.level || 1))}</span>`, sc);
+      };
+      const typeGroup = (label, items, open) => { const done = items.filter(r => S.reading[r.id]).length; return `<details class="fmt list-type" ${open ? "open" : ""}><summary><b>${esc(label)}</b><span class="cnt">${items.length} ${items.length === 1 ? "tekst" : "tekster"}</span>${done ? `<span class="cnt ok">✓ ${done} løst</span>` : ""}</summary>
+        <div class="mini-rows">${items.map(r => row(r, items)).join("")}</div></details>`; };
+      const commonKind = rs => { const c = {}; rs.forEach(r => { const k = (r.kind || "").replace(/^(Delprøve \d · |Læseforståelse \d · )/, ""); c[k] = (c[k] || 0) + 1; }); return Object.entries(c).sort((a, b) => b[1] - a[1])[0][0]; };
+      const parts = F.read.map(([t, min, re]) => {
+        const items = EX().READING.filter(r => !used.has(r) && (re ? re.test(r.title) : true));
+        items.forEach(r => used.add(r));
+        if (!items.length) return "";
+        const byHead = new Map();
+        items.forEach(r => { const h = taskHead(r.title) || (r.kind || "Andre opgaver"); if (!byHead.has(h)) byHead.set(h, []); byHead.get(h).push(r); });
+        const heads = [...byHead.entries()].sort((a, b) => a[0].localeCompare(b[0], "da", { numeric: true }));
+        return `<details class="fmt fmt-read" open><summary><b>📖 ${esc(t)}</b>${min ? `<span class="pill">${esc(min)}</span>` : ""}</summary>
+          ${heads.map(([h, rs]) => typeGroup(taskHead(rs[0].title) ? `${h} – ${commonKind(rs)}` : h, rs, heads.length === 1)).join("")}</details>`;
+      }).join("");
+      const rest = EX().READING.filter(r => !used.has(r));
+      return parts + (rest.length ? `<details class="fmt fmt-extra" open><summary><b>📰 Ekstra øvelser</b></summary>${typeGroup("Andre læseopgaver", rest, true)}</details>` : "");
+    };
     app.innerHTML = `
       <h1>📖 Læsning <span class="tag">${META().name} · ${META().cefr}</span></h1>
       <p class="muted">${esc(META().readingIntro)}</p>
-      ${PD2.LISTEN_R && EX().READING.some(r => PD2.LISTEN_R[r.id]) ? `<a class="task read" href="#/lyt-r" style="display:block;margin:12px 0 4px">
+      ${PD2.LISTEN_R && EX().READING.some(r => PD2.LISTEN_R[r.id]) ? `<a class="task read tool-card" href="#/lyt-r" style="display:block;margin:12px 0 4px">
         <span class="emoji">🎧</span><h2>Lyt til læseteksterne</h2>
         <p class="muted" style="margin:0">Hør teksterne langsomt, sætning for sætning, med grammatik og engelsk oversættelse.</p></a>` : ""}
-      ${ordered.map(([g, items]) => `
+      ${viewSwitch("reading", view)}
+      ${view === "type" ? `<div class="fmt-tree list-tree">${typeView()}</div>` : ordered.map(([g, items]) => `
         <h2 style="margin-top:24px">${items[0].real ? '<span class="tag real">Rigtig prøve</span> ' : ""}${esc(g)}</h2>
         <div class="stack">
-          ${items.map(r => {
-            const res = S.reading[r.id];
-            const sc = res ? `<span class="score-badge ${res.best === res.total ? "full" : ""}">${res.best}/${res.total}</span>` : `<span class="score-badge">Ny</span>`;
-            return `<a class="list-item" href="#/reading/${r.id}">
-              <span class="ico">${r.real ? "🏛️" : r.group ? "📝" : "📰"}</span>
-              <span class="meta"><b>${esc(r.title)}</b><span class="small muted">${esc(r.kind)}${r.minutes ? ` · ca. ${r.minutes} min` : ""} · <span class="stars">${"★".repeat(r.level || 1)}${"☆".repeat(3 - (r.level || 1))}</span></span></span>
-              ${sc}
-            </a>`;
-          }).join("")}
+          ${items.map(r => itemHtml(r, false)).join("")}
         </div>`).join("")}`;
   }
 
@@ -1088,19 +1143,36 @@
         <span class="ico">${w.real ? "🏛️" : w.delprove === 1 ? "✉️" : "📝"}</span>
         <span class="meta"><b>${esc(w.title)}</b>${w.real ? ' <span class="tag real">Rigtig prøve</span>' : w.recalled ? ` <span class="tag real">Fra prøven ${esc(w.recalled)}</span>` : ""}<span class="small muted">${esc(w.kind)} · ${w.minWords}-${w.maxWords} ord</span></span>${sc}</a>`;
     };
+    const view = pref(LIST_VIEW, "type");
+    const partLabel = d => ((typeof FMT !== "undefined" && FMT[S.exam] && FMT[S.exam].parts) || {})[d] || META().writingParts[d];
+    const typeView = d => {
+      const cats = new Map();
+      by(d).forEach(w => { const c = wCat(w); if (!cats.has(c)) cats.set(c, []); cats.get(c).push(w); });
+      return [...cats.entries()].sort((a, b) => b[1].filter(w => w.real || w.recalled).length - a[1].filter(w => w.real || w.recalled).length || b[1].length - a[1].length)
+        .map(([c, ws]) => { const done = ws.filter(w => S.writing[w.id] && S.writing[w.id].best).length; return `<details class="fmt list-type"><summary><b>${esc(c)}</b><span class="cnt">${ws.length} ${ws.length === 1 ? "opgave" : "opgaver"}</span>${done ? `<span class="cnt ok">✓ ${done} bedømt</span>` : ""}</summary>
+          <div class="mini-rows">${ws.map(w => {
+            const res = S.writing[w.id];
+            const sc = res && res.best ? `<span class="score-badge full">${res.best}</span>` : res && res.draft ? `<span class="score-badge">Kladde</span>` : `<span class="score-badge">Ny</span>`;
+            const badge = w.recalled ? `🆕 ${esc(w.recalled)}` : w.real ? (w.set ? `🏛️ Sæt ${w.set}` : "🏛️ Prøve") : "✉️ Øvelse";
+            const label = w.title.replace(/\s*\((Sæt \d+|[a-zæøå.\- ]*\d{4})\)\s*$/i, "").replace(/^(A|B|2A|2B|Delprøve \d):\s*/, "");
+            return miniRow(`#/writing/${w.id}`, badge, esc(label), `${w.minWords}–${w.maxWords} ord`, sc);
+          }).join("")}</div></details>`; }).join("");
+    };
     app.innerHTML = `
       <h1>✍️ Skrivning <span class="tag">${META().name} · ${META().cefr}</span></h1>
       <p class="muted">Skriv din tekst, få live-feedback fra skrivecoachen, og bedøm dig selv med de samme kriterier som censor bruger.
       Ordantallene er vejledende øvemål. Følg altid instruktionen på din egen prøve.</p>
-      ${EX().WRITING.some(w => w.tpl) ? `<a class="task write tpl-link" href="#/writing/skabeloner">
+      ${EX().WRITING.some(w => w.tpl) ? `<a class="task write tpl-link tool-card" href="#/writing/skabeloner">
         <span class="emoji">📋</span>
         <h2>Skabeloner – lær dem udenad</h2>
         <p class="muted" style="margin:0">Én fast start, faste afsnit og én fast slutning til hver teksttype: ${esc(Object.values(PD2.TEMPLATES).filter(t => EX().WRITING.some(w => w.tpl === t.id)).map(t => t.name.toLowerCase()).join(", "))}. Lær dem, så skriver du hurtigere og sikrere til prøven.</p>
       </a>` : ""}
-      ${PD2.LISTEN && EX().WRITING.some(w => PD2.LISTEN[w.id]) ? `<div class="grid grid-2 listen-cards">${[1, 2].map(d => `<a class="task write" href="#/lyt/${d}">
+      ${PD2.LISTEN && EX().WRITING.some(w => PD2.LISTEN[w.id]) ? `<div class="grid grid-2 listen-cards">${[1, 2].map(d => `<a class="task write tool-card" href="#/lyt/${d}">
         <span class="emoji">🎧</span><h2>Lyt til modelsvar · Delprøve ${d}</h2>
         <p class="muted" style="margin:0">Hør modelsvarene langsomt, sætning for sætning, med grammatik og engelsk oversættelse.</p></a>`).join("")}</div>` : ""}
-      ${[1, 2].map(d => `
+      ${viewSwitch("writing", view)}
+      ${view === "type" ? `<div class="fmt-tree list-tree">${[1, 2].map(d => `<details class="fmt fmt-write" open><summary><b>✍️ ${esc(partLabel(d))}</b></summary>${typeView(d)}</details>`).join("")}</div>`
+        : [1, 2].map(d => `
         <h2 style="margin-top:22px">${esc(META().writingParts[d])}</h2>
         <div class="stack">${by(d).map(item).join("")}</div>`).join("")}`;
   }
@@ -2584,11 +2656,11 @@
       <h1>🗂️ Prøvens opbygning</h1>
       <p class="muted">Sådan er prøven bygget op – med et eksempel på hver del. Tryk på en overskrift for at åbne eller lukke den.</p>
       <div class="chips" role="tablist" style="margin-bottom:12px">${["pd1", "pd2", "pd3"].map(x => `<a class="chip ${x === k ? "on" : ""}" href="#/format/${x}" role="tab" aria-selected="${x === k}">${esc(PD2.EXAM_META[x].name)}</a>`).join("")}</div>
-      <div class="card fmt-tree">
-        <h2 style="margin-top:0">${esc(M.full || M.name)}</h2>
-        <details class="fmt" open><summary><b>📖 Læsning</b> <span class="pill">${esc(F.readTotal)}</span> <span class="small muted">· skriftlig prøve</span></summary>${readHtml}</details>
-        <details class="fmt" open><summary><b>${esc(F.write[0])}</b> <span class="pill">${esc(F.write[1])}</span> <span class="small muted">· skriftlig prøve</span></summary>${[1, 2].map(part).join("")}</details>
-        <details class="fmt" open><summary><b>🗣️ Tale</b> <span class="small muted">· mundtlig prøve</span></summary>${oralHtml}</details>
+      <div class="fmt-tree">
+        <h2 style="margin:4px 0 0">${esc(M.full || M.name)}</h2>
+        <details class="fmt fmt-read" open><summary><b>📖 Læsning</b> <span class="pill">${esc(F.readTotal)}</span> <span class="small muted">· skriftlig prøve</span></summary>${readHtml}</details>
+        <details class="fmt fmt-write" open><summary><b>${esc(F.write[0])}</b> <span class="pill">${esc(F.write[1])}</span> <span class="small muted">· skriftlig prøve</span></summary>${[1, 2].map(part).join("")}</details>
+        <details class="fmt fmt-talk" open><summary><b>🗣️ Tale</b> <span class="small muted">· mundtlig prøve</span></summary>${oralHtml}</details>
       </div>
       <p class="small muted" style="margin-top:10px">Tiderne er vejledende, og formatet kan ændre sig lidt fra prøve til prøve. Tjek altid din indkaldelse og dit sprogcenter.</p>
       <div class="row" style="margin-top:12px"><a class="btn read" href="#/exam">📝 Prøvesimulering</a><a class="btn ghost" href="#/tips">💡 Tips til prøven</a><a class="btn ghost" href="#/plan">📅 Min prøveplan</a></div>`;

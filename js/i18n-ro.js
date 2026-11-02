@@ -1273,5 +1273,16 @@ PD2.I18N.ro = {
 "(skabeloner – lær dem udenad)": "(șabloane – învață-le pe de rost)",
 "Se alle skabeloner →": "Vezi toate șabloanele →",
 "Tiderne er vejledende, og formatet kan ændre sig lidt fra prøve til prøve. Tjek altid din indkaldelse og dit sprogcenter.": "Timpii sunt orientativi, iar formatul se poate schimba puțin. Verifică mereu convocarea și școala.",
-"vælg A eller B": "alege A sau B"
+"vælg A eller B": "alege A sau B",
+"Vis efter:": "Arată după:",
+"🗂️ Opgavetype": "🗂️ Tip de sarcină",
+"📚 Sæt": "📚 Set",
+"📰 Ekstra øvelser": "📰 Exerciții extra",
+"Andre læseopgaver": "Alte sarcini de citire",
+"{n} tekster": "{n} texte",
+"{n} tekst": "{n} text",
+"{n} opgave": "{n} sarcină",
+"✓ {n} løst": "✓ {n} făcute",
+"✓ {n} bedømt": "✓ {n} evaluate",
+"✉️ Øvelse": "✉️ Exercițiu"
 };

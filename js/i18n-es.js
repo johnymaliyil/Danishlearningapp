@@ -1273,5 +1273,16 @@ PD2.I18N.es = {
 "(skabeloner – lær dem udenad)": "(plantillas – apréndelas de memoria)",
 "Se alle skabeloner →": "Ver todas las plantillas →",
 "Tiderne er vejledende, og formatet kan ændre sig lidt fra prøve til prøve. Tjek altid din indkaldelse og dit sprogcenter.": "Los tiempos son orientativos y el formato puede cambiar un poco. Revisa siempre tu citación y tu escuela.",
-"vælg A eller B": "elige A o B"
+"vælg A eller B": "elige A o B",
+"Vis efter:": "Ver por:",
+"🗂️ Opgavetype": "🗂️ Tipo de tarea",
+"📚 Sæt": "📚 Set",
+"📰 Ekstra øvelser": "📰 Ejercicios extra",
+"Andre læseopgaver": "Otras lecturas",
+"{n} tekster": "{n} textos",
+"{n} tekst": "{n} texto",
+"{n} opgave": "{n} tarea",
+"✓ {n} løst": "✓ {n} hechas",
+"✓ {n} bedømt": "✓ {n} evaluadas",
+"✉️ Øvelse": "✉️ Práctica"
 };

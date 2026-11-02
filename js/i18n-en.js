@@ -1310,5 +1310,16 @@ PD2.I18N.en = {
 "{n}A · diagram og vurdering": "{n}A · chart and assessment",
 "{n}B · holdninger og forslag": "{n}B · opinions and suggestions",
 "ca. {n} timer": "about {n} hours",
-"{n}–{n} ord": "{n}–{n} words"
+"{n}–{n} ord": "{n}–{n} words",
+"Vis efter:": "Show by:",
+"🗂️ Opgavetype": "🗂️ Task type",
+"📚 Sæt": "📚 Set",
+"📰 Ekstra øvelser": "📰 Extra exercises",
+"Andre læseopgaver": "Other reading tasks",
+"{n} tekster": "{n} texts",
+"{n} tekst": "{n} text",
+"{n} opgave": "{n} task",
+"✓ {n} løst": "✓ {n} done",
+"✓ {n} bedømt": "✓ {n} graded",
+"✉️ Øvelse": "✉️ Practice"
 };

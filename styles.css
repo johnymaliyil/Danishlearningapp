@@ -1125,3 +1125,63 @@ button.lword.saved .lw-ico { color: var(--ok, #15803d); font-weight: 900; }
 .fmt-poss ul { margin: 6px 0; padding-left: 20px; }
 .fmt-cols { columns: 2 220px; }
 .fmt-line { margin-top: 2px; }
+
+/* 🗂️ Lists by task type */
+.view-switch { align-items: center; margin: 14px 0 6px; }
+.list-tree { margin-top: 8px; }
+.list-tree .list-type > summary { padding: 8px 0; }
+.list-tree .list-type .stack { margin: 4px 0 10px; }
+
+/* ===== Outline design (Prøvens opbygning + lists by task type) ===== */
+a.chip { text-decoration: none; }
+.fmt-tree { margin-top: 10px; }
+.fmt-tree.card { background: none; border: 0; box-shadow: none; padding: 0; }
+.fmt-tree details.fmt { margin: 0; padding: 0; border-left: 0; }
+.fmt-tree details.fmt > summary { list-style: none; display: flex; align-items: center; flex-wrap: wrap; gap: 6px 8px; padding: 10px 8px; border-radius: 10px; cursor: pointer; line-height: 1.35; }
+.fmt-tree details.fmt > summary::-webkit-details-marker { display: none; }
+.fmt-tree details.fmt > summary::before { content: "▸"; display: inline-block; width: 1em; color: var(--muted); transition: transform .15s ease; flex: 0 0 auto; }
+.fmt-tree details.fmt[open] > summary::before { transform: rotate(90deg); }
+.fmt-tree details.fmt > summary:hover { background: var(--surface-2); }
+.fmt-tree details.fmt > summary .pill { font-size: .78rem; padding: 2px 9px; }
+/* top level: coloured cards */
+.fmt-tree > details.fmt { background: var(--surface); border: 1px solid var(--border); border-left: 6px solid var(--fmt-c, var(--accent)); border-radius: 16px; padding: 6px 12px 10px; margin: 14px 0; box-shadow: 0 2px 10px rgba(0,0,0,.04); }
+.fmt-tree > details.fmt > summary { font-size: 1.15rem; }
+.fmt-read { --fmt-c: #2563eb; } .fmt-write { --fmt-c: #ea580c; } .fmt-talk { --fmt-c: #16a34a; } .fmt-extra { --fmt-c: #64748b; }
+/* nested levels */
+.fmt-tree details.fmt details.fmt { margin: 2px 0 2px 10px; padding-left: 10px; border-left: 2px solid color-mix(in srgb, var(--fmt-c, var(--accent)) 30%, transparent); }
+.fmt-tree details.fmt details.fmt > summary { font-size: 1rem; }
+.fmt-tree .cnt { font-size: .8rem; font-weight: 700; color: var(--muted); background: var(--surface-2); border-radius: 999px; padding: 2px 9px; }
+.fmt-tree .cnt.ok { color: var(--ok, #15803d); }
+/* tasks in the format page */
+.fmt-list { list-style: none; padding: 0; margin: 4px 0 10px; display: grid; gap: 8px; }
+.fmt-list > li { background: var(--surface-2); border-radius: 12px; padding: 10px 12px; line-height: 1.5; }
+.fmt-list > li a { font-weight: 700; }
+.fmt-line { color: var(--muted); }
+/* compact rows */
+.mini-rows { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 8px; margin: 4px 0 12px; }
+.mini-row { display: flex; align-items: center; gap: 10px; padding: 9px 10px; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); color: inherit; text-decoration: none; min-height: 52px; }
+.mini-row:hover { border-color: var(--fmt-c, var(--accent)); box-shadow: 0 2px 10px rgba(0,0,0,.06); }
+.mr-badge { flex: 0 0 auto; font-size: .76rem; font-weight: 800; padding: 3px 8px; border-radius: 8px; background: color-mix(in srgb, var(--fmt-c, var(--accent)) 12%, transparent); color: var(--text); white-space: nowrap; }
+.mr-label { flex: 1; min-width: 0; font-weight: 700; font-size: .93rem; line-height: 1.3; }
+.mr-extra { display: block; font-weight: 500; font-size: .78rem; color: var(--muted); margin-top: 2px; }
+.mini-row .score-badge { flex: 0 0 auto; }
+.view-switch .chip.on { box-shadow: 0 0 0 2px var(--accent-soft); }
+@media (max-width: 560px) { .mini-rows { grid-template-columns: 1fr; } .fmt-tree > details.fmt { padding: 4px 8px 8px; } }
+/* outline fixes: arrow stays at the start, no rotation glitches, long titles clamped */
+.fmt-tree details.fmt > summary { display: block; position: relative; padding: 10px 8px 10px 30px; }
+.fmt-tree details.fmt > summary > * { vertical-align: middle; margin-right: 6px; }
+.fmt-tree details.fmt > summary::before { content: "▸"; position: absolute; left: 10px; top: 10px; transform: none; transition: none; }
+.fmt-tree details.fmt[open] > summary::before { content: "▾"; transform: none; }
+.mr-label { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.mr-label .mr-extra { display: block; }
+.mr-text { flex: 1; min-width: 0; }
+.mini-row .mr-label { flex: none; }
+
+/* Phones: the tool cards above the lists become one slim row each */
+@media (max-width: 560px) {
+  .tool-card { display: flex !important; align-items: center; gap: 12px; padding: 12px 14px !important; margin: 8px 0 !important; min-height: 0; }
+  .tool-card .emoji { font-size: 1.5rem; margin: 0; }
+  .tool-card h2 { font-size: 1rem; margin: 0; }
+  .tool-card p { display: none; }
+  .listen-cards { gap: 0; }
+}
