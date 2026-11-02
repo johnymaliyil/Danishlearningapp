@@ -1285,5 +1285,10 @@ PD2.I18N.pl = {
 "✓ {n} løst": "✓ {n} zrobione",
 "✓ {n} bedømt": "✓ {n} ocenione",
 "✉️ Øvelse": "✉️ Ćwiczenie",
-"↑ Til toppen": "↑ Do góry"
+"↑ Til toppen": "↑ Do góry",
+"🇬🇧 Afsnittet på engelsk": "🇬🇧 Akapit po angielsku",
+"Vis afsnittet på engelsk": "Pokaż akapit po angielsku",
+"⏳ Oversætter …": "⏳ Tłumaczę …",
+"👀 Vis oversættelsen – den afslører de manglende ord": "👀 Pokaż tłumaczenie – zdradza brakujące słowa",
+"Oversættelsen kunne ikke hentes. Brug knappen 🇬🇧 EN øverst i teksten.": "Nie udało się pobrać tłumaczenia. Użyj przycisku 🇬🇧 EN nad tekstem."
 };

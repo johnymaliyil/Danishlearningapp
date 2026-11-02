@@ -1212,3 +1212,12 @@ a.chip { text-decoration: none; }
   .reader.solo { max-width: 1040px; }
   .reader.solo .text p { max-width: none; }
 }
+
+/* 🇬🇧 per-paragraph translation button */
+.has-para-en { position: relative; padding-right: 34px; }
+.para-en { position: absolute; top: 2px; right: 0; border: 1px solid var(--border); background: var(--surface); border-radius: 8px; font-size: .85rem; line-height: 1; padding: 4px 5px; cursor: pointer; opacity: .65; }
+.para-en:hover, .para-en:focus-visible { opacity: 1; border-color: var(--accent); }
+.mini-card.has-para-en { padding-right: 38px; }
+.mini-card .para-en { top: 8px; right: 8px; }
+.para-en-out { font-size: 1.02rem; line-height: 1.6; padding: 10px 12px; background: var(--surface-2); border-radius: 10px; }
+.para-spoil summary { cursor: pointer; font-weight: 700; color: var(--accent); padding: 6px 0; }

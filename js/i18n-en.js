@@ -1322,5 +1322,10 @@ PD2.I18N.en = {
 "✓ {n} løst": "✓ {n} done",
 "✓ {n} bedømt": "✓ {n} graded",
 "✉️ Øvelse": "✉️ Practice",
-"↑ Til toppen": "↑ Back to top"
+"↑ Til toppen": "↑ Back to top",
+"🇬🇧 Afsnittet på engelsk": "🇬🇧 The paragraph in English",
+"Vis afsnittet på engelsk": "Show the paragraph in English",
+"⏳ Oversætter …": "⏳ Translating …",
+"👀 Vis oversættelsen – den afslører de manglende ord": "👀 Show the translation – it reveals the missing words",
+"Oversættelsen kunne ikke hentes. Brug knappen 🇬🇧 EN øverst i teksten.": "The translation could not be loaded. Use the 🇬🇧 EN button at the top of the text."
 };

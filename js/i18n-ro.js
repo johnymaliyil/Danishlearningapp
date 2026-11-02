@@ -1285,5 +1285,10 @@ PD2.I18N.ro = {
 "✓ {n} løst": "✓ {n} făcute",
 "✓ {n} bedømt": "✓ {n} evaluate",
 "✉️ Øvelse": "✉️ Exercițiu",
-"↑ Til toppen": "↑ Sus"
+"↑ Til toppen": "↑ Sus",
+"🇬🇧 Afsnittet på engelsk": "🇬🇧 Paragraful în engleză",
+"Vis afsnittet på engelsk": "Arată paragraful în engleză",
+"⏳ Oversætter …": "⏳ Traduc …",
+"👀 Vis oversættelsen – den afslører de manglende ord": "👀 Arată traducerea – dezvăluie cuvintele lipsă",
+"Oversættelsen kunne ikke hentes. Brug knappen 🇬🇧 EN øverst i teksten.": "Traducerea nu a putut fi încărcată. Folosește butonul 🇬🇧 EN de deasupra textului."
 };

@@ -1285,5 +1285,10 @@ PD2.I18N.uk = {
 "✓ {n} løst": "✓ {n} зроблено",
 "✓ {n} bedømt": "✓ {n} оцінено",
 "✉️ Øvelse": "✉️ Вправа",
-"↑ Til toppen": "↑ Нагору"
+"↑ Til toppen": "↑ Нагору",
+"🇬🇧 Afsnittet på engelsk": "🇬🇧 Абзац англійською",
+"Vis afsnittet på engelsk": "Показати абзац англійською",
+"⏳ Oversætter …": "⏳ Перекладаю …",
+"👀 Vis oversættelsen – den afslører de manglende ord": "👀 Показати переклад – він розкриває пропущені слова",
+"Oversættelsen kunne ikke hentes. Brug knappen 🇬🇧 EN øverst i teksten.": "Не вдалося завантажити переклад. Скористайтеся кнопкою 🇬🇧 EN над текстом."
 };

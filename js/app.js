@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "138"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "139"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -846,6 +846,55 @@
         </div>`).join("")}`;
   }
 
+  // 🇬🇧 A small button on every paragraph (and every card) of a reading text: the paragraph in English in a pop-up.
+  // The English comes from the sentence-by-sentence translations of the text (the "Lyt til teksten" lessons);
+  // a paragraph they do not cover is translated online (MyMemory).
+  const paraKey = t => String(t || "").toLowerCase().replace(/…/g, " ").replace(/[^a-zæøåäöüé0-9]+/g, " ").trim();
+  function paraEnLocal(rid, text) {
+    const L = PD2.LISTEN_R && PD2.LISTEN_R[rid];
+    if (!L) return "";
+    const k = paraKey(text);
+    if (!k) return "";
+    const out = []; let cover = 0;
+    for (const l of L.lines) {
+      const parts = String(l.da || "").split("…").map(paraKey).filter(x => x.length > 2);
+      if (parts.length && parts.every(x => k.includes(x))) { out.push(l.en); cover += parts.reduce((a, x) => a + x.length, 0); }
+    }
+    return cover >= k.length * 0.5 ? out.join(" ") : "";
+  }
+  function addParaEn(rid, gapAnswer) {
+    const box = $(".reader .text");
+    if (!box) return;
+    $$("p, .mini-card", box).forEach(el => {
+      if (el.closest(".instruction, .bankbox, .src-credit, .note, .freq-words, details") || el.querySelector(".para-en")) return;
+      const txt = (el.innerText || "").trim();
+      if (txt.length < 25) return;
+      const b = document.createElement("button");
+      b.type = "button"; b.className = "para-en no-tr"; b.title = "Vis afsnittet på engelsk"; b.setAttribute("aria-label", "Vis afsnittet på engelsk");
+      b.textContent = "🇬🇧";
+      b.onclick = async e => {
+        e.preventDefault(); e.stopPropagation();
+        // Two copies: one to show (gaps as "…"), one with the answers filled in to find the sentences.
+        const show = el.cloneNode(true), match = el.cloneNode(true);
+        [show, match].forEach(c => { $$(".para-en, .gap-label", c).forEach(x => x.remove()); $$(".example-fill", c).forEach(x => { x.textContent = " " + x.textContent + " "; }); });
+        $$("select.gap, input.gap", show).forEach(x => x.replaceWith(" … "));
+        $$("select.gap, input.gap", match).forEach(x => x.replaceWith(" " + ((gapAnswer && gapAnswer(+String(x.dataset.key || "").replace(/^g/, ""))) || "") + " "));
+        const da = (show.innerText || show.textContent || "").replace(/\s+/g, " ").trim();
+        let en = paraEnLocal(rid, (match.innerText || match.textContent || "").replace(/\s+/g, " "));
+        // An unanswered gap: the English would give the missing word away, so it is shown on request.
+        const spoiler = $$("select.gap:not([disabled]), input.gap:not([disabled])", el).length > 0;
+        const out = `<div class="para-en-out" lang="en">${en ? esc(en) : "⏳ Oversætter …"}</div>`;
+        openEnPop("🇬🇧 Afsnittet på engelsk", `<p class="small muted" data-keep>${esc(da)}</p>${spoiler ? `<details class="para-spoil"><summary>👀 Vis oversættelsen – den afslører de manglende ord</summary>${out}</details>` : out}`, true);
+        if (!en) {
+          en = await nbSentEnOnline(da.replace(/\(\d+\)/g, "…").slice(0, 480));
+          const o = $(".para-en-out"); if (o) o.textContent = en || "Oversættelsen kunne ikke hentes. Brug knappen 🇬🇧 EN øverst i teksten.";
+        }
+      };
+      el.classList.add("has-para-en");
+      el.appendChild(b);
+    });
+  }
+
   // exam (optional): { header: () => html, done: (score, total) => {} } – used by the mock exam.
   // Credit line under every task from a real exam: where it comes from and who owns it.
   function examCredit(r) {
@@ -980,6 +1029,12 @@
 
     $$(".freq-words [data-say]").forEach(b => b.onclick = () => speak(b.dataset.say));
     // "Derfor": a short explanation shown under each answer after checking.
+    if (!exam) addParaEn(r.id, n => {
+      // the answer of gap n, only used to find the matching sentences (never shown)
+      if (!gapQ || !gapQ.answers || gapQ.answers[n] === undefined) return "";
+      const a = [].concat(gapQ.answers[n])[0], b = (gapQ.bank || []).find(x => x.key === a);
+      return b ? b.text : String(a);
+    });
     const W = (PD2.WHY && PD2.WHY[r.id]) || {};
     const why = key => W[key] ? `<div class="why">💡 <b>Derfor:</b> ${esc(W[key].da)}${W[key].en ? `<span class="why-en" lang="en">${esc(W[key].en)}</span>` : ""}</div>` : "";
     $("#check").onclick = () => {

@@ -1285,5 +1285,10 @@ PD2.I18N.es = {
 "✓ {n} løst": "✓ {n} hechas",
 "✓ {n} bedømt": "✓ {n} evaluadas",
 "✉️ Øvelse": "✉️ Práctica",
-"↑ Til toppen": "↑ Volver arriba"
+"↑ Til toppen": "↑ Volver arriba",
+"🇬🇧 Afsnittet på engelsk": "🇬🇧 El párrafo en inglés",
+"Vis afsnittet på engelsk": "Ver el párrafo en inglés",
+"⏳ Oversætter …": "⏳ Traduciendo …",
+"👀 Vis oversættelsen – den afslører de manglende ord": "👀 Ver la traducción – revela las palabras que faltan",
+"Oversættelsen kunne ikke hentes. Brug knappen 🇬🇧 EN øverst i teksten.": "No se pudo cargar la traducción. Usa el botón 🇬🇧 EN arriba del texto."
 };

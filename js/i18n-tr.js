@@ -1285,5 +1285,10 @@ PD2.I18N.tr = {
 "✓ {n} løst": "✓ {n} yapıldı",
 "✓ {n} bedømt": "✓ {n} değerlendirildi",
 "✉️ Øvelse": "✉️ Alıştırma",
-"↑ Til toppen": "↑ Başa dön"
+"↑ Til toppen": "↑ Başa dön",
+"🇬🇧 Afsnittet på engelsk": "🇬🇧 Paragrafın İngilizcesi",
+"Vis afsnittet på engelsk": "Paragrafı İngilizce göster",
+"⏳ Oversætter …": "⏳ Çevriliyor …",
+"👀 Vis oversættelsen – den afslører de manglende ord": "👀 Çeviriyi göster – eksik kelimeleri ortaya çıkarır",
+"Oversættelsen kunne ikke hentes. Brug knappen 🇬🇧 EN øverst i teksten.": "Çeviri yüklenemedi. Metnin üstündeki 🇬🇧 EN düğmesini kullan."
 };
