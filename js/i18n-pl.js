@@ -1284,5 +1284,6 @@ PD2.I18N.pl = {
 "{n} opgave": "{n} zadanie",
 "✓ {n} løst": "✓ {n} zrobione",
 "✓ {n} bedømt": "✓ {n} ocenione",
-"✉️ Øvelse": "✉️ Ćwiczenie"
+"✉️ Øvelse": "✉️ Ćwiczenie",
+"↑ Til toppen": "↑ Do góry"
 };

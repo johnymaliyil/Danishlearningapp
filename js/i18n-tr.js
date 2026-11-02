@@ -1284,5 +1284,6 @@ PD2.I18N.tr = {
 "{n} opgave": "{n} görev",
 "✓ {n} løst": "✓ {n} yapıldı",
 "✓ {n} bedømt": "✓ {n} değerlendirildi",
-"✉️ Øvelse": "✉️ Alıştırma"
+"✉️ Øvelse": "✉️ Alıştırma",
+"↑ Til toppen": "↑ Başa dön"
 };

@@ -1185,3 +1185,10 @@ a.chip { text-decoration: none; }
   .tool-card p { display: none; }
   .listen-cards { gap: 0; }
 }
+
+/* ← Tilbage at the bottom of every page */
+.bottom-back { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; max-width: 1180px; margin: 8px auto 18px; padding: 0 20px; }
+.bottom-back[hidden] { display: none; }
+.bottom-back .btn { text-decoration: none; }
+@media (max-width: 760px) { .bottom-back { padding: 0 16px; margin-bottom: 8px; } }
+@media print { .bottom-back { display: none; } }

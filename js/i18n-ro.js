@@ -1284,5 +1284,6 @@ PD2.I18N.ro = {
 "{n} opgave": "{n} sarcină",
 "✓ {n} løst": "✓ {n} făcute",
 "✓ {n} bedømt": "✓ {n} evaluate",
-"✉️ Øvelse": "✉️ Exercițiu"
+"✉️ Øvelse": "✉️ Exercițiu",
+"↑ Til toppen": "↑ Sus"
 };

@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "136"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "137"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -6392,6 +6392,29 @@
     $("#cUse").onclick = async () => { const l = $("#cLink").value.trim(); if (!l) return; await cloudLoad().catch(cloudErr); if (cloud.auth) cloudFinishLink(l); };
     if (!cloud.auth) { cloudStatus("⏳ Indlæser …"); cloudLoad().then(() => { if (!cloud.user) cloudStatus(""); }).catch(() => cloudStatus("⚠️ Ingen internetforbindelse – login kræver internet.")); }
   }
+
+  // ---------- ← Tilbage at the bottom of every page ----------
+  // Mirrors the page's own "← …" link at the top (so it goes to the same place), plus "↑ Til toppen".
+  // Kept up to date while exercises and games redraw the page. Not shown on the home and start pages.
+  const bottomBack = $("#bottomBack");
+  function paintBottomBack() {
+    if (!bottomBack) return;
+    const h = location.hash.replace(/^#\/?/, "");
+    const top = app.querySelector("a.back");
+    if (h === "" || h === "start") { bottomBack.hidden = true; return; }
+    const href = top ? top.getAttribute("href") : "#/", label = top ? top.textContent.trim() : "← Forside";
+    const key = href + "|" + label;
+    if (bottomBack.dataset.k !== key) {
+      bottomBack.dataset.k = key;
+      bottomBack.innerHTML = `<a class="btn ghost" href="${esc(href)}">${esc(/^←/.test(label) ? label : "← " + label)}</a><button type="button" class="btn ghost" data-totop>↑ Til toppen</button>`;
+      bottomBack.querySelector("[data-totop]").onclick = () => { window.scrollTo({ top: 0, behavior: "smooth" }); app.focus({ preventScroll: true }); };
+    }
+    bottomBack.hidden = false;
+  }
+  let bbT = null;
+  new MutationObserver(() => { clearTimeout(bbT); bbT = setTimeout(paintBottomBack, 60); }).observe(app, { childList: true, subtree: true });
+  addEventListener("hashchange", () => setTimeout(paintBottomBack, 80));
+  addEventListener("resize", () => { clearTimeout(bbT); bbT = setTimeout(paintBottomBack, 200); });
 
   // ---------- Boot ----------
   $("#footYear").textContent = new Date().getFullYear();

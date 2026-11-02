@@ -1321,5 +1321,6 @@ PD2.I18N.en = {
 "{n} opgave": "{n} task",
 "✓ {n} løst": "✓ {n} done",
 "✓ {n} bedømt": "✓ {n} graded",
-"✉️ Øvelse": "✉️ Practice"
+"✉️ Øvelse": "✉️ Practice",
+"↑ Til toppen": "↑ Back to top"
 };

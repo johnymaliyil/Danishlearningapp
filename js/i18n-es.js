@@ -1284,5 +1284,6 @@ PD2.I18N.es = {
 "{n} opgave": "{n} tarea",
 "✓ {n} løst": "✓ {n} hechas",
 "✓ {n} bedømt": "✓ {n} evaluadas",
-"✉️ Øvelse": "✉️ Práctica"
+"✉️ Øvelse": "✉️ Práctica",
+"↑ Til toppen": "↑ Volver arriba"
 };
