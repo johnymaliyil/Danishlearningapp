@@ -1,6 +1,110 @@
 {
- "updated": "2026-11-01T19:42+00:00",
+ "updated": "2026-11-02T12:26+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/dronning-mary-rejser-til-colombia",
+   "date": "2026-11-02T10:08:15+00:00",
+   "da": {
+    "title": "Dronning Mary rejser til Colombia",
+    "desc": ""
+   },
+   "en": {
+    "title": "Queen Mary travels to Colombia",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/gerningsmand-efterlyses-efter-mulig-hadforbrydelse-i-roskilde",
+   "date": "2026-11-02T09:30:39+00:00",
+   "da": {
+    "title": "Gerningsmand efterlyses efter mulig hadforbrydelse i Roskilde",
+    "desc": ""
+   },
+   "en": {
+    "title": "Perpetrator wanted after possible hate crime in Roskilde",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mange-husdyrholdere-har-soegt-om-tilskud-til-ulvesikret-hegn",
+   "date": "2026-11-02T08:26:14+00:00",
+   "da": {
+    "title": "Mange husdyrholdere har søgt om tilskud til ulvesikret hegn",
+    "desc": ""
+   },
+   "en": {
+    "title": "Many livestock farmers have applied for subsidies for wolf-proof fences",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/elnet-mellem-midtjylland-og-vendsyssel-skal-udvides-milliarder",
+   "date": "2026-11-02T06:58:24+00:00",
+   "da": {
+    "title": "Elnet mellem Midtjylland og Vendsyssel skal udvides for milliarder",
+    "desc": ""
+   },
+   "en": {
+    "title": "Electricity network between Midtjylland and Vendsyssel to be expanded for billions",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/flere-kan-nu-teste-sig-klamydia-derhjemme",
+   "date": "2026-11-02T05:42:12+00:00",
+   "da": {
+    "title": "Flere kan nu teste sig for klamydia derhjemme",
+    "desc": ""
+   },
+   "en": {
+    "title": "More people can now get tested for chlamydia at home",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/bogforum-slaar-igen-rekord-antal-besoegende",
+   "date": "2026-11-01T20:34:38+00:00",
+   "da": {
+    "title": "Bogforum slår igen rekord for antal besøgende",
+    "desc": ""
+   },
+   "en": {
+    "title": "Book Forum Breaks Record for Visitor Count",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/otte-draebt-i-israelske-angreb-i-gaza",
+   "date": "2026-11-01T20:24:35+00:00",
+   "da": {
+    "title": "Otte dræbt i israelske angreb i Gaza",
+    "desc": ""
+   },
+   "en": {
+    "title": "Eight killed in Israeli attacks in Gaza",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12756919#liveblog-embed",
+   "date": "2026-11-01T20:03:06+00:00",
+   "da": {
+    "title": "AGF-træner savner kvalitet fra offensive profiler",
+    "desc": ""
+   },
+   "en": {
+    "title": "AGF coach misses quality from offensive profiles",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/nu-gaar-saerligt-politi-med-rifler-i-sydneys-gader",
@@ -89,110 +193,6 @@
    },
    "en": {
     "title": "Former European Championship gold medalist has died at the age of 34",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/nyt-basketball-hold-vinder-rekordhurtigt-mesterskab-i-usa",
-   "date": "2026-11-01T08:04:38+00:00",
-   "da": {
-    "title": "Nyt basketball-hold vinder rekordhurtigt mesterskab i USA",
-    "desc": ""
-   },
-   "en": {
-    "title": "New basketball team wins record-breaking championship in US",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/alvorlig-trafikulykke-spaerrer-vej-ved-herning",
-   "date": "2026-11-01T07:05:41+00:00",
-   "da": {
-    "title": "Alvorlig trafikulykke ved Herning",
-    "desc": ""
-   },
-   "en": {
-    "title": "Serious traffic accident at Herning",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/fbi-nordkorea-stod-bag-kryptotyveri-i-milliardklassen",
-   "date": "2026-10-31T22:05:00+00:00",
-   "da": {
-    "title": "FBI: Nordkorea stod bag kryptotyveri i milliardklassen",
-    "desc": ""
-   },
-   "en": {
-    "title": "FBI: North Korea was behind billion-dollar crypto theft",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/kryptoboers-erstatter-90-procent-af-stjaalne-aktiver-efter-milliardtyveri",
-   "date": "2026-10-31T16:54:43+00:00",
-   "da": {
-    "title": "Kryptobørs erstatter 90 procent af stjålne aktiver efter milliardtyveri",
-    "desc": ""
-   },
-   "en": {
-    "title": "Crypto exchange replaces 90 percent of stolen assets after billion dollar theft",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12746289#liveblog-embed",
-   "date": "2026-10-31T14:05:39+00:00",
-   "da": {
-    "title": "FCK vinder højst overraskende over FC Nordsjælland",
-    "desc": ""
-   },
-   "en": {
-    "title": "FCK wins most surprisingly over FC Nordsjælland",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/antallet-af-anmeldte-indbrud-i-private-hjem-er-steget-med",
-   "date": "2026-10-31T12:56:58+00:00",
-   "da": {
-    "title": "Antallet af anmeldte indbrud i private hjem er steget markant",
-    "desc": ""
-   },
-   "en": {
-    "title": "The number of reported burglaries in private homes has increased significantly",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/britisk-premierminister-klar-til-undskylde-slaveri-men-afviser-erstatning",
-   "date": "2026-10-31T12:30:48+00:00",
-   "da": {
-    "title": "Britisk premierminister klar til at undskylde for slaveri - men afviser erstatning",
-    "desc": ""
-   },
-   "en": {
-    "title": "UK Prime Minister ready to apologise for slavery - but rejects compensation",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/cykling/norsk-hold-droemmer-om-jonas-vingegaard-og-mads-pedersen?focusId=12745292#liveblog-embed",
-   "date": "2026-10-31T12:04:47+00:00",
-   "da": {
-    "title": "Pogacar opdagede flere brud på ryggen: 'Jeg er glad for at være i live'",
-    "desc": ""
-   },
-   "en": {
-    "title": "Pogacar discovered several fractures in his back: 'I'm glad to be alive'",
     "desc": ""
    }
   }
