@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "134"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "135"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -2517,13 +2517,13 @@
   // ---------- 🗂️ Prøvens opbygning: the exam format as an outline, with an example of every part ----------
   // Built from the real exam sets in the app, so every task type links to a real example.
   const FMT = {
-    pd1: { read: [["📖 Læsning", "ca. 40 min", null]], write: ["✍️ Skriftlig fremstilling", "ca. 1 time"],
+    pd1: { readTotal: "ca. 40 min", read: [["Læsning – opslag, annoncer, sms og huller", "ca. 40 min", null]], write: ["✍️ Skrivning", "ca. 1 time"],
       oral: [["Delprøve 1 · Præsentation", "Du fortæller kort om dig selv eller et emne fra hverdagen. Bagefter stiller eksaminator et par spørgsmål.", "SPEAKING_MONO", "mono"],
              ["Delprøve 2 · Samtale", "En kort samtale med eksaminator om en hverdagssituation, fx at købe ind eller lave en aftale.", "SPEAKING_DIALOG", "dialog"]] },
-    pd2: { read: [["📖 Læseforståelse 1 · opgave 1–2", "30 min", /^Opgave [12]\b/], ["📖 Læseforståelse 2 · opgave 3–5", "60 min", /^Opgave [345]\b/]], write: ["✍️ Skriftlig fremstilling", "1½ time"],
+    pd2: { readTotal: "1½ time", read: [["Læseforståelse 1 · opgave 1–2", "30 min", /^Opgave [12]\b/], ["Læseforståelse 2 · opgave 3–5", "60 min", /^Opgave [345]\b/]], write: ["✍️ Skrivning", "1½ time"],
       oral: [["Delprøve 1 · Præsentation af et emne", "Du vælger et emne fra emnelisten og fortæller om dit eget liv (ca. 1½ minut). Bagefter stiller eksaminator opklarende, uddybende og generelle spørgsmål.", "SPEAKING_MONO", "mono"],
              ["Delprøve 2 · Samtale ud fra billeder", "Du får to billeder om et emne. Du beskriver dem, sammenligner og fortæller, hvad du selv mener – i en samtale med eksaminator.", "SPEAKING_PICTURE", "picture"]] },
-    pd3: { read: [["📖 Læseforståelse 1 · delprøve 1", "ca. 25 min", /^Delprøve 1\b/], ["📖 Læseforståelse 2 · delprøve 2–3", "ca. 65 min", /^Delprøve [23]/]], write: ["✍️ Skriftlig fremstilling", "ca. 2 timer"],
+    pd3: { readTotal: "1½ time", parts: { 1: "Delprøve 1 · e-mail (fx til en ven)", 2: "Delprøve 2 · argumenterende tekst – vælg 2A eller 2B" }, read: [["Læseforståelse 1 · delprøve 1", "ca. 25 min", /^Delprøve 1\b/], ["Læseforståelse 2 · delprøve 2–3", "ca. 65 min", /^Delprøve [23]/]], write: ["✍️ Skrivning", "ca. 2 timer"],
       oral: [["Mundtlig prøve · Emne med billeder", "Du får et emne med billeder. Du svarer på de obligatoriske spørgsmål (A og B), giver din mening og diskuterer emnet med eksaminator.", "SPEAKING_TOPIC", "topic"],
              ["Øvelse · Monolog og dialog", "Øv at tale sammenhængende om et emne og at deltage i en samtale.", "SPEAKING_MONO", "mono"]] }
   };
@@ -2556,15 +2556,19 @@
       <ul class="fmt-list">${ref.filter(r => !re || re.test(r.title)).map(task).join("")}</ul></details>`).join("");
     // Writing: the task types seen in the exams, each linked to an example, and the fixed phrases (templates).
     const W = E.WRITING, part = d => {
-      const ws = W.filter(w => w.delprove === d), byKind = new Map(), cnt = {};
-      const kindOf = w => (w.kind || "").replace(/^Prøveopgave · /, "").replace(/ · .*$/, "");
-      ws.forEach(w => { const kd = kindOf(w); if (!kd) return; cnt[kd] = (cnt[kd] || 0) + 1; if (!byKind.has(kd)) byKind.set(kd, w); });
-      const exam = ws.filter(w => w.real || w.recalled);
-      const words = ws.length ? `${Math.min(...ws.map(w => w.minWords))}–${Math.max(...ws.map(w => w.maxWords))} ord` : "";
+      const all = W.filter(w => w.delprove === d), exam = all.filter(w => w.real || w.recalled), ws = exam.length ? exam : all;
+      const CATS = [[/diagram/i, "2A · diagram og vurdering"], [/(holdninger|forslag|faktorer|eksempler) og (vurdering|diskussion)/i, "2B · holdninger og forslag"], [/klage/i, "Klage"], [/ansøgning/i, "Ansøgning"], [/jobannonce/i, "Jobannonce"], [/invitation/i, "Invitation"], [/anmeldelse|anbefaling/i, "Anmeldelse / anbefaling"], [/takkebrev/i, "Takkebrev"], [/opslag|efterlysning|værelse|lejlighed/i, "Opslag / efterlysning"], [/læserbrev|indlæg|debat|argument/i, "Læserbrev / debatindlæg"], [/sammenlign/i, "Sammenligning"], [/sms/i, "Sms"], [/e-?mail|mail/i, "E-mail"], [/annonce/i, "Annonce"], [/tekst|artikel/i, "Kort tekst"]];
+      const catOf = w => { const t = (w.kind || "") + " " + w.title; const c = CATS.find(([re]) => re.test(t)); return c ? c[1] : (w.kind || "").replace(/^Prøveopgave · /, "").replace(/ · .*$/, ""); };
+      const byKind = new Map(), cnt = {};
+      ws.slice().reverse().forEach(w => { const kd = catOf(w); cnt[kd] = (cnt[kd] || 0) + 1; if (!byKind.has(kd)) byKind.set(kd, w); }); // newest example first
+      const mins = ws.map(w => w.minWords), maxs = ws.map(w => w.maxWords);
+      const words = ws.length ? (d === 2 && new Set(mins).size === 1 && mins[0] >= 100 ? `mindst ${mins[0]} ord` : `${Math.min(...mins)}–${Math.max(...maxs)} ord`) : "";
       const tpls = [...new Set(ws.map(w => w.tpl).filter(Boolean))].map(id => PD2.TEMPLATES[id]).filter(Boolean);
-      return `<details class="fmt"><summary><b>${esc(M.writingParts[d] || "Delprøve " + d)}</b> <span class="pill">${esc(words)}</span>${k === "pd2" && d === 1 ? ` <span class="pill">vælg A eller B</span>` : ""}</summary>
-        <p class="small" style="margin:6px 0">🎲 Muligheder – tryk for et eksempel:</p>
-        <div class="chips">${[...byKind.entries()].sort((a, b) => cnt[b[0]] - cnt[a[0]]).map(([kd, w]) => `<a class="chip" href="#/writing/${w.id}">${esc(kd)}</a>`).join("")}</div>
+      const topics = [...new Set(ws.map(w => w.title.replace(/^(A|B|2A|2B|Delprøve \d):\s*/, "").replace(/\s*\((Sæt \d+|[a-zæøå.\- ]*\d{4})\)\s*$/i, "")))].filter(t => !/^en e-mail( til (en|dine) (ven|veninde|venner))?$/i.test(t));
+      return `<details class="fmt"><summary><b>${esc((F.parts && F.parts[d]) || M.writingParts[d] || "Delprøve " + d)}</b> <span class="pill">${esc(words)}</span>${k === "pd2" && d === 1 ? ` <span class="pill">vælg A eller B</span>` : ""}</summary>
+        <p class="small" style="margin:6px 0">🎲 Muligheder – opgavetyper fra prøverne (tallet = antal gange). Tryk for et eksempel:</p>
+        ${topics.length > 2 ? `<div class="small muted fmt-line"><span>Emner, fx:</span> ${topics.slice(-5).reverse().map(esc).join(", ")}${topics.length > 5 ? ` (+${topics.length - 5} flere)` : ""}</div>` : ""}
+        <div class="chips" style="margin-top:6px">${[...byKind.entries()].sort((a, b) => cnt[b[0]] - cnt[a[0]]).map(([kd, w]) => `<a class="chip" href="#/writing/${w.id}">${esc(kd)} <span class="muted">${cnt[kd]}</span></a>`).join("")}</div>
 
         ${tpls.length ? `<details class="fmt fmt-sub"><summary><b>📋 Faste sætninger</b> <span class="small muted">(skabeloner – lær dem udenad)</span></summary>
           ${tpls.map(t => `<div class="fmt-tpl"><b>${t.ico || ""} ${esc(t.name)}</b> <span class="small muted">${esc(t.use || "")}</span>
@@ -2582,11 +2586,9 @@
       <div class="chips" role="tablist" style="margin-bottom:12px">${["pd1", "pd2", "pd3"].map(x => `<a class="chip ${x === k ? "on" : ""}" href="#/format/${x}" role="tab" aria-selected="${x === k}">${esc(PD2.EXAM_META[x].name)}</a>`).join("")}</div>
       <div class="card fmt-tree">
         <h2 style="margin-top:0">${esc(M.full || M.name)}</h2>
-        <details class="fmt" open><summary><b>📝 Skriftlig prøve</b></summary>
-          ${readHtml}
-          <details class="fmt" open><summary><b>${esc(F.write[0])}</b> <span class="pill">${esc(F.write[1])}</span></summary>${[1, 2].map(part).join("")}</details>
-        </details>
-        <details class="fmt" open><summary><b>🗣️ Mundtlig prøve</b></summary>${oralHtml}</details>
+        <details class="fmt" open><summary><b>📖 Læsning</b> <span class="pill">${esc(F.readTotal)}</span> <span class="small muted">· skriftlig prøve</span></summary>${readHtml}</details>
+        <details class="fmt" open><summary><b>${esc(F.write[0])}</b> <span class="pill">${esc(F.write[1])}</span> <span class="small muted">· skriftlig prøve</span></summary>${[1, 2].map(part).join("")}</details>
+        <details class="fmt" open><summary><b>🗣️ Tale</b> <span class="small muted">· mundtlig prøve</span></summary>${oralHtml}</details>
       </div>
       <p class="small muted" style="margin-top:10px">Tiderne er vejledende, og formatet kan ændre sig lidt fra prøve til prøve. Tjek altid din indkaldelse og dit sprogcenter.</p>
       <div class="row" style="margin-top:12px"><a class="btn read" href="#/exam">📝 Prøvesimulering</a><a class="btn ghost" href="#/tips">💡 Tips til prøven</a><a class="btn ghost" href="#/plan">📅 Min prøveplan</a></div>`;
