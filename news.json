@@ -1,6 +1,188 @@
 {
- "updated": "2026-11-02T12:26+00:00",
+ "updated": "2026-11-02T23:07+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/apples-omsaetning-slaar-markedets-forventninger",
+   "date": "2026-11-02T22:22:00+00:00",
+   "da": {
+    "title": "Apples omsætning slår markedets forventninger",
+    "desc": ""
+   },
+   "en": {
+    "title": "Apple's revenue beats market expectations",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/papirklip-af-h-c-andersen-kommer-paa-auktion",
+   "date": "2026-11-02T20:28:52+00:00",
+   "da": {
+    "title": "Papirklip af H.C. Andersen kommer på auktion",
+    "desc": ""
+   },
+   "en": {
+    "title": "Paper clips by Hans Christian Andersen go on auction",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12762058#liveblog-embed",
+   "date": "2026-11-02T19:54:03+00:00",
+   "da": {
+    "title": "F.C. København spadserer til sejr mod tamme Sønderjyske",
+    "desc": ""
+   },
+   "en": {
+    "title": "F.C. Copenhagen walks to victory against tame Sønderjyske",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/litauisk-mand-tog-barnevogn-med-barn-i-paa-oesterbro",
+   "date": "2026-11-02T19:44:49+00:00",
+   "da": {
+    "title": "Litauisk mand tog barnevogn med barn i på Østerbro",
+    "desc": ""
+   },
+   "en": {
+    "title": "Lithuanian man took stroller with child in at Østerbro",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/seneste-sport/nfl-lancerer-liga-i-ny-ol-disciplin",
+   "date": "2026-11-02T18:56:14+00:00",
+   "da": {
+    "title": "NFL lancerer liga i ny OL-disciplin",
+    "desc": ""
+   },
+   "en": {
+    "title": "NFL launches league in new Olympic discipline",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/torsk-og-iltsvind-i-oestersoeen-skal-undersoeges",
+   "date": "2026-11-02T17:17:59+00:00",
+   "da": {
+    "title": "Torsk og iltsvind i Østersøen skal undersøges",
+    "desc": ""
+   },
+   "en": {
+    "title": "Cod and oxygen depletion in the Baltic Sea to be investigated",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/byretten-i-oslo-forlaenger-ikke-varetaegtsfaengsling-af-marius-borg-hoeiby",
+   "date": "2026-11-02T16:22:55+00:00",
+   "da": {
+    "title": "Byretten i Oslo forlænger ikke varetægtsfængsling af Marius Borg Høiby",
+    "desc": ""
+   },
+   "en": {
+    "title": "Oslo City Court does not extend detention of Marius Borg Høiby",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/defekt-paa-varmevaerk-goer-varmen-dyrere-i-aarhus",
+   "date": "2026-11-02T14:59:22+00:00",
+   "da": {
+    "title": "Defekt på varmeværk gør varmen dyrere i Aarhus",
+    "desc": ""
+   },
+   "en": {
+    "title": "Defect in heating plant makes heat more expensive in Aarhus",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/oekologiske-kikaerter-tilbagekaldes-efter-fund-af-insekter",
+   "date": "2026-11-02T14:52:13+00:00",
+   "da": {
+    "title": "Økologiske kikærter tilbagekaldes efter fund af insekter",
+    "desc": ""
+   },
+   "en": {
+    "title": "Organic chickpeas are recalled after finding insects",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/havne-ved-storebaelt-skal-opgraderes-som-led-i-et-styrket-beredskab",
+   "date": "2026-11-02T14:29:20+00:00",
+   "da": {
+    "title": "Havne ved Storebælt skal opgraderes som led i et styrket beredskab",
+    "desc": "Fra i dag og fire uger frem kan interesserede virksomheder melde sig på banen."
+   },
+   "en": {
+    "title": "Ports at the Great Belt must be upgraded as part of a strengthened emergency preparedness",
+    "desc": "From today and four weeks ahead, interested companies can sign up for the course."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/bil-i-brand-paa-soenderjyske-motorvej",
+   "date": "2026-11-02T13:47:28+00:00",
+   "da": {
+    "title": "Bil i brand på sønderjyske motorvej",
+    "desc": ""
+   },
+   "en": {
+    "title": "Car on fire on South Jutland highway",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/rutefly-noedlander-i-budapest-efter-bombetrussel",
+   "date": "2026-11-02T13:26:07+00:00",
+   "da": {
+    "title": "Rutefly nødlander i Budapest efter bombetrussel",
+    "desc": ""
+   },
+   "en": {
+    "title": "Scheduled plane makes emergency landing in Budapest after bomb threat",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/patientforening-betrygget-efter-moede-med-afdeling-levertransplantationer",
+   "date": "2026-11-02T13:19:09+00:00",
+   "da": {
+    "title": "Patientforening betrygget efter møde med afdeling for levertransplantationer",
+    "desc": ""
+   },
+   "en": {
+    "title": "Patient association reassured after meeting with the department of liver transplants",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/kvinde-doemt-flere-tilfaelde-af-kontaktbedrageri",
+   "date": "2026-11-02T12:56:08+00:00",
+   "da": {
+    "title": "Kvinde dømt for flere tilfælde af kontaktbedrageri",
+    "desc": ""
+   },
+   "en": {
+    "title": "Woman convicted of multiple cases of contact fraud",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/dronning-mary-rejser-til-colombia",
@@ -11,188 +193,6 @@
    },
    "en": {
     "title": "Queen Mary travels to Colombia",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/gerningsmand-efterlyses-efter-mulig-hadforbrydelse-i-roskilde",
-   "date": "2026-11-02T09:30:39+00:00",
-   "da": {
-    "title": "Gerningsmand efterlyses efter mulig hadforbrydelse i Roskilde",
-    "desc": ""
-   },
-   "en": {
-    "title": "Perpetrator wanted after possible hate crime in Roskilde",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/mange-husdyrholdere-har-soegt-om-tilskud-til-ulvesikret-hegn",
-   "date": "2026-11-02T08:26:14+00:00",
-   "da": {
-    "title": "Mange husdyrholdere har søgt om tilskud til ulvesikret hegn",
-    "desc": ""
-   },
-   "en": {
-    "title": "Many livestock farmers have applied for subsidies for wolf-proof fences",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/elnet-mellem-midtjylland-og-vendsyssel-skal-udvides-milliarder",
-   "date": "2026-11-02T06:58:24+00:00",
-   "da": {
-    "title": "Elnet mellem Midtjylland og Vendsyssel skal udvides for milliarder",
-    "desc": ""
-   },
-   "en": {
-    "title": "Electricity network between Midtjylland and Vendsyssel to be expanded for billions",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/flere-kan-nu-teste-sig-klamydia-derhjemme",
-   "date": "2026-11-02T05:42:12+00:00",
-   "da": {
-    "title": "Flere kan nu teste sig for klamydia derhjemme",
-    "desc": ""
-   },
-   "en": {
-    "title": "More people can now get tested for chlamydia at home",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/bogforum-slaar-igen-rekord-antal-besoegende",
-   "date": "2026-11-01T20:34:38+00:00",
-   "da": {
-    "title": "Bogforum slår igen rekord for antal besøgende",
-    "desc": ""
-   },
-   "en": {
-    "title": "Book Forum Breaks Record for Visitor Count",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/otte-draebt-i-israelske-angreb-i-gaza",
-   "date": "2026-11-01T20:24:35+00:00",
-   "da": {
-    "title": "Otte dræbt i israelske angreb i Gaza",
-    "desc": ""
-   },
-   "en": {
-    "title": "Eight killed in Israeli attacks in Gaza",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12756919#liveblog-embed",
-   "date": "2026-11-01T20:03:06+00:00",
-   "da": {
-    "title": "AGF-træner savner kvalitet fra offensive profiler",
-    "desc": ""
-   },
-   "en": {
-    "title": "AGF coach misses quality from offensive profiles",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/nu-gaar-saerligt-politi-med-rifler-i-sydneys-gader",
-   "date": "2026-11-01T19:27:35+00:00",
-   "da": {
-    "title": "Nu går særligt politi med rifler i Sydneys gader",
-    "desc": ""
-   },
-   "en": {
-    "title": "Special police are now carrying rifles on the streets of Sydney",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12756619#liveblog-embed",
-   "date": "2026-11-01T18:54:19+00:00",
-   "da": {
-    "title": "Brøndby får revanche mod ufarlige AGF",
-    "desc": ""
-   },
-   "en": {
-    "title": "Brøndby gets revenge against harmless AGF",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12756381#liveblog-embed",
-   "date": "2026-11-01T18:28:19+00:00",
-   "da": {
-    "title": "Arsenal slår Liverpool og går alene i spids",
-    "desc": ""
-   },
-   "en": {
-    "title": "Arsenal beat Liverpool and lead alone",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/seneste-sport/svensk-loebefaenomen-vinder-maratondebut",
-   "date": "2026-11-01T16:15:04+00:00",
-   "da": {
-    "title": "Svensk løbefænomen vinder i maratondebut",
-    "desc": ""
-   },
-   "en": {
-    "title": "Swedish running phenomenon wins marathon debut",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/verdens-bedste-er-samlet-i-odense?focusId=12754142#liveblog-embed",
-   "date": "2026-11-01T15:21:36+00:00",
-   "da": {
-    "title": "Dansk duo taber tæt finale til verdensmestrene",
-    "desc": ""
-   },
-   "en": {
-    "title": "Danish duo loses close final to world champions",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/skyderi-under-amerikansk-fodboldkamp-draeber-en-og-saarer-otte",
-   "date": "2026-11-01T14:32:36+00:00",
-   "da": {
-    "title": "Skyderi under amerikansk fodboldkamp dræber én og sårer otte",
-    "desc": ""
-   },
-   "en": {
-    "title": "Shooting during American football game kills one and injures eight",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tidligere-em-guldvinder-er-doed-i-en-alder-af-34-aar",
-   "date": "2026-11-01T11:23:18+00:00",
-   "da": {
-    "title": "Tidligere EM-guldvinder er død i en alder af 34 år",
-    "desc": ""
-   },
-   "en": {
-    "title": "Former European Championship gold medalist has died at the age of 34",
     "desc": ""
    }
   }
