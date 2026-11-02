@@ -1192,3 +1192,23 @@ a.chip { text-decoration: none; }
 .bottom-back .btn { text-decoration: none; }
 @media (max-width: 760px) { .bottom-back { padding: 0 16px; margin-bottom: 8px; } }
 @media print { .bottom-back { display: none; } }
+
+/* ===== Wide screens: use the space on both sides, less scrolling ===== */
+@media (min-width: 1300px) {
+  main, .site-foot, .bottom-back { max-width: min(1700px, 95vw); }
+  .reader { grid-template-columns: minmax(0, 1.8fr) minmax(400px, 1fr); gap: 24px; }
+  .reader > .card:not(.text) { position: sticky; top: 80px; max-height: calc(100vh - 100px); overflow: auto; }
+  .reader.solo { max-width: 1150px; margin: 0 auto; }
+  .reader.solo > .card:not(.text) { position: static; max-height: none; }
+  .reader .text p { max-width: 85ch; }
+  .mini-cards { grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
+  .writer { grid-template-columns: minmax(0, 1.7fr) minmax(380px, 1fr); }
+  .mini-rows { grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+}
+@media (min-width: 1700px) {
+  .mini-cards { grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); }
+}
+@media (min-width: 1300px) {
+  .reader.solo { max-width: 1040px; }
+  .reader.solo .text p { max-width: none; }
+}
