@@ -7288,5 +7288,293 @@ PD2.READING_EN = {
    "q": "Sentences: A For now they see each other during the day. · B Because then they are never completely off. · C And they always do that too. · D And they have more plans. · E But they actually don't. · F Because then they are always alone. · G So there is a lot to do. · H But most of them are in a good mood."
   }
  ]
-}
+},
+ "p24m-1": {
+  "title": "Task 1 – Find the information",
+  "instruction": "Answer the questions (1-6). Find the information in the texts. Answer briefly and precisely. See the example: \"In which play centre is there baby rhythm class?\" – Eventyrfabrikken.",
+  "sections": [
+   {
+    "heading": "Visit a play centre on Zealand",
+    "cards": [
+     {
+      "title": "Eventyrfabrikken",
+      "body": "If you can't get it big or wild enough, Eventyrfabrikken is the play centre for you. 8,000 m² with room for wild play and all kinds of play equipment. Besides everything other play centres have, it has electric carousels, a 7D cinema, a laser room with shooting games and three kinds of bumper cars. There are also classes, e.g. baby rhythm every Tuesday for babies aged three to twelve months. Food and drink may not be brought in, but can be bought in the café."
+     },
+     {
+      "title": "Happie's Hule hos Bowl'n'Fun",
+      "body": "Children and the young at heart can have a super fun day! Burn off energy jumping, climbing and sliding through the cosy play centre. No screens – just hours of indoor fun whatever the weather. Ball pits, slides, obstacle courses and many other activities. If you also eat at The Grill restaurant, adults play for free. Children can buy day tickets, 10-visit cards or annual passes. You may not bring your own food and drink."
+     },
+     {
+      "title": "Legejunglen",
+      "body": "A 3,500 m² indoor play centre that challenges everyone, whatever their age. Denmark's largest play structure with Denmark's only Tiger slide, over 4 metres high. Free air hockey and table football. You can borrow sumo suits for free, and the many arcade machines are free too. There is also a 250 m² area just for the smallest children. The café has coffee and other treats. You are allowed to bring your own food. Drinks, however, must be bought in Legejunglen."
+     },
+     {
+      "title": "Legeland – Grøndal Multicenter",
+      "body": "Most classic play-centre experiences – slides, ball pools, a ball court and climbing courses, plus a special area for the smallest children. Room for 60 children at a time, who play in 1.5-hour slots, so it is a good idea to book a time on the website in advance. Part of Grøndal Multicenter's many activities. Note that food and drink may not be brought into the play centre. All eating must take place in the café area."
+     },
+     {
+      "title": "Leo's Legeland",
+      "body": "One of the largest play-centre chains in the Nordic countries. So many fun experiences: slides, indoor cycle tracks, ball rooms, giant playgrounds and much more. Leo's Legeland also arranges summer camps and sports activities. There is a cosy café where the whole family can share a tasty meal. It is not allowed to bring or eat your own food in the play centre."
+     },
+     {
+      "title": "Blegdamsremisen",
+      "body": "Copenhagen's only free indoor play centre and one of the city's most popular play places. Plenty of room for ball games and play in the old building, originally a depot (a kind of night garage) for the city's trams. Play landscape, ball court, table tennis, pirate ship, rope course and creative workshops. Visiting families and day-care institutions are welcome to eat the food they have brought. Unfortunately you cannot hold children's birthday parties here."
+     }
+    ],
+    "source": "Sources: bornibyen.dk, legejunglen.dk, funguide.dk (17.09.22, edited)"
+   },
+   {
+    "heading": "Boarding schools (efterskoler) in Jutland",
+    "cards": [
+     {
+      "title": "Øse Efterskole",
+      "body": "12 creative hours a week with what you're most passionate about. Four main subjects: Art, Music, Drama and Film, Animation & IT. Three levels in Danish, English and maths, or an exam-free 10th grade. We sleep an hour longer every day in the winter half of the year!"
+     },
+     {
+      "title": "Ranum Efterskole College",
+      "body": "Level-based teaching in 9th and 10th grade and an international exam-free 10th grade with 20+ Cambridge IGCSE subjects, e.g. Chinese, Spanish and French. Choose 3 profile subjects: Adventure, Diving, Sailing, Dance, Media, Music, Street Performance."
+     },
+     {
+      "title": "Thy Sportsefterskole",
+      "body": "Seven main subjects: E-sport, Football, Handball, Dance, Cold Hawaii, Badminton and Elite Swimming. An investment in your future – friends for life and a real community built on Christian values."
+     },
+     {
+      "title": "Løgumkloster Efterskole",
+      "body": "A Christian boarding school with a strong, close community. Exciting trips, a musical and many electives. 5 main subjects: Football, E-sport, Music, Adventure and Craft."
+     },
+     {
+      "title": "Brøruphus Efterskole",
+      "body": "Immerse yourself in academic subjects and one of six main subjects: Art, Music, Drama, Handball, Football and Badminton. Fine facilities incl. two sports halls, outdoor football pitches, a beach-volley court, a new music house and art and drama rooms."
+     },
+     {
+      "title": "Efterskolen Ådalen",
+      "body": "Creative school with community and closeness. Two study trips abroad – the whole school goes to Berlin, and you also travel with your main subject. Five main subjects: Music, Drama, Art, Sport and E-sport. We go for a walk together every morning so you feel fresh and ready for the day. Healthy, varied, often organic food; there is always a vegetarian dish."
+     },
+     {
+      "title": "Aalborg Efterskole",
+      "body": "The coolest Christian boarding school. Exciting and challenging teaching. The four main subjects are E-sport, Riding, Golf and Outdoor, plus many electives."
+     },
+     {
+      "title": "Askov Efterskole",
+      "body": "Creativity, community and closeness. Seven main subjects: Music, Drama, Animation, Game Design, Art & Design, Writing and Musical. You'll never be bored – you'll make memories for life."
+     },
+     {
+      "title": "Sædding Efterskole",
+      "body": "A small, cosy school with high academic standards, close communities and a healthy lifestyle shaped by joy in the life God has given us. Profile subjects include Football Extra, Volley Extra, Design & Art, Music & Band, Cambridge IGCSE English, World Wide and Jesus Extra."
+     },
+     {
+      "title": "Sundeved Efterskole",
+      "body": "Academic and active Grundtvigian school. Gymnastics is compulsory. 8 main subjects: football, volleyball, badminton, vaulting, rhythmic gymnastics, outdoor, music and art. 10th grade gets a gymnastics instructor course. 3 weeks of trips a year, incl. 7 days skiing in Sweden."
+     },
+     {
+      "title": "Levring Efterskole",
+      "body": "Sport & Life Performance – community and personal development in focus. 7 lines: Adventure sport, fitness, dance, boys' football, girls' football, vaulting and e-sport. Everyone does gymnastics."
+     },
+     {
+      "title": "Rebild Efterskole",
+      "body": "A smaller school with six main subjects: adventure, badminton, football, fit living, mountain bike and riding. Great electives such as volley, running, fitness, climbing, tennis, e-sport, art and music. Two trips abroad to Norway and Germany. French as an exam subject."
+     },
+     {
+      "title": "Salling Efterskole",
+      "body": "Choose between 9 main subjects: Vaulting, Rhythm & Dance, Football, Design, Animation & Media design, Music, E-sport, Food-health-exercise and Fitness/Adventure. In 10th grade: general class or project class. In both 9th grade and the project class there is cooperation and exchange with a school in Spain. A ski trip to Austria during the year."
+     },
+     {
+      "title": "Silkeborg Efterskole",
+      "body": "130 teenagers choose us every year – near forest and water, but also in town – because there are many chances to do sport. A fantastic community. 6 lines: fitness, sport/adventure, kayak, handball, girls' football and boys' football."
+     },
+     {
+      "title": "Femmøller Efterskole",
+      "body": "Located on Djursland. Five main subjects: E-sport, Drawing, Styling, Music – Rhythmic and Electronic Music. A year of friends for life and great experiences. You can take the final exams in 9th and 10th grade, or an exam-free 10th grade focusing on entrepreneurship, project management and communication."
+     },
+     {
+      "title": "Rønde Efterskole",
+      "body": "An experience for life in a strong community. 8 main subjects: Football, Music, Game Development, Creative Design, Global Entrepreneur, Outdoor Life, BodyCross Fitness and Badminton. Many electives."
+     }
+    ],
+    "source": "Sources: efterskolerne.dk, oese.dk (08.01.23, edited)"
+   },
+   {
+    "heading": "Home help wanted in Kolding",
+    "cards": [
+     {
+      "title": "Job ad no. 1",
+      "body": "Home help wanted 2 days a week. Cleaning between 15 and 20 a couple of times a week, about 2 hours each time. I also have a dog that I'd like you to walk and feed before or after cleaning, as I have a new job with evening work. Walks of about half an hour. King is a big dog, so you must be over 16 and experienced with dogs. Contact Lotte Svensson."
+     },
+     {
+      "title": "Job ad no. 2",
+      "body": "Help wanted by an elderly couple. Cleaning 1-2 times a week in the mornings: hoovering, dusting, washing floors and doing bathrooms. Also garden help once a week in the summer half-year. Your own car may be an advantage, as public transport is far away. Reliable, responsible and experienced. E-mail or call Peter."
+     },
+     {
+      "title": "Job ad no. 3",
+      "body": "Help for a busy family with children. Tasks include tidying, laundry and cooking from meal kits. We need help 3 days a week, about 15-18. We hope you:\n- have personal experience of keeping house\n- have an eye for detail\n- are energetic and take initiative\n- are reliable and flexible.\nContact Ida."
+     },
+     {
+      "title": "Job ad no. 4",
+      "body": "Elderly woman seeks home help. My 84-year-old mother wants help with cleaning, laundry and tidying, and some light shopping. Cleaning every other week in the morning for 3-4 hours, at a calm pace, as she easily gets nervous. Stable, positive, ideally experienced with elderly people and/or cleaning. Extra jobs like window cleaning or gardening by agreement. Call or text Kresten Lægaard."
+     },
+     {
+      "title": "Job ad no. 5",
+      "body": "Stable and efficient home help wanted. Married couple seeks help to clean, change bedding, iron, empty the dishwasher, etc. Once a week for 4 hours on weekdays between 9 and 15.30 – you decide the exact times. We have two sweet dogs. They don't need looking after or walking, but you must not be afraid of dogs or allergic to them. Write or call Lars Juhl."
+     },
+     {
+      "title": "Job ad no. 6",
+      "body": "Can you help us? Busy family of two adults and three children aged 2, 4 and 5 in a 140 m² house. We need help with cleaning, laundry and tidying, and picking up and looking after the children twice a week in the daytime. We do the shopping and cooking ourselves. You must have experience looking after children and be reliable. Contact Mikkel Hoby."
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "Visit a play centre on Zealand: In which two play centres may you bring your own food?"
+   },
+   {
+    "q": "Boarding schools in Jutland: At which boarding school is there a walk every morning?"
+   },
+   {
+    "q": "Boarding schools in Jutland: At which two boarding schools can you choose riding as a main subject?"
+   },
+   {
+    "q": "Boarding schools in Jutland: At which boarding school can you choose drawing as a main subject?"
+   },
+   {
+    "q": "Boarding schools in Jutland: Which boarding school works together with a Spanish school?"
+   },
+   {
+    "q": "Home help wanted in Kolding: In which job ad do they want a person who will help with cooking?"
+   }
+  ]
+ },
+ "p24m-2": {
+  "title": "Task 2 – Advertisements",
+  "instruction": "Read the advertisements (A-I). One or more words are missing in each advertisement. Find the advertisement that matches the words on the list (7-12). There are two advertisements you do not need to use. See the example (0).",
+  "sections": [
+   {
+    "heading": "Advertisements",
+    "cards": [
+     {
+      "title": "A – BOBI Møbelhus",
+      "body": "With us you'll find a huge selection of quality furniture at sharp prices. E.g.\n■■■■■■\nSee more great offers on our website – or drop by!\nBOBI Møbelhus · Irisgade 12 · www.bobi-moebler.dk"
+     },
+     {
+      "title": "B – BF-Aftenskole",
+      "body": "■■■■■■\nGet a solid introduction to the trade. Learn all about cutting, colouring and different hair types in four months. Evening classes three times a week with experienced teachers.\nRead more on our website:\nBF-Aftenskole.dk"
+     },
+     {
+      "title": "C – Summer offer at Viby Guld & Sølv",
+      "body": "On 1 July we will have had the shop for 10 years, and we're celebrating with great offers, e.g.:\n■■■■■■\nCome into our shop and see our large selection of jewellery and watches.\nWe stock all the well-known brands.\nViby Guld & Sølv, Storegade 12"
+     },
+     {
+      "title": "D – Premises for rent",
+      "body": "Nice, well-kept business premises for rent in central Aarhus.\n■■■■■■\nAlso suitable for a clinic and office.\nProduction and sale of food not allowed.\n60 m². Rent 8,200 kr. per month.\nContact Lokaleleje.dk"
+     },
+     {
+      "title": "E – We're opening for the season!",
+      "body": "Lovely campsite close to forest and beach. Book a pitch for your tent or caravan at reception.\n■■■■■■\nPrice per night: 150 kr. for a tent and 200 kr. for a caravan.\nKuknæs Strand Camping\nwww.kuk-camp.dk · Tel. 66 29 54 07"
+     },
+     {
+      "title": "F – Newly opened clothes shop",
+      "body": "We're opening the doors to our new shop in the City Centre on Monday 1 June. We're celebrating with lots of great opening offers, e.g.:\n■■■■■■\nMany sizes and lovely colours.\nButik Zoey & Joey\nTorvet in the City Centre"
+     },
+     {
+      "title": "G – Are you ready for summer?",
+      "body": "Our skilled hairdressers are ready to inspire you, so you can meet the summer with a new, fresh hairstyle. If you book via our website, we're currently offering:\n■■■■■■\nSalon Zenit, Nygade 25\nwww.salon-zenit.dk · 65 29 03 89"
+     },
+     {
+      "title": "H – VB Arrangør",
+      "body": "■■■■■■\nCentrally located in Vesterbro with room for up to 90 people.\n• Kitchen with all facilities\n• Serving staff available at extra cost\n• Own parking and train/metro nearby\nCall now for a quote.\nVB Arrangør – Tel. 41 99 70 34"
+     },
+     {
+      "title": "I – Enjoy the spring and treat yourself",
+      "body": "2-day luxury stay at hotel Kronjyllands Perle in lovely surroundings for only 1,999 kr. per person including:\n• ■■■■■■\n• Breakfast buffet.\n• Access to indoor pool and sauna.\nRead more and book on our website:\nwww.kronjyllandsperle.dk"
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "Which advertisement are the words missing from?",
+    "items": [
+     "Corner sofa in genuine leather 14,999 kr.",
+     "Large party venue for rent.",
+     "15 % off cutting and colouring.",
+     "Perfect for a small shop.",
+     "Hairdressing course.",
+     "Overnight stay in a double room.",
+     "Half price on all summer jackets."
+    ]
+   }
+  ]
+ },
+ "p24m-3": {
+  "title": "Task 3 – Anna lives in a care home",
+  "instruction": "Read the text. Write the words (13-20) that are missing. The words are in the box. There are five words you do not need to use. See the example (0).",
+  "text": "Anna, 88, lived alone in a flat for many years. The last couple of years she has felt lonely, and she has had great [[0]] managing on her own. So now she has moved into a care home.\n\nAnna's home in the care home consists of a living room and a bathroom, and it is much [[13]] than her old flat. In fact it is only 35 m², so there isn't room for many pieces of furniture. So Anna has unfortunately had to sell some of the furniture from her old flat, and she is a little [[14]] about that.\n\nStill, Anna thinks it is a big [[15]] to live in the care home. She walks very badly, and in the care home the staff can help her around the clock. The daily contact with the staff means a lot to Anna. She feels that they [[16]] have time to chat a little with her – even when they are busy.\n\nIn the care home Anna and the other residents are served all their meals, so Anna doesn't have to shop and cook. That suits her well, [[17]] she sometimes misses deciding for herself what to have for dinner, and she can't do that in the care home. But she enjoys eating with the other residents, because she thinks it is rather [[18]] to eat alone.\n\nSince Anna moved into the care home, she has actually become [[19]] lively. There are many activities, e.g. Anna does gymnastics with some of the other residents several times a week, and that has made her feel better.\n\nBut for Anna the best thing about living in the care home is that she rarely feels alone, [[20]] there are both other residents and staff she can talk to. So all in all Anna is very happy living in the care home.",
+  "questions": [
+   {}
+  ]
+ },
+ "p24m-4": {
+  "title": "Task 4 – Weekend dad",
+  "instruction": "Read the text. There are six paragraphs. A sentence is missing in each paragraph. Find the sentence (A-H) that fits each paragraph (21-25). There are two sentences you do not need to use. See the example (0).",
+  "text": "Emil, 41, is the father of Sofia, 12. He is divorced from Sofia's mother, and he only sees his daughter every other weekend, because he has moved from Odense to Copenhagen, where he has got a job.\n\n**0.** Emil has been divorced for two years, and now he lives and works in Copenhagen. His daughter Sofia lives most of the time with her mother in Odense. She only comes to Copenhagen every other weekend, so Emil doesn't see her much. [[0]]. He finds it a bit hard not to be able to see his daughter in everyday life.\n\n**21.** When Sofia comes for the weekend, he always asks her what she'd like to do. Sometimes she wants to go to a café, shopping or to the cinema, but actually she likes best being at home with Emil, relaxing and talking. [[21]]. It's an interest they share, and since Sofia was little they have loved it when there was a match on TV.\n\n**22.** But it is also important for Emil to be a good father when she isn't with him. So he calls Sofia several times a week to hear how she is. [[22]]. Sofia has a busy everyday life with school, hobbies and friends, and she has no time for long conversations, although she thinks it's lovely that Emil calls so often.\n\n**23.** Emil also has a busy everyday life, but when he's off he sometimes meets two good friends. They eat together or go out for a beer. They also talk to each other if they have problems. [[23]]. For example, his friends talked with him for a long time when he was sad about the divorce, and they gave him lots of good advice to move on.\n\n**24.** Now Emil has got through the divorce and is actually doing well. He has a girlfriend whom he sees a couple of times a week, and he is very happy with her. But on the weekends when Sofia is in Copenhagen, Emil doesn't see his girlfriend. [[24]]. She knows exactly when Sofia is in Copenhagen, and on those weekends she makes other plans, and she is completely fine with that.\n\n**25.** Sofia would like to see her father more, and she is a bit tired of travelling back and forth between Odense and Copenhagen. So she has asked Emil if he will move back to Odense. [[25]]. Although he often misses Sofia, it is impossible for him to move right now, because he has his job and now also a girlfriend in Copenhagen.",
+  "questions": [
+   {}
+  ]
+ },
+ "p24m-5": {
+  "title": "Task 5 – Interview with Maja",
+  "instruction": "Read the interview. Find the section (A-H) that matches each of the five questions (26-30). There are two sections you do not need to use. See the example (0).",
+  "sections": [
+   {
+    "heading": "Interview with Maja – gardener",
+    "cards": [
+     {
+      "title": "A",
+      "body": "Actually only for three years. After school I worked in a shop for many years. But I got tired of it, and I'd rather do something where I was outside in the fresh air. So I decided to start training as a gardener. When I finished, I quickly got a job in the garden company where I work now."
+     },
+     {
+      "title": "B",
+      "body": "No, because although I love fresh air and nature, it's also important to me that I can easily see my friends in my free time. So I live in a flat in the middle of town, and there I only have a small balcony. But in a few years I'd like to buy a house with a big garden where I can grow vegetables in my free time."
+     },
+     {
+      "title": "C",
+      "body": "Yes, I think so, especially when I work alone. The bushes or trees I plant can be quite heavy to lift. But luckily we often work many together, and then we can help each other. And I'm in good shape and look after myself, so I don't get back pain."
+     },
+     {
+      "title": "D",
+      "body": "Lots of different things. I like being outside in nature all year. For example I run in the forest or go hiking alone or with some friends. I also travel a lot and go on active holidays where I walk long distances, ski or cycle."
+     },
+     {
+      "title": "E",
+      "body": "That the working days are rarely the same, because my tasks are different, and so are my customers. I think that's lovely. And it also means a lot that I can be outside most of the time. An office job where you sit indoors all day is definitely not for me."
+     },
+     {
+      "title": "F",
+      "body": "No, I don't think so, because much of the time I'm physically active, so it's no problem working outside all year round. I actually never feel cold. And we wear clothes that suit the season. It can be a bit annoying when it rains and blows all day, but then I have some good rain gear to put on."
+     },
+     {
+      "title": "G",
+      "body": "What I do varies a bit. Some customers contact the company because they've just bought a house and need ideas for the garden, or because they need plans for a completely new garden, and then I help with that. Other times I prune trees and bushes or plant flowers."
+     },
+     {
+      "title": "H",
+      "body": "It depends on the tasks. If they're smaller jobs, I do them myself. But in our company we have quite a few customers with big gardens, and we're always several people on those jobs. So mostly we work together in a team."
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "Which section answers the question?",
+    "items": [
+     "How long have you worked as a gardener?",
+     "What are your work tasks?",
+     "Do you work alone?",
+     "What do you like about your job?",
+     "Is it a physically hard job?",
+     "What do you do in your free time?"
+    ]
+   }
+  ]
+ }
 };

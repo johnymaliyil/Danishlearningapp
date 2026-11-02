@@ -24,7 +24,8 @@
     [20, "PD2 nov.-dec. 2021", /^w21n/, ["p21n-a", "p21n-b", "p21n-c"]],
     [21, "PD2 maj-juni 2022", /^w22m/, ["p22m-a", "p22m-b", "p22m-c"]],
     [22, "PD2 nov.-dec. 2022", /^w22n/, ["p22n-a", "p22n-b", "p22n-c"]],
-    [23, "PD2 maj-juni 2023", /^w23m/, ["p23m-a", "p23m-b", "p23m-c"]]
+    [23, "PD2 maj-juni 2023", /^w23m/, ["p23m-a", "p23m-b", "p23m-c"]],
+    [24, "PD2 maj-juni 2024", /^w24m/, ["p24m-a", "p24m-b", "p24m-c"]]
   ];
   PD2.SET_COUNT = SESSIONS.length;
   const E = PD2.EXAMS.pd2;

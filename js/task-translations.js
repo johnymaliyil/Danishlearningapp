@@ -214,3 +214,32 @@ Object.assign(PD2.TASK_EN, {
   ]
  }
 });
+
+// PD2 maj-juni 2024
+Object.assign(PD2.TASK_EN, {
+ "w24ma": {
+  "s": "You have moved into a flat rented out by Højmark Bolig. But there are some problems with the flat, so you want to write a complaint to the landlord. Write the complaint to Højmark Bolig. You must begin and end the complaint in a suitable way. (In the exam you choose task A or B.)",
+  "p": [
+   "What your name is and where you live",
+   "When you moved into your new flat",
+   "What problems there are with the flat",
+   "What you would like Højmark Bolig to do"
+  ]
+ },
+ "w24mb": {
+  "s": "You had a birthday last weekend and held a big party. The band Fantastico played at the party. You would like to recommend the band to others who are going to hold a big party, so you want to write a recommendation of the band on Facebook. Write the recommendation. You must begin and end it in a suitable way. (In the exam you choose task A or B.)",
+  "p": [
+   "A little about the party you held",
+   "A little about the band Fantastico and what kind of music it plays",
+   "Why you want to recommend the band",
+   "How you got in touch with the band"
+  ]
+ },
+ "w24mc": {
+  "s": "You have received an e-mail from your friend Carl. In the e-mail he writes, among other things: \"… In your last e-mail you wrote that you have started living cheaply in everyday life to save money. How do you live cheaply in everyday life? And why do you want to save money? …\" Write a reply to Carl telling how you live cheaply in everyday life and why you want to save money. You must write at least 100 words.",
+  "p": [
+   "Tell how you live cheaply in everyday life",
+   "Tell why you want to save money"
+  ]
+ }
+});

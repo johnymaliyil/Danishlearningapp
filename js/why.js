@@ -3395,5 +3395,135 @@ PD2.WHY = {
 "da": "«Mange tror, at … de holder ferie resten af året» – «Men det gør de nu ikke» (E). Bagefter forklarer «For …», at de arbejder på pladsen om vinteren.",
 "en": "«Many think they are on holiday the rest of the year» – «but they actually aren't» (E); the next sentence explains they work on the site in winter."
 }
+},
+"p24m-1": {
+"q0": {
+"da": "Legejunglen: «Det er tilladt selv at medbringe mad i legelandet.» Blegdamsremisen: «Besøgende børnefamilier … er velkomne til at spise deres medbragte mad.» I de andre legelande må man ikke tage egen mad med.",
+"en": "Legejunglen: «Det er tilladt selv at medbringe mad» (you may bring your own food). Blegdamsremisen: families «er velkomne til at spise deres medbragte mad». All the other play centres forbid your own food."
+},
+"q1": {
+"da": "Efterskolen Ådalen: «Vi går tur sammen hver morgen, så du bliver frisk og klar til dagen.»",
+"en": "Efterskolen Ådalen: «Vi går tur sammen hver morgen» (we go for a walk together every morning)."
+},
+"q2": {
+"da": "Aalborg Efterskole: «De fire linjefag er E-sport, Ridning, Golf og Outdoor.» Rebild Efterskole: «seks linjefag: … mountainbike og ridning».",
+"en": "Aalborg Efterskole lists «Ridning» (riding) among its four main subjects, and Rebild Efterskole has «… mountainbike og ridning»."
+},
+"q3": {
+"da": "Femmøller Efterskole: «Vi tilbyder fem linjefag: E-sport, Tegning, Styling, Musik …». Pas på: andre skoler har Kunst eller Design, men ikke tegning.",
+"en": "Femmøller Efterskole: «fem linjefag: E-sport, Tegning (drawing), Styling, Musik …». Other schools have art or design, but not drawing."
+},
+"q4": {
+"da": "Salling Efterskole: «… er der samarbejde og udveksling med en skole i Spanien.» Ranum har spansk som fag, men det er ikke et samarbejde med en skole.",
+"en": "Salling Efterskole: «samarbejde og udveksling med en skole i Spanien» (cooperation and exchange with a school in Spain). Ranum teaches Spanish, but that is not a partner school."
+},
+"q5": {
+"da": "Jobannonce nr. 3: «De konkrete opgaver vil inkludere oprydning, tøjvask og madlavning fra måltidskasser.» Nr. 6 skriver det modsatte: «Indkøb og madlavning klarer vi selv.»",
+"en": "Job ad no. 3: tasks include «madlavning fra måltidskasser» (cooking from meal kits). No. 6 says the opposite: «Indkøb og madlavning klarer vi selv» (we do shopping and cooking ourselves)."
+}
+},
+"p24m-2": {
+"m0-1": {
+"da": "Annonce H: «plads til op til 90 personer», «Køkken» og «Serveringspersonale». Det er et stort festlokale.",
+"en": "Ad H: «room for up to 90 people», a kitchen and serving staff – a large party venue."
+},
+"m0-2": {
+"da": "Annonce G er fra en frisørsalon og tilbyder rabat, hvis man booker tid: «15 % på klipning og farvning».",
+"en": "Ad G is a hairdresser offering a discount if you book online – «15 % off cutting and colouring»."
+},
+"m0-3": {
+"da": "Annonce D: et erhvervslokale, der er «også velegnet til klinik og kontor» – altså først og fremmest til en butik.",
+"en": "Ad D: business premises «also suitable for a clinic and office» – so mainly meant for a small shop."
+},
+"m0-4": {
+"da": "Annonce B: «Lær alt om klipning, farvning og forskellige hårtyper på fire måneder» – det er et kursus for frisører.",
+"en": "Ad B: «learn all about cutting, colouring and hair types in four months» – a hairdressing course."
+},
+"m0-5": {
+"da": "Annonce I er et hotelophold, og listen mangler det første punkt: overnatning. Campingpladsen (E) har telt og campingvogn, ikke dobbeltværelser.",
+"en": "Ad I is a hotel stay; the first bullet is missing: the overnight stay. The campsite (E) has tents and caravans, not double rooms."
+},
+"m0-6": {
+"da": "Annonce F er en tøjbutik med åbningstilbud: «Mange størrelser og flotte farver» passer til jakker.",
+"en": "Ad F is a clothes shop with opening offers – «many sizes and nice colours» fits jackets."
+}
+},
+"p24m-3": {
+"g13": {
+"da": "Boligen er «kun på 35 m²», så den er «mindre» end den gamle lejlighed. Efter «meget … end» bruges komparativ.",
+"en": "The home is only 35 m², so it is «mindre» (smaller) than her old flat; «meget … end» needs a comparative."
+},
+"g14": {
+"da": "Hun har «desværre» måttet sælge møbler. Det er hun ikke glad for – hun er lidt «utilfreds».",
+"en": "She «unfortunately» had to sell furniture, so she is a bit «utilfreds» (unhappy about it)."
+},
+"g15": {
+"da": "«Alligevel» viser en modsætning: trods de små rum er det en «fordel» at bo der, fordi personalet hjælper døgnet rundt. «En stor fordel» – en-ord.",
+"en": "«Alligevel» (still) marks a contrast: despite the small room it is a big «fordel» (advantage), because staff help her around the clock."
+},
+"g16": {
+"da": "Kontakten betyder meget, og de snakker med hende, «også selvom de har travlt» – de har «altid» tid.",
+"en": "They talk with her «even when they are busy» – they «altid» (always) have time."
+},
+"g17": {
+"da": "Det passer hende godt, men hun savner at bestemme selv. To modsatte ting i én sætning → «selvom».",
+"en": "Two opposing ideas (it suits her, but she misses choosing) are joined with «selvom» (although)."
+},
+"g18": {
+"da": "Hun nyder at spise med andre, «for» hun synes, det er «kedeligt» at spise alene. Efter «det er» bruges t-form: kedeligt.",
+"en": "She enjoys eating with others because eating alone is «kedeligt» (boring); t-form after «det er»."
+},
+"g19": {
+"da": "Hun laver gymnastik og «har fået det bedre» – hun er blevet «mere» frisk.",
+"en": "She does gymnastics and feels better, so she has become «mere» (more) lively."
+},
+"g20": {
+"da": "Ledsætningen forklarer, hvorfor hun sjældent føler sig alene: «fordi der både er andre beboere og personale».",
+"en": "The clause gives the reason she rarely feels alone: «fordi» (because) there are residents and staff."
+}
+},
+"p24m-4": {
+"g21": {
+"da": "Næste sætning siger: «Det er nemlig en interesse, de deler … når der var kamp i fjernsynet.» Så den manglende sætning handler om fodbold: E «De ser også tit fodbold».",
+"en": "The next sentence mentions a shared interest and «kamp i fjernsynet» (a match on TV), so E: «They also often watch football»."
+},
+"g22": {
+"da": "Efter sætningen står der: «Sofia … har ikke tid til lange samtaler». Derfor H: «Men de snakker sjældent ret længe».",
+"en": "Then: «Sofia has no time for long conversations» – so H: «But they rarely talk for very long»."
+},
+"g23": {
+"da": "Vennerne taler om problemer, og «Fx talte hans venner lang tid med ham … og de gav ham mange gode råd» – det er et eksempel på B: «Og det har hjulpet Emil meget».",
+"en": "The «Fx …» (for example) sentence about his friends' advice illustrates B: «And that has helped Emil a lot»."
+},
+"g24": {
+"da": "Næste sætning: «For hun ved præcis, hvornår Sofia er i København … og det har hun det helt fint med.» Det passer til F: «Men det er ikke noget problem for hende».",
+"en": "Next: the girlfriend knows when Sofia visits «and is completely fine with it» – F: «But it is not a problem for her»."
+},
+"g25": {
+"da": "Sofia spørger, om Emil vil flytte tilbage. Bagefter: «det er umuligt for ham at flytte lige nu». Derfor D: «Men det kan Emil ikke». G (han flytter snart) siger det modsatte.",
+"en": "Sofia asks him to move back; then «it is impossible for him to move right now». So D: «But Emil can't». G says the opposite."
+}
+},
+"p24m-5": {
+"m0-1": {
+"da": "G beskriver, hvad hun laver: idéer til haven, planer for nye haver, klippe træer og buske, plante blomster.",
+"en": "G describes her tasks: garden ideas, plans for new gardens, pruning trees and bushes, planting flowers."
+},
+"m0-2": {
+"da": "H svarer på, om hun arbejder alene: små opgaver klarer hun selv, men «for det meste arbejder vi sammen i et team».",
+"en": "H: small jobs she does alone, but «mostly we work together in a team»."
+},
+"m0-3": {
+"da": "E: «At arbejdsdagene sjældent er ens … Det synes jeg er skønt» – det er det, hun godt kan lide.",
+"en": "E: «that working days are rarely the same … I think that's lovely» – what she likes about the job."
+},
+"m0-4": {
+"da": "C: «Ja, det synes jeg … buske eller træer … kan være ret tunge at løfte» – svaret på, om jobbet er fysisk hårdt. F handler om at arbejde udenfor i kulde og regn.",
+"en": "C: «Yes … bushes or trees can be quite heavy to lift» – the job is physically hard. F is about working outside in cold and rain."
+},
+"m0-5": {
+"da": "D: «Jeg løber fx i skoven eller tager på vandreture … Jeg rejser også meget» – det er hendes fritid. B handler om, hvor hun bor.",
+"en": "D: running, hiking and active holidays – her free time. B is about where she lives."
+}
 }
 };

@@ -107954,6 +107954,4694 @@ PD2.LISTEN_R = {
 }
 ]
 },
+"p24m-1": {
+"lines": [
+{
+"da": "Besøg et legeland på Sjælland",
+"en": "Visit a play centre on Zealand",
+"p": true,
+"note": "Heading of the first part: indoor play centres. «Besøg» is an imperative.",
+"words": [
+[
+"legeland",
+"play centre"
+],
+[
+"Sjælland",
+"Zealand"
+]
+]
+},
+{
+"da": "Eventyrfabrikken",
+"en": "Eventyrfabrikken (The Fairy-tale Factory)",
+"p": true,
+"note": "Name of the first play centre.",
+"words": [
+[
+"Eventyrfabrikken",
+"the fairy-tale factory"
+]
+]
+},
+{
+"da": "Telegrafvej 2, Ballerup",
+"en": "Telegrafvej 2, Ballerup",
+"p": false,
+"note": "The address."
+},
+{
+"da": "Hvis du ikke kan få det stort eller vildt nok, er Eventyrfabrikken et legeland for dig.",
+"en": "If you can't get it big or wild enough, Eventyrfabrikken is a play centre for you.",
+"p": false,
+"note": "The hvis-clause comes first, so the main clause starts with the verb «er».",
+"words": [
+[
+"vildt",
+"wild"
+]
+]
+},
+{
+"da": "På 8000 m er der plads til vild leg, og der er alle former for legeredskaber.",
+"en": "On 8,000 m² there is room for wild play, and there are all kinds of play equipment.",
+"p": false,
+"note": "«plads til» = room for. Place phrase first → inversion «er der».",
+"words": [
+[
+"legeredskaber",
+"play equipment"
+]
+]
+},
+{
+"da": "Udover at have alt det, de andre legelande har, har Eventyrfabrikken også elektriske karruseller, en 7D-biograf, et laserrum med skydespil og tre forskellige slags radiobiler.",
+"en": "Besides having everything the other play centres have, Eventyrfabrikken also has electric carousels, a 7D cinema, a laser room with shooting games and three different kinds of bumper cars.",
+"p": false,
+"note": "A long list. «Udover at» + infinitive = besides. The phrase comes first → «har Eventyrfabrikken».",
+"words": [
+[
+"Udover",
+"besides"
+],
+[
+"karruseller",
+"carousels"
+],
+[
+"skydespil",
+"shooting games"
+],
+[
+"radiobiler",
+"bumper cars"
+]
+]
+},
+{
+"da": "Der er også hold med fx babyrytmik hver tirsdag for børn fra tre til tolv måneder.",
+"en": "There are also classes, e.g. baby rhythm every Tuesday for children from three to twelve months.",
+"p": false,
+"note": "The example answer: babyrytmik is here. «hold» = class/group.",
+"words": [
+[
+"babyrytmik",
+"baby rhythm class"
+]
+]
+},
+{
+"da": "Mad og drikke må ikke medtages i Eventyrfabrikken, men kan købes i caféen.",
+"en": "Food and drink may not be brought into Eventyrfabrikken, but can be bought in the café.",
+"p": false,
+"note": "Passive with -s: «medtages», «købes». So: no own food here.",
+"words": [
+[
+"medtages",
+"be brought along"
+]
+]
+},
+{
+"da": "Happie’s Hule hos Bowl’n’Fun",
+"en": "Happie's Den at Bowl'n'Fun",
+"p": true,
+"note": "Name of the second play centre."
+},
+{
+"da": "Erantisvej 38, Næstved",
+"en": "Erantisvej 38, Næstved",
+"p": false,
+"note": "The address."
+},
+{
+"da": "Hos Happie’s Hule hos Bowl’n’Fun kan børn og barnlige sjæle få en supersjov dag!",
+"en": "At Happie's Den at Bowl'n'Fun, children and the young at heart can have a super fun day!",
+"p": false,
+"note": "«barnlige sjæle» = childlike souls. Place first → inversion «kan børn».",
+"words": [
+[
+"barnlige",
+"childlike"
+],
+[
+"supersjov",
+"super fun"
+]
+]
+},
+{
+"da": "Få brændt en masse krudt af, når I hopper, klatrer og rutsjer jer igennem det hyggelige legeland.",
+"en": "Burn off lots of energy as you jump, climb and slide your way through the cosy play centre.",
+"p": false,
+"note": "«brænde krudt af» = burn off energy. «I» = you (plural).",
+"words": [
+[
+"brændt",
+"burnt"
+],
+[
+"klatrer",
+"climb"
+],
+[
+"rutsjer",
+"slide"
+]
+]
+},
+{
+"da": "Her er ingen skærmtrolde – kun timevis af sjov indendørs, så I kan lege uanset vejret.",
+"en": "There are no screen trolls here – just hours of fun indoors, so you can play whatever the weather.",
+"p": false,
+"note": "«skærmtrolde» = kids glued to screens. «uanset» = regardless of.",
+"words": [
+[
+"skærmtrolde",
+"screen trolls"
+],
+[
+"timevis",
+"hours of"
+],
+[
+"uanset",
+"regardless of"
+]
+]
+},
+{
+"da": "Happie’s Hule har boldland, rutsjebaner, forhindringsbaner og mange andre sjove aktiviteter for børn.",
+"en": "Happie's Den has a ball land, slides, obstacle courses and many other fun activities for children.",
+"p": false,
+"note": "A list of activities.",
+"words": [
+[
+"rutsjebaner",
+"slides"
+],
+[
+"forhindringsbaner",
+"obstacle courses"
+]
+]
+},
+{
+"da": "Hvis I også spiser på restauranten The Grill, er det gratis for de voksne at lege med.",
+"en": "If you also eat at The Grill restaurant, it is free for the adults to join in the play.",
+"p": false,
+"note": "Hvis-clause first → inversion «er det». «lege med» = join in.",
+"words": [
+[
+"restauranten",
+"the restaurant"
+],
+[
+"voksne",
+"adults"
+]
+]
+},
+{
+"da": "Til børnene kan man købe endagsbilletter, 10-turskort eller årskort.",
+"en": "For the children you can buy day tickets, 10-visit cards or annual passes.",
+"p": false,
+"note": "«man» = you/one. Types of tickets.",
+"words": [
+[
+"endagsbilletter",
+"one-day tickets"
+],
+[
+"årskort",
+"annual pass"
+]
+]
+},
+{
+"da": "Man må ikke medbringe egen mad og drikke.",
+"en": "You may not bring your own food and drink.",
+"p": false,
+"note": "A rule: no own food here. «må ikke» = must not.",
+"words": [
+[
+"medbringe",
+"bring along"
+]
+]
+},
+{
+"da": "Legejunglen",
+"en": "Legejunglen (The Play Jungle)",
+"p": true,
+"note": "Name of the third play centre."
+},
+{
+"da": "Københavnsvej 19, Slangerup",
+"en": "Københavnsvej 19, Slangerup",
+"p": false,
+"note": "The address."
+},
+{
+"da": "Legejunglen er et 3.500 m indendørs legeland, der bare venter på at blive udforsket, og som udfordrer alle – uanset alder.",
+"en": "Legejunglen is a 3,500 m² indoor play centre that is just waiting to be explored and challenges everyone – whatever their age.",
+"p": false,
+"note": "«at blive udforsket» – passive with «blive». Two relative clauses with «der» and «som».",
+"words": [
+[
+"indendørs",
+"indoor"
+],
+[
+"udforsket",
+"explored"
+],
+[
+"udfordrer",
+"challenges"
+]
+]
+},
+{
+"da": "I Slangerup findes Danmarks største legestruktur med Danmarks eneste Tigerrutsjebane, der er over 4 meter høj.",
+"en": "In Slangerup you find Denmark's largest play structure with Denmark's only Tiger slide, which is over 4 metres high.",
+"p": false,
+"note": "«findes» = there is/exists (s-verb). Place first → inversion.",
+"words": [
+[
+"legestruktur",
+"play structure"
+],
+[
+"Tigerrutsjebane",
+"tiger slide"
+]
+]
+},
+{
+"da": "Der er gratis airhockey og bordfodbold.",
+"en": "There is free air hockey and table football.",
+"p": false,
+"note": "Free games. «gratis» = free."
+},
+{
+"da": "Du kan frit låne sumodragter, og de mange arkademaskiner koster det heller ikke noget at benytte.",
+"en": "You can borrow sumo suits freely, and the many arcade machines don't cost anything to use either.",
+"p": false,
+"note": "«heller ikke» = not … either. «benytte» = use.",
+"words": [
+[
+"sumodragter",
+"sumo suits"
+],
+[
+"arkademaskiner",
+"arcade machines"
+],
+[
+"benytte",
+"use"
+]
+]
+},
+{
+"da": "Der er endvidere et 250 m stort område kun for de mindste med sin helt egen legestruktur inklusiv rutsjebane og mange sjove aktiviteter.",
+"en": "There is also a 250 m² area just for the smallest children, with its very own play structure including a slide and many fun activities.",
+"p": false,
+"note": "«endvidere» = furthermore. «de mindste» = the youngest.",
+"words": [
+[
+"endvidere",
+"furthermore"
+],
+[
+"område",
+"area"
+],
+[
+"inklusiv",
+"including"
+]
+]
+},
+{
+"da": "Caféen har kaffe og andet godt.",
+"en": "The café has coffee and other treats.",
+"p": false,
+"note": "«andet godt» = other good things."
+},
+{
+"da": "Det er tilladt selv at medbringe mad i legelandet.",
+"en": "You are allowed to bring your own food into the play centre.",
+"p": false,
+"note": "Answer 1: own food is allowed here. «det er tilladt at» = it is allowed to.",
+"words": [
+[
+"tilladt",
+"allowed"
+],
+[
+"medbringe",
+"bring along"
+]
+]
+},
+{
+"da": "Drikkevarer skal dog købes i Legejunglen.",
+"en": "Drinks, however, must be bought in Legejunglen.",
+"p": false,
+"note": "«dog» = however. Passive with -s: «købes».",
+"words": [
+[
+"Drikkevarer",
+"drinks"
+]
+]
+},
+{
+"da": "Legeland – Grøndal Multicenter",
+"en": "Play centre – Grøndal Multicenter",
+"p": true,
+"note": "Name of the fourth play centre."
+},
+{
+"da": "Hvidkildevej 64, København NV",
+"en": "Hvidkildevej 64, Copenhagen NW",
+"p": false,
+"note": "The address."
+},
+{
+"da": "Legelandet i Grøndal Multicenter i København NV har de fleste klassiske legelandsoplevelser – heriblandt rutsjebaner, boldbassiner, boldbane samt de klassiske klatrebaner.",
+"en": "The play centre at Grøndal Multicenter in Copenhagen NW has most of the classic play-centre experiences – including slides, ball pools, a ball court and the classic climbing courses.",
+"p": false,
+"note": "«heriblandt» = among them. «samt» = and also.",
+"words": [
+[
+"legelandsoplevelser",
+"play-centre experiences"
+],
+[
+"heriblandt",
+"including"
+],
+[
+"boldbassiner",
+"ball pools"
+],
+[
+"klatrebaner",
+"climbing courses"
+]
+]
+},
+{
+"da": "Der er også et specielt område for de mindste børn.",
+"en": "There is also a special area for the smallest children.",
+"p": false,
+"note": "«et specielt område» – t-form after «et»."
+},
+{
+"da": "Legelandet har plads til 60 børn ad gangen, og de leger i 1,5 times intervaller.",
+"en": "The play centre has room for 60 children at a time, and they play in 1.5-hour slots.",
+"p": false,
+"note": "«ad gangen» = at a time.",
+"words": [
+[
+"ad gangen",
+"at a time"
+],
+[
+"intervaller",
+"intervals"
+]
+]
+},
+{
+"da": "Det er derfor en god idé at booke tid på hjemmesiden i forvejen.",
+"en": "So it's a good idea to book a time on the website in advance.",
+"p": false,
+"note": "«i forvejen» = in advance.",
+"words": [
+[
+"hjemmesiden",
+"the website"
+],
+[
+"i forvejen",
+"in advance"
+]
+]
+},
+{
+"da": "Legelandet er en del af Grøndal Multicenters mange tilbud og aktiviteter, så familien vil nemt kunne skrue en sjov dag sammen i Grøndal Multicenter.",
+"en": "The play centre is part of Grøndal Multicenter's many offers and activities, so the family can easily put together a fun day there.",
+"p": false,
+"note": "«skrue … sammen» = put together. Genitive -s: «Multicenters».",
+"words": [
+[
+"aktiviteter",
+"activities"
+]
+]
+},
+{
+"da": "Bemærk, at der ikke må medtages mad og drikke i legelandet.",
+"en": "Note that food and drink may not be brought into the play centre.",
+"p": false,
+"note": "No own food. «Bemærk» = note (imperative).",
+"words": [
+[
+"Bemærk",
+"note"
+],
+[
+"medtages",
+"be brought along"
+]
+]
+},
+{
+"da": "Al spisning skal foregå i caféområdet.",
+"en": "All eating must take place in the café area.",
+"p": false,
+"note": "«foregå» = take place.",
+"words": [
+[
+"spisning",
+"eating"
+],
+[
+"caféområdet",
+"the café area"
+]
+]
+},
+{
+"da": "Leo’s Legeland",
+"en": "Leo's Play Centre",
+"p": true,
+"note": "Name of the fifth play centre."
+},
+{
+"da": "Herlev Hovedgade 31, Herlev / Industribuen 5, Ishøj",
+"en": "Herlev Hovedgade 31, Herlev / Industribuen 5, Ishøj",
+"p": false,
+"note": "Two addresses."
+},
+{
+"da": "Leo’s Legeland er en af de absolut største legelandskæder i hele Norden.",
+"en": "Leo's Legeland is one of the very largest play-centre chains in the whole Nordic region.",
+"p": false,
+"note": "«en af de største» = one of the largest (superlative with -ste).",
+"words": [
+[
+"absolut",
+"absolutely"
+],
+[
+"legelandskæder",
+"play-centre chains"
+]
+]
+},
+{
+"da": "Der er så mange sjove oplevelser for børn og barnlige sjæle, at det halve kunne være nok.",
+"en": "There are so many fun experiences for children and the young at heart that half would be enough.",
+"p": false,
+"note": "«så … at» = so … that.",
+"words": [
+[
+"oplevelser",
+"experiences"
+],
+[
+"barnlige",
+"childlike"
+]
+]
+},
+{
+"da": "Prøv de mange rutsjebaner, indendørs cykelbaner, kuglerum, kæmpe legepladser og meget mere.",
+"en": "Try the many slides, indoor cycle tracks, ball rooms, giant playgrounds and much more.",
+"p": false,
+"note": "Imperative «Prøv». A list.",
+"words": [
+[
+"cykelbaner",
+"cycle tracks"
+],
+[
+"kuglerum",
+"ball room"
+],
+[
+"legepladser",
+"playgrounds"
+]
+]
+},
+{
+"da": "Leo’s Legeland arrangerer desuden sommerlejre og forskellige sportsaktiviteter.",
+"en": "Leo's Legeland also arranges summer camps and various sports activities.",
+"p": false,
+"note": "«desuden» = in addition.",
+"words": [
+[
+"arrangerer",
+"arranges"
+],
+[
+"sommerlejre",
+"summer camps"
+]
+]
+},
+{
+"da": "I legelandet er der en hyggelig café, hvor hele familien kan samles om et lækkert måltid mad efter en lang dag med masser af fart på.",
+"en": "In the play centre there is a cosy café where the whole family can gather for a tasty meal after a long, action-packed day.",
+"p": false,
+"note": "«samles om» = gather around. «fart på» = lots of action.",
+"words": [
+[
+"samles",
+"gather"
+],
+[
+"måltid",
+"meal"
+]
+]
+},
+{
+"da": "Det er ikke tilladt at medbringe eller indtage egen mad i legelandet.",
+"en": "It is not allowed to bring or eat your own food in the play centre.",
+"p": false,
+"note": "No own food. «indtage» = eat (formal).",
+"words": [
+[
+"tilladt",
+"allowed"
+],
+[
+"indtage",
+"consume"
+]
+]
+},
+{
+"da": "Blegdamsremisen",
+"en": "Blegdamsremisen",
+"p": true,
+"note": "Name of the last play centre."
+},
+{
+"da": "Blegdamsvej 132a, København Ø",
+"en": "Blegdamsvej 132a, Copenhagen East",
+"p": false,
+"note": "The address."
+},
+{
+"da": "Blegdamsremisen er Københavns eneste gratis indendørs legeland og er et af byens absolut mest populære og elskede legesteder.",
+"en": "Blegdamsremisen is Copenhagen's only free indoor play centre and one of the city's most popular and loved play places.",
+"p": false,
+"note": "«mest populære» – superlative with «mest» for long adjectives.",
+"words": [
+[
+"populære",
+"popular"
+],
+[
+"legesteder",
+"play places"
+]
+]
+},
+{
+"da": "Der er masser af plads til boldspil og leg i den gamle bygning, der oprindeligt blev anvendt som remise, dvs. en slags natgarage for byens legendariske sporvogne.",
+"en": "There's lots of room for ball games and play in the old building, which was originally used as a depot, i.e. a kind of night garage for the city's legendary trams.",
+"p": false,
+"note": "Passive with «blive»: «blev anvendt». «dvs.» = that is.",
+"words": [
+[
+"oprindeligt",
+"originally"
+],
+[
+"anvendt",
+"used"
+],
+[
+"sporvogne",
+"trams"
+]
+]
+},
+{
+"da": "I Blegdamsremisen findes der blandt andet et spændende legelandskab, boldbane, bordtennis, sørøverskib, tovbane og kreative værksteder.",
+"en": "In Blegdamsremisen there is, among other things, an exciting play landscape, a ball court, table tennis, a pirate ship, a rope course and creative workshops.",
+"p": false,
+"note": "«blandt andet» = among other things.",
+"words": [
+[
+"legelandskab",
+"play landscape"
+],
+[
+"sørøverskib",
+"pirate ship"
+],
+[
+"værksteder",
+"workshops"
+]
+]
+},
+{
+"da": "Besøgende børnefamilier og daginstitutioner er velkomne til at spise deres medbragte mad.",
+"en": "Visiting families and day-care institutions are welcome to eat the food they have brought.",
+"p": false,
+"note": "Answer 1: own food is allowed here. «medbragte» = brought along.",
+"words": [
+[
+"børnefamilier",
+"families with children"
+],
+[
+"daginstitutioner",
+"day-care institutions"
+],
+[
+"medbragte",
+"brought along"
+]
+]
+},
+{
+"da": "Det er desværre ikke muligt at holde børnefødselsdag i Blegdamsremisen.",
+"en": "Unfortunately it is not possible to hold a children's birthday party in Blegdamsremisen.",
+"p": false,
+"note": "«desværre» = unfortunately.",
+"words": [
+[
+"desværre",
+"unfortunately"
+],
+[
+"børnefødselsdag",
+"children's birthday party"
+]
+]
+},
+{
+"da": "Efterskoler i Jylland",
+"en": "Boarding schools in Jutland",
+"p": true,
+"note": "Heading of the second part. An efterskole is a boarding school for teenagers (grades 8–10).",
+"words": [
+[
+"Efterskoler",
+"boarding schools"
+],
+[
+"Jylland",
+"Jutland"
+]
+]
+},
+{
+"da": "Øse Efterskole",
+"en": "Øse Efterskole",
+"p": true,
+"note": "The name of a boarding school (efterskole)."
+},
+{
+"da": "100 elever – 9. og 10. klasse",
+"en": "100 pupils – 9th and 10th grade",
+"p": false,
+"note": "Number of pupils and which grades.",
+"words": [
+[
+"elever",
+"pupils"
+]
+]
+},
+{
+"da": "12 kreative og spændende timer om ugen med det, du brænder mest for.",
+"en": "12 creative and exciting hours a week with what you are most passionate about.",
+"p": false,
+"note": "«brænde for» = be passionate about; «for» goes to the end.",
+"words": [
+[
+"kreative",
+"creative"
+],
+[
+"spændende",
+"exciting"
+]
+]
+},
+{
+"da": "En afvekslende hverdag hver dag.",
+"en": "A varied everyday life every day.",
+"p": false,
+"note": "A short slogan.",
+"words": [
+[
+"afvekslende",
+"varied"
+]
+]
+},
+{
+"da": "Hvor findes det?",
+"en": "Where can you find that?",
+"p": false,
+"note": "A question. «findes» = exists."
+},
+{
+"da": "Lige her!",
+"en": "Right here!",
+"p": false,
+"note": "Short answer."
+},
+{
+"da": "Vi har fire linjefag: Kunst, Musik, Teater og Film, Animation & IT.",
+"en": "We have four main subjects: Art, Music, Drama and Film, Animation & IT.",
+"p": false,
+"note": "«linjefag» = the main subject you choose at an efterskole.",
+"words": [
+[
+"linjefag",
+"main subject"
+]
+]
+},
+{
+"da": "I både 9. og 10. klasse har vi tre niveauer i dansk, engelsk og matematik, eller vælg prøvefri 10. klasse.",
+"en": "In both 9th and 10th grade we have three levels in Danish, English and maths, or choose an exam-free 10th grade.",
+"p": false,
+"note": "«både … og» = both … and. «prøvefri» = without exams.",
+"words": [
+[
+"niveauer",
+"levels"
+],
+[
+"prøvefri",
+"exam-free"
+]
+]
+},
+{
+"da": "Vi sover en time længere hver dag i vinterhalvåret!",
+"en": "We sleep an hour longer every day in the winter half of the year!",
+"p": false,
+"note": "«længere» = longer (comparative).",
+"words": [
+[
+"vinterhalvåret",
+"winter half-year"
+]
+]
+},
+{
+"da": "Ranum Efterskole College",
+"en": "Ranum Efterskole College",
+"p": true,
+"note": "The name of a boarding school (efterskole)."
+},
+{
+"da": "500 elever – 9. og 10. klasse",
+"en": "500 pupils – 9th and 10th grade",
+"p": false,
+"note": "Number of pupils and which grades.",
+"words": [
+[
+"elever",
+"pupils"
+]
+]
+},
+{
+"da": "Ranum Efterskole College tilbyder niveaudelt undervisning i 9. og 10. klasse samt international prøvefri 10. klasse med 20+ Cambridge IGSCE fag: fx kinesisk, spansk og fransk.",
+"en": "Ranum Efterskole College offers level-based teaching in 9th and 10th grade and an international exam-free 10th grade with 20+ Cambridge IGCSE subjects: e.g. Chinese, Spanish and French.",
+"p": false,
+"note": "They teach Spanish, but there is no partner school in Spain. «samt» = and also.",
+"words": [
+[
+"niveaudelt",
+"level-based"
+],
+[
+"undervisning",
+"teaching"
+],
+[
+"kinesisk",
+"Chinese"
+]
+]
+},
+{
+"da": "Vælg 3 profilfag blandt fagene Adventure, Dykning, Sejlads, Dans, Medie, Musik, Street Performance.",
+"en": "Choose 3 profile subjects among Adventure, Diving, Sailing, Dance, Media, Music, Street Performance.",
+"p": false,
+"note": "Imperative «Vælg». «blandt» = among.",
+"words": [
+[
+"profilfag",
+"profile subjects"
+],
+[
+"Dykning",
+"diving"
+],
+[
+"Sejlads",
+"sailing"
+]
+]
+},
+{
+"da": "Vær med til at forme dit skoleår!",
+"en": "Help shape your school year!",
+"p": false,
+"note": "«være med til at» = take part in.",
+"words": [
+[
+"skoleår",
+"school year"
+]
+]
+},
+{
+"da": "Thy Sportsefterskole",
+"en": "Thy Sportsefterskole",
+"p": true,
+"note": "The name of a boarding school (efterskole)."
+},
+{
+"da": "102 elever – 8., 9. og 10. klasse",
+"en": "102 pupils – 8th, 9th and 10th grade",
+"p": false,
+"note": "Number of pupils and which grades.",
+"words": [
+[
+"elever",
+"pupils"
+]
+]
+},
+{
+"da": "På Thy Sportsefterskole har vi syv linjefag: E–sport, Fodbold, Håndbold, Dance, Cold Hawaii, Badminton og Elite Svømning.",
+"en": "At Thy Sportsefterskole we have seven main subjects: E-sport, Football, Handball, Dance, Cold Hawaii, Badminton and Elite Swimming.",
+"p": false,
+"note": "Place first → inversion «har vi».",
+"words": [
+[
+"linjefag",
+"main subjects"
+],
+[
+"Svømning",
+"swimming"
+]
+]
+},
+{
+"da": "Et ophold på Thy Sportsefterskole er en investering i din fremtid.",
+"en": "A stay at Thy Sportsefterskole is an investment in your future.",
+"p": false,
+"note": "«et ophold» = a stay.",
+"words": [
+[
+"ophold",
+"stay"
+],
+[
+"investering",
+"investment"
+]
+]
+},
+{
+"da": "Du får venner for livet.",
+"en": "You get friends for life.",
+"p": false,
+"note": "Short sentence."
+},
+{
+"da": "Du udforsker nye sider af livet, og hvem der skabte det.",
+"en": "You explore new sides of life, and who created it.",
+"p": false,
+"note": "In an indirect question with «hvem» as subject, add «der».",
+"words": [
+[
+"udforsker",
+"explore"
+],
+[
+"skabte",
+"created"
+]
+]
+},
+{
+"da": "Vi tror på det bedste i vores holdkammerater og på et ægte fællesskab bygget på kristne værdier.",
+"en": "We believe in the best in our teammates and in a real community built on Christian values.",
+"p": false,
+"note": "«tro på» = believe in.",
+"words": [
+[
+"holdkammerater",
+"teammates"
+],
+[
+"fællesskab",
+"community"
+],
+[
+"værdier",
+"values"
+]
+]
+},
+{
+"da": "Løgumkloster Efterskole",
+"en": "Løgumkloster Efterskole",
+"p": true,
+"note": "The name of a boarding school (efterskole)."
+},
+{
+"da": "80 elever – 8., 9. og 10. klasse",
+"en": "80 pupils – 8th, 9th and 10th grade",
+"p": false,
+"note": "Number of pupils and which grades.",
+"words": [
+[
+"elever",
+"pupils"
+]
+]
+},
+{
+"da": "Løgumkloster Efterskole er en kristen efterskole med et stærkt og nært fællesskab, hvor der er plads til netop dig.",
+"en": "Løgumkloster Efterskole is a Christian boarding school with a strong, close community where there is room for exactly you.",
+"p": false,
+"note": "«et stærkt og nært» – t-form adjectives after «et».",
+"words": [
+[
+"kristen",
+"Christian"
+],
+[
+"fællesskab",
+"community"
+]
+]
+},
+{
+"da": "Du får spændende ture, musical og en lang række valgfag, så du kan sammensætte dit helt eget skema med lige nøjagtig de ting, du brænder for.",
+"en": "You get exciting trips, a musical and a long list of electives, so you can put together your very own timetable with exactly the things you love.",
+"p": false,
+"note": "«valgfag» = electives. «lige nøjagtig» = exactly.",
+"words": [
+[
+"valgfag",
+"electives"
+],
+[
+"sammensætte",
+"put together"
+],
+[
+"nøjagtig",
+"exactly"
+]
+]
+},
+{
+"da": "Skolen har 5 linjer: Fodbold, E-sport, Musik, Adventure og Craft.",
+"en": "The school has 5 lines: Football, E-sport, Music, Adventure and Craft.",
+"p": false,
+"note": "«linjer» = lines/main subjects."
+},
+{
+"da": "Brøruphus Efterskole",
+"en": "Brøruphus Efterskole",
+"p": true,
+"note": "The name of a boarding school (efterskole)."
+},
+{
+"da": "180 elever – 9. og 10. klasse",
+"en": "180 pupils – 9th and 10th grade",
+"p": false,
+"note": "Number of pupils and which grades.",
+"words": [
+[
+"elever",
+"pupils"
+]
+]
+},
+{
+"da": "På Brøruphus tror vi på, at unge kan noget, vil noget, er videbegærlige – og har lyst til oplevelser.",
+"en": "At Brøruphus we believe that young people can do something, want something, are eager to learn – and want experiences.",
+"p": false,
+"note": "«tro på, at» = believe that.",
+"words": [
+[
+"videbegærlige",
+"eager to learn"
+],
+[
+"oplevelser",
+"experiences"
+]
+]
+},
+{
+"da": "Hos os kan du fordybe dig i de boglige fag samt i et af vores seks linjefag: Kunst, Musik, Teater, Håndbold, Fodbold og Badminton.",
+"en": "With us you can immerse yourself in the academic subjects and in one of our six main subjects: Art, Music, Drama, Handball, Football and Badminton.",
+"p": false,
+"note": "«fordybe sig i» = immerse yourself in. Reflexive pronoun «dig».",
+"words": [
+[
+"fordybe",
+"immerse"
+],
+[
+"boglige",
+"academic"
+]
+]
+},
+{
+"da": "Vi tilbyder et efterskoleophold fyldt med nye oplevelser og udfordringer.",
+"en": "We offer a boarding-school stay full of new experiences and challenges.",
+"p": false,
+"note": "«fyldt med» = filled with.",
+"words": [
+[
+"efterskoleophold",
+"boarding-school stay"
+],
+[
+"udfordringer",
+"challenges"
+]
+]
+},
+{
+"da": "Vi giver eleverne en almen uddannelse og opdragelse med vægt på den personlige udvikling, hvor fællesskab og samvær er vigtige forudsætninger.",
+"en": "We give the pupils a general education and upbringing with an emphasis on personal development, where community and togetherness are important foundations.",
+"p": false,
+"note": "«med vægt på» = with emphasis on.",
+"words": [
+[
+"opdragelse",
+"upbringing"
+],
+[
+"udvikling",
+"development"
+],
+[
+"forudsætninger",
+"prerequisites"
+]
+]
+},
+{
+"da": "Skolen har meget fine faciliteter med bl.a. to idrætshaller (den ene med internationale mål), teamtrack, udendørs fodboldbaner, beachvolley-bane, nyt musikhus, stort kunstlokale og teaterlokale.",
+"en": "The school has very fine facilities including two sports halls (one with international dimensions), a teamtrack, outdoor football pitches, a beach-volley court, a new music house, a large art room and a drama room.",
+"p": false,
+"note": "«bl.a.» = among other things.",
+"words": [
+[
+"faciliteter",
+"facilities"
+],
+[
+"idrætshaller",
+"sports halls"
+],
+[
+"udendørs",
+"outdoor"
+]
+]
+},
+{
+"da": "Efterskolen Ådalen",
+"en": "Efterskolen Ådalen",
+"p": true,
+"note": "The name of a boarding school (efterskole)."
+},
+{
+"da": "110 elever – 9. og 10. klasse",
+"en": "110 pupils – 9th and 10th grade",
+"p": false,
+"note": "Number of pupils and which grades.",
+"words": [
+[
+"elever",
+"pupils"
+]
+]
+},
+{
+"da": "Kreativ efterskole med sammenhold og nærvær mellem elever og lærere.",
+"en": "Creative boarding school with unity and closeness between pupils and teachers.",
+"p": false,
+"note": "A slogan without a verb.",
+"words": [
+[
+"sammenhold",
+"unity"
+],
+[
+"nærvær",
+"closeness"
+]
+]
+},
+{
+"da": "Vi har høje ambitioner på dine og undervisningens vegne, og du rejser på to studieture til udlandet.",
+"en": "We have high ambitions on behalf of you and the teaching, and you go on two study trips abroad.",
+"p": false,
+"note": "«på … vegne» = on behalf of.",
+"words": [
+[
+"ambitioner",
+"ambitions"
+],
+[
+"studieture",
+"study trips"
+],
+[
+"udlandet",
+"abroad"
+]
+]
+},
+{
+"da": "Vores efterskole ligger i naturskønne omgivelser tæt på Aarhus.",
+"en": "Our school is in beautiful natural surroundings close to Aarhus.",
+"p": false,
+"note": "«ligge» = be located.",
+"words": [
+[
+"naturskønne",
+"scenic"
+],
+[
+"omgivelser",
+"surroundings"
+]
+]
+},
+{
+"da": "Vi har fem linjefag: Musik, Drama, Kunst, Sport og E-sport.",
+"en": "We have five main subjects: Music, Drama, Art, Sport and E-sport.",
+"p": false,
+"note": "A list."
+},
+{
+"da": "Hele skolen rejser på studietur til kontrasternes hovedstad Berlin.",
+"en": "The whole school goes on a study trip to Berlin, the capital of contrasts.",
+"p": false,
+"note": "«kontrasternes» – genitive plural.",
+"words": [
+[
+"kontrasternes",
+"of the contrasts"
+],
+[
+"hovedstad",
+"capital"
+]
+]
+},
+{
+"da": "Du rejser også på studietur med dit linjefag.",
+"en": "You also go on a study trip with your main subject.",
+"p": false,
+"note": "«dit linjefag» – et-word."
+},
+{
+"da": "Vi går tur sammen hver morgen, så du bliver frisk og klar til dagen.",
+"en": "We go for a walk together every morning, so you feel fresh and ready for the day.",
+"p": false,
+"note": "Answer 2: the morning walk is here. «gå tur» = go for a walk."
+},
+{
+"da": "Du spiser sund mad, der smager godt, er varieret og gerne økologisk.",
+"en": "You eat healthy food that tastes good, is varied and preferably organic.",
+"p": false,
+"note": "«gerne» here = preferably.",
+"words": [
+[
+"varieret",
+"varied"
+],
+[
+"økologisk",
+"organic"
+]
+]
+},
+{
+"da": "Vi har sølvmedalje i økologi.",
+"en": "We have a silver medal in organic food.",
+"p": false,
+"note": "A Danish organic label.",
+"words": [
+[
+"sølvmedalje",
+"silver medal"
+]
+]
+},
+{
+"da": "Der står altid en vegetarret på menuen.",
+"en": "There is always a vegetarian dish on the menu.",
+"p": false,
+"note": "«der står» = there is (on a list).",
+"words": [
+[
+"vegetarret",
+"vegetarian dish"
+]
+]
+},
+{
+"da": "Aalborg Efterskole",
+"en": "Aalborg Efterskole",
+"p": true,
+"note": "The name of a boarding school (efterskole)."
+},
+{
+"da": "105 elever – 8., 9. og 10. klasse",
+"en": "105 pupils – 8th, 9th and 10th grade",
+"p": false,
+"note": "Number of pupils and which grades.",
+"words": [
+[
+"elever",
+"pupils"
+]
+]
+},
+{
+"da": "Velkommen til den fedeste kristne efterskole.",
+"en": "Welcome to the coolest Christian boarding school.",
+"p": false,
+"note": "«fedeste» = coolest (slang superlative); -e after «den».",
+"words": [
+[
+"fedeste",
+"coolest"
+]
+]
+},
+{
+"da": "Aalborg Efterskole lægger vægt på at give en spændende og udfordrende undervisning og et fællesskab, hvor den enkelte elev opdager og udnytter sit potentiale.",
+"en": "Aalborg Efterskole emphasises giving exciting and challenging teaching and a community where each pupil discovers and uses their potential.",
+"p": false,
+"note": "«lægge vægt på» = emphasise. «sit» refers back to the subject «eleven».",
+"words": [
+[
+"udfordrende",
+"challenging"
+],
+[
+"udnytter",
+"makes use of"
+],
+[
+"potentiale",
+"potential"
+]
+]
+},
+{
+"da": "De fire linjefag er E-sport, Ridning, Golf og Outdoor.",
+"en": "The four main subjects are E-sport, Riding, Golf and Outdoor.",
+"p": false,
+"note": "Answer 3: riding (ridning) is here.",
+"words": [
+[
+"Ridning",
+"riding"
+]
+]
+},
+{
+"da": "Derudover er der en lang række af spændende valgfag.",
+"en": "In addition there is a long list of exciting electives.",
+"p": false,
+"note": "«Derudover» first → inversion «er der».",
+"words": [
+[
+"Derudover",
+"in addition"
+],
+[
+"valgfag",
+"electives"
+]
+]
+},
+{
+"da": "Askov Efterskole",
+"en": "Askov Efterskole",
+"p": true,
+"note": "The name of a boarding school (efterskole)."
+},
+{
+"da": "120 elever – 9. og 10. klasse",
+"en": "120 pupils – 9th and 10th grade",
+"p": false,
+"note": "Number of pupils and which grades.",
+"words": [
+[
+"elever",
+"pupils"
+]
+]
+},
+{
+"da": "Kreativitet, fællesskab og nærvær.",
+"en": "Creativity, community and closeness.",
+"p": false,
+"note": "A slogan.",
+"words": [
+[
+"Kreativitet",
+"creativity"
+]
+]
+},
+{
+"da": "Her er der plads til krøllede hjerner, store idéer og skæve vinkler.",
+"en": "Here there is room for curly brains, big ideas and quirky angles.",
+"p": false,
+"note": "Playful language: creative thinkers are welcome.",
+"words": [
+[
+"krøllede",
+"curly"
+],
+[
+"vinkler",
+"angles"
+]
+]
+},
+{
+"da": "Vi udfordrer din kreativitet i vores syv linjefag: Musik, Teater, Animation, Game Design, Kunst & Design, Forfatter og Musical.",
+"en": "We challenge your creativity in our seven main subjects: Music, Drama, Animation, Game Design, Art & Design, Writing and Musical.",
+"p": false,
+"note": "«udfordre» = challenge.",
+"words": [
+[
+"udfordrer",
+"challenge"
+],
+[
+"Forfatter",
+"author"
+]
+]
+},
+{
+"da": "På Askov Efterskole kommer du aldrig til at kede dig.",
+"en": "At Askov Efterskole you'll never be bored.",
+"p": false,
+"note": "«komme til at» = end up / will. «kede sig» = be bored.",
+"words": [
+[
+"kede dig",
+"be bored"
+]
+]
+},
+{
+"da": "Til gengæld kommer du til at skabe minder for livet.",
+"en": "Instead you'll create memories for life.",
+"p": false,
+"note": "«til gengæld» = on the other hand.",
+"words": [
+[
+"gengæld",
+"in return"
+],
+[
+"minder",
+"memories"
+]
+]
+},
+{
+"da": "Sædding Efterskole",
+"en": "Sædding Efterskole",
+"p": true,
+"note": "The name of a boarding school (efterskole)."
+},
+{
+"da": "84 elever – 8., 9. og 10. klasse",
+"en": "84 pupils – 8th, 9th and 10th grade",
+"p": false,
+"note": "Number of pupils and which grades.",
+"words": [
+[
+"elever",
+"pupils"
+]
+]
+},
+{
+"da": "Et ophold på Sædding Efterskole giver dig begejstring for livet!",
+"en": "A stay at Sædding Efterskole gives you enthusiasm for life!",
+"p": false,
+"note": "«begejstring» = enthusiasm.",
+"words": [
+[
+"begejstring",
+"enthusiasm"
+]
+]
+},
+{
+"da": "Sædding er en lille, hyggelig skole med høj faglighed, tætte og forpligtende fællesskaber samt en sund livsstil i en dagligdag, der er præget af begejstring for det liv, som Gud har givet os.",
+"en": "Sædding is a small, cosy school with high academic standards, close and committed communities and a healthy lifestyle in an everyday life marked by joy in the life God has given us.",
+"p": false,
+"note": "«præget af» = marked by.",
+"words": [
+[
+"faglighed",
+"academic level"
+],
+[
+"forpligtende",
+"committed"
+],
+[
+"livsstil",
+"lifestyle"
+]
+]
+},
+{
+"da": "Foruden alle de traditionelle folkeskolefag tilbyder vi blandt andet profilfagene Fodbold Extra, Volley Extra, Design & Kunst, Musik & Band, Cambridge IGCSE English, World Wide og Jesus Extra.",
+"en": "Besides all the traditional school subjects we offer, among others, the profile subjects Football Extra, Volley Extra, Design & Art, Music & Band, Cambridge IGCSE English, World Wide and Jesus Extra.",
+"p": false,
+"note": "«Foruden» = besides. Phrase first → inversion «tilbyder vi».",
+"words": [
+[
+"Foruden",
+"besides"
+],
+[
+"traditionelle",
+"traditional"
+],
+[
+"profilfagene",
+"the profile subjects"
+]
+]
+},
+{
+"da": "Sundeved Efterskole",
+"en": "Sundeved Efterskole",
+"p": true,
+"note": "The name of a boarding school (efterskole)."
+},
+{
+"da": "157 elever – 8., 9. og 10. klasse",
+"en": "157 pupils – 8th, 9th and 10th grade",
+"p": false,
+"note": "Number of pupils and which grades.",
+"words": [
+[
+"elever",
+"pupils"
+]
+]
+},
+{
+"da": "Almendannende boglig og aktiv grundtvigsk efterskole, hvor fælleskabet vægtes højt.",
+"en": "A broadly educating, academic and active Grundtvigian boarding school where community is highly valued.",
+"p": false,
+"note": "Passive with -s: «vægtes» = is valued.",
+"words": [
+[
+"Almendannende",
+"broadly educating"
+],
+[
+"grundtvigsk",
+"Grundtvigian"
+],
+[
+"vægtes",
+"is valued"
+]
+]
+},
+{
+"da": "Gymnastik er obligatorisk.",
+"en": "Gymnastics is compulsory.",
+"p": false,
+"note": "«obligatorisk» = compulsory.",
+"words": [
+[
+"obligatorisk",
+"compulsory"
+]
+]
+},
+{
+"da": "Der tilbydes 8 linjefag i fodbold, volleyball, badminton, spring, rytmisk gymnastik, outdoor, musik og billedkunst.",
+"en": "8 main subjects are offered: football, volleyball, badminton, vaulting, rhythmic gymnastics, outdoor, music and art.",
+"p": false,
+"note": "Passive with -s: «tilbydes».",
+"words": [
+[
+"tilbydes",
+"are offered"
+],
+[
+"billedkunst",
+"visual art"
+]
+]
+},
+{
+"da": "10. klasse får en instruktøruddannelse i gymnastik.",
+"en": "10th grade gets an instructor course in gymnastics.",
+"p": false,
+"note": "«uddannelse» = training.",
+"words": [
+[
+"instruktøruddannelse",
+"instructor training"
+]
+]
+},
+{
+"da": "Moderne skole med springcenter, kunstgræsbane samt aktive og kreative valgfag.",
+"en": "Modern school with a vaulting centre, an artificial-grass pitch and active and creative electives.",
+"p": false,
+"note": "A description without a verb.",
+"words": [
+[
+"springcenter",
+"vaulting centre"
+],
+[
+"kunstgræsbane",
+"artificial-grass pitch"
+]
+]
+},
+{
+"da": "I løbet af et skoleår er vi sammenlagt på tur i 3 uger, heraf de 7 dage på skitur i Sverige.",
+"en": "During a school year we are on trips for 3 weeks in total, of which 7 days are a ski trip in Sweden.",
+"p": false,
+"note": "«i løbet af» = during. «heraf» = of which.",
+"words": [
+[
+"sammenlagt",
+"in total"
+],
+[
+"skitur",
+"ski trip"
+]
+]
+},
+{
+"da": "Levring Efterskole",
+"en": "Levring Efterskole",
+"p": true,
+"note": "The name of a boarding school (efterskole)."
+},
+{
+"da": "194 elever – 9. og 10. klasse",
+"en": "194 pupils – 9th and 10th grade",
+"p": false,
+"note": "Number of pupils and which grades.",
+"words": [
+[
+"elever",
+"pupils"
+]
+]
+},
+{
+"da": "Velkommen til Levring Efterskole – Idræt & Life Performance.",
+"en": "Welcome to Levring Efterskole – Sport & Life Performance.",
+"p": false,
+"note": "A welcome line.",
+"words": [
+[
+"Idræt",
+"sport"
+]
+]
+},
+{
+"da": "Her er fællesskab og personlig udvikling i fokus.",
+"en": "Here community and personal development are in focus.",
+"p": false,
+"note": "«Her» first → inversion «er fællesskab».",
+"words": [
+[
+"udvikling",
+"development"
+]
+]
+},
+{
+"da": "Vores Life Performance-tilgang hjælper dig til den udvikling, du ønsker.",
+"en": "Our Life Performance approach helps you towards the development you want.",
+"p": false,
+"note": "«tilgang» = approach.",
+"words": [
+[
+"tilgang",
+"approach"
+],
+[
+"ønsker",
+"wish"
+]
+]
+},
+{
+"da": "Vi udbyder 7 linjer, så du kan vælge den, der passer dig bedst: Adventuresport, fitness, dans, drengefodbold, pigefodbold, spring og e-sport.",
+"en": "We offer 7 lines, so you can choose the one that suits you best: Adventure sport, fitness, dance, boys' football, girls' football, vaulting and e-sport.",
+"p": false,
+"note": "«den, der» = the one that.",
+"words": [
+[
+"udbyder",
+"offer"
+],
+[
+"drengefodbold",
+"boys' football"
+],
+[
+"pigefodbold",
+"girls' football"
+]
+]
+},
+{
+"da": "Alle har gymnastik.",
+"en": "Everyone does gymnastics.",
+"p": false,
+"note": "Short sentence."
+},
+{
+"da": "Rebild Efterskole",
+"en": "Rebild Efterskole",
+"p": true,
+"note": "The name of a boarding school (efterskole)."
+},
+{
+"da": "78 elever – 9. og 10. klasse",
+"en": "78 pupils – 9th and 10th grade",
+"p": false,
+"note": "Number of pupils and which grades.",
+"words": [
+[
+"elever",
+"pupils"
+]
+]
+},
+{
+"da": "Rebild Efterskole er en mindre skole med seks linjefag: adventure, badminton, fodbold, fit living, mountainbike og ridning.",
+"en": "Rebild Efterskole is a smaller school with six main subjects: adventure, badminton, football, fit living, mountain bike and riding.",
+"p": false,
+"note": "Answer 3: riding (ridning) is here too. «en mindre skole» = a fairly small school.",
+"words": [
+[
+"ridning",
+"riding"
+]
+]
+},
+{
+"da": "Fantastiske valgfag som fx volley, løb, fitness, bordtennis, crossfit, klatring, tennis, e-sport, billedkunst og musik.",
+"en": "Fantastic electives such as volley, running, fitness, table tennis, crossfit, climbing, tennis, e-sport, art and music.",
+"p": false,
+"note": "A list. Note: riding here is a main subject, not an elective.",
+"words": [
+[
+"valgfag",
+"electives"
+],
+[
+"klatring",
+"climbing"
+]
+]
+},
+{
+"da": "To udlandsture til Norge og Tyskland.",
+"en": "Two trips abroad to Norway and Germany.",
+"p": false,
+"note": "Short fact.",
+"words": [
+[
+"udlandsture",
+"trips abroad"
+]
+]
+},
+{
+"da": "Fransk som prøvefag og niveaudelt undervisning.",
+"en": "French as an exam subject and level-based teaching.",
+"p": false,
+"note": "Short fact.",
+"words": [
+[
+"prøvefag",
+"exam subject"
+],
+[
+"niveaudelt",
+"level-based"
+]
+]
+},
+{
+"da": "Salling Efterskole",
+"en": "Salling Efterskole",
+"p": true,
+"note": "The name of a boarding school (efterskole)."
+},
+{
+"da": "166 elever – 9. og 10. klasse",
+"en": "166 pupils – 9th and 10th grade",
+"p": false,
+"note": "Number of pupils and which grades.",
+"words": [
+[
+"elever",
+"pupils"
+]
+]
+},
+{
+"da": "Forestil dig et år, hvor du personligt udvikles og får oplevelser for livet i enten 9. eller 10. klasse.",
+"en": "Imagine a year where you develop personally and get experiences for life in either 9th or 10th grade.",
+"p": false,
+"note": "«Forestil dig» = imagine (imperative + reflexive). «udvikles» = passive.",
+"words": [
+[
+"Forestil",
+"imagine"
+],
+[
+"personligt",
+"personally"
+],
+[
+"udvikles",
+"are developed"
+]
+]
+},
+{
+"da": "Vælg mellem 9 linjefag: Spring, Rytme & Dans, Fodbold, Design, Animation & Mediedesign, Musik, E-sport, Mad-sundhed-motion og Fitness/Adventure.",
+"en": "Choose between 9 main subjects: Vaulting, Rhythm & Dance, Football, Design, Animation & Media design, Music, E-sport, Food-health-exercise and Fitness/Adventure.",
+"p": false,
+"note": "Imperative «Vælg».",
+"words": [
+[
+"Mediedesign",
+"media design"
+],
+[
+"motion",
+"exercise"
+]
+]
+},
+{
+"da": "I 10. klasse kan du vælge mellem almen 10. eller projektklasse.",
+"en": "In 10th grade you can choose between a general 10th or a project class.",
+"p": false,
+"note": "«almen» = general.",
+"words": [
+[
+"projektklasse",
+"project class"
+]
+]
+},
+{
+"da": "I både 9. og projektklassen er der samarbejde og udveksling med en skole i Spanien.",
+"en": "In both 9th grade and the project class there is cooperation and exchange with a school in Spain.",
+"p": false,
+"note": "Answer 5: the Spanish partner school is here.",
+"words": [
+[
+"samarbejde",
+"cooperation"
+],
+[
+"udveksling",
+"exchange"
+]
+]
+},
+{
+"da": "I løbet af året tager vi på skitur til Østrig.",
+"en": "During the year we go on a ski trip to Austria.",
+"p": false,
+"note": "«i løbet af» = during.",
+"words": [
+[
+"skitur",
+"ski trip"
+],
+[
+"Østrig",
+"Austria"
+]
+]
+},
+{
+"da": "Silkeborg Efterskole",
+"en": "Silkeborg Efterskole",
+"p": true,
+"note": "The name of a boarding school (efterskole)."
+},
+{
+"da": "138 elever – 9. og 10. klasse",
+"en": "138 pupils – 9th and 10th grade",
+"p": false,
+"note": "Number of pupils and which grades.",
+"words": [
+[
+"elever",
+"pupils"
+]
+]
+},
+{
+"da": "Hvert år vælger 130 teenagere Silkeborg Efterskole, der er placeret nær skov og vand – men også i byen.",
+"en": "Every year 130 teenagers choose Silkeborg Efterskole, which is located near forest and water – but also in town.",
+"p": false,
+"note": "«Hvert år» first → inversion «vælger 130 teenagere».",
+"words": [
+[
+"teenagere",
+"teenagers"
+],
+[
+"placeret",
+"located"
+]
+]
+},
+{
+"da": "De vælger Silkeborg Efterskole, fordi de har hørt, at man som elev har mange muligheder for at dyrke sin sport.",
+"en": "They choose Silkeborg Efterskole because they have heard that as a pupil you have many opportunities to do your sport.",
+"p": false,
+"note": "«dyrke sport» = do sport.",
+"words": [
+[
+"muligheder",
+"opportunities"
+],
+[
+"dyrke",
+"practise"
+]
+]
+},
+{
+"da": "Desuden har vi på skolen et fantastisk fællesskab, hvor vi passer godt på hinanden.",
+"en": "In addition we have a fantastic community at the school, where we take good care of each other.",
+"p": false,
+"note": "«passe på» = take care of.",
+"words": [
+[
+"Desuden",
+"in addition"
+],
+[
+"fællesskab",
+"community"
+],
+[
+"hinanden",
+"each other"
+]
+]
+},
+{
+"da": "Vi tilbyder spændende og engageret undervisning, og du kan vælge mellem 6 linjer: fitness, sport/adventure, kajak, håndbold, pigefodbold og drengefodbold.",
+"en": "We offer exciting and committed teaching, and you can choose between 6 lines: fitness, sport/adventure, kayak, handball, girls' football and boys' football.",
+"p": false,
+"note": "A list of lines.",
+"words": [
+[
+"engageret",
+"committed"
+],
+[
+"undervisning",
+"teaching"
+]
+]
+},
+{
+"da": "Femmøller Efterskole",
+"en": "Femmøller Efterskole",
+"p": true,
+"note": "The name of a boarding school (efterskole)."
+},
+{
+"da": "92 elever – 9. og 10. klasse",
+"en": "92 pupils – 9th and 10th grade",
+"p": false,
+"note": "Number of pupils and which grades.",
+"words": [
+[
+"elever",
+"pupils"
+]
+]
+},
+{
+"da": "Femmøller Efterskole finder du på Djursland.",
+"en": "You'll find Femmøller Efterskole on Djursland.",
+"p": false,
+"note": "The object first → inversion «finder du»."
+},
+{
+"da": "Vi tilbyder fem linjefag: E-sport, Tegning, Styling, Musik – Rytmisk og Elektronisk Musik.",
+"en": "We offer five main subjects: E-sport, Drawing, Styling, Music – Rhythmic and Electronic Music.",
+"p": false,
+"note": "Answer 4: drawing (tegning) is here.",
+"words": [
+[
+"Tegning",
+"drawing"
+],
+[
+"Elektronisk",
+"electronic"
+]
+]
+},
+{
+"da": "På Femmøller Efterskole inviterer vi til et år, hvor du får venner for livet, megafede oplevelser – og hvor du mest af alt lærer dig selv bedre at kende.",
+"en": "At Femmøller Efterskole we invite you to a year where you get friends for life, amazing experiences – and where above all you get to know yourself better.",
+"p": false,
+"note": "«lære … at kende» = get to know.",
+"words": [
+[
+"inviterer",
+"invite"
+],
+[
+"megafede",
+"super cool"
+]
+]
+},
+{
+"da": "På Femmøller Efterskole kan du tage afgangsprøverne i 9. og 10. klasse.",
+"en": "At Femmøller Efterskole you can take the final exams in 9th and 10th grade.",
+"p": false,
+"note": "«afgangsprøve» = school-leaving exam.",
+"words": [
+[
+"afgangsprøverne",
+"the final exams"
+]
+]
+},
+{
+"da": "Du kan gå i vores prøvefri 10. klasse med fokus på iværksætteri, projektledelse og kommunikation.",
+"en": "You can attend our exam-free 10th grade with a focus on entrepreneurship, project management and communication.",
+"p": false,
+"note": "«gå i … klasse» = be in a class.",
+"words": [
+[
+"iværksætteri",
+"entrepreneurship"
+],
+[
+"projektledelse",
+"project management"
+],
+[
+"kommunikation",
+"communication"
+]
+]
+},
+{
+"da": "Rønde Efterskole",
+"en": "Rønde Efterskole",
+"p": true,
+"note": "The name of a boarding school (efterskole)."
+},
+{
+"da": "175 elever – 9. og 10. klasse",
+"en": "175 pupils – 9th and 10th grade",
+"p": false,
+"note": "Number of pupils and which grades.",
+"words": [
+[
+"elever",
+"pupils"
+]
+]
+},
+{
+"da": "Få en oplevelse for livet i et stærkt fællesskab.",
+"en": "Get an experience for life in a strong community.",
+"p": false,
+"note": "Imperative «Få».",
+"words": [
+[
+"oplevelse",
+"experience"
+]
+]
+},
+{
+"da": "Kast dig ud i et af vores 8 forskellige linjefag: Fodbold, Musik, Spiludvikling, Kreativt Design, Global Iværksætter, Friluftsliv, BodyCross Fitness og Badminton.",
+"en": "Throw yourself into one of our 8 different main subjects: Football, Music, Game Development, Creative Design, Global Entrepreneur, Outdoor Life, BodyCross Fitness and Badminton.",
+"p": false,
+"note": "«kaste sig ud i» = throw yourself into.",
+"words": [
+[
+"Spiludvikling",
+"game development"
+],
+[
+"Iværksætter",
+"entrepreneur"
+],
+[
+"Friluftsliv",
+"outdoor life"
+]
+]
+},
+{
+"da": "Opdag nye muligheder i de mange forskellige valgfag, samtidig med at du styrker din faglige robusthed.",
+"en": "Discover new possibilities in the many different electives, while you strengthen your academic resilience.",
+"p": false,
+"note": "«samtidig med at» = while.",
+"words": [
+[
+"muligheder",
+"possibilities"
+],
+[
+"styrker",
+"strengthen"
+],
+[
+"robusthed",
+"resilience"
+]
+]
+},
+{
+"da": "Rønde Efterskole er et tilbud til dig, som ønsker udvikling både fagligt og socialt.",
+"en": "Rønde Efterskole is an option for you who want to develop both academically and socially.",
+"p": false,
+"note": "«både … og» = both … and.",
+"words": [
+[
+"udvikling",
+"development"
+],
+[
+"fagligt",
+"academically"
+]
+]
+},
+{
+"da": "Hushjælp søges i Kolding",
+"en": "Home help wanted in Kolding",
+"p": true,
+"note": "Heading of the third part: job ads. «søges» is passive: is wanted.",
+"words": [
+[
+"Hushjælp",
+"home help"
+],
+[
+"søges",
+"is wanted"
+]
+]
+},
+{
+"da": "Jobannonce nr. 1",
+"en": "Job ad no. 1",
+"p": true,
+"note": "The first job ad.",
+"words": [
+[
+"Jobannonce",
+"job advertisement"
+]
+]
+},
+{
+"da": "Hushjælp søges 2 dage ugentligt",
+"en": "Home help wanted 2 days a week",
+"p": false,
+"note": "The title of the ad.",
+"words": [
+[
+"ugentligt",
+"weekly"
+]
+]
+},
+{
+"da": "Jeg søger hjælp til rengøring mellem kl. 15 og kl. 20 et par gange om ugen ca. 2 timer hver gang.",
+"en": "I'm looking for help with cleaning between 15 and 20 a couple of times a week, about 2 hours each time.",
+"p": false,
+"note": "«et par gange» = a couple of times.",
+"words": [
+[
+"rengøring",
+"cleaning"
+]
+]
+},
+{
+"da": "Jeg har desuden en hund, som jeg gerne vil have, at du lufter og giver mad før eller efter rengøringen, da jeg ikke selv kan gøre det pga. nyt job med aftenarbejde.",
+"en": "I also have a dog that I'd like you to walk and feed before or after the cleaning, as I can't do it myself because of a new job with evening work.",
+"p": false,
+"note": "«lufte en hund» = walk a dog. «da» = as/because. «pga.» = because of.",
+"words": [
+[
+"desuden",
+"also"
+],
+[
+"lufter",
+"walk (a dog)"
+],
+[
+"aftenarbejde",
+"evening work"
+]
+]
+},
+{
+"da": "Turene skal være på ca. en halv time.",
+"en": "The walks should be about half an hour.",
+"p": false,
+"note": "«ture» here = walks."
+},
+{
+"da": "Selvom King er velopdragen, er han en stor hund, så du skal være over 16 år og have erfaring med at håndtere hunde.",
+"en": "Although King is well-behaved, he is a big dog, so you must be over 16 and have experience handling dogs.",
+"p": false,
+"note": "The selvom-clause first → inversion «er han».",
+"words": [
+[
+"velopdragen",
+"well-behaved"
+],
+[
+"erfaring",
+"experience"
+],
+[
+"håndtere",
+"handle"
+]
+]
+},
+{
+"da": "Kontakt Lotte Svensson på tlf. 33 99 01 01.",
+"en": "Contact Lotte Svensson on tel. 33 99 01 01.",
+"p": false,
+"note": "Contact details."
+},
+{
+"da": "Jobannonce nr. 2",
+"en": "Job ad no. 2",
+"p": true,
+"note": "The second job ad."
+},
+{
+"da": "Hjælp søges af ældre par",
+"en": "Help wanted by elderly couple",
+"p": false,
+"note": "Passive with -s and «af» = by.",
+"words": [
+[
+"ældre",
+"elderly"
+]
+]
+},
+{
+"da": "Ældre par søger en hushjælp til forefaldende rengøring 1-2 gange ugentligt i vores hjem i formiddagstimerne.",
+"en": "Elderly couple seeks home help for general cleaning 1-2 times a week in our home in the morning hours.",
+"p": false,
+"note": "«forefaldende» = whatever needs doing.",
+"words": [
+[
+"forefaldende",
+"general / occurring"
+],
+[
+"formiddagstimerne",
+"the morning hours"
+]
+]
+},
+{
+"da": "Der skal fx støvsuges, støves af og vaskes gulve og ordnes badeværelser.",
+"en": "For example there is hoovering, dusting, washing floors and cleaning bathrooms to do.",
+"p": false,
+"note": "Several passive -s verbs: «støvsuges», «vaskes» …",
+"words": [
+[
+"støvsuges",
+"be hoovered"
+],
+[
+"badeværelser",
+"bathrooms"
+]
+]
+},
+{
+"da": "Ud over rengøring har vi også brug for havehjælp en gang om ugen i sommerhalvåret.",
+"en": "Besides cleaning we also need garden help once a week in the summer half-year.",
+"p": false,
+"note": "«have brug for» = need.",
+"words": [
+[
+"havehjælp",
+"garden help"
+],
+[
+"sommerhalvåret",
+"summer half-year"
+]
+]
+},
+{
+"da": "Egen bil kan være en fordel, da der er langt til offentlig transport.",
+"en": "Your own car can be an advantage, as public transport is far away.",
+"p": false,
+"note": "«da» = as/because.",
+"words": [
+[
+"fordel",
+"advantage"
+],
+[
+"offentlig",
+"public"
+]
+]
+},
+{
+"da": "Vi forventer, at du er mødestabil, ansvarlig og har erfaring med lignende arbejde.",
+"en": "We expect you to be reliable, responsible and have experience with similar work.",
+"p": false,
+"note": "«mødestabil» = always turns up on time.",
+"words": [
+[
+"forventer",
+"expect"
+],
+[
+"mødestabil",
+"reliable (attendance)"
+],
+[
+"ansvarlig",
+"responsible"
+],
+[
+"lignende",
+"similar"
+]
+]
+},
+{
+"da": "Hvis det har din interesse, så skriv en e-mail til peterpiepst@post.tele.dk, eller ring til Peter på tlf. 82 12 85 89.",
+"en": "If you're interested, write an e-mail to peterpiepst@post.tele.dk, or call Peter on tel. 82 12 85 89.",
+"p": false,
+"note": "«Hvis …, så» + imperative.",
+"words": [
+[
+"interesse",
+"interest"
+]
+]
+},
+{
+"da": "Jobannonce nr. 3",
+"en": "Job ad no. 3",
+"p": true,
+"note": "The third job ad."
+},
+{
+"da": "Assistance til travl børnefamilie",
+"en": "Help for a busy family with children",
+"p": false,
+"note": "The title of the ad.",
+"words": [
+[
+"Assistance",
+"assistance"
+],
+[
+"børnefamilie",
+"family with children"
+]
+]
+},
+{
+"da": "Travl børnefamilie søger en hushjælp, der kan hjælpe med at få hverdagen til at hænge sammen.",
+"en": "Busy family seeks home help who can help make everyday life work.",
+"p": false,
+"note": "«få … til at hænge sammen» = make it all fit together.",
+"words": [
+[
+"hverdagen",
+"everyday life"
+]
+]
+},
+{
+"da": "De konkrete opgaver vil inkludere oprydning, tøjvask og madlavning fra måltidskasser.",
+"en": "The specific tasks will include tidying, laundry and cooking from meal kits.",
+"p": false,
+"note": "Answer 6: cooking (madlavning) is here.",
+"words": [
+[
+"konkrete",
+"specific"
+],
+[
+"oprydning",
+"tidying"
+],
+[
+"madlavning",
+"cooking"
+],
+[
+"måltidskasser",
+"meal kits"
+]
+]
+},
+{
+"da": "Vi har brug for hjælp 3 dage om ugen ca. kl. 15-18.",
+"en": "We need help 3 days a week, about 15-18.",
+"p": false,
+"note": "«have brug for» = need."
+},
+{
+"da": "Vi håber, at du:",
+"en": "We hope that you:",
+"p": false,
+"note": "Introduces a list."
+},
+{
+"da": "- har personlig erfaring med at holde hus",
+"en": "- have personal experience of keeping house",
+"p": false,
+"note": "«holde hus» = run a home.",
+"words": [
+[
+"personlig",
+"personal"
+]
+]
+},
+{
+"da": "- har blik for detaljen",
+"en": "- have an eye for detail",
+"p": false,
+"note": "«have blik for» = have an eye for.",
+"words": [
+[
+"detaljen",
+"the detail"
+]
+]
+},
+{
+"da": "- er energisk og tager initiativ",
+"en": "- are energetic and take initiative",
+"p": false,
+"note": "Two qualities.",
+"words": [
+[
+"energisk",
+"energetic"
+],
+[
+"initiativ",
+"initiative"
+]
+]
+},
+{
+"da": "- er mødestabil og fleksibel.",
+"en": "- are reliable and flexible.",
+"p": false,
+"note": "Two more qualities.",
+"words": [
+[
+"mødestabil",
+"reliable"
+],
+[
+"fleksibel",
+"flexible"
+]
+]
+},
+{
+"da": "Er du interesseret?",
+"en": "Are you interested?",
+"p": false,
+"note": "A yes/no question: the verb comes first.",
+"words": [
+[
+"interesseret",
+"interested"
+]
+]
+},
+{
+"da": "Så kontakt Ida på 71 08 11 67.",
+"en": "Then contact Ida on 71 08 11 67.",
+"p": false,
+"note": "Imperative «kontakt»."
+},
+{
+"da": "Jobannonce nr. 4",
+"en": "Job ad no. 4",
+"p": true,
+"note": "The fourth job ad."
+},
+{
+"da": "Ældre kvinde søger hushjælp",
+"en": "Elderly woman seeks home help",
+"p": false,
+"note": "The title of the ad."
+},
+{
+"da": "Min mor på 84 ønsker hjælp til rengøring, tøjvask og oprydning.",
+"en": "My 84-year-old mother wants help with cleaning, laundry and tidying.",
+"p": false,
+"note": "«ønske» = wish/want.",
+"words": [
+[
+"tøjvask",
+"laundry"
+],
+[
+"oprydning",
+"tidying"
+]
+]
+},
+{
+"da": "Derudover lettere indkøb.",
+"en": "In addition, light shopping.",
+"p": false,
+"note": "«lettere» = light (here).",
+"words": [
+[
+"Derudover",
+"in addition"
+],
+[
+"indkøb",
+"shopping"
+]
+]
+},
+{
+"da": "Hun har brug for rengøring hver 14. dag om formiddagen i 3-4 timer.",
+"en": "She needs cleaning every other week in the morning for 3-4 hours.",
+"p": false,
+"note": "«hver 14. dag» = every 14 days.",
+"words": [
+[
+"formiddagen",
+"the morning"
+]
+]
+},
+{
+"da": "Min mor ønsker, at hjælpen foregår i et roligt tempo, da hun let bliver nervøs.",
+"en": "My mother wants the help to happen at a calm pace, as she easily gets nervous.",
+"p": false,
+"note": "«foregå» = take place. «da» = as.",
+"words": [
+[
+"foregår",
+"takes place"
+],
+[
+"tempo",
+"pace"
+],
+[
+"nervøs",
+"nervous"
+]
+]
+},
+{
+"da": "Du skal være stabil, positiv og gerne have erfaring med at arbejde med ældre mennesker og/eller med rengøring.",
+"en": "You must be stable, positive and ideally have experience working with elderly people and/or cleaning.",
+"p": false,
+"note": "«gerne» here = preferably.",
+"words": [
+[
+"erfaring",
+"experience"
+]
+]
+},
+{
+"da": "Ekstra opgaver som fx vinduespudsning eller havearbejde efter aftale.",
+"en": "Extra tasks such as window cleaning or gardening by agreement.",
+"p": false,
+"note": "«efter aftale» = by agreement.",
+"words": [
+[
+"vinduespudsning",
+"window cleaning"
+],
+[
+"havearbejde",
+"gardening"
+]
+]
+},
+{
+"da": "Hvis det er noget for dig, så ring eller send en sms til Kresten Lægaard på tlf. 76 11 34 65.",
+"en": "If this is for you, call or text Kresten Lægaard on tel. 76 11 34 65.",
+"p": false,
+"note": "«Hvis …, så» + imperative."
+},
+{
+"da": "Jobannonce nr. 5",
+"en": "Job ad no. 5",
+"p": true,
+"note": "The fifth job ad."
+},
+{
+"da": "Stabil og effektiv hushjælp efterlyses",
+"en": "Stable and efficient home help wanted",
+"p": false,
+"note": "Passive -s: «efterlyses» = is wanted.",
+"words": [
+[
+"effektiv",
+"efficient"
+],
+[
+"efterlyses",
+"is wanted"
+]
+]
+},
+{
+"da": "Ægtepar søger hushjælp, der kan gøre rent, skifte sengetøj, stryge, tømme opvaskemaskine, mv.",
+"en": "Married couple seeks home help who can clean, change the bedding, iron, empty the dishwasher, etc.",
+"p": false,
+"note": "«mv.» = med videre = etc.",
+"words": [
+[
+"Ægtepar",
+"married couple"
+],
+[
+"sengetøj",
+"bedding"
+],
+[
+"stryge",
+"iron"
+],
+[
+"opvaskemaskine",
+"dishwasher"
+]
+]
+},
+{
+"da": "Vi forventer, at du kommer én gang om ugen i 4 timer på hverdage mellem 9-15.30.",
+"en": "We expect you to come once a week for 4 hours on weekdays between 9 and 15.30.",
+"p": false,
+"note": "«hverdage» = weekdays.",
+"words": [
+[
+"forventer",
+"expect"
+],
+[
+"hverdage",
+"weekdays"
+]
+]
+},
+{
+"da": "De præcise tidspunkter bestemmer du selv.",
+"en": "You decide the exact times yourself.",
+"p": false,
+"note": "The object first → inversion «bestemmer du».",
+"words": [
+[
+"præcise",
+"exact"
+],
+[
+"tidspunkter",
+"times"
+]
+]
+},
+{
+"da": "Vi har to søde hunde.",
+"en": "We have two sweet dogs.",
+"p": false,
+"note": "Plural adjective «søde»."
+},
+{
+"da": "De skal ikke passes eller luftes, men det er vigtigt, at du ikke er bange for hunde eller har hundeallergi.",
+"en": "They don't need looking after or walking, but it's important that you aren't afraid of dogs or allergic to them.",
+"p": false,
+"note": "Passive -s: «passes», «luftes». In the at-clause «ikke» is before the verb.",
+"words": [
+[
+"luftes",
+"be walked"
+],
+[
+"hundeallergi",
+"dog allergy"
+]
+]
+},
+{
+"da": "Vi forventer, at du er mødestabil, effektiv og selvstændigt kan planlægge arbejdet, så du når det vigtigste hver gang.",
+"en": "We expect you to be reliable, efficient and able to plan the work independently, so you get the most important things done each time.",
+"p": false,
+"note": "«nå» = manage/get done.",
+"words": [
+[
+"selvstændigt",
+"independently"
+],
+[
+"planlægge",
+"plan"
+]
+]
+},
+{
+"da": "Skriv eller ring til Lars Juhl på 78 23 91 92.",
+"en": "Write or call Lars Juhl on 78 23 91 92.",
+"p": false,
+"note": "Imperatives."
+},
+{
+"da": "Jobannonce nr. 6",
+"en": "Job ad no. 6",
+"p": true,
+"note": "The sixth job ad."
+},
+{
+"da": "Kan du hjælpe os?",
+"en": "Can you help us?",
+"p": false,
+"note": "Title as a question."
+},
+{
+"da": "Vi er en travl familie på to voksne og tre børn på 2, 4 og 5 år, og vi bor i en villa på 140 m.",
+"en": "We're a busy family of two adults and three children aged 2, 4 and 5, and we live in a 140 m² house.",
+"p": false,
+"note": "«på» for age and size.",
+"words": [
+[
+"voksne",
+"adults"
+]
+]
+},
+{
+"da": "Vi søger hjælp til rengøring, tøjvask og oprydning i huset og til at hente og passe børn 2 gange om ugen i dagtimerne.",
+"en": "We're looking for help with cleaning, laundry and tidying in the house and with picking up and looking after the children twice a week in the daytime.",
+"p": false,
+"note": "«hente» = pick up; «passe» = look after.",
+"words": [
+[
+"oprydning",
+"tidying"
+],
+[
+"dagtimerne",
+"daytime"
+]
+]
+},
+{
+"da": "Indkøb og madlavning klarer vi selv.",
+"en": "We do the shopping and cooking ourselves.",
+"p": false,
+"note": "Not answer 6: here they cook themselves. Object first → inversion «klarer vi».",
+"words": [
+[
+"madlavning",
+"cooking"
+]
+]
+},
+{
+"da": "Det er vigtigt, at du har erfaring med at passe børn og er pålidelig.",
+"en": "It's important that you have experience looking after children and are reliable.",
+"p": false,
+"note": "«pålidelig» = reliable.",
+"words": [
+[
+"pålidelig",
+"reliable"
+]
+]
+},
+{
+"da": "Børnenes institutioner ligger tæt på vores bolig, som ligger centralt i nærheden af offentlig transport.",
+"en": "The children's day-care is close to our home, which is central near public transport.",
+"p": false,
+"note": "«i nærheden af» = near.",
+"words": [
+[
+"institutioner",
+"day-care institutions"
+],
+[
+"nærheden",
+"the vicinity"
+]
+]
+},
+{
+"da": "Kontakt Mikkel Hoby på tlf. 89 61 23 76.",
+"en": "Contact Mikkel Hoby on tel. 89 61 23 76.",
+"p": false,
+"note": "Contact details."
+}
+]
+},
+"p24m-2": {
+"lines": [
+{
+"da": "Annoncer",
+"en": "Advertisements",
+"p": true,
+"note": "The heading: nine ads with missing words.",
+"words": [
+[
+"Annoncer",
+"advertisements"
+]
+]
+},
+{
+"da": "A – BOBI Møbelhus",
+"en": "A – BOBI furniture store",
+"p": true,
+"note": "Ad A, the example: a furniture shop.",
+"words": [
+[
+"Møbelhus",
+"furniture store"
+]
+]
+},
+{
+"da": "Hos os finder du et kæmpe udvalg af kvalitetsmøbler til skarpe priser.",
+"en": "With us you'll find a huge selection of quality furniture at sharp prices.",
+"p": false,
+"note": "«Hos os» first → inversion «finder du». «skarpe priser» = low prices.",
+"words": [
+[
+"udvalg",
+"selection"
+],
+[
+"kvalitetsmøbler",
+"quality furniture"
+]
+]
+},
+{
+"da": "Fx",
+"en": "For example",
+"p": false,
+"note": "«Fx» = for example (forexempel)."
+},
+{
+"da": "Se flere gode tilbud på vores hjemmeside – eller kig forbi!",
+"en": "See more great offers on our website – or drop by!",
+"p": false,
+"note": "Imperatives: «Se», «kig forbi» (drop in).",
+"words": [
+[
+"tilbud",
+"offers"
+],
+[
+"hjemmeside",
+"website"
+],
+[
+"kig forbi",
+"drop by"
+]
+]
+},
+{
+"da": "BOBI Møbelhus · Irisgade 12 · www.bobi-moebler.dk",
+"en": "BOBI Møbelhus · Irisgade 12 · www.bobi-moebler.dk",
+"p": false,
+"note": "Name, address and website."
+},
+{
+"da": "B – BF-Aftenskole",
+"en": "B – BF evening school",
+"p": true,
+"note": "Ad B: an evening school.",
+"words": [
+[
+"Aftenskole",
+"evening school"
+]
+]
+},
+{
+"da": "Få en solid introduktion til faget.",
+"en": "Get a solid introduction to the trade.",
+"p": false,
+"note": "Imperative «Få». «faget» = the subject/trade.",
+"words": [
+[
+"introduktion",
+"introduction"
+]
+]
+},
+{
+"da": "Lær alt om klipning, farvning og forskellige hårtyper på fire måneder.",
+"en": "Learn all about cutting, colouring and different hair types in four months.",
+"p": false,
+"note": "It is about hair. «på fire måneder» = in (within) four months.",
+"words": [
+[
+"klipning",
+"cutting"
+],
+[
+"farvning",
+"colouring"
+],
+[
+"hårtyper",
+"hair types"
+]
+]
+},
+{
+"da": "Undervisning om aftenen tre gange om ugen af erfarne undervisere.",
+"en": "Classes in the evening three times a week by experienced teachers.",
+"p": false,
+"note": "«om aftenen» = in the evening; «af» = by.",
+"words": [
+[
+"Undervisning",
+"teaching"
+],
+[
+"erfarne",
+"experienced"
+],
+[
+"undervisere",
+"teachers"
+]
+]
+},
+{
+"da": "Læs mere på vores hjemmeside:",
+"en": "Read more on our website:",
+"p": false,
+"note": "Imperative «Læs».",
+"words": [
+[
+"hjemmeside",
+"website"
+]
+]
+},
+{
+"da": "BF-Aftenskole.dk",
+"en": "BF-Aftenskole.dk",
+"p": false,
+"note": "The website."
+},
+{
+"da": "C – Sommertilbud hos Viby Guld & Sølv",
+"en": "C – Summer offer at Viby Gold & Silver",
+"p": true,
+"note": "Ad C: a jewellery shop.",
+"words": [
+[
+"Sommertilbud",
+"summer offer"
+]
+]
+},
+{
+"da": "D. 1. juli har vi haft butikken i 10 år, og det skal fejres med gode tilbud bl.a.:",
+"en": "On 1 July we will have had the shop for 10 years, and that must be celebrated with good offers, e.g.:",
+"p": false,
+"note": "«det skal fejres» – passive with -s: it will be celebrated. «bl.a.» = among other things.",
+"words": [
+[
+"butikken",
+"the shop"
+],
+[
+"fejres",
+"be celebrated"
+]
+]
+},
+{
+"da": "Kom ind i vores butik og se vores store udvalg i smykker og ure.",
+"en": "Come into our shop and see our large selection of jewellery and watches.",
+"p": false,
+"note": "Imperatives «Kom», «se». «ure» = watches/clocks.",
+"words": [
+[
+"udvalg",
+"selection"
+],
+[
+"smykker",
+"jewellery"
+]
+]
+},
+{
+"da": "Vi fører alle de kendte mærker.",
+"en": "We stock all the well-known brands.",
+"p": false,
+"note": "«føre» here means to sell/stock.",
+"words": [
+[
+"mærker",
+"brands"
+]
+]
+},
+{
+"da": "Viby Guld & Sølv, Storegade 12",
+"en": "Viby Gold & Silver, Storegade 12",
+"p": false,
+"note": "Name and address."
+},
+{
+"da": "D – Lokale udlejes",
+"en": "D – Premises for rent",
+"p": true,
+"note": "Ad D. «udlejes» is passive: is let.",
+"words": [
+[
+"udlejes",
+"for rent"
+]
+]
+},
+{
+"da": "Pænt og velholdt erhvervslokale udlejes centralt i Aarhus.",
+"en": "Nice, well-kept business premises for rent in central Aarhus.",
+"p": false,
+"note": "Passive with -s: «udlejes». «et lokale» → t-form «pænt».",
+"words": [
+[
+"velholdt",
+"well-kept"
+],
+[
+"erhvervslokale",
+"business premises"
+],
+[
+"centralt",
+"centrally"
+]
+]
+},
+{
+"da": "Også velegnet til klinik og kontor.",
+"en": "Also suitable for a clinic and office.",
+"p": false,
+"note": "«velegnet til» = suitable for. «Også» = also – so mainly for something else (a shop).",
+"words": [
+[
+"velegnet",
+"suitable"
+]
+]
+},
+{
+"da": "Produktion og salg af mad ikke tilladt.",
+"en": "Production and sale of food not allowed.",
+"p": false,
+"note": "A short rule without a verb.",
+"words": [
+[
+"Produktion",
+"production"
+],
+[
+"tilladt",
+"allowed"
+]
+]
+},
+{
+"da": "60 m. Leje 8.200 kr. pr. måned.",
+"en": "60 m². Rent 8,200 kr. per month.",
+"p": false,
+"note": "Size and price."
+},
+{
+"da": "Kontakt Lokaleleje.dk",
+"en": "Contact Lokaleleje.dk",
+"p": false,
+"note": "Imperative «Kontakt»."
+},
+{
+"da": "E – Så åbner vi for sæsonen!",
+"en": "E – Now we're opening for the season!",
+"p": true,
+"note": "Ad E: a campsite. «Så» first → inversion «åbner vi».",
+"words": [
+[
+"sæsonen",
+"the season"
+]
+]
+},
+{
+"da": "Dejlig campingplads tæt på skov og strand.",
+"en": "Lovely campsite close to forest and beach.",
+"p": false,
+"note": "«tæt på» = close to.",
+"words": [
+[
+"campingplads",
+"campsite"
+]
+]
+},
+{
+"da": "Book en plads til dit telt eller din campingvogn i receptionen.",
+"en": "Book a pitch for your tent or caravan at reception.",
+"p": false,
+"note": "«dit telt» (et-word) but «din campingvogn» (en-word).",
+"words": [
+[
+"campingvogn",
+"caravan"
+],
+[
+"receptionen",
+"the reception"
+]
+]
+},
+{
+"da": "Pris pr. overnatning: 150 kr. for telt og 200 kr. for campingvogn.",
+"en": "Price per night: 150 kr. for a tent and 200 kr. for a caravan.",
+"p": false,
+"note": "Prices. «overnatning» = overnight stay.",
+"words": [
+[
+"overnatning",
+"overnight stay"
+]
+]
+},
+{
+"da": "Kuknæs Strand Camping",
+"en": "Kuknæs Beach Camping",
+"p": false,
+"note": "The name."
+},
+{
+"da": "www.kuk-camp.dk · Tlf. 66 29 54 07",
+"en": "www.kuk-camp.dk · Tel. 66 29 54 07",
+"p": false,
+"note": "Website and phone."
+},
+{
+"da": "F – Nyåbnet tøjbutik",
+"en": "F – Newly opened clothes shop",
+"p": true,
+"note": "Ad F: a new clothes shop.",
+"words": [
+[
+"Nyåbnet",
+"newly opened"
+],
+[
+"tøjbutik",
+"clothes shop"
+]
+]
+},
+{
+"da": "Vi slår dørene op til vores nye butik i City-centret mandag d. 1. juni.",
+"en": "We are opening the doors of our new shop in the City Centre on Monday 1 June.",
+"p": false,
+"note": "«slå dørene op» = open the doors (a new shop).",
+"words": [
+[
+"dørene",
+"the doors"
+]
+]
+},
+{
+"da": "Det skal fejres med masser af gode åbningstilbud bl.a.:",
+"en": "It must be celebrated with lots of great opening offers, e.g.:",
+"p": false,
+"note": "Passive with -s: «fejres». «masser af» = lots of.",
+"words": [
+[
+"åbningstilbud",
+"opening offers"
+]
+]
+},
+{
+"da": "Mange størrelser og flotte farver.",
+"en": "Many sizes and nice colours.",
+"p": false,
+"note": "Fits clothes. Plural adjectives: «flotte farver».",
+"words": [
+[
+"størrelser",
+"sizes"
+]
+]
+},
+{
+"da": "Butik Zoey & Joey",
+"en": "Zoey & Joey shop",
+"p": false,
+"note": "The name."
+},
+{
+"da": "Torvet i City-centret",
+"en": "The square in the City Centre",
+"p": false,
+"note": "The address."
+},
+{
+"da": "G – Er du klar til sommeren?",
+"en": "G – Are you ready for summer?",
+"p": true,
+"note": "Ad G: a hair salon. A question to the reader.",
+"words": [
+[
+"sommeren",
+"the summer"
+]
+]
+},
+{
+"da": "Vores dygtige frisører er klar til at inspirere dig, så du kan gå sommeren i møde med en ny, frisk frisure.",
+"en": "Our skilled hairdressers are ready to inspire you, so you can meet the summer with a new, fresh hairstyle.",
+"p": false,
+"note": "«gå … i møde» = meet / face. «dygtige» – plural adjective.",
+"words": [
+[
+"frisører",
+"hairdressers"
+],
+[
+"inspirere",
+"inspire"
+],
+[
+"frisure",
+"hairstyle"
+]
+]
+},
+{
+"da": "Hvis du booker tid via vores hjemmeside, tilbyder vi lige nu:",
+"en": "If you book an appointment via our website, we are offering right now:",
+"p": false,
+"note": "The hvis-clause first → inversion «tilbyder vi».",
+"words": [
+[
+"tilbyder",
+"offer"
+]
+]
+},
+{
+"da": "Salon Zenit, Nygade 25",
+"en": "Salon Zenit, Nygade 25",
+"p": false,
+"note": "Name and address."
+},
+{
+"da": "www.salon-zenit.dk · 65 29 03 89",
+"en": "www.salon-zenit.dk · 65 29 03 89",
+"p": false,
+"note": "Website and phone."
+},
+{
+"da": "H – VB Arrangør",
+"en": "H – VB Events",
+"p": true,
+"note": "Ad H: a party venue.",
+"words": [
+[
+"Arrangør",
+"organiser"
+]
+]
+},
+{
+"da": "Centralt beliggende på Vesterbro med plads til op til 90 personer.",
+"en": "Centrally located in Vesterbro with room for up to 90 people.",
+"p": false,
+"note": "«beliggende» = located. «plads til» = room for.",
+"words": [
+[
+"Centralt",
+"centrally"
+],
+[
+"beliggende",
+"located"
+]
+]
+},
+{
+"da": "• Køkken med alle faciliteter",
+"en": "• Kitchen with all facilities",
+"p": false,
+"note": "A bullet point.",
+"words": [
+[
+"faciliteter",
+"facilities"
+]
+]
+},
+{
+"da": "• Serveringspersonale kan tilkøbes",
+"en": "• Serving staff available at extra cost",
+"p": false,
+"note": "Passive with -s: «tilkøbes» = can be bought extra.",
+"words": [
+[
+"Serveringspersonale",
+"serving staff"
+],
+[
+"tilkøbes",
+"be bought extra"
+]
+]
+},
+{
+"da": "• Egen p-plads og tog/metro tæt på",
+"en": "• Own parking and train/metro nearby",
+"p": false,
+"note": "«p-plads» = parking space.",
+"words": [
+[
+"p-plads",
+"parking space"
+]
+]
+},
+{
+"da": "Ring nu og få et tilbud.",
+"en": "Call now and get a quote.",
+"p": false,
+"note": "Imperatives «Ring», «få». «tilbud» here = a price offer.",
+"words": [
+[
+"tilbud",
+"offer / quote"
+]
+]
+},
+{
+"da": "VB Arrangør – Tlf. 41 99 70 34",
+"en": "VB Arrangør – Tel. 41 99 70 34",
+"p": false,
+"note": "Name and phone."
+},
+{
+"da": "I – Nyd foråret og forkæl dig selv",
+"en": "I – Enjoy the spring and treat yourself",
+"p": true,
+"note": "Ad I: a hotel stay. Imperatives «Nyd», «forkæl».",
+"words": [
+[
+"foråret",
+"the spring"
+],
+[
+"forkæl",
+"treat / spoil"
+]
+]
+},
+{
+"da": "2 dages luksusophold på hotel Kronjyllands Perle i dejlige omgivelser for kun 1.999 kr. pr. person inklusiv:",
+"en": "A 2-day luxury stay at hotel Kronjyllands Perle in lovely surroundings for only 1,999 kr. per person including:",
+"p": false,
+"note": "«2 dages» – genitive -s: a stay of 2 days.",
+"words": [
+[
+"luksusophold",
+"luxury stay"
+],
+[
+"omgivelser",
+"surroundings"
+],
+[
+"inklusiv",
+"including"
+]
+]
+},
+{
+"da": "• Morgenmadsbuffet.",
+"en": "• Breakfast buffet.",
+"p": false,
+"note": "A bullet point.",
+"words": [
+[
+"Morgenmadsbuffet",
+"breakfast buffet"
+]
+]
+},
+{
+"da": "• Adgang til indendørs pool og sauna.",
+"en": "• Access to indoor pool and sauna.",
+"p": false,
+"note": "«adgang til» = access to.",
+"words": [
+[
+"Adgang",
+"access"
+],
+[
+"indendørs",
+"indoor"
+]
+]
+},
+{
+"da": "Læs mere og book på vores hjemmeside:",
+"en": "Read more and book on our website:",
+"p": false,
+"note": "Imperatives.",
+"words": [
+[
+"hjemmeside",
+"website"
+]
+]
+},
+{
+"da": "www.kronjyllandsperle.dk",
+"en": "www.kronjyllandsperle.dk",
+"p": false,
+"note": "The website."
+}
+]
+},
+"p24m-3": {
+"lines": [
+{
+"da": "Anna på 88 år har boet alene i en lejlighed i mange år.",
+"en": "Anna, 88, has lived alone in a flat for many years.",
+"p": true,
+"note": "Introduces Anna. «har boet» is the perfect tense: something that started in the past and is still true.",
+"words": [
+[
+"lejlighed",
+"flat"
+]
+]
+},
+{
+"da": "De sidste par år har hun følt sig ensom, og hun har haft meget svært ved at klare sig selv.",
+"en": "The last couple of years she has felt lonely, and she has found it very hard to manage on her own.",
+"p": false,
+"note": "She is lonely and can't cope alone. Inversion: the time phrase comes first, so the verb «har» comes before «hun».",
+"words": [
+[
+"ensom",
+"lonely"
+],
+[
+"svært ved",
+"difficulty with"
+],
+[
+"klare sig selv",
+"manage on your own"
+]
+]
+},
+{
+"da": "Så nu er hun flyttet på plejehjem.",
+"en": "So now she has moved into a care home.",
+"p": false,
+"note": "The result: she moved. Verbs of movement often take «er» in the perfect: «er flyttet».",
+"words": [
+[
+"plejehjem",
+"care home"
+]
+]
+},
+{
+"da": "Annas bolig på plejehjemmet består af en stue og et badeværelse, og den er meget mindre end hendes gamle lejlighed.",
+"en": "Anna's home in the care home consists of a living room and a bathroom, and it is much smaller than her old flat.",
+"p": true,
+"note": "Describes her new room. «mindre end» is a comparative: smaller than.",
+"words": [
+[
+"plejehjemmet",
+"the care home"
+],
+[
+"består af",
+"consists of"
+],
+[
+"badeværelse",
+"bathroom"
+]
+]
+},
+{
+"da": "Faktisk er boligen kun på 35 m, så der er ikke plads til ret mange møbler.",
+"en": "In fact the home is only 35 m², so there isn't room for very many pieces of furniture.",
+"p": false,
+"note": "The room is small. «Faktisk» first → inversion «er boligen». «ret mange» = quite many.",
+"words": [
+[
+"Faktisk",
+"in fact"
+],
+[
+"boligen",
+"the home"
+],
+[
+"møbler",
+"furniture"
+]
+]
+},
+{
+"da": "Derfor har Anna desværre været nødt til at sælge nogle af de møbler, hun havde i sin gamle lejlighed, og det er hun lidt utilfreds med.",
+"en": "That's why Anna has unfortunately had to sell some of the furniture she had in her old flat, and she is a bit unhappy about that.",
+"p": false,
+"note": "She had to sell furniture. «været nødt til at» = had to. The preposition «med» goes at the end: «utilfreds med».",
+"words": [
+[
+"desværre",
+"unfortunately"
+],
+[
+"nødt til",
+"forced to"
+],
+[
+"utilfreds",
+"dissatisfied"
+]
+]
+},
+{
+"da": "Alligevel synes Anna, at det er en stor fordel at bo på plejehjemmet.",
+"en": "Still, Anna thinks it is a big advantage to live in the care home.",
+"p": true,
+"note": "Contrast: despite the problems she likes it. «Alligevel» first → inversion «synes Anna».",
+"words": [
+[
+"Alligevel",
+"still / even so"
+],
+[
+"fordel",
+"advantage"
+]
+]
+},
+{
+"da": "For hun går meget dårligt, og på plejehjemmet kan personalet hjælpe hende døgnet rundt.",
+"en": "Because she walks very badly, and in the care home the staff can help her around the clock.",
+"p": false,
+"note": "The reason. «For» (because) keeps normal word order. «døgnet rundt» = 24 hours a day.",
+"words": [
+[
+"personalet",
+"the staff"
+],
+[
+"døgnet rundt",
+"around the clock"
+]
+]
+},
+{
+"da": "Den daglige kontakt med personalet betyder meget for Anna.",
+"en": "The daily contact with the staff means a lot to Anna.",
+"p": false,
+"note": "Contact matters to her. Adjective after «den» takes -e: «den daglige kontakt».",
+"words": [
+[
+"daglige",
+"daily"
+],
+[
+"kontakt",
+"contact"
+]
+]
+},
+{
+"da": "Hun oplever nemlig, at de altid har tid til at snakke lidt med hende – også selvom de har travlt.",
+"en": "She feels that they always have time to chat a little with her – even when they are busy.",
+"p": false,
+"note": "The staff always have time. «nemlig» explains; in the at-clause «altid» comes before the verb «har».",
+"words": [
+[
+"oplever",
+"experiences"
+],
+[
+"selvom",
+"even though"
+],
+[
+"travlt",
+"busy"
+]
+]
+},
+{
+"da": "På plejehjemmet får Anna og de andre beboere serveret alle deres måltider, så Anna skal ikke købe ind og lave mad.",
+"en": "In the care home Anna and the other residents are served all their meals, so Anna doesn't have to shop and cook.",
+"p": true,
+"note": "Meals are served. «få serveret» = have something served. «købe ind» = do the shopping.",
+"words": [
+[
+"beboere",
+"residents"
+],
+[
+"serveret",
+"served"
+],
+[
+"måltider",
+"meals"
+]
+]
+},
+{
+"da": "Det passer hende godt, selvom hun somme tider savner selv at bestemme, hvad hun skal have at spise til aftensmad, og det kan hun ikke på plejehjemmet.",
+"en": "That suits her well, although she sometimes misses deciding for herself what to have for dinner, and she can't do that in the care home.",
+"p": false,
+"note": "A mixed feeling. In the selvom-clause the adverb «somme tider» comes before the verb «savner».",
+"words": [
+[
+"somme tider",
+"sometimes"
+],
+[
+"savner",
+"misses"
+],
+[
+"bestemme",
+"decide"
+],
+[
+"aftensmad",
+"dinner"
+]
+]
+},
+{
+"da": "Men hun nyder at spise sammen med de andre beboere, for hun synes, det er ret kedeligt at spise alene.",
+"en": "But she enjoys eating with the other residents, because she thinks it is rather boring to eat alone.",
+"p": false,
+"note": "She likes eating together. «det er» + adjective in t-form: «kedeligt».",
+"words": [
+[
+"nyder",
+"enjoys"
+],
+[
+"kedeligt",
+"boring"
+]
+]
+},
+{
+"da": "Efter at Anna er flyttet på plejehjem, er hun faktisk blevet mere frisk.",
+"en": "Since Anna moved into the care home, she has actually become more lively.",
+"p": true,
+"note": "She feels better now. The clause comes first, so the main clause starts with the verb: «er hun».",
+"words": [
+[
+"blevet",
+"become"
+],
+[
+"frisk",
+"fresh / lively"
+]
+]
+},
+{
+"da": "På plejehjemmet er der nemlig mange aktiviteter, fx laver Anna gymnastik sammen med nogle af de andre beboere flere gange om ugen, og det gør, at hun har fået det bedre.",
+"en": "There are many activities in the care home, e.g. Anna does gymnastics with some of the other residents several times a week, and that has made her feel better.",
+"p": false,
+"note": "The reason she is fitter. «fx» first → inversion «laver Anna». «have det bedre» = feel better.",
+"words": [
+[
+"aktiviteter",
+"activities"
+],
+[
+"gymnastik",
+"gymnastics"
+],
+[
+"flere gange",
+"several times"
+]
+]
+},
+{
+"da": "Men for Anna er det bedste ved at bo på plejehjemmet, at hun sjældent føler sig alene, fordi der både er andre beboere og personale, som hun kan snakke med.",
+"en": "But for Anna the best thing about living in the care home is that she rarely feels alone, because there are both other residents and staff she can talk to.",
+"p": true,
+"note": "The main point. «både … og» = both … and. In the at-clause «sjældent» comes before the verb.",
+"words": [
+[
+"sjældent",
+"rarely"
+],
+[
+"personale",
+"staff"
+]
+]
+},
+{
+"da": "Så alt i alt er Anna meget glad for at bo på plejehjemmet.",
+"en": "So all in all Anna is very happy living in the care home.",
+"p": false,
+"note": "Conclusion. «alt i alt» = all in all; «glad for» = happy with.",
+"words": [
+[
+"alt i alt",
+"all in all"
+]
+]
+}
+]
+},
+"p24m-4": {
+"lines": [
+{
+"da": "Emil på 41 år er far til Sofia på 12 år.",
+"en": "Emil, 41, is the father of Sofia, 12.",
+"p": true,
+"note": "Introduces the people. «far til» = father of."
+},
+{
+"da": "Han er skilt fra Sofias mor, og han ser kun sin datter hver anden weekend, fordi han er flyttet fra Odense til København, hvor han har fået arbejde.",
+"en": "He is divorced from Sofia's mother, and he only sees his daughter every other weekend, because he has moved from Odense to Copenhagen, where he has got a job.",
+"p": false,
+"note": "Why he sees her rarely. «sin datter» because it is his own daughter (the subject's). «hver anden» = every other.",
+"words": [
+[
+"skilt",
+"divorced"
+],
+[
+"hver anden",
+"every other"
+]
+]
+},
+{
+"da": "0. Emil har været skilt i to år, og nu bor og arbejder han i København.",
+"en": "0. Emil has been divorced for two years, and now he lives and works in Copenhagen.",
+"p": true,
+"note": "Paragraph 0 (the example). «i to år» = for two years. «nu» first → inversion «bor … han»."
+},
+{
+"da": "Hans datter Sofia på 12 år bor det meste af tiden hos sin mor i Odense.",
+"en": "His daughter Sofia, 12, lives most of the time with her mother in Odense.",
+"p": false,
+"note": "Where Sofia lives. «hos» = at someone's place.",
+"words": [
+[
+"det meste af tiden",
+"most of the time"
+]
+]
+},
+{
+"da": "Sofia kommer kun til København hver anden weekend, så Emil ser hende ikke så meget.",
+"en": "Sofia only comes to Copenhagen every other weekend, so Emil doesn't see her very much.",
+"p": false,
+"note": "«så» introduces the result. «ikke» comes after the object pronoun «hende»."
+},
+{
+"da": "Derfor savner han hende tit.",
+"en": "That's why he often misses her.",
+"p": false,
+"note": "The example sentence (A). «Derfor» first → inversion «savner han».",
+"words": [
+[
+"savner",
+"misses"
+]
+]
+},
+{
+"da": "Han synes, det er lidt hårdt, at han ikke kan se sin datter i hverdagen.",
+"en": "He thinks it's a bit hard that he can't see his daughter in everyday life.",
+"p": false,
+"note": "His feeling. In the at-clause «ikke» comes before the verb «kan».",
+"words": [
+[
+"hverdagen",
+"everyday life"
+]
+]
+},
+{
+"da": "21. Når Sofia kommer på weekend hos Emil, spørger han hende altid, hvad hun har lyst til at lave.",
+"en": "21. When Sofia comes to Emil for the weekend, he always asks her what she would like to do.",
+"p": true,
+"note": "The når-clause comes first, so the main verb «spørger» comes before «han». «have lyst til» = feel like.",
+"words": [
+[
+"lyst til",
+"feel like"
+]
+]
+},
+{
+"da": "Somme tider vil hun gerne på café, på shopping eller i biografen, men faktisk kan hun bedst lide at være hjemme hos Emil og hygge sig og snakke.",
+"en": "Sometimes she wants to go to a café, shopping or to the cinema, but actually she likes best to be at home with Emil, relax and talk.",
+"p": false,
+"note": "«vil gerne på café» – the verb «gå/tage» is left out after «vil». «bedst lide» = like best.",
+"words": [
+[
+"biografen",
+"the cinema"
+],
+[
+"hygge sig",
+"have a cosy time"
+]
+]
+},
+{
+"da": "De ser også tit fodbold.",
+"en": "They also often watch football.",
+"p": false,
+"note": "The answer sentence (E). Adverbs «også tit» come after the verb in a main clause.",
+"words": [
+[
+"fodbold",
+"football"
+]
+]
+},
+{
+"da": "Det er nemlig en interesse, de deler, og siden Sofia var lille, har de elsket, når der var kamp i fjernsynet.",
+"en": "It's an interest they share, and since Sofia was little they have loved it when there was a match on TV.",
+"p": false,
+"note": "Explains the interest. «siden …» first → inversion «har de». «kamp» = match.",
+"words": [
+[
+"interesse",
+"interest"
+],
+[
+"fjernsynet",
+"the TV"
+]
+]
+},
+{
+"da": "22. Men det er også vigtigt for Emil at være en god far for sin datter, når hun ikke er hos ham.",
+"en": "22. But it is also important for Emil to be a good father to his daughter when she isn't with him.",
+"p": true,
+"note": "«det er vigtigt at …» = it's important to … In the når-clause «ikke» comes before «er».",
+"words": [
+[
+"vigtigt",
+"important"
+]
+]
+},
+{
+"da": "Så han ringer til Sofia flere gange om ugen for at høre, hvordan hun har det.",
+"en": "So he calls Sofia several times a week to hear how she is.",
+"p": false,
+"note": "«for at» + infinitive = in order to. «hvordan har du det?» = how are you?",
+"words": [
+[
+"flere gange",
+"several times"
+]
+]
+},
+{
+"da": "Men de snakker sjældent ret længe.",
+"en": "But they rarely talk for very long.",
+"p": false,
+"note": "The answer sentence (H). «sjældent» = rarely.",
+"words": [
+[
+"sjældent",
+"rarely"
+]
+]
+},
+{
+"da": "For Sofia har en travl hverdag med skole, fritidsinteresser og venner, og hun har ikke tid til lange samtaler, selvom hun synes, det er dejligt, at Emil ringer så tit.",
+"en": "Because Sofia has a busy everyday life with school, hobbies and friends, and she has no time for long conversations, although she thinks it's lovely that Emil calls so often.",
+"p": false,
+"note": "The reason. «lange samtaler» – plural adjective with -e.",
+"words": [
+[
+"fritidsinteresser",
+"hobbies"
+],
+[
+"samtaler",
+"conversations"
+],
+[
+"selvom",
+"although"
+]
+]
+},
+{
+"da": "23. Emil har også en travl hverdag, men når han har fri, er han somme tider sammen med to gode venner.",
+"en": "23. Emil also has a busy everyday life, but when he is off, he is sometimes with two good friends.",
+"p": true,
+"note": "«have fri» = be off work. The når-clause first → inversion «er han».",
+"words": [
+[
+"somme tider",
+"sometimes"
+]
+]
+},
+{
+"da": "Så mødes de og spiser sammen eller går ud og drikker en øl.",
+"en": "Then they meet and eat together or go out and have a beer.",
+"p": false,
+"note": "«mødes» is a verb with -s that means 'meet each other'. «Så» first → inversion.",
+"words": [
+[
+"mødes",
+"meet (each other)"
+]
+]
+},
+{
+"da": "De snakker også med hinanden, hvis de har problemer.",
+"en": "They also talk to each other if they have problems.",
+"p": false,
+"note": "«hinanden» = each other. «hvis» = if.",
+"words": [
+[
+"hinanden",
+"each other"
+],
+[
+"problemer",
+"problems"
+]
+]
+},
+{
+"da": "Og det har hjulpet Emil meget.",
+"en": "And that has helped Emil a lot.",
+"p": false,
+"note": "The answer sentence (B). Perfect tense of «hjælpe»: «har hjulpet».",
+"words": [
+[
+"hjulpet",
+"helped"
+]
+]
+},
+{
+"da": "Fx talte hans venner lang tid med ham, da han var ked af det på grund af skilsmissen, og de gav ham mange gode råd til at komme videre.",
+"en": "For example, his friends talked with him for a long time when he was sad about the divorce, and they gave him lots of good advice to move on.",
+"p": false,
+"note": "An example. «da» for a single event in the past. «ked af det» = sad. «på grund af» = because of.",
+"words": [
+[
+"skilsmissen",
+"the divorce"
+],
+[
+"på grund af",
+"because of"
+],
+[
+"råd",
+"advice"
+]
+]
+},
+{
+"da": "24. Nu er Emil kommet gennem skilsmissen og har faktisk fået det godt.",
+"en": "24. Now Emil has got through the divorce and is actually doing well.",
+"p": true,
+"note": "«er kommet» – movement verb with «er». «få det godt» = start feeling good.",
+"words": [
+[
+"skilsmissen",
+"the divorce"
+]
+]
+},
+{
+"da": "Han har også fået en kæreste, som han ses med et par gange om ugen, og han er rigtig glad for hende.",
+"en": "He has also got a girlfriend whom he sees a couple of times a week, and he is really happy with her.",
+"p": false,
+"note": "«ses med» = meet/see someone (reciprocal -s verb). «glad for» = fond of.",
+"words": [
+[
+"kæreste",
+"girlfriend"
+]
+]
+},
+{
+"da": "Men i de weekender, hvor Sofia er i København, er Emil ikke sammen med sin kæreste.",
+"en": "But on the weekends when Sofia is in Copenhagen, Emil isn't with his girlfriend.",
+"p": false,
+"note": "The time phrase first → inversion «er Emil». «hvor» can mean 'when' after a time word.",
+"words": [
+[
+"weekender",
+"weekends"
+]
+]
+},
+{
+"da": "Men det er ikke noget problem for hende.",
+"en": "But it isn't a problem for her.",
+"p": false,
+"note": "The answer sentence (F). «ikke noget» = no / not any."
+},
+{
+"da": "For hun ved præcis, hvornår Sofia er i København, og i de weekender laver hun andre planer, og det har hun det helt fint med.",
+"en": "Because she knows exactly when Sofia is in Copenhagen, and on those weekends she makes other plans, and she is completely fine with that.",
+"p": false,
+"note": "Explains why it is fine. «have det fint med» = be fine with; «med» goes to the end.",
+"words": [
+[
+"præcis",
+"exactly"
+],
+[
+"planer",
+"plans"
+]
+]
+},
+{
+"da": "25. Sofia vil gerne se sin far noget mere, og hun er lidt træt af at rejse frem og tilbage mellem Odense og København.",
+"en": "25. Sofia would like to see her father more, and she is a bit tired of travelling back and forth between Odense and Copenhagen.",
+"p": true,
+"note": "«træt af» = tired of. «frem og tilbage» = back and forth.",
+"words": [
+[
+"træt af",
+"tired of"
+],
+[
+"frem og tilbage",
+"back and forth"
+]
+]
+},
+{
+"da": "Derfor har hun spurgt Emil, om han vil flytte tilbage til Odense.",
+"en": "So she has asked Emil if he will move back to Odense.",
+"p": false,
+"note": "«om» = whether/if in an indirect question.",
+"words": [
+[
+"spurgt",
+"asked"
+]
+]
+},
+{
+"da": "Men det kan Emil ikke.",
+"en": "But Emil can't.",
+"p": false,
+"note": "The answer sentence (D). «det» first → inversion «kan Emil»."
+},
+{
+"da": "Selvom han tit savner Sofia, er det umuligt for ham at flytte lige nu, fordi han har sit job og nu også en kæreste i København.",
+"en": "Although he often misses Sofia, it is impossible for him to move right now, because he has his job and now also a girlfriend in Copenhagen.",
+"p": false,
+"note": "The selvom-clause first → inversion «er det». «umuligt» = impossible.",
+"words": [
+[
+"umuligt",
+"impossible"
+],
+[
+"kæreste",
+"girlfriend"
+]
+]
+}
+]
+},
+"p24m-5": {
+"lines": [
+{
+"da": "Interview med Maja – gartner",
+"en": "Interview with Maja – gardener",
+"p": true,
+"note": "The heading: an interview with a gardener.",
+"words": [
+[
+"gartner",
+"gardener"
+]
+]
+},
+{
+"da": "A",
+"en": "A",
+"p": true,
+"note": "Section A."
+},
+{
+"da": "Eksempel",
+"en": "Example",
+"p": false,
+"note": "This section is the example.",
+"words": [
+[
+"Eksempel",
+"example"
+]
+]
+},
+{
+"da": "Faktisk kun i tre år.",
+"en": "Actually only for three years.",
+"p": false,
+"note": "A short answer about how long. «i tre år» = for three years.",
+"words": [
+[
+"Faktisk",
+"actually"
+]
+]
+},
+{
+"da": "Efter folkeskolen arbejdede jeg i butik i mange år.",
+"en": "After school I worked in a shop for many years.",
+"p": false,
+"note": "Past tense «arbejdede». Time phrase first → inversion «arbejdede jeg».",
+"words": [
+[
+"folkeskolen",
+"primary/lower secondary school"
+]
+]
+},
+{
+"da": "Men det blev jeg træt af, og jeg ville hellere lave noget, hvor jeg var udenfor i den friske luft.",
+"en": "But I got tired of it, and I'd rather do something where I was outside in the fresh air.",
+"p": false,
+"note": "«træt af» with «af» at the end. «hellere» = rather. «den friske luft» – adjective with -e after «den».",
+"words": [
+[
+"hellere",
+"rather"
+],
+[
+"udenfor",
+"outside"
+],
+[
+"friske",
+"fresh"
+]
+]
+},
+{
+"da": "Derfor besluttede jeg at starte på uddannelsen til gartner.",
+"en": "So I decided to start training as a gardener.",
+"p": false,
+"note": "«Derfor» first → inversion. «uddannelse» = education/training.",
+"words": [
+[
+"besluttede",
+"decided"
+],
+[
+"uddannelsen",
+"the training"
+]
+]
+},
+{
+"da": "Da jeg var færdig, fik jeg hurtigt job i det havefirma, hvor jeg arbejder nu.",
+"en": "When I had finished, I quickly got a job in the garden company where I work now.",
+"p": false,
+"note": "«da» for one time in the past. The clause first → «fik jeg».",
+"words": [
+[
+"færdig",
+"finished"
+],
+[
+"havefirma",
+"garden company"
+]
+]
+},
+{
+"da": "B",
+"en": "B",
+"p": true,
+"note": "Section B."
+},
+{
+"da": "Nej, for selvom jeg elsker frisk luft og natur, er det også vigtigt for mig, at jeg nemt kan ses med mine venner i fritiden.",
+"en": "No, because although I love fresh air and nature, it's also important to me that I can easily see my friends in my free time.",
+"p": false,
+"note": "«selvom» clause first → «er det». «ses med» = meet up with.",
+"words": [
+[
+"vigtigt",
+"important"
+],
+[
+"fritiden",
+"free time"
+]
+]
+},
+{
+"da": "Så jeg bor i en lejlighed midt i byen, og der har jeg kun en lille altan.",
+"en": "So I live in a flat in the middle of town, and there I only have a small balcony.",
+"p": false,
+"note": "Where she lives. «der» first → inversion «har jeg».",
+"words": [
+[
+"lejlighed",
+"flat"
+],
+[
+"altan",
+"balcony"
+]
+]
+},
+{
+"da": "Men om nogle år kunne jeg godt tænke mig at købe et hus med en stor have, hvor jeg kan dyrke grøntsager i min fritid.",
+"en": "But in a few years I'd like to buy a house with a big garden where I can grow vegetables in my free time.",
+"p": false,
+"note": "«kunne godt tænke mig» = would like to. «om nogle år» = in a few years (future).",
+"words": [
+[
+"tænke mig",
+"would like"
+],
+[
+"dyrke",
+"grow"
+],
+[
+"grøntsager",
+"vegetables"
+]
+]
+},
+{
+"da": "C",
+"en": "C",
+"p": true,
+"note": "Section C."
+},
+{
+"da": "Ja, det synes jeg, specielt når jeg arbejder alene.",
+"en": "Yes, I think so, especially when I work alone.",
+"p": false,
+"note": "«det synes jeg» – the object «det» first, then verb and subject.",
+"words": [
+[
+"specielt",
+"especially"
+]
+]
+},
+{
+"da": "For så kan de buske eller træer, jeg planter, være ret tunge at løfte.",
+"en": "Because then the bushes or trees I plant can be quite heavy to lift.",
+"p": false,
+"note": "Why it is hard. «tunge» – plural adjective with -e.",
+"words": [
+[
+"buske",
+"bushes"
+],
+[
+"tunge",
+"heavy"
+],
+[
+"løfte",
+"lift"
+]
+]
+},
+{
+"da": "Men heldigvis arbejder vi tit mange sammen, og så kan vi jo hjælpe hinanden.",
+"en": "But luckily we often work many together, and then we can help each other.",
+"p": false,
+"note": "«heldigvis» first → inversion «arbejder vi». «jo» = as you know.",
+"words": [
+[
+"heldigvis",
+"luckily"
+],
+[
+"hinanden",
+"each other"
+]
+]
+},
+{
+"da": "Og jeg er i god form og passer godt på mig selv, så jeg ikke får ondt i ryggen.",
+"en": "And I'm in good shape and look after myself, so I don't get back pain.",
+"p": false,
+"note": "«passe på» = take care of. In the så-clause «ikke» comes before the verb.",
+"words": [
+[
+"i god form",
+"in good shape"
+],
+[
+"ondt i ryggen",
+"back pain"
+]
+]
+},
+{
+"da": "D",
+"en": "D",
+"p": true,
+"note": "Section D."
+},
+{
+"da": "Mange forskellige ting.",
+"en": "Lots of different things.",
+"p": false,
+"note": "A short answer: many things.",
+"words": [
+[
+"forskellige",
+"different"
+]
+]
+},
+{
+"da": "Jeg kan godt lide at være udenfor i naturen hele året.",
+"en": "I like being outside in nature all year.",
+"p": false,
+"note": "«kan godt lide at» = like to.",
+"words": [
+[
+"naturen",
+"nature"
+]
+]
+},
+{
+"da": "Jeg løber fx i skoven eller tager på vandreture alene eller sammen med nogle venner.",
+"en": "For example I run in the forest or go hiking alone or with some friends.",
+"p": false,
+"note": "Her hobbies. «tage på vandretur» = go hiking.",
+"words": [
+[
+"skoven",
+"the forest"
+],
+[
+"vandreture",
+"hikes"
+]
+]
+},
+{
+"da": "Jeg rejser også meget og tager på aktive ferier, hvor jeg går lange ture, står på ski eller cykler.",
+"en": "I also travel a lot and go on active holidays where I go for long walks, ski or cycle.",
+"p": false,
+"note": "«stå på ski» = ski. Plural adjectives: «aktive ferier», «lange ture».",
+"words": [
+[
+"rejser",
+"travel"
+],
+[
+"ferier",
+"holidays"
+]
+]
+},
+{
+"da": "E",
+"en": "E",
+"p": true,
+"note": "Section E."
+},
+{
+"da": "At arbejdsdagene sjældent er ens, for mine arbejdsopgaver er forskellige, og det er mine kunder også.",
+"en": "That the working days are rarely the same, because my tasks are different, and so are my customers.",
+"p": false,
+"note": "What she likes. In the at-clause «sjældent» comes before the verb «er».",
+"words": [
+[
+"arbejdsdagene",
+"the working days"
+],
+[
+"arbejdsopgaver",
+"work tasks"
+],
+[
+"kunder",
+"customers"
+]
+]
+},
+{
+"da": "Det synes jeg er skønt.",
+"en": "I think that's lovely.",
+"p": false,
+"note": "«skønt» = lovely; t-form because it describes «det».",
+"words": [
+[
+"skønt",
+"lovely"
+]
+]
+},
+{
+"da": "Og så betyder det også meget, at jeg kan være ude det meste af tiden.",
+"en": "And it also means a lot that I can be outside most of the time.",
+"p": false,
+"note": "«betyde meget» = matter a lot.",
+"words": [
+[
+"det meste af tiden",
+"most of the time"
+]
+]
+},
+{
+"da": "Sådan et kontorjob, hvor man sidder indendørs hele dagen, er helt sikkert ikke noget for mig.",
+"en": "An office job like that, where you sit indoors all day, is definitely not for me.",
+"p": false,
+"note": "«man» = you/one in general. «helt sikkert» = definitely.",
+"words": [
+[
+"kontorjob",
+"office job"
+],
+[
+"indendørs",
+"indoors"
+]
+]
+},
+{
+"da": "F",
+"en": "F",
+"p": true,
+"note": "Section F."
+},
+{
+"da": "Nej, det synes jeg ikke, for meget af tiden er jeg fysisk aktiv, og så er det ikke noget problem at arbejde udenfor året rundt.",
+"en": "No, I don't think so, because much of the time I'm physically active, and then it's no problem to work outside all year round.",
+"p": false,
+"note": "«året rundt» = all year round. Time phrase first → «er jeg».",
+"words": [
+[
+"fysisk",
+"physically"
+],
+[
+"året rundt",
+"all year round"
+]
+]
+},
+{
+"da": "Jeg fryser faktisk aldrig.",
+"en": "I actually never feel cold.",
+"p": false,
+"note": "«fryse» = feel cold. «aldrig» = never.",
+"words": [
+[
+"fryser",
+"feel cold"
+]
+]
+},
+{
+"da": "Og vi har jo tøj på, der passer til årstiden.",
+"en": "And we wear clothes that suit the season.",
+"p": false,
+"note": "«have tøj på» = wear clothes; «på» goes after the object.",
+"words": [
+[
+"årstiden",
+"the season"
+]
+]
+},
+{
+"da": "Det kan da godt være lidt irriterende, når det regner og blæser en hel dag, men så har jeg noget godt regntøj, jeg kan tage på.",
+"en": "It can be a bit annoying when it rains and blows all day, but then I have some good rain gear I can put on.",
+"p": false,
+"note": "«tage på» = put on (clothes). «det regner / det blæser» uses «det» as a dummy subject.",
+"words": [
+[
+"irriterende",
+"annoying"
+],
+[
+"regntøj",
+"rain gear"
+]
+]
+},
+{
+"da": "G",
+"en": "G",
+"p": true,
+"note": "Section G."
+},
+{
+"da": "Det er lidt forskelligt, hvad jeg laver.",
+"en": "What I do varies a bit.",
+"p": false,
+"note": "«det er forskelligt» = it varies.",
+"words": [
+[
+"forskelligt",
+"different / varied"
+]
+]
+},
+{
+"da": "Nogle kunder kontakter firmaet, fordi de lige har købt hus og har brug for idéer til haven, eller fordi de skal have lavet planer for en helt ny have, og så hjælper jeg med det.",
+"en": "Some customers contact the company because they have just bought a house and need ideas for the garden, or because they need plans made for a completely new garden, and then I help with that.",
+"p": false,
+"note": "Her tasks. «have brug for» = need. «få/have lavet» = have something made.",
+"words": [
+[
+"kontakter",
+"contact"
+],
+[
+"brug for",
+"need"
+],
+[
+"idéer",
+"ideas"
+]
+]
+},
+{
+"da": "Andre gange klipper jeg træer og buske eller planter blomster.",
+"en": "Other times I prune trees and bushes or plant flowers.",
+"p": false,
+"note": "«Andre gange» first → inversion «klipper jeg».",
+"words": [
+[
+"klipper",
+"cut / prune"
+],
+[
+"blomster",
+"flowers"
+]
+]
+},
+{
+"da": "H",
+"en": "H",
+"p": true,
+"note": "Section H."
+},
+{
+"da": "Det kommer an på, hvilke arbejdsopgaver det er.",
+"en": "It depends on what tasks they are.",
+"p": false,
+"note": "«det kommer an på» = it depends on.",
+"words": [
+[
+"kommer an på",
+"depends on"
+],
+[
+"arbejdsopgaver",
+"work tasks"
+]
+]
+},
+{
+"da": "Hvis det er mindre opgaver, klarer jeg dem selv.",
+"en": "If they are smaller tasks, I do them myself.",
+"p": false,
+"note": "The hvis-clause first → inversion «klarer jeg».",
+"words": [
+[
+"opgaver",
+"tasks"
+]
+]
+},
+{
+"da": "Men i vores firma har vi en del kunder med store haver, og den slags opgaver er vi altid flere om.",
+"en": "But in our company we have quite a few customers with big gardens, and we're always several people on that kind of job.",
+"p": false,
+"note": "«en del» = quite a lot. «være flere om» = share a job.",
+"words": [
+[
+"en del",
+"quite a few"
+],
+[
+"den slags",
+"that kind of"
+]
+]
+},
+{
+"da": "Så for det meste arbejder vi sammen i et team.",
+"en": "So mostly we work together in a team.",
+"p": false,
+"note": "«for det meste» = mostly.",
+"words": [
+[
+"for det meste",
+"mostly"
+]
+]
+}
+]
+},
 "p17m-1": {
 "lines": [
 {
