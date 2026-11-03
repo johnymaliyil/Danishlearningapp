@@ -1290,5 +1290,16 @@ PD2.I18N.uk = {
 "Vis afsnittet på engelsk": "Показати абзац англійською",
 "⏳ Oversætter …": "⏳ Перекладаю …",
 "👀 Vis oversættelsen – den afslører de manglende ord": "👀 Показати переклад – він розкриває пропущені слова",
-"Oversættelsen kunne ikke hentes. Brug knappen 🇬🇧 EN øverst i teksten.": "Не вдалося завантажити переклад. Скористайтеся кнопкою 🇬🇧 EN над текстом."
+"Oversættelsen kunne ikke hentes. Brug knappen 🇬🇧 EN øverst i teksten.": "Не вдалося завантажити переклад. Скористайтеся кнопкою 🇬🇧 EN над текстом.",
+"Modelsvar i 4 trin": "Зразкова відповідь у 4 кроки",
+"Først enkelt engelsk, så det samme på dansk. Derefter sætning for sætning: hvad der ændrer sig fra engelsk til dansk – og til sidst det, du skal huske.": "Спочатку проста англійська, потім те саме данською. Далі речення за реченням: що змінюється з англійської на данську – і наприкінці, що треба запам’ятати.",
+"Først på engelsk": "Спочатку англійською",
+"– enkle sætninger": "– прості речення",
+"Så på dansk": "Потім данською",
+"– det samme modelsvar ({n} ord)": "– та сама відповідь ({n} слів)",
+"Sætning for sætning": "Речення за реченням",
+"– engelsk → dansk, og hvad der ændrer sig": "– англійська → данська і що змінюється",
+"Husk": "Запам’ятай",
+"– det vigtigste fra dette svar": "– головне з цієї відповіді",
+"🎧 Lyt": "🎧 Слухати"
 };

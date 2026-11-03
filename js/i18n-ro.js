@@ -1290,5 +1290,16 @@ PD2.I18N.ro = {
 "Vis afsnittet på engelsk": "Arată paragraful în engleză",
 "⏳ Oversætter …": "⏳ Traduc …",
 "👀 Vis oversættelsen – den afslører de manglende ord": "👀 Arată traducerea – dezvăluie cuvintele lipsă",
-"Oversættelsen kunne ikke hentes. Brug knappen 🇬🇧 EN øverst i teksten.": "Traducerea nu a putut fi încărcată. Folosește butonul 🇬🇧 EN de deasupra textului."
+"Oversættelsen kunne ikke hentes. Brug knappen 🇬🇧 EN øverst i teksten.": "Traducerea nu a putut fi încărcată. Folosește butonul 🇬🇧 EN de deasupra textului.",
+"Modelsvar i 4 trin": "Răspuns model în 4 pași",
+"Først enkelt engelsk, så det samme på dansk. Derefter sætning for sætning: hvad der ændrer sig fra engelsk til dansk – og til sidst det, du skal huske.": "Mai întâi engleză simplă, apoi același text în daneză. Apoi propoziție cu propoziție: ce se schimbă din engleză în daneză – și la final ce trebuie să ții minte.",
+"Først på engelsk": "Mai întâi în engleză",
+"– enkle sætninger": "– propoziții simple",
+"Så på dansk": "Apoi în daneză",
+"– det samme modelsvar ({n} ord)": "– același răspuns model ({n} cuvinte)",
+"Sætning for sætning": "Propoziție cu propoziție",
+"– engelsk → dansk, og hvad der ændrer sig": "– engleză → daneză și ce se schimbă",
+"Husk": "Ține minte",
+"– det vigtigste fra dette svar": "– cele mai importante din acest răspuns",
+"🎧 Lyt": "🎧 Ascultă"
 };

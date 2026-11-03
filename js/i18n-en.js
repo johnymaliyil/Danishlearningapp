@@ -1327,5 +1327,16 @@ PD2.I18N.en = {
 "Vis afsnittet på engelsk": "Show the paragraph in English",
 "⏳ Oversætter …": "⏳ Translating …",
 "👀 Vis oversættelsen – den afslører de manglende ord": "👀 Show the translation – it reveals the missing words",
-"Oversættelsen kunne ikke hentes. Brug knappen 🇬🇧 EN øverst i teksten.": "The translation could not be loaded. Use the 🇬🇧 EN button at the top of the text."
+"Oversættelsen kunne ikke hentes. Brug knappen 🇬🇧 EN øverst i teksten.": "The translation could not be loaded. Use the 🇬🇧 EN button at the top of the text.",
+"Modelsvar i 4 trin": "Model answer in 4 steps",
+"Først enkelt engelsk, så det samme på dansk. Derefter sætning for sætning: hvad der ændrer sig fra engelsk til dansk – og til sidst det, du skal huske.": "First simple English, then the same in Danish. Then sentence by sentence: what changes from English to Danish – and finally what to remember.",
+"Først på engelsk": "First in English",
+"– enkle sætninger": "– simple sentences",
+"Så på dansk": "Then in Danish",
+"– det samme modelsvar ({n} ord)": "– the same model answer ({n} words)",
+"Sætning for sætning": "Sentence by sentence",
+"– engelsk → dansk, og hvad der ændrer sig": "– English → Danish, and what changes",
+"Husk": "Remember",
+"– det vigtigste fra dette svar": "– the key points from this answer",
+"🎧 Lyt": "🎧 Listen"
 };

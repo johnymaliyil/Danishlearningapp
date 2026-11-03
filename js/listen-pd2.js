@@ -28703,6 +28703,1273 @@ PD2.TASK_EN = PD2.TASK_EN || {};
 ]
 }
 });
+// PD2 maj-juni 2024 and maj 2026
+Object.assign(PD2.LISTEN, {
+"w24ma": {
+"lines": [
+{
+"da": "Kære Højmark Bolig",
+"en": "Dear Højmark Bolig",
+"p": true,
+"note": "'Kære' + name starts a formal letter. No comma is needed after the name in Danish.",
+"words": [
+[
+"Kære",
+"dear"
+]
+]
+},
+{
+"da": "Jeg hedder Samira Ali, og jeg bor på Parkvej 12, 2. th. i Herning.",
+"en": "My name is Samira Ali, and I live at Parkvej 12, 2nd floor right, in Herning.",
+"p": true,
+"note": "'Jeg hedder' = my name is. Danish says 'bor på' + street: bor på Parkvej. '2. th.' = 2nd floor, right door.",
+"words": [
+[
+"hedder",
+"am called"
+]
+]
+},
+{
+"da": "Jeg skriver til jer, fordi jeg vil klage over min nye lejlighed.",
+"en": "I am writing to you because I want to complain about my new flat.",
+"p": false,
+"note": "Danish has no '-ing' form: 'I am writing' = jeg skriver. 'Klage over' = complain about.",
+"words": [
+[
+"klage over",
+"complain about"
+],
+[
+"lejlighed",
+"flat"
+]
+]
+},
+{
+"da": "Jeg flyttede ind den 1. april.",
+"en": "I moved in on 1 April.",
+"p": true,
+"note": "'Flyttede' is the past tense of 'flytte'. Dates: 'den 1. april' – the number has a full stop.",
+"words": [
+[
+"flyttede",
+"moved"
+]
+]
+},
+{
+"da": "Det drejer sig om flere problemer, som var der, allerede da jeg flyttede ind.",
+"en": "There are several problems, which were already there when I moved in.",
+"p": false,
+"note": "'Det drejer sig om' = it is about. 'Da' is used for one time in the past (when).",
+"words": [
+[
+"drejer sig om",
+"is about"
+],
+[
+"problemer",
+"problems"
+],
+[
+"allerede",
+"already"
+]
+]
+},
+{
+"da": "Problemet er, at radiatoren i stuen ikke virker, så der er meget koldt om aftenen.",
+"en": "The problem is that the radiator in the living room doesn't work, so it is very cold in the evening.",
+"p": true,
+"note": "In an at-clause 'ikke' comes BEFORE the verb: at radiatoren ikke virker. English: doesn't work.",
+"words": [
+[
+"Problemet",
+"the problem"
+],
+[
+"radiatoren",
+"the radiator"
+],
+[
+"virker",
+"works"
+]
+]
+},
+{
+"da": "Desuden drypper vandhanen i køkkenet hele tiden, og vinduet i soveværelset kan ikke lukkes ordentligt.",
+"en": "In addition, the kitchen tap drips all the time, and the bedroom window can't be closed properly.",
+"p": false,
+"note": "'Desuden' first → the verb comes before the subject: drypper vandhanen. 'Lukkes' is passive (-s): be closed.",
+"words": [
+[
+"Desuden",
+"in addition"
+],
+[
+"vandhanen",
+"the tap"
+],
+[
+"soveværelset",
+"the bedroom"
+],
+[
+"ordentligt",
+"properly"
+]
+]
+},
+{
+"da": "Jeg har allerede ringet til viceværten to gange, men der er ikke sket noget.",
+"en": "I have already called the caretaker twice, but nothing has happened.",
+"p": true,
+"note": "Perfect tense: har ringet, er sket. English 'nothing has happened' = der er ikke sket noget.",
+"words": [
+[
+"viceværten",
+"the caretaker"
+],
+[
+"sket",
+"happened"
+]
+]
+},
+{
+"da": "Derfor vil jeg gerne bede jer om at sende en håndværker, som kan reparere radiatoren, vandhanen og vinduet inden for to uger.",
+"en": "So I would like to ask you to send a tradesman who can repair the radiator, the tap and the window within two weeks.",
+"p": true,
+"note": "'Derfor' first → verb before subject: vil jeg. 'Bede … om at' = ask … to.",
+"words": [
+[
+"Derfor",
+"therefore"
+],
+[
+"håndværker",
+"tradesman"
+],
+[
+"reparere",
+"repair"
+]
+]
+},
+{
+"da": "Jeg håber, at I vil hjælpe mig, og jeg ser frem til at høre fra jer snarest.",
+"en": "I hope you will help me, and I look forward to hearing from you soon.",
+"p": true,
+"note": "'Se frem til at' + infinitive = look forward to + -ing. 'I' (capital) = you (plural).",
+"words": [
+[
+"snarest",
+"as soon as possible"
+]
+]
+},
+{
+"da": "Med venlig hilsen",
+"en": "Kind regards",
+"p": true,
+"note": "The standard formal ending of a letter.",
+"words": [
+[
+"venlig",
+"kind"
+]
+]
+},
+{
+"da": "Samira Ali",
+"en": "Samira Ali",
+"p": false,
+"note": "Your name under the ending."
+}
+]
+},
+"w24mb": {
+"lines": [
+{
+"da": "Fantastico – kan varmt anbefales!",
+"en": "Fantastico – warmly recommended!",
+"p": true,
+"note": "A headline. 'Kan anbefales' is passive: can be recommended.",
+"words": [
+[
+"anbefales",
+"be recommended"
+]
+]
+},
+{
+"da": "Jeg vil gerne anbefale musikgruppen Fantastico til alle, der skal holde en stor fest.",
+"en": "I would like to recommend the band Fantastico to everyone who is going to have a big party.",
+"p": true,
+"note": "'Vil gerne' + infinitive = would like to. 'Holde fest' = have a party.",
+"words": [
+[
+"anbefale",
+"recommend"
+],
+[
+"musikgruppen",
+"the band"
+]
+]
+},
+{
+"da": "I sidste weekend havde jeg fødselsdag, og jeg holdt en stor fest for 60 gæster i et festlokale i byen.",
+"en": "Last weekend it was my birthday, and I had a big party for 60 guests in a party venue in town.",
+"p": true,
+"note": "'I sidste weekend' first → verb before subject: havde jeg. English: 'it was my birthday' = jeg havde fødselsdag.",
+"words": [
+[
+"fødselsdag",
+"birthday"
+],
+[
+"festlokale",
+"party venue"
+]
+]
+},
+{
+"da": "Vi spiste god mad, og bagefter dansede vi hele natten.",
+"en": "We ate good food, and afterwards we danced all night.",
+"p": false,
+"note": "'Bagefter' first → dansede vi. Past tense: spiste, dansede.",
+"words": [
+[
+"bagefter",
+"afterwards"
+],
+[
+"dansede",
+"danced"
+]
+]
+},
+{
+"da": "Fantastico er fire glade musikere.",
+"en": "Fantastico are four happy musicians.",
+"p": true,
+"note": "Plural adjective with -e: glade musikere.",
+"words": [
+[
+"musikere",
+"musicians"
+]
+]
+},
+{
+"da": "De spiller både danske og udenlandske popsange og gamle hits, så der er musik for både unge og ældre.",
+"en": "They play both Danish and foreign pop songs and old hits, so there is music for both young and older people.",
+"p": false,
+"note": "'Både … og' = both … and. Plural adjectives: danske, udenlandske, gamle.",
+"words": [
+[
+"udenlandske",
+"foreign"
+],
+[
+"popsange",
+"pop songs"
+]
+]
+},
+{
+"da": "Det bedste ved Fantastico er, at de får alle op at danse.",
+"en": "The best thing about Fantastico is that they get everyone up dancing.",
+"p": true,
+"note": "'Det bedste ved' = the best thing about. English '-ing' often becomes 'at' + infinitive: at danse.",
+"words": [
+[
+"bedste",
+"best"
+]
+]
+},
+{
+"da": "De er sjove og søde, og de spillede også de sange, vi ønskede.",
+"en": "They are funny and nice, and they also played the songs we asked for.",
+"p": false,
+"note": "'Også' comes after the verb in a main clause: spillede også.",
+"words": [
+[
+"ønskede",
+"wished / asked for"
+]
+]
+},
+{
+"da": "Desuden var prisen rimelig.",
+"en": "Besides, the price was reasonable.",
+"p": false,
+"note": "'Desuden' first → var prisen.",
+"words": [
+[
+"Desuden",
+"besides"
+],
+[
+"rimelig",
+"reasonable"
+]
+]
+},
+{
+"da": "Jeg fik kontakt til gruppen gennem en kollega, som havde hørt dem til et bryllup.",
+"en": "I got in touch with the band through a colleague who had heard them at a wedding.",
+"p": true,
+"note": "'Få kontakt til' = get in touch with. 'Havde hørt' = had heard (past perfect).",
+"words": [
+[
+"kontakt",
+"contact"
+],
+[
+"kollega",
+"colleague"
+],
+[
+"bryllup",
+"wedding"
+]
+]
+},
+{
+"da": "Jeg skrev til dem på Facebook, og de svarede samme dag.",
+"en": "I wrote to them on Facebook, and they replied the same day.",
+"p": false,
+"note": "Past tense: skrev (skrive), svarede (svare).",
+"words": [
+[
+"svarede",
+"replied"
+]
+]
+},
+{
+"da": "Jeg vil anbefale Fantastico, fordi de gjorde min fest helt perfekt.",
+"en": "I recommend Fantastico because they made my party absolutely perfect.",
+"p": true,
+"note": "'Fordi' gives the reason. 'Gjorde' is the past tense of 'gøre'.",
+"words": [
+[
+"anbefale",
+"recommend"
+],
+[
+"perfekt",
+"perfect"
+]
+]
+},
+{
+"da": "Prøv det selv – du bliver ikke skuffet!",
+"en": "Try it yourself – you won't be disappointed!",
+"p": false,
+"note": "'Prøv' is the imperative. 'Ikke' after the verb in a main clause: bliver ikke.",
+"words": [
+[
+"skuffet",
+"disappointed"
+]
+]
+},
+{
+"da": "Venlig hilsen",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending.",
+"words": [
+[
+"hilsen",
+"greeting"
+]
+]
+},
+{
+"da": "Mehmet",
+"en": "Mehmet",
+"p": false,
+"note": "Your name under the ending."
+}
+]
+},
+"w24mc": {
+"lines": [
+{
+"da": "Hej Carl",
+"en": "Hi Carl",
+"p": true,
+"note": "'Hej' + name starts an e-mail to a friend."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "'Tak for' + noun is a fixed phrase."
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + adjective in t-form: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well. English 'you are well' = du har det godt."
+},
+{
+"da": "Jeg har det fint.",
+"en": "I'm fine.",
+"p": false,
+"note": "Same phrase: jeg har det fint."
+},
+{
+"da": "Du spørger om, hvordan jeg lever billigt, og det vil jeg gerne fortælle dig lidt om.",
+"en": "You ask how I live cheaply, and I'd like to tell you a little about that.",
+"p": true,
+"note": "'Det' first → verb before subject: vil jeg. 'Om' goes to the end: fortælle … om.",
+"words": [
+[
+"billigt",
+"cheaply"
+],
+[
+"fortælle",
+"tell"
+]
+]
+},
+{
+"da": "For det første laver jeg en madplan for hele ugen, og jeg handler i discountbutikker som Netto og Lidl.",
+"en": "First, I make a meal plan for the whole week, and I shop in discount stores like Netto and Lidl.",
+"p": true,
+"note": "'For det første' first → laver jeg. English keeps 'I make'.",
+"words": [
+[
+"madplan",
+"meal plan"
+],
+[
+"handler",
+"shop"
+],
+[
+"discountbutikker",
+"discount stores"
+]
+]
+},
+{
+"da": "Jeg køber tilbud og laver mad til to dage ad gangen.",
+"en": "I buy special offers and cook for two days at a time.",
+"p": false,
+"note": "'Lave mad' = cook. 'Ad gangen' = at a time.",
+"words": [
+[
+"tilbud",
+"offers"
+],
+[
+"ad gangen",
+"at a time"
+]
+]
+},
+{
+"da": "Jeg tager også madpakke med på arbejde i stedet for at købe frokost.",
+"en": "I also take a packed lunch to work instead of buying lunch.",
+"p": false,
+"note": "'I stedet for at' + infinitive = instead of + -ing.",
+"words": [
+[
+"madpakke",
+"packed lunch"
+],
+[
+"i stedet for",
+"instead of"
+],
+[
+"frokost",
+"lunch"
+]
+]
+},
+{
+"da": "Derudover cykler jeg på arbejde i stedet for at tage bussen, og jeg køber brugt tøj på nettet.",
+"en": "In addition, I cycle to work instead of taking the bus, and I buy second-hand clothes online.",
+"p": true,
+"note": "'Derudover' first → cykler jeg. 'På arbejde' = to/at work.",
+"words": [
+[
+"Derudover",
+"in addition"
+],
+[
+"brugt",
+"second-hand"
+]
+]
+},
+{
+"da": "Jeg har også opsagt mit fitnesscenter, så nu løber jeg i parken.",
+"en": "I have also cancelled my gym membership, so now I run in the park.",
+"p": false,
+"note": "'Så nu' – 'nu' first in the clause → løber jeg.",
+"words": [
+[
+"opsagt",
+"cancelled"
+],
+[
+"fitnesscenter",
+"gym"
+]
+]
+},
+{
+"da": "Det er gratis.",
+"en": "It's free.",
+"p": false,
+"note": "'Gratis' = free (no money).",
+"words": [
+[
+"gratis",
+"free"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at jeg gerne vil spare penge, fordi jeg drømmer om at købe en lille lejlighed.",
+"en": "Finally, I want to say that I would like to save money, because I dream of buying a small flat.",
+"p": true,
+"note": "In the at-clause 'gerne' comes before the verb: at jeg gerne vil. 'Drømme om at' + infinitive = dream of + -ing.",
+"words": [
+[
+"spare",
+"save"
+],
+[
+"drømmer",
+"dream"
+],
+[
+"lejlighed",
+"flat"
+]
+]
+},
+{
+"da": "Jeg vil også gerne kunne rejse hjem og besøge min familie til sommer.",
+"en": "I would also like to be able to travel home and visit my family this summer.",
+"p": false,
+"note": "'Til sommer' = next summer.",
+"words": [
+[
+"besøge",
+"visit"
+],
+[
+"familie",
+"family"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "'Glæde sig til at' + infinitive = look forward to + -ing.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A fixed phrase. 'Ses' = see each other."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w26ma": {
+"lines": [
+{
+"da": "Frisør søges!",
+"en": "Hairdresser wanted!",
+"p": true,
+"note": "A headline. 'Søges' is passive: is wanted.",
+"words": [
+[
+"Frisør",
+"hairdresser"
+],
+[
+"søges",
+"is wanted"
+]
+]
+},
+{
+"da": "Vi søger en dygtig frisør til Salon Lykke, som ligger på Strøget 12 i Vejle.",
+"en": "We are looking for a skilled hairdresser for Salon Lykke, which is at Strøget 12 in Vejle.",
+"p": true,
+"note": "No '-ing' form in Danish: 'we are looking for' = vi søger. 'Ligger' = is located.",
+"words": [
+[
+"dygtig",
+"skilled"
+]
+]
+},
+{
+"da": "Om os: Vi er en lille, hyggelig salon med fire stole og tre glade frisører.",
+"en": "About us: We are a small, cosy salon with four chairs and three happy hairdressers.",
+"p": true,
+"note": "Adjectives before an en-word after 'en': en lille, hyggelig salon. Plural: glade frisører.",
+"words": [
+[
+"hyggelig",
+"cosy"
+],
+[
+"frisører",
+"hairdressers"
+]
+]
+},
+{
+"da": "Vi klipper både kvinder, mænd og børn.",
+"en": "We cut hair for women, men and children.",
+"p": false,
+"note": "'Klippe' = cut (hair). 'Både … og' = both … and.",
+"words": [
+[
+"klipper",
+"cut"
+],
+[
+"kvinder",
+"women"
+]
+]
+},
+{
+"da": "Dine opgaver bliver at klippe, farve og vaske hår.",
+"en": "Your tasks will be to cut, colour and wash hair.",
+"p": true,
+"note": "'Bliver' can mean 'will be'. 'At' + infinitive for tasks.",
+"words": [
+[
+"opgaver",
+"tasks"
+]
+]
+},
+{
+"da": "Du skal også tage telefonen, booke tider og holde salonen ren.",
+"en": "You must also answer the phone, book appointments and keep the salon clean.",
+"p": false,
+"note": "'Skal' = must / have to. 'Tage telefonen' = answer the phone.",
+"words": [
+[
+"telefonen",
+"the phone"
+],
+[
+"salonen",
+"the salon"
+]
+]
+},
+{
+"da": "Vi forventer, at du er uddannet frisør og har mindst to års erfaring.",
+"en": "We expect you to be a trained hairdresser and to have at least two years' experience.",
+"p": true,
+"note": "English 'expect you to be' = forventer, at du er. 'To års' – genitive -s.",
+"words": [
+[
+"forventer",
+"expect"
+],
+[
+"uddannet",
+"trained"
+],
+[
+"erfaring",
+"experience"
+]
+]
+},
+{
+"da": "Du skal være smilende og god til at tale med kunderne.",
+"en": "You must be smiling and good at talking to the customers.",
+"p": false,
+"note": "'God til at' + infinitive = good at + -ing.",
+"words": [
+[
+"smilende",
+"smiling"
+],
+[
+"kunderne",
+"the customers"
+]
+]
+},
+{
+"da": "Arbejdstiden er 37 timer om ugen, tirsdag til lørdag.",
+"en": "The working hours are 37 hours a week, Tuesday to Saturday.",
+"p": true,
+"note": "'Om ugen' = a week. Days have small letters in Danish.",
+"words": [
+[
+"Arbejdstiden",
+"the working hours"
+]
+]
+},
+{
+"da": "Vi har åbent fra kl. 9 til 17.30.",
+"en": "We are open from 9 to 17.30.",
+"p": false,
+"note": "'Have åbent' = be open. English 'we are open' = vi har åbent.",
+"words": [
+[
+"åbent",
+"open"
+]
+]
+},
+{
+"da": "Hvis du er interesseret, så send en ansøgning til salonlykke@mail.dk senest den 1. juni.",
+"en": "If you are interested, send an application to salonlykke@mail.dk by 1 June at the latest.",
+"p": true,
+"note": "'Hvis …, så' + imperative. 'Senest' = at the latest.",
+"words": [
+[
+"interesseret",
+"interested"
+],
+[
+"ansøgning",
+"application"
+],
+[
+"senest",
+"at the latest"
+]
+]
+},
+{
+"da": "Du kan også kontakte mig på telefon 75 12 34 56.",
+"en": "You can also contact me on phone 75 12 34 56.",
+"p": false,
+"note": "'På telefon' = by phone.",
+"words": [
+[
+"kontakte",
+"contact"
+]
+]
+},
+{
+"da": "Vi glæder os til at høre fra dig!",
+"en": "We look forward to hearing from you!",
+"p": true,
+"note": "'Glæde sig til at' + infinitive = look forward to + -ing.",
+"words": [
+[
+"glæder os",
+"look forward"
+]
+]
+},
+{
+"da": "Med venlig hilsen",
+"en": "Kind regards",
+"p": true,
+"note": "The standard formal ending.",
+"words": [
+[
+"venlig",
+"kind"
+]
+]
+},
+{
+"da": "Maria Jensen, ejer",
+"en": "Maria Jensen, owner",
+"p": false,
+"note": "Name and title."
+}
+]
+},
+"w26mb": {
+"lines": [
+{
+"da": "Pizzeria Napoli – ikke en god oplevelse",
+"en": "Pizzeria Napoli – not a good experience",
+"p": true,
+"note": "A headline for the review.",
+"words": [
+[
+"oplevelse",
+"experience"
+]
+]
+},
+{
+"da": "I fredags var jeg på Pizzeria Napoli i Odense sammen med min familie.",
+"en": "Last Friday I was at Pizzeria Napoli in Odense with my family.",
+"p": true,
+"note": "'I fredags' = last Friday. It comes first → verb before subject: var jeg.",
+"words": [
+[
+"fredags",
+"last Friday"
+],
+[
+"familie",
+"family"
+]
+]
+},
+{
+"da": "Vi kom klokken seks, og der var mange gæster.",
+"en": "We came at six o'clock, and there were many guests.",
+"p": false,
+"note": "'Kom' is the past tense of 'komme'. 'Der var' = there were.",
+"words": [
+[
+"klokken",
+"o'clock"
+],
+[
+"gæster",
+"guests"
+]
+]
+},
+{
+"da": "Vi bestilte to store pizzaer med skinke og champignon og en salat, men det, vi spiste, var ikke godt.",
+"en": "We ordered two large pizzas with ham and mushroom and a salad, but what we ate was not good.",
+"p": true,
+"note": "'Det, vi spiste' = what we ate. 'Ikke' after the verb in a main clause: var ikke.",
+"words": [
+[
+"bestilte",
+"ordered"
+],
+[
+"champignon",
+"mushroom"
+]
+]
+},
+{
+"da": "Først skete der det, at vi ventede over en time på maden.",
+"en": "First, we waited over an hour for the food.",
+"p": false,
+"note": "'Først' first → skete der. 'Vente på' = wait for.",
+"words": [
+[
+"skete",
+"happened"
+],
+[
+"ventede",
+"waited"
+]
+]
+},
+{
+"da": "Ingen fortalte os, hvorfor det tog så lang tid.",
+"en": "Nobody told us why it took so long.",
+"p": false,
+"note": "'Ingen' = nobody. 'Tage lang tid' = take a long time.",
+"words": [
+[
+"fortalte",
+"told"
+],
+[
+"hvorfor",
+"why"
+]
+]
+},
+{
+"da": "Da pizzaerne endelig kom, var de kolde, og den ene var brændt i bunden.",
+"en": "When the pizzas finally came, they were cold, and one was burnt on the bottom.",
+"p": true,
+"note": "The da-clause comes first → the main verb comes next: var de. 'Da' = when (one time in the past).",
+"words": [
+[
+"endelig",
+"finally"
+],
+[
+"brændt",
+"burnt"
+]
+]
+},
+{
+"da": "Salaten var ikke frisk.",
+"en": "The salad was not fresh.",
+"p": false,
+"note": "'Ikke' after the verb: var ikke.",
+"words": [
+[
+"Salaten",
+"the salad"
+]
+]
+},
+{
+"da": "Vi sagde det til tjeneren, men han var meget uvenlig og ville ikke give os nye pizzaer.",
+"en": "We told the waiter, but he was very unfriendly and would not give us new pizzas.",
+"p": false,
+"note": "'Sige det til' = tell someone. 'Ville ikke' = would not.",
+"words": [
+[
+"tjeneren",
+"the waiter"
+],
+[
+"uvenlig",
+"unfriendly"
+]
+]
+},
+{
+"da": "Vi skulle betale fuld pris.",
+"en": "We had to pay full price.",
+"p": false,
+"note": "'Skulle' = had to (past of 'skal').",
+"words": [
+[
+"betale",
+"pay"
+]
+]
+},
+{
+"da": "Jeg blev meget skuffet, fordi pizzeriaet har mange gode anmeldelser på nettet.",
+"en": "I was very disappointed, because the pizzeria has many good reviews online.",
+"p": true,
+"note": "'Blive skuffet' = be disappointed. 'På nettet' = online.",
+"words": [
+[
+"skuffet",
+"disappointed"
+],
+[
+"anmeldelser",
+"reviews"
+]
+]
+},
+{
+"da": "Men jeg kan ikke anbefale Pizzeria Napoli, fordi både maden og servicen var dårlig.",
+"en": "But I can't recommend Pizzeria Napoli, because both the food and the service were bad.",
+"p": false,
+"note": "'Fordi' gives the reason. 'Både … og' = both … and.",
+"words": [
+[
+"anbefale",
+"recommend"
+],
+[
+"servicen",
+"the service"
+]
+]
+},
+{
+"da": "Der er bedre pizzeriaer i byen.",
+"en": "There are better pizzerias in town.",
+"p": false,
+"note": "'Bedre' is the comparative of 'god'.",
+"words": [
+[
+"pizzeriaer",
+"pizzerias"
+]
+]
+},
+{
+"da": "Ahmed",
+"en": "Ahmed",
+"p": true,
+"note": "Your name under the review."
+}
+]
+},
+"w26mc": {
+"lines": [
+{
+"da": "Hej Jonas",
+"en": "Hi Jonas",
+"p": true,
+"note": "'Hej' + name starts an e-mail to a friend."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "'Tak for' + noun is a fixed phrase."
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + adjective in t-form: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well."
+},
+{
+"da": "Jeg har det fint.",
+"en": "I'm fine.",
+"p": false,
+"note": "Same phrase: jeg har det fint."
+},
+{
+"da": "Du spørger om, hvordan jeg lever sundt, og det vil jeg gerne fortælle dig lidt om.",
+"en": "You ask how I live healthily, and I'd like to tell you a little about that.",
+"p": true,
+"note": "'Det' first → vil jeg. 'Om' goes to the end: fortælle … om.",
+"words": [
+[
+"sundt",
+"healthily"
+],
+[
+"fortælle",
+"tell"
+]
+]
+},
+{
+"da": "For det første spiser jeg mere frugt og grønt, og jeg drikker vand i stedet for sodavand.",
+"en": "First, I eat more fruit and vegetables, and I drink water instead of soft drinks.",
+"p": true,
+"note": "'For det første' first → spiser jeg. 'Frugt og grønt' = fruit and vegetables.",
+"words": [
+[
+"frugt",
+"fruit"
+],
+[
+"sodavand",
+"soft drinks"
+]
+]
+},
+{
+"da": "Jeg laver madpakke til arbejdet, så jeg ikke køber fastfood.",
+"en": "I make a packed lunch for work so I don't buy fast food.",
+"p": false,
+"note": "In the så-clause 'ikke' comes BEFORE the verb: så jeg ikke køber.",
+"words": [
+[
+"madpakke",
+"packed lunch"
+],
+[
+"arbejdet",
+"work"
+]
+]
+},
+{
+"da": "Jeg går også en tur på 30 minutter hver dag, og to gange om ugen løber jeg med en kollega.",
+"en": "I also go for a 30-minute walk every day, and twice a week I run with a colleague.",
+"p": false,
+"note": "'To gange om ugen' first → løber jeg.",
+"words": [
+[
+"minutter",
+"minutes"
+],
+[
+"kollega",
+"colleague"
+]
+]
+},
+{
+"da": "Derudover er det svært, fordi jeg har travlt.",
+"en": "But it is difficult because I am busy.",
+"p": true,
+"note": "'Derudover' first → er det. English 'I am busy' = jeg har travlt.",
+"words": [
+[
+"Derudover",
+"in addition"
+],
+[
+"travlt",
+"busy"
+]
+]
+},
+{
+"da": "Når jeg kommer træt hjem fra arbejde, har jeg ikke lyst til at lave mad eller løbe.",
+"en": "When I come home tired from work, I don't feel like cooking or running.",
+"p": false,
+"note": "The når-clause comes first → har jeg. 'Have lyst til at' = feel like + -ing.",
+"words": [
+[
+"træt",
+"tired"
+],
+[
+"lyst til",
+"feel like"
+]
+]
+},
+{
+"da": "Mine børn vil også gerne have slik og pizza i weekenden.",
+"en": "My children also want sweets and pizza at the weekend.",
+"p": false,
+"note": "'Vil gerne have' = would like (to have).",
+"words": [
+[
+"slik",
+"sweets"
+],
+[
+"weekenden",
+"the weekend"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at jeg allerede har det bedre.",
+"en": "Finally, I want to say that I already feel better.",
+"p": true,
+"note": "In the at-clause 'allerede' comes before the verb: at jeg allerede har.",
+"words": [
+[
+"allerede",
+"already"
+]
+]
+},
+{
+"da": "Jeg sover bedre og har mere energi.",
+"en": "I sleep better and have more energy.",
+"p": false,
+"note": "'Bedre' = better, 'mere' = more.",
+"words": [
+[
+"energi",
+"energy"
+]
+]
+},
+{
+"da": "Måske skal vi løbe en tur sammen næste gang, du er i byen?",
+"en": "Maybe we could go for a run together next time you are in town?",
+"p": false,
+"note": "'Måske' first → skal vi. 'Næste gang' = next time.",
+"words": [
+[
+"Måske",
+"maybe"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "'Glæde sig til at' + infinitive = look forward to + -ing.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A fixed phrase."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Sara",
+"en": "Sara",
+"p": false,
+"note": "Your name."
+}
+]
+}
+});
 (function () {
   const join = (L, key) => L.lines.map((l, i) => (i === 0 ? "" : l.p ? "\n\n" : " ") + (l[key] || "")).join("");
   const W = Object.values(PD2.EXAMS || {}).flatMap(E => E.WRITING || []);

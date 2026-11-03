@@ -1290,5 +1290,16 @@ PD2.I18N.tr = {
 "Vis afsnittet på engelsk": "Paragrafı İngilizce göster",
 "⏳ Oversætter …": "⏳ Çevriliyor …",
 "👀 Vis oversættelsen – den afslører de manglende ord": "👀 Çeviriyi göster – eksik kelimeleri ortaya çıkarır",
-"Oversættelsen kunne ikke hentes. Brug knappen 🇬🇧 EN øverst i teksten.": "Çeviri yüklenemedi. Metnin üstündeki 🇬🇧 EN düğmesini kullan."
+"Oversættelsen kunne ikke hentes. Brug knappen 🇬🇧 EN øverst i teksten.": "Çeviri yüklenemedi. Metnin üstündeki 🇬🇧 EN düğmesini kullan.",
+"Modelsvar i 4 trin": "4 adımda örnek cevap",
+"Først enkelt engelsk, så det samme på dansk. Derefter sætning for sætning: hvad der ændrer sig fra engelsk til dansk – og til sidst det, du skal huske.": "Önce basit İngilizce, sonra aynısı Danca. Ardından cümle cümle: İngilizceden Dancaya ne değişiyor – ve son olarak hatırlaman gerekenler.",
+"Først på engelsk": "Önce İngilizce",
+"– enkle sætninger": "– basit cümleler",
+"Så på dansk": "Sonra Danca",
+"– det samme modelsvar ({n} ord)": "– aynı örnek cevap ({n} kelime)",
+"Sætning for sætning": "Cümle cümle",
+"– engelsk → dansk, og hvad der ændrer sig": "– İngilizce → Danca ve ne değişiyor",
+"Husk": "Unutma",
+"– det vigtigste fra dette svar": "– bu cevaptaki en önemli noktalar",
+"🎧 Lyt": "🎧 Dinle"
 };

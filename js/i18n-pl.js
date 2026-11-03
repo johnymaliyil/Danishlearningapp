@@ -1290,5 +1290,16 @@ PD2.I18N.pl = {
 "Vis afsnittet på engelsk": "Pokaż akapit po angielsku",
 "⏳ Oversætter …": "⏳ Tłumaczę …",
 "👀 Vis oversættelsen – den afslører de manglende ord": "👀 Pokaż tłumaczenie – zdradza brakujące słowa",
-"Oversættelsen kunne ikke hentes. Brug knappen 🇬🇧 EN øverst i teksten.": "Nie udało się pobrać tłumaczenia. Użyj przycisku 🇬🇧 EN nad tekstem."
+"Oversættelsen kunne ikke hentes. Brug knappen 🇬🇧 EN øverst i teksten.": "Nie udało się pobrać tłumaczenia. Użyj przycisku 🇬🇧 EN nad tekstem.",
+"Modelsvar i 4 trin": "Przykładowa odpowiedź w 4 krokach",
+"Først enkelt engelsk, så det samme på dansk. Derefter sætning for sætning: hvad der ændrer sig fra engelsk til dansk – og til sidst det, du skal huske.": "Najpierw prosty angielski, potem to samo po duńsku. Następnie zdanie po zdaniu: co się zmienia z angielskiego na duński – a na koniec to, co trzeba zapamiętać.",
+"Først på engelsk": "Najpierw po angielsku",
+"– enkle sætninger": "– proste zdania",
+"Så på dansk": "Potem po duńsku",
+"– det samme modelsvar ({n} ord)": "– ta sama odpowiedź ({n} słów)",
+"Sætning for sætning": "Zdanie po zdaniu",
+"– engelsk → dansk, og hvad der ændrer sig": "– angielski → duński i co się zmienia",
+"Husk": "Zapamiętaj",
+"– det vigtigste fra dette svar": "– najważniejsze z tej odpowiedzi",
+"🎧 Lyt": "🎧 Posłuchaj"
 };

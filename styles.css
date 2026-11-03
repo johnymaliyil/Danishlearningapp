@@ -1221,3 +1221,29 @@ a.chip { text-decoration: none; }
 .mini-card .para-en { top: 8px; right: 8px; }
 .para-en-out { font-size: 1.02rem; line-height: 1.6; padding: 10px 12px; background: var(--surface-2); border-radius: 10px; }
 .para-spoil summary { cursor: pointer; font-weight: 700; color: var(--accent); padding: 6px 0; }
+
+/* Model answer in 4 steps: English → Danish → sentence by sentence → things to remember */
+.msteps { display: grid; gap: 10px; }
+.mstep { border: 1px solid var(--border); border-radius: 14px; background: var(--surface); }
+.mstep > summary { cursor: pointer; padding: 12px 14px; list-style: none; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.mstep > summary::-webkit-details-marker { display: none; }
+.mstep > summary::after { content: "▾"; margin-left: auto; color: var(--muted); }
+.mstep:not([open]) > summary::after { content: "▸"; }
+.mstep-n { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--write); color: #fff; font-weight: 800; font-size: .85rem; flex: none; }
+.mstep-body { padding: 0 14px 14px; }
+.mstep-body .model[lang="en"] { font-style: italic; }
+.cmp-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.cmp { border-left: 3px solid var(--border); padding: 8px 12px; background: var(--surface-2); border-radius: 0 12px 12px 0; }
+.cmp.cmp-p { margin-top: 6px; }
+.cmp-en { color: var(--muted); font-style: italic; }
+.cmp-da { font-weight: 700; margin-top: 2px; font-size: 1.02rem; }
+.cmp-notes { margin-top: 6px; font-size: .9rem; display: grid; gap: 4px; }
+.cmp-tag { color: var(--accent); }
+.cmp-words { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px; }
+.cmp-words span { background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 1px 9px; font-size: .82rem; }
+.husk { margin: 0; padding-left: 20px; display: grid; gap: 8px; }
+@media (min-width: 1100px) {
+  .cmp { display: grid; grid-template-columns: 1fr 1fr; column-gap: 16px; }
+  .cmp-en, .cmp-da { margin-top: 0; }
+  .cmp-notes { grid-column: 1 / -1; }
+}
