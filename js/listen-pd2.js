@@ -30137,6 +30137,175 @@ Object.assign(PD2.LISTEN, {
 });
 // Takkebrev: thanks first, and a closing line before the greeting
 Object.assign(PD2.LISTEN, {"w21na":{"lines":[{"da":"Kære Mette","en":"Dear Mette","p":true,"note":"'Kære' (dear) starts a letter or e-mail. In Danish we put no comma after the name.","words":[["Kære","dear"]]},{"da":"Jeg vil gerne sige tusind tak for dit gode arbejde.","en":"I would like to say a big thank you for your good work.","p":true,"note":"'Tusind tak' = a thousand thanks. After 'dit' the adjective gets -e: dit gode arbejde.","words":[["tusind","thousand"],["arbejde","work"]]},{"da":"Vi skal flytte til Aarhus, fordi jeg har fået nyt job der.","en":"We are moving to Aarhus because I have got a new job there.","p":true,"note":"'Skal' + infinitive talks about a plan: vi skal flytte. 'Fået' is the past participle of 'få'.","words":[["flytte","move"],["fordi","because"],["fået","got"]]},{"da":"Derfor skal Omar skifte skole.","en":"That is why Omar has to change school.","p":false,"note":"The sentence starts with 'Derfor', so the verb comes before the subject: skal Omar.","words":[["Derfor","therefore"],["skifte","change"]]},{"da":"Omar har været meget glad for dig.","en":"Omar has been very happy with you.","p":true,"note":"'Være glad for' = like, be happy with. 'Har været' is the present perfect of 'være'.","words":[["været","been"]]},{"da":"Du er altid sød og tålmodig, og du forklarer tingene godt.","en":"You are always kind and patient, and you explain things well.","p":false,"note":"'Altid' comes after the verb in a main clause: er altid. 'Tingene' = the things.","words":[["tålmodig","patient"],["forklarer","explain"],["tingene","the things"]]},{"da":"Jeg er også glad for, at du altid har tid til at tale med mig.","en":"I am also happy that you always have time to talk to me.","p":false,"note":"After 'at' comes a subordinate clause, so 'altid' comes before the verb: at du altid har."},{"da":"Omar vil gerne holde kontakt med sine gamle klassekammerater.","en":"Omar would like to keep in touch with his old classmates.","p":true,"note":"'Sine' is used because the classmates belong to the subject, Omar. 'Gamle' has -e after 'sine'.","words":[["kontakt","contact"],["klassekammerater","classmates"]]},{"da":"Han vil ringe til dem og besøge dem i ferien.","en":"He will call them and visit them in the holidays.","p":false,"note":"After 'vil' both verbs are in the infinitive: ringe, besøge. 'Dem' = them.","words":[["besøge","visit"],["ferien","the holiday"]]},{"da":"Jeg håber, at vi ses igen.","en":"I hope we will see each other again.","p":true,"note":"A short, friendly closing line before the greeting.","words":[["håber","hope"]]},{"da":"Mange hilsner","en":"Best wishes","p":true,"note":"'Mange hilsner' (many greetings) is a friendly way to end a letter. No comma after it.","words":[["hilsner","greetings"]]},{"da":"Sara (Omars mor)","en":"Sara (Omar's mum)","p":false,"note":"Write your name on its own line under the sign-off. 'Omars' has -s for 'of': Omar's mum.","words":[["Omars","Omar's"]]}]},"w22mb":{"lines":[{"da":"Kære kolleger","en":"Dear colleagues","p":true,"note":"'Kære' (dear) starts a letter or e-mail. In Danish we put no comma after the name.","words":[["kolleger","colleagues"]]},{"da":"Tusind tak for en god praktik i Total.","en":"Thank you very much for a good work placement at Total.","p":true,"note":"'Tusind tak for' + noun = thank you very much for. 'Praktik' is an en-word: en god praktik.","words":[["Tusind","thousand"],["praktik","work placement"]]},{"da":"Jeg har været meget glad for at arbejde sammen med jer.","en":"I have been very happy to work together with you.","p":false,"note":"'Være glad for at' + infinitive = be happy to. 'Jer' = you (plural, object).","words":[["været","been"],["arbejde","work"],["sammen","together"]]},{"da":"Jeg har lært at fylde varer op og at sidde ved kassen.","en":"I have learned to stock shelves and to sit at the till.","p":true,"note":"'Fylde op' = fill up; the object goes in the middle: fylde varer op.","words":[["lært","learned"],["fylde","fill"],["kassen","the till"]]},{"da":"Jeg har også lært mange nye danske ord.","en":"I have also learned many new Danish words.","p":false,"note":"'Nye' and 'danske' have -e because 'ord' is plural here.","words":[["lært","learned"],["danske","Danish"]]},{"da":"Nu skal jeg begynde på en uddannelse som butiksassistent.","en":"Now I am going to start training as a shop assistant.","p":true,"note":"The sentence starts with 'Nu', so the verb comes before the subject: skal jeg.","words":[["begynde","start"],["uddannelse","education"],["butiksassistent","shop assistant"]]},{"da":"Jeg glæder mig meget.","en":"I am really looking forward to it.","p":false,"note":"'Glæde sig' (look forward) is reflexive: jeg glæder mig. 'Glæder' has a silent d.","words":[["glæder","look forward"]]},{"da":"Jeg vil savne jer, fordi I altid var søde og hjælpsomme.","en":"I will miss you because you were always kind and helpful.","p":true,"note":"'Fordi' starts a subordinate clause, so 'altid' comes before the verb: fordi I altid var.","words":[["savne","miss"],["fordi","because"],["hjælpsomme","helpful"]]},{"da":"Det var også dejligt at spise frokost med jer.","en":"It was also lovely to eat lunch with you.","p":false,"note":"'Det var dejligt at' + infinitive = it was lovely to. 'Også' comes after the verb.","words":[["dejligt","lovely"],["frokost","lunch"]]},{"da":"Jeg vil gerne holde kontakten med jer på Facebook.","en":"I would like to keep in touch with you on Facebook.","p":false,"note":"'Holde kontakten' = keep in touch. After 'vil gerne' the verb is in the infinitive.","words":[["kontakten","the contact"]]},{"da":"Jeg kommer også forbi og handler i butikken.","en":"I will also drop by and shop in the store.","p":false,"note":"'Også' comes right after the verb: kommer også. The present tense is used about the future.","words":[["handler","shop"],["butikken","the shop"]]},{"da":"Jeg glæder mig til at se jer igen.","en":"I look forward to seeing you again.","p":true,"note":"'Jeg glæder mig til at …' = I look forward to … A good closing line.","words":[["glæder mig","look forward"]]},{"da":"Mange hilsner","en":"Best wishes","p":true,"note":"'Mange hilsner' (many greetings) is a friendly way to end a letter. No comma after it.","words":[["hilsner","greetings"]]},{"da":"Sara","en":"Sara","p":false,"note":"Write your name on its own line under the sign-off."}]}});
+// Practice: a thank-you letter after an office job
+Object.assign(PD2.LISTEN, {
+"w31": {
+"lines": [
+{
+"da": "Kære kolleger",
+"en": "Dear colleagues",
+"p": true,
+"note": "'Kære' + name. No comma after it.",
+"words": [
+[
+"kolleger",
+"colleagues"
+]
+]
+},
+{
+"da": "Tusind tak for tre gode år her på kontoret i DataSoft.",
+"en": "Thank you so much for three good years here at the office at DataSoft.",
+"p": true,
+"note": "'Tusind tak for …' = thank you so much for …",
+"words": [
+[
+"kontoret",
+"the office"
+]
+]
+},
+{
+"da": "Jeg arbejdede som kontorassistent i salgsafdelingen.",
+"en": "I worked as an office assistant in the sales department.",
+"p": false,
+"note": "'Arbejdede' = worked. 'Som' + job: som kontorassistent.",
+"words": [
+[
+"kontorassistent",
+"office assistant"
+],
+[
+"salgsafdelingen",
+"the sales department"
+]
+]
+},
+{
+"da": "Jeg er taknemmelig for, at I altid hjalp mig.",
+"en": "I am grateful that you always helped me.",
+"p": true,
+"note": "'Taknemmelig for, at …' = grateful that … After 'at', 'altid' comes before the verb.",
+"words": [
+[
+"taknemmelig",
+"grateful"
+],
+[
+"hjalp",
+"helped"
+]
+]
+},
+{
+"da": "I lærte mig meget om it, og mit dansk blev meget bedre.",
+"en": "You taught me a lot about IT, and my Danish got much better.",
+"p": false,
+"note": "'Lærte mig' = taught me. 'Blev bedre' = got better.",
+"words": [
+[
+"lærte",
+"taught / learned"
+],
+[
+"bedre",
+"better"
+]
+]
+},
+{
+"da": "Jeg vil savne jer, fordi I er søde og sjove.",
+"en": "I will miss you because you are nice and fun.",
+"p": true,
+"note": "'Jeg vil savne …, fordi …' gives the reason.",
+"words": [
+[
+"savne",
+"miss"
+],
+[
+"sjove",
+"fun"
+]
+]
+},
+{
+"da": "Jeg vil især savne vores frokost og kaffepauser sammen.",
+"en": "I will especially miss our lunches and coffee breaks together.",
+"p": false,
+"note": "'Især' = especially.",
+"words": [
+[
+"især",
+"especially"
+],
+[
+"kaffepauser",
+"coffee breaks"
+]
+]
+},
+{
+"da": "Nu skal jeg begynde på en uddannelse som programmør.",
+"en": "Now I am going to start training as a programmer.",
+"p": true,
+"note": "After 'Nu' the verb comes first: skal jeg.",
+"words": [
+[
+"uddannelse",
+"education / training"
+],
+[
+"programmør",
+"programmer"
+]
+]
+},
+{
+"da": "Det bliver spændende.",
+"en": "It will be exciting.",
+"p": false,
+"note": "'Bliver' can mean 'will be'.",
+"words": [
+[
+"spændende",
+"exciting"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at se jer igen.",
+"en": "I look forward to seeing you again.",
+"p": true,
+"note": "'Jeg glæder mig til at …' = I look forward to … A good closing line.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+}
+});
 (function () {
   const join = (L, key) => L.lines.map((l, i) => (i === 0 ? "" : l.p ? "\n\n" : /[.!?…:)]\s*$/.test(L.lines[i - 1].da || "") ? " " : /^(Kære|Hej|Hejsa|Hello|Til)\b/i.test(L.lines[i - 1].da || "") ? "\n\n" : "\n") + (l[key] || "")).join("");
   const W = Object.values(PD2.EXAMS || {}).flatMap(E => E.WRITING || []);

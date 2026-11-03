@@ -256,3 +256,16 @@ Object.assign(PD2.TASK_EN, {
   ]
  }
 });
+
+// Practice: a thank-you letter after an office job
+Object.assign(PD2.TASK_EN, {
+ "w31": {
+  "s": "You have finished working in an office at a big IT company. You want to write a thank-you letter to your colleagues. Write the letter. You must begin and end it in a suitable way.",
+  "p": [
+   "Where you worked and how long you worked there",
+   "What you are grateful for",
+   "Why you will miss working there",
+   "What you are going to do now"
+  ]
+ }
+});

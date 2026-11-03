@@ -611,6 +611,33 @@ Leyla Amini`
       "model": "Kære Hotel Strandly\n\nJeg skriver for at klage over mit ophold på jeres hotel. Jeg boede på værelse 214 fra den 5. til den 12. juli.\n\nVærelset var ikke rent, og aircondition virkede ikke. Der var meget varmt om natten. Vi sagde det til receptionen, men ingen hjalp os.\n\nDet ødelagde vores ferie. Vi sov dårligt og var trætte hver dag.\n\nDerfor vil jeg gerne have halvdelen af pengene tilbage. Ring til mig på 22 33 44 55.\n\nMed venlig hilsen\nAmina Hassan"
     },
     {
+      "id": "w31",
+      "delprove": 1,
+      "tpl": "takkebrev",
+      "title": "Et takkebrev til dine kolleger i en it-virksomhed",
+      "kind": "Takkebrev til kolleger",
+      "minWords": 80,
+      "maxWords": 150,
+      "situation": "Du er færdig som medarbejder på et kontor i en stor it-virksomhed. Du vil skrive et takkebrev til dine kolleger. Skriv takkebrevet. Du skal begynde og afslutte takkebrevet på en passende måde.",
+      "points": [
+        "Hvor du arbejdede, og hvor længe du arbejdede der",
+        "Hvad du er taknemmelig for",
+        "Hvorfor du vil savne at arbejde der",
+        "Hvad du skal lave nu"
+      ],
+      "phrases": [
+        "Kære kolleger",
+        "Tusind tak for …",
+        "Jeg er taknemmelig for, at …",
+        "Jeg vil savne jer, fordi …",
+        "Jeg vil især savne …",
+        "Nu skal jeg …",
+        "Jeg glæder mig til at se jer igen.",
+        "Mange hilsner"
+      ],
+      "model": "Kære kolleger\n\nTusind tak for tre gode år her på kontoret i DataSoft. Jeg arbejdede som kontorassistent i salgsafdelingen.\n\nJeg er taknemmelig for, at I altid hjalp mig. I lærte mig meget om it, og mit dansk blev meget bedre.\n\nJeg vil savne jer, fordi I er søde og sjove. Jeg vil især savne vores frokost og kaffepauser sammen.\n\nNu skal jeg begynde på en uddannelse som programmør. Det bliver spændende.\n\nJeg glæder mig til at se jer igen.\n\nMange hilsner\nAli"
+    },
+    {
       id: "w9", delprove: 1,
       title: "Tak for hjælpen",
       kind: "Mail til en nabo",

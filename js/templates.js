@@ -365,7 +365,7 @@ PD2.TEMPLATE_FOR = {
   anbefaling: ["w24mb", "w22na", "w17ma", "w16ma", "w19b", "w18a", "w14na", "w13b"],
   opslag: ["w17na", "w15nb", "w15na", "w20nb", "w21nb", "w21ma", "w23ma", "w18mb", "w15ma", "w12nb", "w20a", "w20b", "w16a", "w16b", "w14nb", "w13na", "w13a", "w12a"],
   jobannonce: ["w18b", "w26ma"],
-  takkebrev: ["w20na", "w21na", "w22mb", "w18ma", "w14a"],
+  takkebrev: ["w31", "w20na", "w21na", "w22mb", "w18ma", "w14a"],
   holdning: ["w17mb", "w4", "w6", "w7", "w10", "w11"]
 };
 
