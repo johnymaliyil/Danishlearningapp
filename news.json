@@ -1,6 +1,19 @@
 {
- "updated": "2026-11-02T23:07+00:00",
+ "updated": "2026-11-03T11:57+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/10-000-elever-og-studerende-gaar-paa-gaden-i-morgen",
+   "date": "2026-11-03T05:59:49+00:00",
+   "da": {
+    "title": "10.000 elever og studerende går på gaden i morgen",
+    "desc": ""
+   },
+   "en": {
+    "title": "10,000 students take to the streets tomorrow",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/apples-omsaetning-slaar-markedets-forventninger",
@@ -180,19 +193,6 @@
    },
    "en": {
     "title": "Woman convicted of multiple cases of contact fraud",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/dronning-mary-rejser-til-colombia",
-   "date": "2026-11-02T10:08:15+00:00",
-   "da": {
-    "title": "Dronning Mary rejser til Colombia",
-    "desc": ""
-   },
-   "en": {
-    "title": "Queen Mary travels to Colombia",
     "desc": ""
    }
   }
