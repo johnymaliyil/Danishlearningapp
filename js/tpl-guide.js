@@ -4,16 +4,16 @@
 window.PD2 = window.PD2 || {};
 PD2.TPL_GUIDE = {
   klage: {
-    task: "Du har været på ferie og haft problemer med dit hotel. Skriv en klage: hvor og hvornår du boede der, hvad problemet var, hvordan det påvirkede din ferie, og hvilken kompensation du ønsker.",
+    task: "Du har været på ferie og haft problemer med dit hotel. Skriv en klage: hvor og hvornår du boede der, hvad problemet var, hvordan det påvirkede din ferie, og hvad du vil have.",
     rows: [
-      ["Navn og adresse på den, du skriver til", "Who you write to", "Hotel Strandly\nStrandvejen 10\n6700 Esbjerg", ["Firma / hotel", "Gade og husnummer", "Postnummer og by"]],
-      ["Overskrift – hvad du klager over", "Heading", "Vedr. mit ophold fra den 5. til den 12. juli", ["Vedr. … (= vedrørende)"]],
-      ["Hilsen", "Greeting", "Kære Hotel Strandly", ["Kære …", "Til …"]],
-      ["Indledning – hvorfor du skriver", "Why you write", "Jeg skriver til jer for at klage over mit ophold på jeres hotel. Jeg boede på værelse 214 med min familie fra den 5. til den 12. juli.", ["Jeg skriver til jer for at klage over …", "Jeg skriver, fordi jeg ønsker at klage over …", "Jeg er ikke tilfreds med …"]],
-      ["Hovedafsnit – problemerne", "The problems", "For det første var værelset ikke rent, da vi kom. For det andet virkede airconditionen ikke, så der var meget varmt om natten. Vi sagde det til receptionen tre gange, men ingen hjalp os.", ["For det første …", "For det andet …", "Jeg havde bestilt …, men …", "Det er uacceptabelt, at …"]],
-      ["Hvad det betød for dig", "What it meant for you", "Det ødelagde vores ferie. Vi sov dårligt, og børnene var trætte og sure. Ferien levede ikke op til vores forventninger.", ["Det betød, at …", "Det ødelagde …", "… levede ikke op til mine forventninger"]],
-      ["Afslutning – hvad du vil have, og hvordan de kan kontakte dig", "What you want + contact", "Jeg forventer derfor, at I betaler halvdelen af prisen tilbage. I kan kontakte mig på telefon 22 33 44 55.", ["Jeg vil derfor gerne bede jer om at …", "Jeg forventer, at …", "Jeg foreslår, at I hurtigst muligt …", "I kan kontakte mig på …"]],
-      ["Formel sluthilsen", "Formal ending", "Med venlig hilsen\nAmina Hassan", ["Med venlig hilsen", "Venlig hilsen"]],
+      ["Hvem du skriver til", "Who you write to", "Hotel Strandly\nStrandvejen 10\n6700 Esbjerg", ["Navn", "Gade og nummer", "Postnummer og by"]],
+      ["Overskrift", "Heading", "Vedr. mit ophold i juli", ["Vedr. … (= om)"]],
+      ["Hilsen", "Greeting", "Kære Hotel Strandly", ["Kære …"]],
+      ["Hvorfor du skriver", "Why you write", "Jeg skriver for at klage over mit ophold på jeres hotel. Jeg boede på værelse 214 fra den 5. til den 12. juli.", ["Jeg skriver for at klage over …", "Jeg er ikke glad for …"]],
+      ["Problemerne", "The problems", "For det første var værelset ikke rent. For det andet virkede aircondition ikke.", ["For det første …", "For det andet …", "… virkede ikke."]],
+      ["Hvad det betød", "What it meant", "Det ødelagde vores ferie. Vi sov dårligt.", ["Det ødelagde …", "Vi var …"]],
+      ["Hvad du vil have", "What you want", "Derfor vil jeg gerne have halvdelen af pengene tilbage. I kan ringe til mig på 22 33 44 55.", ["Derfor vil jeg gerne have …", "Jeg vil gerne bede jer om at …", "Ring til mig på …"]],
+      ["Slut", "Ending", "Med venlig hilsen\nAmina Hassan", ["Med venlig hilsen"]],
     ],
   },
   anbefaling: {

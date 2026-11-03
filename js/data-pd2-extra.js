@@ -607,18 +607,8 @@ Leyla Amini`
         "Hvordan det påvirkede din ferie",
         "Hvilken form for kompensation du ønsker"
       ],
-      "phrases": [
-        "Vedr. mit ophold …",
-        "Jeg skriver til jer for at klage over …",
-        "For det første …",
-        "For det andet …",
-        "Det ødelagde …",
-        "… levede ikke op til vores forventninger.",
-        "Jeg forventer derfor, at …",
-        "I kan kontakte mig på …",
-        "Med venlig hilsen"
-      ],
-      "model": "Hotel Strandly\nStrandvejen 10\n6700 Esbjerg\n\nVedr. mit ophold fra den 5. til den 12. juli\n\nKære Hotel Strandly\n\nJeg skriver til jer for at klage over mit ophold på jeres hotel. Jeg boede på værelse 214 sammen med min familie fra den 5. til den 12. juli.\n\nFor det første var værelset ikke rent, da vi kom. Der var hår i badeværelset, og sengetøjet var beskidt. For det andet virkede airconditionen ikke, så der var meget varmt om natten. Vi sagde det til receptionen tre gange, men ingen hjalp os.\n\nDet ødelagde vores ferie. Vi sov dårligt, og børnene var trætte og sure hver dag. Vi havde glædet os længe, men ferien levede ikke op til vores forventninger.\n\nJeg forventer derfor, at I betaler halvdelen af prisen tilbage. I kan kontakte mig på telefon 22 33 44 55.\n\nMed venlig hilsen\nAmina Hassan\nParkvej 8, 8000 Aarhus"
+      "phrases": ["Jeg skriver for at klage over …", "For det første …", "For det andet …", "Det ødelagde vores ferie.", "Derfor vil jeg gerne have …", "Ring til mig på …", "Med venlig hilsen"],
+      "model": "Kære Hotel Strandly\n\nJeg skriver for at klage over mit ophold på jeres hotel. Jeg boede på værelse 214 fra den 5. til den 12. juli.\n\nVærelset var ikke rent, og aircondition virkede ikke. Der var meget varmt om natten. Vi sagde det til receptionen, men ingen hjalp os.\n\nDet ødelagde vores ferie. Vi sov dårligt og var trætte hver dag.\n\nDerfor vil jeg gerne have halvdelen af pengene tilbage. Ring til mig på 22 33 44 55.\n\nMed venlig hilsen\nAmina Hassan"
     },
     {
       id: "w9", delprove: 1,

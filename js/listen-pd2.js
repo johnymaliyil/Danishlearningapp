@@ -29975,50 +29975,10 @@ Object.assign(PD2.LISTEN, {
 "w30": {
 "lines": [
 {
-"da": "Hotel Strandly",
-"en": "Hotel Strandly",
-"p": true,
-"note": "Start with the name of the hotel or firm you write to."
-},
-{
-"da": "Strandvejen 10",
-"en": "Strandvejen 10",
-"p": false,
-"note": "Street and house number.",
-"words": [
-[
-"Strandvejen",
-"the beach road"
-]
-]
-},
-{
-"da": "6700 Esbjerg",
-"en": "6700 Esbjerg",
-"p": false,
-"note": "Postcode and town."
-},
-{
-"da": "Vedr. mit ophold fra den 5. til den 12. juli",
-"en": "Re: my stay from 5 to 12 July",
-"p": true,
-"note": "'Vedr.' (vedrørende) = about / re. A short heading that says what you complain about.",
-"words": [
-[
-"Vedr.",
-"re / about"
-],
-[
-"ophold",
-"stay"
-]
-]
-},
-{
 "da": "Kære Hotel Strandly",
 "en": "Dear Hotel Strandly",
 "p": true,
-"note": "'Kære' + name starts the letter. No comma after the name.",
+"note": "'Kære' + name. No comma after the name.",
 "words": [
 [
 "Kære",
@@ -30027,10 +29987,10 @@ Object.assign(PD2.LISTEN, {
 ]
 },
 {
-"da": "Jeg skriver til jer for at klage over mit ophold på jeres hotel.",
-"en": "I am writing to you to complain about my stay at your hotel.",
+"da": "Jeg skriver for at klage over mit ophold på jeres hotel.",
+"en": "I am writing to complain about my stay at your hotel.",
 "p": true,
-"note": "'Jeg skriver til jer for at klage over …' is a fixed phrase. Danish has no -ing: I am writing = jeg skriver.",
+"note": "Learn this sentence by heart: Jeg skriver for at klage over …",
 "words": [
 [
 "klage over",
@@ -30043,67 +30003,39 @@ Object.assign(PD2.LISTEN, {
 ]
 },
 {
-"da": "Jeg boede på værelse 214 sammen med min familie fra den 5. til den 12. juli.",
-"en": "I stayed in room 214 with my family from 5 to 12 July.",
+"da": "Jeg boede på værelse 214 fra den 5. til den 12. juli.",
+"en": "I stayed in room 214 from 5 to 12 July.",
 "p": false,
-"note": "'Boede' is the past form of 'bo'. Dates: 'den 5. juli' with a full stop after the number.",
+"note": "'Boede' = stayed (past of 'bo').",
 "words": [
 [
 "værelse",
 "room"
-],
-[
-"familie",
-"family"
 ]
 ]
 },
 {
-"da": "For det første var værelset ikke rent, da vi kom.",
-"en": "First, the room was not clean when we arrived.",
+"da": "Værelset var ikke rent, og aircondition virkede ikke.",
+"en": "The room was not clean, and the air conditioning did not work.",
 "p": true,
-"note": "After 'For det første' the verb comes first: var værelset. 'Ikke' after the verb.",
+"note": "'Ikke' comes after the verb: var ikke, virkede ikke.",
 "words": [
 [
-"værelset",
+"Værelset",
 "the room"
 ],
 [
-"rent",
-"clean"
+"virkede",
+"worked"
 ]
 ]
 },
 {
-"da": "Der var hår i badeværelset, og sengetøjet var beskidt.",
-"en": "There was hair in the bathroom, and the bedding was dirty.",
+"da": "Der var meget varmt om natten.",
+"en": "It was very hot at night.",
 "p": false,
-"note": "'Der var' = there was. 'Beskidt' = dirty.",
+"note": "'Om natten' = at night.",
 "words": [
-[
-"badeværelset",
-"the bathroom"
-],
-[
-"sengetøjet",
-"the bedding"
-],
-[
-"beskidt",
-"dirty"
-]
-]
-},
-{
-"da": "For det andet virkede airconditionen ikke, så der var meget varmt om natten.",
-"en": "Second, the air conditioning didn't work, so it was very hot at night.",
-"p": false,
-"note": "After 'For det andet' the verb comes first: virkede airconditionen. 'Om natten' = at night.",
-"words": [
-[
-"airconditionen",
-"the air conditioning"
-],
 [
 "natten",
 "the night"
@@ -30111,10 +30043,10 @@ Object.assign(PD2.LISTEN, {
 ]
 },
 {
-"da": "Vi sagde det til receptionen tre gange, men ingen hjalp os.",
-"en": "We told the reception three times, but nobody helped us.",
+"da": "Vi sagde det til receptionen, men ingen hjalp os.",
+"en": "We told the reception, but nobody helped us.",
 "p": false,
-"note": "'Sagde' is the past form of 'sige', 'hjalp' of 'hjælpe'. 'Ingen' = nobody.",
+"note": "'Ingen' = nobody. 'Hjalp' = helped.",
 "words": [
 [
 "receptionen",
@@ -30130,31 +30062,23 @@ Object.assign(PD2.LISTEN, {
 "da": "Det ødelagde vores ferie.",
 "en": "It ruined our holiday.",
 "p": true,
-"note": "'Ødelagde' is the past form of 'ødelægge' (ruin).",
+"note": "'Ødelagde' = ruined.",
 "words": [
 [
 "ødelagde",
 "ruined"
-],
-[
-"ferie",
-"holiday"
 ]
 ]
 },
 {
-"da": "Vi sov dårligt, og børnene var trætte og sure hver dag.",
-"en": "We slept badly, and the children were tired and grumpy every day.",
+"da": "Vi sov dårligt og var trætte hver dag.",
+"en": "We slept badly and were tired every day.",
 "p": false,
-"note": "More than one: trætte, sure (-e). 'Sov' is the past form of 'sove'.",
+"note": "'Sov' = slept. 'Trætte' = tired.",
 "words": [
 [
 "dårligt",
 "badly"
-],
-[
-"børnene",
-"the children"
 ],
 [
 "trætte",
@@ -30163,50 +30087,30 @@ Object.assign(PD2.LISTEN, {
 ]
 },
 {
-"da": "Vi havde glædet os længe, men ferien levede ikke op til vores forventninger.",
-"en": "We had looked forward to it for a long time, but the holiday did not live up to our expectations.",
-"p": false,
-"note": "'Leve op til' = live up to. A good phrase for a complaint.",
-"words": [
-[
-"glædet os",
-"looked forward"
-],
-[
-"forventninger",
-"expectations"
-]
-]
-},
-{
-"da": "Jeg forventer derfor, at I betaler halvdelen af prisen tilbage.",
-"en": "So I expect you to pay back half of the price.",
+"da": "Derfor vil jeg gerne have halvdelen af pengene tilbage.",
+"en": "So I would like half of the money back.",
 "p": true,
-"note": "'Jeg forventer, at …' says what you want. 'Derfor' (so) comes after the verb here.",
+"note": "After 'Derfor' the verb comes first: vil jeg.",
 "words": [
-[
-"forventer",
-"expect"
-],
 [
 "halvdelen",
 "half"
 ],
 [
-"prisen",
-"the price"
+"pengene",
+"the money"
 ]
 ]
 },
 {
-"da": "I kan kontakte mig på telefon 22 33 44 55.",
-"en": "You can contact me on phone 22 33 44 55.",
+"da": "Ring til mig på 22 33 44 55.",
+"en": "Call me on 22 33 44 55.",
 "p": false,
-"note": "Always tell them how to contact you. 'I' with a capital letter = you (more than one).",
+"note": "Always say how they can contact you.",
 "words": [
 [
-"kontakte",
-"contact"
+"Ring",
+"call"
 ]
 ]
 },
@@ -30214,7 +30118,7 @@ Object.assign(PD2.LISTEN, {
 "da": "Med venlig hilsen",
 "en": "Kind regards",
 "p": true,
-"note": "The polite ending of a formal letter.",
+"note": "The polite ending.",
 "words": [
 [
 "venlig",
@@ -30227,12 +30131,6 @@ Object.assign(PD2.LISTEN, {
 "en": "Amina Hassan",
 "p": false,
 "note": "Your name."
-},
-{
-"da": "Parkvej 8, 8000 Aarhus",
-"en": "Parkvej 8, 8000 Aarhus",
-"p": false,
-"note": "Your address under your name."
 }
 ]
 }
