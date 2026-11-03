@@ -359,7 +359,7 @@ PD2.TEMPLATE_FOR = {
   pd3debat: ["pd3-w3", "pd3-w4"],
   pd3sammenlign: ["pd3-w5"],
   ven: ["w24mc", "w26mc", "w19nc", "w17nc", "w15nc", "w20nc", "w21nc", "w21mc", "w22nc", "w22mc", "w23mc", "w18mc", "w15mc", "w12nc", "w17mc", "w16mc", "w20c", "w19c", "w18c", "w16c", "w14nc", "w14c", "w13nc", "w13c", "w12c", "w1", "w9"],
-  klage: ["w24ma", "w21mb", "w22nb", "w22ma", "w12na", "w19a", "w13nb", "w12b", "w2"],
+  klage: ["w24ma", "w30", "w21mb", "w22nb", "w22ma", "w12na", "w19a", "w13nb", "w12b", "w2"],
   ansoegning: ["w19nb", "w23mb", "w15mb", "w16mb", "w14b", "w5"],
   institution: ["w3", "w8"],
   anbefaling: ["w24mb", "w22na", "w17ma", "w16ma", "w19b", "w18a", "w14na", "w13b"],

@@ -1317,5 +1317,12 @@ PD2.I18N.ro = {
 "Hvor mange ord?": "Câte cuvinte?",
 "Alle mine ord ({n})": "Toate cuvintele mele ({n})",
 "Du kan stoppe når som helst med ⏹ Stop.": "Poți opri oricând cu ⏹ Stop.",
-"⏹ Stop": "⏹ Stop"
+"⏹ Stop": "⏹ Stop",
+"🧩 Modeltekst": "🧩 Text model",
+"Modeltekst": "Text model",
+"– hvad, eksempel og gode ord og udtryk": "– ce, exemplu și cuvinte și expresii bune",
+"Hvad?": "Ce?",
+"Eksempel": "Exemplu",
+"Gode ord og udtryk": "Cuvinte și expresii bune",
+"Eksempel på opgave:": "Exemplu de sarcină:"
 };

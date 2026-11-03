@@ -1317,5 +1317,12 @@ PD2.I18N.pl = {
 "Hvor mange ord?": "Ile słów?",
 "Alle mine ord ({n})": "Wszystkie moje słowa ({n})",
 "Du kan stoppe når som helst med ⏹ Stop.": "Możesz przerwać w każdej chwili przyciskiem ⏹ Stop.",
-"⏹ Stop": "⏹ Stop"
+"⏹ Stop": "⏹ Stop",
+"🧩 Modeltekst": "🧩 Tekst wzorcowy",
+"Modeltekst": "Tekst wzorcowy",
+"– hvad, eksempel og gode ord og udtryk": "– co, przykład oraz dobre słowa i zwroty",
+"Hvad?": "Co?",
+"Eksempel": "Przykład",
+"Gode ord og udtryk": "Dobre słowa i zwroty",
+"Eksempel på opgave:": "Przykładowe zadanie:"
 };

@@ -29970,6 +29970,273 @@ Object.assign(PD2.LISTEN, {
 ]
 }
 });
+// Practice: a complaint to a hotel
+Object.assign(PD2.LISTEN, {
+"w30": {
+"lines": [
+{
+"da": "Hotel Strandly",
+"en": "Hotel Strandly",
+"p": true,
+"note": "Start with the name of the hotel or firm you write to."
+},
+{
+"da": "Strandvejen 10",
+"en": "Strandvejen 10",
+"p": false,
+"note": "Street and house number.",
+"words": [
+[
+"Strandvejen",
+"the beach road"
+]
+]
+},
+{
+"da": "6700 Esbjerg",
+"en": "6700 Esbjerg",
+"p": false,
+"note": "Postcode and town."
+},
+{
+"da": "Vedr. mit ophold fra den 5. til den 12. juli",
+"en": "Re: my stay from 5 to 12 July",
+"p": true,
+"note": "'Vedr.' (vedrørende) = about / re. A short heading that says what you complain about.",
+"words": [
+[
+"Vedr.",
+"re / about"
+],
+[
+"ophold",
+"stay"
+]
+]
+},
+{
+"da": "Kære Hotel Strandly",
+"en": "Dear Hotel Strandly",
+"p": true,
+"note": "'Kære' + name starts the letter. No comma after the name.",
+"words": [
+[
+"Kære",
+"dear"
+]
+]
+},
+{
+"da": "Jeg skriver til jer for at klage over mit ophold på jeres hotel.",
+"en": "I am writing to you to complain about my stay at your hotel.",
+"p": true,
+"note": "'Jeg skriver til jer for at klage over …' is a fixed phrase. Danish has no -ing: I am writing = jeg skriver.",
+"words": [
+[
+"klage over",
+"complain about"
+],
+[
+"ophold",
+"stay"
+]
+]
+},
+{
+"da": "Jeg boede på værelse 214 sammen med min familie fra den 5. til den 12. juli.",
+"en": "I stayed in room 214 with my family from 5 to 12 July.",
+"p": false,
+"note": "'Boede' is the past form of 'bo'. Dates: 'den 5. juli' with a full stop after the number.",
+"words": [
+[
+"værelse",
+"room"
+],
+[
+"familie",
+"family"
+]
+]
+},
+{
+"da": "For det første var værelset ikke rent, da vi kom.",
+"en": "First, the room was not clean when we arrived.",
+"p": true,
+"note": "After 'For det første' the verb comes first: var værelset. 'Ikke' after the verb.",
+"words": [
+[
+"værelset",
+"the room"
+],
+[
+"rent",
+"clean"
+]
+]
+},
+{
+"da": "Der var hår i badeværelset, og sengetøjet var beskidt.",
+"en": "There was hair in the bathroom, and the bedding was dirty.",
+"p": false,
+"note": "'Der var' = there was. 'Beskidt' = dirty.",
+"words": [
+[
+"badeværelset",
+"the bathroom"
+],
+[
+"sengetøjet",
+"the bedding"
+],
+[
+"beskidt",
+"dirty"
+]
+]
+},
+{
+"da": "For det andet virkede airconditionen ikke, så der var meget varmt om natten.",
+"en": "Second, the air conditioning didn't work, so it was very hot at night.",
+"p": false,
+"note": "After 'For det andet' the verb comes first: virkede airconditionen. 'Om natten' = at night.",
+"words": [
+[
+"airconditionen",
+"the air conditioning"
+],
+[
+"natten",
+"the night"
+]
+]
+},
+{
+"da": "Vi sagde det til receptionen tre gange, men ingen hjalp os.",
+"en": "We told the reception three times, but nobody helped us.",
+"p": false,
+"note": "'Sagde' is the past form of 'sige', 'hjalp' of 'hjælpe'. 'Ingen' = nobody.",
+"words": [
+[
+"receptionen",
+"the reception"
+],
+[
+"hjalp",
+"helped"
+]
+]
+},
+{
+"da": "Det ødelagde vores ferie.",
+"en": "It ruined our holiday.",
+"p": true,
+"note": "'Ødelagde' is the past form of 'ødelægge' (ruin).",
+"words": [
+[
+"ødelagde",
+"ruined"
+],
+[
+"ferie",
+"holiday"
+]
+]
+},
+{
+"da": "Vi sov dårligt, og børnene var trætte og sure hver dag.",
+"en": "We slept badly, and the children were tired and grumpy every day.",
+"p": false,
+"note": "More than one: trætte, sure (-e). 'Sov' is the past form of 'sove'.",
+"words": [
+[
+"dårligt",
+"badly"
+],
+[
+"børnene",
+"the children"
+],
+[
+"trætte",
+"tired"
+]
+]
+},
+{
+"da": "Vi havde glædet os længe, men ferien levede ikke op til vores forventninger.",
+"en": "We had looked forward to it for a long time, but the holiday did not live up to our expectations.",
+"p": false,
+"note": "'Leve op til' = live up to. A good phrase for a complaint.",
+"words": [
+[
+"glædet os",
+"looked forward"
+],
+[
+"forventninger",
+"expectations"
+]
+]
+},
+{
+"da": "Jeg forventer derfor, at I betaler halvdelen af prisen tilbage.",
+"en": "So I expect you to pay back half of the price.",
+"p": true,
+"note": "'Jeg forventer, at …' says what you want. 'Derfor' (so) comes after the verb here.",
+"words": [
+[
+"forventer",
+"expect"
+],
+[
+"halvdelen",
+"half"
+],
+[
+"prisen",
+"the price"
+]
+]
+},
+{
+"da": "I kan kontakte mig på telefon 22 33 44 55.",
+"en": "You can contact me on phone 22 33 44 55.",
+"p": false,
+"note": "Always tell them how to contact you. 'I' with a capital letter = you (more than one).",
+"words": [
+[
+"kontakte",
+"contact"
+]
+]
+},
+{
+"da": "Med venlig hilsen",
+"en": "Kind regards",
+"p": true,
+"note": "The polite ending of a formal letter.",
+"words": [
+[
+"venlig",
+"kind"
+]
+]
+},
+{
+"da": "Amina Hassan",
+"en": "Amina Hassan",
+"p": false,
+"note": "Your name."
+},
+{
+"da": "Parkvej 8, 8000 Aarhus",
+"en": "Parkvej 8, 8000 Aarhus",
+"p": false,
+"note": "Your address under your name."
+}
+]
+}
+});
 (function () {
   const join = (L, key) => L.lines.map((l, i) => (i === 0 ? "" : l.p ? "\n\n" : " ") + (l[key] || "")).join("");
   const W = Object.values(PD2.EXAMS || {}).flatMap(E => E.WRITING || []);

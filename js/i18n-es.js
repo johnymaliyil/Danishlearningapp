@@ -1317,5 +1317,12 @@ PD2.I18N.es = {
 "Hvor mange ord?": "¿Cuántas palabras?",
 "Alle mine ord ({n})": "Todas mis palabras ({n})",
 "Du kan stoppe når som helst med ⏹ Stop.": "Puedes parar cuando quieras con ⏹ Stop.",
-"⏹ Stop": "⏹ Parar"
+"⏹ Stop": "⏹ Parar",
+"🧩 Modeltekst": "🧩 Texto modelo",
+"Modeltekst": "Texto modelo",
+"– hvad, eksempel og gode ord og udtryk": "– qué, ejemplo y buenas palabras y expresiones",
+"Hvad?": "¿Qué?",
+"Eksempel": "Ejemplo",
+"Gode ord og udtryk": "Buenas palabras y expresiones",
+"Eksempel på opgave:": "Ejemplo de tarea:"
 };

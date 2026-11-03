@@ -593,6 +593,34 @@ Venlig hilsen
 Leyla Amini`
     },
     {
+      "id": "w30",
+      "delprove": 1,
+      "tpl": "klage",
+      "title": "En klage over et hotel",
+      "kind": "Klage til et hotel efter en ferie",
+      "minWords": 80,
+      "maxWords": 150,
+      "situation": "Du har været på ferie. Du har haft nogle problemer med dit hotel, og du vil nu gerne skrive en klage. Skriv klagen. Du skal begynde og afslutte klagen på en passende måde.",
+      "points": [
+        "Hvor du boede, og hvornår du boede der",
+        "Hvad problemet var",
+        "Hvordan det påvirkede din ferie",
+        "Hvilken form for kompensation du ønsker"
+      ],
+      "phrases": [
+        "Vedr. mit ophold …",
+        "Jeg skriver til jer for at klage over …",
+        "For det første …",
+        "For det andet …",
+        "Det ødelagde …",
+        "… levede ikke op til vores forventninger.",
+        "Jeg forventer derfor, at …",
+        "I kan kontakte mig på …",
+        "Med venlig hilsen"
+      ],
+      "model": "Hotel Strandly\nStrandvejen 10\n6700 Esbjerg\n\nVedr. mit ophold fra den 5. til den 12. juli\n\nKære Hotel Strandly\n\nJeg skriver til jer for at klage over mit ophold på jeres hotel. Jeg boede på værelse 214 sammen med min familie fra den 5. til den 12. juli.\n\nFor det første var værelset ikke rent, da vi kom. Der var hår i badeværelset, og sengetøjet var beskidt. For det andet virkede airconditionen ikke, så der var meget varmt om natten. Vi sagde det til receptionen tre gange, men ingen hjalp os.\n\nDet ødelagde vores ferie. Vi sov dårligt, og børnene var trætte og sure hver dag. Vi havde glædet os længe, men ferien levede ikke op til vores forventninger.\n\nJeg forventer derfor, at I betaler halvdelen af prisen tilbage. I kan kontakte mig på telefon 22 33 44 55.\n\nMed venlig hilsen\nAmina Hassan\nParkvej 8, 8000 Aarhus"
+    },
+    {
       id: "w9", delprove: 1,
       title: "Tak for hjælpen",
       kind: "Mail til en nabo",

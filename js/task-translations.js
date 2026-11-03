@@ -243,3 +243,16 @@ Object.assign(PD2.TASK_EN, {
   ]
  }
 });
+
+// Practice: a complaint to a hotel
+Object.assign(PD2.TASK_EN, {
+ "w30": {
+  "s": "You have been on holiday. You had some problems with your hotel, and now you want to write a complaint. Write the complaint. You must begin and end it in a suitable way.",
+  "p": [
+   "Where you stayed and when you stayed there",
+   "What the problem was",
+   "How it affected your holiday",
+   "What kind of compensation you want"
+  ]
+ }
+});

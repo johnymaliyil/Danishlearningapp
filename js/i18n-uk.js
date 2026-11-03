@@ -1317,5 +1317,12 @@ PD2.I18N.uk = {
 "Hvor mange ord?": "Скільки слів?",
 "Alle mine ord ({n})": "Усі мої слова ({n})",
 "Du kan stoppe når som helst med ⏹ Stop.": "Можна зупинитися будь-коли кнопкою ⏹ Stop.",
-"⏹ Stop": "⏹ Стоп"
+"⏹ Stop": "⏹ Стоп",
+"🧩 Modeltekst": "🧩 Зразок тексту",
+"Modeltekst": "Зразок тексту",
+"– hvad, eksempel og gode ord og udtryk": "– що, приклад і корисні слова та вирази",
+"Hvad?": "Що?",
+"Eksempel": "Приклад",
+"Gode ord og udtryk": "Корисні слова та вирази",
+"Eksempel på opgave:": "Приклад завдання:"
 };

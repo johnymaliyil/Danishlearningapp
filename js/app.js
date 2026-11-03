@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "145"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "146"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -1816,6 +1816,7 @@
         <p class="small muted">Det markerede er fast – det skriver du hver gang. <span class="ph">Det i felterne</span> udfylder du selv.</p>
         <div class="model tpl">${skeletonHtml(tpl)}</div>
         <p class="small" style="margin-top:10px">💡 ${esc(tpl.tip)}</p>
+        ${PD2.TPL_GUIDE && PD2.TPL_GUIDE[tpl.id] ? `<details class="mstep" style="margin-top:10px"><summary>🧩 <b>Modeltekst</b> <span class="small muted">– hvad, eksempel og gode ord og udtryk</span></summary><div class="mstep-body">${tplGuideHtml(tpl.id)}</div></details>` : ""}
         <div class="row" style="margin-top:10px">
           <button class="btn write sm" id="useTpl">✍️ Indsæt skabelonen i teksten</button>
           <a class="btn ghost sm" href="#/writing/skabeloner/${tpl.id}">🧠 Lær den udenad</a>
@@ -3865,6 +3866,20 @@
   }
   const skeletonHtml = tpl => markFixed(tpl.skeleton, tpl).replace(/\[([^\]]*)\]/g, '<span class="ph">$1</span>');
 
+  // 🧩 Modeltekst: a text type in three columns – Hvad? / Eksempel / Gode ord og udtryk (PD2.TPL_GUIDE).
+  function tplGuideHtml(id) {
+    const G = PD2.TPL_GUIDE && PD2.TPL_GUIDE[id];
+    if (!G) return "";
+    return `<div class="mt-guide">
+      ${G.task ? `<p class="small muted" style="margin:0 0 8px">Eksempel på opgave: <span class="no-tr">${esc(G.task)}</span></p>` : ""}
+      <div class="mt-row mt-head"><div>Hvad?</div><div>Eksempel</div><div>Gode ord og udtryk</div></div>
+      ${G.rows.map(([hvad, en, eks, ord]) => `<div class="mt-row">
+        <div class="mt-hvad"><b class="no-tr">${esc(hvad)}</b>${en ? `<span class="small muted" lang="en">${esc(en)}</span>` : ""}</div>
+        <div class="mt-eks no-tr">${esc(eks).replace(/\n/g, "<br>")}</div>
+        <div class="mt-ord no-tr"><ul>${ord.map(o => `<li>${esc(o)}</li>`).join("")}</ul></div>
+      </div>`).join("")}
+    </div>`;
+  }
   function templatesPage(openId) {
     // A link to another exam's template (e.g. shared) switches to that exam.
     if (openId && !EX().WRITING.some(w => w.tpl === openId)) {
@@ -3894,6 +3909,7 @@
             <p class="muted small" style="margin:0 0 8px">${esc(t.use)}</p>
             <div class="chips">${ts.map(w => `<a class="chip" href="#/writing/${w.id}">${esc(w.title)}</a>`).join("")}</div>
             <div class="row" style="margin-top:12px">
+              ${PD2.TPL_GUIDE && PD2.TPL_GUIDE[t.id] ? `<button class="btn ghost sm" data-guide="${t.id}">🧩 Modeltekst</button>` : ""}
               <button class="btn ghost sm" data-show="${t.id}">📋 Vis skabelon</button>
               <button class="btn ghost sm" data-say="${t.id}">🔊 Læs op</button>
               <button class="btn write sm" data-learn="${t.id}">🧠 Lær udenad</button>
@@ -3957,6 +3973,11 @@
       };
     }
     $$("[data-show]").forEach(x => x.onclick = () => show(x.dataset.show));
+    $$("[data-guide]").forEach(x => x.onclick = () => {
+      const b = body(x.dataset.guide);
+      if (b.dataset.mode === "guide") { b.innerHTML = ""; b.dataset.mode = ""; return; }
+      b.dataset.mode = "guide"; b.innerHTML = `<div style="margin-top:12px">${tplGuideHtml(x.dataset.guide)}</div>`;
+    });
     $$("[data-learn]").forEach(x => x.onclick = () => learn(x.dataset.learn));
     $$("[data-say]").forEach(x => x.onclick = () => speak(T[x.dataset.say].skeleton.replace(/\[[^\]]*\]/g, ", ")));
     if (openId && T[openId]) {

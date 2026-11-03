@@ -1317,5 +1317,12 @@ PD2.I18N.tr = {
 "Hvor mange ord?": "Kaç kelime?",
 "Alle mine ord ({n})": "Tüm kelimelerim ({n})",
 "Du kan stoppe når som helst med ⏹ Stop.": "İstediğin zaman ⏹ Stop ile durabilirsin.",
-"⏹ Stop": "⏹ Durdur"
+"⏹ Stop": "⏹ Durdur",
+"🧩 Modeltekst": "🧩 Örnek metin",
+"Modeltekst": "Örnek metin",
+"– hvad, eksempel og gode ord og udtryk": "– ne, örnek ve iyi kelimeler ve ifadeler",
+"Hvad?": "Ne?",
+"Eksempel": "Örnek",
+"Gode ord og udtryk": "İyi kelimeler ve ifadeler",
+"Eksempel på opgave:": "Örnek görev:"
 };
