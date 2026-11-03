@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "141"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "142"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -1157,26 +1157,63 @@
   const CMP_HAVE = [["har travlt", "be busy"], ["har det godt", "be well"], ["har det fint", "be fine"], ["har det bedre", "feel better"], ["har ret", "be right"], ["har lyst til", "feel like"], ["har åbent", "be open"], ["har fri", "be off (work)"], ["har brug for", "need"], ["har fødselsdag", "it is … birthday"], ["har svært ved", "find it hard to"]];
   const CMP_LINK = ["fordi", "men", "derfor", "desuden", "derudover", "også", "for det første", "for det andet", "for det tredje", "til sidst", "først", "bagefter", "hvis", "når", "selvom", "endelig", "alligevel", "heldigvis", "desværre", "så"];
   const CMP_END = /^(med venlig hilsen|venlig hilsen|mange hilsner|mange hilsener|kærlig hilsen|de bedste hilsner|hilsen|kh|vh)\b/i;
+  // Plain words for the sentence notes in the model answer steps: no grammar terms.
+  const capM = (m, t) => /^[A-Z]/.test(m) ? t[0].toUpperCase() + t.slice(1) : t;
+  const PLAIN = [
+    [/\bsubject line\b/gi, "'Emne' line (the title of the e-mail)"],
+    [/\b(?:the |a )?passive(?: form)? with 'blive'(?: \+ verb form after har| \+ (?:past )?participle)?/gi, m => capM(m, "'blive' + verb form (= is …-ed)")],
+    [/\b(?:the |a )?passive(?:-like)?(?: verb)?(?: form)?(?: with)? -s(?: form)?\b/gi, m => capM(m, "the -s form (= is …-ed)")],
+    [/\b(?:the |a )?passive(?:-like)?(?: verb)?(?: form)?\b/gi, m => capM(m, "the 'is …-ed' form")],
+    [/\b(?:an )?indirect questions?\b/gi, m => capM(m, "a question inside a sentence")],
+    [/\binversion after ([^:.]+):/gi, (m, a) => capM(m, `after ${a} the verb comes first:`)],
+    [/\binversion after\b/gi, m => capM(m, "the verb comes first after")],
+    [/\b(gives|has|causes|with) inversion\b/gi, (m, v) => v.toLowerCase() === "with" ? "with the verb first" : "puts the verb first"],
+    [/\binversion:/gi, m => capM(m, "verb first:")], [/\binver(?:sion|ted)\b/gi, m => capM(m, "verb first")],
+    [/\bsubordinate clauses?\b|\bsub-clauses?\b/gi, "at/fordi/når part"], [/\bsubordinate\b/gi, "at/fordi/når"],
+    [/\bmain clauses\b/gi, "normal sentences"], [/\bmain clause\b/gi, "normal sentence"],
+    [/(\S+)-clause\b/g, "$1 part"], [/\bclauses\b/gi, "parts"], [/\bclause\b/gi, "part"],
+    [/\b(?:the )?(?:present perfect|perfect tense|perfect)\b(?! (?:for|match|fit|place|time|way|day))/gi, m => capM(m, "the 'har' form (has done)")],
+    [/\bpast participles?\b|\bparticiples?\b/gi, "verb form after har"],
+    [/\bpast tense\b/gi, m => capM(m, "past form")], [/\bpresent[- ]tense\b/gi, m => capM(m, "now form")],
+    [/\b(in )?the infinitive\b/gi, (m, a) => a ? "in the basic form" : "the basic form"], [/\binfinitives?\b/gi, "basic verb"],
+    [/\bmodal verbs?\b/gi, "helper verb"], [/\bmodal\b/gi, "helper"], [/\bauxiliary\b/gi, "helper"],
+    [/\b(?:dummy )?subjects?\b/gi, "person"],
+    [/\bobject form\b/gi, "'me/him' form"], [/\b(?:the |an )?objects?\b/gi, m => capM(m, "the word after the verb")],
+    [/\badverbs\b/gi, "small words (ikke, også …)"], [/\badverb\b/gi, "small word"],
+    [/\bprepositions?\b/gi, "small word (i, på, til …)"], [/\bconjunctions?\b/gi, "linking word"],
+    [/\bimperatives\b/gi, "order forms"], [/\bimperative\b/gi, "order form"],
+    [/\bis reflexive\b/gi, "goes with mig/dig/sig"], [/\breflexive\b/gi, "mig/dig/sig"],
+    [/\b(?:definite plural|plural definite)\b/gi, "'the' form for more than one"], [/\bindefinite\b/gi, "without 'the'"], [/\bdefinite\b/gi, "'the'"],
+    [/\b(?:definite |indefinite )?articles?\b/gi, "'a/the' word"],
+    [/\bplural nouns\b/gi, "words for more than one"], [/\bthe plural of\b/gi, "more than one"], [/\bplural\b/gi, "more than one"], [/\bsingular\b/gi, "one"],
+    [/\bgenitive\b/gi, "owner"], [/\bpossessive\b/gi, "owner"],
+    [/\bcomparatives?\b/gi, m => capM(m, "'more' form")], [/\bsuperlatives?\b/gi, m => capM(m, "'most' form")],
+    [/\bnouns\b/gi, "naming words"], [/\bnoun\b/gi, "naming word"], [/\badjectives\b/gi, "describing words"], [/\badjective\b/gi, "describing word"],
+    [/\bpronouns?\b/gi, "word like jeg/du/han"], [/\bneuter\b/gi, "et-"], [/\bcommon gender\b/gi, "en-"],
+    [/\binformal\b/gi, "friendly"], [/\bformal\b/gi, "polite"], [/\bV2\b/g, "verb second"],
+  ];
+  const plain = s => PLAIN.reduce((t, [re, to]) => t.replace(re, to), s || "")
+    .replace(/\ba (at\/)/g, "an $1").replace(/\ban (at\/)/g, "an $1").replace(/\bthe the\b/gi, "the").replace(/verb first, verb second/g, "verb first").replace(/\b(an?|the) (the|an?) /gi, "$1 ").replace(/\b([Aa]) the\b/g, "$1");
   function cmpAnalyse(l) {
     const da = l.da, en = l.en || "", note = l.note || "", tags = [];
     const fronted = /\?\s*$/.test(da) ? null : da.match(/^([A-ZÆØÅ][^,:;!?]*?)\s+(\p{L}+)\s+(jeg|du|han|hun|vi|I|man)\b/u);
     const clauseFirst = da.match(new RegExp(`^(Hvis|Når|Da|Selvom|Fordi|Efter at|Før|Inden|Mens)\\b[^,]*,\\s+(?:så\\s+)?(\\p{L}+)\\s+(${CMP_SUBJ})\\b`, "u"));
     const noteHasOrder = /verb (comes|is) (before|next|second)|before the subject|inversion|→\s*\p{L}+ (jeg|du|han|hun|vi|de|man|det)/iu.test(note);
     if (clauseFirst) {
-      tags.push({ k: "order", t: `↔ Word order: the «${clauseFirst[1].toLowerCase()}»-part comes first, so the next verb «${clauseFirst[2]}» comes before «${clauseFirst[3]}». English keeps the subject first (“${CMP_EN_SUBJ[clauseFirst[3]] || clauseFirst[3]} …”).`, ex: `${clauseFirst[2]} ${clauseFirst[3]}` });
+      tags.push({ k: "order", t: `↔ The «${clauseFirst[1].toLowerCase()}» part comes first, so the verb «${clauseFirst[2]}» comes next, before «${clauseFirst[3]}». English puts “${CMP_EN_SUBJ[clauseFirst[3]] || clauseFirst[3]}” first.`, ex: `${clauseFirst[2]} ${clauseFirst[3]}` });
     } else if (fronted && !/^(jeg|du|han|hun|vi|de|man|og|men|eller|for|tak|kære|hej|hvis|når|da|selvom|fordi|at)\b/i.test(fronted[1]) && !/\b(jeg|du|han|hun|vi|de|man|og|eller)$/i.test(fronted[1]) && !/^(og|eller|men|som|at|end|til|med|for|på|i|af|fra|om|ved|hos|mod|med)$/i.test(fronted[2]) && fronted[1].split(/\s+/).length <= 5) {
-      tags.push({ k: "order", t: `↔ Word order: the sentence starts with «${fronted[1]}», so the verb «${fronted[2]}» comes before «${fronted[3]}». English: “${CMP_EN_SUBJ[fronted[3]] || fronted[3]} …” – subject first.`, ex: `${fronted[1]} ${fronted[2]} ${fronted[3]}` });
+      tags.push({ k: "order", t: `↔ The sentence starts with «${fronted[1]}», so the verb «${fronted[2]}» comes before «${fronted[3]}». English puts “${CMP_EN_SUBJ[fronted[3]] || fronted[3]}” first.`, ex: `${fronted[1]} ${fronted[2]} ${fronted[3]}` });
     }
     if (noteHasOrder && tags.length && tags[tags.length - 1].k === "order") tags[tags.length - 1].quiet = true;
     const adv = da.match(new RegExp(`\\b(at|fordi|hvis|når|selvom|om|så|hvor|som)\\s+(${CMP_SUBJ}|[A-ZÆØÅ]\\p{L}+)\\s+(ikke|aldrig|altid|også|gerne|kun|allerede|tit|ofte|snart|stadig)\\s+(\\p{L}+)`, "u"));
-    if (adv) tags.push({ k: "ikke", t: `↔ In the «${adv[1]}»-part, «${adv[3]}» comes BEFORE the verb «${adv[4]}». In a main clause it comes after the verb.`, ex: `${adv[1]} ${adv[2]} ${adv[3]} ${adv[4]}`, quiet: /before the verb/i.test(note) });
+    if (adv) tags.push({ k: "ikke", t: `↔ After «${adv[1]}», the word «${adv[3]}» comes BEFORE the verb «${adv[4]}». In a normal sentence it comes after the verb: «jeg kan ${adv[3]}».`, ex: `${adv[1]} ${adv[2]} ${adv[3]} ${adv[4]}`, quiet: /before the verb/i.test(note) });
     const ing = da.match(/\b(til|for|om|af|på|med|ved|uden|end)\s+at\s+(\p{L}+)/u);
-    if (ing && /\b\p{L}{2,}ing\b/u.test(en)) tags.push({ k: "ing", t: `↔ English “-ing” after a word like “to / of / at” = Danish «${ing[1]} at ${ing[2]}» (at + the basic verb). Danish never uses -ing.`, ex: `${ing[1]} at ${ing[2]}`, quiet: /-ing/.test(note) });
-    else if (/\b(am|are|is|'m|'re)\s+\p{L}+ing\b/u.test(en) && !/\b(going to)\b/.test(en)) tags.push({ k: "cont", t: "↔ English “I am …-ing” = Danish present tense (jeg skriver = I write / I am writing). Danish has no -ing form.", quiet: /-ing/.test(note) });
+    if (ing && /\b\p{L}{2,}ing\b/u.test(en)) tags.push({ k: "ing", t: `↔ English “…-ing” = Danish «${ing[1]} at ${ing[2]}». Danish has no -ing.`, ex: `${ing[1]} at ${ing[2]}`, quiet: /-ing/.test(note) });
+    else if (/\b(am|are|is|'m|'re)\s+\p{L}+ing\b/u.test(en) && !/\b(going to)\b/.test(en)) tags.push({ k: "cont", t: "↔ English “I am writing” = Danish «jeg skriver». Danish has no -ing.", quiet: /-ing/.test(note) });
     const hv = CMP_HAVE.find(([d]) => da.toLowerCase().includes(d));
-    if (hv) tags.push({ k: "have", t: `↔ Danish «${hv[0]}» (with “have”) = English “${hv[1]}”.`, ex: hv[0] });
+    if (hv) tags.push({ k: "have", t: `↔ Danish says «${hv[0]}» (with “har”). English says “${hv[1]}”.`, ex: hv[0] });
     const pas = da.match(/\b(kan|skal|må|bør|vil|kunne|skulle)\s+(\p{L}{3,}es)\b/u) || da.match(/\b(søges|udlejes|sælges|tilbydes|efterlyses|anbefales|ønskes)\b/u);
-    if (pas && !/^(mødes|ses|synes|findes|færdes|lykkes|trives|skændes|enes|længes|skilles|samles)$/.test(pas[pas.length - 1])) tags.push({ k: "pas", t: `↔ «${pas[pas.length - 1]}» is the -s passive (= “is/be …-ed”): English uses “be” + a past participle.`, ex: pas[pas.length - 1], quiet: /passive/i.test(note) });
+    if (pas && !/^(mødes|ses|synes|findes|færdes|lykkes|trives|skændes|enes|længes|skilles|samles)$/.test(pas[pas.length - 1])) tags.push({ k: "pas", t: `↔ «${pas[pas.length - 1]}»: an -s at the end means “is …-ed” (søges = is wanted).`, ex: pas[pas.length - 1], quiet: /passive/i.test(note) });
     return tags;
   }
   function modelLines(w) {
@@ -1195,28 +1232,28 @@
     const husk = [];
     const first = lines[0] && lines[0].da, endIdx = lines.findIndex(l => CMP_END.test(l.da.trim()));
     const greet = lines.find(l => /^(kære|hej|hejsa|goddag|til)\b/i.test(l.da.trim()));
-    if (greet || endIdx >= 0) husk.push(`<b>Start and end:</b> ${greet ? `start with «${esc(greet.da)}»` : ""}${greet && endIdx >= 0 ? " · " : ""}${endIdx >= 0 ? `end with «${esc(lines[endIdx].da)}» + your name` : ""}. Danish needs no comma after the greeting.`);
+    if (greet || endIdx >= 0) husk.push(`<b>Start and end:</b> ${greet ? `start with «${esc(greet.da)}»` : ""}${greet && endIdx >= 0 ? " · " : ""}${endIdx >= 0 ? `end with «${esc(lines[endIdx].da)}» + your name` : ""}. No comma after the name.`);
     else if (first && countWords(first) <= 8) husk.push(`<b>Start:</b> a short headline, like «${esc(first)}».`);
     const by = k => all.flatMap(x => x.tags.filter(t => t.k === k).map(t => t.ex)).filter(Boolean);
     const exs = a => a.slice(0, 3).map(e => `«${esc(e)}»`).join(", ");
-    const o = by("order"); if (o.length) husk.push(`<b>Verb second:</b> when a sentence starts with a time word, «Derfor», «Desuden» or a «hvis/når»-part, the verb comes before the subject (${o.length}× here: ${exs(o)}).`);
-    const ik = by("ikke"); if (ik.length) husk.push(`<b>ikke / også / gerne in an at- or fordi-part:</b> before the verb (${exs(ik)}). In a main clause after the verb: «jeg kan ikke».`);
+    const o = by("order"); if (o.length) husk.push(`<b>Verb first after a start word:</b> if you start with «Derfor», «I dag», «Desuden» or a «hvis/når» part, put the verb before jeg/du/vi (here: ${exs(o)}).`);
+    const ik = by("ikke"); if (ik.length) husk.push(`<b>After «at», «fordi», «hvis»:</b> put ikke / også / gerne BEFORE the verb (${exs(ik)}). In a normal sentence it comes after: «jeg kan ikke».`);
     const ing = by("ing"); if (ing.length || all.some(x => x.tags.some(t => t.k === "cont"))) husk.push(`<b>No -ing in Danish:</b> “I am writing” = «jeg skriver»; “looking forward to hearing” = «glæder mig til at høre»${ing.length ? ` (${exs(ing)})` : ""}.`);
-    const hv = by("have"); if (hv.length) husk.push(`<b>“have” where English says “be”:</b> ${exs(hv)}.`);
-    const ps = by("pas"); if (ps.length) husk.push(`<b>-s passive:</b> ${exs(ps)} = “is/be …-ed”.`);
+    const hv = by("have"); if (hv.length) husk.push(`<b>Danish says «har» where English says “be”:</b> ${exs(hv)}.`);
+    const ps = by("pas"); if (ps.length) husk.push(`<b>-s at the end = “is …-ed”:</b> ${exs(ps)}.`);
     const low = " " + w.model.toLowerCase().replace(/[.,!?:;]/g, " ") + " ";
     const links = CMP_LINK.filter(x => low.includes(` ${x} `));
-    if (links.length) husk.push(`<b>Linking words used:</b> ${links.map(x => `«${esc(x)}»`).join(", ")} – they bind your text together and give points at the exam.`);
+    if (links.length) husk.push(`<b>Linking words used:</b> ${links.map(x => `«${esc(x)}»`).join(", ")} – use them in your own text too. They give points.`);
     const ph = (w.phrases || []).filter(p => low.includes(" " + p.toLowerCase().replace(/[.,!?:;…]/g, " ").trim().split(/\s+/).slice(0, 2).join(" "))).slice(0, 5);
     if (ph.length) husk.push(`<b>Phrases to learn by heart:</b> ${ph.map(p => `«${esc(p)}»`).join(" · ")}`);
-    husk.push(`<b>Check before you hand in:</b> every point in the task is answered (${(w.points || []).length} points) · ${w.minWords ? `${w.minWords}–${w.maxWords || ""} words` : "the right length"} (this answer: ${countWords(w.model)}) · capital letter and full stop in every sentence.`);
+    husk.push(`<b>Check before you hand in:</b> answer all ${(w.points || []).length} points · write ${w.minWords ? `${w.minWords}–${w.maxWords || ""} words` : "enough words"} (this answer: ${countWords(w.model)}) · big letter at the start and full stop at the end of every sentence.`);
     const step = (n, ico, title, sub, body, open) => `<details class="mstep"${open ? " open" : ""}><summary><span class="mstep-n">${n}</span> ${ico} <b>${title}</b> <span class="small muted">${sub}</span></summary><div class="mstep-body">${body}</div></details>`;
     return `<div class="msteps">
       ${step(1, "🇬🇧", "Først på engelsk", "– enkle sætninger", `<div class="model" lang="en">${enP.map(p => esc(p)).join("\n\n")}</div>`, true)}
       ${step(2, "🇩🇰", "Så på dansk", `– det samme modelsvar (${countWords(w.model)} ord)`, `${tpl ? `<p class="small muted">Følger skabelonen <b>${esc(tpl.name)}</b>. <mark class="fixed">Markeret</mark> = faste vendinger, som du kan lære udenad.</p>` : ""}<div class="model">${tpl ? markFixed(w.model, tpl) : esc(w.model)}</div>`, true)}
       ${step(3, "🔍", "Sætning for sætning", "– engelsk → dansk, og hvad der ændrer sig", `<ol class="cmp-list">${all.map(({ l, tags }) => `<li class="cmp${l.p ? " cmp-p" : ""}">
           ${l.en ? `<div class="cmp-en" lang="en">🇬🇧 ${esc(l.en)}</div>` : ""}<div class="cmp-da">🇩🇰 ${esc(l.da)}</div>
-          ${l.note || tags.some(t => !t.quiet) || (l.words && l.words.length) ? `<div class="cmp-notes" lang="en">${l.note ? `<div>💡 ${esc(l.note)}</div>` : ""}${tags.filter(t => !t.quiet).map(t => `<div class="cmp-tag">${esc(t.t)}</div>`).join("")}${l.words && l.words.length ? `<div class="cmp-words">${l.words.map(([a, b]) => `<span><b>${esc(a)}</b> = ${esc(b)}</span>`).join("")}</div>` : ""}</div>` : ""}
+          ${l.note || tags.some(t => !t.quiet) || (l.words && l.words.length) ? `<div class="cmp-notes" lang="en">${l.note ? `<div>💡 ${esc(plain(l.note))}</div>` : ""}${tags.filter(t => !t.quiet).map(t => `<div class="cmp-tag">${esc(t.t)}</div>`).join("")}${l.words && l.words.length ? `<div class="cmp-words">${l.words.map(([a, b]) => `<span><b>${esc(a)}</b> = ${esc(b)}</span>`).join("")}</div>` : ""}</div>` : ""}
         </li>`).join("")}</ol>`, false)}
       ${step(4, "✅", "Husk", "– det vigtigste fra dette svar", `<ul class="husk" lang="en">${husk.map(h => `<li>${h}</li>`).join("")}</ul>`, true)}
     </div>`;
@@ -1659,6 +1696,13 @@
     $("#showModel").onclick = e => {
       const box = $("#modelBox"), b = e.currentTarget;
       if (box.innerHTML) { box.innerHTML = ""; b.textContent = "👀 Vis modelsvar"; return; }
+      if (/^pd1-/.test(w.id)) {
+        box.innerHTML = `<div class="card"><h3>Modelsvar <span class="muted small">(${countWords(w.model)} ord)</span></h3>
+          ${PD2.MODEL_EN && PD2.MODEL_EN[w.id] ? `<div class="row" style="margin-bottom:10px"><button class="btn ghost sm" data-model-en="${esc(w.id)}" aria-haspopup="dialog">🇬🇧 EN</button></div>` : ""}
+          <div class="model">${tpl ? markFixed(w.model, tpl) : esc(w.model)}</div></div>`;
+        b.textContent = "🙈 Skjul modelsvar";
+        return;
+      }
       box.innerHTML = `<div class="card"><div class="row" style="margin-bottom:6px"><h3 style="margin:0">Modelsvar i 4 trin</h3><span class="spacer"></span>${PD2.LISTEN && PD2.LISTEN[w.id] ? `<a class="btn ghost sm" href="#/lyt/w/${esc(w.id)}">🎧 Lyt</a>` : ""}</div>
         <p class="small muted" style="margin-top:0">Først enkelt engelsk, så det samme på dansk. Derefter sætning for sætning: hvad der ændrer sig fra engelsk til dansk – og til sidst det, du skal huske.</p>
         ${modelSteps(w, tpl)}</div>`;
