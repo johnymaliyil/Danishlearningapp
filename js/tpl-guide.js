@@ -28,14 +28,13 @@ PD2.TPL_GUIDE = {
     ],
   },
   takkebrev: {
-    task: "Du har været i praktik i et supermarked. Skriv et takkebrev til dine kolleger.",
+    task: "Du har været i praktik i en børnehave. Skriv et takkebrev til dine kolleger.",
     rows: [
-      ["Hilsen", "Greeting", "Kære kolleger", ["Kære …", "Hej alle sammen"]],
-      ["Indledning – sig tak", "Say thank you", "Tusind tak for en god tid i praktik hos jer.", ["Tusind tak for …", "Jeg vil gerne sige tak for …"]],
-      ["Hvad du har lært", "What you learned", "Jeg har lært at fylde varer op og at hjælpe kunderne. Nu taler jeg også bedre dansk.", ["Jeg har lært at …", "Nu kan jeg …"]],
-      ["Hvad du var glad for", "What you liked", "I var altid søde og tålmodige, og jeg følte mig velkommen fra første dag.", ["Jeg var glad for, at …", "Det bedste var …"]],
-      ["Hvad du skal nu", "Your plans", "Nu skal jeg begynde på en uddannelse som butiksassistent.", ["Nu skal jeg …", "Jeg håber, at …"]],
-      ["Afslutning", "Ending", "Jeg kommer tit og handler hos jer. Mange hilsner\nSara", ["Jeg kommer og besøger jer.", "Mange hilsner"]],
+      ["Starthilsen", "Greeting", "Kære kolleger", ["Kære …"]],
+      ["Indledning – hvad du vil takke for", "What you thank them for", "Tusind tak for tre gode måneder i praktik i børnehaven.", ["Mange tak for …", "Tusind tak for …", "I skal have mange tak, fordi …"]],
+      ["Hovedafsnit – hvad du har lært, og hvad du vil savne", "What you learned + will miss", "Det har været en lærerig tid. Jeg har lært meget dansk ved at tale med jer og børnene. Jeg vil savne vores hyggelige dage. Nu skal jeg tilbage på sprogskolen, men jeg kommer og besøger jer.", ["Det har været fantastisk / hyggeligt / lærerigt.", "Jeg har lært …", "Jeg vil særligt savne …", "Jeg kommer til at savne …"]],
+      ["Afslutning", "Closing line", "Jeg glæder mig til at se jer igen.", ["Jeg glæder mig til at …"]],
+      ["Sluthilsen", "Sign-off", "De bedste hilsner\nSafia", ["Mange hilsner", "De bedste hilsner"]],
     ],
   },
   ansoegning: {
