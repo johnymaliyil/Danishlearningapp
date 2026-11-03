@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "144"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "145"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -4849,6 +4849,9 @@
     const g = gameInfo("mineord");
     const words = () => nb().filter(w => w.da && w.en);
     const mode = () => pref("dk-mw-mode", "da");
+    // How many words a round has: 10, 20 or all saved words (each once).
+    const len = () => pref("dk-mw-len", "10");
+    const roundsFor = (W, l = len()) => l === "all" ? W.length : Math.min(+l || 10, Math.max(5, W.length));
     function home() {
       const W = words(), all = nb().length;
       if (W.length < 1) {
@@ -4869,16 +4872,25 @@
             <button class="choice ${mode() === "en" ? "ok" : ""}" data-mw="en">🇬🇧 → 🇩🇰 Se betydningen – vælg det danske ord</button>
             <button class="choice ${mode() === "ear" ? "ok" : ""}" data-mw="ear">👂 Hør ordet – vælg betydningen</button>
           </div>
-          <button class="btn words" id="mwGo" style="margin-top:12px">▶ Start (${Math.min(10, Math.max(5, W.length))} ord)</button>
+          <p style="font-weight:800;margin:14px 0 6px">Hvor mange ord?</p>
+          <div class="chips" style="justify-content:center">
+            <button class="chip ${len() === "10" ? "on" : ""}" data-mwlen="10">10 ord</button>
+            ${W.length > 10 ? `<button class="chip ${len() === "20" ? "on" : ""}" data-mwlen="20">20 ord</button>` : ""}
+            <button class="chip ${len() === "all" ? "on" : ""}" data-mwlen="all">Alle mine ord (${W.length})</button>
+          </div>
+          <button class="btn words" id="mwGo" style="margin-top:12px">▶ Start (${roundsFor(W)} ord)</button>
+          <p class="small muted" style="margin-bottom:0">Du kan stoppe når som helst med ⏹ Stop.</p>
         </div>`;
+      $$("[data-mwlen]").forEach(b => b.onclick = () => { setPref("dk-mw-len", b.dataset.mwlen); $$("[data-mwlen]").forEach(x => x.classList.toggle("on", x === b)); $("#mwGo").textContent = `▶ Start (${roundsFor(W)} ord)`; });
       $$("[data-mw]").forEach(b => b.onclick = () => { setPref("dk-mw-mode", b.dataset.mw); $$("[data-mw]").forEach(x => x.classList.toggle("ok", x === b)); });
       $("#mwGo").onclick = play;
     }
     function play() {
-      const W = words(), M = mode(), ROUNDS = Math.min(10, Math.max(5, W.length));
+      const W = words(), M = mode(), ALL = len() === "all", ROUNDS = roundsFor(W);
       // Weakest words first (more wrong than right, or never asked), a little shuffled.
       const weight = w => (w.ok || 0) - 2 * (w.bad || 0) + Math.random() * 1.5;
-      let picks = W.slice().sort((a, b) => weight(a) - weight(b)).slice(0, ROUNDS);
+      // "All": every saved word once, in random order.
+      let picks = ALL ? [] : W.slice().sort((a, b) => weight(a) - weight(b)).slice(0, ROUNDS);
       while (picks.length < ROUNDS) picks = picks.concat(shuffle(W).slice(0, ROUNDS - picks.length));
       picks = shuffle(picks);
       const F = (PD2.FREQ || []).filter(f => f[1] && !/\s/.test(f[0]));
@@ -4889,7 +4901,7 @@
           if (out.length < 3 && o && o.toLowerCase() !== right && !out.some(x => x.toLowerCase() === o.toLowerCase())) out.push(o);
         return out;
       };
-      let n = 0, score = 0, first = true;
+      let n = 0, score = 0, first = true, asked = 0;
       const missed = [], again = [];
       const hl = (sent, w) => esc(sent).replace(new RegExp(`(${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})`, "i"), "<mark>$1</mark>");
       function show() {
@@ -4899,13 +4911,14 @@
         const repeat = n >= ROUNDS;
         app.innerHTML = `${gameHead(g)}
           <div class="card stage">
-            <div class="row" style="justify-content:space-between"><span class="pill">${repeat ? "🔁 Igen" : `${n + 1}/${ROUNDS}`}</span><span class="pill">✅ ${score}</span></div>
+            <div class="row" style="justify-content:space-between"><span class="pill">${repeat ? "🔁 Igen" : `${n + 1}/${ROUNDS}`}</span><span class="pill">✅ ${score}</span><button class="btn ghost sm" id="mwStop">⏹ Stop</button></div>
             ${M === "en" ? `<p class="mw-q" lang="en">${esc(w.en)}</p><p class="muted">Hvad hedder det på dansk?</p>`
               : M === "ear" ? `<button class="btn read" id="mwSay" style="margin:18px auto">🔊 Hør ordet igen</button><p class="muted">Hvad betyder ordet?</p>`
               : `<div class="word-big" data-keep>${esc(w.da)}</div><button class="btn ghost sm" id="mwSay">🔊 Lyt</button><p class="muted">Hvad betyder ordet?</p>`}
             <div class="answers no-tr" ${ask === "en" ? 'lang="en"' : "data-keep"}>${opts.map(o => `<button class="choice" data-o="${esc(o)}">${esc(o)}</button>`).join("")}</div>
             <div id="after" class="quiz-after"></div>
           </div>`;
+        $("#mwStop").onclick = () => done(true);
         const say = () => speak(w.da, null, 0.8);
         if ($("#mwSay")) $("#mwSay").onclick = say;
         if (M === "ear") say();
@@ -4915,7 +4928,7 @@
           const ok = b.dataset.o === w[ask];
           b.classList.add(ok ? "ok" : "bad");
           if (!ok) $$(".answers .choice").find(x => x.dataset.o === w[ask]).classList.add("ok");
-          if (!repeat) { if (ok) { score++; w.ok = (w.ok || 0) + 1; } else { w.bad = (w.bad || 0) + 1; missed.push(w); } save(); }
+          if (!repeat) { asked++; if (ok) { score++; w.ok = (w.ok || 0) + 1; } else { w.bad = (w.bad || 0) + 1; missed.push(w); } save(); }
           if (!ok && !repeat) again.push(w);
           $("#after").innerHTML = `<p>${ok ? "✅ Rigtigt!" : "❌ Ikke helt."} <b data-keep>${esc(w.da)}</b> = <span lang="en">${esc(w.en)}</span></p>
             ${w.ex ? `<p class="small mw-sent" data-keep>${hl(w.ex, w.da)}</p>${w.exEn ? `<p class="small muted" lang="en">🇬🇧 ${esc(w.exEn)}</p>` : ""}` : ""}
@@ -4926,12 +4939,13 @@
           $("#nx").onclick = () => { n++; show(); };
         });
       }
-      function done() {
+      function done(stopped) {
+        const total = stopped ? asked : ROUNDS;
         const rec = recordGame("mineord", score);
         addXP(score * 3, "Mine ord-quiz");
-        if (rec || score === ROUNDS) confetti();
+        if (rec || (score === total && total)) confetti();
         const uniq = [...new Set(missed)];
-        gameOver(g, `${score}/${ROUNDS}`, score === ROUNDS ? "🎉 Alle rigtige!" : recordLine(rec, "mineord"), play,
+        gameOver(g, `${score}/${total}`, score === total && total ? "🎉 Alle rigtige!" : recordLine(rec, "mineord"), play,
           `${uniq.length ? `<div class="mw-missed"><p class="small" style="font-weight:800">Øv disse ord igen:</p>${uniq.map(w => `<div class="small"><b data-keep>${esc(w.da)}</b> = <span lang="en">${esc(w.en)}</span></div>`).join("")}</div>` : ""}
            <p class="small"><a href="#/mineord">📒 Mine ord</a> · <a href="#/games/mineord" id="mwHome">Skift måde at øve på</a></p>`);
         $("#mwHome").onclick = e => { e.preventDefault(); home(); };

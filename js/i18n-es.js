@@ -1313,5 +1313,9 @@ PD2.I18N.es = {
 "– det vigtigste fra denne opgave": "– lo más importante de esta tarea",
 "📝 Gem ordene i Mine ord": "📝 Guardar las palabras en Mis palabras",
 "✓ {n} ord gemt i Mine ord": "✓ {n} palabras guardadas en Mis palabras",
-"✓ Ordene er allerede i Mine ord": "✓ Las palabras ya están en Mis palabras"
+"✓ Ordene er allerede i Mine ord": "✓ Las palabras ya están en Mis palabras",
+"Hvor mange ord?": "¿Cuántas palabras?",
+"Alle mine ord ({n})": "Todas mis palabras ({n})",
+"Du kan stoppe når som helst med ⏹ Stop.": "Puedes parar cuando quieras con ⏹ Stop.",
+"⏹ Stop": "⏹ Parar"
 };

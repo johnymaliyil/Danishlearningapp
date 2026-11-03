@@ -1313,5 +1313,9 @@ PD2.I18N.tr = {
 "– det vigtigste fra denne opgave": "– bu görevdeki en önemli noktalar",
 "📝 Gem ordene i Mine ord": "📝 Kelimeleri Kelimelerim'e kaydet",
 "✓ {n} ord gemt i Mine ord": "✓ {n} kelime Kelimelerim'e kaydedildi",
-"✓ Ordene er allerede i Mine ord": "✓ Kelimeler zaten Kelimelerim'de"
+"✓ Ordene er allerede i Mine ord": "✓ Kelimeler zaten Kelimelerim'de",
+"Hvor mange ord?": "Kaç kelime?",
+"Alle mine ord ({n})": "Tüm kelimelerim ({n})",
+"Du kan stoppe når som helst med ⏹ Stop.": "İstediğin zaman ⏹ Stop ile durabilirsin.",
+"⏹ Stop": "⏹ Durdur"
 };

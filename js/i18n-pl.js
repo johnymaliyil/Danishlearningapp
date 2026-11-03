@@ -1313,5 +1313,9 @@ PD2.I18N.pl = {
 "– det vigtigste fra denne opgave": "– najważniejsze z tego zadania",
 "📝 Gem ordene i Mine ord": "📝 Zapisz słowa w Moich słowach",
 "✓ {n} ord gemt i Mine ord": "✓ Zapisano {n} słów w Moich słowach",
-"✓ Ordene er allerede i Mine ord": "✓ Słowa są już w Moich słowach"
+"✓ Ordene er allerede i Mine ord": "✓ Słowa są już w Moich słowach",
+"Hvor mange ord?": "Ile słów?",
+"Alle mine ord ({n})": "Wszystkie moje słowa ({n})",
+"Du kan stoppe når som helst med ⏹ Stop.": "Możesz przerwać w każdej chwili przyciskiem ⏹ Stop.",
+"⏹ Stop": "⏹ Stop"
 };

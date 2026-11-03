@@ -1313,5 +1313,9 @@ PD2.I18N.ro = {
 "– det vigtigste fra denne opgave": "– cele mai importante din această sarcină",
 "📝 Gem ordene i Mine ord": "📝 Salvează cuvintele în Cuvintele mele",
 "✓ {n} ord gemt i Mine ord": "✓ {n} cuvinte salvate în Cuvintele mele",
-"✓ Ordene er allerede i Mine ord": "✓ Cuvintele sunt deja în Cuvintele mele"
+"✓ Ordene er allerede i Mine ord": "✓ Cuvintele sunt deja în Cuvintele mele",
+"Hvor mange ord?": "Câte cuvinte?",
+"Alle mine ord ({n})": "Toate cuvintele mele ({n})",
+"Du kan stoppe når som helst med ⏹ Stop.": "Poți opri oricând cu ⏹ Stop.",
+"⏹ Stop": "⏹ Stop"
 };

@@ -1313,5 +1313,9 @@ PD2.I18N.uk = {
 "– det vigtigste fra denne opgave": "– головне з цього завдання",
 "📝 Gem ordene i Mine ord": "📝 Зберегти слова в «Мої слова»",
 "✓ {n} ord gemt i Mine ord": "✓ {n} слів збережено в «Мої слова»",
-"✓ Ordene er allerede i Mine ord": "✓ Слова вже є в «Мої слова»"
+"✓ Ordene er allerede i Mine ord": "✓ Слова вже є в «Мої слова»",
+"Hvor mange ord?": "Скільки слів?",
+"Alle mine ord ({n})": "Усі мої слова ({n})",
+"Du kan stoppe når som helst med ⏹ Stop.": "Можна зупинитися будь-коли кнопкою ⏹ Stop.",
+"⏹ Stop": "⏹ Стоп"
 };

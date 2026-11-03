@@ -1350,5 +1350,9 @@ PD2.I18N.en = {
 "– det vigtigste fra denne opgave": "– the key points from this task",
 "📝 Gem ordene i Mine ord": "📝 Save the words in My words",
 "✓ {n} ord gemt i Mine ord": "✓ {n} words saved in My words",
-"✓ Ordene er allerede i Mine ord": "✓ The words are already in My words"
+"✓ Ordene er allerede i Mine ord": "✓ The words are already in My words",
+"Hvor mange ord?": "How many words?",
+"Alle mine ord ({n})": "All my words ({n})",
+"Du kan stoppe når som helst med ⏹ Stop.": "You can stop at any time with ⏹ Stop.",
+"⏹ Stop": "⏹ Stop"
 };
