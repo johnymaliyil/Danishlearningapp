@@ -1301,5 +1301,17 @@ PD2.I18N.tr = {
 "– engelsk → dansk, og hvad der ændrer sig": "– İngilizce → Danca ve ne değişiyor",
 "Husk": "Unutma",
 "– det vigtigste fra dette svar": "– bu cevaptaki en önemli noktalar",
-"🎧 Lyt": "🎧 Dinle"
+"🎧 Lyt": "🎧 Dinle",
+"🧠 Forstå og husk": "🧠 Anla ve hatırla",
+"🙈 Skjul Forstå og husk": "🙈 Anla ve hatırla'yı gizle",
+"🧠 Forstå og husk teksten": "🧠 Metni anla ve hatırla",
+"Forstå teksten på engelsk, så sætning for sætning på dansk. Se så, hvordan du finder svarene – og husk ordene.": "Metni önce İngilizce anla, sonra cümle cümle Danca. Sonra cevapları nasıl bulacağını gör – ve kelimeleri hatırla.",
+"Teksten på engelsk": "Metin İngilizce",
+"– dansk → engelsk ({n} sætninger)": "– Danca → İngilizce ({n} cümle)",
+"Sådan finder du svarene": "Cevapları nasıl bulursun",
+"– viser svarene": "– cevapları gösterir",
+"– det vigtigste fra denne opgave": "– bu görevdeki en önemli noktalar",
+"📝 Gem ordene i Mine ord": "📝 Kelimeleri Kelimelerim'e kaydet",
+"✓ {n} ord gemt i Mine ord": "✓ {n} kelime Kelimelerim'e kaydedildi",
+"✓ Ordene er allerede i Mine ord": "✓ Kelimeler zaten Kelimelerim'de"
 };

@@ -1301,5 +1301,17 @@ PD2.I18N.uk = {
 "– engelsk → dansk, og hvad der ændrer sig": "– англійська → данська і що змінюється",
 "Husk": "Запам’ятай",
 "– det vigtigste fra dette svar": "– головне з цієї відповіді",
-"🎧 Lyt": "🎧 Слухати"
+"🎧 Lyt": "🎧 Слухати",
+"🧠 Forstå og husk": "🧠 Зрозумій і запам’ятай",
+"🙈 Skjul Forstå og husk": "🙈 Сховати «Зрозумій і запам’ятай»",
+"🧠 Forstå og husk teksten": "🧠 Зрозумій і запам’ятай текст",
+"Forstå teksten på engelsk, så sætning for sætning på dansk. Se så, hvordan du finder svarene – og husk ordene.": "Зрозумій текст англійською, потім речення за реченням данською. Подивися, як знайти відповіді, – і запам’ятай слова.",
+"Teksten på engelsk": "Текст англійською",
+"– dansk → engelsk ({n} sætninger)": "– данська → англійська ({n} речень)",
+"Sådan finder du svarene": "Як знайти відповіді",
+"– viser svarene": "– показує відповіді",
+"– det vigtigste fra denne opgave": "– головне з цього завдання",
+"📝 Gem ordene i Mine ord": "📝 Зберегти слова в «Мої слова»",
+"✓ {n} ord gemt i Mine ord": "✓ {n} слів збережено в «Мої слова»",
+"✓ Ordene er allerede i Mine ord": "✓ Слова вже є в «Мої слова»"
 };

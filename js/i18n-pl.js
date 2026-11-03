@@ -1301,5 +1301,17 @@ PD2.I18N.pl = {
 "– engelsk → dansk, og hvad der ændrer sig": "– angielski → duński i co się zmienia",
 "Husk": "Zapamiętaj",
 "– det vigtigste fra dette svar": "– najważniejsze z tej odpowiedzi",
-"🎧 Lyt": "🎧 Posłuchaj"
+"🎧 Lyt": "🎧 Posłuchaj",
+"🧠 Forstå og husk": "🧠 Zrozum i zapamiętaj",
+"🙈 Skjul Forstå og husk": "🙈 Ukryj Zrozum i zapamiętaj",
+"🧠 Forstå og husk teksten": "🧠 Zrozum i zapamiętaj tekst",
+"Forstå teksten på engelsk, så sætning for sætning på dansk. Se så, hvordan du finder svarene – og husk ordene.": "Zrozum tekst po angielsku, potem zdanie po zdaniu po duńsku. Zobacz, jak znaleźć odpowiedzi – i zapamiętaj słowa.",
+"Teksten på engelsk": "Tekst po angielsku",
+"– dansk → engelsk ({n} sætninger)": "– duński → angielski ({n} zdań)",
+"Sådan finder du svarene": "Jak znaleźć odpowiedzi",
+"– viser svarene": "– pokazuje odpowiedzi",
+"– det vigtigste fra denne opgave": "– najważniejsze z tego zadania",
+"📝 Gem ordene i Mine ord": "📝 Zapisz słowa w Moich słowach",
+"✓ {n} ord gemt i Mine ord": "✓ Zapisano {n} słów w Moich słowach",
+"✓ Ordene er allerede i Mine ord": "✓ Słowa są już w Moich słowach"
 };

@@ -1247,3 +1247,4 @@ a.chip { text-decoration: none; }
   .cmp-en, .cmp-da { margin-top: 0; }
   .cmp-notes { grid-column: 1 / -1; }
 }
+#learnBox > .card { margin-top: 16px; }

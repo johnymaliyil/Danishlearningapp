@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "142"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "144"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -902,6 +902,84 @@
     const m = PD2.EXAM_META[k] || META();
     return `Fra ${m.full}${r.set ? `, sæt ${r.set}` : ""} – offentliggjort af myndighederne som øvemateriale. Ophavsretten tilhører prøvens ophavsmænd og de nævnte kilder.`;
   }
+  // ---------- Reading: "Forstå og husk" – understand the text and remember it (PD2 and PD3) ----------
+  // 1 the text in simple English · 2 sentence by sentence · 3 how to find the answers · 4 things to remember.
+  // Built from the reading lessons (PD2.LISTEN_R), the explanations (PD2.WHY) and the task itself.
+  // Plain Danish for the "Derfor" explanations shown in "Forstå og husk".
+  const PLAIN_DA = [
+    [/\bhar inversion\b/gi, "har verbet først"], [/\(inversion\)/gi, "(verbet før personen)"], [/\binversion\b/gi, "verbet først"],
+    [/\bhovedsætning\w*/gi, "almindelig sætning"], [/\bledsætning\w*/gi, "at/fordi/når-del"],
+    [/\binfinitiv\w*/gi, "grundform"], [/\bførnutid\w*/gi, "har-form"], [/\bnutid\w*/gi, "nu-form"], [/\bdatid\w*/gi, "fortid"],
+    [/\badjektiv\w*/gi, "beskrivende ord"], [/\bsubstantiv\w*/gi, "navneord"], [/\bi flertal\b/gi, "for flere"], [/\bflertal\w*/gi, "flere"],
+    [/\badverbi\w*/gi, "lille ord"], [/\bsubjekt\w*/gi, "personen"], [/\bpronomen\w*/gi, "lille ord (jeg, du …)"],
+    [/\bpassiv(?:-s|form|en)?\b/gi, "-s-form"], [/\bkomparativ\w*/gi, "'mere'-form"], [/\bsuperlativ\w*/gi, "'mest'-form"],
+  ];
+  const plainDa = s => PLAIN_DA.reduce((t, [re, to]) => t.replace(re, to), s || "");
+  function readingTip(r) {
+    const q = r.questions[0] || {}, sent = q.type === "gaps" && (q.bank || []).some(b => (b.text || "").length > 25);
+    const head = ((r.sections || [])[0] || {}).heading || "";
+    if (q.type === "short") return "Read the question first and find its key word (fx «gåtur», «ridning»). Look only in the right part of the text. The text often uses another word with the same meaning. Write a short answer – just the name or the number.";
+    if (q.type === "match" && /interview/i.test(head + r.title)) return "Look at the question word: «hvor længe» = time, «hvad» = a thing, «hvorfor» = a reason, «arbejder du alene» = ja/nej + who. Then find the part that answers exactly that.";
+    if (q.type === "match" && /annonce/i.test(head + r.title)) return "For each line, find the ad where the missing words fit. Look for words with the same meaning: «frisørkursus» = «lær alt om klipning».";
+    if (q.type === "match") return "Find the key word in each question and look for the same idea (not always the same word) in the text.";
+    if (sent) return "Read the sentence before AND after the gap. The missing sentence must fit both. Small words like «men», «derfor», «og det» help you.";
+    if (q.type === "gaps") return "Look at the words just before and after the gap. Do you need a verb, a describing word or a linking word? Check the ending: -t after et-words and «det er», -e after «den/det/de».";
+    if (q.type === "mc") return "The right answer uses other words than the text. First remove the answers that are clearly wrong.";
+    if (q.type === "tf") return "Rigtigt = the text says it. Forkert = the text says the opposite. Står ikke i teksten = the text does not talk about it.";
+    return "Read the questions first, then find the key words in the text.";
+  }
+  function readingLearn(r) {
+    const L = PD2.LISTEN_R && PD2.LISTEN_R[r.id];
+    if (!L) return "";
+    const lines = L.lines, W = (PD2.WHY && PD2.WHY[r.id]) || {}, E = (PD2.READING_EN && PD2.READING_EN[r.id]) || {};
+    const paras = []; lines.forEach((l, i) => { if (i === 0 || l.p) paras.push([]); paras[paras.length - 1].push(l.en || ""); });
+    const why = k => W[k] ? `<div class="cmp-notes"><div>💡 ${esc(plainDa(W[k].da))}</div>${W[k].en ? `<div class="muted" lang="en">${esc(plain(W[k].en))}</div>` : ""}</div>` : "";
+    // Show a short answer with the spelling used in the text (names with capital letters).
+    const src = [r.text || ""].concat((r.sections || []).flatMap(x => (x.cards || []).flatMap(c => [c.title, c.sub, c.body]))).join(" \n ");
+    const niceAns = a => a.split(/ og /).map(part => { const m = src.match(new RegExp(part.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i")); return m ? m[0] : part; }).join(" og ").replace(/^\p{Ll}/u, x => x.toUpperCase());
+    const cardOf = letter => { for (const s of r.sections || []) for (const c of s.cards || []) if (c.title === letter || (c.title || "").startsWith(letter + " –")) return c.title; return letter; };
+    const ans = [];
+    r.questions.forEach((q, qi) => {
+      const e = (E.questions || [])[qi] || {};
+      if (q.type === "gaps") Object.entries(q.answers).forEach(([n, a]) => {
+        const k = [].concat(a)[0], b = (q.bank || []).find(x => x.key === k), txt = b ? (b.text && b.text !== k ? `${k}: ${b.text}` : b.text || k) : k;
+        ans.push(`<li class="cmp"><div class="cmp-da">(${esc(n)}) ✔ ${esc(txt)}</div>${why("g" + n)}</li>`);
+      });
+      else if (q.type === "match") q.items.forEach((it, ii) => {
+        if (it.example) return;
+        const en = (e.items || [])[ii];
+        ans.push(`<li class="cmp"><div class="cmp-da">${it.n !== undefined ? esc(it.n) + ". " : ""}${esc(it.text)} → ✔ ${esc(cardOf(it.answer))}</div>${en ? `<div class="cmp-en" lang="en">${esc(en)}</div>` : ""}${why(`m${qi}-${ii}`)}</li>`);
+      });
+      else {
+        const c = q.type === "mc" ? [].concat(q.answer).map(x => q.options[x]).join(" / ") : q.type === "tf" ? { R: "Rigtigt", F: "Forkert", S: "Står ikke i teksten" }[q.answer] : niceAns((q.accept || [""])[0]);
+        ans.push(`<li class="cmp"><div class="cmp-da">${q.n !== undefined ? esc(q.n) + ". " : ""}${esc(q.q || "")}</div>${e.q ? `<div class="cmp-en" lang="en">${esc(e.q)}</div>` : ""}<div style="margin-top:4px">✔ <b>${esc(c)}</b></div>${why("q" + qi)}</li>`);
+      }
+    });
+    // Words to learn: the harder words of the text, once each, with the sentence they come from.
+    const seen = new Set(), words = [];
+    lines.forEach(l => (l.words || []).forEach(([d, m]) => { const k = d.toLowerCase(); if (!seen.has(k) && d.length >= 5) { seen.add(k); words.push([d, m, l.da, l.en || ""]); } }));
+    const spread = (a, n) => a.length <= n ? a : Array.from({ length: n }, (_, i) => a[Math.floor(i * a.length / n)]);
+    const learn = spread(words, 16);
+    const step = (n, ico, title, sub, body, open) => `<details class="mstep"${open ? " open" : ""}><summary><span class="mstep-n">${n}</span> ${ico} <b>${title}</b> <span class="small muted">${sub}</span></summary><div class="mstep-body">${body}</div></details>`;
+    return `<div class="card" id="learnCard"><h3 style="margin-top:0">🧠 Forstå og husk</h3>
+      <p class="small muted" style="margin-top:0">Forstå teksten på engelsk, så sætning for sætning på dansk. Se så, hvordan du finder svarene – og husk ordene.</p>
+      <div class="msteps">
+      ${step(1, "🇬🇧", "Teksten på engelsk", "– enkle sætninger", `<div class="model" lang="en">${paras.map(p => esc(p.join(" ").trim())).filter(Boolean).join("\n\n")}</div>`, true)}
+      ${step(2, "🔍", "Sætning for sætning", `– dansk → engelsk (${lines.length} sætninger)`, `<ol class="cmp-list">${lines.map(l => `<li class="cmp${l.p ? " cmp-p" : ""}"><div class="cmp-da">🇩🇰 ${esc(l.da)}</div>${l.en ? `<div class="cmp-en" lang="en">🇬🇧 ${esc(l.en)}</div>` : ""}${l.note || (l.words && l.words.length) ? `<div class="cmp-notes" lang="en">${l.note ? `<div>💡 ${esc(plain(l.note))}</div>` : ""}${l.words && l.words.length ? `<div class="cmp-words">${l.words.map(([a, b]) => `<span><b>${esc(a)}</b> = ${esc(b)}</span>`).join("")}</div>` : ""}</div>` : ""}</li>`).join("")}</ol>`, false)}
+      ${ans.length ? step(3, "🎯", "Sådan finder du svarene", "– viser svarene", `<ol class="cmp-list">${ans.join("")}</ol>`, false) : ""}
+      ${step(ans.length ? 4 : 3, "✅", "Husk", "– det vigtigste fra denne opgave", `<ul class="husk" lang="en">
+          <li><b>How to solve this type of task:</b> ${esc(readingTip(r))}</li>
+          ${learn.length ? `<li><b>Words to learn (${learn.length}):</b><div class="cmp-words" style="margin-top:6px">${learn.map(([d, m]) => `<span><b>${esc(d)}</b> = ${esc(m)}</span>`).join("")}</div>
+            <button class="btn ghost sm" id="learnSave" style="margin-top:8px">📝 Gem ordene i Mine ord</button></li>` : ""}
+          <li><b>Next time:</b> read the questions first, then the text. Do not stop at a word you don't know – read on. Use the time: about ${r.minutes || 15} minutes for this task.</li>
+        </ul>`, true)}
+      </div></div>`;
+  }
+  function readingLearnWords(r) {
+    const L = PD2.LISTEN_R && PD2.LISTEN_R[r.id], seen = new Set(), out = [];
+    (L ? L.lines : []).forEach(l => (l.words || []).forEach(([d, m]) => { const k = d.toLowerCase(); if (!seen.has(k) && d.length >= 5) { seen.add(k); out.push({ da: d, en: m, ex: l.da, exEn: l.en || "" }); } }));
+    return out.length <= 16 ? out : Array.from({ length: 16 }, (_, i) => out[Math.floor(i * out.length / 16)]);
+  }
   function readingItem(id, exam) {
     const r = findItem("READING", id);
     if (!r) return readingList();
@@ -929,6 +1007,7 @@
 
     // Gap tasks: the word/sentence bank sits above the text so it stays in view while choosing.
     const solo = r.questions.every(q => q.type === "gaps");
+    const learnOk = !exam && !/^pd1-/.test(r.id) && !!(PD2.LISTEN_R && PD2.LISTEN_R[r.id]);
     const bankHtml = gapQ && gapQ.bank ? `<div class="bankbox ${gapQ.bank.every(b => b.key === b.text) ? "" : "sentences"}">
         <b class="small">${gapQ.bank.every(b => b.key === b.text) ? "Ord i rammen" : "Sætninger"}</b>
         ${gapQ.bank.every(b => b.key === b.text)
@@ -972,6 +1051,7 @@
       ${exam ? "" : `<div class="row" style="margin-bottom:16px">
         ${r.minutes ? `<button class="btn ghost sm" id="timerBtn">⏱️ Start prøvetid (${r.minutes} min)</button><span class="timer" id="timer"></span>` : ""}
         ${PD2.LISTEN_R && PD2.LISTEN_R[r.id] ? `<a class="btn ghost sm" href="#/lyt/r/${r.id}">🎧 Lyt til teksten</a>` : ""}
+        ${learnOk ? `<button class="btn ghost sm" id="learnBtn">🧠 Forstå og husk</button>` : ""}
       </div>`}
       <div class="reader ${solo ? "solo" : ""}">
         <div class="card text">
@@ -992,7 +1072,8 @@
           </div>
           <div id="result" style="margin-top:16px"></div>
         </div>
-      </div>`;
+      </div>
+      <div id="learnBox"></div>`;
 
     // Interactions
     $$(".choice[data-key]").forEach(b => b.onclick = () => {
@@ -1113,12 +1194,29 @@
       $("#result").innerHTML = `<div class="result">
         <div class="big">${score}/${total}</div>
         ${mainTotal !== total ? `<p class="small muted">Prøvespørgsmål: ${mainScore}/${mainTotal} · ekstra: ${score - mainScore}/${total - mainTotal}</p>` : ""}
-        <p style="margin:0;font-weight:800">${msg}</p></div>`;
+        <p style="margin:0;font-weight:800">${msg}</p>
+        ${learnOk ? `<button class="btn read sm" id="learnFromResult" style="margin-top:10px">🧠 Forstå og husk teksten</button>` : ""}</div>`;
+      if (learnOk) $("#learnFromResult").onclick = () => { if (!$("#learnBox").innerHTML) openLearn(); else $("#learnBox").scrollIntoView({ behavior: "smooth", block: "start" }); };
       $("#check").hidden = true;
       $("#retry").hidden = false;
       $("#result").scrollIntoView({ behavior: "smooth", block: "nearest" });
     };
     $("#retry").onclick = () => readingItem(id);
+    // 🧠 Forstå og husk: opens below the task; also offered in the result after checking.
+    const openLearn = () => {
+      const box = $("#learnBox"), btn = $("#learnBtn");
+      if (box.innerHTML) { box.innerHTML = ""; if (btn) btn.textContent = "🧠 Forstå og husk"; return; }
+      box.innerHTML = readingLearn(r);
+      if (btn) btn.textContent = "🙈 Skjul Forstå og husk";
+      const sv = $("#learnSave");
+      if (sv) sv.onclick = () => {
+        const ws = readingLearnWords(r).filter(w => !nbHas(w.da));
+        ws.reverse().forEach(w => nbAdd(w));
+        sv.disabled = true; sv.textContent = ws.length ? `✓ ${ws.length} ord gemt i Mine ord` : "✓ Ordene er allerede i Mine ord";
+      };
+      box.scrollIntoView({ behavior: "smooth", block: "start" });
+    };
+    if (learnOk) $("#learnBtn").onclick = openLearn;
   }
 
   // ---------- Writing ----------
@@ -1172,7 +1270,7 @@
     [/\bsubordinate clauses?\b|\bsub-clauses?\b/gi, "at/fordi/når part"], [/\bsubordinate\b/gi, "at/fordi/når"],
     [/\bmain clauses\b/gi, "normal sentences"], [/\bmain clause\b/gi, "normal sentence"],
     [/(\S+)-clause\b/g, "$1 part"], [/\bclauses\b/gi, "parts"], [/\bclause\b/gi, "part"],
-    [/\b(?:the )?(?:present perfect|perfect tense|perfect)\b(?! (?:for|match|fit|place|time|way|day))/gi, m => capM(m, "the 'har' form (has done)")],
+    [/\b(?:the )?(?:present perfect(?: tense)?|perfect tense|perfect)\b(?! (?:for|match|fit|place|time|way|day))/gi, m => capM(m, "the 'har' form (has done)")],
     [/\bpast participles?\b|\bparticiples?\b/gi, "verb form after har"],
     [/\bpast tense\b/gi, m => capM(m, "past form")], [/\bpresent[- ]tense\b/gi, m => capM(m, "now form")],
     [/\b(in )?the infinitive\b/gi, (m, a) => a ? "in the basic form" : "the basic form"], [/\binfinitives?\b/gi, "basic verb"],
@@ -1193,7 +1291,7 @@
     [/\binformal\b/gi, "friendly"], [/\bformal\b/gi, "polite"], [/\bV2\b/g, "verb second"],
   ];
   const plain = s => PLAIN.reduce((t, [re, to]) => t.replace(re, to), s || "")
-    .replace(/\ba (at\/)/g, "an $1").replace(/\ban (at\/)/g, "an $1").replace(/\bthe the\b/gi, "the").replace(/verb first, verb second/g, "verb first").replace(/\b(an?|the) (the|an?) /gi, "$1 ").replace(/\b([Aa]) the\b/g, "$1");
+    .replace(/\ba (at\/)/g, "an $1").replace(/\ban (at\/)/g, "an $1").replace(/\bthe the\b/gi, "the").replace(/verb first, verb second/g, "verb first").replace(/\(has done\) tense/g, "(has done)").replace(/\b(an?|the) (the|an?) /gi, "$1 ").replace(/\b([Aa]) the\b/g, "$1");
   function cmpAnalyse(l) {
     const da = l.da, en = l.en || "", note = l.note || "", tags = [];
     const fronted = /\?\s*$/.test(da) ? null : da.match(/^([A-ZÆØÅ][^,:;!?]*?)\s+(\p{L}+)\s+(jeg|du|han|hun|vi|I|man)\b/u);

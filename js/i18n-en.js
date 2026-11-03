@@ -1338,5 +1338,17 @@ PD2.I18N.en = {
 "– engelsk → dansk, og hvad der ændrer sig": "– English → Danish, and what changes",
 "Husk": "Remember",
 "– det vigtigste fra dette svar": "– the key points from this answer",
-"🎧 Lyt": "🎧 Listen"
+"🎧 Lyt": "🎧 Listen",
+"🧠 Forstå og husk": "🧠 Understand and remember",
+"🙈 Skjul Forstå og husk": "🙈 Hide Understand and remember",
+"🧠 Forstå og husk teksten": "🧠 Understand and remember the text",
+"Forstå teksten på engelsk, så sætning for sætning på dansk. Se så, hvordan du finder svarene – og husk ordene.": "Understand the text in English, then sentence by sentence in Danish. Then see how to find the answers – and remember the words.",
+"Teksten på engelsk": "The text in English",
+"– dansk → engelsk ({n} sætninger)": "– Danish → English ({n} sentences)",
+"Sådan finder du svarene": "How to find the answers",
+"– viser svarene": "– shows the answers",
+"– det vigtigste fra denne opgave": "– the key points from this task",
+"📝 Gem ordene i Mine ord": "📝 Save the words in My words",
+"✓ {n} ord gemt i Mine ord": "✓ {n} words saved in My words",
+"✓ Ordene er allerede i Mine ord": "✓ The words are already in My words"
 };

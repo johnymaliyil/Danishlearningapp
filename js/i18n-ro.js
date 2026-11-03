@@ -1301,5 +1301,17 @@ PD2.I18N.ro = {
 "– engelsk → dansk, og hvad der ændrer sig": "– engleză → daneză și ce se schimbă",
 "Husk": "Ține minte",
 "– det vigtigste fra dette svar": "– cele mai importante din acest răspuns",
-"🎧 Lyt": "🎧 Ascultă"
+"🎧 Lyt": "🎧 Ascultă",
+"🧠 Forstå og husk": "🧠 Înțelege și ține minte",
+"🙈 Skjul Forstå og husk": "🙈 Ascunde Înțelege și ține minte",
+"🧠 Forstå og husk teksten": "🧠 Înțelege și ține minte textul",
+"Forstå teksten på engelsk, så sætning for sætning på dansk. Se så, hvordan du finder svarene – og husk ordene.": "Înțelege textul în engleză, apoi propoziție cu propoziție în daneză. Vezi cum găsești răspunsurile – și ține minte cuvintele.",
+"Teksten på engelsk": "Textul în engleză",
+"– dansk → engelsk ({n} sætninger)": "– daneză → engleză ({n} propoziții)",
+"Sådan finder du svarene": "Cum găsești răspunsurile",
+"– viser svarene": "– arată răspunsurile",
+"– det vigtigste fra denne opgave": "– cele mai importante din această sarcină",
+"📝 Gem ordene i Mine ord": "📝 Salvează cuvintele în Cuvintele mele",
+"✓ {n} ord gemt i Mine ord": "✓ {n} cuvinte salvate în Cuvintele mele",
+"✓ Ordene er allerede i Mine ord": "✓ Cuvintele sunt deja în Cuvintele mele"
 };
