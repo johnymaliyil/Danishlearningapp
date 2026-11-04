@@ -1,6 +1,123 @@
 {
- "updated": "2026-11-03T21:00+00:00",
+ "updated": "2026-11-04T12:10+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/inflation-i-eurozone-stiger-til-det-dobbelte-af-maalsaetning",
+   "date": "2026-11-04T11:08:20+00:00",
+   "da": {
+    "title": "Inflation i eurozone stiger til det dobbelte af målsætning",
+    "desc": ""
+   },
+   "en": {
+    "title": "Eurozone inflation rises to double target",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/over-300-000-naaede-se-udskaeldt-tv-2-program-foer-det-blev-fjernet",
+   "date": "2026-11-04T09:02:15+00:00",
+   "da": {
+    "title": "Over 300.000 nåede at se udskældt TV 2-program, før det blev fjernet",
+    "desc": ""
+   },
+   "en": {
+    "title": "Over 300,000 people watched a scolded TV 2 show before it was removed",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/personer-sigtet-forsoeg-paa-manddrab-efter-eksplosion",
+   "date": "2026-11-04T08:49:54+00:00",
+   "da": {
+    "title": "To personer sigtet for forsøg på manddrab efter eksplosion",
+    "desc": ""
+   },
+   "en": {
+    "title": "Two people charged with attempted manslaughter after explosion",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/danske-vindaktier-stiger-efter-udsigt-til-demokratisk-sejr-i-usa",
+   "date": "2026-11-04T08:42:28+00:00",
+   "da": {
+    "title": "Danske vindaktier stiger efter udsigt til demokratisk sejr i USA",
+    "desc": ""
+   },
+   "en": {
+    "title": "Danish wind shares rise after prospect of democratic victory in the US",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/politi-loeslader-tre-efter-spraengning-af-hjemmelavet-bombe",
+   "date": "2026-11-04T07:35:39+00:00",
+   "da": {
+    "title": "Politi løslader tre efter sprængning af hjemmelavet bombe",
+    "desc": ""
+   },
+   "en": {
+    "title": "Police release three after detonation of homemade bomb",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/pandora-skruer-op-forventningerne-til-2026",
+   "date": "2026-11-04T07:09:10+00:00",
+   "da": {
+    "title": "Pandora skruer op for forventningerne til 2026",
+    "desc": ""
+   },
+   "en": {
+    "title": "Pandora Turns Up Expectations for 2026",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/22-aarig-stukket-i-laaret-paa-aaben-gade-i-frederikssund",
+   "date": "2026-11-04T05:08:18+00:00",
+   "da": {
+    "title": "23-årig stukket i låret på åben gade i Frederikssund",
+    "desc": ""
+   },
+   "en": {
+    "title": "23-year-old stabbed in thigh on open street in Frederikssund",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/vi-laegger-flere-penge-i-butikker-uden-bymidten-viser-di-analyse",
+   "date": "2026-11-04T04:45:27+00:00",
+   "da": {
+    "title": "Vi lægger flere penge i butikker uden for bymidten, viser DI-analyse",
+    "desc": ""
+   },
+   "en": {
+    "title": "We're putting more money in stores outside the city center, DI analysis shows",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12768973#liveblog-embed",
+   "date": "2026-11-03T21:56:08+00:00",
+   "da": {
+    "title": "Dansk back scorer to i Champions League-sejr",
+    "desc": ""
+   },
+   "en": {
+    "title": "Danish back scores two in Champions League victory",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/rigshospitalet-faar-udskudt-svarfrist-i-sag-om-fyringer",
@@ -76,123 +193,6 @@
    },
    "en": {
     "title": "Expert: Denmark gets dream draw for Nations League",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/offentlige-loginloesninger-ramt-af-nedbrud",
-   "date": "2026-11-03T14:39:42+00:00",
-   "da": {
-    "title": "Offentlig loginløsninger virker igen efter kort nedbrud",
-    "desc": ""
-   },
-   "en": {
-    "title": "Public login solutions are working again after a short crash",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tyveri-fra-et-af-de-mest-bevogtede-steder-i-koebenhavn",
-   "date": "2026-11-03T14:35:12+00:00",
-   "da": {
-    "title": "Tyveri fra et af de mest bevogtede steder i København",
-    "desc": ""
-   },
-   "en": {
-    "title": "Theft from one of the most guarded places in Copenhagen",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/seks-personer-anholdt-efter-eksplosion-i-vejle",
-   "date": "2026-11-03T12:18:00+00:00",
-   "da": {
-    "title": "Seks personer anholdt efter eksplosion i Vejle",
-    "desc": ""
-   },
-   "en": {
-    "title": "Six people arrested after explosion in Vejle",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/10-000-elever-og-studerende-gaar-paa-gaden-i-morgen",
-   "date": "2026-11-03T05:59:49+00:00",
-   "da": {
-    "title": "10.000 elever og studerende går på gaden i morgen",
-    "desc": ""
-   },
-   "en": {
-    "title": "10,000 students take to the streets tomorrow",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/apples-omsaetning-slaar-markedets-forventninger",
-   "date": "2026-11-02T22:22:00+00:00",
-   "da": {
-    "title": "Apples omsætning slår markedets forventninger",
-    "desc": ""
-   },
-   "en": {
-    "title": "Apple's revenue beats market expectations",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/papirklip-af-h-c-andersen-kommer-paa-auktion",
-   "date": "2026-11-02T20:28:52+00:00",
-   "da": {
-    "title": "Papirklip af H.C. Andersen kommer på auktion",
-    "desc": ""
-   },
-   "en": {
-    "title": "Paper clips by Hans Christian Andersen go on auction",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12762058#liveblog-embed",
-   "date": "2026-11-02T19:54:03+00:00",
-   "da": {
-    "title": "F.C. København spadserer til sejr mod tamme Sønderjyske",
-    "desc": ""
-   },
-   "en": {
-    "title": "F.C. Copenhagen walks to victory against tame Sønderjyske",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/litauisk-mand-tog-barnevogn-med-barn-i-paa-oesterbro",
-   "date": "2026-11-02T19:44:49+00:00",
-   "da": {
-    "title": "Litauisk mand tog barnevogn med barn i på Østerbro",
-    "desc": ""
-   },
-   "en": {
-    "title": "Lithuanian man took stroller with child in at Østerbro",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/seneste-sport/nfl-lancerer-liga-i-ny-ol-disciplin",
-   "date": "2026-11-02T18:56:14+00:00",
-   "da": {
-    "title": "NFL lancerer liga i ny OL-disciplin",
-    "desc": ""
-   },
-   "en": {
-    "title": "NFL launches league in new Olympic discipline",
     "desc": ""
    }
   }
