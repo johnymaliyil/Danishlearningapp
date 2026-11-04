@@ -1,6 +1,162 @@
 {
- "updated": "2026-11-04T12:10+00:00",
+ "updated": "2026-11-04T21:21+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/israels-praesident-tager-hul-paa-samtaler-med-partiledere",
+   "date": "2026-11-04T21:09:01+00:00",
+   "da": {
+    "title": "Israels præsident tager hul på samtaler med partiledere",
+    "desc": ""
+   },
+   "en": {
+    "title": "Israeli President Begins Talks with Party Leaders",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/serbiske-betjente-anholdt-overdreven-magtbrug-mod-demonstranter",
+   "date": "2026-11-04T20:47:22+00:00",
+   "da": {
+    "title": "Serbiske betjente anholdt for overdreven magtbrug mod demonstranter",
+    "desc": ""
+   },
+   "en": {
+    "title": "Serbian police officers arrested for excessive use of force against protesters",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/taliban-deltager-ved-cop31-som-observatoer",
+   "date": "2026-11-04T20:32:31+00:00",
+   "da": {
+    "title": "Taliban deltager ved COP31 som observatør",
+    "desc": ""
+   },
+   "en": {
+    "title": "Taliban attend COP31 as observer",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/bob-dylan-besoeger-pave-leo-forud-koncert-i-rom",
+   "date": "2026-11-04T19:48:26+00:00",
+   "da": {
+    "title": "Bob Dylan besøger pave Leo forud for koncert i Rom",
+    "desc": ""
+   },
+   "en": {
+    "title": "Bob Dylan visits Pope Leo ahead of concert in Rome",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/dmi-melder-om-databrud",
+   "date": "2026-11-04T18:12:17+00:00",
+   "da": {
+    "title": "DMI melder om databrud",
+    "desc": ""
+   },
+   "en": {
+    "title": "DMI reports data breach",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/c25-indeks-har-hoejeste-lukkekurs-i-over-aar",
+   "date": "2026-11-04T16:10:24+00:00",
+   "da": {
+    "title": "C25-indeks har højeste lukkekurs i over to år",
+    "desc": "Kursstigninger hos blandt andre Pandora og Novo løfter C25-indekset til højeste lukkekurs siden 2024."
+   },
+   "en": {
+    "title": "C25 index has highest closing price for over two years",
+    "desc": "Price increases at Pandora and Novo, among others, lift the C25 index to its highest closing price since 2024."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/venoe-faergen-midlertidigt-indstillet-bil-er-trillet-i-faergelejet",
+   "date": "2026-11-04T15:59:53+00:00",
+   "da": {
+    "title": "Venø Færgen i drift igen efter bil i færgelejet",
+    "desc": ""
+   },
+   "en": {
+    "title": "Venø Færgen back in service after car in the ferry berth",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/varetaegtsfaengslet-efter-eksplosion-ved-skoedstrup",
+   "date": "2026-11-04T15:21:30+00:00",
+   "da": {
+    "title": "To varetægtsfængslet efter eksplosion ved Skødstrup",
+    "desc": ""
+   },
+   "en": {
+    "title": "Two in custody after explosion at Skødstrup",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/faerre-tog-mellem-koebenhavn-og-kalundborg-efter-sporskiftefejl",
+   "date": "2026-11-04T15:19:12+00:00",
+   "da": {
+    "title": "Færre tog mellem København og Kalundborg efter sporskiftefejl",
+    "desc": ""
+   },
+   "en": {
+    "title": "Fewer trains between Copenhagen and Kalundborg after switch failure",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/marius-borg-hoeiby-skal-alligevel-forblive-faengslet",
+   "date": "2026-11-04T14:56:37+00:00",
+   "da": {
+    "title": "Marius Borg Høiby skal alligevel forblive fængslet",
+    "desc": ""
+   },
+   "en": {
+    "title": "Marius Borg Høiby must remain in prison anyway",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/luftkvaliteten-i-new-delhi-er-meget-daarligt-foer-stor-lysfest",
+   "date": "2026-11-04T13:56:44+00:00",
+   "da": {
+    "title": "Luftkvaliteten i New Delhi er 'meget dårligt' før stor lysfest",
+    "desc": ""
+   },
+   "en": {
+    "title": "Air quality in New Delhi is' very bad 'before big light party",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/19-aarig-idoemt-betinget-faengsel-trusler-om-skoleskyderi",
+   "date": "2026-11-04T12:18:31+00:00",
+   "da": {
+    "title": "19-årig idømt betinget fængsel for trusler om skoleskyderi",
+    "desc": ""
+   },
+   "en": {
+    "title": "19-year-old sentenced to conditional imprisonment for threats of school shootings",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/inflation-i-eurozone-stiger-til-det-dobbelte-af-maalsaetning",
@@ -37,162 +193,6 @@
    },
    "en": {
     "title": "Two people charged with attempted manslaughter after explosion",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/danske-vindaktier-stiger-efter-udsigt-til-demokratisk-sejr-i-usa",
-   "date": "2026-11-04T08:42:28+00:00",
-   "da": {
-    "title": "Danske vindaktier stiger efter udsigt til demokratisk sejr i USA",
-    "desc": ""
-   },
-   "en": {
-    "title": "Danish wind shares rise after prospect of democratic victory in the US",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/politi-loeslader-tre-efter-spraengning-af-hjemmelavet-bombe",
-   "date": "2026-11-04T07:35:39+00:00",
-   "da": {
-    "title": "Politi løslader tre efter sprængning af hjemmelavet bombe",
-    "desc": ""
-   },
-   "en": {
-    "title": "Police release three after detonation of homemade bomb",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/pandora-skruer-op-forventningerne-til-2026",
-   "date": "2026-11-04T07:09:10+00:00",
-   "da": {
-    "title": "Pandora skruer op for forventningerne til 2026",
-    "desc": ""
-   },
-   "en": {
-    "title": "Pandora Turns Up Expectations for 2026",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/22-aarig-stukket-i-laaret-paa-aaben-gade-i-frederikssund",
-   "date": "2026-11-04T05:08:18+00:00",
-   "da": {
-    "title": "23-årig stukket i låret på åben gade i Frederikssund",
-    "desc": ""
-   },
-   "en": {
-    "title": "23-year-old stabbed in thigh on open street in Frederikssund",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/vi-laegger-flere-penge-i-butikker-uden-bymidten-viser-di-analyse",
-   "date": "2026-11-04T04:45:27+00:00",
-   "da": {
-    "title": "Vi lægger flere penge i butikker uden for bymidten, viser DI-analyse",
-    "desc": ""
-   },
-   "en": {
-    "title": "We're putting more money in stores outside the city center, DI analysis shows",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12768973#liveblog-embed",
-   "date": "2026-11-03T21:56:08+00:00",
-   "da": {
-    "title": "Dansk back scorer to i Champions League-sejr",
-    "desc": ""
-   },
-   "en": {
-    "title": "Danish back scores two in Champions League victory",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/rigshospitalet-faar-udskudt-svarfrist-i-sag-om-fyringer",
-   "date": "2026-11-03T20:47:49+00:00",
-   "da": {
-    "title": "Rigshospitalet får udskudt svarfrist i sag om fyringer",
-    "desc": ""
-   },
-   "en": {
-    "title": "Rigshospitalet gets postponed deadline in case of layoffs",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/seneste-sport/danske-ishockeykvinder-taber-stort-i-optakt-til-vm",
-   "date": "2026-11-03T20:47:35+00:00",
-   "da": {
-    "title": "Danske ishockeykvinder taber stort i optakt til VM",
-    "desc": ""
-   },
-   "en": {
-    "title": "Danish ice hockey women lose big in the run-up to the World Championships",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/bakken-bears-topper-i-europa-med-fjerde-sejr-i-traek",
-   "date": "2026-11-03T20:29:44+00:00",
-   "da": {
-    "title": "Bakken Bears topper i Europa med fjerde sejr i træk",
-    "desc": ""
-   },
-   "en": {
-    "title": "Bakken Bears tops in Europe with fourth consecutive win",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/togdriften-paa-spansk-straekning-reduceres-efter-ulykke",
-   "date": "2026-11-03T19:38:56+00:00",
-   "da": {
-    "title": "Togdriften på spansk strækning reduceres efter ulykke",
-    "desc": ""
-   },
-   "en": {
-    "title": "Train operation on Spanish line reduced after accident",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12767413#liveblog-embed",
-   "date": "2026-11-03T18:56:17+00:00",
-   "da": {
-    "title": "Lyngby sender Randers ud af pokalen i tillægstiden",
-    "desc": ""
-   },
-   "en": {
-    "title": "Lyngby sends Randers out of the trophy in extra time",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12765982#liveblog-embed",
-   "date": "2026-11-03T14:54:04+00:00",
-   "da": {
-    "title": "Ekspert: Danmark får drømmelodtrækning til Nations League",
-    "desc": ""
-   },
-   "en": {
-    "title": "Expert: Denmark gets dream draw for Nations League",
     "desc": ""
    }
   }
