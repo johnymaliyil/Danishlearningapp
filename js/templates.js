@@ -73,22 +73,22 @@ Med venlig hilsen
     tip: "Brug de samme sætninger i alle ansøgninger. Skift kun jobbet og din erfaring."
   },
   institution: {
-    ico: "🏫", name: "Mail til en lærer, skole eller kommune",
-    use: "Korte, høflige mails, hvor du giver besked eller spørger om noget.",
-    skeleton: `Kære [navn / skole]
+    ico: "🏫", name: "Mail til en skole eller et kontor",
+    use: "Delprøve 1: mail til din lærer, en skole, en aftenskole eller kommunen.",
+    skeleton: `Kære [navn]
 
-Jeg skriver til [dig / jer], fordi [grunden …]
+Jeg skriver, fordi [grunden].
 
-Kan [du / I] fortælle mig, [dit første spørgsmål]?
+[Detaljer …]
 
-Jeg vil også gerne vide, [dit næste spørgsmål].
+Kan I fortælle mig, [spørgsmål]? Jeg vil også gerne vide, [spørgsmål].
 
-På forhånd tak for hjælpen. Jeg ser frem til at høre fra [dig / jer].
+På forhånd tak.
 
 Venlig hilsen
 [dit navn]`,
-    marks: ["Jeg skriver til", "Jeg vil også gerne vide", "På forhånd tak for hjælpen.", "Jeg ser frem til at høre fra", "Venlig hilsen"],
-    tip: "Skriv \"dig\" til én person (din lærer) og \"jer\" til en skole eller et kontor."
+    marks: ["Jeg skriver, fordi", "Kan I fortælle mig,", "Kan du fortælle mig,", "Jeg vil også gerne vide,", "På forhånd tak.", "Venlig hilsen"],
+    tip: "Brug de samme sætninger hver gang: Jeg skriver, fordi … Kan I fortælle mig, …? På forhånd tak."
   },
   anbefaling: {
     ico: "⭐", name: "Anbefaling",
@@ -132,27 +132,23 @@ Mange hilsner
   },
   jobannonce: {
     ico: "📢", name: "Jobannonce",
-    use: "Delprøve 1: du søger en medarbejder til din butik eller dit firma.",
+    use: "Delprøve 1: du har en butik eller et firma og søger en medarbejder.",
     skeleton: `[Job] søges!
 
-Vi søger en [job] til [firma], som ligger [hvor].
+Vi søger en glad og flittig [job] til [sted], som ligger [hvor].
 
-Om os: [hvad I sælger / laver, åbningstider …]
+Dine opgaver bliver at [opgaver].
 
-Dine opgaver bliver at [opgaver …]
+Vi forventer, at du er glad, flittig og mødestabil.
 
-Vi forventer, at du [kvalifikationer …]
+Arbejdstiden er [timer om ugen].
 
-Arbejdstiden er [timer / dage].
-
-Hvis du er interesseret, så send en ansøgning til [e-mail] senest [dato].
-
-Vi glæder os til at høre fra dig!
+Send en ansøgning til [mail] senest den [dato]. I kan ringe til mig på [telefon]. Vi glæder os til at høre fra dig!
 
 Med venlig hilsen
 [dit navn], ejer`,
-    marks: ["søges!", "Vi søger en", "Om os:", "Dine opgaver bliver at", "Vi forventer, at du", "Arbejdstiden er", "Hvis du er interesseret, så send en ansøgning til", "Vi glæder os til at høre fra dig!", "Med venlig hilsen"],
-    tip: "En annonce skrives med \"vi\" om firmaet og \"du\" om den nye medarbejder."
+    marks: ["søges!", "Vi søger en glad og flittig", "Dine opgaver bliver at", "Vi forventer, at du er glad, flittig og mødestabil.", "Arbejdstiden er", "Send en ansøgning til", "senest den", "Vi glæder os til at høre fra dig!", "Med venlig hilsen"],
+    tip: "Brug de samme sætninger i alle jobannoncer. Skift kun jobbet, opgaverne og arbejdstiden."
   },
   takkebrev: {
     ico: "🙏", name: "Takkebrev",
@@ -176,22 +172,24 @@ Mange hilsner
   },
   holdning: {
     ico: "🗞️", name: "Tekst til et blad eller en avis",
-    use: "Fortællende tekster og holdningstekster: fx et godt job, by eller land, en tradition fra dit land.",
+    use: "Læserbrev eller tekst om dit liv, en tradition, et job, hvor du vil bo, hvordan man sparer penge …",
     skeleton: `[Overskrift]
 
-I denne tekst vil jeg skrive om [emnet].
+Jeg vil gerne skrive om [emnet].
 
-Først vil jeg fortælle om mine egne erfaringer. [Dig selv / dit land …]
+For det første [punkt 1 …].
 
-For det første [en fordel / et råd …] For det andet [en til …]
+For det andet [punkt 2 …].
 
-På den ene side [ … ] På den anden side [ … ]
+Der er både fordele og ulemper. Fordelen er, at [ … ]. Ulempen er, at [ … ].
 
-Alt i alt mener jeg, at [din mening].
+Jeg synes, at [din mening], fordi [grunden].
+
+Alt i alt [kort slutning].
 
 [dit navn]`,
-    marks: ["I denne tekst vil jeg skrive om", "Først vil jeg fortælle", "For det første", "For det andet", "På den ene side", "På den anden side", "Alt i alt mener jeg, at"],
-    tip: "\"På den ene side … På den anden side …\" viser både fordele og ulemper – det giver point for organisering."
+    marks: ["Jeg vil gerne skrive om", "For det første", "For det andet", "Der er både fordele og ulemper.", "Fordelen er, at", "Ulempen er, at", "Jeg synes, at", "Alt i alt"],
+    tip: "Brug de samme sætninger i alle tekster: For det første … For det andet … Fordelen er … Ulempen er … Jeg synes … Alt i alt …"
   },
 
   // ---------- PD1 (A2): short and simple ----------

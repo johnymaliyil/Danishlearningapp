@@ -36894,6 +36894,1556 @@ Object.assign(PD2.LISTEN, {
 PD2.SIMPLE_PHRASES = Object.assign(PD2.SIMPLE_PHRASES || {}, {"w12a": ["Hej alle sammen", "Jeg vil gerne invitere jer til …", "Det bliver rigtig hyggeligt.", "Vi mødes … den … kl. …", "Husk at tage … med.", "Skriv til mig senest den …, hvis du vil være med.", "I kan ringe til mig på …", "Jeg glæder mig til at se jer!", "Mange hilsner"], "w12nb": ["Hej alle sammen", "Jeg vil gerne invitere jer til …", "Det bliver rigtig hyggeligt.", "Vi mødes … den … kl. …", "Husk at tage … med.", "Skriv til mig senest den …, hvis du vil være med.", "I kan ringe til mig på …", "Jeg glæder mig til at se jer!", "Mange hilsner"], "w15ma": ["Hej alle sammen", "Jeg vil gerne invitere jer til …", "Det bliver rigtig hyggeligt.", "Vi mødes … den … kl. …", "Husk at tage … med.", "Skriv til mig senest den …, hvis du vil være med.", "I kan ringe til mig på …", "Jeg glæder mig til at se jer!", "Mange hilsner"], "w15na": ["Hej alle sammen", "Jeg vil gerne invitere jer til …", "Det bliver rigtig hyggeligt.", "Vi mødes … den … kl. …", "Husk at tage … med.", "Skriv til mig senest den …, hvis du vil være med.", "I kan ringe til mig på …", "Jeg glæder mig til at se jer!", "Mange hilsner"], "w15nb": ["Hej alle sammen", "Jeg vil gerne invitere jer til …", "Det bliver rigtig hyggeligt.", "Vi mødes … den … kl. …", "Husk at tage … med.", "Skriv til mig senest den …, hvis du vil være med.", "I kan ringe til mig på …", "Jeg glæder mig til at se jer!", "Mange hilsner"], "w16a": ["Hej alle sammen", "Jeg vil gerne invitere jer til …", "Det bliver rigtig hyggeligt.", "Vi mødes … den … kl. …", "Husk at tage … med.", "Skriv til mig senest den …, hvis du vil være med.", "I kan ringe til mig på …", "Jeg glæder mig til at se jer!", "Mange hilsner"], "w17na": ["Hej alle sammen", "Jeg vil gerne invitere jer til …", "Det bliver rigtig hyggeligt.", "Vi mødes … den … kl. …", "Husk at tage … med.", "Skriv til mig senest den …, hvis du vil være med.", "I kan ringe til mig på …", "Jeg glæder mig til at se jer!", "Mange hilsner"], "w18mb": ["Hej alle sammen", "Jeg vil gerne invitere jer til …", "Det bliver rigtig hyggeligt.", "Vi mødes … den … kl. …", "Husk at tage … med.", "Skriv til mig senest den …, hvis du vil være med.", "I kan ringe til mig på …", "Jeg glæder mig til at se jer!", "Mange hilsner"], "w20a": ["Hej alle sammen", "Jeg vil gerne invitere jer til …", "Det bliver rigtig hyggeligt.", "Vi mødes … den … kl. …", "Husk at tage … med.", "Skriv til mig senest den …, hvis du vil være med.", "I kan ringe til mig på …", "Jeg glæder mig til at se jer!", "Mange hilsner"], "w20nb": ["Hej alle sammen", "Jeg vil gerne invitere jer til …", "Det bliver rigtig hyggeligt.", "Vi mødes … den … kl. …", "Husk at tage … med.", "Skriv til mig senest den …, hvis du vil være med.", "I kan ringe til mig på …", "Jeg glæder mig til at se jer!", "Mange hilsner"], "w21ma": ["Hej alle sammen", "Jeg vil gerne invitere jer til …", "Det bliver rigtig hyggeligt.", "Vi mødes … den … kl. …", "Husk at tage … med.", "Skriv til mig senest den …, hvis du vil være med.", "I kan ringe til mig på …", "Jeg glæder mig til at se jer!", "Mange hilsner"], "w13a": ["… søges! / … udlejes!", "Hej alle sammen", "Jeg hedder …, og jeg er … år.", "Jeg søger …", "Jeg vil gerne leje … ud.", "Der er lyst og hyggeligt.", "Prisen er …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Mange hilsner"], "w13na": ["… søges! / … udlejes!", "Hej alle sammen", "Jeg hedder …, og jeg er … år.", "Jeg søger …", "Jeg vil gerne leje … ud.", "Der er lyst og hyggeligt.", "Prisen er …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Mange hilsner"], "w14nb": ["… søges! / … udlejes!", "Hej alle sammen", "Jeg hedder …, og jeg er … år.", "Jeg søger …", "Jeg vil gerne leje … ud.", "Der er lyst og hyggeligt.", "Prisen er …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Mange hilsner"], "w16b": ["… søges! / … udlejes!", "Hej alle sammen", "Jeg hedder …, og jeg er … år.", "Jeg søger …", "Jeg vil gerne leje … ud.", "Der er lyst og hyggeligt.", "Prisen er …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Mange hilsner"], "w20b": ["… søges! / … udlejes!", "Hej alle sammen", "Jeg hedder …, og jeg er … år.", "Jeg søger …", "Jeg vil gerne leje … ud.", "Der er lyst og hyggeligt.", "Prisen er …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Mange hilsner"], "w21nb": ["… søges! / … udlejes!", "Hej alle sammen", "Jeg hedder …, og jeg er … år.", "Jeg søger …", "Jeg vil gerne leje … ud.", "Der er lyst og hyggeligt.", "Prisen er …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Mange hilsner"], "w23ma": ["… søges! / … udlejes!", "Hej alle sammen", "Jeg hedder …, og jeg er … år.", "Jeg søger …", "Jeg vil gerne leje … ud.", "Der er lyst og hyggeligt.", "Prisen er …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Mange hilsner"]});
 // <<< simple:opslag
 
+// >>> simple:rest
+Object.assign(PD2.LISTEN, {
+"w18b": {
+"lines": [
+{
+"da": "Butiksassistent søges!",
+"en": "Shop assistant wanted!",
+"p": true,
+"note": "A short headline."
+},
+{
+"da": "Vi søger en glad og flittig butiksassistent til vores tøjbutik på Torvet i Vejle.",
+"en": "We are looking for a happy and hard-working shop assistant for our clothes shop on the square in Vejle.",
+"p": true,
+"note": "The same start in every job advert: Vi søger en glad og flittig …"
+},
+{
+"da": "Vi sælger tøj og sko, og vi har åbent fra kl. 10 til 18.",
+"en": "We sell clothes and shoes, and we are open from 10 to 6.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Dine opgaver bliver at hjælpe kunderne, fylde varer op og holde butikken ren.",
+"en": "Your tasks will be to help the customers, fill up the shelves and keep the shop clean.",
+"p": true,
+"note": "The same sentence in every job advert: Dine opgaver bliver at …",
+"words": [
+[
+"opgaver",
+"tasks"
+]
+]
+},
+{
+"da": "Vi forventer, at du er glad, flittig og mødestabil.",
+"en": "We expect you to be happy, hard-working and reliable.",
+"p": true,
+"note": "The same three words as in a job application – now from the boss.",
+"words": [
+[
+"forventer",
+"expect"
+],
+[
+"mødestabil",
+"reliable"
+]
+]
+},
+{
+"da": "Du skal også være god til at tale med kunderne.",
+"en": "You must also be good at talking to the customers.",
+"p": false,
+"note": "'God til at' + verb = good at …",
+"words": [
+[
+"kunderne",
+"the customers"
+]
+]
+},
+{
+"da": "Arbejdstiden er 30 timer om ugen.",
+"en": "The working hours are 30 hours a week.",
+"p": true,
+"note": "The same sentence in every job advert: Arbejdstiden er …",
+"words": [
+[
+"Arbejdstiden",
+"the working hours"
+]
+]
+},
+{
+"da": "Send en ansøgning til butik@mail.dk senest den 1. maj.",
+"en": "Send an application to butik@mail.dk by 1 May at the latest.",
+"p": true,
+"note": "The same sentence in every job advert: Send en ansøgning til … senest den …",
+"words": [
+[
+"ansøgning",
+"application"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": false,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Vi glæder os til at høre fra dig!",
+"en": "We look forward to hearing from you!",
+"p": false,
+"note": "The last line of every job advert.",
+"words": [
+[
+"glæder os",
+"look forward"
+]
+]
+},
+{
+"da": "Med venlig hilsen",
+"en": "Kind regards",
+"p": true,
+"note": "The polite ending of a formal letter. Learn it by heart.",
+"words": [
+[
+"venlig",
+"kind"
+]
+]
+},
+{
+"da": "Ali, ejer",
+"en": "Ali, owner",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+}
+]
+},
+"w26ma": {
+"lines": [
+{
+"da": "Frisør søges!",
+"en": "Hairdresser wanted!",
+"p": true,
+"note": "A short headline."
+},
+{
+"da": "Vi søger en glad og flittig frisør til Salon Lykke på Strøget 12 i Vejle.",
+"en": "We are looking for a happy and hard-working hairdresser for Salon Lykke at Strøget 12 in Vejle.",
+"p": true,
+"note": "The same start in every job advert: Vi søger en glad og flittig …"
+},
+{
+"da": "Vi er en lille salon med fire stole.",
+"en": "We are a small salon with four chairs.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Der er lyst og hyggeligt.",
+"en": "It is bright and cosy.",
+"p": false,
+"note": "Use this for any place.",
+"words": [
+[
+"lyst",
+"bright"
+],
+[
+"hyggeligt",
+"cosy"
+]
+]
+},
+{
+"da": "Dine opgaver bliver at klippe, farve og vaske hår.",
+"en": "Your tasks will be to cut, colour and wash hair.",
+"p": true,
+"note": "The same sentence in every job advert: Dine opgaver bliver at …",
+"words": [
+[
+"opgaver",
+"tasks"
+]
+]
+},
+{
+"da": "Vi forventer, at du er glad, flittig og mødestabil.",
+"en": "We expect you to be happy, hard-working and reliable.",
+"p": true,
+"note": "The same three words as in a job application – now from the boss.",
+"words": [
+[
+"forventer",
+"expect"
+],
+[
+"mødestabil",
+"reliable"
+]
+]
+},
+{
+"da": "Du skal have mindst to års erfaring.",
+"en": "You must have at least two years' experience.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"erfaring",
+"experience"
+]
+]
+},
+{
+"da": "Arbejdstiden er 37 timer om ugen, tirsdag til lørdag.",
+"en": "The working hours are 37 hours a week, Tuesday to Saturday.",
+"p": true,
+"note": "The same sentence in every job advert: Arbejdstiden er …",
+"words": [
+[
+"Arbejdstiden",
+"the working hours"
+]
+]
+},
+{
+"da": "Send en ansøgning til salonlykke@mail.dk senest den 1. juni.",
+"en": "Send an application to salonlykke@mail.dk by 1 June at the latest.",
+"p": true,
+"note": "The same sentence in every job advert: Send en ansøgning til … senest den …",
+"words": [
+[
+"ansøgning",
+"application"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": false,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Vi glæder os til at høre fra dig!",
+"en": "We look forward to hearing from you!",
+"p": false,
+"note": "The last line of every job advert.",
+"words": [
+[
+"glæder os",
+"look forward"
+]
+]
+},
+{
+"da": "Med venlig hilsen",
+"en": "Kind regards",
+"p": true,
+"note": "The polite ending of a formal letter. Learn it by heart.",
+"words": [
+[
+"venlig",
+"kind"
+]
+]
+},
+{
+"da": "Ali, ejer",
+"en": "Ali, owner",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+}
+]
+},
+"w3": {
+"lines": [
+{
+"da": "Kære Hanne",
+"en": "Dear Hanne",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it."
+},
+{
+"da": "Jeg skriver, fordi jeg er syg og ikke kan komme i skole i næste uge.",
+"en": "I am writing because I am ill and can't come to school next week.",
+"p": true,
+"note": "Start every e-mail to a school or office like this: Jeg skriver, fordi …"
+},
+{
+"da": "Jeg har influenza, og lægen siger, at jeg skal blive hjemme i en uge.",
+"en": "I have the flu, and the doctor says I must stay at home for a week.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"influenza",
+"flu"
+]
+]
+},
+{
+"da": "Kan du fortælle mig, hvilke lektier jeg skal lave?",
+"en": "Can you tell me what homework I must do?",
+"p": true,
+"note": "The same polite question in every e-mail to a school: Kan du / I fortælle mig, …?",
+"words": [
+[
+"lektier",
+"homework"
+]
+]
+},
+{
+"da": "Jeg vil også gerne vide, hvornår prøven er.",
+"en": "I would also like to know when the test is.",
+"p": false,
+"note": "'Jeg vil også gerne vide, …' = I would also like to know …"
+},
+{
+"da": "På forhånd tak.",
+"en": "Thank you in advance.",
+"p": true,
+"note": "A polite line before the greeting when you ask for something.",
+"words": [
+[
+"På forhånd",
+"in advance"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at se dig.",
+"en": "I look forward to seeing you.",
+"p": false,
+"note": "The last line of every friendly e-mail.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Venlig hilsen",
+"en": "Best wishes",
+"p": true,
+"note": "A short, polite ending. Learn it by heart.",
+"words": [
+[
+"hilsen",
+"greeting"
+]
+]
+},
+{
+"da": "Ali, hold 3",
+"en": "Ali, class 3",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+}
+]
+},
+"w8": {
+"lines": [
+{
+"da": "Kære Vestby Aftenskole",
+"en": "Dear Vestby Aftenskole",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it."
+},
+{
+"da": "Jeg hedder Ali, og jeg er 32 år.",
+"en": "My name is Ali, and I am 32 years old.",
+"p": true,
+"note": "Use the same sentence every time you say who you are.",
+"words": [
+[
+"hedder",
+"am called"
+]
+]
+},
+{
+"da": "Jeg kommer fra Syrien, og jeg har boet i Danmark i fem år.",
+"en": "I come from Syria, and I have lived in Denmark for five years.",
+"p": false,
+"note": "'Har boet … i fem år' = have lived … for five years.",
+"words": [
+[
+"boet",
+"lived"
+]
+]
+},
+{
+"da": "Jeg skriver, fordi jeg er interesseret i jeres kursus i dansk madlavning.",
+"en": "I am writing because I am interested in your course in Danish cooking.",
+"p": true,
+"note": "Start every e-mail to a school or office like this: Jeg skriver, fordi …"
+},
+{
+"da": "Jeg vil gerne lære at lave frikadeller og risalamande.",
+"en": "I would like to learn to make meatballs and rice pudding.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Kan I fortælle mig, hvornår og hvor kurset er?",
+"en": "Can you tell me when and where the course is?",
+"p": true,
+"note": "The same polite question in every e-mail to a school: Kan I fortælle mig, …?"
+},
+{
+"da": "Jeg vil også gerne vide, hvad kurset koster, og om maden er med i prisen.",
+"en": "I would also like to know what the course costs, and if the food is included in the price.",
+"p": false,
+"note": "'Jeg vil også gerne vide, …' = I would also like to know …"
+},
+{
+"da": "Hvordan tilmelder jeg mig?",
+"en": "How do I sign up?",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"tilmelder",
+"sign up"
+]
+]
+},
+{
+"da": "På forhånd tak.",
+"en": "Thank you in advance.",
+"p": true,
+"note": "A polite line before the greeting when you ask for something.",
+"words": [
+[
+"På forhånd",
+"in advance"
+]
+]
+},
+{
+"da": "Jeg håber at høre fra jer snart.",
+"en": "I hope to hear from you soon.",
+"p": false,
+"note": "A polite last sentence before the greeting.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Venlig hilsen",
+"en": "Best wishes",
+"p": true,
+"note": "A short, polite ending. Learn it by heart.",
+"words": [
+[
+"hilsen",
+"greeting"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w1": {
+"lines": [
+{
+"da": "Hej Peter",
+"en": "Hi Peter",
+"p": true,
+"note": "'Hej' + name for a friend or neighbour."
+},
+{
+"da": "Tusind tak for invitationen til din fødselsdag.",
+"en": "Thank you so much for the invitation to your birthday.",
+"p": true,
+"note": "The same start as in a thank-you letter: Tusind tak for …",
+"words": [
+[
+"Tusind tak",
+"thank you so much"
+]
+]
+},
+{
+"da": "Jeg kan desværre ikke komme, fordi jeg skal arbejde på lørdag.",
+"en": "Unfortunately I can't come because I have to work on Saturday.",
+"p": true,
+"note": "'Jeg kan desværre ikke …, fordi …' – a polite way to say no.",
+"words": [
+[
+"desværre",
+"unfortunately"
+]
+]
+},
+{
+"da": "Skal vi mødes en anden dag og drikke kaffe?",
+"en": "Shall we meet another day and have coffee?",
+"p": true,
+"note": "A question: the verb comes first."
+},
+{
+"da": "Måske på søndag?",
+"en": "Maybe on Sunday?",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg håber, at du får en dejlig dag.",
+"en": "I hope you have a lovely day.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Hils din familie.",
+"en": "Say hello to your family.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg glæder mig til at se dig.",
+"en": "I look forward to seeing you.",
+"p": true,
+"note": "The last line of every friendly e-mail.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w9": {
+"lines": [
+{
+"da": "Hej Inge",
+"en": "Hi Inge",
+"p": true,
+"note": "'Hej' + name for a friend or neighbour."
+},
+{
+"da": "Tusind tak for din hjælp, mens jeg var på hospitalet.",
+"en": "Thank you so much for your help while I was in hospital.",
+"p": true,
+"note": "The same start as in a thank-you letter: Tusind tak for …",
+"words": [
+[
+"Tusind tak",
+"thank you so much"
+]
+]
+},
+{
+"da": "Det var sødt af dig at passe min kat og tømme min postkasse.",
+"en": "It was kind of you to look after my cat and empty my letterbox.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"postkasse",
+"letterbox"
+]
+]
+},
+{
+"da": "Nu har jeg det meget bedre.",
+"en": "Now I feel much better.",
+"p": true,
+"note": "'Have det bedre' = feel better."
+},
+{
+"da": "Lægen siger, at jeg skal hvile mig i en uge.",
+"en": "The doctor says I must rest for a week.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"hvile mig",
+"rest"
+]
+]
+},
+{
+"da": "Jeg vil gerne invitere dig på kaffe og kage på søndag kl. 15.",
+"en": "I would like to invite you for coffee and cake on Sunday at 3 pm.",
+"p": true,
+"note": "The same start as an invitation: Jeg vil gerne invitere …",
+"words": [
+[
+"invitere",
+"invite"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at se dig.",
+"en": "I look forward to seeing you.",
+"p": true,
+"note": "The last line of every friendly e-mail.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w17mb": {
+"lines": [
+{
+"da": "Frivilligt arbejde er godt!",
+"en": "Voluntary work is good!",
+"p": true,
+"note": "A short headline."
+},
+{
+"da": "Kære kursister",
+"en": "Dear students",
+"p": false,
+"note": "'Kære' + who you write to. No comma after it.",
+"words": [
+[
+"kursister",
+"students (at a language school)"
+]
+]
+},
+{
+"da": "Jeg hedder Ali, og jeg er 32 år.",
+"en": "My name is Ali, and I am 32 years old.",
+"p": true,
+"note": "Use the same sentence every time you say who you are.",
+"words": [
+[
+"hedder",
+"am called"
+]
+]
+},
+{
+"da": "Jeg kommer fra Syrien, og jeg har boet i Danmark i fem år.",
+"en": "I come from Syria, and I have lived in Denmark for five years.",
+"p": false,
+"note": "'Har boet … i fem år' = have lived … for five years.",
+"words": [
+[
+"boet",
+"lived"
+]
+]
+},
+{
+"da": "Jeg vil gerne skrive om mit frivillige arbejde.",
+"en": "I would like to write about my voluntary work.",
+"p": true,
+"note": "Start every text for a magazine or newspaper like this: Jeg vil gerne skrive om …",
+"words": [
+[
+"skrive om",
+"write about"
+]
+]
+},
+{
+"da": "Jeg arbejder i en klub for unge tre timer om ugen.",
+"en": "I work in a youth club three hours a week.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"frivillige",
+"voluntary"
+]
+]
+},
+{
+"da": "Jeg hjælper med fodbold og lektier.",
+"en": "I help with football and homework.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Fordelen er, at jeg lærer nye mennesker at kende, og mit dansk bliver bedre.",
+"en": "The advantage is that I get to know new people, and my Danish gets better.",
+"p": true,
+"note": "'Fordelen er, at …' – use it in every opinion text.",
+"words": [
+[
+"Fordelen",
+"the advantage"
+]
+]
+},
+{
+"da": "Jeg synes, at alle skal prøve frivilligt arbejde, fordi det gør en glad.",
+"en": "I think that everyone should try voluntary work because it makes you happy.",
+"p": true,
+"note": "Give your opinion: Jeg synes, at …, fordi …",
+"words": [
+[
+"synes",
+"think"
+]
+]
+},
+{
+"da": "Venlig hilsen",
+"en": "Best wishes",
+"p": true,
+"note": "A short, polite ending. Learn it by heart.",
+"words": [
+[
+"hilsen",
+"greeting"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w4": {
+"lines": [
+{
+"da": "Eid – en fest fra mit land",
+"en": "Eid – a festival from my country",
+"p": true,
+"note": "A short headline."
+},
+{
+"da": "Jeg vil gerne skrive om en fest fra mit land.",
+"en": "I would like to write about a festival from my country.",
+"p": true,
+"note": "Start every text for a magazine or newspaper like this: Jeg vil gerne skrive om …",
+"words": [
+[
+"skrive om",
+"write about"
+]
+]
+},
+{
+"da": "Festen hedder Eid, og vi holder den efter ramadanen.",
+"en": "The festival is called Eid, and we celebrate it after Ramadan.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "For det første står vi tidligt op og tager nyt tøj på.",
+"en": "First, we get up early and put on new clothes.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "Vi går i moskeen, og bagefter besøger vi familien.",
+"en": "We go to the mosque, and afterwards we visit the family.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Vi spiser god mad og kager hele dagen.",
+"en": "We eat good food and cakes all day.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Børnene får gaver og penge.",
+"en": "The children get presents and money.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "For det andet kan jeg bedst lide, at hele familien er sammen.",
+"en": "Second, I like it best that the whole family is together.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Vi spiser, snakker og griner sammen.",
+"en": "We eat, talk and laugh together.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Om aftenen kommer der gæster.",
+"en": "In the evening guests come.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Det er rigtig hyggeligt.",
+"en": "It is really cosy.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Eid minder lidt om jul i Danmark.",
+"en": "Eid is a bit like Christmas in Denmark.",
+"p": true,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"minder om",
+"is like"
+]
+]
+},
+{
+"da": "Begge fester handler om familie, god mad og gaver.",
+"en": "Both festivals are about family, good food and presents.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Men til jul har danskerne et juletræ, og de danser rundt om det.",
+"en": "But at Christmas the Danes have a Christmas tree, and they dance around it.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Til Eid har vi ikke et træ, men vi pynter huset.",
+"en": "At Eid we don't have a tree, but we decorate the house.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg synes, at Eid er den bedste fest, fordi alle er glade.",
+"en": "I think that Eid is the best festival because everyone is happy.",
+"p": true,
+"note": "Give your opinion: Jeg synes, at …, fordi …",
+"words": [
+[
+"synes",
+"think"
+]
+]
+},
+{
+"da": "Alt i alt er Eid en dejlig fest, og jeg glæder mig til den hvert år.",
+"en": "All in all, Eid is a lovely festival, and I look forward to it every year.",
+"p": true,
+"note": "End every opinion text with 'Alt i alt …' – the verb comes right after it.",
+"words": [
+[
+"Alt i alt",
+"all in all"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": true,
+"note": "Your name."
+}
+]
+},
+"w6": {
+"lines": [
+{
+"da": "Hjemmearbejde – godt eller skidt?",
+"en": "Working from home – good or bad?",
+"p": true,
+"note": "A short headline."
+},
+{
+"da": "Jeg vil gerne skrive om hjemmearbejde.",
+"en": "I would like to write about working from home.",
+"p": true,
+"note": "Start every text for a magazine or newspaper like this: Jeg vil gerne skrive om …",
+"words": [
+[
+"skrive om",
+"write about"
+]
+]
+},
+{
+"da": "Mange danskere arbejder hjemme en eller flere dage om ugen.",
+"en": "Many Danes work from home one or more days a week.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "For det første arbejder min kone hjemme om fredagen.",
+"en": "First, my wife works from home on Fridays.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "Hun er glad for det, men hun savner sine kolleger.",
+"en": "She is happy with it, but she misses her colleagues.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Hun sparer en time hver dag, og hun kan arbejde i ro.",
+"en": "She saves an hour every day, and she can work in peace.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Der er både fordele og ulemper.",
+"en": "There are both advantages and disadvantages.",
+"p": true,
+"note": "Use this in every opinion text before you write 'Fordelen er …' and 'Ulempen er …'.",
+"words": [
+[
+"fordele",
+"advantages"
+],
+[
+"ulemper",
+"disadvantages"
+]
+]
+},
+{
+"da": "Fordelen er, at man ikke skal bruge tid på at køre til arbejde.",
+"en": "The advantage is that you don't have to spend time driving to work.",
+"p": false,
+"note": "'Fordelen er, at …' – use it in every opinion text.",
+"words": [
+[
+"Fordelen",
+"the advantage"
+]
+]
+},
+{
+"da": "Man kan også bedre hente børn og lave mad.",
+"en": "You can also pick up the children and cook more easily.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Ulempen er, at man er meget alene.",
+"en": "The disadvantage is that you are very much alone.",
+"p": true,
+"note": "'Ulempen er, at …' – use it in every opinion text.",
+"words": [
+[
+"Ulempen",
+"the disadvantage"
+]
+]
+},
+{
+"da": "Det kan også være svært at holde fri, når computeren står i stuen.",
+"en": "It can also be hard to stop working when the computer is in the living room.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Man bevæger sig også mindre, og det er ikke sundt.",
+"en": "You also move less, and that is not healthy.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg synes, at hjemmearbejde er godt en eller to dage om ugen, fordi man får mere tid til familien.",
+"en": "I think that working from home is good one or two days a week because you get more time for your family.",
+"p": true,
+"note": "Give your opinion: Jeg synes, at …, fordi …",
+"words": [
+[
+"synes",
+"think"
+]
+]
+},
+{
+"da": "Men det er også vigtigt at se sine kolleger.",
+"en": "But it is also important to see your colleagues.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Alt i alt er hjemmearbejde godt, hvis man ikke gør det hele tiden.",
+"en": "All in all, working from home is good if you don't do it all the time.",
+"p": true,
+"note": "End every opinion text with 'Alt i alt …' – the verb comes right after it.",
+"words": [
+[
+"Alt i alt",
+"all in all"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": true,
+"note": "Your name."
+}
+]
+},
+"w7": {
+"lines": [
+{
+"da": "Byen eller landet?",
+"en": "The city or the countryside?",
+"p": true,
+"note": "A short headline."
+},
+{
+"da": "Jeg vil gerne skrive om hvor jeg helst vil bo.",
+"en": "I would like to write about where I would most like to live.",
+"p": true,
+"note": "Start every text for a magazine or newspaper like this: Jeg vil gerne skrive om …",
+"words": [
+[
+"skrive om",
+"write about"
+]
+]
+},
+{
+"da": "For det første bor jeg nu i en lejlighed i midten af Vejle.",
+"en": "First, I now live in a flat in the middle of Vejle.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "Der er lyst og hyggeligt.",
+"en": "It is bright and cosy.",
+"p": false,
+"note": "Use this for any place.",
+"words": [
+[
+"lyst",
+"bright"
+],
+[
+"hyggeligt",
+"cosy"
+]
+]
+},
+{
+"da": "Der er butikker og en park tæt på.",
+"en": "There are shops and a park close by.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Mine børn kan lide at lege i parken.",
+"en": "My children like playing in the park.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "For det andet boede jeg i en lille landsby i mit hjemland.",
+"en": "Second, I lived in a small village in my home country.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Vi havde et stort hus og en have med mange træer.",
+"en": "We had a big house and a garden with many trees.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Der er både fordele og ulemper.",
+"en": "There are both advantages and disadvantages.",
+"p": true,
+"note": "Use this in every opinion text before you write 'Fordelen er …' and 'Ulempen er …'.",
+"words": [
+[
+"fordele",
+"advantages"
+],
+[
+"ulemper",
+"disadvantages"
+]
+]
+},
+{
+"da": "Fordelen er, at der er job, skoler og busser i byen.",
+"en": "The advantage is that there are jobs, schools and buses in the city.",
+"p": false,
+"note": "'Fordelen er, at …' – use it in every opinion text.",
+"words": [
+[
+"Fordelen",
+"the advantage"
+]
+]
+},
+{
+"da": "Ulempen er, at der er meget larm, og husene er dyre.",
+"en": "The disadvantage is that there is a lot of noise, and the houses are expensive.",
+"p": false,
+"note": "'Ulempen er, at …' – use it in every opinion text.",
+"words": [
+[
+"Ulempen",
+"the disadvantage"
+]
+]
+},
+{
+"da": "På landet er der stille og frisk luft, men der er langt til alt.",
+"en": "In the countryside it is quiet and the air is fresh, but everything is far away.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Man skal tit bruge en bil.",
+"en": "You often need a car.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg synes, at det er bedst at bo i byen, fordi mine børn kan gå i skole tæt på.",
+"en": "I think that it is best to live in the city because my children can go to school close by.",
+"p": true,
+"note": "Give your opinion: Jeg synes, at …, fordi …",
+"words": [
+[
+"synes",
+"think"
+]
+]
+},
+{
+"da": "Alt i alt vil jeg helst bo i byen nu, men måske på landet, når jeg bliver gammel.",
+"en": "All in all, I would most like to live in the city now, but maybe in the countryside when I get old.",
+"p": true,
+"note": "End every opinion text with 'Alt i alt …' – the verb comes right after it.",
+"words": [
+[
+"Alt i alt",
+"all in all"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": true,
+"note": "Your name."
+}
+]
+},
+"w10": {
+"lines": [
+{
+"da": "Et godt job",
+"en": "A good job",
+"p": true,
+"note": "A short headline."
+},
+{
+"da": "Jeg vil gerne skrive om hvad et godt job er for mig.",
+"en": "I would like to write about what a good job is for me.",
+"p": true,
+"note": "Start every text for a magazine or newspaper like this: Jeg vil gerne skrive om …",
+"words": [
+[
+"skrive om",
+"write about"
+]
+]
+},
+{
+"da": "For det første arbejder jeg som køkkenmedhjælper på et hotel.",
+"en": "First, I work as a kitchen assistant at a hotel.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "Jeg laver mad, vasker op og gør rent.",
+"en": "I cook, wash up and clean.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Mine kolleger er søde og hjælpsomme.",
+"en": "My colleagues are kind and helpful.",
+"p": false,
+"note": "The same as 'Personalet er søde og hjælpsomme'."
+},
+{
+"da": "Jeg arbejder 30 timer om ugen, og jeg er glad for mit job.",
+"en": "I work 30 hours a week, and I am happy with my job.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "For det andet er et godt job for mig et sted, hvor man lærer noget, og hvor der er god stemning.",
+"en": "Second, a good job for me is a place where you learn something and where there is a good atmosphere.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Der er både fordele og ulemper.",
+"en": "There are both advantages and disadvantages.",
+"p": true,
+"note": "Use this in every opinion text before you write 'Fordelen er …' and 'Ulempen er …'.",
+"words": [
+[
+"fordele",
+"advantages"
+],
+[
+"ulemper",
+"disadvantages"
+]
+]
+},
+{
+"da": "Fordelen er, at man kan spare penge, når lønnen er høj.",
+"en": "The advantage is that you can save money when the pay is high.",
+"p": false,
+"note": "'Fordelen er, at …' – use it in every opinion text.",
+"words": [
+[
+"Fordelen",
+"the advantage"
+]
+]
+},
+{
+"da": "Ulempen er, at man ofte skal arbejde meget.",
+"en": "The disadvantage is that you often have to work a lot.",
+"p": false,
+"note": "'Ulempen er, at …' – use it in every opinion text.",
+"words": [
+[
+"Ulempen",
+"the disadvantage"
+]
+]
+},
+{
+"da": "Jeg synes, at arbejdsmiljøet er vigtigst, fordi man er på arbejde mange timer hver dag.",
+"en": "I think that the working environment is most important because you are at work many hours every day.",
+"p": true,
+"note": "Give your opinion: Jeg synes, at …, fordi …",
+"words": [
+[
+"synes",
+"think"
+]
+]
+},
+{
+"da": "Mit drømmejob er at blive kok.",
+"en": "My dream job is to become a chef.",
+"p": true,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"drømmejob",
+"dream job"
+]
+]
+},
+{
+"da": "Jeg kan godt lide at lave mad, og jeg vil gerne have min egen restaurant.",
+"en": "I like cooking, and I would like to have my own restaurant.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Alt i alt er et godt job et sted, hvor man er glad for at komme hver dag.",
+"en": "All in all, a good job is a place where you are happy to go every day.",
+"p": true,
+"note": "End every opinion text with 'Alt i alt …' – the verb comes right after it.",
+"words": [
+[
+"Alt i alt",
+"all in all"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": true,
+"note": "Your name."
+}
+]
+},
+"w11": {
+"lines": [
+{
+"da": "Sådan sparer du penge",
+"en": "How to save money",
+"p": true,
+"note": "A short headline."
+},
+{
+"da": "Jeg vil gerne skrive om hvordan man kan spare penge i hverdagen.",
+"en": "I would like to write about how you can save money in everyday life.",
+"p": true,
+"note": "Start every text for a magazine or newspaper like this: Jeg vil gerne skrive om …",
+"words": [
+[
+"skrive om",
+"write about"
+]
+]
+},
+{
+"da": "For det første laver jeg en madplan for hele ugen, og jeg handler i Netto og Lidl.",
+"en": "First, I make a meal plan for the whole week, and I shop at Netto and Lidl.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "Jeg tager også madpakke med på arbejde.",
+"en": "I also take a packed lunch to work.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg har opsagt mit fitnesscenter, så nu løber jeg i parken.",
+"en": "I have cancelled my gym membership, so now I run in the park.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Det er gratis.",
+"en": "It is free.",
+"p": false,
+"note": "A short sentence about the price.",
+"words": [
+[
+"gratis",
+"free"
+]
+]
+},
+{
+"da": "For det andet har jeg to gode råd.",
+"en": "Second, I have two good tips.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Cykl i stedet for at tage bilen.",
+"en": "Cycle instead of taking the car.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Sluk lyset, når du går ud af et rum.",
+"en": "Turn off the light when you leave a room.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Og køb ikke ting, du ikke har brug for.",
+"en": "And don't buy things you don't need.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Der er både fordele og ulemper.",
+"en": "There are both advantages and disadvantages.",
+"p": true,
+"note": "Use this in every opinion text before you write 'Fordelen er …' and 'Ulempen er …'.",
+"words": [
+[
+"fordele",
+"advantages"
+],
+[
+"ulemper",
+"disadvantages"
+]
+]
+},
+{
+"da": "Fordelen er, at brugte ting er billige, og det er godt for miljøet.",
+"en": "The advantage is that second-hand things are cheap, and it is good for the environment.",
+"p": false,
+"note": "'Fordelen er, at …' – use it in every opinion text.",
+"words": [
+[
+"Fordelen",
+"the advantage"
+]
+]
+},
+{
+"da": "Ulempen er, at de nogle gange går i stykker.",
+"en": "The disadvantage is that they sometimes break.",
+"p": false,
+"note": "'Ulempen er, at …' – use it in every opinion text.",
+"words": [
+[
+"Ulempen",
+"the disadvantage"
+]
+]
+},
+{
+"da": "Jeg synes, at det vigtigste er at lave en plan, fordi så ved man, hvor pengene går hen.",
+"en": "I think that the most important thing is to make a plan, because then you know where the money goes.",
+"p": true,
+"note": "Give your opinion: Jeg synes, at …, fordi …",
+"words": [
+[
+"synes",
+"think"
+]
+]
+},
+{
+"da": "Alt i alt er det ikke svært at spare penge, hvis man tænker sig om.",
+"en": "All in all, it is not hard to save money if you think about it.",
+"p": true,
+"note": "End every opinion text with 'Alt i alt …' – the verb comes right after it.",
+"words": [
+[
+"Alt i alt",
+"all in all"
+]
+]
+},
+{
+"da": "Det kan alle gøre.",
+"en": "Everyone can do it.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": true,
+"note": "Your name."
+}
+]
+}
+});
+PD2.SIMPLE_PHRASES = Object.assign(PD2.SIMPLE_PHRASES || {}, {"w18b": ["… søges!", "Vi søger en glad og flittig …", "Dine opgaver bliver at …", "Vi forventer, at du er glad, flittig og mødestabil.", "Arbejdstiden er …", "Send en ansøgning til … senest den …", "Vi glæder os til at høre fra dig!", "Med venlig hilsen"], "w26ma": ["… søges!", "Vi søger en glad og flittig …", "Dine opgaver bliver at …", "Vi forventer, at du er glad, flittig og mødestabil.", "Arbejdstiden er …", "Send en ansøgning til … senest den …", "Vi glæder os til at høre fra dig!", "Med venlig hilsen"], "w3": ["Kære …", "Jeg skriver, fordi …", "Kan I fortælle mig, …?", "Jeg vil også gerne vide, …", "På forhånd tak.", "Venlig hilsen"], "w8": ["Kære …", "Jeg skriver, fordi …", "Kan I fortælle mig, …?", "Jeg vil også gerne vide, …", "På forhånd tak.", "Venlig hilsen"], "w1": ["Hej …", "Tusind tak for …", "Jeg kan desværre ikke …, fordi …", "Jeg vil gerne invitere dig …", "Jeg glæder mig til at se dig.", "Mange hilsner"], "w9": ["Hej …", "Tusind tak for …", "Jeg kan desværre ikke …, fordi …", "Jeg vil gerne invitere dig …", "Jeg glæder mig til at se dig.", "Mange hilsner"], "w17mb": ["Jeg vil gerne skrive om …", "For det første …", "For det andet …", "Der er både fordele og ulemper.", "Fordelen er, at …", "Ulempen er, at …", "Jeg synes, at …, fordi …", "Alt i alt …"], "w4": ["Jeg vil gerne skrive om …", "For det første …", "For det andet …", "Der er både fordele og ulemper.", "Fordelen er, at …", "Ulempen er, at …", "Jeg synes, at …, fordi …", "Alt i alt …"], "w6": ["Jeg vil gerne skrive om …", "For det første …", "For det andet …", "Der er både fordele og ulemper.", "Fordelen er, at …", "Ulempen er, at …", "Jeg synes, at …, fordi …", "Alt i alt …"], "w7": ["Jeg vil gerne skrive om …", "For det første …", "For det andet …", "Der er både fordele og ulemper.", "Fordelen er, at …", "Ulempen er, at …", "Jeg synes, at …, fordi …", "Alt i alt …"], "w10": ["Jeg vil gerne skrive om …", "For det første …", "For det andet …", "Der er både fordele og ulemper.", "Fordelen er, at …", "Ulempen er, at …", "Jeg synes, at …, fordi …", "Alt i alt …"], "w11": ["Jeg vil gerne skrive om …", "For det første …", "For det andet …", "Der er både fordele og ulemper.", "Fordelen er, at …", "Ulempen er, at …", "Jeg synes, at …, fordi …", "Alt i alt …"]});
+// <<< simple:rest
+
 (function () {
   const join = (L, key) => L.lines.map((l, i) => (i === 0 ? "" : l.p ? "\n\n" : /[.!?…:)]\s*$/.test(L.lines[i - 1].da || "") ? " " : /^(Kære|Hej|Hejsa|Hello|Til)\b/i.test(L.lines[i - 1].da || "") ? "\n\n" : "\n") + (l[key] || "")).join("");
   const W = Object.values(PD2.EXAMS || {}).flatMap(E => E.WRITING || []);
