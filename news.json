@@ -1,6 +1,162 @@
 {
- "updated": "2026-11-05T12:24+00:00",
+ "updated": "2026-11-05T21:28+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/det-amerikanske-aktiemarked-styrtdykker",
+   "date": "2026-11-05T21:11:20+00:00",
+   "da": {
+    "title": "Det amerikanske aktiemarked styrtdykker",
+    "desc": ""
+   },
+   "en": {
+    "title": "US stock market plummeting",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/maend-faar-hver-15-aars-faengsel-fragte-over-200-kilo-narko-til-danmark",
+   "date": "2026-11-05T20:42:37+00:00",
+   "da": {
+    "title": "To mænd får hver 15 års fængsel for at fragte over 200 kilo narko til Danmark",
+    "desc": ""
+   },
+   "en": {
+    "title": "Two men each get 15 years in prison for transporting over 200 kilos of drugs to Denmark",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/oerkenens-soenner-faar-nye-medlemmer",
+   "date": "2026-11-05T19:05:37+00:00",
+   "da": {
+    "title": "Ørkenens Sønner får to nye medlemmer",
+    "desc": ""
+   },
+   "en": {
+    "title": "The Sons of the Desert will have two new members",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/fbi-advarer-supermarkeder-i-usa-om-cyberangreb-mod-koeleanlaeg",
+   "date": "2026-11-05T18:16:38+00:00",
+   "da": {
+    "title": "FBI advarer supermarkeder i USA om cyberangreb mod køleanlæg",
+    "desc": ""
+   },
+   "en": {
+    "title": "FBI warns US supermarkets of cyber attacks on refrigeration systems",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/copenhell-er-sikret-endnu-en-heavy-festival",
+   "date": "2026-11-05T16:22:25+00:00",
+   "da": {
+    "title": "Copenhell er sikret endnu en heavy-festival",
+    "desc": ""
+   },
+   "en": {
+    "title": "Copenhell is guaranteed another heavy festival",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tog-brudt-ned-ingen-tog-mellem-fredericia-og-odense",
+   "date": "2026-11-05T15:50:10+00:00",
+   "da": {
+    "title": "Tog brudt ned: Ingen tog mellem Fredericia og Odense",
+    "desc": ""
+   },
+   "en": {
+    "title": "Train broken down: No train between Fredericia and Odense",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/arabisk-parti-stoetter-eks-general-i-forsoeget-paa-danne-regering-i-israel",
+   "date": "2026-11-05T15:24:52+00:00",
+   "da": {
+    "title": "Arabisk parti støtter eks-general i forsøget på at danne regering i Israel",
+    "desc": ""
+   },
+   "en": {
+    "title": "Arab party supports ex-general in attempt to form government in Israel",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/fire-doemt-drab-paa-19-aarig-de-faar-i-alt-44-aars-faengsel",
+   "date": "2026-11-05T14:48:04+00:00",
+   "da": {
+    "title": "Landsret skærper straf: Fire dømt for drab på 19-årig",
+    "desc": ""
+   },
+   "en": {
+    "title": "High Court increases punishment: Four convicted of murder of 19-year-old",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/chokolade-traekkes-tilbage-efter-meldinger-om-maveproblemer",
+   "date": "2026-11-05T14:46:03+00:00",
+   "da": {
+    "title": "Chokolade trækkes tilbage efter meldinger om maveproblemer",
+    "desc": ""
+   },
+   "en": {
+    "title": "Chocolate is withdrawn after reports of stomach problems",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tog-kniv-og-doedsliste-med-til-psykiater-nu-er-34-aarig-doemt-til-anbringelse",
+   "date": "2026-11-05T14:06:33+00:00",
+   "da": {
+    "title": "Tog kniv og dødsliste med til psykiater - nu er 34-årig dømt til anbringelse",
+    "desc": ""
+   },
+   "en": {
+    "title": "Brought knife and death list to psychiatrist - now 34-year-old sentenced to detention",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/fire-smaa-folkeskoler-reddet-fra-lukning-paa-en-betingelse",
+   "date": "2026-11-05T13:45:59+00:00",
+   "da": {
+    "title": "Fire små folkeskoler reddet fra lukning på én betingelse",
+    "desc": ""
+   },
+   "en": {
+    "title": "Four small primary schools rescued from closure on one condition",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/sverige-indfoerer-graensekontrol-i-seks-maaneder",
+   "date": "2026-11-05T12:50:04+00:00",
+   "da": {
+    "title": "Sverige indfører grænsekontrol i seks måneder",
+    "desc": ""
+   },
+   "en": {
+    "title": "Sweden introduces border control for six months",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/britisk-version-af-gift-ved-foerste-blik-droppet-efter-anklager-om-voldtaegt",
@@ -38,162 +194,6 @@
    "en": {
     "title": "Finnish court finds captain and crew member guilty in cable sabotage case",
     "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/foreningen-folkemoedet-aabner-nye-medlemmer-efter-kritik",
-   "date": "2026-11-05T08:31:00+00:00",
-   "da": {
-    "title": "Foreningen Folkemødet åbner for nye medlemmer efter kritik",
-    "desc": ""
-   },
-   "en": {
-    "title": "The association Folkemødet opens for new members after criticism",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/nyt-samarbejde-vil-se-paa-seniorers-karrieremuligheder",
-   "date": "2026-11-05T06:51:45+00:00",
-   "da": {
-    "title": "Nyt samarbejde vil se på seniorers karrieremuligheder",
-    "desc": ""
-   },
-   "en": {
-    "title": "New collaboration will look at seniors' career opportunities",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/14-groenlandske-kvinder-har-faaet-afslag-paa-godtgoerelse-i-spiralsag",
-   "date": "2026-11-05T06:46:43+00:00",
-   "da": {
-    "title": "14 grønlandske kvinder har fået afslag på godtgørelse i spiralsag",
-    "desc": ""
-   },
-   "en": {
-    "title": "14 Greenlandic women have been denied reimbursement in spiral case",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/alvorlig-ulykke-paa-koege-bugt-motorvejen-giver-massiv-koe",
-   "date": "2026-11-05T06:05:01+00:00",
-   "da": {
-    "title": "Alvorlig ulykke på Køge Bugt Motorvejen giver kø i morgentrafikken",
-    "desc": "En er død efter at være blevet ramt af en lastbil."
-   },
-   "en": {
-    "title": "Serious accident on Køge Bay Motorway results in traffic jams in the morning",
-    "desc": "One has died after being hit by a truck."
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/demokratiforkaemper-i-hongkong-idoemmes-ti-aars-faengsel",
-   "date": "2026-11-05T03:55:00+00:00",
-   "da": {
-    "title": "Demokratiforkæmper i Hongkong idømmes ti års fængsel",
-    "desc": ""
-   },
-   "en": {
-    "title": "Hong Kong democracy activist sentenced to 10 years in prison",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/danske-restauranter-i-top-10-over-bedste-i-verden",
-   "date": "2026-11-05T03:14:41+00:00",
-   "da": {
-    "title": "To danske restauranter i top 10 over bedste i verden",
-    "desc": "Både Kadeau, Alchemist og Restaurant Jordnær sluttede i top 50 ved den internationale prisuddeling i Peru."
-   },
-   "en": {
-    "title": "Two Danish restaurants in the top 10 of the best in the world",
-    "desc": "Both Kadeau, Alchemist and Restaurant Jordära finished in the top 50 at the international awards ceremony in Peru."
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/israels-praesident-tager-hul-paa-samtaler-med-partiledere",
-   "date": "2026-11-04T21:09:01+00:00",
-   "da": {
-    "title": "Israels præsident tager hul på samtaler med partiledere",
-    "desc": ""
-   },
-   "en": {
-    "title": "Israeli President Begins Talks with Party Leaders",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/serbiske-betjente-anholdt-overdreven-magtbrug-mod-demonstranter",
-   "date": "2026-11-04T20:47:22+00:00",
-   "da": {
-    "title": "Serbiske betjente anholdt for overdreven magtbrug mod demonstranter",
-    "desc": ""
-   },
-   "en": {
-    "title": "Serbian police officers arrested for excessive use of force against protesters",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/taliban-deltager-ved-cop31-som-observatoer",
-   "date": "2026-11-04T20:32:31+00:00",
-   "da": {
-    "title": "Taliban deltager ved COP31 som observatør",
-    "desc": ""
-   },
-   "en": {
-    "title": "Taliban attend COP31 as observer",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/bob-dylan-besoeger-pave-leo-forud-koncert-i-rom",
-   "date": "2026-11-04T19:48:26+00:00",
-   "da": {
-    "title": "Bob Dylan besøger pave Leo forud for koncert i Rom",
-    "desc": ""
-   },
-   "en": {
-    "title": "Bob Dylan visits Pope Leo ahead of concert in Rome",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/dmi-melder-om-databrud",
-   "date": "2026-11-04T18:12:17+00:00",
-   "da": {
-    "title": "DMI melder om databrud",
-    "desc": ""
-   },
-   "en": {
-    "title": "DMI reports data breach",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/c25-indeks-har-hoejeste-lukkekurs-i-over-aar",
-   "date": "2026-11-04T16:10:24+00:00",
-   "da": {
-    "title": "C25-indeks har højeste lukkekurs i over to år",
-    "desc": "Kursstigninger hos blandt andre Pandora og Novo løfter C25-indekset til højeste lukkekurs siden 2024."
-   },
-   "en": {
-    "title": "C25 index has highest closing price for over two years",
-    "desc": "Price increases at Pandora and Novo, among others, lift the C25 index to its highest closing price since 2024."
    }
   }
  ]
