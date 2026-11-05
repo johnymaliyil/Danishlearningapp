@@ -42331,7 +42331,7 @@ PD2.SIMPLE_PHRASES = Object.assign(PD2.SIMPLE_PHRASES || {}, {"w12c": ["Hej …"
 // <<< simple:ven
 
 (function () {
-  const join = (L, key) => L.lines.map((l, i) => (i === 0 ? "" : l.p ? "\n\n" : /[.!?…:)]\s*$/.test(L.lines[i - 1].da || "") ? " " : /^(Kære|Hej|Hejsa|Hello|Til)\b/i.test(L.lines[i - 1].da || "") ? "\n\n" : "\n") + (l[key] || "")).join("");
+  const join = (L, key) => L.lines.map((l, i) => (i === 0 ? "" : l.p || /^(Kære|Hej|Hejsa|Hello)\b[^.!?]{0,40}$/i.test(L.lines[i].da || "") ? "\n\n" : /[.!?…:)]\s*$/.test(L.lines[i - 1].da || "") ? " " : /^(Kære|Hej|Hejsa|Hello|Til)\b/i.test(L.lines[i - 1].da || "") ? "\n\n" : "\n") + (l[key] || "")).join("");
   const W = Object.values(PD2.EXAMS || {}).flatMap(E => E.WRITING || []);
   W.forEach(w => {
     const L = PD2.LISTEN[w.id];
