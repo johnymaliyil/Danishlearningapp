@@ -17,14 +17,15 @@ PD2.TPL_GUIDE = {
     ],
   },
   anbefaling: {
-    task: "Du har været på en god restaurant. Skriv en anbefaling på nettet.",
+    task: "Du har været på en god restaurant. Skriv en anbefaling til kursistbladet.",
     rows: [
-      ["Overskrift – hvad du anbefaler", "Heading", "Restaurant Olivia – kan varmt anbefales!", ["… kan varmt anbefales!", "Prøv …!"]],
-      ["Indledning – hvad og hvornår", "What and when", "I lørdags var jeg på Restaurant Olivia i Vejle med min familie.", ["Jeg vil gerne anbefale …", "I lørdags var jeg …", "Sidste uge prøvede jeg …"]],
-      ["Hovedafsnit – hvad var godt", "What was good", "Maden var lækker, og tjenerne var søde og hjælpsomme. Der var også en legeplads til børnene.", ["Det bedste ved … er, at …", "Desuden …", "Jeg kan godt lide, at …"]],
-      ["Pris og praktiske ting", "Price and practical info", "Prisen var rimelig – 150 kr. for en hovedret. Husk at bestille bord.", ["Prisen er …", "Den ligger …", "Husk at …"]],
-      ["Afslutning – hvorfor du anbefaler", "Why you recommend it", "Jeg anbefaler Olivia, fordi det var en rigtig hyggelig aften. Prøv det selv!", ["Jeg anbefaler …, fordi …", "Prøv det selv – du bliver ikke skuffet!"]],
-      ["Hilsen og navn", "Ending", "Venlig hilsen\nSara", ["Venlig hilsen", "Mange hilsner"]],
+      ["Overskrift", "Heading", "Restaurant Roma – kan varmt anbefales!", ["… – kan varmt anbefales!"]],
+      ["Hilsen", "Greeting", "Kære kursister", ["Kære kursister", "Kære alle"]],
+      ["Hvad og hvor", "What and where", "Jeg vil gerne anbefale Restaurant Roma. Den ligger på Torvet i Vejle.", ["Jeg vil gerne anbefale …", "Den / Det ligger …"]],
+      ["Hvad du gjorde der", "What you did there", "I lørdags spiste jeg pizza og salat der med min familie.", ["I lørdags spiste / boede / var jeg …"]],
+      ["Hvordan det var", "What it was like", "Maden var lækker. Der er lyst og hyggeligt. Personalet er søde og hjælpsomme. Prisen er god.", ["Der er lyst og hyggeligt.", "Personalet er søde og hjælpsomme.", "Maden var lækker.", "Prisen er god."]],
+      ["Hvorfor du anbefaler det", "Why you recommend it", "Jeg anbefaler Restaurant Roma, fordi maden er god, og den er ikke dyr. Prøv det selv – du bliver ikke skuffet!", ["Jeg anbefaler …, fordi …", "Prøv det selv – du bliver ikke skuffet!"]],
+      ["Hilsen og navn", "Ending", "Venlig hilsen\nAli", ["Venlig hilsen"]],
     ],
   },
   takkebrev: {

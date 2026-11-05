@@ -30306,6 +30306,1352 @@ Object.assign(PD2.LISTEN, {
 ]
 }
 });
+// >>> simple:anbefaling
+Object.assign(PD2.LISTEN, {
+"w13b": {
+"lines": [
+{
+"da": "Restaurant Roma – kan varmt anbefales!",
+"en": "Restaurant Roma – warmly recommended!",
+"p": true,
+"note": "The same headline for every recommendation: … – kan varmt anbefales!",
+"words": [
+[
+"anbefales",
+"be recommended"
+]
+]
+},
+{
+"da": "Kære kursister",
+"en": "Dear students",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it.",
+"words": [
+[
+"kursister",
+"students (at a language school)"
+]
+]
+},
+{
+"da": "Jeg vil gerne anbefale Restaurant Roma.",
+"en": "I would like to recommend Restaurant Roma.",
+"p": true,
+"note": "Start every recommendation like this: Jeg vil gerne anbefale …",
+"words": [
+[
+"anbefale",
+"recommend"
+]
+]
+},
+{
+"da": "Den ligger på Torvet i Vejle.",
+"en": "It is on the square in Vejle.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "I lørdags spiste jeg pizza og salat der med min familie.",
+"en": "Last Saturday I ate pizza and salad there with my family.",
+"p": true,
+"note": "After 'I lørdags' the verb comes first: spiste jeg."
+},
+{
+"da": "Det kostede 300 kr. for os fire.",
+"en": "It cost 300 kr. for the four of us.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Maden var lækker.",
+"en": "The food was delicious.",
+"p": false,
+"note": "Use this for any meal.",
+"words": [
+[
+"lækker",
+"delicious"
+]
+]
+},
+{
+"da": "Der er lyst og hyggeligt.",
+"en": "It is bright and cosy.",
+"p": false,
+"note": "Use this for any place: a restaurant, a school, a hotel, a café.",
+"words": [
+[
+"lyst",
+"bright"
+],
+[
+"hyggeligt",
+"cosy"
+]
+]
+},
+{
+"da": "Der er også en legeplads til børnene.",
+"en": "There is also a playground for the children.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Personalet er søde og hjælpsomme.",
+"en": "The staff are kind and helpful.",
+"p": true,
+"note": "Use this for any place with staff.",
+"words": [
+[
+"Personalet",
+"the staff"
+],
+[
+"hjælpsomme",
+"helpful"
+]
+]
+},
+{
+"da": "Jeg anbefaler Restaurant Roma, fordi maden er god, og den er ikke dyr.",
+"en": "I recommend Restaurant Roma because the food is good, and it is not expensive.",
+"p": true,
+"note": "End every recommendation like this: Jeg anbefaler …, fordi …",
+"words": [
+[
+"fordi",
+"because"
+]
+]
+},
+{
+"da": "Husk at bestille bord.",
+"en": "Remember to book a table.",
+"p": false,
+"note": "A useful tip for any restaurant.",
+"words": [
+[
+"bestille",
+"book / order"
+]
+]
+},
+{
+"da": "Prøv det selv – du bliver ikke skuffet!",
+"en": "Try it yourself – you won't be disappointed!",
+"p": false,
+"note": "A good last line for every recommendation.",
+"words": [
+[
+"skuffet",
+"disappointed"
+]
+]
+},
+{
+"da": "Venlig hilsen",
+"en": "Best wishes",
+"p": true,
+"note": "A short, polite ending. Learn it by heart.",
+"words": [
+[
+"hilsen",
+"greeting"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w14na": {
+"lines": [
+{
+"da": "Filmen Familien – kan varmt anbefales!",
+"en": "Filmen Familien – warmly recommended!",
+"p": true,
+"note": "The same headline for every recommendation: … – kan varmt anbefales!",
+"words": [
+[
+"anbefales",
+"be recommended"
+]
+]
+},
+{
+"da": "Kære kursister",
+"en": "Dear students",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it.",
+"words": [
+[
+"kursister",
+"students (at a language school)"
+]
+]
+},
+{
+"da": "Jeg vil gerne anbefale filmen Familien.",
+"en": "I would like to recommend the film Familien.",
+"p": true,
+"note": "Start every recommendation like this: Jeg vil gerne anbefale …",
+"words": [
+[
+"anbefale",
+"recommend"
+]
+]
+},
+{
+"da": "Det er en dansk komedie.",
+"en": "It is a Danish comedy.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Den varer to timer.",
+"en": "It lasts two hours.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Filmen handler om en familie, der flytter til en lille by.",
+"en": "The film is about a family who move to a small town.",
+"p": true,
+"note": "'Handler om' = is about. Use it for any film or book.",
+"words": [
+[
+"handler om",
+"is about"
+]
+]
+},
+{
+"da": "Den er sjov, og den er også lidt trist.",
+"en": "It is funny, and it is also a bit sad.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Skuespillerne er rigtig gode.",
+"en": "The actors are really good.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"Skuespillerne",
+"the actors"
+]
+]
+},
+{
+"da": "Jeg anbefaler filmen, fordi den er sjov, og man lærer meget om Danmark.",
+"en": "I recommend the film because it is funny, and you learn a lot about Denmark.",
+"p": true,
+"note": "End every recommendation like this: Jeg anbefaler …, fordi …",
+"words": [
+[
+"fordi",
+"because"
+]
+]
+},
+{
+"da": "Man kan låne den på biblioteket, eller man kan se den på Netflix.",
+"en": "You can borrow it at the library, or you can watch it on Netflix.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"låne",
+"borrow"
+]
+]
+},
+{
+"da": "Prøv det selv – du bliver ikke skuffet!",
+"en": "Try it yourself – you won't be disappointed!",
+"p": false,
+"note": "A good last line for every recommendation.",
+"words": [
+[
+"skuffet",
+"disappointed"
+]
+]
+},
+{
+"da": "Venlig hilsen",
+"en": "Best wishes",
+"p": true,
+"note": "A short, polite ending. Learn it by heart.",
+"words": [
+[
+"hilsen",
+"greeting"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w16ma": {
+"lines": [
+{
+"da": "Sprogcaféen på biblioteket – kan varmt anbefales!",
+"en": "Sprogcaféen på biblioteket – warmly recommended!",
+"p": true,
+"note": "The same headline for every recommendation: … – kan varmt anbefales!",
+"words": [
+[
+"anbefales",
+"be recommended"
+]
+]
+},
+{
+"da": "Kære kursister",
+"en": "Dear students",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it.",
+"words": [
+[
+"kursister",
+"students (at a language school)"
+]
+]
+},
+{
+"da": "Jeg vil gerne anbefale sprogcaféen på biblioteket.",
+"en": "I would like to recommend the language café at the library.",
+"p": true,
+"note": "Start every recommendation like this: Jeg vil gerne anbefale …",
+"words": [
+[
+"anbefale",
+"recommend"
+]
+]
+},
+{
+"da": "Den er åben hver tirsdag fra kl. 16 til 18.",
+"en": "It is open every Tuesday from 4 to 6 pm.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"åben",
+"open"
+]
+]
+},
+{
+"da": "Man kan få hjælp til dansk og lektier.",
+"en": "You can get help with Danish and homework.",
+"p": true,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"lektier",
+"homework"
+]
+]
+},
+{
+"da": "Man kan også bare snakke og drikke kaffe.",
+"en": "You can also just talk and drink coffee.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Der er lyst og hyggeligt.",
+"en": "It is bright and cosy.",
+"p": false,
+"note": "Use this for any place: a restaurant, a school, a hotel, a café.",
+"words": [
+[
+"lyst",
+"bright"
+],
+[
+"hyggeligt",
+"cosy"
+]
+]
+},
+{
+"da": "De frivillige er pensionister og studerende.",
+"en": "The volunteers are pensioners and students.",
+"p": true,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"frivillige",
+"volunteers"
+]
+]
+},
+{
+"da": "De er søde og hjælpsomme.",
+"en": "They are kind and helpful.",
+"p": false,
+"note": "Use this for any people: teachers, volunteers, staff.",
+"words": [
+[
+"hjælpsomme",
+"helpful"
+]
+]
+},
+{
+"da": "Alle er velkomne.",
+"en": "Everyone is welcome.",
+"p": false,
+"note": "A short, friendly sentence for any place or event.",
+"words": [
+[
+"velkomne",
+"welcome"
+]
+]
+},
+{
+"da": "Jeg anbefaler sprogcaféen, fordi man lærer meget dansk, og det er gratis.",
+"en": "I recommend the language café because you learn a lot of Danish, and it is free.",
+"p": true,
+"note": "End every recommendation like this: Jeg anbefaler …, fordi …",
+"words": [
+[
+"fordi",
+"because"
+]
+]
+},
+{
+"da": "Prøv det selv – du bliver ikke skuffet!",
+"en": "Try it yourself – you won't be disappointed!",
+"p": false,
+"note": "A good last line for every recommendation.",
+"words": [
+[
+"skuffet",
+"disappointed"
+]
+]
+},
+{
+"da": "Venlig hilsen",
+"en": "Best wishes",
+"p": true,
+"note": "A short, polite ending. Learn it by heart.",
+"words": [
+[
+"hilsen",
+"greeting"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w17ma": {
+"lines": [
+{
+"da": "Restaurant Roma – kan varmt anbefales!",
+"en": "Restaurant Roma – warmly recommended!",
+"p": true,
+"note": "The same headline for every recommendation: … – kan varmt anbefales!",
+"words": [
+[
+"anbefales",
+"be recommended"
+]
+]
+},
+{
+"da": "Kære kursister",
+"en": "Dear students",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it.",
+"words": [
+[
+"kursister",
+"students (at a language school)"
+]
+]
+},
+{
+"da": "Jeg vil gerne anbefale Restaurant Roma.",
+"en": "I would like to recommend Restaurant Roma.",
+"p": true,
+"note": "Start every recommendation like this: Jeg vil gerne anbefale …",
+"words": [
+[
+"anbefale",
+"recommend"
+]
+]
+},
+{
+"da": "Den ligger på Torvet i Vejle.",
+"en": "It is on the square in Vejle.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Man kan købe italiensk mad, fx pizza, pasta og salat.",
+"en": "You can buy Italian food, e.g. pizza, pasta and salad.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "I fredags spiste jeg og min ven pizza og is.",
+"en": "Last Friday my friend and I ate pizza and ice cream.",
+"p": false,
+"note": "After 'I fredags' the verb comes first: spiste jeg."
+},
+{
+"da": "Det kostede 250 kr. for os to.",
+"en": "It cost 250 kr. for the two of us.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Maden var lækker.",
+"en": "The food was delicious.",
+"p": false,
+"note": "Use this for any meal.",
+"words": [
+[
+"lækker",
+"delicious"
+]
+]
+},
+{
+"da": "Der er lyst og hyggeligt.",
+"en": "It is bright and cosy.",
+"p": false,
+"note": "Use this for any place: a restaurant, a school, a hotel, a café.",
+"words": [
+[
+"lyst",
+"bright"
+],
+[
+"hyggeligt",
+"cosy"
+]
+]
+},
+{
+"da": "Personalet er søde og hjælpsomme.",
+"en": "The staff are kind and helpful.",
+"p": false,
+"note": "Use this for any place with staff.",
+"words": [
+[
+"Personalet",
+"the staff"
+],
+[
+"hjælpsomme",
+"helpful"
+]
+]
+},
+{
+"da": "Jeg anbefaler Restaurant Roma, fordi maden er god, og den er ikke dyr.",
+"en": "I recommend Restaurant Roma because the food is good, and it is not expensive.",
+"p": true,
+"note": "End every recommendation like this: Jeg anbefaler …, fordi …",
+"words": [
+[
+"fordi",
+"because"
+]
+]
+},
+{
+"da": "Husk at bestille bord.",
+"en": "Remember to book a table.",
+"p": false,
+"note": "A useful tip for any restaurant.",
+"words": [
+[
+"bestille",
+"book / order"
+]
+]
+},
+{
+"da": "Prøv det selv – du bliver ikke skuffet!",
+"en": "Try it yourself – you won't be disappointed!",
+"p": false,
+"note": "A good last line for every recommendation.",
+"words": [
+[
+"skuffet",
+"disappointed"
+]
+]
+},
+{
+"da": "Venlig hilsen",
+"en": "Best wishes",
+"p": true,
+"note": "A short, polite ending. Learn it by heart.",
+"words": [
+[
+"hilsen",
+"greeting"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w18a": {
+"lines": [
+{
+"da": "Vejle Sprogskole – kan varmt anbefales!",
+"en": "Vejle Sprogskole – warmly recommended!",
+"p": true,
+"note": "The same headline for every recommendation: … – kan varmt anbefales!",
+"words": [
+[
+"anbefales",
+"be recommended"
+]
+]
+},
+{
+"da": "Kære alle",
+"en": "Dear all",
+"p": true,
+"note": "'Kære alle' works for any group of readers."
+},
+{
+"da": "Jeg vil gerne anbefale Vejle Sprogskole.",
+"en": "I would like to recommend Vejle Language School.",
+"p": true,
+"note": "Start every recommendation like this: Jeg vil gerne anbefale …",
+"words": [
+[
+"anbefale",
+"recommend"
+]
+]
+},
+{
+"da": "Den ligger på Banegårdsgade 5 i Vejle, tæt på stationen.",
+"en": "It is at Banegårdsgade 5 in Vejle, close to the station.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"stationen",
+"the station"
+]
+]
+},
+{
+"da": "Undervisningen er god, og vi taler meget dansk.",
+"en": "The teaching is good, and we speak a lot of Danish.",
+"p": true,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"Undervisningen",
+"the teaching"
+]
+]
+},
+{
+"da": "Der er lyst og hyggeligt.",
+"en": "It is bright and cosy.",
+"p": false,
+"note": "Use this for any place: a restaurant, a school, a hotel, a café.",
+"words": [
+[
+"lyst",
+"bright"
+],
+[
+"hyggeligt",
+"cosy"
+]
+]
+},
+{
+"da": "Lærerne er søde og hjælpsomme.",
+"en": "The teachers are kind and helpful.",
+"p": false,
+"note": "The same sentence as 'Personalet er søde og hjælpsomme', just with 'Lærerne'."
+},
+{
+"da": "I pauserne kan man drikke kaffe og snakke med de andre kursister.",
+"en": "In the breaks you can drink coffee and talk to the other students.",
+"p": true,
+"note": "After 'I pauserne' the verb comes first: kan man.",
+"words": [
+[
+"pauserne",
+"the breaks"
+]
+]
+},
+{
+"da": "Der er også et køkken, hvor man kan varme sin mad.",
+"en": "There is also a kitchen where you can heat your food.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg anbefaler Vejle Sprogskole, fordi man lærer meget dansk, og det er gratis.",
+"en": "I recommend Vejle Language School because you learn a lot of Danish, and it is free.",
+"p": true,
+"note": "End every recommendation like this: Jeg anbefaler …, fordi …",
+"words": [
+[
+"fordi",
+"because"
+]
+]
+},
+{
+"da": "Prøv det selv – du bliver ikke skuffet!",
+"en": "Try it yourself – you won't be disappointed!",
+"p": false,
+"note": "A good last line for every recommendation.",
+"words": [
+[
+"skuffet",
+"disappointed"
+]
+]
+},
+{
+"da": "Venlig hilsen",
+"en": "Best wishes",
+"p": true,
+"note": "A short, polite ending. Learn it by heart.",
+"words": [
+[
+"hilsen",
+"greeting"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w19b": {
+"lines": [
+{
+"da": "Hotel Strand – kan varmt anbefales!",
+"en": "Hotel Strand – warmly recommended!",
+"p": true,
+"note": "The same headline for every recommendation: … – kan varmt anbefales!",
+"words": [
+[
+"anbefales",
+"be recommended"
+]
+]
+},
+{
+"da": "Jeg vil gerne anbefale Hotel Strand.",
+"en": "I would like to recommend Hotel Strand.",
+"p": true,
+"note": "Start every recommendation like this: Jeg vil gerne anbefale …",
+"words": [
+[
+"anbefale",
+"recommend"
+]
+]
+},
+{
+"da": "Det ligger i Skagen, tæt på stranden.",
+"en": "It is in Skagen, close to the beach.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"stranden",
+"the beach"
+]
+]
+},
+{
+"da": "Jeg boede der i en uge i juli.",
+"en": "I stayed there for a week in July.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Værelserne er store og rene.",
+"en": "The rooms are big and clean.",
+"p": true,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"Værelserne",
+"the rooms"
+]
+]
+},
+{
+"da": "Der er lyst og hyggeligt.",
+"en": "It is bright and cosy.",
+"p": false,
+"note": "Use this for any place: a restaurant, a school, a hotel, a café.",
+"words": [
+[
+"lyst",
+"bright"
+],
+[
+"hyggeligt",
+"cosy"
+]
+]
+},
+{
+"da": "Morgenmaden er god, og der er brød, æg, frugt og kaffe.",
+"en": "The breakfast is good, and there is bread, eggs, fruit and coffee.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"Morgenmaden",
+"the breakfast"
+]
+]
+},
+{
+"da": "Personalet er søde og hjælpsomme.",
+"en": "The staff are kind and helpful.",
+"p": true,
+"note": "Use this for any place with staff.",
+"words": [
+[
+"Personalet",
+"the staff"
+],
+[
+"hjælpsomme",
+"helpful"
+]
+]
+},
+{
+"da": "Prisen er god.",
+"en": "The price is good.",
+"p": false,
+"note": "A short sentence about the price.",
+"words": [
+[
+"Prisen",
+"the price"
+]
+]
+},
+{
+"da": "Det kostede 700 kr. pr. nat.",
+"en": "It cost 700 kr. per night.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg anbefaler Hotel Strand, fordi det er godt og ikke dyrt.",
+"en": "I recommend Hotel Strand because it is good and not expensive.",
+"p": true,
+"note": "End every recommendation like this: Jeg anbefaler …, fordi …",
+"words": [
+[
+"fordi",
+"because"
+]
+]
+},
+{
+"da": "Prøv det selv – du bliver ikke skuffet!",
+"en": "Try it yourself – you won't be disappointed!",
+"p": false,
+"note": "A good last line for every recommendation.",
+"words": [
+[
+"skuffet",
+"disappointed"
+]
+]
+},
+{
+"da": "Venlig hilsen",
+"en": "Best wishes",
+"p": true,
+"note": "A short, polite ending. Learn it by heart.",
+"words": [
+[
+"hilsen",
+"greeting"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w22na": {
+"lines": [
+{
+"da": "Restaurant Roma – kan varmt anbefales!",
+"en": "Restaurant Roma – warmly recommended!",
+"p": true,
+"note": "The same headline for every recommendation: … – kan varmt anbefales!",
+"words": [
+[
+"anbefales",
+"be recommended"
+]
+]
+},
+{
+"da": "Jeg vil gerne anbefale Restaurant Roma.",
+"en": "I would like to recommend Restaurant Roma.",
+"p": true,
+"note": "Start every recommendation like this: Jeg vil gerne anbefale …",
+"words": [
+[
+"anbefale",
+"recommend"
+]
+]
+},
+{
+"da": "Det er en lille, italiensk restaurant på Torvet i Vejle.",
+"en": "It is a small Italian restaurant on the square in Vejle.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "I lørdags spiste jeg middag der med min familie.",
+"en": "Last Saturday I had dinner there with my family.",
+"p": true,
+"note": "After 'I lørdags' the verb comes first: spiste jeg."
+},
+{
+"da": "Vi spiste pizza, pasta og salat.",
+"en": "We ate pizza, pasta and salad.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Maden var lækker.",
+"en": "The food was delicious.",
+"p": true,
+"note": "Use this for any meal.",
+"words": [
+[
+"lækker",
+"delicious"
+]
+]
+},
+{
+"da": "Prisen er god.",
+"en": "The price is good.",
+"p": false,
+"note": "A short sentence about the price.",
+"words": [
+[
+"Prisen",
+"the price"
+]
+]
+},
+{
+"da": "Vi betalte 400 kr. for fire personer.",
+"en": "We paid 400 kr. for four people.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Personalet er søde og hjælpsomme.",
+"en": "The staff are kind and helpful.",
+"p": true,
+"note": "Use this for any place with staff.",
+"words": [
+[
+"Personalet",
+"the staff"
+],
+[
+"hjælpsomme",
+"helpful"
+]
+]
+},
+{
+"da": "Tjenerne smilede og kom hurtigt med maden.",
+"en": "The waiters smiled and brought the food quickly.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"Tjenerne",
+"the waiters"
+]
+]
+},
+{
+"da": "Der er lyst og hyggeligt.",
+"en": "It is bright and cosy.",
+"p": false,
+"note": "Use this for any place: a restaurant, a school, a hotel, a café.",
+"words": [
+[
+"lyst",
+"bright"
+],
+[
+"hyggeligt",
+"cosy"
+]
+]
+},
+{
+"da": "Jeg anbefaler Restaurant Roma, fordi maden er god, og den er ikke dyr.",
+"en": "I recommend Restaurant Roma because the food is good, and it is not expensive.",
+"p": true,
+"note": "End every recommendation like this: Jeg anbefaler …, fordi …",
+"words": [
+[
+"fordi",
+"because"
+]
+]
+},
+{
+"da": "Prøv det selv – du bliver ikke skuffet!",
+"en": "Try it yourself – you won't be disappointed!",
+"p": false,
+"note": "A good last line for every recommendation.",
+"words": [
+[
+"skuffet",
+"disappointed"
+]
+]
+},
+{
+"da": "Venlig hilsen",
+"en": "Best wishes",
+"p": true,
+"note": "A short, polite ending. Learn it by heart.",
+"words": [
+[
+"hilsen",
+"greeting"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w24mb": {
+"lines": [
+{
+"da": "Fantastico – kan varmt anbefales!",
+"en": "Fantastico – warmly recommended!",
+"p": true,
+"note": "The same headline for every recommendation: … – kan varmt anbefales!",
+"words": [
+[
+"anbefales",
+"be recommended"
+]
+]
+},
+{
+"da": "Jeg vil gerne anbefale musikgruppen Fantastico.",
+"en": "I would like to recommend the band Fantastico.",
+"p": true,
+"note": "Start every recommendation like this: Jeg vil gerne anbefale …",
+"words": [
+[
+"anbefale",
+"recommend"
+]
+]
+},
+{
+"da": "I sidste weekend havde jeg fødselsdag, og jeg holdt en stor fest for 50 gæster.",
+"en": "Last weekend it was my birthday, and I had a big party for 50 guests.",
+"p": true,
+"note": "After 'I sidste weekend' the verb comes first: havde jeg.",
+"words": [
+[
+"fødselsdag",
+"birthday"
+],
+[
+"gæster",
+"guests"
+]
+]
+},
+{
+"da": "Vi spiste god mad og dansede hele natten.",
+"en": "We ate good food and danced all night.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Fantastico er fire glade musikere.",
+"en": "Fantastico are four happy musicians.",
+"p": true,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"musikere",
+"musicians"
+]
+]
+},
+{
+"da": "De spiller popmusik og gamle danske hits.",
+"en": "They play pop music and old Danish hits.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg anbefaler Fantastico, fordi de får alle op at danse.",
+"en": "I recommend Fantastico because they get everyone up dancing.",
+"p": true,
+"note": "End every recommendation like this: Jeg anbefaler …, fordi …",
+"words": [
+[
+"fordi",
+"because"
+]
+]
+},
+{
+"da": "De er søde og hjælpsomme.",
+"en": "They are kind and helpful.",
+"p": false,
+"note": "Use this for any people: teachers, volunteers, staff.",
+"words": [
+[
+"hjælpsomme",
+"helpful"
+]
+]
+},
+{
+"da": "Prisen er god.",
+"en": "The price is good.",
+"p": false,
+"note": "A short sentence about the price.",
+"words": [
+[
+"Prisen",
+"the price"
+]
+]
+},
+{
+"da": "Jeg fik kontakt til gruppen gennem en kollega.",
+"en": "I got in touch with the band through a colleague.",
+"p": true,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"kontakt",
+"contact"
+]
+]
+},
+{
+"da": "Jeg skrev til dem på Facebook.",
+"en": "I wrote to them on Facebook.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Prøv det selv – du bliver ikke skuffet!",
+"en": "Try it yourself – you won't be disappointed!",
+"p": false,
+"note": "A good last line for every recommendation.",
+"words": [
+[
+"skuffet",
+"disappointed"
+]
+]
+},
+{
+"da": "Venlig hilsen",
+"en": "Best wishes",
+"p": true,
+"note": "A short, polite ending. Learn it by heart.",
+"words": [
+[
+"hilsen",
+"greeting"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w26mb": {
+"lines": [
+{
+"da": "Pizzeria Napoli – ikke en god oplevelse",
+"en": "Pizzeria Napoli – not a good experience",
+"p": true,
+"note": "A headline for a bad review.",
+"words": [
+[
+"oplevelse",
+"experience"
+]
+]
+},
+{
+"da": "Jeg vil gerne skrive om Pizzeria Napoli.",
+"en": "I would like to write about Pizzeria Napoli.",
+"p": true,
+"note": "The same start as a recommendation, but with 'skrive om'."
+},
+{
+"da": "Jeg var der i fredags med min familie.",
+"en": "I was there last Friday with my family.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Vi spiste pizza og salat.",
+"en": "We ate pizza and salad.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Først ventede vi en time på maden.",
+"en": "First we waited an hour for the food.",
+"p": true,
+"note": "After 'Først' the verb comes first: ventede vi."
+},
+{
+"da": "Maden var kold, og salaten var ikke frisk.",
+"en": "The food was cold, and the salad was not fresh.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Tjeneren var uvenlig og hjalp os ikke.",
+"en": "The waiter was unfriendly and did not help us.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"uvenlig",
+"unfriendly"
+]
+]
+},
+{
+"da": "Vi skulle betale fuld pris.",
+"en": "We had to pay full price.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg kan ikke anbefale Pizzeria Napoli, fordi maden var dårlig, og personalet var uvenligt.",
+"en": "I can't recommend Pizzeria Napoli because the food was bad and the staff were unfriendly.",
+"p": true,
+"note": "The opposite of a recommendation: Jeg kan ikke anbefale …, fordi …"
+},
+{
+"da": "Det var ikke en god aften.",
+"en": "It was not a good evening.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Der er bedre pizzeriaer i byen.",
+"en": "There are better pizzerias in town.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Venlig hilsen",
+"en": "Best wishes",
+"p": true,
+"note": "A short, polite ending. Learn it by heart.",
+"words": [
+[
+"hilsen",
+"greeting"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+}
+});
+PD2.SIMPLE_PHRASES = Object.assign(PD2.SIMPLE_PHRASES || {}, {"w13b": ["… – kan varmt anbefales!", "Jeg vil gerne anbefale …", "Den / Det ligger …", "Der er lyst og hyggeligt.", "Personalet er søde og hjælpsomme.", "Maden var lækker.", "Prisen er god.", "Jeg anbefaler …, fordi …", "Prøv det selv – du bliver ikke skuffet!", "Venlig hilsen"], "w14na": ["… – kan varmt anbefales!", "Jeg vil gerne anbefale …", "Den / Det ligger …", "Der er lyst og hyggeligt.", "Personalet er søde og hjælpsomme.", "Maden var lækker.", "Prisen er god.", "Jeg anbefaler …, fordi …", "Prøv det selv – du bliver ikke skuffet!", "Venlig hilsen"], "w16ma": ["… – kan varmt anbefales!", "Jeg vil gerne anbefale …", "Den / Det ligger …", "Der er lyst og hyggeligt.", "Personalet er søde og hjælpsomme.", "Maden var lækker.", "Prisen er god.", "Jeg anbefaler …, fordi …", "Prøv det selv – du bliver ikke skuffet!", "Venlig hilsen"], "w17ma": ["… – kan varmt anbefales!", "Jeg vil gerne anbefale …", "Den / Det ligger …", "Der er lyst og hyggeligt.", "Personalet er søde og hjælpsomme.", "Maden var lækker.", "Prisen er god.", "Jeg anbefaler …, fordi …", "Prøv det selv – du bliver ikke skuffet!", "Venlig hilsen"], "w18a": ["… – kan varmt anbefales!", "Jeg vil gerne anbefale …", "Den / Det ligger …", "Der er lyst og hyggeligt.", "Personalet er søde og hjælpsomme.", "Maden var lækker.", "Prisen er god.", "Jeg anbefaler …, fordi …", "Prøv det selv – du bliver ikke skuffet!", "Venlig hilsen"], "w19b": ["… – kan varmt anbefales!", "Jeg vil gerne anbefale …", "Den / Det ligger …", "Der er lyst og hyggeligt.", "Personalet er søde og hjælpsomme.", "Maden var lækker.", "Prisen er god.", "Jeg anbefaler …, fordi …", "Prøv det selv – du bliver ikke skuffet!", "Venlig hilsen"], "w22na": ["… – kan varmt anbefales!", "Jeg vil gerne anbefale …", "Den / Det ligger …", "Der er lyst og hyggeligt.", "Personalet er søde og hjælpsomme.", "Maden var lækker.", "Prisen er god.", "Jeg anbefaler …, fordi …", "Prøv det selv – du bliver ikke skuffet!", "Venlig hilsen"], "w24mb": ["… – kan varmt anbefales!", "Jeg vil gerne anbefale …", "Den / Det ligger …", "Der er lyst og hyggeligt.", "Personalet er søde og hjælpsomme.", "Maden var lækker.", "Prisen er god.", "Jeg anbefaler …, fordi …", "Prøv det selv – du bliver ikke skuffet!", "Venlig hilsen"], "w26mb": ["… – ikke en god oplevelse", "Jeg vil gerne skrive om …", "Først …", "Maden var …", "Jeg kan ikke anbefale …, fordi …", "Venlig hilsen"]});
+// <<< simple:anbefaling
+
 (function () {
   const join = (L, key) => L.lines.map((l, i) => (i === 0 ? "" : l.p ? "\n\n" : /[.!?…:)]\s*$/.test(L.lines[i - 1].da || "") ? " " : /^(Kære|Hej|Hejsa|Hello|Til)\b/i.test(L.lines[i - 1].da || "") ? "\n\n" : "\n") + (l[key] || "")).join("");
   const W = Object.values(PD2.EXAMS || {}).flatMap(E => E.WRITING || []);
@@ -30314,5 +31660,6 @@ Object.assign(PD2.LISTEN, {
     if (!L) return;
     w.model = join(L, "da");
     if (PD2.MODEL_EN) PD2.MODEL_EN[w.id] = join(L, "en");
+    if (PD2.SIMPLE_PHRASES && PD2.SIMPLE_PHRASES[w.id]) w.phrases = PD2.SIMPLE_PHRASES[w.id];
   });
 })();

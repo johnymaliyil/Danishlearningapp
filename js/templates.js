@@ -93,21 +93,19 @@ Venlig hilsen
   },
   anbefaling: {
     ico: "⭐", name: "Anbefaling",
-    use: "Delprøve 1: anbefal et hotel, en restaurant, en film, en skole …",
+    use: "Delprøve 1: anbefal et hotel, en restaurant, en film, en skole, en café …",
     skeleton: `[Navn] – kan varmt anbefales!
 
-Jeg vil gerne anbefale [navn], som ligger [hvor].
+Jeg vil gerne anbefale [navn]. Den / Det ligger [hvor].
 
-[Beskriv det: hvad du så, spiste, oplevede …] Det bedste ved [stedet] er, at [ … ]
+[Hvad du gjorde der: spiste, boede, lærte …] Der er lyst og hyggeligt. Personalet er søde og hjælpsomme. Prisen er god.
 
-Desuden [noget mere godt …]
-
-Jeg vil anbefale [det], fordi [grunden]. Prøv det selv – du bliver ikke skuffet!
+Jeg anbefaler [navn], fordi [grunden]. Prøv det selv – du bliver ikke skuffet!
 
 Venlig hilsen
 [dit navn]`,
-    marks: ["– kan varmt anbefales!", "Jeg vil gerne anbefale", "Det bedste ved", "Desuden", "Jeg vil anbefale", "Prøv det selv – du bliver ikke skuffet!", "Venlig hilsen"],
-    tip: "Brug mange positive adjektiver: dejlig, lækker, hyggelig, venlig, ren, billig."
+    marks: ["– kan varmt anbefales!", "Jeg vil gerne anbefale", "Der er lyst og hyggeligt.", "Personalet er søde og hjælpsomme.", "Prisen er god.", "Maden var lækker.", "Jeg anbefaler", "Prøv det selv – du bliver ikke skuffet!", "Venlig hilsen"],
+    tip: "Brug de samme sætninger hver gang: Der er lyst og hyggeligt. Personalet er søde og hjælpsomme. Prisen er god. Skift kun navnet og detaljerne."
   },
   opslag: {
     ico: "📌", name: "Opslag / efterlysning",
