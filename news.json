@@ -1,6 +1,123 @@
 {
- "updated": "2026-11-04T21:21+00:00",
+ "updated": "2026-11-05T12:24+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/britisk-version-af-gift-ved-foerste-blik-droppet-efter-anklager-om-voldtaegt",
+   "date": "2026-11-05T10:57:50+00:00",
+   "da": {
+    "title": "Britisk version af Gift ved Første Blik droppet efter anklager om voldtægt",
+    "desc": ""
+   },
+   "en": {
+    "title": "British version of Married at First Sight dropped after rape allegations",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/polen-anholder-fire-personer-spionere-russiske-efterretningstjenester",
+   "date": "2026-11-05T10:39:57+00:00",
+   "da": {
+    "title": "Polen anholder fire personer for at spionere for russiske efterretningstjenester",
+    "desc": ""
+   },
+   "en": {
+    "title": "Poland arrests four people for spying for Russian intelligence services",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/finsk-domstol-kender-kaptajn-og-besaetningsmedlem-skyldig-i-sag-om-kabelsabotage",
+   "date": "2026-11-05T10:02:01+00:00",
+   "da": {
+    "title": "Finsk domstol kender kaptajn og besætningsmedlem skyldig i sag om kabelsabotage",
+    "desc": ""
+   },
+   "en": {
+    "title": "Finnish court finds captain and crew member guilty in cable sabotage case",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/foreningen-folkemoedet-aabner-nye-medlemmer-efter-kritik",
+   "date": "2026-11-05T08:31:00+00:00",
+   "da": {
+    "title": "Foreningen Folkemødet åbner for nye medlemmer efter kritik",
+    "desc": ""
+   },
+   "en": {
+    "title": "The association Folkemødet opens for new members after criticism",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/nyt-samarbejde-vil-se-paa-seniorers-karrieremuligheder",
+   "date": "2026-11-05T06:51:45+00:00",
+   "da": {
+    "title": "Nyt samarbejde vil se på seniorers karrieremuligheder",
+    "desc": ""
+   },
+   "en": {
+    "title": "New collaboration will look at seniors' career opportunities",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/14-groenlandske-kvinder-har-faaet-afslag-paa-godtgoerelse-i-spiralsag",
+   "date": "2026-11-05T06:46:43+00:00",
+   "da": {
+    "title": "14 grønlandske kvinder har fået afslag på godtgørelse i spiralsag",
+    "desc": ""
+   },
+   "en": {
+    "title": "14 Greenlandic women have been denied reimbursement in spiral case",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/alvorlig-ulykke-paa-koege-bugt-motorvejen-giver-massiv-koe",
+   "date": "2026-11-05T06:05:01+00:00",
+   "da": {
+    "title": "Alvorlig ulykke på Køge Bugt Motorvejen giver kø i morgentrafikken",
+    "desc": "En er død efter at være blevet ramt af en lastbil."
+   },
+   "en": {
+    "title": "Serious accident on Køge Bay Motorway results in traffic jams in the morning",
+    "desc": "One has died after being hit by a truck."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/demokratiforkaemper-i-hongkong-idoemmes-ti-aars-faengsel",
+   "date": "2026-11-05T03:55:00+00:00",
+   "da": {
+    "title": "Demokratiforkæmper i Hongkong idømmes ti års fængsel",
+    "desc": ""
+   },
+   "en": {
+    "title": "Hong Kong democracy activist sentenced to 10 years in prison",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/danske-restauranter-i-top-10-over-bedste-i-verden",
+   "date": "2026-11-05T03:14:41+00:00",
+   "da": {
+    "title": "To danske restauranter i top 10 over bedste i verden",
+    "desc": "Både Kadeau, Alchemist og Restaurant Jordnær sluttede i top 50 ved den internationale prisuddeling i Peru."
+   },
+   "en": {
+    "title": "Two Danish restaurants in the top 10 of the best in the world",
+    "desc": "Both Kadeau, Alchemist and Restaurant Jordära finished in the top 50 at the international awards ceremony in Peru."
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/israels-praesident-tager-hul-paa-samtaler-med-partiledere",
@@ -77,123 +194,6 @@
    "en": {
     "title": "C25 index has highest closing price for over two years",
     "desc": "Price increases at Pandora and Novo, among others, lift the C25 index to its highest closing price since 2024."
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/venoe-faergen-midlertidigt-indstillet-bil-er-trillet-i-faergelejet",
-   "date": "2026-11-04T15:59:53+00:00",
-   "da": {
-    "title": "Venø Færgen i drift igen efter bil i færgelejet",
-    "desc": ""
-   },
-   "en": {
-    "title": "Venø Færgen back in service after car in the ferry berth",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/varetaegtsfaengslet-efter-eksplosion-ved-skoedstrup",
-   "date": "2026-11-04T15:21:30+00:00",
-   "da": {
-    "title": "To varetægtsfængslet efter eksplosion ved Skødstrup",
-    "desc": ""
-   },
-   "en": {
-    "title": "Two in custody after explosion at Skødstrup",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/faerre-tog-mellem-koebenhavn-og-kalundborg-efter-sporskiftefejl",
-   "date": "2026-11-04T15:19:12+00:00",
-   "da": {
-    "title": "Færre tog mellem København og Kalundborg efter sporskiftefejl",
-    "desc": ""
-   },
-   "en": {
-    "title": "Fewer trains between Copenhagen and Kalundborg after switch failure",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/marius-borg-hoeiby-skal-alligevel-forblive-faengslet",
-   "date": "2026-11-04T14:56:37+00:00",
-   "da": {
-    "title": "Marius Borg Høiby skal alligevel forblive fængslet",
-    "desc": ""
-   },
-   "en": {
-    "title": "Marius Borg Høiby must remain in prison anyway",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/luftkvaliteten-i-new-delhi-er-meget-daarligt-foer-stor-lysfest",
-   "date": "2026-11-04T13:56:44+00:00",
-   "da": {
-    "title": "Luftkvaliteten i New Delhi er 'meget dårligt' før stor lysfest",
-    "desc": ""
-   },
-   "en": {
-    "title": "Air quality in New Delhi is' very bad 'before big light party",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/19-aarig-idoemt-betinget-faengsel-trusler-om-skoleskyderi",
-   "date": "2026-11-04T12:18:31+00:00",
-   "da": {
-    "title": "19-årig idømt betinget fængsel for trusler om skoleskyderi",
-    "desc": ""
-   },
-   "en": {
-    "title": "19-year-old sentenced to conditional imprisonment for threats of school shootings",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/inflation-i-eurozone-stiger-til-det-dobbelte-af-maalsaetning",
-   "date": "2026-11-04T11:08:20+00:00",
-   "da": {
-    "title": "Inflation i eurozone stiger til det dobbelte af målsætning",
-    "desc": ""
-   },
-   "en": {
-    "title": "Eurozone inflation rises to double target",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/over-300-000-naaede-se-udskaeldt-tv-2-program-foer-det-blev-fjernet",
-   "date": "2026-11-04T09:02:15+00:00",
-   "da": {
-    "title": "Over 300.000 nåede at se udskældt TV 2-program, før det blev fjernet",
-    "desc": ""
-   },
-   "en": {
-    "title": "Over 300,000 people watched a scolded TV 2 show before it was removed",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/personer-sigtet-forsoeg-paa-manddrab-efter-eksplosion",
-   "date": "2026-11-04T08:49:54+00:00",
-   "da": {
-    "title": "To personer sigtet for forsøg på manddrab efter eksplosion",
-    "desc": ""
-   },
-   "en": {
-    "title": "Two people charged with attempted manslaughter after explosion",
-    "desc": ""
    }
   }
  ]
