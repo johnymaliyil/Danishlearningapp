@@ -172,7 +172,7 @@ Maryam Ali`
       title: "En e-mail om dit nye hus på landet (nov.-dec. 2019)",
       kind: "Prøveopgave · e-mail til en ven · mindst 100 ord",
       minWords: 100, maxWords: 180,
-      situation: "Du har fået en e-mail fra din ven Johan. I e-mailen skriver han bl.a.: \"… Du skriver, at du er flyttet i et hus på landet. Men hvorfor er du flyttet? Og hvordan er det at bo på landet? Skriv og fortæl mig det hele…\" Skriv et svar til Johan og fortæl, hvorfor du er flyttet, og hvordan det er at bo på landet. Du skal skrive minimum 100 ord.",
+      situation: "Du har fået en e-mail fra din ven Sara. I e-mailen skriver hun bl.a.: \"… Du skriver, at du er flyttet i et hus på landet. Men hvorfor er du flyttet? Og hvordan er det at bo på landet? Skriv og fortæl mig det hele…\" Skriv et svar til Sara og fortæl, hvorfor du er flyttet, og hvordan det er at bo på landet. Du skal skrive minimum 100 ord.",
       points: ["Fortæl, hvorfor du er flyttet", "Fortæl lidt om huset og området", "Fortæl, hvad der er godt ved at bo på landet", "Fortæl, hvad der er svært ved at bo på landet"],
       phrases: ["Hej Johan", "Tak for din mail.", "Du spørger om mit nye hus på landet, …", "For det første er vi flyttet, fordi …", "Derudover er det dejligt at …", "Til sidst vil jeg sige, at …"],
       model: `Hej Johan

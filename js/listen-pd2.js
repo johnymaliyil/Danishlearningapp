@@ -40725,8 +40725,8 @@ Object.assign(PD2.LISTEN, {
 "w19nc": {
 "lines": [
 {
-"da": "Hej Johan",
-"en": "Hi Johan",
+"da": "Hej Sara",
+"en": "Hi Sara",
 "p": true,
 "note": "'Hej' + name. No comma after the name."
 },
