@@ -756,6 +756,26 @@ Næste dag, da hun kommer hjem fra arbejde, står varerne uden for døren. Eva b
       }
     ]
   });
+  PD2.READING.push({
+    id: "pd2-x3", group: G, real: true,
+    title: "Opgave 3 – Et heldigt møde",
+    kind: "Delprøve 2 · udfyld hullerne",
+    level: 2, minutes: 20,
+    instruction: "Læs teksten Et heldigt møde. Skriv de ord (13-20), der mangler. Ordene findes i rammen. Du skal kun bruge hvert ord én gang. Der er fem ord, du ikke skal bruge. Se eksemplet (0).",
+    text: `Magnus fra Sorø har søgt et job som kok på en fin restaurant i København, [[0]] nu er han glad og spændt, for han er blevet bedt om at komme til jobsamtale.
+
+Magnus har planlagt at tage bilen til København, [[13]] da han sætter sig ind i sin bil for at tage afsted, vil den ikke starte. Derfor cykler han hurtigt hen til stationen for tage toget. Da han kommer derhen, er der ikke ret lang tid til, at toget til København kører, så Magnus skynder sig hen til automaten for at købe en billet. Men da han skal betale, opdager han et nyt problem: han har hverken [[14]] at få sin pung eller sin telefon med. Magnus ved ikke, hvad han skal gøre, for han vil ikke tage toget [[15]] billet. Bagved Magnus står der en ung kvinde, som kan se, at han ikke kan betale. Og selvom de [[16]] kender hinanden, tilbyder hun at købe en billet til ham. Magnus takker den fremmede kvinde mange gange. Han får hendes telefonnummer, så han kan betale hende pengene tilbage senere, og han når toget i sidste øjeblik. Da han sidder i toget, er han lettet, men også lidt nervøs, [[17]] han tænker på, hvordan samtalen vil gå. Den går heldigvis godt, så da Magnus tager hjem, er han ret [[18]].
+
+Derhjemme betaler han straks den hjælpsomme kvinde med MobilePay. Men han sender hende ikke [[19]] pengene, men også en sms, hvor han spørger, om hun vil med ud og drikke en kop kaffe i weekenden. Det vil hun gerne. Og om lørdagen mødes de på en café i Sorø, og denne gang har Magnus ikke [[20]] sin pung, så det er selvfølgelig ham, der betaler for kaffen.`,
+    questions: [
+      {
+        type: "gaps",
+        bank: ["og", "ikke", "kun", "uden", "godt", "alle", "selvom", "med", "for", "husket", "skuffet", "men", "tilfreds", "glemt"].map(w => ({ key: w, text: w })),
+        example: { 0: "og" },
+        answers: {"13": "men", "14": "husket", "15": "uden", "16": "ikke", "17": "for", "18": "tilfreds", "19": "kun", "20": "glemt"}
+      }
+    ]
+  });
 })();
 
 // Skriftlig fremstilling, PD2 maj 2026 – reconstructed from what a test taker remembered (not the printed

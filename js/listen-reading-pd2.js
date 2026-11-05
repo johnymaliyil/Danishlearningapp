@@ -212117,3 +212117,260 @@ PD2.LISTEN_R = {
 ]
 }
 };
+// Et heldigt møde (single exam task)
+Object.assign(PD2.LISTEN_R, {
+"pd2-x3": {
+"lines": [
+{
+"da": "Magnus fra Sorø har søgt et job som kok på en fin restaurant i København, og nu er han glad og spændt, for han er blevet bedt om at komme til jobsamtale.",
+"en": "Magnus from Sorø has applied for a job as a chef at a fine restaurant in Copenhagen, and now he is happy and excited, because he has been asked to come for a job interview.",
+"p": true,
+"note": "The start of the story. 'For' means because here.",
+"words": [
+[
+"søgt",
+"applied for"
+],
+[
+"spændt",
+"excited"
+],
+[
+"jobsamtale",
+"job interview"
+]
+]
+},
+{
+"da": "Magnus har planlagt at tage bilen til København, men da han sætter sig ind i sin bil for at tage afsted, vil den ikke starte.",
+"en": "Magnus has planned to take the car to Copenhagen, but when he gets into his car to leave, it won't start.",
+"p": true,
+"note": "'Men' shows a problem: the plan doesn't work.",
+"words": [
+[
+"planlagt",
+"planned"
+],
+[
+"afsted",
+"off / away"
+]
+]
+},
+{
+"da": "Derfor cykler han hurtigt hen til stationen for tage toget.",
+"en": "So he quickly cycles to the station to take the train.",
+"p": false,
+"note": "After 'Derfor' the verb comes first: cykler han.",
+"words": [
+[
+"Derfor",
+"so / therefore"
+],
+[
+"stationen",
+"the station"
+]
+]
+},
+{
+"da": "Da han kommer derhen, er der ikke ret lang tid til, at toget til København kører, så Magnus skynder sig hen til automaten for at købe en billet.",
+"en": "When he gets there, there isn't much time before the train to Copenhagen leaves, so Magnus hurries to the machine to buy a ticket.",
+"p": false,
+"note": "'Skynde sig' = hurry.",
+"words": [
+[
+"skynder sig",
+"hurries"
+],
+[
+"automaten",
+"the (ticket) machine"
+]
+]
+},
+{
+"da": "Men da han skal betale, opdager han et nyt problem: han har hverken husket at få sin pung eller sin telefon med.",
+"en": "But when he has to pay, he discovers a new problem: he has remembered neither his wallet nor his phone.",
+"p": false,
+"note": "'Hverken … eller' = neither … nor.",
+"words": [
+[
+"opdager",
+"discovers"
+],
+[
+"husket",
+"remembered"
+],
+[
+"pung",
+"wallet"
+]
+]
+},
+{
+"da": "Magnus ved ikke, hvad han skal gøre, for han vil ikke tage toget uden billet.",
+"en": "Magnus doesn't know what to do, because he doesn't want to take the train without a ticket.",
+"p": false,
+"note": "'Uden' = without.",
+"words": [
+[
+"uden",
+"without"
+]
+]
+},
+{
+"da": "Bagved Magnus står der en ung kvinde, som kan se, at han ikke kan betale.",
+"en": "Behind Magnus there is a young woman who can see that he can't pay.",
+"p": false,
+"note": "After 'at', 'ikke' comes before the verb: at han ikke kan.",
+"words": [
+[
+"Bagved",
+"behind"
+]
+]
+},
+{
+"da": "Og selvom de ikke kender hinanden, tilbyder hun at købe en billet til ham.",
+"en": "And although they don't know each other, she offers to buy him a ticket.",
+"p": false,
+"note": "'Selvom' = although. 'Hinanden' = each other.",
+"words": [
+[
+"selvom",
+"although"
+],
+[
+"hinanden",
+"each other"
+],
+[
+"tilbyder",
+"offers"
+]
+]
+},
+{
+"da": "Magnus takker den fremmede kvinde mange gange.",
+"en": "Magnus thanks the stranger many times.",
+"p": false,
+"note": "'Fremmed' = stranger / unknown.",
+"words": [
+[
+"fremmede",
+"unknown / strange"
+]
+]
+},
+{
+"da": "Han får hendes telefonnummer, så han kan betale hende pengene tilbage senere, og han når toget i sidste øjeblik.",
+"en": "He gets her phone number so he can pay her back later, and he catches the train at the last moment.",
+"p": false,
+"note": "'Nå toget' = catch the train.",
+"words": [
+[
+"telefonnummer",
+"phone number"
+],
+[
+"øjeblik",
+"moment"
+]
+]
+},
+{
+"da": "Da han sidder i toget, er han lettet, men også lidt nervøs, for han tænker på, hvordan samtalen vil gå.",
+"en": "When he is sitting on the train, he is relieved, but also a bit nervous, because he is thinking about how the interview will go.",
+"p": false,
+"note": "'Lettet' = relieved.",
+"words": [
+[
+"lettet",
+"relieved"
+],
+[
+"samtalen",
+"the interview"
+]
+]
+},
+{
+"da": "Den går heldigvis godt, så da Magnus tager hjem, er han ret tilfreds.",
+"en": "Luckily it goes well, so when Magnus goes home, he is quite pleased.",
+"p": false,
+"note": "'Heldigvis' = luckily. 'Tilfreds' = pleased.",
+"words": [
+[
+"heldigvis",
+"luckily"
+],
+[
+"tilfreds",
+"pleased"
+]
+]
+},
+{
+"da": "Derhjemme betaler han straks den hjælpsomme kvinde med MobilePay.",
+"en": "At home he immediately pays the helpful woman with MobilePay.",
+"p": true,
+"note": "After 'Derhjemme' the verb comes first: betaler han.",
+"words": [
+[
+"straks",
+"immediately"
+],
+[
+"hjælpsomme",
+"helpful"
+]
+]
+},
+{
+"da": "Men han sender hende ikke kun pengene, men også en sms, hvor han spørger, om hun vil med ud og drikke en kop kaffe i weekenden.",
+"en": "But he doesn't only send her the money, but also a text message, where he asks if she would like to go out for a cup of coffee at the weekend.",
+"p": false,
+"note": "'Ikke kun …, men også …' = not only …, but also …",
+"words": [
+[
+"kun",
+"only"
+],
+[
+"spørger",
+"asks"
+]
+]
+},
+{
+"da": "Det vil hun gerne.",
+"en": "She would like that.",
+"p": false,
+"note": "A short answer: Det vil hun gerne."
+},
+{
+"da": "Og om lørdagen mødes de på en café i Sorø, og denne gang har Magnus ikke glemt sin pung, så det er selvfølgelig ham, der betaler for kaffen.",
+"en": "And on Saturday they meet at a café in Sorø, and this time Magnus hasn't forgotten his wallet, so of course he is the one who pays for the coffee.",
+"p": false,
+"note": "'Glemt' = forgotten. 'Selvfølgelig' = of course.",
+"words": [
+[
+"mødes",
+"meet"
+],
+[
+"glemt",
+"forgotten"
+],
+[
+"selvfølgelig",
+"of course"
+]
+]
+}
+]
+}
+});

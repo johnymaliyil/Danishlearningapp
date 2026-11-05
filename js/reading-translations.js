@@ -7576,5 +7576,13 @@ PD2.READING_EN = {
     ]
    }
   ]
- }
+ },
+"pd2-x3": {
+ "title": "Task 3 – A lucky meeting",
+ "instruction": "Read the text A lucky meeting. Write the words (13-20) that are missing. The words are in the box. You may use each word only once. There are five words you do not need. See the example (0).",
+ "text": "Magnus from Sorø has applied for a job as a chef at a fine restaurant in Copenhagen, [[0]] now he is happy and excited, because he has been asked to come for a job interview.\n\nMagnus has planned to take the car to Copenhagen, [[13]] when he gets into his car to leave, it won't start. So he quickly cycles to the station to take the train. When he gets there, there isn't much time before the train to Copenhagen leaves, so Magnus hurries to the machine to buy a ticket. But when he has to pay, he discovers a new problem: he has [[14]] neither his wallet nor his phone with him. Magnus doesn't know what to do, because he doesn't want to take the train [[15]] a ticket. Behind Magnus there is a young woman who can see that he can't pay. And although they do [[16]] know each other, she offers to buy him a ticket. Magnus thanks the stranger many times. He gets her phone number so he can pay her back later, and he catches the train at the last moment. When he is sitting on the train, he is relieved, but also a bit nervous, [[17]] he is thinking about how the interview will go. Luckily it goes well, so when Magnus goes home, he is quite [[18]].\n\nAt home he immediately pays the helpful woman with MobilePay. But he doesn't [[19]] send her the money, but also a text message, where he asks if she would like to go out for a cup of coffee at the weekend. She would like that. And on Saturday they meet at a café in Sorø, and this time Magnus has not [[20]] his wallet, so of course he is the one who pays for the coffee.",
+ "questions": [
+  {}
+ ]
+}
 };

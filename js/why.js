@@ -3525,5 +3525,39 @@ PD2.WHY = {
 "da": "D: «Jeg løber fx i skoven eller tager på vandreture … Jeg rejser også meget» – det er hendes fritid. B handler om, hvor hun bor.",
 "en": "D: running, hiking and active holidays – her free time. B is about where she lives."
 }
+},
+"pd2-x3": {
+"g13": {
+"da": "Magnus havde en plan (bilen), men bilen vil ikke starte. To modsatte ting → «men».",
+"en": "His plan was the car, but the car won't start – two opposite things → «men» (but)."
+},
+"g14": {
+"da": "«han har hverken husket at få sin pung eller sin telefon med» – han har ikke pungen og telefonen med. «Hverken husket … eller» = han har glemt begge dele.",
+"en": "«hverken husket … eller» = he remembered neither the wallet nor the phone."
+},
+"g15": {
+"da": "Han har ikke købt billet, og han vil ikke tage toget «uden» billet.",
+"en": "He won't take the train «uden» (without) a ticket."
+},
+"g16": {
+"da": "Kvinden er en fremmed: «selvom de ikke kender hinanden».",
+"en": "She is a stranger: «selvom de ikke kender hinanden» (although they don't know each other)."
+},
+"g17": {
+"da": "Han er nervøs, «for» han tænker på samtalen. «For» giver grunden.",
+"en": "He is nervous «for» (because) he is thinking about the interview."
+},
+"g18": {
+"da": "Samtalen gik godt, så han er «tilfreds». «Skuffet» er det modsatte.",
+"en": "The interview went well, so he is «tilfreds» (pleased). «Skuffet» is the opposite."
+},
+"g19": {
+"da": "Fast udtryk: «ikke kun …, men også …». Han sender ikke kun pengene, men også en sms.",
+"en": "Fixed phrase: «ikke kun …, men også …» = not only …, but also …"
+},
+"g20": {
+"da": "Første gang havde han glemt pungen. Nu «har Magnus ikke glemt sin pung», så han betaler for kaffen.",
+"en": "The first time he forgot his wallet; this time he has not «glemt» (forgotten) it."
+}
 }
 };
