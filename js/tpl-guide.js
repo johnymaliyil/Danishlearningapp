@@ -66,13 +66,12 @@ PD2.TPL_GUIDE = {
   ven: {
     task: "Delprøve 2: Svar på en e-mail fra din ven (mindst 100 ord).",
     rows: [
-      ["Hilsen", "Greeting", "Hej Carl", ["Hej …", "Kære …"]],
-      ["Indledning – tak for mailen", "Thank for the e-mail", "Tak for din mail. Det var dejligt at høre fra dig. Jeg håber, at du har det godt.", ["Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt."]],
-      ["Svar på spørgsmålet", "Answer the question", "Du spørger, hvordan jeg lever billigt, og det vil jeg gerne fortælle dig om.", ["Du spørger om …", "Det vil jeg gerne fortælle dig om."]],
-      ["Første punkt", "Point 1", "For det første laver jeg en madplan, og jeg handler i Netto.", ["For det første …", "Jeg …, fordi …"]],
-      ["Andet punkt", "Point 2", "Derudover cykler jeg på arbejde i stedet for at tage bussen.", ["Derudover …", "For det andet …", "Desuden …"]],
-      ["Afslutning", "Ending", "Til sidst vil jeg sige, at jeg sparer penge til en ferie. Jeg glæder mig til at høre fra dig.", ["Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig.", "Vi ses snart!"]],
-      ["Hilsen og navn", "Sign-off", "Mange hilsner\nAli", ["Mange hilsner", "Kærlig hilsen"]],
+      ["Hilsen", "Greeting", "Hej Carl", ["Hej …"]],
+      ["Start – altid den samme", "Opening (always the same)", "Tak for din mail. Det var dejligt at høre fra dig. Jeg håber, at du har det godt. Jeg har det fint.", ["Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt.", "Jeg har det fint."]],
+      ["Svar på spørgsmålet", "Answer the question", "Du spørger om, hvordan jeg lever billigt, og det vil jeg gerne fortælle dig om.", ["Du spørger om …, og det vil jeg gerne fortælle dig om."]],
+      ["Ét afsnit for hvert punkt", "One paragraph per point", "For det første laver jeg en madplan. For det andet cykler jeg på arbejde. Derudover køber jeg brugt tøj.", ["For det første …", "For det andet …", "Derudover …"]],
+      ["Sidste punkt", "Last point", "Til sidst vil jeg sige, at jeg vil spare penge til en lejlighed.", ["Til sidst vil jeg sige, at …"]],
+      ["Slut – altid den samme", "Ending (always the same)", "Jeg glæder mig til at høre fra dig. Vi ses snart!\nMange hilsner\nAli", ["Jeg glæder mig til at høre fra dig.", "Vi ses snart!", "Mange hilsner"]],
     ],
   },
   jobannonce: {

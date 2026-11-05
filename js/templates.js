@@ -8,25 +8,27 @@
 PD2.TEMPLATES = {
   ven: {
     ico: "💌", name: "E-mail til en ven",
-    use: "Delprøve 2: svar på en mail fra en ven (Anders, Lukas, Marie …). Også korte mails til en ven eller nabo.",
+    use: "Delprøve 2: svar på en e-mail fra en ven (mindst 100 ord).",
     skeleton: `Hej [navn]
 
 Tak for din mail. Det var dejligt at høre fra dig. Jeg håber, at du har det godt. Jeg har det fint.
 
-Du spørger om [emnet], og det vil jeg gerne fortælle dig lidt om.
+Du spørger om [emnet], og det vil jeg gerne fortælle dig om.
 
-For det første [punkt 1 …]
+For det første [punkt 1 …].
 
-Derudover [punkt 2 og 3 …]
+For det andet [punkt 2 …].
 
-Til sidst vil jeg sige, at [punkt 4 …]
+Derudover [punkt 3 …].
+
+Til sidst vil jeg sige, at [punkt 4 …].
 
 Jeg glæder mig til at høre fra dig. Vi ses snart!
 
 Mange hilsner
 [dit navn]`,
-    marks: ["Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt.", "Jeg har det fint.", "Du spørger om", "og det vil jeg gerne fortælle dig lidt om.", "For det første", "Derudover", "Til sidst vil jeg sige, at", "Jeg glæder mig til at høre fra dig.", "Vi ses snart!", "Mange hilsner"],
-    tip: "Husk: \"Jeg håber, at du har det godt\" – med \"at\" og komma, og verbet efter \"du\". Efter \"For det første\" og \"Derudover\" kommer verbet før subjektet: \"For det første var jeg …\", \"Derudover er det …\"."
+    marks: ["Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt.", "Jeg har det fint.", "Du spørger om", "og det vil jeg gerne fortælle dig om.", "For det første", "For det andet", "Derudover", "Til sidst vil jeg sige, at", "Jeg glæder mig til at høre fra dig.", "Vi ses snart!", "Mange hilsner"],
+    tip: "Brug den samme start og slutning i alle e-mails. Skriv ét afsnit for hvert punkt i opgaven."
   },
   klage: {
     ico: "😠", name: "Klage",

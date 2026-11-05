@@ -37713,18 +37713,6 @@ Object.assign(PD2.LISTEN, {
 "note": "Your own details. Change them to fit your task."
 },
 {
-"da": "Vi spiser god mad og kager hele dagen.",
-"en": "We eat good food and cakes all day.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
-},
-{
-"da": "Børnene får gaver og penge.",
-"en": "The children get presents and money.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
-},
-{
 "da": "For det andet kan jeg bedst lide, at hele familien er sammen.",
 "en": "Second, I like it best that the whole family is together.",
 "p": true,
@@ -37735,24 +37723,6 @@ Object.assign(PD2.LISTEN, {
 "second"
 ]
 ]
-},
-{
-"da": "Vi spiser, snakker og griner sammen.",
-"en": "We eat, talk and laugh together.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
-},
-{
-"da": "Om aftenen kommer der gæster.",
-"en": "In the evening guests come.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
-},
-{
-"da": "Det er rigtig hyggeligt.",
-"en": "It is really cosy.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
 },
 {
 "da": "Eid minder lidt om jul i Danmark.",
@@ -37769,18 +37739,6 @@ Object.assign(PD2.LISTEN, {
 {
 "da": "Begge fester handler om familie, god mad og gaver.",
 "en": "Both festivals are about family, good food and presents.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
-},
-{
-"da": "Men til jul har danskerne et juletræ, og de danser rundt om det.",
-"en": "But at Christmas the Danes have a Christmas tree, and they dance around it.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
-},
-{
-"da": "Til Eid har vi ikke et træ, men vi pynter huset.",
-"en": "At Eid we don't have a tree, but we decorate the house.",
 "p": false,
 "note": "Your own details. Change them to fit your task."
 },
@@ -37837,12 +37795,6 @@ Object.assign(PD2.LISTEN, {
 ]
 },
 {
-"da": "Mange danskere arbejder hjemme en eller flere dage om ugen.",
-"en": "Many Danes work from home one or more days a week.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
-},
-{
 "da": "For det første arbejder min kone hjemme om fredagen.",
 "en": "First, my wife works from home on Fridays.",
 "p": true,
@@ -37857,12 +37809,6 @@ Object.assign(PD2.LISTEN, {
 {
 "da": "Hun er glad for det, men hun savner sine kolleger.",
 "en": "She is happy with it, but she misses her colleagues.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
-},
-{
-"da": "Hun sparer en time hver dag, og hun kan arbejde i ro.",
-"en": "She saves an hour every day, and she can work in peace.",
 "p": false,
 "note": "Your own details. Change them to fit your task."
 },
@@ -37895,12 +37841,6 @@ Object.assign(PD2.LISTEN, {
 ]
 },
 {
-"da": "Man kan også bedre hente børn og lave mad.",
-"en": "You can also pick up the children and cook more easily.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
-},
-{
 "da": "Ulempen er, at man er meget alene.",
 "en": "The disadvantage is that you are very much alone.",
 "p": true,
@@ -37919,12 +37859,6 @@ Object.assign(PD2.LISTEN, {
 "note": "Your own details. Change them to fit your task."
 },
 {
-"da": "Man bevæger sig også mindre, og det er ikke sundt.",
-"en": "You also move less, and that is not healthy.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
-},
-{
 "da": "Jeg synes, at hjemmearbejde er godt en eller to dage om ugen, fordi man får mere tid til familien.",
 "en": "I think that working from home is good one or two days a week because you get more time for your family.",
 "p": true,
@@ -37935,12 +37869,6 @@ Object.assign(PD2.LISTEN, {
 "think"
 ]
 ]
-},
-{
-"da": "Men det er også vigtigt at se sine kolleger.",
-"en": "But it is also important to see your colleagues.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
 },
 {
 "da": "Alt i alt er hjemmearbejde godt, hvis man ikke gør det hele tiden.",
@@ -38011,18 +37939,6 @@ Object.assign(PD2.LISTEN, {
 ]
 },
 {
-"da": "Der er butikker og en park tæt på.",
-"en": "There are shops and a park close by.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
-},
-{
-"da": "Mine børn kan lide at lege i parken.",
-"en": "My children like playing in the park.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
-},
-{
 "da": "For det andet boede jeg i en lille landsby i mit hjemland.",
 "en": "Second, I lived in a small village in my home country.",
 "p": true,
@@ -38033,12 +37949,6 @@ Object.assign(PD2.LISTEN, {
 "second"
 ]
 ]
-},
-{
-"da": "Vi havde et stort hus og en have med mange træer.",
-"en": "We had a big house and a garden with many trees.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
 },
 {
 "da": "Der er både fordele og ulemper.",
@@ -38079,18 +37989,6 @@ Object.assign(PD2.LISTEN, {
 "the disadvantage"
 ]
 ]
-},
-{
-"da": "På landet er der stille og frisk luft, men der er langt til alt.",
-"en": "In the countryside it is quiet and the air is fresh, but everything is far away.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
-},
-{
-"da": "Man skal tit bruge en bil.",
-"en": "You often need a car.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
 },
 {
 "da": "Jeg synes, at det er bedst at bo i byen, fordi mine børn kan gå i skole tæt på.",
@@ -38157,22 +38055,10 @@ Object.assign(PD2.LISTEN, {
 ]
 },
 {
-"da": "Jeg laver mad, vasker op og gør rent.",
-"en": "I cook, wash up and clean.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
-},
-{
 "da": "Mine kolleger er søde og hjælpsomme.",
 "en": "My colleagues are kind and helpful.",
 "p": false,
 "note": "The same as 'Personalet er søde og hjælpsomme'."
-},
-{
-"da": "Jeg arbejder 30 timer om ugen, og jeg er glad for mit job.",
-"en": "I work 30 hours a week, and I am happy with my job.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
 },
 {
 "da": "For det andet er et godt job for mig et sted, hvor man lærer noget, og hvor der er god stemning.",
@@ -38251,12 +38137,6 @@ Object.assign(PD2.LISTEN, {
 ]
 },
 {
-"da": "Jeg kan godt lide at lave mad, og jeg vil gerne have min egen restaurant.",
-"en": "I like cooking, and I would like to have my own restaurant.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
-},
-{
 "da": "Alt i alt er et godt job et sted, hvor man er glad for at komme hver dag.",
 "en": "All in all, a good job is a place where you are happy to go every day.",
 "p": true,
@@ -38309,18 +38189,6 @@ Object.assign(PD2.LISTEN, {
 ]
 },
 {
-"da": "Jeg tager også madpakke med på arbejde.",
-"en": "I also take a packed lunch to work.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
-},
-{
-"da": "Jeg har opsagt mit fitnesscenter, så nu løber jeg i parken.",
-"en": "I have cancelled my gym membership, so now I run in the park.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
-},
-{
 "da": "Det er gratis.",
 "en": "It is free.",
 "p": false,
@@ -38343,24 +38211,6 @@ Object.assign(PD2.LISTEN, {
 "second"
 ]
 ]
-},
-{
-"da": "Cykl i stedet for at tage bilen.",
-"en": "Cycle instead of taking the car.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
-},
-{
-"da": "Sluk lyset, når du går ud af et rum.",
-"en": "Turn off the light when you leave a room.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
-},
-{
-"da": "Og køb ikke ting, du ikke har brug for.",
-"en": "And don't buy things you don't need.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
 },
 {
 "da": "Der er både fordele og ulemper.",
@@ -38427,12 +38277,6 @@ Object.assign(PD2.LISTEN, {
 ]
 },
 {
-"da": "Det kan alle gøre.",
-"en": "Everyone can do it.",
-"p": false,
-"note": "Your own details. Change them to fit your task."
-},
-{
 "da": "Ali",
 "en": "Ali",
 "p": true,
@@ -38443,6 +38287,4048 @@ Object.assign(PD2.LISTEN, {
 });
 PD2.SIMPLE_PHRASES = Object.assign(PD2.SIMPLE_PHRASES || {}, {"w18b": ["… søges!", "Vi søger en glad og flittig …", "Dine opgaver bliver at …", "Vi forventer, at du er glad, flittig og mødestabil.", "Arbejdstiden er …", "Send en ansøgning til … senest den …", "Vi glæder os til at høre fra dig!", "Med venlig hilsen"], "w26ma": ["… søges!", "Vi søger en glad og flittig …", "Dine opgaver bliver at …", "Vi forventer, at du er glad, flittig og mødestabil.", "Arbejdstiden er …", "Send en ansøgning til … senest den …", "Vi glæder os til at høre fra dig!", "Med venlig hilsen"], "w3": ["Kære …", "Jeg skriver, fordi …", "Kan I fortælle mig, …?", "Jeg vil også gerne vide, …", "På forhånd tak.", "Venlig hilsen"], "w8": ["Kære …", "Jeg skriver, fordi …", "Kan I fortælle mig, …?", "Jeg vil også gerne vide, …", "På forhånd tak.", "Venlig hilsen"], "w1": ["Hej …", "Tusind tak for …", "Jeg kan desværre ikke …, fordi …", "Jeg vil gerne invitere dig …", "Jeg glæder mig til at se dig.", "Mange hilsner"], "w9": ["Hej …", "Tusind tak for …", "Jeg kan desværre ikke …, fordi …", "Jeg vil gerne invitere dig …", "Jeg glæder mig til at se dig.", "Mange hilsner"], "w17mb": ["Jeg vil gerne skrive om …", "For det første …", "For det andet …", "Der er både fordele og ulemper.", "Fordelen er, at …", "Ulempen er, at …", "Jeg synes, at …, fordi …", "Alt i alt …"], "w4": ["Jeg vil gerne skrive om …", "For det første …", "For det andet …", "Der er både fordele og ulemper.", "Fordelen er, at …", "Ulempen er, at …", "Jeg synes, at …, fordi …", "Alt i alt …"], "w6": ["Jeg vil gerne skrive om …", "For det første …", "For det andet …", "Der er både fordele og ulemper.", "Fordelen er, at …", "Ulempen er, at …", "Jeg synes, at …, fordi …", "Alt i alt …"], "w7": ["Jeg vil gerne skrive om …", "For det første …", "For det andet …", "Der er både fordele og ulemper.", "Fordelen er, at …", "Ulempen er, at …", "Jeg synes, at …, fordi …", "Alt i alt …"], "w10": ["Jeg vil gerne skrive om …", "For det første …", "For det andet …", "Der er både fordele og ulemper.", "Fordelen er, at …", "Ulempen er, at …", "Jeg synes, at …, fordi …", "Alt i alt …"], "w11": ["Jeg vil gerne skrive om …", "For det første …", "For det andet …", "Der er både fordele og ulemper.", "Fordelen er, at …", "Ulempen er, at …", "Jeg synes, at …, fordi …", "Alt i alt …"]});
 // <<< simple:rest
+
+// >>> simple:ven
+Object.assign(PD2.LISTEN, {
+"w12c": {
+"lines": [
+{
+"da": "Hej Thomas",
+"en": "Hi Thomas",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Tillykke med dit nye arbejde!",
+"en": "Congratulations on your new job!",
+"p": false,
+"note": "'Tillykke med …' = congratulations on …",
+"words": [
+[
+"Tillykke",
+"congratulations"
+]
+]
+},
+{
+"da": "Du spørger om hvordan det var at komme til Danmark, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about what it was like to come to Denmark, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "For det første var det svært, fordi jeg ikke kunne tale dansk.",
+"en": "First, it was hard because I couldn't speak Danish.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "Jeg savnede også min familie meget.",
+"en": "I also missed my family a lot.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "For det andet hjalp sprogskolen mig meget.",
+"en": "Second, the language school helped me a lot.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Lærerne er søde og hjælpsomme.",
+"en": "The teachers are kind and helpful.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Derudover fik jeg nye venner på mit arbejde.",
+"en": "In addition, I made new friends at work.",
+"p": true,
+"note": "'Derudover' – the verb comes right after it.",
+"words": [
+[
+"Derudover",
+"in addition"
+]
+]
+},
+{
+"da": "Mit dansk er også blevet meget bedre.",
+"en": "My Danish has also got much better.",
+"p": false,
+"note": "Use this whenever you talk about work, school or friends in Denmark.",
+"words": [
+[
+"blevet",
+"become"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at du skal lære sproget hurtigt og tale med mange mennesker.",
+"en": "Finally, I want to say that you should learn the language quickly and talk to a lot of people.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w12nc": {
+"lines": [
+{
+"da": "Hej Rasmus",
+"en": "Hi Rasmus",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Du spørger om min kollega, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about my colleague, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "For det første hedder min kollega Peter, og vi arbejder i et supermarked.",
+"en": "First, my colleague is called Peter, and we work in a supermarket.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "For det andet kommer han altid for sent, og så skal jeg lave hans arbejde.",
+"en": "Second, he always comes late, and then I have to do his work.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Det er ikke i orden.",
+"en": "That is not OK.",
+"p": false,
+"note": "A short sentence after a problem.",
+"words": [
+[
+"i orden",
+"OK"
+]
+]
+},
+{
+"da": "Derudover er jeg ked af det, og jeg er træt, når jeg kommer hjem.",
+"en": "In addition, I am sad about it, and I am tired when I come home.",
+"p": true,
+"note": "'Derudover' – the verb comes right after it.",
+"words": [
+[
+"Derudover",
+"in addition"
+]
+]
+},
+{
+"da": "Jeg har allerede talt med ham, men det hjalp ikke.",
+"en": "I have already talked to him, but it did not help.",
+"p": true,
+"note": "Say what you have done yourself: Jeg har allerede …, men det hjalp ikke.",
+"words": [
+[
+"allerede",
+"already"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at jeg vil tale med min chef i næste uge.",
+"en": "Finally, I want to say that I will talk to my boss next week.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w13c": {
+"lines": [
+{
+"da": "Hej Lars",
+"en": "Hi Lars",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Du spørger om vores familiefest, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about our family party, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "For det første holdt vi en stor fest for min mors 60-års fødselsdag i et festlokale.",
+"en": "First, we had a big party for my mum's 60th birthday in a party venue.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "For det andet var hele familien med, og vi var 50 personer.",
+"en": "Second, the whole family was there, and we were 50 people.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Derudover spiste vi god mad fra mit land, og bagefter dansede vi.",
+"en": "In addition, we ate good food from my country, and afterwards we danced.",
+"p": true,
+"note": "'Derudover' – the verb comes right after it.",
+"words": [
+[
+"Derudover",
+"in addition"
+]
+]
+},
+{
+"da": "Der var lyst og hyggeligt.",
+"en": "It was bright and cosy.",
+"p": false,
+"note": "The same sentence as 'Der er lyst og hyggeligt', just in the past."
+},
+{
+"da": "Til sidst vil jeg sige, at jeg bedst kunne lide, at hele familien var sammen.",
+"en": "Finally, I want to say that I liked it best that the whole family was together.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w13nc": {
+"lines": [
+{
+"da": "Hej Jesper",
+"en": "Hi Jesper",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Du spørger om min butik, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about my shop, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "For det første har jeg en lille tøjbutik på Torvet i Vejle.",
+"en": "First, I have a small clothes shop on the square in Vejle.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "Der er lyst og hyggeligt.",
+"en": "It is bright and cosy.",
+"p": false,
+"note": "Use this for any place.",
+"words": [
+[
+"lyst",
+"bright"
+],
+[
+"hyggeligt",
+"cosy"
+]
+]
+},
+{
+"da": "For det andet har jeg ansat en ung mand, som hedder Mikkel.",
+"en": "Second, I have employed a young man called Mikkel.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Derudover kommer han tit for sent, og han taler meget i telefon.",
+"en": "In addition, he often comes late, and he talks on the phone a lot.",
+"p": true,
+"note": "'Derudover' – the verb comes right after it.",
+"words": [
+[
+"Derudover",
+"in addition"
+]
+]
+},
+{
+"da": "Det er ikke i orden.",
+"en": "That is not OK.",
+"p": false,
+"note": "A short sentence after a problem.",
+"words": [
+[
+"i orden",
+"OK"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at jeg vil tale med ham, og hvis det ikke hjælper, må han stoppe.",
+"en": "Finally, I want to say that I will talk to him, and if it doesn't help, he must stop.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w14c": {
+"lines": [
+{
+"da": "Hej Daniel",
+"en": "Hi Daniel",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Du spørger om hvordan man lærer dansk, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about how you learn Danish, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "For det første gik jeg på sprogskole fire dage om ugen.",
+"en": "First, I went to language school four days a week.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "For det andet var det svært at forstå, når danskerne talte hurtigt.",
+"en": "Second, it was hard to understand when the Danes spoke fast.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Derudover hjalp det mig meget at tale med mine kolleger og se dansk tv.",
+"en": "In addition, it helped me a lot to talk to my colleagues and watch Danish TV.",
+"p": true,
+"note": "'Derudover' – the verb comes right after it.",
+"words": [
+[
+"Derudover",
+"in addition"
+]
+]
+},
+{
+"da": "Mit dansk er også blevet meget bedre.",
+"en": "My Danish has also got much better.",
+"p": false,
+"note": "Use this whenever you talk about work, school or friends in Denmark.",
+"words": [
+[
+"blevet",
+"become"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at din fætter skal tale dansk hver dag og ikke være bange for at lave fejl.",
+"en": "Finally, I want to say that your cousin should speak Danish every day and not be afraid of making mistakes.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w14nc": {
+"lines": [
+{
+"da": "Hej Marie",
+"en": "Hi Marie",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Du spørger om min nye fritidsinteresse, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about my new hobby, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "For det første er jeg begyndt at spille fodbold.",
+"en": "First, I have started playing football.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "For det andet spiller jeg i en klub hver tirsdag og torsdag med mine kolleger.",
+"en": "Second, I play in a club every Tuesday and Thursday with my colleagues.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Derudover er jeg glad for det, fordi jeg får motion og nye venner.",
+"en": "In addition, I am happy with it because I get exercise and new friends.",
+"p": true,
+"note": "'Derudover' – the verb comes right after it.",
+"words": [
+[
+"Derudover",
+"in addition"
+]
+]
+},
+{
+"da": "Mit dansk er også blevet meget bedre.",
+"en": "My Danish has also got much better.",
+"p": false,
+"note": "Use this whenever you talk about work, school or friends in Denmark.",
+"words": [
+[
+"blevet",
+"become"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at du er velkommen til at komme med en dag.",
+"en": "Finally, I want to say that you are welcome to come along one day.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Hvad laver du i din fritid?",
+"en": "What do you do in your free time?",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w15mc": {
+"lines": [
+{
+"da": "Hej Søren",
+"en": "Hi Søren",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Du spørger om min chef, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about my boss, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "For det første arbejder jeg i et supermarked, og min chef hedder Hans.",
+"en": "First, I work in a supermarket, and my boss is called Hans.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "For det andet er han tit sur, og han råber ad mig foran kunderne.",
+"en": "Second, he is often angry, and he shouts at me in front of the customers.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Det er ikke i orden.",
+"en": "That is not OK.",
+"p": false,
+"note": "A short sentence after a problem.",
+"words": [
+[
+"i orden",
+"OK"
+]
+]
+},
+{
+"da": "Derudover er jeg ked af det, og jeg sover dårligt.",
+"en": "In addition, I am sad about it, and I sleep badly.",
+"p": true,
+"note": "'Derudover' – the verb comes right after it.",
+"words": [
+[
+"Derudover",
+"in addition"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at jeg vil tale med ham, og hvis det ikke hjælper, vil jeg søge et nyt job.",
+"en": "Finally, I want to say that I will talk to him, and if it doesn't help, I will look for a new job.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w15nc": {
+"lines": [
+{
+"da": "Hej Mads",
+"en": "Hi Mads",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Du spørger om min nabo, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about my neighbour, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "For det første larmer min nabo meget om natten.",
+"en": "First, my neighbour makes a lot of noise at night.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "Han spiller høj musik, og hans hund gør.",
+"en": "He plays loud music, and his dog barks.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg har allerede talt med ham, men det hjalp ikke.",
+"en": "I have already talked to him, but it did not help.",
+"p": true,
+"note": "Say what you have done yourself: Jeg har allerede …, men det hjalp ikke.",
+"words": [
+[
+"allerede",
+"already"
+]
+]
+},
+{
+"da": "For det andet sover jeg dårligt, og jeg er træt på arbejdet.",
+"en": "Second, I sleep badly, and I am tired at work.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at jeg vil flytte til en lejlighed i et roligt område tæt på mit arbejde.",
+"en": "Finally, I want to say that I want to move to a flat in a quiet area close to my work.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w16mc": {
+"lines": [
+{
+"da": "Hej Simon",
+"en": "Hi Simon",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Du spørger om min praktik, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about my internship, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "For det første er jeg i praktik i et køkken på et hotel, hvor jeg vasker op.",
+"en": "First, I am an intern in a kitchen at a hotel, where I wash up.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "For det andet får jeg kun lov til at vaske op, og jeg lærer ikke noget nyt.",
+"en": "Second, I am only allowed to wash up, and I don't learn anything new.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Derudover taler mine kolleger ikke meget med mig, og min chef har ikke tid.",
+"en": "In addition, my colleagues don't talk much to me, and my boss has no time.",
+"p": true,
+"note": "'Derudover' – the verb comes right after it.",
+"words": [
+[
+"Derudover",
+"in addition"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at jeg vil tale med min chef om at lære mere.",
+"en": "Finally, I want to say that I will talk to my boss about learning more.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w16c": {
+"lines": [
+{
+"da": "Hej Louise",
+"en": "Hi Louise",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Du spørger om mit arbejde, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about my job, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "For det første arbejder jeg som rengøringsassistent på et kontor.",
+"en": "First, I work as a cleaning assistant in an office.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "For det andet vil jeg skifte arbejde, fordi jeg arbejder om natten, og lønnen er lav.",
+"en": "Second, I want to change jobs because I work at night, and the pay is low.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Derudover vil jeg gerne have et job i en butik, hvor jeg kan tale med kunderne.",
+"en": "In addition, I would like a job in a shop where I can talk to the customers.",
+"p": true,
+"note": "'Derudover' – the verb comes right after it.",
+"words": [
+[
+"Derudover",
+"in addition"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at jeg søger job på nettet hver dag, og jeg har skrevet tre ansøgninger.",
+"en": "Finally, I want to say that I look for jobs online every day, and I have written three applications.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w17mc": {
+"lines": [
+{
+"da": "Hej Daniel",
+"en": "Hi Daniel",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Du spørger om min nye praktik, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about my new internship, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "For det første er jeg i praktik i en børnehave fra mandag til torsdag.",
+"en": "First, I am an intern at a nursery from Monday to Thursday.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "For det andet er jeg glad for praktikken, fordi børnene er søde.",
+"en": "Second, I am happy with the internship because the children are sweet.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Mine kolleger er søde og hjælpsomme.",
+"en": "My colleagues are kind and helpful.",
+"p": false,
+"note": "The same as 'Personalet er søde og hjælpsomme'.",
+"words": [
+[
+"hjælpsomme",
+"helpful"
+]
+]
+},
+{
+"da": "Derudover leger jeg med børnene og hjælper med maden.",
+"en": "In addition, I play with the children and help with the food.",
+"p": true,
+"note": "'Derudover' – the verb comes right after it.",
+"words": [
+[
+"Derudover",
+"in addition"
+]
+]
+},
+{
+"da": "Mit dansk er også blevet meget bedre.",
+"en": "My Danish has also got much better.",
+"p": false,
+"note": "Use this whenever you talk about work, school or friends in Denmark.",
+"words": [
+[
+"blevet",
+"become"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at jeg gerne vil uddanne mig til pædagogmedhjælper, når praktikken er slut.",
+"en": "Finally, I want to say that I would like to train as a nursery assistant when the internship is over.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w17nc": {
+"lines": [
+{
+"da": "Hej Mariam",
+"en": "Hi Mariam",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Du spørger om mit arbejde, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about my job, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "For det første er jeg stoppet, fordi arbejdet var for hårdt, og jeg fik ondt i ryggen.",
+"en": "First, I have stopped because the work was too hard, and I got a bad back.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "For det andet går jeg på sprogskole fem dage om ugen.",
+"en": "Second, I go to language school five days a week.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Derudover er jeg glad for det, fordi jeg lærer meget dansk.",
+"en": "In addition, I am happy with it because I learn a lot of Danish.",
+"p": true,
+"note": "'Derudover' – the verb comes right after it.",
+"words": [
+[
+"Derudover",
+"in addition"
+]
+]
+},
+{
+"da": "Mit dansk er også blevet meget bedre.",
+"en": "My Danish has also got much better.",
+"p": false,
+"note": "Use this whenever you talk about work, school or friends in Denmark.",
+"words": [
+[
+"blevet",
+"become"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at jeg gerne vil uddanne mig og få et job på et kontor.",
+"en": "Finally, I want to say that I would like to get an education and a job in an office.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w18mc": {
+"lines": [
+{
+"da": "Hej Morten",
+"en": "Hi Morten",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Du spørger om min nye lejlighed, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about my new flat, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "For det første bor jeg sammen med to venner i en stor lejlighed i Aarhus.",
+"en": "First, I live with two friends in a big flat in Aarhus.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "Der er lyst og hyggeligt.",
+"en": "It is bright and cosy.",
+"p": false,
+"note": "Use this for any place.",
+"words": [
+[
+"lyst",
+"bright"
+],
+[
+"hyggeligt",
+"cosy"
+]
+]
+},
+{
+"da": "For det andet har vi problemer, fordi mine venner ikke gør rent, og de larmer om natten.",
+"en": "Second, we have problems because my friends don't clean, and they make noise at night.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Derudover er jeg ked af det, fordi jeg ikke kan sove.",
+"en": "In addition, I am sad about it because I can't sleep.",
+"p": true,
+"note": "'Derudover' – the verb comes right after it.",
+"words": [
+[
+"Derudover",
+"in addition"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at vi har lavet en plan for rengøringen, og nu går det bedre.",
+"en": "Finally, I want to say that we have made a cleaning plan, and now it is going better.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w18c": {
+"lines": [
+{
+"da": "Hej Lukas",
+"en": "Hi Lukas",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Du spørger om hvad der har overrasket mig i Danmark, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about what has surprised me in Denmark, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "For det første blev jeg overrasket over vejret, fordi det regner meget.",
+"en": "First, I was surprised by the weather because it rains a lot.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "For det andet cykler mange danskere, også når det regner.",
+"en": "Second, a lot of Danes cycle, even when it rains.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "I mit hjemland kører alle i bil.",
+"en": "In my home country everyone drives a car.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Derudover synes jeg, at det er godt, at danskerne er rolige og kommer til tiden.",
+"en": "In addition, I think it is good that the Danes are calm and come on time.",
+"p": true,
+"note": "'Derudover' – the verb comes right after it.",
+"words": [
+[
+"Derudover",
+"in addition"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at jeg stadig synes, at det er svært at lære danske venner at kende.",
+"en": "Finally, I want to say that I still think it is hard to get to know Danish friends.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w19c": {
+"lines": [
+{
+"da": "Hej Anders",
+"en": "Hi Anders",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Du spørger om mit kursus, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about my course, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "For det første har jeg været på et kursus i madlavning på aftenskolen i Vejle.",
+"en": "First, I have been on a cooking course at the evening school in Vejle.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "For det andet lærte jeg at lave danske retter, fx frikadeller og risalamande.",
+"en": "Second, I learned to make Danish dishes, e.g. meatballs and rice pudding.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Derudover var kurset godt, fordi læreren var sød, og vi var en hyggelig gruppe.",
+"en": "In addition, the course was good because the teacher was nice, and we were a cosy group.",
+"p": true,
+"note": "'Derudover' – the verb comes right after it.",
+"words": [
+[
+"Derudover",
+"in addition"
+]
+]
+},
+{
+"da": "Mit dansk er også blevet meget bedre.",
+"en": "My Danish has also got much better.",
+"p": false,
+"note": "Use this whenever you talk about work, school or friends in Denmark.",
+"words": [
+[
+"blevet",
+"become"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at jeg kan anbefale kurset til dig.",
+"en": "Finally, I want to say that I can recommend the course to you.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w19nc": {
+"lines": [
+{
+"da": "Hej Johan",
+"en": "Hi Johan",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Du spørger om mit nye hus på landet, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about my new house in the countryside, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "For det første er vi flyttet, fordi vores lejlighed i byen var for lille.",
+"en": "First, we have moved because our flat in the city was too small.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "For det andet har vi et stort hus med en have.",
+"en": "Second, we have a big house with a garden.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Der er lyst og hyggeligt.",
+"en": "It is bright and cosy.",
+"p": false,
+"note": "Use this for any place.",
+"words": [
+[
+"lyst",
+"bright"
+],
+[
+"hyggeligt",
+"cosy"
+]
+]
+},
+{
+"da": "Derudover er der stille og frisk luft, og børnene kan lege i haven.",
+"en": "In addition, it is quiet and the air is fresh, and the children can play in the garden.",
+"p": true,
+"note": "'Derudover' – the verb comes right after it.",
+"words": [
+[
+"Derudover",
+"in addition"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at der er langt til butikkerne, så vi bruger bilen meget.",
+"en": "Finally, I want to say that it is a long way to the shops, so we use the car a lot.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w20c": {
+"lines": [
+{
+"da": "Hej Johan",
+"en": "Hi Johan",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Du spørger om mit nye job, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about my new job, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "For det første arbejder jeg som køkkenmedhjælper på et hotel i Vejle.",
+"en": "First, I work as a kitchen assistant at a hotel in Vejle.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "For det andet laver jeg mad, vasker op og gør rent.",
+"en": "Second, I cook, wash up and clean.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Derudover er jeg glad for mine opgaver, fordi jeg lærer meget.",
+"en": "In addition, I am happy with my tasks because I learn a lot.",
+"p": true,
+"note": "'Derudover' – the verb comes right after it.",
+"words": [
+[
+"Derudover",
+"in addition"
+]
+]
+},
+{
+"da": "Mit dansk er også blevet meget bedre.",
+"en": "My Danish has also got much better.",
+"p": false,
+"note": "Use this whenever you talk about work, school or friends in Denmark.",
+"words": [
+[
+"blevet",
+"become"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at jeg er glad for mine nye kolleger.",
+"en": "Finally, I want to say that I am happy with my new colleagues.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Mine kolleger er søde og hjælpsomme.",
+"en": "My colleagues are kind and helpful.",
+"p": false,
+"note": "The same as 'Personalet er søde og hjælpsomme'.",
+"words": [
+[
+"hjælpsomme",
+"helpful"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w20nc": {
+"lines": [
+{
+"da": "Hej Johan",
+"en": "Hi Johan",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Du spørger om de 2 millioner, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about the 2 million, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "For det første vandt jeg pengene i Lotto.",
+"en": "First, I won the money in the lottery.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "Jeg spiller hver uge.",
+"en": "I play every week.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "For det andet var jeg meget glad og overrasket, da jeg fik det at vide.",
+"en": "Second, I was very happy and surprised when I found out.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Derudover vil jeg købe et hus med en have til min familie.",
+"en": "In addition, I want to buy a house with a garden for my family.",
+"p": true,
+"note": "'Derudover' – the verb comes right after it.",
+"words": [
+[
+"Derudover",
+"in addition"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at jeg vil give noget af pengene til børn, der er syge.",
+"en": "Finally, I want to say that I want to give some of the money to children who are ill.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w21mc": {
+"lines": [
+{
+"da": "Hej Adam",
+"en": "Hi Adam",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Du spørger om mit liv i Danmark, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about my life in Denmark, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "For det første har jeg boet i Vejle i fem år.",
+"en": "First, I have lived in Vejle for five years.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "For det andet er det godt at bo i Danmark, fordi der er trygt og rent.",
+"en": "Second, it is good to live in Denmark because it is safe and clean.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Men vejret er svært, og det er dyrt at bo her.",
+"en": "But the weather is hard, and it is expensive to live here.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Derudover har jeg fundet nye venner på sprogskolen og i en fodboldklub.",
+"en": "In addition, I have found new friends at the language school and in a football club.",
+"p": true,
+"note": "'Derudover' – the verb comes right after it.",
+"words": [
+[
+"Derudover",
+"in addition"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at vi spiller fodbold og spiser sammen i weekenden.",
+"en": "Finally, I want to say that we play football and eat together at the weekend.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Mit dansk er også blevet meget bedre.",
+"en": "My Danish has also got much better.",
+"p": false,
+"note": "Use this whenever you talk about work, school or friends in Denmark.",
+"words": [
+[
+"blevet",
+"become"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w21nc": {
+"lines": [
+{
+"da": "Hej Vera",
+"en": "Hi Vera",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Du spørger om min praktik, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about my internship, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "For det første er jeg begyndt i praktik, fordi jeg gerne vil lære mere dansk og få et job.",
+"en": "First, I have started an internship because I want to learn more Danish and get a job.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "For det andet er jeg i praktik i en tøjbutik, hvor jeg hjælper kunderne og fylder varer op.",
+"en": "Second, I am an intern in a clothes shop, where I help the customers and fill up the shelves.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Derudover er jeg glad for praktikken.",
+"en": "In addition, I am happy with the internship.",
+"p": true,
+"note": "'Derudover' – the verb comes right after it.",
+"words": [
+[
+"Derudover",
+"in addition"
+]
+]
+},
+{
+"da": "Mine kolleger er søde og hjælpsomme.",
+"en": "My colleagues are kind and helpful.",
+"p": false,
+"note": "The same as 'Personalet er søde og hjælpsomme'.",
+"words": [
+[
+"hjælpsomme",
+"helpful"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at jeg gerne vil have et job i butikken, når praktikken er slut.",
+"en": "Finally, I want to say that I would like a job in the shop when the internship is over.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w22mc": {
+"lines": [
+{
+"da": "Hej Lasse",
+"en": "Hi Lasse",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Du spørger om min ferie, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about my holiday, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "For det første var jeg en uge i Spanien med min familie.",
+"en": "First, I was in Spain for a week with my family.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "For det andet blev jeg syg den første dag, og det regnede i fem dage.",
+"en": "Second, I got ill on the first day, and it rained for five days.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Derudover var hotellet ikke rent, og maden var dårlig.",
+"en": "In addition, the hotel was not clean, and the food was bad.",
+"p": true,
+"note": "'Derudover' – the verb comes right after it.",
+"words": [
+[
+"Derudover",
+"in addition"
+]
+]
+},
+{
+"da": "Det er ikke i orden.",
+"en": "That is not OK.",
+"p": false,
+"note": "A short sentence after a problem.",
+"words": [
+[
+"i orden",
+"OK"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at jeg vil tjekke vejret og læse om hotellet næste gang.",
+"en": "Finally, I want to say that I will check the weather and read about the hotel next time.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w22nc": {
+"lines": [
+{
+"da": "Hej Emma",
+"en": "Hi Emma",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Du spørger om mit nye arbejde, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about my new job, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "Tillykke med dit nye arbejde!",
+"en": "Congratulations on your new job!",
+"p": false,
+"note": "'Tillykke med …' = congratulations on …",
+"words": [
+[
+"Tillykke",
+"congratulations"
+]
+]
+},
+{
+"da": "For det første arbejder jeg som sosu-hjælper på et plejehjem i Vejle.",
+"en": "First, I work as a care assistant at a care home in Vejle.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "For det andet hjælper jeg de ældre med at spise og gå i bad.",
+"en": "Second, I help the elderly to eat and have a shower.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Derudover er arbejdet hårdt, fordi vi har travlt, og der er for få kolleger.",
+"en": "In addition, the work is hard because we are busy, and there are too few colleagues.",
+"p": true,
+"note": "'Derudover' – the verb comes right after it.",
+"words": [
+[
+"Derudover",
+"in addition"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at jeg er glad for mit arbejde, fordi de ældre er søde.",
+"en": "Finally, I want to say that I am happy with my job because the elderly are sweet.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Mine kolleger er søde og hjælpsomme.",
+"en": "My colleagues are kind and helpful.",
+"p": false,
+"note": "The same as 'Personalet er søde og hjælpsomme'.",
+"words": [
+[
+"hjælpsomme",
+"helpful"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w23mc": {
+"lines": [
+{
+"da": "Hej Viktor",
+"en": "Hi Viktor",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Du spørger om min lejlighed, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about my flat, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "For det første bor jeg i en lille lejlighed i midten af Vejle.",
+"en": "First, I live in a small flat in the middle of Vejle.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "For det andet er jeg ikke tilfreds, fordi lejligheden er for lille, og der er meget larm.",
+"en": "Second, I am not happy because the flat is too small, and there is a lot of noise.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Derudover vil jeg gerne flytte til et hus uden for byen.",
+"en": "In addition, I would like to move to a house outside the city.",
+"p": true,
+"note": "'Derudover' – the verb comes right after it.",
+"words": [
+[
+"Derudover",
+"in addition"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at der er stille, og mine børn kan lege i haven.",
+"en": "Finally, I want to say that it is quiet there, and my children can play in the garden.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w24mc": {
+"lines": [
+{
+"da": "Hej Carl",
+"en": "Hi Carl",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Du spørger om hvordan jeg lever billigt, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about how I live cheaply, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "For det første laver jeg en madplan, og jeg handler i Netto og Lidl.",
+"en": "First, I make a meal plan, and I shop at Netto and Lidl.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "Jeg tager også madpakke med på arbejde.",
+"en": "I also take a packed lunch to work.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "For det andet cykler jeg på arbejde i stedet for at tage bussen.",
+"en": "Second, I cycle to work instead of taking the bus.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Derudover køber jeg brugt tøj på nettet.",
+"en": "In addition, I buy second-hand clothes online.",
+"p": true,
+"note": "'Derudover' – the verb comes right after it.",
+"words": [
+[
+"Derudover",
+"in addition"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at jeg vil spare penge, fordi jeg drømmer om at købe en lille lejlighed.",
+"en": "Finally, I want to say that I want to save money because I dream of buying a small flat.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w26mc": {
+"lines": [
+{
+"da": "Hej Jonas",
+"en": "Hi Jonas",
+"p": true,
+"note": "'Hej' + name. No comma after the name."
+},
+{
+"da": "Tak for din mail.",
+"en": "Thanks for your e-mail.",
+"p": true,
+"note": "Start every e-mail to a friend like this.",
+"words": [
+[
+"mail",
+"e-mail"
+]
+]
+},
+{
+"da": "Det var dejligt at høre fra dig.",
+"en": "It was lovely to hear from you.",
+"p": false,
+"note": "'Det var' + describing word with -t: dejligt.",
+"words": [
+[
+"dejligt",
+"lovely"
+]
+]
+},
+{
+"da": "Jeg håber, at du har det godt.",
+"en": "I hope you are well.",
+"p": false,
+"note": "'Have det godt' = be well.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Jeg har det fint.",
+"en": "I am fine.",
+"p": false,
+"note": "The answer: Jeg har det fint."
+},
+{
+"da": "Du spørger om hvordan jeg lever sundt, og det vil jeg gerne fortælle dig om.",
+"en": "You ask about how I live healthily, and I would like to tell you about it.",
+"p": true,
+"note": "The same sentence in every e-mail: Du spørger om …, og det vil jeg gerne fortælle dig om.",
+"words": [
+[
+"spørger",
+"ask"
+]
+]
+},
+{
+"da": "For det første spiser jeg mere frugt og grønt, og jeg drikker vand i stedet for sodavand.",
+"en": "First, I eat more fruit and vegetables, and I drink water instead of soft drinks.",
+"p": true,
+"note": "'For det første' – the verb comes right after it.",
+"words": [
+[
+"For det første",
+"first"
+]
+]
+},
+{
+"da": "Jeg går også en tur hver dag.",
+"en": "I also go for a walk every day.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "For det andet er det svært, fordi jeg har travlt, og jeg er træt efter arbejde.",
+"en": "Second, it is hard because I am busy, and I am tired after work.",
+"p": true,
+"note": "'For det andet' – the verb comes right after it.",
+"words": [
+[
+"For det andet",
+"second"
+]
+]
+},
+{
+"da": "Derudover ringer jeg til en ven, og så går vi en tur sammen.",
+"en": "In addition, I call a friend, and then we go for a walk together.",
+"p": true,
+"note": "'Derudover' – the verb comes right after it.",
+"words": [
+[
+"Derudover",
+"in addition"
+]
+]
+},
+{
+"da": "Til sidst vil jeg sige, at jeg allerede har det bedre, og jeg sover godt.",
+"en": "Finally, I want to say that I already feel better, and I sleep well.",
+"p": true,
+"note": "The same last point in every e-mail: Til sidst vil jeg sige, at …",
+"words": [
+[
+"Til sidst",
+"finally"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at høre fra dig.",
+"en": "I look forward to hearing from you.",
+"p": true,
+"note": "The last line of every e-mail to a friend.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Vi ses snart!",
+"en": "See you soon!",
+"p": false,
+"note": "A friendly goodbye."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+}
+});
+PD2.SIMPLE_PHRASES = Object.assign(PD2.SIMPLE_PHRASES || {}, {"w12c": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"], "w12nc": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"], "w13c": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"], "w13nc": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"], "w14c": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"], "w14nc": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"], "w15mc": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"], "w15nc": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"], "w16mc": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"], "w16c": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"], "w17mc": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"], "w17nc": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"], "w18mc": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"], "w18c": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"], "w19c": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"], "w19nc": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"], "w20c": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"], "w20nc": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"], "w21mc": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"], "w21nc": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"], "w22mc": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"], "w22nc": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"], "w23mc": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"], "w24mc": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"], "w26mc": ["Hej …", "Tak for din mail.", "Det var dejligt at høre fra dig.", "Jeg håber, at du har det godt. Jeg har det fint.", "Du spørger om …, og det vil jeg gerne fortælle dig om.", "For det første …", "For det andet …", "Derudover …", "Til sidst vil jeg sige, at …", "Jeg glæder mig til at høre fra dig. Vi ses snart!", "Mange hilsner"]});
+// <<< simple:ven
 
 (function () {
   const join = (L, key) => L.lines.map((l, i) => (i === 0 ? "" : l.p ? "\n\n" : /[.!?…:)]\s*$/.test(L.lines[i - 1].da || "") ? " " : /^(Kære|Hej|Hejsa|Hello|Til)\b/i.test(L.lines[i - 1].da || "") ? "\n\n" : "\n") + (l[key] || "")).join("");
