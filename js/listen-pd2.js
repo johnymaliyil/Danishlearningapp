@@ -33010,6 +33010,1574 @@ Object.assign(PD2.LISTEN, {
 PD2.SIMPLE_PHRASES = Object.assign(PD2.SIMPLE_PHRASES || {}, {"w12b": ["Kære …", "Jeg skriver for at klage over …", "Jeg hedder …, og jeg bor på …", "Problemet er, at …", "Det er ikke i orden.", "Jeg har allerede …, men det hjalp ikke.", "Derfor vil jeg gerne bede jer om at …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Med venlig hilsen"], "w12na": ["Kære …", "Jeg skriver for at klage over …", "Jeg hedder …, og jeg bor på …", "Problemet er, at …", "Det er ikke i orden.", "Jeg har allerede …, men det hjalp ikke.", "Derfor vil jeg gerne bede jer om at …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Med venlig hilsen"], "w13nb": ["Kære …", "Jeg skriver for at klage over …", "Jeg hedder …, og jeg bor på …", "Problemet er, at …", "Det er ikke i orden.", "Jeg har allerede …, men det hjalp ikke.", "Derfor vil jeg gerne bede jer om at …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Med venlig hilsen"], "w19a": ["Kære …", "Jeg skriver for at klage over …", "Jeg hedder …, og jeg bor på …", "Problemet er, at …", "Det er ikke i orden.", "Jeg har allerede …, men det hjalp ikke.", "Derfor vil jeg gerne bede jer om at …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Med venlig hilsen"], "w21mb": ["Kære …", "Jeg skriver for at klage over …", "Jeg hedder …, og jeg bor på …", "Problemet er, at …", "Det er ikke i orden.", "Jeg har allerede …, men det hjalp ikke.", "Derfor vil jeg gerne bede jer om at …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Med venlig hilsen"], "w22ma": ["Kære …", "Jeg skriver for at klage over …", "Jeg hedder …, og jeg bor på …", "Problemet er, at …", "Det er ikke i orden.", "Jeg har allerede …, men det hjalp ikke.", "Derfor vil jeg gerne bede jer om at …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Med venlig hilsen"], "w22nb": ["Kære …", "Jeg skriver for at klage over …", "Jeg hedder …, og jeg bor på …", "Problemet er, at …", "Det er ikke i orden.", "Jeg har allerede …, men det hjalp ikke.", "Derfor vil jeg gerne bede jer om at …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Med venlig hilsen"], "w24ma": ["Kære …", "Jeg skriver for at klage over …", "Jeg hedder …, og jeg bor på …", "Problemet er, at …", "Det er ikke i orden.", "Jeg har allerede …, men det hjalp ikke.", "Derfor vil jeg gerne bede jer om at …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Med venlig hilsen"], "w2": ["Kære …", "Jeg skriver for at klage over …", "Jeg hedder …, og jeg bor på …", "Problemet er, at …", "Det er ikke i orden.", "Jeg har allerede …, men det hjalp ikke.", "Derfor vil jeg gerne bede jer om at …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Med venlig hilsen"], "w30": ["Kære …", "Jeg skriver for at klage over …", "Jeg hedder …, og jeg bor på …", "Problemet er, at …", "Det er ikke i orden.", "Jeg har allerede …, men det hjalp ikke.", "Derfor vil jeg gerne bede jer om at …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Med venlig hilsen"]});
 // <<< simple:klage
 
+// >>> simple:takkebrev-ansoegning
+Object.assign(PD2.LISTEN, {
+"w14a": {
+"lines": [
+{
+"da": "Kære kolleger",
+"en": "Dear colleagues",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it.",
+"words": [
+[
+"kolleger",
+"colleagues"
+]
+]
+},
+{
+"da": "Tusind tak for en god tid i praktik i børnehaven.",
+"en": "Thank you so much for a good time as an intern at the nursery.",
+"p": true,
+"note": "Start every thank-you letter like this: Tusind tak for …",
+"words": [
+[
+"Tusind tak",
+"thank you so much"
+]
+]
+},
+{
+"da": "Jeg har lært meget om børn og om arbejdet i en børnehave.",
+"en": "I have learned a lot about children and about the work in a nursery.",
+"p": true,
+"note": "'Jeg har lært …' = I have learned … Use it in every thank-you letter.",
+"words": [
+[
+"lært",
+"learned"
+]
+]
+},
+{
+"da": "Mit dansk er også blevet meget bedre.",
+"en": "My Danish has also got much better.",
+"p": false,
+"note": "Use this in every thank-you letter after a job or internship.",
+"words": [
+[
+"blevet",
+"become"
+]
+]
+},
+{
+"da": "Jeg vil savne jer, fordi I altid var søde og hjælpsomme.",
+"en": "I will miss you because you were always kind and helpful.",
+"p": true,
+"note": "Use this in every thank-you letter: Jeg vil savne jer, fordi …",
+"words": [
+[
+"savne",
+"miss"
+],
+[
+"hjælpsomme",
+"helpful"
+]
+]
+},
+{
+"da": "Jeg vil også savne børnene.",
+"en": "I will also miss the children.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg vil især savne vores hyggelige frokostpauser.",
+"en": "I will especially miss our cosy lunch breaks.",
+"p": false,
+"note": "'Især' = especially.",
+"words": [
+[
+"især",
+"especially"
+],
+[
+"frokostpauser",
+"lunch breaks"
+]
+]
+},
+{
+"da": "Nu skal jeg tilbage på sprogskolen.",
+"en": "Now I am going to go back to the language school.",
+"p": true,
+"note": "After 'Nu' the verb comes first: skal jeg."
+},
+{
+"da": "Jeg kommer og besøger jer i juni, når jeg har fri.",
+"en": "I will come and visit you in June when I am off.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg glæder mig til at se jer igen.",
+"en": "I look forward to seeing you again.",
+"p": true,
+"note": "The last line of every thank-you letter: Jeg glæder mig til at …",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w18ma": {
+"lines": [
+{
+"da": "Kære kolleger",
+"en": "Dear colleagues",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it.",
+"words": [
+[
+"kolleger",
+"colleagues"
+]
+]
+},
+{
+"da": "Tusind tak for en god praktik i kantinen.",
+"en": "Thank you so much for a good internship in the canteen.",
+"p": true,
+"note": "Start every thank-you letter like this: Tusind tak for …",
+"words": [
+[
+"Tusind tak",
+"thank you so much"
+]
+]
+},
+{
+"da": "Det har været en rigtig god tid.",
+"en": "It has been a really good time.",
+"p": false,
+"note": "Use this right after 'Tusind tak for …' in every thank-you letter."
+},
+{
+"da": "Jeg har lært at lave mad til mange mennesker.",
+"en": "I have learned to cook for a lot of people.",
+"p": true,
+"note": "'Jeg har lært …' = I have learned … Use it in every thank-you letter.",
+"words": [
+[
+"lært",
+"learned"
+]
+]
+},
+{
+"da": "Mit dansk er også blevet meget bedre.",
+"en": "My Danish has also got much better.",
+"p": false,
+"note": "Use this in every thank-you letter after a job or internship.",
+"words": [
+[
+"blevet",
+"become"
+]
+]
+},
+{
+"da": "Jeg vil savne jer, fordi I altid var søde og hjælpsomme.",
+"en": "I will miss you because you were always kind and helpful.",
+"p": true,
+"note": "Use this in every thank-you letter: Jeg vil savne jer, fordi …",
+"words": [
+[
+"savne",
+"miss"
+],
+[
+"hjælpsomme",
+"helpful"
+]
+]
+},
+{
+"da": "Jeg vil især savne vores hyggelige frokostpauser.",
+"en": "I will especially miss our cosy lunch breaks.",
+"p": false,
+"note": "'Især' = especially.",
+"words": [
+[
+"især",
+"especially"
+],
+[
+"frokostpauser",
+"lunch breaks"
+]
+]
+},
+{
+"da": "Nu skal jeg tilbage på sprogskolen.",
+"en": "Now I am going to go back to the language school.",
+"p": true,
+"note": "After 'Nu' the verb comes first: skal jeg."
+},
+{
+"da": "Jeg håber, at jeg snart kan få et job i et køkken.",
+"en": "I hope I can soon get a job in a kitchen.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg kommer og besøger jer snart.",
+"en": "I will come and visit you soon.",
+"p": false,
+"note": "A friendly promise to visit.",
+"words": [
+[
+"besøger",
+"visit"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at se jer igen.",
+"en": "I look forward to seeing you again.",
+"p": true,
+"note": "The last line of every thank-you letter: Jeg glæder mig til at …",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w20na": {
+"lines": [
+{
+"da": "Kære Hanne",
+"en": "Dear Hanne",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it."
+},
+{
+"da": "Tusind tak for mange gode år sammen.",
+"en": "Thank you so much for many good years together.",
+"p": true,
+"note": "Start every thank-you letter like this: Tusind tak for …",
+"words": [
+[
+"Tusind tak",
+"thank you so much"
+]
+]
+},
+{
+"da": "Det har været en rigtig god tid.",
+"en": "It has been a really good time.",
+"p": false,
+"note": "Use this right after 'Tusind tak for …' in every thank-you letter."
+},
+{
+"da": "Du har været en god kollega.",
+"en": "You have been a good colleague.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg har lært meget af dig.",
+"en": "I have learned a lot from you.",
+"p": true,
+"note": "'Jeg har lært …' = I have learned … Use it in every thank-you letter.",
+"words": [
+[
+"lært",
+"learned"
+]
+]
+},
+{
+"da": "Du har lært mig at være rolig, når der er travlt.",
+"en": "You have taught me to stay calm when it is busy.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg vil savne dig, fordi du altid var sød og hjælpsom.",
+"en": "I will miss you because you were always kind and helpful.",
+"p": true,
+"note": "The same sentence as 'Jeg vil savne jer, fordi …', just with 'dig'."
+},
+{
+"da": "Det bliver mærkeligt at arbejde uden dig.",
+"en": "It will be strange to work without you.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg vil gerne invitere dig på en kop kaffe på torsdag kl. 15 på Café Rosa.",
+"en": "I would like to invite you for a cup of coffee on Thursday at 3 pm at Café Rosa.",
+"p": true,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"invitere",
+"invite"
+]
+]
+},
+{
+"da": "Held og lykke med din pension!",
+"en": "Good luck with your retirement!",
+"p": true,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"pension",
+"retirement"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w21na": {
+"lines": [
+{
+"da": "Kære Mette",
+"en": "Dear Mette",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it."
+},
+{
+"da": "Tusind tak for dit gode arbejde med Omar.",
+"en": "Thank you so much for your good work with Omar.",
+"p": true,
+"note": "Start every thank-you letter like this: Tusind tak for …",
+"words": [
+[
+"Tusind tak",
+"thank you so much"
+]
+]
+},
+{
+"da": "Vi flytter til Aarhus, fordi jeg har fået nyt job der.",
+"en": "We are moving to Aarhus because I have got a new job there.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Derfor skal Omar skifte skole.",
+"en": "So Omar has to change school.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Omar og jeg har været meget glade for dig, fordi du altid var sød og hjælpsom.",
+"en": "Omar and I have been very happy with you because you were always kind and helpful.",
+"p": true,
+"note": "The same ending as 'Jeg vil savne jer, fordi I altid var søde og hjælpsomme'."
+},
+{
+"da": "Du forklarer tingene godt, og du har altid tid til at tale med os.",
+"en": "You explain things well, and you always have time to talk to us.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Omar vil ringe til sine gamle klassekammerater og besøge dem i ferien.",
+"en": "Omar will call his old classmates and visit them in the holidays.",
+"p": true,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"klassekammerater",
+"classmates"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at se dig igen.",
+"en": "I look forward to seeing you again.",
+"p": true,
+"note": "The same last line as in the other thank-you letters, just with 'dig'."
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali (Omars far)",
+"en": "Ali (Omar's dad)",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+}
+]
+},
+"w22mb": {
+"lines": [
+{
+"da": "Kære kolleger",
+"en": "Dear colleagues",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it.",
+"words": [
+[
+"kolleger",
+"colleagues"
+]
+]
+},
+{
+"da": "Tusind tak for en god praktik i Total.",
+"en": "Thank you so much for a good internship at Total.",
+"p": true,
+"note": "Start every thank-you letter like this: Tusind tak for …",
+"words": [
+[
+"Tusind tak",
+"thank you so much"
+]
+]
+},
+{
+"da": "Jeg har lært at fylde varer op og at sidde ved kassen.",
+"en": "I have learned to fill up the shelves and to work at the till.",
+"p": true,
+"note": "'Jeg har lært …' = I have learned … Use it in every thank-you letter.",
+"words": [
+[
+"lært",
+"learned"
+]
+]
+},
+{
+"da": "Mit dansk er også blevet meget bedre.",
+"en": "My Danish has also got much better.",
+"p": false,
+"note": "Use this in every thank-you letter after a job or internship.",
+"words": [
+[
+"blevet",
+"become"
+]
+]
+},
+{
+"da": "Nu skal jeg begynde på en uddannelse som butiksassistent.",
+"en": "Now I am going to start training as a shop assistant.",
+"p": true,
+"note": "After 'Nu' the verb comes first: skal jeg."
+},
+{
+"da": "Jeg vil savne jer, fordi I altid var søde og hjælpsomme.",
+"en": "I will miss you because you were always kind and helpful.",
+"p": true,
+"note": "Use this in every thank-you letter: Jeg vil savne jer, fordi …",
+"words": [
+[
+"savne",
+"miss"
+],
+[
+"hjælpsomme",
+"helpful"
+]
+]
+},
+{
+"da": "Jeg vil især savne vores hyggelige frokostpauser.",
+"en": "I will especially miss our cosy lunch breaks.",
+"p": false,
+"note": "'Især' = especially.",
+"words": [
+[
+"især",
+"especially"
+],
+[
+"frokostpauser",
+"lunch breaks"
+]
+]
+},
+{
+"da": "Jeg vil holde kontakten med jer på Facebook.",
+"en": "I will keep in touch with you on Facebook.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"kontakten",
+"the contact"
+]
+]
+},
+{
+"da": "Jeg kommer og besøger jer snart.",
+"en": "I will come and visit you soon.",
+"p": false,
+"note": "A friendly promise to visit.",
+"words": [
+[
+"besøger",
+"visit"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at se jer igen.",
+"en": "I look forward to seeing you again.",
+"p": true,
+"note": "The last line of every thank-you letter: Jeg glæder mig til at …",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w31": {
+"lines": [
+{
+"da": "Kære kolleger",
+"en": "Dear colleagues",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it.",
+"words": [
+[
+"kolleger",
+"colleagues"
+]
+]
+},
+{
+"da": "Tusind tak for tre gode år her på kontoret i DataSoft.",
+"en": "Thank you so much for three good years here at the office at DataSoft.",
+"p": true,
+"note": "Start every thank-you letter like this: Tusind tak for …",
+"words": [
+[
+"Tusind tak",
+"thank you so much"
+]
+]
+},
+{
+"da": "Det har været en rigtig god tid.",
+"en": "It has been a really good time.",
+"p": false,
+"note": "Use this right after 'Tusind tak for …' in every thank-you letter."
+},
+{
+"da": "Jeg arbejdede som kontorassistent i salgsafdelingen.",
+"en": "I worked as an office assistant in the sales department.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"kontorassistent",
+"office assistant"
+]
+]
+},
+{
+"da": "Jeg har lært meget om it.",
+"en": "I have learned a lot about IT.",
+"p": true,
+"note": "'Jeg har lært …' = I have learned … Use it in every thank-you letter.",
+"words": [
+[
+"lært",
+"learned"
+]
+]
+},
+{
+"da": "Mit dansk er også blevet meget bedre.",
+"en": "My Danish has also got much better.",
+"p": false,
+"note": "Use this in every thank-you letter after a job or internship.",
+"words": [
+[
+"blevet",
+"become"
+]
+]
+},
+{
+"da": "Jeg vil savne jer, fordi I altid var søde og hjælpsomme.",
+"en": "I will miss you because you were always kind and helpful.",
+"p": true,
+"note": "Use this in every thank-you letter: Jeg vil savne jer, fordi …",
+"words": [
+[
+"savne",
+"miss"
+],
+[
+"hjælpsomme",
+"helpful"
+]
+]
+},
+{
+"da": "Jeg vil især savne vores hyggelige frokostpauser.",
+"en": "I will especially miss our cosy lunch breaks.",
+"p": false,
+"note": "'Især' = especially.",
+"words": [
+[
+"især",
+"especially"
+],
+[
+"frokostpauser",
+"lunch breaks"
+]
+]
+},
+{
+"da": "Nu skal jeg begynde på en uddannelse som programmør.",
+"en": "Now I am going to start training as a programmer.",
+"p": true,
+"note": "After 'Nu' the verb comes first: skal jeg."
+},
+{
+"da": "Jeg kommer og besøger jer snart.",
+"en": "I will come and visit you soon.",
+"p": false,
+"note": "A friendly promise to visit.",
+"words": [
+[
+"besøger",
+"visit"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at se jer igen.",
+"en": "I look forward to seeing you again.",
+"p": true,
+"note": "The last line of every thank-you letter: Jeg glæder mig til at …",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w14b": {
+"lines": [
+{
+"da": "Kære Roskilde Sygehus",
+"en": "Dear Roskilde Sygehus",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it."
+},
+{
+"da": "Jeg har set jeres jobannonce i avisen, og jeg vil gerne søge jobbet som kantinemedarbejder.",
+"en": "I have seen your job advert in the newspaper, and I would like to apply for the job as a canteen worker.",
+"p": true,
+"note": "Start every application like this: Jeg har set jeres jobannonce, og jeg vil gerne søge jobbet som …",
+"words": [
+[
+"søge",
+"apply for"
+]
+]
+},
+{
+"da": "Jeg hedder Ali, og jeg er 32 år.",
+"en": "My name is Ali, and I am 32 years old.",
+"p": true,
+"note": "Use the same sentence in every application.",
+"words": [
+[
+"hedder",
+"am called"
+]
+]
+},
+{
+"da": "Jeg kommer fra Syrien, og jeg har boet i Danmark i fem år.",
+"en": "I come from Syria, and I have lived in Denmark for five years.",
+"p": false,
+"note": "'Har boet … i fem år' = have lived … for five years.",
+"words": [
+[
+"boet",
+"lived"
+]
+]
+},
+{
+"da": "Jeg har arbejdet som køkkenmedhjælper i en kantine i to år.",
+"en": "I have worked as a kitchen assistant in a canteen for two years.",
+"p": true,
+"note": "'Jeg har arbejdet som …' = I have worked as …",
+"words": [
+[
+"arbejdet",
+"worked"
+]
+]
+},
+{
+"da": "Jeg har lavet mad, vasket op og gjort rent.",
+"en": "I have cooked, washed up and cleaned.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg er glad, flittig og mødestabil.",
+"en": "I am happy, hard-working and reliable.",
+"p": true,
+"note": "Three good words about you for every job.",
+"words": [
+[
+"flittig",
+"hard-working"
+],
+[
+"mødestabil",
+"reliable (always comes to work)"
+]
+]
+},
+{
+"da": "Jeg kan godt lide at arbejde sammen med andre.",
+"en": "I like working together with others.",
+"p": false,
+"note": "'Kan godt lide at' + verb = like to.",
+"words": [
+[
+"sammen",
+"together"
+]
+]
+},
+{
+"da": "Jeg vil gerne have jobbet, fordi jeg kan godt lide at lave mad.",
+"en": "I would like the job because I like cooking.",
+"p": true,
+"note": "Say why you want the job: Jeg vil gerne have jobbet, fordi …"
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": true,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg håber at høre fra jer snart.",
+"en": "I hope to hear from you soon.",
+"p": false,
+"note": "A polite last sentence before 'Med venlig hilsen'.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Med venlig hilsen",
+"en": "Kind regards",
+"p": true,
+"note": "The polite ending of a formal letter. Learn it by heart.",
+"words": [
+[
+"venlig",
+"kind"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w15mb": {
+"lines": [
+{
+"da": "Kære lektiecaféen",
+"en": "Dear homework café",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it."
+},
+{
+"da": "Jeg har set jeres opslag, og jeg vil gerne arbejde frivilligt i lektiecaféen.",
+"en": "I have seen your notice, and I would like to work as a volunteer at the homework café.",
+"p": true,
+"note": "The same start as a job application, just with 'arbejde frivilligt'.",
+"words": [
+[
+"frivilligt",
+"as a volunteer"
+]
+]
+},
+{
+"da": "Jeg hedder Ali, og jeg er 32 år.",
+"en": "My name is Ali, and I am 32 years old.",
+"p": true,
+"note": "Use the same sentence in every application.",
+"words": [
+[
+"hedder",
+"am called"
+]
+]
+},
+{
+"da": "Jeg kan hjælpe børnene med matematik og engelsk.",
+"en": "I can help the children with maths and English.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg har to børn, og jeg har hjulpet i min søns skole.",
+"en": "I have two children, and I have helped at my son's school.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg er glad, flittig og mødestabil.",
+"en": "I am happy, hard-working and reliable.",
+"p": true,
+"note": "Three good words about you for every job.",
+"words": [
+[
+"flittig",
+"hard-working"
+],
+[
+"mødestabil",
+"reliable (always comes to work)"
+]
+]
+},
+{
+"da": "Jeg kan godt lide at arbejde sammen med andre.",
+"en": "I like working together with others.",
+"p": false,
+"note": "'Kan godt lide at' + verb = like to.",
+"words": [
+[
+"sammen",
+"together"
+]
+]
+},
+{
+"da": "Jeg kan komme hver tirsdag og torsdag fra kl. 15 til 17.",
+"en": "I can come every Tuesday and Thursday from 3 to 5 pm.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": true,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg håber at høre fra jer snart.",
+"en": "I hope to hear from you soon.",
+"p": false,
+"note": "A polite last sentence before 'Med venlig hilsen'.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Med venlig hilsen",
+"en": "Kind regards",
+"p": true,
+"note": "The polite ending of a formal letter. Learn it by heart.",
+"words": [
+[
+"venlig",
+"kind"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w16mb": {
+"lines": [
+{
+"da": "Kære Netto",
+"en": "Dear Netto",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it."
+},
+{
+"da": "Jeg har set jeres jobannonce på nettet, og jeg vil gerne søge jobbet som kasseassistent.",
+"en": "I have seen your job advert online, and I would like to apply for the job as a cashier.",
+"p": true,
+"note": "Start every application like this: Jeg har set jeres jobannonce, og jeg vil gerne søge jobbet som …",
+"words": [
+[
+"søge",
+"apply for"
+]
+]
+},
+{
+"da": "Jeg hedder Ali, og jeg er 32 år.",
+"en": "My name is Ali, and I am 32 years old.",
+"p": true,
+"note": "Use the same sentence in every application.",
+"words": [
+[
+"hedder",
+"am called"
+]
+]
+},
+{
+"da": "Jeg kommer fra Syrien, og jeg har boet i Danmark i fem år.",
+"en": "I come from Syria, and I have lived in Denmark for five years.",
+"p": false,
+"note": "'Har boet … i fem år' = have lived … for five years.",
+"words": [
+[
+"boet",
+"lived"
+]
+]
+},
+{
+"da": "Jeg har arbejdet som butiksassistent i et supermarked i Syrien.",
+"en": "I have worked as a shop assistant in a supermarket in Syria.",
+"p": true,
+"note": "'Jeg har arbejdet som …' = I have worked as …",
+"words": [
+[
+"arbejdet",
+"worked"
+]
+]
+},
+{
+"da": "Jeg har også været i praktik i Føtex.",
+"en": "I have also been an intern at Føtex.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg er glad, flittig og mødestabil.",
+"en": "I am happy, hard-working and reliable.",
+"p": true,
+"note": "Three good words about you for every job.",
+"words": [
+[
+"flittig",
+"hard-working"
+],
+[
+"mødestabil",
+"reliable (always comes to work)"
+]
+]
+},
+{
+"da": "Jeg er god til at tale med kunderne.",
+"en": "I am good at talking to the customers.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg vil gerne have jobbet, fordi jeg kan godt lide at hjælpe kunderne.",
+"en": "I would like the job because I like helping the customers.",
+"p": true,
+"note": "Say why you want the job: Jeg vil gerne have jobbet, fordi …"
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": true,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg håber at høre fra jer snart.",
+"en": "I hope to hear from you soon.",
+"p": false,
+"note": "A polite last sentence before 'Med venlig hilsen'.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Med venlig hilsen",
+"en": "Kind regards",
+"p": true,
+"note": "The polite ending of a formal letter. Learn it by heart.",
+"words": [
+[
+"venlig",
+"kind"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w19nb": {
+"lines": [
+{
+"da": "Kære Hotel Luxdan",
+"en": "Dear Hotel Luxdan",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it."
+},
+{
+"da": "Jeg har set jeres jobannonce, og jeg vil gerne søge jobbet som rengøringsassistent.",
+"en": "I have seen your job advert, and I would like to apply for the job as a cleaning assistant.",
+"p": true,
+"note": "Start every application like this: Jeg har set jeres jobannonce, og jeg vil gerne søge jobbet som …",
+"words": [
+[
+"søge",
+"apply for"
+]
+]
+},
+{
+"da": "Jeg hedder Ali, og jeg er 32 år.",
+"en": "My name is Ali, and I am 32 years old.",
+"p": true,
+"note": "Use the same sentence in every application.",
+"words": [
+[
+"hedder",
+"am called"
+]
+]
+},
+{
+"da": "Jeg kommer fra Syrien, og jeg har boet i Danmark i fem år.",
+"en": "I come from Syria, and I have lived in Denmark for five years.",
+"p": false,
+"note": "'Har boet … i fem år' = have lived … for five years.",
+"words": [
+[
+"boet",
+"lived"
+]
+]
+},
+{
+"da": "Jeg har arbejdet som rengøringsassistent på et kontor i to år.",
+"en": "I have worked as a cleaning assistant in an office for two years.",
+"p": true,
+"note": "'Jeg har arbejdet som …' = I have worked as …",
+"words": [
+[
+"arbejdet",
+"worked"
+]
+]
+},
+{
+"da": "Jeg har også taget et kursus i rengøring.",
+"en": "I have also taken a course in cleaning.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg er glad, flittig og mødestabil.",
+"en": "I am happy, hard-working and reliable.",
+"p": true,
+"note": "Three good words about you for every job.",
+"words": [
+[
+"flittig",
+"hard-working"
+],
+[
+"mødestabil",
+"reliable (always comes to work)"
+]
+]
+},
+{
+"da": "Jeg gør altid mit arbejde grundigt.",
+"en": "I always do my work thoroughly.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"grundigt",
+"thoroughly"
+]
+]
+},
+{
+"da": "Jeg vil gerne have jobbet, fordi jeg kan godt lide at gøre rent, og jeg vil gerne arbejde på et hotel.",
+"en": "I would like the job because I like cleaning, and I would like to work at a hotel.",
+"p": true,
+"note": "Say why you want the job: Jeg vil gerne have jobbet, fordi …"
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": true,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg håber at høre fra jer snart.",
+"en": "I hope to hear from you soon.",
+"p": false,
+"note": "A polite last sentence before 'Med venlig hilsen'.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Med venlig hilsen",
+"en": "Kind regards",
+"p": true,
+"note": "The polite ending of a formal letter. Learn it by heart.",
+"words": [
+[
+"venlig",
+"kind"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w23mb": {
+"lines": [
+{
+"da": "Kære Restaurant Nimo",
+"en": "Dear Restaurant Nimo",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it."
+},
+{
+"da": "Jeg har set jeres jobannonce på nettet, og jeg vil gerne søge jobbet som køkkenmedhjælper.",
+"en": "I have seen your job advert online, and I would like to apply for the job as a kitchen assistant.",
+"p": true,
+"note": "Start every application like this: Jeg har set jeres jobannonce, og jeg vil gerne søge jobbet som …",
+"words": [
+[
+"søge",
+"apply for"
+]
+]
+},
+{
+"da": "Jeg hedder Ali, og jeg er 32 år.",
+"en": "My name is Ali, and I am 32 years old.",
+"p": true,
+"note": "Use the same sentence in every application.",
+"words": [
+[
+"hedder",
+"am called"
+]
+]
+},
+{
+"da": "Jeg kommer fra Syrien, og jeg har boet i Danmark i fem år.",
+"en": "I come from Syria, and I have lived in Denmark for five years.",
+"p": false,
+"note": "'Har boet … i fem år' = have lived … for five years.",
+"words": [
+[
+"boet",
+"lived"
+]
+]
+},
+{
+"da": "Jeg er glad, flittig og mødestabil.",
+"en": "I am happy, hard-working and reliable.",
+"p": true,
+"note": "Three good words about you for every job.",
+"words": [
+[
+"flittig",
+"hard-working"
+],
+[
+"mødestabil",
+"reliable (always comes to work)"
+]
+]
+},
+{
+"da": "Jeg kan godt lide at arbejde sammen med andre.",
+"en": "I like working together with others.",
+"p": false,
+"note": "'Kan godt lide at' + verb = like to.",
+"words": [
+[
+"sammen",
+"together"
+]
+]
+},
+{
+"da": "Jeg har arbejdet som køkkenmedhjælper på et hotel i et år.",
+"en": "I have worked as a kitchen assistant at a hotel for a year.",
+"p": true,
+"note": "'Jeg har arbejdet som …' = I have worked as …",
+"words": [
+[
+"arbejdet",
+"worked"
+]
+]
+},
+{
+"da": "Jeg har skåret grøntsager, vasket op og gjort rent.",
+"en": "I have cut vegetables, washed up and cleaned.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg vil gerne have jobbet, fordi jeg kan godt lide at lave mad.",
+"en": "I would like the job because I like cooking.",
+"p": true,
+"note": "Say why you want the job: Jeg vil gerne have jobbet, fordi …"
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": true,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg håber at høre fra jer snart.",
+"en": "I hope to hear from you soon.",
+"p": false,
+"note": "A polite last sentence before 'Med venlig hilsen'.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Med venlig hilsen",
+"en": "Kind regards",
+"p": true,
+"note": "The polite ending of a formal letter. Learn it by heart.",
+"words": [
+[
+"venlig",
+"kind"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w5": {
+"lines": [
+{
+"da": "Kære FriskKøb",
+"en": "Dear FriskKøb",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it."
+},
+{
+"da": "Jeg har set jeres jobannonce, og jeg vil gerne søge jobbet som butiksmedarbejder.",
+"en": "I have seen your job advert, and I would like to apply for the job as a shop worker.",
+"p": true,
+"note": "Start every application like this: Jeg har set jeres jobannonce, og jeg vil gerne søge jobbet som …",
+"words": [
+[
+"søge",
+"apply for"
+]
+]
+},
+{
+"da": "Jeg hedder Ali, og jeg er 32 år.",
+"en": "My name is Ali, and I am 32 years old.",
+"p": true,
+"note": "Use the same sentence in every application.",
+"words": [
+[
+"hedder",
+"am called"
+]
+]
+},
+{
+"da": "Jeg kommer fra Syrien, og jeg har boet i Danmark i fem år.",
+"en": "I come from Syria, and I have lived in Denmark for five years.",
+"p": false,
+"note": "'Har boet … i fem år' = have lived … for five years.",
+"words": [
+[
+"boet",
+"lived"
+]
+]
+},
+{
+"da": "Jeg har arbejdet som butiksassistent i et supermarked i to år.",
+"en": "I have worked as a shop assistant in a supermarket for two years.",
+"p": true,
+"note": "'Jeg har arbejdet som …' = I have worked as …",
+"words": [
+[
+"arbejdet",
+"worked"
+]
+]
+},
+{
+"da": "Jeg er glad, flittig og mødestabil.",
+"en": "I am happy, hard-working and reliable.",
+"p": true,
+"note": "Three good words about you for every job.",
+"words": [
+[
+"flittig",
+"hard-working"
+],
+[
+"mødestabil",
+"reliable (always comes to work)"
+]
+]
+},
+{
+"da": "Jeg vil gerne have jobbet, fordi jeg kan godt lide at hjælpe kunderne.",
+"en": "I would like the job because I like helping the customers.",
+"p": true,
+"note": "Say why you want the job: Jeg vil gerne have jobbet, fordi …"
+},
+{
+"da": "Jeg kan starte den 1. marts.",
+"en": "I can start on 1 March.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": true,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg håber at høre fra jer snart.",
+"en": "I hope to hear from you soon.",
+"p": false,
+"note": "A polite last sentence before 'Med venlig hilsen'.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Med venlig hilsen",
+"en": "Kind regards",
+"p": true,
+"note": "The polite ending of a formal letter. Learn it by heart.",
+"words": [
+[
+"venlig",
+"kind"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+}
+});
+PD2.SIMPLE_PHRASES = Object.assign(PD2.SIMPLE_PHRASES || {}, {"w14a": ["Kære kolleger", "Tusind tak for …", "Jeg har lært …", "Mit dansk er også blevet meget bedre.", "Jeg vil savne jer, fordi I altid var søde og hjælpsomme.", "Nu skal jeg …", "Jeg glæder mig til at se jer igen.", "Mange hilsner"], "w18ma": ["Kære kolleger", "Tusind tak for …", "Jeg har lært …", "Mit dansk er også blevet meget bedre.", "Jeg vil savne jer, fordi I altid var søde og hjælpsomme.", "Nu skal jeg …", "Jeg glæder mig til at se jer igen.", "Mange hilsner"], "w20na": ["Kære kolleger", "Tusind tak for …", "Jeg har lært …", "Mit dansk er også blevet meget bedre.", "Jeg vil savne jer, fordi I altid var søde og hjælpsomme.", "Nu skal jeg …", "Jeg glæder mig til at se jer igen.", "Mange hilsner"], "w21na": ["Kære kolleger", "Tusind tak for …", "Jeg har lært …", "Mit dansk er også blevet meget bedre.", "Jeg vil savne jer, fordi I altid var søde og hjælpsomme.", "Nu skal jeg …", "Jeg glæder mig til at se jer igen.", "Mange hilsner"], "w22mb": ["Kære kolleger", "Tusind tak for …", "Jeg har lært …", "Mit dansk er også blevet meget bedre.", "Jeg vil savne jer, fordi I altid var søde og hjælpsomme.", "Nu skal jeg …", "Jeg glæder mig til at se jer igen.", "Mange hilsner"], "w31": ["Kære kolleger", "Tusind tak for …", "Jeg har lært …", "Mit dansk er også blevet meget bedre.", "Jeg vil savne jer, fordi I altid var søde og hjælpsomme.", "Nu skal jeg …", "Jeg glæder mig til at se jer igen.", "Mange hilsner"], "w14b": ["Kære …", "Jeg har set jeres jobannonce, og jeg vil gerne søge jobbet som …", "Jeg hedder …, og jeg er … år.", "Jeg har arbejdet som …", "Jeg er glad, flittig og mødestabil.", "Jeg vil gerne have jobbet, fordi …", "I kan ringe til mig på …", "Med venlig hilsen"], "w15mb": ["Kære …", "Jeg har set jeres jobannonce, og jeg vil gerne søge jobbet som …", "Jeg hedder …, og jeg er … år.", "Jeg har arbejdet som …", "Jeg er glad, flittig og mødestabil.", "Jeg vil gerne have jobbet, fordi …", "I kan ringe til mig på …", "Med venlig hilsen"], "w16mb": ["Kære …", "Jeg har set jeres jobannonce, og jeg vil gerne søge jobbet som …", "Jeg hedder …, og jeg er … år.", "Jeg har arbejdet som …", "Jeg er glad, flittig og mødestabil.", "Jeg vil gerne have jobbet, fordi …", "I kan ringe til mig på …", "Med venlig hilsen"], "w19nb": ["Kære …", "Jeg har set jeres jobannonce, og jeg vil gerne søge jobbet som …", "Jeg hedder …, og jeg er … år.", "Jeg har arbejdet som …", "Jeg er glad, flittig og mødestabil.", "Jeg vil gerne have jobbet, fordi …", "I kan ringe til mig på …", "Med venlig hilsen"], "w23mb": ["Kære …", "Jeg har set jeres jobannonce, og jeg vil gerne søge jobbet som …", "Jeg hedder …, og jeg er … år.", "Jeg har arbejdet som …", "Jeg er glad, flittig og mødestabil.", "Jeg vil gerne have jobbet, fordi …", "I kan ringe til mig på …", "Med venlig hilsen"], "w5": ["Kære …", "Jeg har set jeres jobannonce, og jeg vil gerne søge jobbet som …", "Jeg hedder …, og jeg er … år.", "Jeg har arbejdet som …", "Jeg er glad, flittig og mødestabil.", "Jeg vil gerne have jobbet, fordi …", "I kan ringe til mig på …", "Med venlig hilsen"]});
+// <<< simple:takkebrev-ansoegning
+
 (function () {
   const join = (L, key) => L.lines.map((l, i) => (i === 0 ? "" : l.p ? "\n\n" : /[.!?…:)]\s*$/.test(L.lines[i - 1].da || "") ? " " : /^(Kære|Hej|Hejsa|Hello|Til)\b/i.test(L.lines[i - 1].da || "") ? "\n\n" : "\n") + (l[key] || "")).join("");
   const W = Object.values(PD2.EXAMS || {}).flatMap(E => E.WRITING || []);

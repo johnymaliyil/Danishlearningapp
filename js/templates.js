@@ -55,22 +55,22 @@ Med venlig hilsen
     use: "Delprøve 1: ansøgning om et job, du har set i en annonce.",
     skeleton: `Kære [firma]
 
-Jeg har set jeres jobannonce [i avisen / på jobnet.dk], og jeg vil gerne søge stillingen som [job].
+Jeg har set jeres jobannonce, og jeg vil gerne søge jobbet som [job].
 
-Jeg hedder [navn], og jeg er [alder] år. [Lidt om dig selv …]
+Jeg hedder [navn], og jeg er [alder] år. Jeg kommer fra [land], og jeg har boet i Danmark i [antal] år.
 
-Jeg har erfaring med [erfaring …]
+Jeg har arbejdet som [job] i [tid].
 
-Jeg tror, at jeg vil være god til jobbet, fordi [dine gode egenskaber …]
+Jeg er glad, flittig og mødestabil. Jeg kan godt lide at arbejde sammen med andre.
 
-I kan kontakte mig på [telefon / e-mail].
+Jeg vil gerne have jobbet, fordi [grunden].
 
-Jeg håber, at I vil invitere mig til en samtale. Jeg ser frem til at høre fra jer.
+I kan ringe til mig på [telefon]. Jeg håber at høre fra jer snart.
 
 Med venlig hilsen
 [dit navn]`,
-    marks: ["Jeg har set jeres jobannonce", "og jeg vil gerne søge stillingen som", "Jeg hedder", "Jeg har erfaring med", "Jeg tror, at jeg vil være god til jobbet, fordi", "I kan kontakte mig på", "Jeg håber, at I vil invitere mig til en samtale.", "Jeg ser frem til at høre fra jer.", "Med venlig hilsen"],
-    tip: "Skriv om dig selv, din erfaring og hvorfor du passer til jobbet – i den rækkefølge."
+    marks: ["Jeg har set jeres jobannonce, og jeg vil gerne søge jobbet som", "Jeg hedder", "Jeg kommer fra", "Jeg har arbejdet som", "Jeg er glad, flittig og mødestabil.", "Jeg kan godt lide at arbejde sammen med andre.", "Jeg vil gerne have jobbet, fordi", "I kan ringe til mig på", "Jeg håber at høre fra jer snart.", "Med venlig hilsen"],
+    tip: "Brug de samme sætninger i alle ansøgninger. Skift kun jobbet og din erfaring."
   },
   institution: {
     ico: "🏫", name: "Mail til en lærer, skole eller kommune",
@@ -153,24 +153,24 @@ Med venlig hilsen
     tip: "En annonce skrives med \"vi\" om firmaet og \"du\" om den nye medarbejder."
   },
   takkebrev: {
-    ico: "💐", name: "Takkebrev",
-    use: "Delprøve 1: tak for en praktik, en fest, hjælp …",
-    skeleton: `Kære alle i [sted]
+    ico: "🙏", name: "Takkebrev",
+    use: "Delprøve 1: tak efter en praktik, et job, til en kollega eller en lærer.",
+    skeleton: `Kære [kolleger / navn]
 
-Tusind tak for [en god tid hos jer]. [Lidt mere …]
+Tusind tak for [en god praktik / et godt år …].
 
-Jeg har lært [hvad du lærte …]
+Jeg har lært [hvad du har lært]. Mit dansk er også blevet meget bedre.
 
-Jeg kommer til at savne [hvad / hvem …]
+Jeg vil savne jer, fordi I altid var søde og hjælpsomme. Jeg vil især savne vores hyggelige frokostpauser.
 
-Nu skal jeg [dine planer …]
+Nu skal jeg [hvad du skal nu].
 
-Endnu en gang tusind tak for alt. Jeg håber, at vi ses snart!
+Jeg glæder mig til at se jer igen.
 
 Mange hilsner
 [dit navn]`,
-    marks: ["Kære alle i", "Tusind tak for", "Jeg har lært", "Jeg kommer til at savne", "Nu skal jeg", "Endnu en gang tusind tak for alt.", "Jeg håber, at vi ses snart!", "Mange hilsner"],
-    tip: "\"Jeg kommer til at savne …\" er en god vending, der passer i mange tekster."
+    marks: ["Tusind tak for", "Jeg har lært", "Mit dansk er også blevet meget bedre.", "Jeg vil savne jer, fordi I altid var søde og hjælpsomme.", "Jeg vil især savne vores hyggelige frokostpauser.", "Nu skal jeg", "Jeg glæder mig til at se jer igen.", "Mange hilsner"],
+    tip: "Brug de samme sætninger i alle takkebreve. Skift kun stedet og hvad du har lært."
   },
   holdning: {
     ico: "🗞️", name: "Tekst til et blad eller en avis",
