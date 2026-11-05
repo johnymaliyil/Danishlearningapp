@@ -30,26 +30,25 @@ Mange hilsner
   },
   klage: {
     ico: "😠", name: "Klage",
-    use: "Delprøve 1: klage til en boligforening, en butik, en restaurant eller et firma.",
+    use: "Delprøve 1: klage til en boligforening, en butik, en restaurant, et hotel eller et firma.",
     skeleton: `Kære [firma / boligforening]
 
-Jeg skriver til jer, fordi jeg vil klage over [problemet].
+Jeg skriver for at klage over [problemet]. Jeg hedder [navn], og jeg bor på [adresse].
 
-Det drejer sig om [hvad, hvor og hvornår …]
+[Hvornår og hvad …]
 
-Problemet er, at [hvad der er galt …]
+Problemet er, at [hvad der er galt …]. Det er ikke i orden.
 
-Jeg har allerede [hvad du selv har gjort …]
+Jeg har allerede [hvad du har gjort], men det hjalp ikke.
 
-Derfor vil jeg gerne bede jer om at [hvad de skal gøre …]
+Derfor vil jeg gerne bede jer om at [hvad de skal gøre].
 
-Jeg håber, at I vil hjælpe mig, og jeg ser frem til at høre fra jer snarest.
+I kan ringe til mig på [telefon]. Jeg håber at høre fra jer snart.
 
 Med venlig hilsen
-[dit navn]
-[adresse / telefonnummer]`,
-    marks: ["Jeg skriver til jer, fordi jeg vil klage over", "Det drejer sig om", "Problemet er, at", "Jeg har allerede", "Derfor vil jeg gerne bede jer om at", "Jeg håber, at I vil hjælpe mig, og jeg ser frem til at høre fra jer snarest.", "Med venlig hilsen"],
-    tip: "En klage er høflig, men tydelig. Skriv \"I\" og \"jer\" til et firma – og husk at skrive, hvordan de kan kontakte dig."
+[dit navn]`,
+    marks: ["Jeg skriver for at klage over", "Jeg hedder", "Problemet er, at", "Det er ikke i orden.", "Jeg har allerede", "men det hjalp ikke.", "Derfor vil jeg gerne bede jer om at", "I kan ringe til mig på", "Jeg håber at høre fra jer snart.", "Med venlig hilsen"],
+    tip: "Brug de samme sætninger i alle klager. Skift kun problemet og detaljerne."
   },
   ansoegning: {
     ico: "💼", name: "Jobansøgning",

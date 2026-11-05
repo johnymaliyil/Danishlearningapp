@@ -4,16 +4,15 @@
 window.PD2 = window.PD2 || {};
 PD2.TPL_GUIDE = {
   klage: {
-    task: "Du har været på ferie og haft problemer med dit hotel. Skriv en klage: hvor og hvornår du boede der, hvad problemet var, hvordan det påvirkede din ferie, og hvad du vil have.",
+    task: "Du har været på ferie og haft problemer med dit hotel. Skriv en klage.",
     rows: [
-      ["Hvem du skriver til", "Who you write to", "Hotel Strandly\nStrandvejen 10\n6700 Esbjerg", ["Navn", "Gade og nummer", "Postnummer og by"]],
-      ["Overskrift", "Heading", "Vedr. mit ophold i juli", ["Vedr. … (= om)"]],
       ["Hilsen", "Greeting", "Kære Hotel Strandly", ["Kære …"]],
-      ["Hvorfor du skriver", "Why you write", "Jeg skriver for at klage over mit ophold på jeres hotel. Jeg boede på værelse 214 fra den 5. til den 12. juli.", ["Jeg skriver for at klage over …", "Jeg er ikke glad for …"]],
-      ["Problemerne", "The problems", "For det første var værelset ikke rent. For det andet virkede aircondition ikke.", ["For det første …", "For det andet …", "… virkede ikke."]],
-      ["Hvad det betød", "What it meant", "Det ødelagde vores ferie. Vi sov dårligt.", ["Det ødelagde …", "Vi var …"]],
-      ["Hvad du vil have", "What you want", "Derfor vil jeg gerne have halvdelen af pengene tilbage. I kan ringe til mig på 22 33 44 55.", ["Derfor vil jeg gerne have …", "Jeg vil gerne bede jer om at …", "Ring til mig på …"]],
-      ["Slut", "Ending", "Med venlig hilsen\nAmina Hassan", ["Med venlig hilsen"]],
+      ["Hvorfor du skriver", "Why you write", "Jeg skriver for at klage over mit ophold på jeres hotel. Jeg boede på værelse 214 fra den 5. til den 12. juli.", ["Jeg skriver for at klage over …", "Jeg hedder …, og jeg bor på …"]],
+      ["Problemet", "The problem", "Problemet er, at værelset ikke var rent. Det er ikke i orden.", ["Problemet er, at …", "Det er ikke i orden."]],
+      ["Hvad du har gjort", "What you have done", "Jeg har allerede talt med receptionen, men det hjalp ikke.", ["Jeg har allerede …, men det hjalp ikke."]],
+      ["Hvad du vil have", "What you want", "Derfor vil jeg gerne bede jer om at give mig halvdelen af pengene tilbage.", ["Derfor vil jeg gerne bede jer om at …"]],
+      ["Kontakt", "Contact", "I kan ringe til mig på 22 33 44 55. Jeg håber at høre fra jer snart.", ["I kan ringe til mig på …", "Jeg håber at høre fra jer snart."]],
+      ["Slut", "Ending", "Med venlig hilsen\nAli", ["Med venlig hilsen"]],
     ],
   },
   anbefaling: {

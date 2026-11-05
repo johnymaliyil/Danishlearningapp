@@ -31652,6 +31652,1364 @@ Object.assign(PD2.LISTEN, {
 PD2.SIMPLE_PHRASES = Object.assign(PD2.SIMPLE_PHRASES || {}, {"w13b": ["… – kan varmt anbefales!", "Jeg vil gerne anbefale …", "Den / Det ligger …", "Der er lyst og hyggeligt.", "Personalet er søde og hjælpsomme.", "Maden var lækker.", "Prisen er god.", "Jeg anbefaler …, fordi …", "Prøv det selv – du bliver ikke skuffet!", "Venlig hilsen"], "w14na": ["… – kan varmt anbefales!", "Jeg vil gerne anbefale …", "Den / Det ligger …", "Der er lyst og hyggeligt.", "Personalet er søde og hjælpsomme.", "Maden var lækker.", "Prisen er god.", "Jeg anbefaler …, fordi …", "Prøv det selv – du bliver ikke skuffet!", "Venlig hilsen"], "w16ma": ["… – kan varmt anbefales!", "Jeg vil gerne anbefale …", "Den / Det ligger …", "Der er lyst og hyggeligt.", "Personalet er søde og hjælpsomme.", "Maden var lækker.", "Prisen er god.", "Jeg anbefaler …, fordi …", "Prøv det selv – du bliver ikke skuffet!", "Venlig hilsen"], "w17ma": ["… – kan varmt anbefales!", "Jeg vil gerne anbefale …", "Den / Det ligger …", "Der er lyst og hyggeligt.", "Personalet er søde og hjælpsomme.", "Maden var lækker.", "Prisen er god.", "Jeg anbefaler …, fordi …", "Prøv det selv – du bliver ikke skuffet!", "Venlig hilsen"], "w18a": ["… – kan varmt anbefales!", "Jeg vil gerne anbefale …", "Den / Det ligger …", "Der er lyst og hyggeligt.", "Personalet er søde og hjælpsomme.", "Maden var lækker.", "Prisen er god.", "Jeg anbefaler …, fordi …", "Prøv det selv – du bliver ikke skuffet!", "Venlig hilsen"], "w19b": ["… – kan varmt anbefales!", "Jeg vil gerne anbefale …", "Den / Det ligger …", "Der er lyst og hyggeligt.", "Personalet er søde og hjælpsomme.", "Maden var lækker.", "Prisen er god.", "Jeg anbefaler …, fordi …", "Prøv det selv – du bliver ikke skuffet!", "Venlig hilsen"], "w22na": ["… – kan varmt anbefales!", "Jeg vil gerne anbefale …", "Den / Det ligger …", "Der er lyst og hyggeligt.", "Personalet er søde og hjælpsomme.", "Maden var lækker.", "Prisen er god.", "Jeg anbefaler …, fordi …", "Prøv det selv – du bliver ikke skuffet!", "Venlig hilsen"], "w24mb": ["… – kan varmt anbefales!", "Jeg vil gerne anbefale …", "Den / Det ligger …", "Der er lyst og hyggeligt.", "Personalet er søde og hjælpsomme.", "Maden var lækker.", "Prisen er god.", "Jeg anbefaler …, fordi …", "Prøv det selv – du bliver ikke skuffet!", "Venlig hilsen"], "w26mb": ["… – ikke en god oplevelse", "Jeg vil gerne skrive om …", "Først …", "Maden var …", "Jeg kan ikke anbefale …, fordi …", "Venlig hilsen"]});
 // <<< simple:anbefaling
 
+// >>> simple:klage
+Object.assign(PD2.LISTEN, {
+"w12b": {
+"lines": [
+{
+"da": "Kære Kvik Ombygning",
+"en": "Dear Kvik Ombygning",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it."
+},
+{
+"da": "Jeg skriver for at klage over jeres arbejde i min lejlighed.",
+"en": "I am writing to complain about your work in my flat.",
+"p": true,
+"note": "Start every complaint like this: Jeg skriver for at klage over …",
+"words": [
+[
+"klage over",
+"complain about"
+]
+]
+},
+{
+"da": "Jeg hedder Ali, og jeg bor på Parkvej 12, 2. th. i Vejle.",
+"en": "My name is Ali, and I live at Parkvej 12, 2nd floor right, in Vejle.",
+"p": false,
+"note": "Use the same sentence every time you must say who you are and where you live.",
+"words": [
+[
+"hedder",
+"am called"
+]
+]
+},
+{
+"da": "Jeres håndværkere var hos mig fra den 3. til den 5. maj.",
+"en": "Your workmen were at my place from 3 to 5 May.",
+"p": true,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"håndværkere",
+"workmen"
+]
+]
+},
+{
+"da": "De skulle male stuen og lave et nyt køkken.",
+"en": "They were going to paint the living room and make a new kitchen.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Problemet er, at arbejdet ikke er færdigt.",
+"en": "The problem is that the work is not finished.",
+"p": true,
+"note": "'Problemet er, at …' – after 'at', 'ikke' comes before the verb.",
+"words": [
+[
+"Problemet",
+"the problem"
+]
+]
+},
+{
+"da": "Der er maling på gulvet, og en køkkenlåge er i stykker.",
+"en": "There is paint on the floor, and a kitchen door is broken.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"i stykker",
+"broken"
+]
+]
+},
+{
+"da": "Det er ikke i orden.",
+"en": "That is not OK.",
+"p": false,
+"note": "Use this in every complaint, right after the problem.",
+"words": [
+[
+"i orden",
+"OK / all right"
+]
+]
+},
+{
+"da": "Derfor vil jeg gerne bede jer om at komme og gøre arbejdet færdigt.",
+"en": "So I would like to ask you to come and finish the work.",
+"p": true,
+"note": "End every complaint like this: Derfor vil jeg gerne bede jer om at …",
+"words": [
+[
+"bede",
+"ask"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": true,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg håber at høre fra jer snart.",
+"en": "I hope to hear from you soon.",
+"p": false,
+"note": "A polite last sentence before 'Med venlig hilsen'.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Med venlig hilsen",
+"en": "Kind regards",
+"p": true,
+"note": "The polite ending of a formal letter. Learn it by heart.",
+"words": [
+[
+"venlig",
+"kind"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w12na": {
+"lines": [
+{
+"da": "Kære boligforening",
+"en": "Dear boligforening",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it."
+},
+{
+"da": "Jeg skriver for at klage over min nabo.",
+"en": "I am writing to complain about my neighbour.",
+"p": true,
+"note": "Start every complaint like this: Jeg skriver for at klage over …",
+"words": [
+[
+"klage over",
+"complain about"
+]
+]
+},
+{
+"da": "Jeg hedder Ali, og jeg bor på Parkvej 12, 2. th. i Vejle.",
+"en": "My name is Ali, and I live at Parkvej 12, 2nd floor right, in Vejle.",
+"p": false,
+"note": "Use the same sentence every time you must say who you are and where you live.",
+"words": [
+[
+"hedder",
+"am called"
+]
+]
+},
+{
+"da": "Min nabo hedder Peter Hansen, og han bor på 2. tv.",
+"en": "My neighbour is called Peter Hansen, and he lives on the 2nd floor left.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Han ryger i opgangen hver dag.",
+"en": "He smokes in the stairwell every day.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"opgangen",
+"the stairwell"
+]
+]
+},
+{
+"da": "Problemet er, at det lugter af røg i hele opgangen.",
+"en": "The problem is that the whole stairwell smells of smoke.",
+"p": true,
+"note": "'Problemet er, at …' – after 'at', 'ikke' comes before the verb.",
+"words": [
+[
+"Problemet",
+"the problem"
+]
+]
+},
+{
+"da": "Mine børn får hovedpine af røgen.",
+"en": "My children get a headache from the smoke.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Det er ikke i orden.",
+"en": "That is not OK.",
+"p": false,
+"note": "Use this in every complaint, right after the problem.",
+"words": [
+[
+"i orden",
+"OK / all right"
+]
+]
+},
+{
+"da": "Jeg har allerede talt med ham, men det hjalp ikke.",
+"en": "I have already talked to him, but it did not help.",
+"p": true,
+"note": "Say what you have done yourself: Jeg har allerede …, men det hjalp ikke.",
+"words": [
+[
+"allerede",
+"already"
+],
+[
+"hjalp",
+"helped"
+]
+]
+},
+{
+"da": "Derfor vil jeg gerne bede jer om at tale med ham.",
+"en": "So I would like to ask you to talk to him.",
+"p": true,
+"note": "After 'Derfor' the verb comes first: vil jeg. 'Bede … om at' = ask … to.",
+"words": [
+[
+"bede",
+"ask"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": true,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg håber at høre fra jer snart.",
+"en": "I hope to hear from you soon.",
+"p": false,
+"note": "A polite last sentence before 'Med venlig hilsen'.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Med venlig hilsen",
+"en": "Kind regards",
+"p": true,
+"note": "The polite ending of a formal letter. Learn it by heart.",
+"words": [
+[
+"venlig",
+"kind"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w13nb": {
+"lines": [
+{
+"da": "Kære Restaurant Roma",
+"en": "Dear Restaurant Roma",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it."
+},
+{
+"da": "Jeg skriver for at klage over maden i jeres restaurant.",
+"en": "I am writing to complain about the food in your restaurant.",
+"p": true,
+"note": "Start every complaint like this: Jeg skriver for at klage over …",
+"words": [
+[
+"klage over",
+"complain about"
+]
+]
+},
+{
+"da": "Jeg var hos jer i lørdags med min familie.",
+"en": "I was at your restaurant last Saturday with my family.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Vi spiste fisk og salat.",
+"en": "We ate fish and salad.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Problemet er, at vi alle blev syge om natten.",
+"en": "The problem is that we all got ill in the night.",
+"p": true,
+"note": "'Problemet er, at …' – after 'at', 'ikke' comes before the verb.",
+"words": [
+[
+"Problemet",
+"the problem"
+]
+]
+},
+{
+"da": "Vi havde ondt i maven i to dage.",
+"en": "We had stomach ache for two days.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"ondt i maven",
+"stomach ache"
+]
+]
+},
+{
+"da": "Det er ikke i orden.",
+"en": "That is not OK.",
+"p": false,
+"note": "Use this in every complaint, right after the problem.",
+"words": [
+[
+"i orden",
+"OK / all right"
+]
+]
+},
+{
+"da": "Derfor vil jeg gerne bede jer om at give os pengene tilbage.",
+"en": "So I would like to ask you to give us the money back.",
+"p": true,
+"note": "End every complaint like this: Derfor vil jeg gerne bede jer om at …",
+"words": [
+[
+"bede",
+"ask"
+]
+]
+},
+{
+"da": "Vi betalte 600 kr.",
+"en": "We paid 600 kr.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": true,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg håber at høre fra jer snart.",
+"en": "I hope to hear from you soon.",
+"p": false,
+"note": "A polite last sentence before 'Med venlig hilsen'.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Med venlig hilsen",
+"en": "Kind regards",
+"p": true,
+"note": "The polite ending of a formal letter. Learn it by heart.",
+"words": [
+[
+"venlig",
+"kind"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w19a": {
+"lines": [
+{
+"da": "Kære boligforening",
+"en": "Dear boligforening",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it."
+},
+{
+"da": "Jeg skriver for at klage over min nabos hund.",
+"en": "I am writing to complain about my neighbour's dog.",
+"p": true,
+"note": "Start every complaint like this: Jeg skriver for at klage over …",
+"words": [
+[
+"klage over",
+"complain about"
+]
+]
+},
+{
+"da": "Jeg hedder Ali, og jeg bor på Parkvej 12, 2. th. i Vejle.",
+"en": "My name is Ali, and I live at Parkvej 12, 2nd floor right, in Vejle.",
+"p": false,
+"note": "Use the same sentence every time you must say who you are and where you live.",
+"words": [
+[
+"hedder",
+"am called"
+]
+]
+},
+{
+"da": "Min nabo hedder Peter Hansen.",
+"en": "My neighbour is called Peter Hansen.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Hans hund gør hele dagen, når han er på arbejde.",
+"en": "His dog barks all day when he is at work.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"gør",
+"barks"
+]
+]
+},
+{
+"da": "Problemet er, at jeg ikke kan sove eller slappe af.",
+"en": "The problem is that I can't sleep or relax.",
+"p": true,
+"note": "'Problemet er, at …' – after 'at', 'ikke' comes before the verb.",
+"words": [
+[
+"Problemet",
+"the problem"
+]
+]
+},
+{
+"da": "Det er ikke i orden.",
+"en": "That is not OK.",
+"p": false,
+"note": "Use this in every complaint, right after the problem.",
+"words": [
+[
+"i orden",
+"OK / all right"
+]
+]
+},
+{
+"da": "Jeg har allerede talt med ham, men det hjalp ikke.",
+"en": "I have already talked to him, but it did not help.",
+"p": true,
+"note": "Say what you have done yourself: Jeg har allerede …, men det hjalp ikke.",
+"words": [
+[
+"allerede",
+"already"
+],
+[
+"hjalp",
+"helped"
+]
+]
+},
+{
+"da": "Derfor vil jeg gerne bede jer om at tale med ham.",
+"en": "So I would like to ask you to talk to him.",
+"p": true,
+"note": "After 'Derfor' the verb comes first: vil jeg. 'Bede … om at' = ask … to.",
+"words": [
+[
+"bede",
+"ask"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": true,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg håber at høre fra jer snart.",
+"en": "I hope to hear from you soon.",
+"p": false,
+"note": "A polite last sentence before 'Med venlig hilsen'.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Med venlig hilsen",
+"en": "Kind regards",
+"p": true,
+"note": "The polite ending of a formal letter. Learn it by heart.",
+"words": [
+[
+"venlig",
+"kind"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w21mb": {
+"lines": [
+{
+"da": "Kære Citybus",
+"en": "Dear Citybus",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it."
+},
+{
+"da": "Jeg skriver for at klage over en buschauffør.",
+"en": "I am writing to complain about a bus driver.",
+"p": true,
+"note": "Start every complaint like this: Jeg skriver for at klage over …",
+"words": [
+[
+"klage over",
+"complain about"
+]
+]
+},
+{
+"da": "Jeg tager bus 5 til arbejde hver dag kl. 7.30.",
+"en": "I take bus 5 to work every day at 7.30.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Problemet er, at chaufføren kører meget stærkt.",
+"en": "The problem is that the driver drives very fast.",
+"p": true,
+"note": "'Problemet er, at …' – after 'at', 'ikke' comes before the verb.",
+"words": [
+[
+"Problemet",
+"the problem"
+]
+]
+},
+{
+"da": "Han er også uvenlig, og han venter ikke på de ældre.",
+"en": "He is also unfriendly, and he doesn't wait for the elderly.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"uvenlig",
+"unfriendly"
+]
+]
+},
+{
+"da": "Det er ikke i orden.",
+"en": "That is not OK.",
+"p": false,
+"note": "Use this in every complaint, right after the problem.",
+"words": [
+[
+"i orden",
+"OK / all right"
+]
+]
+},
+{
+"da": "Jeg har allerede talt med ham, men det hjalp ikke.",
+"en": "I have already talked to him, but it did not help.",
+"p": true,
+"note": "Say what you have done yourself: Jeg har allerede …, men det hjalp ikke.",
+"words": [
+[
+"allerede",
+"already"
+],
+[
+"hjalp",
+"helped"
+]
+]
+},
+{
+"da": "Derfor vil jeg gerne bede jer om at tale med chaufføren.",
+"en": "So I would like to ask you to talk to the driver.",
+"p": true,
+"note": "End every complaint like this: Derfor vil jeg gerne bede jer om at …",
+"words": [
+[
+"bede",
+"ask"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": true,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg håber at høre fra jer snart.",
+"en": "I hope to hear from you soon.",
+"p": false,
+"note": "A polite last sentence before 'Med venlig hilsen'.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Med venlig hilsen",
+"en": "Kind regards",
+"p": true,
+"note": "The polite ending of a formal letter. Learn it by heart.",
+"words": [
+[
+"venlig",
+"kind"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w22ma": {
+"lines": [
+{
+"da": "Kære Vedbys Kokkeskole",
+"en": "Dear Vedbys Kokkeskole",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it."
+},
+{
+"da": "Jeg skriver for at klage over jeres madlavningskursus.",
+"en": "I am writing to complain about your cooking course.",
+"p": true,
+"note": "Start every complaint like this: Jeg skriver for at klage over …",
+"words": [
+[
+"klage over",
+"complain about"
+]
+]
+},
+{
+"da": "Jeg var på kurset den 10. marts, og jeg betalte 800 kr.",
+"en": "I was on the course on 10 March, and I paid 800 kr.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Vi lavede fisk og en dessert.",
+"en": "We made fish and a dessert.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Problemet er, at læreren kom for sent, og der var ikke nok mad til alle.",
+"en": "The problem is that the teacher came late, and there was not enough food for everyone.",
+"p": true,
+"note": "'Problemet er, at …' – after 'at', 'ikke' comes before the verb.",
+"words": [
+[
+"Problemet",
+"the problem"
+]
+]
+},
+{
+"da": "Vi lærte ikke ret meget.",
+"en": "We did not learn very much.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Det er ikke i orden.",
+"en": "That is not OK.",
+"p": false,
+"note": "Use this in every complaint, right after the problem.",
+"words": [
+[
+"i orden",
+"OK / all right"
+]
+]
+},
+{
+"da": "Derfor vil jeg gerne bede jer om at give mig pengene tilbage.",
+"en": "So I would like to ask you to give me the money back.",
+"p": true,
+"note": "End every complaint like this: Derfor vil jeg gerne bede jer om at …",
+"words": [
+[
+"bede",
+"ask"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": true,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg håber at høre fra jer snart.",
+"en": "I hope to hear from you soon.",
+"p": false,
+"note": "A polite last sentence before 'Med venlig hilsen'.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Med venlig hilsen",
+"en": "Kind regards",
+"p": true,
+"note": "The polite ending of a formal letter. Learn it by heart.",
+"words": [
+[
+"venlig",
+"kind"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w22nb": {
+"lines": [
+{
+"da": "Kære boligforeningen Lysbo",
+"en": "Dear boligforeningen Lysbo",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it."
+},
+{
+"da": "Jeg skriver for at klage over min nabo.",
+"en": "I am writing to complain about my neighbour.",
+"p": true,
+"note": "Start every complaint like this: Jeg skriver for at klage over …",
+"words": [
+[
+"klage over",
+"complain about"
+]
+]
+},
+{
+"da": "Han hedder Peter Hansen, og han bor på 3. th. over mig.",
+"en": "He is called Peter Hansen, and he lives on the 3rd floor right, above me.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Problemet er, at han larmer meget om natten.",
+"en": "The problem is that he makes a lot of noise at night.",
+"p": true,
+"note": "'Problemet er, at …' – after 'at', 'ikke' comes before the verb.",
+"words": [
+[
+"Problemet",
+"the problem"
+]
+]
+},
+{
+"da": "Han spiller høj musik tre eller fire gange om ugen.",
+"en": "He plays loud music three or four times a week.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"høj",
+"loud"
+]
+]
+},
+{
+"da": "Det er ikke i orden.",
+"en": "That is not OK.",
+"p": false,
+"note": "Use this in every complaint, right after the problem.",
+"words": [
+[
+"i orden",
+"OK / all right"
+]
+]
+},
+{
+"da": "Jeg har allerede talt med ham, men det hjalp ikke.",
+"en": "I have already talked to him, but it did not help.",
+"p": true,
+"note": "Say what you have done yourself: Jeg har allerede …, men det hjalp ikke.",
+"words": [
+[
+"allerede",
+"already"
+],
+[
+"hjalp",
+"helped"
+]
+]
+},
+{
+"da": "Derfor vil jeg gerne bede jer om at tale med ham.",
+"en": "So I would like to ask you to talk to him.",
+"p": true,
+"note": "After 'Derfor' the verb comes first: vil jeg. 'Bede … om at' = ask … to.",
+"words": [
+[
+"bede",
+"ask"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": true,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg håber at høre fra jer snart.",
+"en": "I hope to hear from you soon.",
+"p": false,
+"note": "A polite last sentence before 'Med venlig hilsen'.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Med venlig hilsen",
+"en": "Kind regards",
+"p": true,
+"note": "The polite ending of a formal letter. Learn it by heart.",
+"words": [
+[
+"venlig",
+"kind"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w24ma": {
+"lines": [
+{
+"da": "Kære Højmark Bolig",
+"en": "Dear Højmark Bolig",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it."
+},
+{
+"da": "Jeg skriver for at klage over min nye lejlighed.",
+"en": "I am writing to complain about my new flat.",
+"p": true,
+"note": "Start every complaint like this: Jeg skriver for at klage over …",
+"words": [
+[
+"klage over",
+"complain about"
+]
+]
+},
+{
+"da": "Jeg hedder Ali, og jeg bor på Parkvej 12, 2. th. i Vejle.",
+"en": "My name is Ali, and I live at Parkvej 12, 2nd floor right, in Vejle.",
+"p": false,
+"note": "Use the same sentence every time you must say who you are and where you live.",
+"words": [
+[
+"hedder",
+"am called"
+]
+]
+},
+{
+"da": "Jeg flyttede ind den 1. april.",
+"en": "I moved in on 1 April.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Problemet er, at radiatoren i stuen ikke virker.",
+"en": "The problem is that the radiator in the living room doesn't work.",
+"p": true,
+"note": "'Problemet er, at …' – after 'at', 'ikke' comes before the verb.",
+"words": [
+[
+"Problemet",
+"the problem"
+]
+]
+},
+{
+"da": "Vandhanen i køkkenet drypper også.",
+"en": "The tap in the kitchen also drips.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"Vandhanen",
+"the tap"
+]
+]
+},
+{
+"da": "Det er ikke i orden.",
+"en": "That is not OK.",
+"p": false,
+"note": "Use this in every complaint, right after the problem.",
+"words": [
+[
+"i orden",
+"OK / all right"
+]
+]
+},
+{
+"da": "Jeg har allerede ringet til viceværten, men det hjalp ikke.",
+"en": "I have already called the caretaker, but it did not help.",
+"p": true,
+"note": "Say what you have done yourself: Jeg har allerede …, men det hjalp ikke.",
+"words": [
+[
+"allerede",
+"already"
+]
+]
+},
+{
+"da": "Derfor vil jeg gerne bede jer om at sende en håndværker.",
+"en": "So I would like to ask you to send a workman.",
+"p": true,
+"note": "End every complaint like this: Derfor vil jeg gerne bede jer om at …",
+"words": [
+[
+"bede",
+"ask"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": true,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg håber at høre fra jer snart.",
+"en": "I hope to hear from you soon.",
+"p": false,
+"note": "A polite last sentence before 'Med venlig hilsen'.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Med venlig hilsen",
+"en": "Kind regards",
+"p": true,
+"note": "The polite ending of a formal letter. Learn it by heart.",
+"words": [
+[
+"venlig",
+"kind"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w2": {
+"lines": [
+{
+"da": "Kære TøjNet",
+"en": "Dear TøjNet",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it."
+},
+{
+"da": "Jeg skriver for at klage over en vinterjakke.",
+"en": "I am writing to complain about a winter jacket.",
+"p": true,
+"note": "Start every complaint like this: Jeg skriver for at klage over …",
+"words": [
+[
+"klage over",
+"complain about"
+]
+]
+},
+{
+"da": "Jeg købte den i jeres webbutik den 2. november.",
+"en": "I bought it in your web shop on 2 November.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Den kostede 600 kr.",
+"en": "It cost 600 kr.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Problemet er, at lynlåsen var i stykker, da jeg åbnede pakken.",
+"en": "The problem is that the zip was broken when I opened the parcel.",
+"p": true,
+"note": "'Problemet er, at …' – after 'at', 'ikke' comes before the verb.",
+"words": [
+[
+"Problemet",
+"the problem"
+]
+]
+},
+{
+"da": "Det er ikke i orden.",
+"en": "That is not OK.",
+"p": false,
+"note": "Use this in every complaint, right after the problem.",
+"words": [
+[
+"i orden",
+"OK / all right"
+]
+]
+},
+{
+"da": "Derfor vil jeg gerne bede jer om at sende mig en ny jakke.",
+"en": "So I would like to ask you to send me a new jacket.",
+"p": true,
+"note": "End every complaint like this: Derfor vil jeg gerne bede jer om at …",
+"words": [
+[
+"bede",
+"ask"
+]
+]
+},
+{
+"da": "Jeg sender gerne den gamle jakke tilbage.",
+"en": "I will happily send the old jacket back.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": true,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg håber at høre fra jer snart.",
+"en": "I hope to hear from you soon.",
+"p": false,
+"note": "A polite last sentence before 'Med venlig hilsen'.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Med venlig hilsen",
+"en": "Kind regards",
+"p": true,
+"note": "The polite ending of a formal letter. Learn it by heart.",
+"words": [
+[
+"venlig",
+"kind"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w30": {
+"lines": [
+{
+"da": "Kære Hotel Strandly",
+"en": "Dear Hotel Strandly",
+"p": true,
+"note": "'Kære' + who you write to. No comma after it."
+},
+{
+"da": "Jeg skriver for at klage over mit ophold på jeres hotel.",
+"en": "I am writing to complain about my stay at your hotel.",
+"p": true,
+"note": "Start every complaint like this: Jeg skriver for at klage over …",
+"words": [
+[
+"klage over",
+"complain about"
+]
+]
+},
+{
+"da": "Jeg boede på værelse 214 fra den 5. til den 12. juli.",
+"en": "I stayed in room 214 from 5 to 12 July.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Problemet er, at værelset ikke var rent, og at aircondition ikke virkede.",
+"en": "The problem is that the room was not clean, and that the air conditioning did not work.",
+"p": true,
+"note": "'Problemet er, at …' – after 'at', 'ikke' comes before the verb.",
+"words": [
+[
+"Problemet",
+"the problem"
+]
+]
+},
+{
+"da": "Der var meget varmt om natten.",
+"en": "It was very hot at night.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Det er ikke i orden.",
+"en": "That is not OK.",
+"p": false,
+"note": "Use this in every complaint, right after the problem.",
+"words": [
+[
+"i orden",
+"OK / all right"
+]
+]
+},
+{
+"da": "Det ødelagde vores ferie, fordi vi sov dårligt.",
+"en": "It ruined our holiday because we slept badly.",
+"p": true,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"ødelagde",
+"ruined"
+]
+]
+},
+{
+"da": "Jeg har allerede talt med receptionen, men det hjalp ikke.",
+"en": "I have already talked to the reception, but it did not help.",
+"p": true,
+"note": "Say what you have done yourself: Jeg har allerede …, men det hjalp ikke.",
+"words": [
+[
+"allerede",
+"already"
+]
+]
+},
+{
+"da": "Derfor vil jeg gerne bede jer om at give mig halvdelen af pengene tilbage.",
+"en": "So I would like to ask you to give me half of the money back.",
+"p": true,
+"note": "End every complaint like this: Derfor vil jeg gerne bede jer om at …",
+"words": [
+[
+"bede",
+"ask"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": true,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg håber at høre fra jer snart.",
+"en": "I hope to hear from you soon.",
+"p": false,
+"note": "A polite last sentence before 'Med venlig hilsen'.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Med venlig hilsen",
+"en": "Kind regards",
+"p": true,
+"note": "The polite ending of a formal letter. Learn it by heart.",
+"words": [
+[
+"venlig",
+"kind"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+}
+});
+PD2.SIMPLE_PHRASES = Object.assign(PD2.SIMPLE_PHRASES || {}, {"w12b": ["Kære …", "Jeg skriver for at klage over …", "Jeg hedder …, og jeg bor på …", "Problemet er, at …", "Det er ikke i orden.", "Jeg har allerede …, men det hjalp ikke.", "Derfor vil jeg gerne bede jer om at …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Med venlig hilsen"], "w12na": ["Kære …", "Jeg skriver for at klage over …", "Jeg hedder …, og jeg bor på …", "Problemet er, at …", "Det er ikke i orden.", "Jeg har allerede …, men det hjalp ikke.", "Derfor vil jeg gerne bede jer om at …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Med venlig hilsen"], "w13nb": ["Kære …", "Jeg skriver for at klage over …", "Jeg hedder …, og jeg bor på …", "Problemet er, at …", "Det er ikke i orden.", "Jeg har allerede …, men det hjalp ikke.", "Derfor vil jeg gerne bede jer om at …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Med venlig hilsen"], "w19a": ["Kære …", "Jeg skriver for at klage over …", "Jeg hedder …, og jeg bor på …", "Problemet er, at …", "Det er ikke i orden.", "Jeg har allerede …, men det hjalp ikke.", "Derfor vil jeg gerne bede jer om at …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Med venlig hilsen"], "w21mb": ["Kære …", "Jeg skriver for at klage over …", "Jeg hedder …, og jeg bor på …", "Problemet er, at …", "Det er ikke i orden.", "Jeg har allerede …, men det hjalp ikke.", "Derfor vil jeg gerne bede jer om at …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Med venlig hilsen"], "w22ma": ["Kære …", "Jeg skriver for at klage over …", "Jeg hedder …, og jeg bor på …", "Problemet er, at …", "Det er ikke i orden.", "Jeg har allerede …, men det hjalp ikke.", "Derfor vil jeg gerne bede jer om at …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Med venlig hilsen"], "w22nb": ["Kære …", "Jeg skriver for at klage over …", "Jeg hedder …, og jeg bor på …", "Problemet er, at …", "Det er ikke i orden.", "Jeg har allerede …, men det hjalp ikke.", "Derfor vil jeg gerne bede jer om at …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Med venlig hilsen"], "w24ma": ["Kære …", "Jeg skriver for at klage over …", "Jeg hedder …, og jeg bor på …", "Problemet er, at …", "Det er ikke i orden.", "Jeg har allerede …, men det hjalp ikke.", "Derfor vil jeg gerne bede jer om at …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Med venlig hilsen"], "w2": ["Kære …", "Jeg skriver for at klage over …", "Jeg hedder …, og jeg bor på …", "Problemet er, at …", "Det er ikke i orden.", "Jeg har allerede …, men det hjalp ikke.", "Derfor vil jeg gerne bede jer om at …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Med venlig hilsen"], "w30": ["Kære …", "Jeg skriver for at klage over …", "Jeg hedder …, og jeg bor på …", "Problemet er, at …", "Det er ikke i orden.", "Jeg har allerede …, men det hjalp ikke.", "Derfor vil jeg gerne bede jer om at …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Med venlig hilsen"]});
+// <<< simple:klage
+
 (function () {
   const join = (L, key) => L.lines.map((l, i) => (i === 0 ? "" : l.p ? "\n\n" : /[.!?…:)]\s*$/.test(L.lines[i - 1].da || "") ? " " : /^(Kære|Hej|Hejsa|Hello|Til)\b/i.test(L.lines[i - 1].da || "") ? "\n\n" : "\n") + (l[key] || "")).join("");
   const W = Object.values(PD2.EXAMS || {}).flatMap(E => E.WRITING || []);
