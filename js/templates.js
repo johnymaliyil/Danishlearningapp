@@ -107,26 +107,28 @@ Venlig hilsen
     tip: "Brug de samme sætninger hver gang: Der er lyst og hyggeligt. Personalet er søde og hjælpsomme. Prisen er god. Skift kun navnet og detaljerne."
   },
   opslag: {
-    ico: "📌", name: "Opslag / efterlysning",
-    use: "Delprøve 1: opslag på sprogskolen eller i opgangen, en efterlysning i avisen, \"værelse til leje\", \"lejlighed søges\" …",
-    skeleton: `[Kort overskrift]!
+    ico: "📌", name: "Opslag / invitation",
+    use: "Delprøve 1: invitation til en tur eller fest, opslag om en klub, \"… søges\", \"… udlejes\" …",
+    skeleton: `[Overskrift]!
 
 Hej alle sammen
 
-Jeg hedder [navn], og jeg skriver, fordi [grunden].
+Jeg vil gerne invitere jer til [hvad]. / Jeg søger [hvad]. / Jeg vil gerne leje [hvad] ud.
 
-[Detaljer: hvad, hvor, hvornår, pris …]
+Det bliver rigtig hyggeligt. / Der er lyst og hyggeligt.
 
-[Flere detaljer …]
+Vi mødes [dag] den [dato] kl. [tid] [sted].
 
-Hvis du [er interesseret / vil med / har set noget], så ring eller skriv til mig på [telefon] senest [dato].
+Husk at tage [ting] med.
 
-På forhånd tak!
+Skriv til mig senest den [dato], hvis du vil være med. I kan ringe til mig på [telefon].
+
+Jeg glæder mig til at se jer!
 
 Mange hilsner
 [dit navn]`,
-    marks: ["Hej alle sammen", "Jeg hedder", "og jeg skriver, fordi", "så ring eller skriv til mig på", "På forhånd tak!", "Mange hilsner"],
-    tip: "Overskriften skal fange læseren: \"Kom med på tur!\", \"Lejlighed søges!\", \"Vidner søges!\"."
+    marks: ["Hej alle sammen", "Jeg vil gerne invitere jer til", "Jeg søger", "Jeg vil gerne leje", "Det bliver rigtig hyggeligt.", "Der er lyst og hyggeligt.", "Vi mødes", "Husk at tage", "Skriv til mig senest den", "hvis du vil være med.", "I kan ringe til mig på", "Jeg glæder mig til at se jer!", "Jeg håber at høre fra jer snart.", "Mange hilsner"],
+    tip: "Brug de samme sætninger i alle opslag og invitationer. Skift kun hvad, hvornår og hvor."
   },
   jobannonce: {
     ico: "📢", name: "Jobannonce",

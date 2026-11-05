@@ -52,15 +52,15 @@ PD2.TPL_GUIDE = {
     ],
   },
   opslag: {
-    task: "Du vil holde en fest for dine naboer. Skriv et opslag / en invitation.",
+    task: "Du vil arrangere en tur for dit hold. Skriv en invitation.",
     rows: [
-      ["Overskrift – hvad det handler om", "Heading", "Grillfest i gården!", ["Kom til …!", "… søges!", "Invitation til …"]],
-      ["Hilsen", "Greeting", "Kære naboer", ["Kære …", "Hej alle sammen"]],
-      ["Hvad og hvorfor", "What and why", "Jeg vil gerne invitere jer til grillfest, så vi kan lære hinanden bedre at kende.", ["Jeg vil gerne invitere jer til …", "Jeg skriver, fordi …"]],
-      ["Hvornår og hvor", "When and where", "Festen er lørdag den 14. juni kl. 17 i gården.", ["Det er … den … kl. …", "Vi mødes …"]],
-      ["Hvad man skal gøre / have med", "What to bring / do", "Tag gerne en salat eller en kage med.", ["Husk at tage … med.", "Tag gerne … med."]],
-      ["Tilmelding og kontakt", "Sign up + contact", "Skriv til mig senest den 10. juni på 22 33 44 55.", ["Tilmeld dig senest … på …", "Skriv til mig, hvis …"]],
-      ["Hilsen og navn", "Ending", "Mange hilsner\nOmar, 2. th.", ["Mange hilsner", "Vi ses!"]],
+      ["Overskrift", "Heading", "Tur til København!", ["… !", "… søges!", "… udlejes!"]],
+      ["Hilsen", "Greeting", "Hej alle sammen", ["Hej alle sammen"]],
+      ["Hvad", "What", "Jeg vil gerne invitere jer til en tur til København med holdet. Det bliver rigtig hyggeligt.", ["Jeg vil gerne invitere jer til …", "Jeg søger …", "Jeg vil gerne leje … ud.", "Det bliver rigtig hyggeligt."]],
+      ["Hvornår og hvor", "When and where", "Vi mødes lørdag den 5. maj kl. 8 på stationen.", ["Vi mødes … den … kl. …"]],
+      ["Hvad man skal have med / pris", "What to bring / price", "Prisen er 300 kr. Husk at tage en madpakke med.", ["Prisen er …", "Husk at tage … med."]],
+      ["Tilmelding og kontakt", "Sign up + contact", "Skriv til mig senest den 1. maj, hvis du vil være med. I kan ringe til mig på 22 33 44 55.", ["Skriv til mig senest den …, hvis du vil være med.", "I kan ringe til mig på …"]],
+      ["Slut", "Ending", "Jeg glæder mig til at se jer!\nMange hilsner\nAli", ["Jeg glæder mig til at se jer!", "Mange hilsner"]],
     ],
   },
   ven: {

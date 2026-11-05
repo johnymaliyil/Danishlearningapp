@@ -34578,6 +34578,2322 @@ Object.assign(PD2.LISTEN, {
 PD2.SIMPLE_PHRASES = Object.assign(PD2.SIMPLE_PHRASES || {}, {"w14a": ["Kære kolleger", "Tusind tak for …", "Jeg har lært …", "Mit dansk er også blevet meget bedre.", "Jeg vil savne jer, fordi I altid var søde og hjælpsomme.", "Nu skal jeg …", "Jeg glæder mig til at se jer igen.", "Mange hilsner"], "w18ma": ["Kære kolleger", "Tusind tak for …", "Jeg har lært …", "Mit dansk er også blevet meget bedre.", "Jeg vil savne jer, fordi I altid var søde og hjælpsomme.", "Nu skal jeg …", "Jeg glæder mig til at se jer igen.", "Mange hilsner"], "w20na": ["Kære kolleger", "Tusind tak for …", "Jeg har lært …", "Mit dansk er også blevet meget bedre.", "Jeg vil savne jer, fordi I altid var søde og hjælpsomme.", "Nu skal jeg …", "Jeg glæder mig til at se jer igen.", "Mange hilsner"], "w21na": ["Kære kolleger", "Tusind tak for …", "Jeg har lært …", "Mit dansk er også blevet meget bedre.", "Jeg vil savne jer, fordi I altid var søde og hjælpsomme.", "Nu skal jeg …", "Jeg glæder mig til at se jer igen.", "Mange hilsner"], "w22mb": ["Kære kolleger", "Tusind tak for …", "Jeg har lært …", "Mit dansk er også blevet meget bedre.", "Jeg vil savne jer, fordi I altid var søde og hjælpsomme.", "Nu skal jeg …", "Jeg glæder mig til at se jer igen.", "Mange hilsner"], "w31": ["Kære kolleger", "Tusind tak for …", "Jeg har lært …", "Mit dansk er også blevet meget bedre.", "Jeg vil savne jer, fordi I altid var søde og hjælpsomme.", "Nu skal jeg …", "Jeg glæder mig til at se jer igen.", "Mange hilsner"], "w14b": ["Kære …", "Jeg har set jeres jobannonce, og jeg vil gerne søge jobbet som …", "Jeg hedder …, og jeg er … år.", "Jeg har arbejdet som …", "Jeg er glad, flittig og mødestabil.", "Jeg vil gerne have jobbet, fordi …", "I kan ringe til mig på …", "Med venlig hilsen"], "w15mb": ["Kære …", "Jeg har set jeres jobannonce, og jeg vil gerne søge jobbet som …", "Jeg hedder …, og jeg er … år.", "Jeg har arbejdet som …", "Jeg er glad, flittig og mødestabil.", "Jeg vil gerne have jobbet, fordi …", "I kan ringe til mig på …", "Med venlig hilsen"], "w16mb": ["Kære …", "Jeg har set jeres jobannonce, og jeg vil gerne søge jobbet som …", "Jeg hedder …, og jeg er … år.", "Jeg har arbejdet som …", "Jeg er glad, flittig og mødestabil.", "Jeg vil gerne have jobbet, fordi …", "I kan ringe til mig på …", "Med venlig hilsen"], "w19nb": ["Kære …", "Jeg har set jeres jobannonce, og jeg vil gerne søge jobbet som …", "Jeg hedder …, og jeg er … år.", "Jeg har arbejdet som …", "Jeg er glad, flittig og mødestabil.", "Jeg vil gerne have jobbet, fordi …", "I kan ringe til mig på …", "Med venlig hilsen"], "w23mb": ["Kære …", "Jeg har set jeres jobannonce, og jeg vil gerne søge jobbet som …", "Jeg hedder …, og jeg er … år.", "Jeg har arbejdet som …", "Jeg er glad, flittig og mødestabil.", "Jeg vil gerne have jobbet, fordi …", "I kan ringe til mig på …", "Med venlig hilsen"], "w5": ["Kære …", "Jeg har set jeres jobannonce, og jeg vil gerne søge jobbet som …", "Jeg hedder …, og jeg er … år.", "Jeg har arbejdet som …", "Jeg er glad, flittig og mødestabil.", "Jeg vil gerne have jobbet, fordi …", "I kan ringe til mig på …", "Med venlig hilsen"]});
 // <<< simple:takkebrev-ansoegning
 
+// >>> simple:opslag
+Object.assign(PD2.LISTEN, {
+"w12a": {
+"lines": [
+{
+"da": "Tur i skoven!",
+"en": "A trip to the forest!",
+"p": true,
+"note": "A short headline that says what it is about."
+},
+{
+"da": "Hej alle sammen",
+"en": "Hi everyone",
+"p": false,
+"note": "The greeting for every notice or invitation."
+},
+{
+"da": "Jeg vil gerne invitere jer til en tur i skoven for alle i opgangen.",
+"en": "I would like to invite you to a trip to the forest for everyone in the stairwell.",
+"p": true,
+"note": "Start every invitation like this: Jeg vil gerne invitere jer til …",
+"words": [
+[
+"invitere",
+"invite"
+]
+]
+},
+{
+"da": "Det bliver rigtig hyggeligt.",
+"en": "It will be really cosy / nice.",
+"p": false,
+"note": "Use this in every invitation.",
+"words": [
+[
+"hyggeligt",
+"cosy / nice"
+]
+]
+},
+{
+"da": "Vi mødes lørdag den 12. maj kl. 10 foran opgangen.",
+"en": "We meet on Saturday 12 May at 10 in front of the stairwell.",
+"p": true,
+"note": "'Vi mødes' + day, time and place – the same sentence in every invitation.",
+"words": [
+[
+"mødes",
+"meet"
+]
+]
+},
+{
+"da": "Vi går en tur rundt om søen og spiser madpakker.",
+"en": "We walk around the lake and eat packed lunches.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Tag varmt tøj og gode sko på.",
+"en": "Wear warm clothes and good shoes.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Husk at tage en madpakke og noget at drikke med.",
+"en": "Remember to bring a packed lunch and something to drink.",
+"p": false,
+"note": "'Husk at tage … med' – 'med' goes at the end.",
+"words": [
+[
+"Husk",
+"remember"
+]
+]
+},
+{
+"da": "Skriv til mig senest den 10. maj, hvis du vil være med.",
+"en": "Write to me by 10 May at the latest if you want to join.",
+"p": true,
+"note": "The same sentence for every sign-up: Skriv til mig senest den …",
+"words": [
+[
+"senest",
+"at the latest"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": false,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at se jer!",
+"en": "I look forward to seeing you!",
+"p": true,
+"note": "The last line of every invitation.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w12nb": {
+"lines": [
+{
+"da": "Fest hos mig!",
+"en": "Party at my place!",
+"p": true,
+"note": "A short headline that says what it is about."
+},
+{
+"da": "Hej alle sammen",
+"en": "Hi everyone",
+"p": false,
+"note": "The greeting for every notice or invitation."
+},
+{
+"da": "Jeg vil gerne invitere jer til fest hjemme hos mig.",
+"en": "I would like to invite you to a party at my place.",
+"p": true,
+"note": "Start every invitation like this: Jeg vil gerne invitere jer til …",
+"words": [
+[
+"invitere",
+"invite"
+]
+]
+},
+{
+"da": "Jeg vil gerne sige tak for et godt år på holdet.",
+"en": "I would like to say thank you for a good year in the class.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Det bliver rigtig hyggeligt.",
+"en": "It will be really cosy / nice.",
+"p": false,
+"note": "Use this in every invitation.",
+"words": [
+[
+"hyggeligt",
+"cosy / nice"
+]
+]
+},
+{
+"da": "Vi mødes lørdag den 20. juni kl. 18 på Parkvej 12 i Vejle.",
+"en": "We meet on Saturday 20 June at 6 pm at Parkvej 12 in Vejle.",
+"p": true,
+"note": "'Vi mødes' + day, time and place – the same sentence in every invitation.",
+"words": [
+[
+"mødes",
+"meet"
+]
+]
+},
+{
+"da": "Vi skal spise mad fra mit land, og bagefter skal vi danse.",
+"en": "We are going to eat food from my country, and afterwards we are going to dance.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Skriv til mig senest den 15. juni, hvis du vil være med.",
+"en": "Write to me by 15 June at the latest if you want to join.",
+"p": true,
+"note": "The same sentence for every sign-up: Skriv til mig senest den …",
+"words": [
+[
+"senest",
+"at the latest"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": false,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at se jer!",
+"en": "I look forward to seeing you!",
+"p": true,
+"note": "The last line of every invitation.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w15ma": {
+"lines": [
+{
+"da": "Madklub på sprogskolen!",
+"en": "Cooking club at the language school!",
+"p": true,
+"note": "A short headline that says what it is about."
+},
+{
+"da": "Hej alle sammen",
+"en": "Hi everyone",
+"p": false,
+"note": "The greeting for every notice or invitation."
+},
+{
+"da": "Jeg vil gerne invitere jer til en madklub på sprogskolen.",
+"en": "I would like to invite you to a cooking club at the language school.",
+"p": true,
+"note": "Start every invitation like this: Jeg vil gerne invitere jer til …",
+"words": [
+[
+"invitere",
+"invite"
+]
+]
+},
+{
+"da": "Vi kan lære hinanden at kende og lære om mad fra mange lande.",
+"en": "We can get to know each other and learn about food from many countries.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Det bliver rigtig hyggeligt.",
+"en": "It will be really cosy / nice.",
+"p": false,
+"note": "Use this in every invitation.",
+"words": [
+[
+"hyggeligt",
+"cosy / nice"
+]
+]
+},
+{
+"da": "Jeg foreslår, at vi laver mad fra vores egne lande.",
+"en": "I suggest that we cook food from our own countries.",
+"p": true,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"foreslår",
+"suggest"
+]
+]
+},
+{
+"da": "Vi mødes en gang om måneden i skolens køkken.",
+"en": "We meet once a month in the school kitchen.",
+"p": true,
+"note": "'Vi mødes' + day, time and place – the same sentence in every invitation.",
+"words": [
+[
+"mødes",
+"meet"
+]
+]
+},
+{
+"da": "Skriv til mig senest den 1. marts, hvis du vil være med.",
+"en": "Write to me by 1 March at the latest if you want to join.",
+"p": true,
+"note": "The same sentence for every sign-up: Skriv til mig senest den …",
+"words": [
+[
+"senest",
+"at the latest"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": false,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at se jer!",
+"en": "I look forward to seeing you!",
+"p": true,
+"note": "The last line of every invitation.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w15na": {
+"lines": [
+{
+"da": "Sommerfest i mit sommerhus!",
+"en": "Summer party in my summer house!",
+"p": true,
+"note": "A short headline that says what it is about."
+},
+{
+"da": "Hej alle sammen",
+"en": "Hi everyone",
+"p": false,
+"note": "The greeting for every notice or invitation."
+},
+{
+"da": "Jeg vil gerne invitere jer til sommerfest i mit sommerhus i Søndervig.",
+"en": "I would like to invite you to a summer party in my summer house in Søndervig.",
+"p": true,
+"note": "Start every invitation like this: Jeg vil gerne invitere jer til …",
+"words": [
+[
+"invitere",
+"invite"
+]
+]
+},
+{
+"da": "Det bliver rigtig hyggeligt.",
+"en": "It will be really cosy / nice.",
+"p": false,
+"note": "Use this in every invitation.",
+"words": [
+[
+"hyggeligt",
+"cosy / nice"
+]
+]
+},
+{
+"da": "Vi mødes lørdag den 20. juni kl. 10 ved firmaet.",
+"en": "We meet on Saturday 20 June at 10 at the company.",
+"p": true,
+"note": "'Vi mødes' + day, time and place – the same sentence in every invitation.",
+"words": [
+[
+"mødes",
+"meet"
+]
+]
+},
+{
+"da": "Vi kører sammen i bus.",
+"en": "We go together by bus.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Vi griller pølser og kylling, og der er kage til kaffen.",
+"en": "We will grill sausages and chicken, and there is cake with the coffee.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Husk at tage badetøj og varmt tøj med.",
+"en": "Remember to bring swimwear and warm clothes.",
+"p": true,
+"note": "'Husk at tage … med' – 'med' goes at the end.",
+"words": [
+[
+"Husk",
+"remember"
+]
+]
+},
+{
+"da": "Sommerhuset ligger tæt på stranden.",
+"en": "The summer house is close to the beach.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Der er lyst og hyggeligt.",
+"en": "It is bright and cosy.",
+"p": false,
+"note": "Use this for any place: a flat, a room, a house, a restaurant.",
+"words": [
+[
+"lyst",
+"bright"
+],
+[
+"hyggeligt",
+"cosy"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": false,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at se jer!",
+"en": "I look forward to seeing you!",
+"p": true,
+"note": "The last line of every invitation.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w15nb": {
+"lines": [
+{
+"da": "Nye medlemmer søges!",
+"en": "New members wanted!",
+"p": true,
+"note": "A short headline that says what it is about."
+},
+{
+"da": "Hej alle sammen",
+"en": "Hi everyone",
+"p": false,
+"note": "The greeting for every notice or invitation."
+},
+{
+"da": "Jeg er formand i en løbeklub, og vi søger nye medlemmer.",
+"en": "I am the chairman of a running club, and we are looking for new members.",
+"p": true,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"formand",
+"chairman"
+]
+]
+},
+{
+"da": "Vi løber sammen i parken.",
+"en": "We run together in the park.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Vi søger glade mennesker i alle aldre.",
+"en": "We are looking for happy people of all ages.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Alle er velkomne.",
+"en": "Everyone is welcome.",
+"p": false,
+"note": "A short, friendly sentence for any place or event.",
+"words": [
+[
+"velkomne",
+"welcome"
+]
+]
+},
+{
+"da": "Vi mødes hver tirsdag kl. 18 ved biblioteket.",
+"en": "We meet every Tuesday at 6 pm at the library.",
+"p": true,
+"note": "'Vi mødes' + day, time and place – the same sentence in every invitation.",
+"words": [
+[
+"mødes",
+"meet"
+]
+]
+},
+{
+"da": "Det er gratis.",
+"en": "It is free.",
+"p": false,
+"note": "A short sentence about the price.",
+"words": [
+[
+"gratis",
+"free"
+]
+]
+},
+{
+"da": "Husk at tage gode sko og vand med.",
+"en": "Remember to bring good shoes and water.",
+"p": false,
+"note": "'Husk at tage … med' – 'med' goes at the end.",
+"words": [
+[
+"Husk",
+"remember"
+]
+]
+},
+{
+"da": "Skriv til mig senest den 1. april, hvis du vil være med.",
+"en": "Write to me by 1 April at the latest if you want to join.",
+"p": true,
+"note": "The same sentence for every sign-up: Skriv til mig senest den …",
+"words": [
+[
+"senest",
+"at the latest"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": false,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at se jer!",
+"en": "I look forward to seeing you!",
+"p": true,
+"note": "The last line of every invitation.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w16a": {
+"lines": [
+{
+"da": "Tur til København!",
+"en": "A trip to Copenhagen!",
+"p": true,
+"note": "A short headline that says what it is about."
+},
+{
+"da": "Hej alle sammen",
+"en": "Hi everyone",
+"p": false,
+"note": "The greeting for every notice or invitation."
+},
+{
+"da": "Jeg vil gerne invitere jer til en tur til København med holdet.",
+"en": "I would like to invite you to a trip to Copenhagen with the class.",
+"p": true,
+"note": "Start every invitation like this: Jeg vil gerne invitere jer til …",
+"words": [
+[
+"invitere",
+"invite"
+]
+]
+},
+{
+"da": "Vi skal se byen, fordi vi har lært om den i timerne.",
+"en": "We are going to see the city because we have learned about it in class.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Det bliver rigtig hyggeligt.",
+"en": "It will be really cosy / nice.",
+"p": false,
+"note": "Use this in every invitation.",
+"words": [
+[
+"hyggeligt",
+"cosy / nice"
+]
+]
+},
+{
+"da": "Vi mødes lørdag den 5. maj kl. 8 på stationen.",
+"en": "We meet on Saturday 5 May at 8 at the station.",
+"p": true,
+"note": "'Vi mødes' + day, time and place – the same sentence in every invitation.",
+"words": [
+[
+"mødes",
+"meet"
+]
+]
+},
+{
+"da": "Vi skal se Den Lille Havfrue og Tivoli.",
+"en": "We are going to see the Little Mermaid and Tivoli.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Prisen er 300 kr., og togbilletten er med i prisen.",
+"en": "The price is 300 kr., and the train ticket is included in the price.",
+"p": true,
+"note": "The same sentence for every price: Prisen er …",
+"words": [
+[
+"Prisen",
+"the price"
+]
+]
+},
+{
+"da": "Skriv til mig senest den 1. maj, hvis du vil være med.",
+"en": "Write to me by 1 May at the latest if you want to join.",
+"p": true,
+"note": "The same sentence for every sign-up: Skriv til mig senest den …",
+"words": [
+[
+"senest",
+"at the latest"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": false,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at se jer!",
+"en": "I look forward to seeing you!",
+"p": true,
+"note": "The last line of every invitation.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w17na": {
+"lines": [
+{
+"da": "Filmaften!",
+"en": "Film night!",
+"p": true,
+"note": "A short headline that says what it is about."
+},
+{
+"da": "Hej alle sammen",
+"en": "Hi everyone",
+"p": false,
+"note": "The greeting for every notice or invitation."
+},
+{
+"da": "Jeg vil gerne invitere jer til filmaften på kontoret.",
+"en": "I would like to invite you to a film night at the office.",
+"p": true,
+"note": "Start every invitation like this: Jeg vil gerne invitere jer til …",
+"words": [
+[
+"invitere",
+"invite"
+]
+]
+},
+{
+"da": "Vi arbejder meget, og vi trænger til at hygge os sammen.",
+"en": "We work a lot, and we need to have a nice time together.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Det bliver rigtig hyggeligt.",
+"en": "It will be really cosy / nice.",
+"p": false,
+"note": "Use this in every invitation.",
+"words": [
+[
+"hyggeligt",
+"cosy / nice"
+]
+]
+},
+{
+"da": "Vi skal se filmen Familien.",
+"en": "We are going to watch the film Familien.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Det er en dansk komedie, og den er meget sjov.",
+"en": "It is a Danish comedy, and it is very funny.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Vi mødes fredag den 10. marts kl. 18 i kantinen.",
+"en": "We meet on Friday 10 March at 6 pm in the canteen.",
+"p": true,
+"note": "'Vi mødes' + day, time and place – the same sentence in every invitation.",
+"words": [
+[
+"mødes",
+"meet"
+]
+]
+},
+{
+"da": "Efter filmen spiser vi pizza og snakker.",
+"en": "After the film we eat pizza and talk.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Skriv til mig senest den 8. marts, hvis du vil være med.",
+"en": "Write to me by 8 March at the latest if you want to join.",
+"p": true,
+"note": "The same sentence for every sign-up: Skriv til mig senest den …",
+"words": [
+[
+"senest",
+"at the latest"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": false,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at se jer!",
+"en": "I look forward to seeing you!",
+"p": true,
+"note": "The last line of every invitation.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w18mb": {
+"lines": [
+{
+"da": "Hjælpere søges til loppemarked!",
+"en": "Helpers wanted for a flea market!",
+"p": true,
+"note": "A short headline that says what it is about."
+},
+{
+"da": "Hej alle sammen",
+"en": "Hi everyone",
+"p": false,
+"note": "The greeting for every notice or invitation."
+},
+{
+"da": "Vi holder loppemarked på sprogskolen lørdag den 2. juni kl. 10.",
+"en": "We are holding a flea market at the language school on Saturday 2 June at 10.",
+"p": true,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"loppemarked",
+"flea market"
+]
+]
+},
+{
+"da": "Vi sælger tøj, bøger, legetøj og ting til køkkenet.",
+"en": "We are selling clothes, books, toys and things for the kitchen.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Pengene skal bruges til en tur for alle holdene.",
+"en": "The money will be used for a trip for all the classes.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Vi mangler hjælpere til at sælge og til at lave kaffe.",
+"en": "We need helpers to sell and to make coffee.",
+"p": true,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"hjælpere",
+"helpers"
+]
+]
+},
+{
+"da": "Det bliver rigtig hyggeligt.",
+"en": "It will be really cosy / nice.",
+"p": false,
+"note": "Use this in every invitation.",
+"words": [
+[
+"hyggeligt",
+"cosy / nice"
+]
+]
+},
+{
+"da": "Alle er velkomne.",
+"en": "Everyone is welcome.",
+"p": false,
+"note": "A short, friendly sentence for any place or event.",
+"words": [
+[
+"velkomne",
+"welcome"
+]
+]
+},
+{
+"da": "Skriv til mig senest den 30. maj, hvis du vil være med.",
+"en": "Write to me by 30 May at the latest if you want to join.",
+"p": true,
+"note": "The same sentence for every sign-up: Skriv til mig senest den …",
+"words": [
+[
+"senest",
+"at the latest"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": false,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at se jer!",
+"en": "I look forward to seeing you!",
+"p": true,
+"note": "The last line of every invitation.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w20a": {
+"lines": [
+{
+"da": "Cykeltur for alle!",
+"en": "A bike trip for everyone!",
+"p": true,
+"note": "A short headline that says what it is about."
+},
+{
+"da": "Hej alle sammen",
+"en": "Hi everyone",
+"p": false,
+"note": "The greeting for every notice or invitation."
+},
+{
+"da": "Jeg vil gerne invitere jer til en cykeltur.",
+"en": "I would like to invite you to a bike trip.",
+"p": true,
+"note": "Start every invitation like this: Jeg vil gerne invitere jer til …",
+"words": [
+[
+"invitere",
+"invite"
+]
+]
+},
+{
+"da": "Vi sidder meget stille på arbejdet, og det er sundt at cykle.",
+"en": "We sit still a lot at work, and cycling is healthy.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Det bliver rigtig hyggeligt.",
+"en": "It will be really cosy / nice.",
+"p": false,
+"note": "Use this in every invitation.",
+"words": [
+[
+"hyggeligt",
+"cosy / nice"
+]
+]
+},
+{
+"da": "Vi cykler til skoven og ser den gamle mølle.",
+"en": "We cycle to the forest and see the old mill.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Vi mødes lørdag den 6. juni kl. 10 ved firmaet.",
+"en": "We meet on Saturday 6 June at 10 at the company.",
+"p": true,
+"note": "'Vi mødes' + day, time and place – the same sentence in every invitation.",
+"words": [
+[
+"mødes",
+"meet"
+]
+]
+},
+{
+"da": "Husk at tage en madpakke og noget at drikke med.",
+"en": "Remember to bring a packed lunch and something to drink.",
+"p": true,
+"note": "'Husk at tage … med' – 'med' goes at the end.",
+"words": [
+[
+"Husk",
+"remember"
+]
+]
+},
+{
+"da": "Skriv til mig senest den 1. juni, hvis du vil være med.",
+"en": "Write to me by 1 June at the latest if you want to join.",
+"p": true,
+"note": "The same sentence for every sign-up: Skriv til mig senest den …",
+"words": [
+[
+"senest",
+"at the latest"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": false,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at se jer!",
+"en": "I look forward to seeing you!",
+"p": true,
+"note": "The last line of every invitation.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w20nb": {
+"lines": [
+{
+"da": "Ny butik i byen!",
+"en": "A new shop in town!",
+"p": true,
+"note": "A short headline that says what it is about."
+},
+{
+"da": "Hej alle sammen",
+"en": "Hi everyone",
+"p": false,
+"note": "The greeting for every notice or invitation."
+},
+{
+"da": "Jeg åbner en ny tøjbutik på Torvet i Vejle.",
+"en": "I am opening a new clothes shop on the square in Vejle.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Vi sælger tøj og sko til hele familien.",
+"en": "We sell clothes and shoes for the whole family.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg vil gerne invitere jer til åbningsdag lørdag den 1. maj kl. 10.",
+"en": "I would like to invite you to the opening day on Saturday 1 May at 10.",
+"p": true,
+"note": "Start every invitation like this: Jeg vil gerne invitere jer til …",
+"words": [
+[
+"invitere",
+"invite"
+]
+]
+},
+{
+"da": "Det bliver rigtig hyggeligt.",
+"en": "It will be really cosy / nice.",
+"p": false,
+"note": "Use this in every invitation.",
+"words": [
+[
+"hyggeligt",
+"cosy / nice"
+]
+]
+},
+{
+"da": "Alle får en gratis kop kaffe, og der er 20 % rabat på alt.",
+"en": "Everyone gets a free cup of coffee, and there is 20 % off everything.",
+"p": true,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"rabat",
+"discount"
+]
+]
+},
+{
+"da": "Der er også musik og en konkurrence.",
+"en": "There is also music and a competition.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Alle er velkomne.",
+"en": "Everyone is welcome.",
+"p": false,
+"note": "A short, friendly sentence for any place or event.",
+"words": [
+[
+"velkomne",
+"welcome"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": false,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at se jer!",
+"en": "I look forward to seeing you!",
+"p": true,
+"note": "The last line of every invitation.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w21ma": {
+"lines": [
+{
+"da": "Invitation på restaurant!",
+"en": "Invitation to a restaurant!",
+"p": true,
+"note": "A short headline that says what it is about."
+},
+{
+"da": "Kære venner",
+"en": "Dear friends",
+"p": false,
+"note": "'Kære' + who you write to. No comma after it.",
+"words": [
+[
+"venner",
+"friends"
+]
+]
+},
+{
+"da": "Jeg vil gerne invitere jer til middag på restaurant.",
+"en": "I would like to invite you to dinner at a restaurant.",
+"p": true,
+"note": "Start every invitation like this: Jeg vil gerne invitere jer til …",
+"words": [
+[
+"invitere",
+"invite"
+]
+]
+},
+{
+"da": "Jeg har fået nyt job, og det vil jeg gerne fejre med jer.",
+"en": "I have got a new job, and I would like to celebrate it with you.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"fejre",
+"celebrate"
+]
+]
+},
+{
+"da": "Det bliver rigtig hyggeligt.",
+"en": "It will be really cosy / nice.",
+"p": false,
+"note": "Use this in every invitation.",
+"words": [
+[
+"hyggeligt",
+"cosy / nice"
+]
+]
+},
+{
+"da": "Vi mødes lørdag den 10. maj kl. 18 ved Restaurant Roma på Torvet.",
+"en": "We meet on Saturday 10 May at 6 pm at Restaurant Roma on the square.",
+"p": true,
+"note": "'Vi mødes' + day, time and place – the same sentence in every invitation.",
+"words": [
+[
+"mødes",
+"meet"
+]
+]
+},
+{
+"da": "Restauranten er italiensk, og vi skal have pizza og is.",
+"en": "The restaurant is Italian, and we are going to have pizza and ice cream.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Efter maden går vi en tur i byen.",
+"en": "After dinner we will go for a walk in town.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Skriv til mig senest den 5. maj, hvis du vil være med.",
+"en": "Write to me by 5 May at the latest if you want to join.",
+"p": true,
+"note": "The same sentence for every sign-up: Skriv til mig senest den …",
+"words": [
+[
+"senest",
+"at the latest"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": false,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg glæder mig til at se jer!",
+"en": "I look forward to seeing you!",
+"p": true,
+"note": "The last line of every invitation.",
+"words": [
+[
+"glæder mig",
+"look forward"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w13a": {
+"lines": [
+{
+"da": "Musikere søges!",
+"en": "Musicians wanted!",
+"p": true,
+"note": "A short headline that says what it is about."
+},
+{
+"da": "Hej alle sammen",
+"en": "Hi everyone",
+"p": false,
+"note": "The greeting for every notice or invitation."
+},
+{
+"da": "Jeg hedder Ali, og jeg er 32 år.",
+"en": "My name is Ali, and I am 32 years old.",
+"p": true,
+"note": "Use the same sentence every time you say who you are.",
+"words": [
+[
+"hedder",
+"am called"
+]
+]
+},
+{
+"da": "Jeg har spillet guitar i ti år, og jeg elsker popmusik.",
+"en": "I have played the guitar for ten years, and I love pop music.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg søger nogen at spille musik sammen med.",
+"en": "I am looking for someone to play music with.",
+"p": true,
+"note": "'Jeg søger …' = I am looking for … Use it in every 'søges' notice.",
+"words": [
+[
+"søger",
+"am looking for"
+]
+]
+},
+{
+"da": "Det er sjovere at spille sammen med andre.",
+"en": "It is more fun to play together with others.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Vi kan øve hjemme hos mig hver torsdag kl. 19.",
+"en": "We can practise at my place every Thursday at 7 pm.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Alle er velkomne.",
+"en": "Everyone is welcome.",
+"p": false,
+"note": "A short, friendly sentence for any place or event.",
+"words": [
+[
+"velkomne",
+"welcome"
+]
+]
+},
+{
+"da": "Skriv til mig, hvis du har spørgsmål.",
+"en": "Write to me if you have questions.",
+"p": true,
+"note": "A useful line for every notice.",
+"words": [
+[
+"spørgsmål",
+"questions"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": false,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg håber at høre fra jer snart.",
+"en": "I hope to hear from you soon.",
+"p": false,
+"note": "A polite last sentence before the greeting.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w13na": {
+"lines": [
+{
+"da": "Lejlighed søges!",
+"en": "Flat wanted!",
+"p": true,
+"note": "A short headline that says what it is about."
+},
+{
+"da": "Hej alle sammen",
+"en": "Hi everyone",
+"p": false,
+"note": "The greeting for every notice or invitation."
+},
+{
+"da": "Jeg hedder Ali, og jeg er 32 år.",
+"en": "My name is Ali, and I am 32 years old.",
+"p": true,
+"note": "Use the same sentence every time you say who you are.",
+"words": [
+[
+"hedder",
+"am called"
+]
+]
+},
+{
+"da": "Jeg bor sammen med min kone og vores to børn.",
+"en": "I live with my wife and our two children.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg søger en ny lejlighed, fordi vores lejlighed er for lille.",
+"en": "I am looking for a new flat because our flat is too small.",
+"p": true,
+"note": "'Jeg søger …' = I am looking for … Use it in every 'søges' notice.",
+"words": [
+[
+"søger",
+"am looking for"
+]
+]
+},
+{
+"da": "Den skal have tre værelser og ligge i Vejle, tæt på en skole.",
+"en": "It must have three rooms and be in Vejle, close to a school.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Huslejen må højst være 8.000 kr. om måneden.",
+"en": "The rent can be at most 8,000 kr. a month.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"Huslejen",
+"the rent"
+]
+]
+},
+{
+"da": "Skriv til mig, hvis du har spørgsmål.",
+"en": "Write to me if you have questions.",
+"p": true,
+"note": "A useful line for every notice.",
+"words": [
+[
+"spørgsmål",
+"questions"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": false,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg håber at høre fra jer snart.",
+"en": "I hope to hear from you soon.",
+"p": false,
+"note": "A polite last sentence before the greeting.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w14nb": {
+"lines": [
+{
+"da": "Vidner søges!",
+"en": "Witnesses wanted!",
+"p": true,
+"note": "A short headline that says what it is about."
+},
+{
+"da": "Hej alle sammen",
+"en": "Hi everyone",
+"p": false,
+"note": "The greeting for every notice or invitation."
+},
+{
+"da": "Jeg søger en bil, som kørte ind i min bil.",
+"en": "I am looking for a car that drove into my car.",
+"p": true,
+"note": "'Jeg søger …' = I am looking for … Use it in every 'søges' notice.",
+"words": [
+[
+"søger",
+"am looking for"
+]
+]
+},
+{
+"da": "Det skete på parkeringspladsen ved Netto i Vejle mandag den 3. marts kl. 15.",
+"en": "It happened in the car park at Netto in Vejle on Monday 3 March at 3 pm.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Det var en rød Ford, og den kørte væk.",
+"en": "It was a red Ford, and it drove away.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Min bil har en stor bule i døren.",
+"en": "My car has a big dent in the door.",
+"p": true,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"bule",
+"dent"
+]
+]
+},
+{
+"da": "Jeg vil gerne tale med ejeren, så forsikringen kan betale.",
+"en": "I would like to talk to the owner so the insurance can pay.",
+"p": false,
+"note": "Your own details. Change them to fit your task.",
+"words": [
+[
+"forsikringen",
+"the insurance"
+]
+]
+},
+{
+"da": "Skriv til mig, hvis du har spørgsmål.",
+"en": "Write to me if you have questions.",
+"p": true,
+"note": "A useful line for every notice.",
+"words": [
+[
+"spørgsmål",
+"questions"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": false,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg håber at høre fra jer snart.",
+"en": "I hope to hear from you soon.",
+"p": false,
+"note": "A polite last sentence before the greeting.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w16b": {
+"lines": [
+{
+"da": "Værelse udlejes!",
+"en": "Room to let!",
+"p": true,
+"note": "A short headline that says what it is about."
+},
+{
+"da": "Hej alle sammen",
+"en": "Hi everyone",
+"p": false,
+"note": "The greeting for every notice or invitation."
+},
+{
+"da": "Jeg vil gerne leje et værelse i min lejlighed ud.",
+"en": "I would like to rent out a room in my flat.",
+"p": true,
+"note": "'Leje … ud' = rent out. 'ud' goes after the thing.",
+"words": [
+[
+"leje ud",
+"rent out"
+]
+]
+},
+{
+"da": "Værelset er stort, og der er lyst og hyggeligt.",
+"en": "The room is big, and it is bright and cosy.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Lejligheden har et stort køkken og en altan.",
+"en": "The flat has a big kitchen and a balcony.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Prisen er 3.000 kr. om måneden.",
+"en": "The price is 3,000 kr. a month.",
+"p": true,
+"note": "The same sentence for every price: Prisen er …",
+"words": [
+[
+"Prisen",
+"the price"
+]
+]
+},
+{
+"da": "Jeg hedder Ali, og jeg er 32 år.",
+"en": "My name is Ali, and I am 32 years old.",
+"p": true,
+"note": "Use the same sentence every time you say who you are.",
+"words": [
+[
+"hedder",
+"am called"
+]
+]
+},
+{
+"da": "Jeg bor alene, og lejligheden er for stor til mig.",
+"en": "I live alone, and the flat is too big for me.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Skriv til mig, hvis du har spørgsmål.",
+"en": "Write to me if you have questions.",
+"p": true,
+"note": "A useful line for every notice.",
+"words": [
+[
+"spørgsmål",
+"questions"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": false,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg håber at høre fra jer snart.",
+"en": "I hope to hear from you soon.",
+"p": false,
+"note": "A polite last sentence before the greeting.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w20b": {
+"lines": [
+{
+"da": "Sommerhus udlejes!",
+"en": "Summer house to let!",
+"p": true,
+"note": "A short headline that says what it is about."
+},
+{
+"da": "Hej alle sammen",
+"en": "Hi everyone",
+"p": false,
+"note": "The greeting for every notice or invitation."
+},
+{
+"da": "Jeg vil gerne leje mit sommerhus i Søndervig ud.",
+"en": "I would like to rent out my summer house in Søndervig.",
+"p": true,
+"note": "'Leje … ud' = rent out. 'ud' goes after the thing.",
+"words": [
+[
+"leje ud",
+"rent out"
+]
+]
+},
+{
+"da": "Det ligger tæt på stranden ved Vesterhavet.",
+"en": "It is close to the beach on the North Sea.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Der er plads til seks personer.",
+"en": "There is room for six people.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Der er lyst og hyggeligt.",
+"en": "It is bright and cosy.",
+"p": false,
+"note": "Use this for any place: a flat, a room, a house, a restaurant.",
+"words": [
+[
+"lyst",
+"bright"
+],
+[
+"hyggeligt",
+"cosy"
+]
+]
+},
+{
+"da": "Der er også en stor have.",
+"en": "There is also a big garden.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "I området er der skov, strand og en lille by med butikker.",
+"en": "In the area there is forest, beach and a small town with shops.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Prisen er 4.000 kr. pr. uge.",
+"en": "The price is 4,000 kr. per week.",
+"p": true,
+"note": "The same sentence for every price: Prisen er …",
+"words": [
+[
+"Prisen",
+"the price"
+]
+]
+},
+{
+"da": "Skriv til mig, hvis du har spørgsmål.",
+"en": "Write to me if you have questions.",
+"p": true,
+"note": "A useful line for every notice.",
+"words": [
+[
+"spørgsmål",
+"questions"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": false,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg håber at høre fra jer snart.",
+"en": "I hope to hear from you soon.",
+"p": false,
+"note": "A polite last sentence before the greeting.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w21nb": {
+"lines": [
+{
+"da": "Lejlighed udlejes i et år!",
+"en": "Flat to let for a year!",
+"p": true,
+"note": "A short headline that says what it is about."
+},
+{
+"da": "Hej alle sammen",
+"en": "Hi everyone",
+"p": false,
+"note": "The greeting for every notice or invitation."
+},
+{
+"da": "Jeg vil gerne leje min lejlighed i et år ud.",
+"en": "I would like to rent out my flat for a year.",
+"p": true,
+"note": "'Leje … ud' = rent out. 'ud' goes after the thing.",
+"words": [
+[
+"leje ud",
+"rent out"
+]
+]
+},
+{
+"da": "Jeg skal arbejde i Tyskland i et år.",
+"en": "I am going to work in Germany for a year.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Lejligheden har to værelser, og den ligger i midten af Vejle.",
+"en": "The flat has two rooms, and it is in the middle of Vejle.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Der er lyst og hyggeligt.",
+"en": "It is bright and cosy.",
+"p": false,
+"note": "Use this for any place: a flat, a room, a house, a restaurant.",
+"words": [
+[
+"lyst",
+"bright"
+],
+[
+"hyggeligt",
+"cosy"
+]
+]
+},
+{
+"da": "Der er butikker og en park tæt på.",
+"en": "There are shops and a park close by.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg søger en eller to rolige personer.",
+"en": "I am looking for one or two quiet people.",
+"p": true,
+"note": "'Jeg søger …' = I am looking for … Use it in every 'søges' notice.",
+"words": [
+[
+"søger",
+"am looking for"
+]
+]
+},
+{
+"da": "Prisen er 6.000 kr. om måneden.",
+"en": "The price is 6,000 kr. a month.",
+"p": true,
+"note": "The same sentence for every price: Prisen er …",
+"words": [
+[
+"Prisen",
+"the price"
+]
+]
+},
+{
+"da": "Skriv til mig, hvis du har spørgsmål.",
+"en": "Write to me if you have questions.",
+"p": true,
+"note": "A useful line for every notice.",
+"words": [
+[
+"spørgsmål",
+"questions"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": false,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg håber at høre fra jer snart.",
+"en": "I hope to hear from you soon.",
+"p": false,
+"note": "A polite last sentence before the greeting.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+},
+"w23ma": {
+"lines": [
+{
+"da": "Rejsekammerat søges!",
+"en": "Travel companion wanted!",
+"p": true,
+"note": "A short headline that says what it is about."
+},
+{
+"da": "Hej alle sammen",
+"en": "Hi everyone",
+"p": false,
+"note": "The greeting for every notice or invitation."
+},
+{
+"da": "Jeg hedder Ali, og jeg er 32 år.",
+"en": "My name is Ali, and I am 32 years old.",
+"p": true,
+"note": "Use the same sentence every time you say who you are.",
+"words": [
+[
+"hedder",
+"am called"
+]
+]
+},
+{
+"da": "Jeg kan godt lide at rejse og at se nye steder.",
+"en": "I like travelling and seeing new places.",
+"p": false,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg vil gerne rejse til Italien i juli, fordi jeg elsker italiensk mad.",
+"en": "I would like to travel to Italy in July because I love Italian food.",
+"p": true,
+"note": "Your own details. Change them to fit your task."
+},
+{
+"da": "Jeg søger en glad person på 25-40 år, som kan lide at gå og se byer.",
+"en": "I am looking for a happy person aged 25-40 who likes walking and seeing cities.",
+"p": true,
+"note": "'Jeg søger …' = I am looking for … Use it in every 'søges' notice.",
+"words": [
+[
+"søger",
+"am looking for"
+]
+]
+},
+{
+"da": "Alle er velkomne.",
+"en": "Everyone is welcome.",
+"p": false,
+"note": "A short, friendly sentence for any place or event.",
+"words": [
+[
+"velkomne",
+"welcome"
+]
+]
+},
+{
+"da": "Skriv til mig, hvis du har spørgsmål.",
+"en": "Write to me if you have questions.",
+"p": true,
+"note": "A useful line for every notice.",
+"words": [
+[
+"spørgsmål",
+"questions"
+]
+]
+},
+{
+"da": "I kan ringe til mig på 22 33 44 55.",
+"en": "You can call me on 22 33 44 55.",
+"p": false,
+"note": "Always say how they can contact you. 'I' = you (more than one).",
+"words": [
+[
+"ringe",
+"call"
+]
+]
+},
+{
+"da": "Jeg håber at høre fra jer snart.",
+"en": "I hope to hear from you soon.",
+"p": false,
+"note": "A polite last sentence before the greeting.",
+"words": [
+[
+"håber",
+"hope"
+]
+]
+},
+{
+"da": "Mange hilsner",
+"en": "Best wishes",
+"p": true,
+"note": "A friendly ending for friends and colleagues.",
+"words": [
+[
+"hilsner",
+"greetings"
+]
+]
+},
+{
+"da": "Ali",
+"en": "Ali",
+"p": false,
+"note": "Your name."
+}
+]
+}
+});
+PD2.SIMPLE_PHRASES = Object.assign(PD2.SIMPLE_PHRASES || {}, {"w12a": ["Hej alle sammen", "Jeg vil gerne invitere jer til …", "Det bliver rigtig hyggeligt.", "Vi mødes … den … kl. …", "Husk at tage … med.", "Skriv til mig senest den …, hvis du vil være med.", "I kan ringe til mig på …", "Jeg glæder mig til at se jer!", "Mange hilsner"], "w12nb": ["Hej alle sammen", "Jeg vil gerne invitere jer til …", "Det bliver rigtig hyggeligt.", "Vi mødes … den … kl. …", "Husk at tage … med.", "Skriv til mig senest den …, hvis du vil være med.", "I kan ringe til mig på …", "Jeg glæder mig til at se jer!", "Mange hilsner"], "w15ma": ["Hej alle sammen", "Jeg vil gerne invitere jer til …", "Det bliver rigtig hyggeligt.", "Vi mødes … den … kl. …", "Husk at tage … med.", "Skriv til mig senest den …, hvis du vil være med.", "I kan ringe til mig på …", "Jeg glæder mig til at se jer!", "Mange hilsner"], "w15na": ["Hej alle sammen", "Jeg vil gerne invitere jer til …", "Det bliver rigtig hyggeligt.", "Vi mødes … den … kl. …", "Husk at tage … med.", "Skriv til mig senest den …, hvis du vil være med.", "I kan ringe til mig på …", "Jeg glæder mig til at se jer!", "Mange hilsner"], "w15nb": ["Hej alle sammen", "Jeg vil gerne invitere jer til …", "Det bliver rigtig hyggeligt.", "Vi mødes … den … kl. …", "Husk at tage … med.", "Skriv til mig senest den …, hvis du vil være med.", "I kan ringe til mig på …", "Jeg glæder mig til at se jer!", "Mange hilsner"], "w16a": ["Hej alle sammen", "Jeg vil gerne invitere jer til …", "Det bliver rigtig hyggeligt.", "Vi mødes … den … kl. …", "Husk at tage … med.", "Skriv til mig senest den …, hvis du vil være med.", "I kan ringe til mig på …", "Jeg glæder mig til at se jer!", "Mange hilsner"], "w17na": ["Hej alle sammen", "Jeg vil gerne invitere jer til …", "Det bliver rigtig hyggeligt.", "Vi mødes … den … kl. …", "Husk at tage … med.", "Skriv til mig senest den …, hvis du vil være med.", "I kan ringe til mig på …", "Jeg glæder mig til at se jer!", "Mange hilsner"], "w18mb": ["Hej alle sammen", "Jeg vil gerne invitere jer til …", "Det bliver rigtig hyggeligt.", "Vi mødes … den … kl. …", "Husk at tage … med.", "Skriv til mig senest den …, hvis du vil være med.", "I kan ringe til mig på …", "Jeg glæder mig til at se jer!", "Mange hilsner"], "w20a": ["Hej alle sammen", "Jeg vil gerne invitere jer til …", "Det bliver rigtig hyggeligt.", "Vi mødes … den … kl. …", "Husk at tage … med.", "Skriv til mig senest den …, hvis du vil være med.", "I kan ringe til mig på …", "Jeg glæder mig til at se jer!", "Mange hilsner"], "w20nb": ["Hej alle sammen", "Jeg vil gerne invitere jer til …", "Det bliver rigtig hyggeligt.", "Vi mødes … den … kl. …", "Husk at tage … med.", "Skriv til mig senest den …, hvis du vil være med.", "I kan ringe til mig på …", "Jeg glæder mig til at se jer!", "Mange hilsner"], "w21ma": ["Hej alle sammen", "Jeg vil gerne invitere jer til …", "Det bliver rigtig hyggeligt.", "Vi mødes … den … kl. …", "Husk at tage … med.", "Skriv til mig senest den …, hvis du vil være med.", "I kan ringe til mig på …", "Jeg glæder mig til at se jer!", "Mange hilsner"], "w13a": ["… søges! / … udlejes!", "Hej alle sammen", "Jeg hedder …, og jeg er … år.", "Jeg søger …", "Jeg vil gerne leje … ud.", "Der er lyst og hyggeligt.", "Prisen er …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Mange hilsner"], "w13na": ["… søges! / … udlejes!", "Hej alle sammen", "Jeg hedder …, og jeg er … år.", "Jeg søger …", "Jeg vil gerne leje … ud.", "Der er lyst og hyggeligt.", "Prisen er …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Mange hilsner"], "w14nb": ["… søges! / … udlejes!", "Hej alle sammen", "Jeg hedder …, og jeg er … år.", "Jeg søger …", "Jeg vil gerne leje … ud.", "Der er lyst og hyggeligt.", "Prisen er …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Mange hilsner"], "w16b": ["… søges! / … udlejes!", "Hej alle sammen", "Jeg hedder …, og jeg er … år.", "Jeg søger …", "Jeg vil gerne leje … ud.", "Der er lyst og hyggeligt.", "Prisen er …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Mange hilsner"], "w20b": ["… søges! / … udlejes!", "Hej alle sammen", "Jeg hedder …, og jeg er … år.", "Jeg søger …", "Jeg vil gerne leje … ud.", "Der er lyst og hyggeligt.", "Prisen er …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Mange hilsner"], "w21nb": ["… søges! / … udlejes!", "Hej alle sammen", "Jeg hedder …, og jeg er … år.", "Jeg søger …", "Jeg vil gerne leje … ud.", "Der er lyst og hyggeligt.", "Prisen er …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Mange hilsner"], "w23ma": ["… søges! / … udlejes!", "Hej alle sammen", "Jeg hedder …, og jeg er … år.", "Jeg søger …", "Jeg vil gerne leje … ud.", "Der er lyst og hyggeligt.", "Prisen er …", "I kan ringe til mig på …", "Jeg håber at høre fra jer snart.", "Mange hilsner"]});
+// <<< simple:opslag
+
 (function () {
   const join = (L, key) => L.lines.map((l, i) => (i === 0 ? "" : l.p ? "\n\n" : /[.!?…:)]\s*$/.test(L.lines[i - 1].da || "") ? " " : /^(Kære|Hej|Hejsa|Hello|Til)\b/i.test(L.lines[i - 1].da || "") ? "\n\n" : "\n") + (l[key] || "")).join("");
   const W = Object.values(PD2.EXAMS || {}).flatMap(E => E.WRITING || []);
