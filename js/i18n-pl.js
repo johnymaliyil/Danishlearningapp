@@ -1324,5 +1324,9 @@ PD2.I18N.pl = {
 "Hvad?": "Co?",
 "Eksempel": "Przykład",
 "Gode ord og udtryk": "Dobre słowa i zwroty",
-"Eksempel på opgave:": "Przykładowe zadanie:"
+"Eksempel på opgave:": "Przykładowe zadanie:",
+"Sætningsbank": "Bank zdań",
+"Sætningsbank – sætninger til alle opgaver": "Bank zdań – zdania do wszystkich zadań",
+"💬 Flere sætninger i Sætningsbanken →": "💬 Więcej zdań w banku zdań →",
+"📝 Gemt i Mine ord": "📝 Zapisano w Moich słowach"
 };

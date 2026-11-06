@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "159"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "160"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -443,6 +443,7 @@
     [/^\/reading\/([\w-]+)$/, readingItem],
     [/^\/writing$/, writingList],
     [/^\/writing\/skabeloner(?:\/(\w+))?$/, templatesPage],
+    [/^\/saetninger$/, sentenceBankPage],
     [/^\/writing\/([\w-]+)$/, writingItem],
     [/^\/speaking$/, speakingList],
     [/^\/speaking\/sim(?:\/(\w+))?$/, speakingSim],
@@ -1429,6 +1430,11 @@
         <h2>Skabeloner – lær dem udenad</h2>
         <p class="muted" style="margin:0">Én fast start, faste afsnit og én fast slutning til hver teksttype: ${esc(Object.values(PD2.TEMPLATES).filter(t => EX().WRITING.some(w => w.tpl === t.id)).map(t => t.name.toLowerCase()).join(", "))}. Lær dem, så skriver du hurtigere og sikrere til prøven.</p>
       </a>` : ""}
+      ${PD2.SENTENCE_BANK && S.exam !== "pd1" ? `<a class="task write tpl-link tool-card" href="#/saetninger">
+        <span class="emoji">💬</span>
+        <h2>Sætningsbank – sætninger til alle opgaver</h2>
+        <p class="muted" style="margin:0">Korte sætninger, du kan bruge igen og igen: «Der er lyst og hyggeligt.», «Der er gode naboer.», «Fordelen er, at …», «Jeg synes, at …, fordi …» og mange flere.</p>
+      </a>` : ""}
       ${PD2.LISTEN && EX().WRITING.some(w => PD2.LISTEN[w.id]) ? `<div class="grid grid-2 listen-cards">${[1, 2].map(d => `<a class="task write tool-card" href="#/lyt/${d}">
         <span class="emoji">🎧</span><h2>Lyt til modelsvar · Delprøve ${d}</h2>
         <p class="muted" style="margin:0">Hør modelsvarene langsomt, sætning for sætning, med grammatik og engelsk oversættelse.</p></a>`).join("")}</div>` : ""}
@@ -1720,6 +1726,7 @@
             <h3>💬 Nyttige vendinger</h3>
             <p class="small muted">Klik for at indsætte i teksten.</p>
             <div class="chips">${w.phrases.map(p => `<button class="chip" data-phrase="${esc(p)}">${esc(p)}</button>`).join("")}</div>
+            ${PD2.SENTENCE_BANK && S.exam !== "pd1" ? `<p class="small" style="margin:10px 0 0"><a href="#/saetninger">💬 Flere sætninger i Sætningsbanken →</a></p>` : ""}
           </div>
         </div>
       </div>`;
@@ -2967,6 +2974,34 @@
       ["Se på uret undervejs, så du når alle opgaverne.", "Keep an eye on the clock so you get through all the tasks."],
       ["Er du nervøs? Træk vejret dybt tre gange. Du har øvet dig – du kan det!", "Nervous? Take three deep breaths. You have practised – you can do it!"]]]
   ];
+  // ----- 💬 Sætningsbank: generic sentences for all writing tasks (PD2; PD3 also gets the advanced ones) -----
+  function sentenceBankPage() {
+    const pd3 = S.exam === "pd3";
+    const cats = (PD2.SENTENCE_BANK || []).map(c => ({ ...c, items: c.items.filter(it => it[2] !== "pd3" || pd3) })).filter(c => c.items.length);
+    const total = cats.reduce((a, c) => a + c.items.length, 0);
+    app.innerHTML = `<a class="back" href="#/writing">← Alle skriveopgaver</a>
+      <h1>💬 Sætningsbank <span class="tag">${META().name}</span></h1>
+      <p class="muted">${total} korte sætninger, som du kan bruge i næsten alle skriveopgaver. Skift kun ordene, så de passer til din opgave. Tryk 🔊 for at høre sætningen og 📝 for at gemme den i Mine ord.</p>
+      <input class="nb-in" id="sbSearch" type="search" placeholder="Søg, fx «lyst», «naboer», «fordel» …" autocomplete="off" style="width:100%;margin:4px 0 12px">
+      <div class="stack" id="sbList">${cats.map((c, ci) => `<details class="card sb-cat" ${ci < 2 ? "open" : ""}><summary><h2 style="display:inline;margin:0">${c.ico} ${esc(c.title)}</h2> <span class="small muted" lang="en">${esc(c.en)}</span></summary>
+        <ul class="sb-list">${c.items.map(([da, en, lv]) => `<li class="sb-item" data-q="${esc((da + " " + en).toLowerCase())}">
+          <span class="sb-da no-tr" data-keep>${esc(da)}${lv === "pd3" ? ` <span class="tag">PD3</span>` : ""}</span>
+          <span class="sb-en small muted" lang="en">${esc(en)}</span>
+          <span class="sb-btns"><button class="btn ghost sm" data-sbsay="${esc(da)}" aria-label="Lyt">🔊</button><button class="btn ghost sm" data-sbsave="${esc(da)}" data-en="${esc(en)}" aria-label="Gem i Mine ord">📝</button></span>
+        </li>`).join("")}</ul></details>`).join("")}</div>
+      <p class="small muted" style="margin-top:14px">De samme sætninger står i modelsvarene og skabelonerne. <a href="#/writing/skabeloner">📋 Se skabelonerne</a></p>`;
+    $$("[data-sbsay]").forEach(b => b.onclick = () => speak(b.dataset.sbsay.replace(/…/g, ""), null, 0.85));
+    $$("[data-sbsave]").forEach(b => {
+      if (nbHas(b.dataset.sbsave)) { b.textContent = "✓"; b.disabled = true; }
+      b.onclick = () => { if (!nbHas(b.dataset.sbsave)) nbAdd({ da: b.dataset.sbsave, en: b.dataset.en }); b.textContent = "✓"; b.disabled = true; toast("📝 Gemt i Mine ord"); };
+    });
+    $("#sbSearch").oninput = e => {
+      const q = e.target.value.trim().toLowerCase();
+      $$(".sb-item").forEach(li => { li.hidden = !!q && !li.dataset.q.includes(q); });
+      $$(".sb-cat").forEach(d => { const any = $$(".sb-item", d).some(li => !li.hidden); d.hidden = !any; if (q && any) d.open = true; });
+    };
+  }
+
   function tipsPage() {
     const c = MOCK_CFG[S.exam];
     app.innerHTML = `<a class="back" href="#/">← Forside</a>
@@ -3900,6 +3935,7 @@
           <li>Skriv en af opgaverne og brug skabelonen. Modelsvarene følger skabelonen ord for ord.</li>
         </ol>
         <p class="small muted" style="margin-bottom:0">Skabelonerne passer til ${META().name}. Skift prøve øverst for at se skabelonerne til de andre prøver.</p>
+        ${PD2.SENTENCE_BANK && S.exam !== "pd1" ? `<p class="small" style="margin:8px 0 0"><a href="#/saetninger">💬 Sætningsbank</a> med sætninger, du kan bruge i alle teksttyper.</p>` : ""}
       </div>
       <div class="stack" style="margin-top:16px">
         ${Object.values(T).map(t => {

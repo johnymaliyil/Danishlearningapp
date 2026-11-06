@@ -1361,5 +1361,9 @@ PD2.I18N.en = {
 "Hvad?": "What?",
 "Eksempel": "Example",
 "Gode ord og udtryk": "Good words and phrases",
-"Eksempel på opgave:": "Example task:"
+"Eksempel på opgave:": "Example task:",
+"Sætningsbank": "Sentence bank",
+"Sætningsbank – sætninger til alle opgaver": "Sentence bank – sentences for all tasks",
+"💬 Flere sætninger i Sætningsbanken →": "💬 More sentences in the sentence bank →",
+"📝 Gemt i Mine ord": "📝 Saved in My words"
 };

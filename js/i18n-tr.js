@@ -1324,5 +1324,9 @@ PD2.I18N.tr = {
 "Hvad?": "Ne?",
 "Eksempel": "Örnek",
 "Gode ord og udtryk": "İyi kelimeler ve ifadeler",
-"Eksempel på opgave:": "Örnek görev:"
+"Eksempel på opgave:": "Örnek görev:",
+"Sætningsbank": "Cümle bankası",
+"Sætningsbank – sætninger til alle opgaver": "Cümle bankası – tüm görevler için cümleler",
+"💬 Flere sætninger i Sætningsbanken →": "💬 Cümle bankasında daha fazla cümle →",
+"📝 Gemt i Mine ord": "📝 Kelimelerim'e kaydedildi"
 };

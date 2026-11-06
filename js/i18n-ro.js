@@ -1324,5 +1324,9 @@ PD2.I18N.ro = {
 "Hvad?": "Ce?",
 "Eksempel": "Exemplu",
 "Gode ord og udtryk": "Cuvinte și expresii bune",
-"Eksempel på opgave:": "Exemplu de sarcină:"
+"Eksempel på opgave:": "Exemplu de sarcină:",
+"Sætningsbank": "Banca de propoziții",
+"Sætningsbank – sætninger til alle opgaver": "Banca de propoziții – propoziții pentru toate sarcinile",
+"💬 Flere sætninger i Sætningsbanken →": "💬 Mai multe propoziții în banca de propoziții →",
+"📝 Gemt i Mine ord": "📝 Salvat în Cuvintele mele"
 };

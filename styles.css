@@ -1262,3 +1262,10 @@ a.chip { text-decoration: none; }
   .mt-head { display: none; }
   .mt-row { grid-template-columns: 1fr; gap: 4px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
 }
+
+/* 💬 Sætningsbank */
+.sb-list { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 6px; }
+.sb-item { display: grid; grid-template-columns: 1fr 1fr auto; gap: 4px 12px; align-items: center; padding: 6px 8px; border-radius: 10px; background: var(--surface-2); }
+.sb-da { font-weight: 700; }
+.sb-btns { display: flex; gap: 4px; }
+@media (max-width: 720px) { .sb-item { grid-template-columns: 1fr auto; } .sb-en { grid-column: 1; grid-row: 2; } .sb-btns { grid-row: 1 / span 2; grid-column: 2; } }

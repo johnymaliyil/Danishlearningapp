@@ -1324,5 +1324,9 @@ PD2.I18N.uk = {
 "Hvad?": "Що?",
 "Eksempel": "Приклад",
 "Gode ord og udtryk": "Корисні слова та вирази",
-"Eksempel på opgave:": "Приклад завдання:"
+"Eksempel på opgave:": "Приклад завдання:",
+"Sætningsbank": "Банк речень",
+"Sætningsbank – sætninger til alle opgaver": "Банк речень – речення для всіх завдань",
+"💬 Flere sætninger i Sætningsbanken →": "💬 Більше речень у банку речень →",
+"📝 Gemt i Mine ord": "📝 Збережено в «Мої слова»"
 };
