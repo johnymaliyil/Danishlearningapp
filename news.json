@@ -1,6 +1,97 @@
 {
- "updated": "2026-11-06T12:08+00:00",
+ "updated": "2026-11-06T20:54+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/martin-johannes-larsen-vil-fortsaette-som-vaert-paa-tv-2-programmet-forraedder",
+   "date": "2026-11-06T19:20:37+00:00",
+   "da": {
+    "title": "Martin Johannes Larsen vil fortsætte som vært på TV 2-programmet 'Forrædder'",
+    "desc": ""
+   },
+   "en": {
+    "title": "Martin Johannes Larsen will continue to host the TV 2 show 'Traitor'",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/britiske-prins-harry-vil-anke-sag-mod-daily-mail",
+   "date": "2026-11-06T18:12:07+00:00",
+   "da": {
+    "title": "Britiske prins Harry vil anke sag mod Daily Mail",
+    "desc": ""
+   },
+   "en": {
+    "title": "British Prince Harry to appeal against Daily Mail",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/foerste-gang-skal-en-kvinde-staa-i-spidsen-balenciaga",
+   "date": "2026-11-06T17:48:59+00:00",
+   "da": {
+    "title": "For første gang skal en kvinde stå i spidsen for Balenciaga",
+    "desc": ""
+   },
+   "en": {
+    "title": "For the first time, a woman will be in charge of Balenciaga",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/danske-herrer-napper-holdsoelv-ved-vm-i-tumbling",
+   "date": "2026-11-06T16:28:40+00:00",
+   "da": {
+    "title": "Danske herrer napper holdsølv ved VM i tumbling",
+    "desc": ""
+   },
+   "en": {
+    "title": "Danish men snatch team silver at the World Tumbling Championships",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/29-aarig-mand-sigtet-afpresse-22-maend",
+   "date": "2026-11-06T15:50:34+00:00",
+   "da": {
+    "title": "29-årig mand sigtet for at afpresse 22 mænd",
+    "desc": ""
+   },
+   "en": {
+    "title": "29-year-old man charged with blackmailing 22 men",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/drabsdoemt-flugtfange-idoemt-fire-aars-faengsel-flugt-og-narko",
+   "date": "2026-11-06T15:17:27+00:00",
+   "da": {
+    "title": "Drabsdømt flugtfange idømt fire års fængsel for flugt og narko",
+    "desc": ""
+   },
+   "en": {
+    "title": "Murdered escapee sentenced to four years in prison for escape and drugs",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/seneste-sport/dansk-skytte-vinder-vm-guld-og-booker-ol-billet",
+   "date": "2026-11-06T14:19:00+00:00",
+   "da": {
+    "title": "Dansk skytte vinder VM-guld og booker OL-billet",
+    "desc": ""
+   },
+   "en": {
+    "title": "Danish shooter wins World Cup gold and books Olympic ticket",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/nyt-system-skal-overvaage-droner-ved-storebaeltsbroen",
@@ -102,97 +193,6 @@
    },
    "en": {
     "title": "US stock market plummeting",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/maend-faar-hver-15-aars-faengsel-fragte-over-200-kilo-narko-til-danmark",
-   "date": "2026-11-05T20:42:37+00:00",
-   "da": {
-    "title": "To mænd får hver 15 års fængsel for at fragte over 200 kilo narko til Danmark",
-    "desc": ""
-   },
-   "en": {
-    "title": "Two men each get 15 years in prison for transporting over 200 kilos of drugs to Denmark",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/oerkenens-soenner-faar-nye-medlemmer",
-   "date": "2026-11-05T19:05:37+00:00",
-   "da": {
-    "title": "Ørkenens Sønner får to nye medlemmer",
-    "desc": ""
-   },
-   "en": {
-    "title": "The Sons of the Desert will have two new members",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/fbi-advarer-supermarkeder-i-usa-om-cyberangreb-mod-koeleanlaeg",
-   "date": "2026-11-05T18:16:38+00:00",
-   "da": {
-    "title": "FBI advarer supermarkeder i USA om cyberangreb mod køleanlæg",
-    "desc": ""
-   },
-   "en": {
-    "title": "FBI warns US supermarkets of cyber attacks on refrigeration systems",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/copenhell-er-sikret-endnu-en-heavy-festival",
-   "date": "2026-11-05T16:22:25+00:00",
-   "da": {
-    "title": "Copenhell er sikret endnu en heavy-festival",
-    "desc": ""
-   },
-   "en": {
-    "title": "Copenhell is guaranteed another heavy festival",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tog-brudt-ned-ingen-tog-mellem-fredericia-og-odense",
-   "date": "2026-11-05T15:50:10+00:00",
-   "da": {
-    "title": "Tog brudt ned: Ingen tog mellem Fredericia og Odense",
-    "desc": ""
-   },
-   "en": {
-    "title": "Train broken down: No train between Fredericia and Odense",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/arabisk-parti-stoetter-eks-general-i-forsoeget-paa-danne-regering-i-israel",
-   "date": "2026-11-05T15:24:52+00:00",
-   "da": {
-    "title": "Arabisk parti støtter eks-general i forsøget på at danne regering i Israel",
-    "desc": ""
-   },
-   "en": {
-    "title": "Arab party supports ex-general in attempt to form government in Israel",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/fire-doemt-drab-paa-19-aarig-de-faar-i-alt-44-aars-faengsel",
-   "date": "2026-11-05T14:48:04+00:00",
-   "da": {
-    "title": "Landsret skærper straf: Fire dømt for drab på 19-årig",
-    "desc": ""
-   },
-   "en": {
-    "title": "High Court increases punishment: Four convicted of murder of 19-year-old",
     "desc": ""
    }
   }
