@@ -1,6 +1,71 @@
 {
- "updated": "2026-11-06T20:54+00:00",
+ "updated": "2026-11-07T11:05+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mand-er-blevet-stukket-med-kniv-paa-amager",
+   "date": "2026-11-07T10:30:39+00:00",
+   "da": {
+    "title": "Mand er blevet stukket med kniv på Amager",
+    "desc": ""
+   },
+   "en": {
+    "title": "Man stabbed in Amager",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/seneste-sport/dansker-skyder-sig-til-vm-soelv-i-doha",
+   "date": "2026-11-07T10:23:00+00:00",
+   "da": {
+    "title": "Dansker skyder sig til VM-sølv i Doha",
+    "desc": ""
+   },
+   "en": {
+    "title": "Dane shoots his way to World Cup silver in Doha",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/fjerde-loerdag-i-traek-gaar-titusindvis-paa-gaden-i-frankrig",
+   "date": "2026-11-07T09:23:41+00:00",
+   "da": {
+    "title": "For fjerde lørdag i træk går titusindvis på gaden i Frankrig",
+    "desc": ""
+   },
+   "en": {
+    "title": "For the fourth Saturday in a row, tens of thousands take to the streets in France",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/demonstranter-blaeser-til-kamp-mod-danske-datacentre",
+   "date": "2026-11-07T07:46:28+00:00",
+   "da": {
+    "title": "Demonstranter blæser til kamp mod danske datacentre",
+    "desc": ""
+   },
+   "en": {
+    "title": "Demonstrators flare up for battle against Danish data centers",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/politiet-bevogter-hus-efter-fund-af-stoerre-maengde-hjemmelavet-fyrvaerkeri",
+   "date": "2026-11-07T06:15:42+00:00",
+   "da": {
+    "title": "Politiet bevogter hus efter fund af større mængde hjemmelavet fyrværkeri",
+    "desc": ""
+   },
+   "en": {
+    "title": "Police guard house after discovery of large amount of homemade fireworks",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/martin-johannes-larsen-vil-fortsaette-som-vaert-paa-tv-2-programmet-forraedder",
@@ -128,71 +193,6 @@
    },
    "en": {
     "title": "Man convicted of dating fraud against 14 women",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/kvinde-doemt-dating-svindel-afpressede-maendene",
-   "date": "2026-11-06T06:59:59+00:00",
-   "da": {
-    "title": "Kvinde dømt for dating-svindel - afpressede mændene",
-    "desc": ""
-   },
-   "en": {
-    "title": "Woman convicted of dating fraud - blackmailed the men",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/dommer-saetter-stopper-trumps-triumfbue",
-   "date": "2026-11-06T06:33:29+00:00",
-   "da": {
-    "title": "Dommer sætter stopper for Trumps 'triumfbue'",
-    "desc": ""
-   },
-   "en": {
-    "title": "Judge puts an end to Trump's 'triumphal arch'",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/trump-giver-demokraternes-valgsejr-skylden-aktiefald",
-   "date": "2026-11-06T04:57:12+00:00",
-   "da": {
-    "title": "Trump giver Demokraternes valgsejr skylden for aktiefald",
-    "desc": ""
-   },
-   "en": {
-    "title": "Trump Blames Democrats' Election Victory for Stock Drops",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/fn-naesten-90-millioner-paa-flugt-er-truet-af-toerke-og-oversvoemmelser",
-   "date": "2026-11-06T04:42:21+00:00",
-   "da": {
-    "title": "FN: Næsten 90 millioner på flugt er truet af tørke og oversvømmelser",
-    "desc": ""
-   },
-   "en": {
-    "title": "UN: Nearly 90 million displaced are threatened by drought and floods",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/det-amerikanske-aktiemarked-styrtdykker",
-   "date": "2026-11-05T21:11:20+00:00",
-   "da": {
-    "title": "Det amerikanske aktiemarked styrtdykker",
-    "desc": ""
-   },
-   "en": {
-    "title": "US stock market plummeting",
     "desc": ""
    }
   }
