@@ -1,6 +1,84 @@
 {
- "updated": "2026-11-07T11:05+00:00",
+ "updated": "2026-11-07T19:26+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/slagord-mod-det-groenlandske-parlament-i-nuuks-centrum",
+   "date": "2026-11-07T18:23:13+00:00",
+   "da": {
+    "title": "Slagord mod det grønlandske parlament i Nuuks centrum",
+    "desc": ""
+   },
+   "en": {
+    "title": "Slogans against the Greenlandic Parliament in the centre of Nuuk",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/christian-budde-bliver-ny-landsformand-i-idraetsorganisationen-dgi",
+   "date": "2026-11-07T17:10:30+00:00",
+   "da": {
+    "title": "Christian Budde bliver ny landsformand i idrætsorganisationen DGI",
+    "desc": ""
+   },
+   "en": {
+    "title": "Christian Budde becomes new national chairman of the sports organization DGI",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/vintersport/ol-dansker-dropper-curling-paa-grund-af-manglende-stoette",
+   "date": "2026-11-07T16:37:39+00:00",
+   "da": {
+    "title": "OL-dansker dropper curling på grund af manglende støtte",
+    "desc": ""
+   },
+   "en": {
+    "title": "Olympic Dane Drops Curling Due to Lack of Support",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/draebt-og-ti-saaret-i-skyderi-i-krakow",
+   "date": "2026-11-07T15:12:45+00:00",
+   "da": {
+    "title": "Seks er dræbt og flere såret i skyderi i Krakow",
+    "desc": "En mand kørte ind på hovedtorvet i den polske by og begyndte at skyde tilfældige."
+   },
+   "en": {
+    "title": "Six killed and several wounded in Krakow shooting",
+    "desc": "A man drove into the main square of the Polish city and started shooting randomly."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/advarer-om-roegudvikling-ved-ng-nordic-i-nyborg",
+   "date": "2026-11-07T14:05:20+00:00",
+   "da": {
+    "title": "Ophæver advarsel om lugtgener efter røg fra affaldsvirksomhed i Nyborg",
+    "desc": "Folk skal ikke længere holde sig inden døre i nærheden af NG Nordic."
+   },
+   "en": {
+    "title": "Cancels warning about odor nuisance after smoke from waste disposal in Nyborg",
+    "desc": "People no longer have to stay indoors near NG Nordic."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/seneste-sport/ishockeyforbund-fastholder-udelukkelse-af-belarus",
+   "date": "2026-11-07T11:53:42+00:00",
+   "da": {
+    "title": "Ishockeyforbund fastholder udelukkelse af Belarus",
+    "desc": ""
+   },
+   "en": {
+    "title": "Ice hockey federation maintains exclusion of Belarus",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/mand-er-blevet-stukket-med-kniv-paa-amager",
@@ -71,7 +149,7 @@
    "link": "https://www.dr.dk/nyheder/seneste/martin-johannes-larsen-vil-fortsaette-som-vaert-paa-tv-2-programmet-forraedder",
    "date": "2026-11-06T19:20:37+00:00",
    "da": {
-    "title": "Martin Johannes Larsen vil fortsætte som vært på TV 2-programmet 'Forrædder'",
+    "title": "Martin Johannes Larsen vil fortsætte som vært på TV 2-programmet 'Forræder'",
     "desc": ""
    },
    "en": {
@@ -115,84 +193,6 @@
    },
    "en": {
     "title": "Danish men snatch team silver at the World Tumbling Championships",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/29-aarig-mand-sigtet-afpresse-22-maend",
-   "date": "2026-11-06T15:50:34+00:00",
-   "da": {
-    "title": "29-årig mand sigtet for at afpresse 22 mænd",
-    "desc": ""
-   },
-   "en": {
-    "title": "29-year-old man charged with blackmailing 22 men",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/drabsdoemt-flugtfange-idoemt-fire-aars-faengsel-flugt-og-narko",
-   "date": "2026-11-06T15:17:27+00:00",
-   "da": {
-    "title": "Drabsdømt flugtfange idømt fire års fængsel for flugt og narko",
-    "desc": ""
-   },
-   "en": {
-    "title": "Murdered escapee sentenced to four years in prison for escape and drugs",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/seneste-sport/dansk-skytte-vinder-vm-guld-og-booker-ol-billet",
-   "date": "2026-11-06T14:19:00+00:00",
-   "da": {
-    "title": "Dansk skytte vinder VM-guld og booker OL-billet",
-    "desc": ""
-   },
-   "en": {
-    "title": "Danish shooter wins World Cup gold and books Olympic ticket",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/nyt-system-skal-overvaage-droner-ved-storebaeltsbroen",
-   "date": "2026-11-06T09:55:18+00:00",
-   "da": {
-    "title": "Nyt system skal overvåge droner ved Storebæltsbroen",
-    "desc": ""
-   },
-   "en": {
-    "title": "New system to monitor drones at the Great Belt Bridge",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/seneste-sport/verdensmester-i-speedway-skifter-til-dansk-liga",
-   "date": "2026-11-06T08:32:53+00:00",
-   "da": {
-    "title": "Verdensmester i speedway skifter til dansk liga",
-    "desc": ""
-   },
-   "en": {
-    "title": "World speedway champion switches to Danish league",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/mand-doemt-datingsvindel-mod-14-kvinder",
-   "date": "2026-11-06T08:31:37+00:00",
-   "da": {
-    "title": "Mand dømt for datingsvindel mod 14 kvinder",
-    "desc": ""
-   },
-   "en": {
-    "title": "Man convicted of dating fraud against 14 women",
     "desc": ""
    }
   }
