@@ -1,6 +1,97 @@
 {
- "updated": "2026-11-08T11:17+00:00",
+ "updated": "2026-11-08T19:42+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mindst-34-druknet-efter-migrantbaad-synker-ud-senegal",
+   "date": "2026-11-08T18:59:25+00:00",
+   "da": {
+    "title": "Mindst 34 er druknet, efter migrantbåd synker ud for Senegal",
+    "desc": ""
+   },
+   "en": {
+    "title": "At least 34 have drowned after migrant boat sinks off Senegal",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/borgere-paa-laesoe-kan-opleve-112-problemer",
+   "date": "2026-11-08T17:28:25+00:00",
+   "da": {
+    "title": "Borgere på Læsø kan opleve 112-problemer",
+    "desc": ""
+   },
+   "en": {
+    "title": "Citizens of Læsø may experience 112 problems",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/svenske-socialdemokrater-goer-nyt-forsoeg-paa-danne-regering",
+   "date": "2026-11-08T17:20:37+00:00",
+   "da": {
+    "title": "Svenske socialdemokrater gør nyt forsøg på at danne regering",
+    "desc": ""
+   },
+   "en": {
+    "title": "Swedish Social Democrats make new attempt to form government",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/fire-omkommet-og-mange-kvaestet-i-togulykke-i-egypten",
+   "date": "2026-11-08T15:19:13+00:00",
+   "da": {
+    "title": "Syv omkommet og mange kvæstet i togulykke i Egypten",
+    "desc": ""
+   },
+   "en": {
+    "title": "Seven dead and many injured in train accident in Egypt",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/over-2-000-er-uden-stroem-i-herning",
+   "date": "2026-11-08T13:01:26+00:00",
+   "da": {
+    "title": "Over 3.000 var uden strøm i Herning",
+    "desc": ""
+   },
+   "en": {
+    "title": "Over 3,000 were without power in Herning",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/europa-deltager-i-moede-mellem-ukraine-og-rusland-siger-udenrigsminister",
+   "date": "2026-11-08T12:04:38+00:00",
+   "da": {
+    "title": "Europa deltager i møde mellem Ukraine og Rusland, siger udenrigsminister",
+    "desc": ""
+   },
+   "en": {
+    "title": "Europe attends Ukraine-Russia meeting, Foreign Minister says",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/amerikansk-specialstyrke-skal-forstyrre-landruter-i-iran",
+   "date": "2026-11-08T11:42:28+00:00",
+   "da": {
+    "title": "Amerikansk specialstyrke skal forstyrre landruter i Iran",
+    "desc": ""
+   },
+   "en": {
+    "title": "US special forces to disrupt land routes in Iran",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/virksomhed-bag-oplevelsesgaver-udsat-cyberangreb",
@@ -102,97 +193,6 @@
    },
    "en": {
     "title": "Ice hockey federation maintains exclusion of Belarus",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/mand-er-blevet-stukket-med-kniv-paa-amager",
-   "date": "2026-11-07T10:30:39+00:00",
-   "da": {
-    "title": "Mand er blevet stukket med kniv på Amager",
-    "desc": ""
-   },
-   "en": {
-    "title": "Man stabbed in Amager",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/seneste-sport/dansker-skyder-sig-til-vm-soelv-i-doha",
-   "date": "2026-11-07T10:23:00+00:00",
-   "da": {
-    "title": "Dansker skyder sig til VM-sølv i Doha",
-    "desc": ""
-   },
-   "en": {
-    "title": "Dane shoots his way to World Cup silver in Doha",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/fjerde-loerdag-i-traek-gaar-titusindvis-paa-gaden-i-frankrig",
-   "date": "2026-11-07T09:23:41+00:00",
-   "da": {
-    "title": "For fjerde lørdag i træk går titusindvis på gaden i Frankrig",
-    "desc": ""
-   },
-   "en": {
-    "title": "For the fourth Saturday in a row, tens of thousands take to the streets in France",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/demonstranter-blaeser-til-kamp-mod-danske-datacentre",
-   "date": "2026-11-07T07:46:28+00:00",
-   "da": {
-    "title": "Demonstranter blæser til kamp mod danske datacentre",
-    "desc": ""
-   },
-   "en": {
-    "title": "Demonstrators flare up for battle against Danish data centers",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/politiet-bevogter-hus-efter-fund-af-stoerre-maengde-hjemmelavet-fyrvaerkeri",
-   "date": "2026-11-07T06:15:42+00:00",
-   "da": {
-    "title": "Politiet bevogter hus efter fund af større mængde hjemmelavet fyrværkeri",
-    "desc": ""
-   },
-   "en": {
-    "title": "Police guard house after discovery of large amount of homemade fireworks",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/martin-johannes-larsen-vil-fortsaette-som-vaert-paa-tv-2-programmet-forraedder",
-   "date": "2026-11-06T19:20:37+00:00",
-   "da": {
-    "title": "Martin Johannes Larsen vil fortsætte som vært på TV 2-programmet 'Forræder'",
-    "desc": ""
-   },
-   "en": {
-    "title": "Martin Johannes Larsen will continue to host the TV 2 show 'Traitor'",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/britiske-prins-harry-vil-anke-sag-mod-daily-mail",
-   "date": "2026-11-06T18:12:07+00:00",
-   "da": {
-    "title": "Britiske prins Harry vil anke sag mod Daily Mail",
-    "desc": ""
-   },
-   "en": {
-    "title": "British Prince Harry to appeal against Daily Mail",
     "desc": ""
    }
   }
