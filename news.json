@@ -1,6 +1,32 @@
 {
- "updated": "2026-11-07T19:26+00:00",
+ "updated": "2026-11-08T11:17+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/virksomhed-bag-oplevelsesgaver-udsat-cyberangreb",
+   "date": "2026-11-08T08:41:10+00:00",
+   "da": {
+    "title": "Virksomhed bag oplevelsesgaver udsat for cyberangreb",
+    "desc": ""
+   },
+   "en": {
+    "title": "Company behind experience gifts exposed to cyberattacks",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/kronprins-frederiks-bro-genaabner-i-dag",
+   "date": "2026-11-08T07:34:36+00:00",
+   "da": {
+    "title": "Kronprins Frederiks Bro genåbner i dag",
+    "desc": ""
+   },
+   "en": {
+    "title": "Crown Prince Frederik's Bridge reopens today",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/slagord-mod-det-groenlandske-parlament-i-nuuks-centrum",
@@ -167,32 +193,6 @@
    },
    "en": {
     "title": "British Prince Harry to appeal against Daily Mail",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/foerste-gang-skal-en-kvinde-staa-i-spidsen-balenciaga",
-   "date": "2026-11-06T17:48:59+00:00",
-   "da": {
-    "title": "For første gang skal en kvinde stå i spidsen for Balenciaga",
-    "desc": ""
-   },
-   "en": {
-    "title": "For the first time, a woman will be in charge of Balenciaga",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/danske-herrer-napper-holdsoelv-ved-vm-i-tumbling",
-   "date": "2026-11-06T16:28:40+00:00",
-   "da": {
-    "title": "Danske herrer napper holdsølv ved VM i tumbling",
-    "desc": ""
-   },
-   "en": {
-    "title": "Danish men snatch team silver at the World Tumbling Championships",
     "desc": ""
    }
   }
