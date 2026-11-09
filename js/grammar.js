@@ -9,6 +9,97 @@
 
 PD2.GRAMMAR = [
   {
+    id: "ordklasser", ico: "🔤", title: "Ordklasser – de vigtigste slags ord", en: "Word classes – the main kinds of words",
+    intro: "Alle ord hører til en ordklasse. Når du ved, om et ord er et navneord, et verbum eller et tillægsord, er det lettere at bøje det rigtigt og at finde det rigtige ord i en opgave.",
+    introEn: "Every word belongs to a word class. When you know if a word is a noun, a verb or an adjective, it is easier to give it the right ending and to find the right word in a gap task.",
+    rules: [
+      {
+        h: "Overblik",
+        da: "De otte vigtigste ordklasser:",
+        en: "The eight most important word classes:",
+        table: { head: ["Dansk navn", "English", "Hvad er det?", "Eksempler"], rows: [
+          ["Navneord (substantiv)", "noun", "en ting, en person, et sted", "en bil, et hus, Peter, København"],
+          ["Verbum (udsagnsord)", "verb", "noget man gør eller er", "spise, bo, arbejde, være"],
+          ["Tillægsord (adjektiv)", "adjective", "fortæller, hvordan noget er", "stor, lys, god, dejlig"],
+          ["Biord (adverbium)", "adverb", "fortæller hvordan, hvornår, hvor tit", "hurtigt, altid, ikke, også, i dag"],
+          ["Stedord (pronomen)", "pronoun", "står i stedet for et navneord", "jeg, mig, min, han, den, det"],
+          ["Forholdsord (præposition)", "preposition", "små ord om sted og tid", "i, på, til, fra, med, om"],
+          ["Bindeord (konjunktion)", "conjunction", "binder sætninger sammen", "og, men, fordi, at, når, hvis"],
+          ["Talord", "number", "tal", "en, to, tre, første, anden"]
+        ] }
+      },
+      {
+        h: "Navneord (noun) – en / et",
+        da: "Et navneord er en ting, en person eller et sted. Du kan sætte «en» eller «et» foran. Det kan stå i flertal (flere) og i bestemt form (-en / -et).",
+        en: "A noun is a thing, a person or a place. You can put «en» or «et» in front of it. It can be plural (more than one) and have the «the» ending (-en / -et).",
+        ex: [["en lejlighed → lejligheden → lejligheder", "a flat → the flat → flats"], ["et hus → huset → huse", "a house → the house → houses"], ["Min nabo har en stor hund.", "My neighbour has a big dog. (nabo, hund = nouns)"]]
+      },
+      {
+        h: "Verbum (verb) – det, man gør",
+        da: "Et verbum er det, man gør eller er. Du kan sætte «at» foran grundformen. I nutid ender det på -r. Der skal altid være et verbum i en sætning.",
+        en: "A verb is what you do or are. You can put «at» in front of the basic form. In the present it ends in -r. Every sentence needs a verb.",
+        ex: [["at spise → jeg spiser → jeg spiste → jeg har spist", "to eat → I eat → I ate → I have eaten"], ["at bo → jeg bor → jeg boede → jeg har boet", "to live → I live → I lived → I have lived"], ["Vi arbejder i en butik.", "We work in a shop. (arbejder = verb)"]]
+      },
+      {
+        h: "Tillægsord (adjective) – hvordan noget er",
+        da: "Et tillægsord fortæller, hvordan en ting eller en person er. Det står foran navneordet eller efter «er». Det får -t ved et-ord og -e ved flere eller efter «den / det / min».",
+        en: "An adjective tells what a thing or a person is like. It stands before the noun or after «er». It gets -t with et-words, and -e with plural or after «den / det / min».",
+        ex: [["en stor have – et stort hus – store huse", "a big garden – a big house – big houses"], ["den lyse lejlighed – min nye bil", "the bright flat – my new car"], ["Lejligheden er lys og hyggelig.", "The flat is bright and cosy. (lys, hyggelig = adjectives)"]]
+      },
+      {
+        h: "Biord (adverb) – hvordan, hvornår, hvor tit",
+        da: "Et biord fortæller noget om verbet: hvordan, hvornår, hvor eller hvor tit. Mange biord er tillægsord + -t: hurtig → hurtigt. Små biord som «ikke, altid, også, aldrig» er meget vigtige.",
+        en: "An adverb tells something about the verb: how, when, where or how often. Many adverbs are adjective + -t: hurtig → hurtigt (quickly). Small adverbs like «ikke, altid, også, aldrig» are very important.",
+        ex: [["Han kører hurtigt.", "He drives fast. (hurtigt = adverb: how?)"], ["Jeg spiser altid morgenmad.", "I always eat breakfast. (altid = adverb: how often?)"], ["I dag arbejder jeg ikke.", "Today I don't work. (i dag, ikke = adverbs)"]]
+      },
+      {
+        h: "Tillægsord eller biord? hurtig – hurtigt",
+        da: "Beskriver ordet en ting/person? Så er det et tillægsord. Beskriver det verbet (hvordan man gør noget)? Så er det et biord, og det ender tit på -t.",
+        en: "Does the word describe a thing/person? Then it is an adjective. Does it describe the verb (how you do something)? Then it is an adverb, and it often ends in -t.",
+        ex: [["Han er en god kok. – Han laver mad godt.", "He is a good cook (adjective). – He cooks well (adverb)."], ["Bussen er langsom. – Bussen kører langsomt.", "The bus is slow (adjective). – The bus drives slowly (adverb)."]]
+      },
+      {
+        h: "Stedord (pronoun) – jeg, mig, min",
+        da: "Stedord står i stedet for et navneord, så man ikke skal sige det samme ord igen og igen.",
+        en: "Pronouns stand in place of a noun, so you don't have to repeat the same word again and again.",
+        table: { head: ["Den, der gør det", "Efter verbet / forholdsord", "Min / din …"], rows: [["jeg", "mig", "min / mit / mine"], ["du", "dig", "din / dit / dine"], ["han / hun", "ham / hende", "hans / hendes"], ["vi", "os", "vores"], ["I", "jer", "jeres"], ["de", "dem", "deres"]] },
+        ex: [["Peter bor her. Han er sød. Jeg kan godt lide ham.", "Peter lives here. He is nice. I like him."]]
+      },
+      {
+        h: "Forholdsord (preposition) – i, på, til …",
+        da: "Små ord, der fortæller om sted, tid og retning. De står foran et navneord.",
+        en: "Small words that tell about place, time and direction. They stand before a noun.",
+        ex: [["Jeg bor i Vejle. Jeg arbejder på et hotel.", "I live in Vejle. I work at a hotel."], ["Vi kører til København om lørdagen.", "We drive to Copenhagen on Saturdays."], ["Hun kommer fra Syrien med sin familie.", "She comes from Syria with her family."]]
+      },
+      {
+        h: "Bindeord (conjunction) – og, men, fordi …",
+        da: "Bindeord binder ord og sætninger sammen. Efter «fordi, at, når, hvis, selvom» står «ikke» før verbet.",
+        en: "Conjunctions join words and sentences. After «fordi, at, når, hvis, selvom» the word «ikke» comes before the verb.",
+        ex: [["Jeg drikker kaffe og te.", "I drink coffee and tea. (og = and)"], ["Jeg er træt, men jeg er glad.", "I am tired, but I am happy. (men = but)"], ["Jeg bliver hjemme, fordi jeg ikke har tid.", "I stay at home because I don't have time. (fordi = because)"]]
+      },
+      {
+        h: "Sådan finder du ordklassen – et trick",
+        da: "Kan du sætte «en / et» foran? → navneord. Kan du sætte «at» eller «jeg» foran? → verbum. Kan du sætte «meget» foran og ord som «stor / god» passer? → tillægsord. Siger ordet hvordan eller hvornår man gør noget? → biord.",
+        en: "Can you put «en / et» in front? → noun. Can you put «at» or «jeg» in front? → verb. Can you put «meget» (very) in front, like «stor / god»? → adjective. Does the word say how or when you do something? → adverb.",
+        ex: [["en hund ✔ → navneord", "a dog → noun"], ["at løbe ✔ / jeg løber ✔ → verbum", "to run / I run → verb"], ["meget glad ✔ → tillægsord", "very happy → adjective"], ["Han løber hurtigt. (hvordan?) → biord", "He runs fast. (how?) → adverb"]]
+      }
+    ],
+    ex: [
+      { t: "mc", q: "Hvilken ordklasse er «hus»?", o: ["navneord", "verbum", "tillægsord"], a: 0, why: "You can say «et hus» – so it is a noun (navneord)." },
+      { t: "mc", q: "Hvilken ordklasse er «spiser» i «Jeg spiser et æble»?", o: ["navneord", "verbum", "biord"], a: 1, why: "«spiser» is what I do – a verb (verbum)." },
+      { t: "mc", q: "Hvilken ordklasse er «lys» i «Lejligheden er lys»?", o: ["tillægsord", "verbum", "forholdsord"], a: 0, why: "«lys» (bright) tells what the flat is like – an adjective (tillægsord)." },
+      { t: "mc", q: "Hvilken ordklasse er «hurtigt» i «Han kører hurtigt»?", o: ["tillægsord", "biord", "navneord"], a: 1, why: "«hurtigt» tells how he drives – an adverb (biord). It ends in -t." },
+      { t: "mc", q: "Hvilken ordklasse er «altid» i «Jeg spiser altid morgenmad»?", o: ["biord", "bindeord", "stedord"], a: 0, why: "«altid» (always) tells how often – an adverb (biord)." },
+      { t: "mc", q: "Hvilken ordklasse er «fordi»?", o: ["forholdsord", "bindeord", "verbum"], a: 1, why: "«fordi» (because) joins two sentences – a conjunction (bindeord)." },
+      { t: "mc", q: "Hvilken ordklasse er «på» i «Jeg arbejder på et hotel»?", o: ["forholdsord", "biord", "navneord"], a: 0, why: "«på» is a small word about place before a noun – a preposition (forholdsord)." },
+      { t: "mc", q: "Hvilken ordklasse er «hende» i «Jeg kan godt lide hende»?", o: ["navneord", "stedord", "tillægsord"], a: 1, why: "«hende» (her) stands instead of a name – a pronoun (stedord)." },
+      { t: "mc", q: "Han er en ___ kok. (god / godt)", o: ["god", "godt"], a: 0, why: "It describes the person (kok) – adjective: «en god kok»." },
+      { t: "mc", q: "Han laver mad ___. (god / godt)", o: ["god", "godt"], a: 1, why: "It describes how he cooks (the verb) – adverb with -t: «godt»." },
+      { t: "type", q: "Bussen kører ___. (langsom)", a: ["langsomt"], why: "It tells how the bus drives – adverb: langsom + t → langsomt." },
+      { t: "type", q: "Vi har et ___ hus. (stor)", a: ["stort"], why: "«hus» is an et-word, so the adjective gets -t: et stort hus." }
+    ]
+  },
+  {
     id: "dele", ico: "🧱", title: "Sætningens dele", en: "The parts of a sentence",
     intro: "En dansk sætning skal have et subjekt (hvem gør noget?) og et verbum (hvad gør de?). Den normale rækkefølge er subjekt – verbum – resten.",
     introEn: "A Danish sentence needs a subject (who does something?) and a verb (what do they do?). The normal order is subject – verb – the rest, just like in English.",
