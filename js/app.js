@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "162"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "163"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -445,6 +445,7 @@
     [/^\/writing\/skabeloner(?:\/(\w+))?$/, templatesPage],
     [/^\/saetninger$/, sentenceBankPage],
     [/^\/laesetraener(?:\/(o[345]))?$/, readTrainer],
+    [/^\/laesetraener\/spil\/(\w+)$/, readGame],
     [/^\/writing\/([\w-]+)$/, writingItem],
     [/^\/speaking$/, speakingList],
     [/^\/speaking\/sim(?:\/(\w+))?$/, speakingSim],
@@ -839,7 +840,7 @@
       <p class="muted">${esc(META().readingIntro)}</p>
       ${PD2.READ_TRAINER && S.exam === "pd2" ? `<a class="task read tool-card" href="#/laesetraener" style="display:block;margin:12px 0 4px">
         <span class="emoji">💪</span><h2>Læsetræner – Delprøve 2 (Opgave 3, 4, 5)</h2>
-        <p class="muted" style="margin:0">Træn opgavetyperne i små, lette trin: udfyld hullet, find sætningen og spørgsmål og svar – med hint og forklaring.</p></a>` : ""}
+        <p class="muted" style="margin:0">Træn opgavetyperne i små, lette trin – med hint, forklaring, hurtige spil og tips og tricks.</p></a>` : ""}
       ${PD2.LISTEN_R && EX().READING.some(r => PD2.LISTEN_R[r.id]) ? `<a class="task read tool-card" href="#/lyt-r" style="display:block;margin:12px 0 4px">
         <span class="emoji">🎧</span><h2>Lyt til læseteksterne</h2>
         <p class="muted" style="margin:0">Hør teksterne langsomt, sætning for sætning, med grammatik og engelsk oversættelse.</p></a>` : ""}
@@ -2994,7 +2995,15 @@
           <h2 style="margin-top:0">${esc(T[k].title)} <span class="small muted" lang="en">${esc(T[k].en)}</span></h2>
           <p style="margin:0 0 4px"><b>Sådan gør du:</b></p>${how(k)}
           <div class="row" style="margin-top:10px"><a class="btn read" href="#/laesetraener/${k}">▶ Start (10 opgaver)</a>
-          ${S.readTrainer[k] ? `<span class="pill">🏆 ${S.readTrainer[k]}/10</span>` : ""}</div></div>`).join("")}</div>`;
+          ${S.readTrainer[k] ? `<span class="pill">🏆 ${S.readTrainer[k]}/10</span>` : ""}</div></div>`).join("")}</div>
+        ${PD2.READ_GAMES ? `<h2 style="margin-top:22px">🎮 Hurtige spil</h2>
+        <p class="muted small" style="margin-top:-4px">Træn de små ting, der gør opgaverne lettere. 10 hurtige spørgsmål.</p>
+        <div class="grid grid-2 rtGames">${Object.entries(PD2.READ_GAMES).map(([id, g]) => `<a class="task read" href="#/laesetraener/spil/${id}">
+          <span class="emoji">${g.ico}</span><h2>${esc(g.title)}</h2><p class="muted small" lang="en" style="margin:0">${esc(g.en)}</p>
+          ${S.readGames && S.readGames[id] ? `<span class="pill" style="margin-top:8px">🏆 ${S.readGames[id]}/10</span>` : ""}</a>`).join("")}</div>` : ""}
+        ${PD2.READ_TIPS ? `<h2 style="margin-top:22px">💡 Tips og tricks</h2>
+        <div class="stack">${PD2.READ_TIPS.map((t, i) => `<details class="card" ${i === 0 ? "open" : ""}><summary><b>${esc(t.title)}</b> <span class="small muted" lang="en">${esc(t.en)}</span></summary>
+          <ol class="rt-how" style="margin-top:8px">${t.items.map(([da, en]) => `<li><span>${esc(da)}</span><span class="small muted" lang="en">${esc(en)}</span></li>`).join("")}</ol></details>`).join("")}</div>` : ""}`;
       return;
     }
     const D = T[kind], ROUND = 10;
@@ -3048,6 +3057,55 @@
           <p style="font-weight:800">${score === ROUND ? "🎉 Alle rigtige!" : score >= 7 ? "Rigtig flot! 💪" : "Godt forsøg – prøv igen. 🌱"}</p>
           <div class="row" style="justify-content:center"><a class="btn read" href="#/laesetraener/${kind}" id="rtAgain">🔁 Igen</a><a class="btn ghost" href="#/laesetraener">Andre opgavetyper</a><a class="btn ghost" href="#/reading">📖 Til læseopgaverne</a></div></div>`;
       $("#rtAgain").onclick = e => { e.preventDefault(); readTrainer(kind); };
+    }
+    show();
+  }
+
+  // ----- 🎮 Quick games for Delprøve 2 (signal words, question words, word class in a gap) -----
+  function readGame(id) {
+    const G = PD2.READ_GAMES && PD2.READ_GAMES[id];
+    if (!G) { location.hash = "#/laesetraener"; return; }
+    S.readGames = S.readGames || {};
+    const ROUND = Math.min(10, G.items.length);
+    let picks = shuffle(G.items).slice(0, ROUND), n = 0, score = 0, streak = 0;
+    const again = [];
+    function show() {
+      if (n >= picks.length && again.length) picks = picks.concat(again.splice(0));
+      if (n >= picks.length) return done();
+      const [shown, right, why] = picks[n], repeat = n >= ROUND;
+      const opts = shuffle([right].concat(shuffle(G.pool.filter(x => x !== right)).slice(0, 2)));
+      app.innerHTML = `<a class="back" href="#/laesetraener">← Læsetræner</a>
+        <h1 style="margin-bottom:6px">${G.ico} ${esc(G.title)}</h1>
+        <div class="card stage">
+          <div class="row" style="justify-content:space-between"><span class="pill">${repeat ? "🔁 Igen" : `${n + 1}/${ROUND}`}</span><span class="pill">🔥 ${streak}</span><span class="pill">✅ ${score}</span></div>
+          <p class="rt-text no-tr" data-keep style="text-align:center;font-size:1.35rem"><b>${esc(shown).replace("___", `<span class="rt-gap">___</span>`)}</b></p>
+          <p class="muted small" style="text-align:center">${esc(G.q)}</p>
+          <div class="answers">${opts.map(o => `<button class="choice rt-choice" data-o="${esc(o)}">${esc(o)}</button>`).join("")}</div>
+          <div id="after" class="quiz-after"></div>
+        </div>`;
+      let locked = false;
+      $$(".rt-choice").forEach(b => b.onclick = () => {
+        if (locked) return; locked = true;
+        const ok = b.dataset.o === right;
+        b.classList.add(ok ? "ok" : "bad");
+        if (!ok) $$(".rt-choice").find(x => x.dataset.o === right).classList.add("ok");
+        if (!repeat) { if (ok) { score++; streak++; } else { streak = 0; again.push(picks[n]); } }
+        $("#after").innerHTML = `<p>${ok ? (streak >= 3 ? `🔥 ${streak} i træk!` : "✅ Rigtigt!") : "❌ Ikke helt."}</p>
+          <div class="why">💡 <span lang="en">${esc(why)}</span></div>
+          <div class="row" style="margin-top:8px"><button class="btn read" id="nx">Næste →</button></div>`;
+        $("#nx").focus();
+        $("#nx").onclick = () => { n++; show(); };
+      });
+    }
+    function done() {
+      S.readGames[id] = Math.max(score, S.readGames[id] || 0); save();
+      addXP(score * 2, "læsespil");
+      if (score === ROUND) confetti();
+      app.innerHTML = `<a class="back" href="#/laesetraener">← Læsetræner</a>
+        <div class="card stage"><div class="word-big">${score}/${ROUND}</div>
+          <p style="font-weight:800">${score === ROUND ? "🎉 Alle rigtige!" : score >= 7 ? "Rigtig flot! 💪" : "Godt forsøg – prøv igen. 🌱"}</p>
+          <div class="row" style="justify-content:center"><a class="btn read" href="#/laesetraener/spil/${id}" id="rgAgain">🔁 Igen</a><a class="btn ghost" href="#/laesetraener">Andre spil og tips</a></div></div>`;
+      $("#rgAgain").onclick = e => { e.preventDefault(); readGame(id); };
     }
     show();
   }

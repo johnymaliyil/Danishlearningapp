@@ -80,3 +80,98 @@ PD2.READ_TRAINER = {
     ],
   },
 };
+
+// 💡 Tips and tricks for Delprøve 2 (shown on the Læsetræner page)
+PD2.READ_TIPS = [
+  { title: "Til alle tre opgaver", en: "For all three tasks", items: [
+    ["Se eksemplet (0) først. Det viser, hvordan opgaven virker.", "Look at the example (0) first. It shows how the task works."],
+    ["Gør de lette først, og gem de svære til sidst.", "Do the easy ones first and save the hard ones for last."],
+    ["Lad aldrig et hul stå tomt. Gæt hellere – der er ingen minuspoint.", "Never leave a gap empty. Guess – you don't lose points."],
+    ["Brug ikke for lang tid på én opgave. Kig på uret.", "Don't spend too long on one task. Watch the clock."],
+    ["Læs teksten igen til sidst med dine svar. Lyder det rigtigt?", "Read the text again at the end with your answers. Does it sound right?"],
+  ] },
+  { title: "Opgave 3 – udfyld hullerne", en: "Task 3 – fill in the gaps", items: [
+    ["Del ordene i rammen i grupper: bindeord (fordi, men), tillægsord (glad, stor), små ord (altid, ikke). Så har du kun 3-4 ord at vælge imellem.", "Split the words in the box into groups: linking words, describing words, small words. Then you only choose between 3-4 words."],
+    ["Ordet skal passe i betydning OG i form: -t (et stort hus), -e (store huse), nutid eller datid.", "The word must fit in meaning AND in form: -t, -e, present or past."],
+    ["Pas på modsatte ord: glad / ked af det, mere / mindre, altid / aldrig. Teksten fortæller, hvilket der passer.", "Watch out for opposites: happy/sad, more/less, always/never. The text tells you which fits."],
+    ["Streg ordet fra eksemplet og de ord, du har brugt, over.", "Cross out the example word and the words you have used."],
+  ] },
+  { title: "Opgave 4 – find sætningen", en: "Task 4 – find the sentence", items: [
+    ["Sætningen fra eksemplet er allerede brugt – streg den over.", "The example sentence is already used – cross it out."],
+    ["Læs sætningen før OG efter hullet. Den rigtige sætning passer til begge.", "Read the sentence before AND after the gap. The right sentence fits both."],
+    ["Små ord peger: han / hun / det / dem / der / derfor / men. Spørg: hvem eller hvad er «det»?", "Small words point: he / she / it / them / there / so / but. Ask: who or what is «it»?"],
+    ["Positiv eller negativ? Er afsnittet glad, skal sætningen også være glad.", "Positive or negative? If the paragraph is happy, the sentence must be happy too."],
+    ["To sætninger passer ingen steder. De lyder rigtige, men har en forkert detalje (navn, tid, ja/nej).", "Two sentences fit nowhere. They sound right but have a wrong detail (name, time, yes/no)."],
+  ] },
+  { title: "Opgave 5 – spørgsmål og svar", en: "Task 5 – questions and answers", items: [
+    ["Læs alle spørgsmålene først, og sæt en streg under spørgeordet.", "Read all the questions first and underline the question word."],
+    ["Fælde! Et svar, der gentager ordene fra spørgsmålet, er tit forkert. Det rigtige svar siger det samme med andre ord.", "Trap! An answer that repeats the words of the question is often wrong. The right answer says it in other words."],
+    ["Tid: «lavede / var» = før. «laver / er» = nu. «vil / skal» = fremtid.", "Time: «lavede / var» = before. «laver / er» = now. «vil / skal» = future."],
+    ["Spørgsmål med verbet først (Arbejder du …?) → svaret starter tit med ja, nej eller ikke altid.", "Questions starting with the verb → the answer often starts with yes, no or not always."],
+    ["To afsnit passer ikke. Tag dem til sidst.", "Two sections don't fit. Leave them for the end."],
+  ] },
+];
+
+// 🎮 Quick games for the skills behind Opgave 3-5. Items: [what is shown, right answer, why]
+PD2.READ_GAMES = {
+  signal: {
+    ico: "🚦", title: "Signalord", en: "Signal words", q: "Hvad betyder ordet i teksten?",
+    pool: ["en grund (because)", "en modsætning (but)", "et resultat (so)", "mere af det samme (also)", "et eksempel", "rækkefølge (first / then)", "tid (when)", "en betingelse (if)", "en sammenligning (than)", "noget overraskende (even though)"],
+    items: [
+      ["fordi", "en grund (because)", "«fordi» gives the reason: Jeg bliver hjemme, fordi jeg er syg."],
+      ["for", "en grund (because)", "«for» in the middle of a sentence also gives a reason: Han er glad, for han har fået job."],
+      ["nemlig", "en grund (because)", "«nemlig» explains why: Hun er træt. Hun har nemlig arbejdet hele natten."],
+      ["men", "en modsætning (but)", "«men» shows a contrast: Den er billig, men god."],
+      ["alligevel", "en modsætning (but)", "«alligevel» = still / anyway: Det regnede, men vi gik alligevel en tur."],
+      ["selvom", "noget overraskende (even though)", "«selvom» = even though: Selvom han er syg, går han på arbejde."],
+      ["derfor", "et resultat (so)", "«derfor» shows a result: Jeg var syg. Derfor blev jeg hjemme."],
+      ["så", "et resultat (so)", "«så» often shows a result: Bussen kom ikke, så jeg gik."],
+      ["også", "mere af det samme (also)", "«også» adds the same kind of thing: Jeg taler dansk og også engelsk."],
+      ["desuden", "mere af det samme (also)", "«desuden» = besides: adds one more point."],
+      ["fx", "et eksempel", "«fx» (for eksempel) gives an example: frugt, fx æbler."],
+      ["først", "rækkefølge (first / then)", "«først … bagefter … til sidst» shows the order."],
+      ["bagefter", "rækkefølge (first / then)", "«bagefter» = afterwards."],
+      ["når", "tid (when)", "«når» = when / every time: Når jeg kommer hjem, laver jeg mad."],
+      ["da", "tid (when)", "«da» = when (one time in the past): Da jeg var barn, boede jeg i Syrien."],
+      ["hvis", "en betingelse (if)", "«hvis» = if: Hvis det regner, bliver vi hjemme."],
+      ["end", "en sammenligning (than)", "«end» compares: Han er større end mig."],
+    ],
+  },
+  spoerg: {
+    ico: "❓", title: "Spørgeord", en: "Question words", q: "Hvilket slags svar passer til spørgsmålet?",
+    pool: ["en tid (i to år)", "et tidspunkt (i går, kl. 8)", "et sted (i Vejle)", "en grund (fordi …)", "en person (min bror)", "en ting eller handling (jeg læser)", "en måde (med bus)", "hvor tit (to gange om ugen)", "et tal (tre)", "ja eller nej"],
+    items: [
+      ["Hvor længe …?", "en tid (i to år)", "«Hvor længe» = how long → i to år, i en uge."],
+      ["Hvornår …?", "et tidspunkt (i går, kl. 8)", "«Hvornår» = when → i går, om sommeren, kl. 8."],
+      ["Hvor …?", "et sted (i Vejle)", "«Hvor» = where → a place."],
+      ["Hvorfor …?", "en grund (fordi …)", "«Hvorfor» = why → a reason, often with «fordi»."],
+      ["Hvem …?", "en person (min bror)", "«Hvem» = who → a person."],
+      ["Hvad laver du …?", "en ting eller handling (jeg læser)", "«Hvad» = what → a thing or what you do."],
+      ["Hvordan …?", "en måde (med bus)", "«Hvordan» = how → the way you do it."],
+      ["Hvor tit …?", "hvor tit (to gange om ugen)", "«Hvor tit» = how often → to gange om ugen."],
+      ["Hvor mange …?", "et tal (tre)", "«Hvor mange» = how many → a number."],
+      ["Arbejder du …?", "ja eller nej", "The verb comes first → a yes/no question."],
+      ["Kan du lide …?", "ja eller nej", "The verb comes first → a yes/no question."],
+    ],
+  },
+  ordklasse: {
+    ico: "🔤", title: "Hvilket ord mangler?", en: "Which kind of word is missing?", q: "Hvilken slags ord mangler i hullet?",
+    pool: ["navneord (en bil)", "verbum (spiser)", "tillægsord (stor)", "biord (altid, hurtigt)", "bindeord (fordi, men)", "forholdsord (i, på)"],
+    items: [
+      ["Vi bor i et ___ hus.", "tillægsord (stor)", "Between «et» and «hus» → a describing word: et stort hus."],
+      ["Hun ___ på et hospital.", "verbum (spiser)", "After the person comes the verb: Hun arbejder."],
+      ["Jeg spiser ___ morgenmad.", "biord (altid, hurtigt)", "A small word about how often: altid / aldrig."],
+      ["Han kommer ikke, ___ han er syg.", "bindeord (fordi, men)", "It joins two sentences: fordi."],
+      ["Jeg har købt en ny ___.", "navneord (en bil)", "After «en ny» comes a thing: en ny bil."],
+      ["Lejligheden er meget ___ end den gamle.", "tillægsord (stor)", "«… end» compares: større / mindre."],
+      ["Vi mødes ___ stationen.", "forholdsord (i, på)", "A small word about place: på stationen."],
+      ["De ___ fodbold hver lørdag.", "verbum (spiser)", "After «De» comes the verb: spiller."],
+      ["Han kører meget ___.", "biord (altid, hurtigt)", "It says how he drives: hurtigt (with -t)."],
+      ["Maden var ___ og varm.", "tillægsord (stor)", "It says what the food was like: lækker."],
+      ["Det regnede, ___ vi blev hjemme.", "bindeord (fordi, men)", "It joins two sentences: så."],
+      ["Min ___ hedder Peter.", "navneord (en bil)", "After «Min» comes a person or thing: Min nabo."],
+      ["Hun har boet her ___ to år.", "forholdsord (i, på)", "A small word about time: i to år."],
+      ["Jeg har ___ været i Spanien.", "biord (altid, hurtigt)", "A small word: aldrig / tit."],
+    ],
+  },
+};
