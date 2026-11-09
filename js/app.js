@@ -4,7 +4,7 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const app = $("#app");
-  const APP_VERSION = "161"; // keep in step with ?v= in index.html and VERSION in sw.js
+  const APP_VERSION = "162"; // keep in step with ?v= in index.html and VERSION in sw.js
   // Feedback is e-mailed via FormSubmit (formsubmit.co). After activation the address can be
   // replaced by the random alias FormSubmit sends. Leave empty to hide the feedback form.
   const FEEDBACK_TO = "johnyaj.sap@gmail.com";
@@ -444,6 +444,7 @@
     [/^\/writing$/, writingList],
     [/^\/writing\/skabeloner(?:\/(\w+))?$/, templatesPage],
     [/^\/saetninger$/, sentenceBankPage],
+    [/^\/laesetraener(?:\/(o[345]))?$/, readTrainer],
     [/^\/writing\/([\w-]+)$/, writingItem],
     [/^\/speaking$/, speakingList],
     [/^\/speaking\/sim(?:\/(\w+))?$/, speakingSim],
@@ -836,6 +837,9 @@
     app.innerHTML = `
       <h1>📖 Læsning <span class="tag">${META().name} · ${META().cefr}</span></h1>
       <p class="muted">${esc(META().readingIntro)}</p>
+      ${PD2.READ_TRAINER && S.exam === "pd2" ? `<a class="task read tool-card" href="#/laesetraener" style="display:block;margin:12px 0 4px">
+        <span class="emoji">💪</span><h2>Læsetræner – Delprøve 2 (Opgave 3, 4, 5)</h2>
+        <p class="muted" style="margin:0">Træn opgavetyperne i små, lette trin: udfyld hullet, find sætningen og spørgsmål og svar – med hint og forklaring.</p></a>` : ""}
       ${PD2.LISTEN_R && EX().READING.some(r => PD2.LISTEN_R[r.id]) ? `<a class="task read tool-card" href="#/lyt-r" style="display:block;margin:12px 0 4px">
         <span class="emoji">🎧</span><h2>Lyt til læseteksterne</h2>
         <p class="muted" style="margin:0">Hør teksterne langsomt, sætning for sætning, med grammatik og engelsk oversættelse.</p></a>` : ""}
@@ -1052,6 +1056,7 @@
       ${exam ? "" : `<div class="row" style="margin-bottom:16px">
         ${r.minutes ? `<button class="btn ghost sm" id="timerBtn">⏱️ Start prøvetid (${r.minutes} min)</button><span class="timer" id="timer"></span>` : ""}
         ${PD2.LISTEN_R && PD2.LISTEN_R[r.id] ? `<a class="btn ghost sm" href="#/lyt/r/${r.id}">🎧 Lyt til teksten</a>` : ""}
+        ${(() => { const k = PD2.READ_TRAINER && S.exam === "pd2" && (/udfyld hullerne/i.test(r.kind) ? "o3" : /find sætningen|sæt sætninger/i.test(r.kind) ? "o4" : /match spørgsmål|spørgsmål og svar|interview/i.test(r.kind + " " + r.title) ? "o5" : ""); return k ? `<a class="btn ghost sm" href="#/laesetraener/${k}">💪 Træn opgavetypen</a>` : ""; })()}
         ${learnOk ? `<button class="btn ghost sm" id="learnBtn">🧠 Forstå og husk</button>` : ""}
       </div>`}
       <div class="reader ${solo ? "solo" : ""}">
@@ -2975,6 +2980,78 @@
       ["Er du nervøs? Træk vejret dybt tre gange. Du har øvet dig – du kan det!", "Nervous? Take three deep breaths. You have practised – you can do it!"]]]
   ];
   // ----- 💬 Sætningsbank: generic sentences for all writing tasks (PD2; PD3 also gets the advanced ones) -----
+  // ----- 💪 Læsetræner: Delprøve 2 (Opgave 3, 4, 5) in small steps -----
+  function readTrainer(kind) {
+    const T = PD2.READ_TRAINER;
+    if (!T) { location.hash = "#/reading"; return; }
+    S.readTrainer = S.readTrainer || {};
+    const how = k => `<ol class="rt-how">${T[k].how.map(([da, en]) => `<li><span>${esc(da)}</span><span class="small muted" lang="en">${esc(en)}</span></li>`).join("")}</ol>`;
+    if (!kind || !T[kind]) {
+      app.innerHTML = `<a class="back" href="#/reading">← Alle læseopgaver</a>
+        <h1>💪 Læsetræner – Delprøve 2</h1>
+        <p class="muted">Opgave 3, 4 og 5 i små, lette trin. Én kort opgave ad gangen, et hint, hvis du har brug for det, og en forklaring bagefter. Fejl kommer igen til sidst.</p>
+        <div class="stack">${["o3", "o4", "o5"].map(k => `<div class="card">
+          <h2 style="margin-top:0">${esc(T[k].title)} <span class="small muted" lang="en">${esc(T[k].en)}</span></h2>
+          <p style="margin:0 0 4px"><b>Sådan gør du:</b></p>${how(k)}
+          <div class="row" style="margin-top:10px"><a class="btn read" href="#/laesetraener/${k}">▶ Start (10 opgaver)</a>
+          ${S.readTrainer[k] ? `<span class="pill">🏆 ${S.readTrainer[k]}/10</span>` : ""}</div></div>`).join("")}</div>`;
+      return;
+    }
+    const D = T[kind], ROUND = 10;
+    let picks = shuffle(D.items).slice(0, ROUND), n = 0, score = 0;
+    const again = [];
+    function show() {
+      if (n >= picks.length && again.length) picks = picks.concat(again.splice(0));
+      if (n >= picks.length) return done();
+      const it = picks[n], repeat = n >= ROUND, right = it.o[0], opts = shuffle(it.o);
+      const gap = `<span class="rt-gap">___</span>`;
+      const task = kind === "o3" ? `<p class="rt-text no-tr" data-keep>${esc(it.t).replace("___", gap)}</p><p class="muted small">Hvilket ord passer i hullet?</p>`
+        : kind === "o4" ? `<p class="rt-text no-tr" data-keep>${esc(it.b)} ${gap} ${esc(it.f)}</p><p class="muted small">Hvilken sætning passer i hullet?</p>`
+        : `<p class="rt-text no-tr" data-keep>❓ <b>${esc(it.q)}</b></p><p class="muted small">Hvilket svar passer til spørgsmålet?</p>`;
+      app.innerHTML = `<a class="back" href="#/laesetraener">← Læsetræner</a>
+        <h1 style="margin-bottom:6px">💪 ${esc(D.title)}</h1>
+        <div class="card stage">
+          <div class="row" style="justify-content:space-between"><span class="pill">${repeat ? "🔁 Igen" : `${n + 1}/${ROUND}`}</span><span class="pill">✅ ${score}</span></div>
+          ${task}
+          <div class="answers no-tr" data-keep>${opts.map(o => `<button class="choice rt-choice" data-o="${esc(o)}">${esc(o)}</button>`).join("")}</div>
+          <button class="btn ghost sm" id="rtHint" style="margin-top:10px">💡 Hint</button>
+          <div id="rtHintBox"></div>
+          <div id="after" class="quiz-after"></div>
+        </div>`;
+      $("#rtHint").onclick = () => { $("#rtHintBox").innerHTML = `<div class="why" style="margin-top:8px">${how(kind)}</div>`; $("#rtHint").hidden = true; };
+      let locked = false;
+      $$(".rt-choice").forEach(b => b.onclick = () => {
+        if (locked) return; locked = true;
+        const ok = b.dataset.o === right;
+        b.classList.add(ok ? "ok" : "bad");
+        if (!ok) $$(".rt-choice").find(x => x.dataset.o === right).classList.add("ok");
+        if (!repeat && ok) score++;
+        if (!ok && !repeat) again.push(it);
+        const full = kind === "o3" ? it.t.replace("___", right) : kind === "o4" ? `${it.b} ${right} ${it.f}` : `${it.q} – ${right}`;
+        $("#after").innerHTML = `<p>${ok ? "✅ Rigtigt!" : "❌ Ikke helt."}</p>
+          <p class="small no-tr" data-keep><b>${esc(full)}</b></p>
+          <div class="why">💡 <span lang="en">${esc(it.why)}</span></div>
+          ${!ok && !repeat ? `<p class="small muted">Opgaven kommer igen til sidst.</p>` : ""}
+          <div class="row" style="margin-top:8px"><button class="btn ghost sm" id="rtSay">🔊 Lyt</button><button class="btn read" id="nx">Næste →</button></div>`;
+        $("#rtSay").onclick = () => speak(full, null, 0.85);
+        $("#nx").focus();
+        $("#nx").onclick = () => { n++; show(); };
+      });
+    }
+    function done() {
+      const best = Math.max(score, S.readTrainer[kind] || 0);
+      S.readTrainer[kind] = best; save();
+      addXP(score * 2, "læsetræner");
+      if (score === ROUND) confetti();
+      app.innerHTML = `<a class="back" href="#/laesetraener">← Læsetræner</a>
+        <div class="card stage"><div class="word-big">${score}/${ROUND}</div>
+          <p style="font-weight:800">${score === ROUND ? "🎉 Alle rigtige!" : score >= 7 ? "Rigtig flot! 💪" : "Godt forsøg – prøv igen. 🌱"}</p>
+          <div class="row" style="justify-content:center"><a class="btn read" href="#/laesetraener/${kind}" id="rtAgain">🔁 Igen</a><a class="btn ghost" href="#/laesetraener">Andre opgavetyper</a><a class="btn ghost" href="#/reading">📖 Til læseopgaverne</a></div></div>`;
+      $("#rtAgain").onclick = e => { e.preventDefault(); readTrainer(kind); };
+    }
+    show();
+  }
+
   function sentenceBankPage() {
     const pd3 = S.exam === "pd3";
     const cats = (PD2.SENTENCE_BANK || []).map(c => ({ ...c, items: c.items.filter(it => it[2] !== "pd3" || pd3) })).filter(c => c.items.length);

@@ -1269,3 +1269,10 @@ a.chip { text-decoration: none; }
 .sb-da { font-weight: 700; }
 .sb-btns { display: flex; gap: 4px; }
 @media (max-width: 720px) { .sb-item { grid-template-columns: 1fr auto; } .sb-en { grid-column: 1; grid-row: 2; } .sb-btns { grid-row: 1 / span 2; grid-column: 2; } }
+
+/* 💪 Læsetræner */
+.rt-how { margin: 4px 0 0; padding-left: 20px; display: grid; gap: 6px; }
+.rt-how li span { display: block; }
+.rt-text { font-size: 1.12rem; line-height: 1.6; margin: 14px 0 6px; }
+.rt-gap { display: inline-block; min-width: 70px; border-bottom: 2px solid var(--read); text-align: center; color: var(--read); font-weight: 800; }
+.rt-choice { text-align: left; }

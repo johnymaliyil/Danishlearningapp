@@ -1,0 +1,82 @@
+// 💪 Læsetræner – Delprøve 2 (Opgave 3, 4 and 5) in small, simple steps.
+// All texts are short and written for DanskKlar. In every item the first option is the right one;
+// the app shuffles the options. `why` explains the answer in simple English.
+window.PD2 = window.PD2 || {};
+PD2.READ_TRAINER = {
+  o3: {
+    title: "Opgave 3 – udfyld hullet", en: "Task 3 – fill in the gap",
+    how: [
+      ["Læs hele sætningen – også efter hullet.", "Read the whole sentence – also after the gap."],
+      ["Hvilken slags ord mangler? Et bindeord (fordi, men, selvom), et tillægsord (glad, stor) eller et lille ord (altid, ikke, også)?", "What kind of word is missing? A linking word (fordi, men, selvom), a describing word (glad, stor) or a small word (altid, ikke, også)?"],
+      ["Se efter små hints: «end» → større / mindre / mere. «det er» → ord med -t (kedeligt).", "Look for small hints: «end» → bigger / smaller / more. «det er» → word with -t (kedeligt)."],
+      ["Til prøven: streg de ord over, du har brugt.", "In the exam: cross out the words you have used."],
+    ],
+    items: [
+      { t: "Anna kan ikke komme i dag, ___ hun er syg.", o: ["fordi", "men", "selvom"], why: "«hun er syg» is the reason → fordi (because)." },
+      { t: "Peter vil gerne købe en bil, ___ han har ikke penge nok.", o: ["men", "fordi", "så"], why: "He wants a car, but has no money – two opposite things → men (but)." },
+      { t: "Det regnede hele dagen, ___ vi blev hjemme.", o: ["så", "men", "selvom"], why: "Staying home is the result of the rain → så (so)." },
+      { t: "Hun går en tur hver dag, ___ det regner.", o: ["selvom", "fordi", "så"], why: "She walks even when it rains → selvom (even though)." },
+      { t: "Den nye lejlighed er meget ___ end den gamle. Nu er der plads til alle møblerne.", o: ["større", "mindre", "dyrere"], why: "«end» needs a comparing word, and «plads til alle møblerne» means it is bigger → større." },
+      { t: "Maden var kold, og tjeneren var uvenlig. Vi var meget ___.", o: ["utilfredse", "glade", "tilfredse"], why: "Cold food and an unfriendly waiter → they were not happy → utilfredse." },
+      { t: "Ahmed elsker at læse. Han har ___ en bog med i tasken.", o: ["altid", "aldrig", "ikke"], why: "He loves reading, so he always has a book → altid (always)." },
+      { t: "Lise kan ikke lide kaffe. Hun drikker ___ kaffe.", o: ["aldrig", "altid", "tit"], why: "She doesn't like coffee → she never drinks it → aldrig (never)." },
+      { t: "Der sker ikke noget i byen om aftenen. Det er lidt ___.", o: ["kedeligt", "spændende", "sjovt"], why: "Nothing happens → boring. After «det er» the word gets -t: kedeligt." },
+      { t: "Bussen kom ikke, så Omar kom for ___ på arbejde.", o: ["sent", "tidligt", "hurtigt"], why: "No bus → he was late → for sent (too late)." },
+      { t: "Jeg spiser sundt og cykler hver dag. Nu har jeg det meget ___.", o: ["bedre", "værre", "dårligere"], why: "Healthy food and exercise → he feels better → bedre." },
+      { t: "___ jeg kommer hjem fra arbejde, laver jeg mad.", o: ["Når", "Men", "Fordi"], why: "It tells when he cooks → Når (when)." },
+      { t: "Det er en stor ___ at bo tæt på skolen. Børnene kan gå selv.", o: ["fordel", "ulempe", "fejl"], why: "The children can walk alone – that is good → fordel (advantage)." },
+      { t: "Hotellet var dyrt, men værelset var ___ og beskidt.", o: ["lille", "stort", "rent"], why: "«men» shows something bad after «dyrt», and «beskidt» is bad too → lille." },
+      { t: "Min søster bor i Aarhus, og min bror bor ___ i Aarhus.", o: ["også", "ikke", "aldrig"], why: "Both live in Aarhus → også (also)." },
+    ],
+  },
+  o4: {
+    title: "Opgave 4 – find sætningen", en: "Task 4 – find the missing sentence",
+    how: [
+      ["Læs sætningen FØR hullet og sætningen EFTER hullet.", "Read the sentence BEFORE the gap and the sentence AFTER the gap."],
+      ["Se efter små ord i sætningen efter: han, hun, den, det, dem, der, derfor, men, så.", "Look for small words in the next sentence: han, hun, den, det, dem, der, derfor, men, så."],
+      ["Den rigtige sætning passer til begge sætninger.", "The right sentence fits both sentences."],
+    ],
+    items: [
+      { b: "Maria arbejder i en børnehave.", f: "Hun leger med dem, og hun hjælper dem med at spise.", o: ["Hun elsker at være sammen med børnene.", "Hun kan ikke lide sit job.", "Hun har ingen børn."], why: "«dem» in the next sentence = børnene. Only the first sentence talks about the children." },
+      { b: "Jens ville gerne have en hund.", f: "Derfor købte han en kat i stedet.", o: ["Men hans lejlighed var for lille til en hund.", "Han købte en stor hund.", "Han kan godt lide hunde."], why: "«Derfor … i stedet» (so … instead) needs a problem first: the flat was too small." },
+      { b: "Sara er flyttet til Danmark.", f: "Nu kan hun tale med sine kolleger på dansk.", o: ["Hun har gået på sprogskole i et år.", "Hun taler ikke dansk.", "Hun bor i Spanien."], why: "«Nu kan hun tale … dansk» – she can speak Danish now because she went to language school." },
+      { b: "Familien Hansen holdt ferie i Spanien.", f: "Derfor var de inde på hotellet næsten hele tiden.", o: ["Desværre regnede det hver dag.", "Vejret var dejligt hver dag.", "De badede i havet hver dag."], why: "«Derfor … inde på hotellet» – they stayed inside because it rained." },
+      { b: "Ali tager toget til arbejde.", f: "Så han kan læse eller sove lidt.", o: ["Turen tager en time.", "Han har en ny bil.", "Han bor tæt på sit arbejde."], why: "He can read or sleep because the trip is long (one hour)." },
+      { b: "Mette fik nyt job i sidste måned.", f: "Hun tjener flere penge, og kollegerne er søde.", o: ["Hun er meget glad for det.", "Hun er ked af det.", "Hun vil gerne stoppe."], why: "More money and nice colleagues → she is happy with it." },
+      { b: "Peters nabo spiller høj musik om natten.", f: "Men det hjalp ikke.", o: ["Peter har talt med ham.", "Peter kan godt lide musik.", "Naboen er sød og stille."], why: "«Men det hjalp ikke» (but it didn't help) – Peter must have tried something: he talked to him." },
+      { b: "Børnene glæder sig til jul.", f: "De vil gerne have nye cykler.", o: ["De har skrevet en ønskeseddel.", "De kan ikke lide gaver.", "Julen er i juli."], why: "A wish list (ønskeseddel) fits «de vil gerne have nye cykler»." },
+      { b: "Lone løber hver morgen.", f: "Bagefter spiser hun morgenmad og tager på arbejde.", o: ["Hun løber fem kilometer i parken.", "Hun kan ikke lide at løbe.", "Hun sover til kl. 10."], why: "«Bagefter» (afterwards) = after the run. The sentence must be about the run." },
+      { b: "Restauranten havde mange gæster.", f: "Vi ventede en time på maden.", o: ["Der var ikke nok tjenere.", "Maden kom med det samme.", "Der var ingen gæster."], why: "They waited an hour – because there were not enough waiters." },
+      { b: "Hassan vil gerne være kok.", f: "Der lærer han at lave mad fra hele verden.", o: ["Derfor går han på en kokkeskole.", "Han kan ikke lide at lave mad.", "Han arbejder i en bank."], why: "«Der» (there) needs a place before it: the cooking school." },
+      { b: "Det er dyrt at bo i København.", f: "Derfor bor mange studerende sammen.", o: ["En lille lejlighed koster mange penge.", "Det er billigt at bo der.", "Der er mange billige lejligheder."], why: "«Derfor bor … sammen» – they share because flats are expensive." },
+      { b: "Emma er ked af det.", f: "Nu har hun ingen at lege med.", o: ["Hendes bedste veninde er flyttet til en anden by.", "Hun har fået mange nye venner.", "Hun har fødselsdag i dag."], why: "She is sad and has no one to play with – her best friend moved away." },
+      { b: "Vi holdt en stor fest i haven.", f: "Om aftenen dansede vi og sang.", o: ["Først spiste vi grillmad.", "Festen blev aflyst.", "Det var meget kedeligt."], why: "«Først … Om aftenen» – first they ate, then in the evening they danced." },
+      { b: "Lars har ondt i ryggen.", f: "Han håber, at det hjælper.", o: ["Derfor går han til fysioterapeut.", "Han har det fint.", "Han løfter tunge ting og er glad."], why: "«det hjælper» – «det» is going to the physiotherapist." },
+    ],
+  },
+  o5: {
+    title: "Opgave 5 – spørgsmål og svar", en: "Task 5 – match the question and the answer",
+    how: [
+      ["Se på spørgeordet: Hvor længe → tid. Hvorfor → fordi. Hvornår → hvornår. Hvem → en person. Hvor → et sted. Hvad → en ting.", "Look at the question word: Hvor længe → time. Hvorfor → because. Hvornår → when. Hvem → a person. Hvor → a place. Hvad → a thing."],
+      ["Begynder spørgsmålet med et verbum (Arbejder du …?), så begynder svaret tit med ja eller nej.", "If the question starts with a verb (Arbejder du …?), the answer often starts with yes or no."],
+      ["Se på tiden: «lavede du» (før) eller «vil du» (i fremtiden).", "Look at the time: «lavede du» (before) or «vil du» (in the future)."],
+    ],
+    items: [
+      { q: "Hvor længe har du boet i Danmark?", o: ["I fem år. Jeg kom i 2020.", "Jeg bor i en lejlighed i Vejle.", "Jeg kan godt lide at bo her."], why: "«Hvor længe» (how long) → a time: i fem år." },
+      { q: "Hvad laver du i din fritid?", o: ["Jeg spiller fodbold og læser bøger.", "Jeg arbejder i en butik.", "Jeg er 35 år."], why: "«fritid» (free time) → hobbies: fodbold og bøger." },
+      { q: "Hvorfor valgte du det job?", o: ["Fordi jeg elsker at hjælpe andre mennesker.", "Jeg har haft det i to år.", "Jeg arbejder om natten."], why: "«Hvorfor» (why) → a reason, often with «fordi»." },
+      { q: "Arbejder du alene?", o: ["Nej, vi er fire kolleger, der arbejder sammen.", "Jeg arbejder fra kl. 8 til 16.", "Jeg er glad for mit job."], why: "The question starts with a verb → the answer starts with ja/nej." },
+      { q: "Hvad er det sværeste ved dit job?", o: ["At stå op kl. 4 hver morgen.", "At møde søde mennesker.", "Jeg tjener godt."], why: "«det sværeste» (the hardest) → something difficult: getting up at 4." },
+      { q: "Hvad er det bedste ved dit job?", o: ["At jeg møder mange glade mennesker.", "At det er hårdt for ryggen.", "At jeg skal stå tidligt op."], why: "«det bedste» (the best) → something good: happy people." },
+      { q: "Hvornår har du mest travlt?", o: ["Om sommeren, når der er mange turister.", "Jeg er træt om aftenen.", "Jeg har tre kolleger."], why: "«Hvornår» (when) → a time: om sommeren." },
+      { q: "Hvad vil du gerne lave i fremtiden?", o: ["Jeg vil gerne have min egen restaurant.", "Jeg har lavet mad i ti år.", "Jeg lavede mad i går."], why: "«i fremtiden» (in the future) → «Jeg vil gerne …»." },
+      { q: "Hvem bor du sammen med?", o: ["Med min kone og vores to børn.", "I et hus på landet.", "I tre år."], why: "«Hvem» (who) → people: min kone og børn." },
+      { q: "Hvordan kommer du på arbejde?", o: ["Jeg cykler, når det ikke regner.", "Jeg arbejder på et hospital.", "Jeg er på arbejde om morgenen."], why: "«Hvordan» (how) → the way: by bike." },
+      { q: "Er du glad for at bo på landet?", o: ["Ja, meget. Der er stille og frisk luft.", "Huset har fem værelser.", "Vi flyttede sidste år."], why: "The question starts with a verb (Er du …?) → ja/nej + why." },
+      { q: "Hvad lavede du, før du kom til Danmark?", o: ["Jeg var lærer på en skole i Syrien.", "Nu arbejder jeg i en børnehave.", "Jeg vil gerne være lærer igen."], why: "«lavede … før» (did … before) → the past: Jeg var lærer." },
+      { q: "Hvor tit træner du?", o: ["Tre gange om ugen.", "I et fitnesscenter i byen.", "Fordi det er sundt."], why: "«Hvor tit» (how often) → tre gange om ugen." },
+      { q: "Hvad synes din familie om dit job?", o: ["De er stolte af mig.", "Jeg har en stor familie.", "Min familie bor i Tyrkiet."], why: "«Hvad synes …» (what do they think) → an opinion: they are proud." },
+      { q: "Hvor mange timer arbejder du om ugen?", o: ["Cirka 37 timer.", "Fra mandag til fredag.", "Jeg arbejder i en butik."], why: "«Hvor mange timer» (how many hours) → a number of hours." },
+    ],
+  },
+};
