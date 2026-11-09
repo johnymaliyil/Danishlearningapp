@@ -1,6 +1,110 @@
 {
- "updated": "2026-11-09T12:54+00:00",
+ "updated": "2026-11-09T23:47+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/partiet-atassut-traeder-ud-af-groenlands-regeringskoalition",
+   "date": "2026-11-09T20:43:01+00:00",
+   "da": {
+    "title": "Partiet Atassut træder ud af Grønlands regeringskoalition",
+    "desc": ""
+   },
+   "en": {
+    "title": "Atassut Party steps down from Greenland's governing coalition",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mindst-16-doede-ved-eksplosion-paa-tyrkisk-staalfabrik",
+   "date": "2026-11-09T17:54:18+00:00",
+   "da": {
+    "title": "Mindst 16 døde ved eksplosion på tyrkisk stålfabrik",
+    "desc": ""
+   },
+   "en": {
+    "title": "At least 16 dead in explosion at Turkish steel factory",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/frankrig-iran-staar-bag-hackerangreb-mod-supermarkeder",
+   "date": "2026-11-09T16:36:17+00:00",
+   "da": {
+    "title": "Frankrig: Iran står bag hackerangreb mod supermarkeder",
+    "desc": ""
+   },
+   "en": {
+    "title": "France: Iran Is Behind Hacking Attacks on Supermarkets",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/nvidia-aktien-falder-efter-mistanke-om-spionage-mod-jensen-huang",
+   "date": "2026-11-09T14:58:15+00:00",
+   "da": {
+    "title": "Nvidia-aktien falder efter mistanke om spionage mod Jensen Huang",
+    "desc": ""
+   },
+   "en": {
+    "title": "Nvidia share drops on suspicion of spying on Jensen Huang",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/russell-brand-faar-over-10-aars-faengsel-voldtaegt",
+   "date": "2026-11-09T14:32:58+00:00",
+   "da": {
+    "title": "Russell Brand får over 10 års fængsel for voldtægt",
+    "desc": "Den britiske komiker og skuespiller er kendt skyldig i en voldtægt og tre seksuelle overgreb. Han er mandag blevet idømt 10 år og seks måneder."
+   },
+   "en": {
+    "title": "Russell Brand gets over 10 years in prison for rape",
+    "desc": "The British comedian and actor is found guilty of one rape and three sexual assaults. He has been sentenced on Monday to 10 years and six months."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/350-000-oplysninger-om-sas-bookinger-kan-vaere-blevet-laekket",
+   "date": "2026-11-09T14:30:17+00:00",
+   "da": {
+    "title": "350.000 oplysninger om SAS-bookinger kan være blevet lækket",
+    "desc": ""
+   },
+   "en": {
+    "title": "350,000 SAS bookings information may have been leaked",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/restriktioner-i-luftrummet-over-koebenhavn-frem-til-torsdag",
+   "date": "2026-11-09T14:20:34+00:00",
+   "da": {
+    "title": "Restriktioner i luftrummet over København frem til torsdag",
+    "desc": ""
+   },
+   "en": {
+    "title": "Restrictions in the airspace over Copenhagen until Thursday",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/politiet-sender-paamindelse-til-unge-der-bruger-falsk-id-kan-give-faengselsstraf",
+   "date": "2026-11-09T13:21:46+00:00",
+   "da": {
+    "title": "Politiet sender påmindelse til unge, der bruger falsk id: Kan give fængselsstraf",
+    "desc": ""
+   },
+   "en": {
+    "title": "Police send reminder to young people using fake IDs: Can result in imprisonment",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/28-aarig-mand-er-tilbage-i-danmark-efter-flugt-fra-politiet",
@@ -89,110 +193,6 @@
    },
    "en": {
     "title": "12 migrants have drowned off Crete",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/boern-af-indsatte-maa-nu-videochatte-med-faengslede-foraeldre",
-   "date": "2026-11-09T06:51:30+00:00",
-   "da": {
-    "title": "Børn af indsatte må nu videochatte med fængslede forældre",
-    "desc": ""
-   },
-   "en": {
-    "title": "Children of inmates are now allowed to video chat with incarcerated parents",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/kina-forlaenger-pauser-i-told-paa-amerikanske-varer-og-skibe",
-   "date": "2026-11-09T06:02:32+00:00",
-   "da": {
-    "title": "Kina forlænger pauser i told på amerikanske varer og skibe",
-    "desc": ""
-   },
-   "en": {
-    "title": "China extends tariff breaks on US goods and ships",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/trump-forventer-deltage-i-moede-med-kina-og-putin",
-   "date": "2026-11-09T04:55:01+00:00",
-   "da": {
-    "title": "Trump forventer at deltage i møde med Kina og Putin",
-    "desc": ""
-   },
-   "en": {
-    "title": "Trump expects to attend meeting with China and Putin",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/trump-lavede-sjov-da-han-tilboed-kampsportschef-nyt-job",
-   "date": "2026-11-09T04:45:39+00:00",
-   "da": {
-    "title": "Trump lavede sjov, da han tilbød kampsportschef nyt job",
-    "desc": ""
-   },
-   "en": {
-    "title": "Trump was joking when he offered the martial arts director a new job",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tyskland-staar-til-faa-sin-foerste-kvindelige-forbundspraesident",
-   "date": "2026-11-08T22:49:57+00:00",
-   "da": {
-    "title": "Merz vil pege på bayersk kvinde som Tysklands næste forbundspræsident",
-    "desc": "Forbundskansler Friedrich Merz vil pege på Ilse Aigner, når Tyskland i 2027 skal have ny forbundspræsident."
-   },
-   "en": {
-    "title": "Merz will point to Bavarian woman as Germany's next Federal President",
-    "desc": "Chancellor Friedrich Merz will point to Ilse Aigner when Germany in 2027 will have a new Federal President."
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/mindst-34-druknet-efter-migrantbaad-synker-ud-senegal",
-   "date": "2026-11-08T18:59:25+00:00",
-   "da": {
-    "title": "Mindst 34 er druknet, efter migrantbåd synker ud for Senegal",
-    "desc": ""
-   },
-   "en": {
-    "title": "At least 34 have drowned after migrant boat sinks off Senegal",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/borgere-paa-laesoe-kan-opleve-112-problemer",
-   "date": "2026-11-08T17:28:25+00:00",
-   "da": {
-    "title": "112-problemer på Læsø er løst",
-    "desc": ""
-   },
-   "en": {
-    "title": "112 problems on Læsø solved",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/svenske-socialdemokrater-goer-nyt-forsoeg-paa-danne-regering",
-   "date": "2026-11-08T17:20:37+00:00",
-   "da": {
-    "title": "Svenske socialdemokrater gør nyt forsøg på at danne regering",
-    "desc": ""
-   },
-   "en": {
-    "title": "Swedish Social Democrats make new attempt to form government",
     "desc": ""
    }
   }
