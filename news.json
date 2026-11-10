@@ -1,6 +1,97 @@
 {
- "updated": "2026-11-10T12:41+00:00",
+ "updated": "2026-11-10T21:18+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/hertuginde-meghans-far-anholdt-fjerne-fodlaenke",
+   "date": "2026-11-10T21:02:23+00:00",
+   "da": {
+    "title": "Hertuginde Meghans far anholdt for at fjerne fodlænke",
+    "desc": ""
+   },
+   "en": {
+    "title": "Duchess Meghan's father arrested for removing anklet",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/eu-indgaar-hjemsendelsesaftale-med-nigeria",
+   "date": "2026-11-10T20:28:54+00:00",
+   "da": {
+    "title": "EU indgår hjemsendelsesaftale med Nigeria",
+    "desc": ""
+   },
+   "en": {
+    "title": "EU signs repatriation agreement with Nigeria",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/amerikansk-soldat-anholdt-i-england-mistaenkt-spionage",
+   "date": "2026-11-10T19:24:30+00:00",
+   "da": {
+    "title": "Amerikansk soldat anholdt i England mistænkt for spionage",
+    "desc": ""
+   },
+   "en": {
+    "title": "American soldier arrested in England on suspicion of espionage",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/britisk-domstol-omstoeder-forbud-mod-homosex-i-trinidad-og-tobago",
+   "date": "2026-11-10T18:48:41+00:00",
+   "da": {
+    "title": "Britisk domstol omstøder forbud mod homosex i Trinidad og Tobago",
+    "desc": ""
+   },
+   "en": {
+    "title": "UK court overturns ban on homosexuality in Trinidad and Tobago",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/kristersson-faar-en-uge-mere-til-forsoege-danne-regering",
+   "date": "2026-11-10T15:39:23+00:00",
+   "da": {
+    "title": "Kristersson får en uge mere til at forsøge at danne regering",
+    "desc": ""
+   },
+   "en": {
+    "title": "Kristersson gets one more week to try to form a government",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/iran-afviser-franske-hacker-beskyldninger",
+   "date": "2026-11-10T14:59:21+00:00",
+   "da": {
+    "title": "Iran afviser franske hacker-beskyldninger",
+    "desc": ""
+   },
+   "en": {
+    "title": "Iran denies French hacker accusations",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/lidl-tilbagekalder-kyllingegyros",
+   "date": "2026-11-10T13:51:56+00:00",
+   "da": {
+    "title": "Lidl tilbagekalder kyllingegyros",
+    "desc": ""
+   },
+   "en": {
+    "title": "Lidl Recalls Chicken Gyros",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/ung-mand-flygtet-fra-sikret-afdeling-i-odsherred",
@@ -102,97 +193,6 @@
    },
    "en": {
     "title": "Denmark in new billion dollar donation to Ukraine",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/mistaenkeligt-forhold-undersoeges-ved-herning-centret",
-   "date": "2026-11-10T10:00:27+00:00",
-   "da": {
-    "title": "Knivstikkeri ved Herning Centret - 19-årig anholdt",
-    "desc": ""
-   },
-   "en": {
-    "title": "Stabbing at Herning Centre - 19-year-old arrested",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/agf-giver-bodystocking-med-klublogo-til-nyfoedte-aarhusianere",
-   "date": "2026-11-10T09:05:10+00:00",
-   "da": {
-    "title": "AGF giver bodystocking med klublogo til nyfødte aarhusianere",
-    "desc": ""
-   },
-   "en": {
-    "title": "AGF provides club logo bodystocking for newborn Aarhusians",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/macron-parret-anlaegger-sag-mod-amerikansk-hoejrefloejsinfluencer",
-   "date": "2026-11-10T08:19:35+00:00",
-   "da": {
-    "title": "Macron-parret anlægger sag mod amerikansk højrefløjsinfluencer",
-    "desc": ""
-   },
-   "en": {
-    "title": "Macron couple files lawsuit against US right-wing influencer",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/zelenskyj-laegger-i-dag-vejen-forbi-danmark",
-   "date": "2026-11-10T08:14:31+00:00",
-   "da": {
-    "title": "Zelenskyj lægger i dag vejen forbi Danmark",
-    "desc": ""
-   },
-   "en": {
-    "title": "Zelenskyi passes Denmark today",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/billund-kommune-skal-betale-12-millioner-kroner-til-deltidsansatte",
-   "date": "2026-11-10T08:00:37+00:00",
-   "da": {
-    "title": "Billund Kommune skal betale 12 millioner kroner til deltidsansatte",
-    "desc": ""
-   },
-   "en": {
-    "title": "Billund Municipality to pay NOK 12 million to part-time employees",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/selskab-bag-dansk-supercomputer-udvider-ejerkreds",
-   "date": "2026-11-10T07:42:58+00:00",
-   "da": {
-    "title": "Selskab bag dansk supercomputer udvider ejerkreds",
-    "desc": ""
-   },
-   "en": {
-    "title": "Company behind Danish supercomputer expands ownership",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/inflationen-var-uaendret-i-oktober",
-   "date": "2026-11-10T07:19:54+00:00",
-   "da": {
-    "title": "Inflationen var uændret i oktober",
-    "desc": ""
-   },
-   "en": {
-    "title": "Inflation remained unchanged in October",
     "desc": ""
    }
   }
