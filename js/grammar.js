@@ -371,6 +371,92 @@ PD2.GRAMMAR = [
     ]
   },
   {
+    id: "tider-skriv", ico: "⏳", title: "Nutid, datid og fremtid – husk det, når du skriver", en: "Present, past and future – remember this when you write",
+    intro: "Når du skriver, skal du vælge den rigtige tid: nu, før eller senere. Se på tidsordene i opgaven (i dag, i går, i morgen, i fem år …). De fortæller dig, hvilken tid du skal bruge.",
+    introEn: "When you write, choose the right time: now, before or later. Look at the time words (i dag, i går, i morgen, i fem år …). They tell you which tense to use.",
+    rules: [
+      {
+        h: "Overblik",
+        da: "De fire tider, du skal bruge til prøven:",
+        en: "The four tenses you need for the exam:",
+        table: { head: ["Tid", "English", "Hvornår?", "Tidsord", "Eksempel"], rows: [
+          ["Nutid", "present", "nu og hver dag", "nu, i dag, hver dag, tit, altid", "Jeg arbejder i en butik."],
+          ["Datid", "past", "færdigt – på et bestemt tidspunkt før", "i går, sidste år, i 2020, da jeg var barn", "Jeg flyttede til Danmark i 2020."],
+          ["Førnutid (har / er + verbum)", "present perfect", "fra før og til nu – eller noget, du har prøvet", "i fem år, siden 2020, aldrig, nogensinde, lige", "Jeg har boet i Vejle i fem år."],
+          ["Fremtid (skal / vil)", "future", "senere", "i morgen, næste uge, til sommer, i fremtiden", "Jeg skal på ferie i juli."]
+        ] }
+      },
+      {
+        h: "1. Nutid – nu og hver dag (-r)",
+        da: "Brug nutid om nu og om ting, du gør tit. Verbet ender på -r, og det er det samme for alle personer. Dansk har ikke en «-ing»-form.",
+        en: "Use the present for now and for things you do often. The verb ends in -r, the same for every person. Danish has no «-ing» form: «I am working» = Jeg arbejder.",
+        ex: [["Jeg bor i Vejle, og jeg arbejder på et hotel.", "I live in Vejle, and I work at a hotel."], ["Hver dag cykler jeg på arbejde.", "Every day I cycle to work."], ["Jeg skriver til dig, fordi …", "I am writing to you because … (not «er skrivende»)"]]
+      },
+      {
+        h: "2. Datid – noget, der er færdigt (-ede / -te)",
+        da: "Brug datid, når noget skete på et bestemt tidspunkt før: i går, i lørdags, sidste år, i 2020. Mange verber ender på -ede eller -te. Nogle skal læres udenad (var, gik, kom, fik).",
+        en: "Use the past when something happened at a definite time before: yesterday, last Saturday, last year, in 2020. Many verbs end in -ede or -te. Some must be learned by heart (var, gik, kom, fik).",
+        ex: [["I lørdags holdt vi en stor fest.", "Last Saturday we had a big party."], ["Jeg flyttede til Danmark i 2020.", "I moved to Denmark in 2020."], ["Da jeg var barn, boede jeg i Syrien.", "When I was a child, I lived in Syria."]]
+      },
+      {
+        h: "3. Førnutid – fra før og til nu (har / er + verbum)",
+        da: "Brug har + verbum, når noget startede før og stadig er sandt, eller når du fortæller, hvad du har prøvet. Verber om at flytte sig eller blive noget bruger er: er flyttet, er kommet, er blevet.",
+        en: "Use har + verb when something started before and is still true, or when you tell what you have tried. Verbs about moving or becoming use er: er flyttet, er kommet, er blevet.",
+        ex: [["Jeg har boet i Danmark i fem år. (Jeg bor her stadig.)", "I have lived in Denmark for five years. (I still live here.)"], ["Jeg har aldrig været i Spanien.", "I have never been to Spain."], ["Vi er lige flyttet til en ny lejlighed.", "We have just moved to a new flat."]]
+      },
+      {
+        h: "Datid eller førnutid? Se på tidsordet",
+        da: "Står der et bestemt tidspunkt (i går, i 2020, sidste år)? → datid. Står der «i fem år», «siden», «aldrig» eller intet tidspunkt? → førnutid.",
+        en: "Is there a definite time (yesterday, in 2020, last year)? → past. Is there «for five years», «since», «never» or no time? → present perfect.",
+        ex: [["✔ Jeg kom til Danmark i 2020.", "I came to Denmark in 2020. (definite time → datid)"], ["✘ Jeg er kommet til Danmark i 2020.", "Wrong: a definite time needs datid."], ["✔ Jeg har lært dansk i to år.", "I have learned Danish for two years. (still learning → førnutid)"]]
+      },
+      {
+        h: "4. Fremtid – skal, vil, kommer til at",
+        da: "Brug «skal» om planer og aftaler. Brug «vil gerne» om ønsker. Brug «kommer til at» om noget, du tror, der sker. Du kan også bruge nutid + et tidsord: I morgen arbejder jeg.",
+        en: "Use «skal» for plans and arrangements. Use «vil gerne» for wishes. Use «kommer til at» for something you think will happen. You can also use the present + a time word: I morgen arbejder jeg.",
+        ex: [["Næste uge skal jeg begynde på et nyt job.", "Next week I am going to start a new job. (plan)"], ["I fremtiden vil jeg gerne være kok.", "In the future I would like to be a chef. (wish)"], ["Det kommer til at regne i morgen.", "It is going to rain tomorrow. (what you think)"], ["I morgen arbejder jeg til kl. 16.", "Tomorrow I work until 4. (present + time word)"]]
+      },
+      {
+        h: "Efter skal / vil / kan / må: ingen -r og intet «at»",
+        da: "Efter skal, vil, kan, må og bør kommer verbet i grundformen – uden -r og uden «at».",
+        en: "After skal, vil, kan, må and bør the verb is in the basic form – without -r and without «at».",
+        ex: [["✔ Jeg skal arbejde i morgen.", "I have to work tomorrow."], ["✘ Jeg skal arbejder i morgen.", "Wrong: no -r after skal."], ["✘ Jeg vil at rejse til Italien.", "Wrong: no «at» after vil → Jeg vil rejse til Italien."]]
+      },
+      {
+        h: "Vigtige verber – lær dem udenad",
+        da: "Disse verber bruger du i næsten alle tekster. De følger ikke de faste mønstre.",
+        en: "You use these verbs in almost every text. They don't follow the normal patterns.",
+        table: { head: ["Grundform", "Nutid", "Datid", "Førnutid", "English"], rows: [
+          ["være", "er", "var", "har været", "be"], ["have", "har", "havde", "har haft", "have"], ["gå", "går", "gik", "er gået", "go / walk"],
+          ["komme", "kommer", "kom", "er kommet", "come"], ["blive", "bliver", "blev", "er blevet", "become / stay"], ["få", "får", "fik", "har fået", "get"],
+          ["tage", "tager", "tog", "har taget", "take"], ["se", "ser", "så", "har set", "see"], ["gøre", "gør", "gjorde", "har gjort", "do"],
+          ["sige", "siger", "sagde", "har sagt", "say"], ["spise", "spiser", "spiste", "har spist", "eat"], ["drikke", "drikker", "drak", "har drukket", "drink"],
+          ["skrive", "skriver", "skrev", "har skrevet", "write"], ["vide", "ved", "vidste", "har vidst", "know"], ["synes", "synes", "syntes", "har syntes", "think"]
+        ] }
+      },
+      {
+        h: "Husk, når du skriver",
+        da: "Fortæller du om en ferie, en fest eller en dag, der er gået? → datid hele vejen. Fortæller du om dit liv nu (job, bolig, fritid)? → nutid. Fortæller du om planer? → skal / vil. Bland ikke tiderne uden grund.",
+        en: "Writing about a holiday, a party or a day that is over? → past all the way. About your life now (job, home, free time)? → present. About plans? → skal / vil. Don't mix the tenses without a reason.",
+        ex: [["Sidste sommer var vi i Spanien. Vi boede på et hotel, og vi badede hver dag.", "Last summer we were in Spain. We stayed at a hotel, and we swam every day. (all past)"], ["Nu bor jeg i Vejle. Jeg arbejder på et hotel, og jeg er glad for mit job.", "Now I live in Vejle. I work at a hotel, and I am happy with my job. (all present)"], ["Næste år skal jeg på skole, og jeg vil gerne have et fast job.", "Next year I am going to school, and I would like a permanent job. (future)"]]
+      }
+    ],
+    ex: [
+      { t: "mc", q: "I går ___ jeg i biografen. (gå)", o: ["går", "gik", "har gået"], a: 1, why: "«I går» is a definite time in the past → datid: gik." },
+      { t: "mc", q: "Jeg ___ i Danmark i fem år. (bo) – Jeg bor her stadig.", o: ["boede", "har boet", "bor"], a: 1, why: "It started before and is still true → førnutid: har boet." },
+      { t: "mc", q: "Næste uge ___ jeg begynde på et nyt job.", o: ["skal", "har", "var"], a: 0, why: "A plan for the future → skal." },
+      { t: "mc", q: "Jeg skal ___ i morgen.", o: ["arbejder", "arbejde", "at arbejde"], a: 1, why: "After «skal» the basic form – no -r and no «at»: skal arbejde." },
+      { t: "mc", q: "Hver dag ___ jeg på arbejde. (cykle)", o: ["cykler", "cyklede", "har cyklet"], a: 0, why: "«Hver dag» = a habit → nutid: cykler." },
+      { t: "mc", q: "Jeg ___ til Danmark i 2020. (komme)", o: ["er kommet", "kom", "kommer"], a: 1, why: "«i 2020» is a definite time → datid: kom." },
+      { t: "mc", q: "Vi ___ lige flyttet til en ny lejlighed.", o: ["har", "er", "var"], a: 1, why: "«flytte» is about moving → er flyttet." },
+      { t: "mc", q: "Jeg har aldrig ___ i Spanien. (være)", o: ["været", "var", "er"], a: 0, why: "After «har» comes the perfect form: har været." },
+      { t: "type", q: "I lørdags ___ vi pizza. (spise)", a: ["spiste"], why: "«I lørdags» = last Saturday → datid: spiste." },
+      { t: "type", q: "Sidste år ___ jeg et kursus i dansk. (tage)", a: ["tog"], why: "«Sidste år» → datid. «tage» is irregular: tog." },
+      { t: "type", q: "Nu ___ jeg i en butik. (arbejde)", a: ["arbejder"], why: "«Nu» → nutid: arbejde + r = arbejder." },
+      { t: "type", q: "I fremtiden vil jeg gerne ___ kok. (være)", a: ["være"], why: "After «vil gerne» the basic form: være." }
+    ]
+  },
+  {
     id: "stedord", ico: "👤", title: "Stedord: jeg, mig, min", en: "Pronouns: I, me, my",
     intro: "Stedord ændrer form, når de er subjekt (jeg), objekt (mig) eller ejer (min).",
     introEn: "Pronouns change form when they are the subject (jeg = I), the object (mig = me) or the owner (min = my).",
