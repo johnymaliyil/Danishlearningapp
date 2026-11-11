@@ -1,6 +1,58 @@
 {
- "updated": "2026-11-11T11:54+00:00",
+ "updated": "2026-11-11T21:58+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/danmarks-basketkvinder-taber-must-win-kamp-i-em-kvalifikationen",
+   "date": "2026-11-11T19:58:57+00:00",
+   "da": {
+    "title": "Danmarks basketkvinder taber 'must win-kamp' i EM-kvalifikationen",
+    "desc": ""
+   },
+   "en": {
+    "title": "Denmark's women's basketball team loses 'must-win game' in European Championship qualifiers",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/stor-uddannelsesinstitution-ramt-af-hackerangreb",
+   "date": "2026-11-11T19:35:09+00:00",
+   "da": {
+    "title": "Stor uddannelsesinstitution ramt af hackerangreb",
+    "desc": ""
+   },
+   "en": {
+    "title": "Major educational institution hit by hacker attack",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/maend-idoemt-faengsel-stjaele-og-videresaelge-cykler-i-koebenhavn",
+   "date": "2026-11-11T15:46:49+00:00",
+   "da": {
+    "title": "To mænd idømt fængsel for at stjæle og videresælge cykler i København",
+    "desc": ""
+   },
+   "en": {
+    "title": "Two men sentenced to prison for stealing and reselling bicycles in Copenhagen",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/skuespiller-stacy-keach-er-doed",
+   "date": "2026-11-11T14:46:23+00:00",
+   "da": {
+    "title": "Skuespiller Stacy Keach er død",
+    "desc": ""
+   },
+   "en": {
+    "title": "Actor Stacy Keach has passed away",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/tre-maend-snuppet-med-71-000-cigaretter-i-lufthavnen",
@@ -141,58 +193,6 @@
    },
    "en": {
     "title": "UK court overturns ban on homosexuality in Trinidad and Tobago",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/kristersson-faar-en-uge-mere-til-forsoege-danne-regering",
-   "date": "2026-11-10T15:39:23+00:00",
-   "da": {
-    "title": "Kristersson får en uge mere til at forsøge at danne regering",
-    "desc": ""
-   },
-   "en": {
-    "title": "Kristersson gets one more week to try to form a government",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/iran-afviser-franske-hacker-beskyldninger",
-   "date": "2026-11-10T14:59:21+00:00",
-   "da": {
-    "title": "Iran afviser franske hacker-beskyldninger",
-    "desc": ""
-   },
-   "en": {
-    "title": "Iran denies French hacker accusations",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/lidl-tilbagekalder-kyllingegyros",
-   "date": "2026-11-10T13:51:56+00:00",
-   "da": {
-    "title": "Lidl tilbagekalder kyllingegyros",
-    "desc": ""
-   },
-   "en": {
-    "title": "Lidl Recalls Chicken Gyros",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/ung-mand-flygtet-fra-sikret-afdeling-i-odsherred",
-   "date": "2026-11-10T12:28:45+00:00",
-   "da": {
-    "title": "Ung mand flygtet fra sikret afdeling fundet igen",
-    "desc": ""
-   },
-   "en": {
-    "title": "Young man escaped from secured ward found again",
     "desc": ""
    }
   }
