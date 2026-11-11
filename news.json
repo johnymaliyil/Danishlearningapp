@@ -1,6 +1,97 @@
 {
- "updated": "2026-11-10T21:18+00:00",
+ "updated": "2026-11-11T11:54+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tre-maend-snuppet-med-71-000-cigaretter-i-lufthavnen",
+   "date": "2026-11-11T10:54:44+00:00",
+   "da": {
+    "title": "Tre mænd snuppet med 71.000 cigaretter i lufthavnen",
+    "desc": ""
+   },
+   "en": {
+    "title": "Three men snatched 71,000 cigarettes at the airport",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/25-biler-udsat-haervaerk-i-nyborg",
+   "date": "2026-11-11T09:01:11+00:00",
+   "da": {
+    "title": "25 biler udsat for hærværk i Nyborg",
+    "desc": ""
+   },
+   "en": {
+    "title": "25 cars vandalized in Nyborg",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/direktoer-idoemt-aars-faengsel-og-millionboede",
+   "date": "2026-11-11T08:48:03+00:00",
+   "da": {
+    "title": "Direktør idømt to års fængsel og millionbøde",
+    "desc": ""
+   },
+   "en": {
+    "title": "Director sentenced to two years in prison and a fine of millions",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/gidsel-kan-blive-aarets-sportsnavn-andet-aar-i-traek",
+   "date": "2026-11-11T08:39:00+00:00",
+   "da": {
+    "title": "Gidsel kan blive Årets Sportsnavn for andet år i træk",
+    "desc": ""
+   },
+   "en": {
+    "title": "Hostage can become Sports Name of the Year for the second year in a row",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/vestas-oeger-sit-overskud",
+   "date": "2026-11-11T06:38:33+00:00",
+   "da": {
+    "title": "Vestas øger sit overskud",
+    "desc": ""
+   },
+   "en": {
+    "title": "Vestas increases its profits",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/bjoerne-aflivet-efter-angreb-paa-mor-og-datter-i-canada",
+   "date": "2026-11-11T04:57:18+00:00",
+   "da": {
+    "title": "Bjørne aflivet efter angreb på mor og datter i Canada",
+    "desc": ""
+   },
+   "en": {
+    "title": "Bears killed after attack on mother and daughter in Canada",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/ebolasmitten-stiger-i-dr-congo-11-000-ramt",
+   "date": "2026-11-11T04:32:09+00:00",
+   "da": {
+    "title": "Ebolasmitten stiger i DR Congo - 11.000 ramt",
+    "desc": ""
+   },
+   "en": {
+    "title": "Ebola infection rises in DR Congo - 11,000 affected",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/hertuginde-meghans-far-anholdt-fjerne-fodlaenke",
@@ -97,102 +188,11 @@
    "link": "https://www.dr.dk/nyheder/seneste/ung-mand-flygtet-fra-sikret-afdeling-i-odsherred",
    "date": "2026-11-10T12:28:45+00:00",
    "da": {
-    "title": "Ung mand flygtet fra sikret afdeling i Odsherred",
+    "title": "Ung mand flygtet fra sikret afdeling fundet igen",
     "desc": ""
    },
    "en": {
-    "title": "Young man fled from secured department in Odsherred",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/groenlandsk-minister-traeder-tilbage",
-   "date": "2026-11-10T12:13:24+00:00",
-   "da": {
-    "title": "Grønlandsk minister træder tilbage",
-    "desc": ""
-   },
-   "en": {
-    "title": "Greenland minister resigns",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/klimaraadet-faar-ny-forperson",
-   "date": "2026-11-10T11:40:33+00:00",
-   "da": {
-    "title": "Klimarådet får ny forperson",
-    "desc": ""
-   },
-   "en": {
-    "title": "The Climate Council gets a new foreperson",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/hoejesteret-slaar-fast-marius-borg-hoeiby-loeslades-ikke",
-   "date": "2026-11-10T11:39:41+00:00",
-   "da": {
-    "title": "Højesteret slår fast: Marius Borg Høiby løslades ikke",
-    "desc": ""
-   },
-   "en": {
-    "title": "The Supreme Court states: Marius Borg Høiby will not be released",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/elefantunge-foedt-i-zoologisk-have-en-maaned-foer-tid",
-   "date": "2026-11-10T11:32:14+00:00",
-   "da": {
-    "title": "Elefantunge født i Zoologisk Have en måned før tid",
-    "desc": ""
-   },
-   "en": {
-    "title": "Elephant baby born in Zoo one month early",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/11-meldes-doede-i-harmonikasammenstoed-i-bulgarien",
-   "date": "2026-11-10T10:39:39+00:00",
-   "da": {
-    "title": "11 meldes døde i harmonikasammenstød i Bulgarien",
-    "desc": ""
-   },
-   "en": {
-    "title": "11 reported dead in harmony clash in Bulgaria",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/koebenhavn-faar-nyt-boligomraade-med-op-mod-680-boliger",
-   "date": "2026-11-10T10:23:23+00:00",
-   "da": {
-    "title": "København får nyt boligområde med op mod 680 boliger",
-    "desc": ""
-   },
-   "en": {
-    "title": "Copenhagen gets a new residential area with up to 680 homes",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/danmark-i-ny-milliarddonation-til-ukraine",
-   "date": "2026-11-10T10:03:45+00:00",
-   "da": {
-    "title": "Danmark i ny milliarddonation til Ukraine",
-    "desc": ""
-   },
-   "en": {
-    "title": "Denmark in new billion dollar donation to Ukraine",
+    "title": "Young man escaped from secured ward found again",
     "desc": ""
    }
   }
