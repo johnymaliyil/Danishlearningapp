@@ -1,6 +1,188 @@
 {
- "updated": "2026-11-12T12:44+00:00",
+ "updated": "2026-11-12T21:51+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/sydmotorvejen-spaerret-i-sydgaaende-retning-politiet-advarer-om-glatte-veje",
+   "date": "2026-11-12T21:25:42+00:00",
+   "da": {
+    "title": "Sydmotorvejen spærret i sydgående retning - politiet advarer om glatte veje",
+    "desc": ""
+   },
+   "en": {
+    "title": "Southbound lane of the South Motorway closed – police warn of slippery roads",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/anders-matthesen-modtager-haederspris",
+   "date": "2026-11-12T20:22:45+00:00",
+   "da": {
+    "title": "Anders Matthesen modtager hæderspris",
+    "desc": ""
+   },
+   "en": {
+    "title": "Anders Matthesen receives honorary award",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/over-140-000-norwegian-passagerer-beroert-af-datalaek",
+   "date": "2026-11-12T20:05:16+00:00",
+   "da": {
+    "title": "Over 140.000 Norwegian-passagerer berørt af datalæk",
+    "desc": ""
+   },
+   "en": {
+    "title": "Over 140,000 Norwegian passengers affected by data breach",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/politiet-efterlyser-vidner-til-vaebnet-roeveri-i-broerup",
+   "date": "2026-11-12T19:51:03+00:00",
+   "da": {
+    "title": "Politiet efterlyser vidner til væbnet røveri i Brørup",
+    "desc": ""
+   },
+   "en": {
+    "title": "Police are seeking witnesses to an armed robbery in Brørup",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/armbaand-med-safir-fra-romanov-dynastiet-solgt-svimlende-millionbeloeb",
+   "date": "2026-11-12T18:34:47+00:00",
+   "da": {
+    "title": "Armbånd med safir fra Romanov-dynastiet solgt for svimlende millionbeløb",
+    "desc": ""
+   },
+   "en": {
+    "title": "Sapphire bracelet from the Romanov dynasty sold for a staggering sum in the millions",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/naeste-aars-nato-topmoede-kommer-ikke-til-foregaa-i-tirana-alligevel",
+   "date": "2026-11-12T18:12:49+00:00",
+   "da": {
+    "title": "Næste års Nato-topmøde kommer ikke til at foregå i Tirana alligevel",
+    "desc": ""
+   },
+   "en": {
+    "title": "Next year's NATO summit will not be held in Tirana anyway.",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/militaerhelikopter-styrtet-ned-i-tyrkiet",
+   "date": "2026-11-12T18:11:54+00:00",
+   "da": {
+    "title": "Militærhelikopter styrtet ned i Tyrkiet",
+    "desc": ""
+   },
+   "en": {
+    "title": "Military helicopter crashes in Turkey",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/uheld-paa-oeresundsmotorvejen-bil-er-rullet-om-paa-taget",
+   "date": "2026-11-12T16:52:19+00:00",
+   "da": {
+    "title": "Uheld på Øresundsmotorvejen - bil er rullet om på taget",
+    "desc": ""
+   },
+   "en": {
+    "title": "Accident on the Øresund Motorway – car has rolled over onto its roof",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/dom-i-christiansoe-drama-lader-vente-paa-sig",
+   "date": "2026-11-12T16:12:28+00:00",
+   "da": {
+    "title": "Dom i Christiansø-drama lader vente på sig",
+    "desc": ""
+   },
+   "en": {
+    "title": "The verdict in the Christiansø drama is still pending",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/groenland-skifter-tidszone",
+   "date": "2026-11-12T15:37:22+00:00",
+   "da": {
+    "title": "Grønland skifter tidszone",
+    "desc": "For tre år siden gik Grønland fra en tidszone til en anden. Nu går man tilbage til den gamle."
+   },
+   "en": {
+    "title": "Greenland changes time zone",
+    "desc": "Three years ago, Greenland switched from one time zone to another. Now it's going back to the old one."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/aalborg-eller-helsingoer-skal-vaere-europaeisk-kulturhovedstad",
+   "date": "2026-11-12T15:11:06+00:00",
+   "da": {
+    "title": "Aalborg eller Helsingør skal være europæisk kulturhovedstad",
+    "desc": ""
+   },
+   "en": {
+    "title": "Aalborg or Helsingør to be European Capital of Culture",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/britisk-domstol-finder-iranere-skyldige-i-spionage",
+   "date": "2026-11-12T14:45:34+00:00",
+   "da": {
+    "title": "Britisk domstol finder to iranere skyldige i spionage",
+    "desc": ""
+   },
+   "en": {
+    "title": "British court finds two Iranians guilty of espionage",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/rolling-stones-guitarist-bliver-hovednavn-paa-dansk-festival",
+   "date": "2026-11-12T14:15:17+00:00",
+   "da": {
+    "title": "Rolling Stones-guitarist bliver hovednavn på dansk festival",
+    "desc": ""
+   },
+   "en": {
+    "title": "Rolling Stones guitarist to headline Danish festival",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/skadelige-koder-fjernet-fra-over-600-hjemmesider",
+   "date": "2026-11-12T13:53:47+00:00",
+   "da": {
+    "title": "Skadelig kode fjernet fra over 600 hjemmesider",
+    "desc": ""
+   },
+   "en": {
+    "title": "Malicious code removed from over 600 websites",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/leopardunge-i-koebenhavns-zoo-er-doed",
@@ -11,188 +193,6 @@
    },
    "en": {
     "title": "Leopard cub at Copenhagen Zoo has died",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/smukfest-loefter-sloeret-de-foerste-navne-til-naeste-aars-festival",
-   "date": "2026-11-12T11:53:55+00:00",
-   "da": {
-    "title": "Smukfest løfter sløret for de første navne til næste års festival",
-    "desc": ""
-   },
-   "en": {
-    "title": "Smukfest reveals the first names for next year's festival",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/nordiske-lande-arbejder-paa-ny-forsvarsaftale",
-   "date": "2026-11-12T11:28:07+00:00",
-   "da": {
-    "title": "Nordiske lande arbejder på ny forsvarsaftale",
-    "desc": ""
-   },
-   "en": {
-    "title": "Nordic countries are working on a new defense agreement",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/foerste-smittetilfaelde-med-maeslinger-herhjemme-i-aar",
-   "date": "2026-11-12T10:25:54+00:00",
-   "da": {
-    "title": "Første smittetilfælde med mæslinger herhjemme i år",
-    "desc": ""
-   },
-   "en": {
-    "title": "First case of measles in Denmark this year",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/melding-om-bombetrussel-paavirker-togtrafik-mellem-london-og-paris",
-   "date": "2026-11-12T09:50:32+00:00",
-   "da": {
-    "title": "Melding om bombetrussel påvirkede togtrafik mellem London og Paris",
-    "desc": ""
-   },
-   "en": {
-    "title": "Bomb threat alert affected train services between London and Paris",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/fejl-paa-kabel-skyld-i-stroemafbrydelse-paa-sejeroe",
-   "date": "2026-11-12T08:45:19+00:00",
-   "da": {
-    "title": "Fejl på kabel skyld i strømafbrydelse på Sejerø",
-    "desc": ""
-   },
-   "en": {
-    "title": "Cable fault causes power outage on Sejerø",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/russisk-militaermand-er-doed-i-bileksplosion-i-sankt-petersborg",
-   "date": "2026-11-12T08:32:50+00:00",
-   "da": {
-    "title": "Russisk militærmand er død i bileksplosion i Sankt Petersborg",
-    "desc": ""
-   },
-   "en": {
-    "title": "Russian serviceman killed in car explosion in St. Petersburg",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/svensk-graensekontrol-fortsaetter-i-seks-maaneder-fra-i-dag",
-   "date": "2026-11-12T07:43:05+00:00",
-   "da": {
-    "title": "Svensk grænsekontrol fortsætter i seks måneder fra i dag",
-    "desc": ""
-   },
-   "en": {
-    "title": "Swedish border controls will continue for six months from today",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/bakken-bears-taber-europaeisk-topkamp-uden-tilskuere",
-   "date": "2026-11-11T22:53:43+00:00",
-   "da": {
-    "title": "Bakken Bears taber europæisk topkamp uden tilskuere",
-    "desc": ""
-   },
-   "en": {
-    "title": "Bakken Bears lose European top game without spectators",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/danmarks-basketkvinder-taber-must-win-kamp-i-em-kvalifikationen",
-   "date": "2026-11-11T19:58:57+00:00",
-   "da": {
-    "title": "Danmarks basketkvinder taber 'must win-kamp' i EM-kvalifikationen",
-    "desc": ""
-   },
-   "en": {
-    "title": "Denmark's women's basketball team loses 'must-win game' in European Championship qualifiers",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/stor-uddannelsesinstitution-ramt-af-hackerangreb",
-   "date": "2026-11-11T19:35:09+00:00",
-   "da": {
-    "title": "Stor uddannelsesinstitution ramt af hackerangreb",
-    "desc": ""
-   },
-   "en": {
-    "title": "Major educational institution hit by hacker attack",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/maend-idoemt-faengsel-stjaele-og-videresaelge-cykler-i-koebenhavn",
-   "date": "2026-11-11T15:46:49+00:00",
-   "da": {
-    "title": "To mænd idømt fængsel for at stjæle og videresælge cykler i København",
-    "desc": ""
-   },
-   "en": {
-    "title": "Two men sentenced to prison for stealing and reselling bicycles in Copenhagen",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/skuespiller-stacy-keach-er-doed",
-   "date": "2026-11-11T14:46:23+00:00",
-   "da": {
-    "title": "Skuespiller Stacy Keach er død",
-    "desc": ""
-   },
-   "en": {
-    "title": "Actor Stacy Keach has passed away",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tre-maend-snuppet-med-71-000-cigaretter-i-lufthavnen",
-   "date": "2026-11-11T10:54:44+00:00",
-   "da": {
-    "title": "Tre mænd snuppet med 71.000 cigaretter i lufthavnen",
-    "desc": ""
-   },
-   "en": {
-    "title": "Three men snatched 71,000 cigarettes at the airport",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/25-biler-udsat-haervaerk-i-nyborg",
-   "date": "2026-11-11T09:01:11+00:00",
-   "da": {
-    "title": "25 biler udsat for hærværk i Nyborg",
-    "desc": ""
-   },
-   "en": {
-    "title": "25 cars vandalized in Nyborg",
     "desc": ""
    }
   }
