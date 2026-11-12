@@ -1,6 +1,123 @@
 {
- "updated": "2026-11-11T21:58+00:00",
+ "updated": "2026-11-12T12:44+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/leopardunge-i-koebenhavns-zoo-er-doed",
+   "date": "2026-11-12T11:58:33+00:00",
+   "da": {
+    "title": "Leopardunge i Københavns Zoo er død",
+    "desc": ""
+   },
+   "en": {
+    "title": "Leopard cub at Copenhagen Zoo has died",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/smukfest-loefter-sloeret-de-foerste-navne-til-naeste-aars-festival",
+   "date": "2026-11-12T11:53:55+00:00",
+   "da": {
+    "title": "Smukfest løfter sløret for de første navne til næste års festival",
+    "desc": ""
+   },
+   "en": {
+    "title": "Smukfest reveals the first names for next year's festival",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/nordiske-lande-arbejder-paa-ny-forsvarsaftale",
+   "date": "2026-11-12T11:28:07+00:00",
+   "da": {
+    "title": "Nordiske lande arbejder på ny forsvarsaftale",
+    "desc": ""
+   },
+   "en": {
+    "title": "Nordic countries are working on a new defense agreement",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/foerste-smittetilfaelde-med-maeslinger-herhjemme-i-aar",
+   "date": "2026-11-12T10:25:54+00:00",
+   "da": {
+    "title": "Første smittetilfælde med mæslinger herhjemme i år",
+    "desc": ""
+   },
+   "en": {
+    "title": "First case of measles in Denmark this year",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/melding-om-bombetrussel-paavirker-togtrafik-mellem-london-og-paris",
+   "date": "2026-11-12T09:50:32+00:00",
+   "da": {
+    "title": "Melding om bombetrussel påvirkede togtrafik mellem London og Paris",
+    "desc": ""
+   },
+   "en": {
+    "title": "Bomb threat alert affected train services between London and Paris",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/fejl-paa-kabel-skyld-i-stroemafbrydelse-paa-sejeroe",
+   "date": "2026-11-12T08:45:19+00:00",
+   "da": {
+    "title": "Fejl på kabel skyld i strømafbrydelse på Sejerø",
+    "desc": ""
+   },
+   "en": {
+    "title": "Cable fault causes power outage on Sejerø",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/russisk-militaermand-er-doed-i-bileksplosion-i-sankt-petersborg",
+   "date": "2026-11-12T08:32:50+00:00",
+   "da": {
+    "title": "Russisk militærmand er død i bileksplosion i Sankt Petersborg",
+    "desc": ""
+   },
+   "en": {
+    "title": "Russian serviceman killed in car explosion in St. Petersburg",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/svensk-graensekontrol-fortsaetter-i-seks-maaneder-fra-i-dag",
+   "date": "2026-11-12T07:43:05+00:00",
+   "da": {
+    "title": "Svensk grænsekontrol fortsætter i seks måneder fra i dag",
+    "desc": ""
+   },
+   "en": {
+    "title": "Swedish border controls will continue for six months from today",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/bakken-bears-taber-europaeisk-topkamp-uden-tilskuere",
+   "date": "2026-11-11T22:53:43+00:00",
+   "da": {
+    "title": "Bakken Bears taber europæisk topkamp uden tilskuere",
+    "desc": ""
+   },
+   "en": {
+    "title": "Bakken Bears lose European top game without spectators",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/danmarks-basketkvinder-taber-must-win-kamp-i-em-kvalifikationen",
@@ -76,123 +193,6 @@
    },
    "en": {
     "title": "25 cars vandalized in Nyborg",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/direktoer-idoemt-aars-faengsel-og-millionboede",
-   "date": "2026-11-11T08:48:03+00:00",
-   "da": {
-    "title": "Direktør idømt to års fængsel og millionbøde",
-    "desc": ""
-   },
-   "en": {
-    "title": "Director sentenced to two years in prison and a fine of millions",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/gidsel-kan-blive-aarets-sportsnavn-andet-aar-i-traek",
-   "date": "2026-11-11T08:39:00+00:00",
-   "da": {
-    "title": "Gidsel kan blive Årets Sportsnavn for andet år i træk",
-    "desc": ""
-   },
-   "en": {
-    "title": "Hostage can become Sports Name of the Year for the second year in a row",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/vestas-oeger-sit-overskud",
-   "date": "2026-11-11T06:38:33+00:00",
-   "da": {
-    "title": "Vestas øger sit overskud",
-    "desc": ""
-   },
-   "en": {
-    "title": "Vestas increases its profits",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/bjoerne-aflivet-efter-angreb-paa-mor-og-datter-i-canada",
-   "date": "2026-11-11T04:57:18+00:00",
-   "da": {
-    "title": "Bjørne aflivet efter angreb på mor og datter i Canada",
-    "desc": ""
-   },
-   "en": {
-    "title": "Bears killed after attack on mother and daughter in Canada",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/ebolasmitten-stiger-i-dr-congo-11-000-ramt",
-   "date": "2026-11-11T04:32:09+00:00",
-   "da": {
-    "title": "Ebolasmitten stiger i DR Congo - 11.000 ramt",
-    "desc": ""
-   },
-   "en": {
-    "title": "Ebola infection rises in DR Congo - 11,000 affected",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/hertuginde-meghans-far-anholdt-fjerne-fodlaenke",
-   "date": "2026-11-10T21:02:23+00:00",
-   "da": {
-    "title": "Hertuginde Meghans far anholdt for at fjerne fodlænke",
-    "desc": ""
-   },
-   "en": {
-    "title": "Duchess Meghan's father arrested for removing anklet",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/eu-indgaar-hjemsendelsesaftale-med-nigeria",
-   "date": "2026-11-10T20:28:54+00:00",
-   "da": {
-    "title": "EU indgår hjemsendelsesaftale med Nigeria",
-    "desc": ""
-   },
-   "en": {
-    "title": "EU signs repatriation agreement with Nigeria",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/amerikansk-soldat-anholdt-i-england-mistaenkt-spionage",
-   "date": "2026-11-10T19:24:30+00:00",
-   "da": {
-    "title": "Amerikansk soldat anholdt i England mistænkt for spionage",
-    "desc": ""
-   },
-   "en": {
-    "title": "American soldier arrested in England on suspicion of espionage",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/britisk-domstol-omstoeder-forbud-mod-homosex-i-trinidad-og-tobago",
-   "date": "2026-11-10T18:48:41+00:00",
-   "da": {
-    "title": "Britisk domstol omstøder forbud mod homosex i Trinidad og Tobago",
-    "desc": ""
-   },
-   "en": {
-    "title": "UK court overturns ban on homosexuality in Trinidad and Tobago",
     "desc": ""
    }
   }
