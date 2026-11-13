@@ -1,6 +1,58 @@
 {
- "updated": "2026-11-12T21:51+00:00",
+ "updated": "2026-11-13T12:14+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/virksomheder-kan-igen-blive-tilsluttet-det-pressede-elnet",
+   "date": "2026-11-13T09:51:57+00:00",
+   "da": {
+    "title": "Virksomheder kan igen blive tilsluttet det pressede elnet",
+    "desc": ""
+   },
+   "en": {
+    "title": "Businesses can once again be connected to the strained power grid.",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/justitsminister-i-samraad-dr-afsloering-det-er-absurd",
+   "date": "2026-11-13T09:36:59+00:00",
+   "da": {
+    "title": "Justitsminister i samråd efter DR-afsløring: 'Det er absurd'",
+    "desc": ""
+   },
+   "en": {
+    "title": "Minister of Justice in consultation following DR's exposé: 'It's absurd'",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/vejene-er-glatte-i-oestjylland",
+   "date": "2026-11-13T06:07:56+00:00",
+   "da": {
+    "title": "Vejene er glatte i Østjylland",
+    "desc": ""
+   },
+   "en": {
+    "title": "Roads are slippery in East Jutland",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/microsoft-outlook-er-nede-i-store-dele-af-verden",
+   "date": "2026-11-12T23:41:27+00:00",
+   "da": {
+    "title": "Microsoft Outlook er nede i store dele af verden",
+    "desc": "Australiens indenrigsminister har fået at vide, at et nedbrud hos Microsoft ikke skyldes et cyberangreb."
+   },
+   "en": {
+    "title": "Microsoft Outlook is down in large parts of the world",
+    "desc": "Australia's Minister for Home Affairs has been informed that a Microsoft outage is not due to a cyberattack."
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/sydmotorvejen-spaerret-i-sydgaaende-retning-politiet-advarer-om-glatte-veje",
@@ -141,58 +193,6 @@
    },
    "en": {
     "title": "Aalborg or Helsingør to be European Capital of Culture",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/britisk-domstol-finder-iranere-skyldige-i-spionage",
-   "date": "2026-11-12T14:45:34+00:00",
-   "da": {
-    "title": "Britisk domstol finder to iranere skyldige i spionage",
-    "desc": ""
-   },
-   "en": {
-    "title": "British court finds two Iranians guilty of espionage",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/rolling-stones-guitarist-bliver-hovednavn-paa-dansk-festival",
-   "date": "2026-11-12T14:15:17+00:00",
-   "da": {
-    "title": "Rolling Stones-guitarist bliver hovednavn på dansk festival",
-    "desc": ""
-   },
-   "en": {
-    "title": "Rolling Stones guitarist to headline Danish festival",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/skadelige-koder-fjernet-fra-over-600-hjemmesider",
-   "date": "2026-11-12T13:53:47+00:00",
-   "da": {
-    "title": "Skadelig kode fjernet fra over 600 hjemmesider",
-    "desc": ""
-   },
-   "en": {
-    "title": "Malicious code removed from over 600 websites",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/leopardunge-i-koebenhavns-zoo-er-doed",
-   "date": "2026-11-12T11:58:33+00:00",
-   "da": {
-    "title": "Leopardunge i Københavns Zoo er død",
-    "desc": ""
-   },
-   "en": {
-    "title": "Leopard cub at Copenhagen Zoo has died",
     "desc": ""
    }
   }
