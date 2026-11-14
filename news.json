@@ -1,13 +1,39 @@
 {
- "updated": "2026-11-13T21:26+00:00",
+ "updated": "2026-11-14T11:29+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/billetter-til-emma-sehested-hoeeg-koncert-er-udsolgt",
+   "date": "2026-11-14T09:55:11+00:00",
+   "da": {
+    "title": "Billetter til Emma Sehested Høeg-koncert er udsolgt",
+    "desc": ""
+   },
+   "en": {
+    "title": "Tickets for the Emma Sehested Høeg concert are sold out",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/20-millioner-dollar-beslaglagt-i-ungarsk-korruptionssag-mod-minister",
+   "date": "2026-11-14T08:41:09+00:00",
+   "da": {
+    "title": "20 millioner dollar beslaglagt i ungarsk korruptionssag mod minister",
+    "desc": ""
+   },
+   "en": {
+    "title": "$20 million seized in Hungarian corruption case against minister",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/alle-flyvninger-i-indstillet-melder-usa-s-luftfartsmyndigheder",
    "date": "2026-11-13T21:16:45+00:00",
    "da": {
     "title": "Alle flyvninger i USA indstillet, melder luftfartsmyndigheder",
-    "desc": ""
+    "desc": "Startforbuddet sker som følge af kommunikationsproblemer, oplyser USA's transportminister."
    },
    "en": {
     "title": "All flights in the United States have been suspended, according to aviation authorities.",
@@ -167,32 +193,6 @@
    },
    "en": {
     "title": "Businesses can once again be connected to the strained power grid.",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/justitsminister-i-samraad-dr-afsloering-det-er-absurd",
-   "date": "2026-11-13T09:36:59+00:00",
-   "da": {
-    "title": "Justitsminister i samråd efter DR-afsløring: 'Det er absurd'",
-    "desc": ""
-   },
-   "en": {
-    "title": "Minister of Justice in consultation following DR's exposé: 'It's absurd'",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/vejene-er-glatte-i-oestjylland",
-   "date": "2026-11-13T06:07:56+00:00",
-   "da": {
-    "title": "Vejene er glatte i Østjylland",
-    "desc": ""
-   },
-   "en": {
-    "title": "Roads are slippery in East Jutland",
     "desc": ""
    }
   }
