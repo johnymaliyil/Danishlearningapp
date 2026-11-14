@@ -1,6 +1,45 @@
 {
- "updated": "2026-11-14T11:29+00:00",
+ "updated": "2026-11-14T19:56+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/filippinerne-vandt-foerste-eurovision-i-asien",
+   "date": "2026-11-14T17:02:34+00:00",
+   "da": {
+    "title": "Filippinerne vandt første Eurovision i Asien",
+    "desc": ""
+   },
+   "en": {
+    "title": "The Philippines won the first Eurovision in Asia",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/italien-sagsoeger-meta-otte-milliarder",
+   "date": "2026-11-14T14:04:15+00:00",
+   "da": {
+    "title": "Italien sagsøger Meta for seks milliarder",
+    "desc": ""
+   },
+   "en": {
+    "title": "Italy sues Meta for six billion",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mulig-flugtbilist-i-aarhus-anholdt",
+   "date": "2026-11-14T12:39:07+00:00",
+   "da": {
+    "title": "Mulig flugtbilist i Aarhus anholdt",
+    "desc": ""
+   },
+   "en": {
+    "title": "Possible hit-and-run driver arrested in Aarhus",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/billetter-til-emma-sehested-hoeeg-koncert-er-udsolgt",
@@ -154,45 +193,6 @@
    },
    "en": {
     "title": "35-year-old convicted of attempted murder in Vejen – to be deported from Denmark",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/genberegnede-kvaelstofgraenser-er-klar-efter-fejl",
-   "date": "2026-11-13T13:53:39+00:00",
-   "da": {
-    "title": "Genberegnede kvælstofgrænser er klar efter fejl",
-    "desc": ""
-   },
-   "en": {
-    "title": "Recalculated nitrogen limits are ready after error",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/bestseller-leverer-nyt-milliardoverskud",
-   "date": "2026-11-13T13:44:02+00:00",
-   "da": {
-    "title": "Bestseller leverer nyt milliardoverskud",
-    "desc": ""
-   },
-   "en": {
-    "title": "Bestseller delivers new billion-dollar profit",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/virksomheder-kan-igen-blive-tilsluttet-det-pressede-elnet",
-   "date": "2026-11-13T09:51:57+00:00",
-   "da": {
-    "title": "Virksomheder kan igen blive tilsluttet det pressede elnet",
-    "desc": ""
-   },
-   "en": {
-    "title": "Businesses can once again be connected to the strained power grid.",
     "desc": ""
    }
   }
