@@ -1,6 +1,84 @@
 {
- "updated": "2026-11-14T19:56+00:00",
+ "updated": "2026-11-15T11:58+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/kina-goer-det-forbudt-eje-og-besidde-droner-i-beijing",
+   "date": "2026-11-15T08:49:21+00:00",
+   "da": {
+    "title": "Kina gør det forbudt at eje og besidde droner i Beijing",
+    "desc": "Droneentusiaster i den kinesiske hovedstad har haft travlt med at skille sig af med udstyr."
+   },
+   "en": {
+    "title": "China bans the ownership and possession of drones in Beijing",
+    "desc": "Drone enthusiasts in the Chinese capital have been busy getting rid of equipment."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/formodet-flugtbilist-loesladt-efter-afhoering",
+   "date": "2026-11-15T06:31:13+00:00",
+   "da": {
+    "title": "Formodet flugtbilist løsladt efter afhøring",
+    "desc": ""
+   },
+   "en": {
+    "title": "Suspected hit-and-run driver released after questioning",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/filippinerne-vinder-foerste-asiatiske-eurovision",
+   "date": "2026-11-15T05:30:23+00:00",
+   "da": {
+    "title": "Filippinerne vinder første asiatiske Eurovision",
+    "desc": ""
+   },
+   "en": {
+    "title": "The Philippines wins the first Asian Eurovision",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/canadisk-soldat-doed-af-kvaestelser-efter-brand-paa-base",
+   "date": "2026-11-15T02:41:46+00:00",
+   "da": {
+    "title": "Canadisk soldat død af kvæstelser efter brand på base",
+    "desc": ""
+   },
+   "en": {
+    "title": "Canadian soldier dies of injuries following fire at base",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/straksdom-vaebnet-roeveri-i-matas-i-broerup",
+   "date": "2026-11-14T20:28:06+00:00",
+   "da": {
+    "title": "Straksdom for væbnet røveri i Matas i Brørup",
+    "desc": ""
+   },
+   "en": {
+    "title": "Immediate sentence for armed robbery at Matas in Brørup",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/ni-embedsmaend-fyret-i-irak-efter-mistanke-om-oliesmugling",
+   "date": "2026-11-14T20:11:22+00:00",
+   "da": {
+    "title": "Ni embedsmænd fyret i Irak efter mistanke om oliesmugling",
+    "desc": ""
+   },
+   "en": {
+    "title": "Nine officials dismissed in Iraq following suspicions of oil smuggling",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/filippinerne-vandt-foerste-eurovision-i-asien",
@@ -115,84 +193,6 @@
    },
    "en": {
     "title": "Novo gets the green light to sell hemophilia treatment in Europe",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/efterforskning-af-britisk-tv-kendis-indledes",
-   "date": "2026-11-13T16:46:39+00:00",
-   "da": {
-    "title": "Efterforskning af britisk tv-kendis indledes",
-    "desc": ""
-   },
-   "en": {
-    "title": "Investigation into British TV celebrity launched",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/granat-skyllet-op-paa-strand-i-nordjylland",
-   "date": "2026-11-13T15:55:54+00:00",
-   "da": {
-    "title": "Granat skyllet op på strand i Nordjylland",
-    "desc": ""
-   },
-   "en": {
-    "title": "Grenade washed up on a beach in North Jutland",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tegnetavle-til-boern-tilbagekaldes",
-   "date": "2026-11-13T15:42:57+00:00",
-   "da": {
-    "title": "Tegnetavle til børn tilbagekaldes",
-    "desc": ""
-   },
-   "en": {
-    "title": "Drawing board for children recalled",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/realdania-medlemmer-omfattet-af-datalaek",
-   "date": "2026-11-13T15:16:02+00:00",
-   "da": {
-    "title": "Realdania-medlemmer omfattet af datalæk",
-    "desc": ""
-   },
-   "en": {
-    "title": "Realdania members affected by data breach",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/jordnoeddesmoer-tilbagekaldes",
-   "date": "2026-11-13T14:34:22+00:00",
-   "da": {
-    "title": "Jordnøddesmør tilbagekaldes",
-    "desc": ""
-   },
-   "en": {
-    "title": "Peanut butter recalled",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/35-aarig-doemt-drabsforsoeg-i-vejen-udvises-af-danmark",
-   "date": "2026-11-13T14:07:50+00:00",
-   "da": {
-    "title": "35-årig dømt for drabsforsøg i Vejen - udvises af Danmark",
-    "desc": ""
-   },
-   "en": {
-    "title": "35-year-old convicted of attempted murder in Vejen – to be deported from Denmark",
     "desc": ""
    }
   }
