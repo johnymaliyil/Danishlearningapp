@@ -1,6 +1,97 @@
 {
- "updated": "2026-11-16T12:47+00:00",
+ "updated": "2026-11-16T23:45+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12850872#liveblog-embed",
+   "date": "2026-11-16T21:40:28+00:00",
+   "da": {
+    "title": "Tyskland ydmyger Holland - lægger stort pres på Danmark",
+    "desc": ""
+   },
+   "en": {
+    "title": "Germany humiliates the Netherlands – puts great pressure on Denmark",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/ishockey/usa-genvinder-vm-trofaeet-i-herning",
+   "date": "2026-11-16T20:40:43+00:00",
+   "da": {
+    "title": "USA genvinder VM-trofæet i Herning",
+    "desc": "USA's ishockeykvinder er verdensmestre for andet år i træk."
+   },
+   "en": {
+    "title": "The USA regains the World Championship trophy in Herning",
+    "desc": "The U.S. women's ice hockey team are world champions for the second year in a row."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12849293#liveblog-embed",
+   "date": "2026-11-16T16:11:26+00:00",
+   "da": {
+    "title": "Forsvarsgeneral er fortsat tvivlsom til Norge-kampen",
+    "desc": ""
+   },
+   "en": {
+    "title": "The star defender remains doubtful for the Norway match.",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/ny-drabssag-mod-lindsey-clancy-til-marts",
+   "date": "2026-11-16T15:40:56+00:00",
+   "da": {
+    "title": "Ny retssag mod Lindsey Clancy til marts",
+    "desc": ""
+   },
+   "en": {
+    "title": "New trial against Lindsey Clancy scheduled for March",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12849271#liveblog-embed",
+   "date": "2026-11-16T15:20:05+00:00",
+   "da": {
+    "title": "Brøndby straffes med flere tribunelukninger for fyrværkeri før derby",
+    "desc": ""
+   },
+   "en": {
+    "title": "Brøndby is punished with multiple stand closures for setting off fireworks before the derby",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/britiske-raye-nomineret-til-11-grammy-priser",
+   "date": "2026-11-16T14:44:38+00:00",
+   "da": {
+    "title": "Britiske Raye nomineret til 11 Grammy-priser",
+    "desc": ""
+   },
+   "en": {
+    "title": "Britain's Raye nominated for 11 Grammy Awards",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/17-personer-draebt-i-separate-masseskyderier-i-sydafrika",
+   "date": "2026-11-16T12:46:18+00:00",
+   "da": {
+    "title": "17 personer dræbt i to separate masseskyderier i Sydafrika",
+    "desc": ""
+   },
+   "en": {
+    "title": "17 people killed in two separate mass shootings in South Africa",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/besaetning-paa-kaentret-fragtskib-i-sortehavet-er-i-sikkerhed",
@@ -102,97 +193,6 @@
    },
    "en": {
     "title": "Young Swede sentenced to five and a half years in prison in contract killing case",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/brand-i-nationalbanken-under-kontrol",
-   "date": "2026-11-16T08:12:47+00:00",
-   "da": {
-    "title": "Brand i Nationalbanken under kontrol",
-    "desc": ""
-   },
-   "en": {
-    "title": "Fire at the National Bank under control",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tidligere-socialdemokratisk-folketingsmedlem-er-doed",
-   "date": "2026-11-16T08:11:50+00:00",
-   "da": {
-    "title": "Tidligere socialdemokratisk folketingsmedlem Martin Glerup er død",
-    "desc": ""
-   },
-   "en": {
-    "title": "Former Social Democratic member of parliament Martin Glerup has died",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/forbud-mod-stenbiderfiskeri-forlaenges",
-   "date": "2026-11-16T07:45:55+00:00",
-   "da": {
-    "title": "Forbud mod stenbiderfiskeri forlænges",
-    "desc": ""
-   },
-   "en": {
-    "title": "Ban on lumpfish fishing extended",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/danish-crown-direktoer-fratraeder-sin-stilling-med-oejeblikkelig-virkning",
-   "date": "2026-11-16T07:11:23+00:00",
-   "da": {
-    "title": "Danish Crown-direktør fratræder sin stilling med øjeblikkelig virkning",
-    "desc": "Niels Ulrich Duedahl er fortid i slagterivirksomheden."
-   },
-   "en": {
-    "title": "Danish Crown CEO resigns with immediate effect",
-    "desc": "Niels Ulrich Duedahl is no longer with the slaughterhouse business."
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/skuespillerinde-tildeles-aeresoscar",
-   "date": "2026-11-16T06:26:16+00:00",
-   "da": {
-    "title": "Skuespillerinde tildeles æresoscar",
-    "desc": ""
-   },
-   "en": {
-    "title": "Actress awarded an Honorary Oscar",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/yemens-militaer-traekker-tropper-vaek-fra-straede-ved-det-roede-hav",
-   "date": "2026-11-16T06:09:06+00:00",
-   "da": {
-    "title": "Yemens militær trækker tropper væk fra stræde ved Det Røde Hav",
-    "desc": ""
-   },
-   "en": {
-    "title": "Yemen's military is withdrawing troops from the strait in the Red Sea",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/mexicansk-narkobaron-er-doed",
-   "date": "2026-11-16T05:17:47+00:00",
-   "da": {
-    "title": "Mexicansk narkobaron er død",
-    "desc": ""
-   },
-   "en": {
-    "title": "Mexican drug lord is dead",
     "desc": ""
    }
   }
