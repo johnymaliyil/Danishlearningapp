@@ -1,189 +1,198 @@
 {
- "updated": "2026-11-15T20:24+00:00",
+ "updated": "2026-11-16T12:47+00:00",
  "items": [
   {
    "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/mand-stukket-ned-i-skovlunde",
-   "date": "2026-11-15T18:24:52+00:00",
+   "link": "https://www.dr.dk/nyheder/seneste/besaetning-paa-kaentret-fragtskib-i-sortehavet-er-i-sikkerhed",
+   "date": "2026-11-16T12:20:52+00:00",
    "da": {
-    "title": "Mand stukket ned i Skovlunde",
-    "desc": ""
-   },
-   "en": null
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/africa-cdc-ebolaudbrud-fortsat-ude-af-kontrol",
-   "date": "2026-11-15T16:29:07+00:00",
-   "da": {
-    "title": "Africa CDC: Ebolaudbrud fortsat ude af kontrol",
-    "desc": ""
-   },
-   "en": null
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tre-doedsdoemt-i-jordan-angreb-mod-kirke",
-   "date": "2026-11-15T13:59:16+00:00",
-   "da": {
-    "title": "Tre dødsdømt i Jordan for angreb mod kirke",
-    "desc": ""
-   },
-   "en": null
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/kina-goer-det-forbudt-eje-og-besidde-droner-i-beijing",
-   "date": "2026-11-15T08:49:21+00:00",
-   "da": {
-    "title": "Kina gør det forbudt at eje og besidde droner i Beijing",
-    "desc": "Droneentusiaster i den kinesiske hovedstad har haft travlt med at skille sig af med udstyr."
-   },
-   "en": {
-    "title": "China bans the ownership and possession of drones in Beijing",
-    "desc": "Drone enthusiasts in the Chinese capital have been busy getting rid of equipment."
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/formodet-flugtbilist-loesladt-efter-afhoering",
-   "date": "2026-11-15T06:31:13+00:00",
-   "da": {
-    "title": "Formodet flugtbilist løsladt efter afhøring",
+    "title": "Besætning på kæntret fragtskib i Sortehavet er i sikkerhed",
     "desc": ""
    },
    "en": {
-    "title": "Suspected hit-and-run driver released after questioning",
+    "title": "The crew of the capsized cargo ship in the Black Sea is safe.",
     "desc": ""
    }
   },
   {
    "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/filippinerne-vinder-foerste-asiatiske-eurovision",
-   "date": "2026-11-15T05:30:23+00:00",
+   "link": "https://www.dr.dk/nyheder/seneste/tre-polske-teenagere-anholdt-terrorforberedelse",
+   "date": "2026-11-16T11:35:13+00:00",
    "da": {
-    "title": "Filippinerne vinder første asiatiske Eurovision",
+    "title": "Tre polske teenagere anholdt for terrorforberedelse",
     "desc": ""
    },
    "en": {
-    "title": "The Philippines wins the first Asian Eurovision",
+    "title": "Three Polish teenagers arrested for preparing acts of terrorism",
     "desc": ""
    }
   },
   {
    "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/canadisk-soldat-doed-af-kvaestelser-efter-brand-paa-base",
-   "date": "2026-11-15T02:41:46+00:00",
+   "link": "https://www.dr.dk/nyheder/seneste/yderligere-fire-personer-sigtet-efter-demonstrationer-i-koebenhavn",
+   "date": "2026-11-16T10:55:07+00:00",
    "da": {
-    "title": "Canadisk soldat død af kvæstelser efter brand på base",
+    "title": "Yderligere fire personer sigtet efter demonstrationer i København",
     "desc": ""
    },
    "en": {
-    "title": "Canadian soldier dies of injuries following fire at base",
+    "title": "Four more people charged following demonstrations in Copenhagen",
     "desc": ""
    }
   },
   {
    "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/straksdom-vaebnet-roeveri-i-matas-i-broerup",
-   "date": "2026-11-14T20:28:06+00:00",
+   "link": "https://www.dr.dk/nyheder/seneste/skuffet-russisk-forbund-kraever-erstatning-og-sanktioner-vm-afvisning",
+   "date": "2026-11-16T10:33:01+00:00",
    "da": {
-    "title": "Straksdom for væbnet røveri i Matas i Brørup",
+    "title": "Skuffet russisk forbund kræver erstatning og sanktioner for VM-afvisning",
+    "desc": "Rusland er uforstående over for, at landet ikke må deltage i det kommende U20-VM."
+   },
+   "en": {
+    "title": "Disappointed Russian Federation demands compensation and sanctions for World Cup rejection",
+    "desc": "Russia does not understand why the country is not allowed to participate in the upcoming U20 World Championship."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tidligere-chef-kongens-adjudantstab-er-doed",
+   "date": "2026-11-16T10:11:47+00:00",
+   "da": {
+    "title": "Tidligere chef for Kongens Adjudantstab er død",
     "desc": ""
    },
    "en": {
-    "title": "Immediate sentence for armed robbery at Matas in Brørup",
+    "title": "The former Chief of the King's Adjutant Staff has died",
     "desc": ""
    }
   },
   {
    "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/ni-embedsmaend-fyret-i-irak-efter-mistanke-om-oliesmugling",
-   "date": "2026-11-14T20:11:22+00:00",
+   "link": "https://www.dr.dk/nyheder/seneste/gerard-depardieu-traekker-sin-appel-tilbage",
+   "date": "2026-11-16T10:07:26+00:00",
    "da": {
-    "title": "Ni embedsmænd fyret i Irak efter mistanke om oliesmugling",
+    "title": "Gérard Depardieu trækker sin appel tilbage",
     "desc": ""
    },
    "en": {
-    "title": "Nine officials dismissed in Iraq following suspicions of oil smuggling",
+    "title": "Gérard Depardieu withdraws his appeal",
     "desc": ""
    }
   },
   {
    "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/filippinerne-vandt-foerste-eurovision-i-asien",
-   "date": "2026-11-14T17:02:34+00:00",
+   "link": "https://www.dr.dk/nyheder/seneste/fodboldfans-idoemmes-betinget-faengsel",
+   "date": "2026-11-16T09:19:22+00:00",
    "da": {
-    "title": "Filippinerne vandt første Eurovision i Asien",
+    "title": "Fodboldfans idømmes betinget fængsel",
     "desc": ""
    },
    "en": {
-    "title": "The Philippines won the first Eurovision in Asia",
+    "title": "Soccer fans sentenced to suspended prison terms",
     "desc": ""
    }
   },
   {
    "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/italien-sagsoeger-meta-otte-milliarder",
-   "date": "2026-11-14T14:04:15+00:00",
+   "link": "https://www.dr.dk/nyheder/seneste/ung-svensker-kendt-skyldig-i-sag-om-bestillingsdrab",
+   "date": "2026-11-16T08:41:37+00:00",
    "da": {
-    "title": "Italien sagsøger Meta for seks milliarder",
+    "title": "Ung svensker får fem og et halvt års fængsel i sag om bestillingsdrab",
     "desc": ""
    },
    "en": {
-    "title": "Italy sues Meta for six billion",
+    "title": "Young Swede sentenced to five and a half years in prison in contract killing case",
     "desc": ""
    }
   },
   {
    "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/mulig-flugtbilist-i-aarhus-anholdt",
-   "date": "2026-11-14T12:39:07+00:00",
+   "link": "https://www.dr.dk/nyheder/seneste/brand-i-nationalbanken-under-kontrol",
+   "date": "2026-11-16T08:12:47+00:00",
    "da": {
-    "title": "Mulig flugtbilist i Aarhus anholdt",
+    "title": "Brand i Nationalbanken under kontrol",
     "desc": ""
    },
    "en": {
-    "title": "Possible hit-and-run driver arrested in Aarhus",
+    "title": "Fire at the National Bank under control",
     "desc": ""
    }
   },
   {
    "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/billetter-til-emma-sehested-hoeeg-koncert-er-udsolgt",
-   "date": "2026-11-14T09:55:11+00:00",
+   "link": "https://www.dr.dk/nyheder/seneste/tidligere-socialdemokratisk-folketingsmedlem-er-doed",
+   "date": "2026-11-16T08:11:50+00:00",
    "da": {
-    "title": "Billetter til Emma Sehested Høeg-koncert er udsolgt",
+    "title": "Tidligere socialdemokratisk folketingsmedlem Martin Glerup er død",
     "desc": ""
    },
    "en": {
-    "title": "Tickets for the Emma Sehested Høeg concert are sold out",
+    "title": "Former Social Democratic member of parliament Martin Glerup has died",
     "desc": ""
    }
   },
   {
    "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/20-millioner-dollar-beslaglagt-i-ungarsk-korruptionssag-mod-minister",
-   "date": "2026-11-14T08:41:09+00:00",
+   "link": "https://www.dr.dk/nyheder/seneste/forbud-mod-stenbiderfiskeri-forlaenges",
+   "date": "2026-11-16T07:45:55+00:00",
    "da": {
-    "title": "20 millioner dollar beslaglagt i ungarsk korruptionssag mod minister",
+    "title": "Forbud mod stenbiderfiskeri forlænges",
     "desc": ""
    },
    "en": {
-    "title": "$20 million seized in Hungarian corruption case against minister",
+    "title": "Ban on lumpfish fishing extended",
     "desc": ""
    }
   },
   {
    "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/alle-flyvninger-i-indstillet-melder-usa-s-luftfartsmyndigheder",
-   "date": "2026-11-13T21:16:45+00:00",
+   "link": "https://www.dr.dk/nyheder/seneste/danish-crown-direktoer-fratraeder-sin-stilling-med-oejeblikkelig-virkning",
+   "date": "2026-11-16T07:11:23+00:00",
    "da": {
-    "title": "Alle flyvninger i USA indstillet, melder luftfartsmyndigheder",
-    "desc": "Startforbuddet sker som følge af kommunikationsproblemer, oplyser USA's transportminister."
+    "title": "Danish Crown-direktør fratræder sin stilling med øjeblikkelig virkning",
+    "desc": "Niels Ulrich Duedahl er fortid i slagterivirksomheden."
    },
    "en": {
-    "title": "All flights in the United States have been suspended, according to aviation authorities.",
+    "title": "Danish Crown CEO resigns with immediate effect",
+    "desc": "Niels Ulrich Duedahl is no longer with the slaughterhouse business."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/skuespillerinde-tildeles-aeresoscar",
+   "date": "2026-11-16T06:26:16+00:00",
+   "da": {
+    "title": "Skuespillerinde tildeles æresoscar",
+    "desc": ""
+   },
+   "en": {
+    "title": "Actress awarded an Honorary Oscar",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/yemens-militaer-traekker-tropper-vaek-fra-straede-ved-det-roede-hav",
+   "date": "2026-11-16T06:09:06+00:00",
+   "da": {
+    "title": "Yemens militær trækker tropper væk fra stræde ved Det Røde Hav",
+    "desc": ""
+   },
+   "en": {
+    "title": "Yemen's military is withdrawing troops from the strait in the Red Sea",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mexicansk-narkobaron-er-doed",
+   "date": "2026-11-16T05:17:47+00:00",
+   "da": {
+    "title": "Mexicansk narkobaron er død",
+    "desc": ""
+   },
+   "en": {
+    "title": "Mexican drug lord is dead",
     "desc": ""
    }
   }
