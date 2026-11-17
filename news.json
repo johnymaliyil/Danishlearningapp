@@ -1,6 +1,136 @@
 {
- "updated": "2026-11-16T23:45+00:00",
+ "updated": "2026-11-17T13:28+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/fn-s-menneskerettighedschef-betaenkelig-ved-rwanda-plan",
+   "date": "2026-11-17T13:09:17+00:00",
+   "da": {
+    "title": "FN's menneskerettighedschef betænkelig ved Rwanda-plan",
+    "desc": ""
+   },
+   "en": {
+    "title": "UN Human Rights Chief concerned about Rwanda plan",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/gade-i-koebenhavn-delvist-spaerret-mens-politiet-fjerner-vaaben-fra-butik",
+   "date": "2026-11-17T11:38:47+00:00",
+   "da": {
+    "title": "Gade i København delvist spærret, mens politiet fjerner våben fra butik",
+    "desc": ""
+   },
+   "en": {
+    "title": "Street in Copenhagen partially closed while police remove weapons from store",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/danmark-vil-donere-800-millioner-til-international-klima-og-miljoefond",
+   "date": "2026-11-17T11:07:03+00:00",
+   "da": {
+    "title": "Danmark vil donere 800 millioner til international klima- og miljøfond",
+    "desc": ""
+   },
+   "en": {
+    "title": "Denmark to donate 800 million to the International Climate and Environment Fund",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/seneste-sport/ishockeyforbunds-hjemmeside-hacket-er-i-bange-moede-rusland",
+   "date": "2026-11-17T10:54:01+00:00",
+   "da": {
+    "title": "Ishockeyforbunds hjemmeside hacket: 'Er I bange for at møde Rusland?'",
+    "desc": ""
+   },
+   "en": {
+    "title": "Ice Hockey Federation's website hacked: 'Are you afraid to face Russia?'",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/det-danske-forsvar-skal-traene-ai-paa-ukrainsk-data",
+   "date": "2026-11-17T10:35:50+00:00",
+   "da": {
+    "title": "Det danske forsvar skal træne AI på ukrainsk data",
+    "desc": ""
+   },
+   "en": {
+    "title": "The Danish Defense must train AI on Ukrainian data",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/razzia-mod-erdogan-kritisk-tv-station-flere-er-blevet-anholdt",
+   "date": "2026-11-17T08:20:05+00:00",
+   "da": {
+    "title": "Razzia mod Erdogan-kritisk tv-station: Flere er blevet anholdt",
+    "desc": ""
+   },
+   "en": {
+    "title": "Raid on TV station critical of Erdogan: Several people have been arrested",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mongoliets-praesident-vil-traede-tilbage-efter-anklager-om-korruption",
+   "date": "2026-11-17T08:18:34+00:00",
+   "da": {
+    "title": "Mongoliets præsident vil træde tilbage efter anklager om korruption",
+    "desc": ""
+   },
+   "en": {
+    "title": "Mongolia's president to resign following corruption allegations",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/californien-sagsoeger-openai",
+   "date": "2026-11-17T06:43:05+00:00",
+   "da": {
+    "title": "Californien sagsøger OpenAI",
+    "desc": ""
+   },
+   "en": {
+    "title": "California sues OpenAI",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/japan-haevder-rusland-har-kraenket-landets-luftrum",
+   "date": "2026-11-17T06:02:36+00:00",
+   "da": {
+    "title": "Japan hævder, at Rusland har krænket landets luftrum",
+    "desc": ""
+   },
+   "en": {
+    "title": "Japan claims that Russia has violated its airspace",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/85-aarig-sigtet-vanvidskoersel-koerte-i-den-gale-retning-paa-motorvejen",
+   "date": "2026-11-17T04:44:30+00:00",
+   "da": {
+    "title": "85-årig sigtet for vanvidskørsel - kørte i den gale retning på motorvejen",
+    "desc": ""
+   },
+   "en": {
+    "title": "85-year-old charged with reckless driving – drove in the wrong direction on the highway",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12850872#liveblog-embed",
@@ -63,136 +193,6 @@
    },
    "en": {
     "title": "Brøndby is punished with multiple stand closures for setting off fireworks before the derby",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/britiske-raye-nomineret-til-11-grammy-priser",
-   "date": "2026-11-16T14:44:38+00:00",
-   "da": {
-    "title": "Britiske Raye nomineret til 11 Grammy-priser",
-    "desc": ""
-   },
-   "en": {
-    "title": "Britain's Raye nominated for 11 Grammy Awards",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/17-personer-draebt-i-separate-masseskyderier-i-sydafrika",
-   "date": "2026-11-16T12:46:18+00:00",
-   "da": {
-    "title": "17 personer dræbt i to separate masseskyderier i Sydafrika",
-    "desc": ""
-   },
-   "en": {
-    "title": "17 people killed in two separate mass shootings in South Africa",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/besaetning-paa-kaentret-fragtskib-i-sortehavet-er-i-sikkerhed",
-   "date": "2026-11-16T12:20:52+00:00",
-   "da": {
-    "title": "Besætning på kæntret fragtskib i Sortehavet er i sikkerhed",
-    "desc": ""
-   },
-   "en": {
-    "title": "The crew of the capsized cargo ship in the Black Sea is safe.",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tre-polske-teenagere-anholdt-terrorforberedelse",
-   "date": "2026-11-16T11:35:13+00:00",
-   "da": {
-    "title": "Tre polske teenagere anholdt for terrorforberedelse",
-    "desc": ""
-   },
-   "en": {
-    "title": "Three Polish teenagers arrested for preparing acts of terrorism",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/yderligere-fire-personer-sigtet-efter-demonstrationer-i-koebenhavn",
-   "date": "2026-11-16T10:55:07+00:00",
-   "da": {
-    "title": "Yderligere fire personer sigtet efter demonstrationer i København",
-    "desc": ""
-   },
-   "en": {
-    "title": "Four more people charged following demonstrations in Copenhagen",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/skuffet-russisk-forbund-kraever-erstatning-og-sanktioner-vm-afvisning",
-   "date": "2026-11-16T10:33:01+00:00",
-   "da": {
-    "title": "Skuffet russisk forbund kræver erstatning og sanktioner for VM-afvisning",
-    "desc": "Rusland er uforstående over for, at landet ikke må deltage i det kommende U20-VM."
-   },
-   "en": {
-    "title": "Disappointed Russian Federation demands compensation and sanctions for World Cup rejection",
-    "desc": "Russia does not understand why the country is not allowed to participate in the upcoming U20 World Championship."
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tidligere-chef-kongens-adjudantstab-er-doed",
-   "date": "2026-11-16T10:11:47+00:00",
-   "da": {
-    "title": "Tidligere chef for Kongens Adjudantstab er død",
-    "desc": ""
-   },
-   "en": {
-    "title": "The former Chief of the King's Adjutant Staff has died",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/gerard-depardieu-traekker-sin-appel-tilbage",
-   "date": "2026-11-16T10:07:26+00:00",
-   "da": {
-    "title": "Gérard Depardieu trækker sin appel tilbage",
-    "desc": ""
-   },
-   "en": {
-    "title": "Gérard Depardieu withdraws his appeal",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/fodboldfans-idoemmes-betinget-faengsel",
-   "date": "2026-11-16T09:19:22+00:00",
-   "da": {
-    "title": "Fodboldfans idømmes betinget fængsel",
-    "desc": ""
-   },
-   "en": {
-    "title": "Soccer fans sentenced to suspended prison terms",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/ung-svensker-kendt-skyldig-i-sag-om-bestillingsdrab",
-   "date": "2026-11-16T08:41:37+00:00",
-   "da": {
-    "title": "Ung svensker får fem og et halvt års fængsel i sag om bestillingsdrab",
-    "desc": ""
-   },
-   "en": {
-    "title": "Young Swede sentenced to five and a half years in prison in contract killing case",
     "desc": ""
    }
   }
