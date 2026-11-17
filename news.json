@@ -1,6 +1,84 @@
 {
- "updated": "2026-11-17T13:28+00:00",
+ "updated": "2026-11-17T22:53+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/nvidia-fordobler-omsaetning-i-tredje-kvartal",
+   "date": "2026-11-17T21:41:20+00:00",
+   "da": {
+    "title": "Nvidia fordobler omsætning i tredje kvartal",
+    "desc": "Kort efter topchefs afgang har den amerikanske chipproducent Nvidia præsenteret et regnskab med vækst."
+   },
+   "en": {
+    "title": "Nvidia doubles revenue in the third quarter",
+    "desc": "Shortly after the departure of its CEO, the U.S. chipmaker Nvidia has presented financial results showing growth."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/fodbold/landsholdet/nedrykning-eller-kvartfinale-flere-scenarier-i-spil-danmark?focusId=12855779#liveblog-embed",
+   "date": "2026-11-17T19:25:32+00:00",
+   "da": {
+    "title": "Danmarks U21-landshold tæt på vildt comeback - misser EM trods sejr over Holland",
+    "desc": ""
+   },
+   "en": {
+    "title": "Denmark's U21 national team close to a thrilling comeback – misses out on the European Championship despite victory over the Netherlands",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/moldova-lukker-luftrum-efter-russiske-droner",
+   "date": "2026-11-17T17:35:58+00:00",
+   "da": {
+    "title": "Moldova lukker luftrum efter russiske droner",
+    "desc": ""
+   },
+   "en": {
+    "title": "Moldova closes airspace following Russian drones",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tiger-woods-goer-comeback-efter-trafikulykke",
+   "date": "2026-11-17T16:07:18+00:00",
+   "da": {
+    "title": "Tiger Woods gør comeback efter trafikulykke",
+    "desc": ""
+   },
+   "en": {
+    "title": "Tiger Woods makes a comeback after a car accident",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/svensk-riksdagsformand-vil-have-ny-regering-inden-jul",
+   "date": "2026-11-17T15:42:28+00:00",
+   "da": {
+    "title": "Svensk riksdagsformand vil have ny regering inden jul",
+    "desc": ""
+   },
+   "en": {
+    "title": "Swedish Speaker of the Riksdag wants a new government before Christmas",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/aerter-fra-rema-1000-tilbagekaldes",
+   "date": "2026-11-17T13:47:22+00:00",
+   "da": {
+    "title": "Ærter fra Rema 1000 tilbagekaldes",
+    "desc": ""
+   },
+   "en": {
+    "title": "Peas from Rema 1000 are being recalled",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/fn-s-menneskerettighedschef-betaenkelig-ved-rwanda-plan",
@@ -115,84 +193,6 @@
    },
    "en": {
     "title": "Japan claims that Russia has violated its airspace",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/85-aarig-sigtet-vanvidskoersel-koerte-i-den-gale-retning-paa-motorvejen",
-   "date": "2026-11-17T04:44:30+00:00",
-   "da": {
-    "title": "85-årig sigtet for vanvidskørsel - kørte i den gale retning på motorvejen",
-    "desc": ""
-   },
-   "en": {
-    "title": "85-year-old charged with reckless driving – drove in the wrong direction on the highway",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12850872#liveblog-embed",
-   "date": "2026-11-16T21:40:28+00:00",
-   "da": {
-    "title": "Tyskland ydmyger Holland - lægger stort pres på Danmark",
-    "desc": ""
-   },
-   "en": {
-    "title": "Germany humiliates the Netherlands – puts great pressure on Denmark",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/ishockey/usa-genvinder-vm-trofaeet-i-herning",
-   "date": "2026-11-16T20:40:43+00:00",
-   "da": {
-    "title": "USA genvinder VM-trofæet i Herning",
-    "desc": "USA's ishockeykvinder er verdensmestre for andet år i træk."
-   },
-   "en": {
-    "title": "The USA regains the World Championship trophy in Herning",
-    "desc": "The U.S. women's ice hockey team are world champions for the second year in a row."
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12849293#liveblog-embed",
-   "date": "2026-11-16T16:11:26+00:00",
-   "da": {
-    "title": "Forsvarsgeneral er fortsat tvivlsom til Norge-kampen",
-    "desc": ""
-   },
-   "en": {
-    "title": "The star defender remains doubtful for the Norway match.",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/ny-drabssag-mod-lindsey-clancy-til-marts",
-   "date": "2026-11-16T15:40:56+00:00",
-   "da": {
-    "title": "Ny retssag mod Lindsey Clancy til marts",
-    "desc": ""
-   },
-   "en": {
-    "title": "New trial against Lindsey Clancy scheduled for March",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12849271#liveblog-embed",
-   "date": "2026-11-16T15:20:05+00:00",
-   "da": {
-    "title": "Brøndby straffes med flere tribunelukninger for fyrværkeri før derby",
-    "desc": ""
-   },
-   "en": {
-    "title": "Brøndby is punished with multiple stand closures for setting off fireworks before the derby",
     "desc": ""
    }
   }
