@@ -1,6 +1,136 @@
 {
- "updated": "2026-11-17T22:53+00:00",
+ "updated": "2026-11-18T13:05+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/fejl-hos-98-procent-i-kontrol-af-skattebetaling-fra-boligudlejning",
+   "date": "2026-11-18T12:47:15+00:00",
+   "da": {
+    "title": "Fejl hos 98 procent i kontrol af skattebetaling fra boligudlejning",
+    "desc": ""
+   },
+   "en": {
+    "title": "Errors in 98 percent of checks on tax payments from residential rentals",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/ny-generaldirektoer-i-roede-kors",
+   "date": "2026-11-18T11:15:28+00:00",
+   "da": {
+    "title": "Ny generaldirektør i Røde Kors",
+    "desc": ""
+   },
+   "en": {
+    "title": "New Director General of the Red Cross",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/meghan-markles-far-sigtes-nu-ogsaa-i-filippinerne",
+   "date": "2026-11-18T09:38:31+00:00",
+   "da": {
+    "title": "Meghan Markles far sigtes nu også i Filippinerne",
+    "desc": ""
+   },
+   "en": {
+    "title": "Meghan Markle's father is now also being charged in the Philippines",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/troeffelkugler-tilbagekaldes",
+   "date": "2026-11-18T09:35:23+00:00",
+   "da": {
+    "title": "Trøffelkugler tilbagekaldes",
+    "desc": ""
+   },
+   "en": {
+    "title": "Truffle balls recalled",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mand-faar-27-aars-faengsel-attentatforsoeg-mod-trump",
+   "date": "2026-11-18T09:15:50+00:00",
+   "da": {
+    "title": "Mand får 27 års fængsel for attentatforsøg mod Trump",
+    "desc": ""
+   },
+   "en": {
+    "title": "Man sentenced to 27 years in prison for attempted assassination of Trump",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/efterretningstjeneste-opgraderer-risikoen-terror-i-norge",
+   "date": "2026-11-18T08:05:05+00:00",
+   "da": {
+    "title": "Efterretningstjeneste opgraderer risikoen for terror i Norge",
+    "desc": ""
+   },
+   "en": {
+    "title": "Intelligence service upgrades the risk of terrorism in Norway",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/300-flere-ledige-i-oktober",
+   "date": "2026-11-18T07:41:12+00:00",
+   "da": {
+    "title": "300 flere ledige i oktober",
+    "desc": ""
+   },
+   "en": {
+    "title": "300 more unemployed in October",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/seneste-sport/vingegaard-kan-blive-aarets-sportsnavn-anden-gang",
+   "date": "2026-11-18T07:09:54+00:00",
+   "da": {
+    "title": "Vingegaard kan blive årets sportsnavn for anden gang",
+    "desc": ""
+   },
+   "en": {
+    "title": "Vingegaard could become Sports Personality of the Year for the second time",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/koebenhavns-lufthavn-fejrer-i-dag-passager-nummer-milliard",
+   "date": "2026-11-18T06:09:36+00:00",
+   "da": {
+    "title": "Københavns Lufthavn fejrer i dag passager nummer én milliard",
+    "desc": ""
+   },
+   "en": {
+    "title": "Copenhagen Airport celebrates its one billionth passenger today",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/sidste-delstat-talt-op-demokraten-mary-peltola-vinder-senatsvalget-i-alaska",
+   "date": "2026-11-18T03:37:56+00:00",
+   "da": {
+    "title": "Sidste delstat talt op: Demokraten Mary Peltola vinder senatsvalget i Alaska",
+    "desc": "Mere end to uger efter valgdagen står det klart, at demokraterne tager den sidste stat, der manglede at blive afgjort til senatet ved det amerikanske midtvejsvalg."
+   },
+   "en": {
+    "title": "Last state counted: Democrat Mary Peltola wins the Senate election in Alaska",
+    "desc": "More than two weeks after Election Day, it is clear that the Democrats are taking the last state that had yet to be decided for the Senate in the U.S. midterm elections."
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/nvidia-fordobler-omsaetning-i-tredje-kvartal",
@@ -63,136 +193,6 @@
    },
    "en": {
     "title": "Swedish Speaker of the Riksdag wants a new government before Christmas",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/aerter-fra-rema-1000-tilbagekaldes",
-   "date": "2026-11-17T13:47:22+00:00",
-   "da": {
-    "title": "Ærter fra Rema 1000 tilbagekaldes",
-    "desc": ""
-   },
-   "en": {
-    "title": "Peas from Rema 1000 are being recalled",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/fn-s-menneskerettighedschef-betaenkelig-ved-rwanda-plan",
-   "date": "2026-11-17T13:09:17+00:00",
-   "da": {
-    "title": "FN's menneskerettighedschef betænkelig ved Rwanda-plan",
-    "desc": ""
-   },
-   "en": {
-    "title": "UN Human Rights Chief concerned about Rwanda plan",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/gade-i-koebenhavn-delvist-spaerret-mens-politiet-fjerner-vaaben-fra-butik",
-   "date": "2026-11-17T11:38:47+00:00",
-   "da": {
-    "title": "Gade i København delvist spærret, mens politiet fjerner våben fra butik",
-    "desc": ""
-   },
-   "en": {
-    "title": "Street in Copenhagen partially closed while police remove weapons from store",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/danmark-vil-donere-800-millioner-til-international-klima-og-miljoefond",
-   "date": "2026-11-17T11:07:03+00:00",
-   "da": {
-    "title": "Danmark vil donere 800 millioner til international klima- og miljøfond",
-    "desc": ""
-   },
-   "en": {
-    "title": "Denmark to donate 800 million to the International Climate and Environment Fund",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/seneste-sport/ishockeyforbunds-hjemmeside-hacket-er-i-bange-moede-rusland",
-   "date": "2026-11-17T10:54:01+00:00",
-   "da": {
-    "title": "Ishockeyforbunds hjemmeside hacket: 'Er I bange for at møde Rusland?'",
-    "desc": ""
-   },
-   "en": {
-    "title": "Ice Hockey Federation's website hacked: 'Are you afraid to face Russia?'",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/det-danske-forsvar-skal-traene-ai-paa-ukrainsk-data",
-   "date": "2026-11-17T10:35:50+00:00",
-   "da": {
-    "title": "Det danske forsvar skal træne AI på ukrainsk data",
-    "desc": ""
-   },
-   "en": {
-    "title": "The Danish Defense must train AI on Ukrainian data",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/razzia-mod-erdogan-kritisk-tv-station-flere-er-blevet-anholdt",
-   "date": "2026-11-17T08:20:05+00:00",
-   "da": {
-    "title": "Razzia mod Erdogan-kritisk tv-station: Flere er blevet anholdt",
-    "desc": ""
-   },
-   "en": {
-    "title": "Raid on TV station critical of Erdogan: Several people have been arrested",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/mongoliets-praesident-vil-traede-tilbage-efter-anklager-om-korruption",
-   "date": "2026-11-17T08:18:34+00:00",
-   "da": {
-    "title": "Mongoliets præsident vil træde tilbage efter anklager om korruption",
-    "desc": ""
-   },
-   "en": {
-    "title": "Mongolia's president to resign following corruption allegations",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/californien-sagsoeger-openai",
-   "date": "2026-11-17T06:43:05+00:00",
-   "da": {
-    "title": "Californien sagsøger OpenAI",
-    "desc": ""
-   },
-   "en": {
-    "title": "California sues OpenAI",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/japan-haevder-rusland-har-kraenket-landets-luftrum",
-   "date": "2026-11-17T06:02:36+00:00",
-   "da": {
-    "title": "Japan hævder, at Rusland har krænket landets luftrum",
-    "desc": ""
-   },
-   "en": {
-    "title": "Japan claims that Russia has violated its airspace",
     "desc": ""
    }
   }
