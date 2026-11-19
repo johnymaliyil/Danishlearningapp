@@ -1,6 +1,97 @@
 {
- "updated": "2026-11-18T22:36+00:00",
+ "updated": "2026-11-19T13:12+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/virksomhed-sigtet-overtraedelse-af-dyrevelfaerdsloven-maatte-aflive-20-grise-paa-stedet",
+   "date": "2026-11-19T12:20:21+00:00",
+   "da": {
+    "title": "Virksomhed sigtet for overtrædelse af dyrevelfærdsloven: Måtte aflive 20 grise på stedet",
+    "desc": ""
+   },
+   "en": {
+    "title": "Company charged with violating the Animal Welfare Act: Had to euthanize 20 pigs on site",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mange-savnet-efter-baadforlis-ud-senegal",
+   "date": "2026-11-19T10:19:30+00:00",
+   "da": {
+    "title": "Mange savnet efter bådforlis ud for Senegal",
+    "desc": ""
+   },
+   "en": {
+    "title": "Many missing after boat sinking off the coast of Senegal",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/louisiana-faar-kaempe-donation-paa-116-millioner-kroner",
+   "date": "2026-11-19T09:32:06+00:00",
+   "da": {
+    "title": "Louisiana får kæmpe donation på 116 millioner kroner",
+    "desc": ""
+   },
+   "en": {
+    "title": "Louisiana receives a huge donation of DKK 116 million",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/fredsprisvinders-hus-stukket-i-brand-i-bangladesh",
+   "date": "2026-11-19T09:14:54+00:00",
+   "da": {
+    "title": "Fredsprisvinders hus stukket i brand i Bangladesh",
+    "desc": ""
+   },
+   "en": {
+    "title": "Nobel Peace Prize winner's house set on fire in Bangladesh",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/danish-crowns-omsaetning-er-faldet-med-tre-milliarder",
+   "date": "2026-11-19T08:39:45+00:00",
+   "da": {
+    "title": "Danish Crowns omsætning er faldet med tre milliarder",
+    "desc": ""
+   },
+   "en": {
+    "title": "Danish Crown's turnover has fallen by three billion",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/streamingtjeneste-lukker-i-danmark-og-resten-af-europa",
+   "date": "2026-11-19T08:34:34+00:00",
+   "da": {
+    "title": "Streamingtjeneste lukker i Danmark og resten af Europa",
+    "desc": ""
+   },
+   "en": {
+    "title": "Streaming service to shut down in Denmark and the rest of Europe",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/skole-tilkalder-psykolog-efter-fund-af-doed-pige-og-voksne",
+   "date": "2026-11-19T07:36:57+00:00",
+   "da": {
+    "title": "Skole tilkalder psykolog efter fund af død pige og to voksne",
+    "desc": ""
+   },
+   "en": {
+    "title": "School calls in psychologist after discovery of dead girl and two adults",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/retspraesidents-immunitet-ophaevet-i-strid-om-polens-forfatningsdomstol",
@@ -102,97 +193,6 @@
    },
    "en": {
     "title": "Thieves strike again – bicycles worth DKK 750,000 stolen from a bike shop",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/h-c-andersen-papirklip-solgt-125-000-kroner",
-   "date": "2026-11-18T14:54:25+00:00",
-   "da": {
-    "title": "H.C. Andersen-papirklip solgt for 125.000 kroner",
-    "desc": ""
-   },
-   "en": {
-    "title": "H.C. Andersen paper cut-out sold for DKK 125,000",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/roedt-kort-til-hvidt-agf-babytoej-paa-foedeafdeling",
-   "date": "2026-11-18T14:01:27+00:00",
-   "da": {
-    "title": "Rødt kort til hvidt AGF-babytøj på fødeafdeling",
-    "desc": ""
-   },
-   "en": {
-    "title": "Red card for white AGF baby clothes in the maternity ward",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/fejl-hos-98-procent-i-kontrol-af-skattebetaling-fra-boligudlejning",
-   "date": "2026-11-18T12:47:15+00:00",
-   "da": {
-    "title": "Fejl hos 98 procent i kontrol af skattebetaling fra boligudlejning",
-    "desc": ""
-   },
-   "en": {
-    "title": "Errors in 98 percent of checks on tax payments from residential rentals",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/ny-generaldirektoer-i-roede-kors",
-   "date": "2026-11-18T11:15:28+00:00",
-   "da": {
-    "title": "Ny generaldirektør i Røde Kors",
-    "desc": ""
-   },
-   "en": {
-    "title": "New Director General of the Red Cross",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/meghan-markles-far-sigtes-nu-ogsaa-i-filippinerne",
-   "date": "2026-11-18T09:38:31+00:00",
-   "da": {
-    "title": "Meghan Markles far sigtes nu også i Filippinerne",
-    "desc": ""
-   },
-   "en": {
-    "title": "Meghan Markle's father is now also being charged in the Philippines",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/troeffelkugler-tilbagekaldes",
-   "date": "2026-11-18T09:35:23+00:00",
-   "da": {
-    "title": "Trøffelkugler tilbagekaldes",
-    "desc": ""
-   },
-   "en": {
-    "title": "Truffle balls recalled",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/mand-faar-27-aars-faengsel-attentatforsoeg-mod-trump",
-   "date": "2026-11-18T09:15:50+00:00",
-   "da": {
-    "title": "Mand får 27 års fængsel for attentatforsøg mod Trump",
-    "desc": ""
-   },
-   "en": {
-    "title": "Man sentenced to 27 years in prison for attempted assassination of Trump",
     "desc": ""
    }
   }
