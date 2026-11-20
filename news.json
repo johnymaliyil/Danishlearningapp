@@ -1,6 +1,97 @@
 {
- "updated": "2026-11-19T22:40+00:00",
+ "updated": "2026-11-20T12:55+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/flere-hundrede-kilo-amfetamin-taget-ved-graensen",
+   "date": "2026-11-20T12:05:07+00:00",
+   "da": {
+    "title": "Flere hundrede kilo amfetamin taget ved grænsen",
+    "desc": ""
+   },
+   "en": {
+    "title": "Several hundred kilos of amphetamines seized at the border",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/slingrende-anhaenger-fra-lastbil-koster-kvindelig-bilist-livet",
+   "date": "2026-11-20T12:02:20+00:00",
+   "da": {
+    "title": "Slingrende anhænger fra lastbil koster kvindelig bilist livet",
+    "desc": ""
+   },
+   "en": {
+    "title": "A swaying trailer from a truck costs a female driver her life",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/britisk-soulband-gaester-naeste-aars-northside",
+   "date": "2026-11-20T09:50:51+00:00",
+   "da": {
+    "title": "Britisk soulband gæster næste års Northside",
+    "desc": ""
+   },
+   "en": {
+    "title": "British soul band to perform at next year's NorthSide Festival",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/glatte-veje-i-fredagstrafikken",
+   "date": "2026-11-20T07:49:27+00:00",
+   "da": {
+    "title": "Glatte veje i fredagstrafikken",
+    "desc": ""
+   },
+   "en": {
+    "title": "Smooth roads in Friday traffic",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/polen-indstiller-fly-i-lufthavn",
+   "date": "2026-11-20T06:51:53+00:00",
+   "da": {
+    "title": "Polen indstiller fly i lufthavn",
+    "desc": ""
+   },
+   "en": {
+    "title": "Poland grounds aircraft at airport",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/over-28-000-familier-har-soegt-julehjaelp-hos-blaa-kors",
+   "date": "2026-11-20T05:56:53+00:00",
+   "da": {
+    "title": "Over 28.000 familier har søgt julehjælp hos Blå Kors",
+    "desc": ""
+   },
+   "en": {
+    "title": "Over 28,000 families have sought Christmas assistance from Blå Kors",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/politi-til-stede-ved-brand-i-lagerbygning-i-moerke-luk-vinduer-og-doere",
+   "date": "2026-11-20T04:25:39+00:00",
+   "da": {
+    "title": "Politi til stede ved brand i lagerbygning i Mørke - luk vinduer og døre",
+    "desc": ""
+   },
+   "en": {
+    "title": "Police present at fire in warehouse building in Mørke – close windows and doors",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/69-aarig-mand-doed-efter-eksplosion-i-container-i-hornslet",
@@ -102,97 +193,6 @@
    },
    "en": {
     "title": "Company charged with violating the Animal Welfare Act: Had to euthanize 20 pigs on site",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/mange-savnet-efter-baadforlis-ud-senegal",
-   "date": "2026-11-19T10:19:30+00:00",
-   "da": {
-    "title": "Mange savnet efter bådforlis ud for Senegal",
-    "desc": ""
-   },
-   "en": {
-    "title": "Many missing after boat sinking off the coast of Senegal",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/louisiana-faar-kaempe-donation-paa-116-millioner-kroner",
-   "date": "2026-11-19T09:32:06+00:00",
-   "da": {
-    "title": "Louisiana får kæmpe donation på 116 millioner kroner",
-    "desc": ""
-   },
-   "en": {
-    "title": "Louisiana receives a huge donation of DKK 116 million",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/fredsprisvinders-hus-stukket-i-brand-i-bangladesh",
-   "date": "2026-11-19T09:14:54+00:00",
-   "da": {
-    "title": "Fredsprisvinders hus stukket i brand i Bangladesh",
-    "desc": ""
-   },
-   "en": {
-    "title": "Nobel Peace Prize winner's house set on fire in Bangladesh",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/danish-crowns-omsaetning-er-faldet-med-tre-milliarder",
-   "date": "2026-11-19T08:39:45+00:00",
-   "da": {
-    "title": "Danish Crowns omsætning er faldet med tre milliarder",
-    "desc": ""
-   },
-   "en": {
-    "title": "Danish Crown's turnover has fallen by three billion",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/streamingtjeneste-lukker-i-danmark-og-resten-af-europa",
-   "date": "2026-11-19T08:34:34+00:00",
-   "da": {
-    "title": "Streamingtjeneste lukker i Danmark og resten af Europa",
-    "desc": ""
-   },
-   "en": {
-    "title": "Streaming service to shut down in Denmark and the rest of Europe",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/skole-tilkalder-psykolog-efter-fund-af-doed-pige-og-voksne",
-   "date": "2026-11-19T07:36:57+00:00",
-   "da": {
-    "title": "Skole tilkalder psykolog efter fund af død pige og to voksne",
-    "desc": ""
-   },
-   "en": {
-    "title": "School calls in psychologist after discovery of dead girl and two adults",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/retspraesidents-immunitet-ophaevet-i-strid-om-polens-forfatningsdomstol",
-   "date": "2026-11-18T19:53:28+00:00",
-   "da": {
-    "title": "Retspræsidents immunitet ophævet i strid om Polens forfatningsdomstol",
-    "desc": ""
-   },
-   "en": {
-    "title": "Immunity of the President of the Court lifted in dispute over Poland's Constitutional Tribunal",
     "desc": ""
    }
   }
