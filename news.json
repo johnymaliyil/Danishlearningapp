@@ -1,6 +1,45 @@
 {
- "updated": "2026-11-20T12:55+00:00",
+ "updated": "2026-11-20T22:14+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tilstaar-dagen-efter-politiaktion-i-kliplev-og-faar-straksdom-paa-ni-aar",
+   "date": "2026-11-20T16:03:39+00:00",
+   "da": {
+    "title": "Tilstår dagen efter politiaktion i Kliplev og får straksdom på ni år",
+    "desc": ""
+   },
+   "en": {
+    "title": "Confesses the day after the police operation in Kliplev and receives an immediate sentence of nine years",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/dagen-derpaa-anthropic-aktien-faldet-otte-procent",
+   "date": "2026-11-20T15:14:12+00:00",
+   "da": {
+    "title": "Dagen derpå for Anthropic - aktien faldet otte procent",
+    "desc": ""
+   },
+   "en": {
+    "title": "The day after for Anthropic – the stock fell eight percent",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/de-villepin-vil-vaere-praesident-i-frankrig",
+   "date": "2026-11-20T14:19:41+00:00",
+   "da": {
+    "title": "De Villepin vil være præsident i Frankrig",
+    "desc": ""
+   },
+   "en": {
+    "title": "De Villepin wants to be President of France",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/flere-hundrede-kilo-amfetamin-taget-ved-graensen",
@@ -154,45 +193,6 @@
    },
    "en": {
     "title": "34 suspected gang members killed in Haiti",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/kongefamilien-skal-fejre-jul-i-aarhus",
-   "date": "2026-11-19T13:51:04+00:00",
-   "da": {
-    "title": "Kongefamilien skal fejre jul i Aarhus",
-    "desc": ""
-   },
-   "en": {
-    "title": "The royal family is to celebrate Christmas in Aarhus",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/eu-kommissionen-har-vaeret-ramt-af-ai-cyberangreb",
-   "date": "2026-11-19T13:21:34+00:00",
-   "da": {
-    "title": "EU-Kommissionen har været ramt af AI-cyberangreb",
-    "desc": ""
-   },
-   "en": {
-    "title": "The European Commission has been hit by AI cyberattacks",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/virksomhed-sigtet-overtraedelse-af-dyrevelfaerdsloven-maatte-aflive-20-grise-paa-stedet",
-   "date": "2026-11-19T12:20:21+00:00",
-   "da": {
-    "title": "Virksomhed sigtet for overtrædelse af dyrevelfærdsloven: Måtte aflive 20 grise på stedet",
-    "desc": ""
-   },
-   "en": {
-    "title": "Company charged with violating the Animal Welfare Act: Had to euthanize 20 pigs on site",
     "desc": ""
    }
   }
