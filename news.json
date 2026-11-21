@@ -1,6 +1,123 @@
 {
- "updated": "2026-11-20T22:14+00:00",
+ "updated": "2026-11-21T12:41+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/faengselsdoemt-kaptajn-loeslades",
+   "date": "2026-11-21T09:58:55+00:00",
+   "da": {
+    "title": "Fængselsdømt kaptajn løslades",
+    "desc": ""
+   },
+   "en": {
+    "title": "Imprisoned captain released",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/bevaebnede-soldater-rykker-ind-i-oerestad",
+   "date": "2026-11-21T09:56:22+00:00",
+   "da": {
+    "title": "Bevæbnede soldater rykker ind i Ørestad",
+    "desc": ""
+   },
+   "en": {
+    "title": "Armed soldiers move into Ørestad",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/oestjyllands-politi-med-opfordring-efter-flere-indbrud",
+   "date": "2026-11-21T09:21:11+00:00",
+   "da": {
+    "title": "Østjyllands Politi med opfordring efter flere indbrud",
+    "desc": ""
+   },
+   "en": {
+    "title": "East Jutland Police issue appeal following multiple burglaries",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/indbyggere-i-estland-blev-advaret-mod-droner-i-nat",
+   "date": "2026-11-21T08:49:12+00:00",
+   "da": {
+    "title": "Indbyggere i Estland blev advaret mod droner i nat",
+    "desc": ""
+   },
+   "en": {
+    "title": "Residents of Estonia were warned about drones last night",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mand-ramt-af-skud-naer-silkeborg",
+   "date": "2026-11-21T08:05:50+00:00",
+   "da": {
+    "title": "Mand ramt af skud nær Silkeborg",
+    "desc": ""
+   },
+   "en": {
+    "title": "Man shot near Silkeborg",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/politi-efterlyser-19-aarig-mand",
+   "date": "2026-11-21T07:26:33+00:00",
+   "da": {
+    "title": "19-årig fundet i god behold",
+    "desc": ""
+   },
+   "en": {
+    "title": "19-year-old found safe and sound",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/svenskerne-aabner-politistation-i-irak",
+   "date": "2026-11-21T07:18:51+00:00",
+   "da": {
+    "title": "Svenskerne åbner politistation i Irak",
+    "desc": ""
+   },
+   "en": {
+    "title": "The Swedes open a police station in Iraq",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/seneste-sport/dansk-racertalent-tager-vild-sejr-i-las-vegas",
+   "date": "2026-11-21T07:16:23+00:00",
+   "da": {
+    "title": "Dansk racertalent tager sæsonens anden sejr i Las Vegas",
+    "desc": ""
+   },
+   "en": {
+    "title": "Danish racing talent takes his second win of the season in Las Vegas",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/sverige-indkalder-russisk-ambassadoer-efter-eksplosion",
+   "date": "2026-11-21T05:59:07+00:00",
+   "da": {
+    "title": "Sverige indkalder russisk ambassadør efter eksplosion",
+    "desc": ""
+   },
+   "en": {
+    "title": "Sweden summons Russian ambassador following explosion",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/tilstaar-dagen-efter-politiaktion-i-kliplev-og-faar-straksdom-paa-ni-aar",
@@ -76,123 +193,6 @@
    },
    "en": {
     "title": "British soul band to perform at next year's NorthSide Festival",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/glatte-veje-i-fredagstrafikken",
-   "date": "2026-11-20T07:49:27+00:00",
-   "da": {
-    "title": "Glatte veje i fredagstrafikken",
-    "desc": ""
-   },
-   "en": {
-    "title": "Smooth roads in Friday traffic",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/polen-indstiller-fly-i-lufthavn",
-   "date": "2026-11-20T06:51:53+00:00",
-   "da": {
-    "title": "Polen indstiller fly i lufthavn",
-    "desc": ""
-   },
-   "en": {
-    "title": "Poland grounds aircraft at airport",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/over-28-000-familier-har-soegt-julehjaelp-hos-blaa-kors",
-   "date": "2026-11-20T05:56:53+00:00",
-   "da": {
-    "title": "Over 28.000 familier har søgt julehjælp hos Blå Kors",
-    "desc": ""
-   },
-   "en": {
-    "title": "Over 28,000 families have sought Christmas assistance from Blå Kors",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/politi-til-stede-ved-brand-i-lagerbygning-i-moerke-luk-vinduer-og-doere",
-   "date": "2026-11-20T04:25:39+00:00",
-   "da": {
-    "title": "Politi til stede ved brand i lagerbygning i Mørke - luk vinduer og døre",
-    "desc": ""
-   },
-   "en": {
-    "title": "Police present at fire in warehouse building in Mørke – close windows and doors",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/69-aarig-mand-doed-efter-eksplosion-i-container-i-hornslet",
-   "date": "2026-11-19T22:28:51+00:00",
-   "da": {
-    "title": "69-årig mand død efter eksplosion i container i Hornslet",
-    "desc": ""
-   },
-   "en": {
-    "title": "69-year-old man dies following explosion in container in Hornslet",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12874621#liveblog-embed",
-   "date": "2026-11-19T22:15:04+00:00",
-   "da": {
-    "title": "Dansk landsholdsspiller med langskudsperle i Champions League",
-    "desc": ""
-   },
-   "en": {
-    "title": "Danish national team player with a long-range stunner in the Champions League",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/fire-anholdt-i-sag-om-narko-og-skydevaaben",
-   "date": "2026-11-19T20:29:05+00:00",
-   "da": {
-    "title": "Fire anholdt i sag om narko og skydevåben",
-    "desc": ""
-   },
-   "en": {
-    "title": "Four arrested in a case involving drugs and firearms",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/norwegian-beder-5-000-kunder-spaerre-kort-efter-databrud",
-   "date": "2026-11-19T20:27:55+00:00",
-   "da": {
-    "title": "Norwegian beder 5.000 kunder spærre kort efter databrud",
-    "desc": ""
-   },
-   "en": {
-    "title": "Norwegian asks 5,000 customers to block their cards following a data breach",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/34-formodede-bandemedlemmer-draebt-i-haiti",
-   "date": "2026-11-19T19:35:00+00:00",
-   "da": {
-    "title": "34 formodede bandemedlemmer dræbt i Haiti",
-    "desc": ""
-   },
-   "en": {
-    "title": "34 suspected gang members killed in Haiti",
     "desc": ""
    }
   }
