@@ -1,6 +1,110 @@
 {
- "updated": "2026-11-21T20:54+00:00",
+ "updated": "2026-11-22T12:37+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/seneste-sport/dansker-vinder-485-kilometer-langt-ultraloeb-trods-hundebid",
+   "date": "2026-11-22T11:05:59+00:00",
+   "da": {
+    "title": "Dansker vinder 485 kilometer langt ultraløb trods hundebid",
+    "desc": ""
+   },
+   "en": {
+    "title": "Danish runner wins 485-kilometer ultra race despite dog bite",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/smykkedesigner-paolo-bulgari-er-doed",
+   "date": "2026-11-22T09:01:33+00:00",
+   "da": {
+    "title": "Smykkedesigner Paolo Bulgari er død",
+    "desc": ""
+   },
+   "en": {
+    "title": "Jewelry designer Paolo Bulgari has passed away",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12892573#liveblog-embed",
+   "date": "2026-11-22T08:08:38+00:00",
+   "da": {
+    "title": "Bayern München mødes af kras kritik for kommentarer om syg Musiala",
+    "desc": ""
+   },
+   "en": {
+    "title": "Bayern Munich faces harsh criticism for comments about the ailing Musiala",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/seneste-sport/dansk-motorsportstalent-slutter-saesonen-med-andenplads-og-blod-paa-tanden",
+   "date": "2026-11-22T07:20:18+00:00",
+   "da": {
+    "title": "Dansk motorsportstalent slutter sæsonen med andenplads og blod på tanden",
+    "desc": ""
+   },
+   "en": {
+    "title": "Danish motorsport talent ends the season with second place and a taste for more",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/seneste-sport/max-verstappen-vinder-vildt-raes-i-las-vegas",
+   "date": "2026-11-22T07:12:15+00:00",
+   "da": {
+    "title": "Max Verstappen vinder vildt ræs i Las Vegas",
+    "desc": ""
+   },
+   "en": {
+    "title": "Max Verstappen wins thrilling race in Las Vegas",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/diamantring-og-lommeur-tilhoerende-titanic-passagerer-solgt-paa-auktion",
+   "date": "2026-11-22T06:26:02+00:00",
+   "da": {
+    "title": "Diamantring og lommeur tilhørende Titanic-passagerer solgt på auktion",
+    "desc": ""
+   },
+   "en": {
+    "title": "Diamond ring and pocket watch belonging to Titanic passengers sold at auction",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/washingtons-guvernoer-kritiserer-ice-efter-haendelse-i-lufthavn",
+   "date": "2026-11-22T06:05:10+00:00",
+   "da": {
+    "title": "Washingtons guvernør kritiserer ICE efter hændelse i lufthavn",
+    "desc": ""
+   },
+   "en": {
+    "title": "Washington governor criticizes ICE following airport incident",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/i-bahrain-er-et-civilt-industrianlaeg-brudt-i-brand-efter-et-iransk-angreb",
+   "date": "2026-11-21T21:40:31+00:00",
+   "da": {
+    "title": "I Bahrain er et civilt industrianlæg brudt i brand efter et iransk angreb",
+    "desc": ""
+   },
+   "en": {
+    "title": "In Bahrain, a civilian industrial facility has caught fire following an Iranian attack.",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/herning-blue-fox-scorer-syv-maal-paa-17-minutter-i-vild-topkamp",
@@ -89,110 +193,6 @@
    },
    "en": {
     "title": "Imprisoned captain released",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/bevaebnede-soldater-rykker-ind-i-oerestad",
-   "date": "2026-11-21T09:56:22+00:00",
-   "da": {
-    "title": "Bevæbnede soldater rykker ind i Ørestad",
-    "desc": ""
-   },
-   "en": {
-    "title": "Armed soldiers move into Ørestad",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/oestjyllands-politi-med-opfordring-efter-flere-indbrud",
-   "date": "2026-11-21T09:21:11+00:00",
-   "da": {
-    "title": "Østjyllands Politi med opfordring efter flere indbrud",
-    "desc": ""
-   },
-   "en": {
-    "title": "East Jutland Police issue appeal following multiple burglaries",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/indbyggere-i-estland-blev-advaret-mod-droner-i-nat",
-   "date": "2026-11-21T08:49:12+00:00",
-   "da": {
-    "title": "Indbyggere i Estland blev advaret mod droner i nat",
-    "desc": ""
-   },
-   "en": {
-    "title": "Residents of Estonia were warned about drones last night",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/mand-ramt-af-skud-naer-silkeborg",
-   "date": "2026-11-21T08:05:50+00:00",
-   "da": {
-    "title": "Mand ramt af skud nær Silkeborg",
-    "desc": ""
-   },
-   "en": {
-    "title": "Man shot near Silkeborg",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/politi-efterlyser-19-aarig-mand",
-   "date": "2026-11-21T07:26:33+00:00",
-   "da": {
-    "title": "19-årig fundet i god behold",
-    "desc": ""
-   },
-   "en": {
-    "title": "19-year-old found safe and sound",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/svenskerne-aabner-politistation-i-irak",
-   "date": "2026-11-21T07:18:51+00:00",
-   "da": {
-    "title": "Svenskerne åbner politistation i Irak",
-    "desc": ""
-   },
-   "en": {
-    "title": "The Swedes open a police station in Iraq",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/seneste-sport/dansk-racertalent-tager-vild-sejr-i-las-vegas",
-   "date": "2026-11-21T07:16:23+00:00",
-   "da": {
-    "title": "Dansk racertalent tager sæsonens anden sejr i Las Vegas",
-    "desc": ""
-   },
-   "en": {
-    "title": "Danish racing talent takes his second win of the season in Las Vegas",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/sverige-indkalder-russisk-ambassadoer-efter-eksplosion",
-   "date": "2026-11-21T05:59:07+00:00",
-   "da": {
-    "title": "Sverige indkalder russisk ambassadør efter eksplosion",
-    "desc": ""
-   },
-   "en": {
-    "title": "Sweden summons Russian ambassador following explosion",
     "desc": ""
    }
   }
