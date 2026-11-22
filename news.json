@@ -1,6 +1,84 @@
 {
- "updated": "2026-11-22T12:37+00:00",
+ "updated": "2026-11-22T21:03+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/brandvaesnet-er-rykket-ud-til-stor-affaldsbrand-i-glostrup",
+   "date": "2026-11-22T18:54:56+00:00",
+   "da": {
+    "title": "Brandvæsnet er rykket ud til stor affaldsbrand i Glostrup",
+    "desc": "Beredskabet har indsat fem stationer for at komme branden til livs."
+   },
+   "en": {
+    "title": "The fire department has been called out to a large waste fire in Glostrup",
+    "desc": "The emergency services have deployed five stations to extinguish the fire."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/bygning-braender-i-odense-bydel-beboere-opfordres-til-gaa-indenfor",
+   "date": "2026-11-22T15:57:25+00:00",
+   "da": {
+    "title": "Beredskabet afslutter indsatsen i Stige: 'Branden er under kontrol og røgudviklingen er minimal'",
+    "desc": ""
+   },
+   "en": {
+    "title": "Emergency services conclude their operation in Stige: 'The fire is under control, and smoke production is minimal'",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/russisk-skib-ramt-i-formodet-droneangreb-i-libyen",
+   "date": "2026-11-22T15:48:16+00:00",
+   "da": {
+    "title": "Russisk skib ramt i formodet droneangreb i Libyen",
+    "desc": ""
+   },
+   "en": {
+    "title": "Russian ship struck in suspected drone attack in Libya",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tyskland-tester-kamikazedroner-taet-paa-belarus",
+   "date": "2026-11-22T15:24:43+00:00",
+   "da": {
+    "title": "Tyskland tester kamikazedroner tæt på Belarus",
+    "desc": ""
+   },
+   "en": {
+    "title": "Germany is testing kamikaze drones near Belarus",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12894895#liveblog-embed",
+   "date": "2026-11-22T14:54:56+00:00",
+   "da": {
+    "title": "Reservekeeper redder Randers-point i Viborgs chancehav",
+    "desc": ""
+   },
+   "en": {
+    "title": "Reserve goalkeeper saves Randers' points in Viborg's sea of chances",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/rumsonde-er-gaaet-i-kredsloeb-om-merkur",
+   "date": "2026-11-22T13:42:44+00:00",
+   "da": {
+    "title": "Rumsonde er gået i kredsløb om Merkur",
+    "desc": ""
+   },
+   "en": {
+    "title": "Space probe has entered orbit around Mercury",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/sporten/seneste-sport/dansker-vinder-485-kilometer-langt-ultraloeb-trods-hundebid",
@@ -115,84 +193,6 @@
    },
    "en": {
     "title": "Herning Blue Fox score seven goals in 17 minutes in a wild top-of-the-table clash",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/massiv-regn-udskyder-danskeres-skaebne-i-stor-golfturnering",
-   "date": "2026-11-21T18:43:00+00:00",
-   "da": {
-    "title": "Massiv regn udskyder danskeres skæbne i stor golfturnering",
-    "desc": ""
-   },
-   "en": {
-    "title": "Heavy rain delays the Danes' fate in major golf tournament",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/fly-til-og-fra-bruxelles-forventes-vaere-aflyst-mandag",
-   "date": "2026-11-21T18:25:56+00:00",
-   "da": {
-    "title": "Fly til og fra Bruxelles forventes at være aflyst mandag",
-    "desc": ""
-   },
-   "en": {
-    "title": "Flights to and from Brussels are expected to be canceled on Monday.",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/brand-i-brugsen-paa-fanoe",
-   "date": "2026-11-21T17:12:38+00:00",
-   "da": {
-    "title": "Brand i Brugsen på Fanø",
-    "desc": ""
-   },
-   "en": {
-    "title": "Fire at the Brugsen store on Fanø",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/130-lande-naegter-opgive-kamp-mod-fossile-braendsler-ved-cop31",
-   "date": "2026-11-21T16:44:36+00:00",
-   "da": {
-    "title": "130 lande nægter at opgive kamp mod fossile brændsler ved COP31",
-    "desc": "Der er kurs mod en for svag aftale ved COP31, mener en lang række lande, der skaber drama i slutspurten."
-   },
-   "en": {
-    "title": "130 countries refuse to abandon the fight against fossil fuels at COP31",
-    "desc": "A large number of countries believe that COP31 is heading toward an agreement that is too weak, creating drama in the final stretch."
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/bil-kollideret-med-letbanen-naer-aarhus",
-   "date": "2026-11-21T12:59:05+00:00",
-   "da": {
-    "title": "Bil kollideret med Letbanen nær Aarhus",
-    "desc": ""
-   },
-   "en": {
-    "title": "Car collides with light rail near Aarhus",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/faengselsdoemt-kaptajn-loeslades",
-   "date": "2026-11-21T09:58:55+00:00",
-   "da": {
-    "title": "Fængselsdømt kaptajn løslades",
-    "desc": ""
-   },
-   "en": {
-    "title": "Imprisoned captain released",
     "desc": ""
    }
   }
