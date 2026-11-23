@@ -1,17 +1,82 @@
 {
- "updated": "2026-11-22T21:03+00:00",
+ "updated": "2026-11-23T14:42+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/corny-myslibarer-tilbagekaldes",
+   "date": "2026-11-23T13:16:50+00:00",
+   "da": {
+    "title": "Corny-myslibarer tilbagekaldes",
+    "desc": ""
+   },
+   "en": {
+    "title": "Corny granola bars recalled",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/dommer-forlaenger-faengsling-af-teenagere-i-sag-om-angreb-paa-skole",
+   "date": "2026-11-23T10:32:57+00:00",
+   "da": {
+    "title": "Dommer forlænger fængsling af teenagere i sag om angreb på skole",
+    "desc": ""
+   },
+   "en": {
+    "title": "Judge extends detention of teenagers in school attack case",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/en-person-anholdt-efter-politiaktion-paa-amager",
+   "date": "2026-11-23T09:13:29+00:00",
+   "da": {
+    "title": "En person anholdt efter politiaktion på Amager",
+    "desc": ""
+   },
+   "en": {
+    "title": "One person arrested following police operation on Amager",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/danske-aktier-stiger-trods-amerikansk-nedtur",
+   "date": "2026-11-23T08:22:54+00:00",
+   "da": {
+    "title": "Danske aktier stiger trods amerikansk nedtur",
+    "desc": ""
+   },
+   "en": {
+    "title": "Danish stocks rise despite the US downturn",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/2-900-flere-kom-i-arbejde-i-september",
+   "date": "2026-11-23T07:18:41+00:00",
+   "da": {
+    "title": "2.900 flere kom i arbejde i september",
+    "desc": ""
+   },
+   "en": {
+    "title": "2,900 more people entered the workforce in September",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/brandvaesnet-er-rykket-ud-til-stor-affaldsbrand-i-glostrup",
    "date": "2026-11-22T18:54:56+00:00",
    "da": {
-    "title": "Brandvæsnet er rykket ud til stor affaldsbrand i Glostrup",
-    "desc": "Beredskabet har indsat fem stationer for at komme branden til livs."
+    "title": "Stor affaldsbrand i Glostrup er nu slukket",
+    "desc": "Beredskabet indsatte fem stationer for at komme branden til livs."
    },
    "en": {
-    "title": "The fire department has been called out to a large waste fire in Glostrup",
-    "desc": "The emergency services have deployed five stations to extinguish the fire."
+    "title": "The large waste fire in Glostrup has now been extinguished",
+    "desc": "The emergency services deployed five stations to extinguish the fire."
    }
   },
   {
@@ -128,71 +193,6 @@
    },
    "en": {
     "title": "Danish motorsport talent ends the season with second place and a taste for more",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/seneste-sport/max-verstappen-vinder-vildt-raes-i-las-vegas",
-   "date": "2026-11-22T07:12:15+00:00",
-   "da": {
-    "title": "Max Verstappen vinder vildt ræs i Las Vegas",
-    "desc": ""
-   },
-   "en": {
-    "title": "Max Verstappen wins thrilling race in Las Vegas",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/diamantring-og-lommeur-tilhoerende-titanic-passagerer-solgt-paa-auktion",
-   "date": "2026-11-22T06:26:02+00:00",
-   "da": {
-    "title": "Diamantring og lommeur tilhørende Titanic-passagerer solgt på auktion",
-    "desc": ""
-   },
-   "en": {
-    "title": "Diamond ring and pocket watch belonging to Titanic passengers sold at auction",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/washingtons-guvernoer-kritiserer-ice-efter-haendelse-i-lufthavn",
-   "date": "2026-11-22T06:05:10+00:00",
-   "da": {
-    "title": "Washingtons guvernør kritiserer ICE efter hændelse i lufthavn",
-    "desc": ""
-   },
-   "en": {
-    "title": "Washington governor criticizes ICE following airport incident",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/i-bahrain-er-et-civilt-industrianlaeg-brudt-i-brand-efter-et-iransk-angreb",
-   "date": "2026-11-21T21:40:31+00:00",
-   "da": {
-    "title": "I Bahrain er et civilt industrianlæg brudt i brand efter et iransk angreb",
-    "desc": ""
-   },
-   "en": {
-    "title": "In Bahrain, a civilian industrial facility has caught fire following an Iranian attack.",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/herning-blue-fox-scorer-syv-maal-paa-17-minutter-i-vild-topkamp",
-   "date": "2026-11-21T20:30:33+00:00",
-   "da": {
-    "title": "Herning Blue Fox scorer syv mål på 17 minutter i vild topkamp",
-    "desc": ""
-   },
-   "en": {
-    "title": "Herning Blue Fox score seven goals in 17 minutes in a wild top-of-the-table clash",
     "desc": ""
    }
   }
