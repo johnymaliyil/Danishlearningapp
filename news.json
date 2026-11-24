@@ -1,6 +1,188 @@
 {
- "updated": "2026-11-24T14:54+00:00",
+ "updated": "2026-11-24T23:55+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/kong-frederik-har-besoegt-danske-styrker-i-letland",
+   "date": "2026-11-24T21:39:47+00:00",
+   "da": {
+    "title": "Kong Frederik har besøgt danske styrker i Letland",
+    "desc": ""
+   },
+   "en": {
+    "title": "King Frederik has visited Danish forces in Latvia",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/fem-mindreaarige-forulykket-i-bil-er-i-staerk-kritisk-tilstand",
+   "date": "2026-11-24T20:24:38+00:00",
+   "da": {
+    "title": "Fem mindreårige forulykket i bil - to er i stærkt kritisk tilstand",
+    "desc": ""
+   },
+   "en": {
+    "title": "Five minors involved in a car accident – two are in a very critical condition",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/gaza-advarer-om-meningitis-epidemi",
+   "date": "2026-11-24T19:09:39+00:00",
+   "da": {
+    "title": "Gaza advarer om meningitis-epidemi",
+    "desc": ""
+   },
+   "en": {
+    "title": "Gaza warns of meningitis epidemic",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/over-2-000-uden-stroem-i-koebenhavns-nordhavn",
+   "date": "2026-11-24T19:08:42+00:00",
+   "da": {
+    "title": "Over 2.000 uden strøm i Københavns Nordhavn",
+    "desc": ""
+   },
+   "en": {
+    "title": "Over 2,000 without power in Copenhagen's Nordhavn",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/helikopterstyrt-i-tyrkiet-fem-soldater-meldes-draebt",
+   "date": "2026-11-24T19:07:43+00:00",
+   "da": {
+    "title": "Helikopterstyrt i Tyrkiet - fem soldater meldes dræbt",
+    "desc": ""
+   },
+   "en": {
+    "title": "Helicopter crash in Turkey – five soldiers reported killed",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/gidseltagning-i-supermarked-i-colombia",
+   "date": "2026-11-24T17:41:12+00:00",
+   "da": {
+    "title": "Gidseltagning i supermarked i Colombia",
+    "desc": "30 personer blev i første omgang tilbageholdt af en bevæbnet gruppe. Siden er fem gidsler frigivet."
+   },
+   "en": {
+    "title": "Hostage-taking in a supermarket in Colombia",
+    "desc": "Thirty people were initially held by an armed group. Since then, five hostages have been released."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/softwarevirksomhed-melder-om-cyberangreb",
+   "date": "2026-11-24T17:13:34+00:00",
+   "da": {
+    "title": "Softwarevirksomhed melder om cyberangreb",
+    "desc": ""
+   },
+   "en": {
+    "title": "Software company reports cyberattack",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mediehuse-vil-droppe-betalingsmur-unge-mellem-15-og-23-aar",
+   "date": "2026-11-24T17:12:44+00:00",
+   "da": {
+    "title": "Mediehuse vil droppe betalingsmur for unge mellem 15 og 23 år",
+    "desc": ""
+   },
+   "en": {
+    "title": "Media companies to drop paywalls for young people aged 15 to 23",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/anthropic-aktien-falder-til-under-udbudskurs",
+   "date": "2026-11-24T16:29:54+00:00",
+   "da": {
+    "title": "Anthropic-aktien falder til under udbudskurs",
+    "desc": ""
+   },
+   "en": {
+    "title": "Anthropic's stock falls below the offering price",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/svenske-politikere-skal-paa-mandag-stemme-om-hvorvidt-kristersson-kan-fortsaette-som-statsminister",
+   "date": "2026-11-24T16:08:10+00:00",
+   "da": {
+    "title": "Svenske politikere skal på mandag stemme om, hvorvidt Kristersson kan fortsætte som statsminister",
+    "desc": "Det er tredje gang siden valget i Sverige, at der skal stemmes om en ny statsminister."
+   },
+   "en": {
+    "title": "On Monday, Swedish politicians will vote on whether Kristersson can continue as Prime Minister.",
+    "desc": "This is the third time since the election in Sweden that a vote is to be held for a new Prime Minister."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/spansk-par-faengslet-have-lange-fingre-i-lufthavnen",
+   "date": "2026-11-24T16:04:35+00:00",
+   "da": {
+    "title": "Spansk par fængslet for at have lange fingre i lufthavnen",
+    "desc": ""
+   },
+   "en": {
+    "title": "Spanish couple jailed for shoplifting at the airport",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/politiet-efterlyser-vidner-efter-mistaenkeligt-doedsfald-i-nakskov",
+   "date": "2026-11-24T16:03:58+00:00",
+   "da": {
+    "title": "Politiet efterlyser vidner efter 'mistænkeligt dødsfald' i Nakskov",
+    "desc": ""
+   },
+   "en": {
+    "title": "Police are seeking witnesses following a 'suspicious death' in Nakskov",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mand-doemt-besiddelse-af-over-38-kilo-kokain",
+   "date": "2026-11-24T15:21:07+00:00",
+   "da": {
+    "title": "Mand dømt for besiddelse af over 38 kilo kokain",
+    "desc": ""
+   },
+   "en": {
+    "title": "Man convicted of possession of over 38 kilos of cocaine",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mindst-172-migranter-meldes-savnede",
+   "date": "2026-11-24T15:12:43+00:00",
+   "da": {
+    "title": "Mindst 172 migranter meldes savnet",
+    "desc": ""
+   },
+   "en": {
+    "title": "At least 172 migrants reported missing",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/maend-anholdt-efter-indbrud-i-britisk-kronprinspars-feriebolig",
@@ -11,188 +193,6 @@
    },
    "en": {
     "title": "Two men arrested after breaking into the British Crown Prince couple's vacation home",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/israels-militaer-har-draebt-hamas-leder-i-gaza",
-   "date": "2026-11-24T13:29:57+00:00",
-   "da": {
-    "title": "Israels militær har dræbt Hamas-leder i Gaza",
-    "desc": ""
-   },
-   "en": {
-    "title": "The Israeli military has killed a Hamas leader in Gaza",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/landsret-stadfaester-dom-overgreb-mod-mindreaarige",
-   "date": "2026-11-24T13:12:19+00:00",
-   "da": {
-    "title": "Landsret stadfæster dom for overgreb mod mindreårige",
-    "desc": ""
-   },
-   "en": {
-    "title": "High Court upholds conviction for abuse of minors",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/seneste-sport/den-tidligere-superliga-profil-ken-fagerberg-er-doed",
-   "date": "2026-11-24T11:52:18+00:00",
-   "da": {
-    "title": "Den tidligere Superliga-profil Ken Fagerberg er død",
-    "desc": ""
-   },
-   "en": {
-    "title": "Former Superliga star Ken Fagerberg has passed away",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/sommerens-hedeboelger-kostede-5-258-personer-livet-i-storbritannien",
-   "date": "2026-11-24T11:14:07+00:00",
-   "da": {
-    "title": "Sommerens hedebølger kostede 5.258 personer livet i Storbritannien",
-    "desc": ""
-   },
-   "en": {
-    "title": "The summer heatwaves claimed the lives of 5,258 people in the UK",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/eksplosion-draeber-seks-i-vietnam",
-   "date": "2026-11-24T09:58:34+00:00",
-   "da": {
-    "title": "Eksplosion dræber seks i Vietnam",
-    "desc": ""
-   },
-   "en": {
-    "title": "Explosion kills six in Vietnam",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/antallet-af-ofre-landminer-er-det-hoejeste-i-fem-aar",
-   "date": "2026-11-24T09:32:45+00:00",
-   "da": {
-    "title": "Antallet af ofre for landminer er det højeste i fem år",
-    "desc": ""
-   },
-   "en": {
-    "title": "The number of landmine casualties is the highest in five years.",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/flere-familier-har-soegt-om-julehjaelp",
-   "date": "2026-11-24T09:31:39+00:00",
-   "da": {
-    "title": "Flere familier har søgt om julehjælp",
-    "desc": ""
-   },
-   "en": {
-    "title": "Several families have applied for Christmas assistance.",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12904243#liveblog-embed",
-   "date": "2026-11-24T06:18:21+00:00",
-   "da": {
-    "title": "Trænere i hård kritik af dommere: 'Kraftedeme ikke nogen af dem, der bliver fyret'",
-    "desc": ""
-   },
-   "en": {
-    "title": "Coaches sharply criticize referees: 'For God's sake, none of them are getting fired'",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/personer-stukket-med-kniv-i-ishoej",
-   "date": "2026-11-23T21:19:22+00:00",
-   "da": {
-    "title": "To personer stukket med kniv i Ishøj",
-    "desc": ""
-   },
-   "en": {
-    "title": "Two people stabbed in Ishøj",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/14-lande-anerkender-dom-om-folkedrab-i-myanmar",
-   "date": "2026-11-23T20:56:11+00:00",
-   "da": {
-    "title": "14 lande anerkender dom om folkedrab i Myanmar",
-    "desc": ""
-   },
-   "en": {
-    "title": "14 countries recognize the genocide ruling in Myanmar",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/britisk-hacker-der-stod-bag-laek-af-gta-vi-faar-syv-aars-faengsel",
-   "date": "2026-11-23T20:16:00+00:00",
-   "da": {
-    "title": "Britisk hacker, der stod bag læk af GTA VI, får syv års fængsel",
-    "desc": ""
-   },
-   "en": {
-    "title": "British hacker behind GTA VI leak sentenced to seven years in prison",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/noedsignal-fra-dansk-baad-i-skagerak-fem-personer-hentet-med-helikopter",
-   "date": "2026-11-23T19:26:29+00:00",
-   "da": {
-    "title": "Nødsignal fra dansk båd i Skagerrak - fem personer hentet med helikopter",
-    "desc": ""
-   },
-   "en": {
-    "title": "Distress signal from Danish boat in the Skagerrak – five people rescued by helicopter",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/fire-kirsten-er-fra-horsens-forsoegt-bedraget-udleverede-betalingskort",
-   "date": "2026-11-23T16:18:03+00:00",
-   "da": {
-    "title": "Fire Kirsten'er fra Horsens forsøgt bedraget - to udleverede betalingskort",
-    "desc": ""
-   },
-   "en": {
-    "title": "Four women named Kirsten from Horsens were targeted in an attempted scam – two handed over their payment cards",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tekniske-problemer-apotekerne-kunne-ikke-udlevere-receptpligtig-medicin",
-   "date": "2026-11-23T15:28:50+00:00",
-   "da": {
-    "title": "Tekniske problemer: Apotekerne kunne ikke udlevere receptpligtig medicin",
-    "desc": ""
-   },
-   "en": {
-    "title": "Technical issues: Pharmacies were unable to dispense prescription medications",
     "desc": ""
    }
   }
