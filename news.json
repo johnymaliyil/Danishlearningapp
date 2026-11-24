@@ -1,6 +1,84 @@
 {
- "updated": "2026-11-23T14:42+00:00",
+ "updated": "2026-11-24T02:14+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/personer-stukket-med-kniv-i-ishoej",
+   "date": "2026-11-23T21:19:22+00:00",
+   "da": {
+    "title": "To personer stukket med kniv i Ishøj",
+    "desc": ""
+   },
+   "en": {
+    "title": "Two people stabbed in Ishøj",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/14-lande-anerkender-dom-om-folkedrab-i-myanmar",
+   "date": "2026-11-23T20:56:11+00:00",
+   "da": {
+    "title": "14 lande anerkender dom om folkedrab i Myanmar",
+    "desc": ""
+   },
+   "en": {
+    "title": "14 countries recognize the genocide ruling in Myanmar",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/britisk-hacker-der-stod-bag-laek-af-gta-vi-faar-syv-aars-faengsel",
+   "date": "2026-11-23T20:16:00+00:00",
+   "da": {
+    "title": "Britisk hacker, der stod bag læk af GTA VI, får syv års fængsel",
+    "desc": ""
+   },
+   "en": {
+    "title": "British hacker behind GTA VI leak sentenced to seven years in prison",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/noedsignal-fra-dansk-baad-i-skagerak-fem-personer-hentet-med-helikopter",
+   "date": "2026-11-23T19:26:29+00:00",
+   "da": {
+    "title": "Nødsignal fra dansk båd i Skagerak - fem personer hentet med helikopter",
+    "desc": ""
+   },
+   "en": {
+    "title": "Distress signal from Danish boat in the Skagerrak – five people rescued by helicopter",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/fire-kirsten-er-fra-horsens-forsoegt-bedraget-udleverede-betalingskort",
+   "date": "2026-11-23T16:18:03+00:00",
+   "da": {
+    "title": "Fire Kirsten'er fra Horsens forsøgt bedraget - to udleverede betalingskort",
+    "desc": ""
+   },
+   "en": {
+    "title": "Four women named Kirsten from Horsens were targeted in an attempted scam – two handed over their payment cards",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tekniske-problemer-apotekerne-kunne-ikke-udlevere-receptpligtig-medicin",
+   "date": "2026-11-23T15:28:50+00:00",
+   "da": {
+    "title": "Tekniske problemer: Apotekerne kunne ikke udlevere receptpligtig medicin",
+    "desc": ""
+   },
+   "en": {
+    "title": "Technical issues: Pharmacies were unable to dispense prescription medications",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/corny-myslibarer-tilbagekaldes",
@@ -115,84 +193,6 @@
    },
    "en": {
     "title": "Germany is testing kamikaze drones near Belarus",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12894895#liveblog-embed",
-   "date": "2026-11-22T14:54:56+00:00",
-   "da": {
-    "title": "Reservekeeper redder Randers-point i Viborgs chancehav",
-    "desc": ""
-   },
-   "en": {
-    "title": "Reserve goalkeeper saves Randers' points in Viborg's sea of chances",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/rumsonde-er-gaaet-i-kredsloeb-om-merkur",
-   "date": "2026-11-22T13:42:44+00:00",
-   "da": {
-    "title": "Rumsonde er gået i kredsløb om Merkur",
-    "desc": ""
-   },
-   "en": {
-    "title": "Space probe has entered orbit around Mercury",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/seneste-sport/dansker-vinder-485-kilometer-langt-ultraloeb-trods-hundebid",
-   "date": "2026-11-22T11:05:59+00:00",
-   "da": {
-    "title": "Dansker vinder 485 kilometer langt ultraløb trods hundebid",
-    "desc": ""
-   },
-   "en": {
-    "title": "Danish runner wins 485-kilometer ultra race despite dog bite",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/smykkedesigner-paolo-bulgari-er-doed",
-   "date": "2026-11-22T09:01:33+00:00",
-   "da": {
-    "title": "Smykkedesigner Paolo Bulgari er død",
-    "desc": ""
-   },
-   "en": {
-    "title": "Jewelry designer Paolo Bulgari has passed away",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12892573#liveblog-embed",
-   "date": "2026-11-22T08:08:38+00:00",
-   "da": {
-    "title": "Bayern München mødes af kras kritik for kommentarer om syg Musiala",
-    "desc": ""
-   },
-   "en": {
-    "title": "Bayern Munich faces harsh criticism for comments about the ailing Musiala",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/seneste-sport/dansk-motorsportstalent-slutter-saesonen-med-andenplads-og-blod-paa-tanden",
-   "date": "2026-11-22T07:20:18+00:00",
-   "da": {
-    "title": "Dansk motorsportstalent slutter sæsonen med andenplads og blod på tanden",
-    "desc": ""
-   },
-   "en": {
-    "title": "Danish motorsport talent ends the season with second place and a taste for more",
     "desc": ""
    }
   }
