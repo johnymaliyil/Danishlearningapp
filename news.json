@@ -1,6 +1,123 @@
 {
- "updated": "2026-11-24T02:14+00:00",
+ "updated": "2026-11-24T14:54+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/maend-anholdt-efter-indbrud-i-britisk-kronprinspars-feriebolig",
+   "date": "2026-11-24T13:52:52+00:00",
+   "da": {
+    "title": "To mænd anholdt efter indbrud i britisk kronprinspars feriebolig",
+    "desc": ""
+   },
+   "en": {
+    "title": "Two men arrested after breaking into the British Crown Prince couple's vacation home",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/israels-militaer-har-draebt-hamas-leder-i-gaza",
+   "date": "2026-11-24T13:29:57+00:00",
+   "da": {
+    "title": "Israels militær har dræbt Hamas-leder i Gaza",
+    "desc": ""
+   },
+   "en": {
+    "title": "The Israeli military has killed a Hamas leader in Gaza",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/landsret-stadfaester-dom-overgreb-mod-mindreaarige",
+   "date": "2026-11-24T13:12:19+00:00",
+   "da": {
+    "title": "Landsret stadfæster dom for overgreb mod mindreårige",
+    "desc": ""
+   },
+   "en": {
+    "title": "High Court upholds conviction for abuse of minors",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/seneste-sport/den-tidligere-superliga-profil-ken-fagerberg-er-doed",
+   "date": "2026-11-24T11:52:18+00:00",
+   "da": {
+    "title": "Den tidligere Superliga-profil Ken Fagerberg er død",
+    "desc": ""
+   },
+   "en": {
+    "title": "Former Superliga star Ken Fagerberg has passed away",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/sommerens-hedeboelger-kostede-5-258-personer-livet-i-storbritannien",
+   "date": "2026-11-24T11:14:07+00:00",
+   "da": {
+    "title": "Sommerens hedebølger kostede 5.258 personer livet i Storbritannien",
+    "desc": ""
+   },
+   "en": {
+    "title": "The summer heatwaves claimed the lives of 5,258 people in the UK",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/eksplosion-draeber-seks-i-vietnam",
+   "date": "2026-11-24T09:58:34+00:00",
+   "da": {
+    "title": "Eksplosion dræber seks i Vietnam",
+    "desc": ""
+   },
+   "en": {
+    "title": "Explosion kills six in Vietnam",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/antallet-af-ofre-landminer-er-det-hoejeste-i-fem-aar",
+   "date": "2026-11-24T09:32:45+00:00",
+   "da": {
+    "title": "Antallet af ofre for landminer er det højeste i fem år",
+    "desc": ""
+   },
+   "en": {
+    "title": "The number of landmine casualties is the highest in five years.",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/flere-familier-har-soegt-om-julehjaelp",
+   "date": "2026-11-24T09:31:39+00:00",
+   "da": {
+    "title": "Flere familier har søgt om julehjælp",
+    "desc": ""
+   },
+   "en": {
+    "title": "Several families have applied for Christmas assistance.",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/sporten/fodbold/seneste-og-vigtigste-nyt-om-fodbold?focusId=12904243#liveblog-embed",
+   "date": "2026-11-24T06:18:21+00:00",
+   "da": {
+    "title": "Trænere i hård kritik af dommere: 'Kraftedeme ikke nogen af dem, der bliver fyret'",
+    "desc": ""
+   },
+   "en": {
+    "title": "Coaches sharply criticize referees: 'For God's sake, none of them are getting fired'",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/personer-stukket-med-kniv-i-ishoej",
@@ -45,7 +162,7 @@
    "link": "https://www.dr.dk/nyheder/seneste/noedsignal-fra-dansk-baad-i-skagerak-fem-personer-hentet-med-helikopter",
    "date": "2026-11-23T19:26:29+00:00",
    "da": {
-    "title": "Nødsignal fra dansk båd i Skagerak - fem personer hentet med helikopter",
+    "title": "Nødsignal fra dansk båd i Skagerrak - fem personer hentet med helikopter",
     "desc": ""
    },
    "en": {
@@ -76,123 +193,6 @@
    },
    "en": {
     "title": "Technical issues: Pharmacies were unable to dispense prescription medications",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/corny-myslibarer-tilbagekaldes",
-   "date": "2026-11-23T13:16:50+00:00",
-   "da": {
-    "title": "Corny-myslibarer tilbagekaldes",
-    "desc": ""
-   },
-   "en": {
-    "title": "Corny granola bars recalled",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/dommer-forlaenger-faengsling-af-teenagere-i-sag-om-angreb-paa-skole",
-   "date": "2026-11-23T10:32:57+00:00",
-   "da": {
-    "title": "Dommer forlænger fængsling af teenagere i sag om angreb på skole",
-    "desc": ""
-   },
-   "en": {
-    "title": "Judge extends detention of teenagers in school attack case",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/en-person-anholdt-efter-politiaktion-paa-amager",
-   "date": "2026-11-23T09:13:29+00:00",
-   "da": {
-    "title": "En person anholdt efter politiaktion på Amager",
-    "desc": ""
-   },
-   "en": {
-    "title": "One person arrested following police operation on Amager",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/danske-aktier-stiger-trods-amerikansk-nedtur",
-   "date": "2026-11-23T08:22:54+00:00",
-   "da": {
-    "title": "Danske aktier stiger trods amerikansk nedtur",
-    "desc": ""
-   },
-   "en": {
-    "title": "Danish stocks rise despite the US downturn",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/2-900-flere-kom-i-arbejde-i-september",
-   "date": "2026-11-23T07:18:41+00:00",
-   "da": {
-    "title": "2.900 flere kom i arbejde i september",
-    "desc": ""
-   },
-   "en": {
-    "title": "2,900 more people entered the workforce in September",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/brandvaesnet-er-rykket-ud-til-stor-affaldsbrand-i-glostrup",
-   "date": "2026-11-22T18:54:56+00:00",
-   "da": {
-    "title": "Stor affaldsbrand i Glostrup er nu slukket",
-    "desc": "Beredskabet indsatte fem stationer for at komme branden til livs."
-   },
-   "en": {
-    "title": "The large waste fire in Glostrup has now been extinguished",
-    "desc": "The emergency services deployed five stations to extinguish the fire."
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/bygning-braender-i-odense-bydel-beboere-opfordres-til-gaa-indenfor",
-   "date": "2026-11-22T15:57:25+00:00",
-   "da": {
-    "title": "Beredskabet afslutter indsatsen i Stige: 'Branden er under kontrol og røgudviklingen er minimal'",
-    "desc": ""
-   },
-   "en": {
-    "title": "Emergency services conclude their operation in Stige: 'The fire is under control, and smoke production is minimal'",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/russisk-skib-ramt-i-formodet-droneangreb-i-libyen",
-   "date": "2026-11-22T15:48:16+00:00",
-   "da": {
-    "title": "Russisk skib ramt i formodet droneangreb i Libyen",
-    "desc": ""
-   },
-   "en": {
-    "title": "Russian ship struck in suspected drone attack in Libya",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tyskland-tester-kamikazedroner-taet-paa-belarus",
-   "date": "2026-11-22T15:24:43+00:00",
-   "da": {
-    "title": "Tyskland tester kamikazedroner tæt på Belarus",
-    "desc": ""
-   },
-   "en": {
-    "title": "Germany is testing kamikaze drones near Belarus",
     "desc": ""
    }
   }
