@@ -1,6 +1,123 @@
 {
- "updated": "2026-11-25T14:25+00:00",
+ "updated": "2026-11-25T23:38+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mindst-30-omkommet-i-trafikulykke-naer-egyptens-hovedstad",
+   "date": "2026-11-25T19:39:38+00:00",
+   "da": {
+    "title": "Mindst 30 omkommet i trafikulykke nær Egyptens hovedstad",
+    "desc": ""
+   },
+   "en": {
+    "title": "At least 30 people killed in a traffic accident near Egypt's capital",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/spacex-faar-godkendelse-til-sende-en-million-satellitter-i-rummet-til-datacentre",
+   "date": "2026-11-25T19:20:28+00:00",
+   "da": {
+    "title": "SpaceX får godkendelse til at sende en million satellitter i rummet til datacentre",
+    "desc": ""
+   },
+   "en": {
+    "title": "SpaceX receives approval to launch a million satellites into space for data centers",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/57-italienske-praester-doemt-sexovergreb-paa-boern-i-20-aarig-periode",
+   "date": "2026-11-25T18:06:08+00:00",
+   "da": {
+    "title": "57 italienske præster dømt for sexovergreb på børn i 20-årig periode",
+    "desc": ""
+   },
+   "en": {
+    "title": "57 Italian priests convicted of child sexual abuse over a 20-year period",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/kommune-tilbyder-krisehjaelp-efter-alvorlig-trafikulykke-med-mindreaarige",
+   "date": "2026-11-25T16:27:02+00:00",
+   "da": {
+    "title": "Kommune tilbyder krisehjælp efter alvorlig trafikulykke med mindreårige",
+    "desc": "Fem mindreårige teenagere var involveret i en alvorlig trafikulykke. Nu tilbyder Køge Kommune psykologhjælp til de berørte elever og lærere."
+   },
+   "en": {
+    "title": "Municipality offers crisis assistance following a serious traffic accident involving minors",
+    "desc": "Five underage teenagers were involved in a serious traffic accident. Køge Municipality is now offering psychological support to the affected students and teachers."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/rockwool-faar-kurskloe-efter-skuffende-regnskab-aktien-falder-over-15-procent",
+   "date": "2026-11-25T16:24:01+00:00",
+   "da": {
+    "title": "Rockwool får kursklø efter skuffende regnskab - aktien falder over 15 procent",
+    "desc": ""
+   },
+   "en": {
+    "title": "Rockwool's share price plummets after disappointing financial results – the stock falls by over 15 percent",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/landsretten-stadfaester-anbringelsesdom-til-kvinde-drab-paa-tilfaeldig",
+   "date": "2026-11-25T16:11:48+00:00",
+   "da": {
+    "title": "Landsretten stadfæster anbringelsesdom til kvinde for drab på tilfældig",
+    "desc": ""
+   },
+   "en": {
+    "title": "The High Court upholds the involuntary commitment order for a woman for the murder of a stranger.",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mistede-ferrari-efter-vanvidstur-med-130-kilometer-i-timen",
+   "date": "2026-11-25T15:17:28+00:00",
+   "da": {
+    "title": "Mistede Ferrari efter vanvidstur med 130 kilometer i timen",
+    "desc": ""
+   },
+   "en": {
+    "title": "Lost his Ferrari after a reckless drive at 130 kilometers per hour",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/16-aarig-faar-stor-boede-koere-100-km-t-paa-ulovligt-elloebehjul",
+   "date": "2026-11-25T14:39:54+00:00",
+   "da": {
+    "title": "16-årig får stor bøde for at køre 100 km/t på ulovligt elløbehjul",
+    "desc": ""
+   },
+   "en": {
+    "title": "16-year-old receives hefty fine for riding an illegal electric scooter at 100 km/h",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/novo-tegner-stor-sponsoraftale-med-lebron-james-nba-hold",
+   "date": "2026-11-25T14:28:28+00:00",
+   "da": {
+    "title": "Novo tegner stor sponsoraftale med LeBron James' NBA-hold",
+    "desc": ""
+   },
+   "en": {
+    "title": "Novo signs major sponsorship deal with LeBron James' NBA team",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/aebleskiver-og-kiks-tilbagekaldes-i-sag-om-korn-lager-med-rottelort",
@@ -76,123 +193,6 @@
    },
    "en": {
     "title": "13 drivers caught with their cell phones in hand in one hour",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/broedre-idoemt-faengsel-macheteoverfald",
-   "date": "2026-11-25T09:43:28+00:00",
-   "da": {
-    "title": "To brødre idømt fængsel for macheteoverfald",
-    "desc": ""
-   },
-   "en": {
-    "title": "Two brothers sentenced to prison for machete attack",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/rema-1000-tilbagekalder-oksekebab",
-   "date": "2026-11-25T09:30:15+00:00",
-   "da": {
-    "title": "Rema 1000 tilbagekalder oksekebab",
-    "desc": ""
-   },
-   "en": {
-    "title": "Rema 1000 recalls beef kebabs",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/delfiner-med-mange-venner-lever-laengere-viser-forskning",
-   "date": "2026-11-25T09:02:11+00:00",
-   "da": {
-    "title": "Delfiner med mange venner lever længere, viser forskning",
-    "desc": ""
-   },
-   "en": {
-    "title": "Dolphins with many friends live longer, research shows",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/danskernes-formue-er-vokset",
-   "date": "2026-11-25T08:39:57+00:00",
-   "da": {
-    "title": "Danskernes formue er vokset",
-    "desc": ""
-   },
-   "en": {
-    "title": "Danes' wealth has grown",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/emma-sehested-hoeeg-udskyder-teaterforestilling",
-   "date": "2026-11-25T08:14:50+00:00",
-   "da": {
-    "title": "Emma Sehested Høeg udskyder teaterforestilling",
-    "desc": ""
-   },
-   "en": {
-    "title": "Emma Sehested Høeg postpones theater performance",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/togturen-over-den-nye-storstroemsbro-bliver-forsinket",
-   "date": "2026-11-25T08:13:01+00:00",
-   "da": {
-    "title": "Togturen over den nye Storstrømsbro bliver forsinket",
-    "desc": ""
-   },
-   "en": {
-    "title": "The train journey over the new Storstrøm Bridge will be delayed",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/colombias-praesident-alle-gidsler-i-supermarked-er-befriet",
-   "date": "2026-11-25T07:40:19+00:00",
-   "da": {
-    "title": "Colombias præsident: Alle gidsler i supermarked er befriet",
-    "desc": ""
-   },
-   "en": {
-    "title": "Colombian President: All hostages in the supermarket have been freed",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/sporten/seneste-sport/emil-nielsen-vm-guldvinder-og-ishockeystjerner-blandt-de-sidste-nominerede-til-aarets-sportsnavn",
-   "date": "2026-11-25T06:47:49+00:00",
-   "da": {
-    "title": "Emil Nielsen, VM-guldvinder og ishockeystjerner blandt de sidste nominerede til Årets Sportsnavn",
-    "desc": ""
-   },
-   "en": {
-    "title": "Emil Nielsen, World Championship gold medalist, and ice hockey stars among the final nominees for Sports Personality of the Year",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/seks-doede-i-flystyrt-ud-mississippi",
-   "date": "2026-11-25T06:43:24+00:00",
-   "da": {
-    "title": "Seks døde i flystyrt ud for Mississippi",
-    "desc": ""
-   },
-   "en": {
-    "title": "Six people died in a plane crash off the coast of Mississippi.",
     "desc": ""
    }
   }
