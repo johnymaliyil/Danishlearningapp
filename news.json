@@ -1,6 +1,136 @@
 {
- "updated": "2026-11-25T23:38+00:00",
+ "updated": "2026-11-26T13:55+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/ni-meldes-draebt-i-israelske-angreb-i-gaza",
+   "date": "2026-11-26T13:24:38+00:00",
+   "da": {
+    "title": "Ni meldes dræbt i israelske angreb i Gaza",
+    "desc": ""
+   },
+   "en": {
+    "title": "Nine reported killed in Israeli attacks in Gaza",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/sirene-hylede-ved-en-fejl-i-det-centrale-aarhus",
+   "date": "2026-11-26T13:10:12+00:00",
+   "da": {
+    "title": "Sirene hylede ved en fejl i det centrale Aarhus",
+    "desc": ""
+   },
+   "en": {
+    "title": "Sirens wailed by mistake in central Aarhus",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/eksplosion-paa-olieanlaeg-i-bangkok",
+   "date": "2026-11-26T09:13:28+00:00",
+   "da": {
+    "title": "Eksplosion på olieanlæg i Bangkok",
+    "desc": ""
+   },
+   "en": {
+    "title": "Explosion at an oil facility in Bangkok",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tankskib-med-op-mod-7-000-ton-diesel-er-sunket-ud-spaniens-kyst",
+   "date": "2026-11-26T08:42:12+00:00",
+   "da": {
+    "title": "Tankskib med op mod 7.000 ton diesel er sunket ud for Spaniens kyst",
+    "desc": ""
+   },
+   "en": {
+    "title": "A tanker carrying up to 7,000 tons of diesel has sunk off the coast of Spain.",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/norsk-flyselskab-kaemper-overlevelse-aflyser-flyvninger",
+   "date": "2026-11-26T08:15:18+00:00",
+   "da": {
+    "title": "Norsk flyselskab kæmper for overlevelse - aflyser flyvninger",
+    "desc": ""
+   },
+   "en": {
+    "title": "Norwegian airline struggling to survive – canceling flights",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/flere-ikke-vestlige-indvandrere-er-i-beskaeftigelse",
+   "date": "2026-11-26T07:52:47+00:00",
+   "da": {
+    "title": "Flere ikke-vestlige indvandrere er i beskæftigelse",
+    "desc": ""
+   },
+   "en": {
+    "title": "More non-Western immigrants are employed",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/otte-teenagere-anholdt-hjemmeroeveri-med-pistol-og-kniv",
+   "date": "2026-11-26T07:36:50+00:00",
+   "da": {
+    "title": "Otte teenagere anholdt for hjemmerøveri med pistol og kniv",
+    "desc": ""
+   },
+   "en": {
+    "title": "Eight teenagers arrested for home invasion robbery with a gun and a knife",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/elon-musk-lover-space-x-aktier-til-alle-boern-i-usa",
+   "date": "2026-11-26T06:10:41+00:00",
+   "da": {
+    "title": "Elon Musk lover to Space X-aktier til alle børn i USA",
+    "desc": ""
+   },
+   "en": {
+    "title": "Elon Musk promises two Space X shares to every child in the United States",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/trump-og-nato-chef-beder-rusland-om-undgaa-udvidelse-af-krig",
+   "date": "2026-11-26T04:31:47+00:00",
+   "da": {
+    "title": "Trump og Nato-chef beder Rusland om at undgå udvidelse af krig",
+    "desc": ""
+   },
+   "en": {
+    "title": "Trump and NATO chief ask Russia to avoid expanding the war",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/danmark-med-til-finansiere-koeb-af-amerikansk-udstyr-til-ukraine",
+   "date": "2026-11-26T04:26:02+00:00",
+   "da": {
+    "title": "Danmark med til at finansiere køb af amerikansk udstyr til Ukraine",
+    "desc": ""
+   },
+   "en": {
+    "title": "Denmark helps finance the purchase of U.S. equipment for Ukraine",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/mindst-30-omkommet-i-trafikulykke-naer-egyptens-hovedstad",
@@ -63,136 +193,6 @@
    },
    "en": {
     "title": "Rockwool's share price plummets after disappointing financial results – the stock falls by over 15 percent",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/landsretten-stadfaester-anbringelsesdom-til-kvinde-drab-paa-tilfaeldig",
-   "date": "2026-11-25T16:11:48+00:00",
-   "da": {
-    "title": "Landsretten stadfæster anbringelsesdom til kvinde for drab på tilfældig",
-    "desc": ""
-   },
-   "en": {
-    "title": "The High Court upholds the involuntary commitment order for a woman for the murder of a stranger.",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/mistede-ferrari-efter-vanvidstur-med-130-kilometer-i-timen",
-   "date": "2026-11-25T15:17:28+00:00",
-   "da": {
-    "title": "Mistede Ferrari efter vanvidstur med 130 kilometer i timen",
-    "desc": ""
-   },
-   "en": {
-    "title": "Lost his Ferrari after a reckless drive at 130 kilometers per hour",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/16-aarig-faar-stor-boede-koere-100-km-t-paa-ulovligt-elloebehjul",
-   "date": "2026-11-25T14:39:54+00:00",
-   "da": {
-    "title": "16-årig får stor bøde for at køre 100 km/t på ulovligt elløbehjul",
-    "desc": ""
-   },
-   "en": {
-    "title": "16-year-old receives hefty fine for riding an illegal electric scooter at 100 km/h",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/novo-tegner-stor-sponsoraftale-med-lebron-james-nba-hold",
-   "date": "2026-11-25T14:28:28+00:00",
-   "da": {
-    "title": "Novo tegner stor sponsoraftale med LeBron James' NBA-hold",
-    "desc": ""
-   },
-   "en": {
-    "title": "Novo signs major sponsorship deal with LeBron James' NBA team",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/aebleskiver-og-kiks-tilbagekaldes-i-sag-om-korn-lager-med-rottelort",
-   "date": "2026-11-25T14:18:10+00:00",
-   "da": {
-    "title": "Æbleskiver og kiks tilbagekaldes i sag om korn-lager med rottelort",
-    "desc": ""
-   },
-   "en": {
-    "title": "Æbleskiver (Danish pancake balls) and crackers recalled in case of grain storage with rat droppings",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/43-aarig-idoemt-fire-aars-faengsel-voldtaegt",
-   "date": "2026-11-25T12:39:27+00:00",
-   "da": {
-    "title": "43-årig idømt fire års fængsel for voldtægt",
-    "desc": ""
-   },
-   "en": {
-    "title": "43-year-old sentenced to four years in prison for rape",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/tre-drenge-anholdt-planlaegge-angreb-mod-flygtningecenter-i-tyskland",
-   "date": "2026-11-25T12:25:49+00:00",
-   "da": {
-    "title": "Tre drenge anholdt for at planlægge angreb mod flygtningecenter i Tyskland",
-    "desc": ""
-   },
-   "en": {
-    "title": "Three boys arrested for planning attacks on a refugee center in Germany",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/hotelgaest-noed-kost-og-logi-men-stak-af-fra-regningen",
-   "date": "2026-11-25T10:42:58+00:00",
-   "da": {
-    "title": "Hotelgæst nød kost og logi – men stak af fra regningen",
-    "desc": ""
-   },
-   "en": {
-    "title": "Hotel guest enjoyed room and board – but skipped out on the bill",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/maend-sigtet-indbrud-i-prins-williams-ejendom",
-   "date": "2026-11-25T10:13:42+00:00",
-   "da": {
-    "title": "To mænd sigtet for indbrud i prins Williams ejendom",
-    "desc": ""
-   },
-   "en": {
-    "title": "Two men charged with burglary at Prince William's estate",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/13-bilister-taget-med-mobilen-i-haanden-paa-en-time",
-   "date": "2026-11-25T10:03:58+00:00",
-   "da": {
-    "title": "13 bilister taget med mobilen i hånden på én time",
-    "desc": ""
-   },
-   "en": {
-    "title": "13 drivers caught with their cell phones in hand in one hour",
     "desc": ""
    }
   }
