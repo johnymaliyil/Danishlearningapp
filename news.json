@@ -1,6 +1,84 @@
 {
- "updated": "2026-11-26T13:55+00:00",
+ "updated": "2026-11-26T23:52+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/fem-rumaenere-varetaegtsfaengsles-i-sag-om-flere-restaurant-indbrud",
+   "date": "2026-11-26T18:37:31+00:00",
+   "da": {
+    "title": "Fem rumænere varetægtsfængsles i sag om flere restaurant-indbrud",
+    "desc": ""
+   },
+   "en": {
+    "title": "Five Romanians remanded in custody in connection with several restaurant burglaries",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/tv-2-er-sigtet-i-forbindelse-med-den-sorte-svane",
+   "date": "2026-11-26T17:18:18+00:00",
+   "da": {
+    "title": "TV 2 er sigtet i forbindelse med 'Den Sorte Svane'",
+    "desc": ""
+   },
+   "en": {
+    "title": "TV 2 is charged in connection with \"The Black Swan\"",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/eu-lande-er-enige-om-pege-paa-spanier-som-ny-chef-ecb",
+   "date": "2026-11-26T16:06:17+00:00",
+   "da": {
+    "title": "EU-lande er enige om at pege på spanier som ny chef for ECB",
+    "desc": ""
+   },
+   "en": {
+    "title": "EU countries agree to appoint a Spaniard as the new head of the ECB",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/otte-maaneders-faengsel-trusler-og-had-paa-sociale-medier",
+   "date": "2026-11-26T15:53:54+00:00",
+   "da": {
+    "title": "Otte måneders fængsel for trusler og had på sociale medier",
+    "desc": ""
+   },
+   "en": {
+    "title": "Eight months in prison for threats and hate speech on social media",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/spareplan-koster-23-stillinger-paa-nationalmuseet",
+   "date": "2026-11-26T15:05:31+00:00",
+   "da": {
+    "title": "Spareplan koster 23 stillinger på Nationalmuseet",
+    "desc": ""
+   },
+   "en": {
+    "title": "Austerity plan costs 23 positions at the National Museum",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/fifa-er-blevet-udsat-cyberangreb",
+   "date": "2026-11-26T14:15:55+00:00",
+   "da": {
+    "title": "FIFA er blevet udsat for cyberangreb",
+    "desc": ""
+   },
+   "en": {
+    "title": "FIFA has been the target of cyberattacks",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/ni-meldes-draebt-i-israelske-angreb-i-gaza",
@@ -115,84 +193,6 @@
    },
    "en": {
     "title": "Trump and NATO chief ask Russia to avoid expanding the war",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/danmark-med-til-finansiere-koeb-af-amerikansk-udstyr-til-ukraine",
-   "date": "2026-11-26T04:26:02+00:00",
-   "da": {
-    "title": "Danmark med til at finansiere køb af amerikansk udstyr til Ukraine",
-    "desc": ""
-   },
-   "en": {
-    "title": "Denmark helps finance the purchase of U.S. equipment for Ukraine",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/mindst-30-omkommet-i-trafikulykke-naer-egyptens-hovedstad",
-   "date": "2026-11-25T19:39:38+00:00",
-   "da": {
-    "title": "Mindst 30 omkommet i trafikulykke nær Egyptens hovedstad",
-    "desc": ""
-   },
-   "en": {
-    "title": "At least 30 people killed in a traffic accident near Egypt's capital",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/spacex-faar-godkendelse-til-sende-en-million-satellitter-i-rummet-til-datacentre",
-   "date": "2026-11-25T19:20:28+00:00",
-   "da": {
-    "title": "SpaceX får godkendelse til at sende en million satellitter i rummet til datacentre",
-    "desc": ""
-   },
-   "en": {
-    "title": "SpaceX receives approval to launch a million satellites into space for data centers",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/57-italienske-praester-doemt-sexovergreb-paa-boern-i-20-aarig-periode",
-   "date": "2026-11-25T18:06:08+00:00",
-   "da": {
-    "title": "57 italienske præster dømt for sexovergreb på børn i 20-årig periode",
-    "desc": ""
-   },
-   "en": {
-    "title": "57 Italian priests convicted of child sexual abuse over a 20-year period",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/kommune-tilbyder-krisehjaelp-efter-alvorlig-trafikulykke-med-mindreaarige",
-   "date": "2026-11-25T16:27:02+00:00",
-   "da": {
-    "title": "Kommune tilbyder krisehjælp efter alvorlig trafikulykke med mindreårige",
-    "desc": "Fem mindreårige teenagere var involveret i en alvorlig trafikulykke. Nu tilbyder Køge Kommune psykologhjælp til de berørte elever og lærere."
-   },
-   "en": {
-    "title": "Municipality offers crisis assistance following a serious traffic accident involving minors",
-    "desc": "Five underage teenagers were involved in a serious traffic accident. Køge Municipality is now offering psychological support to the affected students and teachers."
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/rockwool-faar-kurskloe-efter-skuffende-regnskab-aktien-falder-over-15-procent",
-   "date": "2026-11-25T16:24:01+00:00",
-   "da": {
-    "title": "Rockwool får kursklø efter skuffende regnskab - aktien falder over 15 procent",
-    "desc": ""
-   },
-   "en": {
-    "title": "Rockwool's share price plummets after disappointing financial results – the stock falls by over 15 percent",
     "desc": ""
    }
   }
