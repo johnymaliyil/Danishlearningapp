@@ -1,6 +1,71 @@
 {
- "updated": "2026-11-27T13:54+00:00",
+ "updated": "2026-11-27T23:28+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/usa-angriber-fartoej-i-omanbugten",
+   "date": "2026-11-27T18:31:08+00:00",
+   "da": {
+    "title": "USA angriber fartøj i Omanbugten",
+    "desc": ""
+   },
+   "en": {
+    "title": "The United States attacks a vessel in the Gulf of Oman",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/15-aarig-doed-efter-trafikulykke-i-tirsdags",
+   "date": "2026-11-27T17:38:23+00:00",
+   "da": {
+    "title": "15-årig død efter trafikulykke i tirsdags",
+    "desc": ""
+   },
+   "en": {
+    "title": "15-year-old dies after traffic accident on Tuesday",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/otte-migranter-doede-i-forsoeget-paa-naa-europa",
+   "date": "2026-11-27T16:21:09+00:00",
+   "da": {
+    "title": "Otte migranter døde i forsøget på at nå Europa",
+    "desc": ""
+   },
+   "en": {
+    "title": "Eight migrants died trying to reach Europe",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/styrelse-foelger-sikkerhedsbrud-hos-teleudbyder-flere-organisationer-ventes-ramt",
+   "date": "2026-11-27T16:13:30+00:00",
+   "da": {
+    "title": "Styrelse følger sikkerhedsbrud hos teleudbyder - flere organisationer ventes ramt",
+    "desc": ""
+   },
+   "en": {
+    "title": "The Agency is monitoring a security breach at a telecommunications provider – several organizations are expected to be affected",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/politikreds-skruer-bissen-paa-overfor-ltf",
+   "date": "2026-11-27T14:50:20+00:00",
+   "da": {
+    "title": "Politikreds skruer bissen på overfor LTF",
+    "desc": ""
+   },
+   "en": {
+    "title": "Police department cracks down on LTF",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/unge-maend-idoemmes-flere-aars-faengsel-i-narkosag",
@@ -128,71 +193,6 @@
    },
    "en": {
     "title": "North Macedonian national remanded in custody after bombing",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/novo-lancerer-vaegtabspille-i-sverige-juleaftensdag",
-   "date": "2026-11-27T09:39:55+00:00",
-   "da": {
-    "title": "Novo lancerer vægttabspille i Sverige juleaftensdag",
-    "desc": ""
-   },
-   "en": {
-    "title": "Novo launches weight-loss pill in Sweden on Christmas Day",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/resten-af-aaret-kan-du-koere-gratis-i-s-tog-om-soendagen",
-   "date": "2026-11-27T08:49:37+00:00",
-   "da": {
-    "title": "Resten af året kan du køre gratis i S-tog om søndagen",
-    "desc": ""
-   },
-   "en": {
-    "title": "For the rest of the year, you can ride the S-train for free on Sundays.",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/fransk-stjerneskuespiller-skal-igen-retten",
-   "date": "2026-11-27T08:38:10+00:00",
-   "da": {
-    "title": "Fransk stjerneskuespiller skal igen for retten",
-    "desc": ""
-   },
-   "en": {
-    "title": "French star actor to appear in court again",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/kvinde-omkommet-i-brand-i-ringe-paa-fyn",
-   "date": "2026-11-27T06:15:37+00:00",
-   "da": {
-    "title": "Kvinde omkommet i brand i Ringe på Fyn",
-    "desc": ""
-   },
-   "en": {
-    "title": "Woman killed in fire in Ringe, Funen",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/sydkorea-sender-seks-nordkoreanere-retur",
-   "date": "2026-11-27T05:32:07+00:00",
-   "da": {
-    "title": "Sydkorea sender seks nordkoreanere retur",
-    "desc": ""
-   },
-   "en": {
-    "title": "South Korea returns six North Koreans",
     "desc": ""
    }
   }
