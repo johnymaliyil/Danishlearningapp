@@ -1,6 +1,58 @@
 {
- "updated": "2026-11-27T23:28+00:00",
+ "updated": "2026-11-28T13:01+00:00",
  "items": [
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/mindst-syv-boern-draebt-i-eksplosion-naer-skole-i-afghanistan",
+   "date": "2026-11-28T10:55:59+00:00",
+   "da": {
+    "title": "Mindst syv børn dræbt i eksplosion nær skole i Afghanistan",
+    "desc": ""
+   },
+   "en": {
+    "title": "At least seven children killed in explosion near school in Afghanistan",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/30-000-kunder-hos-elnetselskab-kan-vaere-ramt-af-datalaek",
+   "date": "2026-11-28T09:57:29+00:00",
+   "da": {
+    "title": "30.000 kunder hos elnetselskab kan være ramt af datalæk",
+    "desc": "Datalækket er en del af et større sikkerhedsbrud hos en sms-leverandør."
+   },
+   "en": {
+    "title": "30,000 customers of an electricity grid company may have been affected by a data breach",
+    "desc": "The data breach is part of a larger security breach at an SMS provider."
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/styrt-med-militaerhelikopter-har-draebt-otte-i-peru",
+   "date": "2026-11-28T04:11:16+00:00",
+   "da": {
+    "title": "Styrt med militærhelikopter har dræbt otte i Peru",
+    "desc": ""
+   },
+   "en": {
+    "title": "Military helicopter crash kills eight in Peru",
+    "desc": ""
+   }
+  },
+  {
+   "source": "DR",
+   "link": "https://www.dr.dk/nyheder/seneste/politiet-anholder-person-efter-uroligheder-mellem-ishockeyfans",
+   "date": "2026-11-28T02:35:39+00:00",
+   "da": {
+    "title": "Politiet anholder person efter uroligheder mellem ishockeyfans",
+    "desc": ""
+   },
+   "en": {
+    "title": "Police arrest person following disturbances among ice hockey fans",
+    "desc": ""
+   }
+  },
   {
    "source": "DR",
    "link": "https://www.dr.dk/nyheder/seneste/usa-angriber-fartoej-i-omanbugten",
@@ -141,58 +193,6 @@
    },
    "en": {
     "title": "High Court upholds conviction of 27-year-old for murder",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/ny-kritik-af-familieretshuset",
-   "date": "2026-11-27T12:07:57+00:00",
-   "da": {
-    "title": "Familieretshuset får igen kritik",
-    "desc": ""
-   },
-   "en": {
-    "title": "The Family Court is once again facing criticism.",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/ny-rigsadvokat-udpeget",
-   "date": "2026-11-27T11:53:36+00:00",
-   "da": {
-    "title": "Ny rigsadvokat udpeget",
-    "desc": ""
-   },
-   "en": {
-    "title": "New Attorney General appointed",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/skat-kontrollerer-igen-content-creators-fejl-i-95-procent-af-indberetningerne",
-   "date": "2026-11-27T11:38:37+00:00",
-   "da": {
-    "title": "Skat kontrollerer igen content creators: Fejl i 95 procent af indberetningerne",
-    "desc": ""
-   },
-   "en": {
-    "title": "The Danish Tax Agency is once again scrutinizing content creators: Errors in 95 percent of the reports",
-    "desc": ""
-   }
-  },
-  {
-   "source": "DR",
-   "link": "https://www.dr.dk/nyheder/seneste/nordmakedoner-varetaegtsfaengslet-efter-bombespraengning",
-   "date": "2026-11-27T10:58:06+00:00",
-   "da": {
-    "title": "Nordmakedoner varetægtsfængslet efter bombesprængning",
-    "desc": ""
-   },
-   "en": {
-    "title": "North Macedonian national remanded in custody after bombing",
     "desc": ""
    }
   }
